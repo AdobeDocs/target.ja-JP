@@ -1,14 +1,14 @@
 ---
 keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
-description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、 [!DNL Target] 対応ページでRecommendations アクティビティを直接作成する方法を説明します。
-title: Recommendations アクティビティを作成するにはどうすればよいですか？
+description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、 [!DNL Target] 対応ページに Recommendations アクティビティを直接作成する方法を説明します。
+title: Recommendations アクティビティの作成方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '1249'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -30,7 +30,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前の図の [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) のオプションは、[Target Premium](/help/main/c-intro/intro.md) 機能です。 このオプションが表示されない場合、組織はTarget Standard ライセンスを保有しています。
+   >前の図の [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) のオプションは、[Target Premium](/help/main/c-intro/intro.md) 機能です。 このオプションが表示されない場合、組織はTarget Standard ライセンスを保有しています。
 
 1. （条件付き）[Target Premium](/help/main/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
@@ -77,7 +77,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    >[!NOTE]
    >
-   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、互換性のない条件をアクティビティで使用できるようにする場合は、「**[!UICONTROL Compatible]**」チェックボックスをオフにします。 Recommendationsの設定（**[!UICONTROL Recommendations]**/**[!UICONTROL Settings]**/**[!UICONTROL Filter Incompatible Criteria]**）によっては、「[!UICONTROL Compatible]」オプションが表示されない場合があります。 詳しくは、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
+   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、互換性のない条件をアクティビティで使用できるようにする場合は、「**[!UICONTROL Compatible]**」チェックボックスをオフにします。 Recommendations 設定（[!UICONTROL Compatible]/**[!UICONTROL Recommendations]**/**[!UICONTROL Settings]**）によっては、「**[!UICONTROL Filter Incompatible Criteria]**」オプションが表示されない場合があります。 詳しくは、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
    ![条件を選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -162,7 +162,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    * アクティビティをアクティブ化します。
    * アクティビティを編集します。
-   * アクティビティをExperience Cloudフィードに共有
+   * アクティビティをExperience Cloud フィードに共有
    * アクティビティの QA
    * エクスペリエンスの URL を表示します。
    * データをダウンロードします。
@@ -178,4 +178,4 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
 ## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33952?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

@@ -7,8 +7,8 @@ role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 47%
+source-wordcount: '653'
+ht-degree: 48%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 47%
 >
 >[!DNL Recommendations] ユーザーは、ホストのホストグループを切り替える場合、行動データベースおよび製品データベースを再構築する必要があります。
 >
->[default environment in an [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja#target){target=_blank} を指定すると、この設定は [!DNL Target] の設定よりも優先されます。
+>[default environment in an [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank} を指定すると、この設定は [!DNL Target] の設定よりも優先されます。
 
 ## 環境の名前の変更 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
@@ -69,7 +69,7 @@ ht-degree: 47%
 >
 >[!UICONTROL Production] 環境は削除できませんが、名前は変更できます。
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"} Recommendations：環境別のコレクションおよび除外のフィルター（ホストグループ）
 
 選択した環境（ホストグループ）の Recommendations コレクションと除外のコンテンツをプレビューできます。
 

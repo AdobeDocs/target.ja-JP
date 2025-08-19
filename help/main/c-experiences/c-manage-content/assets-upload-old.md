@@ -13,7 +13,7 @@ ht-degree: 20%
 
 # コンテンツのアップロード
 
-アクティビティの画像オファーとして使用する [!DNL Adobe Target] は、画像を [!UICONTROL Image Offers] リストにアップロードします。 アクティビティで不要になった画像オファーを削除することもできます。
+アクティビティの画像オファーとして使用する [!UICONTROL Image Offers] は、画像を [!DNL Adobe Target] リストにアップロードします。 アクティビティで不要になった画像オファーを削除することもできます。
 
 ## リストへの画像オファーの追加
 
@@ -39,7 +39,7 @@ ht-degree: 20%
 
 このビデオでは、コンテンツの管理について説明します。
 
-* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=ja)と Target コンテンツライブラリの間の接続
+* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 

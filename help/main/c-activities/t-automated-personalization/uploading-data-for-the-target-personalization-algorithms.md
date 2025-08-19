@@ -16,7 +16,7 @@ ht-degree: 13%
 
 CRM 情報や顧客のチャーン傾向スコアなどのオフラインデータは、[!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] アクティビティでパーソナライゼーションモデルを構築する際に非常に役立つ可能性があります。
 
-[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] のパーソナライゼーションアルゴリズムでデータを入力する方法はいくつかあります。 [ データを Target に送信する方法 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} の方法に加えて、共有オーディエンス（[!UICONTROL Adobe Analytics]、[!DNL Audience Manager]）およびアクティビティ内レポートオーディエンスの [!DNL Experience Cloud] も、[!DNL Target] アルゴリズムで使用されます。
+[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] のパーソナライゼーションアルゴリズムでデータを入力する方法はいくつかあります。 [ データを Target に送信する方法 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} の方法に加えて、共有オーディエンス（[!DNL Experience Cloud]、[!UICONTROL Adobe Analytics]）およびアクティビティ内レポートオーディエンスの [!DNL Audience Manager] も、[!DNL Target] アルゴリズムで使用されます。
 
 [!UICONTROL Automated Personalization] および [!UICONTROL Auto-Target] パーソナライゼーションアルゴリズムによって自動的に収集および使用されるデータについて詳しくは、[Automated Personalizationのデータ収集 ](/help/main/c-activities/t-automated-personalization/ap-data.md) を参照してください。
 
@@ -24,7 +24,7 @@ CRM 情報や顧客のチャーン傾向スコアなどのオフラインデー�
 
 パーソナライゼーションアルゴリズム用のデータをアップロードする際のベストプラクティスを次 [!DNL Target] 示します。
 
-* パーソナライゼーションアルゴリズムに使用できる高品質のデータが多いほど、[!UICONTROL Automated Personalization] ークフローと [!UICONTROL Auto-Target] アクティビティにおける結果モデルの品質が高く [!DNL Target] ります。
+* パーソナライゼーションアルゴリズムに使用できる高品質のデータが多いほど、[!DNL Target] ークフローと [!UICONTROL Automated Personalization] アクティビティにおける結果モデルの品質が高く [!UICONTROL Auto-Target] ります。
 * 同じ目的を果たす複数のプロファイルスクリプトまたは属性の使用を制限します。
 * 不要な場合は、セッション ID などの一意の ID を渡さないでください。
 * 重複し [!DNL Target] 情報を送信しないように、自動的に収集するデータ（[Target のPersonalization アルゴリズムのデータ収集 ](/help/main/c-activities/t-automated-personalization/ap-data.md)）を確認します。 例えば、[!DNL Target] では IP アドレスを使用して訪問者の郵便番号を判断します。 この情報を別個の変数として渡す必要はありません。

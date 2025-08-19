@@ -5,9 +5,9 @@ title: '[!UICONTROL Auto-Allocate] アクティビティとは'
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3502'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 100%
 
 [!DNL Target] の通常の A/B テストでは、対抗エクスペリエンスとコントロールエクスペリエンスの一対比較しかできません。例えば、アクティビティにエクスペリエンス A、B、C、D があり、A がコントロールである場合、通常の [!DNL Target] の A/B テストでは、A 対 B、A 対 C、A 対 D を比較します。
 
-このようなテストの場合、[!DNL Target] を含む多くの製品では、[Welch の t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}を使用して p 値ベースの信頼値を生成します。その後、この信頼値を使用して、対抗エクスペリエンスがコントロールエクスペリエンスと十分に異なるかどうかを特定します。ただし、[!DNL Target] は「最良の」エクスペリエンスを見つけるのに必要な暗黙の比較（B 対 C、B 対 D、C 対 D）を自動的に実行することはありません。その結果、マーケターは、「最良の」エクスペリエンスを判断する結果を手動で分析する必要があります。
+このようなテストでは、[!DNL Target] を含むほとんどの製品が [Welch の t 検定 ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} を使用して、p 値ベースの信頼性を生成します。 その後、この信頼値を使用して、対抗エクスペリエンスがコントロールエクスペリエンスと十分に異なるかどうかを特定します。ただし、[!DNL Target] は「最良の」エクスペリエンスを見つけるのに必要な暗黙の比較（B 対 C、B 対 D、C 対 D）を自動的に実行することはありません。その結果、マーケターは、「最良の」エクスペリエンスを判断する結果を手動で分析する必要があります。
 
 [!UICONTROL Auto-Allocate] は、エクスペリエンス全体に対してすべての暗黙の比較を実行し、「真」の勝者を見つけます。このテストには「コントロール」エクスペリエンスという概念がありません。
 
-[!UICONTROL Auto-Allocate] は、最良のエクスペリエンスの信頼区間が他のエクスペリエンスの信頼区間と重複しなくなるまで、新しい訪問者を各エクスペリエンスにインテリジェントに配分します。通常、このようなプロセスでは偽陽性が発生する可能性がありますが、[!UICONTROL Auto-Allocate] では繰り返された評価を補正する[ベルンシュタインの不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank}に基づいた信頼区間が使用されます。これによって、真の勝者が判明します。ページに到着した訪問者に時間依存性がほとんどないという条件で [!UICONTROL Auto-Allocate] が停止した場合、[!UICONTROL Auto-Allocate] が返すエクスペリエンスの真の応答が、勝者エクスペリエンスの真の応答よりも相対的に 1％程度までしか悪くない確率は少なくとも 95％あります。
+[!UICONTROL Auto-Allocate] は、最良のエクスペリエンスの信頼区間が他のエクスペリエンスの信頼区間と重複しなくなるまで、新しい訪問者を各エクスペリエンスにインテリジェントに配分します。通常、このプロセスは偽陽性を生み出す可能性が [!UICONTROL Auto-Allocate] りますが、繰り返し評価を補償する [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} に基づく信頼区間を使用します。 これによって、真の勝者が判明します。ページに到着した訪問者に時間依存性がほとんどないという条件で [!UICONTROL Auto-Allocate] が停止した場合、[!UICONTROL Auto-Allocate] が返すエクスペリエンスの真の応答が、勝者エクスペリエンスの真の応答よりも相対的に 1％程度までしか悪くない確率は少なくとも 95％あります。
 
 ## [!UICONTROL A/B Test] アクティビティや [!UICONTROL Automated Personalization] アクティビティに対して [!UICONTROL Auto-Allocate] を使用するタイミング {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 [!UICONTROL Auto-Allocate] について説明するときに役立つ用語を次に示します。
 
-**マルチアームバンディット：**[マルチアームバンディット](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}は、調査学習とその学習の活用のバランスを最適化するアプローチです。
+**マルチアームバンディット：**[マルチアームバンディット](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}は、調査学習とその学習の活用のバランスを最適化するためのアプローチです。
 
 ## アルゴリズムの仕組み {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -228,7 +228,7 @@ ht-degree: 100%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### アクティビティワークフロー - ターゲティング（2:14）![チュートリアルバッジ](/help/main/assets/tutorial.png)
+### アクティビティワークフロー – ターゲティング（2:14） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、トラフィック配分の設定に関する情報が含まれています。
 
@@ -239,11 +239,11 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### A/B テストの作成（8:36）![チュートリアルバッジ](/help/main/assets/tutorial.png)
+### A/B テストの作成（8:36） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
-このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。[!UICONTROL Auto-Allocate] の説明は 4:45 から始まります。
+このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。[!UICONTROL Auto-Allocate] については 4:45 から説明します。
 
 * [!DNL Adobe Target] での A/B アクティビティの作成
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
->[!VIDEO](https://video.tv.adobe.com/v/29958?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

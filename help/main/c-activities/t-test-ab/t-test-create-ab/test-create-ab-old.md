@@ -1,6 +1,6 @@
 ---
 keywords: A/B の作成；A/B テスト；A/B アクティビティ；新しい a/b アクティビティ；a/b の作成
-description: Adobeで Visual Experience Composer （VEC）を使用して、A [!DNL Target] B テスト アクティビティを  [!DNL Target] 対応ページに直接作成する方法を説明します。
+description: Adobeの Visual Experience Composer （VEC）を使用して、A [!DNL Target] B テスト アクティビティを  [!DNL Target] 対応ページに直接作成する方法を説明します。
 title: A/B テストの作成方法
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -13,11 +13,11 @@ ht-degree: 35%
 
 # A/B テストの作成
 
-[!DNL Adobe Target] で [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL A/B Test] アクティビティを [!DNL Target] 対応ページに直接作成したり、[!DNL Target] 内のページの一部を変更したりします。
+[!UICONTROL Visual Experience Composer] で [!DNL Adobe Target] （VEC）を使用して、[!UICONTROL A/B Test] アクティビティを [!DNL Target] 対応ページに直接作成したり、[!DNL Target] 内のページの一部を変更したりします。
 
 >[!NOTE]
 >
->[!DNL Target] では、（この記事で説明した）手動（デフォルト）の [!UICONTROL A/B Test] アクティビティに加えて、[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] の 2 種類の [!UICONTROL A/B Test] アクティビティが追加で提供されています。
+>[!UICONTROL A/B Test] では、（この記事で説明した）手動（デフォルト）の [!DNL Target] アクティビティに加えて、[!UICONTROL A/B Test] と [!UICONTROL Auto-Allocate] の 2 種類の [!UICONTROL Auto-Target] アクティビティが追加で提供されています。
 >
 >[A/B テストの概要 ](/help/main/c-activities/t-test-ab/test-ab.md#types) の *A/B テスト アクティビティのタイプ* を参照してください。
 
@@ -85,7 +85,7 @@ ht-degree: 35%
 
    [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加および変更について詳しくは、[ エクスペリエンスの追加 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
 
-1. [!UICONTROL Visual Experience Composer] の上部にある「**[!UICONTROL Targeting]**」をクリックして、3 ステップのガイドによるワークフローの次のステップに進みます。
+1. **[!UICONTROL Targeting]** の上部にある「[!UICONTROL Visual Experience Composer]」をクリックして、3 ステップのガイドによるワークフローの次のステップに進みます。
 
    フロー図が開きます。
 
@@ -129,7 +129,7 @@ ht-degree: 35%
 
 このビデオでは、[!DNL Target] で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。
 
-* [!DNL Adobe Target] での [!UICONTROL A/B Test] アクティビティの作成
+* [!UICONTROL A/B Test] での [!DNL Adobe Target] アクティビティの作成
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
->[!VIDEO](https://video.tv.adobe.com/v/29958?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 50%
+ht-degree: 52%
 
 ---
 
-# オファーとしての Recommendations 
+#  オファーとしての Recommendations 
 
 [!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）アクティビティおよび [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができるようになりました。
 
@@ -21,10 +21,10 @@ ht-degree: 50%
 
 * 同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序を含め、ページ上のレコメンデーションの配置を簡単に試すことができます。
-* [!UICONTROL Auto-Allocate] を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
+* [!UICONTROL Auto-Allocate] を使用して、トラフィックをパフォーマンスの高いレコメンデーションエクスペリエンスに自動的にプッシュします。
 * [!UICONTROL Auto-Target] を使用し、プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスへと訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL Visual Experience Composer] を使用して [!UICONTROL A/B Test] アクティビティまたは [!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL Recommend] アクションを使用してエクスペリエンスにレコメンデーションを追加します。
+開始するには、[!UICONTROL A/B Test] を使用して [!UICONTROL Experience Targeting] アクティビティまたは [!UICONTROL Visual Experience Composer] アクティビティを作成し、[!UICONTROL Recommend] アクションを使用してエクスペリエンスにレコメンデーションを追加します。
 
 ## Recommendations をオファーとして A/B テストまたは XT アクティビティに追加する
 
@@ -55,7 +55,7 @@ ht-degree: 50%
 
 1. 「**[!UICONTROL Create Criteria]**」をクリックするか、既存の [ 条件 ](/help/main/c-recommendations/c-algorithms/algorithms.md) を選択し、「**[!UICONTROL Next]**」をクリックして [!UICONTROL Select Design] 定ダイアログボックスを表示します。
 
-1. 「**[!UICONTROL Create Design]**」をクリックするか、既存の [ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択して、「**[!UICONTROL &#x200B; Next]**」をクリックします。
+1. 「**[!UICONTROL Create Design]**」をクリックするか、既存の [ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択して、「**[!UICONTROL  Next]**」をクリックします。
 
 1. [!UICONTROL Options] ダイアログボックスで、次の設定を行います。
 
@@ -67,11 +67,11 @@ ht-degree: 50%
 
 ## Recommendations オファーの設定の編集
 
-1. [!UICONTROL Recommendation] パネルで、[!UICONTROL Criteria Name]、[!UICONTROL Design Name]、[!UICONTROL Collection Name] の横にある **[!UICONTROL Edit]** アイコン ![ 編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックして、要素を変更します。
+1. [!UICONTROL Recommendation] パネルで、**[!UICONTROL Edit]**、![、](/help/main/assets/icons/Edit.svg) の横にある [!UICONTROL Criteria Name] アイコン [!UICONTROL Design Name] 編集アイコン [!UICONTROL Collection Name]）をクリックして、要素を変更します。
 
 ## Recommendations オファーの削除
 
-1. [!UICONTROL Recommendation] パネルの上部にある **[!UICONTROL Delete]** アイコン ![ 削除アイコン ](/help/main/assets/icons/Delete.svg)）をクリックします。
+1. **[!UICONTROL Delete]** パネルの上部にある ![ アイコン ](/help/main/assets/icons/Delete.svg) 削除アイコン [!UICONTROL Recommendation]）をクリックします。
 
 ### Recommendations オファーのステータスの表示 {#status}
 

@@ -1,6 +1,6 @@
 ---
 keywords: ランダムフォレスト；デシジョンツリー；ap;Automated Personalization
-description: '[!UICONTROL Automated Personalization] （AP）  [!DNL Adobe Target]  よび [!UICONTROL Auto-Target] アクティビティの両方でランダムフォレストアルゴリズムを使用する方法を説明します。'
+description: ' [!DNL Adobe Target]  （AP） [!UICONTROL Automated Personalization] よび [!UICONTROL Auto-Target] アクティビティの両方でランダムフォレストアルゴリズムを使用する方法を説明します。'
 title: ランダムフォ  [!DNL Target]  レストアルゴリズムの使用方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization

@@ -7,7 +7,7 @@ exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 19%
+ht-degree: 23%
 
 ---
 
@@ -170,6 +170,6 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 ## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。（EEC のみ） {#section_60CBB9022DC449F593606C0E6252302D}
 
 +++詳細
-お使いの環境でプロキシ IP がブロックされていないことを確認します。
+ご使用の環境でプロキシ IP がブロックされていないことを確認してください。
 
 +++

@@ -8,13 +8,13 @@ exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
 source-wordcount: '1828'
-ht-degree: 39%
+ht-degree: 41%
 
 ---
 
 # [!UICONTROL Auto-Target] の概要
 
-[!DNL Adobe Target] の [!UICONTROL Auto-Target] アクティビティでは、高度な機械学習を使用して、パフォーマンスが高くマーケターが定義した複数のエクスペリエンスから選択して、コンテンツをパーソナライズし、コンバージョンを促進します。 [!UICONTROL Auto-Target] は、個々の顧客プロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。
+[!UICONTROL Auto-Target] の [!DNL Adobe Target] アクティビティでは、高度な機械学習を使用して、パフォーマンスが高くマーケターが定義した複数のエクスペリエンスから選択して、コンテンツをパーソナライズし、コンバージョンを促進します。 [!UICONTROL Auto-Target] は、個々の顧客プロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 39%
 
 ## 自動ターゲットを使用した実際のユーザー事例 {#success}
 
-ある大手衣料品小売業者は最近、10 個の製品カテゴリベースのエクスペリエンス（およびランダム化されたコントロール）を含む [!UICONTROL Auto-Target] アクティビティを使用して、各訪問者に適切なコンテンツを配信しました。 「[!UICONTROL Add to Cart]」がプライマリ最適化指標として選択されました。 ターゲットエクスペリエンスの平均上昇率は 29.09％でした。[!UICONTROL Auto-Target] モデルを作成した後、アクティビティは 90% のパーソナライズされたエクスペリエンスに設定されました。
+ある大手衣料品retailerは最近、10 個の製品カテゴリベースのエクスペリエンス（およびランダム化されたコントロール）を含む [!UICONTROL Auto-Target] アクティビティを使用して、各訪問者に適切なコンテンツを提供しました。 「[!UICONTROL Add to Cart]」がプライマリ最適化指標として選択されました。 ターゲットエクスペリエンスの平均上昇率は 29.09％でした。[!UICONTROL Auto-Target] モデルを作成した後、アクティビティは 90% のパーソナライズされたエクスペリエンスに設定されました。
 
 わずか 10 日で、1,700,000 ドル以上の上昇率を達成しました。
 
@@ -32,7 +32,7 @@ ht-degree: 39%
 
 ## 概要 {#section_972257739A2648AFA7E7556B693079C9}
 
-[A/B アクティビティの作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)3 ステップのガイド付きワークフローの使用中に、**[!UICONTROL Targeting]** ページで「**[!UICONTROL Auto-Target for personalized experiences]**」オプションを選択します（手順 2）。
+3 ステップのガイドによるワークフローを使用して [A/B アクティビティを作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)するときは、**[!UICONTROL Targeting]** ページ（ステップ 2）で **[!UICONTROL Auto-Target for personalized experiences]** オプションを選択します。
 
 ![ トラフィック配分方法の設定 ](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
@@ -58,13 +58,13 @@ A/B アクティビティフローの [!UICONTROL Auto-Target] オプション�
 
 ## 用語 {#section_A309B7E0B258467789A5CACDC1D923F3}
 
-[!UICONTROL Auto-Target] について説明する際には、次の用語が役立ちます。
+[!UICONTROL Auto-Target] について説明するときに役立つ用語を次に示します。
 
 | 用語 | 定義 |
 |---|---|
-| [マルチアームバンディット](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | マルチアームバンディット最適化アプローチでは、調査学習とその学習の活用のバランスを取ります。 |
+| [ マルチアームバンディット ](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | マルチアームバンディット最適化アプローチでは、調査学習とその学習の活用のバランスを取ります。 |
 | [ランダムフォレスト](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | ランダムフォレストは、有力な機械学習アプローチです。データサイエンス分野では、訪問者と訪問の属性に基づいて多数の決定ツリーを作成することで機能するアンサンブル分類または回帰手法を指します。[!DNL Target] 内部では、ランダムフォレストを使用して、コンバージョンの可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを特定の訪問者ごとに決定します。 |
-| [トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | トンプソンサンプリングの目的は、全体的に最良の（パーソナライズされていない）エクスペリエンスを最小限の「コスト」で特定することです。トンプソンサンプリングでは、2 つのエクスペリエンスに統計的な差異がない場合でも、必ず勝者が選定されます。 |
+| [ トンプソンサンプリング ](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | トンプソンサンプリングの目的は、全体的に最良の（パーソナライズされていない）エクスペリエンスを最小限の「コスト」で特定することです。トンプソンサンプリングでは、2 つのエクスペリエンスに統計的な差異がない場合でも、必ず勝者が選定されます。 |
 
 ## [!UICONTROL Auto-Target] の仕組み {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -72,7 +72,7 @@ A/B アクティビティフローの [!UICONTROL Auto-Target] オプション�
 
 | 用語 | 詳細 |
 |--- |--- |
-| [ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL Auto-Target] と [!UICONTROL Automated Personalization] の両方で使用される [!DNL Target] の主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストなどのアンサンブル手法では、複数の学習アルゴリズムを使用して、構成学習アルゴリズムのいずれかから得られるよりも優れた予測パフォーマンスを得ます。 [!UICONTROL Automated Personalization] および [!UICONTROL Auto-Target] アクティビティのランダムフォレストアルゴリズムは、トレーニング時に多数のデシジョンツリーを構築することで機能する分類または回帰方法です。 |
+| [ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!DNL Target] と [!UICONTROL Auto-Target] の両方で使用される [!UICONTROL Automated Personalization] の主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストなどのアンサンブル手法では、複数の学習アルゴリズムを使用して、構成学習アルゴリズムのいずれかから得られるよりも優れた予測パフォーマンスを得ます。 [!UICONTROL Automated Personalization] および [!UICONTROL Auto-Target] アクティビティのランダムフォレストアルゴリズムは、トレーニング時に多数のデシジョンツリーを構築することで機能する分類または回帰方法です。 |
 | [ のPersonalization アルゴリズム  [!DNL Target] データのアップロード ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL Auto-Target] モデルと [!UICONTROL Automated Personalization] モデルのデータを入力する方法はいくつかあります。 |
 | [ のPersonalization アルゴリズム  [!DNL Target] データ収集 ](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target] のパーソナライゼーションアルゴリズムは、さまざまなデータを自動的に収集します。 |
 
@@ -96,19 +96,19 @@ A/B アクティビティフローの [!UICONTROL Auto-Target] オプション�
 | **[!UICONTROL Maximize Personalization Traffic (90/10)]**: 「常時稼動」アクティビティを作成することが目標の場合は、訪問者の 10% をコントロールに配置して、アルゴリズムが時間の経過と共に学習を継続するのに十分なデータがあることを確認します。 ここでのトレードオフは、トラフィックの大部分をパーソナライズする代わりに、正確な上昇率が何であるかについての精度が低くなることです。 これは、目標にかかわらず、特定のエクスペリエンスをコントロールとして使用する場合のお勧めのトラフィック分割です。 | 最適な配分はコントロールエクスペリエンスに 10％から 30％、パーソナライズされたエクスペリエンスに 70％から 90％ | <ul><li>エクスペリエンスをパーソナライズされた訪問者の数を最大化します</li><li>上昇率を最大化できます。</li><li>アクティビティの上昇率の精度が落ちます。</li></ul> |
 | **カスタム配分** | 配分の割合を手動で調節します。 | <ul><li>想定どおりの結果が得られない場合もあります。目安がわからない場合は、上述のいずれかのオプションを使用することをお勧めします。</li></ul> |
 
-[!UICONTROL Control] の割合を調整するには、[!UICONTROL Traffic Allocation] のウィンドウ領域の [!UICONTROL Experiences] をクリックし、必要に応じて割合を調整します。 コントロールグループの割合を 10％未満にすることはできません。
+[!UICONTROL Control] の割合を調整するには、[!UICONTROL Experiences] のウィンドウ領域の [!UICONTROL Traffic Allocation] をクリックし、必要に応じて割合を調整します。 コントロールグループの割合を 10％未満にすることはできません。
 
 [特定のエクスペリエンスを選択してコントロールとして使用](/help/main/c-activities/t-automated-personalization/experience-as-control.md)したり、ランダムエクスペリエンスオプションを使用したりできます。
 
-## あなたはいつ [!UICONTROL Auto-Target] を [!UICONTROL Automated Personalization] より選ぶべきですか？{#section_BBC4871C87944DD7A8B925811A30C633}
+## あなたはいつ [!UICONTROL Auto-Target] を [!UICONTROL Automated Personalization] より選ぶべきですか？ {#section_BBC4871C87944DD7A8B925811A30C633}
 
-[!UICONTROL Automated Personalization] よりも [!UICONTROL Auto-Target] を使用する場合は、いくつかのシナリオがあります。
+[!UICONTROL Auto-Target] よりも [!UICONTROL Automated Personalization] を使用する場合は、いくつかのシナリオがあります。
 
 * 自動的に組み合わされてエクスペリエンスを形成する個々のオファーではなく、エクスペリエンス全体を定義する場合。
-* [!UICONTROL Auto Personalization] でサポートされていない [!UICONTROL Visual Experience Composer] （VEC）機能の完全なセット（カスタムコードエディター、複数のエクスペリエンスオーディエンスなど）を使用する場合。
-* 様々なエクスペリエンスでページに構造的な変更を加えたい場合。例えば、ホームページの要素の順序を変更する場合、[!UICONTROL Automated Personalization] よりも [!UICONTROL Auto-Target] を使用する方が適切です。
+* [!UICONTROL Visual Experience Composer] でサポートされていない [!UICONTROL Auto Personalization] （VEC）機能の完全なセット（カスタムコードエディター、複数のエクスペリエンスオーディエンスなど）を使用する場合。
+* 様々なエクスペリエンスでページに構造的な変更を加えたい場合。例えば、ホームページの要素の順序を変更する場合、[!UICONTROL Auto-Target] よりも [!UICONTROL Automated Personalization] を使用する方が適切です。
 
-## [!UICONTROL Auto-Target] と [!UICONTROL Automated Personalization] の共通点は何ですか？{#section_2A601F482F9A44E38D4B694668711319}
+## [!UICONTROL Auto-Target] と [!UICONTROL Automated Personalization] の共通点は何ですか？ {#section_2A601F482F9A44E38D4B694668711319}
 
 ### 訪問ごとに好ましい結果を得るためにアルゴリズムが最適化されます。
 
@@ -138,11 +138,11 @@ A/B アクティビティフローの [!UICONTROL Auto-Target] オプション�
 
 * 詳しくは、[[!UICONTROL Auto-Target] および [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) 用のデータのアップロードを参照してください。
 
-## [!UICONTROL Auto-Target] と [!UICONTROL Automated Personalization] の違い{#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
+## [!UICONTROL Auto-Target] と [!UICONTROL Automated Personalization] の違い {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-### 通常、パーソナライズされたモデルの作成に必要なトラフィックの量は、[!UICONTROL Automated Personalization] よりも [!UICONTROL Auto-Target] のほうが少なくなります。
+### 通常、パーソナライズされたモデルの作成に必要なトラフィックの量は、[!UICONTROL Auto-Target] よりも [!UICONTROL Automated Personalization] のほうが少なくなります。
 
-[!UICONTROL Auto-Target] または [!UICONTROL Auto Personalization] のモデルが構築するために必要なトラフィックの量 *エクスペリエンスあたり* は同じですが、通常、[!UICONTROL Automated Personalization] アクティビティの方が [!UICONTROL Auto-Target] アクティビティよりも多くのエクスペリエンスがあります。
+*または* のモデルが構築するために必要なトラフィックの量 [!UICONTROL Auto-Target] エクスペリエンスあたり [!UICONTROL Auto Personalization] は同じですが、通常、[!UICONTROL Automated Personalization] アクティビティの方が [!UICONTROL Auto-Target] アクティビティよりも多くのエクスペリエンスがあります。
 
 例えば、[!UICONTROL Auto Personalization] アクティビティで、場所ごとに 2 つのオファーを 2 つの場所で作成した場合、アクティビティには合計 4 つのエクスペリエンス（2 = 4）が含まれます（除外なし）。 [!UICONTROL Auto-Target] を使用すると、オファー 1 を場所 1 に、オファー 2 を場所 2 に含めるようにエクスペリエンス 1 を設定し、オファー 1 を場所 1 に、オファー 2 を場所 2 に含めるようにエクスペリエンス 2 を設定できます。 [!UICONTROL Auto-Target] では 1 つのエクスペリエンス内で複数の変更を選択できるので、アクティビティ内の合計エクスペリエンス数を減らすことができます。
 
@@ -153,7 +153,7 @@ A/B アクティビティフローの [!UICONTROL Auto-Target] オプション�
 
 ### [!UICONTROL Auto-Target] には本格的なセットアップ機能があります。
 
-* [!UICONTROL Auto-Target] は A/B アクティビティワークフローに埋め込まれ [!UICONTROL Auto-Target] ので、より成熟した本格的な [!UICONTROL Visual Experience Composer] （VEC）のメリットが得られます。 [!UICONTROL Auto-Target] で [QA リンク ](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用することもできます。
+* [!UICONTROL Auto-Target] は A/B アクティビティワークフローに埋め込まれ [!UICONTROL Auto-Target] ので、より成熟した本格的な [!UICONTROL Visual Experience Composer] （VEC）のメリットが得られます。 [ で ](/help/main/c-activities/c-activity-qa/activity-qa.md)QA リンク [!UICONTROL Auto-Target] を使用することもできます。
 
 ### [!UICONTROL Auto-Target] は、広範なオンラインテストフレームワークを提供します。
 

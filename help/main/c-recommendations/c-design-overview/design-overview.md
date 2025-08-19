@@ -1,7 +1,7 @@
 ---
 keywords: レコメンデーションのデザイン;テンプレート;デザインの作成;配信;出力
-description: Adobe [!DNL Target] Recommendationsでデザインを使用して、レコメンデーションがページ上でどのように表示されるかを定義する方法を説明します（1X4、1X6、2X2 など）。
-title: Recommendationsでのデザインの使用方法
+description: Adobe [!DNL Target] Recommendations のデザインを使用して、レコメンデーションがページ上でどのように表示されるかを定義する方法（1 X 4、1 X 6、2 X 2 など）を説明します。
+title: Recommendations でデザインを使用するには
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0

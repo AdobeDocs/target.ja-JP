@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。*Target 開発者ガイド*&#x200B;の[グローバル mbox にパラメーターを渡す](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank}を参照してください。<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、[!UICONTROL Profile Update API] メソッドを使用して渡すことができます。 詳しくは、*Target 開発者ガイド*&#x200B;の[プロファイルの更新](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank}を参照してください。 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。[Target 開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} の *グローバル mbox へのパラメーターの受け渡し* を参照してください。<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、[!UICONTROL Profile Update API] メソッドを使用して渡すことができます。 詳しくは、『 [Target 開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank} の *プロファイルの更新* を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計数（顧客の支出合計額など）を保存することができ、mbox リクエストごとに実行されます。以下の&#x200B;*プロファイルスクリプト属性*&#x200B;を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,7 +46,7 @@ ht-degree: 93%
 
 ## プロファイルスクリプトの作成 {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-プロファイルスクリプトは、[!DNL Target] インターフェイスの「[!UICONTROL Audiences]」タブで使用できます。
+プロファイルスクリプトは、[!UICONTROL Audiences] インターフェイスの「[!DNL Target]」タブで使用できます。
 
 プロファイルスクリプトを追加するには、「**[!UICONTROL Profile Scripts]**」タブをクリック **[!UICONTROL Create Script]**、スクリプトを記述します。
 
@@ -85,7 +85,7 @@ if (mbox.name == 'Track_Interest') {
 
 プロファイルスクリプトの情報については、オファー情報カードと同様のポップアップカードを表示できます。これらのプロファイルスクリプト情報カードでは、選択したプロファイルスクリプトを参照しているアクティビティのリストやその他の有用なメタデータが表示されます。
 
-例えば、次のプロファイルスクリプト情報カードは、リスト（[!UICONTROL Audiences]/[!UICONTROL Profile Scripts]）から目的のプロファイルスクリプトの [!UICONTROL Info] アイコンをクリックしてアクセスします。
+例えば、次のプロファイルスクリプト情報カードは、リスト（[!UICONTROL Info]/[!UICONTROL Audiences]）から目的のプロファイルスクリプトの [!UICONTROL Profile Scripts] アイコンをクリックしてアクセスします。
 
 「[!UICONTROL Script Info]」タブには、名前、説明、およびスクリプトコードの情報が含まれます。
 
@@ -164,7 +164,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **mboxTrace デバッグツールを使用して、プロファイルスクリプトをデバッグする**
 
-  このメソッドでは、「[!UICONTROL Debugger tools]」セクションの **[!UICONTROL Target]**/**[!UICONTROL Administration]**/**[!UICONTROL Implementation]**/**[!UICONTROL Generate Authorization Token]** をクリックして生成できる認証トークンが必要です。
+  このメソッドでは、「**[!UICONTROL Target]**」セクションの **[!UICONTROL Administration]**/**[!UICONTROL Implementation]**/**[!UICONTROL Generate Authorization Token]**/[!UICONTROL Debugger tools] をクリックして生成できる認証トークンが必要です。
 
   その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の「?」の後に追加します。
 
@@ -176,7 +176,7 @@ if (mbox.name == 'Track_Interest') {
 
 **プロファイルスクリプトを使用してデータレイヤーにあるページから情報を取得できますか？**
 
-プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データは、mbox リクエストを通じて、または他の [Target にデータを送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}を通じて渡す必要があります。データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
+プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データは、mbox リクエストまたは他の [ データを Target に送信する方法 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} を使用して渡す必要があります。 データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
 
 ## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 

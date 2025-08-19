@@ -7,7 +7,7 @@ exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 49%
 
 ダイニングルーム用の家具を購入する傾向が、リビング用の家具を購入する傾向よりも高くなるように定義されたオーディエンスを作成できます。[!DNL Target] の後、特定の訪問者のダイニングルームとリビングルームの傾向スコアを動的に比較し、その訪問者がこのオーディエンスに該当するかどうかを判断します。
 
-詳しくは、[ データを Target に送信する方法 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} を参照してください。
+詳しくは、[データを Target に送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}を参照してください。
 
 ## プロファイル属性比較オーディエンスの作成 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
@@ -65,4 +65,4 @@ ht-degree: 49%
 
 この機能を使用できるシナリオと詳細情報については、次のビデオを視聴してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/328272?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

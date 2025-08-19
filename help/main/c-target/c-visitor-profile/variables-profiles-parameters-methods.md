@@ -29,7 +29,7 @@ ht-degree: 67%
 | user.daysSinceLastVisit |  |
 | user.browser | ユーザーエージェント |
 | user.browserType | ブラウザーのタイプ（safari、chrome など）を返します。 |
-| user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータから組み込まれます |
+| user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータからビルトインされます |
 | user.header （&#39;x-forwarded-for&#39;） | 訪問者がいるネットワーク接続の公開される IP アドレス。<br> これは、いくつかの方法で取得できます。例えば、[whatismyip.com](https://www.whatismyip.com/)。 IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。<br> メモ：user.header （&#39;x-cluster-client-ip&#39;）は非推奨（廃止予定）となりました。 |
 | user.header(&#39;host&#39;) | Web サイトのホスト名 |
 | user.header(&#39;cookie&#39;) | 訪問者の cookie データ |
@@ -45,7 +45,7 @@ ht-degree: 67%
 | user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、位置情報、訪問回数などの「システム」プロファイルも参照します。 |
 | profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメーターを取得する正しい方法は、profile.get （&#39;param_name&#39;） メソッドです。 |
 | profile.param(&#39;param_name&#39;); |  |
-| profile.parameter(&#39;parameter_name&#39;); | profile.  prefix. |
+| profile.parameter(&#39;parameter_name&#39;); | profile.  接頭辞. |
 | profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
@@ -85,7 +85,7 @@ ht-degree: 67%
 | mbox.param(&#39;param_name&#39;) |  |
 | リクエストごとに自動的に渡されるパラメーター：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。その後、この ID を使用して、プロファイル API や [ 顧客属性 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja){target=_blank} 経由で情報を追加できます。 |
+| mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。その後、この ID を使用して、プロファイル API や [ 顧客属性 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} 経由で情報を追加できます。 |
 | mboxPageValue | mbox の呼び出しごとに、ページに値が割り当てられます。 |
 | mboxDebug | デバッグ情報にのみ使用されます。at.js が検索するページ URL にを追加しました。 |
 | mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所でどのように表示されるかをテストできます。<br>**注意：** mboxOverride パラメーターは、アクティビティをテストするときにのみ使用し、実稼動環境で使用しないでください。任意のmboxOverrideパラメーターを使用すると、Analytics for [Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する際にレポートの相違が生じる可能性があります。アクティビティをテスト中に [アクティビティQAモード](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |

@@ -1,7 +1,7 @@
 ---
 keywords: カスタム条件作成;アルゴリズム;条件;レコメンデーション条件;csv;ftp;csv のアップロード
-description: CSV ファイルをアップロードして、Adobe [!DNL Target] Recommendationsでお勧めをカスタマイズする方法を説明します。
-title: Recommendationsにカスタム条件をアップロードするにはどうすればよいですか？
+description: CSV ファイルをアップロードして、Adobe [!DNL Target] Recommendations でレコメンデーションをカスタマイズする方法を説明します。
+title: Recommendations にカスタム条件をアップロードするにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
@@ -19,10 +19,10 @@ CSV ファイルをアップロードして、[!DNL Adobe Target] でレコメ�
 [!UICONTROL Create New Criteria] 画面に到達する方法は複数あります。 一部の画面オプションは、画面の表示方法によって異なります。
 
 * **[!UICONTROL Recommendations]** / **[!UICONTROL Criteria]** ライブラリ画面で、**[!UICONTROL Create Criteria]** / **[!UICONTROL Create Criteria]** をクリックします。 ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
-* [!UICONTROL Visual Experience Composer] （VEC）を使用して [!DNL Recommendations] アクティビティを作成している場合は、ページで要素を選択して [!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before] または [!UICONTROL Insert Recommendations After] をクリックすると、すぐに [!UICONTROL Select Criteria] の画面が表示されます。 使用可能な条件を選択するか、「**[!UICONTROL Create Criteria]**」をクリックします。 新しい条件を作成する場合は、他の [!DNL Recommendations] アクティビティで使用する条件を保存できます。 詳しくは、[Recommendations アクティビティの作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) を参照してください。
+* [!DNL Recommendations] （VEC）を使用して [!UICONTROL Visual Experience Composer] アクティビティを作成している場合は、ページで要素を選択して [!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations] または [!UICONTROL Insert Recommendations Before] をクリックすると、すぐに [!UICONTROL Insert Recommendations After] の画面が表示されます。 使用可能な条件を選択するか、「**[!UICONTROL Create Criteria]**」をクリックします。 新しい条件を作成する場合は、他の [!DNL Recommendations] アクティビティで使用する条件を保存できます。 詳しくは、[Recommendations アクティビティの作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) を参照してください。
 * [!DNL Recommendations] アクティビティを編集する場合は、ページの [!UICONTROL Recommendations Location] ボックスをクリックし、「**[!UICONTROL Change Criteria]**」を選択します。 [!UICONTROL Select Criteria] の画面で、「**[!UICONTROL Create Criteria]**」をクリックします。 他の [!DNL Recommendations] アクティビティで使用する新しい条件を保存できます。
 
-以下の手順では、最初のメソッド（**[!UICONTROL Recommendations]** / **[!UICONTROL Criteria]** ライブラリ画面）を使用して [!UICONTROL Create New Criteria] ール画面にアクセスすることを想定しています。
+以下の手順では、最初のメソッド（[!UICONTROL Create New Criteria] / **[!UICONTROL Recommendations]** ライブラリ画面）を使用して **[!UICONTROL Criteria]** ール画面にアクセスすることを想定しています。
 
 1. **[!UICONTROL Recommendations]**／**[!UICONTROL Criteria]**&#x200B;をクリックします。
 
@@ -80,12 +80,12 @@ CSV ファイルをアップロードして、[!DNL Adobe Target] でレコメ�
   | ディレクトリが見つかりません | サーバーに存在するディレクトリを指定します。 |
   | ファイルが見つかりません | サーバー上の指定したディレクトリに存在するファイルの名前を指定します。 |
 
-## トレーニングビデオ：Recommendationsで条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations で条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
-このビデオには、次の情報が含まれています（カスタム条件のアップロードの詳細は 11:43 から始まります）。
+このビデオでは、次の情報を説明します（カスタム条件のアップロードに関する詳細は 11:43 から始まります）。
 
 * 条件の作成
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/35341?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

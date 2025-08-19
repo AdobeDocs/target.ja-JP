@@ -1,6 +1,6 @@
 ---
 keywords: ターゲット設定;エクスペリエンス;エクスペリエンスの追加;エクスペリエンス追加
-description: ' [!DNL Adobe Target] で [!UICONTROL Visual Experience Composer] （VEC）を使用する方法を説明します。'
+description: '[!UICONTROL Visual Experience Composer] で  [!DNL Adobe Target] （VEC）を使用する方法を説明します。'
 title: A [!DNL Target] A/B アクティビティにエクスペリエンスを追加するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
@@ -29,7 +29,7 @@ ht-degree: 43%
 
    ページ上の要素にポインタを合わせると、その要素がハイライト表示される。 強調表示されている要素は、VEC を使用して変更できます。
 
-   [!DNL Target Classic] （旧称 [!DNL Test&Target]）を使用してページ上で [!DNL Target] リクエストを作成した場合、そのリクエストは、リクエスト名を示す要素として表示され、他の要素と同様に変更できます [!DNL Target]
+   [!DNL Target] （旧称 [!DNL Target Classic]）を使用してページ上で [!DNL Test&Target] リクエストを作成した場合、そのリクエストは、リクエスト名を示す要素として表示され、他の要素と同様に変更できます [!DNL Target]
 
    エクスペリエンスを変更するために表示されるページの要素で実行可能なアクションのリストについては、[Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
@@ -41,7 +41,7 @@ ht-degree: 43%
 
 ## エクスペリエンス名を変更
 
-1. [!UICONTROL A/B Test] または [!UICONTROL Experience Targeting] （XT）アクティビティのエクスペリエンスで **[!UICONTROL Rename Experience]** アイコンをクリックして、エクスペリエンスに新しい名前を付けます。
+1. **[!UICONTROL Rename Experience]** または [!UICONTROL A/B Test] （XT）アクティビティのエクスペリエンスで [!UICONTROL Experience Targeting] アイコンをクリックして、エクスペリエンスに新しい名前を付けます。
 
    ![エクスペリエンス名を変更](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,7 +62,7 @@ ht-degree: 43%
 
 ## URL にリダイレクト
 
-1. [!UICONTROL A/B Test] または [!UICONTROL Experience Targeting] （XT）アクティビティ内のエクスペリエンスで **[!UICONTROL More]** アイコン（垂直省略記号）アイコンをクリックし、「**[!UICONTROL Redirect to URL]**」をクリックします。
+1. **[!UICONTROL More]** または [!UICONTROL A/B Test] （XT）アクティビティ内のエクスペリエンスで [!UICONTROL Experience Targeting] アイコン（垂直省略記号）アイコンをクリックし、「**[!UICONTROL Redirect to URL]**」をクリックします。
 
    詳しくは、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)を参照してください。
 
@@ -99,9 +99,9 @@ ht-degree: 43%
 
 ## トレーニングビデオ：[!UICONTROL Visual Experience Composer] の使用
 
-次のビデオでは、[!UICONTROL Visual Experience Composer] のオプションの使用方法について説明しています。 (7:17)
+次のビデオでは、[!UICONTROL Visual Experience Composer] のオプションの使用方法について説明しています。 （7:17）
 
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/29948?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

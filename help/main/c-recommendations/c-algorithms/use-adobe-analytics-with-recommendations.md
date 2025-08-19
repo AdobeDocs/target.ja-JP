@@ -1,6 +1,6 @@
 ---
 keywords: 行動データソース；analytics;recommendations；条件；製品変数
-description: ' [!DNL Target Recommendations] で  [!DNL Adobe Analytics]  を行動データソースとして使用する方法を説明します。'
+description: ' [!DNL Adobe Analytics]  で  [!DNL Target Recommendations] を行動データソースとして使用する方法を説明します。'
 title: ' [!DNL Adobe Analytics]  [!DNL Target Recommendations]の使用方法'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # [!DNL Adobe Analytics] での[!DNL Recommendations] の使用
 
-[!DNL Adobe Analytics] を行動データソースとして使用すると、クライアントは [!DNL Adobe Target Recommendations] アクティビティの [!DNL Analytics] ーザーからビューベースおよび購入ベースの行動データを使用できます。 この機能は、[!DNL Target Recommendations] 設定が新しく、使用する履歴データが多 [!DNL Analytics] 場合に特に便利です。
+[!DNL Adobe Analytics] を行動データソースとして使用すると、クライアントは [!DNL Analytics] アクティビティの [!DNL Adobe Target Recommendations] ーザーからビューベースおよび購入ベースの行動データを使用できます。 この機能は、[!DNL Target Recommendations] 設定が新しく、使用する履歴データが多 [!DNL Analytics] 場合に特に便利です。
 
 [!DNL Analytics] を行動データソースとして使用すると、ユーザーの行動に関する豊富な情報のソースとして機能できます。 この情報には、[!DNL Analytics] とのみ共有されるサードパーティのソースやフィードからのデータが含まれる場合があります。
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 >
 >これら 2 つのボタンがアカウントに表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
 
-## [!DNL Target] でのデータの [!DNL Analytics] 用
+## [!DNL Analytics] でのデータの [!DNL Target] 用
 
 recommendations の行動データソースとして [!DNL Analytics] を使用すると、[!DNL Target] のすべてのエンティティパラメーターを使用してエンティティページにタグ付けしなくても、特定の使用例をデプロイできます。 それには特定の前提条件が必要ですが、その機能がシームレスに動作するためには、「製品変数」を使用できることが最も重要です。 通常の eVar および Prop では、このハンドシェイクが [!DNL Analytics] と [!DNL Target] の間で自動的に発生するだけでは不十分です。
 

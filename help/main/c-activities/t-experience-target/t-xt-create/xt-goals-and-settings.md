@@ -1,13 +1,13 @@
 ---
 keywords: アクティビティ設定;エクスペリエンスのターゲット設定目標と設定;xt目標と設定;エクスペリエンスのターゲット設定;レポート設定;目標指標;成功指標;従属成功指標;詳細設定;プライマリ目標;追加の指標;目的;優先度;期間;レポートソリューション;目標;レポートのオーディエンス;この指標を増分する前に達成する必要のある成功指標はどれですか;ユーザーがこの目標指標に達した後、どうなりますか;注意
-description: の [!UICONTROL Goals & Settings] ページを使用して、[!UICONTROL Experience Targeting] （XT [!DNL Adobe Target]  アクティビティの目標に関する情報を指定する方法を説明します。
-title: '[!UICONTROL Experience Targeting] アクティビティで [!UICONTROL Goals & Settings] を指定するにはどうすればよいですか？'
+description: の [!UICONTROL Goals & Settings] ページを使用して、 [!DNL Adobe Target]  （XT[!UICONTROL Experience Targeting] アクティビティの目標に関する情報を指定する方法を説明します。
+title: '[!UICONTROL Goals & Settings] アクティビティで [!UICONTROL Experience Targeting] を指定するにはどうすればよいですか？'
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 39%
 
 ### [!UICONTROL Duration]
 
-アクティビティは、承認されたときに開始させたり、特定の日時を設定したりできます。同様に、アクティビティは、非アクティブ化されたときに終了することも、アクティビティが終了する日時を設定することもできます。 タイムピッカーは 24 時間の時計を使用します。00:00 は真夜中です。タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
+アクティビティは、承認されたときに開始させたり、特定の日時を設定したりできます。同様に、アクティビティは、非アクティブ化されたときに終了することも、アクティビティが終了する日時を設定することもできます。 時間の選択では、24 時間制を使用し、00:00 は午前 0 時になります。 タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -70,13 +70,13 @@ ht-degree: 39%
 
 アクティビティがライブになった後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。
 
-**[!DNL Adobe Analytics]**: レポートソリューションの違いとそれぞれの利点について詳しくは  [!DNL Target][&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) のレポートソースとしての） [!DNL Adobe Analytics]  を参照してください。
+**[!DNL Adobe Analytics]**: レポートソリューションの違いとそれぞれの利点について詳しくは [[!DNL Adobe Analytics]  のレポートソースとしての）  [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
 
-[!DNL Target] （A4T）のレポートソースとして [!DNL Analytics] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 これを行うには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択し、次に、アクティビティに適したレポートスイートを選択します。 [!DNL Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
+[!DNL Analytics] （A4T）のレポートソースとして [!DNL Target] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 これを行うには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択し、次に、アクティビティに適したレポートスイートを選択します。 [!DNL Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
 
 [!DNL Analytics for Target] （A4T）では、結果を正しく報告するためのトラッキングサーバーが必要です。 デフォルトのトラッキングサーバーが「[!UICONTROL Tracking Server]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合、このフィールドに正しいトラッキングサーバーを含めてください。 詳しくは [Analytics トラッキングサーバーの使用 ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
 
-**[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics] と [!DNL Target] の統合について詳しくは、[[!DNL Target]  でのレポート  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) を参照してください。
+**[!DNL Adobe Customer Journey Analytics]**: [[!DNL Target]  と  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) の統合について詳しくは、[!DNL Adobe Customer Journey Analytics] でのレポート [!DNL Target] を参照してください。
 
 ### [!UICONTROL Goal Metric]
 
@@ -155,7 +155,7 @@ ht-degree: 39%
 
 詳細設定について詳しくは、「[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」を参照してください。
 
-## トレーニングビデオ：アクティビティの設定（3:02）
+## トレーニングビデオ：アクティビティ設定（3:02）
 
 このビデオでは、アクティビティの設定について説明します。
 

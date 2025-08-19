@@ -17,7 +17,7 @@ ht-degree: 87%
 
 安全なコンテンツと安全でないコンテンツが混在している場合、最新のブラウザーではページの表示がブロックされたり、警告メッセージが表示されたりする場合があります。
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。 このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは（HTTPS と HTTP の）コンテンツが混在するサイトを開くことができます。
+[!UICONTROL Visual Experience Composer] の [!DNL Adobe Target] （VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。 このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは（HTTPS と HTTP の）コンテンツが混在するサイトを開くことができます。
 
 ![混在コンテンツの警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -82,6 +82,6 @@ Google Chrome ヘルプの[安全でないサイトに関する警告の管理](
 
 1. **[!UICONTROL Insecure content]** までスクロールします。
 
-1. [**[!UICONTROL Insecure content]**] をクリックし、[**[!UICONTROL Allow]**] の横にある [**[!UICONTROL Add]**] をクリックして、セキュリティで保護されていないコンテンツを許可するサイトを追加し、[**[!UICONTROL Add]**] をクリックします。
+1. [**[!UICONTROL Insecure content]**] をクリックし、[**[!UICONTROL Add]**] の横にある [**[!UICONTROL Allow]**] をクリックして、セキュリティで保護されていないコンテンツを許可するサイトを追加し、[**[!UICONTROL Add]**] をクリックします。
 
 1. VEC ページをリロードします。

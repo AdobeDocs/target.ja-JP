@@ -1,7 +1,7 @@
 ---
 keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；動的；動的フィルタリング；動的；プロファイル属性のマッチング
 description: 項目（エンティティ）をユーザーのプロファイ  [!DNL Target Recommendations]  の値と比較して、で動的にフィルタリングする方法を説明します。
-title: Recommendations アクティビティでプロファイル属性のマッチングを使用してフィルタリングするにはどうすればよいですか。
+title: Recommendations アクティビティでプロファイル属性のマッチングでフィルタリングするにはどうすればよいですか。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
@@ -65,10 +65,10 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 その後、訪問者がホームページに戻ると、小さなファンまたは大きなファンのどちらをクリックしたかに基づいてフィルタリングされたレコメンデーションが表示されます。
 
-Recommendationsは、Web サイトで多くの小さなファンを見ることに基づいています。
+お勧めは、web サイトで多くの小さなファンを表示することに基づいています。
 
 ![ 小規模なファンの推奨事項 ](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendationsは、Web サイトでより多くの大きなファンを見ることに基づいています。
+Web サイトでより大きなファンを表示することに基づくお勧め：
 
 ![ 大規模なファンの推奨事項 ](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

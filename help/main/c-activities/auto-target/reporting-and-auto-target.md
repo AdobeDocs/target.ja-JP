@@ -1,6 +1,6 @@
 ---
 keywords: 自動ターゲット；ターゲティング；トラフィック配分；よくある質問；faq；トラブルシューティング；トラブルシューティング；レポート；レポート；自動ターゲット概要レポート；概要レポート；自動セグメント；重要な属性
-description: ' [!DNL Target] のアクティビティレポート [!UICONTROL Auto-Target] 解釈する方法を説明します。'
+description: '[!UICONTROL Auto-Target] のアクティビティレポート  [!DNL Target] 解釈する方法を説明します。'
 title: '[!UICONTROL Auto-Target] レポートの解釈方法'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Auto-Target
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # レポートと [!UICONTROL Auto-Target]
 
-[!UICONTROL Automated Segments] および [!UICONTROL Important Attributes] レポートなど、[!DNL Adobe Target] の [!UICONTROL Auto-Target Summary] レポートの解釈方法に関する情報です。
+[!UICONTROL Auto-Target Summary] および [!DNL Adobe Target] レポートなど、[!UICONTROL Automated Segments] の [!UICONTROL Important Attributes] レポートの解釈方法に関する情報です。
 
 各レポートの詳細については、次のトピックを参照してください。
 

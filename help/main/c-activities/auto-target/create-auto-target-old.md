@@ -8,13 +8,13 @@ exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
 # [!UICONTROL Auto-Target] アクティビティの作成
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Auto-Target] [!UICONTROL A/B Test] アクティビティを [!DNL Target] 対応ページに直接作成したり、[!DNL Target] 内のページの一部を変更したりします。
+[!UICONTROL Visual Experience Composer] の [!DNL Adobe Target] （VEC）を使用して、[!UICONTROL Auto-Target] [!UICONTROL A/B Test] アクティビティを [!DNL Target] 対応ページに直接作成したり、[!DNL Target] 内のページの一部を変更したりします。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 44%
 
    [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加および変更について詳しくは、[ エクスペリエンスの追加 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md) を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
 
-1. [!UICONTROL Visual Experience Composer] の上部にある「**[!UICONTROL Targeting]**」をクリックして、3 ステップのガイドによるワークフローの次のステップに進みます。
+1. **[!UICONTROL Targeting]** の上部にある「[!UICONTROL Visual Experience Composer]」をクリックして、3 ステップのガイドによるワークフローの次のステップに進みます。
 
    フロー図が開きます。
 
@@ -113,11 +113,11 @@ ht-degree: 44%
 
 アクティビティを作成すると、「[!UICONTROL Overview]」タブにアクティビティのダイアグラムなど、アクティビティに関する情報が表示されます。
 
-## トレーニングビデオ：A/Bテストの作成（8:36）
+## トレーニングビデオ：A/B テストの作成（8:36）
 
 このビデオでは、[!DNL Target] で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。
 
-* [!DNL Adobe Target] での [!UICONTROL A/B Test] アクティビティの作成
+* [!UICONTROL A/B Test] での [!DNL Adobe Target] アクティビティの作成
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
->[!VIDEO](https://video.tv.adobe.com/v/29958?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -13,6 +13,6 @@ ht-degree: 66%
 
 # [!DNL Target] と [!DNL Adobe Experience Manager]（AEM）の統合
 
-[!DNL Adobe Target]/[!DNL Adobe Experience Manager] （AEM）統合により、現在、[!DNL Target] アクティビティのAEMで作成した [!UICONTROL Experience Fragments] （XF）および [!UICONTROL Content Fragments] （CF）を使用して、最適化とパーソナライゼーションを支援します。
+[!DNL Adobe Target] と [!DNL Adobe Experience Manager] （AEM）の統合により、現在、パーソナライゼーション アクティビティのAEMで作成した [!UICONTROL Experience Fragments] （XF）および [!UICONTROL Content Fragments] （CF）を使用して、最適化とパーソナライ [!DNL Target] ーション機能を支援します。
 
 詳しくは、[AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)を参照してください。

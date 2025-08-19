@@ -1,7 +1,7 @@
 ---
 keywords: recommendations;recommendations アクティビティ；条件；アルゴリズム
 description: Adobe [!DNL Target] Recommendations アクティビティで使用する条件（推奨する製品やコンテンツを決定するルール）を選択する方法を説明します。
-title: Recommendations アクティビティの条件を選択するには
+title: Recommendations アクティビティの条件を選択する方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
@@ -14,7 +14,7 @@ ht-degree: 58%
 
 # 条件の選択
 
-[!DNL Adobe Target Recommendations] アクティビティで使用する [ 条件 ](/help/main/c-recommendations/c-algorithms/algorithms.md) を選択します。 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
+[ アクティビティで使用する ](/help/main/c-recommendations/c-algorithms/algorithms.md) 条件 [!DNL Adobe Target Recommendations] を選択します。 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
 
 複数の条件を追加することで複数のレコメンデーションタイプを相互にテストすることができます。
 

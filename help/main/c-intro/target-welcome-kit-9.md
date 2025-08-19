@@ -21,7 +21,7 @@ ht-degree: 78%
 
 ## リソースリンク
 
-* **Adobe Targetの設定**:[!UICONTROL Visual Experience Composer] （VEC）、レポート、[!DNL Scene7] 設定、実装、ホスト、環境、レスポンストークン、ユーザーの設定を含む、[!DNL Adobe Target] の管理に役立つ情報。 [Target の管理の概要](/help/main/administrating-target/administrating-target.md)を参照してください。
+* **Adobe Targetの設定**:[!DNL Adobe Target] （VEC）、レポート、[!UICONTROL Visual Experience Composer] 設定、実装、ホスト、環境、レスポンストークン、ユーザーの設定を含む、[!DNL Scene7] の管理に役立つ情報。 [Target の管理の概要](/help/main/administrating-target/administrating-target.md)を参照してください。
 * **Adobe Target 製品ドキュメント**：Adobe Target について知る必要のあるすべて。[Adobe Target 製品ドキュメント](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ja)を参照してください。
 * **Adobe Target API および SDK ドキュメント**：クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装する方法を説明します。また、[!DNL Target] データをサードパーティのソリューションと交換する方法についても説明します。[Adobe Target API の概要](/help/main/api/api-overview.md)を参照してください。
 * **Adobe Target アクティビティガイド**： [!DNL Target] で使用できる様々なアクティビティを紹介します。[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
@@ -31,7 +31,7 @@ ht-degree: 78%
 
 * **Adobe Target チュートリアル**：基本を学んだり、スキルを磨きます。[Adobe Target チュートリアルのページ](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja)を参照してください。
 * **Adobe Target オンデマンドトレーニング**：ご利用いただける様々な Target コースをご覧ください。[Adobe のトレーニングとチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)のページを参照してください。
-* **Adobe Target ビデオ：**&#x200B;[!DNL Target] のビデオを視聴して、 成功事例やソリューションの機能をご覧ください。[Adobe Target Standard および Premium のトレーニングビデオ](/help/main/c-intro/target-standard-premium-training-videos.md)を参照してください
+* **Adobe Target ビデオ：**[!DNL Target] のビデオを視聴して、 成功事例やソリューションの機能をご覧ください。[Adobe Target Standard および Premium のトレーニングビデオ](/help/main/c-intro/target-standard-premium-training-videos.md)を参照してください
 * **ウェビナーシリーズ**：Adobe Target の基本。Adobe Target ユーザーに対する最適化の基本を検討する、お客様向けサクセスウェビナーシリーズにご参加ください。[「Target の基本」ウェビナーシリーズ](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)を参照してください。
 * **Adobe のサポートの Offie Hour**：「Office Hours」は、Adobe のヘルプチームが率いるイニシアチブです。これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。[Adobe のサポートの営業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)を参照してください。
 * **Adobe Summit**：デジタルマーケター向けの、年間最大のプロフェッショナルなイベントに参加しましょう。
@@ -42,6 +42,6 @@ ht-degree: 78%
 
 * **Adobe Target ホームページ**：[!DNL Adobe Target] のホームページ。当社の能力について学び、最新の成功事例をこちらでご覧ください。[Adobe Target](https://www.adobe.com/jp/marketing/target.html) を参照してください。
 * **ブログ**：[Target のブログ](https://blog.adobe.com/en/topics/target)に従って、最新のニュース、ヒント、成功事例を常に参照してください。
-* **Experience League**: エクスペリエンスビジネスを始動、Target コミュニティとつながり、探している回答を見つけるのに必要なガイドやイベントが用意されています。 [Adobe Experience League のホームページ](https://experienceleague.adobe.com/ja?lang=ja#home)を参照してください。
+* **Experience League**: エクスペリエンスビジネスを始動、Target コミュニティとつながり、探している回答を見つけるのに必要なガイドやイベントが用意されています。 [Adobe Experience League のホームページ](https://experienceleague.adobe.com/?lang=ja#home)を参照してください。
 * **Adobe Target 認定制度**：新しい Adobe Target 試験で Adobe Certified expert のステータスを獲得します。ここで試験のスケジュールを設定、またはトレーニングコースを受けます。[トレーニングと資格認定](/help/main/c-intro/training-and-certification.md)を参照してください。
 * **Adobe Target のリリースノート**：各 [!DNL Target Standard] および [!DNL Target Premium] リリースの機能、拡張機能および修正点に関する情報です。また、該当する場合は、Target API、SDK、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。[Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md)を参照してください。

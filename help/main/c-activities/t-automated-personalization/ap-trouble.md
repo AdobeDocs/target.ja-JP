@@ -8,7 +8,7 @@ exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 source-git-commit: 2cb2c2b68f6487d1af41ecc7e73750afa1ad85f9
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 38%
+ht-degree: 37%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 38%
 
 ## [!UICONTROL Automated Personalization] のアクティビティが長すぎてモデルを構築できません。 {#section_20028B204DBB4D77A324BA193434AEE2}
 
-+++詳細を見る
++++詳細を表示
 
 アクティビティの設定を変更することで、[!UICONTROL Automated Personalization] ータアクティビティのエクスペリエンスの数、サイトへのトラフィック、選択した成功指標など、モデルの構築に要する予想時間を短縮できます。
 
@@ -33,7 +33,7 @@ ht-degree: 38%
 
 ## [!UICONTROL Automated Personalization] アクティビティで上昇率が生成されませんでした。 {#section_8900BC8968474438B8092F7A94C0C6CF}
 
-+++詳細を見る
++++詳細を表示
 
 [!UICONTROL Automated Personalization] アクティビティで上昇率を生み出すには、いくつかの要因が必要です。
 
@@ -48,7 +48,7 @@ ht-degree: 38%
 
 ## [!UICONTROL Automated Personalization] アクティビティ URL で、間違ったページにオファーコンテンツが表示される。 {#section_82A224406DBF4107B05204BEFBBE458C}
 
-+++詳細を見る
++++詳細を表示
 
 ま [!UICONTROL Automated Personalization]、URL とテンプレートのテストルールは [!DNL Target] リクエストエントリ制約（target-global-mbox など）に追加され、1 回だけ評価されます。 ユーザーがアクティビティの対象になると、ターゲットリクエストレベルのターゲティングルールは再評価されません。 ただし、ターゲットオーディエンスは、場所のターゲットルールに追加されます。
 
@@ -58,7 +58,7 @@ ht-degree: 38%
 
 ## コンバージョン指標に依存する指標が変換されない。 {#section_076D1F44298C4E4A849AC52F5A33214D}
 
-+++詳細を見る
++++詳細を表示
 
 これは期待されたとおりです。
 
@@ -70,7 +70,7 @@ ht-degree: 38%
 
 ## エクスペリエンス URL が適切に機能しない。 {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
-+++詳細を見る
++++詳細を表示
 
 * ブラウザーのキャッシュが原因で、新しいタブにプレビューが表示されない場合は、2～3 回更新してみてください。 リンクをコピーして、新しいブラウザーまたは新しいセッションで開くこともできます。
 * コンテンツを変更した場合はエクスペリエンス URL のリンクを再生成し、その新しいリンクをチームのメンバーと共有します。

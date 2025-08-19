@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # アクティビティの衝突
 
-[!DNL Adobe Target] の [!UICONTROL Activity Overview] ページの「[!UICONTROL Collisions]」タブには、サイト上のアクティビティの衝突が表示されます。
+[!UICONTROL Collisions] の [!UICONTROL Activity Overview] ページの「[!DNL Adobe Target]」タブには、サイト上のアクティビティの衝突が表示されます。
 
 アクティビティの衝突は、複数のアクティビティが同じページにコンテンツを配信するよう設定されているときに発生します。アクティビティの衝突が発生した場合は、ページに期待どおりのコンテンツが表示されないことがあります。
 

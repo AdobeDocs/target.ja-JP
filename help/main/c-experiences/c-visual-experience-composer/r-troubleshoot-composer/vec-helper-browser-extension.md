@@ -13,13 +13,13 @@ ht-degree: 55%
 
 # [!UICONTROL Visual Experience Composer] helper 拡張機能
 
-[!DNL Google Chrome] の [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）ヘルパーブラウザー拡張機能を使用すると、VEC 内に web サイトを確実に読み込んで、web エクスペリエンスを迅速に作成および QA できます。
+[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] [!DNL Google Chrome] （VEC）ヘルパーブラウザー拡張機能を使用すると、VEC 内に web サイトを確実に読み込んで、web エクスペリエンスを迅速に作成および QA できます。
 
 VEC Helper ブラウザーは [!DNL Chrome] 拡張機能です。 [!DNL Mozilla Firefox] を使用する場合、この拡張機能は必要ありません。
 
 >[!IMPORTANT]
 >
->* この記事で説明している従来の [!DNL Target] VEC Helper 拡張機能は、Manifest V2 を使用して作成されました。 [!DNL Google] では、2024年6月以降、Manifest V2 を使用して作成された拡張機能を許可しなくなると発表しました。詳しくは、*Chrome for Developers* サイトの [!DNL Google] にある [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} を参照してください。
+>* この記事で説明している従来の [!DNL Target] VEC Helper 拡張機能は、Manifest V2 を使用して作成されました。 [!DNL Google] では、2024年6月以降、Manifest V2 を使用して作成された拡張機能を許可しなくなると発表しました。詳しくは、[Chrome for Developers](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} サイトの [!DNL Google] にある *Manifest V2 support timeline announcement* を参照してください。
 >
 >* 2024 年 6 月以降、[!DNL Google] は、このトピックで説明している拡張機能を含め、Manifest V2 を使用して作成された拡張機能の無効化を開始します。 [!DNL Adobe] では、お客様ができるだけ早く新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)に移行することをお勧めします。
 
@@ -60,7 +60,7 @@ Chrome用 VEC Helper ブラウザー拡張機能は、お客様が [!DNL Target]
 1. **[!UICONTROL Add to Chrome > Add Extension]** をクリックします。
 1. [!DNL Target] で VEC を開きます。
 1. 拡張機能を使用するには、VEC または [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で、Chrome ブラウザーのツールバーにある「VEC ヘルパーブラウザー拡張」アイコン（ ![「VEC ヘルパー」アイコン](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ）をクリックします。
-1. （条件付き） web ページに [!DNL Target] at.js JavaScript ライブラリがまだ含まれていない場合は、**[!UICONTROL Inject Target Libraries]** 切り替えスイッチを「オン」の位置にスライドさせます。
+1. （条件付き） web ページに **[!UICONTROL Inject Target Libraries]** at.js JavaScript ライブラリがまだ含まれていない場合は、[!DNL Target] 切り替えスイッチを「オン」の位置にスライドさせます。
 
    次の図は、[!UICONTROL Inject Target Libraries] 設定が有効になっている VEC Helper を示しています。
 
@@ -82,7 +82,7 @@ Chrome用 VEC Helper ブラウザー拡張機能は、お客様が [!DNL Target]
 
   このフラグはグローバル設定です。 このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。例えば、このフラグを「on」に設定して、at.js で既に実装されている web サイトを開くと、at.js が既に読み込まれているというメッセージが届きます。 Adobeでは、ほとんどのお客様が既に at.js をページに実装しており、「off」のデフォルト設定を使用していることを想定しています。
 
-* この拡張機能は、[!UICONTROL Administration > Implementation] の [!DNL Target UI] から利用可能な最新バージョンの at.js を読み込みます。
+* この拡張機能は、[!DNL Target UI] の [!UICONTROL Administration > Implementation] から利用可能な最新バージョンの at.js を読み込みます。
 * 拡張機能を使用して [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で at.js を挿入する場合は、別の Chrome タブを開く必要があります。この Chrome タブは、アクティビティを作成したのと同じ[!DNL Adobe Experience Cloud]組織に対して認証される必要があります。
 * 次のメッセージにより、さらに情報が提供されます。
 

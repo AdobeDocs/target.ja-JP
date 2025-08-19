@@ -1,7 +1,7 @@
 ---
 keywords: ターゲティング；analytics；トラッキングサーバー；analytics for target;a4t
 description: レポートソース（A4T）として使用する  [!DNL Adobe Target]  の  [!DNL Adobe Analytics]  アクティビティを設定する方法を説明します。
-title: ' [!DNL Target] でデータを使用  [!DNL Analytics]  る方法'
+title: ' [!DNL Analytics]  でデータを使用  [!DNL Target] る方法'
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 source-git-commit: 8682c24cf1740171dd2ce1862b3bdce1e2082869
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 # [!DNL Adobe Analytics] データの使用
 
-[!DNL Adobe Analytics] をレポートソース（A4T）として使用する [!DNL Adobe Target] うに、のアクティビティを設定できます。
+[!DNL Adobe Target] をレポートソース（A4T）として使用する [!DNL Adobe Analytics] うに、のアクティビティを設定できます。
 
 [!DNL Analytics] を [!DNL Target] のデータソースとして設定する方法について詳しくは、[Adobe TargetのレポートSourceとしてのAdobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
 
@@ -23,13 +23,13 @@ ht-degree: 16%
 >
 >[!DNL Adobe Analytics] オプションは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクした場合に使用できます。アカウントで [!DNL Target] と [!DNL Analytics] の統合が設定されていない場合でも同様です。
 
-[!DNL Target] のレポートソースとして [!DNL Analytics] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 レポートソースを指定するには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択してから、アクティビティに適したレポートスイートを選択します。 [!DNL Adobe Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、カスタマーケアへのお問い合わせ。
+[!DNL Analytics] のレポートソースとして [!DNL Target] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 レポートソースを指定するには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択してから、アクティビティに適したレポートスイートを選択します。 [!DNL Adobe Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、カスタマーケアへのお問い合わせ。
 
 [!UICONTROL Analytics for Target] （A4T）では、結果を正しく報告するためのトラッキングサーバーが必要です。 デフォルトのトラッキングサーバーが「[!UICONTROL Tracking Server]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合、このフィールドに正しいトラッキングサーバーが含まれていることを確認してください。 詳しくは [Analytics トラッキングサーバーの使用 ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] をアクティビティのレポートソースとして使用し、at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成時にトラッキングサーバーを指定する必要はありません。 at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Goals & Settings] のページの「[!UICONTROL Tracking Server]」フィールドを空白にできます。
+>[!DNL Adobe Analytics] をアクティビティのレポートソースとして使用し、at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成時にトラッキングサーバーを指定する必要はありません。 at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Tracking Server] のページの「[!UICONTROL Goals & Settings]」フィールドを空白にできます。
 
 [!DNL Analytics] をレポートソースとして設定した後でアクティビティを設定する場合、レポート用にオーディエンスを設定するオプションはありません。 [!DNL Analytics] セグメントは、[!DNL Target] [!UICONTROL Activities] レポートで使用できます。
 

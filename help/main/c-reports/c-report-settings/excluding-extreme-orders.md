@@ -1,6 +1,6 @@
 ---
 keywords: Target、レポート、レポート設定、極端な注文、極端な値
-description: 極端な値をAdobeのレポートに影響から除外して  [!DNL Target]  異常な注文がアクティビティの結果に影響を与えないようにする方法を説明します。
+description: '極端な値をAdobeのレポートに影響から除外して、一部の異常な注文がアクティビティの結果に影響を与えないようにする方法を説明します  [!DNL Target] '
 title: レポートから極端な値を除外するにはどうすればよいですか？
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74

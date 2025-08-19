@@ -1,6 +1,6 @@
 ---
 keywords: レポート、ダウンロードレポート、csv、success metrics、注文の詳細
-description: Adobeアクティビティのデータを CVS 形式でダウンロードして  [!DNL Target] Excel、Access、またはその他のデータ分析プログラムに素早くインポートする方法を説明します。
+description: Adobe アクティビティのデータを CVS フォーマットでダウンロードして  [!DNL Target] Excel、Access、またはその他のデータ分析プログラムに素早くインポートする方法を説明します。
 title: レポートデータを CSV ファイルでダウンロードするにはどうすればよいですか？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
@@ -59,9 +59,9 @@ CSV ファイル内のデータをダウンロードするには：
 
 * エクスペリエンス
 
-  [!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] （XT）および [!UICONTROL Multivariate Test] （MVT）アクティビティの [!UICONTROL Order Details] レポートの [!UICONTROL Experience] 列にはエクスペリエンス `localId` が含まれます。 これは、オファートークン `$campaign.recipe.id` からの出力値です。
+  [!UICONTROL Order Details]、[!UICONTROL A/B Test] （XT）および [!UICONTROL Experience Targeting] （MVT）アクティビティの [!UICONTROL Multivariate Test] レポートの [!UICONTROL Experience] 列にはエクスペリエンス `localId` が含まれます。 これは、オファートークン `$campaign.recipe.id` からの出力値です。
 
-  [!UICONTROL Automated Personalization] （AP）アクティビティについては、[!UICONTROL Experience] 列はありません。 [!DNL Target] の他の場所で示されているように、現在の [!UICONTROL Algorithm Name] 列は「コントロール」と「ターゲット」の用語に置き換えられています。
+  [!UICONTROL Experience] （AP）アクティビティについては、[!UICONTROL Automated Personalization] 列はありません。 [!UICONTROL Algorithm Name] の他の場所で示されているように、現在の [!DNL Target] 列は「コントロール」と「ターゲット」の用語に置き換えられています。
 
   [!UICONTROL Recommendations] のアクティビティへの影響はありませんでした。
 
@@ -80,8 +80,8 @@ CSV ファイル内のデータをダウンロードするには：
 
 次の情報は、[!UICONTROL Download] オプションに適用されます。
 
-* [!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL Experience Targeting] および [!UICONTROL Multivariate] アクティビティの両方のレポートをダウンロードできます。 [!UICONTROL Recommendations] のアクティビティの [!UICONTROL Success Metrics] レポートはダウンロードできません。
-* [!UICONTROL Download] オプションは、[!DNL Target] バージョン 15.7.1 （2015 年 7 月）より前に作成された [!UICONTROL A/B Test] および [!UICONTROL Experience Targeting] アクティビティでは使用できません。
+* [!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL Experience Targeting] および [!UICONTROL Multivariate] アクティビティの両方のレポートをダウンロードできます。 [!UICONTROL Success Metrics] のアクティビティの [!UICONTROL Recommendations] レポートはダウンロードできません。
+* [!UICONTROL Download] オプションは、[!UICONTROL A/B Test] バージョン 15.7.1 （2015 年 7 月）より前に作成された [!UICONTROL Experience Targeting] および [!DNL Target] アクティビティでは使用できません。
 * 関連データのないエクスペリエンスは、ダウンロードしたレポートに記録されません。
 * [!DNL Target] レポート UI で適用されたオーディエンスは、ダウンロードレポートに引き継がれません。
 * アクティビティユーザーが.複数の指標を使用している場合、csv ファイル形式でダウンロード用に生成されたレポートに一貫性がありません。ダウンロード可能なレポートは、レポート設定に基づいてのみ生成され、他の指標で使用される場合と同じ値を考慮します。 信頼できる唯一の情報源は常に [!DNL Target] UIに表示されるレポートです。

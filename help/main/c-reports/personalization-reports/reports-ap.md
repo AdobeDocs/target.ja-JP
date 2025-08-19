@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # Automated Personalization 概要レポート
 
-[!DNL Adobe Target] の [!UICONTROL Automated Personalization] のアクティビティのユーザーは、専用の概要レポートを使用できます。
+[!UICONTROL Automated Personalization] の [!DNL Adobe Target] のアクティビティのユーザーは、専用の概要レポートを使用できます。
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] は、[!DNL Target Premium] ソリューションの一部として利用できます。 [Target Premium ライセンス ](/help/main/c-intro/intro.md#premium) のない [!DNL Target Standard] には含まれていません。
+>[!UICONTROL Automated Personalization] は、[!DNL Target Premium] ソリューションの一部として利用できます。 [!DNL Target Standard]Target Premium ライセンス [ のない ](/help/main/c-intro/intro.md#premium) には含まれていません。
 
 1. 「**[!UICONTROL Activities]**」をクリックし、リストから目的の [!UICONTROL Automated Personalization] アクティビティをクリックして、「**[!UICONTROL Reports]**」タブをクリックします。
 

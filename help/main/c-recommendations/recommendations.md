@@ -64,15 +64,15 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 
 ## トレーニングビデオ：アクティビティタイプ ![概要バッジ](/help/main/assets/overview.png)
 
-このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。[!DNL Recommendations] の説明は 7:20 から始まります。
+このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。[!DNL Recommendations] については 7:20 から説明します。
 
 * [!DNL Adobe Target] に含まれるアクティビティタイプの説明
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Targetの基本ウェビナー：Recommendationsの概要 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png) {#intro-to-recs}
+## Adobe Targetの基本ウェビナー：Recommendations の概要 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png) {#intro-to-recs}
 
 *Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細に説明しています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、[!DNL Recommendations] アクティビティを作成するための、[!DNL Target] の UI での手順の概要も説明しています。
 

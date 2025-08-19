@@ -1,6 +1,6 @@
 ---
 keywords: レコメンデーション;代替;予備
-description: Adobeでのバックアップの推奨事項の使用方法を説明します  [!DNL Target Recommendations]。
+description: Adobe [!DNL Target Recommendations] でのバックアップの推奨事項の使用方法を説明します。
 title: ' [!DNL Target Recommendations] での代替レコメンデーションの使用方法'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations

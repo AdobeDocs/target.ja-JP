@@ -17,7 +17,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform] ソースは、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} を使用するすべての [!DNL Target] ユーザーが利用できます。 [!DNL Adobe Experience Platform] から使用可能なオーディエンスは、そのまま使用することも、このトピックで説明するように既存のオーディエンスと組み合わせて使用することもできます。
+>[!DNL Adobe Experience Platform] ソースは、[!DNL Target]Adobe Experience Platform web SDK[ を使用するすべての ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} ユーザーが利用できます。 [!DNL Adobe Experience Platform] から使用可能なオーディエンスは、そのまま使用することも、このトピックで説明するように既存のオーディエンスと組み合わせて使用することもできます。
 >
 >詳しくは、[Adobe Experience Platformのオーディエンスの使用 ](/help/main/c-target/c-audiences/audiences.md#aep) を参照してください。
 
@@ -99,7 +99,7 @@ AND および OR 演算子を使用して最大 20 個のオーディエンス�
 
 アクティビティの [!UICONTROL Goals & Settings] ページでアドホックな組み合わせオーディエンスを作成し、レポートで使用できます。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の編集または作成時に、**[!UICONTROL Goals & Settings]** ページで [!UICONTROL Audiences for Reporting] の下にある **[!UICONTROL Add Audience]** アイコンをクリックして [!UICONTROL Choose Audience] ページを表示します。
+1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の編集または作成時に、**[!UICONTROL Goals & Settings]** ページで **[!UICONTROL Add Audience]** の下にある [!UICONTROL Audiences for Reporting] アイコンをクリックして [!UICONTROL Choose Audience] ページを表示します。
 
    ![combine_multiple_audiences6 画像 ](assets/combine_multiple_audiences6.png)
 

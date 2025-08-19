@@ -7,7 +7,7 @@ exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 ## レポートソース（A4T）として [!DNL Analytics] サポートされているアクティビティタイプは何ですか？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++回答
-完全なリストについては、[Adobe Target for Source レポート （A4T）としてのAdobe Analyticsの「サポートされているアクティビティタイプ」を参照してください ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+完全なリストについては、「[Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)」の「サポートされているアクティビティのタイプ」を参照してください。
 
 +++
 
@@ -59,9 +59,9 @@ A4T レポートを使用している、別の [ ワークスペース ](/help/m
 
 ![ アクティビティごとの選択画像 ](assets/select-per-activity.png)
 
-アクティビティの作成と編集を行う **[!UICONTROL Goal & Settings]** 画面で、「**[!UICONTROL Reporting Source]**」ドロップダウンリストが有効になります。
+アクティビティの作成と編集を行う **[!UICONTROL Reporting Source]** 画面で、「**[!UICONTROL Goal & Settings]**」ドロップダウンリストが有効になります。
 
-[!DNL Analytics] を常にレポートソースとして使用するには、[!UICONTROL Administration] のドロップダウンリストから「**[!UICONTROL Adobe Analytics]**」を選択します。
+[!DNL Analytics] を常にレポートソースとして使用するには、**[!UICONTROL Adobe Analytics]** のドロップダウンリストから「[!UICONTROL Administration]」を選択します。
 
 +++
 

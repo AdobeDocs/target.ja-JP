@@ -1,6 +1,6 @@
 ---
 keywords: Mvt;多変量分析テスト;多変量分析テスト作成;多変量分析テストの作成;mvt 作成;mvt 作成;mvt の方法;多変量分析テスト方法
-description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して [!UICONTROL Multivariate Test] （MVT）を作成  [!DNL Adobe Target]  る方法を説明します。'
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して  [!DNL Adobe Target]  （MVT）を作成 [!UICONTROL Multivariate Test] る方法を説明します。'
 title: '[!UICONTROL Multivariate Test] の作成方法'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -13,7 +13,7 @@ ht-degree: 56%
 
 # 多変量分析テストの作成
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）を使用すると、[!UICONTROL Multivariate Test] ージの作成や、[!DNL Target] 内のページの一部の変更が簡単にできます。
+[!UICONTROL Visual Experience Composer] の [!DNL Adobe Target] （VEC）を使用すると、[!UICONTROL Multivariate Test] ージの作成や、[!DNL Target] 内のページの一部の変更が簡単にできます。
 
 [!DNL Target] のポイントアンドクリックエディターを使用すると、任意の場所を選択し、複数のオファーを追加できます。
 
@@ -124,4 +124,4 @@ ht-degree: 56%
 * 多変量分析テストの定義と設計
 * 多変量分析テストの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

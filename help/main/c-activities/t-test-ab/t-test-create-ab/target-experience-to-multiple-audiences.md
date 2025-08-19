@@ -35,7 +35,7 @@ ht-degree: 52%
 
 1. エクスペリエンスを選択し、**[!UICONTROL Configure]**/**[!UICONTROL Multiple Audiences]** をクリックします。
 
-1. ター [!UICONTROL Experience Audiences] ットウィンドウの **[!UICONTROL Add Audience]** のアイコン ![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
+1. ター **[!UICONTROL Add Audience]** ットウィンドウの ![ のアイコン ](/help/main/assets/icons/Add.svg) 追加アイコン [!UICONTROL Experience Audiences]）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
 
    オーディエンスがまだ存在しない場合は、「[オーディエンスを作成](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)」をクリックして設定します。
 

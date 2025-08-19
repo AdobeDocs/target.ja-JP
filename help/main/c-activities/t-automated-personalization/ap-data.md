@@ -20,7 +20,7 @@ ht-degree: 52%
 
 ## デフォルトの [!DNL Target] 属性カテゴリ
 
-次の表に、[!DNL Target] やその他の [!DNL Adobe] ソリューションの設定を行わずに、デフォルトで [!UICONTROL Automated Personalization] および [!UICONTROL Auto-Target] アクティビティによって収集されるデータを示します。 この表には、[Personalization Insights レポート ](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) でこれらの属性を示すために使用される命名規則も含まれています。 入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[ パーソナライゼーションアルゴリズム用のデータ  [!DNL Target]  アップロード ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) を参照してください。
+次の表に、[!UICONTROL Automated Personalization] やその他の [!UICONTROL Auto-Target] ソリューションの設定を行わずに、デフォルトで [!DNL Target] および [!DNL Adobe] アクティビティによって収集されるデータを示します。 この表には、[Personalization Insights レポート ](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) でこれらの属性を示すために使用される命名規則も含まれています。 入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[ パーソナライゼーションアルゴリズム用のデータ  [!DNL Target]  アップロード ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) を参照してください。
 
 | データカテゴリ | システムプレフィックス | 説明 | [!UICONTROL Insights] レポートの表示名 |
 | --- | --- | --- | --- |
@@ -38,18 +38,18 @@ ht-degree: 52%
 | --- | --- | --- | --- |
 | ページのパラメーター | BOX | [!DNL Target] への呼び出しで渡されるカスタムページパラメーター（「mbox パラメーター」）。 | カスタム - mbox パラメーター – [ パラメーター名 ] |
 | [!DNL Target] profile | PRO | カスタムプロファイル属性は、API またはページパラメーターと [!DNL Target] プロファイルスクリプトを介して、[!DNL Target] プロファイルに直接アップロードされます。 | カスタム – 訪問者プロファイル - [ 属性名 ] |
-| 顧客属性 | CRS | [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja){target=_blank} 経由で [!DNL Target] プロファイルにアップロードされた顧客属性。 | カスタム – 訪問者プロファイル - [ 属性名 ] |
+| 顧客属性 | CRS | [!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service] 経由で ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja){target=_blank} プロファイルにアップロードされた顧客属性。 | カスタム – 訪問者プロファイル - [ 属性名 ] |
 | URL パラメーター | URL | 現在表示されているページの URL および URL パラメーター。 | カスタム - URL パラメーター – [URL パラメーター ] |
 | 参照 URL | 参照 | 参照 URL と参照 URL の任意の URL パラメーター。 | カスタム - [ 参照 URL パラメーター ] - [ パラメーター値 ] |
-| [!DNL Adobe Experience Cloud] 共有オーディエンス | AAM | 他の [!DNL Adobe Experience Cloud] ソリューションの [!DNL Target] と共有されるすべてのオーディエンス（[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target=_blank} を介した [!DNL Adobe Audience Manager] や [!DNL Adobe Analytics] など）。 | カスタム - Experience Cloud オーディエンス - [ オーディエンス名 ] |
-| [!DNL Adobe Experience Platform Real-time CDP] オーディエンス | UPS | [!UICONTROL Destinations] を介して [!DNL Target] と共有される Platform Real-time CDP オーディエンス。 |  |
+| [!DNL Adobe Experience Cloud] 共有オーディエンス | AAM | 他の [!DNL Target] ソリューションの [!DNL Adobe Experience Cloud] と共有されるすべてのオーディエンス（[!DNL Adobe Audience Manager][!DNL Adobe Analytics] を介した [[!DNL Experience Cloud Audience Library] や ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} など）。 | カスタム - Experience Cloud オーディエンス - [ オーディエンス名 ] |
+| [!DNL Adobe Experience Platform Real-time CDP] オーディエンス | UPS | [!DNL Target] を介して [!UICONTROL Destinations] と共有される Platform Real-time CDP オーディエンス。 |  |
 
 
 ## [!DNL Target] 機械学習アルゴリズムのブロック機能
 
 機能は機械学習アルゴリズム [!DNL Target] ブロックし、[!UICONTROL Automated Personalization] ーザーや [!UICONTROL Auto-Target] のモデルまたはアクティビティで使用されないようにすることができます。
 
-詳しくは、*[!DNL Adobe Target]開発者ガイドの [Models API （ブロックリストへの登録）の概要 ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank} を参照してください*。
+詳しくは、[ 開発者ガイドの ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank}Models API （ブロックリストへの登録）の概要 *[!DNL Adobe Target]を参照してください*。
 
 ## デバイスとモバイルデータ {#device-mobile}
 
@@ -124,5 +124,5 @@ ht-degree: 52%
 | Visitor Profile - Time in Visit Before Enter Activity | [!DNL Target] との最後のインタラクションと、現在の訪問がいつ開始されたかの違いを指定します。 この属性は、ユーザーがアクティビティに入ってスナップショットが実行されるまでの訪問／セッション期間と考えることができます。<br> 負の値は、セッションの開始と最後の更新時間が同じ [!DNL Target] 呼び出しでトリガーされた場合に発生します。 負の値は 0（ゼロ）とみなす必要があります。 | ダブル、ミリ秒 | SES_SESSION_TIME |
 | 訪問者プロファイル - 合計訪問回数 | 訪問／セッションの合計数を指定します。現在の訪問／セッションは含まれません。 | 倍精度浮動小数点数（正の整数のみ） 1、2、3 など。 | SES_TOTAL_SESSIONS |
 | Visitor Profile - Total Visits to Activity | 特定のアクティビティへの訪問数を指定します。以前の訪問がない場合、0（ゼロ）を返します。 | 倍精度浮動小数点数（正の整数のみ） 1、2、3 など。 | SES_PREVIOUS_VISIT_COUNT |
-| Visitor Profile - Total Visits to Activity with Conversion | 訪問中に少なくとも 1 つのコンバージョンがある場合の、特定のアクティビティへの訪問／セッションの数を指定します。 | ダブル | SES_CUMULATIVE_SUCCESSES |
-| Visitor Profile - Visits to Activity with No Conversion | 特定のアクティビティに対するコンバージョンがない訪問／セッションの数。この値は、コンバージョンの後に 0 にリセットされます。または、コンバージョンが発生しなかった場合、-1 になります。 | 倍精度浮動小数点数（正の整数のみ） 1、2、3 など。 | SES_SUCCESS_RECENCY |
+| 訪問者プロファイル - コンバージョンを伴うアクティビティへの総訪問数 | 訪問中に少なくとも 1 つのコンバージョンがある場合の、特定のアクティビティへの訪問／セッションの数を指定します。 | ダブル | SES_CUMULATIVE_SUCCESSES |
+| 訪問者プロファイル - コンバージョンに至らなかったアクティビティへの訪問 | 特定のアクティビティに対するコンバージョンがない訪問／セッションの数。この値は、コンバージョンの後に 0 にリセットされます。または、コンバージョンが発生しなかった場合、-1 になります。 | 倍精度浮動小数点数（正の整数のみ） 1、2、3 など。 | SES_SUCCESS_RECENCY |

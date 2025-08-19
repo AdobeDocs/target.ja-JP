@@ -7,7 +7,7 @@ exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 ## [!UICONTROL Visual Editing Helper] ブラウザー拡張機能の取得とインストール
 
-1. [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Chrome web ストアのブラウザー拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}に移動します。
+1. Chrome Web ストアの [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能に移動します ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}。
 1. **[!UICONTROL Add to Chrome]**／**[!UICONTROL Add Extension]**&#x200B;をクリックします。
 1. [!DNL Target] で VEC を開きます。
 1. この拡張機能を使用するには、VEC または QA モードで、Chrome ブラウザーのツールバーにある「[!UICONTROL Visual Editing Helper]」ブラウザー拡張機能アイコン（![Visual Editing 拡張機能アイコン](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）をクリックします。

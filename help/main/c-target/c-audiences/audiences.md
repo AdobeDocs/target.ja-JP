@@ -21,7 +21,7 @@ ht-degree: 22%
 * [ アクティビティ固有のオーディエンスを作成し ](/help/main/c-target/creating-activity-only-audience.md) ターゲット設定します
 * [ 複数のオーディエンスの結合 ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) によるアドホックオーディエンスの作成
 
-また、[!DNL Adobe Analytics] で収集したオーディエンスデータを使用して、[!DNL Target] やその他の [!DNL Adobe Experience Cloud] アプリケーションでリアルタイムのターゲティングやパーソナライゼーションを行うこともできます。 *Experience Cloudの中央インターフェイスコンポーネント [&#128279;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) ガイドの Experience Cloudオーディエンス* を参照してください。
+また、[!DNL Adobe Analytics] で収集したオーディエンスデータを使用して、[!DNL Target] やその他の [!DNL Adobe Experience Cloud] アプリケーションでリアルタイムのターゲティングやパーソナライゼーションを行うこともできます。 [Experience Cloud中央インターフェイスコンポーネント ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) ガイドの *Experience Cloud オーディエンス* を参照してください。
 
 オーディエンスには次の 2 種類があり [!DNL Target] す。
 
@@ -45,22 +45,22 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform] ソースは、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} を使用するすべての [!DNL Target] ユーザーが利用できます。 [!DNL Adobe Experience Platform] から使用可能なオーディエンスは、そのまま使用することも、[ 既存のオーディエンスと組み合わせて ](/help/main/c-target/combining-multiple-audiences.md) 使用することもできます。
+  >[!DNL Adobe Experience Platform] ソースは、[!DNL Target]Adobe Experience Platform web SDK[ を使用するすべての ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} ユーザーが利用できます。 [!DNL Adobe Experience Platform] から使用可能なオーディエンスは、そのまま使用することも、[ 既存のオーディエンスと組み合わせて ](/help/main/c-target/combining-multiple-audiences.md) 使用することもできます。
   >
-  >AEP/RTCDP （[!DNL Real-time Customer Data Platform]）で [!DNL Target] [!UICONTROL Destinations] カードを設定 [!DNL Target] るには、ユーザーのステータスが [!UICONTROL Approver] 以上である必要があります。
+  >AEP/RTCDP（[!UICONTROL Approver]）で [!DNL Target] [!DNL Target] カードを設定 [!UICONTROL Destinations] るには、ステータスが [!DNL Real-time Customer Data Platform] 以上である必要があります。
   >
   >詳しくは、[Adobe Experience Platformのオーディエンスの使用 ](#aep) を参照してください。
 
 定義済みオーディエンス（「[!UICONTROL New Visitors]」や「[!UICONTROL Returning Visitors]」など）の名前は変更できません。
 
-最初に [!DNL Experience Cloud] または [!DNL Adobe Experience Platform] で作成されたオーディエンスを使用する場合、後で [!DNL Experience Cloud] または [!DNL Adobe Experience Platform] で削除された [!DNL Target] アクティビティのオーディエンスを参照すると、[!DNL Target] でアラートが表示されます。
+最初に [!DNL Experience Cloud] または [!DNL Adobe Experience Platform] で作成されたオーディエンスを使用する場合、後で [!DNL Target] または [!DNL Target] で削除された [!DNL Experience Cloud] アクティビティのオーディエンスを参照すると、[!DNL Adobe Experience Platform] でアラートが表示されます。
 
 * [!DNL Experience Cloud] または [!DNL Adobe Experience Platform] でオーディエンスが削除された場合、[!UICONTROL Audience] リストとオーディエンスピッカーの両方に警告アイコンが表示されます。 [!DNL Target] UI のツールヒントにも、オーディエンスが [!DNL Experience Cloud] または [!DNL Adobe Experience Platform] で削除されたことが示されます。
 * 複数のオーディエンスを削除済みのオーディエンスに結合しようとした場合、または削除済みのオーディエンスを参照しているアクティビティを保存しようとした場合、警告メッセージが表示されます。
 
 カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。オーディエンスを作成する際に、アクティビティのターゲット設定に使用する属性をオーディエンスビルダーウィンドウにドラッグします。 目的の属性が表示されない場合、その属性は mbox によって呼び出されていません。 その他のカスタム mbox パラメーターは、[!UICONTROL Custom Parameters] ドロップダウンリストで選択できます。
 
-「[!UICONTROL Filters]」ボタンを使用して、ソース（[!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Experience Cloud] および [!DNL Adobe Experience Platform]）で [!UICONTROL Audiences] リストをフィルタリングします。
+「[!UICONTROL Filters]」ボタンを使用して、ソース（[!UICONTROL Audiences]、[!DNL Adobe Target]、[!DNL Adobe Target Classic] および [!DNL Experience Cloud]）で [!DNL Adobe Experience Platform] リストをフィルタリングします。
 
 ![[!UICONTROL Audiences] リストの「フィルター」オプション ](assets/filters.png)
 
@@ -76,7 +76,7 @@ ht-degree: 22%
 
 ![アクティビティ／オーディエンス定義](assets/audience_definition_list.png)
 
-次のオーディエンス定義カードにアクセスするには、アクティビティの [!UICONTROL Overview] ページで「[!UICONTROL View Details]」アイコンをクリックします。
+次のオーディエンス定義カードにアクセスするには、アクティビティの [!UICONTROL View Details] ページで「[!UICONTROL Overview]」アイコンをクリックします。
 
 ![アクティビティ／オーディエンス定義](assets/view-details-activity-overview.png)
 
@@ -121,4 +121,4 @@ Keep the following points in mind as you work with imported audiences:
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/29956?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

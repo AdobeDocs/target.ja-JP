@@ -25,12 +25,12 @@ ht-degree: 56%
 
 | タスク | 実行場所 |
 |--- |--- |
-| 1. ユーザーを追加（オプション） | [!DNL Adobe Admin Console for Enterprise] |
-| 2. ワークスペースの作成（製品プロファイル） | [!DNL Adobe Admin Console for Enterprise] |
-| 3. ユーザーグループの作成（オプション） | [!DNL Adobe Admin Console for Enterprise] |
-| 4. プロパティの作成 | [!DNL Target] UI |
+| &#x200B;1. ユーザーを追加（オプション） | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;2. ワークスペースの作成（製品プロファイル） | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;3. ユーザーグループの作成（オプション） | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;4. プロパティの作成 | [!DNL Target] UI |
 | 5:`at_property` パラメーターを含めるように実装を更新する | [!DNL Target] UI、at.js 関数または [!DNL Adobe Experience Platform] のタグ |
-| 6. 役割および権限の指定 | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;6. 役割および権限の指定 | [!DNL Adobe Admin Console for Enterprise] |
 
 [!DNL Adobe Admin Console for Enterprise] で実行するタスクの場合は、次の手順でコンソールにアクセスします。
 
@@ -77,7 +77,7 @@ ht-degree: 56%
 
    これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つことができます。
 
-1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
@@ -96,7 +96,7 @@ ht-degree: 56%
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
 1. Admin Consoleで、ページ上部の「**[!UICONTROL Users]**」タブをクリックして、新しいユーザーグループを作成するか、既存のグループを編集し **[!UICONTROL User Groups]** す。
-1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -123,7 +123,7 @@ ht-degree: 56%
 
 ## 手順 5：実装を更新して at_property パラメーターを含める {#section_9B17A59807A94712BE642942442EBBC8}
 
-[!DNL Target] のユーザー権限機能を使用するには、[!DNL Target] にヒットするすべての呼び出し（Target 呼び出し、API 呼び出しなど）に `at_property` パラメーターを追加する必要があります。
+[!DNL Target] のユーザー権限機能を使用するには、`at_property` にヒットするすべての呼び出し（Target 呼び出し、API 呼び出しなど）に [!DNL Target] パラメーターを追加する必要があります。
 
 **`at_property` パラメーターコードを取得するには：**
 
@@ -145,7 +145,7 @@ ht-degree: 56%
 
    * **[!DNL Adobe Experience Platform] 内のタグの「カスタムパラメーター」を使用：**
 
-     詳しくは、[ タグの概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ja#add-mbox-params) ドキュメントの *mbox パラメーターの追加* を参照してください。
+     詳しくは、[ タグの概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) ドキュメントの *mbox パラメーターの追加* を参照してください。
 
    * **targetPageParamsAll （）関数を使用：** 次のコードを `<head>` タグ内の at.js 参照の上に配置します。
 
@@ -159,7 +159,7 @@ ht-degree: 56%
      </script>
      ```
 
-     at.js を使用してこれを行う方法について詳しくは、[targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=ja){target=_blank} を参照してください。
+     at.js を使用してこれを行う方法について詳しくは、[targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank} を参照してください。
 
 ## 手順 6：役割と権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -210,7 +210,7 @@ ht-degree: 56%
 
 * デフォルトのワークスペースの概要を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3421733?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
 ### Adobe Targetでプロパティを作成する方法（3:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 

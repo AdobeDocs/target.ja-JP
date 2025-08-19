@@ -1,7 +1,7 @@
 ---
 keywords: recommendations;recommendations アクティビティ；条件；アルゴリズム；レコメンデーションキー；カスタムキー；industry vertical；小売；eccommerce；リード生成；b2b；金融サービス；メディア；公開
 description: Adobe [!DNL Target] [!DNL Recommendations] で条件を使用する方法を説明します。
-title: ' [!DNL Target] Recommendationsでの条件の使用方法？'
+title: In [!DNL Target] Recommendations で条件を使用する方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!UICONTROL Criteria]
 
-[!DNL Adobe Target] [!DNL Recommendations] の [!UICONTROL Criteria] は、事前に定義された訪問者の行動に基づいて、どの製品やコンテンツをレコメンデーションするかを決定するルールです。 条件は、人気のあるトレンド、訪問者の現在および過去の行動、類似の製品およびコンテンツに基づくことができます。 複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。
+[!UICONTROL Criteria] [!DNL Adobe Target] の [!DNL Recommendations] は、事前に定義された訪問者の行動に基づいて、どの製品やコンテンツをレコメンデーションするかを決定するルールです。 条件は、人気のあるトレンド、訪問者の現在および過去の行動、類似の製品およびコンテンツに基づくことができます。 複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。
 
 次の節では、条件キーと、各キーに使用できるレコメンデーションロジックの詳細について説明します。 詳しくは、リンクをクリックしてください。
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 | アルゴリズムタイプ | 使用するタイミング | 使用可能なアルゴリズム |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース *の ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) 買い物かごベース* を参照してください。 |
+| [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) の *買い物かごベース* を参照してください。 |
 | [!UICONTROL Popularity-Based] | サイト全体でのアイテムの全体的な人気度に基づいて、またはユーザーのお気に入りのカテゴリや最も多く閲覧されたカテゴリ、ブランド、ジャンルなどのアイテムの人気度に基づいて、レコメンデーションを作成します。 | <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
 | [!UICONTROL Item-Based] | ユーザーが現在表示している項目または最近表示した項目に類似した項目を見つけることに基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
 | [!UICONTROL User-Based] | ユーザーの行動に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
@@ -78,4 +78,4 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->[!UICONTROL Algorithm Usage] 機能は現在、[!DNL Recommendations] アクティビティでのみサポートされています。 この機能は、現在、（オファーとしてのレコメンデーション [ を含む [!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Experience Targeting] （XT）アクティビティではサポートされてい ](/help/main/c-recommendations/recommendations-as-an-offer.md) せん。
+>[!UICONTROL Algorithm Usage] 機能は現在、[!DNL Recommendations] アクティビティでのみサポートされています。 この機能は、現在、（オファーとしてのレコメンデーション [!UICONTROL A/B Test] を含む [!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]、[!UICONTROL Experience Targeting] および [ （XT）アクティビティではサポートされてい ](/help/main/c-recommendations/recommendations-as-an-offer.md) せん。

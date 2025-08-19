@@ -1,6 +1,6 @@
 ---
 keywords: qa、server side、server- side、preview、リンクのプレビュー
-description: サーバーサイド配信でAdobe [!DNL Target] QA URL を使用して、変更されないプレビューリンク、オプションのオーディエンスのターゲット設定、ライブアクティビティデータからセグメント化されたままの QA レポートで、簡単にエンドツーエンドのアクティビティ QA を実行する方法を説明します。
+description: Adobe [!DNL Target] QA URL をサーバーサイド配信で使用して、変更されないプレビューリンク、オプションのオーディエンスのターゲット設定、ライブアクティビティデータからセグメント化されたままの QA レポートで、簡単なエンドツーエンドのアクティビティ QA を実行する方法を説明します。
 title: 使用アクティビティ QA をサーバーサイド配信で実行できますか？
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc

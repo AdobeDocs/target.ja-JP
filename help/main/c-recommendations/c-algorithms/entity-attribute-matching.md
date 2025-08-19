@@ -1,7 +1,7 @@
 ---
 keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；動的；動的フィルタリング；動的；エンティティ属性のマッチング
 description: 潜在的な項目のプールを  [!DNL Target Recommendations]  ユーザーがやり取りした特定の項目と比較することで、で動的にフィルタリングする方法を説明します。
-title: Recommendations アクティビティでエンティティ属性のマッチングでフィルタリングするにはどうすればよいですか？
+title: Recommendations アクティビティでエンティティ属性のマッチングでフィルタリングするにはどうすればよいですか。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
@@ -56,7 +56,7 @@ Brand A 製品を使用するページにアクセスすると、ページは `e
 
 ### より高価な製品へのアップセル
 
-例えば、あなたがアパレル小売業者で、ユーザーに対して価格を高く、したがって、より収益性の高い商品を検討するよう促すとします。 「次に等しい」演算子と「次の範囲内に等しい」演算子を使用して、同じカテゴリおよび同じブランドの高価な商品を宣伝できます。 例えば、靴小売業者は、次のサンプルに示すように、ランニングシューズを見ている訪問者をアップセルする取り組みの中で、より高価なランニングシューズを宣伝することができます。
+アパレルretailerで、ユーザーに対して、より高価で、したがって、より収益性の高い商品を検討するように促したいとします。 「次に等しい」演算子と「次の範囲内に等しい」演算子を使用して、同じカテゴリおよび同じブランドの高価な商品を宣伝できます。 例えば、靴retailerでは、次のサンプルに示すように、ランニングシューズを見ている訪問者にアップセルする取り組みとして、より高価なランニングシューズを宣伝できます。
 
 ![ アップセル ](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 

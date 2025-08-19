@@ -1,7 +1,7 @@
 ---
 keywords: recommendations デザイン;デザインの作成;デザインのコピー
-description: デフォルトのデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成することにより、Adobeの  [!DNL Target] Recommendations デザインを作成する方法を説明します。
-title: Recommendationsでデザインを作成するにはどうすればよいですか？
+description: デフォルトのデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成することで、Adobe [!DNL Target] Recommendations のデザインを作成する方法を説明します。
+title: Recommendations でデザインを作成するにはどうすればよいですか。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
@@ -61,7 +61,7 @@ ht-degree: 22%
 
    レコメンデーションデザインでは、オープンソースの [!DNL Velocity] デザイン言語を使用します。 [!DNL Velocity] について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) および [ を使用してデザインをカスタマイズ  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) を参照してください。
 
-   デザインは HTML または HTML 以外にすることができます。デフォルトでは、web 環境でのクリックの追跡を可能にするために、HTMLデザインは `<div>` タグでラップされます。 HTML以外のデザインは、クリックの追跡が不可能な web 以外の環境向けです。 HTML以外のコードを使用するには、[!UICONTROL HTML Design] 切り替えスイッチを「オフ」にスライドします。
+   デザインは HTML または HTML 以外にすることができます。デフォルトでは、HTML デザインは、web 環境でのクリックの追跡を可能にするために `<div>` タグでラップされます。 HTML以外のデザインは、クリックの追跡が不可能な web 以外の環境向けです。 [!UICONTROL HTML Design] トグルを「オフ」の位置にスライドさせて、HTML以外のコードを使用します。
 
    >[!NOTE]
    >
@@ -101,7 +101,7 @@ ht-degree: 22%
 
 次の例は、フォームベースのエディターを使用してアクティビティを設定する際に JSON 応答を返す方法を示しています。
 
-1. デザインライブラリ内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC）ワークフロー内でデザインを作成しようとすると、クリックトラッキング用に `<div>` でラップされたHTMLデザイン以外は作成できません。
+1. デザインライブラリ内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC）ワークフロー内でデザインを作成しようとすると、クリックの追跡のために `<div>` でラップされたHTML デザイン以外は作成できません。
 
 1. 「HTML デザイン」オプションがオフになっていることを確認します。
 
@@ -164,7 +164,7 @@ ht-degree: 22%
    | パラメーター | 値 |
    |--- |--- |
    | `[YOUR_CLIENT_CODE]` | Target クライアントコード（/help/target/products.html#recsSettings/Recommendations API トークン/クライアントコードで使用可能）。 |
-   | `[YOUR_MBOX_NAME]` | フォームベースのRecommendationsの「locations」セクションで選択した名前（この場合は Sample_Recs_Response）。 |
+   | `[YOUR_MBOX_NAME]` | フォームベースの Recommendations の「場所」セクションで選択した名前（この場合は Sample_Recs_Response）。 |
    | `[ENTITY_ID` | カタログ内の項目の `entity.id` です。 |
    | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定時にプロパティ（Enterprise 権限の一部）を選択した場合は追加します。 |
 
@@ -320,11 +320,11 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendationsでカスタムデザインを作成（3:20） ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：Recommendations でカスタムデザインを作成（3:20） ![ 概要バッジ ](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
 * カスタムデザインの作成
 * デザインで表示変数を参照する方法を理解する
 
->[!VIDEO](https://video.tv.adobe.com/v/35340?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

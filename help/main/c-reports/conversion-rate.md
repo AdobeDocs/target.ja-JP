@@ -1,6 +1,6 @@
 ---
 keywords: ターゲット設定
-description: 各エクスペリ  [!DNL Target]  ンスのコンバージョン率、上昇率、信頼性および信頼区間をAdobeで表示および計算する方法について説明します。
+description: Adobeが各エクスペリエンスのコンバージョン率、上昇率、信頼性および信頼区間を  [!DNL Target]  示および計算する方法について説明します。
 title: コンバージョン率、上昇率および信頼性レベルを表示するにはどうすればよいですか？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
@@ -56,7 +56,7 @@ ht-degree: 49%
 
  for Target（A4T）でオフライン計算を実行することはできますが、[!DNL Analytics]Analytics でのデータエクスポートを含む手順が必要になります。詳しくは、以下の「Analytics for Target（A4T）でのオフライン計算の実行」を参照してください。
 
-### 信頼性 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### 信頼 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
 表示されるエクスペリエンスまたはオファーの信頼性は、null 仮説が true の場合（本質的に、そのエクスペリエンスまたはオファーとコントロールエクスペリエンス/オファーのコンバージョン率に違いがない場合）、実際に観察された結果よりも極端でない結果を取得する確率（パーセントで表現）です。 p 値に関しては、表示されるこの信頼性は、1 - p 値です。 より簡単に言えば、コントロールのオファー/エクスペリエンスとコントロール以外のオファー/エクスペリエンスのコンバージョン率が等しいという仮定の下では、信頼性が高くなるほどデータの一貫性が低くなります。
 
@@ -108,7 +108,7 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
 1. **[!UICONTROL Tools]**／**[!UICONTROL Data Warehouse]**&#x200B;をクリックします。
 1. 「**[!UICONTROL Data Warehouse Request]**」タブで、フィールドに入力します。
 
-   各フィールドについて詳しくは、[Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=ja) の「Data Warehouse の説明」を参照してください。
+   各フィールドについて詳しくは、[Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html) の「Data Warehouse の説明」を参照してください。
 
    | フィールド | 手順 |
    |--- |--- |
@@ -117,7 +117,7 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
    | 選択可能なセグメント | 必要に応じてセグメントを適用します。 |
    | 分類 | 目的のディメンションを選択します。「標準」は標準（OOTB）であり、「カスタム」には eVar および prop が含まれています。 「Experience Cloud訪問者 ID」ではなく、訪問者 ID レベルの情報が必要な場合は、「訪問者 ID」を使用することをお勧めします。<ul><li>訪問者 ID は、Analytics で使用される最終的な ID で、AID（既存の顧客）か MID（新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客）になります。</li><li>Experience Cloud 訪問者 ID が設定されるのは、新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客のみです。</li></ul> |
    | 指標 | 目的の指標を選択します。「標準」は OOTB で、「カスタム」にはカスタムイベントが含まれます。 |
-   | レポートプレビュー | レポートのスケジュールを設定する前に設定を確認します。<br>![Data Warehouse2](/help/main/c-reports/assets/datawarehouse2.png) |
+   | レポートプレビュー | レポートのスケジュールを設定する前に設定を確認します。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | 配信の予定 | ファイルの配信先のメールアドレスを入力し、ファイルに名前を付けて、「[!UICONTROL Send Immediately]」を選択します。<br> メモ：ファイルは、FTP の [!UICONTROL Advanced Delivery Options]<br>![ スケジュール配信 ](/help/main/c-reports/assets/datawarehouse3.png) で配信できます。 |
 
 1. **[!UICONTROL Request this Report]** をクリックします。
@@ -128,8 +128,8 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
 
 [!DNL Data Warehouse] について詳しくは、[!DNL Analytics] のヘルプドキュメントの以下のリンクを参照してください。
 
-* [Data Warehouseリクエストの作成 ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ja)
-* [Data Warehouseのベストプラクティス ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ja)
+* [Data Warehouse リクエストの作成 ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouseのベストプラクティス ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## カウント手法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -176,7 +176,7 @@ A/B テストは、コントロールバリアント（エクスペリエンス�
 
 ### 詳しくは、
 
-オンライン A/B テストを実行すると、各ユーザー/訪問者が単一のバリアントにランダムに割り当てられます。 次に、関心のあるビジネス指標（コンバージョン、注文、売上高など）を測定します。 各バリアントの訪問者の場合。 使用する統計的テストでは、平均ビジネス指標（コンバージョン率、ユーザーあたりの注文数、ユーザーあたりの売上高など）が仮説としてテストされます が、コントロールと指定の代替バリアントに等しい。
+オンライン A/B テストを実行すると、各ユーザー/訪問者が単一のバリアントにランダムに割り当てられます。 次に、各バリアントの訪問者に関する関心のあるビジネス指標（コンバージョン、注文、売上高など）を測定します。 使用する統計的テストでは、平均ビジネス指標（コンバージョン率、ユーザーあたりの注文数、ユーザーあたりの売上高など）がコントロールと特定の代替バリアントに等しいという仮説をテストします。
 
 ビジネス指標自体は何らかの任意の分布に従って分布する可能性がありますが、この指標の平均の分布（各バリアント内）は、[ 中央制限定理 ](https://en.wikipedia.org/wiki/Central_limit_theorem) を介して通常の分布に収束する必要があります。 平均のサンプリング分布が正常に収束する速度は保証されませんが、オンラインテストでの訪問者の規模を考慮すると、通常、この条件は達成されます。
 

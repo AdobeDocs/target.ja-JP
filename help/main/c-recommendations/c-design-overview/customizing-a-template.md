@@ -1,6 +1,6 @@
 ---
 keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
-description: オープンソース  [!DNL Velocity]  デザイン言語を使用して、 [!DNL Target] Recommendationsのレコメンデーションデザインをカスタマイズする方法を説明します。
+description: オープンソースのデザイン言語を使用して、 [!DNL Velocity] Recommendations のレコメンデーションデザインをカスタマイズする方法  [!DNL Target]  説明します。
 title: Velocity を使用してデザインをカスタマイズする方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
@@ -20,9 +20,9 @@ ht-degree: 62%
 
 [!DNL Velocity] について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) を参照してください。
 
-レコメンデーショ [!DNL Velocity] デザインには、すべてのロジック、構文などを使用できます。 つまり、JavaScriptではなく [!DNL Velocity] を使用して、*for* ループ、*if* ステートメント、その他のコードを作成できます。
+レコメンデーショ [!DNL Velocity] デザインには、すべてのロジック、構文などを使用できます。 つまり、JavaScriptではなく *を使用して、* for *ループ、* if[!DNL Velocity] ステートメント、その他のコードを作成できます。
 
-`productPage` mbox または CSV アップロードで [!DNL Recommendations] に送信されたエンティティ属性は、「複数値」属性を除き、デザインに表示できます。 任意のタイプの属性を送信できます。ただし、[!DNL Target] は「複数値」タイプの属性を、テンプレートが繰り返し処理できる配列として渡しません（例：`entityN.categoriesList`）。
+[!DNL Recommendations] mbox または CSV アップロードで `productPage` に送信されたエンティティ属性は、「複数値」属性を除き、デザインに表示できます。 任意のタイプの属性を送信できます。ただし、[!DNL Target] は「複数値」タイプの属性を、テンプレートが繰り返し処理できる配列として渡しません（例：`entityN.categoriesList`）。
 
 これらの値は次の構文で参照されます。
 
@@ -240,7 +240,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## テンプレートサイズのカスタマイズと空白値の確認 {#default}
 
-エンティティ表示の動的サイズ変更を制御する [!DNL Velocity] スクリプトを使用して、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空のHTML要素が作成されるのを回避します。 このスクリプトは、バックアップのレコメンデーションが理解できず、[!UICONTROL Partial Template Rendering] が有効になっているシナリオに最適です。
+エンティティ表示の動的サイズ変更を制御する [!DNL Velocity] スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空のHTML要素が作成されるのを回避します。 このスクリプトは、バックアップのレコメンデーションが理解できず、[!UICONTROL Partial Template Rendering] が有効になっているシナリオに最適です。
 
 以下の HTML スニペットは、4x2 デフォルトデザインの既存の HTML 部分を置き換えます（ここでは、簡潔にするために CSS は含まれません）。
 

@@ -1,6 +1,6 @@
 ---
 keywords: エクスペリエンス;コントロール;Automated Personalization;自動ターゲット
-description: ' [!DNL Adobe Target] で [!UICONTROL Automated Personalization] （AP）または [!UICONTROL Auto-Target] のアクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択する方法を説明します。'
+description: '[!UICONTROL Automated Personalization] で [!UICONTROL Auto-Target] （AP）または  [!DNL Adobe Target] のアクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択する方法を説明します。'
 title: 特定のエクスペリエンスを [!UICONTROL Automated Personalization] アクティビティのコントロールとして使用するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization, Auto-Target
@@ -29,7 +29,7 @@ ht-degree: 43%
 
 ## 特定のエクスペリエンスのコントロールとしての指定
 
-1. [&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) [!UICONTROL Automated Personalization] アクティビティまたは [[!UICONTROL Auto-Target] のアクティビティを作成または編集する際に ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 必要に応じ  エクスペリエンスを設定します。
+1. [[!UICONTROL Automated Personalization] アクティビティまたは ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) のアクティビティを作成または編集する際に [[!UICONTROL Auto-Target] 必要に応じ ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) エクスペリエンスを設定します。
 1. [!UICONTROL Targeting] ページ（3 つのパートから成るガイド付きワークフローのステップ 2）で、コントロールとして目的のエクスペリエンスを選択します。
 1. コントロールエクスペリエンスおよび他のエクスペリエンスの目的のトラフィック配分を指定します。
 

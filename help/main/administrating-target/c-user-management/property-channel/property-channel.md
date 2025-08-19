@@ -27,9 +27,9 @@ ht-degree: 49%
 >
 >[!DNL Target] の実装には、任意のバージョンの at.js または [!DNL Adobe Experience Platform Web SDK] を使用できます。
 
-保有しているライセンスが Standard か Premium かどうかは、[!DNL Target] の UI 上部の「[!UICONTROL Administration]」リンクをクリックすることで確認できます。
+保有しているライセンスが Standard か Premium かどうかは、[!UICONTROL Administration] の UI 上部の「[!DNL Target]」リンクをクリックすることで確認できます。
 
-* **[!DNL Target Standard]のお客様**:「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示される場合（[!UICONTROL Properties] タブではない）、組織のライセンスは [!DNL Target Standard] です。 [!DNL Adobe Admin Console][!DNL Target Standard] ユーザーを追加したり、権限を割り当てたりする際は、[ ユーザー ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) の手順に従ってください。
+* **[!DNL Target Standard]のお客様**:「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示される場合（[!UICONTROL Properties] タブではない）、組織のライセンスは [!DNL Target Standard] です。 [!DNL Target Standard][ ユーザーを追加したり、権限を割り当てたりする際は、](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) ユーザー [!DNL Adobe Admin Console] の手順に従ってください。
 
 * **[!DNL Target Premium]顧客**:「[!UICONTROL Properties]」タブ（[!UICONTROL Administration > Properties]）と「[!UICONTROL Users]」タブが表示された場合、組織のライセンスは [!DNL Target Premium] です。 [!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
@@ -57,7 +57,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ワークスペースを使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。多くの点で、ワークスペースは [!DNL Adobe Analytics] のレポートスイートに似ています。
 
-メモ：ワークスペースは、[!DNL Adobe Admin Console for Enterprise] では [!UICONTROL Product Profiles] と呼ばれます。
+メモ：ワークスペースは、[!UICONTROL Product Profiles] では [!DNL Adobe Admin Console for Enterprise] と呼ばれます。
 
 多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
@@ -196,9 +196,9 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 * **アクティビティの作成：** アクティビティを作成すると、現在選択しているワークスペースに作成されます。 最初のダイアログボックスにチャネル選択オプションが表示され、アクティビティに必要なチャネル（Web、モバイルアプリ、メール、その他/API）を選択できます。
 
 * **オーディエンスの作成：** オーディエンスを作成すると、現在選択しているワークスペースに作成されます。
-* **オーディエンスリスト：** オーディ [!UICONTROL Audiences] ンスページの [!UICONTROL More Actions]/[!DNL Move] オプションを使用して、ワークスペース間でオーディエンスを移動できます。
+* **オーディエンスリスト：** オーディ [!UICONTROL More Actions] ンスページの [!DNL Move]/[!UICONTROL Audiences] オプションを使用して、ワークスペース間でオーディエンスを移動できます。
 * **オファーの作成：** オファーを作成すると、現在選択しているワークスペースに作成されます。
-* **プロパティページ（管理/プロパティ）:**&#x200B;[!UICONTROL Search] のボックスを使用して、[!UICONTROL Property] リストを検索できます。
+* **プロパティページ（管理/プロパティ）:**[!UICONTROL Search] のボックスを使用して、[!UICONTROL Property] リストを検索できます。
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -216,7 +216,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
    * Visual Experience Composer
    * レポート
-   * Scene7 の設定
+   * Scene7 設定
    * 実装
    * プロパティ
    * ホスト
@@ -266,7 +266,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ### オーディエンスを別のワークスペースに移動させることはできますか？ {#move-audience}
 
-はい。[!UICONTROL Audiences] のページで「[!UICONTROL More Actions]」オプションを使用して、オーディエンスをワークスペース間で移動できます。
+はい。[!UICONTROL More Actions] のページで「[!UICONTROL Audiences]」オプションを使用して、オーディエンスをワークスペース間で移動できます。
 
 1. **[!UICONTROL More Actions]** ボタン（3 つの省略記号）をクリックし、「**[!UICONTROL Move]**」をクリックします。
 
@@ -282,7 +282,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ### プロパティが割り当てられているにもかかわらず、プロパティが関連付けられていないことを示すエラーメッセージが表示されるのはなぜですか。
 
-[!DNL Adobe Experience Platform] のタグを使用して [!DNL Target] を実装し、アクティビティにプロパティが関連付けられていないことを示すエラーメッセージが表示された場合は、`targetPageParams` 関数で `at_property` パラメーターを渡します。
+[!DNL Target] のタグを使用して [!DNL Adobe Experience Platform] を実装し、アクティビティにプロパティが関連付けられていないことを示すエラーメッセージが表示された場合は、`at_property` 関数で `targetPageParams` パラメーターを渡します。
 
 ### リダイレクトされたページとアクティビティ URL が異なるプロパティに属している場合、クリック追跡コンバージョンは記録されますか？
 
@@ -310,7 +310,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 * プロパティとワークスペースの概念のほか、これらの違いとグループ分けを生かしてユーザーのアクセスレベルを管理する方法
 * 組織に役立つ様々なプロパティの例
 
->[!VIDEO](https://video.tv.adobe.com/v/3421739?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### 業務時間：[!DNL Target] Premium Workspaces
 

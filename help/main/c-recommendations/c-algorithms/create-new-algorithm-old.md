@@ -1,7 +1,7 @@
 ---
 keywords: 条件；アルゴリズム；業界の垂直方向；ページタイプ；レコメンデーションキー；レコメンデーションロジック；ロジック；データ範囲；ルックバックウィンドウ；行動データソース；部分的な設計；バックアップレコメンデーション；インクルージョンルール；属性の重み付け；現在のカテゴリ；カスタム属性；最後に購入された項目；最後に表示された項目；最も多く表示された項目；最も多く表示された項目；人気度；最後に購入された項目；最に表示されたされた；お気に入入り；最近表示
 description: Adobe Recommendations アクティビティのコンテンツを制御する条件を作成して、アクティビティに最も適したレコメンデーションを表示する方法について説明します。
-title: Recommendationsで条件を作成するにはどうすればよいですか？
+title: Recommendations で条件を作成するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
@@ -23,10 +23,10 @@ ht-degree: 50%
 [!UICONTROL Create New Criteria] 画面に到達する方法は複数あります。 一部の画面オプションは、画面の表示方法によって異なります。
 
 * **[!UICONTROL Recommendations]** / **[!UICONTROL Criteria]** ライブラリ画面で、**[!UICONTROL Create Criteria]** / **[!UICONTROL Create Criteria]** をクリックします。 ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
-* [!UICONTROL Visual Experience Composer] （VEC）を使用して [!DNL Recommendations] アクティビティを作成している場合は、ページで要素を選択して [!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before] または [!UICONTROL Insert Recommendations After] をクリックすると、すぐに [!UICONTROL Select Criteria] の画面が表示されます。 使用可能な条件を選択するか、「**[!UICONTROL Create Criteria]**」をクリックします。 新しい条件を作成する場合は、他の [!DNL Recommendations] アクティビティで使用する条件を保存するオプションがあります。 詳しくは、[Recommendations アクティビティの作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) を参照してください。
+* [!DNL Recommendations] （VEC）を使用して [!UICONTROL Visual Experience Composer] アクティビティを作成している場合は、ページで要素を選択して [!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations] または [!UICONTROL Insert Recommendations Before] をクリックすると、すぐに [!UICONTROL Insert Recommendations After] の画面が表示されます。 使用可能な条件を選択するか、「**[!UICONTROL Create Criteria]**」をクリックします。 新しい条件を作成する場合は、他の [!DNL Recommendations] アクティビティで使用する条件を保存するオプションがあります。 詳しくは、[Recommendations アクティビティの作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) を参照してください。
 * [!DNL Recommendations] アクティビティを編集する場合は、ページの [!UICONTROL Recommendations Location] ボックスをクリックし、「**[!UICONTROL Change Criteria]**」を選択します。 [!UICONTROL Select Criteria] の画面で、「**[!UICONTROL Create Criteria]**」をクリックします。 他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
 
-以下の手順では、最初のメソッド（**[!UICONTROL Recommendations]** / **[!UICONTROL Criteria]** ライブラリ画面）を使用して [!UICONTROL Create New Criteria] ール画面にアクセスすることを想定しています。
+以下の手順では、最初のメソッド（[!UICONTROL Create New Criteria] / **[!UICONTROL Recommendations]** ライブラリ画面）を使用して **[!UICONTROL Criteria]** ール画面にアクセスすることを想定しています。
 
 1. **[!UICONTROL Recommendations]**／**[!UICONTROL Criteria]**&#x200B;をクリックします。
 
@@ -94,7 +94,7 @@ ht-degree: 50%
 
 ## [!UICONTROL Data Source] {#data-source}
 
-1. [!UICONTROL Adobe Target] または [!UICONTROL Analytics] から目的の **[!UICONTROL Behavioral Data Source]** を選択します。
+1. **[!UICONTROL Behavioral Data Source]** または [!UICONTROL Adobe Target] から目的の [!UICONTROL Analytics] を選択します。
 
    >[!NOTE]
    >
@@ -110,7 +110,7 @@ ht-degree: 50%
    * **新しい条件または既に使用可能なレポートスイートを使用して編集した条件**：新しい条件を作成したり既存の条件を編集したりする場合、選択されたレポートスイートが選択されたデータ範囲以下のデータ範囲で既に [!DNL Target Recommendations] で使用されていれば、データは即座に使用でき、1 回限りの設定は必要ありません。この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
    * **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、[!UICONTROL Viewed Affinity] のレコメンデーションでは、ユーザーが製品を閲覧すると、製品ビューのトラッキングコールがにリアルタイムに近い [!DNL Analytics] で渡されます。 [!DNL Analytics] データが翌日早くに [!DNL Target] にプッシュされ、[!DNL Target] が 12 時間以内にアルゴリズムを実行します。
 
-   詳しくは、[Target RecommendationsでAdobe Analyticsを使用する ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) を参照してください。
+   詳しくは、[Adobe Analyticsを Target Recommendations と併用する ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) を参照してください。
 
 1. **[!UICONTROL Lookback Window]** を設定して、表示するレコメンデーションを決定する際に使用できる、過去のユーザー行動データの時間範囲を決定します。 このオプションは、類似属性とカスタムアルゴリズムを持つ項目を除く、すべてのアルゴリズムで使用できます。
 
@@ -124,7 +124,7 @@ ht-degree: 50%
 
    | ルックバックウィンドウオプション | 更新された頻度（ホバーしたときに表示） | サポートされるアルゴリズム |
    | --- | --- | --- |
-   | 6 時間 | アルゴリズムは 3～6 時間ごとに実行されます | 選択した [!UICONTROL Behavioral Data Source] が [!DNL Adobe Target] の場合の [!UICONTROL Popularity-Based] アルゴリズム |
+   | 6 時間 | アルゴリズムは 3～6 時間ごとに実行されます | 選択した [!UICONTROL Popularity-Based] が [!UICONTROL Behavioral Data Source] の場合の [!DNL Adobe Target] アルゴリズム |
    | 1 日 | アルゴリズムは 12 ～ 24 時間ごとに実行されます | [!UICONTROL Popularity-Based] アルゴリズム |
    | 2 日 | アルゴリズムは 12 ～ 24 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
    | 1 週間 | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
@@ -267,7 +267,7 @@ ht-degree: 50%
 
 新しい [!UICONTROL Recommendations] アクティビティを作成する場合、または既存のアクティビティを編集する場合、「**[!UICONTROL Save criteria for later]**」チェックボックスはデフォルトで選択されています。 他のアクティビティで条件を使用したくない場合、保存する前にチェックボックスをオフにします。
 
-## トレーニングビデオ：Recommendationsで条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations で条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
@@ -275,4 +275,4 @@ ht-degree: 50%
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/35341?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

@@ -1,6 +1,6 @@
 ---
 keywords: A/B;アクティビティ指標;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
-description: 訪問が成功したタイミング（[!UICONTROL Conversion]、[!UICONTROL Revenue]、[!UICONTROL Engagement] など）を判断するための  [!DNL Adobe Target] A/B アクティビティの指標を指定する方法を説明します。
+description: 訪問が成功したタイミング（ [!DNL Adobe Target] 、[!UICONTROL Conversion]、[!UICONTROL Revenue] など）を判断するための [!UICONTROL Engagement]A/B アクティビティの指標を指定する方法を説明します。
 title: A/B アクティビティで目標指標を設定するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
@@ -17,7 +17,7 @@ ht-degree: 62%
 
 成功指標について詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
-1. **[!UICONTROL Goals & Settings]** のページの「**[!UICONTROL Reporting Settings]**」セクションで、[ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を選択します
+1. **[!UICONTROL Reporting Settings]** のページの「**[!UICONTROL Goals & Settings]**」セクションで、[ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を選択します
 
    ![成功指標を選択](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 

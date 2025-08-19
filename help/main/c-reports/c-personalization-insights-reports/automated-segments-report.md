@@ -8,13 +8,13 @@ exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
 # [!UICONTROL Automated Segments] レポート
 
-[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティのユーザーが使用できる 2 つの特殊なレポートの 1 つである [!UICONTROL Automated Segments] レポートに関する情報です。
+[!UICONTROL Automated Segments] （AP）および [!UICONTROL Automated Personalization] （AT）アクティビティのユーザーが使用できる 2 つの特殊なレポートの 1 つである [!UICONTROL Auto-Target] レポートに関する情報です。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 59%
 >
 >* [!UICONTROL Personalization Insights] レポートは、コンバージョン最適化目標を使用する AP アクティビティと AT アクティビティでのみ使用できます。 アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 >
->* [!UICONTROL Personalization Insights] レポートは、「[!UICONTROL Report Metric]」ドロップダウンリストから [!UICONTROL Primary Goal] が選択されている場合にのみ使用できます。
+>* [!UICONTROL Personalization Insights] レポートは、「[!UICONTROL Primary Goal]」ドロップダウンリストから [!UICONTROL Report Metric] が選択されている場合にのみ使用できます。
 >
 >* [!UICONTROL Personalization Insights] レポートは、[ デフォルト環境 ](/help/main/administrating-target/hosts.md) でのみサポートされます。
 >
@@ -40,7 +40,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. **[!UICONTROL Reports]** をクリックします。
 
-   アクティビティのパフォーマンスに関する情報を提供する [&#128279;](/help/main/c-reports/personalization-reports/reports-ap.md)0&rbrace;Automated Personalizationの概要 [ 自動ターゲットの概要 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが、最初の画面アイコンで表示されます。 2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。 自動ターゲットでは、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフ アイコンがあります。
+   アクティビティのパフォーマンスに関する情報を提供する [0}Automated Personalizationの概要 ](/help/main/c-reports/personalization-reports/reports-ap.md) 自動ターゲットの概要 [ レポートが、最初の画面アイコンで表示されます。 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。 自動ターゲットでは、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフ アイコンがあります。
 
    >[!IMPORTANT]
    >
@@ -50,7 +50,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. 目的の日付範囲を選択します。
 
-   [!UICONTROL Summary] レポート（パフォーマンスレポート）とは異なり、[!UICONTROL Automated Segments] を含む [!UICONTROL Personalization Insights] は、15 日、30 日および 60 日の固定日付範囲でのみ使用できます。 これらの固定日付範囲を使用 [!UICONTROL Personalization Insights] ると、十分な範囲のデータを使用して、アクティビティの短時間のみ有効なパターンからインサイトを導き出す可能性を低くすることができます。 日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「スタート」が灰色表示になっていることがわかります。 開始日は、選択した終了日と期間に基づいて自動的に変わります。
+   [!UICONTROL Summary] レポート（パフォーマンスレポート）とは異なり、[!UICONTROL Personalization Insights] を含む [!UICONTROL Automated Segments] は、15 日、30 日および 60 日の固定日付範囲でのみ使用できます。 これらの固定日付範囲を使用 [!UICONTROL Personalization Insights] ると、十分な範囲のデータを使用して、アクティビティの短時間のみ有効なパターンからインサイトを導き出す可能性を低くすることができます。 日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「スタート」が灰色表示になっていることがわかります。 開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
    使用可能な固定日付範囲には、「[!UICONTROL Preset Date Range]」ドロップダウンリストからアクセスできます。
 
@@ -96,13 +96,13 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 * アクティビティをアクティブ化してから 15 日が経過していません。 アクティビティを開始してから 15 日以上経過するまで、自動セグメントレポートと重要な属性レポートは使用できません。この初期期間中は、これらのレポートにアクセスできません。また、自動セグメントアイコンと重要な属性アイコンをクリックすることもできません。
 * 指定した期間中、アクティビティに十分なトラフィックがありませんでした。15 日が経過したら、パーソナライゼーションモデルを構築できるだけのパーソナライズされた十分なトラフィックがアクティビティにあると仮定して、自動セグメントレポートと重要な属性レポートを使用できるようになります。
-* お客様のアクティビティに売上高最適化目標があります。現在、[!UICONTROL Personalization Insights] は、コンバージョンの最適化の目標アクティビティでのみ使用できます。 Adobeは、今後のリリースで、売上高の最適化の目標アクティビティに対するサポートを追加する予定です。
+* お客様のアクティビティに売上高最適化目標があります。現在、[!UICONTROL Personalization Insights] は、コンバージョンの最適化の目標アクティビティでのみ使用できます。 Adobeは、将来のリリースで、売上高の最適化の目標アクティビティのサポートを追加する予定です。
 
 **属性とは何ですか？**
 
 属性は、訪問者または訪問者の特定の訪問に関する情報で、トラフィックのパーソナライズ方法を知るためにパーソナライゼーションアルゴリズムで使用されます。例えば、ブラウザータイプ、場所、訪問時刻などが属性になります。
 
-[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。Target のパーソナライゼーションモデルで使用する新しい属性を Target にアップロードする方法について詳しくは、[Target にデータを取得する方法 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} を参照してください。
+[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、[データを Target に送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}を参照してください。
 
 **自動セグメントとは何ですか？**
 
@@ -138,7 +138,7 @@ Personalization Insights レポート（[!UICONTROL Automated Segments] と [!UI
 
 **[!UICONTROL Personalization Insights] はどのように作成されますか？**
 
-[!UICONTROL Personalization Insights] は、MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobe特許出願中の手法を使用して作成されます。 MAGIX の詳細については、[arXiv.org web サイト ](https://arxiv.org/abs/1706.07160) に公開されているAdobe研究チームの論文を参照してください。
+MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許申請済みの手法を使用して [!UICONTROL Personalization Insights] ークフローを作成します。 MAGIX について詳しくは、[arXiv.org web サイト ](https://arxiv.org/abs/1706.07160) でAdobe リサーチチームが公開している論文を参照してください。
 
 **[!UICONTROL Automated Segments] レポートの合計訪問者トラフィックデータが、AP または AT の概要/パフォーマンスレポートと一致しないのはなぜですか？**
 
@@ -150,7 +150,7 @@ Personalization Insights レポート（[!UICONTROL Automated Segments] と [!UI
 
 **収益ベースのモデリング目標/メイン目標に [!UICONTROL Personalization Insights] を使用できますか？**
 
-現時点では、[!UICONTROL Personalization Insights] はコンバージョンの最適化目標アクティビティでのみ使用できます。 Adobeは、今後のリリースで、売上高の最適化の目標アクティビティに対するサポートを追加する予定です。
+現時点では、[!UICONTROL Personalization Insights] はコンバージョンの最適化目標アクティビティでのみ使用できます。 Adobeは、将来のリリースで、売上高の最適化の目標アクティビティのサポートを追加する予定です。
 
 **パーソナライゼーションインサイトの情報を活用するには、他にどのような方法がありますか？**
 

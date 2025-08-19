@@ -20,11 +20,11 @@ ht-degree: 11%
 
 [!UICONTROL Traffic Estimator] は、予測されるページインプレッション数とページの一般的なコンバージョン率を比較することにより、パーソナライズされたモデルを生成できるだけのトラフィックがあるかどうかを判断します。 アクティビティの成功のためには、パーソナライズされたコンテンツがアクティビティ期間の 50％以内または 14 日以内（どちらか短い方）に準備されるようなサンプルサイズにするのが理想的です。このプロセスでは、パーソナライズされたコンテンツを取得し、配信するコンテンツを学習するのに十分な時間がかかります。
 
-パーソナライゼーションアルゴリズム [!DNL Target] 作成されるまで、エクスペリエンスがランダムに提供されることに注意してください。 各オファーの横にあるチェックマークアイコンは、そのオファーのモデルの準備が整い、パーソナライズされ [!DNL Target] コンテンツの配信を開始できるタイミングを示します。 上昇率はモデルの準備が整った後にのみ期待されるので、視覚的な表示によって適切な期待値を設定できます。 [!UICONTROL Visual Experience Composer] （VEC）の [!UICONTROL Traffic Estimator] を使用して、モデルの準備が整ったタイミングのガイドラインを取得します。
+パーソナライゼーションアルゴリズム [!DNL Target] 作成されるまで、エクスペリエンスがランダムに提供されることに注意してください。 各オファーの横にあるチェックマークアイコンは、そのオファーのモデルの準備が整い、パーソナライズされ [!DNL Target] コンテンツの配信を開始できるタイミングを示します。 上昇率はモデルの準備が整った後にのみ期待されるので、視覚的な表示によって適切な期待値を設定できます。 [!UICONTROL Traffic Estimator] （VEC）の [!UICONTROL Visual Experience Composer] を使用して、モデルの準備が整ったタイミングのガイドラインを取得します。
 
 ## トラフィック見積もりを使用
 
-1. [!UICONTROL Automated Personalization] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Experiences] ページで、[!UICONTROL Experiences] ページの左上隅にある **[!UICONTROL Traffic]** アイコン ![ トラフィック見積もりアイコン ](/help/main/assets/icons/Gauge2.svg)）をクリックします。
+1. [!UICONTROL Experiences] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Automated Personalization] ページで、**[!UICONTROL Traffic]** ページの左上隅にある ![ アイコン ](/help/main/assets/icons/Gauge2.svg) トラフィック見積もりアイコン [!UICONTROL Experiences]）をクリックします。
 
    [!UICONTROL Traffic Estimator] が開きます。
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 
    十分なトラフィックがない場合は、次の点を考慮してください。
 
-   * [!UICONTROL Automated Personalization] の代わりに [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを使用して、1 つのエクスペリエンスのバリエーション内で、複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
+   * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) の代わりに [!UICONTROL Automated Personalization] アクティビティを使用して、1 つのエクスペリエンスのバリエーション内で、複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
    * [!UICONTROL Automated Personalization] アクティビティ内のオファーの組み合わせの数を減らします。
    * アクティビティの実行期間を長くします。
 

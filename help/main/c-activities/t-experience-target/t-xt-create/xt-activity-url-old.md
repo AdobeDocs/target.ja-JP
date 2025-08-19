@@ -1,7 +1,7 @@
 ---
 keywords: エクスペリエンスのターゲット設定；xt；アクティビティ url;url
-description: テストで使用され、[!UICONTROL Experience Targeting] アクティビティが  [!DNL Adobe Target] を使用してデザインされたときに開くページを決定する [!UICONTROL Activity URL] ールの指定方法を説明します。
-title: '[!UICONTROL Experience Targeting] （XT）アクティビティの [!UICONTROL Activity URL] とは何ですか。'
+description: テストで使用され、[!UICONTROL Activity URL] アクティビティが [!UICONTROL Experience Targeting] を使用してデザインされたときに開くページを決定する  [!DNL Adobe Target] ールの指定方法を説明します。
+title: '[!UICONTROL Activity URL] （XT）アクティビティの [!UICONTROL Experience Targeting] とは何ですか。'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -23,7 +23,7 @@ ht-degree: 39%
    >
    >デフォルトでは、VEC または [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) は、[Visual Experience Composer 設定 ](/help/main/administrating-target/visual-experience-composer-set-up.md) で指定されているページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
    >
-   >[[!DNL Target] at.js JavaScript ライブラリまたは  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja){target=_blank} を含まないサイトの URL を指定した場合、ページ要素を選択できません。
+   >[[!DNL Target] at.js JavaScript ライブラリまたは  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} を含まないサイトの URL を指定した場合、ページ要素を選択できません。
 
 1. （条件付き） VEC が開いた後に別のページを表示するには、「**[!UICONTROL Configure]**」をクリックして「**[!UICONTROL Page Delivery]**」を選択し、「[!UICONTROL URL]」フィールドで URL を指定します。
 

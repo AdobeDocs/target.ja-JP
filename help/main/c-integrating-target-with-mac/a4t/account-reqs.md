@@ -8,7 +8,7 @@ exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 35%
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-[!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com) で次のタスクを実行します：
+[!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com) で次のタスクを実行します。
 
 ### ソリューションアカウントを Adobe ID にリンクします。
 
 あなたの[!DNL Analytics]および[!DNL Target]のユーザーアカウントは Adobe ID にリンクされている必要があります。
 
-詳しくは、[ 組織とアカウントのリンク ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) を参照してください。
+詳しくは、[ 組織とアカウントのリンク ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en) を参照してください。
 
 ### Experience Cloud グループのメンバーシップを設定します。
 
 あなたは[!DNL Analytics] と [!DNL Target]にアクセスできる 1 つ以上の[!DNL Experience Cloud]グループのメンバーでなければなりません。
 
-詳しくは、[Experience Cloudユーザーと製品の管理 ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) を参照してください。
+詳しくは、[Experience Cloud ユーザーと製品の管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/admin-tool-experience-cloud) を参照してください。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -48,11 +48,11 @@ ht-degree: 35%
 
    次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
 
-   ![ 「Admin Console権限」タブ ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Admin Consoleの「権限」タブ ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. [!UICONTROL Web Services Access] グループへのアクセスを設定します。
 
-   [!DNL Analytics] を [!DNL Target] のレポートソースとして使用するには、[!DNL Analytics] の [!UICONTROL Web Services Access] グループにアクセスできる必要があります。
+   [!UICONTROL Web Services Access] を [!DNL Analytics] のレポートソースとして使用するには、[!DNL Analytics] の [!DNL Target] グループにアクセスできる必要があります。
 
 
 ## アドビ [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

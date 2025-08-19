@@ -1,6 +1,6 @@
 ---
 keywords: エンティティ;エンティティの属性;レコメンデーションへの情報の転送;行動データ, データカウンター;相対 URL の定義;在庫レベルの表示;価格の定義;利益幅の定義;カスタム属性
-description: エンティティ属性を使用して、商品またはコンテンツの情報を  [!DNL Target] Recommendationsに渡す方法を説明します。
+description: エンティティ属性を使用して、製品またはコンテンツの情報を  [!DNL Target] Recommendations に渡す方法を説明します。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 title: エンティティ属性の使用方法
 feature: Recommendations
@@ -31,7 +31,7 @@ at.js 1 を使用している場合、一般的に、ディスプレイ情報 mb
 
 >[!NOTE]
 >
->at.js 2.*x*、`mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js を使用して製品またはコンテンツの情報を [!DNL Recommendations] に渡す方法 2.*x* の場合は、[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=ja){target=_blank} を使用します。 例については、[Recommendationsの計画と実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
+>at.js 2.*x*、`mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js を使用して製品またはコンテンツの情報を [!DNL Recommendations] に渡す方法 2.*x* の場合は、[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank} を使用します。 例については、[Recommendations の計画と実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -101,7 +101,7 @@ mbox が商品ページにある場合、商品 ID とカテゴリ ID の両方�
 
 >[!NOTE]
 >
->[!UICONTROL Category] ページ内のカテゴリに基づくレコメンデーションを表示するには、その特定のレコメンデーションの表示に使用される mbox に渡せる `categoryId` は 1 つだけです。 `categoryId` の値は、[!UICONTROL Product Detail] ページで渡された `entity.categoryId` の値と完全に一致する必要があります。
+>[!UICONTROL Category] ページ内のカテゴリに基づくレコメンデーションを表示するには、その特定のレコメンデーションの表示に使用される mbox に渡せる `categoryId` は 1 つだけです。 `categoryId` の値は、`entity.categoryId` ページで渡された [!UICONTROL Product Detail] の値と完全に一致する必要があります。
 
 例：
 

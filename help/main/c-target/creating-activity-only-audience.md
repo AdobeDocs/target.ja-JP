@@ -1,6 +1,6 @@
 ---
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、アクティビティのみ、activity- only、アドホック
-description: 1 回限りのアクティビティ専用オーディエンスをAdobe [!DNL Target]  作成する方法を説明します。
+description: Adobeで 1 回限りのアクティビティ専用オーディエ  [!DNL Target]  スを作成する方法を説明します。
 title: 使用するオーディエンスを 1 回だけ作成できますか？
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75

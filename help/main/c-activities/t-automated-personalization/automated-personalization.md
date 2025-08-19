@@ -1,6 +1,6 @@
 ---
 keywords: automated personalization;ap；オーディエンス；アンサンブル；ランダムフォレスト；マルチアームバンディット；トンプソンサンプリング；ml；機械学習
-description: 高度な機械学習を使用して各訪問者にマッチするオファーの様々  [!DNL Adobe Target]  バリエーションを見つける、での [!UICONTROL Automated Personalization] （AP）アクティビティの使用方法を説明します。
+description: 高度な機械学習を使用して各訪問者にマッチするオファーの様々 [!UICONTROL Automated Personalization] バリエーションを見つける、での  [!DNL Adobe Target]  （AP）アクティビティの使用方法を説明します。
 title: '[!UICONTROL Automated Personalization] （AP）アクティビティとは'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
@@ -8,13 +8,13 @@ exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
 # [!UICONTROL Automated Personalization] （AP）
 
-[!DNL Adobe Target] の [!UICONTROL Automated Personalization] （AP）アクティビティは、オファーやメッセージを組み合わせ、高度な機械学習を使用して、個々の顧客プロファイルに基づいて各訪問者に異なるオファーのバリエーションを照合し、コンテンツをパーソナライズして上昇率を高めます。
+[!UICONTROL Automated Personalization] の [!DNL Adobe Target] （AP）アクティビティは、オファーやメッセージを組み合わせ、高度な機械学習を使用して、個々の顧客プロファイルに基づいて各訪問者に異なるオファーのバリエーションを照合し、コンテンツをパーソナライズして上昇率を高めます。
 
 >[!NOTE]
 >
@@ -22,11 +22,11 @@ ht-degree: 32%
 
 [!UICONTROL Auto-Target] と同様、[!UICONTROL Automated Personalization] は主要なデータサイエンスアンサンブル手法である [ ランダムフォレストアルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を主なパーソナライゼーションアルゴリズムとして使用して、訪問者に表示する最適なエクスペリエンスを決定します。 テストの発見フェーズでは [!UICONTROL Automated Personalization] が役立つ場合があります。 また、多様な訪問者をターゲット設定する際に、機械学習で最も効果的なコンテンツを決定する場合にも便利です。時間の経過とともに、アルゴリズムは最も効果的なコンテンツを予測し、目標を達成する可能性が最も高いコンテンツを表示できるようになります。
 
-[!UICONTROL Auto-Target] との違いについて詳 [!UICONTROL Automated Personalization] くは、[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) を参照してください。
+[!UICONTROL Automated Personalization] との違いについて詳 [!UICONTROL Auto-Target] くは、[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) を参照してください。
 
 マーケターは、サイトに 1 つのファイルを実装します。このファイルを使用すれば、任意のコンテンツを指定してクリックし、[!UICONTROL Visual Experience Composer] （VEC）を使用してその領域の追加のコンテンツオプションを視覚的に作成して選択できます。 その後は、アルゴリズムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断し、パーソナライズしたエクスペリエンスを提供します。[!UICONTROL Automated Personalization] れは訪問者行動の変更に適応できるので、設定された終了日なしで実行して、進行中の上昇率とパーソナライゼーションを提供できます。 このモードは、「常時稼動」と呼ばれることもあります。 テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという、標準的な A/B アクティビティの結果を実装する標準的な演算順序を踏まなくても、最適化による改善を具現化できます。
 
-[!UICONTROL Automated Personalization] について説明する際には、次の用語が役立ちます。
+[!UICONTROL Automated Personalization] について説明するときに役立つ用語を次に示します。
 
 | 用語 | 定義 |
 |---|---|
@@ -68,18 +68,18 @@ ht-degree: 32%
 
 CRM 情報や顧客チャーンの傾向スコアなどのオフラインデータは、パーソナライゼーションモデルを構築する際に非常に役立つ可能性があります。 [!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] のパーソナライゼーションアルゴリズムでデータを入力する方法はいくつかあります。
 
-* [mbox パラメーター ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}
-* [ プロファイルパラメーター ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}
-* [ プロファイル更新用のサーバーサイド API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}
+* [mbox パラメーター](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}
+* [プロファイルパラメーター](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}
+* [プロファイル更新のためのサーバー側 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}
 
 [!UICONTROL Automated Personalization] および [!UICONTROL Auto-Target] パーソナライゼーションアルゴリズムによって自動的に収集および使用されるデータについて詳しくは、[Automated Personalizationのデータ収集 ](/help/main/c-activities/t-automated-personalization/ap-data.md) を参照してください。
 
 ## トレーニングビデオ：アクティビティのタイプ
 
-このビデオでは、[!DNL Target] で利用できるアクティビティのタイプについて説明しています。[!UICONTROL Automated Personalization] の説明は 5:55 から始まります。
+このビデオでは、[!DNL Target] で利用できるアクティビティのタイプについて説明しています。[!UICONTROL Automated Personalization] については 5:55 から説明します。
 
 * [!DNL Adobe Target] に含まれるアクティビティタイプの説明
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

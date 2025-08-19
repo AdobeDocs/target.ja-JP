@@ -14,11 +14,11 @@ ht-degree: 39%
 
 # [!UICONTROL Auto-Target Summary report]
 
-[!DNL Adobe Target] の [!UICONTROL Auto-Target Summary] レポートの解釈方法に関する情報です。
+[!UICONTROL Auto-Target Summary] の [!DNL Adobe Target] レポートの解釈方法に関する情報です。
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target] は、[!DNL Target Premium] ソリューションの一部として利用できます。 [Target Premium ライセンス ](/help/main/c-intro/intro.md#premium) のない [!DNL Target Standard] には含まれていません。
+>[!UICONTROL Auto-Target] は、[!DNL Target Premium] ソリューションの一部として利用できます。 [!DNL Target Standard]Target Premium ライセンス [ のない ](/help/main/c-intro/intro.md#premium) には含まれていません。
 
 [!UICONTROL Auto-Target Summary] のレポートを表示するには：
 

@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # [!DNL Recommendations] アクティビティの作成
 
-[!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target] 対応ページで [!DNL Recommendations] アクティビティを直接作成したり、[!DNL Target] 内のページの一部を変更したりします。
+[!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Recommendations] 対応ページで [!DNL Target] アクティビティを直接作成したり、[!DNL Target] 内のページの一部を変更したりします。
 
 1. **[!UICONTROL Activities]**/**[!UICONTROL Create Activity]**/**[!UICONTROL Recommendations]** をクリックします。
 
@@ -73,7 +73,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、互換性のない条件をアクティビティで使用できるようにする場合は、「**[!UICONTROL Compatible]**」チェックボックスをオフにします。 Recommendationsの設定（**[!UICONTROL Recommendations]**/**[!UICONTROL Settings]**/**[!UICONTROL Filter Incompatible Criteria]**）によっては、「[!UICONTROL Compatible]」オプションが表示されない場合があります。 詳しくは、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
+   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、互換性のない条件をアクティビティで使用できるようにする場合は、「**[!UICONTROL Compatible]**」チェックボックスをオフにします。 Recommendations 設定（[!UICONTROL Compatible]/**[!UICONTROL Recommendations]**/**[!UICONTROL Settings]**）によっては、「**[!UICONTROL Filter Incompatible Criteria]**」オプションが表示されない場合があります。 詳しくは、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
    ![条件を選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -158,7 +158,7 @@ ht-degree: 52%
 
    * アクティビティをアクティブ化します。
    * アクティビティを編集します。
-   * アクティビティをExperience Cloudフィードに共有
+   * アクティビティをExperience Cloud フィードに共有
    * アクティビティの QA
    * エクスペリエンスの URL を表示します。
    * データをダウンロードします。
@@ -174,4 +174,4 @@ ht-degree: 52%
 
 ## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33952?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

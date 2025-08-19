@@ -1,6 +1,6 @@
 ---
 keywords: a4t;A4T;Target のレポートソースとしての Analytics
-description: ' [!DNL Target]  Adobe Analyticsをレポートソースとして使用するアクティビティをAdobe（A4T）で設定する方法について説明します。'
+description: Adobe Analyticsをレポートソースとして使用するAdobe [!DNL Target]  アクティビティ（A4T）を設定する方法について説明します。
 title: A4T を使用するアクティビティの作成方法
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
@@ -13,13 +13,13 @@ ht-degree: 30%
 
 # Analytics をレポートソースとして使用するアクティビティの作成
 
-[!DNL Adobe Analytics] をレポートソース（A4T）として使用する [!DNL Adobe Target] うに、のアクティビティを設定できます。
+[!DNL Adobe Target] をレポートソース（A4T）として使用する [!DNL Adobe Analytics] うに、のアクティビティを設定できます。
 
 [!DNL Analytics] をレポートソースとして使用するアクティビティを設定する前に、訪問者あたりの売上高（RPV）の向上や買い物かごでのクリック数の増加など、アクティビティの目標を確立します。 アクティビティの最終的な成功指標を選択します。[!DNL Analytics] の任意の時点で追加の指標を選択できますが、このテストで影響を受ける特定の指標を指定する必要があります。
 
 ## アクティビティの作成
 
-[!DNL Analytics] をレポートソースとして使用する [!DNL Target] アクティビティの作成は、通常の [!DNL Target] アクティビティの設定と似ていますが、いくつかの重要な違いがあります。 例えば、[!DNL Analytics] で使用可能なすべてのセグメントがレポートの表示時に適用できるので、アクティビティの作成時にレポート用のセグメントを選択することはできません。
+[!DNL Target] をレポートソースとして使用する [!DNL Analytics] アクティビティの作成は、通常の [!DNL Target] アクティビティの設定と似ていますが、いくつかの重要な違いがあります。 例えば、[!DNL Analytics] で使用可能なすべてのセグメントがレポートの表示時に適用できるので、アクティビティの作成時にレポート用のセグメントを選択することはできません。
 
 1. **[!UICONTROL Create Activity]** をクリックします。
 
@@ -61,7 +61,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >[!DNL Analytics] のデータのみに依存するのではなく、カスタム Target ベースの指標を [!DNL Analytics] に送信できます。 例えば、[!DNL Analytics] で通常は追跡されないページのクリックを監視できます。 このカスタム指標は、[!DNL Target] サーバーから自動的に [!DNL Analytics] に送信され、[!DNL Analytics] の指標セレクターの「[!DNL Target] コンバージョン」指標として表示されます。 [!DNL Analytics] の指標を使用することを選択した場合、[!DNL Target] コンバージョン指標は空になります。
+   >[!DNL Analytics] のデータのみに依存するのではなく、カスタム Target ベースの指標を [!DNL Analytics] に送信できます。 例えば、[!DNL Analytics] で通常は追跡されないページのクリックを監視できます。 このカスタム指標は、[!DNL Analytics] サーバーから自動的に [!DNL Target] に送信され、[!DNL Target] の指標セレクターの「[!DNL Analytics] コンバージョン」指標として表示されます。 [!DNL Target] の指標を使用することを選択した場合、[!DNL Analytics] コンバージョン指標は空になります。
 
    目標を設定した場合でも、テスト結果を評価する際に他の指標を使用することは可能です。ただし、この目標は、アクティビティにおいて向上させたいものを明確にする役割を果たします。
 
@@ -75,4 +75,4 @@ ht-degree: 30%
 
 ## A4T アクティビティ、自動配分アクティビティ、自動ターゲットアクティビティ
 
-詳しくは、[A4T での自動配分および自動ターゲットアクティビティのサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
+詳しくは、[A4T での自動割り当ておよび自動ターゲットアクティビティのサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。

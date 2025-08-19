@@ -15,7 +15,7 @@ ht-degree: 8%
 
 オーディエンスは、[!DNL Adobe Target] アクティビティに入力される選定訪問者を決定します。
 
-[ アクティビティを作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 時の 3 つの部分から成るガイド付きワークフローの [!UICONTROL Targeting] の手順には、オーディエンスとそのトラフィックの割合を割り当てる手順、トラフィックの割り当て方法を選択する手順、アクティビティ内の各エクスペリエンスのトラフィックの割り当てを指定する手順を示すフロー図が表示されます。
+[!UICONTROL Targeting] アクティビティを作成 [ 時の 3 つの部分から成るガイド付きワークフローの ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) の手順には、オーディエンスとそのトラフィックの割合を割り当てる手順、トラフィックの割り当て方法を選択する手順、アクティビティ内の各エクスペリエンスのトラフィックの割り当てを指定する手順を示すフロー図が表示されます。
 
 ![A/B テストのターゲット設定手順](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 
    右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
 
-1. オーディエンスを変更するには **右側のフレームで**&#x200B;[!UICONTROL Replace] アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
 
 1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
 
@@ -44,7 +44,7 @@ ht-degree: 8%
    [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) の間に、次のオプションから選択できます。
 
    * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
-   * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] ーザーに保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します。
+   * **[!UICONTROL This activity only]**:[ ーザーに保存されず、現在のアクティビティでのみ使用できる ](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
 
 1. 右側のパネルで「**[!UICONTROL Visitor Percentage]**」をクリックし、条件を満たす訪問者をアクティビティに含める割合を指定します。
 
@@ -62,6 +62,6 @@ ht-degree: 8%
 
 ## オーディエンスの編集またはコピー
 
-オーディエンスを編集またはコピーするには、[!UICONTROL Add Audience] ダイアログボックスで、目的のオーディエンスの横にある [!UICONTROL More Actions] のアイコン ![ その他のアクションアイコン ](/help/main/assets/icons/More.svg)）をクリックし、「[!UICONTROL Edit]」または「[!UICONTROL Copy]」をクリックします。
+オーディエンスを編集またはコピーするには、[!UICONTROL More Actions] ダイアログボックスで、目的のオーディエンスの横にある ![ のアイコン ](/help/main/assets/icons/More.svg) その他のアクションアイコン [!UICONTROL Add Audience]）をクリックし、「[!UICONTROL Edit]」または「[!UICONTROL Copy]」をクリックします。
 
 オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成し、編集を加えてから、新しいオーディエンスとして保存できます。

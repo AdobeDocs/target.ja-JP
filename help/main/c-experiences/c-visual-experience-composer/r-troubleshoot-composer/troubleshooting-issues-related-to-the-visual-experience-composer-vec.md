@@ -18,7 +18,7 @@ ht-degree: 24%
 ## [!UICONTROL Visual Experience Composer] で web サイトを開いても、[!DNL Target] ライブラリが読み込まれません。 （VEC のみ） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 +++詳細
-[!DNL Target] は、[!UICONTROL Visual Experience Composer] で web サイトを開く際に 2 つのパラメーター（`mboxEdit=1` と `mboxDisable=1`）を追加します。
+[!DNL Target] は、`mboxEdit=1` で web サイトを開く際に 2 つのパラメーター（`mboxDisable=1` と [!UICONTROL Visual Experience Composer]）を追加します。
 
 Web サイト（特に単一ページアプリ）で、ページからページに移動する際に（ページを再読み込みせずに）パラメーターをトリミングしたり、実際にパラメーターを削除したりすると、[!DNL Target] の機能が中断し、[!DNL Target] ライブラリは読み込まれません。
 
@@ -47,7 +47,7 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 
 >[!NOTE]
 >
->[!DNL Google Chrome] に、次の情報に加えて [&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) [!DNL Adobe Target] [!UICONTROL Visual Editing Helper] 拡張機能を使用できます。
+>[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] に、次の情報に加えて ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)[!DNL Google Chrome] 拡張機能を使用できます。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 >
 >* VEC で編集するときにはルールを有効にし、VEC を使用していないときはルールを無効にします。
 
-**[!DNL Chrome] または [!DNL Firefox] で [!DNL Requestly] 拡張機能を使用するには：**
+**[!DNL Requestly] または [!DNL Chrome] で [!DNL Firefox] 拡張機能を使用するには：**
 
 1. [!UICONTROL Enhanced Experienced Composer] のスイッチを切りなさい。
 1. [!DNL Requestly] ブラウザー拡張機能を [!DNL Chrome] または [!DNL Firefox] にインストールします。
@@ -93,12 +93,12 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 
    これで、[!UICONTROL Visual Experience Composer] を使用してページをすばやく読み込めるはずです。
 
-**[!UICONTROL Firefox] で [!DNL Modify Response Headers] 拡張機能を使用するには：**
+**[!DNL Modify Response Headers] で [!UICONTROL Firefox] 拡張機能を使用するには：**
 
-1. [!DNL Firefox] に [!UICONTROL Modify Response Headers] をインストールし、ブラウザーを再起動します。
+1. [!UICONTROL Modify Response Headers] に [!DNL Firefox] をインストールし、ブラウザーを再起動します。
 1. [!DNL Firefox] 拡張機能から、「応答ヘッダーを変更」拡張機能を選択します。
 1. **[!UICONTROL Preferences]** をクリックします。
-1. [!UICONTROL Action] ドロップダウンから「**[!UICONTROL Filter]**」を選択します。
+1. **[!UICONTROL Filter]** ドロップダウンから「[!UICONTROL Action]」を選択します。
 1. 「[!UICONTROL Header Name]」フィールドに「**[!UICONTROL X-Frame-Options]**」と入力します。
 1. 手順 4 と 5 を繰り返して、**[!UICONTROL x-frame-options]** を含むフィルターを追加します。
 1. **[!UICONTROL Add]** をクリックします。
@@ -106,7 +106,7 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 
 ![Firefox 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
-拡張機能を設定したら、[!DNL Target] を開きます。 [!UICONTROL Enhanced Experience Composer] が無効になっている場合でも、ページが [!UICONTROL Visual Experience Composer] に読み込まれるはずです。
+拡張機能を設定したら、[!DNL Target] を開きます。 [!UICONTROL Visual Experience Composer] が無効になっている場合でも、ページが [!UICONTROL Enhanced Experience Composer] に読み込まれるはずです。
 
 +++
 

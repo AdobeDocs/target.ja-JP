@@ -51,7 +51,7 @@ ht-degree: 44%
 
 ## ページがページターゲティング条件の対象として認定されません。
 
-**検証：**&#x200B;[!UICONTROL Overview] のページで、ページがターゲティング条件の範囲外に該当するかどうかを判断します。
+**検証：**[!UICONTROL Overview] のページで、ページがターゲティング条件の範囲外に該当するかどうかを判断します。
 
 **オプション：**
 
@@ -76,7 +76,7 @@ ht-degree: 44%
 [!DNL Target] でユーザーとして追加されたら、アクティビティを作成するには [!UICONTROL Approver] の役割が必要です。
 
 * 承認者になるように、アカウントの管理者に依頼してください。
-* 管理者の場合は、[!DNL Target] で **[!UICONTROL Administration]**/**[!UICONTROL Users]** から [!UICONTROL Approver] の役割を自分に付与します。
+* 管理者の場合は、[!UICONTROL Approver] で **[!UICONTROL Administration]**/**[!UICONTROL Users]** から [!DNL Target] の役割を自分に付与します。
 
   「[承認者の役割の割り当て](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)」を参照してください。
 
@@ -117,7 +117,7 @@ ht-degree: 44%
 
 ## プロファイルスクリプトを削除する際にエラーメッセージが表示される。
 
-**Validate:**&#x200B;[!DNL Target] からプロファイルスクリプトを削除すると、「プロファイルスクリプトを削除できませんでした」というエラーメッセージが表示されます。
+**Validate:**[!DNL Target] からプロファイルスクリプトを削除すると、「プロファイルスクリプトを削除できませんでした」というエラーメッセージが表示されます。
 
 **オプション：**
 
@@ -130,7 +130,7 @@ ht-degree: 44%
 
 **注意：** 同じ名前で異なるパラメーターを持つ複数の ajax [!DNL Target] 呼び出しは、同じページでは機能しません。 最初の呼び出しのみが行われます。
 
-## [!DNL Target] API を使用してアクティビティをアクティブ化したのに、そのアクティビティのステータスが [!DNL Target] UI に [!UICONTROL Inactive] と表示される。
+## [!DNL Target] API を使用してアクティビティをアクティブ化したのに、そのアクティビティのステータスが [!UICONTROL Inactive] UI に [!DNL Target] と表示される。
 
 [!DNL Target] API を使用した UI 外でのアクティビティのアクティブ化など、特定のアクションを実行する場合、更新が UI に反映されるまで最大 10 分かかる場合があります。
 

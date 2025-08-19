@@ -8,7 +8,7 @@ exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
 source-wordcount: '2613'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 35%
 
 [!UICONTROL Information] アイコン（![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックして、前回のアップロード日とフィードの URL を表示するカードを表示します。
 
-[!UICONTROL More Actions] アイコン（その他のアクションアイコン ![）をクリックして ](/help/main/assets/icons/MoreSmallList.svg) [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy] および [!UICONTROL Delete] のアクションにアクセスします。
+[!UICONTROL More Actions] アイコン（その他のアクションアイコン ![）をクリックして ](/help/main/assets/icons/MoreSmallList.svg)[!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy] および [!UICONTROL Delete] のアクションにアクセスします。
 
 >[!IMPORTANT]
 >
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] 製品の分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics] 製品の分類は、レコメンデーションに使用できる唯一の分類です。 この分類ファイルについて詳しくは、[Analytics コンポーネント ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja) ガイドの *分類について* を参照してください。 レコメンデーションに必要な情報の一部が現在の実装で利用できない場合があるので、分類ファイルに追加する場合は、このユーザーガイドに従ってください。
+[!DNL Adobe Analytics] 製品の分類は、レコメンデーションに使用できる唯一の分類です。 この分類ファイルについて詳しくは、[Analytics コンポーネント ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) ガイドの *分類について* を参照してください。 レコメンデーションに必要な情報の一部が現在の実装で利用できない場合があるので、分類ファイルに追加する場合は、このユーザーガイドに従ってください。
 
 >[!IMPORTANT]
 >
@@ -323,15 +323,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 **例 1:**
 
-* 1 日目：毎日のフィードプロセスは午前 9:00 （PST）。
-* 2 日目：午後 3:30 時点で、昨日の午前 9:00 以降、フィードが実行されていません。
+* 1 日目：毎日午前 9:00 （PST）のフィードプロセス。
+* 2 日目：:30 後 3 時で、フィードは昨日の午前 9:00 から実行されていません。
 
 インデックスは約 6.5 時間前に実行されているはずだったので、ステータスは黄色になります。6.5 時間 +24 はフィード期間の 127％です。
 
 **例 2:**
 
-* 1 月 1 日：月次フィードプロセス午前 9:00 （PST）
-* 2 月 3 日午前 10 時、飼料が 1 か月、1 日、1 時間前まで出ない。
+* 1 月 1 日：毎月のフィードプロセスは午前 9:00 （PST）。
+* 2 月 3 日 :00 前 10 時で飼料が 1 か月、1 日、1 時間前まで出ない。
 
 インデックスは約 1 日と 1 時間前に実行されているはずだったので、ステータスは黄色になります。これは、わずか（31+（1/25））/30 = 1.03％の頻度設定にもかかわらず、1 日の遅延の最大値を上回ります。
 
@@ -339,20 +339,20 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Recommendations のフィードについて（3:01） ![ 概要バッジ ](/help/main/assets/overview.png)
+### Recommendations （3:01）のフィードについて ![ 概要バッジ ](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
 * フィードの目的の説明
 * フィードの値の説明
 
->[!VIDEO](https://video.tv.adobe.com/v/33951?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### フィードの作成（6:44） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### フィード（6:44）の作成 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
 * フィードの設定
 * 使用するフィードのタイプの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/33950?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=ja){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -32,9 +32,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ja){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=ja){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++ -->
 
@@ -58,13 +58,13 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   パーソナライゼーションの成熟度の中核となるのは、人工知能と機械学習です。[!DNL Adobe Target] では、これらのテクノロジーを活用してユーザーの行動を理解し、好みを予測し、コンテンツを動的に調整します。AI と ML の機能を活用して、ブランドが静的な A/B テストやルールベースのパーソナライゼーションを超えて、動的でコンテキストに応じた関連性の高いエクスペリエンスを提供する方法について説明します。
 
-  [詳しくは、こちらの録音をお聞きください。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ja){target=_blank}
+  [ 録音を聞く ](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高パフォーマンスのレコメンデーション**
 
   レコメンデーションアルゴリズムでビジネスに変革をもたらし、エンゲージメントと収益を促進する方法について説明します。パーソナライズされた製品の提案からコンテンツのレコメンデーションまで、ジャーニーを通じてユーザーをシームレスにガイドする機能は、ビジネスの大幅な成長を実現することに直接貢献します。
 
-  [詳しくは、こちらの録音をお聞きください。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=ja#M3685){target=_blank}
+  [ 録音を聞く ](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **AI を活用したパーソナライゼーションの実現**
 
@@ -76,7 +76,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 魅力的な顧客体験を提供して、コンバージョン率を高めます。お客様のビジネスはピークシーズンの準備が整っていますか？是非ご参加ください。今回、最適なパフォーマンスを実現し、ROI を最大化する方法について、エキスパートヒントをご利用いただけます。
 
-+++詳細を見る
++++詳細を表示
 
 アドビカスタマーサクセスマネージャーの John Magnusson と、Macy&#39;s Inc. の MarTech &amp; AdTech Solutions 担当ディレクターの Katherine Klein が、ピークシーズンの準備プログラムに大きな影響を与える戦略について説明します。
 
@@ -132,7 +132,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * ブランドが AI 搭載アルゴリズムを微調整することで、より速いスピードと意思決定を実現する方法
    * 1 対 1 のパーソナライゼーションを実現する他に類を見ないユースケース
 
-+++
+  +++
 
 ### [!DNL Adobe Target] スキルビルダー - AI 駆動型パーソナライゼーションとレコメンデーション（2022年9月15日（PT）） {#AI}
 
@@ -156,7 +156,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 顧客体験全体にわたるテストとターゲティングのライフサイクル指標
    * モバイル SDK = API の柔軟な実装（iOS および Android プラットフォーム）
 
-+++
+  +++
 
 ### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
 
@@ -172,7 +172,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 競争上の優位性の最適化
    * 高度にパーソナライズされたエクスペリエンスの作成
 
-+++
+  +++
 
 ### リアルタイムのロイヤルティアクティベーション（2022年8月25日（PT））
 
@@ -201,7 +201,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   Michael Klein （インダストリー戦略リテール担当ディレクター）と Leina Betzer（Adobe Premier サポート担当 Target コンサルタント）が、消費者の購買パターンや行動が変化し、特定市場での商品やサービスに対する需要が高まる中、小売 e コマースの売上が急増していることについて説明します。
 
-+++
+  +++
 
 ### [!DNL Adobe]：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]（2022年6月2日（PT））
 
@@ -235,7 +235,7 @@ Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューシ
    * Web とモバイルをまたいだパーソナライゼーションと実験アクティビティの拡大によるビジネス全体への影響
    * 平均的な訪問者をリピーターにするための分析データを使用した小売のヒントとテクニック
 
-+++
+  +++
 
 ### [!DNL Adobe]：パーソナライゼーション業界インサイダー - 金融サービスと保険（2022年5月24日（PT））
 
@@ -247,7 +247,7 @@ Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューシ
 
   Christopher Young（ディレクター、Industry Strategy Financial Services）と James Capasso（Target コンサルタント、Adobe Premier Support）が、パーソナライゼーションを顧客エンゲージメントの中心に据えながら、ブランドが需要の急変に対応する方法を説明します。最近のインフレパターンや投資に関する状況に不安を感じている世界中の顧客に対して、金融サービス企業がどのように支援し、情報を提供しているかを説明します。
 
-+++
+  +++
 
 ### シティナショナルバンク：デジタル最適化でトップ 1％を達成する方法（2022年5月26日（PT））
 
@@ -266,7 +266,7 @@ Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューシ
    * パーソナライズされたオファーのエンゲージメントと採用の増加により、ビジネスの成長を加速
    * タイムトゥバリューと ROI のためにマルチチャネルキャンペーンを最適化。
 
-+++
+  +++
 
 ### ウェビナー：[!DNL Adobe Target] のオンデバイス決定を使用して、待ち時間ゼロでパーソナライズとテストを行う
 
@@ -278,7 +278,7 @@ Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューシ
 
   この録画ウェビナーでは、Adobe Target の製品エキスパートが、遅延なしでローカルで実行する重要なエクスペリエンス最適化に関するオンライン判定の動きが、新しいユースケースにどのように影響し、お客様のサイトパフォーマンスを向上させるかを説明します。
 
-+++
+  +++
 
 ### ウェビナー：HSBC が Adobe [!DNL Target]と AI をどのように活用して大規模なパーソナライゼーションを迅速に最適化し提供を実現したか
 
@@ -298,7 +298,7 @@ Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューシ
 
    * McKinsey の記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
 
-+++
+  +++
 
 ### [!DNL Adobe Target] スキルビルダー：開発者チャット、 [!DNL Adobe Target] の mbox.js を at.js に移行 {#skill-builder}
 

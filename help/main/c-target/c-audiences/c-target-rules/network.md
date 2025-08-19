@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 65%
+source-wordcount: '494'
+ht-degree: 64%
 
 ---
 

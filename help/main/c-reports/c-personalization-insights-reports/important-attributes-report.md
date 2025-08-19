@@ -8,13 +8,13 @@ exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '1773'
-ht-degree: 56%
+ht-degree: 58%
 
 ---
 
 # 重要な属性レポート
 
-[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティのユーザーが使用できる 2 つの特殊なレポートの 1 つである [!UICONTROL Important Attributes] レポートに関する情報です。
+[!UICONTROL Important Attributes] （AP）および [!UICONTROL Automated Personalization] （AT）アクティビティのユーザーが使用できる 2 つの特殊なレポートの 1 つである [!UICONTROL Auto-Target] レポートに関する情報です。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 56%
 >
 >* [!UICONTROL Personalization Insights] レポートは、コンバージョン最適化目標を使用する AP アクティビティと AT アクティビティでのみ使用できます。 アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 >
->* [!UICONTROL Personalization Insights] のレポートは、「[!UICONTROL Report Metric]」ドロップダウンリストから [!UICONTROL Primary Goal] が選択されている場合にのみ使用できます。
+>* [!UICONTROL Personalization Insights] のレポートは、「[!UICONTROL Primary Goal]」ドロップダウンリストから [!UICONTROL Report Metric] が選択されている場合にのみ使用できます。
 >
 >* [!UICONTROL Personalization Insights] レポートは、[ デフォルト環境 ](/help/main/administrating-target/hosts.md) でのみサポートされます。
 >
@@ -40,7 +40,7 @@ ht-degree: 56%
 
 1. **[!UICONTROL Reports]** をクリックします。
 
-   アクティビティのパフォーマンスに関する情報を提供する [&#128279;](/help/main/c-reports/personalization-reports/reports-ap.md)0&rbrace;Automated Personalizationの概要 [ 自動ターゲットの概要 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが、最初の画面アイコンで表示されます。 2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。
+   アクティビティのパフォーマンスに関する情報を提供する [0}Automated Personalizationの概要 ](/help/main/c-reports/personalization-reports/reports-ap.md) 自動ターゲットの概要 [ レポートが、最初の画面アイコンで表示されます。 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。
 
 
    [!UICONTROL Auto-Target] には、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフアイコンがあります。
@@ -53,7 +53,7 @@ ht-degree: 56%
 
 1. 目的の日付範囲を選択します。
 
-   [!UICONTROL Summary] レポート（パフォーマンスレポート）とは異なり、[!UICONTROL Important Attributes] を含む [!UICONTROL Personalization Insights] は、15 日、30 日および 60 日の固定日付範囲でのみ使用できます。
+   [!UICONTROL Summary] レポート（パフォーマンスレポート）とは異なり、[!UICONTROL Personalization Insights] を含む [!UICONTROL Important Attributes] は、15 日、30 日および 60 日の固定日付範囲でのみ使用できます。
 
    これらの固定日付範囲を使用 [!UICONTROL Personalization Insights] ると、十分な範囲のデータを使用して、アクティビティの短時間のみ有効なパターンからインサイトを導き出す可能性を低くすることができます。 日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「開始日」はグレー表示になっています。開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
@@ -92,13 +92,13 @@ ht-degree: 56%
 
 属性は、訪問者または訪問者の特定の訪問に関する情報で、トラフィックのパーソナライズ方法を知るためにパーソナライゼーションアルゴリズムで使用されます。例えば、ブラウザータイプ、場所、訪問時刻などが属性になります。
 
-[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。Target のパーソナライゼーションモデルで使用する新しい属性を Target にアップロードする方法について詳しくは、[Target にデータを取得する方法 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} を参照してください。
+[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、[データを Target に送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}を参照してください。
 
 ### モデルでトレーニングに使用する必要がない属性が 1 つ以上表示されます。これらの属性をトレーニングモデルから削除できますか？ {#models-api}
 
 この [!UICONTROL Models API] はブロックリスト API とも呼ばれ、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT） アクティビティの機械学習モデルで使用される属性（機能とも呼ばれます）のリストを表示および管理できます。 モデルが AP または AT アクティビティに使用する 1 つ以上の属性を除外する場合は、Models API を使用して、それらの属性を「ブロックリスト」に追加できます。
 
-詳しくは、*Adobe Target開発者ガイド [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank} の Models API の概要* を参照してください。 API を使用して属性をブロックするには、[Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ja){target=_blank} を参照してください。
+詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank} の *Models API の概要* を参照してください。 API を使用して属性をブロックするには、[Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank} を参照してください。
 
 ### [!UICONTROL Automated Segments] および [!UICONTROL Important Attributes] レポートの情報は、CSV ダウンロードの情報と同じですか？
 
@@ -110,7 +110,7 @@ Personalization Insights レポート（[!UICONTROL Automated Segments] と [!UI
 
 ### [!UICONTROL Personalization Insights] はどのように作成されますか？
 
-[!UICONTROL Personalization Insights] は、MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobe特許出願中の手法を使用して作成されます。 MAGIX の詳細については、[arXiv.org web サイト ](https://arxiv.org/abs/1706.07160) に公開されているAdobe研究チームの論文を参照してください。
+MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許申請済みの手法を使用して [!UICONTROL Personalization Insights] ークフローを作成します。 MAGIX について詳しくは、[arXiv.org web サイト ](https://arxiv.org/abs/1706.07160) でAdobe リサーチチームが公開している論文を参照してください。
 
 ### 収益ベースのモデリング目標/メイン目標に [!UICONTROL Personalization Insights] を使用できますか。
 
@@ -146,4 +146,4 @@ Personalization Insights レポート（[!UICONTROL Automated Segments] と [!UI
 
 次の問題は、現在、[!DNL Target] エンジニアリングチームによって調査中です。
 
-* セグメント名 [!DNL Adobe Experience Platform]、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティの [!UICONTROL Important Attributes] レポートに表示されません。 （上位 3813 項目）
+* セグメント名 [!DNL Adobe Experience Platform]、[!UICONTROL Important Attributes] （AP）および [!UICONTROL Automated Personalization] （AT）アクティビティの [!UICONTROL Auto-Target] レポートに表示されません。 （上位 3813 項目）

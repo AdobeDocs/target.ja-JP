@@ -22,7 +22,7 @@ ht-degree: 84%
 
 ## UI で作成され [!DNL Target] ビジュアルオファーを [!DNL Target] API を使用して管理できますか。
 
-いいえ。[!DNL Target] UI で作成されたビジュアルオファーを含む [!DNL Recommendations] アクティビティは、[!DNL Target] API を使用して管理できません。 これらのアクティビティは [!UICONTROL Activities] リストに表示されますが、読み取りや更新はできません（GET/PUTを使用）。
+いいえ。[!DNL Recommendations] UI で作成されたビジュアルオファーを含む [!DNL Target] アクティビティは、[!DNL Target] API を使用して管理できません。 これらのアクティビティは [!UICONTROL Activities] リストに表示されますが、読み取りや更新はできません（GET/PUTを使用）。
 
 ## 数値 [!UICONTROL Catalog Search] 使用してカスタム属性を検索すると、正しい結果が表示されないのはなぜですか？
 
@@ -103,7 +103,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox におけるカテゴリ ID の格納場所を使用する場合は、適用可能なすべての条件が条件ピッカーに表示されます。
 
-[!DNL Target] には [ 互換性のない条件をフィルタリング ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} 設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
+[!DNL Target] には[互換性のない条件をフィルタリング](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 ![compatible_checkbox 画像 ](assets/compatible_checkbox.png)
 
-次のリストには、「[!UICONTROL Compatible]」チェックボックスが表示され [!DNL Target] い特殊なケースが含まれています。
+次のリストには、「[!DNL Target]」チェックボックスが表示され [!UICONTROL Compatible] い特殊なケースが含まれています。
 
 * entityId とカテゴリ ID の両方が場所に存在しており、フィルタリング対象がない。
 * [!DNL mbox.js] のバージョン 55 以前を使用している。
@@ -252,7 +252,7 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 ## [!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？
 
-[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、 [!DNL Target Premium][&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) の [!DNL Recommendations Classic]  とアクティビ  [!DNL Recommendations]  ティの比較」を参照してください。
+[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、[[!DNL Recommendations Classic]  の  [!DNL Recommendations]  とアクティビ  [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) ティの比較」を参照してください。
 
 ## 新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？ {#recommend-new-articles}
 

@@ -7,7 +7,7 @@ exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '2478'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -52,8 +52,8 @@ ht-degree: 79%
 
 | 実装タイプ | 詳細 |
 | --- | --- |
-| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]** （VEC）、非ビジュアルインターフェイスである **[!UICONTROL Form-based Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。 [ 詳細情報 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank}。 |
-| サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[ 詳細情報 ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}。 |
+| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]** （VEC）、または非視覚的なインターフェイスである **[!UICONTROL Form-based Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} |
+| サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} |
 | ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。例えば、クライアントサイドの実装を使用してホームページのヒーローバナー内のオファーで A/B テストを実行したり、サーバーサイドの実装を使用してクライアントブラウザーに表示する内部検索結果やスマートカーダッシュボードに表示するエクスペリエンス、音声アシスタントから配信する音声応答を決定したりできます。 |
 
 ## アクティビティ要素
@@ -74,7 +74,7 @@ ht-degree: 79%
 
 | ツール | 詳細 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] （VEC） | サイトコンテキストでパーソナライズされたエクスペリエンスおよびオファーを簡単に作成およびテストできる、WYSIWYG ユーザーインターフェイスです。Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。[詳細情報](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
+| [!UICONTROL Visual Experience Composer]（VEC） | サイトコンテキストでパーソナライズされたエクスペリエンスおよびオファーを簡単に作成およびテストできる、WYSIWYG ユーザーインターフェイスです。Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。[詳細情報](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
 | [!UICONTROL Form-based Experience Composer] | Visual Experience Composer が使用できない、または使用が実用的でない場合に、A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、Recommendations アクティビティで使用するエクスペリエンスを作成するのに役立つ、非視覚的なエクスペリエンスおよびオファー作成インターフェイスです。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。[詳細情報](/help/main/c-experiences/form-experience-composer.md) |
 | [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスターゲット設定（XT）アクティビティを作成することが可能です。[詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
 

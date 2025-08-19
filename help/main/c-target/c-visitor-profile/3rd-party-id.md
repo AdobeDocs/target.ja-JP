@@ -46,7 +46,7 @@ ht-degree: 80%
 
 * 訪問者の顧客 ID を [!DNL Target] に送信するには、次の 2 つの方法があります。
 
-   1. `mbox3rdPartyId`/`thirdPartyId`.
+   1.  `mbox3rdPartyId`/`thirdPartyId`.
 
       * `mbox3rdPartyId` は、`targetPageParams` または `targetPageParamsAll` を使用する場合のパラメーター名です。
       * `thirdPartyId` は、Delivery API ペイロードに直接設定したパラメーター名です。
@@ -58,7 +58,7 @@ ht-degree: 80%
       * `customerIds` は、Delivery API ペイロードで直接設定する際に使用されるパラメーター名で、通常はサーバー側または IOT（Internet of Things）実装で使用されます。
       * `mbox3rdPartyId`／`thirdPartyId` とは異なり、この方法では複数の ID をリストとして送信できますが、[!DNL Target] では TnT ID ごとに 1 つの顧客 ID のみをサポートするので、既知のエイリアス（顧客属性 UI で設定されたエイリアス）を持つリストの最初の ID を使用します。
 
-  [!DNL Target] が唯一の [!DNL Adobe Experience Cloud] ソリューションであり、顧客属性を使用しない場合は、`mbox3rdPartyId`/`thirdPartyId` を使用できます。 それ以外の場合はすべて、顧客 ID の送信に `setCustomerId`/`customerIds` を使用することをお勧めします。
+  `mbox3rdPartyId` が唯一の `thirdPartyId` ソリューションであり、顧客属性を使用しない場合は、[!DNL Target]/[!DNL Adobe Experience Cloud] を使用できます。 それ以外の場合はすべて、顧客 ID の送信に `setCustomerId`/`customerIds` を使用することをお勧めします。
 
   >[!IMPORTANT]
   >

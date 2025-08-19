@@ -11,8 +11,8 @@ ht-degree: 22%
 
 ---
 
-# AEM エクスペリエンスフラグメントおよびコンテンツフラグメント
+# AEMのエクスペリエンスとコンテンツフラグメント
 
-[!DNL Target] アクティビティの [!DNL Adobe Experience Manager] （AEM）で作成したエクスペリエンスフラグメント （XF）およびコンテンツフラグメント （CF）を使用して、最適化またはパーソナライゼーションを支援します。
+[!DNL Adobe Experience Manager] アクティビティの [!DNL Target] （AEM）で作成したエクスペリエンスフラグメント （XF）およびコンテンツフラグメント （CF）を使用して、最適化またはパーソナライゼーションを支援します。
 
 詳しくは、[AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要 ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) を参照してください。

@@ -1,7 +1,7 @@
 ---
 keywords: 条件シーケンス；複数の条件；アルゴリズム；条件；recommendations 条件；シーケンス；返される項目数の制限；スロットレベルコントロール；スロット
 description: 最大 5 つの条件のシーケンスを設定して、Adobe [!DNL Target] Recommendations アクティビティに表示される項目をより詳細に制御する方法を説明します。
-title: Recommendationsで条件シーケンスを作成するにはどうすればよいですか？
+title: Recommendations で条件のシーケンスを作成するには
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
@@ -18,7 +18,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->条件シーケンスは、[!DNL Target Premium] の 2016 年 10 月リリースより前に作成された [!UICONTROL Recommendations] アクティビティでは使用できません。
+>条件シーケンスは、[!UICONTROL Recommendations] の 2016 年 10 月リリースより前に作成された [!DNL Target Premium] アクティビティでは使用できません。
 
 条件のシーケンスを作成するには、まずシーケンスに含める条件を作成する必要があります。詳しくは、[ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) を参照してください。
 
@@ -41,7 +41,7 @@ ht-degree: 25%
 * [!UICONTROL Recommendations] アクティビティを作成する場合は、「条件を選択」画面で **[!UICONTROL Create New]**/**[!UICONTROL Create Criteria Sequence]** をクリックします。 他の [!UICONTROL Recommendations] アクティビティで使用する新しい条件シーケンスを保存するオプションがあります。
 * [!UICONTROL Recommendations] アクティビティを編集する場合は、ページの [!UICONTROL Recommendations Location] ボックスをクリックし、「**[!UICONTROL Change Criteria]**」を選択します。 [!UICONTROL Select Criteria] 画面で、**[!UICONTROL Create New]**/**[!UICONTROL Create Criteria Sequence]** をクリックします。 他の [!UICONTROL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
 
-以下の手順では、最初のメソッド（**[!UICONTROL Recommendations]** / **[!UICONTROL Criteria]** ライブラリ画面）を使用して [!UICONTROL Create Criteria Sequence] ール画面にアクセスすることを想定しています。
+以下の手順では、最初のメソッド（[!UICONTROL Create Criteria Sequence] / **[!UICONTROL Recommendations]** ライブラリ画面）を使用して **[!UICONTROL Criteria]** ール画面にアクセスすることを想定しています。
 
 1. **[!UICONTROL Recommendations]**／**[!UICONTROL Criteria]**&#x200B;をクリックします。
 
@@ -87,7 +87,7 @@ ht-degree: 25%
 
    レコメンデーションロジックのオプションについて詳しくは、[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
-## トレーニングビデオ：Recommendationsで条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations で条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
@@ -95,4 +95,4 @@ ht-degree: 25%
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/35341?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

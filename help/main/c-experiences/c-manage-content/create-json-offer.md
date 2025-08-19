@@ -13,9 +13,9 @@ ht-degree: 25%
 
 # JSON オファーの作成
 
-[!UICONTROL Form-Based Experience Composer] で使用する JSON オファーを [!DNL Adobe Target] の [!UICONTROL Offer Library] で作成します。
+[!UICONTROL Offer Library] で使用する JSON オファーを [!DNL Adobe Target] の [!UICONTROL Form-Based Experience Composer] で作成します。
 
-JSON オファーをフォームベースのアクティビティで使用すると、SPA フレームワークまたはサーバーサイド統合で使用するために JSON 形式でオファーを送信する際に [!DNL Target] ーザー決定が必要になるユースケースを可能にできます。
+JSON オファーをフォームベースのアクティビティで使用すると、SPA フレームワークまたはサーバーサイド統合で使用するために JSON 形式のオファーを送信する際に [!DNL Target] ーザー決定が必要になるユースケースを可能にできます。
 
 ## JSON の考慮事項
 
@@ -23,10 +23,10 @@ JSON オファーを使用する際は次の点を考慮してください。
 
 * JSON オファーは現在、[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Experience Targeting] （XT）アクティビティでのみ使用できます。
 * JSON オファーは、[ フォームベースのアクティビティ ](/help/main/c-experiences/form-experience-composer.md) でのみ使用できます。
-* JSON オファーは、[ サーバーサイド API および Mobile Node.js、Java、.NET、Python SDK](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/server-side-overview){target=_blank} を使用している場合に直接取得できます。
-* ブラウザーでは、JSON オファーは、at.js 1.2.3 （またはそれ以降）経由でのみ取得でき、`setJson` アクションを使用してアクションをフィルタリングすることで [getOffer （） ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} を使用できます。
+* JSON オファーは、[ サーバーサイド API および Mobile Node.js、Java、.NET、Python SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank} を使用している場合に直接取得できます。
+* ブラウザーでは、JSON オファーは、at.js 1.2.3 （またはそれ以降）経由でのみ取得でき、[ アクションを使用してアクションをフィルタリングすることで ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}getOffer （） `setJson` を使用できます。
 * JSON オファーは、文字列ではなくネイティブの JSON オブジェクトとして配信されます。これらのオブジェクトを利用する際に、オブジェクトを文字列として処理し、JSON オブジェクトに変換する必要はなくなりました。
-* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は、[getOffer （） ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} を使用してオファーを明示的に取得するコードを記述する必要があります。
+* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は、[getOffer （） ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} を使用してオファーを明示的に取得するコードを記述する必要があります。
 
 ## JSON オファーの作成 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -119,10 +119,10 @@ adobe.target.getOffer({
 
 ## Real-time CDP プロファイル属性を使用した JSON オファーの例
 
-Real-time CDP プロファイル属性は、HTMLオファーと JSON オファーで使用するために [!DNL Target] と共有できます。
+Real-time CDP プロファイル属性は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。
 
 詳しくは、[Real-time CDP プロファイル属性の  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。
 
 ## JSON オファータイプによるオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-**[!UICONTROL Show filters]** のアイコン（![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックし、「**[!UICONTROL JSON Offers]**」チェックボックスを選択すると、JSON オファータイプで [!UICONTROL Offers] ライブラリをフィルタリングできます。
+[!UICONTROL Offers] のアイコン（**[!UICONTROL Show filters]** フィルターを表示アイコン ![）をクリックし、「](/help/main/assets/icons/Filter.svg)」チェックボックスを選択すると、JSON オファータイプで **[!UICONTROL JSON Offers]** ライブラリをフィルタリングできます。

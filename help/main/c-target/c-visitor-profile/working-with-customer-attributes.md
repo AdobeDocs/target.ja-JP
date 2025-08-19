@@ -27,7 +27,7 @@ ht-degree: 94%
 
 顧客属性と [!DNL Target] を使用する際は次の点に注意してください。
 
-* [!DNL People] サービスの [!UICONTROL Customer attributes] 機能を使用するには、いくつかの前提条件を満たしておく必要があります。 詳しくは、*Experience Cloud サービスおよび管理ドキュメント*&#x200B;の[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#section_BD38693AFBF34926BA28E964963B4EA0)の「顧客属性をアップロードするための前提条件」を参照してください。
+* [!UICONTROL Customer attributes] サービスの [!DNL People] 機能を使用するには、いくつかの前提条件を満たしておく必要があります。 詳しくは、*Experience Cloud サービスおよび管理ドキュメント*&#x200B;の[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#section_BD38693AFBF34926BA28E964963B4EA0)の「顧客属性をアップロードするための前提条件」を参照してください。
 * 「*Experience Cloud 中央インターフェイスコンポーネントガイド*」の「[顧客属性のデータファイルとデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)」に記載されている通り、ファイルのアップロードに関する制限についてご注意ください。ベストプラクティスは次のとおりです。
 
    * 単一の大きなファイル（[指定された制限](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)の範囲内）をアップロードします。複数の小さなファイルよりも、単一の大きなファイルの方が望ましいです。
@@ -116,7 +116,7 @@ ht-degree: 94%
 
 ### ターゲットオーディエンスを作成する
 
-[!DNL Target] では、オーディエンスの作成時に「[!UICONTROL Visitor Profile]」セクションから顧客属性を選択できます。 リスト内の顧客属性はすべて先頭に &lt; data_source_name > が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target] では、オーディエンスの作成時に「[!UICONTROL Visitor Profile]」セクションから顧客属性を選択できます。 リスト内の顧客属性はすべて接頭辞 &lt; data_source_name > が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![Target オーディエンス](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -182,7 +182,7 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 
 顧客属性データが Target に見つからない場合は、過去 *x* 日以内に読み込みを行ったかどうかを確認してください。ここで *x* は Target の[訪問者プロファイルのライフタイム](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)値です（デフォルトでは 14 日）。
 
-## トレーニングビデオ：顧客属性![チュートリアルバッジ](/help/main/assets/tutorial.png)を使用してオフラインデータをアップロード {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## トレーニングビデオ：顧客属性![チュートリアルバッジ](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}を使用してオフラインデータをアップロード
 
 このビデオでは、CRM、ヘルプデスク、販売時点（POS）などのオフラインのマーケティングデータを [!DNL Experience Cloud People] サービスにインポートし、訪問者の既知の ID を使用して訪問者に関連付ける方法を説明します。
 

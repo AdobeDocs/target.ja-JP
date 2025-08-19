@@ -15,7 +15,7 @@ ht-degree: 39%
 
 [!DNL Adobe Target] は、使用している [!DNL Target] インターフェイスとアクティビティ作成機能（[[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) または [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md)）によって、ページに配信するアクティビティ（またはアクティビティ）を決定します。
 
-## [!UICONTROL Visual Experience Composer] のみ、またはグローバル [!DNL Target] リクエストのみを使用して [!UICONTROL Form-Based Experience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Visual Experience Composer] のみ、またはグローバル [!UICONTROL Form-Based Experience Composer] リクエストのみを使用して [!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 会社が VEC のみを使用している場合、複数のアクティビティのコンテンツを同じ呼び出しで返すことができます。 アクティビティは、次の決定フローを使用して配信されます。
 
@@ -62,7 +62,7 @@ ht-degree: 39%
 
 ターゲットアクティビティの双方が同じ優先度の場合、最後に表示されたアクティビティが表示されます。このページに初めて訪問する訪問者の場合は、最後にアクティブ化されたアクティビティが表示されます。
 
-## 非グローバル [!DNL Target] リクエストの [!UICONTROL Form-Based Experience Composer] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 非グローバル [!UICONTROL Form-Based Experience Composer] リクエストの [!DNL Target] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 会社がフォームベースのコンポーザーでグローバル [!DNL Target] リクエスト以外の [!DNL Target] リクエストを使用している場合、1 回の呼び出しで返すことができるアクティビティは 1 つだけです。 アクティビティの配信は、次の決定フローを使用して決定されます。
 
@@ -99,7 +99,7 @@ ht-degree: 39%
 
 応答：visualExpCompOffer1、visualExpCompOffer2
 
-## トレーニングビデオ：アクティビティの設定（3:02）
+## トレーニングビデオ：アクティビティ設定（3:02）
 
 このビデオでは、アクティビティの設定について説明します。
 

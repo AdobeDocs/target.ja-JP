@@ -43,7 +43,7 @@ ht-degree: 88%
 
 データとともに表示する指標に応じて、レポートに「[!UICONTROL Unspecified]」イベント行が表示されることがあります。
 
-通常、この行は、[!DNL Target] 固有ではない（[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors] など）、レポートの一般的な指標を選択した場合に表示されます。 この場合、[!UICONTROL "Unspecified"] の行には、[!DNL Target] のアクティビティに関連付けられていない、すべての [!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors] が含まれます。
+通常、この行は、[!DNL Target] 固有ではない（[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors] など）、レポートの一般的な指標を選択した場合に表示されます。 この場合、[!UICONTROL "Unspecified"] の行には、[!UICONTROL Page Views] のアクティビティに関連付けられていない、すべての [!UICONTROL Visits]、[!UICONTROL Unique Visitors]、[!DNL Target] が含まれます。
 
 その行には [!DNL Target] 関連情報（訪問者数、訪問数、インプレッション数など）が含まれることはありません。詳しくは、*Analytics テクニカルノート*&#x200B;にある レポートにある[「未指定」、「なし」、「その他」、「不明」をご覧ください](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ja)。
 
@@ -59,7 +59,7 @@ A4T アクティビティには Analytics トラッキングサーバーの指�
 
 >[!NOTE]
 >
->at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Goals & Settings] のページの「[!UICONTROL Tracking Server]」フィールドを空白にできます。
+>at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Tracking Server] のページの「[!UICONTROL Goals & Settings]」フィールドを空白にできます。
 
 ## Analytics セグメントが Target に表示されません。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 

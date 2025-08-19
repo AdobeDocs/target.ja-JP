@@ -42,12 +42,12 @@ ht-degree: 85%
 
 1. 以下の [!DNL Dynamic Media Classic] アカウント情報を指定します。
 
-   **地域：**&#x200B;[!DNL Dynamic Media] アカウントの地域は、北米、ヨーロッパ、アジアです。
+   **地域：**[!DNL Dynamic Media] アカウントの地域は、北米、ヨーロッパ、アジアです。
 
    **アドホックフォルダー：**&#x200B;ターゲットフォルダーの外部に存在し [!DNL Dynamic Media] に手動でアップロードされるコンテンツの場所。
 
-   **メールアドレス：**&#x200B;[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するメールアドレス
+   **メールアドレス：**[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するメールアドレス
 
-   **パスワード：**&#x200B;[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するパスワード
+   **パスワード：**[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するパスワード
 
 1. **[!UICONTROL Submit]** をクリックします。

@@ -1,14 +1,14 @@
 ---
 keywords: コレクション;ターゲット設定
 description: ' [!DNL Target Recommendations] で製品または項目のコレクションを使用する方法を説明します。'
-title: Recommendations アクティビティでコレクションを使用する方法
+title: Recommendations アクティビティでコレクションを使用するには
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 41%
 
    ![ ホバーアイコン：編集、コピー、削除 ](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL Collections] のリスト表示で各コレクションに対して報告される「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でそのコレクションのルールに一致する商品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
+   [!UICONTROL Collections] リスト表示の各コレクションについて報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内のそのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. **[!UICONTROL Create Collection]** をクリックします。
 
@@ -92,7 +92,7 @@ ht-degree: 41%
 
 1. 上記のいずれかの方法を使用して、コレクションを作成します。
 
-1. 「**[!UICONTROL Activities]**」をクリックして [Recommendationsを新規作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
+1. 「**[!UICONTROL Activities]**」をクリックして [ 新しい Recommendations を作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
 
 1. 条件とデザインを選択すると、目的のコレクションを選択したときに [!UICONTROL Options] のページが表示されます。
 
@@ -102,11 +102,11 @@ ht-degree: 41%
 
    ![ コレクションを変更オプション ](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## トレーニングビデオ：Recommendationsでコレクションと除外を作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
 * コレクションの作成
 * 除外の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/35311?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

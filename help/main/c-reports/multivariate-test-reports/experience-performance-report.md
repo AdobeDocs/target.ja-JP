@@ -7,7 +7,7 @@ exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 75%
+ht-degree: 72%
 
 ---
 
@@ -35,6 +35,6 @@ ht-degree: 75%
 
 ## トレーニングビデオ：MVT テストの作成 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
-このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。エクスペリエンスのパフォーマンスレポートについては 8:20 の時点から説明しています。
+このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。エクスペリエンスパフォーマンスレポートは 8:20 から説明されています。
 
->[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

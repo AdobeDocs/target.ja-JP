@@ -1,7 +1,7 @@
 ---
 keywords: インクルージョンルール;包含条件;レコメンデーション;新しい条件の作成;プロモーション;動的フィルター;動的;空の値;フィルタールールの無視;静的フィルター;値でフィルター;エンティティ属性のマッチング;プロファイル属性のマッチング;パラメーターのマッチング;値でフィルター;静的フィルター
-description: 条件やプロモーションに関するインクルージョンルールを  [!DNL Target] Recommendationsで作成する方法について説明します。
-title: Recommendationsでの動的および静的インクルージョンルールの使用方法
+description: 条件やプロモーションに関するインクルージョンルールを  [!DNL Target] Recommendations 内に作成する方法を説明します。
+title: Recommendations での動的および静的インクルージョンルールの使用方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 mini-toc-levels: 3
@@ -25,7 +25,7 @@ ht-degree: 17%
 
 ### 条件へのフィルタールールの追加
 
-1. [ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) （**[!UICONTROL Recommendations]/[!UICONTROL Criteria]/[!UICONTROL Create Criteria]/[!UICONTROL Create Criteria]**）中に、**[!UICONTROL Inclusion Rules]** の下の「**[!UICONTROL Add Filtering Rule]**」をクリックします。
+1. [ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) （**[!UICONTROL Recommendations]/[!UICONTROL Criteria]/[!UICONTROL Create Criteria]/[!UICONTROL Create Criteria]**）中に、**[!UICONTROL Add Filtering Rule]** の下の「**[!UICONTROL Inclusion Rules]**」をクリックします。
 
    ![ フィルタールールを追加 ](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
@@ -92,7 +92,7 @@ ht-degree: 17%
 | [!UICONTROL list does not contain an item in]<P>（[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | プロファイル属性のマッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者が web サイト上の項目（製品、記事、映画など）を表示する際に、次に該当する他の項目を除外できます。<ul><li>訪問者が閲覧した最後の 10 項目のリスト</li></ul></ul>**例**：訪問者が最近表示し、興味を示していない項目を昇格させたくない。<P>フィルタールールは次のようになります。<P>`id is not contained in list user.lastViewedItems`<P>**メモ**：この演算子を使用する場合、ルールの [ 右側 ](#caveats) にリストが必要です。 |
 | [!UICONTROL list contains an item in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | プロファイル属性のマッチングで「[!UICONTROL list contains an item in]」演算子を使用すると、訪問者が web サイト上の項目（スポーツイベントやコンサートなど）を表示している際に、次に示す他の項目を昇格させることができます。<ul><li>訪問者のお気に入りのチームの 1 つに関連付けられる</li></ul>**例**：訪問者のお気に入りのチームの 1 つに関連付けられているゲームをレコメンデーションします。<P>フィルタールールは次のようになります。<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**注意**：この演算子を使用する場合、ルールの [ 両側 ](#caveats) にリストが想定されます。 |
 | [!UICONTROL list does not contain an item in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | パラメーター属性のマッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者が web サイト上の項目（製品、記事、ムービーなど）を表示する際に、次に該当する他の項目を除外できます。<ul><li>禁止されているタイプのリストに含まれる</li></ul>**例**：大人の訪問者が利用できる項目（タバコやアルコールなど）を除外します。<P>フィルタールールは次のようになります。<P>`itemType is not contained in list mbox.prohibitedTypes`<P>**注意**：この演算子を使用する場合、ルールの [ 両側 ](#caveats) にリストが想定されます。 |
-| [!UICONTROL list contains all items in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | プロファイル属性のマッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者が web サイト上の項目（ジョブの投稿やレシピなど）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>一連のスキルを含める</li><li>必要な成分のセットを含める</li></ul>**例 1**：訪問者が一連のスキル（Java、C++およびHTML）を持っているとします。 カタログの項目は、必要なスキル（Java とHTML）を持つジョブです。 ジョブを訪問者にレコメンデーションする前に、訪問者のプロファイルに必要なすべてのスキルが含まれていることを確認する必要があります。<P>フィルタールールは次のようになります。<P>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<P>**例 2**：ユーザーがパントリー食材のリストを持っているとします。 レシピには必要な成分のリストがあります。 訪問者にレシピをレコメンデーションする前に、訪問者のプロファイルに必要な成分がすべて含まれていることを確認する必要があります。<P>フィルタールールは次のようになります。<P>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<P>**注意**：この演算子を使用する場合、ルールの [ 両側 ](#caveats) にリストが想定されます。 |
+| [!UICONTROL list contains all items in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | プロファイル属性のマッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者が web サイト上の項目（ジョブの投稿やレシピなど）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>一連のスキルを含める</li><li>必要な成分のセットを含める</li></ul>**例 1**：訪問者が一連のスキル（Java、C++およびHTML）を持っているとします。 カタログの項目は、必要なスキルを持つジョブ（Java およびHTML）です。 ジョブを訪問者にレコメンデーションする前に、訪問者のプロファイルに必要なすべてのスキルが含まれていることを確認する必要があります。<P>フィルタールールは次のようになります。<P>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<P>**例 2**：ユーザーがパントリー食材のリストを持っているとします。 レシピには必要な成分のリストがあります。 訪問者にレシピをレコメンデーションする前に、訪問者のプロファイルに必要な成分がすべて含まれていることを確認する必要があります。<P>フィルタールールは次のようになります。<P>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<P>**注意**：この演算子を使用する場合、ルールの [ 両側 ](#caveats) にリストが想定されます。 |
 | [!UICONTROL list does not contain all items in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | エンティティ属性のマッチングで「[!UICONTROL list does not contain all items in]」演算子を使用すると、訪問者が web サイト上の項目（スポーツイベントやコンサートなど）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>チームのセットを含めない</li></ul>**例**：スポーツイベントに 2 つのチームが含まれるとします。 訪問者のプロファイルは、この訪問者がこれらのチームのゲームを見たくないことを示しています。 これらのチームがプレイしている場合は、ゲームをレコメンデーションしないようにする必要があります。<P>フィルタールールは次のようになります。<P>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<P>**注意**：この演算子を使用する場合、ルールの [ 両側 ](#caveats) にリストが想定されます。 |
 
 ## [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] でフィルタリングする際の空の値の処理 {#section_7D30E04116DB47BEA6FF840A3424A4C8}
@@ -109,7 +109,7 @@ ht-degree: 17%
 |--- |--- |--- |
 | [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Profile Attribute Matching] と [!UICONTROL Parameter Matching] のデフォルト設定は、このアクションです。<P>このオプションではルールを無視するよう指定します。例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
 | [!UICONTROL Do not show any results for this criteria]<P>（条件のみ） | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<P>このアクションは、このオプションを追加 [!DNL Target] る前の空の値の処理方法です。この条件に対する結果は表示されません。 |
-| [!UICONTROL &#x200B; アイテムを昇格しない<P>（プロモーションのみ） &#x200B;] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<P>このアクションは、このオプションを追加 [!DNL Target] る前の空の値の処理方法です。この条件に対する結果は表示されません。 |
+| [!UICONTROL  アイテムを昇格しない<P>（プロモーションのみ） ] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<P>このアクションは、このオプションを追加 [!DNL Target] る前の空の値の処理方法です。この条件に対する結果は表示されません。 |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | 値が空だった場合に静的値を使用するよう設定できます。 |
 
 ## 注意事項 {#caveats}

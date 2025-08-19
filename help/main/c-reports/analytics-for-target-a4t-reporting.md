@@ -1,6 +1,6 @@
 ---
 keywords: analytics for target;A4T;レポートソースとしての analytics
-description: Analytics for  [!DNL Target]  （A4T）の使用方法について説明します。 A4T 統合により、Adobeアクティビティの堅牢なAdobe Analytics レポート  [!DNL Target]  アクセスできます。
+description: Analytics for  [!DNL Target]  （A4T）の使用方法について説明します。 A4T 統合により、Adobe アクティビティの堅牢なAdobe Analytics レポート  [!DNL Target]  アクセスできます。
 title: Analytics for [!DNL Target]  （A4T） レポートの使用方法？
 feature: Analytics for Target (A4T)
 exl-id: 43d31231-e258-458e-b371-08214fd903b9

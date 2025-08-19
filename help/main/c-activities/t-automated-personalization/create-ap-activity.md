@@ -1,6 +1,6 @@
 ---
 keywords: automated personalization;ap
-description: '[!UICONTROL Visual Experience Composer] を使用して [!UICONTROL Automated Personalization] （AP）アクティビティを作成する方法を説明します。'
+description: '[!UICONTROL Automated Personalization] を使用して [!UICONTROL Visual Experience Composer] （AP）アクティビティを作成する方法を説明します。'
 title: '[!UICONTROL Automated Personalization] アクティビティの作成方法'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
@@ -14,9 +14,9 @@ ht-degree: 24%
 
 # [!UICONTROL Automated Personalization] アクティビティの作成
 
-[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Adobe Target] に [!UICONTROL Automated Personalization] （AP）アクティビティを作成します。
+[!UICONTROL Automated Personalization] （VEC）を使用して、[!DNL Adobe Target] に [!UICONTROL Visual Experience Composer] （AP）アクティビティを作成します。
 
-[!DNL Target] の [!UICONTROL Automated Personalization] （AP）アクティビティワークフローは、他のアクティビティタイプのワークフローとは異なります。
+[!UICONTROL Automated Personalization] の [!DNL Target] （AP）アクティビティワークフローは、他のアクティビティタイプのワークフローとは異なります。
 
 1. [!DNL Target] [!UICONTROL Activities] リストで、**[!UICONTROL Create Activity]**/**[!UICONTROL Automated Personalization]** をクリックします。
 
@@ -42,7 +42,7 @@ ht-degree: 24%
 
    指定された URL のページが VEC で開きます。
 
-1. アクティビティに名前を付けるには、「[!UICONTROL Untitled Activity]」の横にある **[!UICONTROL Edit]** のアイコン ![ 編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
+1. アクティビティに名前を付けるには、「**[!UICONTROL Edit]**」の横にある ![ のアイコン ](/help/main/assets/icons/Edit.svg) 編集アイコン [!UICONTROL Untitled Activity]）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
 
    アクティビティ名は、次の文字で始めることはできません：
 
@@ -103,7 +103,7 @@ ht-degree: 24%
 
 1. アクティビティのコンテンツの設定が完了したら、「**[!UICONTROL Done]**」をクリックします。
 
-1. [!UICONTROL Visual Experience Composer] の上部にある「**[!UICONTROL Targeting]**」をクリックして、3 ステップのガイドによるワークフローの次のステップに進みます。
+1. **[!UICONTROL Targeting]** の上部にある「[!UICONTROL Visual Experience Composer]」をクリックして、3 ステップのガイドによるワークフローの次のステップに進みます。
 
    **ターゲティング** ステップは、他の [!DNL Target] アクティビティタイプを使用したことがある場合によく見られます。 ここでは、オーディエンスを選択し、各エクスペリエンスを表示する訪問者の割合を指定できます。
 
@@ -119,7 +119,7 @@ ht-degree: 24%
 
    右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
 
-   1. オーディエンスを変更するには **右側のフレームで**&#x200B;[!UICONTROL Replace] アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
    1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
 
       **オーディエンスを組み合わせる** をクリックして、[ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) できます。
@@ -127,7 +127,7 @@ ht-degree: 24%
       [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
 
       * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
-      * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] ーザーに保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します。
+      * **[!UICONTROL This activity only]**:[ ーザーに保存されず、現在のアクティビティでのみ使用できる ](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
 
    1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティにエントリする選定訪問者の割合を選択します。
 
@@ -160,7 +160,7 @@ ht-degree: 24%
    | [!UICONTROL Objective] | （オプション）テストの目的を入力します。目的を設定しておくと、アクティビティの用途を覚えやすくなります。 |
    | [!UICONTROL Priority] | の [!DNL Target] UI とオプションは、設定によっ [!UICONTROL Priority] 異なります。 従来の設定である [!UICONTROL Low]、[!UICONTROL Medium]、[!UICONTROL High] を使用するか、0～999 の細かい優先度を有効にすることができます。<P>優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。<P>[!UICONTROL Administration] > [!UICONTROL Reporting] （デフォルト）でこのオプションが有効になっていない場合は、優先度を [!UICONTROL Low]、[!UICONTROL Medium]、[!UICONTROL High] のいずれかに指定します。<P>詳細な優先度を有効にするには、[!UICONTROL Administration]/[!UICONTROL Reporting] をクリックし、「[!UICONTROL Enable Fine-Grained Priorities]」オプションを「オン」の位置に切り替えます。<P>このオプションが有効な場合は、0～999 の値を指定します。<ul><li>0 = 低</li><li>999 = 高</li></ul>以前のバージョンの [!DNL Target Standard/Premium] で作成されたアクティビティの場合、[!UICONTROL Low] の優先度は 0 に変換され、[!UICONTROL Medium] の優先度は 5 に変換され、[!UICONTROL High] の優先度は 10 に変換されます。 これらの値は必要に応じて調整できます。<P>**注意**：詳細設定プライオリを使用した後でこのオプションを無効にするには、すべての優先度を 0、5、10 に戻す必要があります。 |
    | [!UICONTROL Duration] | アクティビティの開始日と終了日を設定します。 [!UICONTROL When Activated] を選択するか、特定の日時を指定できます。 |
-   | [!UICONTROL Optimization Goal] | 以下の 2 つのパラメーターを使用して最適化目標を指定します。<ul><li>このアクティビティで測定するもの</li><li>その目標が達成されたことを示すアクティビティ参加者によって取られるアクション。</li></ul>[!UICONTROL My Primary Goal] の右側の 3 つのドットを選択して、最適化目標に名前を付けることができます。 アクティビティ [!UICONTROL Automated Personalization]、[!UICONTROL Conversion] または [!UICONTROL Revenue] を測定できます。 コンバージョンを実行するには、ページを表示するか、mbox を表示します。 クリックを追跡することもできます。<P>主な目標は、エクスペリエンスの成功を計算するためにモデリングシステムで使用されるモデリング指標にもなります。<P>モデリングの目標に達した後も、訪問者をアクティビティ内にとどめて、追跡の対象とすることができます。例えば、多くの場合、クリック率の向上を目的に、モデリング目標として [!UICONTROL Automated Personalization] アクティビティを設定します。 しかし、クリック率の向上が最終的にどのようにコンバージョンにつながっているかを確認することが重要なので、最終的なコンバージョンまで追跡することが欠かせません。<P>複数の指標の依存関係を指定したり、指標に到達したらカウントを増分するか、指標に到達しなかったらカウントを増分するかを柔軟に選択したりできます。<P>成功指標の依存関係を設定する前に、両方（または複数）の成功指標を定義する必要があります。<P>[!UICONTROL Add Dependency] オプションを使用すると、別の成功指標に到達した場合または到達していない場合に、成功指標を増分できます。<P>依存関係を追加する手順は次のとおりです。<ol><li>指標を追加したら、[!UICONTROL Additional Goal] の右側にある「。..」メニューの下の「**[!UICONTROL Advanced Settings]**」をクリックします。</li><li>[!UICONTROL Reporting Settings] セクションの下部にある「**[!UICONTROL Add Dependency]**」オプションをクリックします。</li><li>目的の指標を左側のペインから右側のペインにドラッグ&amp;ドロップし、「[!UICONTROL Reached]」をクリックして [!UICONTROL Reached] と [!UICONTROL Not Reached] の設定を切り替えます。</li></ol>追加した依存関係は後で編集または削除できます。 |
+   | [!UICONTROL Optimization Goal] | 以下の 2 つのパラメーターを使用して最適化目標を指定します。<ul><li>このアクティビティで測定するもの</li><li>その目標が達成されたことを示すアクティビティ参加者によって取られるアクション。</li></ul>[!UICONTROL My Primary Goal] の右側の 3 つのドットを選択して、最適化目標に名前を付けることができます。 アクティビティ [!UICONTROL Automated Personalization]、[!UICONTROL Conversion] または [!UICONTROL Revenue] を測定できます。 コンバージョンを実行するには、ページを表示するか、mbox を表示します。 クリックを追跡することもできます。<P>主な目標は、エクスペリエンスの成功を計算するためにモデリングシステムで使用されるモデリング指標にもなります。<P>モデリングの目標に達した後も、訪問者をアクティビティ内にとどめて、追跡の対象とすることができます。例えば、多くの場合、クリック率の向上を目的に、モデリング目標として [!UICONTROL Automated Personalization] アクティビティを設定します。 しかし、クリック率の向上が最終的にどのようにコンバージョンにつながっているかを確認することが重要なので、最終的なコンバージョンまで追跡することが欠かせません。<P>複数の指標の依存関係を指定したり、指標に到達したらカウントを増分するか、指標に到達しなかったらカウントを増分するかを柔軟に選択したりできます。<P>成功指標の依存関係を設定する前に、両方（または複数）の成功指標を定義する必要があります。<P>[!UICONTROL Add Dependency] オプションを使用すると、別の成功指標に到達した場合または到達していない場合に、成功指標を増分できます。<P>依存関係を追加する手順は次のとおりです。<ol><li>指標を追加したら、**[!UICONTROL Advanced Settings]** の右側にある「。..」メニューの下の「[!UICONTROL Additional Goal]」をクリックします。</li><li>**[!UICONTROL Add Dependency]** セクションの下部にある「[!UICONTROL Reporting Settings]」オプションをクリックします。</li><li>目的の指標を左側のペインから右側のペインにドラッグ&amp;ドロップし、「[!UICONTROL Reached]」をクリックして [!UICONTROL Reached] と [!UICONTROL Not Reached] の設定を切り替えます。</li></ol>追加した依存関係は後で編集または削除できます。 |
    | [!UICONTROL Conversion Metric] | デフォルトでは、コンバージョン指標は最適化目標指標と同じです。 ただし、「コンバージョン」オプションのチェックを外すことで、別のコンバージョン指標を定義 [!UICONTROL Same as Optimization Goal] きます。 |
    | [!UICONTROL Additional Metrics] | 使用するレポート指標を追加します。 コンバージョンまたは売上高指標を追加できます。<P>**メモ**:[!UICONTROL Engagement] の指標は、追加の指標としてはサポートされていません。 [!DNL Target] UI では [!UICONTROL Engagement] 指標を選択できる場合がありますが、レポートにデータが正確に表示されません。 |
    | [!UICONTROL Audiences for Reporting] | オーディエンスを追加して、レポートでオーディエンスによるフィルタリングを可能にします。デフォルトでは、レポートにすべての認定訪問者の結果が表示されます。オーディエンスを追加して結果をフィルタリングすると、訪問者をさらに絞り込むことができます。<P>**注意**：他のアクティビティタイプと異なり、[!UICONTROL Automated Personalization] は [!UICONTROL Adobe Analytics] をレポートソースとして使用できません（A4T）。 |

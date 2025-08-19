@@ -1,7 +1,7 @@
 ---
 keywords: recommendations;recommendations アクティビティ；条件；アルゴリズム；レコメンデーションキー；カスタムキー；industry vertical；小売；eccommerce；リード生成；b2b；金融サービス；メディア；公開
 description: Adobe [!DNL Target] [!DNL Recommendations] で条件を使用する方法を説明します。
-title: ' [!DNL Target] Recommendationsでの条件の使用方法？'
+title: In [!DNL Target] Recommendations で条件を使用する方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
@@ -40,7 +40,7 @@ ht-degree: 17%
 
 | アルゴリズムタイプ | 使用するタイミング | 使用可能なアルゴリズム |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>これらを閲覧した人は、これらを閲覧しました</li><li>これらを閲覧した人が購入しました</li><li>これらを購入した人が、それらを購入しました</li></ul>詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース *の ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) 買い物かごベース* を参照してください。 |
+| [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>これらを閲覧した人は、これらを閲覧しました</li><li>これらを閲覧した人が購入しました</li><li>これらを購入した人が、それらを購入しました</li></ul>詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) の *買い物かごベース* を参照してください。 |
 | [!UICONTROL Popularity-Based] | サイト全体でのアイテムの全体的な人気度に基づいて、またはユーザーのお気に入りのカテゴリや最も多く閲覧されたカテゴリ、ブランド、ジャンルなどのアイテムの人気度に基づいて、レコメンデーションを作成します。 | <ul><li>サイト全体で最も多く閲覧された</li><li>カテゴリ別で最も多く閲覧された</li><li>品目属性別で最も多く閲覧された</li><li>サイト全体のトップセラー</li><li>カテゴリ別トップセラー</li><li>品目属性別の上位セラー</li><li>Analytics 指標で上位に表示</li></ul> |
 | [!UICONTROL Item-Based] | ユーザーが現在表示している項目または最近表示した項目に類似した項目を見つけることに基づいてお勧めを紹介します。 | <ul><li>これを閲覧した人が他に閲覧したもの</li><li>これを閲覧した人が購入したもの</li><li>これを購入した人が他に購入したもの</li><li>類似の属性を持つ項目</li></ul> |
 | [!UICONTROL User-Based] | ユーザーの行動に基づいてお勧めを紹介します。 | <ul><li>最近表示された項目</li><li>あなたにお勧め</li></ul> |

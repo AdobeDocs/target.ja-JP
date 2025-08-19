@@ -1,6 +1,6 @@
 ---
 keywords: コンテンツライブラリ；アセット；検索；フィルター
-description: Adobeオファーライブラリでコードおよび画像オファーを検索する方法  [!DNL Target]  説明します。
+description: Adobe [!DNL Target]  オファーライブラリでコードおよび画像オファーを検索する方法を説明します。
 title: オファーライブラリのコンテンツを検索するには
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # コンテンツの検索とフィルタリング
 
-[!DNL Adobe Target] の [!UICONTROL Offers] ライブラリ内のキーワードでアセットを検索します。
+[!UICONTROL Offers] の [!DNL Adobe Target] ライブラリ内のキーワードでアセットを検索します。
 
 ## キーワードでコードオファーを検索
 

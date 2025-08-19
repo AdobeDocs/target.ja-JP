@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # コンテンツの検索とフィルタリング
 
-[!DNL Adobe Target] の [!UICONTROL Offers] ライブラリ内のキーワードでアセットを検索します。
+[!UICONTROL Offers] の [!DNL Adobe Target] ライブラリ内のキーワードでアセットを検索します。
 
 ## キーワードでコードオファーを検索
 
@@ -28,14 +28,14 @@ ht-degree: 1%
 
 1. **[!UICONTROL Offers]**／**[!UICONTROL Image Offers]**&#x200B;をクリックします。
 
-1. （オプション） [!UICONTROL Card View] と [!UICONTROL List View] を切り替えるには、[!UICONTROL Asset] ライブラリの右上隅にある [!UICONTROL Card View] アイコン（![ カード表示アイコン ](/help/main/assets/icons/ViewCard.svg)）または [!UICONTROL List View] アイコン（![ リスト表示アイコン ](/help/main/assets/icons/ViewList.svg)）をクリックします。
+1. （オプション） [!UICONTROL Card View] と [!UICONTROL List View] を切り替えるには、[!UICONTROL Card View] ライブラリの右上隅にある ![ アイコン（](/help/main/assets/icons/ViewCard.svg) カード表示アイコン [!UICONTROL List View]）または ![ アイコン（](/help/main/assets/icons/ViewList.svg) リスト表示アイコン [!UICONTROL Asset]）をクリックします。
 1. 左上隅の「**[!UICONTROL Content Only]**」アイコン ![ コンテンツのみアイコン ](/help/main/assets/icons/RailLeft.svg)）をクリックして、検索ボックスを表示します。
 1. 検索ボックスに検索するアセットのキーワードを入力し、[!UICONTROL Enter] キーを押します。
 1. （条件付き）左側の **[!UICONTROL Filters & Options]** ペインを使用して検索を絞り込みます。
 
    次の項目でフィルタリングできます。
 
-   * を使用します&#x200B;**[!UICONTROL File Type]**。
+   *  を使用します&#x200B;**[!UICONTROL File Type]**。
       * [!UICONTROL Images]
       * [!UICONTROL Documents]
       * [!UICONTROL Multimedia]

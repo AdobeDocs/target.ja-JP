@@ -21,7 +21,7 @@ ht-degree: 25%
 >
 > * リダイレクトオファーは、[!UICONTROL Offers]/[!UICONTROL Code Offers] ページまたは [Forms ベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) で作成できます。 [!UICONTROL Visual Experience Composer] （VEC）では、リダイレクトオファーの作成または適用はできません。 コンテンツは [!DNL Target] リクエストの場所に挿入されるので、これらの場所は、グローバル [!DNL Target] リクエストには適していない可能性が高くなります。
 >
->* AJAX mbox では、リダイレクトオファーを使用できません（`mboxUpdate`）。
+>* AJAX mbox （`mboxUpdate`）では、リダイレクトオファーを使用できません。
 >
 >* [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。[ リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
 >
@@ -53,7 +53,7 @@ ht-degree: 25%
 
    * **[!UICONTROL Include all URL parameters]:** 前のページに存在するすべての URL パラメーターを、リダイレクトされたページに反映する場合は、このオプションを有効にします。
 
-     例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL の動的パラメーターを渡す必要もあります。この方法は、ユーザーがメール、バナー広告、検索広告またはオーガニックを介してサイトに到達したかどうかを追跡する方法であるからです。 このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mensShirts.html` ストされたときに、ページ `https://www.mycompany.com/mens.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html?emailId=123` になります。
+     例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL の動的パラメーターを渡す必要もあります。この方法は、ユーザーがメール、バナー広告、検索広告またはオーガニックを介してサイトに到達したかどうかを追跡する方法であるからです。 このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mens.html?emailId=123` ストされたときに、ページ `https://www.mycompany.com/mensShirts.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html` になります。
 
    * **[!UICONTROL Pass mbox session ID]:** 別のドメインにリダイレクトする必要があります。 `sessionId` をリダイレクトに自動的に含める場合は、切り替えスイッチをスライドしてこのオプションを有効にします。 このオプションは、メールまたはドメイン間のクリックをテストする場合にのみ必要です。 この `sessionId` を使用して訪問者の Cookie を照合し、訪問者を引き続き追跡して適切なコンテンツが表示されるようにします。
 
@@ -84,7 +84,7 @@ ht-degree: 25%
 
    * **[!UICONTROL Include all URL parameters]:** 前のページに存在するすべての URL パラメーターをリダイレクトされたページに反映する場合は、切り替えスイッチをスライドしてこのオプションを有効にします。
 
-     例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL の動的パラメーターを渡す必要もあります。この方法は、ユーザーがメール、バナー広告、検索広告またはオーガニックを介してサイトに到達したかどうかを追跡する方法であるからです。 このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mensShirts.html` ストされたときに、ページ `https://www.mycompany.com/mens.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html?emailId=123` になります。
+     例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL の動的パラメーターを渡す必要もあります。この方法は、ユーザーがメール、バナー広告、検索広告またはオーガニックを介してサイトに到達したかどうかを追跡する方法であるからです。 このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mens.html?emailId=123` ストされたときに、ページ `https://www.mycompany.com/mensShirts.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html` になります。
 
    * **[!UICONTROL Pass mbox session ID]:** 別のドメインにリダイレクトする必要があります。 `sessionId` をリダイレクトに自動的に含める場合は、切り替えスイッチをスライドしてこのオプションを有効にします。 このオプションは、メールまたはドメイン間のクリックをテストする場合にのみ必要です。 この `sessionId` を使用して訪問者の Cookie を照合し、訪問者を引き続き追跡して適切なコンテンツが表示されるようにします。
 

@@ -7,7 +7,7 @@ exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: f5fa1d5c1747ed4c1e5e3d35f3c01f49f3f255c3
 workflow-type: tm+mt
 source-wordcount: '2724'
-ht-degree: 38%
+ht-degree: 51%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 38%
 
 **更新された [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関する情報はどこで入手できますか？**
 
-+++詳細を見る
++++詳細を表示
 
 ユーザーインターフェイスは、[!DNL Target] を最大限に活用できるよう、論理的かつユーザーにわかりやすい形式で配置されています。以下の概要は、[!DNL Target] と VEC に慣れるのに役立ち、より詳細な情報と手順を説明するリンクを提供します。
 
@@ -48,14 +48,14 @@ ht-degree: 38%
 **[!DNL Adobe] に関 [!DNL Target] る回答や詳細情報を見つけられるコミュニティやフォーラムはありますか？**
 
 +++詳細を表示
-[!DNL Target]Target コミュニティフォーラム [ で ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
+[!DNL Target]Target コミュニティフォーラム [ で ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
 
 +++
 
 **どのブラウザーがサポートされて [!DNL Target] ますか？**
 
 +++詳細を表示
-詳しくは、[ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja){target=_blank} マトリックスを参照してください。 デスクトップ/デバイスでの [!DNL Target Standard/Premium] インターフェイスのサポートとエンドユーザーブラウザーのサポートの 2 つの側面があることに注意してください。
+詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja){target=_blank}」のマトリックスを参照してください。デスクトップ/デバイスでの [!DNL Target Standard/Premium] インターフェイスのサポートとエンドユーザーブラウザーのサポートの 2 つの側面があることに注意してください。
 
 +++
 
@@ -64,14 +64,14 @@ ht-degree: 38%
 **統計的有意性に優れた手法で、コントロールエクスペリエンスを使用しながら勝者と敗者のエクスペリエンスを見極めることはできますか？**
 
 +++詳細を表示
-最良の結果を得るには、[A/B テスト ](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) （手動ターゲティングオプション）と [ サンプルサイズ計算ツール ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) を使用します。
+[A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)（手動ターゲット設定オプション）と[サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5)の使用が最適です。
 
 +++
 
 **アクティビティを停止するタイミングはどのように判断すればよいですか？**
 
 +++詳細を表示
-アクティビティを早めに停止すると、誤った結論が導き出される可能性があります。 [ 一般的な落とし穴とその回避方法 ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F) に注意します。 また、「[A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md)」も参照してください。
+データが不十分な段階でアクティビティを停止してしまうと、間違った結論が導かれる恐れがあります。[ 一般的な落とし穴とその回避方法 ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F) に注意します。 また、「[A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md)」も参照してください。
 
 +++
 
@@ -101,7 +101,7 @@ ht-degree: 38%
 **効果が高いページ要素の組み合わせを把握したり、各要素がどの程度の効果を発揮しているのかを確認したりするためには、どうすればよいですか？**
 
 +++詳細を表示
-要素貢献度分析を使用した [ 完全な要因多変量分析（MVT）アクティビティ ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) を確認して、ニーズを満たしているかどうかを確認してください。
+お客様のニーズに対応できる可能性があるため、[全因子多変量分析（MVT）アクティビティ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)と要素の貢献度分析を確認してください。
 
 ただし、MVT アクティビティではトラフィック要件は厳しくなります。
 
@@ -117,7 +117,7 @@ ht-degree: 38%
 **目標（プライマリまたはセカンダリ）の達成後はユーザーに再度そのアクティビティを表示することはせず、別のアクティビティを表示するようにするには、どうすればよいですか？**
 
 +++詳細を表示
-これは、すべての目標で使用できる [ 詳細設定 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) オプションを使用することで簡単に実現できます。 各オプションを利用し、ユーザーが目標に達した後の処理方法や、カウントを増分する方法を指定できます。
+あらゆる目標で利用できる「[詳細設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974)」オプションを使用すれば、簡単に実現できます。各オプションを利用し、ユーザーが目標に達した後の処理方法や、カウントを増分する方法を指定できます。
 
 このケースでは、「カウントを増分、ユーザーをリリース、再入場を許可しない」と「デフォルト / 他のアクティビティのコンテンツ」を選択することで対処できます。他のオプションもチェックしてみてください。
 
@@ -133,7 +133,7 @@ ht-degree: 38%
 **目標達成のためにアクティビティを適切に設定するには、どうすればよいですか？**
 
 +++詳細を表示
-ここに [ 目標 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) があります。
+そのためにあるのが[目標](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)です。
 
 まず、何を重視して最適化をおこなうかを把握します。それは [!UICONTROL Revenue] ですか、[!UICONTROL Conversion] ですか、それとも [!UICONTROL Engagement] ですか。 これらの各オプションは目標のセクションで利用できます。それぞれのオプションで、目標達成の条件と見なすサイトでのユーザー行動を定義できます。
 
@@ -167,14 +167,14 @@ ht-degree: 38%
 **作成したばかりのアクティビティのプレビューを確認し、QA を実行するにはどうすればよいですか？**
 
 +++詳細を表示
-[ 強力な QA モード機能 ](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用して QA を実行します。 QA チームでリンクを共有して、レポートを含めたエンドツーエンドのアクティビティ QA を実行することもできます。これにより、アクティビティをライブにした後、テストでの想定どおりに進めることができます。
+[強力な QA モード機能](/help/main/c-activities/c-activity-qa/activity-qa.md)を利用して、QA を実行できます。QA チームでリンクを共有して、レポートを含めたエンドツーエンドのアクティビティ QA を実行することもできます。これにより、アクティビティをライブにした後、テストでの想定どおりに進めることができます。
 
 +++
 
 **[!DNL Target] の意思決定機能を使用して、単一ページアプリケーション（SPA）またはサーバーサイド統合で使用できるエクスペリエンス/オファーを受け取るにはどうすればよいですか？**
 
 +++詳細を表示
-目標を達成するために [JSON オファー ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) を使用した [ フォームベースのアクティビティ ](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) の機能を使用します。
+その場合は、[フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)を利用することで対処できます。
 
 +++
 
@@ -195,28 +195,28 @@ ht-degree: 38%
 **特定のアクティビティ専用のオーディエンスセグメントを作成できますか？再利用の要素がないため、[!UICONTROL Audience Library] ーム内にそのようなオーディエンスを作成する必要はないと感じています**。
 
 +++詳細を表示
-[ アクティビティのみのオーディエンス機能 ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) の使用を開始して、アクティビティに対してローカルなオーディエンスを定義します。
+特定のアクティビティ専用のオーディエンスを定義するには、[アクティビティのみのオーディエンス機能](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)を利用してください。
 
 +++
 
 **場所を基準にユーザーをターゲットに設定するには、どうすればよいですか？**
 
 +++詳細を表示
-[ ジオオーディエンス ](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670) を試す。 この機能の精度のレベルを確認してください。
+その場合、[地理オーディエンス](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)を利用します。この機能の精度のレベルを確認してください。
 
 +++
 
 **セッション内で、ページ上の属性を基準にユーザーをターゲットに設定することはできますか？**
 
 +++詳細を表示
-最適な方法は、mbox と [ カスタムオーディエンス ](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) を使用して適切なエクスペリエンスを提供することです。
+mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B)を併用して適切なエクスペリエンスを提供する方法が最適です。
 
 +++
 
 **複数の訪問をまたいで訪問者属性に基づいたエクスペリエンスを提供できますか？ トラフィックを 2 つのバケットにランダムに分割することはできますか？**
 
 +++詳細を表示
-[ プロファイルスクリプト機能 ](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2) を試します。 エクスペリエンスをパーソナライズする強力な方法ですが、コードを記述する必要があります。
+その場合、[プロファイルスクリプト機能](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)を利用してください。エクスペリエンスをパーソナライズする強力な方法ですが、コードを記述する必要があります。
 
 +++
 
@@ -230,10 +230,10 @@ ht-degree: 38%
 **また、[!DNL Adobe Analytics] もあり、[!DNL Target] で活用したいと思っています。 この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
 
 +++ 詳細を表示
-製品の以下の側面を確認してください。
+以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -243,7 +243,7 @@ ht-degree: 38%
 **構成が共通する複数のページにまたがるアクティビティを実行できますか？**
 
 +++詳細を表示
-[ テンプレートルール ](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) をチェックアウトして、指定された単一の URL でエクスペリエンスを作成しながら、アクティビティに類似した構造化ページを多数含めます。
+その場合、[テンプレートルール](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)を利用して、指定された単一の URL のエクスペリエンスを作成し続けながら、構成が共通する多数のページをアクティビティに追加します。
 
 +++
 
@@ -259,14 +259,14 @@ ht-degree: 38%
 **[!UICONTROL Visual Experience Composer] at.js ライブラリがまだデプロイされていない場合でも、サイトで [!DNL Target] （VEC）を試すことはできますか？**
 
 +++詳細を表示
-[ 拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を使用してページを読み込んでみます。
+[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) でページを読み込んでみてください。
 
 +++
 
 **[!UICONTROL Visual Experience Composer] （VEC）内でサイトが読み込まれないのはなぜですか？**
 
 +++詳細を表示
-ヘルプページに概要が記載されている [ トラブルシューティング情報 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) を試してください。 記載されている方法で問題を解消できなかった場合、[アドビサポート](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
+ヘルプページの「[トラブルシューティング情報](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)」を参照してください。記載されている方法で問題を解消できなかった場合、[アドビサポート](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
 
 また、「[フォームベースの手法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でブロックを解除できます。
 
@@ -277,7 +277,7 @@ ht-degree: 38%
 **レスポンシブサイトを運営しています。アクティビティの作成中に重要なデバイスでの表示を確認するには、どうすればよいですか？**
 
 +++詳細を表示
-[ モバイルビューポート ](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5) 機能を試します。 [!UICONTROL Enhanced Experience Composer] が有効な場合にのみ機能することに注意してください。
+その場合、[モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)機能を利用します。[!UICONTROL Enhanced Experience Composer] が有効な場合にのみ機能することに注意してください。
 
 +++
 
@@ -291,21 +291,21 @@ ht-degree: 38%
 **画像を入れ替えるオプションが表示されないのはなぜですか？**
 
 +++詳細を表示
-Adobeに問い合わせて [ アカウントが Scene7 用に設定されていることを確認してください ](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)。 プロビジョニングが終わったら、簡単に別の画像と入れ替えられるようになります。
+アドビまでお問い合わせいただけば、[お客様のアカウントで Scene7 を有効にします](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)。プロビジョニングが終わったら、簡単に別の画像と入れ替えられるようになります。
 
 +++
 
 **一律割引とパーセンテージ割引など、2 種類のエクスペリエンスをテストしたいのですが、エクスペリエンスのターゲットを適切に設定する必要があります（違う国のユーザーには違うロケールのテキストや通貨を表示するなど）。これはどうすれば設定できますか？**
 
 +++詳細を表示
-[ 複数のエクスペリエンスバージョン機能 ](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF) を使用すると、これを簡単に実現できます。 このようなテストでは、配信に関するニュアンスに注意してください。
+その場合、[複数のエクスペリエンスバージョン機能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)を使用すると簡単に設定できます。このようなテストでは、配信に関するニュアンスに注意してください。
 
 +++
 
 **[!UICONTROL Visual Experience Composer] （VEC）で行った変更を確認するにはどうすればよいですか？**
 
 +++詳細を表示
-変更内容は常に [ コードエディター ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5) に表示されます。 「[!UICONTROL Modifications]」タブには、オファーに適用した CSS セレクターまたは mbox が表示されます。
+変更内容は、「[コードエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)」に常に表示されます。「[!UICONTROL Modifications]」タブには、オファーに適用した CSS セレクターまたは mbox が表示されます。
 
 CSS セレクターは Sizzle セレクターです。このセクションで、手早く小さな変更を加えたり特定のオファーを削除したりできます。
 
@@ -314,7 +314,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **実験／アクティビティの一部として JavaScript を配信し、動的要素に即座に変更を加えたり、サードパーティソリューションに呼び出しを送信したりしたいと考えています。これはどうすれば設定できますか？**
 
 +++詳細を表示
-方法の 1 つに、[ カスタムコードエディター ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5) を使用する方法があります。 該当の JavaScript をセクションに設置すると配信されます。必要に応じて、head 内や body 最上部で配信することもできます。
+それを行う方法の 1 つは、[カスタムコードエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)の利用です。該当の JavaScript をセクションに設置すると配信されます。必要に応じて、head 内や body 最上部で配信することもできます。
 
 +++
 
@@ -330,14 +330,14 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **私は以前 [!DNL Target Classic] ユーザーでした。 特定の用途で自分の mbox を利用することはできますか？**
 
 +++詳細を表示
-[ フォームベースのアプローチ ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) を使用して、アクティビティを作成します。
+「[フォームベースの手法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でアクティビティを作成してください。
 
 +++
 
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
 +++詳細を表示
-[ デバッガー ](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) を使用し、[ アクティビティの衝突 ](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E) を確認します。
+[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
 
 +++
 
@@ -347,28 +347,28 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 
 +++詳細を表示
-[URL をリダイレクト機能 ](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) を使用して、ユーザーを任意のページ（現在のクエリパラメーターを含む/含まない）にリダイレクトできます。
+[リダイレクト URL 機能](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用すると、対象のページにユーザーを誘導できます（現在のクエリパラメーターの有無は問いません）。
 
 +++
 
 **QA プロセスでコンテンツ配信がおこなわれないのはなぜですか？**
 
 +++詳細を表示
-動的 ID、重複 ID、要素に対する動的クラスなどをサイトに含めることができます。 アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。[CSS セクター](/help/main/administrating-target/visual-experience-composer-set-up.md#css)を参照してください。
+お客様のサイトの要素に動的 ID、重複する ID または動的クラスが含まれている可能性があります。アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。[CSS セクター](/help/main/administrating-target/visual-experience-composer-set-up.md#css)を参照してください。
 
 +++
 
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
 +++詳細を表示
-[ デバッガー ](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) を使用し、[ アクティビティの衝突 ](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E) を確認します。
+[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
 
 +++
 
 **[!UICONTROL Target] の意思決定機能を使用して、単一ページアプリケーション（SPA）またはサーバーサイド統合で使用できるエクスペリエンス/オファーを受け取ることはできますか？**
 
 +++詳細を表示
-目標を達成するために [JSON オファー ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) を使用した [ フォームベースのアクティビティ ](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) の機能を使用します。
+その場合は、[フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)を利用することで対処できます。
 
 +++
 
@@ -377,10 +377,10 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **また、[!DNL Adobe Analytics] もあり、[!DNL Target] で活用したいと思っています。 この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
 
 +++詳細を表示
-製品の以下の側面を確認してください。
+以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -399,7 +399,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **アクティビティの実行前にオーディエンスを定義できません。レポートオーディエンスのこのような側面は、アクティビティ [!DNL Target] は制限されていると感じています。 このプロセスを容易にするために何ができるか**
 
 +++詳細を表示
-ここで役に立つのは、[Analytics for Target （A4T） ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) です。 [!DNL Adobe Analytics] がある場合は、ソースを [!DNL Analytics] として選択するだけで、この制限がなくなります。 あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
+そのためにあるのが [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)です。[!DNL Adobe Analytics] がある場合は、ソースを [!DNL Analytics] として選択するだけで、この制限がなくなります。 あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
 
 +++
 
@@ -413,7 +413,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **レポート評価のコントロールエクスペリエンスを変更したり、カウント方法を [!UICONTROL Visitors] から [!UICONTROL Visits] に変更したりできますか？**
 
 +++詳細を表示
-[ レポートページの設定歯車 ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) を使用して、これらの変更を行います。 これらの設定で、計算方法がどう変わるかについて確認してください。
+[ レポートページの設定歯車](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)を使用してこれらの変更をおこないます。これらの設定で、計算方法がどう変わるかについて確認してください。
 
 +++
 
@@ -429,7 +429,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **[!DNL Google Analytics] や [!DNL ClickTal]e などのサードパーティシステムと統合して、エンドユーザーに配信したアクティビティ情報を分析に渡すことはできますか？**
 
 +++詳細を表示
-[ レスポンストークン機能 ](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4) を使用して、そのためのソリューションも提供しています。
+これに関しては、[レスポンストークン](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)機能を使用してください。
 
 +++
 
@@ -445,7 +445,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **トラブルシューティング用のガイドはありますか？**
 
 +++詳細を表示
-ご迷惑をおかけして申し訳ございません。 多くのトラブルシューティングトピックへのリンクについては、[Troubleshooting Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) を参照してください。
+ご迷惑をおかけして大変申し訳ありません。多くのトラブルシューティングトピックへのリンクについては、[Troubleshooting Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) を参照してください。
 
 +++
 
@@ -454,6 +454,6 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **[!DNL Target] API の詳細はどこで確認できますか？**
 
 +++詳細を表示
-API に関する包括的なドキュメントがあります。 「[Delivery API、NodeJS SDK、および Recommendations API のドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}」を参照してください。
+API に関する詳細なドキュメントを用意してあります。「[Delivery API、NodeJS SDK、および Recommendations API のドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}」を参照してください。
 
 +++

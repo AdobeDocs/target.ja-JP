@@ -1,6 +1,6 @@
 ---
 keywords: 概要
-description: ' [!DNL Adobe Target] でのアクティビティの概要を視覚的に提供する、[!UICONTROL Multivariate Test] （MVT）アクティビティの概要を表示します。'
+description: '[!UICONTROL Multivariate Test] でのアクティビティの概要を視覚的に提供する、 [!DNL Adobe Target] （MVT）アクティビティの概要を表示します。'
 title: '[!UICONTROL Multivariate Test] （MVT）アクティビティの概要を表示するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a

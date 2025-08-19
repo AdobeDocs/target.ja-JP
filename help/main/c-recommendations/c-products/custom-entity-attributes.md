@@ -1,6 +1,6 @@
 ---
 keywords: 複数値のエンティティ属性;カスタムエンティティ属性;有効な JSON;エンティティ属性値, JSON 配列;複数値
-description: 1 つまたは複数値のカスタムエンティティ属性を使用して、Adobe [!DNL Target] Recommendations カタログ内の項目に関する追加情報を定義する方法について説明します。
+description: 1 つまたは複数値のカスタムエンティティ属性を使用して、Adobe [!DNL Target] Recommendations カタログの商品に関する追加情報を定義する方法について説明します。
 title: カスタムエンティティ属性の使用方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
@@ -127,7 +127,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-配信 API と保存エンティティ API の使用について詳しくは [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}Adobe Recommendations API ドキュメント &rbrace; を参照してください。
+配信 API と保存エンティティ API の使用について詳しくは [](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}Adobe Recommendations API ドキュメント } を参照してください。
 
 ## 複数値の属性での演算子の使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

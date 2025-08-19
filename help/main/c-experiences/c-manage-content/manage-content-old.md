@@ -13,7 +13,7 @@ ht-degree: 16%
 
 # オファー
 
-[!DNL Adobe Target] の [!UICONTROL Offers] ライブラリを使用して、コードオファーと画像オファーのコンテンツを管理します。
+[!UICONTROL Offers] の [!DNL Adobe Target] ライブラリを使用して、コードオファーと画像オファーのコンテンツを管理します。
 
 1. 「**[!UICONTROL Offers]**」をクリックしてライブラリを開きます。
 
@@ -23,7 +23,7 @@ ht-degree: 16%
 
    ![ 「コードオファー」タブと「画像オファー」タブを表示するオファーページ ](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. （任意）「**[!UICONTROL Type]**」ドロップダウンリストをクリックして、タイプ（HTMLオファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[ リモートオファー ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー ](/help/main/c-experiences/c-manage-content/create-json-offer.md)、および [ フォルダー ](/help/main/c-experiences/c-manage-content/create-content-folder.md)）でオファーをフィルタリングします。
+1. （任意）「**[!UICONTROL Type]**」ドロップダウンリストをクリックして、タイプ（HTML オファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[ リモートオファー ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー ](/help/main/c-experiences/c-manage-content/create-json-offer.md)、および [ フォルダー ](/help/main/c-experiences/c-manage-content/create-content-folder.md)）でオファーをフィルタリングします。
 
    ![offers_filter 画像 ](assets/offers_filter.png)
 
@@ -69,7 +69,7 @@ ht-degree: 16%
 
 オファーを開かなくても、[!UICONTROL Offers] ライブラリのポップアップカードにオファー定義の詳細を表示できます。
 
-例えば、HTMLオファーに対して次に示すオファー定義カードは、情報アイコン
+例えば、HTMLオファーの次のオファー定義カードは、情報アイコンをクリックしてアクセスします。
 
 ![offer-card-html 画像 ](assets/offer-card-html-new.png)
 
@@ -82,7 +82,7 @@ ht-degree: 16%
 
 [!UICONTROL View Full Details] リンクをクリックして、オファーのコンテンツと、コードオファーを参照するアクティビティを表示します。 これにより、オファーの編集中に他のアクティビティに影響が及ぶことを防止できます。情報には、[!UICONTROL Live Activities] と [!UICONTROL Inactive Activities] があります。
 
-各HTMLで使用できる情報は、オファータイプ（カードオファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[ リモートオファー ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー ](/help/main/c-experiences/c-manage-content/create-json-offer.md) によって異なります。
+各カードで使用できる情報は、オファータイプ（HTML オファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[ リモートオファー ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー ](/help/main/c-experiences/c-manage-content/create-json-offer.md) によって異なります。
 
 オファー詳細機能は、画像オファーには適用されません。
 
@@ -92,7 +92,7 @@ ht-degree: 16%
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=ja) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

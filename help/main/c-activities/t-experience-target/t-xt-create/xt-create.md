@@ -1,6 +1,6 @@
 ---
 keywords: エクスペリエンスのターゲット設定；xt；作成
-description: '[!UICONTROL Visual Experience Composer] （VEC） in を使用して、[!UICONTROL Experience Targeting] （XT）アクティビティを作成する方法を説明します  [!DNL Adobe Target] '
+description: '[!UICONTROL Visual Experience Composer] （VEC） in を使用して、 [!DNL Adobe Target]  （XT）アクティビティを作成する方法を説明します [!UICONTROL Experience Targeting]'
 title: '[!UICONTROL Experience Targeting] アクティビティの作成方法'
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
@@ -13,11 +13,11 @@ ht-degree: 33%
 
 # [!UICONTROL Experience Targeting] （XT）アクティビティの作成
 
-[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target] 対応ページに [!UICONTROL Experience Targeting] （XT）アクティビティを作成し、[!DNL Adobe Target] 内のページの一部を変更します。
+[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Experience Targeting] 対応ページに [!DNL Target] （XT）アクティビティを作成し、[!DNL Adobe Target] 内のページの一部を変更します。
 
 [!UICONTROL Experience Targeting] （XT）では、マーケターが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
-[ ジオターゲティング ](/help/main/c-target/c-audiences/c-target-rules/geo.md) を含む [!UICONTROL Experience Targeting] は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。 アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。
+[!UICONTROL Experience Targeting] ジオターゲティング [ を含む ](/help/main/c-target/c-audiences/c-target-rules/geo.md) は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。 アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。
 
 [!UICONTROL Experience Targeting]、ユースケースシナリオおよびトレーニングビデオについて詳しくは、[ エクスペリエンスのターゲット設定 ](/help/main/c-activities/t-experience-target/experience-target.md) を参照してください。
 
@@ -43,7 +43,7 @@ ht-degree: 33%
 
 1. （条件付き） [!DNL Target Premium] の顧客の場合は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
 
-   「[!UICONTROL Choose Workplace]」オプションは [&#128279;](/help/main/c-intro/intro.md)1&rbrace;Target Premium&rbrace; 機能です。 このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
+   「[!UICONTROL Choose Workplace]」オプションは [1}Target Premium} 機能です。 ](/help/main/c-intro/intro.md)このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
 
 1. [ アクティビティ URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を指定し、「**[!UICONTROL Create]**」をクリックします。
 
@@ -51,7 +51,7 @@ ht-degree: 33%
 
    VEC が開き、URL で指定したページが表示されます。
 
-1. アクティビティに名前を付けるには、「[!UICONTROL Untitled Activity]」の横にある **[!UICONTROL Edit]** のアイコン ![ 編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
+1. アクティビティに名前を付けるには、「**[!UICONTROL Edit]**」の横にある ![ のアイコン ](/help/main/assets/icons/Edit.svg) 編集アイコン [!UICONTROL Untitled Activity]）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
 
    アクティビティ名は、次の文字で始めることはできません：
 

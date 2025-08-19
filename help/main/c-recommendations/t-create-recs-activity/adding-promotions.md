@@ -1,6 +1,6 @@
 ---
 keywords: プロモーション；フロントプロモーション；バックプロモーション；プロモーションタイプ；項目のリスト；属性別に昇格；コレクションを昇格
-description: プロモーション対象のアイテムを追加し、Adobeの  [!DNL Target] Recommendations デザインでの配置を制御する方法について説明します。 静的なプロモーションおよび動的なプロモーションを追加できます。
+description: 昇格した項目を追加し、Adobe [!DNL Target] Recommendations デザインでの配置を制御する方法について説明します。 静的なプロモーションおよび動的なプロモーションを追加できます。
 title: Recommendations デザインでプロモーションを追加するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
@@ -26,7 +26,7 @@ ht-degree: 42%
 
 特定の項目をプロモーションしたり、動的に項目をプロモーションしたり、属性に基づいて項目をプロモーションすることができます。また、コレクションをプロモーションすることもできます。
 
-[!DNL Target] UI の ![[!UICONTROL Front Promotion] および [!UICONTROL Back Promotion] オプション ](assets/add_promotion_toggles.png)
+![[!UICONTROL Front Promotion] UI の [!UICONTROL Back Promotion] および [!DNL Target] オプション ](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ ht-degree: 42%
 
      プロモーションに使用する新しいコレクションを作成できます。詳しくは、[ コレクションの作成 ](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) を参照してください。
 
-   **[!UICONTROL Promotion Type]** として **[!UICONTROL List of Items]** を選択した場合は、必要に応じて「**[!UICONTROL Randomize Item Order]**」チェックボックスを選択できます。
+   **[!UICONTROL List of Items]** として **[!UICONTROL Promotion Type]** を選択した場合は、必要に応じて「**[!UICONTROL Randomize Item Order]**」チェックボックスを選択できます。
 
    [!UICONTROL List of Items] のデフォルトの並べ替え順は、[!DNL Target] UI または API で入力した順序に基づいています。 リストに、プロモーション用に設定したスロット数よりも多くの項目が含まれている場合、[[!UICONTROL Randomize Item Order]] オプションを選択すると、デザインに表示されるプロモーションされた項目がランダムに表示されます。 このオプションを選択する [!DNL Target]、各ヒットに設定されたプロモーション全体から、テンプレートでプロモーションが有効になっている項目がランダムに選択されます。
 

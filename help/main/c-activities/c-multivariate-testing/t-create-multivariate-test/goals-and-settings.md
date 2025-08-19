@@ -1,19 +1,19 @@
 ---
 keywords: アクティビティ設定；目標と設定；多変量分析；mvt
-description: の [!UICONTROL Goals & Settings] ページを使用して、[!UICONTROL Multivariate Test] （MVT [!DNL Adobe Target]  アクティビティの目標に関する情報を指定する方法を説明します。
+description: の [!UICONTROL Goals & Settings] ページを使用して、 [!DNL Adobe Target]  （MVT[!UICONTROL Multivariate Test] アクティビティの目標に関する情報を指定する方法を説明します。
 title: '[!UICONTROL Multivariate Test] （MVT）アクティビティで目標と設定を指定するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
 # 目標と設定（[!UICONTROL Multivariate Test]）
 
-[!DNL Adobe Target] の [!UICONTROL Goals & Settings] ページでは、[!UICONTROL Multivariate Test] （MVT）アクティビティの目標に関する情報を入力します。
+[!UICONTROL Goals & Settings] の [!DNL Adobe Target] ページでは、[!UICONTROL Multivariate Test] （MVT）アクティビティの目標に関する情報を入力します。
 
 次のセクションを使用できます。
 
@@ -54,7 +54,7 @@ ht-degree: 41%
 
 ### 期間
 
-アクティビティは、承認されたときに開始させたり、特定の日時を設定したりできます。同様に、非アクティブ化されたときに終了させたり、日時を設定したりできます。タイムピッカーは 24 時間の時計を使用します。00:00 は真夜中です。タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
+アクティビティは、承認されたときに開始させたり、特定の日時を設定したりできます。同様に、非アクティブ化されたときに終了させたり、日時を設定したりできます。時間の選択では、24 時間制を使用し、00:00 は午前 0 時になります。 タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
 
 ## レポート設定 {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -72,13 +72,13 @@ ht-degree: 41%
 
 アクティビティがライブになった後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。
 
-**[!DNL Adobe Analytics]**: レポートソリューションの違いとそれぞれの利点について詳しくは  [!DNL Target][&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) のレポートソースとしての） [!DNL Adobe Analytics]  を参照してください。
+**[!DNL Adobe Analytics]**: レポートソリューションの違いとそれぞれの利点について詳しくは [[!DNL Adobe Analytics]  のレポートソースとしての）  [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
 
-[!DNL Target] （A4T）のレポートソースとして [!DNL Analytics] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 これを行うには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択し、次に、アクティビティに適したレポートスイートを選択します。 [!DNL Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
+[!DNL Analytics] （A4T）のレポートソースとして [!DNL Target] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 これを行うには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択し、次に、アクティビティに適したレポートスイートを選択します。 [!DNL Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
 
 [!DNL Analytics for Target] （A4T）では、結果を正しく報告するためのトラッキングサーバーが必要です。 デフォルトのトラッキングサーバーが「[!UICONTROL Tracking Server]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合、このフィールドに正しいトラッキングサーバーを含めてください。 詳しくは [Analytics トラッキングサーバーの使用 ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
 
-**[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics] と [!DNL Target] の統合について詳しくは、[[!DNL Target]  でのレポート  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) を参照してください。
+**[!DNL Adobe Customer Journey Analytics]**: [[!DNL Target]  と  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) の統合について詳しくは、[!DNL Adobe Customer Journey Analytics] でのレポート [!DNL Target] を参照してください。
 
 ### 目標指標
 
@@ -159,7 +159,7 @@ ht-degree: 41%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### アクティビティ設定（3:02）
+### アクティビティの設定（3:02）
 
 このビデオでは、アクティビティの設定について説明します。
 
@@ -173,9 +173,9 @@ ht-degree: 41%
 
 ### 多変量分析テストの作成（9:25）
 
-このビデオでは、[!DNL Target] の 3 ステップのガイド付きワークフローを使用して多変量分析テストを作成する方法を説明します。 目標と設定に関する説明は 7:00 から始まります。
+このビデオでは、[!DNL Target] の 3 ステップのガイド付きワークフローを使用して多変量分析テストを作成する方法を説明します。 目標と設定については 7:00 から説明します。
 
 * 多変量分析テストの定義と設計
 * 多変量分析テストの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

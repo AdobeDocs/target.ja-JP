@@ -1,6 +1,6 @@
 ---
 keywords: Automated Personalization;ap；プレビュー；エクスペリエンスを除外
-description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して、の [!UICONTROL Automated Personalization] （AP）アクティビティの各エクスペリエンスをプレビュ  [!DNL Adobe Target]  する方法について説明します。'
+description: '[!UICONTROL Automated Personalization] （VEC）を使用して、の  [!DNL Adobe Target]  （AP）アクティビティの各エクスペリエンスをプレビュ [!UICONTROL Visual Experience Composer] する方法について説明します。'
 title: VEC で [!UICONTROL Automated Personalization] エクスペリエンスをプレビューするにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
@@ -12,7 +12,7 @@ ht-degree: 18%
 
 ---
 
-# [!UICONTROL Visual Experience Composer] （VEC）での [!UICONTROL Automated Personalization] アクティビティのエクスペリエンスのプレビュー
+# [!UICONTROL Automated Personalization] （VEC）での [!UICONTROL Visual Experience Composer] アクティビティのエクスペリエンスのプレビュー
 
 [!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）アクティビティではページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
 

@@ -7,7 +7,7 @@ exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 58%
+ht-degree: 71%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 58%
 
    >[!NOTE]
    >
-   >[!UICONTROL Render Using JavaScript] オプションは、現在、Visual Experience Composer でカスタムコードと共に使用する場合はサポートされていません。
+   >現在、Visual Experience Composer でカスタムコードと共に使用する場合は、「[!UICONTROL Render Using JavaScript]」オプションがサポートされません。
 
 1. classNames の更新のみをおこなって、他を非表示にし、タイマーやアニメーションで次を表示するようにします。
 

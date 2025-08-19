@@ -37,7 +37,7 @@ ht-degree: 16%
 
    ![ コンテンツを管理アイコン ](/help/main/c-reports/assets/ap_manage_content.png)
 
-1. [[!UICONTROL Manage Content]] ダイアログ ボックスの上部にある [**[!UICONTROL Offers]**] タブをクリックします。
+1. [**[!UICONTROL Offers]**] ダイアログ ボックスの上部にある [[!UICONTROL Manage Content]] タブをクリックします。
 1. （条件付き）目的のオファーにカーソルを合わせ、**[!UICONTROL Reporting Group]** フォルダーアイコンをクリックすることで、特定のエクスペリエンスをレポートグループに追加します。
 
    ![ レポートグループアイコン ](/help/main/c-reports/assets/ap_manage_content_2.png)
@@ -56,7 +56,7 @@ ht-degree: 16%
 
 [!UICONTROL Location] リストを使用して、場所でオファーをフィルタリングできます。 [!UICONTROL Report Group] リストを使用すると、レポートグループでオファーをフィルタリングできます。 [!UICONTROL Report Group] リストを使用して [!UICONTROL Unassigned Offers] をフィルタリングし、現在どのレポートグループにも割り当てられていないオファーにレポートグループを割り当てることもできます。
 
-特定のオーディエンスに対するオファーのターゲティングについては、[ オファーのターゲティング ](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E) を参照し [!UICONTROL Automated Personalization] ください。
+特定のオーディエンスに対するオファーのターゲティングについては、[ オファーのターゲティング [!UICONTROL Automated Personalization] を参照し ](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E) ください。
 
 ## 注意事項
 

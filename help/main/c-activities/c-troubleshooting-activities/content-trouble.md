@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 詳しくは、以下のトレーニングビデオを参照してください。
 
-詳しくは、[Adobe Experience Cloud Debugger を使用した at.js のデバッグ ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=ja){target=_blank} を参照してください。
+詳しくは、[Adobe Experience Cloud Debugger を使用した at.js のデバッグ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}を参照してください。
 
 ## Recommendations にトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target は、IE 8 をサポートしていません。
 
 ## Target の Cookie が設定されない {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、[targetGlobalSettings （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ja){target=_blank} を参照してください。
+サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、[targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ja){target=_blank} を参照してください。
 
 ## 要素が Adobe Experience Manager パーソナライゼーションにも含まれていると、Target のコンテンツがちらつく、または表示されない。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -183,7 +183,7 @@ URL にクエリ文字列パラメーターが含まれている場合はどう�
 
 ### オプション 3：完全な URL をターゲットにせず、URL の特定の部分を利用する。
 
-このシナリオでは、URL は `https://shopping.mycart.com?type=Summers%20Offers` で、追加のテンプレートルールでは、[!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers という [!UICONTROL Query] を OR 演算子で区切って指定します。
+このシナリオでは、URL は `https://shopping.mycart.com?type=Summers%20Offers` で、追加のテンプレートルールでは、[!UICONTROL Query] > [!UICONTROL type] > type=Summers%20Offers という [!UICONTROL is (case sensitive)] を OR 演算子で区切って指定します。
 
 ![URL の特定の部分を活用するテンプレートルール](assets/option3.png)
 
@@ -206,12 +206,12 @@ adobe.target.trackEvent({
 
 ### 拡張機能の追加 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34063?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Adobe Target の基本的なデバッグ ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34064?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34065?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

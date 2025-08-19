@@ -1,7 +1,7 @@
 ---
 keywords: カタログ検索；カタログ；検索；除外；コレクション；フィルター
-description: Recommendations カタログ検索を使用して、商品やコンテンツの検索、コレクションや除外の作成、カタログからのアイテムの削除などを行う方法について説明します。
-title: Recommendations カタログ検索の使用方法は？
+description: Recommendations カタログ検索を使用して、製品やコンテンツを検索する方法、コレクションや除外を作成する方法、カタログから項目を削除する方法などについて説明します。
+title: Recommendations カタログ検索の使用方法？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # カタログ検索
 
-[!DNL Adobe Recommendations] の [!UICONTROL Catalog Search] ページは、カタログ内の製品またはコンテンツを見つけるのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 また、環境の変更、検索結果のコレクションまたは除外への保存、フィルターファセットの追加、テーブル内の列の変更、新しい検索ファセットの追加などを行うことができます。
+[!UICONTROL Catalog Search] の [!DNL Adobe Recommendations] ページは、カタログ内の製品またはコンテンツを見つけるのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 また、環境の変更、検索結果のコレクションまたは除外への保存、フィルターファセットの追加、テーブル内の列の変更、新しい検索ファセットの追加などを行うことができます。
 
 カタログは、製品セット（エンティティ）全体を表します。カタログには多数のコレクションを含めることができるので、商品を論理的なグループにまとめて整理できます。
 
@@ -119,7 +119,7 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 ## 詳細検索に基づいたコレクションまたは除外の作成 {#save-as}
 
-[!UICONTROL Catalog Search] ページ（[!UICONTROL Recommendations]/[!UICONTROL Catalog Search]/[!UICONTROL Advanced Search]）の [!UICONTROL Advanced Search] を使用して [ コレクション ](/help/main/c-recommendations/c-products/collections.md) または [ 除外 ](/help/main/c-recommendations/c-products/exclusions.md) を作成できます。
+[ ページ（](/help/main/c-recommendations/c-products/collections.md)/[/](/help/main/c-recommendations/c-products/exclusions.md)）の [!UICONTROL Advanced Search] を使用して [!UICONTROL Catalog Search] コレクション [!UICONTROL Recommendations] または [!UICONTROL Catalog Search] 除外 [!UICONTROL Advanced Search] を作成できます。
 
 1. [ 詳細検索 ](#advanced-search) を実行します。
 

@@ -7,7 +7,7 @@ exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
 source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 ## 「Target UI バージョン」トグルの非推奨（廃止予定）のタイムラインが更新されましたか？
 
 +++詳細
-はい。 新しいタイムラインと重要な情報は、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) で確認できます。
+はい。新しいタイムラインと重要な情報は、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) で確認できます。
 
 +++
 
@@ -163,7 +163,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 ## 更新された UI で既存のアクティビティを編集する際に、[!UICONTROL Enhanced Experience Composer] を無効にする必要があります。 他の顧客 [!DNL Adobe] 同様の動作が見られますか？
 
 +++詳細
-はい。 [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension] を使用する場合、[!UICONTROL Enhanced Experience Composer] （EEC）を無効にする必要がある可能性があります。
+はい。[!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension] を使用する場合、[!UICONTROL Enhanced Experience Composer] （EEC）を無効にする必要がある可能性があります。
 
 詳しくは、[Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)を参照してください。
 

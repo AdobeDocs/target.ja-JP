@@ -19,7 +19,7 @@ ht-degree: 8%
 
 {{permissions-update}}
 
-「[!DNL Recommendations] 設定」オプションにアクセスするには、[!DNL Adobe Experience Cloud] で [!DNL Target] を開き、[!UICONTROL Administration] > [!UICONTROL Recommendations] をクリックします。
+「[!DNL Recommendations] 設定」オプションにアクセスするには、[!DNL Target] で [!DNL Adobe Experience Cloud] を開き、[!UICONTROL Administration] > [!UICONTROL Recommendations] をクリックします。
 
 次の設定を行うことができます。
 
@@ -31,4 +31,4 @@ ht-degree: 8%
 * サムネールのベース URL を指定
 * カスタム属性キーの設定
 
-詳しくは、**[!DNL Adobe Target]開発者ガイドの [Recommendations の計画と実装 ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank} を参照してください**。
+詳しくは、[ 開発者ガイドの ](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}Recommendations の計画と実装 **[!DNL Adobe Target]を参照してください**。

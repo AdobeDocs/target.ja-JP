@@ -46,7 +46,7 @@ VEC が開いた後に別のページを表示するには、**[!UICONTROL Confi
 >
 >[!DNL Target] JavaScript コードを含まないサイトの URL を入力した場合は、ページ要素を選択できません。
 
-デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。[!UICONTROL Visual Experience Composer] を使用してこれらの要素を変更できるようにする場合は、**[!UICONTROL Render using JavaScript]** をオフに切り替えることができます。
+デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。**[!UICONTROL Render using JavaScript]** を使用してこれらの要素を変更できるようにする場合は、[!UICONTROL Visual Experience Composer] をオフに切り替えることができます。
 
 >[!NOTE]
 >

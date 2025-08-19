@@ -1,13 +1,13 @@
 ---
 keywords: オーディエンス;オーディエンスの選択;オーディエンスの選択;セレクター
-description: オーディエンスは、どのサイト訪問者にAdobeアクティビティ  [!DNL Target]  入力するかを決定します。
+description: オーディエンスは、どのサイト訪問者にAdobe アクティビティ  [!DNL Target]  入力するかを決定します。
 title: A [!DNL Target] A/B アクティビティでオーディエンスを選択するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 66%
+ht-degree: 64%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 66%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Adobe Target での オーディエンス の使用(6:21) ![概要バッジ](/help/main/assets/overview.png)
+### Adobe Targetでのオーディエンスの使用（6:21） ![ 概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 
@@ -68,7 +68,7 @@ ht-degree: 66%
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/29956?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### アクティビティワークフロー – ターゲティング（2:14） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 

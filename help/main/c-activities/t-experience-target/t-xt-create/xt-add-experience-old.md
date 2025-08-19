@@ -7,17 +7,17 @@ exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
 # [!UICONTROL Experience Targeting] （XT）アクティビティでのエクスペリエンスの作成
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）は、[!UICONTROL Experience Targeting] （XT）アクティビティでページ上のエクスペリエンスを編集するための視覚的なインターフェイスを提供します。
+[!UICONTROL Visual Experience Composer] の [!DNL Adobe Target] （VEC）は、[!UICONTROL Experience Targeting] （XT）アクティビティでページ上のエクスペリエンスを編集するための視覚的なインターフェイスを提供します。
 
 1. 変更する要素を選択し、必要な変更を行います。
 
-   [[!UICONTROL Experience Targeting] アクティビティの作成 ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 中、3 つのパートから成るガイド付きワークフロー（[!UICONTROL Experiences]）のステップ 1 では、[!UICONTROL All Visitors] オーディエンスを持つデフォルトの [!UICONTROL Experience A] が表示されます。
+   [[!UICONTROL Experience Targeting] アクティビティの作成 ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 中、3 つのパートから成るガイド付きワークフロー（[!UICONTROL Experiences]）のステップ 1 では、[!UICONTROL Experience A] オーディエンスを持つデフォルトの [!UICONTROL All Visitors] が表示されます。
 
    ![すべての訪問者オーディエンス](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -79,7 +79,7 @@ ht-degree: 36%
 
 ## エクスペリエンスの名前の変更または編集
 
-[!UICONTROL Experience Targeting] アクティビティのエクスペリエンスで [!UICONTROL Edit] アイコン（縦並びの省略記号）をクリックし、必要に応じて次のオプションから選択できます。
+[!UICONTROL Edit] アクティビティのエクスペリエンスで [!UICONTROL Experience Targeting] アイコン（縦並びの省略記号）をクリックし、必要に応じて次のオプションから選択できます。
 
 * [!UICONTROL Rename]
 * [!UICONTROL Edit]
@@ -112,17 +112,17 @@ ht-degree: 36%
 * 様々な地域のオーディエンスに場所固有のコンテンツを配信する方法を説明します
 * 適確なコンテンツが適切なオーディエンスに配信されるように、エクスペリエンスを並べ替える方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/38305?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-### アクティビティタイプ（9:03）
+### アクティビティタイプ （9:03）
 
-このビデオでは、[!DNL Target] で利用できるアクティビティタイプについて説明しています。[!UICONTROL Experience Targeting] の説明は 5:15 から始まります。
+このビデオでは、[!DNL Target] で利用できるアクティビティタイプについて説明しています。[!UICONTROL Experience Targeting] については 5:15 から説明します。
 
 * [!DNL Adobe Target] に含まれるアクティビティタイプの説明
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### [!UICONTROL Visual Experience Composer] の使用
 
@@ -131,4 +131,4 @@ ht-degree: 36%
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/29948?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

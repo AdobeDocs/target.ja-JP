@@ -7,7 +7,7 @@ exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -174,10 +174,10 @@ ht-degree: 96%
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target のアカウント環境設定![概要バッジ](/help/main/assets/overview.png)
 
-このビデオの 4:40 の時点から、モバイルビューポートの設定について説明しています。
+このビデオの 4:40 から、モバイルビューポートの設定について説明しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

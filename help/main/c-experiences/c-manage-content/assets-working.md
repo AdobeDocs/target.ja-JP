@@ -19,9 +19,9 @@ ht-degree: 12%
 
 1. **[!UICONTROL Offers]**/**[!UICONTROL Code Offers]** または **[!UICONTROL Image Offers]** をクリックします。
 
-   [!UICONTROL Offer library] の検索とコンテンツの作成について詳しくは、[[!UICONTROL Smart Collections] ィルターと検索 ](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276) を参照してください。
+   [!UICONTROL Offer library] の検索とコンテンツの作成について詳しくは、[!UICONTROL Smart Collections][ ィルターと検索 ](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276) を参照してください。
 
-1. （条件付き）画像オファーの場合は、[!UICONTROL Card View] と [!UICONTROL List View] の間を切り替え、[!UICONTROL Asset] ライブラリの右上隅にある [!UICONTROL Card View] アイコン（![ カード表示アイコン ](/help/main/assets/icons/ViewCard.svg)）または [!UICONTROL List View] アイコン（![ リスト表示アイコン ](/help/main/assets/icons/ViewList.svg)）をクリックします。
+1. （条件付き）画像オファーの場合は、[!UICONTROL Card View] と [!UICONTROL List View] の間を切り替え、[!UICONTROL Card View] ライブラリの右上隅にある ![ アイコン（](/help/main/assets/icons/ViewCard.svg) カード表示アイコン [!UICONTROL List View]）または ![ アイコン（](/help/main/assets/icons/ViewList.svg) リスト表示アイコン [!UICONTROL Asset]）をクリックします。
 
 1. 次の節で説明するように、目的のアクションを実行します。
 
@@ -30,9 +30,9 @@ ht-degree: 12%
 [!UICONTROL Code Offers] ページでは、オファーやフォルダーの横にある [!UICONTROL Quick Info] アイコン（![ クイック情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）または [!UICONTROL More Actions] アイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックして適切なアイコンを選択することで、項目に対して次の操作を実行できます。
 
 * **情報**:「**[!UICONTROL Quick Info]」アイコン** （![ クイック情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、[!UICONTROL Offer ID]、[!UICONTROL Type]、[!UICONTROL Last Modified] （日付、時刻、修飾子の名前）などのオファーの情報が表示されます。 「[!UICONTROL View Full Details]」をクリックすると、オファー属性やアクティビティの使用状況（アクティビティ名、ステータス、ワークスペース、変更日時）などの追加情報が表示されます。
-* **[!UICONTROL Edit]**:**[!UICONTROL More Actions]のアイコン（![ その他のアクション**）/**[!UICONTROL Edit]** をクリックして ](/help/main/assets/icons/MoreSmallList.svg) フォルダーまたはオファーを編集します。
-* **[!UICONTROL Copy]**:「**[!UICONTROL More Actions]」アイコン（![ その他のアクション**） ](/help/main/assets/icons/MoreSmallList.svg)> **[!UICONTROL Copy]** をクリックして、オファーをコピーします。 オファーをコピーして編集すると、類似した新しいオファーを簡単に作成できます。
-* **[!UICONTROL Delete]**:**[!UICONTROL More Actions]のアイコン（![ その他のアクション**）/**[!UICONTROL Delete]** をクリックして ](/help/main/assets/icons/MoreSmallList.svg) オファーまたはフォルダーを削除します。
+* **[!UICONTROL Edit]**:**[!UICONTROL More Actions]のアイコン（** その他のアクション ![）/](/help/main/assets/icons/MoreSmallList.svg) をクリックして **[!UICONTROL Edit]** フォルダーまたはオファーを編集します。
+* **[!UICONTROL Copy]**:「**[!UICONTROL More Actions]」アイコン（** その他のアクション ![） ](/help/main/assets/icons/MoreSmallList.svg)> **[!UICONTROL Copy]** をクリックして、オファーをコピーします。 オファーをコピーして編集すると、類似した新しいオファーを簡単に作成できます。
+* **[!UICONTROL Delete]**:**[!UICONTROL More Actions]のアイコン（** その他のアクション ![）/](/help/main/assets/icons/MoreSmallList.svg) をクリックして **[!UICONTROL Delete]** オファーまたはフォルダーを削除します。
 
   詳しくは、[ 項目を削除する際の考慮事項 ](#delete) を参照してください。
 

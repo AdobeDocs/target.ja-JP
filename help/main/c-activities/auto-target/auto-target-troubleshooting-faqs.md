@@ -8,17 +8,17 @@ exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 46%
+ht-degree: 49%
 
 ---
 
 # [!UICONTROL Auto-Target] に関する FAQ とトラブルシューティング
 
-[!DNL Adobe Target] での [!UICONTROL Auto-Target] のアクティビティに関するトラブルシューティングとよくある質問（FAQ）です。
+[!UICONTROL Auto-Target] での [!DNL Adobe Target] のアクティビティに関するトラブルシューティングとよくある質問（FAQ）です。
 
 ## [!UICONTROL Auto-Target] に関するよくある質問 {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-[!UICONTROL Auto-Target] のアクティビティを扱う際には、次の FAQ と回答を参照してください。
+[!UICONTROL Auto-Target] アクティビティを扱う際は、次の FAQ と回答を参考にしてください。
 
 ### [!UICONTROL Auto-Target] アクティビティを設定するためのベストプラクティスは何ですか。
 
@@ -37,8 +37,8 @@ ht-degree: 46%
 
 ### モデル [!UICONTROL Adobe] 作成されるまで、90/10 （コントロール/ターゲット）の割合で [!UICONTROL Auto Target] を使用する方法は推奨されますか？
 
-+++回答
-最適なトラフィック配分の分割は、達成したい内容に応じて異なります。
++++回答 
+最適なトラフィック配分の割合は、何を実現したいかによって異なります。
 
 できるだけ多くのトラフィックをパーソナライズすることを目標としている場合は、アクティビティの全期間において、90％のターゲット配分と 10％のコントロールを維持できます。パーソナライズされたアルゴリズムの効果とコントロールを比較する実験が目標の場合は、アクティビティの全期間を通じて 50/50 の配分が最適です。
 
@@ -102,7 +102,7 @@ A/B テストの結果から、統計的に有意な上昇率を示したエク�
 ### アクティビティでモデルが 1 つ構築されました。そのエクスペリエンスへの訪問に対して、パーソナライゼーションはおこなわれますか。
 
 +++回答
-いいえ、パーソナライズを開始するには、アクティビティ内に少なくとも 2 つのモデルが構築されていなければなりません。
+いいえ。パーソナライゼーションは、アクティビティで少なくとも 2 つのモデルが構築されてから開始されます。
 
 +++
 
@@ -124,19 +124,19 @@ A/B テストの結果から、統計的に有意な上昇率を示したエク�
 
 +++
 
-### [!UICONTROL Auto-Target] アクティビティの途中で目標指標を変更することはできますか。 {#change-metric}
+### [!UICONTROL Auto-Target] アクティビティの途中で目標指標を変更することはできますか？ {#change-metric}
 
 +++回答
-アドビでは、アクティビティの途中で目標指標を変更することは推奨されません。[!DNL Target] UI を使用したアクティビティ中に目標指標を変更することは可能ですが、常に新しいアクティビティを開始する必要があります。Adobeでは、実行後にアクティビティの目標指標を変更した場合の動作は保証されません。
+Adobeでは、アクティビティの途中で目標指標を変更することはお勧めしません。 [!DNL Target] UI を使用したアクティビティ中に目標指標を変更することは可能ですが、常に新しいアクティビティを開始する必要があります。Adobeでは、実行後にアクティビティの目標指標を変更した場合の動作は保証されません。
 
-このレコメンデーションは、レポートソースとして [!DNL Target] または [!DNL Analytics] （A4T）を使用する [!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Automated Personalization] アクティビティに適用されます。
+このレコメンデーションは、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]、[!UICONTROL Automated Personalization] の各アクティビティで、レポートソースとして [!DNL Target] または [!DNL Analytics]（A4T）を使用します。
 
 +++
 
-### [!UICONTROL Auto-Target] アクティビティの実行中に「[!UICONTROL Reset Report Data]」オプションを使用できますか？
+### [!UICONTROL Auto-Target] アクティビティの実行中に「[!UICONTROL Reset Report Data]」オプションは使用できますか？
 
 +++回答
-[!UICONTROL Auto-Target] のアクティビティに「[!UICONTROL Reset Report Data]」オプションを使用することは推奨されません。 目に見えるレポートデータは削除されますが、このオプションでは、[!UICONTROL Auto-Target] モデルからすべてのトレーニングレコードが削除されるわけではありません。 [!UICONTROL Auto-Target] のアクティビティに [!UICONTROL Reset Report Data] オプションを使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにしてください。
+[!UICONTROL Auto-Target] アクティビティに「[!UICONTROL Reset Report Data]」オプションを使用することは推奨されません。目に見えるレポートデータは削除されますが、このオプションでは、[!UICONTROL Auto-Target] モデルからすべてのトレーニングレコードが削除されるわけではありません。[!UICONTROL Reset Report Data] のアクティビティに [!UICONTROL Auto-Target] オプションを使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにしてください。
 
 このガイダンスは、[!UICONTROL Auto-Allocate] と [!UICONTROL Automated Personalization] のアクティビティにも適用されます。
 
@@ -188,7 +188,7 @@ A/B テストの結果から、統計的に有意な上昇率を示したエク�
 ### コンバージョン指標に依存する指標が変換されない。
 
 +++トラブルシューティングの提案
-これは想定通りの動作です。
+これは期待されたとおりです。
 
 [!UICONTROL Auto-Target] アクティビティでは、コンバージョン指標（最適化目標、目標達成後）が変換されると、ユーザーがエクスペリエンスからリリースされ、アクティビティが再度開始されます。
 

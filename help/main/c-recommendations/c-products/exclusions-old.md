@@ -1,13 +1,13 @@
 ---
 keywords: 除外
-description: Adobe [!DNL Target] Recommendationsで除外を作成して、商品やコンテンツが訪問者にレコメンデーションされないようにする方法を説明します。
+description: Adobe [!DNL Target] Recommendations で除外を作成して、商品やコンテンツが訪問者にレコメンデーションされないようにする方法を説明します。
 title: Recommendations アクティビティで除外を使用する方法
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 28%
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions] のリスト表示の各除外について報告された「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でその除外のルールに一致する商品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
+   [!UICONTROL Exclusions] リスト表示の各除外について報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の除外のルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
 
@@ -55,7 +55,7 @@ ht-degree: 28%
 
 ## 詳細検索を使用した除外の作成
 
-[ カタログ検索 ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ（[!UICONTROL Recommendations]/[!UICONTROL Catalog Search]/[!UICONTROL Advanced Search]）の [!UICONTROL Advanced Search] を使用して除外を作成することもできます。
+[!UICONTROL Advanced Search] カタログ検索 [ ページ（](/help/main/c-recommendations/c-products/catalog-search.md#save-as)/[!UICONTROL Recommendations]/[!UICONTROL Catalog Search]）の [!UICONTROL Advanced Search] を使用して除外を作成することもできます。
 
 ![ 名前を付けて保存ダイアログ ](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -75,11 +75,11 @@ ht-degree: 28%
 
 除外は、アカウント全体で利用できることに注意してください。 除外を削除する前に、このことを考慮してください。 削除した除外は復元できません。
 
-## トレーニングビデオ：Recommendationsでコレクションと除外を作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
 * コレクションの作成
 * 除外の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/35311?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

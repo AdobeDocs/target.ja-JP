@@ -13,7 +13,7 @@ ht-degree: 37%
 
 # フォームベースの Experience Composer
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] は、[!UICONTROL Visual Experience Composer] （VEC）が使用できない、または使用が実用的でない場合に、[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization] および [!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスを作成するのに便利な、非視覚的なエクスペリエンスおよびオファー作成インターフェイスです。 例えば、フォームベースの Experience Composer を使用して、電子メール、キオスクおよび音声アシスタントで配信するためのエクスペリエンスとオファーを作成できます。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] は、[!UICONTROL A/B Test] （VEC）が使用できない、または使用が実用的でない場合に、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]、[!UICONTROL Recommendations] および [!UICONTROL Visual Experience Composer] アクティビティで使用するエクスペリエンスを作成するのに便利な、非視覚的なエクスペリエンスおよびオファー作成インターフェイスです。 例えば、フォームベースの Experience Composer を使用して、電子メール、キオスクおよび音声アシスタントで配信するためのエクスペリエンスとオファーを作成できます。
 
 [!UICONTROL Recommendations] アクティビティを作成する場合、エクスペリエンスはありません。 条件およびデザインを選択します。複数の条件またはデザインを選択した場合は、エクスペリエンス [!UICONTROL Target] 自動的に生成されます。
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
    [!UICONTROL Form-Based Experience Composer] は、[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization] および [!UICONTROL Recommendations] の各アクティビティで使用できます。
 
-1. [!UICONTROL Create Activity] ダイアログボックスで「**[!UICONTROL Form]**」を選択します。
+1. **[!UICONTROL Form]** ダイアログボックスで「[!UICONTROL Create Activity]」を選択します。
 
 1. （条件付き）ワークスペースとプロパティを選択します。
 
@@ -92,7 +92,7 @@ ht-degree: 37%
 
    **レコメンデーションを追加：**
 
-   Recommendations アクティビティの場合、「コンテンツ」ドロップダウンに [!UICONTROL Add Recommendation] のオプションが表示されます。 「**[!UICONTROL Add Recommendation]**」をクリックして、ページタイプを選択します。 次に、[Recommendations アクティビティを作成する](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)ためにインターフェイスで定義した通常の手順に従います。
+   Recommendations アクティビティの場合は、「コンテンツ」ドロップダウンに [!UICONTROL Add Recommendation] のオプションが表示されます。 「**[!UICONTROL Add Recommendation]**」をクリックして、ページタイプを選択します。 次に、[Recommendations アクティビティを作成する](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)ためにインターフェイスで定義した通常の手順に従います。
 
    フォームベースの Experience Composer で Recommendations の条件を選択する際には、選択した条件カードへの直接リンクが追加されるようになったので、条件をすばやく容易に編集できます。
 
@@ -104,7 +104,7 @@ ht-degree: 37%
 
    **オファーの決定を追加：**
 
-   [!DNL Adobe Journey Optimizer] （AJO）で作成したオファーを [!DNL Adobe Target] アクティビティに追加し、offer decisioningを使用して、web サイトまたはモバイルサイトの訪問者に最適な動的なオファーとエクスペリエンスを提示します。 このオプションは、手動の [!UICONTROL A/B Test] および [!UICONTROL Experience Targeting] （XT）アクティビティでのみ使用できます。
+   [!DNL Adobe Journey Optimizer] （AJO）で作成したオファーを [!DNL Adobe Target] アクティビティに追加し、Offer Decisioning を使用して、web サイトまたはモバイルサイト上の訪問者に最適な動的なオファーとエクスペリエンスを提示します。 このオプションは、手動の [!UICONTROL A/B Test] および [!UICONTROL Experience Targeting] （XT）アクティビティでのみ使用できます。
 
    詳しくは、「[ オファー決定の使用 ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
 

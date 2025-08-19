@@ -1,6 +1,6 @@
 ---
 keywords: テンプレートテスト;テンプレート;類似のページと同じエクスペリエンス;テンプレートテスト
-description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、同様に構造化された複数のページや、同じテンプレート要素を含む複数のページに同じエクスペリエンスを含める方法を説明します。
+description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、同様の構造を持つ複数のページや、同じテンプレート要素を含む複数のページに同じエクスペリエンスを含める方法を説明します。
 title: 類似のページに同じエクスペリエンスを組み込むことはできますか？
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
@@ -76,7 +76,7 @@ ht-degree: 34%
 >
 > ページが期待どおりに表示 [!DNL Target] れるかどうかを確認することはできないので、この機能を使用して影響を受けるページを公開する前にテストすることは、常に重要なプラクティスです。
 
-## 使用例
+## ユースケース
 
 サイトでテンプレートルールを使用する方法については、次のユースケースを確認してください。
 
@@ -107,4 +107,4 @@ ht-degree: 34%
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

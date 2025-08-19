@@ -20,14 +20,14 @@ ht-degree: 3%
 
 {{permissions-update}}
 
-[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}0&rbrace;Adobe Target デベロッパーガイド &rbrace; には、[!DNL Target] を実装する前に知っておく必要のある情報が含まれています。
+[0}Adobe Target デベロッパーガイド } には、](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を実装する前に知っておく必要のある情報が含まれています。[!DNL Target]
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
 * **クライアントサイド**:[!DNL Adobe Experience Platform Web SDK] または [!DNL Target Web SDK] （at.js）を使用したの実装に関する情報
 * **サーバーサイド**:Node.JS、JAVA、.NET、Python SDK の使用に関する実装の情報
 * **ハイブリッド**：クライアントサイド実装とサーバーサイド実装を組み合わせて使用する場合の実装に関する情報。
-* **推奨事項**: [Target Premium](/help/main/c-intro/intro.md#premium) 製品である [!DNL Recommendations] の実装に役立つ情報です。
+* **推奨事項**: [!DNL Recommendations]Target Premium[ 製品である ](/help/main/c-intro/intro.md#premium) の実装に役立つ情報です。
 * **モバイルアプリ**:[!DNL Adobe Experience Platform Mobile] SDK を使用してを実装する際に役立つ情報です。
 * **メール**：メールへの [!DNL Target] の実装に役立つ情報。
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->このガイド（*Adobe Target実践者ガイド* の「Target の実装 *」の節に以前に含まれていた情報はすべて、* 開発者ガイド [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} に含まれるようになりました 。
+>このガイド（*Adobe Target実践者ガイド* の「Target の実装 *」の節に以前に含まれていた情報はすべて、* 開発者ガイド [ に含まれるようになりました ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}。
 
 
 

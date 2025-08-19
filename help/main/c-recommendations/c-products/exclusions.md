@@ -35,9 +35,9 @@ ht-degree: 14%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** をクリックして、既存の除外のリストを表示します。
 
-   [!UICONTROL Exclusions] のリスト表示の各除外について報告された「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でその除外のルールに一致する商品の数です。 デフォルトのホストグループを変更する方法については、*Adobe Target開発者ガイド* の [ 計画と実装  [!DNL Recommendations]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank} を参照してください。
+   [!UICONTROL Exclusions] リスト表示の各除外について報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法については、[Adobe Target開発者ガイド  [!DNL Recommendations] の ](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} 計画と実装 ** を参照してください。
 
-1. （条件付き）除外を作成（または更新）し ![](/help/main/assets/icons/Filter.svg) その環境の除外のコンテンツをプレビューするには、**[!UICONTROL Show Filters]** のアイコン（ フィルターアイコンを表示 [&#128279;](/help/main/administrating-target/environments.md)）をクリックして、除外の作成  または更新）時に **[!UICONTROL Environment]** ドロップダウンリストから目的の（環境）を選択します。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）除外を作成（または更新）し **[!UICONTROL Show Filters]** その環境の除外のコンテンツをプレビューするには、![ のアイコン（](/help/main/assets/icons/Filter.svg) フィルターアイコンを表示 [）をクリックして、除外の作成 ](/help/main/administrating-target/environments.md) または更新）時に **[!UICONTROL Environment]** ドロップダウンリストから目的の（環境）を選択します。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
 
@@ -69,11 +69,11 @@ After creating a search using "id > contains," for example, you can then click [
 
 除外は、アカウント全体で利用できることに注意してください。 除外を削除する前に、次の点に注意してください。 削除した除外は復元できません。
 
-## トレーニングビデオ：Recommendationsでコレクションと除外を作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
 * コレクションの作成
 * 除外の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/35311?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

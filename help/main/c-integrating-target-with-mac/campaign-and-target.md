@@ -1,6 +1,6 @@
 ---
 keywords: 概要およびリファレンス
-description: Adobe CampaignでAdobeを使用してメールコ  [!DNL Target]  テンツを最適化する方法を説明します。
+description: AdobeをAdobe Campaignと共に使用してメールコ  [!DNL Target]  テンツを最適化する方法を説明します。
 title: をAdobe Campaign [!DNL Target]  統合する方法
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
@@ -51,13 +51,13 @@ ht-degree: 32%
 
   [ リダイレクトオファーの作成 ](/help/main/c-experiences/c-manage-content/offer-redirect.md) を参照してください。
 
-* 各オファーのエクスペリエンスと目的の [ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md) を持つ [!DNL Target] アクティビティ。
+* 各オファーのエクスペリエンスと目的の [!DNL Target] 成功指標 [ を持つ ](/help/main/c-activities/r-success-metrics/success-metrics.md) アクティビティ。
 
   [URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)を参照してください。
 
-統合の [!DNL Campaign] の部分を設定する前に、[!DNL Target] でアクティビティを開始します。
+統合の [!DNL Target] の部分を設定する前に、[!DNL Campaign] でアクティビティを開始します。
 
-## [!DNL Adobe Campaign] E メールへの [!DNL Target] オファーの組み込み {#section_B201BBE27A704E18AF0D553F35695837}
+## [!DNL Target] E メールへの [!DNL Adobe Campaign] オファーの組み込み {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. [!DNL Adobe Campaign] でメールを作成します。
 1. メールのプロパティで、**[!UICONTROL Include]**/**[!UICONTROL Dynamic image served by Adobe Target]** をクリックします。

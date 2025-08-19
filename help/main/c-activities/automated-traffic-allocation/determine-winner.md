@@ -13,7 +13,7 @@ ht-degree: 45%
 
 # [!UICONTROL Auto-Allocate] レポートの解釈
 
-[!UICONTROL Adobe Target] での [!UICONTROL Auto-Allocate] A/B アクティビティの結果を、上昇率や信頼性を含む重要な指標を調べることで解釈します。
+[!UICONTROL Auto-Allocate] での [!UICONTROL Adobe Target] A/B アクティビティの結果を、上昇率や信頼性を含む重要な指標を調べることで解釈します。
 
 多くのマーケティング担当者は、計算結果によって明確な勝者が示される前に、勝者エクスペリエンスを早めに宣言してしまうというミスを犯します。[!DNL Target] を使用すると、推奨結果を簡単に判断できます。
 
@@ -39,7 +39,7 @@ A/B アクティビティの終了時に、[!UICONTROL Auto-Allocate] は決定�
 
 [!DNL Target] では、[!UICONTROL Auto-Allocate] に p 値ベースの信頼性を使用しません。
 
-[!UICONTROL Auto-Allocate] アクティビティの [!UICONTROL Confidence] 列には、エラーの 1% のマージン内でエクスペリエンスが勝者となる確率が表示されます。 アルゴリズムでは、最良のコンバージョン率と 2 番目に優れたコンバージョン率の間に最小検出可能な効果である 1% を使用します。 この確率を計算するために、アルゴリズムは [Bernstein 不等式 ](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) を使用します。
+[!UICONTROL Confidence] アクティビティの [!UICONTROL Auto-Allocate] 列には、エラーの 1% のマージン内でエクスペリエンスが勝者となる確率が表示されます。 アルゴリズムでは、最良のコンバージョン率と 2 番目に優れたコンバージョン率の間に最小検出可能な効果である 1% を使用します。 この確率を計算するために、アルゴリズムは [Bernstein 不等式 ](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) を使用します。
 
 通常の A/B テストは、p 値に基づいて信頼性を計算します。[!UICONTROL Auto-Allocate] は p 値を使用しません。 p 値は、特定のエクスペリエンスが対照と異なる確率を「おおまかに」計算します。これらの p 値は、エクスペリエンスが対照と異なるかどうかを判定するためにのみ使用できます。これらの値は、エクスペリエンスが（対照ではない）他のエクスペリエンスと異なるかどうかを判定するためには使用できません。
 
@@ -77,8 +77,8 @@ A/B アクティビティの終了時に、[!UICONTROL Auto-Allocate] は決定�
 
 * レポートがボード全体で 0％を表示している場合、アクティビティに入るのが早すぎた可能性があります。
 
-### [!UICONTROL Analytics as the reporting source] （A4T）を使用する [!UICONTROL Auto-Allocate] アクティビティでは、「勝者なし」、「勝者」および「星」バッジを使用できますか？
+### [!UICONTROL Auto-Allocate] （A4T）を使用する [!UICONTROL Analytics as the reporting source] アクティビティでは、「勝者なし」、「勝者」および「星」バッジを使用できますか？
 
-現在、「まだ勝者がありません」と「勝者」のバッジは [!DNL Analysis Workspace] の [!UICONTROL A4T] パネル内では使用できません。 これらのバッジは、同じレポートを [!DNL Target] で表示した場合にも利用できません。A4T を使用する [!UICONTROL Auto-Allocate] アクティビティの [!DNL Target] レポートで表示される勝者の「星」バッジは無視する必要があります。
+現在、「まだ勝者がありません」と「勝者」のバッジは [!UICONTROL A4T] の [!DNL Analysis Workspace] パネル内では使用できません。 これらのバッジは、同じレポートを [!DNL Target] で表示した場合にも利用できません。A4T を使用する [!DNL Target] アクティビティの [!UICONTROL Auto-Allocate] レポートで表示される勝者の「星」バッジは無視する必要があります。
 
-この他の制限事項や注意事項について詳しくは、[!UICONTROL Auto-Allocate] アクティビティと [!UICONTROL Auto-Target] アクティビティに対する [A4T のサポート *自動配分 ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) を参照してください*。
+この他の制限事項や注意事項について詳しくは、[ アクティビティと ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) アクティビティに対する *A4T のサポート [!UICONTROL Auto-Allocate] 自動配分 [!UICONTROL Auto-Target] を参照してください*。

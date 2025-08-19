@@ -8,11 +8,11 @@ exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
-# Recommendations Classic と [!DNL Target] Premium のRecommendations アクティビティの比較
+# [!DNL Target] Premium の Recommendations Classic アクティビティと Recommendations アクティビティ
 
 Recommendations Classic と Target Premium の Recommendations アクティビティのどちらを使用するかを選択する際に役立つ情報です。
 
@@ -28,7 +28,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 [!DNL Target] の [!DNL Recommendations] アクティビティは、主に次の点で [!DNL Recommendations Classic] より強化されています。
 
-## オファーとしての Recommendations 
+##  オファーとしての Recommendations 
 
 [!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）アクティビティおよび [!UICONTROL Experience Targeting] （XT）アクティビティに Recommendations を含めることができます。
 
@@ -36,10 +36,10 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 * 同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。
 * 複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。
-* [!UICONTROL Auto-Allocate] を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
+* [!UICONTROL Auto-Allocate] を使用して、トラフィックをパフォーマンスの高いレコメンデーションエクスペリエンスに自動的にプッシュします。
 * [!UICONTROL Auto-Target] を使用し、プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスへと訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL Visual Experience Composer] を使用して [!UICONTROL A/B Test] アクティビティまたは [!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL Insert Before]、[!UICONTROL Insert After] または [!UICONTROL Replace With] アクションを使用してエクスペリエンスにレコメンデーションを追加します。
+開始するには、[!UICONTROL A/B Test] を使用して [!UICONTROL Experience Targeting] アクティビティまたは [!UICONTROL Visual Experience Composer] アクティビティを作成し、[!UICONTROL Insert Before]、[!UICONTROL Insert After] または [!UICONTROL Replace With] アクションを使用してエクスペリエンスにレコメンデーションを追加します。
 
 詳細については、「[ オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。
 

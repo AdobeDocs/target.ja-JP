@@ -7,7 +7,7 @@ exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
 workflow-type: tm+mt
 source-wordcount: '2435'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -31,23 +31,23 @@ VEC を使用する際のベストプラクティスは、次のとおりです�
 +++詳細を表示
 アカウントレベルで [!UICONTROL Enhanced Experience Composer] を有効にするには、「[!UICONTROL [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]]」をクリックし、[!UICONTROL Enable Enhanced Experience Composer] のスイッチを「オン」の位置に切り替えます。
 
-[!UICONTROL Visual Experience Composer] でアクティビティを作成しながらアクティビティレベルで [!UICONTROL Enhanced Experience Composer] を有効にするには、「[!UICONTROL Configure > [!UICONTROL Page Delivery]]」をクリックし、[!UICONTROL Enable Enhanced Experience Composer] の切り替えを「オン」の位置に切り替えます。
+[!UICONTROL Enhanced Experience Composer] でアクティビティを作成しながらアクティビティレベルで [!UICONTROL Visual Experience Composer] を有効にするには、「[!UICONTROL Configure > [!UICONTROL Page Delivery]]」をクリックし、[!UICONTROL Enable Enhanced Experience Composer] の切り替えを「オン」の位置に切り替えます。
 
 +++
 
 ### サイト上のセキュリティで保護されたページに [!UICONTROL Enhanced Experience Composer] が読み込まれない場合は、特定の IP アドレスを許可リストに加えるできます。
 
 +++詳細を表示
-[!UICONTROL Enhanced Experience Composer] の読み込みに関する問題は、次の IP アドレスを許可リストに加えるすることで解決できます。 これらの IP アドレスは、[!UICONTROL Enhanced Experience Composer] プロキシに使用される [!DNL Adobe] サーバー用です。 これらは、アクティビティの編集にのみ必要です。サイトへの訪問者は、これらの IP アドレスの許可リストに加えるは必要ありません。
+[!UICONTROL Enhanced Experience Composer] の読み込みに関する問題は、次の IP アドレスを許可リストに加えるすることで解決できます。 これらの IP アドレスは、[!DNL Adobe] プロキシに使用される [!UICONTROL Enhanced Experience Composer] サーバー用です。 これらは、アクティビティの編集にのみ必要です。サイトへの訪問者は、これらの IP アドレスの許可リストに加えるは必要ありません。
 
-詳しくは、[ 拡張 Experience Composer に関連する問題のトラブルシューティング *の「EEC は、公開 IP でアクセスできない内部 QA URL を読み込みません ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) を参照してください*。
+詳しくは、[ 拡張 Experience Composer に関連する問題のトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) の「EEC は、公開 IP でアクセスできない内部 QA URL を読み込みません *を参照してください*。
 
 +++
 
 ### トップレベルの要素と、適切なテスト／ターゲット候補になりそうなその他の要素に一意の ID を使用する。
 
 +++詳細
-body 要素のすぐ内側にあるものはすべて、一意の ID を持つ必要があります。 body 内に新しい要素を挿入してコードを移動させる場合は、少なくとも親要素は認識しやすくします。
+body 要素内に直接配置されるあらゆる要素に一意の ID が必要です。body 内に新しい要素を挿入してコードを移動させる場合は、少なくとも親要素は認識しやすくします。
 
 [!DNL Target] では ID は必要ありませんが、ID を使用すると Experience Composer で作成されたエクスペリエンスの信頼性が向上します。 [!DNL Target] は、CSS セレクターを使用して、エクスペリエンスの配信時にコンテンツを変更します。 エクスペリエンスを編集すると、変更するHTML要素の null 以外の ID 属性を持つ最も近い上位にセレクターがア [!UICONTROL Visual Experience Composer] カーされます。 そのため、HTML の ID 属性の設定や変更をおこなうメカニズム（JavaScript ライブラリを含む）を使用することはお勧めできません。これらの ID は [!DNL Target] Experience Composer でアクティビティの作成に使用できますが、JavaScriptで ID を変更した場合、エクスペリエンスの作成時に使用された ID は、エクスペリエンスの実行時には使用できない可能性があります。 ID が利用できない場合、その ID に関連付けられたセレクターは実行に失敗します。
 
@@ -74,7 +74,7 @@ body 要素のすぐ内側にあるものはすべて、一意の ID を持つ�
 ### iFrame の使用を最小限に抑えます。
 
 +++詳細
-iFrame の使用を最小限に抑え、ページとテストの管理を簡素化することをお勧めします。 Visual Experience Composer では、iFrame 内で一部の操作を適用できますが、サイズ変更など、一部の操作が正しく動作しません。 複数の iFrame が使用されているページでは、ページの管理やサイズ変更が難しくなります。そのため、多くの iFrame が使用されているページでは、問題が発生することがあります。
+ページやテストの管理を簡単にするには、iFrame を極力使用しないことをお勧めします。Visual Experience Composer では、iFrame 内で一部の操作を適用できますが、サイズ変更など、一部の操作が正しく動作しません。 複数の iFrame が使用されているページでは、ページの管理やサイズ変更が難しくなります。そのため、多くの iFrame が使用されているページでは、問題が発生することがあります。
 
 +++
 
@@ -113,7 +113,7 @@ VEC では、リンクを更新するプロキシサーバーを使用して、�
 ### 「HTML を編集」を使用して DOM 構造を操作すると、セレクターが壊れることがある。
 
 +++詳細
-例えば、次の 2 つのアクションを実行したとします。
+例えば、次の 2 つの操作をおこなったとします。
 
 * クラスに要素 1 を追加
 * 要素 1 の HTML を編集
@@ -122,7 +122,7 @@ VEC では、リンクを更新するプロキシサーバーを使用して、�
 
 つまり、テキストを持つ要素を追加し、別の操作でその要素を異なるテキストに編集した場合、コードエディターには、両方の操作が別々の要素として表示されます。要素を編集した場合は、作成した元の要素を変更した新しい要素が作成され、その新しい要素に編集したテキストが設定されます。その後、元の要素を削除すると、編集されたテキストは、編集された要素を見付けることができないので、表示されません。2 つ目の要素は要素のリストには引き続き含まれていますが、変更元の要素が存在しなくなっているので、ページ上での効果がなくなります。
 
-[!UICONTROL Visual Experience Composer][&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) で使用される  要素セレクターを参照してください。
+[ で使用される [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) 要素セレクターを参照してください。
 
 +++
 
@@ -139,14 +139,14 @@ VEC では、リンクを更新するプロキシサーバーを使用して、�
 ### フォームフィールドの削除は慎重におこなう。
 
 +++詳細
-特定のフォームフィールドは、送信に必須である場合があります。 そうしたフォームフィールドを削除すると、送信に影響する可能性があります。
+フォームフィールドによっては送信のために必須のものがあります。そうしたフォームフィールドを削除すると、送信に影響する可能性があります。
 
 +++
 
 ### スクリプト内に `mboxCreate` を含めないでください。
 
 +++詳細
-`mboxCreate` は `document.write` を使用するので、スクリプトに `mboxCreate` を含めることはお勧めしません。 代わりに、`mboxDefine` および `mboxUpdate` を使用して、同じ処理をおこないます。
+`mboxCreate` は `document.write` を使用しているので、スクリプトには `mboxCreate` を含めないことをお勧めします。代わりに、`mboxDefine` および `mboxUpdate` を使用して、同じ処理をおこないます。
 
 +++
 
@@ -177,7 +177,7 @@ VEC では、リンクを更新するプロキシサーバーを使用して、�
 ### ターゲットに使用される可能性のあるサイト上の重要なテキストは、HTML コードの要素内に入れる。
 
 +++詳細
-例えば、コードが次のような場合、VEC で「買い物かご」テキストをターゲットにすることはできません。
+例えば、次のようなコードでは、VEC 内の「Shopping Cart」というテキストをターゲットにできません。
 
 ```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
@@ -244,14 +244,14 @@ Web サイトの iframe バスティングテクニックをオフにし、ダ�
 ### [!UICONTROL Move] 機能は z-index をサポートしていません。
 
 +++詳細
-z インデックス機能がないため、移動された要素を別の要素の上に移動することはできません。 詳しくは、[制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)を参照してください。
+z- インデックス機能がないので、移動後の要素を別の要素の上に移動することはできません。詳しくは、[制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)を参照してください。
 
 +++
 
 ### 要素を整列すると、クリック追跡に影響する。
 
 +++詳細
-クリック追跡用にマークされた要素を並べ替えると、並べ替えられた要素のパスが変更される。 その結果、整列前の要素が配置されていた位置に存在する別の要素が、クリック追跡の対象になります。
+クリック追跡用にマークされた要素を整列すると、それらの要素のパスが変更されます。その結果、整列前の要素が配置されていた位置に存在する別の要素が、クリック追跡の対象になります。
 
 これは、アクティビティのコンテンツを配信するコードと、クリックを追跡するコードの両方が、ページに配信される同じコードに含まれているためです。別のページを表示して、クリック追跡を設定すると、アクティビティのコンテンツコードとクリック追跡コードがそのページに配信されます。クリック追跡ページが、テストを実行しているページと同様のページ構造を持っている場合、クリック追跡ページでもテストコンテンツが表示される場合があります。
 
@@ -267,14 +267,14 @@ mbox にオファーが含まれている場合、mbox が正しく実装され�
 ### 親要素と子要素の両方を編集する場合、親を先に編集する。
 
 +++詳細
-要素の画像アクションを入れ替えて、その親要素のテキストまたはHTMLを編集すると、配信の問題が発生する場合があります。 最善のワークフローは、子要素で画像を交換する前に親要素を編集することです。
+要素で画像アクションを交換してから、その親要素でテキストまたは HTML を編集すると、配信で問題が発生する可能性があります。最善のワークフローは、子要素で画像を交換する前に親要素を編集することです。
 
 +++
 
 ### mbox を子要素として含むページ要素は選択できない。
 
 +++詳細
-例えば、ページに次のものが含まれている場合：
+例えば、ページに以下の要素が含まれている場合：
 
 ```html
 <div> 
@@ -302,9 +302,9 @@ VEC を使用する際は、次の制限事項を考慮してください。
 ### 拡張機能ポリシーの変更に伴う VEC[!DNL Chrome] 互換性の処理。 {#ext}
 
 +++詳細
-Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank} の V3 マニフェストポリシーが更新されたため、ブラウザーによって解析される前に、拡張機能で元の DOM を変更できなくなりました。 その結果、特定のセキュリティスクリプト（iframe バスティング実装など）によって、VEC へのページの読み込みがブロックされる場合があります。
+Google Chrome[ の ](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}V3 マニフェストポリシーが更新されたため、ブラウザーによって解析される前に、拡張機能で元の DOM を変更できなくなりました。 その結果、特定のセキュリティスクリプト（iframe バスティング実装など）によって、VEC へのページの読み込みがブロックされる場合があります。
 
-互換性を確保するために、ページが [!DNL Target] iframe 内に読み込まれる際には、これらのスクリプトを条件付きで無効にする必要があります。 このプロセスは、VEC 読み込み時に [!DNL Target] によって挿入される `window.adobeVecExtension` オブジェクトの存在を確認することで、安全に実行できます。
+互換性を確保するために、ページが [!DNL Target] iframe 内に読み込まれる際には、これらのスクリプトを条件付きで無効にする必要があります。 このプロセスは、VEC 読み込み時に `window.adobeVecExtension` によって挿入される [!DNL Target] オブジェクトの存在を確認することで、安全に実行できます。
 
 次のコードスニペットは、VEC で web ページが読み込まれない原因となる可能性がある iframe バスティングコードの例です。
 
@@ -325,7 +325,7 @@ if(!window.adobeVecExtension) {
 ### CSS プロパティが続くコンテナの外部に要素を移動することはできません。
 
 +++詳細
-CSS プロパティが後に続くコンテナの外に要素を移動することはできません。
+CSS プロパティが後に続くコンテナの外側に要素を移動することはできません。
 
 +++
 
@@ -346,7 +346,7 @@ CSS プロパティが後に続くコンテナの外に要素を移動するこ�
 ### 同じ要素を整列して移動してはならない。
 
 +++詳細
-要素を別の場所に移動した場合、親コンテナを選択して子要素を再配置しようとしても、移動した要素は影響を受けず、その場所に残ります。 整列は希望どおりに表示されないことがあります。
+要素を別の位置に移動した後、親コンテナを選択して子コンテナの整列を試みた場合、その移動した要素は整列しないで、現在の位置に残ります。整列は希望どおりに表示されないことがあります。
 
 +++
 
@@ -362,35 +362,35 @@ CSS プロパティが後に続くコンテナの外に要素を移動するこ�
 ### mbox 内では画像のサイズを変更できない。
 
 +++詳細
-mbox 要素内の画像を入れ替え、mbox 要素のサイズに合わせてその画像のサイズを変更しようとすると、サイズ変更は許可されません。
+mbox 要素内で画像をスワップした後、mbox 要素のサイズに従ってその画像のサイズを変更しようとしても、サイズ変更は許可されません。
 
 +++
 
 ### 画像を入れ替えた後で、[!UICONTROL Edit] のアクションを選択することはできません。
 
 +++詳細
-画像を入れ替えた後で、Scene7 の URL を編集することはできません。
+画像をスワップした後は、Scene7 の URL を編集できません。
 
 +++
 
 ### 外部ソースを持つHTML要素は編集できません。
 
 +++詳細
-例：ビデオ、オーディオタグ、埋め込み、iFrames、フレーム。
+例：ビデオ、オーディオタグ、埋め込み、iFrame、フレーム。
 
 +++
 
 ### プレーンテキストまたは画像タグ以外の要素を含むアンカー要素に対してクリック追跡が機能しない。
 
 +++詳細
-例えば、要素にJavaScriptが含まれている場合、クリックの追跡は機能しません。
+例えば、要素に JavaScript が含まれている場合、クリック追跡は機能しません。
 
 +++
 
 ### VEC が機能するには、ページが URL パラメーターを受け入れる必要があります。
 
 +++詳細
-一部のサイトは、ページの URL パラメーターを取り除きます。 ただし、VEC にはこれらのパラメーターが必要です。
+一部のサイトは、ページの URL パラメーターを除去します。ただし、VEC にはこれらのパラメーターが必要です。
 
 +++
 
@@ -426,7 +426,7 @@ mbox 要素内の画像を入れ替え、mbox 要素のサイズに合わせて�
 ### [!UICONTROL Content] ライブラリ（Scene7）から画像を挿入してHTMLを編集すると、画像の URL が壊れます。
 
 +++詳細
-ダミーのテキストを使用して、「customHeaderMessage」 div 内にアンカー要素を追加します。
+「customHeaderMessage」 div 内に、任意のダミーテキストの入ったアンカー要素を追加します。
 
 ```html
 <a href="#"> 

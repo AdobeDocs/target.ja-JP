@@ -8,7 +8,7 @@ exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1734'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >電子メール受信者（API 呼び出し）ごとに、`sessionId` と `tntId`（または `thirdPartyId`）の両方で一意の値を必ず指定してください。これらのフィールドに一意の値を指定しないと、単一のプロファイル内で多くのイベントが生成されるので、API 応答が遅くなったり失敗したりする可能性があります。
 
-詳しくは、[ 配信 API ドキュメント ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=ja){target=_blank} を参照してください。
+詳しくは 、[配信 API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=ja){target=_blank} を参照してください。
 
 ## オプション 2：rawbox メールテンプレートの使用 {#rawbox}
 
@@ -125,7 +125,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | パラメーター | 値 | 説明 | 検証 |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | Recommendationsで使用されるクライアントのコード。 この値はアドビコンサルタントから入手できます。 |  |
+| `client_code` | *client_code* | Recommendations で使用されるクライアントのコード。 この値はアドビコンサルタントから入手できます。 |  |
 | `mbox` | *mboxName* | ターゲット設定に使用される mbox 名。 | すべての mbox 呼び出しと同じ検証。<br>上限 250 文字.<br>次の文字を含めることはできません：`', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | 無効 | 非 Web 環境において応答で cookie を設定しないようにします。 |  |
 | `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |  |

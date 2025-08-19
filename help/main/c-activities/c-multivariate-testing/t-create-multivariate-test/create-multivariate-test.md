@@ -1,6 +1,6 @@
 ---
 keywords: Mvt;多変量分析テスト;多変量分析テスト作成;多変量分析テストの作成;mvt 作成;mvt 作成;mvt の方法;多変量分析テスト方法
-description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して [!UICONTROL Multivariate Test] （MVT）を作成  [!DNL Adobe Target]  る方法を説明します。'
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して  [!DNL Adobe Target]  （MVT）を作成 [!UICONTROL Multivariate Test] る方法を説明します。'
 title: '[!UICONTROL Multivariate Test] の作成方法'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -13,7 +13,7 @@ ht-degree: 26%
 
 # 多変量分析テストの作成
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）を使用すると、[!UICONTROL Multivariate Test] ージの作成や、[!DNL Target] 内のページの一部の変更が簡単にできます。
+[!UICONTROL Visual Experience Composer] の [!DNL Adobe Target] （VEC）を使用すると、[!UICONTROL Multivariate Test] ージの作成や、[!DNL Target] 内のページの一部の変更が簡単にできます。
 
 [!DNL Target] のポイントアンドクリックエディターを使用すると、任意の場所を選択し、複数のオファーを追加できます。
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
    [!UICONTROL Visual Experience Composer] が開きます。
 
-1. アクティビティに名前を付けるには、「[!UICONTROL Untitled Activity]」の横にある **[!UICONTROL Edit]** のアイコン ![ 編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
+1. アクティビティに名前を付けるには、「**[!UICONTROL Edit]**」の横にある ![ のアイコン ](/help/main/assets/icons/Edit.svg) 編集アイコン [!UICONTROL Untitled Activity]）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
 
    アクティビティ名は、次の文字で始めることはできません：
 
@@ -101,7 +101,7 @@ ht-degree: 26%
 
    右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
 
-   1. オーディエンスを変更するには **右側のフレームで**&#x200B;[!UICONTROL Replace] アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
    1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
 
       **オーディエンスを組み合わせる** をクリックして、[ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) できます。
@@ -109,7 +109,7 @@ ht-degree: 26%
       [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
 
       * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
-      * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] ーザーに保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します。
+      * **[!UICONTROL This activity only]**:[ ーザーに保存されず、現在のアクティビティでのみ使用できる ](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
 
    1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティにエントリする選定訪問者の割合を選択します。
 
@@ -128,4 +128,4 @@ ht-degree: 26%
 * 多変量分析テストの定義と設計
 * 多変量分析テストの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

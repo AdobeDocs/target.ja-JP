@@ -1,7 +1,7 @@
 ---
 keywords: 統合;役割;ユーザー権限;admin console
-description: Adobe Targetで、必要なロールを持つすべてのワークスペースに対するアクセス権を既存のAdobe I/O統合に付与する方法を説明します。
-title: ワークスペースへのアクセス権をAdobe I/Oに付与し、ロールを割り当てる方法は？
+description: Adobe Targetで必要なロールを持つすべてのワークスペースに対するアクセス権を既存のAdobe I/O統合に付与する方法を説明します。
+title: Adobe I/Oにワークスペースへのアクセスを許可し、役割を割り当てる方法を教えてください。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Administration & Configuration
 role: Admin
@@ -9,7 +9,7 @@ exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
 source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 60%
 
 この更新では、次の使用例をサポートします。
 
-* リソースの作成または編集権限のないレポート目的で、[!UICONTROL Observer] ロールを持つすべてのワークスペースへのAdobe I/O統合アクセスを許可します。
+* リソースの作成または編集権限のない、レポート目的で [!UICONTROL Observer] ロールを持つすべてのワークスペースへのAdobe I/O統合アクセスを許可します。
 * 中央のチームがわずかなワークスペースにのみ API 主導の変更を加えることができるように、適切な役割を持つ、限定されたワークスペースに対して Adobe I/O 統合のアクセス権を付与する。
 * チームが API を調査し、それに応じて役割を選択する準備ができたときはいつでも、ワークスペースを所有する各チームに、その独自の統合を持つことを許可する。
 * 上記のシナリオの任意の組み合わせ。
 
-**必要なアクション**：現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）の CRUD 操作に API を活用しているお客様は、その使用例ごとに、目的の役割を持つすべてのワークスペースに対して既存の Adobe I/O 統合のアクセス権を付与する必要があります。これを行うには、[!DNL Adobe Admin Console] で各 [!DNL Target] [!UICONTROL Product Profile] を選択し、「[!UICONTROL Integration]」タブで統合を追加します。 9 月のリリース以前は、[!UICONTROL Product Role] ドロップダウンリストでの選択に関係なく、すべての統合が [!UICONTROL Approver] アクセスを使用して動作していました。 現在は、目的の役割を選択できます。
+**必要なアクション**：現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）の CRUD 操作に API を活用しているお客様は、その使用例ごとに、目的の役割を持つすべてのワークスペースに対して既存の Adobe I/O 統合のアクセス権を付与する必要があります。これを行うには、[!DNL Target] で各 [!UICONTROL Product Profile] [!DNL Adobe Admin Console] を選択し、「[!UICONTROL Integration]」タブで統合を追加します。 9 月のリリース以前は、[!UICONTROL Approver] ドロップダウンリストでの選択に関係なく、すべての統合が [!UICONTROL Product Role] アクセスを使用して動作していました。 現在は、目的の役割を選択できます。
 
 >[!NOTE]
 >

@@ -1,7 +1,7 @@
 ---
 keywords: Recommendations；オファー；プレビュー；ローンチ；ステータス；条件；アルゴリズム
 description: アクティビティを開始する前に、Adobe [!DNL Target] Recommendations アクティビティをプレビューして、結果が使用可能であることを確認する方法を説明します。
-title: Recommendations アクティビティをプレビューして開始するにはどうすればよいですか？
+title: Recommendations アクティビティのプレビューと起動方法
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
@@ -13,9 +13,9 @@ ht-degree: 15%
 
 # Recommendations アクティビティのプレビューと起動
 
-[Recommendations オファー ](/help/main/c-recommendations/recommendations-as-an-offer.md) を含む [!UICONTROL Recommendations]、[!UICONTROL A/B Test] または [!UICONTROL Experience Targeting] （XT）アクティビティを作成したら、アクティビティを開始する前に、推奨事項をプレビューして、結果が使用可能であることを確認します。 [!DNL Target Recommendations] では、お勧めをプレビューする方法が複数用意されています。
+[!UICONTROL Recommendations]Recommendations オファー [!UICONTROL A/B Test] を含む [!UICONTROL Experience Targeting]、[ または ](/help/main/c-recommendations/recommendations-as-an-offer.md) （XT）アクティビティを作成したら、アクティビティを開始する前に、Recommendations をプレビューして、結果が使用可能であることを確認します。 [!DNL Target Recommendations] では、お勧めをプレビューする方法が複数用意されています。
 
-## Recommendations アルゴリズムのステータスの確認
+## レコメンデーションアルゴリズムのステータスの確認
 
 アクティビティを作成した後、[!DNL Recommendations] はアルゴリズムを実行してレコメンデーションを生成します。 このアルゴリズムの実行には数時間かかる場合があります。
 
@@ -53,9 +53,9 @@ mbox が行動データソースとして選択される場合、一旦作成さ
 >
 >[!UICONTROL Recently Viewed Items] では、オフラインアルゴリズムの実行は必要なく、結果はすぐに得られます。 mbox データに基づく [!UICONTROL Top Viewed] および [!UICONTROL Top Sellers] アルゴリズムは、一般に、必要な計算が簡素化されているので、結果を非常に迅速に得られます。 これらは、デザインの変更をプレビューしたり、行動データが正しく収集されていることを確認したりする場合に適したオプションです。
 
-## QA リンクを使用したRecommendationsのプレビュー
+## QA リンクを使用したレコメンデーションのプレビュー
 
-アルゴリズムで結果の準備が整ったら、[!DNL Adobe Target] の [QA リンク ](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能を使用して、その結果をプレビューできます。 QA リンクは、[!UICONTROL Activity] の概要ページの「[!UICONTROL Activity Location]」セクションで使用できます。
+アルゴリズムで結果の準備が整ったら、[ の ](/help/main/c-activities/c-activity-qa/activity-qa.md)QA リンク [!DNL Adobe Target] 機能を使用して、その結果をプレビューできます。 QA リンクは、[!UICONTROL Activity Location] の概要ページの「[!UICONTROL Activity]」セクションで使用できます。
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ CSV ファイルがダウンロードされます。 これを開いて、推奨
 
 同じドロップダウンリストを使用して、アクティビティをディアクティベートまたはアーカイブすることもできます。
 
-## Recommendations設定変更時の混乱を避ける
+## Recommendations の設定を変更する際の中断を避ける
 
 ライブアクティビティ内 [!DNL Recommendations] コレクション、条件、プロモーション、または設計設定を変更すると、アルゴリズム結果が無効になり、アルゴリズムのステータスが「[!UICONTROL Results Not Ready]」に変更される場合があります。
 

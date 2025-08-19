@@ -44,7 +44,7 @@ ht-degree: 29%
 
 * アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 
-* [!UICONTROL Personalization Insights] のレポートは、「[!UICONTROL Report Metric]」ドロップダウンリストから [!UICONTROL Primary Goal] が選択されている場合にのみ使用できます。
+* [!UICONTROL Personalization Insights] のレポートは、「[!UICONTROL Primary Goal]」ドロップダウンリストから [!UICONTROL Report Metric] が選択されている場合にのみ使用できます。
 
 * [!UICONTROL Personalization Insights] レポートは、[ デフォルト環境 ](/help/main/administrating-target/hosts.md) でのみサポートされます。
 
@@ -67,14 +67,14 @@ ht-degree: 29%
 
 AP または自動ターゲット モデルで使用される [!UICONTROL Personalization Insights] レポートには、次の 2 種類の属性が表示されます。
 
-* **Target によって自動的に収集される属性：** [!DNL Target] は、ベースデータセットを使用して、Personalization Insights に反映される AP アクティビティと AT アクティビティでパーソナライゼーションアルゴリズムを構築します。 属性などのデータ型とその [!UICONTROL Personalization Insights] しい命名規則については、[Target のPersonalization アルゴリズムのデータ収集 ](/help/main/c-activities/t-automated-personalization/ap-data.md) を参照してください。 これらの属性は考慮されますが、個々のアクティビティのモデルは、最終的なモデルでこれらの属性のすべてを使用しない場合があります。
+* **Target によって自動的に収集される属性：** [!DNL Target] は、ベースデータセットを使用して、Personalization Insights に反映される AP アクティビティと AT アクティビティでパーソナライゼーションアルゴリズムを構築します。 属性などのデータ型とその [ しい命名規則については、](/help/main/c-activities/t-automated-personalization/ap-data.md)Target のPersonalization アルゴリズムのデータ収集 [!UICONTROL Personalization Insights] を参照してください。 これらの属性は考慮されますが、個々のアクティビティのモデルは、最終的なモデルでこれらの属性のすべてを使用しない場合があります。
 * **Target に渡される属性：** Target Personalization アルゴリズムのデータのアップロード [ を参照してください ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 [!DNL Target] では、追加のデータを [!DNL Target] に渡して、AP および AT アクティビティでパーソナライゼーションアルゴリズムを構築するために使用されるベースデータセットを強化する多くの方法を提供しています。
 
 | データタイプ | 説明 | データタイプの命名規則 |
 |--- |--- |--- |
-| プロファイル属性（プロファイルスクリプト、プロファイル更新 API、ページ内プロファイル属性など） | Target のユーザープロファイルに追加したすべての情報。<br>この情報は、プロファイルスクリプトや、プロファイル更新 API を使用してアップロードされた情報、「profile」というプレフィックスが付いた in-mbox プロファイルパラメーターから取得できます。 | `Custom - Profile - [parameter name]` |
+| プロファイル属性（プロファイルスクリプト、プロファイル更新 API、ページ内プロファイル属性など） | Target のユーザープロファイルに追加したすべての情報。<br>この情報は、プロファイルスクリプトや、プロファイル更新 API を使用してアップロードされた情報、「profile」という接頭辞が付いた in-mbox プロファイルパラメーターから取得できます。 | `Custom - Profile - [parameter name]` |
 | ページパラメーター（「mbox パラメーター」とも呼ばれます） | ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。 | `Custom - Mbox Parameter - [parameter name]` |
 | 顧客属性 | 顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。アップロード後は、データを Adobe Analytics と Adobe Target で利用できます。 | `Custom - Customer Attributes - [parameter name]` |
 | 共有オーディエンス（Adobe Audience Manager または Adobe Analytics） | Adobe Audience Manager または Adobe Analytics で作成され、Target と共有されているオーディエンス。 | `Custom - Experience Cloud Segment - [segment name]` |
@@ -94,7 +94,7 @@ AP または自動ターゲット モデルで使用される [!UICONTROL Person
 
 ## トレーニングビデオ：Personalization Insights レポートの使用 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328271?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 詳しくは、[Adobe TargetでのPersonalization Insights レポートの使用 ](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html) を参照してください。
 

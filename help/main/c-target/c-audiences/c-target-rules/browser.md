@@ -28,11 +28,11 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
->[!DNL Target] Standard/Premium 24.3.1 （2024 年 3 月 4～6 日（PT））以降、`Browser:iPad` や `Browser:iPhone` など、Target UI を使用して作成された組み込みオーディエンスが更新され、`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone` および `profile.mobile.isTablet` を使用して [!DNL iPad] および [!DNL iPhone] の適切なターゲティングが実行されるようになりました。
+>[!DNL Target] Standard/Premium 24.3.1 （2024 年 3 月 4～6 日（PT））以降、`Browser:iPad` や `Browser:iPhone` など、Target UI を使用して作成された組み込みオーディエンスが更新され、[!DNL iPad]、[!DNL iPhone] および `profile.mobile.deviceVendor` を使用して `profile.mobile.isMobilePhone` および `profile.mobile.isTablet` の適切なターゲティングが実行されるようになりました。
 >
 >この更新は、顧客側でのアクションは必要ありません。 [!DNL Target] UI のラベルは今後変更される予定で、これらの変更が行われた [[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) でお知らせします。
 >
->回避策の設定については、以下の [ オーディエンス属性の  [!DNL iPad]  および  [!DNL iPhone]  の更新（2024 年 4 月 30 日（PT）） ](#updates) [!UICONTROL Browser] 参照してください。
+>回避策の設定については、以下の [ オーディエンス属性の  [!DNL iPad]  および  [!DNL iPhone]  の更新（2024 年 4 月 30 日（PT）） [!UICONTROL Browser]](#updates) 参照してください。
 
 ブラウザーをターゲットにするには、2 つの方法があります。
 
@@ -137,15 +137,15 @@ ht-degree: 34%
 
 ## [!UICONTROL Browser] オーディエンス属性の [!DNL iPad] と [!DNL iPhone] の更新（2024年4月30日（PT）） {#updates}
 
-[!DNL Adobe Target] を使用すると、ページの訪問時に特定のブラウザーまたはブラウザーオプションを使用するユーザーなど [&#128279;](/help/main/c-target/c-audiences/c-target-rules/target-rules.md) 複数のカテゴリ属性のいずれかをターゲットに  することができます。
+[!DNL Adobe Target] を使用すると、ページの訪問時に特定のブラウザーまたはブラウザーオプションを使用するユーザーなど [ 複数のカテゴリ属性のいずれかをターゲットに ](/help/main/c-target/c-audiences/c-target-rules/target-rules.md) することができます。
 
-[!DNL Target] Standard/Premium 24.3.1 （2024 年 3 月 4～6 日（PT））以降、`Browser:iPad` や `Browser:iPhone` など、Target UI を使用して作成された組み込みオーディエンスが更新され、`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone` および `profile.mobile.isTablet` を使用して [!DNL iPad] および [!DNL iPhone] の適切なターゲティングが実行されるようになりました。
+[!DNL Target] Standard/Premium 24.3.1 （2024 年 3 月 4～6 日（PT））以降、`Browser:iPad` や `Browser:iPhone` など、Target UI を使用して作成された組み込みオーディエンスが更新され、[!DNL iPad]、[!DNL iPhone] および `profile.mobile.deviceVendor` を使用して `profile.mobile.isMobilePhone` および `profile.mobile.isTablet` の適切なターゲティングが実行されるようになりました。
 
-`Browser:iPad` や `Browser:iPhone` など、[!DNL Target] UI を使用して作成された組み込みオーディエンスは、新しいオーディエンス定義に自動的に移動されるので、顧客側でのアクションは必要ありません。 ただし、今後は [ 以下に説明する ](#ui) 設定を使用する必要があります。
+[!DNL Target] や `Browser:iPad` など、`Browser:iPhone` UI を使用して作成された組み込みオーディエンスは、新しいオーディエンス定義に自動的に移動されるので、顧客側でのアクションは必要ありません。 ただし、今後は [ 以下に説明する ](#ui) 設定を使用する必要があります。
 
 プロファイルスクリプトで `user.browserType` を使用して、[!DNL iPhone] または [!DNL iPad] （例：`user.browserType == 'iphone'` または `user.browserType != 'ipad'`）かどうかを確認する場合は、これらのオーディエンスが引き続き期待どおりに機能するように、2024 年 4 月 30 日（PT）より前に、これらのプロファイルスクリプトを [ 以下の手順 ](#profile-scripts) で変更する必要があります。
 
-JavaScript オーディエンスは、[!DNL Target Classic] UI で非推奨となった [!DNL Target] 式を使用した従来のオーディエンスです。 これらのオーディエンスは、API 経由でのみ変更できます。 これらのオーディエンスを更新する必要があるのは、アクティビティで従来のオーディエンスを引き続き使用する場合のみです。
+JavaScript オーディエンスは、[!DNL Target] UI で非推奨となった [!DNL Target Classic] 式を使用した従来のオーディエンスです。 これらのオーディエンスは、API 経由でのみ変更できます。 これらのオーディエンスを更新する必要があるのは、アクティビティで従来のオーディエンスを引き続き使用する場合のみです。
 
 ### [!DNL Target] UI を使用して作成されたオーディエンス {#ui}
 
@@ -179,7 +179,7 @@ JavaScript オーディエンスは、[!DNL Target Classic] UI で非推奨と�
 
 ### プロファイルスクリプトを使用して作成されたオーディエンス {#profile-scripts}
 
-従来の [!DNL Target Classic] オーディエンスまたはプロファイルスクリプトで `user.browserType` を使用する場合は、変更に次を含める必要があります。
+従来の `user.browserType` オーディエンスまたはプロファイルスクリプトで [!DNL Target Classic] を使用する場合は、変更に次を含める必要があります。
 
 * **BrowserType はiPhoneです**。
 

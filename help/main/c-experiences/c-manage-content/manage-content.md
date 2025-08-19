@@ -13,9 +13,9 @@ ht-degree: 8%
 
 # オファー
 
-[!DNL Adobe Target] の [!UICONTROL Offers] ライブラリを使用して、コードおよび画像オファーを効率的に管理する方法を説明します。
+[!UICONTROL Offers] の [!DNL Adobe Target] ライブラリを使用して、コードおよび画像オファーを効率的に管理する方法を説明します。
 
-[!UICONTROL Offers] ライブラリを表示するには、[!DNL Target] UI の上部にある「**[!UICONTROL Offers]**」タブをクリックします。
+[!UICONTROL Offers] ライブラリを表示するには、**[!UICONTROL Offers]** UI の上部にある「[!DNL Target]」タブをクリックします。
 
 ![オファーページ](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 ## オファーライブラリへのフィルターの適用 {#filters}
 
-オファーのアイコン（![ オファーページのフィルターを表示 ](/help/main/assets/icons/Filter.svg)）をク **[!UICONTROL Show filters]** ックして、オファーを [!UICONTROL Type]、[!UICONTROL Source]、[!UICONTROL AEM Type] でフィルタリングします。
+オファーのアイコン（**[!UICONTROL Show filters]** オファーページのフィルターを表示 ![）をク ](/help/main/assets/icons/Filter.svg) ックして、オファーを [!UICONTROL Type]、[!UICONTROL Source]、[!UICONTROL AEM Type] でフィルタリングします。
 
 **[!UICONTROL Show filters]** のアイコンを使用すると、次のカテゴリでオファーをフィルタリングできます。
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 
 * **[!UICONTROL Source]**:[!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Adobe Experience Manager]。
 
-* **AEM タイプ**: [ コンテンツフラグメント ](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) および [ エクスペリエンスフラグメント ](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)。 様々なフラグメントタイプについて詳しくは、[AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要 ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) を参照してください。
+* **AEMのタイプ**: [ コンテンツフラグメント ](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) および [ エクスペリエンスフラグメント ](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)。 様々なフラグメントタイプについて詳しくは、[AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要 ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) を参照してください。
 
 フィルターは、セッションで固定されます。
 

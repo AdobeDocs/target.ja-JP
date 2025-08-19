@@ -1,6 +1,6 @@
 ---
 keywords: 多変量分析；mvt；プレビュー；エクスペリエンス
-description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して、の [!UICONTROL Multivariate Test] （MVT）アクティビティの各エクスペリエンスをプレビュ  [!DNL Adobe Target]  する方法について説明します。'
+description: '[!UICONTROL Multivariate Test] （VEC）を使用して、の  [!DNL Adobe Target]  （MVT）アクティビティの各エクスペリエンスをプレビュ [!UICONTROL Visual Experience Composer] する方法について説明します。'
 title: '[!UICONTROL Multivariate Test] （MVT）のエクスペリエンスをプレビューするには、どうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
@@ -13,7 +13,7 @@ ht-degree: 25%
 
 # [!UICONTROL Multivariate Test] ーザーのエクスペリエンスのプレビュー
 
-[!DNL Adobe Target] の [!UICONTROL Multivariate Test] では、ページ上で複数のエクスペリエンスを比較するので、各エクスペリエンスのページをプレビューできると便利です。
+[!UICONTROL Multivariate Test] の [!DNL Adobe Target] では、ページ上で複数のエクスペリエンスを比較するので、各エクスペリエンスのページをプレビューできると便利です。
 
 1. [!UICONTROL Visual Experience Composer] （VEC）から、「**[!UICONTROL Preview]**」をクリックします。
 

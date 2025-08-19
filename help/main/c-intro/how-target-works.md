@@ -6,14 +6,14 @@ feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2214'
 ht-degree: 24%
 
 ---
 
 # [!DNL Adobe Target] の仕組み
 
-JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] および at.js）の詳細など、[!DNL Adobe Target] の仕組みを説明します。 この記事では、ユーザーが作成できる様々なアクティビティタイプ、[!DNL Target] 用数カウント戦略、[!DNL Target] Edge Network、SEO およびボット検出についても説明します。
+JavaScript ライブラリ（[!DNL Adobe Target] および at.js）の詳細など、[!DNL Adobe Experience Platform Web SDK] の仕組みを説明します。 この記事では、ユーザーが作成できる様々なアクティビティタイプ、[!DNL Target] 用数カウント戦略、[!DNL Target] Edge Network、SEO およびボット検出についても説明します。
 
 主なポイント：
 
@@ -35,12 +35,12 @@ Target と web サイトの統合（[!DNL Experience Platform Web SDK] または
 >
 >mbox.js ライブラリは [!DNL Target] のレガシー実装で、2021 年 3 月 31 日（PT）以降はサポートされなくなります。 [!UICONTROL Experience Platform Web SDK] （推奨）または at.js の最新バージョンへのアップグレード。
 
-サイトの各ページの [!UICONTROL Experience Platform Web SDK] または at.js を参照します。 例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加します。 または、[Adobe Experience Platformのタグ ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home){target=_blank} を使用して [!DNL Target] を実装します。
+サイトの各ページの [!UICONTROL Experience Platform Web SDK] または at.js を参照します。 例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加します。 または、[Adobe Experience Platformのタグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} を使用して [!DNL Target] を実装します。
 
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
 * [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
-* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、ターゲティングシステムにリアルタイムリクエストが送信され、提供するコンテンツが決定されます。 このリクエストは、マーケターが制御するアクティビティやエクスペリエンスの管理の下で、ページが読み込まれるたびに行われ、実行されます。 コンテンツは、個々のサイト訪問者をターゲットにし、応答率、獲得率、売上高を最大化します。 パーソナライズされたコンテンツは、訪問者の反応、インタラクション、購入を保証するのに役立ちます。
 
@@ -134,7 +134,7 @@ The following information helps you understand the counting strategy used for [!
 
 応答時間を改善するために、[!DNL Target] Edge はアクティビティロジック、キャッシュされたプロファイル、およびオファー情報のみをホストします。
 
-アクティビティおよびコンテンツのデータベース、[!DNL Analytics] データ、API およびマーケター向けのユーザーインターフェイスは、[!DNL Adobe] 中央クラスターに格納されます。 アップデートは [!DNL Target] Edge に送信され、中央クラスターと自動的に同期されて、キャッシュされたアクティビティデータが継続的に更新されます。 また、1:1 モデリングがすべて各エッジに保存されるので、複雑なリクエストをローカルで処理できます。
+アクティビティおよびコンテンツのデータベース、[!DNL Analytics] データ、API およびマーケター向けのユーザーインターフェイスは、[!DNL Adobe] 中央クラスターに格納されます。 アップデートは [!DNL Target] Edge に送信され、中央クラスターと自動的に同期されて、キャッシュされたアクティビティデータが継続的に更新されます。 また、すべての 1:1 モデリングが各エッジに保存されるので、複雑なリクエストをローカルで処理できます。
 
 各Edge クラスターには、訪問者のコンテンツリクエストに対応し、分析データを追跡するために必要なすべての情報が含まれています。 訪問者のリクエストは、最寄りのエッジクラスターに転送されます。
 

@@ -7,7 +7,7 @@ exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 55%
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 55%
 ## ビジネスケース
 
 * 割引オファーを昇格して、最後に購入した製品を「再入力」または「補充」することができます。カタログ内のアイテムごとに個別のオファーを作成する代わりに、動的テキストを使用してオファーを作成し、プロファイルから「最後に購入した製品」を読み取り、オファーにリンクを表示できます。
-* 訪問者が、`keyword=world` `cup` を含むランディングページに到達します。この場合、「*ワールドカップ*」という用語をオファーに表示します。
+* 訪問者が、`keyword=world``cup` を含むランディングページに到達します。この場合、「*ワールドカップ*」という用語をオファーに表示します。
 * （1）訪問者の買い物かごに追加された最後の項目（Nike Air Max 1000s）、（2）訪問者のカラー環境設定（黒）、（3）訪問者のお気に入りのノンシューズカテゴリ（パーソナライゼーション）などの情報を含むレコメンデーションラベルをパーソナライズします。 例:「クールな『黒』『パーカー』で、あなたの『Nike Air Max 1000』をコーディネートしましょう！」
 
 ## 技術的なメリット
@@ -40,7 +40,7 @@ ht-degree: 55%
 | script プロファイルパラメーター | `${user.lifetimeSpend}` |
 | mbox パラメーター | `${mbox.favoriteColor}` |
 | キャンペーン情報 | `${campaign.name}`、`${campaign.recipe.name}`、`${campaign.id}`、`${campaign.recipe.id}`、および `${campaign.recipe.trafficType}` |
-| 一意の訪問者 ID | `${user.pcId}` |
+| ユニーク訪問者 ID | `${user.pcId}` |
 | 一意のセッション ID | `${user.sessionId}` |
 | 訪問者の最初のセッション（true または false） | `${user.isFirstSession}` |
 | 過去の行動 | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
@@ -73,7 +73,7 @@ mbox に渡されるプロファイルパラメーターには、次の構文を
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-表示する値をエスケープしたり、エスケープ解除したりすることもできます。例えば、値にアポストロフィが含まれている場合、ページ上のJavaScriptを壊さないように、値をエスケープできます。 （オファーは JavaScript で書き出されるので、シングルアポストロフィが引用符と見なされて問題になる可能性があります）。次に例を示します。
+表示する値をエスケープしたり、エスケープ解除したりすることもできます。例えば、値にアポストロフィが含まれている場合、ページ上のJavaScriptを壊さないように、値をエスケープできます。 （オファーはJavaScriptで記述されているので、アポストロフィは引用符と混同される可能性があります）。 例：
 
 `${user.encodedValue encode="unescape"}`
 

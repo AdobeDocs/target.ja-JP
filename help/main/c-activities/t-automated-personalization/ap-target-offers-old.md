@@ -1,6 +1,6 @@
 ---
 keywords: automated personalization；オファー；ターゲット；オーディエンス；ターゲティングルール；ターゲティング
-description: ' [!DNL Adobe Target] の [!UICONTROL Automated Personalization] （AP）アクティビティを使用して、特定のオーディエンスに対して個々のオファーをターゲットにする方法を説明します。'
+description: '[!UICONTROL Automated Personalization] の  [!DNL Adobe Target] （AP）アクティビティを使用して、特定のオーディエンスに対して個々のオファーをターゲットにする方法を説明します。'
 title: '[!UICONTROL Automated Personalization] のオファーをターゲットにするにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 ## ターゲット設定ルールの設定
 
-1. ターゲット設定したいオファーを含む [&#128279;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)0&rbrace;Automated Personalization アクティビティ &rbrace; を作成します。
+1. ターゲット設定したいオファーを含む [0}Automated Personalization アクティビティ } を作成します。](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)
 1. [!UICONTROL Visual Experience Composer] ール内のアクティビティに対してオファーを設定したら、「設 **[!UICONTROL Manage Content]**」をクリックします。
 
    ![コンテンツを管理](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)

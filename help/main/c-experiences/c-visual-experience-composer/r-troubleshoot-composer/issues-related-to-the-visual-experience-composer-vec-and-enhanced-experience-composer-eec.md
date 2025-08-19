@@ -7,7 +7,7 @@ exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 >
 >次の変更は、以下に示す 3 つの更新すべてに影響します。
 >
-> * [VEC Helper 拡張機能 *がインストールされ* サイトのパスワードで保護されたページに対して有効になっていない場合 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)VEC を使用できません。 サイトのログイン cookie はサードパーティ cookie と見なされ、[!UICONTROL Browse] モードの VEC エディター内のログインリクエストでは送信されません。 唯一の例外は、サイトのログイン Cookie に `SameSite=None` 属性と `Secure` 属性が既に設定されている場合です。
+> * *VEC Helper 拡張機能* がインストールされ [ サイトのパスワードで保護されたページに対して有効になっていない場合 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)VEC を使用できません。 サイトのログイン cookie はサードパーティ cookie と見なされ、[!UICONTROL Browse] モードの VEC エディター内のログインリクエストでは送信されません。 唯一の例外は、サイトのログイン Cookie に `SameSite=None` 属性と `Secure` 属性が既に設定されている場合です。
 
 **Chrome 94 （2021 年 9 月 21 日（PT））**: Chrome 94 リリース（2021 年 9 月 21 日（PT））で予定されている差し迫った変更は、次の変更がChrome 94 以降のブラウザーバージョンのすべてのユーザーに影響します。
 
@@ -36,18 +36,18 @@ ht-degree: 26%
 
 **Chrome 80 （2020 年 8 月）**: 2020 年 8 月に実装された変更により、Chrome 80 以降のブラウザーバージョンを使用するすべてのユーザーは次のようになります。
 
-* アクティビティの編集中は *ダウンロードでき [!DNL Target] せん* アクティビティがサイトにまだ存在しない場合）。 これは、ダウンロード呼び出しが顧客ドメインからセキュリティで保護された [!DNL Adobe] ドメインに対して行われ、未認証として拒否されるためです。
+* アクティビティの編集中は *ダウンロードでき* せん [!DNL Target] アクティビティがサイトにまだ存在しない場合）。 これは、ダウンロード呼び出しが顧客ドメインからセキュリティで保護された [!DNL Adobe] ドメインに対して行われ、未認証として拒否されるためです。
 
-* EEC は、`adobemc.com domain` で Cookie の SameSite 属性を設定できないので、すべてのユーザーに対して *機能しません*。 この属性がない場合、ブラウザーはこれらの Cookie を拒否し、EEC が失敗します。
+* EEC は、*で Cookie の SameSite 属性を設定できないので、すべてのユーザーに対して* 機能しません `adobemc.com domain`。 この属性がない場合、ブラウザーはこれらの Cookie を拒否し、EEC が失敗します。
 
 +++
 
 ### ブロックされている Cookie の特定
 
 +++詳細
-同じ SameSite cookie 強制ポリシーによってブロックされている cookie を特定するには、[!DNL Chrome] の [!DNL Developer Tools] を使用します。
+同じ SameSite cookie 強制ポリシーによってブロックされている cookie を特定するには、[!DNL Developer Tools] の [!DNL Chrome] を使用します。
 
-1. [!DNL Chrome] で VEC を表示しながら [!DNL Developer Tools] にアクセスするには、Chrome/**[!UICONTROL More Tools]**/**[!UICONTROL Developer Tools]** の右上隅にある **[!UICONTROL ellipsis]** アイコンをクリックします。
+1. [!DNL Developer Tools] で VEC を表示しながら [!DNL Chrome] にアクセスするには、Chrome/**[!UICONTROL ellipsis]**/**[!UICONTROL More Tools]** の右上隅にある **[!UICONTROL Developer Tools]** アイコンをクリックします。
 1. **[!UICONTROL Network]** タブをクリックして、ブロックされた Cookie を探します。
 
    >[!NOTE]
@@ -114,7 +114,7 @@ VEC 内でリソースが読み込まれない任意のヘッダーに対して�
 ## ページ内の 1 つの要素を変更すると、複数の要素が変更されます。（VEC と EEC） {#section_309188ACF34942989BE473F63C5710AF}
 
 +++詳細
-ページ上の複数の要素で同じ DOM 要素 ID が使用されている場合、それらの要素のいずれかを変更すると、その ID を持つすべての要素が変更されます。 この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。これは、標準のHTML ベストプラクティスです。 詳しくは、[ ページ修正のシナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB) を参照してください。
+同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。これは、標準のHTML ベストプラクティスです。 詳しくは、[ ページ修正のシナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB) を参照してください。
 
 +++
 
@@ -132,14 +132,14 @@ VEC 内でリソースが読み込まれない任意のヘッダーに対して�
 ## mbox/[!DNL Target] の実装がまだ完了していないページにテストを設定したいのですが、 （VEC と EEC） {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++詳細
-上記の「iFrame バーストするサイトのエクスペリエンスを編集できない」を参照してください。
+上記の「iFrame バスティングのサイトのエクスペリエンスを編集できない」を参照してください。
 
 +++
 
 ## [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] または [!UICONTROL Change Text]/[!DNL Change HTML] を含む太字や斜体のテキストスタイルがページに表示されません。 これらのスタイル変更を適用すると、テキストが消えることがあります。（VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++詳細
-[!UICONTROL A/B Test] または [!UICONTROL Experience Targeting] アクティビティの VEC で **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** を使用したり、[!UICONTROL Automated Personalization] または [!UICONTROL Multivariate Test] アクティビティで **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** を使用してテキストを太字または斜体にすると、これらのスタイルがページに適用されなかったり、VEC のページからテキストが消えたりする場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法により、web サイトのマークアップが妨げられる可能性があるために発生します。
+**[!UICONTROL Edit Text]または[!UICONTROL Edit HTML]** アクティビティの VEC で [!UICONTROL A/B Test]/[!UICONTROL Experience Targeting] を使用したり、**[!UICONTROL Change Text]または[!UICONTROL Change HTML]** アクティビティで [!UICONTROL Automated Personalization]/[!UICONTROL Multivariate Test] を使用してテキストを太字または斜体にすると、これらのスタイルがページに適用されなかったり、VEC のページからテキストが消えたりする場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法により、web サイトのマークアップが妨げられる可能性があるために発生します。
 
 この問題が発生した場合、次の手順に従ってください。
 
@@ -155,6 +155,6 @@ VEC 内でリソースが読み込まれない任意のヘッダーに対して�
 ## Automated Personalizationアクティビティで、VEC または EEC の画像のスワップが壊れているように見えます。（VEC と EEC） {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++詳細
-場所への画像オファーの追加は、VEC または EEC 内の元の画像領域の完全なディメンションを使用します。 配信時には、画像が拡大されずそのまま表示されるので、配信には影響しません。
+場所に画像オファーを追加するときは、VEC または EEC の元の画像スペースのフルサイズが利用されます。配信時には、画像が拡大されずそのまま表示されるので、配信には影響しません。
 
 +++

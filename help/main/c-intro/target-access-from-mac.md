@@ -37,7 +37,7 @@ ht-degree: 50%
 
    ![アドビアカウント](/help/main/c-intro/assets/adobe-account.png)
 
-1. [!UICONTROL Account] ページの「**[!UICONTROL Preferred languages]**」セクションで、**[!UICONTROL Add]** を参照します。
+1. **[!UICONTROL Preferred languages]** ページの「[!UICONTROL Account]」セクションで、**[!UICONTROL Add]** を参照します。
 
    テキストは、Adobeから連絡を受けたときに使用 [!DNL Adobe] る言語であることを示しています。 これは、UI で [!DNL Target] やその他の [!DNL Adobe Experience Cloud] ソリューションに使用される言語でもあります。 複数の言語を選択できます。
 

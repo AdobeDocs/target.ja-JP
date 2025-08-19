@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud オーディエンス;オーディエンス
-description: Adobe Experience Cloud オーディエンスを使用してExperience Cloudソリューションが Web サイトの訪問者に関する情報を伝達し、他のAdobeソリューションと共有する方法について説明します。
+description: Adobe Experience Cloud オーディエンスを使用してExperience Cloud ソリューションがコミュニケーションを行い、web サイトの訪問者に関する情報を他のAdobe ソリューションと共有する方法について説明します。
 title: Target でのAdobe Experience Cloud オーディエンスの使用方法？
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 [!DNL Adobe Experience Cloud Audiences] は、[!DNL Adobe Experience Cloud] ソリューションが web サイトの訪問者に関する情報を通信および共有して、各ソリューションで同じデータを使用できるようにする機能を提供します。
 
-詳しくは、『 [ コアサービスユーザーガイド *の ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) オーディエンス* を参照してください。
+詳しくは、『 [ コアサービスユーザーガイド ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) の *オーディエンス* を参照してください。
 
 ## ビデオ：[!DNL Target] と [!DNL Experience Cloud Audiences] の統合（10:48）
 

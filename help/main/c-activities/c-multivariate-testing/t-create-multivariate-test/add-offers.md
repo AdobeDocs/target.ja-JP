@@ -1,6 +1,6 @@
 ---
 keywords: mvt；多変量分析テスト；オファー；組み合わせ
-description: Adobeで [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Multivariate Test] （MVT [!DNL Target]  に含めるオファーを作成する方法を説明します。
+description: Adobeの [!UICONTROL Visual Experience Composer] （VEC）を使用して、 [!DNL Target]  （MVT[!UICONTROL Multivariate Test] に含めるオファーを作成する方法を説明します。
 title: '[!UICONTROL Multivariate Test] （MVT）での組み合わせの作成方法'
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 # 組み合わせの作成
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Multivariate Test] （MVT）に含めるオファーを作成します。
+[!UICONTROL Visual Experience Composer] の [!DNL Adobe Target] （VEC）を使用して、[!UICONTROL Multivariate Test] （MVT）に含めるオファーを作成します。
 
 VEC を使用したオファーの作成および編集について詳しくは、[Visual Experience Composer オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
@@ -37,9 +37,9 @@ VEC を使用したオファーの作成および編集について詳しくは�
 
 複数の HTML オファーを特定の場所でテストして、どのオファーが最も効果が高いかを判断します。
 
-1. ページでHTMLオファーをクリックし、「**[!UICONTROL Change HTML Offer]**」をクリックします。
+1. ページでHTML オファーをクリックし、「**[!UICONTROL Change HTML Offer]**」をクリックします。
 
-1. 「**[!UICONTROL Create Offer]**」をクリックし、「**[!UICONTROL HTML Offer]**」をクリックしてオファーに名前を付け、HTMLオファーのコードを入力または貼り付けて、「**[!UICONTROL Create]**」をクリックします。
+1. 「**[!UICONTROL Create Offer]**」をクリックし、「**[!UICONTROL HTML Offer]**」をクリックしてオファーに名前を付け、HTML オファーのコードを入力または貼り付けて、「**[!UICONTROL Create]**」をクリックします。
 
    追加で組み込む HTML オファーに対して同じ手順を繰り返します。
 

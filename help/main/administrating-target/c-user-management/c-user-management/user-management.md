@@ -8,7 +8,7 @@ exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 63%
+ht-degree: 64%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 63%
 >
 >[!UICONTROL Properties] と [!UICONTROL Permissions] の機能は [!DNL Target Premium] ソリューションの一部です。 [!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >
->組織が [!UICONTROL Standard] ライセンスまたは [!UICONTROL Premium] ライセンスを持っているかどうかを確認するには、[!DNL Target] UI の上部にある [!UICONTROL Administration] リンクをクリックします。
+>組織が [!UICONTROL Standard] ライセンスまたは [!UICONTROL Premium] ライセンスを持っているかどうかを確認するには、[!UICONTROL Administration] UI の上部にある [!DNL Target] リンクをクリックします。
 >
->* **[!DNL Target][!UICONTROL Standard] のお客様**: 「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示され、「**[!UICONTROL Properties]**」タブが表示されない場合、組織の [!UICONTROL Standard] ライセンスは [!DNL Target] です。 [!DNL Target] [!UICONTROL Standard] のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
+>* **[!DNL Target][!UICONTROL Standard] のお客様**: 「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示され、「**[!UICONTROL Properties]**」タブが表示されない場合、組織の [!DNL Target] ライセンスは [!UICONTROL Standard] です。 [!DNL Target] [!UICONTROL Standard] のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
 >
 >* **[!DNL Target]Premium のお客様**:「[!UICONTROL Users]」タブと「[!UICONTROL Properties]」タブ（[!UICONTROL Administration > Properties]）が表示された場合、組織のライセンスは [!DNL Target] Premium です。 [!DNL Target] Premium のお客様が [!DNL Adobe Admin Console] でユーザーの追加や権限の割り当てを行う際は、[Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) と [Enterprise 権限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の設定の手順に従ってください。
 >
@@ -30,7 +30,7 @@ ht-degree: 63%
 
 [!DNL Adobe Target] を初めて使用するときには、[!DNL Adobe Experience Cloud] アカウントのところに、「Adobe.com」で終わる ID があらかじめ表示されています。これらの ID は [!DNL Adobe] チームのメンバーのもので、新しいアカウントや [!DNL Adobe Target] の使い方について疑問点があるときに、メンバーに質問をすることができます。質問があるときは、通常の方法で Adobe チームにご連絡ください。
 
-新しいユーザーは、[!DNL Adobe Experience Cloud] アカウントを使用してログインしてから、[!DNL Target] にログインするまでは、[!UICONTROL Users] ページに表示されません。
+新しいユーザーは、[!UICONTROL Users] アカウントを使用してログインしてから、[!DNL Adobe Experience Cloud] にログインするまでは、[!DNL Target] ページに表示されません。
 
 デフォルトでは、すべての [!DNL Target] ユーザーはまず [!UICONTROL Observer] の権限を持ちます。
 
@@ -88,7 +88,7 @@ ht-degree: 63%
 
    「[!UICONTROL Users]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
 
-1. [!UICONTROL Product Role] 列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（[!UICONTROL Approver]、[!UICONTROL Editor]、[!UICONTROL Observer]、[!UICONTROL Publisher]）を選択します。
+1. [!UICONTROL Approver] 列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（[!UICONTROL Editor]、[!UICONTROL Observer]、[!UICONTROL Publisher]、[!UICONTROL Product Role]）を選択します。
 
    | 役割 | 説明 |
    |--- |--- |
@@ -113,4 +113,4 @@ ht-degree: 63%
 >
 >パフォーマンスを向上、新機能のリリースに要するメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスが向上するため、[!DNL Target] [!UICONTROL Administration] メニュー（以前の [!UICONTROL Setup]）のデザインが一新されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。更新されたビデオは間もなく投稿される予定です。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421733?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)

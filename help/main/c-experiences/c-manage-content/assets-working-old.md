@@ -1,13 +1,13 @@
 ---
 keywords: コンテンツライブラリ;アセット;注釈;コピー;アセットの削除;アセットのダウンロード;コンテンツの編集;カードの共有;コンテンツプロパティの表示
-description: Adobeオファーライブラリでコードおよび画像オファーを管理する方法  [!DNL Target]  説明します。 オファーの詳細を表示する方法、およびオファーを編集、コピー、移動または削除する方法を説明します。
+description: Adobe [!DNL Target]  オファーライブラリでコードおよび画像オファーを管理する方法を説明します。 オファーの詳細を表示する方法、およびオファーを編集、コピー、移動または削除する方法を説明します。
 title: オファーライブラリのコンテンツの操作方法
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -84,9 +84,9 @@ ht-degree: 33%
 
 ## トレーニングビデオ：コンテンツリポジトリ ![ 概要バッジ ](/help/main/assets/overview.png)
 
-このビデオでは、コンテンツの管理について説明します。(4:56)
+このビデオでは、コンテンツの管理について説明します。（4:56）
 
-* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=ja)と Target コンテンツライブラリの間の接続
+* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 

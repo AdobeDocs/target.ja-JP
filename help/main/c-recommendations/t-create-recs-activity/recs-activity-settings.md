@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations;設定;名前;目的;優先度;期間;レポート設定;他のメタデータ
-description: Adobe TargetのRecommendations アクティビティを記述および制御するために使用する設定を行う方法について説明します。
-title: Recommendations アクティビティの設定は、どうすればよいですか？
+description: Adobe Targetの Recommendations アクティビティの説明と制御に使用する設定を行う方法について説明します。
+title: Recommendations アクティビティの設定方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 46%
+ht-degree: 44%
 
 ---
 
 # Recommendations アクティビティの設定
 
-[!DNL Adobe Target] の [!UICONTROL Recommendations] ーザーアクティビティを説明および制御するために使用できる設定に関する情報です。
+[!UICONTROL Recommendations] の [!DNL Adobe Target] ーザーアクティビティを説明および制御するために使用できる設定に関する情報です。
 
 次の節では、[!UICONTROL Recommendations] アクティビティで使用できる設定について説明します。
 
@@ -33,7 +33,7 @@ ht-degree: 46%
 `-`
 `@`
 
-[!UICONTROL Recommendations Classic] の別のアクティビティに既に存在する [!UICONTROL Recommendations] しいアクティビティの名前を指定した場合、新しいアクティビティは新しい名前で再同期されます。 新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。この新しい名前は、[!DNL Target Standard/Premium] と [!UICONTROL Recommendations Classic] の両方で表示されます。
+[!UICONTROL Recommendations] の別のアクティビティに既に存在する [!UICONTROL Recommendations Classic] しいアクティビティの名前を指定した場合、新しいアクティビティは新しい名前で再同期されます。 新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。この新しい名前は、[!DNL Target Standard/Premium] と [!UICONTROL Recommendations Classic] の両方で表示されます。
 
 ## 目的
 
@@ -49,7 +49,7 @@ ht-degree: 46%
 
 アクティビティの期間を設定します。
 
-アクティビティは、アクティブ化されたときに開始したり、特定の日時を設定したりできます。同様に、非アクティブ化されたときに終了させたり、日時を設定したりできます。タイムピッカーは 24 時間の時計を使用します。00:00 は真夜中です。タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
+アクティビティは、アクティブ化されたときに開始したり、特定の日時を設定したりできます。同様に、非アクティブ化されたときに終了させたり、日時を設定したりできます。時間の選択では、24 時間制を使用し、00:00 は午前 0 時になります。 タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
 
 ## レポート設定
 
@@ -63,13 +63,13 @@ ht-degree: 46%
 
   アクティビティがライブになった後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。
 
-  **[!DNL Adobe Analytics]**: レポートソリューションの違いとそれぞれの利点について詳しくは  [!DNL Target][&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) のレポートソースとしての） [!DNL Adobe Analytics]  を参照してください。
+  **[!DNL Adobe Analytics]**: レポートソリューションの違いとそれぞれの利点について詳しくは [[!DNL Adobe Analytics]  のレポートソースとしての）  [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
 
-  [!DNL Target] （A4T）のレポートソースとして [!DNL Analytics] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 これを行うには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択し、次に、アクティビティに適したレポートスイートを選択します。 [!DNL Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
+  [!DNL Analytics] （A4T）のレポートソースとして [!DNL Target] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 これを行うには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択し、次に、アクティビティに適したレポートスイートを選択します。 [!DNL Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
 
   [!DNL Analytics for Target] （A4T）では、結果を正しく報告するためのトラッキングサーバーが必要です。 デフォルトのトラッキングサーバーが「[!UICONTROL Tracking Server]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合、このフィールドに正しいトラッキングサーバーを含めてください。 詳しくは [Analytics トラッキングサーバーの使用 ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
 
-  **[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics] と [!DNL Target] の統合について詳しくは、[[!DNL Target]  でのレポート  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) を参照してください。
+  **[!DNL Adobe Customer Journey Analytics]**: [[!DNL Target]  と  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) の統合について詳しくは、[!DNL Adobe Customer Journey Analytics] でのレポート [!DNL Target] を参照してください。
 
 * **目標指標：**&#x200B;アクティビティが成功したかどうかを判定する成功指標を選択します。
 * **追加の指標：**&#x200B;レポートに使用する追加の成功指標を設定します。

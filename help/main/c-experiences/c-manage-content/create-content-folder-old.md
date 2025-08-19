@@ -1,7 +1,7 @@
 ---
 keywords: コンテンツ;フォルダーの作成;アセット;フォルダーの移動;フォルダーのコピー;フォルダーの削除;フォルダーのダウンロード;フォルダー
 description: オファーライブラリでフォルダーを作成するには
-title: Adobe [!DNL Target]  オファーライブラリでフォルダーを作成して、コードオファー、画像オファーおよび他のフォルダーを保持する方法を説明します。
+title: Adobe [!DNL Target]  オファーライブラリでフォルダーを作成して、コード、画像オファー、その他のフォルダーを保持する方法を説明します。
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a

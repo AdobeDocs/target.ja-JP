@@ -8,11 +8,11 @@ exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 64%
+ht-degree: 66%
 
 ---
 
-# オファーとしての Recommendations 
+#  オファーとしての Recommendations 
 
 [!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）アクティビティおよび [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができるようになりました。
 
@@ -20,10 +20,10 @@ ht-degree: 64%
 
 * 同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。
 * 複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。
-* [!UICONTROL Auto-Allocate] を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
+* [!UICONTROL Auto-Allocate] を使用して、トラフィックをパフォーマンスの高いレコメンデーションエクスペリエンスに自動的にプッシュします。
 * [!UICONTROL Auto-Target] を使用し、プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスへと訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL Visual Experience Composer] を使用して [!UICONTROL A/B Test] アクティビティまたは [!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL Insert Before]、[!UICONTROL Insert After] または [!UICONTROL Replace With] アクションを使用してエクスペリエンスにレコメンデーションを追加します。
+開始するには、[!UICONTROL A/B Test] を使用して [!UICONTROL Experience Targeting] アクティビティまたは [!UICONTROL Visual Experience Composer] アクティビティを作成し、[!UICONTROL Insert Before]、[!UICONTROL Insert After] または [!UICONTROL Replace With] アクションを使用してエクスペリエンスにレコメンデーションを追加します。
 
 ## Recommendations をオファーとして A/B テストまたは XT アクティビティに追加する
 
@@ -111,7 +111,7 @@ Recommendations オファーを削除するには、次の 2 つの方法があ�
 
 ### Recommendations オファーのステータスの表示 {#status}
 
-Recommendations オファーの（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの [!UICONTROL Overview] ページの下部に表示されます。
+Recommendations オファーの（アルゴリズム）ステータスは、A/B テストと、Recommendations オファーを含む XT アクティビティの [!UICONTROL Overview] ページの下部に表示されます。
 
 * 結果の準備ができました
 * 結果の準備ができていません

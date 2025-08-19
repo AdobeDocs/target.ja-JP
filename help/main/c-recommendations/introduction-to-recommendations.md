@@ -8,7 +8,7 @@ exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '2086'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 91%
 
 ![ユーザー行動のキャプチャ方法を示す図](/help/main/c-recommendations/assets/intro-9.png)
 
-ユーザーが表示および購入している品目を [!DNL Target] が認識するようにする必要があります。購入がコンテキストに関係ない場合は、PDFのダウンロード、調査の完了、ニュースレターの購読、ビデオの視聴など、別のタイプのコンバージョンイベントをトラッキングできます。
+ユーザーが表示および購入している品目を [!DNL Target] が認識するようにする必要があります。購入がコンテキストに関係ない場合は、PDFのダウンロード、調査の完了、ニュースレターの購読、ビデオの視聴など、別のタイプのコンバージョンイベントをトラッキングすることがあります。
 
 既に [!DNL Target] を使用してサイトで A/B テストアクティビティを実行している場合、既にこの手順を完了している可能性があります。または、既に [!DNL Adobe Analytics] を使用してサイト訪問およびコンバージョン行動をレポートしている場合、[!DNL Analytics] を行動データソースとして使用できます。そうでない場合、[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ja){target=_blank} のタグなどのタグマネージャーを使用してこれを設定するのが最も簡単です。 また、リアルタイム API を介して、オフラインまたはアプリ内のインタラクションを [!DNL Target] に送信することもできます。
 
@@ -129,7 +129,7 @@ ht-degree: 91%
 
 ![レコメンデーションアクティビティを構成するオーディエンス、条件およびデザインを示す図](/help/main/c-recommendations/assets/intro-12.png)
 
-標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。過去に、[!DNL Target] で [ オーディエンスの構築に関するウェビナー ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) を実施したことがあります。 ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
+標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。過去に、[ で ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) オーディエンスの構築に関するウェビナー [!DNL Target] を実施したことがあります。 ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
 
 Target では、条件カードという概念を使用します。条件カードは、パーソナライゼーションのレシピのようなものです。
 
@@ -193,7 +193,7 @@ Target では、条件カードという概念を使用します。条件カー�
 
 ## デモ
 
-前述のレコメンデーションファネルで説明したタスクを完了したら、最後のレコメンデーションを残すのみです。[!DNL Target] の製品内デモンストレーションを視聴するには、次のリンクの *Adobe Target Basics ウェビナー*&#x200B;で、21：00 から始まるデモを参照してください。
+前述のレコメンデーションファネルで説明したタスクを完了したら、最後のレコメンデーションを残すのみです。[!DNL Target] 内の製品内デモを見るには、以下にリンクされている :002}Adobe Targetの基本ウェビナー *の 21} からデモを開始します。*
 
 ## Adobe [!DNL Target] 基本ウェビナー：Recommendations の概要 {#intro-to-recs}
 

@@ -13,7 +13,7 @@ ht-degree: 83%
 
 # システムステータスの更新と事前通知
 
-[!UICONTROL Adobe System Status] のページとアドビの通知を使用して、製品と [!DNL Adobe Experience Cloud] ソリューションのステータス [!DNL Adobe] 把握します。 アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
+[!UICONTROL Adobe System Status] のページとアドビの通知を使用して、製品と [!DNL Adobe] ソリューションのステータス [!DNL Adobe Experience Cloud] 把握します。 アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
 
 ## システムステータスの更新
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 
 1. [[!UICONTROL System Status]](https://status.adobe.com/ja){target=_blank} にアクセスします。
 
-1. [!DNL Target] を含む [!DNL Experience Cloud] ソリューションのステータスを確認するには、「[!UICONTROL Experience Cloud]」タブをクリックします。
+1. [!DNL Experience Cloud] を含む [!DNL Target] ソリューションのステータスを確認するには、「[!UICONTROL Experience Cloud]」タブをクリックします。
 
    ![system_status 画像](assets/system_status.png)
 

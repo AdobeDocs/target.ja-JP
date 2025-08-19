@@ -15,7 +15,7 @@ ht-degree: 42%
 
 # 除外の管理
 
-[!DNL Adobe Target] の [!UICONTROL Automated Personalization] （AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
+[!UICONTROL Automated Personalization] の [!DNL Adobe Target] （AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 
 ## 除外グループの作成 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -124,7 +124,7 @@ AP アクティビティでテストするオファーに合わせてページ�
 
 **[!UICONTROL Form-Based Experience Composer] を使用してデフォルトコンテンツを除外するには：**
 
-1. AP アクティビティを作成または編集する際に、「**[!UICONTROL Content]**」の下の「**[!UICONTROL Change Text/HTML]**」または「**[!UICONTROL Change Image Offer]**」をクリックします。
+1. AP アクティビティを作成または編集する際に、「**[!UICONTROL Change Text/HTML]**」の下の「**[!UICONTROL Change Image Offer]**」または「**[!UICONTROL Content]**」をクリックします。
 1. ダイアログボックスで、新しいコンテンツを作成し、デフォルトコンテンツの右側にある **[!UICONTROL Include]** のチェックボックスをオフにします（または、[!UICONTROL Select Content] の画面でデフォルトの画像/ビデオのチェックボックスをオフにします）。
 
    コンテンツやオファーのタイプによって、「[!UICONTROL Include]」チェックボックスは若干異なる場所にあります。

@@ -1,6 +1,6 @@
 ---
 keywords: トラブルシューティング；よくある質問；FAQ;FAQ;Automated Personalization；コントロール；デフォルトエクスペリエンス；ベストプラクティス
-description: '[!UICONTROL Adobe Target] の [!UICONTROL Automated Personalization] （AP）アクティビティに関するよくある質問（FAQ）と回答のリストをご覧ください。'
+description: '[!UICONTROL Automated Personalization] の [!UICONTROL Adobe Target] （AP）アクティビティに関するよくある質問（FAQ）と回答のリストをご覧ください。'
 title: '[!UICONTROL Automated Personalization] アクティビティに関する FAQ を見つけるにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
@@ -8,17 +8,17 @@ exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
 workflow-type: tm+mt
 source-wordcount: '1946'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
 # Automated Personalizationの FAQ
 
-[!DNL Adobe Target] で [!UICONTROL Automated Personalization] のアクティビティを扱う際には、次の FAQ と回答を参照してください。
+[!UICONTROL Automated Personalization] で [!DNL Adobe Target] のアクティビティを扱う際には、次の FAQ と回答を参照してください。
 
 ## [!UICONTROL Automated Personalization] アクティビティのコントロールとして使用される特定のエクスペリエンスを指定できますか？
 
-+++詳細を見る
++++詳細を表示
 
 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP）または [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択できます。
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 
 ## どうすれば [!UICONTROL Automated Personalization] をデフォルトエクスペリエンスと比較できますか。 {#section_46C1A620A2384C2C8392D6716DD18495}
 
-+++詳細を見る
++++詳細を表示
 
 [!UICONTROL Automated Personalization] をデフォルトエクスペリエンスと比較するターンキーオプションはありません。 ただし、回避策として、デフォルトのオファーまたはエクスペリエンスがアクティビティ全体の一部として存在する場合、そのベースラインパフォーマンスを把握するには、レポートの「[!UICONTROL Control]」セグメントをクリックし、結果のオファーレベル レポートでその特定のオファーを見つけます。 このオファーで記録されたコンバージョン率を使用して、「ランダムフォレスト」セグメント全体のコンバージョン率と比較できます。 これは、デフォルトオファーと比較してマシンがおこなっている方法を比較するのに役立ちます。
 
@@ -38,10 +38,10 @@ ht-degree: 24%
 
 ## [!UICONTROL Automated Personalization] アクティビティを設定するためのベストプラクティスは何ですか。 {#section_E155B26282BE49B58EA2683413D11DE6}
 
-+++詳細を見る
++++詳細を表示
 
-* トラフィックが少ないページのパーソナライズをおこなう場合や、パーソナライズするエクスペリエンスに構造的な変更を加える場合は、[!UICONTROL Automated Personalization] の代わりに [!UICONTROL Auto-Target] アクティビティを使用することを検討してください。 [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) を参照してください。
-* [!UICONTROL Automated Personalization] アクティビティで使用することを計画しているオファーや場所を対象とした [!UICONTROL A/B Test] アクティビティを実施し、それらのオファーや場所が最適化目標の達成に効果的かどうかを確認することをお勧めします。 [!UICONTROL A/B Test] アクティビティで有意な差異が示されなかった場合は、上昇率が生み出され [!UICONTROL Automated Personalization] い可能性も高くなります。
+* トラフィックが少ないページのパーソナライズをおこなう場合や、パーソナライズするエクスペリエンスに構造的な変更を加える場合は、[!UICONTROL Auto-Target] の代わりに [!UICONTROL Automated Personalization] アクティビティを使用することを検討してください。 [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) を参照してください。
+* [!UICONTROL A/B Test] アクティビティで使用することを計画しているオファーや場所を対象とした [!UICONTROL Automated Personalization] アクティビティを実施し、それらのオファーや場所が最適化目標の達成に効果的かどうかを確認することをお勧めします。 [!UICONTROL A/B Test] アクティビティで有意な差異が示されなかった場合は、上昇率が生み出され [!UICONTROL Automated Personalization] い可能性も高くなります。
 
    * A/B...N テストでエクスペリエンス間の統計的に有意な違いが示されない場合、おそらく次の 1 つ以上の状況が原因です。
 
@@ -72,9 +72,9 @@ ht-degree: 24%
 
 +++
 
-## [!UICONTROL Automated Personalization] の制限は何ですか。{#section_08BA09ED51B547299963C94FE6417CFA}
+## [!UICONTROL Automated Personalization] の制限は何ですか。 {#section_08BA09ED51B547299963C94FE6417CFA}
 
-+++詳細を見る
++++詳細を表示
 
 [!DNL Target] には 30,000 個のエクスペリエンスというハードリミットがありますが、作成されるエクスペリエンスが 10,000 個未満の場合に最も適した状態で機能します。
 
@@ -86,7 +86,7 @@ ht-degree: 24%
 
 ## オファーレベルのターゲット設定は、どのような仕組みになっていますか。 {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
-+++詳細を見る
++++詳細を表示
 
 訪問者がアクセスすると、オファーレベルのターゲットルールによって、表示対象のオファーのセットが決まります。次に、アルゴリズムは、モデルが予測するオファーの中から、最も期待される売上高またはコンバージョンの可能性が高いオファーを選択します。 オファーターゲティングは、機械学習アルゴリズム [!DNL Target] 有効性に影響を与えるため、できるだけ慎重に使用する必要があります。
 
@@ -94,7 +94,7 @@ ht-degree: 24%
 
 ## [!UICONTROL Automated Personalization] アクティビティで上昇率が表示されないのはなぜですか？ {#section_BFA07C8C258F45318F73A461B8F32737}
 
-+++詳細を見る
++++詳細を表示
 
 [!UICONTROL Automated Personalization] アクティビティで上昇率を生み出すには、次の 4 つの要因が必要です。
 
@@ -111,7 +111,7 @@ ht-degree: 24%
 
 ## アクティビティ [!UICONTROL Automated Personalization] トラフィックはどのように配分されますか。 {#section_4369364F77804E0D9B78BEE551DA5659}
 
-+++詳細を見る
++++詳細を表示
 
 [!UICONTROL Automated Personalization] は、各モデルで構築された最新の [ ランダムフォレスト ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) モデルに基づいて、成功指標の推定値が最も優れているエクスペリエンスを訪問者に提供します。 この推定値は、訪問者の特定の情報と訪問のコンテキストに基づいて算出されます。
 
@@ -121,7 +121,7 @@ ht-degree: 24%
 
 ## [!UICONTROL Automated Personalization] アクティビティはいつ停止すべきですか。 {#section_C51F3DAB8887463BB147373F6FE06B93}
 
-+++詳細を見る
++++詳細を表示
 
 [!UICONTROL Automated Personalization] は、常に最適化を行う「常時稼動」のパーソナライゼーションとして使用できます。 特に、エバーグリーンコンテンツの場合、[!UICONTROL Automated Personalization] アクティビティを停止する必要はありません。 [!UICONTROL Automated Personalization] しいアクティビティで、現在のオファーとは違う大幅な変更をコンテンツに加える場合は、新しいアクティビティを開始することをお勧めします。 新しいアクティビティを開始すると、レポートを確認する他のユーザーが過去の結果を様々なコンテンツと混同したり関連付けたりするのに役立ちます。
 
@@ -129,7 +129,7 @@ ht-degree: 24%
 
 ## モデルが構築されるまでに、どの程度待てばよいですか。 {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-+++詳細を見る
++++詳細を表示
 
 アクティビティでのモデルの作成に要する時間は、通常、選択したアクティビティの場所へのトラフィックとアクティビティの成功指標に依存します。 [ トラフィック見積もり ](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) を使用して、アクティビティでのモデルの作成に要する予想時間の長さを決定します。
 
@@ -137,7 +137,7 @@ ht-degree: 24%
 
 ## [!UICONTROL Automated Personalization] アクティビティ内にモデルが 1 つ構築されます。 そのエクスペリエンスへの訪問に対して、パーソナライゼーションはおこなわれますか。 {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
-+++詳細を見る
++++詳細を表示
 
 いいえ。パーソナライゼーションは、アクティビティで少なくとも 2 つのモデルが構築されてから開始されます。
 
@@ -145,7 +145,7 @@ ht-degree: 24%
 
 ## [!UICONTROL Automated Personalization] アクティビティの結果は、いつ確認できますか？ {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
-+++詳細を見る
++++詳細を表示
 
 モデルが構築されたエクスペリエンスのために、モデルが構築（緑色のチェックマーク）された状態で、少なくとも 2 つのエクスペリエンスを作成した後、[!UICONTROL Automated Personalization] アクティビティの結果を確認できます。
 
@@ -153,7 +153,7 @@ ht-degree: 24%
 
 ## [!UICONTROL Automated Personalization] アクティビティでのモデルの作成に必要な時間を短縮するにはどうすればよいですか？ {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
-+++詳細を見る
++++詳細を表示
 
 アクティビティの設定をレビューし、モデルの構築速度を改善するために行う変更があるかどうかを確認します。
 
@@ -166,33 +166,33 @@ ht-degree: 24%
 
 ## 訪問者に、表示すべきでない [!UICONTROL Automated Personalization] アクティビティのエクスペリエンスが表示されるのはなぜですか？ {#section_41CECEAE0881446A8D9F3B016857914B}
 
-+++詳細を見る
++++詳細を表示
 
 [!UICONTROL Automated Personalization] アクティビティは、セッションごとに 1 回評価されます。 特定のエクスペリエンスに適合したアクティブセッションがあり、新しいオファーが追加された場合、訪問者には、以前表示されたオファーと共に、新しいコンテンツが表示されます。 これらの訪問者は、以前はこれらのエクスペリエンスに適合していたので、セッション中は引き続きこれらのエクスペリエンスを表示します。 ページを訪問するたびにこれを評価するには、[!UICONTROL Experience Targeting] （XT）アクティビティタイプに変更する必要があります。
 
 +++
 
-## [!UICONTROL Automated Personalization] アクティビティの途中で目標指標を変更することはできますか。 {#change-metric}
+## [!UICONTROL Automated Personalization] アクティビティの途中で目標指標を変更することはできますか？ {#change-metric}
 
-+++詳細を見る
++++詳細を表示
 
-[!DNL Adobe] クティビティの途中で目標指標を変更することはお勧めしません。 [!DNL Target] UI を使用したアクティビティ中に目標指標を変更することは可能ですが、常に新しいアクティビティを開始する必要があります。実行後にア [!DNL Adobe] ティビティの目標指標を変更した場合の動作は保証されません。
+[!DNL Adobe] では、アクティビティの途中で目標指標を変更することはお勧めしません。[!DNL Target] UI を使用したアクティビティ中に目標指標を変更することは可能ですが、常に新しいアクティビティを開始する必要があります。実行後にア [!DNL Adobe] ティビティの目標指標を変更した場合の動作は保証されません。
 
-このレコメンデーションは、レポートソースとして [!DNL Target] または [!DNL Analytics] （A4T）を使用する [!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Automated Personalization] アクティビティに適用されます。
-
-+++
-
-## [!UICONTROL Automated Personalization] アクティビティの実行中に「[!UICONTROL Reset Report Data]」オプションを使用できますか？
-
-+++詳細を見る
-
-[!UICONTROL Automated Personalization] のアクティビティに [!UICONTROL Reset Report Data] オプションを使用することはお勧めしませ [!DNL Adobe]。 目に見えるレポートデータは削除されますが、このオプションでは、[!UICONTROL Automated Personalization] モデルからすべてのトレーニングレコードが削除されるわけではありません。 [!UICONTROL Automated Personalization] のアクティビティに [!UICONTROL Reset Report Data] オプションを使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにします。 このガイダンスは、[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] のアクティビティにも適用されます。
+このレコメンデーションは、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]、[!UICONTROL Automated Personalization] の各アクティビティで、レポートソースとして [!DNL Target] または [!DNL Analytics]（A4T）を使用します。
 
 +++
 
-## 環境に関 [!UICONTROL Automated Personalization] るモデルを作成するにはどうすればよいですか？
+## [!UICONTROL Automated Personalization] アクティビティの実行中に「[!UICONTROL Reset Report Data]」オプションは使用できますか？
 
-+++詳細を見る
++++詳細を表示
+
+[!DNL Adobe] のアクティビティに [!UICONTROL Reset Report Data] オプションを使用することはお勧めしませ [!UICONTROL Automated Personalization]。 目に見えるレポートデータは削除されますが、このオプションでは、[!UICONTROL Automated Personalization] モデルからすべてのトレーニングレコードが削除されるわけではありません。[!UICONTROL Reset Report Data] のアクティビティに [!UICONTROL Automated Personalization] オプションを使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにします。 このガイダンスは、[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] のアクティビティにも適用されます。
+
++++
+
+## [!UICONTROL Automated Personalization] は、環境に関するモデルをどのように構築しますか？
+
++++詳細を表示
 
 1 つのモデルは、パーソナライズされた戦略とランダムに提供されたトラフィックのパフォーマンスを識別し、すべてのトラフィックを勝者エクスペリエンス全体に送信するように構築されています。 このモデルでは、ヒットとコンバージョンはデフォルト環境でのみ考慮されます。
 

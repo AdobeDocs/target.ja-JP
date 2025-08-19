@@ -18,4 +18,4 @@ Adobe Target でのユーザー管理のトラブルシューティングにつ�
 
 ## 別のユーザーを Target に招待したが、そのユーザーの名前が「ユーザー」リスト（管理／ユーザー）に表示されません。 {#section_13A1A9697BA44537BA569C81CF136160}
 
-新しいユーザーは、Adobe Experience Cloudのアカウントでログインしてから、[!DNL Target Standard/Premium] にログインするまでは、[!UICONTROL Users] のページに表示されません。
+新しいユーザーは、Adobe Experience Cloudのアカウントでログインしてから、[!UICONTROL Users] にログインするまでは、[!DNL Target Standard/Premium] のページに表示されません。

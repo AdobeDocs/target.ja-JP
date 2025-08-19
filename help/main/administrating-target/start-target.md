@@ -20,7 +20,7 @@ ht-degree: 91%
 
 [!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。システム管理者は、1 つ以上の役割固有の製品プロファイル（ユーザーのグループ）にあなたを追加する必要があります。 これらのタスクは両方とも、[Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、[ ユーザーグループの管理 ](https://helpx.adobe.com/jp/enterprise/using/users.html) を参照してください。
+詳しくは、[ ユーザーグループの管理 ](https://helpx.adobe.com/enterprise/using/users.html) を参照してください。
 
 ステム管理者がこれらの手順を実行すると、招待メールが届きます。
 
@@ -60,7 +60,7 @@ ht-degree: 91%
 
 ## [!UICONTROL Administration] 設定の編集に必要な権限 {#admin-permissions}
 
-**2025 年 4 月 22 日（PT）より前:**&#x200B;[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
+**2025 年 4 月 22 日（PT）より前:**[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
 
 **2025 年 4 月 22 日（PT）**&#x200B;より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるようになります。この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
 

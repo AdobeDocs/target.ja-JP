@@ -7,29 +7,29 @@ exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
 # [!DNL Analytics] トラッキングサーバーの使用
 
-古いバージョンの at.js を使用している場合は、[!DNL Adobe Analytics] for [!DNL Adobe Target] （A4T）を使用するアクティビティの [!DNL Analytics] トラッキングサーバーを指定する必要があります。
+古いバージョンの at.js を使用している場合は、[!DNL Analytics] for [!DNL Adobe Analytics] （A4T）を使用するアクティビティの [!DNL Adobe Target] トラッキングサーバーを指定する必要があります。
 
 >[!NOTE]
 >
->at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Goals & Settings] のページの「[!UICONTROL Tracking Server]」フィールドを空白にできます。
+>at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Tracking Server] のページの「[!UICONTROL Goals & Settings]」フィールドを空白にできます。
 >
->[!DNL Target] チームは、両方の at.js 1.*x* と at.js 2 の両方について示しています。*x* を通じてクロスドメイントラッキングを使用している場合です。サポート対象のバージョンを使用するには、at.js のいずれかのメジャーバージョンの最新アップデートにアップグレードしてください。 詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} を参照してください。
+>[!DNL Target] チームは、両方の at.js 1.*x* と at.js 2 の両方について示しています。*x* を通じてクロスドメイントラッキングを使用している場合です。サポート対象のバージョンを使用するには、at.js のいずれかのメジャーバージョンの最新アップデートにアップグレードしてください。 詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
 
-[!DNL Target] からのデータが [!DNL Analytics] の正しい場所に送信されるようにするために、A4T では、[!DNL Target] からの Modstats へのすべての呼び出しで [!DNL Analytics] トラッキングサーバーを送信する必要があります。 複数のトラッキングサーバーを使用する実装の場合は、[!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを決定します。
+[!DNL Target] からのデータが [!DNL Analytics] の正しい場所に送信されるようにするために、A4T では、[!DNL Analytics] からの Modstats へのすべての呼び出しで [!DNL Target] トラッキングサーバーを送信する必要があります。 複数のトラッキングサーバーを使用する実装の場合は、[!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを決定します。
 
-## [!DNL Adobe Experience Platform Debugger] を使用した [!DNL Analytics] トラッキングサーバーの取得
+## [!DNL Analytics] を使用した [!DNL Adobe Experience Platform Debugger] トラッキングサーバーの取得
 
 アクティビティが配信されるページでデバッガーを表示して、正しいトラッキングサーバーを選択していることを確認してください。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
 
 1. アクティビティを作成するページから [!DNL Adobe Experience Platform Debugger] を開きます。
 
-   デバッガーをまだインストールしていない場合は、[Adobe Experience Platform Debuggerの概要 ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ja) を参照してください。
+   デバッガーをまだインストールしていない場合は、[Adobe Experience Platform Debugger overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html) を参照してください。
 
 1. 左側のナビゲーションメニューの「**[!UICONTROL Analytics]**」をクリックします。
 
@@ -43,11 +43,11 @@ ht-degree: 14%
 
 1. フィールドの内容すべてをコピーします。
 
-1. アクティビティの **[!UICONTROL Goal & Settings]** 画面の「**[!UICONTROL Reporting Settings]**」セクションで、トラッキングサーバー情報を **[!UICONTROL Tracking Server]** フィールドに貼り付けます。
+1. アクティビティの **[!UICONTROL Reporting Settings]** 画面の「**[!UICONTROL Goal & Settings]**」セクションで、トラッキングサーバー情報を **[!UICONTROL Tracking Server]** フィールドに貼り付けます。
 
    >[!NOTE]
    >
-   >[!UICONTROL Tracking Server] フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Analytics as the Reporting Source]」を選択します。
+   >[!UICONTROL Analytics as the Reporting Source] フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Tracking Server]」を選択します。
 
 ## ブラウザーの開発者ツールを使用して [!DNL Analytics] トラッキングサーバーを取得する
 
@@ -59,7 +59,7 @@ ht-degree: 14%
 
 1. 「**[!UICONTROL Network]**」タブをクリックします。
 
-1. [!DNL Analytics] リクエストを表示する `/ss,` をフィルタリングします。
+1. `/ss,` リクエストを表示する [!DNL Analytics] をフィルタリングします。
 
    ![/ss 検索を使用したChrome デベロッパーツール ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
@@ -71,8 +71,8 @@ ht-degree: 14%
 
 1. フィールドの内容すべてをコピーします。
 
-1. アクティビティの **[!UICONTROL Goal & Settings]** 画面の「**[!UICONTROL Reporting Settings]**」セクションで、トラッキングサーバー情報を **[!UICONTROL Tracking Server]** フィールドに貼り付けます。
+1. アクティビティの **[!UICONTROL Reporting Settings]** 画面の「**[!UICONTROL Goal & Settings]**」セクションで、トラッキングサーバー情報を **[!UICONTROL Tracking Server]** フィールドに貼り付けます。
 
    >[!NOTE]
    >
-   >[!UICONTROL Tracking Server] フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Analytics as the Reporting Source]」を選択します。
+   >[!UICONTROL Analytics as the Reporting Source] フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Tracking Server]」を選択します。

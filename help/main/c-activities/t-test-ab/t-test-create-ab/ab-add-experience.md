@@ -17,7 +17,7 @@ ht-degree: 28%
 
 エクスペリエンスについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
 
-1. VEC の **[!UICONTROL Experiences]** ページで、[!UICONTROL Experiences] ペインの上部にある [!UICONTROL Add] アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。
+1. VEC の **[!UICONTROL Experiences]** ページで、[!UICONTROL Add] ペインの上部にある ![ アイコン（](/help/main/assets/icons/Add.svg) 追加アイコン [!UICONTROL Experiences]）をクリックします。
 
    VEC では、新しいアクティビティを作成した後、左側に「エクスペリエンス A」と「エクスペリエンス B」という 2 つのタブが表示されます。エクスペリエンス A はコントロールエクスペリエンスです。 複数のエクスペリエンスをテストに追加できます。
 
@@ -25,7 +25,7 @@ ht-degree: 28%
 
    ページ上の要素にポインタを合わせると、その要素がハイライト表示される。 強調表示されている要素は、VEC を使用して変更できます。
 
-   [!DNL Target Classic] （旧称 [!DNL Test&Target]）を使用してページ上で [!DNL Target] リクエストを作成した場合、そのリクエストは、リクエスト名を示す要素として表示され、他の要素と同様に変更できます [!DNL Target]
+   [!DNL Target] （旧称 [!DNL Target Classic]）を使用してページ上で [!DNL Test&Target] リクエストを作成した場合、そのリクエストは、リクエスト名を示す要素として表示され、他の要素と同様に変更できます [!DNL Target]
 
    エクスペリエンスを変更するために表示されるページの要素で実行可能なアクションのリストについては、[Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 

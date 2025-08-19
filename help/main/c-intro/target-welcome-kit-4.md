@@ -25,7 +25,7 @@ ht-degree: 72%
 
 **役に立つ知識**：[!DNL Target] は異なるテクノロジーでもうまく動作するオープンで不可知的なプラットフォームなので、CRM や購入したデータを様々な方法で追加できます。つまり、組織に最も適した方法を選択できます。
 
-詳しくは、[ データを Target に送信する方法 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} を参照してください。
+詳しくは、[Target へのデータの取り込み方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}を参照してください。
 
 ## ヒント 2：[!DNL Target]オーディエンスを他の Adobe Experience Cloud オーディエンスとブレンドすることで、より詳細にパーソナライズできます。
 

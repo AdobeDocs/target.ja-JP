@@ -1,5 +1,5 @@
 ---
-keywords: visual experience composer オプション；experience composer オプション；experience options；テキストの編集；html の編集；テキストまたは html の編集；背景色の編集；要素の挿入；リンクの編集；visual experience composer リンク；css クラスの編集；オファーの交換；画像の交換；画像の交換；項目の削除；項目の非表示；項目の非表示；項目の並べ替え；要素の移動；要素のサイズ変更；要素の拡大；選択；移動；移動；リンク；元ににする；やり直す；やりす/やりす；カスタムイベント；web コンポーネント；オファー決定；offer decisioning
+keywords: visual experience composer オプション；experience composer オプション；エクスペリエンスオプション；テキストの編集；html の編集；テキスト/html の編集；背景色の編集；要素の挿入；リンク；visual experience composer リンク；css クラスの編集；オファーの交換；画像の交換；画像の交換；項目の削除；項目の非表示；項目の非表示；要素の移動；要素のサイズ変更；選択；移動；リンク；移動；取り消し；やり直し；カスタムイベント；web コンポーネント；offer decisioning;offer decisioning
 description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で利用できるオプションを確認します。'
 title: '[!UICONTROL Visual Experience Composer] （VEC）オプションの使用方法？'
 feature: Visual Experience Composer (VEC)
@@ -7,7 +7,7 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
 source-wordcount: '2667'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 55%
 
 HTML コードだけでなく、カスタム JavaScript を編集および挿入することもできます。
 
-[!UICONTROL A/B] アクティビティと [!UICONTROL Experience Targeting] アクティビティでテキストとHTMLを編集する場合は、いくつかのリッチテキスト書式設定オプションを使用できます。 フォントの選択、フォントスタイルの選択、テキストの整列方法の変更およびその他の標準的なテキスト書式オプションの設定が可能です。HTML を変更する際に、HTML のコードビューとリッチ編集ビューを切り替えることができます。
+[!UICONTROL A/B] アクティビティと [!UICONTROL Experience Targeting] アクティビティでテキストとHTMLを編集する際には、いくつかのリッチテキスト書式設定オプションを使用できます。 フォントの選択、フォントスタイルの選択、テキストの整列方法の変更およびその他の標準的なテキスト書式オプションの設定が可能です。HTML を変更する際に、HTML のコードビューとリッチ編集ビューを切り替えることができます。
 
 次の HTML5 タグをネストできます。
 
@@ -60,7 +60,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 ![スタイルパネル](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-異なるスタイルを適用する場合は、任意のセクションを変更した後に、[!UICONTROL Styles] パネルの右上隅に表示される [!UICONTROL Revert] アイコンをクリックすることで、いつでも変更を元に戻すことができます。 [!UICONTROL Revert] アイコンをクリックすると、現在のセクションのパネルに対するすべての変更が元に戻ります。
+異なるスタイルを適用する場合は、任意のセクションを変更した後に、[!UICONTROL Revert] パネルの右上隅に表示される [!UICONTROL Styles] アイコンをクリックすることで、いつでも変更を元に戻すことができます。 [!UICONTROL Revert] アイコンをクリックすると、現在のセクションのパネルに対するすべての変更が元に戻ります。
 
 後述のように、各セクションを展開して、スタイルを編集または追加します。変更を保存するには、パネルの上部にある「[!UICONTROL Back]」アイコンをクリックしてパネルのメインディスプレイに戻り、「**[!UICONTROL Save]**」をクリックします。
 
@@ -88,7 +88,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
   要素のタイポグラフィを変更します。タイポグラフィの編集は手軽におこなえます。
 
-  リッチテキストエディター（テキストを編集/HTMLを編集）は微調整に使用できますが、このオプションを使用すると、要素全体を変更するクイックアクションを使用できます。 （テキスト全体ではなく）テキストの一部にのみタイポグラフィの変更を適用する場合は、[リッチテキストエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)を使用します。
+  リッチテキストエディター（テキストを編集/HTML）は微調整に使用できますが、このオプションでは、要素全体を変更するクイックアクションを使用できます。 （テキスト全体ではなく）テキストの一部にのみタイポグラフィの変更を適用する場合は、[リッチテキストエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)を使用します。
 
   次のタイポグラフィスタイルを編集できます。
 
@@ -178,7 +178,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 ### [!UICONTROL Offer Decision]
 
-offer decisioningを使用して顧客に最高のオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
+Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を追加します。
 
 **メモ：** このオプションは、[ 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -249,7 +249,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL Offer Decision]
 
-offer decisioningを使用して顧客に最高のオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
+Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を追加します。
 
 **メモ：** このオプションは、[ 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -281,7 +281,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL Offer Decision]
 
-offer decisioningを使用して顧客に最高のオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
+Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を追加します。
 
 **メモ：** このオプションは、[ 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -311,7 +311,7 @@ Recommendations では、DIV、SECTION、ARTICLE の各タグで「次で置換�
 
 **注意：** HTML オファーは [!DNL Target] サーバーに格納されます。
 
-HTMLオファーのサイズは最大 256 KB です。
+HTML オファーのサイズは最大 256 KB です。
 
 ### レコメンデーション
 
@@ -345,7 +345,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 CSS 制限により要素をその親要素の内側に残す必要がある場合など、特定の状況では、要素を親要素の外側に移動することはできません。 CSS プロパティ `overflow: hidden` を持つコンテナの外側に要素を移動することはできません。
 
-DOM 要素の遅延読み込みによる [!UICONTROL Move] アクションと [!UICONTROL Rearrange] アクションの動作が一貫していない場合の詳細は、上記の [!UICONTROL Rearrange] を参照してください。
+DOM 要素の遅延読み込みによる [!UICONTROL Rearrange] アクションと [!UICONTROL Move] アクションの動作が一貫していない場合の詳細は、上記の [!UICONTROL Rearrange] を参照してください。
 
 ### [!UICONTROL Hide]
 
@@ -371,7 +371,7 @@ DOM 要素の遅延読み込みによる [!UICONTROL Move] アクションと [!
 
 ## 注意点 {#considerations}
 
-* オファーにHTMLコンテンツが含まれている場合、詳しくは [at.js の仕組み ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} の「HTMLコンテンツを使用したオファーのレンダリング方法」を参照してください。
+* オファーに HTML コンテンツが含まれる場合、詳しくは、[at.js の仕組み](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} の「at.js による HTML コンテンツを使用したオファーのレンダリング方法」を参照してください。
 
 ## カスタム要素のサポート {#custom}
 

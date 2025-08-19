@@ -22,12 +22,12 @@ Web チャネルとコードベースチャネルへの影響を最大限に高�
 
 次のユースケースを実行するには、以下が必要です。
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
-* これらのユースケースには、[!DNL Adobe Target] ライセンスは必要ありません。 これらのユースケースは、[!DNL Journey Optimizer] を使用して [!DNL Target] で使い慣れたタスクを実行する方法を示しており、[!DNL Journey Optimizer] を使用して同じ結果を調査および達成できます。
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
+* これらのユースケースには、[!DNL Adobe Target] ライセンスは必要ありません。 これらのユースケースは、[!DNL Target] を使用して [!DNL Journey Optimizer] で使い慣れたタスクを実行する方法を示しており、[!DNL Journey Optimizer] を使用して同じ結果を調査および達成できます。
 
-## 使用例
+## ユースケース
 
-次のユースケースは、[!DNL Adobe Journey Optimizer] 内の [!DNL Target] から使い慣れたタスクを実行する方法を示しており、実行の違いと類似点を確認できます。
+次のユースケースは、[!DNL Target] 内の [!DNL Adobe Journey Optimizer] から使い慣れたタスクを実行する方法を示しており、実行の違いと類似点を確認できます。
 
 これらのユースケースは、web チャネルとコードベースチャネルに関連します。
 

@@ -48,7 +48,7 @@ ht-degree: 44%
 
 Standard の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。[!DNL Target]
 
-デフォルトでは、バナーの回転など、JavaScriptを含む要素を変 [!UICONTROL Visual Experience Composer] することはできません。 [!UICONTROL Visual Experience Composer] を使用してこれらの要素を変更できるようにする場合は、**[!UICONTROL Render using JavaScript]** をオフに切り替えることができます。
+デフォルトでは、バナーの回転など、JavaScriptを含む要素を変 [!UICONTROL Visual Experience Composer] することはできません。 **[!UICONTROL Render using JavaScript]** を使用してこれらの要素を変更できるようにする場合は、[!UICONTROL Visual Experience Composer] をオフに切り替えることができます。
 
 >[!NOTE]
 >
