@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Target] の�
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 66%
+source-wordcount: '231'
+ht-degree: 55%
 
 ---
 
@@ -25,9 +25,16 @@ ht-degree: 66%
 >
 >* 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target Standard/Premium] 25.8.3 （2025 年 8 月 21 日（PT））
+## [!DNL Target Standard/Premium] 25.8.4 （2025 年 8 月 28 日（PT））
 
-このリリースは公開されました。 詳しくは、[[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) を参照してください。
+このリリースには、次の更新および修正が含まれています。
+
+**Visual Experience Composer（VEC）**
+
++++詳細を表示
+* **[!UICONTROL Automated Personalization] （AP）または [!UICONTROL Multivariate Test] （MVT）アクティビティで場所の名前を変更した後、[!UICONTROL Targeting] の手順に移動して戻った後に場所の名前が保持されない問題を修正しました。** 顧客は場所の名前を正常に編集および保存できるようになり、変更はアクティビティ作成プロセス全体を通して表示されたままになります。 （TGT-52367）
+
++++
 
 ## その他のリリースノートとバージョンの詳細
 
