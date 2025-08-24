@@ -22,7 +22,7 @@ ht-degree: 40%
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
 | 8月22日（PT） | [ 開発者ガイドの  [!DNL Target]CNAME および ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}*[!DNL Target]* | ワークフローを改善するために記事全体を更新しました。 |
-|  | [](https://experienceleague.corp.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} 開発者ガイドの Delivery API の概要 *[!DNL Target]* | [!DNL Recommendations] を使用して [!UICONTROL Catalogs] [!DNL Target Delivery API] を更新する場合の注意の使用に関する情報を追加しました。 |
+|  | [&#128279;](https://experienceleague.corp.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} 開発者ガイドの Delivery API の概要 *[!DNL Target]* | [!DNL Recommendations] を使用して [!UICONTROL Catalogs] [!DNL Target Delivery API] を更新する場合の注意の使用に関する情報を追加しました。 |
 | 8 月 22 日 | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.8.3 リリースに関するリリースノートを追加しました。 |
 | 8月18日（PT） | [ 開発者ガイドの ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank}Analytics for Target （A4T）レポート *[!DNL Target]* | 以下の節を更新しました。<ul><li>GET リクエストコードスニペットを更新しました。</li><li>クエリ文字列パラメーターと変数の表を更新しました。</li><li>*サンプル A4T データ挿入 HTTP Get 呼び出し* の節を更新しました。</li></ul> |
 |  | [ 開発者ガイドの ](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank}Adobe Target プロファイル一括更新 API *[!DNL Target]* | 使用する API のバージョンに関するメモを更新しました。 |
@@ -62,7 +62,7 @@ ht-degree: 40%
 | 6 月 26 日 | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 25.6.4 リリースに関するプレリリースノートを追加しました。 |
 | 6月20日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.6.3 リリースに関するリリースノートを追加しました。 |
 | 6月19日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 25.6.3 リリースに関するプレリリースノートを追加しました。 |
-| 6月16日（PT） |  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [[!DNL Target]  レポート | 「[!DNL Customer Journey Analytics] でアクティビティレポートを作成および表示する」の節を新しく追加しました。 |
+| 6月16日（PT） |  [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [!DNL Target]  レポート | 「[!DNL Customer Journey Analytics] でアクティビティレポートを作成および表示する」の節を新しく追加しました。 |
 |  | [Adobe Targetの cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/target){target=_blank} | `sessionId` に中括弧（{}）を含めることができないことを追加するようにテキストを更新しました。<P>セッション ID には、スペース、疑問符（? ）、中括弧（{ }）、またはスラッシュ（/）のいずれかを使用できます。 長さは 1 ～ 128 文字にする必要があります。 |
 |  | [Adobe Target配信 API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | `sessionId` に中括弧（{}）を含めることができないことを追加するようにテキストを更新しました。<P> セッション ID には、スペース、疑問符（? ）、中括弧（{ }）、またはスラッシュ（/）のいずれかを使用できます。 長さは 1 ～ 128 文字にする必要があります。 |
 | 6月12日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.6.2 リリースに関するリリースノートを追加しました。 |
