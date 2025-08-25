@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Target] の�
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
+source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 55%
+source-wordcount: '282'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,14 @@ ht-degree: 55%
 
 このリリースには、次の更新および修正が含まれています。
 
-**Visual Experience Composer（VEC）**
+**[!DNL Recommendations]**
+
++++詳細を表示
+**[!UICONTROL Product Catalog Search] の高度な検索フィルタリングで大文字と小文字を区別しないように UI を更新しました**:[!UICONTROL Advanced Search] ページの [!UICONTROL Product Catalog Search] UI は、バックエンドとGraphQLの両方のクエリで大文字と小文字が区別されない場合でも、以前は返される値で大文字と小文字を完全に一致させていました。 この不整合により、混乱が生じ、検索精度が低下しました。 [!UICONTROL Advanced Search] フィルタリングで大文字と小文字が区別されなくなり、バックエンドの動作と連携して、使いやすさが向上しています。
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++詳細を表示
 * **[!UICONTROL Automated Personalization] （AP）または [!UICONTROL Multivariate Test] （MVT）アクティビティで場所の名前を変更した後、[!UICONTROL Targeting] の手順に移動して戻った後に場所の名前が保持されない問題を修正しました。** 顧客は場所の名前を正常に編集および保存できるようになり、変更はアクティビティ作成プロセス全体を通して表示されたままになります。 （TGT-52367）
