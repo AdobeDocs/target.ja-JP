@@ -4,9 +4,9 @@ description: Analytics for  [!DNL Target]  （A4T）使用時のリダイレク�
 title: A4T でのリダイレクトオファーに関する FAQ はどこで見つけることができますか？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1431'
 ht-degree: 51%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 51%
 
 +++回答
 はい（実装で [!DNL at.js] を使用している場合）。 ただし、Analytics をレポートソースとして使用するアクティビティで[リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用するには、実装がいくつかの最小要件を満たす必要があります。
+
++++
+
+## ![Adobe Experience Platform Web SDK バッジ ](/help/main/assets/platform.png) この [!DNL Adobe Experience Platform Web SDK] は、A4T のリダイレクトオファーをサポートしていますか？ {#platform}
+
++++回答
+次の FAQ では、[!DNL Platform Web SDK] での A4T の使用とオファーのリダイレクトに関する詳細情報を提供しています。
+
++++
+
+### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
+
++++回答
+はい、Platform Web SDKを介した A4T では、[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md) をサポートしています。
+
++++
+
+### [!UICONTROL Visual Experience Composer] （VEC）および [!UICONTROL Form-Based Experience Composer] はサポートされていますか？
+
++++回答
+はい。組み込みのリダイレクトオファーを使用する場合、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) がサポートされます。
 
 +++
 
@@ -142,24 +163,6 @@ Adobeでは、IT チームに問い合わせて、これらの値が変換され
 
 +++回答
 いいえ。[!DNL Analytics] をレポートソースとして使用するアクティビティでは（A4T）、ビルトインのリダイレクトオファーを使用する必要があります。[!DNL Target] からは、HTML オファーは不明瞭です。[!DNL Target] は、リダイレクトをインスタンス化する JavaScript を含む HTML の特定部分を認識することができません。
-
-+++
-
-## ![Adobe Experience Platform Web SDK バッジ ](/help/main/assets/platform.png) この [!DNL Adobe Experience Platform Web SDK] は、A4T のリダイレクトオファーをサポートしていますか？ {#platform}
-
-次の FAQ では、[!DNL Platform Web SDK] での A4T の使用とオファーのリダイレクトに関する詳細情報を提供しています。
-
-### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
-
-+++回答
-はい、Platform Web SDKを介した A4T では、[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md) をサポートしています。
-
-+++
-
-### [!UICONTROL Visual Experience Composer] （VEC）および [!UICONTROL Form-Based Experience Composer] はサポートされていますか？
-
-+++回答
-はい。組み込みのリダイレクトオファーを使用する場合、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) がサポートされます。
 
 +++
 
