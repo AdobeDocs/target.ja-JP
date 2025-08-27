@@ -4,34 +4,36 @@ description: 要素セレクターは、1 つ以上の要素を識別できる C
 title: Visual Experience Composer （VEC）で要素セレクターを使用できますか？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 85%
+source-wordcount: '427'
+ht-degree: 31%
 
 ---
 
 # Visual Experience Composer で使用される要素セレクター
 
-要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
+要素セレクターは、1 つ以上の要素を識別できる CSS 式です。
 
-CSS セレクターの基本的な情報については、Mozilla Developer Network（MDN）にある[セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)についてのドキュメントを参照してください。
+CSS セレクターに関する基本的な情報については、[ （MDN）の ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) セレクター *[!DNL Mozilla Developer Network]* ドキュメントを参照してください。
 
 アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。「**[!UICONTROL Administration > Visual Experience Composer]**」をクリックして、優先 CSS セレクターを選択します。
 
-![css_selectors image](assets/css_selectors.png)
+* **要素 ID を使用**：同じ ID が複数の要素に使用されている場合、またはページ読み込み時に要素 ID が変更される可能性がある場合は、無効にします。
+* **要素クラスを使用**：ページ上の要素クラスが変更される可能性がある場合は無効にします。
+* **優先セレクターを使用**:VEC で一意のセレクターを使用して、web サイトの主要な領域を識別する場合に有効にします。
 
 >[!NOTE]
 >
->要素クラスは、A/B テスト、Automated Personalizationおよび多変量分析テストアクティビティでセレクターとして使用することができます。
+>要素クラスは、[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL  Multivariate Test] の各アクティビティでセレクターとして使用することができます。
 
 CSS セレクターを使用するタイミングと一意の ID を使用するタイミングについて詳しくは、[Visual Experience Composer のベストプラクティスと制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を参照してください。
 
-## Adobe [!DNL Target] が要素のセレクターを生成する方法 {#section_D89D954BCBFB486CA081BE183776A475}
+## 要素 [!DNL Target] セレクターを生成する方法 {#section_D89D954BCBFB486CA081BE183776A475}
 
-Target では、シンプルなアルゴリズムを使用してセレクターが作成されます。以下では、生成のロジックについて簡単に説明します。
+[!DNL Target] では、単純なアルゴリズムを使用してセレクターを作成します。 次に、生成ロジックについて簡単に説明します。
 
-1. `id="container"`のように要素に ID がある場合、要素のセレクターは`#container`になります。
+1. 要素に ID がある場合（例：`id="container"`）、その要素のセレクターは `#container` になります。
 
    例：
 
@@ -48,9 +50,9 @@ Target では、シンプルなアルゴリズムを使用してセレクター�
    </div>
    ```
 
-1. 要素にクラス属性が含まれている場合、Target は要素に存在するすべてのクラスのうち、最初のクラスを利用します。
+1. 要素に class 属性が含まれている場合、[!DNL Target] は要素に存在する任意のクラスの最初のクラスの活用を試みます。
 
-   Target は、`<HTML>`要素または ID を持つ要素が見つかるまで親要素を分析します。要素に ID が含まれており、セレクターが子孫に対して計算されている場合、この要素の ID がセレクターに使用されます。
+   [!DNL Target] は、`<HTML>` 要素または ID を持つ要素が見つかるまで、親要素の解析を試みます。 要素に ID が含まれ、その下位子でセレクターが計算されると、この要素の ID がセレクターに提供されます。
 
    次に例を示します。
 
@@ -73,7 +75,7 @@ Target では、シンプルなアルゴリズムを使用してセレクター�
 
    `eq` は、UL タグで、最初のクラスが `navigation` の要素のインデックスを示しています。したがって、`index`は 0 になります。詳しくは、MDN の[セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)についての記事を参照してください。
 
-1. 要素にクラスが含まれていない場合、Target は要素の`tagName`を使用し、`<HTML>`要素または ID を持つ要素が見つかるまで親要素を上にたどります。
+1. 要素にクラスが含まれていない場合、[!DNL Target] は要素に `tagName` を使用し、`<HTML>` 要素または ID を持つ要素が見つかるまで、親要素を走査します。
 
    次に例を示します。
 
@@ -95,5 +97,5 @@ Target では、シンプルなアルゴリズムを使用してセレクター�
 上記のプロセスでは、次の点に注意してください。
 
 * DOM で要素を一意に指定できてさえいれば、任意の CSS セレクターを使用することができます。
-* 上記の方法は、いくつかある方法のうち、Target が使用しているものです。必ずこの方法を使用しなければならないわけではありません。1 つ目のポイントが守られていれば、任意のセレクターを追加できます。
+* 上記のアプローチは、[!DNL Target] で使用されるアプローチです。 [!DNL Target] では、この方法を使用する必要はありません。 1 つ目のポイントが守られていれば、任意のセレクターを追加できます。
 * セレクターでは、任意の属性を使用できます。このドキュメントでは、例としてクラス名のみを使用しています。

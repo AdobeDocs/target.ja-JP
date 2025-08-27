@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1846'
 ht-degree: 17%
 
 ---
@@ -77,6 +77,10 @@ ht-degree: 17%
 
 次の例では、マーケティング活動で動的なプロモーションと除外を使用する方法に関する一般的なアイデアを提供します。
 
+>[!NOTE]
+>
+>「リスト」には、エンティティとプロファイル属性の両方を配列として格納する必要があります。 コンマ区切りリストは機能しません。
+
 | 演算子 | 例 |
 | --- | --- |
 | [!UICONTROL equals any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 動的プロモーションの「次に等しい」演算子を使用すると、訪問者が web サイト上の項目（製品、記事、ムービーなど）を表示している際に、次の場所から他の項目を昇格させることができます。<ul><li>同じブランド</li><li>同じカテゴリ</li><li>同じカテゴリーとハウスブランドから</li><li>同じ店舗</li></ul> |
@@ -109,7 +113,7 @@ ht-degree: 17%
 |--- |--- |--- |
 | [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Profile Attribute Matching] と [!UICONTROL Parameter Matching] のデフォルト設定は、このアクションです。<P>このオプションではルールを無視するよう指定します。例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
 | [!UICONTROL Do not show any results for this criteria]<P>（条件のみ） | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<P>このアクションは、このオプションを追加 [!DNL Target] る前の空の値の処理方法です。この条件に対する結果は表示されません。 |
-| [!UICONTROL &#x200B; アイテムを昇格しない<P>（プロモーションのみ） &#x200B;] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<P>このアクションは、このオプションを追加 [!DNL Target] る前の空の値の処理方法です。この条件に対する結果は表示されません。 |
+| [!UICONTROL  アイテムを昇格しない<P>（プロモーションのみ） ] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<P>このアクションは、このオプションを追加 [!DNL Target] る前の空の値の処理方法です。この条件に対する結果は表示されません。 |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | 値が空だった場合に静的値を使用するよう設定できます。 |
 
 ## 注意事項 {#caveats}

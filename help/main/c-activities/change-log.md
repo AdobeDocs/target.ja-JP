@@ -4,9 +4,9 @@ description: Adobeでアクティビティの変更ログにアクセスし  [!D
 title: アクティビティの変更ログを確認するにはどうすればよいですか？
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: 15435b15d2da8412f0174f87d15d3c983098c223
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '161'
 ht-degree: 2%
 
 ---
@@ -23,3 +23,10 @@ ht-degree: 2%
 実行されたアクション、アクションが実行された日付、アクションを実行したユーザーは、アクティビティが作成、更新、アクティブ化または非アクティブ化されるたびに一覧表示されます。 アクティビティで使用されるカスタムターゲットとオファーへの変更も一覧表示されます。
 
 ページを更新して、ステータスの変更を確認します。 [!UICONTROL Date] 列ヘッダーをクリックして、実行されたアクションを昇順または降順でリストすることもできます。
+
+>[!MORELIKETHIS]
+>
+>* [ 最終作成者名と変更後のタイムスタンプから監査ログを取得します ](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+>
+>* [ リストアクティビティの変更ログ ](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+
