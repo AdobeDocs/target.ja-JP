@@ -25,7 +25,7 @@ CSS セレクターに関する基本的な情報については、[ （MDN）�
 
 >[!NOTE]
 >
->要素クラスは、[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL  Multivariate Test] の各アクティビティでセレクターとして使用することができます。
+>要素クラスは、[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL &#x200B; Multivariate Test] の各アクティビティでセレクターとして使用することができます。
 
 CSS セレクターを使用するタイミングと一意の ID を使用するタイミングについて詳しくは、[Visual Experience Composer のベストプラクティスと制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を参照してください。
 
