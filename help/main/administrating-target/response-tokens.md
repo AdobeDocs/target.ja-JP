@@ -5,7 +5,7 @@ title: 応答トークンとその使用方法
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 24%
@@ -28,8 +28,8 @@ ht-degree: 24%
 
 | Target SDK | 提案されたアクション |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja){target=_blank} ガイドの *SDKのインストール* を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) ガイドの *リリースノート* を参照してください。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank} を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。mbox.js （現在は非推奨）には存在し、at.js には存在しない内部メソッドに依存する一部のプラグインは、配信されますが失敗します。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} ガイドの *SDKのインストール* を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) ガイドの *リリースノート* を参照してください。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank} を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。mbox.js （現在は非推奨）には存在し、at.js には存在しない内部メソッドに依存する一部のプラグインは、配信されますが失敗します。 |
 
 ## レスポンストークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,7 +37,7 @@ ht-degree: 24%
 
    詳しくは、以下を参照してください。
 
-   * **Platform Web SDK**:『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja) ガイドの *SDKのインストール* を参照してください。
+   * **Platform Web SDK**:『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) ガイドの *SDKのインストール* を参照してください。
    * **at.js**:[at.js のダウンロード ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank} を参照してください。
 
 1. [!DNL Target] で、**[!UICONTROL Administration]**/**[!UICONTROL Response Tokens]** をクリックします。
@@ -58,7 +58,7 @@ ht-degree: 24%
    |  | `profile.categoryAffinity` | 訪問者のお気に入りのカテゴリを返します。 |
    |  | `profile.categoryAffinities` | 訪問者の上位 5 カテゴリの配列を文字列として返します。 |
    | アクティビティ | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 現在のアクティビティの詳細。<br> オファーパラメーターの値はエクスペリエンスレベルで評価されます。 |
-   | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | アクティビティでの地域ターゲット設定について詳しくは、[地域](/help/main/c-target/c-audiences/c-target-rules/geo.md)を参照してください。 |
+   | 地域 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | アクティビティでの地域ターゲティングについて詳しくは、[地域](/help/main/c-target/c-audiences/c-target-rules/geo.md)を参照してください。 |
    | トラフィック配分方法 <br> （[!UICONTROL Auto-Target] および [!UICONTROL Automated Personalization] アクティビティにのみ適用） | `experience.trafficAllocationId` | 訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は 0 を、訪問者が「ターゲット」トラフィック分配からエクスペリエンスを受け取った場合は 1 を返します。 |
    |  | `experience.trafficAllocationType` | 「control」または「targeted」を返します。 |
 
@@ -147,7 +147,7 @@ ht-degree: 24%
 
 ### ![at.js バッジ ](/help/main/assets/atjs.png) カスタムイベントを使用した at.js
 
-[at.js カスタムイベント ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=ja){target=_blank} を使用して [!DNL Target] 応答をリッスンし、応答トークンを読み取ります。
+[at.js カスタムイベント ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} を使用して [!DNL Target] 応答をリッスンし、応答トークンを読み取ります。
 
 以下のコードサンプルは、[!DNL at.js] カスタムイベントハンドラーを HTML ページに直接追加します。
 
@@ -426,4 +426,4 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 >
 >このビデオでは `option.name` と `option.id` について説明していますが、それぞれ `offer.name` と `offer.id` に置き換えられています。
 
->[!VIDEO](https://video.tv.adobe.com/v/34066?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
