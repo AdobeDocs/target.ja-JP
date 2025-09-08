@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: c5016d212edafa908b8755044e73d28167e20e8a
+source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 39%
+source-wordcount: '456'
+ht-degree: 30%
 
 ---
 
@@ -17,15 +17,13 @@ ht-degree: 39%
 
 [!UICONTROL Automated Personalization] の [!DNL Adobe Target] （AP）アクティビティでの重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 
-## 重複するオファーを除外 {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## 重複するオファーを許可または禁止 {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
 オファーライブラリからのオファーがアクティビティの複数のロケーションで使用される場合に重複 [!UICONTROL Automated Personalization] ないようにします。
 
-例えば、ページ上で 6 つのロケーションと 12 件のオファーがあるアクティビティがあるとします。同じオファーがアクティビティ内の 1 つまたは複数のロケーションに配置される場合があります。この機能では、同一アクティビティ内の別の場所で、重複するオファーが同時に表示されるのを防ぐことができます。
+例えば、ページ上で 6 つのロケーションと 12 件のオファーがあるアクティビティがあるとします。同じオファーがアクティビティ内の 1 つまたは複数のロケーションに配置される場合があります。この機能を使用すると、同じアクティビティ内の異なる場所に重複したオファーが同時に表示されるのを防ぐことができます。
 
-**[!UICONTROL Configure]** アイコン/**[!UICONTROL Duplicate Offers]** をクリックし、「**[!UICONTROL Allow Duplicates]**」または「**[!UICONTROL Disallow Duplicates]**」をクリックします。
-
-![重複オファーのオプション](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
+1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、**[!UICONTROL Configure]** アイコン（![ 設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL Allow Duplicate Offers]** をクリックして、この機能のオン/オフを必要に応じて切り替えます。
 
 ## 特定のエクスペリエンスを除外 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -33,76 +31,71 @@ ht-degree: 39%
 
 連携できない特定の組み合わせがあるか、テストしたエクスペリエンスの数を制限してアクティビティのトラフィック要件を減らしている可能性があります。
 
-1. [AP アクティビティの作成または編集](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)時に、ヘッダーバーの「**コンテンツを管理**」をクリックします。
-
-   ![コンテンツを管理リンク](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、**コンテンツを管理** アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします。
 
    [!UICONTROL Experiences] のリストには、すべてのコンテンツと場所のオプションの並べ替えから生成された各エクスペリエンスが表示されます。
 
 1. 必要に応じてエクスペリエンスを除外します。
 
-   エクスペリエンスを除外する際は、対象のエクスペリエンスにマウスポインターを置いてから除外アイコンをクリックします。
+   特定のエクスペリエンスを除外するには、[!UICONTROL **その他のアクション**] アイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックしてから、[!UICONTROL **除外**] をクリックします。
 
-   ![マウスポインターを置いてエクスペリエンスを除外](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
+   または、関連するエクスペリエンスのチェックボックスを選択し、「**[!UICONTROL Exclude]**」をクリックすることで、エクスペリエンスをバッチ除外できます。 1 つ以上のエクスペリエンスがチェックされると、[!UICONTROL Exclude] のアイコンが表示されます。
 
-   または、関連するエクスペリエンスのチェックボックスを選択し、ダイアログボックスの右上隅にある「**[!UICONTROL Exclude]**」アイコンをクリックすることで、エクスペリエンスをバッチ除外できます。 1 つ以上のエクスペリエンスがチェックされると、[!UICONTROL Exclude] のアイコンが表示されます。
-
-   ![エクスペリエンスの一括除外](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
-
-   [!UICONTROL Status] のドロップダウンリストをクリックすると、このリスト表示をフィルタリングして、除外されたアクティビティのみを表示したり、含まれたアクティビティのみを表示したりできます。
+   ![エクスペリエンスの一括除外](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
    エクスペリエンスがアクティビティから除外され、[!UICONTROL Status] が [!UICONTROL Excluded] のように表示されるようになりました。
 
-   ![除外されたエクスペリエンス](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
-
 ## デフォルトコンテンツを除外 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-デフォルトコンテンツを [!UICONTROL Automated Personalization] アクティビティの一部として含めない場合もあります。 この設定方法は、除外グループの作成方法とは異なります。この方法を使用すれば、ある場所の 1 つのオファー（デフォルトのコンテンツとは異なる）のみを AP アクティビティに含めることができます。
+デフォルトコンテンツを [!UICONTROL Automated Personalization] アクティビティの一部として含めない場合もあります。 この方法を使用すれば、ある場所の 1 つのオファー（デフォルトのコンテンツとは異なる）のみを AP アクティビティに含めることができます。
 
 AP アクティビティでテストするオファーに合わせてページの他の部分のデザインを変更したい場合は、デフォルトのコンテンツを除外する方法が効果的です。例えば、テスト対象のオファーのカラーパレットを一致させたい場合は、ページの背景色を変更し、デフォルトの背景色を除外します。
 
 **[!UICONTROL Visual Experience Composer] （VEC）を使用してデフォルトコンテンツを除外するには：**
 
-1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、置き換えるコンテンツを選択し、クリックして **[!UICONTROL Change Text/HTML]**、**[!UICONTROL Change Image]**、**[!UICONTROL Change Background Color]** にアクセスします。
-1. ダイアログボックスで、新しいコンテンツを作成し、デフォルトコンテンツの右側にある **含める** チェックボックスをオフにします（または、[!UICONTROL Select Content] 画面でデフォルトの画像/ビデオのチェックボックスをオフにします）。
+1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、置き換えるコンテンツを選択し、クリックして **[!UICONTROL Change Text/HTML]**、**[!UICONTROL Change Image Offer]**、**[!UICONTROL Change Background Color]** にアクセスします。 使用できるオプションは、コンテンツのタイプによって異なります。
 
-   コンテンツやオファーのタイプによって、「[!UICONTROL Include]」チェックボックスは若干異なる場所にあります。
+   ![ オプションを変更 ](/help/main/c-activities/t-automated-personalization/assets/options.png)
 
-   テキスト／HTML コンテンツの場合：
+1. 新しいコンテンツを作成し、デフォルトコンテンツの右側にある **含める** チェックを外します（または、[!UICONTROL Select Content] 画面でデフォルトの画像/ビデオのチェックを外します）。
 
-   ![テキスト / HTML を編集ダイアログボックスの「含める」チェックボックス](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
+   <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
-   画像／ビデオコンテンツの場合：
+   For Text/HTML content: 
 
-   ![コンテンツを選択ダイアログボックスの「含める」チェックボックス](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
+   ![Include checkbox in Edit Text/HTML dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
-   背景色の場合：
+   For Image/Video content: 
 
-   ![背景色を編集ダイアログボックスの「含める」チェックボックス](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![Include checkbox in Select Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
 
-1. **[!UICONTROL Save]** をクリックします。
+   For background color: 
 
-   「[!UICONTROL Manage Content]」で指定したオファーから作成されたエクスペリエンスを表示できます。 除外したデフォルトのオファーを使用して、[!UICONTROL Manage Content] でエクスペリエンスが作成されないことに注意してください。
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
 
-   ![exclude_content_vec_4 画像 ](assets/exclude_content_vec_4.png)
+<!-- 1. Click **[!UICONTROL Save]**.
 
-**[!UICONTROL Form-Based Experience Composer] を使用してデフォルトコンテンツを除外するには：**
+   You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-1. AP アクティビティを作成または編集する際に、「**[!UICONTROL Change Text/HTML]**」の下の「**[!UICONTROL Change Image Offer]**」または「**[!UICONTROL Content]**」をクリックします。
-1. ダイアログボックスで、新しいコンテンツを作成し、デフォルトコンテンツの右側にある **[!UICONTROL Include]** のチェックボックスをオフにします（または、[!UICONTROL Select Content] の画面でデフォルトの画像/ビデオのチェックボックスをオフにします）。
+   ![exclude_content_vec_4 image](assets/exclude_content_vec_4.png)
 
-   コンテンツやオファーのタイプによって、「[!UICONTROL Include]」チェックボックスは若干異なる場所にあります。
+**To exclude default content using the [!UICONTROL Form-Based Experience Composer]:** 
 
-   テキスト／HTML コンテンツの場合：
+1. While creating or editing an AP activity, click **[!UICONTROL Change Text/HTML]** or **[!UICONTROL Change Image Offer]** under **[!UICONTROL Content]**. 
+1. In the dialog box, create your new content and uncheck **[!UICONTROL Include]** to the right of the default content (or uncheck the Default Image/Video in the [!UICONTROL Select Content] screen). 
 
-   ![exclude_content_form_1 画像 ](assets/exclude_content_form_1.png)
+   Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
-   画像／ビデオコンテンツの場合：
+   For Text/HTML content: 
 
-   ![exclude_content_form_2 画像 ](assets/exclude_content_form_2.png)
+   ![exclude_content_form_1 image](assets/exclude_content_form_1.png)
 
-1. **[!UICONTROL Save]** をクリックします。
+   For Image/Video content: 
 
-   「[!UICONTROL Manage Content]」で指定したオファーから作成されたエクスペリエンスを表示できます。 除外したデフォルトのオファーを使用して、[!UICONTROL Manage Content] でエクスペリエンスが作成されないことに注意してください。
+   ![exclude_content_form_2 image](assets/exclude_content_form_2.png)
 
-   ![exclude_content_form_3 画像 ](assets/exclude_content_form_3.png)
+1. Click **[!UICONTROL Save]**. 
+
+   You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
+
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
