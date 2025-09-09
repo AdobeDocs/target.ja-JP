@@ -4,10 +4,10 @@ description: Adobe アクティビティのデータを CVS フォーマット�
 title: レポートデータを CSV ファイルでダウンロードするにはどうすればよいですか？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 34%
+source-wordcount: '732'
+ht-degree: 30%
 
 ---
 
@@ -26,6 +26,20 @@ CSV ファイル内のデータをダウンロードするには：
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
+
+## 人気度とキーベースアルゴリズムの CSV ダウンロード形式 {#format}
+
+CSV ダウンロードファイルは、バックエンド条件の実行後に生成される結果を一貫して反映します。
+
+**人気度アルゴリズム（非キーベース）の場合、ファイルには次が含まれます。**
+
+* *のプレフィックスが付いたバックアップ推奨事項の行
+* アルゴリズム設定に基づいた、レコメンデーションをリストする個別の行
+
+**キーベースのアルゴリズムの場合、ファイルには次が含まれます。**
+
+* 人気度アルゴリズムに類似したバックアップ行
+* キー値形式の複数行。最初のエントリはキーの製品 ID で、その後に推奨候補を表すコンマ区切りの製品 ID が続きます。
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
