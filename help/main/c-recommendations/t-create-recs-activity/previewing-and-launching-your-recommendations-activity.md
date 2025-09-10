@@ -4,9 +4,9 @@ description: アクティビティを開始する前に、Adobe [!DNL Target] Re
 title: Recommendations アクティビティのプレビューと起動方法
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ CSV ファイルがダウンロードされます。 これを開いて、推奨
 >[!NOTE]
 >
 >[!UICONTROL User-Based Recommendations] しいアルゴリズムを含むアクティビティでは、結果のダウンロードは使用できません。 [!UICONTROL Recently-Viewed Items] レコメンデーションロジックを使用した条件では、結果のダウンロードは使用できません。
+
+### 人気度ベースとキーベースのアルゴリズムの CSV ダウンロード形式 {#format}
+
+CSV ダウンロードファイルは、バックエンド条件の実行後に生成される結果を一貫して反映します。
+
+* **人気度ベースのアルゴリズム（非キーベース）の場合、ファイルには次が含まれます。**
+
+   * * （アスタリスク）の付いたバックアップ推奨事項の行
+   * アルゴリズム設定に基づいた、レコメンデーションをリストする個別の行
+
+* **キーベースのアルゴリズムの場合、ファイルには次が含まれます。**
+
+   * 人気度ベースのアルゴリズムに類似したバックアップ行
+   * キー値形式の複数行。最初のエントリはキーの製品 ID で、その後に推奨候補を表すコンマ区切りの製品 ID が続きます。
 
 ## Recommendations アクティビティのアクティベート
 
