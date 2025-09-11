@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Target] の�
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c3236f12d94c6511a53433ca0f71f05488a73c1
+source-git-commit: 03d8135223ede82a60ed17cd7e8a87c2c687192b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 66%
+source-wordcount: '195'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 66%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025 年 9 月 5 日**
+**最終更新日：2025 年 9 月 11 日**
 
 >[!NOTE]
 >
@@ -25,9 +25,9 @@ ht-degree: 66%
 >
 >* 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target Standard/Premium] 25.9.1 （2025 年 9 月 5 日）
+## [!DNL Target Standard/Premium] 25.9.2 （2025 年 9 月 23 日（PT））
 
-このリリースは公開されました。 詳しくは、[[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) を参照してください。
+このリリースは 2025 年 9 月 23 日に予定されています。 このページは、特に公式リリースの前の先週に、頻繁に更新されます。
 
 ## その他のリリースノートとバージョンの詳細
 
