@@ -6,10 +6,10 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29ddf23b41531e5fab80fe7d0f6bc913e778d839
+source-git-commit: 098415849152065b734cbebbab8dcf1d0805e202
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 26%
+source-wordcount: '1779'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 26%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間的制約のある更新については、[!DNL Adobe] では、[!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供しています。 実装に関連する主なハイライトを次に示します。
 
@@ -74,6 +74,18 @@ ht-degree: 26%
 * [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
 +++
+
+## データストリームの更新（2025 年 9 月 19 日）
+
+データストリーム ID とサンドボックスの組み合わせは、[!DNL Adobe Target] の宛先接続で一意である必要があります。
+
+データストリーム ID とサンドボックス名の組み合わせ [!DNL Target]IMS 組織内で一意にする必要があることを強制するために、宛先接続の検証ロジックを更新しました。つまり、
+
+* 複数の [!DNL Target] ース宛先接続で、同じデータストリーム ID とサンドボックス名のペアを再利用することはできません。
+* 異なるサンドボックスで設定されている場合に限り、同じデータストリーム ID を異なる接続に使用できます。
+* このルールは、「なし」が選択されている場合を含め、すべてのデータストリーム選択に適用されます。
+
+この更新により、一貫性のある設定が保証され、マルチサンドボックス環境間での競合が回避されます。 詳しくは、[Adobe Target宛先 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} ガイドの *Experience Platform接続* を参照してください。
 
 ## [!DNL Target Standard/Premium] 25.9.1 （2025 年 9 月 5 日）
 
