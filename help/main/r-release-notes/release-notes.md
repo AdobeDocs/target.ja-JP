@@ -85,7 +85,7 @@ ht-degree: 25%
 * 異なるサンドボックスで設定されている場合に限り、同じデータストリーム ID を異なる接続に使用できます。
 * このルールは、「なし」が選択されている場合を含め、すべてのデータストリーム選択に適用されます。
 
-この更新により、一貫性のある設定が保証され、マルチサンドボックス環境間での競合が回避されます。 詳しくは、[Adobe Target宛先 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} ガイドの *Experience Platform接続* を参照してください。
+この更新により、一貫性のある設定が保証され、マルチサンドボックス環境間での競合が回避されます。 詳しくは、[Adobe Target宛先 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} ガイドの *Experience Platform接続* を参照してください。
 
 ## [!DNL Target Standard/Premium] 25.9.1 （2025 年 9 月 5 日）
 
