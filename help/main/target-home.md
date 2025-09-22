@@ -4,7 +4,7 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 869761b958a76f552512e0df06767b55148cd002
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 30%
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 >[!TAB  新機能 ]
 
-**Target 25.9.1 はライブです！**
+**Target 25.9.2 はライブです！**
 
 このリリースでは、更新された [!DNL Target] UI および [!UICONTROL Visual Experience Composer] （VEC）の修正と機能強化に重点を置いています。
 
@@ -118,5 +118,5 @@ ht-degree: 30%
 
 | Adobe [!DNL Target] ソリューションに関するヘルプ | [!DNL Adobe Experience Cloud] リソース |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target]  ラーニングとサポート ](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ja){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)</li><li>[[!DNL Experience Cloud] リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[[!DNL Experience Cloud] ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[[!DNL Adobe]  トレーニングとチュートリアル ](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[[!DNL Adobe Target]  ラーニングとサポート ](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ja){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[[!DNL Experience Cloud] ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[[!DNL Adobe]  トレーニングとチュートリアル ](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
 
