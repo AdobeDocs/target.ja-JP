@@ -4,7 +4,7 @@ description: 'JavaScript ライブラリ（AEP Web SDK at.js）、サーバー�
 title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
+source-git-commit: 85edad5c3adb3a7b01ee6d1eaf2c30c7596d5f92
 workflow-type: tm+mt
 source-wordcount: '2214'
 ht-degree: 24%
@@ -28,19 +28,19 @@ JavaScript ライブラリ（[!DNL Adobe Target] および at.js）の詳細な�
 
 Target と web サイトの統合（[!DNL Experience Platform Web SDK] または at.js を使用）:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}**：このクライアントサイド JavaScript ライブラリを使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform Edge Network] を通じて様々なサービスを操作できます。 [!DNL Adobe] では、新規の [!DNL Target] ユーザーに [!DNL Experience Platform Web SDK] を実装することをお勧めします。
-* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ja){target=_blank}**:[!DNL Target] 用のこの実装ライブラリは、web 実装のページ読み込み時間を改善し、単一ページアプリケーション向けのより優れたオプションを提供します。 新機能を使用して頻繁に更新される [!DNL Adobe]、すべての [at.js ユーザーを最新バージョンにアップデート ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} することをお勧めします。
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：このクライアントサイド JavaScript ライブラリを使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform Edge Network] を通じて様々なサービスを操作できます。 [!DNL Adobe] では、新規の [!DNL Target] ユーザーに [!DNL Experience Platform Web SDK] を実装することをお勧めします。
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**:[!DNL Target] 用のこの実装ライブラリは、web 実装のページ読み込み時間を改善し、単一ページアプリケーション向けのより優れたオプションを提供します。 新機能を使用して頻繁に更新される [!DNL Adobe]、すべての [at.js ユーザーを最新バージョンにアップデート ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} することをお勧めします。
 
 >[!NOTE]
 >
 >mbox.js ライブラリは [!DNL Target] のレガシー実装で、2021 年 3 月 31 日（PT）以降はサポートされなくなります。 [!UICONTROL Experience Platform Web SDK] （推奨）または at.js の最新バージョンへのアップグレード。
 
-サイトの各ページの [!UICONTROL Experience Platform Web SDK] または at.js を参照します。 例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加します。 または、[Adobe Experience Platformのタグ ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home){target=_blank} を使用して [!DNL Target] を実装します。
+サイトの各ページの [!UICONTROL Experience Platform Web SDK] または at.js を参照します。 例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加します。 または、[Adobe Experience Platformのタグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} を使用して [!DNL Target] を実装します。
 
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
 * [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
-* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、ターゲティングシステムにリアルタイムリクエストが送信され、提供するコンテンツが決定されます。 このリクエストは、マーケターが制御するアクティビティやエクスペリエンスの管理の下で、ページが読み込まれるたびに行われ、実行されます。 コンテンツは、個々のサイト訪問者をターゲットにし、応答率、獲得率、売上高を最大化します。 パーソナライズされたコンテンツは、訪問者の反応、インタラクション、購入を保証するのに役立ちます。
 
@@ -56,7 +56,7 @@ Target と web サイトの統合（[!DNL Experience Platform Web SDK] または
 
 1. 顧客が、サーバーからページをリクエストして、ブラウザーに表示します。
 1. ファーストパーティ cookie は、顧客のブラウザーに設定され、行動を保存します。
-1. ページから、ターゲット設定システムが呼び出されます。
+1. ページから、ターゲティングシステムが呼び出されます。
 1. コンテンツは、アクティビティルールに基づいて表示されます。
 
 詳細については、「[A/B テストの作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)」を参照してください。
