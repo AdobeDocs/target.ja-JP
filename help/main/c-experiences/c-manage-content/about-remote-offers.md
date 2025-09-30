@@ -4,9 +4,9 @@ description: でリモートオファーを活用して、CMS [!DNL Target]  そ
 title: リモートオファーを作成するにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 19%
 
 ---
@@ -31,6 +31,17 @@ ht-degree: 19%
 ## リモートオファーを使用するためのベストプラクティス {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 アクティビティでリモートオファーを使用する際のベストプラクティス：
+
+* リモートオファーは次の場所でサポートされています。
+
+   * A/B アクティビティ
+   * エクスペリエンスのターゲット設定（XT）アクティビティ
+   * フォームベースのワークフロー
+
+* リモートオファーは次の場所ではサポートされていません。
+
+   * [Premium の機能 ](/help/main/c-intro/intro.md#premium) （Automated Personalization（AP）、自動ターゲットおよび Recommendations）
+   * Multivariate Testing（MVT）：リモートオファーをサポートしない VEC に依存しているためです。
 
 * オファーが [!DNL Target] リクエストと同じドメインに存在する場合、「[!UICONTROL Cached]」オプションを使用すると、オファーの場所を説明する際に相対 URL を使用できます。
 
