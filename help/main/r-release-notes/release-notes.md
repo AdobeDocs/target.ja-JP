@@ -6,7 +6,7 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間依存の更新については、[!DNL Adobe] が [!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供します。 実装に関連する主なハイライトを次に示します。
 
@@ -95,14 +95,14 @@ ht-degree: 7%
 
 +++詳細を表示
 * **オーディエンス ID が無効なためにアクティビティをコピーできなかった問題を修正しました。** 更新されたアクティビティ作成プロセスでアクティビティをコピーしようとすると、無効なオーディエンス ID によってエラーが発生しました（例：-1752722444307）。 このバックエンドの検証の問題により、同じワークスペース内でアクティビティを複製できませんでした。 この問題は解決され、オーディエンス関連のエラーなしでアクティビティを正常にコピーできるようになりました。 （TGT-53717）
-* **[!UICONTROL Automated Personalization] ーザーモーダルの [!UICONTROL Manage Content] アクティビティで、アクティビティのみのオーディエンスに対して無効なユーザー入力エラーが表示される問題を修正しました。** AP アクティビティの [!UICONTROL &#x200B; Manage Content] モーダルでアクティビティのみのオーディエンスを設定する際に、無効なユーザー入力エラーが発生しました。 この問題は、以前にオーディエンスが正常に使用されているにもかかわらず、発生していました。 結合されたオーディエンス設定が、検証エラーをトリガーせずに正しく保存されるようになりました。 （TGT-53749）
+* **[!UICONTROL Automated Personalization] ーザーモーダルの [!UICONTROL Manage Content] アクティビティで、アクティビティのみのオーディエンスに対して無効なユーザー入力エラーが表示される問題を修正しました。** AP アクティビティの [!UICONTROL  Manage Content] モーダルでアクティビティのみのオーディエンスを設定する際に、無効なユーザー入力エラーが発生しました。 この問題は、以前にオーディエンスが正常に使用されているにもかかわらず、発生していました。 結合されたオーディエンス設定が、検証エラーをトリガーせずに正しく保存されるようになりました。 （TGT-53749）
 
 +++
 
 **ドキュメント**
 
 +++詳細を表示
-* **Target 固有の Web SDKのドキュメントページをAdobe Target リポジトリに移動しました。** Web SDK ドキュメントの再構築の一環として、[!DNL Target] 固有のコンテンツが Web SDKの一般的なドキュメントから [!DNL Adobe Target] [&#x200B; 開発者ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank} に移行されました。 この変更により、コンテンツの検索性が向上し、ソリューション固有のガイダンスが適切な製品チームによって確実に維持されます。 （TGT-53374）
+* **Target 固有の Web SDKのドキュメントページをAdobe Target リポジトリに移動しました。** Web SDK ドキュメントの再構築の一環として、[!DNL Target] 固有のコンテンツが Web SDKの一般的なドキュメントから [!DNL Adobe Target] [ 開発者ガイド ](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank} に移行されました。 この変更により、コンテンツの検索性が向上し、ソリューション固有のガイダンスが適切な製品チームによって確実に維持されます。 （TGT-53374）
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 7%
 **[!DNL Recommendations]**
 
 +++詳細を表示
-* **更新された UI で作成された [!UICONTROL Recommendations] アクティビティのクリックトラッキングが復元されました。更新** れた UI で作成された [!UICONTROL Recommendations] アクティビティがクリックの追跡の登録に失敗し、コンバージョンがレポートされなかった ab の問題を解決しました。 レガシー UI に組み込まれたアクティビティでは、クリックを正しく追跡し、想定どおりにコンバージョンをレポートしました。 この修正により、更新された UI で作成された Recommendations アクティビティに正しいトラッキング属性が含まれるようになり、コンバージョンレポートが復元され、A4T 指標と整合します。 （TGT-53287）
+* **更新された UI で作成された [!UICONTROL Recommendations] アクティビティのクリックトラッキングが復元されました。** 更新された UI で作成された [!UICONTROL Recommendations] アクティビティがクリックの追跡の登録に失敗し、コンバージョンがレポートされない問題を修正しました。 レガシー UI に組み込まれたアクティビティでは、クリックを正しく追跡し、想定どおりにコンバージョンをレポートしました。 この修正により、更新された UI で作成された Recommendations アクティビティに正しいトラッキング属性が含まれるようになり、コンバージョンレポートが復元され、A4T 指標と整合します。 （TGT-53287）
 * **Recommendation アクティビティで復元されたクリックトラッキング。** 更新された UI で作成された [!UICONTROL Recommendations] アクティビティがクリックの追跡の登録に失敗し、コンバージョンがレポートされない問題を修正しました。 レガシー UI ではトラッキング ID （`at-track-click`）が [!UICONTROL Recommendations] コンテンツに正しく適用されていたのに対して、更新された UI では誤ってプレースホルダー（`__recsClickTrackIdPlaceholder__`）が挿入され、バックエンドトラッキングが行われませんでした。 この修正により [!DNL Recommendations] コンテンツに正しいトラッキング ID が含まれるようになり、コンバージョンレポートが復元され、A4T 指標と合致するようになります。 （TGT-53496）
 * **更新された UI でコレクションエディターのクラッシュが解決されました。** 更新された [!UICONTROL Visual Experience Composer] （VEC） UI で、エディターパネルからコレクションを開くと、TypeError：未定義のプロパティを読み取れません（「customLocale」を読み取ります）でページがクラッシュする問題を修正しました。 このエラーは、[!UICONTROL Recommendations] テストや A/B テストを含む、複数のアクティビティタイプで発生しました。 （TGT-53703）
 * **VEC で復元された、選択したコレクションを削除するオプション。** VEC で、ユーザーが [!UICONTROL Recommendations] アクティビティで選択したコレクションのみを置き換えることができるが、完全には削除できない問題を修正しました。 この制限により、コレクションを置き換えずにクリーンに削除する必要があるユースケースがブロックされました。 この修正により、選択したコレクションを削除する明確なオプションが導入され、アクティビティの設定の柔軟性が向上し、従来の UI 動作と連携できるようになりました。 （TGT-53652）
@@ -178,7 +178,7 @@ ht-degree: 7%
 * 異なるサンドボックスで設定されている場合に限り、同じデータストリーム ID を異なる接続に使用できます。
 * このルールは、「なし」が選択されている場合を含め、すべてのデータストリーム選択に適用されます。
 
-この更新により、一貫性のある設定が保証され、マルチサンドボックス環境間での競合が回避されます。 詳しくは、[Adobe Target宛先 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} ガイドの *Experience Platform接続* を参照してください。
+この更新により、一貫性のある設定が保証され、マルチサンドボックス環境間での競合が回避されます。 詳しくは、[Adobe Target宛先 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} ガイドの *Experience Platform接続* を参照してください。
 
 ## [!DNL Target Standard/Premium] 25.9.1 （2025 年 9 月 5 日）
 
@@ -250,7 +250,7 @@ ht-degree: 7%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
