@@ -37,14 +37,14 @@ ht-degree: 15%
 
   >[!IMPORTANT]
   >
-  > [!DNL Adobe] では、更新された [!DNL Target] UI の使用を強くお勧めします。 [ 切り替えスイッチの動作の制限 ](#limitations) により、ブロッカーの問題が発生した場合にのみ、従来の UI に戻します。
+  > [!DNL Adobe] では、更新された [!DNL Target] UI の使用を強くお勧めします。 [&#x200B; 切り替えスイッチの動作の制限 &#x200B;](#limitations) により、ブロッカーの問題が発生した場合にのみ、従来の UI に戻します。
 
 * **2025 年 7 月 15 日～7 月 30 日**:UI バージョンの切り替えは、段階的に永続的に無効になります。 影響を受ける IMS 組織は、レガシー UI に戻すことができなくなりました。
 
    * 例外はケースバイケースでレビューされます。
    * トグルの非推奨（廃止予定）への遅延は、ブロッカーの問題が解決されている間、短期間（数日）のみ許可されます。
 
-ご不明な点がある場合や [ この移行中に問題が発生する可能性がある場合は、](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)Adobe カスタマーケアにお問い合わせください。
+ご不明な点がある場合や [&#x200B; この移行中に問題が発生する可能性がある場合は、](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)Adobe カスタマーケアにお問い合わせください。
 
 ### UI の切替スイッチの動作の制限 {#limitations}
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 * [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
 * [[!DNL Target Standard/Premium]  25.2.1（2025年2月17日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：[!UICONTROL Activities]、[!UICONTROL Recommendations]、[!UICONTROL Visual Experience Composer]（VEC）の [!DNL Target] での主な UI の変更の概要について説明します。
 * [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更の概要について説明します。
-* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 * [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 * [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
@@ -72,7 +72,7 @@ ht-degree: 15%
 
 * [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更の概要について説明します。
 
-* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 
 * [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 
@@ -85,7 +85,7 @@ ht-degree: 15%
 +++詳細
 更新された UI は、すべての [!DNL Target] のお客様（[!UICONTROL Standard] および [!UICONTROL Premium]）が利用できます。 アップグレードされたライセンスや SKU は必要ありません。
 
-一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
+一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[&#x200B; 知っておくべき時間依存の更新 &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
 
 +++
 
@@ -94,7 +94,7 @@ ht-degree: 15%
 +++詳細
 [!DNL Target] チームは、新しい UI のロールアウトに関連する問題に積極的に取り組んでいます。 アップデートと継続的な改善について詳しくは、リリースノートを参照してください。
 
-一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
+一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[&#x200B; 知っておくべき時間依存の更新 &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
 
 +++
 
@@ -105,7 +105,7 @@ UI バージョンの切り替えは、切り替えボタンを使用して、�
 
 UI バージョンの切り替えスイッチの使用には、新しいアクティビティの表示、既存のアクティビティの編集、アクティビティの詳細の一貫性など、いくつかの制限があります。
 
-詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
+詳しくは、[&#x200B; 知っておくべき時間依存の更新 &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
 
 ++++
 
@@ -116,7 +116,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 
 UI バージョンの切り替えスイッチの使用には、新しいアクティビティの表示、既存のアクティビティの編集、アクティビティの詳細の一貫性など、いくつかの制限があります。
 
-詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
+詳しくは、[&#x200B; 知っておくべき時間依存の更新 &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
 
 +++
 
@@ -157,26 +157,26 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 
 >[!NOTE]
 >
->[!UICONTROL Show Components] アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と [!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示する切り替えとして機能します。
+>[!UICONTROL Show Components] アイコン（![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）と [!UICONTROL Show Modifications] アイコン（![&#x200B; 変更レールを表示 &#x200B;](/help/main/assets/icons/History.svg)）は、適切なオプションを表示する切り替えとして機能します。
 
 **[!UICONTROL Components] パネルを折りたたむ**
 
-[!UICONTROL Components] パネルを折りたたみ、[!UICONTROL Design] キャンバスを拡大するには、[!UICONTROL Components] パネルが開いている間に、（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)） アイコンをクリックします。
+[!UICONTROL Components] パネルを折りたたみ、[!UICONTROL Design] キャンバスを拡大するには、[!UICONTROL Components] パネルが開いている間に、（![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)） アイコンをクリックします。
 
 **[!UICONTROL Modifications] パネルを折りたたむ**
 
-[!UICONTROL Modifications] レールを折りたたんだり、[!UICONTROL Design] キャンバスを拡大したりするには、[!UICONTROL Modifications] レールが開いている状態で、[!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）をクリックします。
+[!UICONTROL Modifications] レールを折りたたんだり、[!UICONTROL Design] キャンバスを拡大したりするには、[!UICONTROL Modifications] レールが開いている状態で、[!UICONTROL Show Modifications] アイコン（![&#x200B; 変更レールを表示 &#x200B;](/help/main/assets/icons/History.svg)）をクリックします。
 
 **[!UICONTROL Properties] パネルを折りたたむ**
 
-[!UICONTROL Properties] レールを折りたたんだり、[!UICONTROL Design] キャンバスを拡大したりするには、レールの右側にある [!UICONTROL Show/Hide Properties] アイコン（![ プロパティアイコン ](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL Properties] レールを折りたたんだり表示したりします。
+[!UICONTROL Properties] レールを折りたたんだり、[!UICONTROL Design] キャンバスを拡大したりするには、レールの右側にある [!UICONTROL Show/Hide Properties] アイコン（![&#x200B; プロパティアイコン &#x200B;](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL Properties] レールを折りたたんだり表示したりします。
 
 +++
 
 ## [!UICONTROL Save as Draft] と [!UICONTROL Syncing] の状態は引き続き使用できますか。
 
 +++詳細
-ユーザーインターフェイスの最新の更新では、[!UICONTROL Save as Draft] と [!UICONTROL Syncing] の状態は使用できなくなりました。 詳しくは、[ の ](/help/main/c-activities/activities.md#filters) アクティビティリストにフィルターを適用する *[!UICONTROL Activities overview]* で、ステータスを参照してください。
+ユーザーインターフェイスの最新の更新では、[!UICONTROL Save as Draft] と [!UICONTROL Syncing] の状態は使用できなくなりました。 詳しくは、[&#x200B; の &#x200B;](/help/main/c-activities/activities.md#filters) アクティビティリストにフィルターを適用する *[!UICONTROL Activities overview]* で、ステータスを参照してください。
 
 +++
 
@@ -197,7 +197,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 ## 更新された UI のオファープレビューリンクはどうなりましたか？
 
 +++詳細
-プレビューリンク [!UICONTROL Experience Fragment]、[!UICONTROL Quick Info] ポップオーバーで使用できます。このポップオーバーは、選択したフラグメントに対応する情報アイコン（![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると表示されます。
+プレビューリンク [!UICONTROL Experience Fragment]、[!UICONTROL Quick Info] ポップオーバーで使用できます。このポップオーバーは、選択したフラグメントに対応する情報アイコン（![&#x200B; 情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）をクリックすると表示されます。
 
 +++
 
@@ -215,8 +215,8 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 +++詳細
 許可リストに加えるできる IP アドレスの詳細については、次の記事を参照してください。
 
-* **拡張 Experience Composer （EEC）**：詳しくは、[ 拡張 Experience Composer に関連する問題のトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) のパブリック IP でアクセスできない内部 QA URL を EEC が読み込まない *を参照してください*
-* **[!UICONTROL Recommendations]**: [Recommendations フィード処理サーバーで使用される IP アドレス ](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) を参照してください。
+* **拡張 Experience Composer （EEC）**：詳しくは、[&#x200B; 拡張 Experience Composer に関連する問題のトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) のパブリック IP でアクセスできない内部 QA URL を EEC が読み込まない *を参照してください*
+* **[!UICONTROL Recommendations]**: [Recommendations フィード処理サーバーで使用される IP アドレス &#x200B;](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) を参照してください。
 
 +++
 
@@ -225,7 +225,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 +++詳細
 環境のデフォルトは、顧客が最後に使用した環境になります。 環境を切り替えるには、[!UICONTROL Environment] UI の右上隅にある [!UICONTROL Catalog Search] セレクターを使用します。
 
-![ 環境スイッチ ](/help/main/c-intro/assets/environmnent.png)
+![&#x200B; 環境スイッチ &#x200B;](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
@@ -234,7 +234,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 +++詳細
 [!DNL Adobe Analytics] （AA）または [!DNL Customer Journey Analytics] （CJA）を [!DNL Target] と統合する場合、現在の設定に応じて、中程度の労力から高度な労力に至る可能性があります。 [!DNL Adobe Experience Platform] を使用し、[!DNL Platform Web SDK] を実装している場合は、統合をより効率的に行うことができます。 ただし、at.js またはAppMeasurementを使用するレガシー実装では、次のような追加設定が必要になる場合があります。
 
-* [Analytics for Target （A4T）統合を有効にする ](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
+* [Analytics for Target （A4T）統合を有効にする &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
 * [[!DNL Target]  レポート機能  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) を統合します。
 * レポートスイートとデータビューのマッピング
 * 一貫した ID 解決（ECID）の確保
