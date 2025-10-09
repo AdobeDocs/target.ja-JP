@@ -6,20 +6,20 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 30%
+source-wordcount: '482'
+ht-degree: 23%
 
 ---
 
 # 除外の管理
 
-[!UICONTROL Automated Personalization] の [!DNL Adobe Target] （AP）アクティビティでの重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
+除外をマスターすることで、[!UICONTROL Automated Personalization] （AP）戦略を制御します。 オファーの重複を防ぐ場合でも、エクスペリエンスの組み合わせを調整する場合でも、デフォルトコンテンツを削除する場合でも、除外を使用すると、目標とオーディエンスの期待に沿った、よりクリーンで関連性の高いエクスペリエンスを提供できます。
 
 ## 重複するオファーを許可または禁止 {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-オファーライブラリからのオファーがアクティビティの複数のロケーションで使用される場合に重複 [!UICONTROL Automated Personalization] ないようにします。
+オファーライブラリからのオファーが AP アクティビティの複数のロケーションで使用される場合に重複しないようにします。
 
 例えば、ページ上で 6 つのロケーションと 12 件のオファーがあるアクティビティがあるとします。同じオファーがアクティビティ内の 1 つまたは複数のロケーションに配置される場合があります。この機能を使用すると、同じアクティビティ内の異なる場所に重複したオファーが同時に表示されるのを防ぐことができます。
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 
 ## 特定のエクスペリエンスを除外 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-特定のオファーの組み合わせをエクスペリ [!UICONTROL Automated Personalization] ンスアクティビティから除外したい場合は、特定のエクスペリエンスを除外できます。
+特定のオファーの組み合わせを AP アクティビティから除外したい場合は、特定のエクスペリエンスを除外できます。
 
 連携できない特定の組み合わせがあるか、テストしたエクスペリエンスの数を制限してアクティビティのトラフィック要件を減らしている可能性があります。
 
@@ -47,7 +47,7 @@ ht-degree: 30%
 
 ## デフォルトコンテンツを除外 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-デフォルトコンテンツを [!UICONTROL Automated Personalization] アクティビティの一部として含めない場合もあります。 この方法を使用すれば、ある場所の 1 つのオファー（デフォルトのコンテンツとは異なる）のみを AP アクティビティに含めることができます。
+場合によっては、デフォルトコンテンツを AP アクティビティの一部として含めたくない場合があります。 この方法を使用すると、アクティビティの一部として、1 つの場所に（デフォルトコンテンツとは異なる）オファーを 1 つだけ含めることができます。
 
 AP アクティビティでテストするオファーに合わせてページの他の部分のデザインを変更したい場合は、デフォルトのコンテンツを除外する方法が効果的です。例えば、テスト対象のオファーのカラーパレットを一致させたい場合は、ページの背景色を変更し、デフォルトの背景色を除外します。
 
@@ -56,8 +56,9 @@ AP アクティビティでテストするオファーに合わせてページ�
 1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、置き換えるコンテンツを選択し、クリックして **[!UICONTROL Change Text/HTML]**、**[!UICONTROL Change Image Offer]**、**[!UICONTROL Change Background Color]** にアクセスします。 使用できるオプションは、コンテンツのタイプによって異なります。
 
    ![ オプションを変更 ](/help/main/c-activities/t-automated-personalization/assets/options.png)
+1. 新しいコンテンツを作成します。
 
-1. 新しいコンテンツを作成し、デフォルトコンテンツの右側にある **含める** チェックを外します（または、[!UICONTROL Select Content] 画面でデフォルトの画像/ビデオのチェックを外します）。
+1. **[!UICONTROL More Actions]** （その他のアクション ![ アイコン ](/help/main/assets/icons/Setting.svg)）アイコンをクリックし、**デフォルトオファーを除外/ デフォルトを含める**/切り替えをクリックして、デフォルトオファーを除外または含めます。
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
