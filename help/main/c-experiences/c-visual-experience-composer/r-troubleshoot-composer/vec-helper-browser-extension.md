@@ -39,9 +39,9 @@ SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IM
 
 考えられる回避策として、Chrome Developer Tools/Application タブで「Service Workers」を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にします。
 
-* Google Chrome 80 以降を拡張された SameSite cookie 強制ポリシーと共に使用している。 詳しくは、[ 最近発表されたGoogle Chromeの SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) を参照してください。
+* Google Chrome 80 以降を拡張された SameSite cookie 強制ポリシーと共に使用している。 詳しくは、[&#x200B; 最近発表されたGoogle Chromeの SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) を参照してください。
 
-Chrome用 VEC Helper ブラウザー拡張機能は、お客様が [!DNL Target] [ 拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) やサードパーティ拡張機能（Requestly など）に頼るきっかけとなったサイト読み込みの問題を解決します。
+Chrome用 VEC Helper ブラウザー拡張機能は、お客様が [!DNL Target] [&#x200B; 拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) やサードパーティ拡張機能（Requestly など）に頼るきっかけとなったサイト読み込みの問題を解決します。
 
 ## VEC Helper 拡張機能を使用するメリット
 
@@ -56,7 +56,7 @@ Chrome用 VEC Helper ブラウザー拡張機能は、お客様が [!DNL Target]
 
 ## VEC ヘルパーブラウザー拡張の取得とインストール
 
-1. Chrome Web ストアの [Adobe Target VEC Helper ブラウザー拡張機能に移動します ](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)。
+1. Chrome Web ストアの [Adobe Target VEC Helper ブラウザー拡張機能に移動します &#x200B;](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)。
 1. **[!UICONTROL Add to Chrome > Add Extension]** をクリックします。
 1. [!DNL Target] で VEC を開きます。
 1. 拡張機能を使用するには、VEC または [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で、Chrome ブラウザーのツールバーにある「VEC ヘルパーブラウザー拡張」アイコン（ ![「VEC ヘルパー」アイコン](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ）をクリックします。
@@ -72,7 +72,7 @@ Chrome用 VEC Helper ブラウザー拡張機能は、お客様が [!DNL Target]
 
 1. （条件付き） **[!UICONTROL Cookies]** の切り替えスイッチを「オン」の位置にスライドすると、`SameSite=None` 属性ブラウザーの修正が自動的に追加されます。
 
-   ![VEC ヘルパー拡張機能の cookie の切り替え ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+   ![VEC ヘルパー拡張機能の cookie の切り替え &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
    `SameSite=None` 属性に関するブラウザーの修正について詳しくは、「Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？」の節を参照してください。[Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)。
 
