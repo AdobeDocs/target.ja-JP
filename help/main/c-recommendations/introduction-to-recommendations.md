@@ -5,10 +5,10 @@ title: Recommendations アクティビティとは？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 90%
+source-wordcount: '2049'
+ht-degree: 87%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 90%
 * **公開**：Web パブリッシャーは、[!DNL Target Recommendations] を使用して、サイト訪問者に記事をレコメンデーションし、エンゲージメントの向上を推進します。
 * **ビデオチュートリアル**：[!DNL Adobe Creative Cloud] は、[!DNL Target] を使用して、Photoshop アプリケーション内で Photoshop ユーザーに対してビデオチュートリアルをレコメンデーションします。
 * **ゲーム**：ゲーム会社は、[!DNL Target] を使用して、コンソール上でユーザーに対してゲームおよびコンテンツをレコメンデーションします。
-* **B2B セールス**：[B2B 企業は Target を使用して、ビデオ、ホワイトペーパーおよびブログ投稿を B2B 見込み客にレコメンデーションし、ダウンロードを配信して、既存のお客様に支援を提供します](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
+* **B2B セールス**:B2B 企業は Target を使用して、ビデオ、ホワイトペーパーおよびブログ投稿を B2B 見込み客にレコメンデーションし、ダウンロードを配信して、既存のお客様に支援を提供します。
 
 * **旅行**： [ドイツのある旅行予約会社は、Target を使用して、旅行者にホテルなどをお勧めします](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
-* **小売**：[業界をリードする B2B 小売業者は、Target を使用して、ブラウザーおよびモバイルアプリの再訪問者に対してトップカテゴリおよび製品をレコメンデーションします](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)。
+* **小売**：業界をリードする B2B retailerは、[!DNL Target] を使用して、ブラウザーおよびモバイルアプリの再訪問者に対してトップカテゴリおよび製品をレコメンデーションします。
 
 これらは、お客様が Target を使用してパーソナライズされたレコメンデーションを配信する方法の一例です。
 
@@ -129,9 +129,9 @@ ht-degree: 90%
 
 ![レコメンデーションアクティビティを構成するオーディエンス、条件およびデザインを示す図](/help/main/c-recommendations/assets/intro-12.png)
 
-標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。過去に、[ で ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) オーディエンスの構築に関するウェビナー [!DNL Target] を実施したことがあります。 ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
+標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各項目をカスタマイズすることも、独自の項目を追加することもできます。
 
-Target では、条件カードという概念を使用します。条件カードは、パーソナライゼーションのレシピのようなものです。
+[!DNL Target] では、条件カードの概念を使用します。 条件カードは、パーソナライゼーションのレシピのようなものです。
 
 ![条件カードの図](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -193,8 +193,4 @@ Target では、条件カードという概念を使用します。条件カー�
 
 ## デモ
 
-前述のレコメンデーションファネルで説明したタスクを完了したら、最後のレコメンデーションを残すのみです。[!DNL Target] 内の製品内デモを見るには、以下にリンクされている :002&rbrace;Adobe Targetの基本ウェビナー *の 21&rbrace; からデモを開始します。*
-
-## Adobe [!DNL Target] 基本ウェビナー：Recommendations の概要 {#intro-to-recs}
-
-[Recommendations の概要](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+前述のレコメンデーションファネルで説明したタスクを完了したら、最後のレコメンデーションを残すのみです。[!DNL Target] 内の製品内デモを見るには、以下にリンクされている :002}Adobe Targetの基本ウェビナー *の 21} からデモを開始します。*
