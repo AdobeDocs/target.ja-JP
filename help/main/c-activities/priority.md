@@ -13,7 +13,7 @@ ht-degree: 39%
 
 # 優先度
 
-[!DNL Adobe Target] は、使用している [!DNL Target] インターフェイスとアクティビティ作成機能（[[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) または [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md)）によって、ページに配信するアクティビティ（またはアクティビティ）を決定します。
+[!DNL Adobe Target] は、使用している [!DNL Target] インターフェイスとアクティビティ作成機能（[[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) または [&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md)）によって、ページに配信するアクティビティ（またはアクティビティ）を決定します。
 
 ## [!UICONTROL Visual Experience Composer] のみ、またはグローバル [!UICONTROL Form-Based Experience Composer] リクエストのみを使用して [!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
@@ -26,7 +26,7 @@ ht-degree: 39%
    訪問者が既に [!UICONTROL A/B Test] アクティビティまたは [!UICONTROL Multivariate Test] アクティビティに含まれている場合、その訪問者はコンバージョンするまでそのアクティビティと照合されます。 以前に [!UICONTROL Experience Targeting] アクティビティにあった場合は、もう一度一致させる必要があります。 オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
 
 1. 訪問者が適合するすべてのアクティビティおよびエクスペリエンスのコンテンツがページに返されます。
-1. 各アクティビティのコンテンツが異なる [CSS セレクター ](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) を参照する場合は、すべてのコンテンツが表示されます。
+1. 各アクティビティのコンテンツが異なる [CSS セレクター &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) を参照する場合は、すべてのコンテンツが表示されます。
 
    CSS セレクターの重なりや重複がある場合、優先度の最も高いアクティビティコンテンツが表示されます。ページ上で実行されるすべてのアクティビティの結果がカウントされ、レポートに反映されます。
 
@@ -81,7 +81,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->設定に応じて、優先度の値が変わります。従来の設定である [!UICONTROL Low]、[!UICONTROL Medium]、[!UICONTROL High] を使用するか、0～999 の細かい優先度を有効にすることができます。 詳しくは、[ アクティビティの設定 ](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02) を参照してください。
+>設定に応じて、優先度の値が変わります。従来の設定である [!UICONTROL Low]、[!UICONTROL Medium]、[!UICONTROL High] を使用するか、0～999 の細かい優先度を有効にすることができます。 詳しくは、[&#x200B; アクティビティの設定 &#x200B;](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02) を参照してください。
 
 応答：offer1
 

@@ -55,7 +55,7 @@ ht-degree: 71%
 * [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [レコメンデーション](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## トレーニングビデオ：アクティビティ設定 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ設定 ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 

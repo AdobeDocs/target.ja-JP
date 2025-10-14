@@ -17,9 +17,9 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform] ソースは、[!DNL Target]Adobe Experience Platform web SDK[ を使用するすべての ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} ユーザーが利用できます。 [!DNL Adobe Experience Platform] から使用可能なオーディエンスは、そのまま使用することも、このトピックで説明するように既存のオーディエンスと組み合わせて使用することもできます。
+>[!DNL Adobe Experience Platform] ソースは、[!DNL Target]Adobe Experience Platform web SDK[&#x200B; を使用するすべての &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} ユーザーが利用できます。 [!DNL Adobe Experience Platform] から使用可能なオーディエンスは、そのまま使用することも、このトピックで説明するように既存のオーディエンスと組み合わせて使用することもできます。
 >
->詳しくは、[Adobe Experience Platformのオーディエンスの使用 ](/help/main/c-target/c-audiences/audiences.md#aep) を参照してください。
+>詳しくは、[Adobe Experience Platformのオーディエンスの使用 &#x200B;](/help/main/c-target/c-audiences/audiences.md#aep) を参照してください。
 
 「新規訪問者」オーディエンスと「Chrome ユーザー」オーディエンスがあるとします。特定のアクティビティについて、これらの既存のオーディエンスを結合して、Chrome ブラウザーを使用する新規訪問者をターゲティングします。3 つ目のオーディエンスを作成して [!UICONTROL Audiences] ライブラリに保存する代わりに、アクティビティの作成時または既存のアクティビティの編集時に、これら 2 つのオーディエンスを組み合わせることができます。
 
@@ -33,7 +33,7 @@ AND および OR 演算子を使用して最大 20 個のオーディエンス�
 
 3 ステップのガイド付きワークフローで、アクティビティの [!UICONTROL Target] ページにアドホックな組み合わせオーディエンスを作成できます。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) を作成する際、**[!UICONTROL Targeting]** のページで 3 つの縦並びの省略記号をクリックしてから「**[!UICONTROL Replace Audience]**」をクリックします。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) を作成する際、**[!UICONTROL Targeting]** のページで 3 つの縦並びの省略記号をクリックしてから「**[!UICONTROL Replace Audience]**」をクリックします。
 
    ![ステップの結果](assets/edit_audience.png)
 
@@ -55,7 +55,7 @@ AND および OR 演算子を使用して最大 20 個のオーディエンス�
 
       例えば、前の例で、Safari ユーザーを結合オーディエンスに含める場合を考えてみます。以下の例のように、「Safari ブラウザー」オーディエンスを検索して、右側の「Firefox ブラウザー」ボックスにドラッグします。
 
-      ![combine_multiple_audiences3 画像 ](assets/combine_multiple_audiences3.png)
+      ![combine_multiple_audiences3 画像 &#x200B;](assets/combine_multiple_audiences3.png)
 
       2 つのブラウザータイプオーディエンスの間の演算子は「AND」になっています。[!UICONTROL And] ドロップダウンリストを選択して「OR」に変更し、Firefox または Safari を使用する新規訪問者向けに新しく結合したオーディエンスを作成します。 すべての潜在的なオーディエンスメンバーを除外するルールを作成しないように注意してください。例えば、Firefox と Safari を同時に使用してページに訪問することはできません。
 
@@ -65,7 +65,7 @@ AND および OR 演算子を使用して最大 20 個のオーディエンス�
 
    1. ルールに除外を追加するには、「**[!UICONTROL Exclude]**」をクリックします。
 
-      ![combine_multiple_audiences3a 画像 ](assets/combine_multiple_audiences3a.png)
+      ![combine_multiple_audiences3a 画像 &#x200B;](assets/combine_multiple_audiences3a.png)
 
       オーディエンスをドラッグ&amp;ドロップします。
 
@@ -83,15 +83,15 @@ AND および OR 演算子を使用して最大 20 個のオーディエンス�
 
 アクティビティの [!UICONTROL Goals & Settings] ページでアドホックな組み合わせオーディエンスを作成し、指標のターゲティングで使用できます。 例えば、結合オーディエンスによるコンバージョンに基づいてターゲティングを作成するには、以下の手順に従います。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の編集または作成時に、**[!UICONTROL Goals & Settings]** ページで成功指標として **[!UICONTROL Conversion]** を選択したあと、アクションとして **[!UICONTROL Viewed an Mbox]** を選択します。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の編集または作成時に、**[!UICONTROL Goals & Settings]** ページで成功指標として **[!UICONTROL Conversion]** を選択したあと、アクションとして **[!UICONTROL Viewed an Mbox]** を選択します。
 1. **[!UICONTROL Search mbox]** フィールドで目的の mbox を選択します。
 
-   ![combine_multiple_audiences4 画像 ](assets/combine_multiple_audiences4.png)
+   ![combine_multiple_audiences4 画像 &#x200B;](assets/combine_multiple_audiences4.png)
 
 1. 歯車アイコン、「**[!UICONTROL Add Audience Targeting]**」の順にクリックします。
 1. **[!UICONTROL Add Audience/Targeting Condition]** のリンクをクリックして、[!UICONTROL Choose Audience] のダイアログボックスを表示します。
 
-   ![combine_multiple_audiences5 画像 ](assets/combine_multiple_audiences5.png)
+   ![combine_multiple_audiences5 画像 &#x200B;](assets/combine_multiple_audiences5.png)
 
 1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
 
@@ -99,9 +99,9 @@ AND および OR 演算子を使用して最大 20 個のオーディエンス�
 
 アクティビティの [!UICONTROL Goals & Settings] ページでアドホックな組み合わせオーディエンスを作成し、レポートで使用できます。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の編集または作成時に、**[!UICONTROL Goals & Settings]** ページで **[!UICONTROL Add Audience]** の下にある [!UICONTROL Audiences for Reporting] アイコンをクリックして [!UICONTROL Choose Audience] ページを表示します。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の編集または作成時に、**[!UICONTROL Goals & Settings]** ページで **[!UICONTROL Add Audience]** の下にある [!UICONTROL Audiences for Reporting] アイコンをクリックして [!UICONTROL Choose Audience] ページを表示します。
 
-   ![combine_multiple_audiences6 画像 ](assets/combine_multiple_audiences6.png)
+   ![combine_multiple_audiences6 画像 &#x200B;](assets/combine_multiple_audiences6.png)
 
 1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
 

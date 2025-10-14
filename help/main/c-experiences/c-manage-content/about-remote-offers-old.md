@@ -42,17 +42,17 @@ ht-degree: 29%
 
 * テストにサーバーで動的に生成されるデータが含まれる場合は、[!UICONTROL Dynamic] のオプションが適切な選択肢となる可能性があります。
 * 既存のリモートオファーコンテンツの外観のみをテストする場合は、[!UICONTROL Visual Experience Composer] を使用して、コンテンツ管理システムから返されるコンテンツのルックアンドフィールを変更します。
-* （以下の [ リモートオファー選択マトリックス ](#reference_B23BEDD29DDD47709A7651AFD27E776B) を使用すると、特定のケースに最適なオファーを選択できます。 ご質問がある場合は、アカウント担当者にお問い合わせください。
+* （以下の [&#x200B; リモートオファー選択マトリックス &#x200B;](#reference_B23BEDD29DDD47709A7651AFD27E776B) を使用すると、特定のケースに最適なオファーを選択できます。 ご質問がある場合は、アカウント担当者にお問い合わせください。
 
 ## コードオファーページからのリモートオファーの作成
 
 1. 「**[!UICONTROL Offers]**」をクリックして、「**[!UICONTROL Code Offers]**」タブを選択します。
 
-   ![ オファー/コードオファー ](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+   ![&#x200B; オファー/コードオファー &#x200B;](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
 1. **[!UICONTROL Create]**／**[!UICONTROL Remote Offer]**&#x200B;をクリックします。
 
-   ![ リモートオファーを作成ダイアログボックス ](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+   ![&#x200B; リモートオファーを作成ダイアログボックス &#x200B;](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. オファーのわかりやすい名前を入力します。
 
@@ -60,7 +60,7 @@ ht-degree: 29%
 
 1. リダイレクト URL のタイプを指定します。
 
-   詳しくは、以下の [ リダイレクト URL タイプ：キャッシュまたは動的 ](#url-type) を参照してください。
+   詳しくは、以下の [&#x200B; リダイレクト URL タイプ：キャッシュまたは動的 &#x200B;](#url-type) を参照してください。
 
 1. リモートオファーのリモート URL を指定します。
 
@@ -68,17 +68,17 @@ ht-degree: 29%
 
 ## フォームベースの Experience Composer を使用したリモートオファーの作成
 
-1. [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
+1. [&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
 
-   ![ フォームベースの Experience Composer の「コンテンツ」セクション ](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
+   ![&#x200B; フォームベースの Experience Composer の「コンテンツ」セクション &#x200B;](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
 1. [**[!UICONTROL Default Content]**] ドロップダウンリストをクリックし、[**[!UICONTROL Change Remote Offer]**] をクリックします。
 
-   ![ リモートオファーオプションを変更 ](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
+   ![&#x200B; リモートオファーオプションを変更 &#x200B;](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. **[!UICONTROL Create]**／**[!UICONTROL Remote Offer]**&#x200B;をクリックします。
 
-   ![ リモートオファーを作成ダイアログボックス ](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+   ![&#x200B; リモートオファーを作成ダイアログボックス &#x200B;](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. オファーのわかりやすい名前を入力します。
 
@@ -86,7 +86,7 @@ ht-degree: 29%
 
 1. リダイレクト URL のタイプを指定します。
 
-   詳しくは、以下の [ リダイレクト URL タイプ：キャッシュまたは動的 ](#url-type) を参照してください。
+   詳しくは、以下の [&#x200B; リダイレクト URL タイプ：キャッシュまたは動的 &#x200B;](#url-type) を参照してください。
 
 1. リモートオファーのリモート URL を指定します。
 
@@ -122,13 +122,13 @@ ht-degree: 29%
 
 1. [!UICONTROL Form-Based Experience Composer] でアクティビティを作成または編集します。
 
-   詳しい手順については、[ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   詳しい手順については、[&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
 1. 目的の場所を指定し、必要に応じてオーディエンスの絞り込みを追加します。
 
 1. 「**[!UICONTROL Content]**」セクションのドロップダウンリストをクリックして、「**[!UICONTROL Change Remote Offer]**」をクリックします。
 
-   ![ リモートオファーオプションを変更 ](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
+   ![&#x200B; リモートオファーオプションを変更 &#x200B;](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. [!UICONTROL Select Remote Offer] ダイアログボックスで目的のリモートオファーを選択し、「**[!UICONTROL Done]**」をクリックします。
 
@@ -140,7 +140,7 @@ ht-degree: 29%
 
 オファーはページのレンダリング後に実行されます。非表示の iframe は、データを収集してフレームからコピーし、ページに挿入して、渡された値を読み込みます。
 
-![remote_offer_howitworks_2 画像 ](assets/remote_offer_howitworks_2.jpeg)
+![remote_offer_howitworks_2 画像 &#x200B;](assets/remote_offer_howitworks_2.jpeg)
 
 ## リモートオファー選択マトリックス {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
@@ -156,7 +156,7 @@ ht-degree: 29%
 | オファーの URL | 絶対または相対 | 相対 |
 | リクエストするコンピューター | Adobe サーバー | 訪問者の Cookie を処理する訪問者のコンピューター |
 
-## トレーニングビデオ：フォームベースの Composer![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：フォームベースの Composer![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、リモートオファーを作成する際に使用できる、フォームベースのコンポーザーのデモを紹介します。
 

@@ -48,11 +48,11 @@ Target の機能の学習に役立つ追加のリソースと、Target につい
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
-| [at.js のヒントと概要 ](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日（PT） | 学習者<ul><li>at.js を使用する利点</li><li>at.js の設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>詳しくは、[at.js の仕組み](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank}を参照してください。 |
+| [at.js のヒントと概要 &#x200B;](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日（PT） | 学習者<ul><li>at.js を使用する利点</li><li>at.js の設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>詳しくは、[at.js の仕組み](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank}を参照してください。 |
 | [Target Premium Workspaces](https://helpx.adobe.com/jp/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018 年 9 月 4 日 | 学習者<ul><li>Workspace（製品プロファイル）の作成</li><li>プロパティの作成</li><li>ユーザーの追加</li><li>実装の更新</li></ul>詳しくは、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。 |
-| [Visual Experience Composer （VEC） ](https://helpx.adobe.com/jp/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 学習者<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md)を参照してください。 |
-| [Adobe Target:Analytics と Target の統合（A4T） ](https://helpx.adobe.com/jp/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br>40:33<br>18 年 1 月 | 学習者<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドの詳細については、[Adobe Targetのレポート SourceとしてのAdobe Analytics（A4T） ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。 |
-| [at.js：メリットと実装に関するベストプラクティス ](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 学習者 <ul><li>at.js ライブラリの仕組み</li><li>非推奨の mbox.js と比較した at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul> |
+| [Visual Experience Composer （VEC） &#x200B;](https://helpx.adobe.com/jp/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 学習者<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md)を参照してください。 |
+| [Adobe Target:Analytics と Target の統合（A4T） &#x200B;](https://helpx.adobe.com/jp/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br>40:33<br>18 年 1 月 | 学習者<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドの詳細については、[Adobe Targetのレポート SourceとしてのAdobe Analytics（A4T） &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。 |
+| [at.js：メリットと実装に関するベストプラクティス &#x200B;](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 学習者 <ul><li>at.js ライブラリの仕組み</li><li>非推奨の mbox.js と比較した at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul> |
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Target を使用していて問題や疑問点が出てきた場合は、いく�
 
 技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
-にお問い合わせください [Adobe カスタマーケアに連絡 ](https://helpx.adobe.com/jp/contact.html){target=_blank}。
+にお問い合わせください [Adobe カスタマーケアに連絡 &#x200B;](https://helpx.adobe.com/jp/contact.html){target=_blank}。
 
 問題の迅速な解決のために、お問い合わせの際は次の基本情報をお手元にご用意ください。
 
@@ -126,7 +126,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 * © 2023 Adobe Systems Incorporated.All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[ 利用条件 ](https://www.adobe.com/legal/terms.html)
+[&#x200B; 利用条件 &#x200B;](https://www.adobe.com/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 

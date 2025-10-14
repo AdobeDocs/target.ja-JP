@@ -33,7 +33,7 @@ ht-degree: 68%
 1. エクスペリエンスを作成します。
 1. マウスをエクスペリエンスの上に置き、「URL にリダイレクト」アイコン（![icon_redirect_url image](assets/icon_redirect_url.png)）をクリックします。
 
-   ![exp_actions 画像 ](assets/exp_actions.png)
+   ![exp_actions 画像 &#x200B;](assets/exp_actions.png)
 
 1. URL を入力します。
 1. 必要に応じて、現在のクエリパラメーターを含めるオプションを選択します。

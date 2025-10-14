@@ -15,13 +15,13 @@ ht-degree: 72%
 
 ページへの変更を表示し、追加の変更（CSS セレクター、mbox およびカスタムコード）を追加できる [!UICONTROL Modifications] の [!DNL Adobe Target] ページに関する情報です。
 
-[!UICONTROL Modifications] ページには、Visual Experience Composer （VEC）でページに加えられたすべての変更が表示され、ページ上の各要素をクリックして（アクションを選択 [ 追加の変更を加えること ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) できます。 行った変更は、個別のアクションまたは要素として [!UICONTROL Modifications] ータリストに表示されます。 さらに、CSS セレクター、mbox、カスタムコードなどのタイプの変更を加えることもできます。
+[!UICONTROL Modifications] ページには、Visual Experience Composer （VEC）でページに加えられたすべての変更が表示され、ページ上の各要素をクリックして（アクションを選択 [&#x200B; 追加の変更を加えること &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) できます。 行った変更は、個別のアクションまたは要素として [!UICONTROL Modifications] ータリストに表示されます。 さらに、CSS セレクター、mbox、カスタムコードなどのタイプの変更を加えることもできます。
 
 ## 変更の概要 {#section_EE27E7572AA74397BBDED563B2B3D509}
 
 [!UICONTROL Modifications] ページには、ページに加えられたすべての変更が VEC で表示されます。 行った変更は、個別のアクションまたは要素として [!UICONTROL Modifications] ータリストに表示されます。
 
-![codeeditor_page_mods 画像 ](assets/codeeditor_page_mods.png)
+![codeeditor_page_mods 画像 &#x200B;](assets/codeeditor_page_mods.png)
 
 変更ページを使用すると、VEC を使用してコンテンツの配信方法を設定するときに Target で選択されるセレクターに少し変更を加えることができます。コンテンツまたは HTML 属性を変更できます。コードを編集して、mbox 内に HTML オファーと同等のものを作成することもできます。
 
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 * Visual Experience Composer でおこなったアクションの表示。
 
-  ![codeeditor_viewchange 画像 ](assets/codeeditor_viewchange.png)
+  ![codeeditor_viewchange 画像 &#x200B;](assets/codeeditor_viewchange.png)
 
 * 既存のアクションの編集。目的の変更にカーソルを合わせ、「**[!UICONTROL Edit]**」アイコンをクリックします。
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
   変更を加えます。
 
-  ![codeeditor_changechange1 画像 ](assets/codeeditor_changechange1.png)
+  ![codeeditor_changechange1 画像 &#x200B;](assets/codeeditor_changechange1.png)
 
 * 既存のアクションを削除します。 目的の変更にカーソルを合わせ、「**[!UICONTROL Delete]**」アイコンをクリックします。
 
@@ -51,11 +51,11 @@ ht-degree: 72%
 
 * 変更パネルを Target UI の側辺に沿って垂直に、または下部へ水平にドッキングします。[!UICONTROL Dock] アイコンをクリックすると、2 つの設定を切り替えることができます。
 
-  ![codeditor_dock 画像 ](assets/codeditor_dock.png)
+  ![codeditor_dock 画像 &#x200B;](assets/codeditor_dock.png)
 
   次の図に、画面の下部にドッキングされた変更パネルを示します。
 
-  ![codeeditor_dock_bottom 画像 ](assets/codeeditor_dock_bottom.png)
+  ![codeeditor_dock_bottom 画像 &#x200B;](assets/codeeditor_dock_bottom.png)
 
 ## 変更の追加 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
@@ -73,7 +73,7 @@ ht-degree: 72%
 
    エクスペリエンス B では、右側のエクスペリ [!UICONTROL Modifications] ンスパネルに以前の変更が表示されます。
 
-   ![codeeditor_page_mods 画像 ](assets/codeeditor_page_mods.png)
+   ![codeeditor_page_mods 画像 &#x200B;](assets/codeeditor_page_mods.png)
 
 1. 変更を追加するには：
 
@@ -221,7 +221,7 @@ Target では、Target で変更されたページ上の要素に対して値「
 
 参照モードを使用して存在しないセレクターにアクセスしている可能性がります。警告メッセージに示されているように、コンテンツが想定どおりに表示されるようにするために、各エクスペリエンスを削除してから作成し直すことをお勧めします。
 
-![code_editor_2 画像 ](assets/code_editor_2.png)
+![code_editor_2 画像 &#x200B;](assets/code_editor_2.png)
 
 ***要素を削除すると、「このアクションを削除すると、後続のアクションに影響する可能性があります」という警告が表示されます。」 これはどういう意味ですか？*** 
 

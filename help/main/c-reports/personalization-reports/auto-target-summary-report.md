@@ -18,20 +18,20 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target] は、[!DNL Target Premium] ソリューションの一部として利用できます。 [!DNL Target Standard]Target Premium ライセンス [ のない ](/help/main/c-intro/intro.md#premium) には含まれていません。
+>[!UICONTROL Auto-Target] は、[!DNL Target Premium] ソリューションの一部として利用できます。 [!DNL Target Standard]Target Premium ライセンス [&#x200B; のない &#x200B;](/help/main/c-intro/intro.md#premium) には含まれていません。
 
 [!UICONTROL Auto-Target Summary] のレポートを表示するには：
 
 1. [!UICONTROL Activities] ページで、目的の [!UICONTROL Auto-Target] アクティビティをクリックします。
 
-   アクティビティが多数ある場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
+   アクティビティが多数ある場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
 1. 「**[!UICONTROL Reports]**」タブをクリックしてから、目的のアイコンをクリックします。
 
-   * **[!UICONTROL Table View]** （![ テーブル表示アイコン ](/help/main/assets/icons/Table.svg)）
-   * **[!UICONTROL Graph View]** （![ グラフ表示アイコン ](/help/main/assets/icons/GraphTrend.svg)）
-   * **[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）
-   * [!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）
+   * **[!UICONTROL Table View]** （![&#x200B; テーブル表示アイコン &#x200B;](/help/main/assets/icons/Table.svg)）
+   * **[!UICONTROL Graph View]** （![&#x200B; グラフ表示アイコン &#x200B;](/help/main/assets/icons/GraphTrend.svg)）
+   * **[!UICONTROL Automated Segments]** （![&#x200B; 自動セグメントレポート &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）
+   * [!UICONTROL Important Attributes]** （![&#x200B; 重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）
 
 ## テーブル表示
 
@@ -50,20 +50,20 @@ ht-degree: 39%
 
 * エクスペリエンス A とエクスペリエンス B のコンバージョン率の比較は、[!UICONTROL Auto-Target] では適切な比較ではありません。 この機能の要点は、エクスペリエンス A がインテリジェントな方法で提供された場合に、ランダムで提供された場合よりもパフォーマンスが高まるのかどうかということです。マーケティング担当者は、個々のエクスペリエンスの上昇率を見るときに注意する必要があります。パーソナライゼーションアルゴリズムでは、個々のエクスペリエンス単位ではなく、アクティビティ全体での成功指標を重視して最適化をおこなうためです。
 * 最も高い上昇率を示すエクスペリエンスは、母集団内で最も高い差別化要因を持つと考えることができます。つまり、アルゴリズムは、その特定のエクスペリエンスが最も好きなセグメントを見つけました。
-* 表の様々な列には、訪問数、コンバージョン率、平均上昇率と信頼水準、信頼性が示されています。 詳しくは、[A/B テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
+* 表の様々な列には、訪問数、コンバージョン率、平均上昇率と信頼水準、信頼性が示されています。 詳しくは、[A/B テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
 
 ## グラフ表示
 
-2 つのドロップダウンリストを使用して、目的の指標、カウント方法などを選択します。 詳しくは、[ レポート設定の概要 ](/help/main/c-reports/c-report-settings/report-settings.md) を参照してください。
+2 つのドロップダウンリストを使用して、目的の指標、カウント方法などを選択します。 詳しくは、[&#x200B; レポート設定の概要 &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md) を参照してください。
 
 ## 自動セグメント
 
 このレポートは、AP/AT アクティビティのオファー/エクスペリエンスに対する様々な訪問者の反応を示します。 このレポートでは、[!DNL Target] パーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー/エクスペリエンスにどのように応答したかを示します。
 
-詳しくは、[ 自動セグメントレポート ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を参照してください。
+詳しくは、[&#x200B; 自動セグメントレポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を参照してください。
 
 ## 重要な属性
 
 このレポートでは、モデルがどのようにパーソナライズを決定するかについて、様々なアクティビティで様々な属性がより多く（または少なく）重要である様子を示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
-詳しくは、[ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を参照してください。
+詳しくは、[&#x200B; 重要な属性レポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を参照してください。

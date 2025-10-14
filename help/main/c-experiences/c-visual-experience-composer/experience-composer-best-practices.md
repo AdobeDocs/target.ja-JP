@@ -40,7 +40,7 @@ VEC を使用する際のベストプラクティスは、次のとおりです�
 +++詳細を表示
 [!UICONTROL Enhanced Experience Composer] の読み込みに関する問題は、次の IP アドレスを許可リストに加えるすることで解決できます。 これらの IP アドレスは、[!DNL Adobe] プロキシに使用される [!UICONTROL Enhanced Experience Composer] サーバー用です。 これらは、アクティビティの編集にのみ必要です。サイトへの訪問者は、これらの IP アドレスの許可リストに加えるは必要ありません。
 
-詳しくは、[ 拡張 Experience Composer に関連する問題のトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) の「EEC は、公開 IP でアクセスできない内部 QA URL を読み込みません *を参照してください*。
+詳しくは、[&#x200B; 拡張 Experience Composer に関連する問題のトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) の「EEC は、公開 IP でアクセスできない内部 QA URL を読み込みません *を参照してください*。
 
 +++
 
@@ -122,7 +122,7 @@ VEC では、リンクを更新するプロキシサーバーを使用して、�
 
 つまり、テキストを持つ要素を追加し、別の操作でその要素を異なるテキストに編集した場合、コードエディターには、両方の操作が別々の要素として表示されます。要素を編集した場合は、作成した元の要素を変更した新しい要素が作成され、その新しい要素に編集したテキストが設定されます。その後、元の要素を削除すると、編集されたテキストは、編集された要素を見付けることができないので、表示されません。2 つ目の要素は要素のリストには引き続き含まれていますが、変更元の要素が存在しなくなっているので、ページ上での効果がなくなります。
 
-[ で使用される [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) 要素セレクターを参照してください。
+[&#x200B; で使用される [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) 要素セレクターを参照してください。
 
 +++
 
@@ -302,7 +302,7 @@ VEC を使用する際は、次の制限事項を考慮してください。
 ### 拡張機能ポリシーの変更に伴う VEC[!DNL Chrome] 互換性の処理。 {#ext}
 
 +++詳細
-Google Chrome[ の ](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}V3 マニフェストポリシーが更新されたため、ブラウザーによって解析される前に、拡張機能で元の DOM を変更できなくなりました。 その結果、特定のセキュリティスクリプト（iframe バスティング実装など）によって、VEC へのページの読み込みがブロックされる場合があります。
+Google Chrome[&#x200B; の &#x200B;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}V3 マニフェストポリシーが更新されたため、ブラウザーによって解析される前に、拡張機能で元の DOM を変更できなくなりました。 その結果、特定のセキュリティスクリプト（iframe バスティング実装など）によって、VEC へのページの読み込みがブロックされる場合があります。
 
 互換性を確保するために、ページが [!DNL Target] iframe 内に読み込まれる際には、これらのスクリプトを条件付きで無効にする必要があります。 このプロセスは、VEC 読み込み時に `window.adobeVecExtension` によって挿入される [!DNL Target] オブジェクトの存在を確認することで、安全に実行できます。
 

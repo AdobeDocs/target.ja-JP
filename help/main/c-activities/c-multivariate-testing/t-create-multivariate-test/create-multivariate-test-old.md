@@ -29,9 +29,9 @@ ht-degree: 56%
 
 1. （条件付き）配信タイプ（[!UICONTROL Web]、[!UICONTROL Mobile]、[!UICONTROL Email]、[!UICONTROL Other/API]）を選択します。
 
-1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) のお客様は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) してください。
+1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) のお客様は、[&#x200B; ワークスペースを選択 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) してください。
 
-1. テストするページの [URL を指定 ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) し、「**[!UICONTROL Next]**」をクリックします。
+1. テストするページの [URL を指定 &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) し、「**[!UICONTROL Next]**」をクリックします。
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ ht-degree: 56%
    * 画像
    * テキスト
 
-1. 「**[!UICONTROL Preview]**」をクリックして [ エクスペリエンスをプレビュー ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) します。
+1. 「**[!UICONTROL Preview]**」をクリックして [&#x200B; エクスペリエンスをプレビュー &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) します。
 
    ![エクスペリエンスをプレビュー](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
@@ -93,11 +93,11 @@ ht-degree: 56%
 
    以下の図は、アクティビティに十分なトラフィックがないことを示しています。
 
-   ![ 推定画像 ](assets/estimator.png)
+   ![&#x200B; 推定画像 &#x200B;](assets/estimator.png)
 
    以下の図は、アクティビティに十分なトラフィックがないことを示しています。
 
-   ![estimator2 画像 ](assets/estimator2.png)
+   ![estimator2 画像 &#x200B;](assets/estimator2.png)
 
 1. 「**[!UICONTROL Next]**」をクリックして、[!UICONTROL Targeting] のページに進みます。
 
@@ -111,13 +111,13 @@ ht-degree: 56%
    >
    >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
-1. [ テストの概要を確認し ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 必要な変更を加えて、「**[!UICONTROL Next]**」をクリックします。
+1. [&#x200B; テストの概要を確認し &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 必要な変更を加えて、「**[!UICONTROL Next]**」をクリックします。
 
 1. [テストの目標と設定を指定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)します。
 
 1. 「**[!UICONTROL Save and Close]**」をクリックして、アクティビティを作成します。
 
-## トレーニングビデオ：多変量分析テストの作成（9:25） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：多変量分析テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] の 3 ステップのガイド付きワークフローを使用して多変量分析テストを計画および作成する方法を説明します。
 

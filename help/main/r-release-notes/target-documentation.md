@@ -19,10 +19,10 @@ ht-degree: 86%
 
 | ドキュメントのタイプ | 説明 |
 | --- | --- |
-| [Adobe Target実務担当者ガイド ](/help/main/target-home.md)<br> （本ガイド） | ユーザーインターフェイスを通じた [!DNL Target] の操作に重点を置いた概要情報、手順、スクリーンショット。このガイドでは、回避すべき「落とし穴」を含む、使用可能なすべてのアクションとオプションについて概説します。これは、[!DNL Target] UI の操作に関する最も詳細なリソースです。 |
+| [Adobe Target実務担当者ガイド &#x200B;](/help/main/target-home.md)<br> （本ガイド） | ユーザーインターフェイスを通じた [!DNL Target] の操作に重点を置いた概要情報、手順、スクリーンショット。このガイドでは、回避すべき「落とし穴」を含む、使用可能なすべてのアクションとオプションについて概説します。これは、[!DNL Target] UI の操作に関する最も詳細なリソースです。 |
 | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja) | [!DNL Target] の多くのコンポーネントを学ぶのに役立つビデオとチュートリアル。 |
-| [Adobe Experience League Target コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja) | [!DNL Target] が提供する機能の詳細、同業者や [!DNL Adobe] の専門家とつながる機能、今後の [!DNL Target] のリリースに向けて投票または自分自身のアイデアを送信する機能について説明します。 |
-| [Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。[!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
+| [Adobe Experience League Target コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja) | [!DNL Target] が提供する機能の詳細、同業者や [!DNL Adobe] の専門家とつながる機能、今後の [!DNL Target] のリリースに向けて投票または自分自身のアイデアを送信する機能について説明します。 |
+| [Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。[!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
 | [Target Recommendations API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=ja){target=_blank} | [!UICONTROL Recommendations] Recommendations サーバーとプログラムによってやり取りできる、[!DNL Target] API に関する情報です。 これらの API は様々なアプリケーションスタックと統合して、通常 [!DNL Target] UI からおこなわれる関数を実行できます。 |
 | [Server Side Delivery API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} | Adobe Target 配信 API を構成するリソースに関する情報です。 |
 | [ターゲットサーバーサイド SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=ja){target=_blank} | SDK を使用してサーバーサイドで [!DNL Target] をデプロイする方法を説明します。 |

@@ -15,7 +15,7 @@ ht-degree: 31%
 
 要素セレクターは、1 つ以上の要素を識別できる CSS 式です。
 
-CSS セレクターに関する基本的な情報については、[ （MDN）の ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) セレクター *[!DNL Mozilla Developer Network]* ドキュメントを参照してください。
+CSS セレクターに関する基本的な情報については、[&#x200B; （MDN）の &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) セレクター *[!DNL Mozilla Developer Network]* ドキュメントを参照してください。
 
 アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。「**[!UICONTROL Administration > Visual Experience Composer]**」をクリックして、優先 CSS セレクターを選択します。
 

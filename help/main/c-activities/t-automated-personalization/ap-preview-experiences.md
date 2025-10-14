@@ -18,13 +18,13 @@ ht-degree: 15%
 
 1. [!UICONTROL Visual Experience Composer] （VEC）から、「**[!UICONTROL Preview]**」をクリックします。
 
-1. **[!UICONTROL Show Experiences]** アイコン（![ エクスペリエンスを表示アイコン ](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
+1. **[!UICONTROL Show Experiences]** アイコン（![&#x200B; エクスペリエンスを表示アイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
 
 1. リスト内の特定のエクスペリエンスをクリックすると、そのエクスペリエンスが表示されます。
 
-1. （条件付き） 1 つ以上のエクスペリエンスをアクティビティから除外するには、エクスペリ **[!UICONTROL Manage Content]** ンス アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL Manage Content] ダイアログボックスを表示します。
+1. （条件付き） 1 つ以上のエクスペリエンスをアクティビティから除外するには、エクスペリ **[!UICONTROL Manage Content]** ンス アイコン（![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL Manage Content] ダイアログボックスを表示します。
 
-1. （条件付き） [!UICONTROL Manage Content] ダイアログボックスで、除外するエクスペリエンスの横にある **[!UICONTROL More Actions]** アイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Exclude]**」をクリックします。
+1. （条件付き） [!UICONTROL Manage Content] ダイアログボックスで、除外するエクスペリエンスの横にある **[!UICONTROL More Actions]** アイコン ![&#x200B; その他のアクションアイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Exclude]**」をクリックします。
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 

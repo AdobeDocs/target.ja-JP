@@ -34,7 +34,7 @@ ht-degree: 48%
 
    指標、日付範囲、オーディエンス、詳細設定などの使用可能な設定については、以下で説明します。
 
-1. **[!UICONTROL Target Preset]** の横にある **[!UICONTROL More Options]** （![ その他のオプション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)） アイコン/**[!UICONTROL Save as New]** をクリックします。
+1. **[!UICONTROL Target Preset]** の横にある **[!UICONTROL More Options]** （![&#x200B; その他のオプション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)） アイコン/**[!UICONTROL Save as New]** をクリックします。
 
    [!UICONTROL Create Preset] ダイアログボックスが表示されます。
 
@@ -55,12 +55,12 @@ ht-degree: 48%
 
    レポートの設定を編集した後に [!UICONTROL Save] をクリックすると、プリセット名の後にアスタリスク（&#42;）が表示され、プリセットが変更されたことを示します。
 
-1. **[!UICONTROL More Options]** （その他のオプションアイコン ![ アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）アイコン/**[!UICONTROL Save as New]** をクリックして、新しいプリセットを作成します。
+1. **[!UICONTROL More Options]** （その他のオプションアイコン ![&#x200B; アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）アイコン/**[!UICONTROL Save as New]** をクリックして、新しいプリセットを作成します。
 
 ### プリセットの削除
 
 1. 削除するプリセットを選択します。
-1. **[!UICONTROL More Options]** （その他のオプションアイコン ![）アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)**[!UICONTROL Delete]** をクリックします。
+1. **[!UICONTROL More Options]** （その他のオプションアイコン ![）アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)**[!UICONTROL Delete]** をクリックします。
 
 1. もう一度「**[!UICONTROL Delete]**」をクリックして、削除を確認します（削除されたプリセットは復元できません）。
 
@@ -78,11 +78,11 @@ ht-degree: 48%
 
 ## [!UICONTROL Report Metric] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-**[!UICONTROL Report Metric]** ドロップダウンリストをクリックして、グラフおよびグラフに表示する別の [ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) または複数の指標を選択します。
+**[!UICONTROL Report Metric]** ドロップダウンリストをクリックして、グラフおよびグラフに表示する別の [&#x200B; 成功指標 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) または複数の指標を選択します。
 
 デフォルトでは、アクティビティの作成時に、成功指標の設定で主要指標が決定されています。その設定を変更し、アクティビティを再保存すると、レポートの主要指標が更新されます。
 
-レポートに表示する複数の指標の選択について詳しくは、「[ レポートで複数の指標を表示 ](/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)」を参照してください。
+レポートに表示する複数の指標の選択について詳しくは、「[&#x200B; レポートで複数の指標を表示 &#x200B;](/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)」を参照してください。
 
 ## [!UICONTROL Audience] {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -106,13 +106,13 @@ ht-degree: 48%
 
 ## 日付範囲 {#section_A410A768403C4E01891F95CB357E63ED}
 
-[!UICONTROL Date Range] のボックスには、レポートの現在の日付範囲が表示されます。 **[!UICONTROL Calendar]** （![ カレンダーアイコン ](/help/main/assets/icons/Calendar.svg)）アイコンをクリックしてカレンダーを表示し、レポートの日付範囲を変更できます。
+[!UICONTROL Date Range] のボックスには、レポートの現在の日付範囲が表示されます。 **[!UICONTROL Calendar]** （![&#x200B; カレンダーアイコン &#x200B;](/help/main/assets/icons/Calendar.svg)）アイコンをクリックしてカレンダーを表示し、レポートの日付範囲を変更できます。
 
 ## 設定 {#section_D99CE462107D45CABE0960F820E1E972}
 
 レポートを設定するには：
 
-1. **[!UICONTROL Report Settings]** （![ レポート設定アイコン ](/help/main/assets/icons/Setting.svg)）アイコンをクリックし、（以下で説明されているように）必要な変更を行います。
+1. **[!UICONTROL Report Settings]** （![&#x200B; レポート設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）アイコンをクリックし、（以下で説明されているように）必要な変更を行います。
 1. 終了したら「**[!UICONTROL Save]**」をクリックします。
 
 選択したアクティビティのタイプによって、オプションは変わります。
@@ -151,32 +151,32 @@ ht-degree: 48%
 
 ## ダウンロード {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-レポート データを **[!UICONTROL Download]** 形式でダウンロードして、Excel、Access![ またはその他のデータ分析プログラムにすばやくインポートするには、](/help/main/assets/icons/Download.svg) ール （[!DNL .csv] ダウンロード アイコン） アイコンをクリックします。
+レポート データを **[!UICONTROL Download]** 形式でダウンロードして、Excel、Access![&#x200B; またはその他のデータ分析プログラムにすばやくインポートするには、](/help/main/assets/icons/Download.svg) ール （[!DNL .csv] ダウンロード アイコン） アイコンをクリックします。
 
 詳しくは、「[CSV ファイルでのデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)」を参照してください。
 
 ## 更新 {#section_E203729F2F314DF3856D2EE67C60B370}
 
-ページ全体 **[!UICONTROL Refresh]** その設定または日付範囲を更新せずに、レポートのテーブルおよびグラフ表示を更新するには、![ 新アイコン ](/help/main/assets/icons/Refresh.svg) 更新アイコン）をクリックします。
+ページ全体 **[!UICONTROL Refresh]** その設定または日付範囲を更新せずに、レポートのテーブルおよびグラフ表示を更新するには、![&#x200B; 新アイコン &#x200B;](/help/main/assets/icons/Refresh.svg) 更新アイコン）をクリックします。
 
 ## その他のオプション {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
-「**[!UICONTROL More Options]**」アイコン（その他のオプションアイコン ![ をクリックして ](/help/main/assets/icons/MoreSmallListVert.svg) 「[!UICONTROL Save as New]」および「[!UICONTROL Delete]」オプションにアクセスします。
+「**[!UICONTROL More Options]**」アイコン（その他のオプションアイコン ![&#x200B; をクリックして &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) 「[!UICONTROL Save as New]」および「[!UICONTROL Delete]」オプションにアクセスします。
 
 ## オプションを表示
 
 レポートは、アクティビティタイプに応じて様々な形式で表示できます。 目的のオプションを選択します。
 
-* **テーブル表示**:**[!UICONTROL Table View]** （![ テーブル表示アイコン ](/help/main/assets/icons/Table.svg)）アイコンをクリックして、レポートをテーブルとして表示します。
-* **グラフ表示**:**[!UICONTROL Graph View]** （![ グラフ表示アイコン ](/help/main/assets/icons/GraphTrend.svg)）アイコンをクリックして、レポートをグラフとして表示します。
-* **自動セグメント**:（[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Automated Segments] （![ 自動セグメントアイコン ](/help/main/assets/icons/AutomatedSegment.svg)）アイコンをクリックして、[ 自動セグメントレポート ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を表示します。
-* **重要な属性**: （[!DNL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Important Attributes]** （重要な属性アイコン ![ アイコンをクリックして ](/help/main/assets/icons/ViewList.svg) [ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を表示します。
+* **テーブル表示**:**[!UICONTROL Table View]** （![&#x200B; テーブル表示アイコン &#x200B;](/help/main/assets/icons/Table.svg)）アイコンをクリックして、レポートをテーブルとして表示します。
+* **グラフ表示**:**[!UICONTROL Graph View]** （![&#x200B; グラフ表示アイコン &#x200B;](/help/main/assets/icons/GraphTrend.svg)）アイコンをクリックして、レポートをグラフとして表示します。
+* **自動セグメント**:（[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Automated Segments] （![&#x200B; 自動セグメントアイコン &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）アイコンをクリックして、[&#x200B; 自動セグメントレポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を表示します。
+* **重要な属性**: （[!DNL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Important Attributes]** （重要な属性アイコン ![&#x200B; アイコンをクリックして &#x200B;](/help/main/assets/icons/ViewList.svg) [&#x200B; 重要な属性レポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を表示します。
 
 ## 平均上昇率、上昇率範囲および信頼区間 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
 レポートには様々なデータポイントと視覚表現があり、アクティビティの上昇率範囲や信頼区間を把握する一助になります。こうした情報を参考にすれば、より的確に勝者を見極めることができます。
 
-詳しくは、[A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
+詳しくは、[A/Bn テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
 
 次の点に留意してください。
 
@@ -185,7 +185,7 @@ ht-degree: 48%
 
 ## 場所の貢献度 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-[[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) （場所の投稿アイコン ![ アイコンをクリックして ](/help/main/assets/icons/LocationContribution.svg) レポートを切り替え、多変量分析テスト（MVT）アクティビティの場所による投稿を表示します。
+[[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) （場所の投稿アイコン ![&#x200B; アイコンをクリックして &#x200B;](/help/main/assets/icons/LocationContribution.svg) レポートを切り替え、多変量分析テスト（MVT）アクティビティの場所による投稿を表示します。
 
 ## エクスペリエンス {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
@@ -237,8 +237,8 @@ ht-degree: 48%
 
 [!UICONTROL Counting Methodology] のオプションを使用する場合は、次の点に注意してください。
 
-* [[!UICONTROL Auto-Target] アクティビティの場合 ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) カウント方法として「訪問者」を選択するオプションはありません。 訪問者がプロットできない唯一のアクティビティタイプは [!UICONTROL Auto-Target] です。
-* [Analytics をレポートソースとして使用（A4T） ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) するアクティビティの場合、訪問者、訪問、インプレッションを累積的にプロットすることはできません。
+* [[!UICONTROL Auto-Target] アクティビティの場合 &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) カウント方法として「訪問者」を選択するオプションはありません。 訪問者がプロットできない唯一のアクティビティタイプは [!UICONTROL Auto-Target] です。
+* [Analytics をレポートソースとして使用（A4T） &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) するアクティビティの場合、訪問者、訪問、インプレッションを累積的にプロットすることはできません。
 
 ## アクティビティのエクスペリエンスが 16 を超えるグラフの操作
 

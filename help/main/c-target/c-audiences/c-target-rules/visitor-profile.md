@@ -21,7 +21,7 @@ ht-degree: 35%
 
 1. 「**[!UICONTROL Select]**」をクリックして、次のいずれかのオプションを選択します。
 
-   ![target_visitor_profile 画像 ](assets/target_visitor_profile.png)
+   ![target_visitor_profile 画像 &#x200B;](assets/target_visitor_profile.png)
 
    訪問者プロファイルのパラメーターは mbox（プロファイル）を介して渡されます。新しい訪問者と再訪問者のいずれもターゲットに設定することができます。さらに、すべてのユーザーを含めることも可能です。
 
@@ -42,7 +42,7 @@ ht-degree: 35%
 1. （任意）オーディエンスの追加ルールを設定します。
 1. **[!UICONTROL Done]** をクリックします。
 
-## トレーニングビデオ：オーディエンスの作成 ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：オーディエンスの作成 ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 

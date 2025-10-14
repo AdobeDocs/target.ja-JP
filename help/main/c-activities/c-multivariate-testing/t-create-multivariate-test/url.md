@@ -21,7 +21,7 @@ ht-degree: 31%
    >
    >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `https://www.adobe.com`] と [!DNL `http://www.adobe.com`] の両方が一致します。
 
-   デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は [Visual Experience Composer 設定 ](/help/main/administrating-target/visual-experience-composer-set-up.md) で指定されているページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
+   デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は [Visual Experience Composer 設定 &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) で指定されているページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
 
 1. （条件付き） VEC が開いた後に別のページを表示するには、「**[!UICONTROL Configure]**」アイコンをクリックして「**[!UICONTROL Page Delivery]**」を選択し、URL を指定します。
 

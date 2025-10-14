@@ -16,6 +16,6 @@ ht-degree: 30%
 
 [!DNL Adobe Target Recommendations] の使用を開始する前に、いくつかの手順を完了する必要があります。
 
-「[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}」には、サイトに [!DNL Recommendations] を実装する方法と、[!DNL Target] を実装する方法が記載されています。
+「[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}」には、サイトに [!DNL Recommendations] を実装する方法と、[!DNL Target] を実装する方法が記載されています。
 
-詳細および詳しい手順については、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} ポータルの *Recommendations の計画と実装* を参照してください。
+詳細および詳しい手順については、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} ポータルの *Recommendations の計画と実装* を参照してください。

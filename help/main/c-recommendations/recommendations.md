@@ -33,7 +33,7 @@ ht-degree: 98%
 
 次の図に、Webページ上のレコメンデーションを示します。
 
-![velocity_example 画像 ](assets/velocity_example.png)
+![velocity_example 画像 &#x200B;](assets/velocity_example.png)
 
 Recommendations では、サイト上の顧客のアクティビティに応じ、その顧客に製品を提案する方法を決定します。次に例を示します。
 
@@ -60,7 +60,7 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 | デザイン | デザインは、[!DNL Recommendations] アクティビティでの Recommendations の外観（行、列、テーブル、グリッドなど）を定義します。この記事の上部の図は、4 x 1 のデザインを示しています。詳しくは、[デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md)を参照してください。 |
 | 場所 | 場所とは、パーソナライゼーションと最適化の目的でアクティビティを実行する Web ページ、モバイルアプリ、電子メール上の特定のコンテンツ領域を指します。 |
 | オーディエンス | オーディエンスは、ターゲット設定されたアクティビティを表示する対象となる、類似アクティビティ参加者のグループです。オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。オーディエンス機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。詳しくは、[オーディエンス](/help/main/c-target/target.md)を参照してください。 |
-|  オファーとしての Recommendations  | A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティに Recommendations を含めることができる機能。詳細については、「[ オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。 |
+|  オファーとしての Recommendations  | A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティに Recommendations を含めることができる機能。詳細については、「[&#x200B; オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。 |
 
 ## トレーニングビデオ：アクティビティタイプ ![概要バッジ](/help/main/assets/overview.png)
 
@@ -72,7 +72,7 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
 
-## Adobe Targetの基本ウェビナー：Recommendations の概要 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png) {#intro-to-recs}
+## Adobe Targetの基本ウェビナー：Recommendations の概要 ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png) {#intro-to-recs}
 
 *Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細に説明しています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、[!DNL Recommendations] アクティビティを作成するための、[!DNL Target] の UI での手順の概要も説明しています。
 

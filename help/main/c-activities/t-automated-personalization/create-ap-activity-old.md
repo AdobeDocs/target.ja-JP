@@ -30,9 +30,9 @@ ht-degree: 29%
    >
    >VEC と [!UICONTROL Form-Based Experience Composer] に加えて、[!DNL Target] は [!UICONTROL Single Page Application VEC] を提供します。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
-   >VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) を参照してください。
+   >VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) を参照してください。
 
-1. （条件付き） [ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
+1. （条件付き） [&#x200B; ワークスペースを選択 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
 
 1. アクティビティ URL を確認または入力し、「**[!UICONTROL Create]**」をクリックします。
 
@@ -100,7 +100,7 @@ ht-degree: 29%
 
 1. （条件付き） **[!UICONTROL Offers]** をクリックしてコンテンツを選択し、レポートグループに割り当てるか、特定の訪問者にのみターゲティング付きの特定のオファーを表示させます。
 
-   レポートグループについて詳しくは、「[Automated Personalizationのオファーレポートグループ ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)」を参照してください。
+   レポートグループについて詳しくは、「[Automated Personalizationのオファーレポートグループ &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)」を参照してください。
 
 1. （条件付き）「**[!UICONTROL Exclusion Groups]**」をクリックして、アクティビティから除外する要素の組み合わせを選択します。
 
@@ -124,7 +124,7 @@ ht-degree: 29%
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** 「常時稼動」アクティビティを作成することを目標としている場合は、訪問者の 10% をコントロールに配置します。 このオプションにより、アルゴリズムが時間の経過と共に学習を継続するのに十分なデータが得られます。 ここでのトレードオフは、トラフィックの大部分をパーソナライズする代わりに、正確な上昇率が何であるかについての精度が低くなることです。 特定のエクスペリエンスをコントロールとして使用する場合、目標に関係なく、このオプションは推奨されるトラフィック分割です。
    * **[!UICONTROL Custom Allocation]:** 必要に応じて割合を手動で分割します。
 
-1. （条件付き） [!UICONTROL Control] ドロップダウンリストから、[ コントロールとして使用する特定のエクスペリエンスを選択 ](/help/main/c-activities/t-automated-personalization/experience-as-control.md) または [!UICONTROL Random Experience.] を選択します
+1. （条件付き） [!UICONTROL Control] ドロップダウンリストから、[&#x200B; コントロールとして使用する特定のエクスペリエンスを選択 &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md) または [!UICONTROL Random Experience.] を選択します
 
    コントロールエクスペリエンスは、自動テストによってどれだけの上昇率を実現するかを判断するための比較となります。
 

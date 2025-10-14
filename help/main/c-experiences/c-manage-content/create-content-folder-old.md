@@ -21,7 +21,7 @@ Adobe Target オファーライブラリに、コードオファー、画像オ�
 
 1. **[!UICONTROL Offers]**／**[!UICONTROL Code Offers]**&#x200B;をクリックします。
 
-   ![ 「コードオファー」タブ ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![&#x200B; 「コードオファー」タブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
 1. **[!UICONTROL Create]**／**[!UICONTROL Folder]**&#x200B;をクリックします。
 
@@ -29,13 +29,13 @@ Adobe Target オファーライブラリに、コードオファー、画像オ�
 
 1. **[!UICONTROL Create]** をクリックします。
 
-オファーおよびフォルダーに対して実行できるタスクについては、「[ アセットライブラリのコンテンツの操作 ](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
+オファーおよびフォルダーに対して実行できるタスクについては、「[&#x200B; アセットライブラリのコンテンツの操作 &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
 
 ## 画像オファーフォルダー
 
 1. **[!UICONTROL Offers]**／**[!UICONTROL Image Offers]**&#x200B;をクリックします。
 
-   ![ 「画像オファー」タブ ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![&#x200B; 「画像オファー」タブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. **[!UICONTROL Create]**／**[!UICONTROL Folder]**&#x200B;をクリックします。
 1. フォルダーの説明 **[!UICONTROL Title]** を指定します。
@@ -55,4 +55,4 @@ Adobe Target オファーライブラリに、コードオファー、画像オ�
 
 1. **[!UICONTROL Create]** をクリックします。
 
-オファーおよびフォルダーに対して実行できるタスクについては、「[ アセットライブラリのコンテンツの操作 ](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
+オファーおよびフォルダーに対して実行できるタスクについては、「[&#x200B; アセットライブラリのコンテンツの操作 &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。

@@ -37,13 +37,13 @@ ht-degree: 48%
 
 1. 上部メニューバーの「**[!UICONTROL Audiences]**」をクリックします。
 
-   ![audiences_list 画像 ](assets/audiences_list.png)
+   ![audiences_list 画像 &#x200B;](assets/audiences_list.png)
 
 1. [!UICONTROL Audiences] リストで、「**[!UICONTROL Create Audience]**」をクリックします。
 
    または
 
-   既存のオーディエンスをコピーするには、[!UICONTROL Audiences] のリストで、コピーするオーディエンスの **[!UICONTROL More Actions]** アイコン ![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、「**[!UICONTROL Duplicate]**」をクリックします。 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
+   既存のオーディエンスをコピーするには、[!UICONTROL Audiences] のリストで、コピーするオーディエンスの **[!UICONTROL More Actions]** アイコン ![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、「**[!UICONTROL Duplicate]**」をクリックします。 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
 1. 一意のわかりやすいオーディエンス名と、オプションで説明を入力します。
 
@@ -57,15 +57,15 @@ ht-degree: 48%
 
 1. 左側の **[!UICONTROL Attributes]** リストから目的の属性をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
-   ![ 属性をドラッグ&amp;ドロップ ](assets/drag-attribute.png)
+   ![&#x200B; 属性をドラッグ&amp;ドロップ &#x200B;](assets/drag-attribute.png)
 
-   各ルールタイプには、独自のパラメーターがあります。各タイプのオーディエンスルールの設定について詳しくは、[ オーディエンスのカテゴリ ](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) を参照してください。
+   各ルールタイプには、独自のパラメーターがあります。各タイプのオーディエンスルールの設定について詳しくは、[&#x200B; オーディエンスのカテゴリ &#x200B;](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) を参照してください。
 
 1. ルールパラメーターを定義します。
 
    例えば、次のオーディエンスは、[!DNL Macintosh] オペレーティングシステムを使用してユタ州からの訪問者をターゲットにします。
 
-   ![ ユタ州/Macintosh オーディエンス ](assets/adience-builder.png)
+   ![&#x200B; ユタ州/Macintosh オーディエンス &#x200B;](assets/adience-builder.png)
 
 1. （条件付き）必要な属性の追加と定義を続行します。
 
@@ -75,7 +75,7 @@ ht-degree: 48%
 
    処理遅延の数秒後に、新しく作成したオーディエンスがリストに表示されます。オーディエンスがすぐにリストに表示されない場合は、オーディエンスを検索するか、リストを更新してください。
 
-## トレーニングビデオ：オーディエンスの作成 ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：オーディエンスの作成 ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、オーディエンスの作成について説明します。
 

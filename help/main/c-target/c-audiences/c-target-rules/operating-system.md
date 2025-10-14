@@ -29,7 +29,7 @@ ht-degree: 35%
 
 次の図は、Macintosh OS を使用して訪問者をターゲティングするオーディエンスを示しています。
 
-![target_os 画像 ](assets/target_os.png)
+![target_os 画像 &#x200B;](assets/target_os.png)
 
 ## トレーニングビデオ: オーディエンスの作成
 

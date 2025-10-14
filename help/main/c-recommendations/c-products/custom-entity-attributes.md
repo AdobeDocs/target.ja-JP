@@ -94,11 +94,11 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 この生データの CSV は次のような形式です。
 
-![multi-value_example_raw 画像 ](assets/multi-value_example_raw.png)
+![multi-value_example_raw 画像 &#x200B;](assets/multi-value_example_raw.png)
 
 このカタログはスプレッドシートでは次のようになります。
 
-![multi-value_example_excel 画像 ](assets/multi-value_example_excel.png)
+![multi-value_example_excel 画像 &#x200B;](assets/multi-value_example_excel.png)
 
 スプレッドシートソフトウェアは、.csv 形式に変換する際に、セルの内容に二重引用符を追加します。これにより、セル内のコンマが列区切り記号として認識されることを防ぎます。また、複数値のカスタム属性に含めた JSON 文字列値の前後にも二重引用符が追加されます。このため、生データのファイルを直接編集することはお勧めできません。次に例を示します。
 

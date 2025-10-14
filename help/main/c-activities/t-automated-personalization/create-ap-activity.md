@@ -28,11 +28,11 @@ ht-degree: 24%
    >
    >VEC と [!UICONTROL Form-Based Experience Composer] に加えて、[!DNL Target] は [!UICONTROL Single Page Application VEC] を提供します。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
-   >VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) を参照してください。
+   >VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) を参照してください。
 
-1. （条件付き） [ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
+1. （条件付き） [&#x200B; ワークスペースを選択 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
 
-1. 「**[!UICONTROL Enter Activity URL]**」ボックスに [ アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) を指定します。
+1. 「**[!UICONTROL Enter Activity URL]**」ボックスに [&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) を指定します。
 
    アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。必要に応じて、デフォルトの URL から別の URL に変更できます。
 
@@ -42,7 +42,7 @@ ht-degree: 24%
 
    指定された URL のページが VEC で開きます。
 
-1. アクティビティに名前を付けるには、「**[!UICONTROL Edit]**」の横にある ![ のアイコン ](/help/main/assets/icons/Edit.svg) 編集アイコン [!UICONTROL Untitled Activity]）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
+1. アクティビティに名前を付けるには、「**[!UICONTROL Edit]**」の横にある ![&#x200B; のアイコン &#x200B;](/help/main/assets/icons/Edit.svg) 編集アイコン [!UICONTROL Untitled Activity]）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
 
    アクティビティ名は、次の文字で始めることはできません：
 
@@ -72,7 +72,7 @@ ht-degree: 24%
 
    アセットマネージャーから一度に複数の画像を選択できます。これにより、アクティビティ用に設定された各画像を含むページをすばやく表示できます。 また、オファー内のテキスト要素を容易に編集することもできます。要素を編集すると、その要素が変更されたことを示すバーが要素上に表示されます。
 
-1. **[!UICONTROL Manage Content]** アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
+1. **[!UICONTROL Manage Content]** アイコン（![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
 
    画面上部に、[!UICONTROL Experiences] と [!UICONTROL Offers] の 2 つのオプションがダイアログボックスに表示されます。
 
@@ -88,7 +88,7 @@ ht-degree: 24%
 
 1. （条件付き） **[!UICONTROL Offers]** をクリックしてコンテンツを選択し、レポートグループに割り当てるか、特定の訪問者にのみターゲティング付きの特定のオファーを表示させます。
 
-   レポートグループについて詳しくは、「[Automated Personalizationのオファーレポートグループ ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)」を参照してください。
+   レポートグループについて詳しくは、「[Automated Personalizationのオファーレポートグループ &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)」を参照してください。
 
 <!--
 1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
@@ -109,7 +109,7 @@ ht-degree: 24%
 
    フロー図が開きます。
 
-   ![AP テストターゲティング手順 ](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+   ![AP テストターゲティング手順 &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
    フロー図は、オーディエンスとそのトラフィックの割合を割り当て、トラフィックの割り当て方法を選択し、アクティビティ内の各エクスペリエンスのトラフィックの割り当てを指定する手順を示しています。
 
@@ -119,15 +119,15 @@ ht-degree: 24%
 
    右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
 
-   1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
-   1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
+   1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![&#x200B; 置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. [!UICONTROL Add Audience] のダイアログボックスで [&#x200B; 目的のオーディエンスを選択 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
 
-      **オーディエンスを組み合わせる** をクリックして、[ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) できます。
+      **オーディエンスを組み合わせる** をクリックして、[&#x200B; 複数のオーディエンスを組み合わせたオーディエンスを作成 &#x200B;](/help/main/c-target/combining-multiple-audiences.md) できます。
 
-      [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
+      [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [&#x200B; オーディエンスを作成ワークフロー &#x200B;](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
 
       * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
-      * **[!UICONTROL This activity only]**:[ ーザーに保存されず、現在のアクティビティでのみ使用できる ](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
+      * **[!UICONTROL This activity only]**:[&#x200B; ーザーに保存されず、現在のアクティビティでのみ使用できる &#x200B;](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
 
    1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティにエントリする選定訪問者の割合を選択します。
 
@@ -135,13 +135,13 @@ ht-degree: 24%
 
 1. **[!UICONTROL Traffic Allocation]** コントロールをクリックして、次のオプションから選択します。
 
-   ![ トラフィック配分目標オプション ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
+   ![&#x200B; トラフィック配分目標オプション &#x200B;](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** アルゴリズムをテストすることが目標の場合は、コントロールとターゲットアルゴリズムの間で訪問者を 50/50% 分割して使用します。 この配分により、上昇率を最も正確に推定できます。「ランダムエクスペリエンス」をコントロールとして使用する場合にお勧めします。
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** 「常時稼動」アクティビティを作成することを目標としている場合は、訪問者の 10% をコントロールに配置します。 このオプションにより、アルゴリズムが時間の経過と共に学習を継続するのに十分なデータが得られます。 ここでのトレードオフは、トラフィックの大部分をパーソナライズする代わりに、正確な上昇率が何であるかについての精度が低くなることです。 特定のエクスペリエンスをコントロールとして使用する場合、目標に関係なく、このオプションは推奨されるトラフィック分割です。
    * **[!UICONTROL Custom Allocation]:** 必要に応じて割合を手動で分割します。
 
-1. （条件付き） [!UICONTROL Control] ドロップダウンリストから、[ コントロールとして使用する特定のエクスペリエンスを選択 ](/help/main/c-activities/t-automated-personalization/experience-as-control.md) または [!UICONTROL Random Experience.] を選択します
+1. （条件付き） [!UICONTROL Control] ドロップダウンリストから、[&#x200B; コントロールとして使用する特定のエクスペリエンスを選択 &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md) または [!UICONTROL Random Experience.] を選択します
 
    コントロールエクスペリエンスは、自動テストによってどれだけの上昇率を実現するかを判断するための比較となります。
 

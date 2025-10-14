@@ -30,17 +30,17 @@ ht-degree: 34%
 
 変更要素を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の説明に従って、アクティビティを作成または編集します。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で歯車アイコンをクリックし、「**[!UICONTROL Page Delivery]**」を選択します。
 
-   ![ 歯車アイコン/ ページ配信 ](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
+   ![&#x200B; 歯車アイコン/ ページ配信 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
 1. 「**[!UICONTROL Add Template Rule]**」をクリックして、エクスペリエンスを追加するページの条件を指定します。
 
 1. ページの範囲を指定します。ページの範囲は、次のいずれかの方法で指定します。
 
-   * URL （Target による URL の評価方法について詳しくは、[ ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください。
+   * URL （Target による URL の評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください。
    * ドメイン
    * パス
    * ハッシュ（#）フラグメント（#記号に続く URL の部分をターゲットにします。）
@@ -88,7 +88,7 @@ ht-degree: 34%
 * グローバルバナー（COVID-19 のお知らせなど）を含める
 * グローバルな送料無料プロモを組み込むには
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の説明に従って、アクティビティを作成または編集します。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスを表示するドメインを指定するには、Visual Experience Composer で歯車アイコンをクリックし、「**[!UICONTROL Page Delivery]**」を選択します。
 
@@ -96,9 +96,9 @@ ht-degree: 34%
 
 1. **[!UICONTROL Choose evaluator]** ドロップダウンから「**[!UICONTROL Contains]**」を選択し、ドメインを指定します。
 
-   ![ ドメインに次を含む ](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
+   ![&#x200B; ドメインに次を含む &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## トレーニングビデオ：Visual Experience Composer （2/2）（7:29） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Visual Experience Composer （2/2）（7:29） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成

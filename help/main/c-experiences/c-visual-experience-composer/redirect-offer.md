@@ -31,7 +31,7 @@ ht-degree: 66%
 リダイレクトオファーを作成する手順は次のとおりです。
 
 1. エクスペリエンスを作成します。
-1. [!UICONTROL Experiences] のフレームで、目的のエクスペリエンスの「**[!UICONTROL More Actions]**」アイコン ![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックします。
+1. [!UICONTROL Experiences] のフレームで、目的のエクスペリエンスの「**[!UICONTROL More Actions]**」アイコン ![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックします。
 1. **[!UICONTROL Redirect to URL]** をクリックします。
 1. URL にリダイレクト ダイアログボックスに、URL を入力します。
 1. 必要に応じて、現在のクエリパラメーターを含めるオプションを選択します。

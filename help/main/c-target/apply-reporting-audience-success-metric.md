@@ -46,7 +46,7 @@ ht-degree: 36%
 
 レポートでセグメント化を表示するには、アクティビティのレポートの「[!UICONTROL Audience]」ドロップダウンリストから目的のオーディエンスを選択します。
 
-![reporting_audience_dropdown 画像 ](assets/reporting_audience_dropdown.png)
+![reporting_audience_dropdown 画像 &#x200B;](assets/reporting_audience_dropdown.png)
 
 ## 例
 

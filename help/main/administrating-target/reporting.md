@@ -31,9 +31,9 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->設定を除外するタイムゾーン、通貨、IP アドレスは、[!DNL Target] レポートを使用するアクティビティに適用されることに注意してください。 これらの設定は、[Analytics for Target （A4T）または ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) をレポートソースとして使用するアクティビティには適用されません [!DNL Customer Journey Analytics]
+>設定を除外するタイムゾーン、通貨、IP アドレスは、[!DNL Target] レポートを使用するアクティビティに適用されることに注意してください。 これらの設定は、[Analytics for Target （A4T）または &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) をレポートソースとして使用するアクティビティには適用されません [!DNL Customer Journey Analytics]
 
-![ レポートページ ](/help/main/administrating-target/assets/reporting.png)
+![&#x200B; レポートページ &#x200B;](/help/main/administrating-target/assets/reporting.png)
 
 ## レポートクラウドソリューション {#solution}
 
@@ -50,15 +50,15 @@ ht-degree: 22%
 
 レポートソースを決定する際は、次の情報を考慮してください。
 
-* **[!DNL Analytics]**: [!DNL Analytics] をレポートソースとして使用する（A4T）サポートされているアクティビティのマトリックスについては、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）の ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) サポートされているアクティビティタイプ *を参照してください*
+* **[!DNL Analytics]**: [!DNL Analytics] をレポートソースとして使用する（A4T）サポートされているアクティビティのマトリックスについては、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）の &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) サポートされているアクティビティタイプ *を参照してください*
 
-  [!UICONTROL Automated Personalization] （AP）アクティビティの作成とアクティブ化は、選択したレポートソースに関係なく許可されます。 [!UICONTROL Automated Personalization]Adobe AnalyticsをAdobe Target（A4T）のレポートソースとして選択した場合、[ アクティビティはサポートされません ](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
+  [!UICONTROL Automated Personalization] （AP）アクティビティの作成とアクティブ化は、選択したレポートソースに関係なく許可されます。 [!UICONTROL Automated Personalization]Adobe AnalyticsをAdobe Target（A4T）のレポートソースとして選択した場合、[&#x200B; アクティビティはサポートされません &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
 
   レポートソースとして [!DNL Analytics] を指定した場合でも、[!DNL Target] は [!DNL Automated Personalization] アクティビティのレポートソースとして使用されます。
 
-* **[!DNL Customer Journey Analytics]**: [!DNL Target] の [!DNL Customer Journey Analytics] レポートを使用したサポートされるアクティビティのマトリックスについては、[ のレポートの ](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) サポートされるアクティビティタイプ *[!DNL Target][!DNL Adobe Customer Journey Analytics]* 参照してください。
+* **[!DNL Customer Journey Analytics]**: [!DNL Target] の [!DNL Customer Journey Analytics] レポートを使用したサポートされるアクティビティのマトリックスについては、[&#x200B; のレポートの &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) サポートされるアクティビティタイプ *[!DNL Target][!DNL Adobe Customer Journey Analytics]* 参照してください。
 
-  [!UICONTROL Automated Personalization] （AP）、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] アクティビティの作成とアクティブ化は、選択したレポートソースに関係なく許可されます。 これらのアクティビティは、[Adobe Customer Journey Analyticsをレポートソースとして選択した場合はサポートされ ](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) せん。
+  [!UICONTROL Automated Personalization] （AP）、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] アクティビティの作成とアクティブ化は、選択したレポートソースに関係なく許可されます。 これらのアクティビティは、[Adobe Customer Journey Analyticsをレポートソースとして選択した場合はサポートされ &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) せん。
 
   レポートソースとして [!DNL Customer Journey Analytics] を指定した場合でも、[!DNL Target] は [!DNL Automated Personalization] アクティビティのレポートソースとして使用されます。
 

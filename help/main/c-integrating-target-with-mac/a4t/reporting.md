@@ -17,7 +17,7 @@ ht-degree: 39%
 
 アクティビティのレポートは、[!DNL Analytics] と [!DNL Target] の両方で表示できます。
 
-[!DNL Analytics] for [!DNL Target] を使用したレポートのベストプラクティスについては、[ この Adobe Spark ページを参照 ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) してください。
+[!DNL Analytics] for [!DNL Target] を使用したレポートのベストプラクティスについては、[&#x200B; この Adobe Spark ページを参照 &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) してください。
 
 ## 概要 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -48,13 +48,13 @@ ht-degree: 39%
 * [!UICONTROL Activity Impressions] - [!UICONTROL Entrants] レポートの [!DNL Target] 番号に一致します。
 * [!UICONTROL Activity Conversions] - [!UICONTROL Custom Conversions] レポートの [!DNL Target] 番号に一致します。
 
-ま [!DNL Analysis Workspace]、[!UICONTROL Analytics for Target] パネルを使用して、上昇率と信頼性で [!DNL Target] アクティビティとエクスペリエンスを分析します。 詳しくは、『 [Analytics ツールガイド ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja) の *Analytics for Target （A4T）パネル* を参照してください。
+ま [!DNL Analysis Workspace]、[!UICONTROL Analytics for Target] パネルを使用して、上昇率と信頼性で [!DNL Target] アクティビティとエクスペリエンスを分析します。 詳しくは、『 [Analytics ツールガイド &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja) の *Analytics for Target （A4T）パネル* を参照してください。
 
 >[!IMPORTANT]
 >
 >[!UICONTROL Target Activities] の [!DNL Analytics] レポートにアクティビティが一覧表示されるのではなく「未指定」と表示される場合は、プロビジョニングされたアカウントを更新する必要があります。 カスタマーケアに連絡して、この問題を解決してください。
 
-詳細と例については、Adobe Experience League が提供する [Analytics &amp; Target：分析のベストプラクティス ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) チュートリアルをご覧ください。
+詳細と例については、Adobe Experience League が提供する [Analytics &amp; Target：分析のベストプラクティス &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) チュートリアルをご覧ください。
 
 ## [!DNL Target] のレポート {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -79,7 +79,7 @@ ht-degree: 39%
 
 [!DNL Target] の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルを使用して、A4T の信頼性と信頼区間に対してオフライン計算を実行できますが、[!DNL Analytics] でのデータの書き出しに関する手順が必要です。
 
-A4T では、（バイナリ指標ではなく）連続変数に対して [Welch の t 検定 ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} 計算を使用します。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定の計算を行うには、分散を計算するために「平方和」が必要であり、t 統計の分母で使用されます。 [A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) では、使用される数式の詳細について説明しています。 平方和は、[!DNL Analytics] から取得することができます。 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
+A4T では、（バイナリ指標ではなく）連続変数に対して [Welch の t 検定 &#x200B;](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} 計算を使用します。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定の計算を行うには、分散を計算するために「平方和」が必要であり、t 統計の分母で使用されます。 [A/Bn テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) では、使用される数式の詳細について説明しています。 平方和は、[!DNL Analytics] から取得することができます。 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
 
 例えば、訪問者あたりのページビュー数を最適化する場合は、特定の時間枠、例えば数日（2、3 日で必要なデータポイントは数千）にわたって、訪問者ごとにページビューの合計数のサンプルを書き出します。 そのうえでそれぞれの値を 2 乗し、その総和を算出します（ここでは演算の順番が非常に重要です）。この「平方和」の値は、Complete Confidence Calculator で使用されます。これらの値には、このスプレッドシートの「売上高」セクションを使用します。
 
@@ -99,7 +99,7 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
    | 分類 | 目的のディメンションを選択します。「標準」は標準（OOTB）であり、「カスタム」には eVar および prop が含まれています。 「Experience Cloud訪問者 ID」ではなく、訪問者 ID レベルの情報が必要な場合は、「訪問者 ID」を使用することをお勧めします。<ul><li>訪問者 ID は、Analytics で使用される最終的な ID で、AID（既存の顧客）か MID（新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客）になります。</li><li>Experience Cloud 訪問者 ID が設定されるのは、新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客のみです。</li></ul> |
    | 指標 | 目的の指標を選択します。「標準」は OOTB で、「カスタム」にはカスタムイベントが含まれます。 |
    | レポートプレビュー | レポートのスケジュールを設定する前に設定を確認します。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | 配信の予定 | ファイルの配信先のメールアドレスを入力し、ファイルに名前を付けて、「[!UICONTROL Send Immediately]」を選択します。<br> メモ：ファイルは、FTP の [!UICONTROL Advanced Delivery Options]<br>![ スケジュール配信 ](/help/main/c-reports/assets/datawarehouse3.png) で配信できます。 |
+   | 配信の予定 | ファイルの配信先のメールアドレスを入力し、ファイルに名前を付けて、「[!UICONTROL Send Immediately]」を選択します。<br> メモ：ファイルは、FTP の [!UICONTROL Advanced Delivery Options]<br>![&#x200B; スケジュール配信 &#x200B;](/help/main/c-reports/assets/datawarehouse3.png) で配信できます。 |
 
 1. **[!UICONTROL Request this Report]** をクリックします。
 
@@ -109,5 +109,5 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
 
 [!DNL Data Warehouse] について詳しくは、[!DNL Analytics] のヘルプドキュメントの以下のリンクを参照してください。
 
-* [Data Warehouse リクエストの作成 ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ja)
-* [Data Warehouseのベストプラクティス ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ja)
+* [Data Warehouse リクエストの作成 &#x200B;](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ja)
+* [Data Warehouseのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ja)

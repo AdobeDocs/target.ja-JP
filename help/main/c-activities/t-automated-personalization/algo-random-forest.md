@@ -35,13 +35,13 @@ ht-degree: 44%
 
 このアクションにより、デシジョンツリーの最初のレイヤーが次のように表示されます。
 
-![decsion_tree_1 画像 ](assets/decsion_tree_1.png)
+![decsion_tree_1 画像 &#x200B;](assets/decsion_tree_1.png)
 
 デシジョンツリーでは、「最も予測可能な変数は何か」という質問があります。 この例では、変数は 2 つしかないので、答えは明らかに性別です。 ツリーは、データを（各分岐内で *分割するための同様の演習を完了するよ* になります。 まず、11111、22222、33333 のブランチを見てみましょう。これらの郵便番号で、男性と女性でコンバージョン率に差異がある場合は、リーフは男性と女性の 2 つになり、このブランチの処理はそれで完了します。他のブランチ、44444 と 55555 では、女性と男性のコンバージョン方法に統計的な違いはないと仮定します。 この場合、1 つ目のブランチが最後の分割となります。
 
 例の結果、次のツリーになります。
 
-![decsion_tree_2 画像 ](assets/decsion_tree_2.png)
+![decsion_tree_2 画像 &#x200B;](assets/decsion_tree_2.png)
 
 ## ランダムフォレストでは、デシジョンツリーをどのように使用しますか？ {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -53,7 +53,7 @@ ht-degree: 44%
 
 次の図は、[!UICONTROL Auto-Target] と [!UICONTROL Automated Personalization] のアクティビティでモデルがどのように構築されるかを示したものです。
 
-![random_forest_flow 画像 ](assets/random_forest_flow.png){width="650" zoomable="yes"}
+![random_forest_flow 画像 &#x200B;](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
 1. Target は、エクスペリエンスやオファーをランダムに提供しながら、訪問者のデータを収集します
 1. [!DNL Target] が大量のデータにヒットした後、[!DNL Target] は機能エンジニアリングを実行します

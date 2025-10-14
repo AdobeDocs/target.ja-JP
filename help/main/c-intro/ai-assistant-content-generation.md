@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 前提条件
 
-1. [ の有効化  [!DNL Adobe Experience Platform] [!DNL AI Assistant] で前提条件のタスクを完了していることを確認し  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) ください。
+1. [&#x200B; の有効化  [!DNL Adobe Experience Platform] [!DNL AI Assistant] で前提条件のタスクを完了していることを確認し  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) ください。
 
    * 組織はまず法的条件に同意する必要があります。 詳しくは、Adobe アカウントチームにお問い合わせください。
    * 管理者から、[!DNL AI Assistant] にアクセスするための十分な権限を付与してもらう必要があります。
@@ -29,23 +29,23 @@ ht-degree: 1%
 
 [!DNL AI Assistant] を使用して魅力的なテキストを生成するには：
 
-1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) （VEC）内から、VEC UI の右側のパネルにある **[!UICONTROL Show Content Assistant]** ール ![ コンテンツアシスタントアイコンを表示 ](/help/main/assets/icons/MagicWand.svg)）アイコンをクリックします。
+1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) （VEC）内から、VEC UI の右側のパネルにある **[!UICONTROL Show Content Assistant]** ール ![&#x200B; コンテンツアシスタントアイコンを表示 &#x200B;](/help/main/assets/icons/MagicWand.svg)）アイコンをクリックします。
 
-   ![Content Assistant アイコンを表示 ](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
+   ![Content Assistant アイコンを表示 &#x200B;](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
 1. [!DNL AI Assistant] を使用して昇格させるテキスト要素をクリックします。
 
    例えば、ヒーローテキストを変更するには、「次の移行を計画」をクリックして、テキストオプションを表示します。
 
-   ![ テキスト設定ペイン ](/help/main/c-intro/assets/ai-text-settings.png)
+   ![&#x200B; テキスト設定ペイン &#x200B;](/help/main/c-intro/assets/ai-text-settings.png)
 
-1. （任意） **フルスクリーンアイコン** （![ フルスクリーンアイコン ](/help/main/assets/icons/FullScreen.svg)）をクリックして展開 [!DNL AI Assistant] ます。
+1. （任意） **フルスクリーンアイコン** （![&#x200B; フルスクリーンアイコン &#x200B;](/help/main/assets/icons/FullScreen.svg)）をクリックして展開 [!DNL AI Assistant] ます。
 
 1. **[!UICONTROL Prompt]** ボックスに、生成するテキストを入力します。
 
    例えば、季節限定の夏休みのセールには、「夏物セールを宣伝する魅力的なヒーローテキストを書く」と入力します。
 
-   シンプルなプロンプトを魅力的で長 [ 形式の広告コピーに変換して、エキサイティングな NYC アドベンチャーを実現する方法については、以下の ](#variations) バリエーションの例 [!DNL AI Assistant] を参照してください。
+   シンプルなプロンプトを魅力的で長 [&#x200B; 形式の広告コピーに変換して、エキサイティングな NYC アドベンチャーを実現する方法については、以下の &#x200B;](#variations) バリエーションの例 [!DNL AI Assistant] を参照してください。
 
 1. **[!UICONTROL Text Settings]** アイコンをクリックして、テキストのトーンとコミュニケーション戦略を指定します。
 
@@ -67,21 +67,21 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL Generate]**」をクリックして、テキストバリエーションのリストを作成します。
 
-   ![AI アシスタントのテキストのバリエーション ](/help/main/c-intro/assets/ai-variations-text.png)
+   ![AI アシスタントのテキストのバリエーション &#x200B;](/help/main/c-intro/assets/ai-variations-text.png)
 
 1. 「**[!UICONTROL Apply]**」をクリックして、目的のテキストバリエーションを選択します。
 
    「**[!UICONTROL Preview]**」をクリックして、様々なバリエーションを表示することもできます。 目的のバリエーションをクリックし、「**[!UICONTROL Select]**」をクリックします。
 
-   ![ 生成テキストを使用した AI アシスタント ](/help/main/c-intro/assets/ai-text-done.png)
+   ![&#x200B; 生成テキストを使用した AI アシスタント &#x200B;](/help/main/c-intro/assets/ai-text-done.png)
 
-1. （条件付き） [!UICONTROL Undo] 動アイコン（取り消しアイコン ![）をクリックして ](/help/main/assets/icons/Undo.svg) 変更を元に戻します。
+1. （条件付き） [!UICONTROL Undo] 動アイコン（取り消しアイコン ![）をクリックして &#x200B;](/help/main/assets/icons/Undo.svg) 変更を元に戻します。
 
 1. （任意） [!DNL AI Assistant] ーザーにフィードバックを提供します。
 
-   * サムズアップアイコン（![ サムズアップ ](/help/main/assets/icons/ThumbUp.svg)）をクリックすると、バリエーションが気に入 [!DNL AI Assistant] ていることが表示されます。
-   * サムズダウン （![ サムズダウンアイコン ](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、バリエーションが気に入らないことを [!DNL AI Assistant] に知らせます。
-   * [!UICONTROL Report Results] （結果を報告アイコン ![ アイコンをクリック ](/help/main/assets/icons/Flag.svg) て、問題を [!DNL AI Assistant] に報告します。
+   * サムズアップアイコン（![&#x200B; サムズアップ &#x200B;](/help/main/assets/icons/ThumbUp.svg)）をクリックすると、バリエーションが気に入 [!DNL AI Assistant] ていることが表示されます。
+   * サムズダウン （![&#x200B; サムズダウンアイコン &#x200B;](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、バリエーションが気に入らないことを [!DNL AI Assistant] に知らせます。
+   * [!UICONTROL Report Results] （結果を報告アイコン ![&#x200B; アイコンをクリック &#x200B;](/help/main/assets/icons/Flag.svg) て、問題を [!DNL AI Assistant] に報告します。
 
 ## バリエーションの例 {#variations}
 

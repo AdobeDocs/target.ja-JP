@@ -15,7 +15,7 @@ ht-degree: 31%
 
 [!DNL Adobe Target] を使用すると、事前定義済みのターゲティングルールに基づいてユーザーをターゲットに設定できます。
 
-[!UICONTROL Target Library] カテゴリの事前定義済みオーディエンスは、従来のオーディエンスであり、他のカテゴリにも存在します。 詳細とベストプラクティスについては、[ ターゲットとオーディエンスに関するよくある質問 ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D) を参照してください。
+[!UICONTROL Target Library] カテゴリの事前定義済みオーディエンスは、従来のオーディエンスであり、他のカテゴリにも存在します。 詳細とベストプラクティスについては、[&#x200B; ターゲットとオーディエンスに関するよくある質問 &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D) を参照してください。
 
 1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]**/**[!UICONTROL Create Audience]** をクリックします。
 1. オーディエンスに名前を付け、オプションで説明を追加します。

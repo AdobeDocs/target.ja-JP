@@ -40,7 +40,7 @@ ht-degree: 19%
 
 * リモートオファーは次の場所ではサポートされていません。
 
-   * [Premium の機能 ](/help/main/c-intro/intro.md#premium) （Automated Personalization（AP）、自動ターゲットおよび Recommendations）
+   * [Premium の機能 &#x200B;](/help/main/c-intro/intro.md#premium) （Automated Personalization（AP）、自動ターゲットおよび Recommendations）
    * Multivariate Testing（MVT）：リモートオファーをサポートしない VEC に依存しているためです。
 
 * オファーが [!DNL Target] リクエストと同じドメインに存在する場合、「[!UICONTROL Cached]」オプションを使用すると、オファーの場所を説明する際に相対 URL を使用できます。
@@ -49,7 +49,7 @@ ht-degree: 19%
 
 * テストにサーバーで動的に生成されるデータが含まれる場合は、[!UICONTROL Dynamic] のオプションが適切な選択肢となる可能性があります。
 * 既存のリモートオファーコンテンツの外観のみをテストする場合は、[!UICONTROL Visual Experience Composer] を使用して、コンテンツ管理システムから返されるコンテンツのルックアンドフィールを変更します。
-* （以下の [ リモートオファー選択マトリックス ](#reference_B23BEDD29DDD47709A7651AFD27E776B) を使用すると、特定のケースに最適なオファーを選択できます。 ご質問がある場合は、アカウント担当者にお問い合わせください。
+* （以下の [&#x200B; リモートオファー選択マトリックス &#x200B;](#reference_B23BEDD29DDD47709A7651AFD27E776B) を使用すると、特定のケースに最適なオファーを選択できます。 ご質問がある場合は、アカウント担当者にお問い合わせください。
 
 ## [!UICONTROL Code Offers] ページからのリモートオファーの作成
 
@@ -61,11 +61,11 @@ ht-degree: 19%
 
    わかりやすい名前を指定すると、作成者や他のユーザーが [!UICONTROL Offers] ライブラリでオファーをすばやく見つけやすくなります。
 
-1. （条件付き） [Target Premium アカウント ](/help/main/c-intro/intro.md#premium) をお持ちの場合は、目的の [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を選択します。
+1. （条件付き） [Target Premium アカウント &#x200B;](/help/main/c-intro/intro.md#premium) をお持ちの場合は、目的の [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を選択します。
 
 1. リダイレクト URL のタイプを指定します。
 
-   詳しくは、[ リダイレクト URL タイプ：[!UICONTROL Onsite Cached] または [!UICONTROL Onsite Dynamic]](#url-type) を参照してください。
+   詳しくは、[&#x200B; リダイレクト URL タイプ：[!UICONTROL Onsite Cached] または [!UICONTROL Onsite Dynamic]](#url-type) を参照してください。
 
 1. リモートオファーの絶対リモート URL を指定します。
 
@@ -73,8 +73,8 @@ ht-degree: 19%
 
 ## [!UICONTROL Form-Based Experience Composer] を使用したリモートオファーの作成
 
-1. [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
-1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Remote Offer]**」をクリックします。
+1. [&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
+1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![&#x200B; リスト &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Remote Offer]**」をクリックします。
 
 1. **[!UICONTROL Create Offer]**／**[!UICONTROL Remote Offer]**&#x200B;をクリックします。
 
@@ -82,11 +82,11 @@ ht-degree: 19%
 
    わかりやすい名前を指定すると、作成者や他のユーザーが [!UICONTROL Assets] ライブラリでオファーをすばやく見つけやすくなります。
 
-1. （条件付き） [Target Premium アカウント ](/help/main/c-intro/intro.md#premium) をお持ちの場合は、目的の [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を選択します。
+1. （条件付き） [Target Premium アカウント &#x200B;](/help/main/c-intro/intro.md#premium) をお持ちの場合は、目的の [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を選択します。
 
 1. リダイレクト URL のタイプを指定します。
 
-   詳しくは、[ リダイレクト URL タイプ：[!UICONTROL Onsite Cached] または [!UICONTROL Onsite Dynamic]](#url-type) を参照してください。
+   詳しくは、[&#x200B; リダイレクト URL タイプ：[!UICONTROL Onsite Cached] または [!UICONTROL Onsite Dynamic]](#url-type) を参照してください。
 
 1. リモートオファーのリモート URL を指定します。
 
@@ -122,11 +122,11 @@ ht-degree: 19%
 
 1. [!UICONTROL Form-Based Experience Composer] でアクティビティを作成または編集します。
 
-   詳しい手順については、[ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   詳しい手順については、[&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
 1. 目的の場所を指定し、必要に応じてオーディエンスの絞り込みを追加します。
 
-1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Remote Offer]**」をクリックします。
+1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![&#x200B; リスト &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Remote Offer]**」をクリックします。
 
 1. [!UICONTROL Change Remote Offer] ダイアログボックスで目的のリモートオファーを選択し、**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]** をクリックします。
 
@@ -138,7 +138,7 @@ ht-degree: 19%
 
 オファーはページのレンダリング後に実行されます。非表示の iFrame がデータを収集してフレームからコピーし、ページに挿入して、渡された値を読み込みます。
 
-![remote_offer_howitworks_2 画像 ](assets/remote_offer_howitworks_2.jpeg)
+![remote_offer_howitworks_2 画像 &#x200B;](assets/remote_offer_howitworks_2.jpeg)
 
 1. 訪問者のブラウザーが、サーバーにページをリクエストします。
 

@@ -108,14 +108,14 @@ VEC 内のページの読み込みをキャンセルするには、ページの�
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer （1/2）（7:17） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Visual Experience Composer （1/2）（7:17） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
 >[!VIDEO](https://video.tv.adobe.com/v/29948?captions=jpn)
 
-### Visual Experience Composer （2/2）（7:29） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Visual Experience Composer （2/2）（7:29） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
@@ -126,7 +126,7 @@ VEC 内のページの読み込みをキャンセルするには、ページの�
 
 >[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
 
-### 業務時間：Visual Experience Composer![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### 業務時間：Visual Experience Composer![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオは、「[Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 

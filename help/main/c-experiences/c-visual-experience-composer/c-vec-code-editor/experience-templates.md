@@ -23,31 +23,31 @@ ht-degree: 75%
 
 [サムネール付きバナーカルーセルエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)は、回転式カルーセルで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。このカルーセルの画像は自動的には切り替わらず、主画像の下にある小さな画像をクリックすることで直接操作できます。
 
-![exp-template-banner-carousel-thumbnails 画像 ](assets/exp-template-banner-carousel-thumbnails.png)
+![exp-template-banner-carousel-thumbnails 画像 &#x200B;](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## バナーカルーセル {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 [バナーカルーセルエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)は、回転式カルーセルで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。このカルーセルの画像は自動的には切り替わらず、左右の矢印をクリックすることで直接操作できます。
 
-![exp-template-banner-carousel 画像 ](assets/exp-template-banner-carousel.png)
+![exp-template-banner-carousel 画像 &#x200B;](assets/exp-template-banner-carousel.png)
 
 ## バナーカウントダウン {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 [バナーカウントダウンエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)は、中央にカウントダウンが配置された大きなバナーで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。
 
-![exp-template-banner-countdown 画像 ](assets/exp-template-banner-countdown.png)
+![exp-template-banner-countdown 画像 &#x200B;](assets/exp-template-banner-countdown.png)
 
 ## ボタンビルダー {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
 [ボタンビルダーエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)は、テキストのコールトゥアクションを含む小さなボタンです。ボタンは設定可能で、ページ上の任意の場所に配置することにより、新しいコールトゥアクションを追加したり、既存のボタンを設定可能な別のボタンに置き換えたりすることができます。
 
-![exp-template-button-builder 画像 ](assets/exp-template-button-builder.png)
+![exp-template-button-builder 画像 &#x200B;](assets/exp-template-button-builder.png)
 
 ## カウントダウン付きライトボックス {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 [カウントダウン付きライトボックスエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)は、中央にカウントダウンが配置されたライトボックスオーバーレイポップアップで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。
 
-![exp-template-lightbox-countdown 画像 ](assets/exp-template-lightbox-countdown.png)
+![exp-template-lightbox-countdown 画像 &#x200B;](assets/exp-template-lightbox-countdown.png)
 
 ## ページを離れようとしているユーザー向けのポップアップ付きライトボックス {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
@@ -57,9 +57,9 @@ ht-degree: 75%
 
 ## ライトボックス {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-[Lightbox エクスペリエンステンプレート ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) は、遅延が組み込まれた Lightbox オーバーレイポップアップで、ホームページ、ランディングページまたは他の大量のエントリページで一般的に使用されます。
+[Lightbox エクスペリエンステンプレート &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) は、遅延が組み込まれた Lightbox オーバーレイポップアップで、ホームページ、ランディングページまたは他の大量のエントリページで一般的に使用されます。
 
-![exp-template-lightbox 画像 ](assets/exp-template-lightbox.png)
+![exp-template-lightbox 画像 &#x200B;](assets/exp-template-lightbox.png)
 
 ## リボン {#section_CCBB656265F140AEA1B200409D719000}
 

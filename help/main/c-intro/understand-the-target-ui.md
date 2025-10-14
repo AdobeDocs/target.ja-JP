@@ -37,7 +37,7 @@ ht-degree: 25%
 
 （条件付き） [!DNL Target] Betaの公式プログラムに参加している場合は、「[!UICONTROL Beta Feedback]」アイコンが表示される場合があります。
 
-![Beta フィードバックアイコン ](/help/main/c-intro/assets/beta-feedback.png)
+![Beta フィードバックアイコン &#x200B;](/help/main/c-intro/assets/beta-feedback.png)
 
 フィードバックの説明を入力し、該当するファイルやスクリーンショット、必要に応じて追加の詳細を含めて、「**[!UICONTROL Submit]**」をクリックします。
 
@@ -49,7 +49,7 @@ ht-degree: 25%
 
 ### ヘルプ
 
-[!UICONTROL Help] アイコン（![ ヘルプアイコン ](/help/main/assets/icons/HelpOutline.svg)）をクリックすると、[!DNL Target] をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。 サポートチケットの作成、サポート用電話番号の検索、Twitter での質問、[!DNL Target] に関するフィードバックの提供により、[!DNL Target] チームの活動状況を把握できます。
+[!UICONTROL Help] アイコン（![&#x200B; ヘルプアイコン &#x200B;](/help/main/assets/icons/HelpOutline.svg)）をクリックすると、[!DNL Target] をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。 サポートチケットの作成、サポート用電話番号の検索、Twitter での質問、[!DNL Target] に関するフィードバックの提供により、[!DNL Target] チームの活動状況を把握できます。
 
 ![ヘルプ](/help/main/c-intro/assets/help.png)
 
@@ -57,11 +57,11 @@ ht-degree: 25%
 
 [!UICONTROL Requests]、[!UICONTROL Notifications]、[!UICONTROL Announcements] の各パネルを使用すると、[!DNL Adobe Target] のすべてに関する最新情報を入手できます。 プロアクティブ通知は、ソリューションと [!DNL Adobe Experience Cloud] イベントのステータス [!DNL Target] 常に把握するのに役立ちます。 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
 
-ヘッダーの [!UICONTROL Notifications] アイコン（![ 通知アイコン ](/help/main/assets/icons/Bell.svg)）をクリックして、通知を表示します。
+ヘッダーの [!UICONTROL Notifications] アイコン（![&#x200B; 通知アイコン &#x200B;](/help/main/assets/icons/Bell.svg)）をクリックして、通知を表示します。
 
 パネルには、[!UICONTROL Requests]、[!UICONTROL Notifications] および [!UICONTROL Announcements] のタブが含まれています。
 
-![ 通知 ](assets/notifications.png)
+![&#x200B; 通知 &#x200B;](assets/notifications.png)
 
 次の節では、各タブの情報と、通知とお知らせの設定方法について説明します。
 
@@ -105,21 +105,21 @@ ht-degree: 25%
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-個々の通知を読み取り済みとしてマークするには、目的の通知にカーソルを合わせて [!UICONTROL Mark as Read] ールアイコン（![ 読み取りとしてマーク ](/help/main/assets/icons/CheckmarkCircle.svg) アイコン（）をクリックします。 パネルの下部にある「[!UICONTROL Mark as Read]」または「[!UICONTROL View All]」をクリックして、すべての通知を読み取り済みまたは表示することができます。
+個々の通知を読み取り済みとしてマークするには、目的の通知にカーソルを合わせて [!UICONTROL Mark as Read] ールアイコン（![&#x200B; 読み取りとしてマーク &#x200B;](/help/main/assets/icons/CheckmarkCircle.svg) アイコン（）をクリックします。 パネルの下部にある「[!UICONTROL Mark as Read]」または「[!UICONTROL View All]」をクリックして、すべての通知を読み取り済みまたは表示することができます。
 
-通知の上にマウスポインターを置き、通知アイコン（[!UICONTROL Snooze] 再通知アイコン ![）をクリックすると、リマインダーが再度 ](/help/main/assets/icons/Clock.svg) 信されるように設定することもできます。 通知を受信する時間を、5 分、15 分、1 時間または明日から選択できます。
+通知の上にマウスポインターを置き、通知アイコン（[!UICONTROL Snooze] 再通知アイコン ![）をクリックすると、リマインダーが再度 &#x200B;](/help/main/assets/icons/Clock.svg) 信されるように設定することもできます。 通知を受信する時間を、5 分、15 分、1 時間または明日から選択できます。
 
 #### 発表
 
 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
 
-詳しくは、[Adobeのステータス ](https://status.adobe.com/ja) ページを参照してください。
+詳しくは、[Adobeのステータス &#x200B;](https://status.adobe.com/ja) ページを参照してください。
 
 ### 通知とお知らせの設定
 
 通知の環境設定を編集するには：
 
-1. [!UICONTROL Edit Preferences] （環境設定を編集アイコン ![ アイコンをクリックし ](/help/main/assets/icons/Setting.svg) 左パネルで「**[!UICONTROL Notifications]**」をクリックします。
+1. [!UICONTROL Edit Preferences] （環境設定を編集アイコン ![&#x200B; アイコンをクリックし &#x200B;](/help/main/assets/icons/Setting.svg) 左パネルで「**[!UICONTROL Notifications]**」をクリックします。
 1. 「**[!UICONTROL Target]**」で、通知方法を選択します。
 
    * [!UICONTROL In-app]
@@ -163,7 +163,7 @@ ht-degree: 25%
 
 **[!UICONTROL Activities]** リストは、[!DNL Target] を開いたときのデフォルトのビューです。 このページからアクティビティを作成し、既存のアクティビティを管理できます。
 
-[ で利用可能なアクティビティの種類に関する詳細、およびアクティビティリストのユーザーインターフェイスに関する詳細は、](/help/main/c-activities/activities.md) アクティ [!DNL Target] ティ [!UICONTROL Activity] を参照してください。
+[&#x200B; で利用可能なアクティビティの種類に関する詳細、およびアクティビティリストのユーザーインターフェイスに関する詳細は、](/help/main/c-activities/activities.md) アクティ [!DNL Target] ティ [!UICONTROL Activity] を参照してください。
 
 ## オーディエンス
 
@@ -171,7 +171,7 @@ ht-degree: 25%
 
 オーディエンスは、ターゲット設定されたアクティビティを表示する類似アクティビティ参加者のグループです。 オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。 [!UICONTROL Audience] 機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。 訪問者がターゲットオーディエンスに当てはまる場合は、[!DNL Target] により、アクティビティ作成時に定義された条件に基づいて、そのユーザーに表示するエクスペリエンスが決定されます。
 
-[ のオーディエンスタイプに関する詳細およびオーディエンスリストのユーザーインターフェイスに関する詳細は、](/help/main/c-target/c-audiences/create-audience.md) オーディ [!DNL Target] ンスの作成 [!UICONTROL Audience] を参照してください。
+[&#x200B; のオーディエンスタイプに関する詳細およびオーディエンスリストのユーザーインターフェイスに関する詳細は、](/help/main/c-target/c-audiences/create-audience.md) オーディ [!DNL Target] ンスの作成 [!UICONTROL Audience] を参照してください。
 
 ## オファー
 
@@ -179,7 +179,7 @@ ht-degree: 25%
 
 エクスペリエンスは、オファー、画像、テキスト、ボタン、ビデオ、ページ上のこれらの様々な要素の組み合わせ、Web ページ全体、購入ファネルやその他のページの論理的シーケンスを形成するページのセットである可能性があります。また、音声アシスタント応答、カスタマーサービスのスクリプト、自動販売機のパーソナライズされたフレーバーであることもあります。[!DNL Target] アクティビティのエクスペリエンスをテストまたはパーソナライズします。
 
-[ のオファータイプに関する詳細およびオファーリストのユーザーインターフェイスに関する詳細は、](/help/main/c-experiences/c-manage-content/manage-content.md) オフ [!DNL Target] ー [!UICONTROL Offer] を参照してください。
+[&#x200B; のオファータイプに関する詳細およびオファーリストのユーザーインターフェイスに関する詳細は、](/help/main/c-experiences/c-manage-content/manage-content.md) オフ [!DNL Target] ー [!UICONTROL Offer] を参照してください。
 
 ## レコメンデーション
 
@@ -191,7 +191,7 @@ ht-degree: 25%
 
 [!UICONTROL Recommendations] のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。 Recommendations を使うと、顧客が知らなかったであろう関連商品を紹介するのに役立ちます。
 
-[ での ](/help/main/c-recommendations/recommendations.md) の詳細および [!UICONTROL Recommendations] ユーザーインターフェイスの詳細については、[!DNL Target]Recommendations[!UICONTROL Recommendations] を参照してください。
+[&#x200B; での &#x200B;](/help/main/c-recommendations/recommendations.md) の詳細および [!UICONTROL Recommendations] ユーザーインターフェイスの詳細については、[!DNL Target]Recommendations[!UICONTROL Recommendations] を参照してください。
 
 ## 管理
 

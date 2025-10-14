@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # Recommendations アクティビティのプレビューと起動
 
-[!UICONTROL Recommendations]Recommendations オファー [!UICONTROL A/B Test] を含む [!UICONTROL Experience Targeting]、[ または ](/help/main/c-recommendations/recommendations-as-an-offer.md) （XT）アクティビティを作成したら、アクティビティを開始する前に、Recommendations をプレビューして、結果が使用可能であることを確認します。 [!DNL Target Recommendations] では、お勧めをプレビューする方法が複数用意されています。
+[!UICONTROL Recommendations]Recommendations オファー [!UICONTROL A/B Test] を含む [!UICONTROL Experience Targeting]、[&#x200B; または &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md) （XT）アクティビティを作成したら、アクティビティを開始する前に、Recommendations をプレビューして、結果が使用可能であることを確認します。 [!DNL Target Recommendations] では、お勧めをプレビューする方法が複数用意されています。
 
 ## レコメンデーションアルゴリズムのステータスの確認
 
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 条件のステータスが一覧表示される [!UICONTROL Activity] の概要図で、アルゴリズムの実行が完了したかどうかを確認できます。 次の図は、[!DNL Recommendations] のアクティビティの [!UICONTROL Overview] ページのアクティビティ図のステータスを示しています。
 
-![Recommendations アクティビティの概要ページ ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![Recommendations アクティビティの概要ページ &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 ステータス結果には、次の図が含まれます。
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 * [!UICONTROL Results Not Ready]: アルゴリズムの実行が完了していないことを示します。
 * [!UICONTROL Feed Failure]：カスタム条件フィードファイルを取得できなかったことを示します。
 
-![ 結果ダイアログボックス ](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
+![&#x200B; 結果ダイアログボックス &#x200B;](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## アルゴリズムの実行にはどの程度の時間がかかりますか？
 
@@ -55,7 +55,7 @@ mbox が行動データソースとして選択される場合、一旦作成さ
 
 ## QA リンクを使用したレコメンデーションのプレビュー
 
-アルゴリズムで結果の準備が整ったら、[ の ](/help/main/c-activities/c-activity-qa/activity-qa.md)QA リンク [!DNL Adobe Target] 機能を使用して、その結果をプレビューできます。 QA リンクは、[!UICONTROL Activity Location] の概要ページの「[!UICONTROL Activity]」セクションで使用できます。
+アルゴリズムで結果の準備が整ったら、[&#x200B; の &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)QA リンク [!DNL Adobe Target] 機能を使用して、その結果をプレビューできます。 QA リンクは、[!UICONTROL Activity Location] の概要ページの「[!UICONTROL Activity]」セクションで使用できます。
 
 >[!NOTE]
 >
@@ -63,11 +63,11 @@ mbox が行動データソースとして選択される場合、一旦作成さ
 
 QA リンクを使用すると、ページ上でレコメンデーションをプレビューできます。
 
-![ 特集商品 ](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
+![&#x200B; 特集商品 &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
 
 >[!NOTE]
 >
->* ターゲット QA モードは「スティッキー」で、cookie に保存されます。 QA モードを終了しない場合は、サイト全体で QA 結果が引き続き表示されます。 QA モードを終了するには、[ ブックマークレット ](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) を使用します。
+>* ターゲット QA モードは「スティッキー」で、cookie に保存されます。 QA モードを終了しない場合は、サイト全体で QA 結果が引き続き表示されます。 QA モードを終了するには、[&#x200B; ブックマークレット &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) を使用します。
 >
 >* QA モードの場合、サイトを閲覧してもプロファイルの [!UICONTROL Recently Viewed Items] や [!UICONTROL Recently Purchased Items] には影響しません。 この動作は、生産行動データの意図しない汚染を避けるために設計によって行われます。 [!UICONTROL Recently Viewed Items] または [!UICONTROL User-Based Recommendations] の条件の結果をプレビューするには、QA モード以外のサイトを参照してから、同じセッションを使用して QA モードのリンクを開きます。
 
@@ -79,15 +79,15 @@ QA リンクを使用すると、ページ上でレコメンデーションを�
 
 プレビュー用に結果をダウンロードするには、アクティビティの概要ページの右上隅にあるメニューアイコンをクリックし、「**[!UICONTROL Download data]**」をクリックします。
 
-![ 「データをダウンロード」オプション ](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
+![&#x200B; 「データをダウンロード」オプション &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
 CSV ファイルがダウンロードされます。 これを開いて、推奨される項目を確認します。
 
-![ 推奨項目の CSV ファイル ](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
+![&#x200B; 推奨項目の CSV ファイル &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
 左から右へは、推奨される項目のリストです。この場合、最も頻繁に閲覧される項目となります。 レコメンデーションは環境によって区切られています。この場合、実稼動環境にのみレコメンデーションがあります。
 
-アスタリスク（*）が行の最初の値の場合は、[ バックアップ項目 ](/help/main/c-recommendations/c-algorithms/backup-recs.md) を示します。 設計内のすべてのスロットがアルゴリズムの推奨項目（条件）によって満たすことができない場合、バックアップ項目が表示されます。
+アスタリスク（*）が行の最初の値の場合は、[&#x200B; バックアップ項目 &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md) を示します。 設計内のすべてのスロットがアルゴリズムの推奨項目（条件）によって満たすことができない場合、バックアップ項目が表示されます。
 
 [!UICONTROL People Who Viewed This, Viewed That] などのキー値に基づくその他のアルゴリズムタイプの場合、キー値（「This」項目）は左端の列に表示され、推奨項目（「That」項目）は Recommendation_X 列に左から右に表示されます。
 

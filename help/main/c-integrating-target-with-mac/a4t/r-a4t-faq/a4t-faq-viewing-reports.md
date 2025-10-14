@@ -20,7 +20,7 @@ ht-degree: 72%
 +++回答
 [!DNL Analysis Workspace] を使用して、[!DNL Target] アクティビティとエクスペリエンスを分析できます。この [Analytics for Target パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja)では、最大 3 つの成功指標に対する上昇率と信頼性を確認できます。また、テーブルとビジュアライゼーションを使用して、より深く掘り下げることもできます。
 
-詳細と例については、[ が提供する ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)Analytics &amp; Target：分析のベストプラクティスチュートリアル [!UICONTROL Adobe Experience League] をご覧ください。
+詳細と例については、[&#x200B; が提供する &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)Analytics &amp; Target：分析のベストプラクティスチュートリアル [!UICONTROL Adobe Experience League] をご覧ください。
 
 +++
 
@@ -163,7 +163,7 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 ## [!DNL Analytics] と [!UICONTROL Analytics for Adobe Target] （A4T）で [!UICONTROL Unique Visitors] 指標の数値の計算が異なるのはなぜですか？ {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++回答
-[Welch の t 検定 ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} （信頼感指標）を使用してテストの勝者を選択する A/B テストを実行する場合、前提の 1 つは、固定された対象期間があるということです。 その固定サンプルサイズを考慮しない限り、テストは統計的に有効になりません。
+[Welch の t 検定 &#x200B;](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} （信頼感指標）を使用してテストの勝者を選択する A/B テストを実行する場合、前提の 1 つは、固定された対象期間があるということです。 その固定サンプルサイズを考慮しない限り、テストは統計的に有効になりません。
 
 [!UICONTROL Unique Visitors] の指標は [!DNL Analytics] が異なり、実際のテストよりも短い時間を対象として計算した場合にのみ [!DNL Target] なります。 十分なサンプルサイズに達していない場合、テストは信頼性に欠けます。 詳しくは、[Evan Miller の web サイト](https://www.evanmiller.org/index.html)の [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)（英語）を参照してください。
 
@@ -221,7 +221,7 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 [!DNL Analysis Workspace] でアクティビティのインプレッションを表示するには：
 
 1. [!DNL Target] UI で、「**[!UICONTROL View in Analytics]**」をクリックします。
-1. **[!UICONTROL Activity Impressions]**&#x200B;[[!DNL Analytics Workspace] レポートに ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja){target=_blank} 列を追加します。
+1. **[!UICONTROL Activity Impressions]**&#x200B;[[!DNL Analytics Workspace] レポートに &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja){target=_blank} 列を追加します。
 1. **[!UICONTROL Activity Impressions]** 列で、[!UICONTROL Gear] アイコンをクリックします。
 1. **[!UICONTROL Use non-default attribution model]** をクリックします。
 1. **[!UICONTROL Same Touch Model]**/**[!UICONTROL Apply]** を選択します。

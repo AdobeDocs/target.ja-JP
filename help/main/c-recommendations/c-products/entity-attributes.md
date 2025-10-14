@@ -31,7 +31,7 @@ at.js 1 を使用している場合、一般的に、ディスプレイ情報 mb
 
 >[!NOTE]
 >
->at.js 2.*x*、`mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js を使用して製品またはコンテンツの情報を [!DNL Recommendations] に渡す方法 2.*x* の場合は、[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=ja){target=_blank} を使用します。 例については、[Recommendations の計画と実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
+>at.js 2.*x*、`mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js を使用して製品またはコンテンツの情報を [!DNL Recommendations] に渡す方法 2.*x* の場合は、[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=ja){target=_blank} を使用します。 例については、[Recommendations の計画と実装 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -204,7 +204,7 @@ entity.value は、10 進数形式のみ（例：15.99）をサポートしま�
 
 例：`'entity.secondary=["band1",&nbsp;"band2"]'`
 
-複数値のカスタムエンティティの属性には、有効な JSON 配列が必要です。正しい構文情報は、[ カスタムエンティティ属性 ](/help/main/c-recommendations/c-products/custom-entity-attributes.md) を参照してください。
+複数値のカスタムエンティティの属性には、有効な JSON 配列が必要です。正しい構文情報は、[&#x200B; カスタムエンティティ属性 &#x200B;](/help/main/c-recommendations/c-products/custom-entity-attributes.md) を参照してください。
 
 ### entity.event.detailsOnly
 

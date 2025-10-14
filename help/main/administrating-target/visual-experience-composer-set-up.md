@@ -28,7 +28,7 @@ ht-degree: 49%
 
 [!UICONTROL Visual Experience Composer] ージに対して一般設定を指定できます。
 
-![ 一般設定セクション ](/help/main/administrating-target/assets/general-settings.png)
+![&#x200B; 一般設定セクション &#x200B;](/help/main/administrating-target/assets/general-settings.png)
 
 以下の設定を使用できます。
 
@@ -66,7 +66,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 エクスペリエンスのプレビュー時に、使用するデバイスを追加できます。各デバイスにはオーディエンスが関連付けられています。
 
-![ モバイルビューポート設定セクション ](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![&#x200B; モバイルビューポート設定セクション &#x200B;](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
 「**[!UICONTROL Add]**」をクリックし、モバイルビューポートのわかりやすい名前を指定します。次に、幅と高さを指定し、目的のオペレーティングシステムを選択して「[!UICONTROL Save]」をクリックします。
 
@@ -76,7 +76,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 [!DNL Target]で CSS セレクターを生成する方法を指定します。
 
-![CSS セレクターセクション ](/help/main/administrating-target/assets/css-selectors.png)
+![CSS セレクターセクション &#x200B;](/help/main/administrating-target/assets/css-selectors.png)
 
 これらのオプションを使用すると、[!DNL Target]に対してサイトの構造を指定して、コンテンツ配信により適した CSS セレクターを生成できます。デフォルトで、[!DNL Target]はページ上の要素 ID に基づいてセレクターを生成します。サイトで使用されている ID が少ない場合、または同じページ上に重複する ID が存在する場合は、クラスを使用することをお勧めします。
 
@@ -100,7 +100,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 >
 >アクティビティごとに設定を上書きする機能は、[!UICONTROL Automated Personalization] アクティビティと [!UICONTROL Multivariate Testing] アクティビティでは使用できません。  セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
 
-## トレーニングビデオ：アカウント環境設定（7:33） ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：アカウント環境設定（7:33） ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、アカウント設定に関する情報を説明します。
 

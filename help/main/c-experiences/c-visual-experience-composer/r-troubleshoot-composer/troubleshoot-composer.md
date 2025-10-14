@@ -19,7 +19,7 @@ VEC は [!DNL Adobe Target] の主要機能の 1 つです。マーケティン�
 
 EEC は VEC の拡張機能で、まだ Target 実装に含まれていない iframe バスティングサイトまたはページのエクスペリエンスの編集を支援します。VEC でページを開こうとすると問題が発生する場合は、EEC を試してください。
 
-VEC と EEC については、[ エクスペリエンス ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) を参照してください。
+VEC と EEC については、[&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) を参照してください。
 
 VEC と EEC の両方に影響する問題と、これら 2 つのコンポーザーのうち 1 つのみに影響する問題があることに注意してください。詳しくは、該当するページを参照してください。
 

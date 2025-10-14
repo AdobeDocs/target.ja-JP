@@ -15,7 +15,7 @@ ht-degree: 71%
 
 [!DNL Real-Time Customer Data Platform]（RTCDP）は、[!DNL Adobe Experience Platform] にビルドされ、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。RTCDP では、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
 
-RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要 ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank} を参照してください。
+RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank} を参照してください。
 
 ## 主な機能
 
@@ -63,7 +63,7 @@ RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要 ](htt
 
 ## [!DNL Adobe Experience Platform] のオーディエンスの使用 {#aep}
 
-[!DNL Adobe Experience Platform] で作成された[オーディエンス](/help/main/c-target/c-audiences/audiences.md)を使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データがを取得できます。[ 上に構築された ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank}Real-Time Customer Data Platform[!DNL Adobe Experience Platform] （RTCDP）は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
+[!DNL Adobe Experience Platform] で作成された[オーディエンス](/help/main/c-target/c-audiences/audiences.md)を使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データがを取得できます。[&#x200B; 上に構築された &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank}Real-Time Customer Data Platform[!DNL Adobe Experience Platform] （RTCDP）は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
 
 [!DNL Target] を [!DNL Real-Time Customer Data Platform] に接続することで、顧客は web パーソナライゼーションを強化できます。この統合により、以前は [!DNL Target] にアクセスできなかった可能性のある新しいセグメントのロックを解除して、顧客の web 訪問の最初のページでミリ秒単位のリアルタイムのパーソナライゼーションが可能になります。[!DNL Adobe Experience Platform] で作成されたオーディエンスとプロファイル属性を使用すると、利用可能なデータポイントを拡張して、パーソナライゼーションを強化できます。
 
@@ -91,7 +91,7 @@ Real-Time CDP プロファイル属性は、HTML オファーおよび [JSON オ
 
 AEP／統合プロファイル属性を [!DNL Target] と共有するための JSON オファーを作成するには：
 
-1. [JSON オファーの作成 ](/help/main/c-experiences/c-manage-content/create-json-offer.md) 中に、**[!UICONTROL Select a source]** リストから「**[!UICONTROL Adobe Experience Platform]**」を選択します。
+1. [JSON オファーの作成 &#x200B;](/help/main/c-experiences/c-manage-content/create-json-offer.md) 中に、**[!UICONTROL Select a source]** リストから「**[!UICONTROL Adobe Experience Platform]**」を選択します。
 1. **[!UICONTROL Select a profile sandbox name]** リストから目的のサンドボックスを選択します。
 1. **[!UICONTROL Select a profile attribute]** リストから、目的の属性を選択します。
 1. （オプション） **[!UICONTROL Insert a default value]** リストから、目的の値を選択します。
@@ -105,12 +105,12 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 詳しくは、次のトピックを参照してください。
 
-* [2&rbrace;Adobe Experience Platform リリースノートの ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja#destinations){target=_blank} 宛先リリースノート **
-* [ 宛先の概要 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja){target=_blank} ガイドの *同じページと次のページのパーソナライゼーションに対するパーソナライゼーションの宛先の設定*。
-* [ 宛先の概要 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja){target=_blank} ガイドの *Adobe Target接続*
-* [ 宛先の概要 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank} ガイドの *属性のマッピング*。
-* [ 宛先の概要 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=ja){target=_blank} ガイドの *エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化*。
-* [ 宛先の概要  [!DNL Adobe Target]  ガイドの ](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=ja#same-next-page-personalization){target=_blank} よくある質問」の *およびカスタム Personalizationの宛先を使用した、同じページおよび次のページのパーソナライゼーション*。
+* [2&rbrace;Adobe Experience Platform リリースノートの &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja#destinations){target=_blank} 宛先リリースノート **
+* [&#x200B; 宛先の概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja){target=_blank} ガイドの *同じページと次のページのパーソナライゼーションに対するパーソナライゼーションの宛先の設定*。
+* [&#x200B; 宛先の概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja){target=_blank} ガイドの *Adobe Target接続*
+* [&#x200B; 宛先の概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank} ガイドの *属性のマッピング*。
+* [&#x200B; 宛先の概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=ja){target=_blank} ガイドの *エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化*。
+* [&#x200B; 宛先の概要  [!DNL Adobe Target]  ガイドの &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=ja#same-next-page-personalization){target=_blank} よくある質問」の *およびカスタム Personalizationの宛先を使用した、同じページおよび次のページのパーソナライゼーション*。
 
 ## ビデオおよびブログ投稿 {#videos-blogs}
 
@@ -120,7 +120,7 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 [!DNL Real-Time Customer Data Platform] と [!DNL Adobe Target] を使用して、次のヒットでパーソナライズする方法を説明します。[!DNL Real-Time CDP] の [!DNL Adobe Target] 宛先では、[!DNL Adobe Target] の [!DNL Experience Platform] セグメントを使用して、ガバナンスとプライバシーをサポートする同じページのパーソナライゼーションと次のページのパーソナライゼーションを行うことができます。
 
-詳しくは、[Platform チュートリアル ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja){target=_blank} ガイドの *Real-Time CDPとAdobe Targetによる次のヒットのパーソナライゼーション* を参照してください。
+詳しくは、[Platform チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja){target=_blank} ガイドの *Real-Time CDPとAdobe Targetによる次のヒットのパーソナライゼーション* を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 

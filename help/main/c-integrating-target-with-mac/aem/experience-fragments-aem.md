@@ -33,9 +33,9 @@ ht-degree: 31%
    * [[!UICONTROL Multivariate Test] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] （VEC）と [ フォームベースの Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) を使用して、[ アクティビティで ](/help/main/c-experiences/form-experience-composer.md) を使用できます。
+* [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] （VEC）と [&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) を使用して、[&#x200B; アクティビティで &#x200B;](/help/main/c-experiences/form-experience-composer.md) を使用できます。
 
-AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] について詳しくは、[AEM [!UICONTROL Experience Fragments] およびコンテンツフラグメントの概要 ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) を参照してください。
+AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] について詳しくは、[AEM [!UICONTROL Experience Fragments] およびコンテンツフラグメントの概要 &#x200B;](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) を参照してください。
 
 ## 要件 {#requirements}
 
@@ -59,7 +59,7 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 詳しくは、次を参照してください。
 
 * **AEM as a Cloud Service**: [4&rbrace;Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} ガイドの &lbrace;Adobe Targetとの統合 *。*
-* **Adobe Developer**: [ 管理ユーザーガイド ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=ja){target=_blank} ドキュメントの *Adobe I/O を使用したAdobe Targetとの統合*。
+* **Adobe Developer**: [&#x200B; 管理ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=ja){target=_blank} ドキュメントの *Adobe I/O を使用したAdobe Targetとの統合*。
 * **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ja){target=_blank}。
 * **[!DNL AEM]6.4**：*Adobe Experience Manager 6.4* ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja){target=_blank}。
 
@@ -84,7 +84,7 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 
 [!DNL AEM] のバージョンに応じて、次のリンクを参照して手順を確認してください。
 
-* **AEM as a Cloud Service**: [5&rbrace;Experience Manager as a Cloud Service[!UICONTROL Experience Fragments] ガイドの &lbrace;Adobe Targetへの ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} の書き出し *。*
+* **AEM as a Cloud Service**: [5&rbrace;Experience Manager as a Cloud Service[!UICONTROL Experience Fragments] ガイドの &lbrace;Adobe Targetへの &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} の書き出し *。*
 * **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=ja){target=_blank}。
 * **[!DNL AEM]6.4**：*Adobe Experience Manager 6.4* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ja){target=_blank}。
 
@@ -100,11 +100,11 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 
 ![エクスペリエンスフラグメントタイプでのフィルタリング：Target UI の HTML または JSON](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-リスト内の [!UICONTROL Experience Fragment] にポインタを合わせ、「[!UICONTROL View]」アイコン ![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg) をクリックすると、[!UICONTROL Experience Fragment]、[!UICONTROL Name]、[!UICONTROL Type]、[!UICONTROL Offer ID]、最終変更情報など、[!UICONTROL Offer path] に関する追加情報が表示されます。 [!UICONTROL [!UICONTROL View Full Details]] をクリックして、このオファーを参照するアクティビティを表示します。
+リスト内の [!UICONTROL Experience Fragment] にポインタを合わせ、「[!UICONTROL View]」アイコン ![&#x200B; 情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg) をクリックすると、[!UICONTROL Experience Fragment]、[!UICONTROL Name]、[!UICONTROL Type]、[!UICONTROL Offer ID]、最終変更情報など、[!UICONTROL Offer path] に関する追加情報が表示されます。 [!UICONTROL [!UICONTROL View Full Details]] をクリックして、このオファーを参照するアクティビティを表示します。
 
 ![エクスペリエンスフラグメント情報ポップアップ](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 
-[!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] （VEC）と [ フォームベースの Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) を使用して、[ アクティビティで ](/help/main/c-experiences/form-experience-composer.md) を使用できます。
+[!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] （VEC）と [&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) を使用して、[&#x200B; アクティビティで &#x200B;](/help/main/c-experiences/form-experience-composer.md) を使用できます。
 
 >[!TIP]
 >
@@ -112,7 +112,7 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 >
 >* [!DNL Target] の AI 機能と ML 機能を最大限に活用するには、アクティビティの作成時、[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)または[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を選択してください。
 >
->* [!UICONTROL Experience Fragments] は [!DNL Recommendations] アクティビティではサポートされていません。 ただし、Recommendations に [!UICONTROL Experience Fragments] を使用するには、[!UICONTROL A/B Test] アクティビティ（[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）または [!UICONTROL Experience Targeting] アクティビティ（XT）を作成して、[Recommendations をオファーとして含める ](/help/main/c-recommendations/recommendations-as-an-offer.md) ことができます。
+>* [!UICONTROL Experience Fragments] は [!DNL Recommendations] アクティビティではサポートされていません。 ただし、Recommendations に [!UICONTROL Experience Fragments] を使用するには、[!UICONTROL A/B Test] アクティビティ（[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）または [!UICONTROL Experience Targeting] アクティビティ（XT）を作成して、[Recommendations をオファーとして含める &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md) ことができます。
 
 **VEC を使用して [!UICONTROL Experience Fragments] を使用するには：**
 
@@ -138,11 +138,11 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
    * **エクスペリエンスターゲット設定（XT）：** [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **A/B テストまたは XT アクティビティのRecommendations：** [オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
-   [!UICONTROL Experience Fragments] で JSON として書き出された [!DNL Target] は、VEC を使用して作成されたアクティビティでは使用できません。VEC ベースのアクティビティでは、HTML [!UICONTROL Experience Fragments] のみがサポートされます。 JSON [!UICONTROL Experience Fragments] を使用する場合は、[ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用して作成されたアクティビティで使用します。
+   [!UICONTROL Experience Fragments] で JSON として書き出された [!DNL Target] は、VEC を使用して作成されたアクティビティでは使用できません。VEC ベースのアクティビティでは、HTML [!UICONTROL Experience Fragments] のみがサポートされます。 JSON [!UICONTROL Experience Fragments] を使用する場合は、[&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用して作成されたアクティビティで使用します。
 
 **[!UICONTROL Experience Fragments] を使用して [!UICONTROL Form-based Experience Composer] を使用するには：**
 
-1. [!DNL Target] の場合、[ フォームベース Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) でエクスペリエンスを作成または編集する際に、[!DNL AEM] コンテンツを挿入するページ上の場所を選択し、**[!UICONTROL More Details]** アイコン（![ 詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックして **[!UICONTROL Change Experience Fragment]** を選択し、[!UICONTROL Change Experience Fragment] ダイアログボックスを表示します。
+1. [!DNL Target] の場合、[&#x200B; フォームベース Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) でエクスペリエンスを作成または編集する際に、[!DNL AEM] コンテンツを挿入するページ上の場所を選択し、**[!UICONTROL More Details]** アイコン（![&#x200B; 詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックして **[!UICONTROL Change Experience Fragment]** を選択し、[!UICONTROL Change Experience Fragment] ダイアログボックスを表示します。
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
@@ -164,7 +164,7 @@ AEMで配信されるページで [!UICONTROL Experience Fragment] を使用し�
 
 HTML ページ全体で [!UICONTROL Experience Fragment] をラップし、問題を引き起こす場合があります。 [!UICONTROL Experience Fragment] がHTMLの小さな断片であり、HTML、HEAD、BODY などを含む完全なHTML ページではないことを確認します。
 
-詳しくは、次のブログ投稿（[AEM 6.5:Target に書き出された [!UICONTROL Experience Fragments] からの clientlibs の削除 ](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank} を参照してください。
+詳しくは、次のブログ投稿（[AEM 6.5:Target に書き出された [!UICONTROL Experience Fragments] からの clientlibs の削除 &#x200B;](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank} を参照してください。
 
 ## トレーニングビデオ：[!UICONTROL Experience Fragments] でのAEM [!DNL Adobe Target] の使用
 
@@ -176,4 +176,4 @@ HTML ページ全体で [!UICONTROL Experience Fragment] をラップし、問�
 >
 >4[!DNL AEM] で取り上げた :54 ディープリンク機能は削除されました。
 
-詳しくは、[AEM Sitesのビデオとチュートリアル [!UICONTROL Experience Fragments] ページの ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ja)Adobe Targetでの *の使用* を参照してください。
+詳しくは、[AEM Sitesのビデオとチュートリアル [!UICONTROL Experience Fragments] ページの &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ja)Adobe Targetでの *の使用* を参照してください。

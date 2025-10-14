@@ -38,8 +38,8 @@ ht-degree: 13%
 
 次の Target 呼び出し例について考えてみます。
 
-![Target 呼び出し ](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+![Target 呼び出し &#x200B;](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
 訪問者が表示しているページには、モバイルデバイス製品が表示されます。
 
-![ モバイル機器製品 ](/help/main/c-recommendations/c-algorithms/assets/phones.png)
+![&#x200B; モバイル機器製品 &#x200B;](/help/main/c-recommendations/c-algorithms/assets/phones.png)

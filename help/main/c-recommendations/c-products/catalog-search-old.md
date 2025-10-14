@@ -22,7 +22,7 @@ ht-degree: 22%
 
 [!UICONTROL Catalog Search] ページにアクセスするには、**[!UICONTROL Recommendations]**/**[!UICONTROL Catalog Search]** をクリックします。
 
-![ カタログ検索ページ ](/help/main/c-recommendations/c-products/assets/catalog-search.png)
+![&#x200B; カタログ検索ページ &#x200B;](/help/main/c-recommendations/c-products/assets/catalog-search.png)
 
 ## 項目を検索
 
@@ -34,7 +34,7 @@ ht-degree: 22%
 
 1. （オプション）検索フィールドの下向き矢印をクリックしたときに表示されるオプション メニューから検索オプションを選択して、検索を絞り込むことができます。
 
-   ![searchproductsmenu 画像 ](assets/searchproductsmenu.png)
+   ![searchproductsmenu 画像 &#x200B;](assets/searchproductsmenu.png)
 
    次の検索オプションがあります。
 
@@ -49,13 +49,13 @@ ht-degree: 22%
 
    次の図は、「すべて」オプションを使用した「bike」の結果を示しています。
 
-   ![ 自転車のカタログ検索 ](/help/main/c-recommendations/c-products/assets/bike-results.png)
+   ![&#x200B; 自転車のカタログ検索 &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results.png)
 
    「製品」のとなりに表示されている数字は、指定された環境での有効数の中で検索語句に一致した製品の数です。
 
    検索のオートコンプリート機能を使用できることに注意してください。 次の図では、「bik」と入力すると、「bike」という単語を含むすべての製品が返されます。
 
-   ![ オートコンプリートを検索 ](/help/main/c-recommendations/c-products/assets/bike-results-2.png)
+   ![&#x200B; オートコンプリートを検索 &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-2.png)
 
    >[!NOTE]
    >
@@ -65,19 +65,19 @@ ht-degree: 22%
 
 1. また、フィルターを使用して、目的の製品を見つけることもできます。 次の例では、[!UICONTROL Collections] ファセットを展開して「Bike Tools」を選択すると、カタログ内のすべての自転車ツールが表示されます。
 
-   ![ 自転車用具 ](/help/main/c-recommendations/c-products/assets/bike-results-3.png)
+   ![&#x200B; 自転車用具 &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-3.png)
 
 1. 検索語（「chain」など）を入力すると、結果リストをさらに検索できます。
 
-   ![ チェーンの検索 ](/help/main/c-recommendations/c-products/assets/bike-results-4.png)
+   ![&#x200B; チェーンの検索 &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-4.png)
 
 ### 詳細検索の実行 {#advanced-search}
 
-[!UICONTROL Advanced Search] を使用して、検索結果をさらに絞り込んだり、検索結果を [ コレクション ](/help/main/c-recommendations/c-products/collections.md) または [ 除外 ](/help/main/c-recommendations/c-products/exclusions.md) として保存したりできます。
+[!UICONTROL Advanced Search] を使用して、検索結果をさらに絞り込んだり、検索結果を [&#x200B; コレクション &#x200B;](/help/main/c-recommendations/c-products/collections.md) または [&#x200B; 除外 &#x200B;](/help/main/c-recommendations/c-products/exclusions.md) として保存したりできます。
 
 1. **[!UICONTROL Advanced Search]** リンクをクリックします。
 
-   ![ 詳細検索ページ ](/help/main/c-recommendations/c-products/assets/advances-search.png)
+   ![&#x200B; 詳細検索ページ &#x200B;](/help/main/c-recommendations/c-products/assets/advances-search.png)
 
 1. ドロップダウンリストを使用して、検索のパラメーター、演算子、値を指定します。
 
@@ -89,9 +89,9 @@ ht-degree: 22%
 
 1. （オプション）「**[!UICONTROL Save As]**」をクリックして、「**[!UICONTROL Collection]**」または「**[!UICONTROL Exclusion]**」をクリックします。
 
-   ![ 別名で保存オプション ](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![&#x200B; 別名で保存オプション &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-   詳しくは、以下の [ 詳細検索に基づくコレクションまたは除外の作成 ](#save-as) を参照してください。
+   詳しくは、以下の [&#x200B; 詳細検索に基づくコレクションまたは除外の作成 &#x200B;](#save-as) を参照してください。
 
 ## 項目の詳細の表示
 
@@ -99,7 +99,7 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 1. 詳細を表示するには、検索結果内の項目をクリックします。
 
-   ![ 製品詳細 ](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
+   ![&#x200B; 製品詳細 &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
 
 ## カタログからのアイテムの削除
 
@@ -113,19 +113,19 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 ## カタログを更新
 
-カタログのインデックスは、最初のフィードをアップロードすると自動的に作成され、[ 指定されたスケジュール ](/help/main/c-recommendations/c-products/feeds.md#steps) に従って更新されます。
+カタログのインデックスは、最初のフィードをアップロードすると自動的に作成され、[&#x200B; 指定されたスケジュール &#x200B;](/help/main/c-recommendations/c-products/feeds.md#steps) に従って更新されます。
 
 カタログは、フィードファイル、API または mbox の更新を介して更新を受け取ると、自動的に更新されます。更新は、通常、1 時間で完了します。更新が進行中の場合、最も新しく更新を開始した時間が表示されます。更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
 
 ## 詳細検索に基づいたコレクションまたは除外の作成 {#save-as}
 
-[ ページ（](/help/main/c-recommendations/c-products/collections.md)/[/](/help/main/c-recommendations/c-products/exclusions.md)）の [!UICONTROL Advanced Search] を使用して [!UICONTROL Catalog Search] コレクション [!UICONTROL Recommendations] または [!UICONTROL Catalog Search] 除外 [!UICONTROL Advanced Search] を作成できます。
+[&#x200B; ページ（](/help/main/c-recommendations/c-products/collections.md)/[/](/help/main/c-recommendations/c-products/exclusions.md)）の [!UICONTROL Advanced Search] を使用して [!UICONTROL Catalog Search] コレクション [!UICONTROL Recommendations] または [!UICONTROL Catalog Search] 除外 [!UICONTROL Advanced Search] を作成できます。
 
-1. [ 詳細検索 ](#advanced-search) を実行します。
+1. [&#x200B; 詳細検索 &#x200B;](#advanced-search) を実行します。
 
 1. 「**[!UICONTROL Save As]**」をクリックし、「**[!UICONTROL Collection]**」または「**[!UICONTROL Exclusion]**」をクリックします。
 
-   ![ 別名で保存オプション ](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![&#x200B; 別名で保存オプション &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >
@@ -133,11 +133,11 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 ## 環境の変更
 
-[ 環境 ](/help/main/administrating-target/environments.md) を使用すると、サイトと実稼動前の環境を整理し、管理と環境別レポートを容易にできます。
+[&#x200B; 環境 &#x200B;](/help/main/administrating-target/environments.md) を使用すると、サイトと実稼動前の環境を整理し、管理と環境別レポートを容易にできます。
 
 1. 「環境」リンクをクリックします。
 
-   ![ 環境リンク ](/help/main/c-recommendations/c-products/assets/environment.png)
+   ![&#x200B; 環境リンク &#x200B;](/help/main/c-recommendations/c-products/assets/environment.png)
 
 1. 目的の環境を選択します。
 
@@ -151,11 +151,11 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 1. **[!UICONTROL Filters]** パネルで、「**[!UICONTROL Modify]**」をクリックします。
 
-   ![ 「フィルターを変更」リンク ](/help/main/c-recommendations/c-products/assets/modify-filters.png)
+   ![&#x200B; 「フィルターを変更」リンク &#x200B;](/help/main/c-recommendations/c-products/assets/modify-filters.png)
 
 1. 目的の検索ファセット（ID、名前、メッセージなど）を選択し、「**[!UICONTROL Save]**」をクリックします。
 
-   ![ フィルターの追加 ](/help/main/c-recommendations/c-products/assets/add-filters.png)
+   ![&#x200B; フィルターの追加 &#x200B;](/help/main/c-recommendations/c-products/assets/add-filters.png)
 
 追加のフィルターファセットは、現在のセッションでのみ使用できます。
 
@@ -165,7 +165,7 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 1. **[!UICONTROL Columns]** リンクをクリックします。
 
-   ![ 列オプション ](/help/main/c-recommendations/c-products/assets/columns.png)
+   ![&#x200B; 列オプション &#x200B;](/help/main/c-recommendations/c-products/assets/columns.png)
 
 1. （条件付き）アクティブな列の順序を並べ替えるには、**[!UICONTROL Active Columns]** セクションの列を目的の順序でドラッグ&amp;ドロップします。
 

@@ -29,7 +29,7 @@ ht-degree: 20%
 
 * 訪問者がこのサイトを訪問するのは初めてです。
 * Cookie をクリアして以来、訪問者がサイトを訪問するのは初めてです。
-* [ 訪問者プロファイルの有効期間 ](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) が経過してから、訪問者がこのサイトを訪問するのは初めてです。
+* [&#x200B; 訪問者プロファイルの有効期間 &#x200B;](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) が経過してから、訪問者がこのサイトを訪問するのは初めてです。
 
 ### 再訪問者
 
@@ -53,7 +53,7 @@ ht-degree: 20%
 
 新規訪問者セグメントと再訪問者セグメントの両方でカウントされている場合でも、この訪問者はアクティビティの全体的な訪問者数で 1 人の訪問者としてカウントされます。
 
-**例 2**：新規訪問者と再訪問者のカウント間の不一致も、アクティビティの [ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md) の設定方法によって異なります。
+**例 2**：新規訪問者と再訪問者のカウント間の不一致も、アクティビティの [&#x200B; 成功指標 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md) の設定方法によって異なります。
 
 次に例を示します。
 
@@ -113,18 +113,18 @@ XT アクティビティには、常にコントロールエクスペリエン�
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] （AP）アクティビティを更新し、コントロールエクスペリエンスをトラフィックを受け取るエクスペリエンスに変更する方法について詳しくは、[Automated Personalizationまたは自動ターゲットアクティビティのコントロールを選択 ](/help/main/c-activities/t-automated-personalization/experience-as-control.md) を参照してください。
+>[!UICONTROL Automated Personalization] （AP）アクティビティを更新し、コントロールエクスペリエンスをトラフィックを受け取るエクスペリエンスに変更する方法について詳しくは、[Automated Personalizationまたは自動ターゲットアクティビティのコントロールを選択 &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md) を参照してください。
 
 
 ## A/B または MVT アクティビティで、エクスペリエンス間のトラフィック配分が不均等なのはなぜですか。 {#uneven}
 
 例えば、トラフィックの割合を 50/50 または 25/25/25/25 に設定したのに、レポートではエクスペリエンス間の配分が大きく異なることがわかります。 [!DNL Target] レポートで訪問者の数が不均等になる理由はいくつか考えられます。
 
-* [!DNL Target] アクティビティを初めて起動すると、エクスペリエンス配信の最適化にを使用するエッジノードアーキテクチャが原因で、トラフィックの分布が不均等になる場合が [!DNL Target] ります。 ベストプラクティスは、より多くのデータを収集するための時間をアクティビティに与えることです。これにより、分布が正規化されます。 [!DNL Adobe Target] アーキテクチャとEdge ノードについて詳しくは、[Adobe Targetの仕組み ](/help/main/c-intro/how-target-works.md) を参照してください。
+* [!DNL Target] アクティビティを初めて起動すると、エクスペリエンス配信の最適化にを使用するエッジノードアーキテクチャが原因で、トラフィックの分布が不均等になる場合が [!DNL Target] ります。 ベストプラクティスは、より多くのデータを収集するための時間をアクティビティに与えることです。これにより、分布が正規化されます。 [!DNL Adobe Target] アーキテクチャとEdge ノードについて詳しくは、[Adobe Targetの仕組み &#x200B;](/help/main/c-intro/how-target-works.md) を参照してください。
 * [!DNL Target] または [!DNL Analytics] で **[!UICONTROL Visits]** 指標を使用している場合は、[!DNL Target] が訪問者ベースのシステムであり、A/B または MVT テストのトラフィック配分が訪問者レベルで割り当てられていることに注意してください。 そのため、**[!UICONTROL Visits]** 指標を使用してアクティビティの結果を調べると、特定の訪問者が複数回訪問する可能性があるので、トラフィック分布が不均等に見える場合があります。 訪問者数は、アクティビティのパフォーマンスを評価する際の標準的な標準化指標です。
 * A/B テストと MVT テストのベストプラクティスは、トラフィックの分割を均等に保つことです。 テスト中にエクスペリエンス間のトラフィック分布を変更（例えば、90/10 から 50/50）すると、エクスペリエンス間で訪問者が不均等になる可能性があります。 低いトラフィックエクスペリエンスは決して「追いつくことができない」可能性があります。
 * 上記のベストプラクティスに従っていて、トラフィック配分が時間の経過と共に正規化されない場合は、次の点を確認する必要があります。
 
-   * 最新の at.js ライブラリを使用していますか。 現在のバージョンと関連するリリースノートについて詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} を参照してください。
+   * 最新の at.js ライブラリを使用していますか。 現在のバージョンと関連するリリースノートについて詳しくは、[at.js のバージョンの詳細 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} を参照してください。
 
-   * これはリダイレクトテストですか。 ページでタグが実行されるタイミングが正しくないと、特に [!DNL Analytics] を [!DNL Target] アクティビティのデータソースとして使用する場合、トラフィックが不均等に分割される可能性があります。 Analytics for Target （A4T）によるリダイレクトアクティビティのトラフィック配分の不均等を修正する詳細については、[ リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) を参照してください。
+   * これはリダイレクトテストですか。 ページでタグが実行されるタイミングが正しくないと、特に [!DNL Analytics] を [!DNL Target] アクティビティのデータソースとして使用する場合、トラフィックが不均等に分割される可能性があります。 Analytics for Target （A4T）によるリダイレクトアクティビティのトラフィック配分の不均等を修正する詳細については、[&#x200B; リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) を参照してください。

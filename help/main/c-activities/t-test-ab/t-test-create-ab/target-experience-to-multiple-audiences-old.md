@@ -39,7 +39,7 @@ ht-degree: 53%
 
 1. 「**[!UICONTROL Add Audience]**」をクリックして、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
 
-   ![exp-versions 画像 ](assets/exp-versions.png)
+   ![exp-versions 画像 &#x200B;](assets/exp-versions.png)
 
    オーディエンスがまだ存在しない場合は、「[オーディエンスを作成](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)」をクリックして設定します。
 

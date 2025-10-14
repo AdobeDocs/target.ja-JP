@@ -17,7 +17,7 @@ ht-degree: 61%
 
 成功指標について詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
-1. **[!UICONTROL Reporting Settings]** ページの「**[!UICONTROL Goals & Settings]**」セクションで、「[ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」を選択します。
+1. **[!UICONTROL Reporting Settings]** ページの「**[!UICONTROL Goals & Settings]**」セクションで、「[&#x200B; 成功指標 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」を選択します。
 
    「[!UICONTROL Select Metrics]」オプションには、アクティビティに対して選択できる成功指標が一覧表示されます。 成功指標は次のカテゴリに分類されます。
 
@@ -35,7 +35,7 @@ ht-degree: 61%
 
    成功指標の正しい設定は、期待するデータを確実に取得するために重要です。
 
-   詳しくは [ 、成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を参照してください。
+   詳しくは [&#x200B; 、成功指標 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を参照してください。
 
 1. （オプション）さらに指標を追加します。
 

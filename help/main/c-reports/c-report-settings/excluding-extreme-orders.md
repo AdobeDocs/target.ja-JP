@@ -30,7 +30,7 @@ ht-degree: 64%
 **レポートから極端な値を除外するには：**
 
 1. [!UICONTROL Revenue] または [!UICONTROL Engagement] の指標タイプを含むアクティビティを開き、「**[!UICONTROL Reports]**」タブをクリックします。
-1. レポート設定（![ レポート設定アイコン ](/help/main/assets/icons/Setting.svg)）アイコンをクリックして、**[!UICONTROL Settings]** ダイアログボックスを表示します。
+1. レポート設定（![&#x200B; レポート設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）アイコンをクリックして、**[!UICONTROL Settings]** ダイアログボックスを表示します。
 
 1. 必要に応じて、**[!UICONTROL Exclude Extreme Values]** 切り替えスイッチを「オン」または「オフ」の位置にスライドさせます。
 1. **[!UICONTROL Save]** をクリックします。

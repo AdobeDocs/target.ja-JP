@@ -16,11 +16,11 @@ ht-degree: 52%
 
 [!DNL Adobe Target] は、様々なデータを自動的に収集し、それを基に [!UICONTROL Automated Personalization] （AP）と [!UICONTROL Auto-Target] （AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。 訪問者が [!UICONTROL Automated Personalization] または [!UICONTROL Auto-Target] アクティビティに入ると、情報のスナップショットが一連の「トレーニングレコード」（パーソナライゼーションアルゴリズムが学習する訪問者データ）に渡されます。
 
-[!DNL Target] のパーソナライゼーションアルゴリズムについて詳しくは、[ ランダムフォレストアルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を参照してください。
+[!DNL Target] のパーソナライゼーションアルゴリズムについて詳しくは、[&#x200B; ランダムフォレストアルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を参照してください。
 
 ## デフォルトの [!DNL Target] 属性カテゴリ
 
-次の表に、[!UICONTROL Automated Personalization] やその他の [!UICONTROL Auto-Target] ソリューションの設定を行わずに、デフォルトで [!DNL Target] および [!DNL Adobe] アクティビティによって収集されるデータを示します。 この表には、[Personalization Insights レポート ](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) でこれらの属性を示すために使用される命名規則も含まれています。 入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[ パーソナライゼーションアルゴリズム用のデータ  [!DNL Target]  アップロード ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) を参照してください。
+次の表に、[!UICONTROL Automated Personalization] やその他の [!UICONTROL Auto-Target] ソリューションの設定を行わずに、デフォルトで [!DNL Target] および [!DNL Adobe] アクティビティによって収集されるデータを示します。 この表には、[Personalization Insights レポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) でこれらの属性を示すために使用される命名規則も含まれています。 入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[&#x200B; パーソナライゼーションアルゴリズム用のデータ  [!DNL Target]  アップロード &#x200B;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) を参照してください。
 
 | データカテゴリ | システムプレフィックス | 説明 | [!UICONTROL Insights] レポートの表示名 |
 | --- | --- | --- | --- |
@@ -38,10 +38,10 @@ ht-degree: 52%
 | --- | --- | --- | --- |
 | ページのパラメーター | BOX | [!DNL Target] への呼び出しで渡されるカスタムページパラメーター（「mbox パラメーター」）。 | カスタム - mbox パラメーター – [ パラメーター名 ] |
 | [!DNL Target] profile | PRO | カスタムプロファイル属性は、API またはページパラメーターと [!DNL Target] プロファイルスクリプトを介して、[!DNL Target] プロファイルに直接アップロードされます。 | カスタム – 訪問者プロファイル - [ 属性名 ] |
-| 顧客属性 | CRS | [!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service] 経由で ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja){target=_blank} プロファイルにアップロードされた顧客属性。 | カスタム – 訪問者プロファイル - [ 属性名 ] |
+| 顧客属性 | CRS | [!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service] 経由で &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja){target=_blank} プロファイルにアップロードされた顧客属性。 | カスタム – 訪問者プロファイル - [ 属性名 ] |
 | URL パラメーター | URL | 現在表示されているページの URL および URL パラメーター。 | カスタム - URL パラメーター – [URL パラメーター ] |
 | 参照 URL | 参照 | 参照 URL と参照 URL の任意の URL パラメーター。 | カスタム - [ 参照 URL パラメーター ] - [ パラメーター値 ] |
-| [!DNL Adobe Experience Cloud] 共有オーディエンス | AAM | 他の [!DNL Target] ソリューションの [!DNL Adobe Experience Cloud] と共有されるすべてのオーディエンス（[!DNL Adobe Audience Manager][!DNL Adobe Analytics] を介した [[!DNL Experience Cloud Audience Library] や ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target=_blank} など）。 | カスタム - Experience Cloud オーディエンス - [ オーディエンス名 ] |
+| [!DNL Adobe Experience Cloud] 共有オーディエンス | AAM | 他の [!DNL Target] ソリューションの [!DNL Adobe Experience Cloud] と共有されるすべてのオーディエンス（[!DNL Adobe Audience Manager][!DNL Adobe Analytics] を介した [[!DNL Experience Cloud Audience Library] や &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target=_blank} など）。 | カスタム - Experience Cloud オーディエンス - [ オーディエンス名 ] |
 | [!DNL Adobe Experience Platform Real-time CDP] オーディエンス | UPS | [!DNL Target] を介して [!UICONTROL Destinations] と共有される Platform Real-time CDP オーディエンス。 |  |
 
 
@@ -49,7 +49,7 @@ ht-degree: 52%
 
 機能は機械学習アルゴリズム [!DNL Target] ブロックし、[!UICONTROL Automated Personalization] ーザーや [!UICONTROL Auto-Target] のモデルまたはアクティビティで使用されないようにすることができます。
 
-詳しくは、[ 開発者ガイドの ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank}Models API （ブロックリストへの登録）の概要 *[!DNL Adobe Target]を参照してください*。
+詳しくは、[&#x200B; 開発者ガイドの &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank}Models API （ブロックリストへの登録）の概要 *[!DNL Adobe Target]を参照してください*。
 
 ## デバイスとモバイルデータ {#device-mobile}
 

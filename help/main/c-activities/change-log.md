@@ -26,8 +26,8 @@ ht-degree: 1%
 
 ## Target 監査ログ API
 
-* [ リビジョン：最終作成者名と変更後のタイムスタンプから監査ログを取得します ](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
-* [ リストアクティビティの変更ログ ](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+* [&#x200B; リビジョン：最終作成者名と変更後のタイムスタンプから監査ログを取得します &#x200B;](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [&#x200B; リストアクティビティの変更ログ &#x200B;](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
 
 
 

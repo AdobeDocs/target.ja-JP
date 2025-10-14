@@ -23,7 +23,7 @@ ht-degree: 25%
 >
 >* AJAX mbox （`mboxUpdate`）では、リダイレクトオファーを使用できません。
 >
->* [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。[ リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
+>* [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。[&#x200B; リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
 >
 >* リダイレクトするエクスペリエンスの設定については、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を参照してください。
 
@@ -41,7 +41,7 @@ ht-degree: 25%
 
    わかりやすい名前を指定すると、作成者や他のユーザーが [!UICONTROL Assets] ライブラリでオファーをすばやく見つけやすくなります。
 
-1. （条件付き） [Target Premium アカウント ](/help/main/c-intro/intro.md#premium) をお持ちの場合は、目的の [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を選択します。
+1. （条件付き） [Target Premium アカウント &#x200B;](/help/main/c-intro/intro.md#premium) をお持ちの場合は、目的の [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を選択します。
 
 1. リダイレクト先となる一意のコンテンツまたは宛先の URL を指定します。 この URL は絶対 URL である必要があります。
 
@@ -67,8 +67,8 @@ ht-degree: 25%
 
 ## [!UICONTROL Form-Based Experience Composer] を使用したリダイレクトオファーの作成
 
-1. [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
-1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Redirect Offer]**」をクリックします。
+1. [&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
+1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![&#x200B; リスト &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Redirect Offer]**」をクリックします。
 1. **[!UICONTROL Create Offer]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
 1. オファーのわかりやすい名前を入力します。
 
@@ -104,10 +104,10 @@ ht-degree: 25%
 
 1. [!UICONTROL Form-Based Experience Composer] でアクティビティを作成または編集します。
 
-   詳しい手順については、[ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   詳しい手順については、[&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
 1. 目的の場所を指定し、必要に応じてオーディエンスの絞り込みを追加します。
 
-1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Redirect Offer]**」をクリックします。
+1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![&#x200B; リスト &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Redirect Offer]**」をクリックします。
 1. [!UICONTROL Select Redirect Offer] ダイアログボックスで目的のリダイレクトオファーを選択し、「**[!UICONTROL Add]**」をクリックします。
 1. アクティビティの設定を終了します。

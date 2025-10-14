@@ -49,9 +49,9 @@ ht-degree: 32%
 
 * 2 つ以上の [!DNL Target] リダイレクトオファー
 
-  [ リダイレクトオファーの作成 ](/help/main/c-experiences/c-manage-content/offer-redirect.md) を参照してください。
+  [&#x200B; リダイレクトオファーの作成 &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md) を参照してください。
 
-* 各オファーのエクスペリエンスと目的の [!DNL Target] 成功指標 [ を持つ ](/help/main/c-activities/r-success-metrics/success-metrics.md) アクティビティ。
+* 各オファーのエクスペリエンスと目的の [!DNL Target] 成功指標 [&#x200B; を持つ &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md) アクティビティ。
 
   [URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)を参照してください。
 

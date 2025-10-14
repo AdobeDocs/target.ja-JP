@@ -40,11 +40,11 @@ ht-degree: 40%
    * [[!UICONTROL Multivariate Test] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] （VEC）と [ フォームベースの Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) を使用して、[ アクティビティで ](/help/main/c-experiences/form-experience-composer.md) を使用できます。
-* [!UICONTROL Content Fragments] フォームベースの Experience Composer[!DNL Target] のみを使用して、[ アクティビティで ](/help/main/c-experiences/form-experience-composer.md) を使用できます。
+* [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] （VEC）と [&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) を使用して、[&#x200B; アクティビティで &#x200B;](/help/main/c-experiences/form-experience-composer.md) を使用できます。
+* [!UICONTROL Content Fragments] フォームベースの Experience Composer[!DNL Target] のみを使用して、[&#x200B; アクティビティで &#x200B;](/help/main/c-experiences/form-experience-composer.md) を使用できます。
 
 ## [!UICONTROL Experience Fragments] と [!UICONTROL Content Fragments] の違いは何ですか。
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] と [!UICONTROL Content Fragments] は表面的には似ているように見えるかもしれませんが、各フラグメントタイプは様々なユースケースで重要な役割を果たします。
 
-[!UICONTROL Experience Fragments] と [!UICONTROL Content Fragments] の類似点、相違点およびそれぞれを使用するタイミングと方法について詳しくは、[[!UICONTROL Content Fragments] と [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=ja){target=_blank} について [AEM Sitesのビデオとチュートリアルガイド ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=ja){target=_blank} を参照してください。
+[!UICONTROL Experience Fragments] と [!UICONTROL Content Fragments] の類似点、相違点およびそれぞれを使用するタイミングと方法について詳しくは、[[!UICONTROL Content Fragments] と [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=ja){target=_blank} について [AEM Sitesのビデオとチュートリアルガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=ja){target=_blank} を参照してください。

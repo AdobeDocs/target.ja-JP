@@ -43,11 +43,11 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 
 ![コンソールエラーメッセージ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-[!UICONTROL Visual Experience Composer] も [!UICONTROL Enhanced Experience Composer] も機能しない場合は、[!DNL Requestly] （[!DNL Chrome] または [!DNL Firefox]）や Modify Response Headers （Firefox）などのブラウザー拡張機能を使用して、サイトの X-Frames ヘッダーオプションを上書きし、iFrames に読み込んで VEC を有効にします。 ブラウザー拡張機能を使用できない場合は、[ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用します。
+[!UICONTROL Visual Experience Composer] も [!UICONTROL Enhanced Experience Composer] も機能しない場合は、[!DNL Requestly] （[!DNL Chrome] または [!DNL Firefox]）や Modify Response Headers （Firefox）などのブラウザー拡張機能を使用して、サイトの X-Frames ヘッダーオプションを上書きし、iFrames に読み込んで VEC を有効にします。 ブラウザー拡張機能を使用できない場合は、[&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用します。
 
 >[!NOTE]
 >
->[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] に、次の情報に加えて ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) [!DNL Google Chrome] 拡張機能を使用できます。
+>[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] に、次の情報に加えて &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) [!DNL Google Chrome] 拡張機能を使用できます。
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 
       * **[!UICONTROL Equals]** をソース URL の条件として **[!UICONTROL Contains]** に変更し、VEC に読み込もうとするアクティビティの URL を入力します。
 
-     ![chrome_extension 画像 ](assets/chrome_extension.png)
+     ![chrome_extension 画像 &#x200B;](assets/chrome_extension.png)
 
 1. **[!UICONTROL Save]** をクリックします。
 
@@ -104,7 +104,7 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 1. **[!UICONTROL Add]** をクリックします。
 1. **[!UICONTROL Start]** をクリックします。
 
-![Firefox 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
+![Firefox 拡張機能 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
 拡張機能を設定したら、[!DNL Target] を開きます。 [!UICONTROL Visual Experience Composer] が無効になっている場合でも、ページが [!UICONTROL Enhanced Experience Composer] に読み込まれるはずです。
 
@@ -152,7 +152,7 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 
 この問題は、VEC が `<iframe>` で web ページを読み込むために発生します。 現在のブラウザーのセキュリティメカニズムでは、同じオリジンポリシーが原因で、[!DNL Target] UI が特定のフレームの要素にアクセスできません。 ブラウザーが、`location.href` などの情報を含む、別のオリジンのフレームにアクセスしようとするスクリプトをブロックします。
 
-最適に参照するには、新しい [Visual Editing Helper 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) を使用して、[!DNL Target] ライブラリをページに挿入する必要があります。
+最適に参照するには、新しい [Visual Editing Helper 拡張機能 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) を使用して、[!DNL Target] ライブラリをページに挿入する必要があります。
 
 +++
 

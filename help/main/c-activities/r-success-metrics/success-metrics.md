@@ -27,14 +27,14 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->[ レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティの場合、目標指標は常に「[!UICONTROL Increment Count & Keep User in Activity]」設定と「[!UICONTROL On Every Impression]」設定を使用します。 これらの設定は、*変更できません*。
+>[&#x200B; レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティの場合、目標指標は常に「[!UICONTROL Increment Count & Keep User in Activity]」設定と「[!UICONTROL On Every Impression]」設定を使用します。 これらの設定は、*変更できません*。
 
 [!UICONTROL Reporting Settings] の手順の [!UICONTROL Activity Settings page] の [!UICONTROL Goals & Settings] セクションでは、次の成功指標を設定できます。
 
 | 成功指標 | 測定アプローチ | 定義 |
 |--- |--- |--- |
 | [!UICONTROL Conversion] | コンバージョンベース | コンバージョンとは、訪問者が、定義したサイトに対して、次のようなアクションを実行するときです。 <ul><li>ページが表示された</li><li>mbox が表示された</li><li>要素をクリックしました</li></ul>コンバージョンは訪問者ごとに 1 回としてカウントすることも、訪問者がコンバージョンを達成するたびにカウントすることもできます。 |
-| [!UICONTROL Revenue] | コンバージョンベース | 訪問者によって生成された売上高。選択できる売上高指標は 1 つだけです。<ul><li>mbox が表示された</li></ul>収益成功指標に関連するように更新された [!DNL Target] UI の変更について詳しくは、以下の [ 更新  [!DNL Target] UI の変更 ](#changes) を参照してください。 |
+| [!UICONTROL Revenue] | コンバージョンベース | 訪問者によって生成された売上高。選択できる売上高指標は 1 つだけです。<ul><li>mbox が表示された</li></ul>収益成功指標に関連するように更新された [!DNL Target] UI の変更について詳しくは、以下の [&#x200B; 更新  [!DNL Target] UI の変更 &#x200B;](#changes) を参照してください。 |
 | [!UICONTROL Engagement] | エンゲージメントベース | 訪問によって生成されたエンゲージメント。 次のエンゲージメント指標から選択できます。<UL><li>ページビュー：各ユニーク訪問は、コンバージョンとしてカウントされます。</li><li>[!UICONTROL Custom Scoring]：サイト上で訪問したページに割り当てられた値に基づいて計算された集計スコアです。訪問者が最初にアクティビティの最初の表示 [!DNL Target] ータリクエストを見た時点からの数字になります。</li>[!DNL Time on Site]：訪問者がアクティビティの最初の表示 [!DNL Target] ージのリクエストを確認してから、セッション内のリクエストを含む最終ページが読み込まれるまでの訪問に費やされた時間（秒単位）。</UL> |
 
 エンゲージメントベースの指標の場合（コンバージョンベースの指標や収益ベースの指標の場合とは異なり）、訪問者は各訪問でアクティビティの対象を再認定し、そのセッションのカウントを増分する必要があります。 関連付けられた指標は、再評価の後にインクリメントが開始され、各訪問者のセッションの終わりでインクリメントが停止します。30 分間無操作状態が続くと、そのセッションは終了します。したがって、テスト中に結果がすぐに表示されるわけではありませんが、セッションのすべての結果がセッションの終了から数分以内に使用できるようになります。
@@ -55,11 +55,11 @@ ht-degree: 44%
 
 詳細設定を使用して、成功の測定方法を管理します。依存関係の追加、アクティビティでユーザーを保持するか削除するかの選択、参加者ごとに 1 回指標をカウントするか、すべてのインプレッションで指標をカウントするかの選択などのオプションがあります。
 
-[!UICONTROL Advanced Settings] のオプションにアクセスするには、**[!UICONTROL More Actions]** のアイコン（その他のアクションアイコン ![ をクリックし ](/help/main/assets/icons/MoreSmallListVert.svg) から、「**[!UICONTROL Advanced Settings]**」をクリックします。
+[!UICONTROL Advanced Settings] のオプションにアクセスするには、**[!UICONTROL More Actions]** のアイコン（その他のアクションアイコン ![&#x200B; をクリックし &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) から、「**[!UICONTROL Advanced Settings]**」をクリックします。
 
 ![詳細設定メニュー](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-[!UICONTROL Advanced Settings] オプション（「[!UICONTROL What will happen after a user encounters this goal]」および「[!UICONTROL How will the count be incremented]」）について詳しくは、[ この目標指標に達した後はどうなりますか ](#what-happens) を参照してください。
+[!UICONTROL Advanced Settings] オプション（「[!UICONTROL What will happen after a user encounters this goal]」および「[!UICONTROL How will the count be incremented]」）について詳しくは、[&#x200B; この目標指標に達した後はどうなりますか &#x200B;](#what-happens) を参照してください。
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ ht-degree: 44%
 
 ## [!DNL Target] UI の変更を更新しました {#changes}
 
-2015 年 2 月 17 日（PT）に公開された [[!DNL Target Standard/Premium] 25.2.1 リリース ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) では、更新された [!DNL Target] および [!UICONTROL Visual Experience Composer] （VEC） UI が導入されました。 この節では、特に成功指標の設定と管理に関する、レガシー UI と更新された UI の主な違いについて説明します。
+2015 年 2 月 17 日（PT）に公開された [[!DNL Target Standard/Premium] 25.2.1 リリース &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) では、更新された [!DNL Target] および [!UICONTROL Visual Experience Composer] （VEC） UI が導入されました。 この節では、特に成功指標の設定と管理に関する、レガシー UI と更新された UI の主な違いについて説明します。
 
 ### [!UICONTROL Revenue] 成功指標に関連する UI の変更
 

@@ -34,7 +34,7 @@ ht-degree: 52%
    >
    >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) オプションを選択できます。
 
-1. [ エクスペリエンス ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、「**[!UICONTROL Replace Content]**」（![ コンテンツを置換アイコン ](/help/main/assets/icons/Switch.svg)）をクリックして、「**[!UICONTROL Recommendation]**」を選択します。
+1. [&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、「**[!UICONTROL Replace Content]**」（![&#x200B; コンテンツを置換アイコン &#x200B;](/help/main/assets/icons/Switch.svg)）をクリックして、「**[!UICONTROL Recommendation]**」を選択します。
 
    ![Recommendations をオファーとして挿入](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
@@ -42,7 +42,7 @@ ht-degree: 52%
 
 1. 「**[!UICONTROL Create Criteria]**」をクリックするか、既存の条件を選択します。
 
-1. （オプション） **[!UICONTROL Filter]** アイコン（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）をクリックして次のオプションから選択し、ページタイプ別の一般的なレコメンデーション条件を表示します。
+1. （オプション） **[!UICONTROL Filter]** アイコン（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックして次のオプションから選択し、ページタイプ別の一般的なレコメンデーション条件を表示します。
 
    * 買い物かごページ
    * カテゴリページ
@@ -53,9 +53,9 @@ ht-degree: 52%
    * 「ありがとうございます」ページ
    * その他
 
-1. 「**[!UICONTROL Create Criteria]**」をクリックするか、既存の [ 条件 ](/help/main/c-recommendations/c-algorithms/algorithms.md) を選択し、「**[!UICONTROL Next]**」をクリックして [!UICONTROL Select Design] 定ダイアログボックスを表示します。
+1. 「**[!UICONTROL Create Criteria]**」をクリックするか、既存の [&#x200B; 条件 &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md) を選択し、「**[!UICONTROL Next]**」をクリックして [!UICONTROL Select Design] 定ダイアログボックスを表示します。
 
-1. 「**[!UICONTROL Create Design]**」をクリックするか、既存の [ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択して、「**[!UICONTROL &#x200B; Next]**」をクリックします。
+1. 「**[!UICONTROL Create Design]**」をクリックするか、既存の [&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択して、「**[!UICONTROL &#x200B; Next]**」をクリックします。
 
 1. [!UICONTROL Options] ダイアログボックスで、次の設定を行います。
 
@@ -71,7 +71,7 @@ ht-degree: 52%
 
 ## Recommendations オファーの削除
 
-1. **[!UICONTROL Delete]** パネルの上部にある ![ アイコン ](/help/main/assets/icons/Delete.svg) 削除アイコン [!UICONTROL Recommendation]）をクリックします。
+1. **[!UICONTROL Delete]** パネルの上部にある ![&#x200B; アイコン &#x200B;](/help/main/assets/icons/Delete.svg) 削除アイコン [!UICONTROL Recommendation]）をクリックします。
 
 ### Recommendations オファーのステータスの表示 {#status}
 

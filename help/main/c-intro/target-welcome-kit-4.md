@@ -79,7 +79,7 @@ Web サイト上の複数のページをまたいで発生するカスタマー�
 
 エクスペリエンスバージョンを使用すると、1 つのテストを必要な数のオーディエンスに対して実行できます。例えば、米国、英国、米国のお客様向けの画像と通貨のバリエーションを含む、送料無料のバナー広告を作成できます。3 つの異なるオーディエンスに対してテストを実行する必要はありません。
 
-詳しい手順については、[A/B テストでの複数のエクスペリエンスオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) を参照してください。
+詳しい手順については、[A/B テストでの複数のエクスペリエンスオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) を参照してください。
 
 ## ヒント 8：類似ページ上でアクティビティエクスペリエンスを複製することで、時間を節約できます。
 
@@ -109,7 +109,7 @@ Web サイト上の複数のページをまたいで発生するカスタマー�
 * ページのコンバージョン率はいくつですか。
 * テストを完了したと確実に言えるようになるまでの、予測されるテストの実行期間はどのくらいですか。
 
-**役立つヒント**:[!DNL Adobe Target] [ サンプルサイズ計算ツール ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) を使用して、テストを成功させるために必要なサンプルサイズを判断します。
+**役立つヒント**:[!DNL Adobe Target] [&#x200B; サンプルサイズ計算ツール &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) を使用して、テストを成功させるために必要なサンプルサイズを判断します。
 
 ## ヒント 12：よりシンプルなテストを設計し、作成および実装できるようにします。
 

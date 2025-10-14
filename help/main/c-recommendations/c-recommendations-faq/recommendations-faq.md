@@ -111,7 +111,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 [!UICONTROL Filter Incompatible Criteria] の設定にアクセスするには、[!UICONTROL Recommendations]/[!UICONTROL Settings] をクリックします。
 
-![recs_settings_filter 画像 ](assets/recs_settings_filter.png)
+![recs_settings_filter 画像 &#x200B;](assets/recs_settings_filter.png)
 
 [!UICONTROL Filter Incompatible Criteria] 設定が有効になっていない場合、[!DNL Target] ではアルゴリズムピッカーに表示されるアルゴリズムのフィルタリングはおこなわれず、すべてのアルゴリズムが表示されます。
 
@@ -119,7 +119,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 [!UICONTROL Filter Incompatible Criteria] 設定が有効な場合でも、条件の選択時に「[!UICONTROL Compatible]」チェックボックスの選択を解除することで、互換性のないアルゴリズムを表示できます。
 
-![compatible_checkbox 画像 ](assets/compatible_checkbox.png)
+![compatible_checkbox 画像 &#x200B;](assets/compatible_checkbox.png)
 
 次のリストには、「[!DNL Target]」チェックボックスが表示され [!UICONTROL Compatible] い特殊なケースが含まれています。
 
@@ -198,7 +198,7 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 ## フィードのアップロードに使用する CSV ファイルのサイズ上限を教えてください。 {#section_20F1AF4839A447B9889B246D6E873538}
 
-フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。ただし、ベストプラクティスとして、アドビでは、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)で確認できます。
+フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。ただし、ベストプラクティスとして、アドビでは、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)で確認できます。
 
 ## エンティティを動的に除外できますか。 {#exclude}
 

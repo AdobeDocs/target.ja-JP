@@ -155,7 +155,7 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 
 [!UICONTROL Activity URL] は、訪問者をアクティビティの対象に認定し、ユーザーに対するアクティビティエクスペリエンスをレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
 
-デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は [Visual Experience Composer 設定 ](/help/main/administrating-target/visual-experience-composer-set-up.md) で指定されているページを開きます。 アクティビティ作成中に、別のページを指定することもできます。
+デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は [Visual Experience Composer 設定 &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) で指定されているページを開きます。 アクティビティ作成中に、別のページを指定することもできます。
 
 VEC が開いた後に別のページを表示するには、**[!UICONTROL Configure gear icon]** をクリックして **[!UICONTROL Page Delivery]** を選択し、「[!UICONTROL Activity URL]」フィールドに目的の URL を指定します。
 
@@ -204,7 +204,7 @@ adobe.target.trackEvent({
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### 拡張機能の追加 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### 拡張機能の追加 ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/34063?captions=jpn)
 

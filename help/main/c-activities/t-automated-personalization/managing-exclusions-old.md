@@ -27,7 +27,7 @@ ht-degree: 42%
 
 **除外グループを作成する手順は次のとおりです。**
 
-1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、ヘッダーバーの「**[!UICONTROL Manage Content]**」をクリックします。
+1. [AP アクティビティの作成または編集 &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、ヘッダーバーの「**[!UICONTROL Manage Content]**」をクリックします。
 
    ![コンテンツを管理リンク](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -99,7 +99,7 @@ AP アクティビティでテストするオファーに合わせてページ�
 
 **[!UICONTROL Visual Experience Composer] （VEC）を使用してデフォルトコンテンツを除外するには：**
 
-1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、置き換えるコンテンツを選択し、クリックして **[!UICONTROL Change Text/HTML]**、**[!UICONTROL Change Image]**、**[!UICONTROL Change Background Color]** にアクセスします。
+1. [AP アクティビティの作成または編集 &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、置き換えるコンテンツを選択し、クリックして **[!UICONTROL Change Text/HTML]**、**[!UICONTROL Change Image]**、**[!UICONTROL Change Background Color]** にアクセスします。
 1. ダイアログボックスで、新しいコンテンツを作成し、デフォルトコンテンツの右側にある **含める** チェックボックスをオフにします（または、[!UICONTROL Select Content] 画面でデフォルトの画像/ビデオのチェックボックスをオフにします）。
 
    コンテンツやオファーのタイプによって、「[!UICONTROL Include]」チェックボックスは若干異なる場所にあります。
@@ -120,7 +120,7 @@ AP アクティビティでテストするオファーに合わせてページ�
 
    「[!UICONTROL Manage Content]」で指定したオファーから作成されたエクスペリエンスを表示できます。 除外したデフォルトのオファーを使用して、[!UICONTROL Manage Content] でエクスペリエンスが作成されないことに注意してください。
 
-   ![exclude_content_vec_4 画像 ](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4 画像 &#x200B;](assets/exclude_content_vec_4.png)
 
 **[!UICONTROL Form-Based Experience Composer] を使用してデフォルトコンテンツを除外するには：**
 
@@ -131,14 +131,14 @@ AP アクティビティでテストするオファーに合わせてページ�
 
    テキスト／HTML コンテンツの場合：
 
-   ![exclude_content_form_1 画像 ](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1 画像 &#x200B;](assets/exclude_content_form_1.png)
 
    画像／ビデオコンテンツの場合：
 
-   ![exclude_content_form_2 画像 ](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2 画像 &#x200B;](assets/exclude_content_form_2.png)
 
 1. **[!UICONTROL Save]** をクリックします。
 
    「[!UICONTROL Manage Content]」で指定したオファーから作成されたエクスペリエンスを表示できます。 除外したデフォルトのオファーを使用して、[!UICONTROL Manage Content] でエクスペリエンスが作成されないことに注意してください。
 
-   ![exclude_content_form_3 画像 ](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3 画像 &#x200B;](assets/exclude_content_form_3.png)

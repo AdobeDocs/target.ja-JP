@@ -17,7 +17,7 @@ ht-degree: 35%
 
 1. 変更する要素を選択し、必要な変更を行います。
 
-   [[!UICONTROL Experience Targeting] アクティビティの作成 ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 中、3 つのパートから成るガイド付きワークフロー（[!UICONTROL Experiences]）のステップ 1 では、[!UICONTROL Experience A] オーディエンスを持つデフォルトの [!UICONTROL All Visitors] が表示されます。
+   [[!UICONTROL Experience Targeting] アクティビティの作成 &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 中、3 つのパートから成るガイド付きワークフロー（[!UICONTROL Experiences]）のステップ 1 では、[!UICONTROL Experience A] オーディエンスを持つデフォルトの [!UICONTROL All Visitors] が表示されます。
 
    ![すべての訪問者オーディエンス](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 

@@ -17,7 +17,7 @@ ht-degree: 23%
 
 1. 変更する要素を選択し、必要な変更を行います。
 
-   [[!UICONTROL Experience Targeting] アクティビティの作成 ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 中、3 つのパートから成るガイド付きワークフロー（[!UICONTROL Experiences]）のステップ 1 では、[!UICONTROL Experience A] オーディエンスを持つデフォルトの [!UICONTROL All Visitors] が表示されます。
+   [[!UICONTROL Experience Targeting] アクティビティの作成 &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 中、3 つのパートから成るガイド付きワークフロー（[!UICONTROL Experiences]）のステップ 1 では、[!UICONTROL Experience A] オーディエンスを持つデフォルトの [!UICONTROL All Visitors] が表示されます。
 
    ![すべての訪問者オーディエンス](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
@@ -29,7 +29,7 @@ ht-degree: 23%
    >
    >デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。JavaScriptを無効にして、VEC を使用してこれらの要素を変更できます。
 
-1. 追加のエクスペリエンスを作成するには、「追加」ボタン（**[!UICONTROL Add]** 追加ボタン ![） ](/help/main/assets/icons/Add.svg) クリックします。
+1. 追加のエクスペリエンスを作成するには、「追加」ボタン（**[!UICONTROL Add]** 追加ボタン ![） &#x200B;](/help/main/assets/icons/Add.svg) クリックします。
 
    [!UICONTROL Add Audience] ダイアログボックスが表示されます。 エクスペリエンスをオーディエンスにターゲットするには、エクスペリエンスを追加する前に、オーディエンスを選択します。
 
@@ -63,7 +63,7 @@ ht-degree: 23%
 
 1. （条件付き）アクティビティを作成または編集する際に、オーディエンスとエクスペリエンスのペア [!UICONTROL Experience Targeting] ドラッグ&amp;ドロップして、ペアを目的の順序に配置します。
 
-   並べ替えアイコン（![ 並べ替えアイコン ](/help/main/assets/icons/Reorder.svg)）をクリックして「[!UICONTROL Experiences]」列を右側に表示し、必要に応じてエクスペリエンスを並べ替えます。
+   並べ替えアイコン（![&#x200B; 並べ替えアイコン &#x200B;](/help/main/assets/icons/Reorder.svg)）をクリックして「[!UICONTROL Experiences]」列を右側に表示し、必要に応じてエクスペリエンスを並べ替えます。
 
    訪問者は、上位のエクスペリエンスから順番に条件を満たしているかどうかが評価されます。
 
@@ -82,9 +82,9 @@ ht-degree: 23%
 必要に応じて、次のオプションから選択します。
 
 * **[!UICONTROL Rename]**: [!UICONTROL Name] フィールドに目的の名前を入力します。
-* **[!UICONTROL Edit]**：編集アイコン（![ 編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックして、必要な変更を行います。
-* **[!UICONTROL Duplicate]**:[!UICONTROL Experience Targeting] アクティビティのエクスペリエンスをコピーすると、エクスペリエンス全体を再作成しなくても、エクスペリエンスに小さな変更を加えることができます。 [!UICONTROL Duplicate] アイコン（複製アイコン ![ をクリックし ](/help/main/assets/icons/Duplicate.svg) 必要に応じてエクスペリエンスを編集します。
-* **[!UICONTROL Delete]**: [!UICONTROL Delete] のアイコン（![ 削除アイコン ](/help/main/assets/icons/Delete.svg)）をクリックして、削除を確認します。
+* **[!UICONTROL Edit]**：編集アイコン（![&#x200B; 編集アイコン &#x200B;](/help/main/assets/icons/Edit.svg)）をクリックして、必要な変更を行います。
+* **[!UICONTROL Duplicate]**:[!UICONTROL Experience Targeting] アクティビティのエクスペリエンスをコピーすると、エクスペリエンス全体を再作成しなくても、エクスペリエンスに小さな変更を加えることができます。 [!UICONTROL Duplicate] アイコン（複製アイコン ![&#x200B; をクリックし &#x200B;](/help/main/assets/icons/Duplicate.svg) 必要に応じてエクスペリエンスを編集します。
+* **[!UICONTROL Delete]**: [!UICONTROL Delete] のアイコン（![&#x200B; 削除アイコン &#x200B;](/help/main/assets/icons/Delete.svg)）をクリックして、削除を確認します。
 
 ## トレーニングビデオ：
 

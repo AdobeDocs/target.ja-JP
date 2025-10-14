@@ -23,7 +23,7 @@ ht-degree: 50%
 [!UICONTROL Create New Criteria] 画面に到達する方法は複数あります。 一部の画面オプションは、画面の表示方法によって異なります。
 
 * **[!UICONTROL Recommendations]** / **[!UICONTROL Criteria]** ライブラリ画面で、**[!UICONTROL Create Criteria]** / **[!UICONTROL Create Criteria]** をクリックします。 ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
-* [!DNL Recommendations] （VEC）を使用して [!UICONTROL Visual Experience Composer] アクティビティを作成している場合は、ページで要素を選択して [!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations] または [!UICONTROL Insert Recommendations Before] をクリックすると、すぐに [!UICONTROL Insert Recommendations After] の画面が表示されます。 使用可能な条件を選択するか、「**[!UICONTROL Create Criteria]**」をクリックします。 新しい条件を作成する場合は、他の [!DNL Recommendations] アクティビティで使用する条件を保存するオプションがあります。 詳しくは、[Recommendations アクティビティの作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) を参照してください。
+* [!DNL Recommendations] （VEC）を使用して [!UICONTROL Visual Experience Composer] アクティビティを作成している場合は、ページで要素を選択して [!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations] または [!UICONTROL Insert Recommendations Before] をクリックすると、すぐに [!UICONTROL Insert Recommendations After] の画面が表示されます。 使用可能な条件を選択するか、「**[!UICONTROL Create Criteria]**」をクリックします。 新しい条件を作成する場合は、他の [!DNL Recommendations] アクティビティで使用する条件を保存するオプションがあります。 詳しくは、[Recommendations アクティビティの作成 &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) を参照してください。
 * [!DNL Recommendations] アクティビティを編集する場合は、ページの [!UICONTROL Recommendations Location] ボックスをクリックし、「**[!UICONTROL Change Criteria]**」を選択します。 [!UICONTROL Select Criteria] の画面で、「**[!UICONTROL Create Criteria]**」をクリックします。 他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
 
 以下の手順では、最初のメソッド（[!UICONTROL Create New Criteria] / **[!UICONTROL Recommendations]** ライブラリ画面）を使用して **[!UICONTROL Criteria]** ール画面にアクセスすることを想定しています。
@@ -42,7 +42,7 @@ ht-degree: 50%
 
    これは、条件の説明に使用される「内部」名です。例えば、条件を「利幅の高い商品」と呼びたいが、正式に表示されるタイトルにはそれを使いたくないという場合があります。公開されるタイトルを設定するには、次の手順を参照してください。
 
-   ![ 基本情報セクション ](assets/basic-information.png)
+   ![&#x200B; 基本情報セクション &#x200B;](assets/basic-information.png)
 
 1. この条件を使用するレコメンデーションに対してページに表示する、公開 **[!UICONTROL Display Title]** を入力します。
 
@@ -72,7 +72,7 @@ ht-degree: 50%
 
 1. **[!UICONTROL Algorithm Type]** と **[!UICONTROL Algorithm]** を選択：
 
-   ![ 推奨されるアルゴリズムの節 ](assets/recommended-algorithm.png)
+   ![&#x200B; 推奨されるアルゴリズムの節 &#x200B;](assets/recommended-algorithm.png)
 
    | アルゴリズムタイプ | 使用するタイミング | 使用可能なアルゴリズム |
    | --- | --- | --- |
@@ -84,13 +84,13 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** を選択した場合は、「コンテンツの類似性ルール [ を設定するオプションが表示さ ](#similarity) ます。
+   >**[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** を選択した場合は、「コンテンツの類似性ルール [&#x200B; を設定するオプションが表示さ &#x200B;](#similarity) ます。
 
 1. 必要に応じて、**項目属性** と **一致するプロファイル属性**、**レコメンデーションキー**、**フィルタリングキー**、**分析指標** を選択して、アルゴリズムを設定します。
 
 残りのアルゴリズム設定オプションは、選択したアルゴリズムによって異なります。 アルゴリズムの設定を完了するには、[!UICONTROL Recommendation Key]、[!UICONTROL Filtering Key]、[!UICONTROL Co-Occurrence Basis]、[!UICONTROL Analytics Metric]、[!UICONTROL Item Attribute] および [!UICONTROL Profile Attribute to Match] を選択します。
 
-レコメンデーシ [!UICONTROL Recommendation Key] ンの選択について詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) を参照してください。
+レコメンデーシ [!UICONTROL Recommendation Key] ンの選択について詳しくは、[&#x200B; レコメンデーションキーに基づくレコメンデーションのベース &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) を参照してください。
 
 ## [!UICONTROL Data Source] {#data-source}
 
@@ -100,7 +100,7 @@ ht-degree: 50%
    >
    >「[!UICONTROL Behavioral Data Source]」セクションは、実装で [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用している場合にのみ表示されます。
 
-   ![ 行動データのSourceセクション ](assets/data-source.png)
+   ![&#x200B; 行動データのSourceセクション &#x200B;](assets/data-source.png)
 
    [!UICONTROL Analytics] を選択した場合は、目的のレポートスイートを選択します。
 
@@ -110,11 +110,11 @@ ht-degree: 50%
    * **新しい条件または既に使用可能なレポートスイートを使用して編集した条件**：新しい条件を作成したり既存の条件を編集したりする場合、選択されたレポートスイートが選択されたデータ範囲以下のデータ範囲で既に [!DNL Target Recommendations] で使用されていれば、データは即座に使用でき、1 回限りの設定は必要ありません。この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
    * **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、[!UICONTROL Viewed Affinity] のレコメンデーションでは、ユーザーが製品を閲覧すると、製品ビューのトラッキングコールがにリアルタイムに近い [!DNL Analytics] で渡されます。 [!DNL Analytics] データが翌日早くに [!DNL Target] にプッシュされ、[!DNL Target] が 12 時間以内にアルゴリズムを実行します。
 
-   詳しくは、[Adobe Analyticsを Target Recommendations と併用する ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) を参照してください。
+   詳しくは、[Adobe Analyticsを Target Recommendations と併用する &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) を参照してください。
 
 1. **[!UICONTROL Lookback Window]** を設定して、表示するレコメンデーションを決定する際に使用できる、過去のユーザー行動データの時間範囲を決定します。 このオプションは、類似属性とカスタムアルゴリズムを持つ項目を除く、すべてのアルゴリズムで使用できます。
 
-   ![ ルックバックウィンドウのスライダー ](assets/data-range.png)
+   ![&#x200B; ルックバックウィンドウのスライダー &#x200B;](assets/data-range.png)
 
    サイトのトラフィックが多く、行動が頻繁に変わる場合は、データの範囲を狭めます。[!DNL Recommendations] は、範囲を狭くするほどマーケットやビジネスの変化に反応しやすくなります。例えば、範囲を狭く設定した場合、訪問者が新学期やクリスマスなどの季節の製品の購入を始めると、[!DNL Recommendations] は訪問者の行動の変化を検知して季節に適した品目をレコメンデーションするようになります。
 
@@ -134,9 +134,9 @@ ht-degree: 50%
 
 ## [!UICONTROL Backup Content] {#content}
 
-[!UICONTROL Backup Content] のルールは、推奨項目数が [recommendations のデザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md) を満たさない場合の動作を決定します。 [!DNL Recommendations] の条件で返されるレコメンデーションは、デザインで要求されるレコメンデーションよりも少なくなる可能性があります。 例えば、デザインに 4 つのアイテムのスロットがあるものの、条件によって 2 つのアイテムしか推奨されない場合は、残りのスロットを空のままにするか、バックアップ レコメンデーションを使用して余分なスロットを埋めるか、レコメンデーションを表示しないように選択できます。
+[!UICONTROL Backup Content] のルールは、推奨項目数が [recommendations のデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md) を満たさない場合の動作を決定します。 [!DNL Recommendations] の条件で返されるレコメンデーションは、デザインで要求されるレコメンデーションよりも少なくなる可能性があります。 例えば、デザインに 4 つのアイテムのスロットがあるものの、条件によって 2 つのアイテムしか推奨されない場合は、残りのスロットを空のままにするか、バックアップ レコメンデーションを使用して余分なスロットを埋めるか、レコメンデーションを表示しないように選択できます。
 
-![Content セクション ](assets/content.png)
+![Content セクション &#x200B;](assets/content.png)
 
 1. （オプション） **[!UICONTROL Partial Design Rendering]** トグルを「オン」の位置にスライドさせます。
 
@@ -150,7 +150,7 @@ ht-degree: 50%
 
    バックアップのレコメンデーションを使用すると、レコメンデーションの設計が使用可能なすべてのスロットに確実に適用されます。 次の図に示すように、4 x 1 のデザインがあるとします。
 
-   ![4 x 1 デザイン ](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+   ![4 x 1 デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
    条件によって、2 つの項目のみが推奨されるとします。 [!UICONTROL Partial Design Rendering] オプションを有効にした場合、最初の 2 つのスロットは埋められますが、残りの 2 つのスロットは空のままです。 ただし、「[!UICONTROL Show Backup Recommendations]」オプションを有効にすると、最初の 2 つのスロットは指定した基準に基づいて入力され、残りの 2 つのスロットはバックアップの推奨事項に基づいて入力されます。
 
@@ -163,13 +163,13 @@ ht-degree: 50%
    | 有効 | 有効 | 使用可能なデザインの「スロット」に代替レコメンデーションが挿入され、デザインが完全にレンダリングされます。<br>インクルージョンルールを代替レコメンデーションに適用するとデザインに挿入できなくなるほど適格な代替レコメンデーションの数が制限される場合、デザインは部分的にレンダリングされます。<br>この基準がレコメンデーションを返さず、インクルージョンルールが代替レコメンデーションをゼロに制限する場合、デザインはデフォルトコンテンツで置き換えられます。 |
    | 無効 | 有効 | 使用可能なデザインの「スロット」に代替レコメンデーションが挿入され、デザインが完全にレンダリングされます。<br>インクルージョンルールを代替レコメンデーションに適用するとデザインに挿入できなくなるほど適格な代替レコメンデーションの数が制限される場合、デザインはデフォルトコンテンツに置き換えられ、レコメンデーションは表示されません。 |
 
-   詳しくは、[ 代替レコメンデーションの使用 ](/help/main/c-recommendations/c-algorithms/backup-recs.md) を参照してください。
+   詳しくは、[&#x200B; 代替レコメンデーションの使用 &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md) を参照してください。
 
 1. （条件付き）前の手順で **[!UICONTROL Show Backup Content]** を選択した場合は、**[!UICONTROL Apply inclusion rules to backup recommendations]** を有効にできます。
 
    包含ルールは、レコメンデーションに含める項目を決定します。 使用できるオプションは、業種によって異なります。
 
-   詳しくは、以下の [ インクルージョンルールの指定 ](#inclusion) を参照してください。
+   詳しくは、以下の [&#x200B; インクルージョンルールの指定 &#x200B;](#inclusion) を参照してください。
 
 ## コンテンツの類似性 {#similarity}
 
@@ -199,7 +199,7 @@ ht-degree: 50%
 
 いくつかのオプションを使用して、レコメンデーションに表示する品目を絞り込むことができます。条件やプロモーションの作成時にインクルージョンルールを使用できます。
 
-![ インクルージョンルール ](/help/main/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+![&#x200B; インクルージョンルール &#x200B;](/help/main/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
 インクルージョンルールはオプションです。ただし、これらの詳細を設定すると、レコメンデーションに表示される項目をさらに制御できるようになります。詳細を設定するたびに、表示基準をより詳細に絞り込むことができます。
 
@@ -225,7 +225,7 @@ ht-degree: 50%
 1. レコメンデーションする商品の最小在庫数を設定します。
 1. 特定の基準を満たす場合のみ品目を表示するよう、レコメンデーションを設定します。
 
-   ![Recs_InclusionRules 画像 ](assets/Recs_InclusionRules.png)
+   ![Recs_InclusionRules 画像 &#x200B;](assets/Recs_InclusionRules.png)
 
    一覧にある属性のいずれかが、1 つまたは複数の指定の条件を満たす、あるいは満たさない場合のみ、品目を含めるよう指定できます。
 
@@ -237,7 +237,7 @@ ht-degree: 50%
    >
    >このオプションは、レコメンデーションに表示される品目を限定します。そのレコメンデーションがどのページに表示されるかには影響しません。レコメンデーションを表示する場所を制限するには、Experience Composer でページを選択します。
 
-詳しくは、[ 動的および静的インクルージョンルールの使用 ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) を参照してください。
+詳しくは、[&#x200B; 動的および静的インクルージョンルールの使用 &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) を参照してください。
 
 ## 属性の重み付け {#weighting}
 
@@ -255,7 +255,7 @@ ht-degree: 50%
 
    例えば、完全なルールは、「カテゴリに部分文字列シューズが含まれる」のようになります。
 
-   ![Recs_AttributeWeighting 画像 ](assets/Recs_AttributeWeighting.png)
+   ![Recs_AttributeWeighting 画像 &#x200B;](assets/Recs_AttributeWeighting.png)
 
 1. ルールに割り当てる重みを選択します。
 
@@ -267,7 +267,7 @@ ht-degree: 50%
 
 新しい [!UICONTROL Recommendations] アクティビティを作成する場合、または既存のアクティビティを編集する場合、「**[!UICONTROL Save criteria for later]**」チェックボックスはデフォルトで選択されています。 他のアクティビティで条件を使用したくない場合、保存する前にチェックボックスをオフにします。
 
-## トレーニングビデオ：Recommendations で条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations で条件を作成（12:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

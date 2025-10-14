@@ -27,9 +27,9 @@ ht-degree: 26%
 
 1. （条件付き）配信タイプ（[!UICONTROL Web]、[!UICONTROL Mobile]、[!UICONTROL Email]、[!UICONTROL Other/API]）を選択します。
 
-1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) のお客様は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) してください。
+1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) のお客様は、[&#x200B; ワークスペースを選択 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) してください。
 
-1. テストするページの [URL を指定 ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) し、「**[!UICONTROL Create]**」をクリックします。
+1. テストするページの [URL を指定 &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) し、「**[!UICONTROL Create]**」をクリックします。
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ ht-degree: 26%
 
    [!UICONTROL Visual Experience Composer] が開きます。
 
-1. アクティビティに名前を付けるには、「**[!UICONTROL Edit]**」の横にある ![ のアイコン ](/help/main/assets/icons/Edit.svg) 編集アイコン [!UICONTROL Untitled Activity]）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
+1. アクティビティに名前を付けるには、「**[!UICONTROL Edit]**」の横にある ![&#x200B; のアイコン &#x200B;](/help/main/assets/icons/Edit.svg) 編集アイコン [!UICONTROL Untitled Activity]）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
 
    アクティビティ名は、次の文字で始めることはできません：
 
@@ -73,15 +73,15 @@ ht-degree: 26%
    * 画像
    * テキスト
 
-1. 「**[!UICONTROL Preview]**」をクリックして [ エクスペリエンスをプレビュー ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) します。
+1. 「**[!UICONTROL Preview]**」をクリックして [&#x200B; エクスペリエンスをプレビュー &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) します。
 
-1. **[!UICONTROL Show Experiences]** アイコン（![ エクスペリエンスを表示アイコン ](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
+1. **[!UICONTROL Show Experiences]** アイコン（![&#x200B; エクスペリエンスを表示アイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
 
 1. リスト内の特定のエクスペリエンスをクリックすると、そのエクスペリエンスが表示されます。
 
-1. （条件付き） 1 つ以上のエクスペリエンスをアクティビティから除外するには、エクスペリ **[!UICONTROL Manage Content]** ンス アイコン（![ エクスペリエンスを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL Manage Experiences] ダイアログボックスを表示します。
+1. （条件付き） 1 つ以上のエクスペリエンスをアクティビティから除外するには、エクスペリ **[!UICONTROL Manage Content]** ンス アイコン（![&#x200B; エクスペリエンスを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL Manage Experiences] ダイアログボックスを表示します。
 
-1. （条件付き） [!UICONTROL Manage Experiences] ダイアログボックスで、除外するエクスペリエンスの横にある **[!UICONTROL More Actions]** アイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Exclude]**」をクリックします。
+1. （条件付き） [!UICONTROL Manage Experiences] ダイアログボックスで、除外するエクスペリエンスの横にある **[!UICONTROL More Actions]** アイコン ![&#x200B; その他のアクションアイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Exclude]**」をクリックします。
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 
@@ -101,27 +101,27 @@ ht-degree: 26%
 
    右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
 
-   1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
-   1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
+   1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![&#x200B; 置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. [!UICONTROL Add Audience] のダイアログボックスで [&#x200B; 目的のオーディエンスを選択 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
 
-      **オーディエンスを組み合わせる** をクリックして、[ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) できます。
+      **オーディエンスを組み合わせる** をクリックして、[&#x200B; 複数のオーディエンスを組み合わせたオーディエンスを作成 &#x200B;](/help/main/c-target/combining-multiple-audiences.md) できます。
 
-      [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
+      [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [&#x200B; オーディエンスを作成ワークフロー &#x200B;](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
 
       * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
-      * **[!UICONTROL This activity only]**:[ ーザーに保存されず、現在のアクティビティでのみ使用できる ](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
+      * **[!UICONTROL This activity only]**:[&#x200B; ーザーに保存されず、現在のアクティビティでのみ使用できる &#x200B;](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
 
    1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティにエントリする選定訪問者の割合を選択します。
 
    例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
 
-1. [ テストの概要を確認し ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 必要な変更を加えて、「**[!UICONTROL Next]**」をクリックします。
+1. [&#x200B; テストの概要を確認し &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 必要な変更を加えて、「**[!UICONTROL Next]**」をクリックします。
 
 1. [テストの目標と設定を指定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)します。
 
 1. 「**[!UICONTROL Save and Close]**」をクリックして、アクティビティを作成します。
 
-## トレーニングビデオ：多変量分析テストの作成（9:25） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：多変量分析テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] の 3 ステップのガイド付きワークフローを使用して多変量分析テストを計画および作成する方法を説明します。
 

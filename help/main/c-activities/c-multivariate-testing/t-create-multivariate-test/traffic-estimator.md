@@ -25,11 +25,11 @@ ht-degree: 21%
 
 また、[!UICONTROL Traffic Estimator] は、成功するように設計したテストに十分なトラフィックがあるかどうかを知らせるフィードバックも提供します。
 
-1. [!UICONTROL Experiences] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Multivariate] ページで、**[!UICONTROL Traffic]** ページの左上隅にある ![ アイコン ](/help/main/assets/icons/Gauge2.svg) トラフィック見積もりアイコン [!UICONTROL Experiences]）をクリックします。
+1. [!UICONTROL Experiences] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Multivariate] ページで、**[!UICONTROL Traffic]** ページの左上隅にある ![&#x200B; アイコン &#x200B;](/help/main/assets/icons/Gauge2.svg) トラフィック見積もりアイコン [!UICONTROL Experiences]）をクリックします。
 
    [!UICONTROL Traffic Estimator] が開きます。
 
-   ![ トラフィック見積もりユーザーインターフェイス ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
+   ![&#x200B; トラフィック見積もりユーザーインターフェイス &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
    アイコンをもう一度クリックすると、ア [!UICONTROL Traffic Estimator] ットを非表示にできます。
 

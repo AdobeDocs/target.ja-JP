@@ -27,7 +27,7 @@ ht-degree: 6%
 
 製品に関する知識を得るために [!DNL AI Assistant] にアクセスするには：
 
-1. [ の有効化  [!DNL Adobe Experience Platform] [!DNL AI Assistant] で前提条件のタスクを完了していることを確認し  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) ください。
+1. [&#x200B; の有効化  [!DNL Adobe Experience Platform] [!DNL AI Assistant] で前提条件のタスクを完了していることを確認し  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) ください。
 
    * 組織はまず法的条件に同意する必要があります。 詳しくは、Adobe アカウントチームにお問い合わせください。
    * 管理者から、[!DNL AI Assistant] にアクセスするための十分な権限を付与してもらう必要があります。
@@ -38,7 +38,7 @@ ht-degree: 6%
 
 1. [!DNL Target] 内から、UI の右上隅にある **[!DNL AI Assistant]アイコン** クリックします。
 
-   ![AI アシスタント アイコン ](/help/main/c-intro/assets/ai-assistant-icon.png)
+   ![AI アシスタント アイコン &#x200B;](/help/main/c-intro/assets/ai-assistant-icon.png)
 
    [!DNL AI Assistant] が [!DNL Target] UI の右側のパネルに表示されます。
 
@@ -46,9 +46,9 @@ ht-degree: 6%
 
    例えば、「プロファイルスクリプトの設定方法」などです。
 
-   ![AI アシスタントと回答 ](/help/main/c-intro/assets/ai-assistant-answer.png)
+   ![AI アシスタントと回答 &#x200B;](/help/main/c-intro/assets/ai-assistant-answer.png)
 
-1. 応答のソースを確認するには、「ソースを表示」アイコン（![ ソースを表示アイコン ](/help/main/assets/icons/Visibility.svg)）をクリックします。
+1. 応答のソースを確認するには、「ソースを表示」アイコン（![&#x200B; ソースを表示アイコン &#x200B;](/help/main/assets/icons/Visibility.svg)）をクリックします。
 
    >[!IMPORTANT]
    >
@@ -56,9 +56,9 @@ ht-degree: 6%
 
 1. （任意）フィードバックを [!DNL AI Assistant] に提供します。
 
-   * サムズアップ（![ サムズアップアイコン ](/help/main/assets/icons/ThumbUp.svg)）アイコンをクリックして、応答が正しいことを [!DNL AI Assistant] 認します。
-   * サムズダウン（![ サムズダウンアイコン ](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックすると、応答が正しくな [!DNL AI Assistant] ことを確認できます。
-   * 「レポート結果」（![ レポート結果アイコン ](/help/main/assets/icons/Flag.svg)）アイコンをクリックすると、[!DNL AI Assistant] ーザーに問題を報告できます。
+   * サムズアップ（![&#x200B; サムズアップアイコン &#x200B;](/help/main/assets/icons/ThumbUp.svg)）アイコンをクリックして、応答が正しいことを [!DNL AI Assistant] 認します。
+   * サムズダウン（![&#x200B; サムズダウンアイコン &#x200B;](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックすると、応答が正しくな [!DNL AI Assistant] ことを確認できます。
+   * 「レポート結果」（![&#x200B; レポート結果アイコン &#x200B;](/help/main/assets/icons/Flag.svg)）アイコンをクリックすると、[!DNL AI Assistant] ーザーに問題を報告できます。
 
 ## トレーニングビデオ
 

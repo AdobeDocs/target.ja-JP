@@ -27,7 +27,7 @@ ht-degree: 45%
 
 明らかな勝者が宣言されると、[!DNL Target] は、「勝者：エクスペリエンス *X*」バッジを表示します。
 
-![ 勝者バッジ ](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+![&#x200B; 勝者バッジ &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ ht-degree: 45%
 
 ## [!UICONTROL Auto-Allocate] の統計的保証 {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
-A/B アクティビティの終了時に、[!UICONTROL Auto-Allocate] は決定された勝者の効果的な偽陽性率が 5% であることを保証します。 これはその時点のみの 5 ％を意味し、決定された勝者が実際にアクティビティのすべてのエクスペリエンスの中で最高のエクスペリエンスというわけではありません。（同一のエクスペリエンスの） [A/A テスト ](/help/main/c-activities/t-test-ab/aa-testing.md) の場合、[!DNL Target] で終了するテストは 5% 未満です。 （同一のエクスペリエンスでの）A/A テストに対して期待される動作は無期限に実行されることであるので、勝者バッジは決して表示されません。
+A/B アクティビティの終了時に、[!UICONTROL Auto-Allocate] は決定された勝者の効果的な偽陽性率が 5% であることを保証します。 これはその時点のみの 5 ％を意味し、決定された勝者が実際にアクティビティのすべてのエクスペリエンスの中で最高のエクスペリエンスというわけではありません。（同一のエクスペリエンスの） [A/A テスト &#x200B;](/help/main/c-activities/t-test-ab/aa-testing.md) の場合、[!DNL Target] で終了するテストは 5% 未満です。 （同一のエクスペリエンスでの）A/A テストに対して期待される動作は無期限に実行されることであるので、勝者バッジは決して表示されません。
 
 [!DNL Target] では、[!UICONTROL Auto-Allocate] に p 値ベースの信頼性を使用しません。
 
-[!UICONTROL Confidence] アクティビティの [!UICONTROL Auto-Allocate] 列には、エラーの 1% のマージン内でエクスペリエンスが勝者となる確率が表示されます。 アルゴリズムでは、最良のコンバージョン率と 2 番目に優れたコンバージョン率の間に最小検出可能な効果である 1% を使用します。 この確率を計算するために、アルゴリズムは [Bernstein 不等式 ](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) を使用します。
+[!UICONTROL Confidence] アクティビティの [!UICONTROL Auto-Allocate] 列には、エラーの 1% のマージン内でエクスペリエンスが勝者となる確率が表示されます。 アルゴリズムでは、最良のコンバージョン率と 2 番目に優れたコンバージョン率の間に最小検出可能な効果である 1% を使用します。 この確率を計算するために、アルゴリズムは [Bernstein 不等式 &#x200B;](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) を使用します。
 
 通常の A/B テストは、p 値に基づいて信頼性を計算します。[!UICONTROL Auto-Allocate] は p 値を使用しません。 p 値は、特定のエクスペリエンスが対照と異なる確率を「おおまかに」計算します。これらの p 値は、エクスペリエンスが対照と異なるかどうかを判定するためにのみ使用できます。これらの値は、エクスペリエンスが（対照ではない）他のエクスペリエンスと異なるかどうかを判定するためには使用できません。
 
@@ -73,7 +73,7 @@ A/B アクティビティの終了時に、[!UICONTROL Auto-Allocate] は決定�
 
   [!UICONTROL Auto-Allocate] は、アクティビティ内のすべてのエクスペリエンスにおいて、特定のエクスペリエンスが真の勝者となる確率を示します。 勝者エクスペリエンス（最も勝者となる可能性が高い）にのみ、0 以外の信頼性値があります。 その他はすべて敗者である可能性が最も高く、0% が表示されます。
 
-* [!UICONTROL Auto-Allocate] は、勝者エクスペリエンスが 60% の信頼性を収集した後にのみ、信頼性の表示を開始します。 これらの信頼水準は、通常、通常の A/B テストが完了するまでにかかる時間の約半分で表示されます（ただし、この時間枠は保証されません）。 通常の A/B テストが実行されるのにどれくらい時間がかかるかを判断するには、[!DNL Adobe Target][ サンプルサイズ計算ツール ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) を使用して、コントロールのコンバージョン率を「ベースラインコンバージョン率」に、5% を「上昇率」に、95% を「信頼性」に代入します。 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。これにより、信頼性が表示され始めるタイミングがわかります。
+* [!UICONTROL Auto-Allocate] は、勝者エクスペリエンスが 60% の信頼性を収集した後にのみ、信頼性の表示を開始します。 これらの信頼水準は、通常、通常の A/B テストが完了するまでにかかる時間の約半分で表示されます（ただし、この時間枠は保証されません）。 通常の A/B テストが実行されるのにどれくらい時間がかかるかを判断するには、[!DNL Adobe Target][&#x200B; サンプルサイズ計算ツール &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) を使用して、コントロールのコンバージョン率を「ベースラインコンバージョン率」に、5% を「上昇率」に、95% を「信頼性」に代入します。 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。これにより、信頼性が表示され始めるタイミングがわかります。
 
 * レポートがボード全体で 0％を表示している場合、アクティビティに入るのが早すぎた可能性があります。
 
@@ -81,4 +81,4 @@ A/B アクティビティの終了時に、[!UICONTROL Auto-Allocate] は決定�
 
 現在、「まだ勝者がありません」と「勝者」のバッジは [!UICONTROL A4T] の [!DNL Analysis Workspace] パネル内では使用できません。 これらのバッジは、同じレポートを [!DNL Target] で表示した場合にも利用できません。A4T を使用する [!DNL Target] アクティビティの [!UICONTROL Auto-Allocate] レポートで表示される勝者の「星」バッジは無視する必要があります。
 
-この他の制限事項や注意事項について詳しくは、[ アクティビティと ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) アクティビティに対する *A4T のサポート [!UICONTROL Auto-Allocate] 自動配分 [!UICONTROL Auto-Target] を参照してください*。
+この他の制限事項や注意事項について詳しくは、[&#x200B; アクティビティと &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) アクティビティに対する *A4T のサポート [!UICONTROL Auto-Allocate] 自動配分 [!UICONTROL Auto-Target] を参照してください*。

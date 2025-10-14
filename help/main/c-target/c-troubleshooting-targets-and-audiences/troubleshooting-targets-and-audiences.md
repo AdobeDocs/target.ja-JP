@@ -25,9 +25,9 @@ Target での URL の評価は、アクティビティの作成時にオーデ�
 
 ### オーディエンス URL のターゲティング
 
-アクティビティの作成時にオーディエンス URL ターゲティングを適用するには、**[!UICONTROL Experiences]** のページ（3 つの手順から成るガイド付きワークフローの 1 つ **[!UICONTROL Configure]** で、![ アイコン（「設定」アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、「**[!UICONTROL Page Delivery]**」をクリックして目的の URL を指定します。
+アクティビティの作成時にオーディエンス URL ターゲティングを適用するには、**[!UICONTROL Experiences]** のページ（3 つの手順から成るガイド付きワークフローの 1 つ **[!UICONTROL Configure]** で、![&#x200B; アイコン（「設定」アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、「**[!UICONTROL Page Delivery]**」をクリックして目的の URL を指定します。
 
-![ ページ配信 URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![&#x200B; ページ配信 URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
 オーディエンス URL のターゲティングは、完全に一致する URL を検索します。 URL が一致する場合、Target はそれ以上のロジックを考慮しません。 上記の URL でアクティビティが `www.example.com` に実行されるように設定されている場合、オーディエンス URL ターゲティングはクエリに依存しないので、この URL は次の URL と一致します。
 
@@ -43,7 +43,7 @@ URL でのオーディエンスのターゲティングに加えて、クエリ�
 
 URL ターゲティングを適用するには、オーディエンスの作成時に、「**[!UICONTROL Site Pages]**」をクリックして [!UICONTROL Create Audiences] ウィンドウにドロップし、「**[!UICONTROL Site Pages]**」をクリックして、最初のドロップダウンリスト（[!UICONTROL Current Page]、[!UICONTROL Previous Page] または [!UICONTROL Landing Page]）からオプションを選択し、2 番目のドロップダウンリストから「[!UICONTROL URL]」を選択して、評価基準を指定し、目的の URL を指定します。
 
-![ サイトページ/現在のページ/URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![&#x200B; サイトページ/現在のページ/URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL ターゲティングは、URL を評価する一連のルールに変換します。
 

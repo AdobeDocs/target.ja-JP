@@ -15,7 +15,7 @@ ht-degree: 38%
 
 カスタムパラメーターは、[!DNL Adobe Target] の mbox パラメーターです。 mbox に任意の mbox パラメーターを渡すか、`targetPageParams` 関数を使用すると、オーディエンスで使用するためにこれらのパラメーターがここに表示されます。
 
-詳しくは、[ グローバル mbox にパラメーターを渡す ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} を参照してください。
+詳しくは、[&#x200B; グローバル mbox にパラメーターを渡す &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} を参照してください。
 
 mbox パラメーターに基づいてカスタムオーディエンスを作成しているときに、`mboxParameter` で `mboxName` の入力が求められなくなりました。mbox 名はオプションになりました。この変更により、複数の mbox のパラメーターを使用することや、まだエッジで記録されていないパラメーターを参照することができます。
 
@@ -60,7 +60,7 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 1. （任意）オーディエンスの追加ルールを設定します。
 1. **[!UICONTROL Done]** をクリックします。
 
-オーディエンスの [ 定義の詳細ポップアップカード ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) の「**[!UICONTROL Rules]**」セクションにパラメーター名が表示されます。 フィルタリングに使用する mbox への参照はありません。
+オーディエンスの [&#x200B; 定義の詳細ポップアップカード &#x200B;](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) の「**[!UICONTROL Rules]**」セクションにパラメーター名が表示されます。 フィルタリングに使用する mbox への参照はありません。
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 * オーディエンスおよびアクティビティは、特定の mbox 用に評価されます。例えば、グローバル mbox が特定のパラメーターを渡しても、地域の mbox が渡さない場合、そのパラメーターをターゲットにするアクティビティ/オーディエンスは、地域の mbox では認定されません。
 * ターゲティングは、内部 mbox パラメーター（mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCAVID、mboxMCGVID、mboxCount、mboxId、mboxVersion など）では評価されません。
 
-## トレーニングビデオ：オーディエンスの作成 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：オーディエンスの作成 ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 

@@ -33,7 +33,7 @@ ht-degree: 60%
 
 ### 上昇範囲
 
-上昇率の 95％信頼区間を表します。平均上昇率の下に範囲として表示されます。これらの上昇率範囲の計算方法の例については、以下の [ 計算例 ](#example) を参照してください。
+上昇率の 95％信頼区間を表します。平均上昇率の下に範囲として表示されます。これらの上昇率範囲の計算方法の例については、以下の [&#x200B; 計算例 &#x200B;](#example) を参照してください。
 
 ### ボックスプロットグラフ
 
@@ -49,7 +49,7 @@ ht-degree: 60%
 
 ## 上昇率の信頼区間の決定方法を理解します {#pdf}
 
-詳しくは、[ 上昇率 PDF ファイルの信頼区間 ](/help/main/assets/confidence_interval_lift.pdf) をダウンロードしてください。
+詳しくは、[&#x200B; 上昇率 PDF ファイルの信頼区間 &#x200B;](/help/main/assets/confidence_interval_lift.pdf) をダウンロードしてください。
 
 ## 上昇率範囲の計算方法 {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -61,14 +61,14 @@ ht-degree: 60%
 
 上昇率範囲の数値の算出には、他にもいくつかの要素が考慮されます。
 
-* **t 値：** 95% の信頼性レベルの重要な統計は 1.96 です。[t 値について詳しくは、こちらを参照してください ](https://en.wikipedia.org/wiki/T-statistic)。
+* **t 値：** 95% の信頼性レベルの重要な統計は 1.96 です。[t 値について詳しくは、こちらを参照してください &#x200B;](https://en.wikipedia.org/wiki/T-statistic)。
 * **上昇率の平方偏差：**&#x200B;上昇率の平方偏差を求めるためには、エクスペリエンス N の成功指標の標準誤差と、コントロールエクスペリエンスの成功指標の標準誤差が必要です。計算式は次のとおりです（成功指標をコンバージョンとした場合の例です）。
 
   ![lift_variance image](assets/lift_variance.png)
 
 * **コンバージョン率／成功指標の標準誤差：**&#x200B;標準誤差の算出方法は、次のように、エクスペリエンス N とコントロールで同じです（成功指標をコンバージョンとした場合の例です）。詳しくは、[標準誤差の詳細](https://en.wikipedia.org/wiki/Standard_error)を参照してください。
 
-  ![standard_error 画像 ](assets/standard_error.png)
+  ![standard_error 画像 &#x200B;](assets/standard_error.png)
 
   >[!NOTE]
   >
@@ -87,25 +87,25 @@ ht-degree: 60%
 
 **エクスペリエンス A の標準誤差（コントロール）**
 
-![standard_error_A 画像 ](assets/standard_error_A.png)
+![standard_error_A 画像 &#x200B;](assets/standard_error_A.png)
 
 **エクスペリエンス B の標準誤差**
 
-![standard_error_B 画像 ](assets/standard_error_B.png)
+![standard_error_B 画像 &#x200B;](assets/standard_error_B.png)
 
 **エクスペリエンス B の上昇率の平方偏差**
 
-![lift_variance_B 画像 ](assets/lift_variance_B.png)
+![lift_variance_B 画像 &#x200B;](assets/lift_variance_B.png)
 
 **エクスペリエンス B の上昇率範囲**
 
 エクスペリエンス B の推定上昇率は次のとおりです。
 
-![lift_bounds_B 画像 ](assets/lift_bounds_B.png)
+![lift_bounds_B 画像 &#x200B;](assets/lift_bounds_B.png)
 
 以上の計算から、エクスペリエンス B の上昇率範囲は次のようになります。
 
-![lift_bounds_B2 画像 ](assets/lift_bounds_B2.png)
+![lift_bounds_B2 画像 &#x200B;](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

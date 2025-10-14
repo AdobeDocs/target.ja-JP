@@ -18,9 +18,9 @@ ht-degree: 2%
 
 このユースケースは、[!DNL Adobe Journey Optimizer] でコンテンツの変更を効果的に A/B テストするための秘密鍵のロックを解除するのに役立ちます。
 
-このユースケースでは、[ の代わりに ](/help/main/c-activities/t-test-ab/test-ab.md) を使用して、[!DNL Journey Optimizer]A/B テスト アクティビティ [!DNL Adobe Target] による A/B テストなど、使い慣れたタスクを実行する方法を示します。
+このユースケースでは、[&#x200B; の代わりに &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) を使用して、[!DNL Journey Optimizer]A/B テスト アクティビティ [!DNL Adobe Target] による A/B テストなど、使い慣れたタスクを実行する方法を示します。
 
-このユースケースは、[!DNL Adobe Target]、[A/B テスト アクティビティ ](/help/main/c-activities/t-test-ab/test-ab.md) を使用した A/B テストを使用し、[!DNL Journey Optimizer] を使用して、実行した可能性のある使い慣れたタスクを実行する方法を示すように設計されています。
+このユースケースは、[!DNL Adobe Target]、[A/B テスト アクティビティ &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) を使用した A/B テストを使用し、[!DNL Journey Optimizer] を使用して、実行した可能性のある使い慣れたタスクを実行する方法を示すように設計されています。
 
 ## メリットと価値
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を重点的に説明します。 [!DNL Journey Optimizer] Web Designer で使用可能なオプションについて詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}Web Designer の操作 *を参照してください*。
+>この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を重点的に説明します。 [!DNL Journey Optimizer] Web Designer で使用可能なオプションについて詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}Web Designer の操作 *を参照してください*。
 >
 >ページ下部のビデオは特に役立ちます。
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 
 1. [!DNL Adobe Journey Optimizer] で、左側のパネルから **キャンペーン** をクリックして、[!UICONTROL Campaigns] のページを表示します。
 
-   ![ 「キャンペーン」タブがハイライト表示されたAdobe Journey Optimizerランディングページ ](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+   ![&#x200B; 「キャンペーン」タブがハイライト表示されたAdobe Journey Optimizerランディングページ &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
 1. **[!UICONTROL Create Campaign]** ページの右上隅にある「[!UICONTROL Campaigns]」をクリックします。
 
 1. 「**[!UICONTROL Scheduled - Marketing]**」（デフォルト）を選択し、「**作成** をクリックして、[!UICONTROL Campaign] の詳細ページを表示します。
 
-   ![Adobe Journey Optimizerのキャンペーン詳細ページ ](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
+   ![Adobe Journey Optimizerのキャンペーン詳細ページ &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. 「**[!UICONTROL Properties]**」セクションでは、キャンペーンのわかりやすい名前と説明（オプション）を入力します。
 
@@ -64,11 +64,11 @@ ht-degree: 2%
 
    Web 設定（チャネルサーフェス）は、システム管理者が定義する設定です。 Web 設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。
 
-   詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} チャネルサーフェスの設定 *を参照してください*。
+   詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} チャネルサーフェスの設定 *を参照してください*。
 
 1. [**[!UICONTROL Action]**] セクションの [**[!UICONTROL Edit Content]**] をクリックして、[!DNL Journey Optimizer] Web Designer で Web サイトを開きます。
 
-   ![LUMA web サイトの Yoga ランディングページ ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+   ![LUMA web サイトの Yoga ランディングページ &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
 1. 要素の非表示を追加するには、右側のパネルで「**[!UICONTROL Edit Web Page]**」をクリックします。
 
@@ -76,11 +76,11 @@ ht-degree: 2%
 
    右側のパネルには、選択した要素に対して実行できるオプションが表示されます。 これらのオプションは、選択した要素によって異なります。
 
-   ![ 要素を非表示ボタン ](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
+   ![&#x200B; 要素を非表示ボタン &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. 左上隅の戻る矢印をクリックして、web デザイナーに戻ります。
 
-   ![ 左向き矢印 ](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
+   ![&#x200B; 左向き矢印 &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
 1. 「**[!UICONTROL Review to Activate]**」をクリックして、すべてが期待どおりに表示されることを確認してから、「**アクティブ化**」をクリックします。
 
@@ -91,9 +91,9 @@ ht-degree: 2%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} 新しいレポートインターフェイスの概要 *を参照してください*。
+詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} 新しいレポートインターフェイスの概要 *を参照してください*。
 
 >[!MORELIKETHIS]
 >
->[Web デザイナーの操作 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}、*Journey Optimizer ドキュメント*
->&#x200B;>[キャンペーンの作成 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} *Journey Optimizer チュートリアル*
+>[Web デザイナーの操作 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}、*Journey Optimizer ドキュメント*
+>&#x200B;>[キャンペーンの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} *Journey Optimizer チュートリアル*

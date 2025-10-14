@@ -17,7 +17,7 @@ ht-degree: 62%
 
 成功指標について詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
-1. **[!UICONTROL Reporting Settings]** のページの「**[!UICONTROL Goals & Settings]**」セクションで、[ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を選択します
+1. **[!UICONTROL Reporting Settings]** のページの「**[!UICONTROL Goals & Settings]**」セクションで、[&#x200B; 成功指標 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を選択します
 
    ![成功指標を選択](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
@@ -37,7 +37,7 @@ ht-degree: 62%
 
    成功指標の正しい設定は、期待するデータを確実に取得するために重要です。
 
-   詳しくは [ 、成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を参照してください。
+   詳しくは [&#x200B; 、成功指標 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を参照してください。
 
 1. （オプション）さらに指標を追加します。
 
@@ -54,7 +54,7 @@ ht-degree: 62%
 | - | マイナス |
 | @ | アットマーク |
 
-## トレーニングビデオ：アクティビティ指標（7:43） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ指標（7:43） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、成功指標に関する作業について説明します。
 

@@ -29,7 +29,7 @@ ht-degree: 38%
 
 A4T を使用するアクティビティの場合、目標指標は常に「[!UICONTROL Increment Count & Keep User in Activity]」と「[!UICONTROL On Every Impression]」の設定を使用します。 これらの設定は、*変更できません*。
 
-A4T 以外のアクティビティの場合は、[ 詳細設定オプション ](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) を使用して、成功の測定方法を管理できます。 依存関係の追加、アクティビティでユーザーを保持するか削除するかの選択、参加者ごとに 1 回指標をカウントするか、すべてのインプレッションで指標をカウントするかの選択などのオプションがあります。 以下に示すように、縦並びの省略記号/[!UICONTROL Advanced Settings] をクリックして、A4T 以外のアクティビティの [!UICONTROL Advanced Settings] のオプションにアクセスします。
+A4T 以外のアクティビティの場合は、[&#x200B; 詳細設定オプション &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) を使用して、成功の測定方法を管理できます。 依存関係の追加、アクティビティでユーザーを保持するか削除するかの選択、参加者ごとに 1 回指標をカウントするか、すべてのインプレッションで指標をカウントするかの選択などのオプションがあります。 以下に示すように、縦並びの省略記号/[!UICONTROL Advanced Settings] をクリックして、A4T 以外のアクティビティの [!UICONTROL Advanced Settings] のオプションにアクセスします。
 
 ![詳細設定](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

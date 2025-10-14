@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-詳しくは、[ カスタムエンティティ属性 ](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) の *複数値の属性の実装* を参照してください。
+詳しくは、[&#x200B; カスタムエンティティ属性 &#x200B;](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) の *複数値の属性の実装* を参照してください。
 
 ## CSV ファイルで複数値エンティティ属性を渡す
 

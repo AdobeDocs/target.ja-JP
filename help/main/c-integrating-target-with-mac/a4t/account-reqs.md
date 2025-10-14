@@ -28,13 +28,13 @@ ht-degree: 36%
 
 あなたの[!DNL Analytics]および[!DNL Target]のユーザーアカウントは Adobe ID にリンクされている必要があります。
 
-詳しくは、[ 組織とアカウントのリンク ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) を参照してください。
+詳しくは、[&#x200B; 組織とアカウントのリンク &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) を参照してください。
 
 ### Experience Cloud グループのメンバーシップを設定します。
 
 あなたは[!DNL Analytics] と [!DNL Target]にアクセスできる 1 つ以上の[!DNL Experience Cloud]グループのメンバーでなければなりません。
 
-詳しくは、[Experience Cloud ユーザーと製品の管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/admin-tool-experience-cloud) を参照してください。
+詳しくは、[Experience Cloud ユーザーと製品の管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/admin-tool-experience-cloud) を参照してください。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -48,7 +48,7 @@ ht-degree: 36%
 
    次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
 
-   ![Admin Consoleの「権限」タブ ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Admin Consoleの「権限」タブ &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. [!UICONTROL Web Services Access] グループへのアクセスを設定します。
 

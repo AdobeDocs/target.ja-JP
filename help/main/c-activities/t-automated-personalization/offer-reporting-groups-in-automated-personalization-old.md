@@ -35,16 +35,16 @@ ht-degree: 16%
 
 1. AP アクティビティの **[!UICONTROL Experiences]** ページで、**[!UICONTROL Manage Content]** アイコンをクリックします。
 
-   ![ コンテンツを管理アイコン ](/help/main/c-reports/assets/ap_manage_content.png)
+   ![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. [**[!UICONTROL Offers]**] ダイアログ ボックスの上部にある [[!UICONTROL Manage Content]] タブをクリックします。
 1. （条件付き）目的のオファーにカーソルを合わせ、**[!UICONTROL Reporting Group]** フォルダーアイコンをクリックすることで、特定のエクスペリエンスをレポートグループに追加します。
 
-   ![ レポートグループアイコン ](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![&#x200B; レポートグループアイコン &#x200B;](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. （条件付き）バッチで、関連するエクスペリエンスのチェックボックスを選択したあと、ダイアログボックスの右上隅にある **[!UICONTROL Reporting Group]** フォルダーアイコンをクリックして、レポートグループにエクスペリエンスを含めます。
 
-   ![ レポートグループアイコン ](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![&#x200B; レポートグループアイコン &#x200B;](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. 選択したオファーを既存のレポートグループに割り当てるには、「**[!UICONTROL Existing]**」を選択し、ドロップダウンリストから目的のレポートグループを選択して、「**[!UICONTROL Apply]**」をクリックします。
 
@@ -52,11 +52,11 @@ ht-degree: 16%
 
    選択したオファーを割り当てるレポートグループを作成するには、「**[!UICONTROL New]**」を選択し、新しいレポートグループに名前を付けて、「**[!UICONTROL Apply]**」をクリックします。
 
-   ![ 新しいレポートグループを作成するための新しいアイコン ](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![&#x200B; 新しいレポートグループを作成するための新しいアイコン &#x200B;](/help/main/c-reports/assets/ap_reporting_groups.png)
 
 [!UICONTROL Location] リストを使用して、場所でオファーをフィルタリングできます。 [!UICONTROL Report Group] リストを使用すると、レポートグループでオファーをフィルタリングできます。 [!UICONTROL Report Group] リストを使用して [!UICONTROL Unassigned Offers] をフィルタリングし、現在どのレポートグループにも割り当てられていないオファーにレポートグループを割り当てることもできます。
 
-特定のオーディエンスに対するオファーのターゲティングについては、[ オファーのターゲティング [!UICONTROL Automated Personalization] を参照し ](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E) ください。
+特定のオーディエンスに対するオファーのターゲティングについては、[&#x200B; オファーのターゲティング [!UICONTROL Automated Personalization] を参照し &#x200B;](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E) ください。
 
 ## 注意事項
 
@@ -72,14 +72,14 @@ ht-degree: 16%
 
 ## レポートグループ内のオファーの表示
 
-1. 「**[!UICONTROL Activities]**」をクリックし、リストから目的の [!UICONTROL Automated Personalization] アクティビティをクリックして、「**[!UICONTROL Reports]**」タブをクリックして [ オファーレベル ](/help/main/c-reports/personalization-reports/reports-ap.md) レポートを表示します。
+1. 「**[!UICONTROL Activities]**」をクリックし、リストから目的の [!UICONTROL Automated Personalization] アクティビティをクリックして、「**[!UICONTROL Reports]**」タブをクリックして [&#x200B; オファーレベル &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md) レポートを表示します。
 
    アクティビティが多数ある場合は、[!UICONTROL Show Filters] （ファネル）アイコンをクリックし、「[!UICONTROL Automated Personalization]」チェックボックスをオンにして、リストをフィルタリングして [!UICONTROL Automated Personalization] のアクティビティのみを表示します。
 
 1. テーブルの **[!UICONTROL Control]** または **[!UICONTROL Targeted]** をクリックすると、グループ化されていないオファーとレポートグループ内のオファーが表示されます。
 
-   ![ オファーグループ：コントロールとターゲット ](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+   ![&#x200B; オファーグループ：コントロールとターゲット &#x200B;](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
-[!UICONTROL Automated Personalization] レポート （[!UICONTROL Offer Level] レポートを含む）の使用方法については、[Automated Personalizationの概要レポート ](/help/main/c-reports/personalization-reports/reports-ap.md) を参照してください。
+[!UICONTROL Automated Personalization] レポート （[!UICONTROL Offer Level] レポートを含む）の使用方法については、[Automated Personalizationの概要レポート &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md) を参照してください。
 
 

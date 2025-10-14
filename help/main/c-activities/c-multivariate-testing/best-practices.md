@@ -46,8 +46,8 @@ ht-degree: 57%
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* [ 場所の貢献度レポート ](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) を頻繁に使用して、各ロケーションとオファーのパフォーマンスを監視します。
-* [ エクスペリエンスパフォーマンスレポート ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) では、[!UICONTROL Best 5] フィルターと [!UICONTROL Worst 5] フィルターを使用して表示されるデータに基づいて決定を下します。
+* [&#x200B; 場所の貢献度レポート &#x200B;](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) を頻繁に使用して、各ロケーションとオファーのパフォーマンスを監視します。
+* [&#x200B; エクスペリエンスパフォーマンスレポート &#x200B;](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) では、[!UICONTROL Best 5] フィルターと [!UICONTROL Worst 5] フィルターを使用して表示されるデータに基づいて決定を下します。
 
   [!UICONTROL All] フィルターを使用すると、目的の情報の抽出が困難になり、すべてのエクスペリエンスがグラフに表示できるわけではありません。 [!UICONTROL All] フィルターを使用するのは、特定のエクスペリエンスが最良または最悪の 5 つではない場合です。
 

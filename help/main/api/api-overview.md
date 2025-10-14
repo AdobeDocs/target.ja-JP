@@ -23,7 +23,7 @@ ht-degree: 0%
 * クライアントサイド （[!DNL Adobe Experience Platform Web SDK] または [!DNL Target Web SDK] （at.js）を使用したの実装に関する情報を含む）
 * サーバーサイド （Node.JS、JAVA、.NET、Python SDK の使用に関する実装に関する情報を含む）。
 * ハイブリッド。クライアントサイド実装とサーバーサイド実装を組み合わせて使用する場合に実装するのに役立つ情報です。
-* 推奨事項、[!DNL Recommendations]Target Premium[ 製品である ](/help/main/c-intro/intro.md#premium) の実装に役立つ情報。
+* 推奨事項、[!DNL Recommendations]Target Premium[&#x200B; 製品である &#x200B;](/help/main/c-intro/intro.md#premium) の実装に役立つ情報。
 * モバイルアプリ。
 * 電子メール。
 
@@ -33,4 +33,4 @@ API[!DNL Adobe Target]、タイプに応じてグループ化できます。
 * レポート API。
 * レコメンデーション API
 
-詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=ja){target=_blank} の [Target API の概要 ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を参照してください。
+詳しくは、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=ja){target=_blank} の [Target API の概要 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を参照してください。

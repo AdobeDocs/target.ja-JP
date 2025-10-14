@@ -25,7 +25,7 @@ ht-degree: 19%
 
    ルール内の後続のドロップダウンリストで使用できるオプションとエバリュエーターは、選択するオプションによって異なります。 次の図は、[!UICONTROL Current Page] を選択した場合に使用可能なオプションを示しています。
 
-   ![ カレント ページ ](assets/current-page.png)
+   ![&#x200B; カレント ページ &#x200B;](assets/current-page.png)
 
    [!UICONTROL Select] を選択すると、最初のドロップダウンリストで次のオプションを使用できます。
 
@@ -33,7 +33,7 @@ ht-degree: 19%
 
      このオプションを選択した場合、2 番目のドロップダウンリストでは次のオプションを使用できます。
 
-      * [!UICONTROL URL] （[!DNL Target] による URL の評価方法について詳しくは、[ ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください）。
+      * [!UICONTROL URL] （[!DNL Target] による URL の評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください）。
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -45,7 +45,7 @@ ht-degree: 19%
 
      このオプションを選択した場合、2 番目のドロップダウンリストでは次のオプションを使用できます。
 
-      * [!UICONTROL URL] （Target による URL の評価方法について詳しくは、[ ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください。
+      * [!UICONTROL URL] （Target による URL の評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください。
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -56,7 +56,7 @@ ht-degree: 19%
 
      このオプションを選択した場合、2 番目のドロップダウンリストでは次のオプションを使用できます。
 
-      * [!UICONTROL URL] （Target による URL の評価方法について詳しくは、[ ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください。
+      * [!UICONTROL URL] （Target による URL の評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください。
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -125,9 +125,9 @@ ht-degree: 19%
 
   この動作が要件に合わない場合は、次のいずれかのアクションの実行を検討します。
 
-   * [mbox パラメーター ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} をターゲット設定に使用で [!DNL Target] るようにします。
+   * [mbox パラメーター &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} をターゲット設定に使用で [!DNL Target] るようにします。
    * ランディングページアクティビティの代わりに [&#128279;](/help/main/c-activities/t-test-ab/test-ab.md)A/B テスト アクティビティを使用します。 A/B テスト アクティビティでは、同じ訪問者のエクスペリエンスが切り替わることはありません。
-   * 代わりに [ 訪問者プロファイル ](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) を使用します。
+   * 代わりに [&#x200B; 訪問者プロファイル &#x200B;](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) を使用します。
 
 * コンマを含む文字列に「で始まる/で終わる」評価子を使用する場合、これらの文字列は値の配列として評価され、コンマで区切られた各値が評価されます。 例えば、ヘッダーの値が `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` の場合、次のような条件に該当します。
    * zh で始まる

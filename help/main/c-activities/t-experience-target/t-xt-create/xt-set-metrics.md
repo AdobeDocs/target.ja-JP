@@ -37,7 +37,7 @@ ht-degree: 59%
 
    期待するデータを確実に入手するためには、成功指標を正しく設定することが重要です。
 
-   詳しくは [ 、成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を参照してください。
+   詳しくは [&#x200B; 、成功指標 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を参照してください。
 
 1. （オプション）さらに指標を追加します。
 1. 指標の設定が完了したら、「**[!UICONTROL Continue]**」をクリックします。
@@ -55,7 +55,7 @@ ht-degree: 59%
 | `-` | マイナス |
 | `@` | アットマーク |
 
-## トレーニングビデオ：アクティビティ指標（7:43） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ指標（7:43） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、成功指標に関する作業について説明します。
 

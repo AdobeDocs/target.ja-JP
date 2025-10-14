@@ -29,7 +29,7 @@ ht-degree: 53%
 
    トラフィック見積もりが表示されます。**[!UICONTROL Traffic]** アイコンをもう一度クリックすると、トラフィック見積もりを非表示にすることができます。
 
-   ![estimatorempty 画像 ](assets/estimatorempty.png)
+   ![estimatorempty 画像 &#x200B;](assets/estimatorempty.png)
 
 1. 「標準的なコンバージョン率」、「推定訪問者数（日単位）」、「テスト期間」を入力します。
 
@@ -53,4 +53,4 @@ ht-degree: 53%
 
    十分なトラフィックが確保されるという評価が得られるまで数字を調整し、それに応じて、テストをデザインします。
 
-   ![estimatorok 画像 ](assets/estimatorok.png)
+   ![estimatorok 画像 &#x200B;](assets/estimatorok.png)

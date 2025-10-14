@@ -29,7 +29,7 @@ ht-degree: 7%
 
 1. **[!UICONTROL Create]** をクリックします。
 
-オファーおよびフォルダーに対して実行できるタスクについては、「[ アセットライブラリのコンテンツの操作 ](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
+オファーおよびフォルダーに対して実行できるタスクについては、「[&#x200B; アセットライブラリのコンテンツの操作 &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
 
 ## [!UICONTROL Image Offer] フォルダー
 
@@ -51,6 +51,6 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->画像オファーは、「[ エンタープライズユーザー権限 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデルには含まれていません。
+>画像オファーは、「[&#x200B; エンタープライズユーザー権限 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデルには含まれていません。
 
-オファーおよびフォルダーに対して実行できるタスクについては、「[ アセットライブラリのコンテンツの操作 ](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
+オファーおよびフォルダーに対して実行できるタスクについては、「[&#x200B; アセットライブラリのコンテンツの操作 &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。

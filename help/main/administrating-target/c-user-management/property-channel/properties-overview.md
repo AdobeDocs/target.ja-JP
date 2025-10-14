@@ -47,7 +47,7 @@ ht-degree: 56%
 
 新しい [!UICONTROL Properties] 機能の使用を開始する際は、すべてのユーザー管理を [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。 ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [Admin Consoleで ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)、ページ上部の「**[!UICONTROL Users]**」タブ/ **[!UICONTROL Add Users]** をクリックして、新規ユーザーを作成するか、既存のユーザーを編集します。
+1. [Admin Consoleで &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)、ページ上部の「**[!UICONTROL Users]**」タブ/ **[!UICONTROL Add Users]** をクリックして、新規ユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
 
 ## 手順 2：ワークスペースの作成（製品プロファイル） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -115,7 +115,7 @@ ht-degree: 56%
    * **説明：**（オプション）プロパティの説明を指定します。
    * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
 
-1. 「**[!UICONTROL Copy]**」をクリックして、「[5:at_property パラメーターを含めるように実装を更新 ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8) の手順を実行する際に使用するコードをクリップボードにコピーします。
+1. 「**[!UICONTROL Copy]**」をクリックして、「[5:at_property パラメーターを含めるように実装を更新 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8) の手順を実行する際に使用するコードをクリップボードにコピーします。
 1. 終了したら「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
@@ -133,7 +133,7 @@ ht-degree: 56%
 
    [!DNL Target] で、**[!UICONTROL Administration]**/**[!UICONTROL Properties]** をクリックして、[!UICONTROL Properties] リストを表示します。
 
-   1. 表示する目的のプロパティの「[!UICONTROL Last Updated]」列にマウスポインターを置き、[!UICONTROL Code] アイコン（![ コードアイコン ](/help/main/assets/icons/Code.svg)）をクリックします。
+   1. 表示する目的のプロパティの「[!UICONTROL Last Updated]」列にマウスポインターを置き、[!UICONTROL Code] アイコン（![&#x200B; コードアイコン &#x200B;](/help/main/assets/icons/Code.svg)）をクリックします。
 
       ![プロパティホバーコード](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -145,7 +145,7 @@ ht-degree: 56%
 
    * **[!DNL Adobe Experience Platform] 内のタグの「カスタムパラメーター」を使用：**
 
-     詳しくは、[ タグの概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ja#add-mbox-params) ドキュメントの *mbox パラメーターの追加* を参照してください。
+     詳しくは、[&#x200B; タグの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ja#add-mbox-params) ドキュメントの *mbox パラメーターの追加* を参照してください。
 
    * **targetPageParamsAll （）関数を使用：** 次のコードを `<head>` タグ内の at.js 参照の上に配置します。
 
@@ -198,7 +198,7 @@ ht-degree: 56%
 >
 >パフォーマンスを向上、新機能のリリースに要するメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスが向上するため、[!DNL Target] [!UICONTROL Administration] メニュー（以前の [!UICONTROL Setup]）のデザインが一新されました。 以下のビデオの情報は、通常、正確です。ただし、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
 
-### Adobe Target Workspaces の設定方法（6:55） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Adobe Target Workspaces の設定方法（6:55） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、ワークスペースの作成方法を説明します。
 
@@ -212,7 +212,7 @@ ht-degree: 56%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421733?captions=jpn)
 
-### Adobe Targetでプロパティを作成する方法（3:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Adobe Targetでプロパティを作成する方法（3:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 * [!DNL Adobe Target] インターフェイス内でプロパティを作成する方法
 * プロパティトークンを生成してプロパティの実装に含める方法

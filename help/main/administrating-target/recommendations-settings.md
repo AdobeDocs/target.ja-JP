@@ -31,4 +31,4 @@ ht-degree: 8%
 * サムネールのベース URL を指定
 * カスタム属性キーの設定
 
-詳しくは、[ 開発者ガイドの ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank}Recommendations の計画と実装 **[!DNL Adobe Target]を参照してください**。
+詳しくは、[&#x200B; 開発者ガイドの &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank}Recommendations の計画と実装 **[!DNL Adobe Target]を参照してください**。

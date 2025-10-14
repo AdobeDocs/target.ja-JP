@@ -19,13 +19,13 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->アクティビティを早めに停止することは、A/B テストを実行する際に陥る可能性のある 10 個の重要な落とし穴の 1 つです。 詳しくは、[A/B テストによくある 10 の落とし穴とその回避方法 ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3) を参照してください。
+>アクティビティを早めに停止することは、A/B テストを実行する際に陥る可能性のある 10 個の重要な落とし穴の 1 つです。 詳しくは、[A/B テストによくある 10 の落とし穴とその回避方法 &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3) を参照してください。
 
 [!DNL Adobe Target] には、コンバージョン目標を達成するのに十分な大きさのサンプルサイズ（自動配分）をアクティビティで確保するのに役立つツールが用意されています。
 
 ## 自動配分 {#auto-allocate}
 
-[ 自動配分 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) アクティビティは、2 つ以上のエクスペリエンスのうちの勝者を識別する A/B テストの一種です。 [!UICONTROL Auto-Allocate] テストでは、より多くのトラフィックを自動的に勝者に再割り当てしてコンバージョンを増やしながら、テストの実行と学習を継続します。
+[&#x200B; 自動配分 &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) アクティビティは、2 つ以上のエクスペリエンスのうちの勝者を識別する A/B テストの一種です。 [!UICONTROL Auto-Allocate] テストでは、より多くのトラフィックを自動的に勝者に再割り当てしてコンバージョンを増やしながら、テストの実行と学習を継続します。
 
 標準的な A/B テストには、固有のコストがあります。各エクスペリエンスのパフォーマンスを測定するためにトラフィックを費やす必要があり、分析を通じて勝者エクスペリエンスを見つけ出す必要があります。トラフィックの配分は、一部のエクスペリエンスが他よりもパフォーマンスに優れているとわかった後でも、固定されたままです。また、サンプルサイズの計算が複雑で、アクティビティは、勝者に対して働きかけられるようになる前に全コースを実行する必要があります。そして、識別された勝者が真の勝者ではない可能性がまだあります。
 
@@ -35,13 +35,13 @@ ht-degree: 48%
 
 [!UICONTROL Auto-Allocate] を使用すると、[!DNL Target] は、アクティビティが十分な信頼性のあるコンバージョンの最低数に達するまで、アクティビティのページの最上部に「まだ勝者がありません」ということを示すバッジを表示します。 次に、[!DNL Target] クティビティのページの上部にバッジを表示して、勝者エクスペリエンスを宣言します。
 
-詳しくは、[ 自動配分の概要 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) を参照してください。
+詳しくは、[&#x200B; 自動配分の概要 &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) を参照してください。
 
 ## Adobe [!DNL Target] サンプルサイズ計算ツール {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 [!UICONTROL A/B Test] ではなく手動の [!UICONTROL Auto-Allocate] アクティビティを使用することを選択した場合、[!DNL Target] サンプルサイズ計算ツールを使用すると、テストを成功させるために必要なサンプルサイズを判断できます。 手動の A/B テストは固定水平線テストであるため、計算ツールが役立つ。 [!UICONTROL Auto-Allocate] が勝者を宣言するので、[!UICONTROL Auto-Allocate] アクティビティにこの計算ツールを使用できます。計算ツールを使用すると、必要なサンプルサイズを概算できます。 計算ツールの使い方について詳しくは、以降の節を参照してください。
 
-A/B テストを設定する前に、[!DNL Adobe Target][ サンプルサイズ計算ツール ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja) にアクセスします。
+A/B テストを設定する前に、[!DNL Adobe Target][&#x200B; サンプルサイズ計算ツール &#x200B;](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja) にアクセスします。
 
 ![Adobe Target サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -65,11 +65,11 @@ A/B テストを定義する 5 つのユーザー定義パラメーターがあ�
 
 A/B テストの場合、統計的有意性、統計的検出力、最小信頼検出可能上昇率およびベースラインコンバージョン率は、アナリストが設定し、必要な訪問者数は、これらの数字から計算されます。この記事では、これらの要素について説明し、特定のテストでこれらの指標を決定する方法に関するガイドラインを示します。
 
-![ 画像をサンプル化 ](assets/samplesize.png)
+![&#x200B; 画像をサンプル化 &#x200B;](assets/samplesize.png)
 
 下の図に、A/B テストの考えられる 4 つの結果を示します。
 
-![ 結果の画像 ](assets/outcomes.png)
+![&#x200B; 結果の画像 &#x200B;](assets/outcomes.png)
 
 偽陽性または偽陰性はないのが望ましいです。ただし、偽陽性がゼロの場合に統計的テストを実施しても保証はありません。 観察傾向が基本的なコンバージョン率を表していない可能性は常にあります。例えば、コインのフリップの頭や尾がより可能性が高いかどうかを確認するためのテストでは、公正なコインであっても、偶然に 10 のトースに 10 の頭を得ることができます。 統計的有意性と統計的検出力によって、偽陽性率と偽陰性率を定量化して、特定のテストでこれらの率を適度なレベルに維持することができます。
 
@@ -113,11 +113,11 @@ A/B テストの統計的検出力は、ある特定の規模におけるコン�
 
 下の図は、これらの確率分布を示しています。
 
-![probability_distributions 画像 ](assets/probability_distributions.png)
+![probability_distributions 画像 &#x200B;](assets/probability_distributions.png)
 
 2 つの範囲間で重複する部分が大きいので、このテストによって、コンバージョン率が異なるかどうかを判定することはできません。したがって、この 100 人の訪問者を含むテストでは、2 つのオファーを区別できません。ただし、[!DNL Target] が各 5,000 人の訪問者にオファーを公開した場合、観測されたコンバージョン率がそれぞれ 9% から 11%、14% から 16% の範囲に低下する可能性は 95% です。
 
-![probability_distributions2 画像 ](assets/probability_distributions2.png)
+![probability_distributions2 画像 &#x200B;](assets/probability_distributions2.png)
 
 この場合、テストが誤った結論になる可能性は低いので、5,000 人の訪問者を含むテストでは、2 つのオファーを区別できます。 5,000 人の訪問者を使用したテストでは、+/-1% の信頼区間があります。 この結果、約 1% の差が検出できました。 したがって、例えば、これらのオファーの真のコンバージョン率が 10％と 15％ではなく、10％と 10.5％の場合は、さらに多くの訪問者が必要になります。
 
@@ -135,7 +135,7 @@ A/B テストの統計的検出力は、ある特定の規模におけるコン�
 
 テストによって確実に識別できる最小上昇率と、必要な訪問者数との間にトレードオフがあります。下の図は、ベースライン（制御）コンバージョン率 5％に対して有効で、訪問者数の増加に対する顕著な収穫逓減を示しています。確実に検出できる最小上昇率は、最初に少数の訪問者を追加すると著しく向上しますが、テストを向上させるために徐々に訪問者数が増えていきます。この図は、テストの実施に要する時間（必要な訪問者数と、サイトのトラフィックによって決定される）と、テストで確実に検出できる最小上昇率との間の適当なトレードオフを見つけるのに役立ちます。
 
-![samplesizecontrol 画像 ](assets/samplesizecontrol.png)
+![samplesizecontrol 画像 &#x200B;](assets/samplesizecontrol.png)
 
 この例では、100 個のテストのうち 80 個で 5% （の代替オファーのコンバージョン率（100%+5%） &#42;5% = 5.25%）の上昇率を検出できることは適切なので、各オファーに 100,000 人の訪問者のサンプルサイズが必要です。 サイトに 1 日あたり 2 万人の訪問者があり、2 つのオファーをテストする場合、代替オファーがコントロールオファーよりも統計的に著しく優れているかどうかを判断する前に、テストを 2&#42;100,000/20,000 = 10 日間実行できるようにする必要があります。
 

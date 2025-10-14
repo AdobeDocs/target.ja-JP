@@ -30,15 +30,15 @@ ht-degree: 24%
 
 変更要素を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の説明に従って、アクティビティを作成または編集します。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の説明に従って、アクティビティを作成または編集します。
 
-1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で「[!UICONTROL Configure]」アイコン（![ 設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、「**[!UICONTROL Page Delivery]**」を選択します。
+1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で「[!UICONTROL Configure]」アイコン（![&#x200B; 設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、「**[!UICONTROL Page Delivery]**」を選択します。
 
 1. 「**[!UICONTROL Add Rule]**」をクリックして、エクスペリエンスを追加するページの条件を指定します。
 
 1. ページの範囲を指定します。ページの範囲は、次のいずれかの方法で指定します。
 
-   * [!UICONTROL URL] （[!DNL Target] による URL の評価方法について詳しくは、[ ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください）。
+   * [!UICONTROL URL] （[!DNL Target] による URL の評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) を参照してください）。
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment] （#記号に続く URL の部分をターゲットにします）
@@ -86,9 +86,9 @@ ht-degree: 24%
 * グローバルバナー（COVID-19 のお知らせなど）を含める
 * グローバルな送料無料プロモを組み込むには
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の説明に従って、アクティビティを作成または編集します。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) の説明に従って、アクティビティを作成または編集します。
 
-1. エクスペリエンスが表示されるドメインを指定するには、エクスペリ [!UICONTROL Visual Experience Composer] ンスで [!UICONTROL Configure] 定アイコン（![ 設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、「**[!UICONTROL Page Delivery]**」を選択します。
+1. エクスペリエンスが表示されるドメインを指定するには、エクスペリ [!UICONTROL Visual Experience Composer] ンスで [!UICONTROL Configure] 定アイコン（![&#x200B; 設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、「**[!UICONTROL Page Delivery]**」を選択します。
 
 1. **[!UICONTROL Add Rule]**／**[!UICONTROL Domain]**&#x200B;をクリックします。
 

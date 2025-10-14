@@ -14,7 +14,7 @@ ht-degree: 58%
 
 # 条件の選択
 
-[ アクティビティで使用する ](/help/main/c-recommendations/c-algorithms/algorithms.md) 条件 [!DNL Adobe Target Recommendations] を選択します。 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
+[&#x200B; アクティビティで使用する &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md) 条件 [!DNL Adobe Target Recommendations] を選択します。 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
 
 複数の条件を追加することで複数のレコメンデーションタイプを相互にテストすることができます。
 
@@ -28,7 +28,7 @@ ht-degree: 58%
 
 **条件を選択するには：**
 
-1. [ 新しいレコメンデーションの作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) 中に、**[!UICONTROL Select Criteria]** ダイアログボックスで 1 つ以上の条件を見つけて選択します。
+1. [&#x200B; 新しいレコメンデーションの作成 &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) 中に、**[!UICONTROL Select Criteria]** ダイアログボックスで 1 つ以上の条件を見つけて選択します。
 
    ![条件を選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/filters.png)
 
@@ -38,4 +38,4 @@ ht-degree: 58%
    * **ページタイプ：**&#x200B;ページタイプによって、レコメンデーションが分類しやすくなります。それぞれのページタイプで選択できるビルトイン条件もあります。
    * **互換性：**&#x200B;選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、互換性のない条件をアクティビティで使用できるようにする場合は、「**[!UICONTROL Compatible]**」チェックボックスをオフにします。 このオプションは、設定（**[!UICONTROL Recommendations]**/**[!UICONTROL Settings]**）で無効または有効にすることができます。
 
-1. 「**[!UICONTROL Next]**」をクリックして [ 「デザインを選択 ](/help/main/c-recommendations/c-design-overview/design-overview.md)」ダイアログボックスを表示します。
+1. 「**[!UICONTROL Next]**」をクリックして [&#x200B; 「デザインを選択 &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md)」ダイアログボックスを表示します。

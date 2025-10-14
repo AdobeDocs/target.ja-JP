@@ -24,4 +24,4 @@ ht-degree: 19%
 | [自動セグメントレポート](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | [!UICONTROL Automated Segments] レポートは、[!UICONTROL Auto-Target] アクティビティのオファー/エクスペリエンスに対する様々な訪問者の反応を示します。 このレポートでは、[!DNL Target] のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー/エクスペリエンスにどのように応答したかを示します。 |
 | [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | [!UICONTROL Important Attributes] のレポートでは、モデルがどのようにパーソナライズを決定するかについて、様々なアクティビティで様々な属性がより重要（または重要でないかを示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。 |
 
-一般的なレポート情報については、[ レポート ](/help/main/c-reports/reports.md) を参照してください。
+一般的なレポート情報については、[&#x200B; レポート &#x200B;](/help/main/c-reports/reports.md) を参照してください。

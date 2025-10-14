@@ -88,7 +88,7 @@ ht-degree: 44%
 
 * アクティビティを再構築します。
 
-ページの変更が [!DNL Target] の表示機能に与える影響について詳しくは、「[ ページ変更のシナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)」を参照してください。
+ページの変更が [!DNL Target] の表示機能に与える影響について詳しくは、「[&#x200B; ページ変更のシナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)」を参照してください。
 
 ## ページの読み込み中にページの構造が変更される。
 
@@ -101,7 +101,7 @@ ht-degree: 44%
 * テストされる各要素を（ID を使用して）一意に識別するようにページコードを更新します。
 * 前述のとおり、クラスや兄弟を動的に修正するのを止めます。
 
-ページの変更が [!DNL Target] の表示機能に与える影響について詳しくは、「[ ページ変更のシナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)」を参照してください。
+ページの変更が [!DNL Target] の表示機能に与える影響について詳しくは、「[&#x200B; ページ変更のシナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)」を参照してください。
 
 ## 同じページ上で他のアクティビティが実行される。
 

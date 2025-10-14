@@ -23,14 +23,14 @@ ht-degree: 51%
 
 ユーザーインターフェイスは、[!DNL Target] を最大限に活用できるよう、論理的かつユーザーにわかりやすい形式で配置されています。以下の概要は、[!DNL Target] と VEC に慣れるのに役立ち、より詳細な情報と手順を説明するリンクを提供します。
 
-詳しくは、[ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md) を参照してください。
+詳しくは、[&#x200B; [!DNL Target] UI について &#x200B;](/help/main/c-intro/understand-the-target-ui.md) を参照してください。
 
 +++
 
 **他の顧客が [!DNL Target] をどのように有効活用しているのかを知ることはできますか？**
 
 +++詳細を表示
-実際の [ カスタマーサクセスストーリー ](https://www.adobe.com/jp/marketing-cloud/target/resources.html#x) を調べ、組織が [!DNL Target] をどのように活用して最適化を高め、エクスペリエンスをパーソナライズし、測定可能なビジネス成果を達成しているかを確認します。
+実際の [&#x200B; カスタマーサクセスストーリー &#x200B;](https://www.adobe.com/jp/marketing-cloud/target/resources.html#x) を調べ、組織が [!DNL Target] をどのように活用して最適化を高め、エクスペリエンスをパーソナライズし、測定可能なビジネス成果を達成しているかを確認します。
 
 +++
 
@@ -39,16 +39,16 @@ ht-degree: 51%
 +++詳細を表示
 最新のリリース [!DNL Target] 常に更新します。
 
-* **最新リリース**：新機能、機能強化、バグ修正について詳しくは、[[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) を参照してください。
-* **今後のリリース**:[[!DNL Target]  リリースノート（プレリリース） ](/help/main/r-release-notes/target-release-notes.md) にアクセスすると、次のリリースをプレビューできます。
-* **以前のバージョン**：履歴の更新と変更については、[ 以前のリリースのリリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md) を参照してください。
+* **最新リリース**：新機能、機能強化、バグ修正について詳しくは、[[!DNL Target]  リリースノート（最新） &#x200B;](/help/main/r-release-notes/release-notes.md) を参照してください。
+* **今後のリリース**:[[!DNL Target]  リリースノート（プレリリース） &#x200B;](/help/main/r-release-notes/target-release-notes.md) にアクセスすると、次のリリースをプレビューできます。
+* **以前のバージョン**：履歴の更新と変更については、[&#x200B; 以前のリリースのリリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md) を参照してください。
 
 +++
 
 **[!DNL Adobe] に関 [!DNL Target] る回答や詳細情報を見つけられるコミュニティやフォーラムはありますか？**
 
 +++詳細を表示
-[!DNL Target]Target コミュニティフォーラム [ で ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
+[!DNL Target]Target コミュニティフォーラム [&#x200B; で &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
 
 +++
 
@@ -71,28 +71,28 @@ ht-degree: 51%
 **アクティビティを停止するタイミングはどのように判断すればよいですか？**
 
 +++詳細を表示
-データが不十分な段階でアクティビティを停止してしまうと、間違った結論が導かれる恐れがあります。[ 一般的な落とし穴とその回避方法 ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F) に注意します。 また、「[A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md)」も参照してください。
+データが不十分な段階でアクティビティを停止してしまうと、間違った結論が導かれる恐れがあります。[&#x200B; 一般的な落とし穴とその回避方法 &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F) に注意します。 また、「[A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md)」も参照してください。
 
 +++
 
 **時間帯が小さい場合にアクティビティを実行し、テスト中に目標に合わせて最適化するにはどうすればよいですか？**
 
 +++詳細を表示
-[ 勝者エクスペリエンスを決定するレポート ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9) を参照してください。
+[&#x200B; 勝者エクスペリエンスを決定するレポート &#x200B;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9) を参照してください。
 
 +++
 
 **一定のレベルのパーソナライゼーションを中核に据えてアクティビティを実行することはできますか？**
 
 +++詳細を表示
-[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティタイプを確認します。
+[&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティタイプを確認します。
 
 +++
 
 **ニーズに合ったアクティビティタイプを見極めるには、どうすればよいですか？**
 
 +++詳細を表示
-詳細については、「[Target アクティビティガイド ](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)」を参照してください。[!DNL Target] の各オプションがどのようなシナリオに適しているのかについて解説しています。
+詳細については、「[Target アクティビティガイド &#x200B;](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)」を参照してください。[!DNL Target] の各オプションがどのようなシナリオに適しているのかについて解説しています。
 
 また、[Recommendations アクティビティ](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)も検討してください。
 
@@ -110,7 +110,7 @@ ht-degree: 51%
 **ページ構造が異なる複数のページにまたがるアクティビティを実行できますか？ 異なる場所（チェックアウトファネルなど）にオファーを適用することはできますか？**
 
 +++詳細を表示
-エクスペリエンス内で複数のページを使用できる [ 複数ページアクティビティ機能 ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を試します。
+エクスペリエンス内で複数のページを使用できる [&#x200B; 複数ページアクティビティ機能 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を試します。
 
 +++
 
@@ -144,7 +144,7 @@ ht-degree: 51%
 **スケジュールを設定し、特定の日時にアクティビティを開始して終了させることはできますか？**
 
 +++詳細を表示
-開始日と終了日を指定して、3 つの部分で構成されるアクティビティワークフローの [ の手順で [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) スケジュール機能を使用します。
+開始日と終了日を指定して、3 つの部分で構成されるアクティビティワークフローの [&#x200B; の手順で [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) スケジュール機能を使用します。
 
 忘れずにアクティビティを有効にしてください。指定したスケジュールが適用されるのは、ライブアクティビティのみです。終了日に達すると、アクティビティは [!UICONTROL Ended] の状態になります。
 
@@ -153,14 +153,14 @@ ht-degree: 51%
 **編集用に 3 ステップのガイド付きワークフロー全体を実行するのではなく、[!UICONTROL Targeting] ステップのみを変更することはできますか？**
 
 +++詳細を表示
-これを簡単に行うには、[[!UICONTROL Activity Overview] のページから目的の手順を直接入力し ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 「[!UICONTROL Save and Close]」オプションを使用してその手順から終了します。
+これを簡単に行うには、[[!UICONTROL Activity Overview] のページから目的の手順を直接入力し &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 「[!UICONTROL Save and Close]」オプションを使用してその手順から終了します。
 
 +++
 
 **特定のステップに留まってアクティビティ（オファーのテキストやカスタムコードなど）を編集しながら、別のタブで QA を実行することはできますか？**
 
 +++詳細を表示
-これは可能です。 単に [[!UICONTROL Save] オプションを使用して、手順を離れることなく増分変更を行います ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
+これは可能です。 単に [[!UICONTROL Save] オプションを使用して、手順を離れることなく増分変更を行います &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
 
 +++
 
@@ -181,7 +181,7 @@ ht-degree: 51%
 **アクティビティに優先順位を設定することはできますか？**
 
 +++詳細を表示
-[!UICONTROL Priority] の 3 つのパートから成るガイド付きワークフロー（[!DNL Target] 目標と設定ページ）のステップ 3 で使用できる  設定を使用して、[ アクティビティの優先度を定義 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) します。
+[!UICONTROL Priority] の 3 つのパートから成るガイド付きワークフロー（[!DNL Target] 目標と設定ページ）のステップ 3 で使用できる  設定を使用して、[&#x200B; アクティビティの優先度を定義 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) します。
 
 2 つのオプションがあります。
 
@@ -223,7 +223,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 **訪問者数が比較的少ない場合でも、アクティビティを開始できますか？**
 
 +++詳細を表示
-[ ターゲット 3 つのパートから成るガイド付きワークフロー（ターゲティングページ）のステップ 2 で使用可能な配分制御を使用して ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) アクティビティの設定方法を決定します。
+[&#x200B; ターゲット 3 つのパートから成るガイド付きワークフロー（ターゲティングページ）のステップ 2 で使用可能な配分制御を使用して &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) アクティビティの設定方法を決定します。
 
 +++
 
@@ -270,7 +270,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 また、「[フォームベースの手法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でブロックを解除できます。
 
-[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡して [Adobeのプロキシ サーバーを許可リストする必要がある場合 ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) あります。
+[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡して [Adobeのプロキシ サーバーを許可リストする必要がある場合 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) あります。
 
 +++
 
@@ -284,7 +284,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 **複数のドメインがあります。1 つのドメインで [!UICONTROL Enhanced Experience Composer] を有効にする必要があり、その他のドメインでは無効にする必要があります。 これはどうすれば設定できますか？**
 
 +++詳細を表示
-いつでも [ アクティビティレベルでの拡張 Experience Composer オプション ](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を利用して、デフォルト設定を上書きできます（[!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]）。
+いつでも [&#x200B; アクティビティレベルでの拡張 Experience Composer オプション &#x200B;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を利用して、デフォルト設定を上書きできます（[!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]）。
 
 +++
 
@@ -323,7 +323,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 +++詳細を表示
 [!UICONTROL Compose] 機能と [!UICONTROL Browse] 機能を使用して目的のページに移動し、エクスペリエンスの作成を開始します。
 
-![ デザインと参照の切り替え ](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
+![&#x200B; デザインと参照の切り替え &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 +++
 
@@ -388,7 +388,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **複数のユーザーセグメントを対象に、レポートのデータを多角的に分析することはできますか？**
 
 +++詳細を表示
-ここには、3 つのパートから成るガイド付きアクティビティワークフローの手順 3 の [ ページで利用できる ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) レポート用オーディエンス [!UICONTROL Goals & Settings] 機能が含まれています。
+ここには、3 つのパートから成るガイド付きアクティビティワークフローの手順 3 の [&#x200B; ページで利用できる &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) レポート用オーディエンス [!UICONTROL Goals & Settings] 機能が含まれています。
 
 このようなセグメントを 50 個追加するオプションと、アプリケーションポイント（[!UICONTROL Activity Entry] または特定の指標）を追加して、強力な方法で多角的に分析できます。
 
@@ -406,21 +406,21 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **オフラインでレポートの計算を実行することはできますか？**
 
 +++詳細を表示
-[ ページの ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)CSV へのレポートの書き出し」オプションと「注文の詳細を CSV にダウンロード [!UICONTROL Reports]」オプションを使用して、目的のレポートデータをダウンロードします。
+[&#x200B; ページの &#x200B;](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)CSV へのレポートの書き出し」オプションと「注文の詳細を CSV にダウンロード [!UICONTROL Reports]」オプションを使用して、目的のレポートデータをダウンロードします。
 
 +++
 
 **レポート評価のコントロールエクスペリエンスを変更したり、カウント方法を [!UICONTROL Visitors] から [!UICONTROL Visits] に変更したりできますか？**
 
 +++詳細を表示
-[ レポートページの設定歯車](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)を使用してこれらの変更をおこないます。これらの設定で、計算方法がどう変わるかについて確認してください。
+[&#x200B; レポートページの設定歯車](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)を使用してこれらの変更をおこないます。これらの設定で、計算方法がどう変わるかについて確認してください。
 
 +++
 
 **レポートのデータの見方を教えてください。**
 
 +++詳細を表示
-[!DNL Target] チームは、強力で簡単なレポート分析を可能にするために、[ 信頼区間バー、上昇率範囲、有意差/信頼性と複数の指標の選択、テーブルとグラフのビュー、実行中の平均など ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) の機能を使用して、レポートをできるだけ直感的にするように努めました。 [!DNL Analytics]Analytics for Target （A4T） [ アクティビティを使用している場合は、](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) を調べて、オーディエンスをさらに分析できます。
+[!DNL Target] チームは、強力で簡単なレポート分析を可能にするために、[&#x200B; 信頼区間バー、上昇率範囲、有意差/信頼性と複数の指標の選択、テーブルとグラフのビュー、実行中の平均など &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) の機能を使用して、レポートをできるだけ直感的にするように努めました。 [!DNL Analytics]Analytics for Target （A4T） [&#x200B; アクティビティを使用している場合は、](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) を調べて、オーディエンスをさらに分析できます。
 
 +++
 
@@ -438,7 +438,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **[!DNL Target] の可用性ステータスを知るにはどうすればよいですか？**
 
 +++詳細を表示
-[Adobeのシステムステータス ページ ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) を使用して、[!DNL Adobe] 製品のステータスと [!DNL Experience Cloud] を含む [!DNL Target] ソリューションのステータスを表示します。 このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
+[Adobeのシステムステータス ページ &#x200B;](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) を使用して、[!DNL Adobe] 製品のステータスと [!DNL Experience Cloud] を含む [!DNL Target] ソリューションのステータスを表示します。 このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
 
 +++
 

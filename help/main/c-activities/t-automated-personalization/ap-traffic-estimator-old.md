@@ -30,7 +30,7 @@ ht-degree: 11%
 
    [!UICONTROL Traffic Estimator] が開きます。 もう一度 **[!UICONTROL Traffic]** をクリックすると、[!UICONTROL Traffic Estimator] ージを非表示にすることができます。
 
-   ![ トラフィック見積もりユーザーインターフェイス ](assets/ap_est.png)
+   ![&#x200B; トラフィック見積もりユーザーインターフェイス &#x200B;](assets/ap_est.png)
 
 1. 一般的なコンバージョン率（または、このアクティビティから予測されるコンバージョン率）、1 日あたりの推定アクティビティインプレッション数、およびテスト期間を指定します。
 
@@ -45,19 +45,19 @@ ht-degree: 11%
 
    [!UICONTROL Traffic Estimator] の上部付近で、入力した値が計算され、結果が表示されます。
 
-   ![ 値と結果を表示したトラフィックの見積もり ](assets/ap_est_no.png)
+   ![&#x200B; 値と結果を表示したトラフィックの見積もり &#x200B;](assets/ap_est_no.png)
 
    数値を変更すると、見積もりも変更されます。例えば、テストする組み合わせが多く、コンバージョン率とインプレッション数が低すぎる場合、テストを成功させるためには、テストを実行する必要がある期間を [!UICONTROL Traffic Estimator] に示します。 または、トラフィックが少ない場合は、オファーの組み合わせの数を減らして、目的の日数で [!UICONTROL Traffic Estimator] ストを実行できるようにすることも可能です。
 
    十分なトラフィックがない場合は、次の点を考慮してください。
 
-   * [ の代わりに ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 自動ターゲット [!UICONTROL Automated Personalization] アクティビティを使用して、1 つのエクスペリエンスのバリエーション内で、複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
+   * [&#x200B; の代わりに &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 自動ターゲット [!UICONTROL Automated Personalization] アクティビティを使用して、1 つのエクスペリエンスのバリエーション内で、複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
    * [!UICONTROL Automated Personalization] アクティビティ内のオファーの組み合わせの数を減らします。
    * アクティビティの実行期間を長くします。
 
    [!UICONTROL Traffic Estimator] が十分なトラフィックがあることを示すまで数値を調整し、それに応じてテストを設計します。
 
-   ![ 十分なトラフィックメッセージを示すトラフィック見積もり ](assets/ap_est_yes.png)
+   ![&#x200B; 十分なトラフィックメッセージを示すトラフィック見積もり &#x200B;](assets/ap_est_yes.png)
 
    トラフィックが十分な場合、[!UICONTROL Traffic] のアイコンは緑色のチェックを示します。 トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
 

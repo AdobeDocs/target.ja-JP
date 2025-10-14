@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなりました。[!DNL Recommendations] を最大限に活用するには、[!DNL Recommendations]Adobe Target Premium[ で利用できる ](/help/main/c-intro/intro.md) アクティビティにアップグレードしてください。
+>[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなりました。[!DNL Recommendations] を最大限に活用するには、[!DNL Recommendations]Adobe Target Premium[&#x200B; で利用できる &#x200B;](/help/main/c-intro/intro.md) アクティビティにアップグレードしてください。
 
 Recommendations を使用すると、顧客が知らなかった品目を表示し、Web サイトの売上を促進できます。
 

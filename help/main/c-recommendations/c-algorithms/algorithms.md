@@ -38,13 +38,13 @@ ht-degree: 8%
 
 | アルゴリズムタイプ | 使用するタイミング | 使用可能なアルゴリズム |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) の *買い物かごベース* を参照してください。 |
+| [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>詳しくは、[&#x200B; レコメンデーションキーに基づくレコメンデーションのベース &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) の *買い物かごベース* を参照してください。 |
 | [!UICONTROL Popularity-Based] | サイト全体でのアイテムの全体的な人気度に基づいて、またはユーザーのお気に入りのカテゴリや最も多く閲覧されたカテゴリ、ブランド、ジャンルなどのアイテムの人気度に基づいて、レコメンデーションを作成します。 | <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
 | [!UICONTROL Item-Based] | ユーザーが現在表示している項目または最近表示した項目に類似した項目を見つけることに基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
 | [!UICONTROL User-Based] | ユーザーの行動に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
 | [!UICONTROL Custom Criteria] | アップロードしたカスタムファイルに基づいてお勧めを紹介します。 | <ul><li>カスタムアルゴリズム</li></ul> |
 
-各アルゴリズムについて詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) を参照してください。
+各アルゴリズムについて詳しくは、[&#x200B; レコメンデーションキーに基づくレコメンデーションのベース &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) を参照してください。
 
 ## カスタムレコメンデーションキーの使用 {#custom-key}
 
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->カスタムプロファイルパラメーターは、JavaScript、API または統合を通じて [!DNL Target] に渡すことができます。 カスタムプロファイル属性について詳しくは、[ 訪問者プロファイル ](/help/main/c-target/c-visitor-profile/visitor-profile.md) を参照してください。
+>カスタムプロファイルパラメーターは、JavaScript、API または統合を通じて [!DNL Target] に渡すことができます。 カスタムプロファイル属性について詳しくは、[&#x200B; 訪問者プロファイル &#x200B;](/help/main/c-target/c-visitor-profile/visitor-profile.md) を参照してください。
 
 例えば、ユーザーが最後にキューに追加したムービーに基づいて、お勧めのムービーを表示するとします。
 
@@ -60,9 +60,9 @@ ht-degree: 8%
 
 1. **[!UICONTROL Create Criteria]**／**[!UICONTROL Create Criteria]**&#x200B;をクリックします。
 
-1. [ 基本情報 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) の情報を入力します。
+1. [&#x200B; 基本情報 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) の情報を入力します。
 
-1. 「[ 推奨されるアルゴリズム ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)」セクションで、リストから **[!UICONTROL Item Based]** を選 **[!UICONTROL Algorithm Type]** します。
+1. 「[&#x200B; 推奨されるアルゴリズム &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)」セクションで、リストから **[!UICONTROL Item Based]** を選 **[!UICONTROL Algorithm Type]** します。
 
 1. リストから **[!UICONTROL People Who Viewed This, Viewed That]** を選 **[!UICONTROL Algorithm]** します。
 
@@ -78,4 +78,4 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->[!UICONTROL Algorithm Usage] 機能は現在、[!DNL Recommendations] アクティビティでのみサポートされています。 この機能は、現在、（オファーとしてのレコメンデーション [!UICONTROL A/B Test] を含む [!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]、[!UICONTROL Experience Targeting] および [ （XT）アクティビティではサポートされてい ](/help/main/c-recommendations/recommendations-as-an-offer.md) せん。
+>[!UICONTROL Algorithm Usage] 機能は現在、[!DNL Recommendations] アクティビティでのみサポートされています。 この機能は、現在、（オファーとしてのレコメンデーション [!UICONTROL A/B Test] を含む [!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]、[!UICONTROL Experience Targeting] および [&#x200B; （XT）アクティビティではサポートされてい &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md) せん。

@@ -18,7 +18,7 @@ ht-degree: 42%
 
 >[!IMPORTANT]
 >
->静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細、例およびユースケースシナリオについては、[ 動的および静的インクルージョンルールの使用 ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F) を参照してください。
+>静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細、例およびユースケースシナリオについては、[&#x200B; 動的および静的インクルージョンルールの使用 &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F) を参照してください。
 
 [!DNL Recommendations] アクティビティを作成するときは、[!DNL Recommendations] デザインにプロモーション項目を含めることができます。プロモーションは、デザインの使用可能なスロットを使用し、条件の結果およびバックアップレコメンデーションよりも優先されます。例えば、デザインに 6 つのスロットがあり、そのうち 2 つをプロモーションに使用した場合、条件に基づいてレコメンデーションされる項目に 4 つのスロットを使用できます。
 
@@ -26,7 +26,7 @@ ht-degree: 42%
 
 特定の項目をプロモーションしたり、動的に項目をプロモーションしたり、属性に基づいて項目をプロモーションすることができます。また、コレクションをプロモーションすることもできます。
 
-![[!UICONTROL Front Promotion] UI の [!UICONTROL Back Promotion] および [!DNL Target] オプション ](assets/add_promotion_toggles.png)
+![[!UICONTROL Front Promotion] UI の [!UICONTROL Back Promotion] および [!DNL Target] オプション &#x200B;](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -54,11 +54,11 @@ ht-degree: 42%
 
    * 「**[!UICONTROL Promote by attribute]**」を選択してルールを追加し、昇格させる項目の属性を定義します。
 
-     [!UICONTROL Promote by Attribute] を選択すると、動的一致を作成できます。 詳しくは、[ 動的および静的インクルージョンルールの使用 ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F) を参照してください。
+     [!UICONTROL Promote by Attribute] を選択すると、動的一致を作成できます。 詳しくは、[&#x200B; 動的および静的インクルージョンルールの使用 &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F) を参照してください。
 
    * 「**[!UICONTROL Promote a collection]**」を選択し、昇格させる項目のコレクションを選択します。
 
-     プロモーションに使用する新しいコレクションを作成できます。詳しくは、[ コレクションの作成 ](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) を参照してください。
+     プロモーションに使用する新しいコレクションを作成できます。詳しくは、[&#x200B; コレクションの作成 &#x200B;](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) を参照してください。
 
    **[!UICONTROL List of Items]** として **[!UICONTROL Promotion Type]** を選択した場合は、必要に応じて「**[!UICONTROL Randomize Item Order]**」チェックボックスを選択できます。
 

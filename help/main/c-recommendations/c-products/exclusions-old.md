@@ -37,7 +37,7 @@ ht-degree: 29%
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions] リスト表示の各除外について報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の除外のルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   [!UICONTROL Exclusions] リスト表示の各除外について報告された「項目数」は、設定されたデフォルトの Recommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の除外のルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
 
@@ -55,9 +55,9 @@ ht-degree: 29%
 
 ## 詳細検索を使用した除外の作成
 
-[!UICONTROL Advanced Search] カタログ検索 [ ページ（](/help/main/c-recommendations/c-products/catalog-search.md#save-as)/[!UICONTROL Recommendations]/[!UICONTROL Catalog Search]）の [!UICONTROL Advanced Search] を使用して除外を作成することもできます。
+[!UICONTROL Advanced Search] カタログ検索 [&#x200B; ページ（](/help/main/c-recommendations/c-products/catalog-search.md#save-as)/[!UICONTROL Recommendations]/[!UICONTROL Catalog Search]）の [!UICONTROL Advanced Search] を使用して除外を作成することもできます。
 
-![ 名前を付けて保存ダイアログ ](/help/main/c-recommendations/c-products/assets/save-as.png)
+![&#x200B; 名前を付けて保存ダイアログ &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 例えば、「id > 次を含む」を使用して検索を作成したら、[!UICONTROL Save As] > [!UICONTROL Exclusion] をクリックできます。
 
@@ -69,13 +69,13 @@ ht-degree: 29%
 
 リスト内の目的の除外にポインタを合わせ、適切なアイコン（編集、コピー、削除）をクリックします。
 
-![ 除外に対するホバーアイコン ](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
+![&#x200B; 除外に対するホバーアイコン &#x200B;](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
 既存の除外をコピーして重複する除外を作成し、それを変更できます。 これにより、少ない労力で同様の除外を作成できます。
 
 除外は、アカウント全体で利用できることに注意してください。 除外を削除する前に、このことを考慮してください。 削除した除外は復元できません。
 
-## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

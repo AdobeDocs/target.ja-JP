@@ -20,7 +20,7 @@ ht-degree: 25%
 >
 >条件シーケンスは、[!UICONTROL Recommendations] の 2016 年 10 月リリースより前に作成された [!DNL Target Premium] アクティビティでは使用できません。
 
-条件のシーケンスを作成するには、まずシーケンスに含める条件を作成する必要があります。詳しくは、[ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) を参照してください。
+条件のシーケンスを作成するには、まずシーケンスに含める条件を作成する必要があります。詳しくは、[&#x200B; 条件の作成 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) を参照してください。
 
 1 つの条件ではデザインを埋めるのに十分な結果が返されない場合、汎用的なバックアップレコメンデーションを使用する代わりに、条件のシーケンスを使用することで、ターゲットのレコメンデーションを追加で提供できます。通常、条件のシーケンスは、より具体的なターゲティング（結果が少ない可能性があります）から、より一般的なターゲティング（通常はより多くの結果が返されます）に進みます。
 
@@ -47,15 +47,15 @@ ht-degree: 25%
 
 1. **[!UICONTROL Create Criteria]**／**[!UICONTROL Create Criteria Sequence]**&#x200B;をクリックします。
 
-   ![CreateCriteriaSequence 画像 ](assets/CreateCriteriaSequence.png)
+   ![CreateCriteriaSequence 画像 &#x200B;](assets/CreateCriteriaSequence.png)
 
-1. 「基本情報 [ セクションに情報を入力し ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) す。
+1. 「基本情報 [&#x200B; セクションに情報を入力し &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) す。
 
 1. 「**[!UICONTROL Criteria Sequence]**」セクションで、「**[!UICONTROL Add Criteria]**」をクリックします。
 
    シーケンスの順序は、デザインが入力される順序を定義します。 条件 1 にデザインを満たすだけのレコメンデーションがない場合は、残りのスロットが条件 2 で満たされます。
 
-   ![ 条件の追加 ](/help/main/c-recommendations/c-algorithms/assets/add-criteria.png)
+   ![&#x200B; 条件の追加 &#x200B;](/help/main/c-recommendations/c-algorithms/assets/add-criteria.png)
 
 1. [!UICONTROL Select Criteria] 画面で条件を選択し、「**[!UICONTROL Add]**」をクリックします。
 
@@ -65,7 +65,7 @@ ht-degree: 25%
 
 1. （オプション） **[!UICONTROL Limit the number of items returned]** 切り替えスイッチを「オン」の位置にスライドさせ、項目数（1～50）を指定します。
 
-   ![ 返される項目の数を制限に切り替え ](/help/main/c-recommendations/c-algorithms/assets/limit-number.png)
+   ![&#x200B; 返される項目の数を制限に切り替え &#x200B;](/help/main/c-recommendations/c-algorithms/assets/limit-number.png)
 
    [!UICONTROL Limit the number of items returned] オプション（「スロットレベル制御」とも呼ばれます）の値を理解しやすくするために、次のユースケースを考慮します。
 
@@ -73,13 +73,13 @@ ht-degree: 25%
 
      Recommendations トレイは、サイトでは次のようになります。
 
-     ![ おすすめ製品レコメンデーショントレイ ](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
+     ![&#x200B; おすすめ製品レコメンデーショントレイ &#x200B;](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
 
    * **ユースケース 2**：代替項目と補完項目の両方を組み合わせたい場合。 表示/閲覧アルゴリズムを使用する条件を 1 つ設定し、推奨される項目を現在の項目のカテゴリに制限する動的フィルターを使用します。 2 番目の条件を設定して、閲覧/購入アルゴリズムを使用し、現在の項目のカテゴリに一致しない推奨項目のみを含む動的フィルターを使用します。 最後に、シーケンスに両方の条件を追加し、最初の条件を 2 スロットに制限します。
 
 1. シーケンスに条件を追加し続けます。 1 つのシーケンスに最大 5 つの条件を追加できます。
 
-1. [ コンテンツのバックアップオプション ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) を有効にします。
+1. [&#x200B; コンテンツのバックアップオプション &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) を有効にします。
 
 1. **[!UICONTROL Save]** をクリックします。
 
@@ -87,7 +87,7 @@ ht-degree: 25%
 
    レコメンデーションロジックのオプションについて詳しくは、[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
-## トレーニングビデオ：Recommendations で条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations で条件を作成（12:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

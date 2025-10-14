@@ -99,7 +99,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-この計算では「Delta」メソッドを使用します。詳しくは、このドキュメントで [ 説明します ](/help/main/assets/confidence_interval_lift.pdf)
+この計算では「Delta」メソッドを使用します。詳しくは、このドキュメントで [&#x200B; 説明します &#x200B;](/help/main/assets/confidence_interval_lift.pdf)
 
 ## [!UICONTROL Confidence]
 
@@ -141,4 +141,4 @@ Welch の t 検定では、自由度は次のように計算されます。
 
 [ダウンロードした CSV レポート](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
 
-これらの統計量を計算するには、[!DNL Target] [ 完全信頼性計算ツール ](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルをダウンロードして、アクティビティの値を入力します。
+これらの統計量を計算するには、[!DNL Target] [&#x200B; 完全信頼性計算ツール &#x200B;](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルをダウンロードして、アクティビティの値を入力します。

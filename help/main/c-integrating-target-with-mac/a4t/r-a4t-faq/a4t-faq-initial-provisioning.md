@@ -29,7 +29,7 @@ ht-degree: 61%
 ## [!DNL Target] アカウントで A4T が有効になっているかどうかを確認するにはどうすればよいですか？ {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 +++回答
-Analytics アクティビティを定義するときは、レポートスイートを選択する前に、Analytics ユーザーアカウントと Target ユーザーアカウントの両方が必要になります。ドキュメントの説明に従って、ユーザーアカウントを設定する必要があります。[ ユーザー権限の要件 ](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) を参照してください。
+Analytics アクティビティを定義するときは、レポートスイートを選択する前に、Analytics ユーザーアカウントと Target ユーザーアカウントの両方が必要になります。ドキュメントの説明に従って、ユーザーアカウントを設定する必要があります。[&#x200B; ユーザー権限の要件 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) を参照してください。
 
 1 つ以上のExperience Cloud グループのメンバーで、Analytics と Target へのアクセス権を持ち、すべてのレポートスイートへのアクセス権を持ったら、「**[!UICONTROL Create Activity]**」の下に「Analytics を使用して A/B テストを作成する」オプションが表示されます。
 

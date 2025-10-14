@@ -163,7 +163,7 @@ ht-degree: 95%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer （2/2）（7:29） ![ 概要バッジ ](/help/main/assets/overview.png)
+### Visual Experience Composer （2/2）（7:29） ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 以下のデモビデオには、Visual Experience Composer を使用したモバイルビューポートとの連携に関する情報が含まれています。
 

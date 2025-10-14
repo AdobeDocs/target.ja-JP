@@ -33,7 +33,7 @@ ht-degree: 15%
 
 1. 左側のナビゲーションメニューの「**[!UICONTROL Analytics]**」をクリックします。
 
-   ![Screen_DebuggerTrackServ 画像 ](assets/Screen_DebuggerTrackServ.png)
+   ![Screen_DebuggerTrackServ 画像 &#x200B;](assets/Screen_DebuggerTrackServ.png)
 
    [!DNL Analytics] トラッキングサーバーは、デバッガーの [!UICONTROL Hostname] セクションにあります。
 
@@ -55,13 +55,13 @@ ht-degree: 15%
 
 1. アクティビティを作成するページから、ブラウザーのデベロッパーツールを開きます（Google Chromeで、右上隅にある 3 つの縦並びの省略記号（その他のツール/デベロッパーツール）をクリックします）。
 
-   ![Chrome デベロッパーツール ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Chrome デベロッパーツール &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. 「**[!UICONTROL Network]**」タブをクリックします。
 
 1. `/ss,` リクエストを表示する [!DNL Analytics] をフィルタリングします。
 
-   ![/ss 検索を使用したChrome デベロッパーツール ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
+   ![/ss 検索を使用したChrome デベロッパーツール &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    トラッキングサーバーはリクエストのホスト名です。
 

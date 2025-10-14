@@ -42,6 +42,6 @@ activityId:experienceId:targettype:algorithmId|event
 * event = 32767 は、アクティビティのコンバージョンを表します。
 * イベント -1 または 65535 は、ユーザーがアクティビティまたはエクスペリエンスから削除されたことを表します。 この状況は、訪問者がコンバージョンするときによく発生します。 訪問者はエクスペリエンスからリリースされ、他のエクスペリエンスの対象として使用できるようになりました。
 
-[ ブラウザーインポート ](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=ja) または [FTP インポート ](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=ja) を使用して、UI から分類ファイルを頻繁にインポートできます。 また、エンジニアリングサービスと連携して、クリックストリームデータフィードと同時にルックアップテーブルとしてファイルを取得できます。
+[&#x200B; ブラウザーインポート &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=ja) または [FTP インポート &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=ja) を使用して、UI から分類ファイルを頻繁にインポートできます。 また、エンジニアリングサービスと連携して、クリックストリームデータフィードと同時にルックアップテーブルとしてファイルを取得できます。
 
 +++

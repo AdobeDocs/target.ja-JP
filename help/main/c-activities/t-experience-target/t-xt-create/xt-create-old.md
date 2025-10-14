@@ -17,9 +17,9 @@ ht-degree: 38%
 
 [!UICONTROL Experience Targeting] （XT）では、マーケターが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
-[!UICONTROL Experience Targeting] ジオターゲティング [ を含む ](/help/main/c-target/c-audiences/c-target-rules/geo.md) は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。 アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。
+[!UICONTROL Experience Targeting] ジオターゲティング [&#x200B; を含む &#x200B;](/help/main/c-target/c-audiences/c-target-rules/geo.md) は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。 アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。
 
-[!UICONTROL Experience Targeting]、ユースケースシナリオおよびトレーニングビデオについて詳しくは、[ エクスペリエンスのターゲット設定 ](/help/main/c-activities/t-experience-target/experience-target.md) を参照してください。
+[!UICONTROL Experience Targeting]、ユースケースシナリオおよびトレーニングビデオについて詳しくは、[&#x200B; エクスペリエンスのターゲット設定 &#x200B;](/help/main/c-activities/t-experience-target/experience-target.md) を参照してください。
 
 **[!UICONTROL Experience Targeting] アクティビティを作成するには：**
 
@@ -29,25 +29,25 @@ ht-degree: 38%
 
    >[!NOTE]
    >
-   >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Automated Personalization] は [Target Premium機能 ](/help/main/c-intro/intro.md#premium) です。
+   >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Automated Personalization] は [Target Premium機能 &#x200B;](/help/main/c-intro/intro.md#premium) です。
    >
    >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
 1. 必要に応じて「**[!UICONTROL Visual (Default)]**」を選択します。
 
-   [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用する場合は、「[!UICONTROL Form]」を選択します。
+   [&#x200B; フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用する場合は、「[!UICONTROL Form]」を選択します。
 
    >[!NOTE]
    >
    >VEC と [!UICONTROL Form-Based Experience Composer] に加えて、[!DNL Target] は、シングルページアプリケーション VEC を提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
-   >VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) を参照してください。
+   >VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) を参照してください。
 
-1. （条件付き） [!DNL Target Premium] の顧客の場合は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
+1. （条件付き） [!DNL Target Premium] の顧客の場合は、[&#x200B; ワークスペースを選択 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
 
-   「[!UICONTROL Choose Workplace]」オプションは [1&rbrace;Target Premium&rbrace; 機能です。 ](/help/main/c-intro/intro.md)このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
+   「[!UICONTROL Choose Workplace]」オプションは [1&rbrace;Target Premium&rbrace; 機能です。 &#x200B;](/help/main/c-intro/intro.md)このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
 
-1. [ アクティビティ URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を指定し、「**[!UICONTROL Create]**」をクリックします。
+1. [&#x200B; アクティビティ URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を指定し、「**[!UICONTROL Create]**」をクリックします。
 
    アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。必要に応じて、デフォルトの URL を別の URL に変更できます。
 

@@ -19,7 +19,7 @@ ht-degree: 20%
 
 1. **[!UICONTROL Offers]**／**[!UICONTROL Image Offers]**&#x200B;をクリックします。
 
-   ![ オファー/画像オファー ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![&#x200B; オファー/画像オファー &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. **[!UICONTROL Create]**／**[!UICONTROL Files]**&#x200B;をクリックします。
 1. 追加する項目を参照して選択し、「**[!UICONTROL Open]**」をクリックします。
@@ -33,9 +33,9 @@ ht-degree: 20%
 
 [!UICONTROL List View] ールバーで、リストの左側にある画像サムネール画像をクリックして、目的の画像オファーまたはフォルダーを選択し、「**[!UICONTROL Delete]**」をクリックします（下図を参照）。
 
-![ 選択した項目を削除 ](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
+![&#x200B; 選択した項目を削除 &#x200B;](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
 
-## トレーニングビデオ：コンテンツリポジトリ ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：コンテンツリポジトリ ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。
 

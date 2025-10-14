@@ -30,17 +30,17 @@ ht-degree: 8%
 
    次の図は、[!UICONTROL List View] ージを表示する際に使用できるオプションを示しています。
 
-   ![ リスト表示オプション ](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![&#x200B; リスト表示オプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. 左上隅の **[!UICONTROL Content Only]** アイコンをクリックして検索ボックスを表示します。
 
-   ![ コンテンツのみオプション ](/help/main/c-experiences/c-manage-content/assets/content-only.png)
+   ![&#x200B; コンテンツのみオプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/content-only.png)
 
 1. 検索ボックスに探しているアセットのキーワードを入力して、Enter キーを押します。
 
 1. （任意）検索を詳細に絞り込むには、**[!UICONTROL Filters and Options]** ペインを使用します。
 
-   ![ フィルターとオプション ペイン ](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
+   ![&#x200B; フィルターとオプション ペイン &#x200B;](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
 
    次の項目でフィルタリングできます。
 

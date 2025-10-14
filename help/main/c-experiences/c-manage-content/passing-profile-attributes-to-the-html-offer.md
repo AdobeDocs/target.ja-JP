@@ -47,7 +47,7 @@ ht-degree: 52%
 
 デバッグ目的でコンソールに `${campaign.name}`、`${campaign.id}`、`${campaign.recipe.name}`、`${campaign.recipe.id}`、`${offer.name}`、`${offer.id}`、`${campaign.name}` などの情報を記録します。
 
-[!DNL Recommendations] のデザインについては、その他の例を [ デザインの概要 ](/help/main/c-recommendations/c-design-overview/design-overview.md) で参照してください。
+[!DNL Recommendations] のデザインについては、その他の例を [&#x200B; デザインの概要 &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md) で参照してください。
 
 ## 実装
 

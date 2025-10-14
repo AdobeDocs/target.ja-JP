@@ -66,15 +66,15 @@ ht-degree: 38%
 * [!DNL Adobe Analytics]
 * [!DNL Adobe Customer Journey Analytics]
 
-[ アカウント設定 ](/help/main/administrating-target/reporting.md) でレポートソリューションが指定されている場合、指定されたソリューションが使用され、この設定は表示されません。
+[&#x200B; アカウント設定 &#x200B;](/help/main/administrating-target/reporting.md) でレポートソリューションが指定されている場合、指定されたソリューションが使用され、この設定は表示されません。
 
 アクティビティがライブになった後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。
 
 **[!DNL Adobe Analytics]**: レポートソリューションの違いとそれぞれの利点について詳しくは [[!DNL Adobe Analytics]  のレポートソースとしての）  [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
 
-[!DNL Analytics] （A4T）のレポートソースとして [!DNL Target] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 これを行うには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択し、次に、アクティビティに適したレポートスイートを選択します。 [!DNL Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
+[!DNL Analytics] （A4T）のレポートソースとして [!DNL Target] を選択する場合は、アクティビティデータを受け取る [!DNL Analytics] レポートスイート [!DNL Target] 選択します。 これを行うには、まずアカウントが関連付けられている [!DNL Analytics] の会社のいずれかを選択し、次に、アクティビティに適したレポートスイートを選択します。 [!DNL Target] に接続するようにプロビジョニングされているレポートスイートのみを選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして [!DNL Adobe Experience Cloud] にログインし直し、もう一度試してください。 それでもリストにレポートスイートが表示されない場合は、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
 
-[!DNL Analytics for Target] （A4T）では、結果を正しく報告するためのトラッキングサーバーが必要です。 デフォルトのトラッキングサーバーが「[!UICONTROL Tracking Server]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合、このフィールドに正しいトラッキングサーバーを含めてください。 詳しくは [Analytics トラッキングサーバーの使用 ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
+[!DNL Analytics for Target] （A4T）では、結果を正しく報告するためのトラッキングサーバーが必要です。 デフォルトのトラッキングサーバーが「[!UICONTROL Tracking Server]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合、このフィールドに正しいトラッキングサーバーを含めてください。 詳しくは [Analytics トラッキングサーバーの使用 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
 
 **[!DNL Adobe Customer Journey Analytics]**: [[!DNL Target]  と  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) の統合について詳しくは、[!DNL Adobe Customer Journey Analytics] でのレポート [!DNL Target] を参照してください。
 

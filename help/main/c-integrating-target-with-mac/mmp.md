@@ -15,7 +15,7 @@ ht-degree: 13%
 
 [!DNL Adobe Experience Cloud audiences] アプリケーション [!DNL Experience Cloud]web サイトの訪問者に関する情報を通信および共有できるので、各アプリケーションで同じデータを使用できます。
 
-[Experience Cloud オーディエンス ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) （オーディエンスライブラリ）について詳しくは、*Experience Cloud インターフェイスおよび管理ガイド* を参照してください。
+[Experience Cloud オーディエンス &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) （オーディエンスライブラリ）について詳しくは、*Experience Cloud インターフェイスおよび管理ガイド* を参照してください。
 
 ## ビデオ：[!DNL Target] と [!DNL Experience Cloud Audiences] の統合（10:48）
 

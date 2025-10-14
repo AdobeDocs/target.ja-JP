@@ -17,9 +17,9 @@ ht-degree: 12%
 
 複数の指標をレポートに表示する際は、次の点に注意してください。
 
-* 複数の指標を表示する機能は、[A/B テスト ](/help/main/c-activities/t-test-ab/test-ab.md)、[ 自動配分 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) および [ エクスペリエンスのターゲット設定 ](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティでのみ使用できます。
+* 複数の指標を表示する機能は、[A/B テスト &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md)、[&#x200B; 自動配分 &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) および [&#x200B; エクスペリエンスのターゲット設定 &#x200B;](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティでのみ使用できます。
 * [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティのレポートに追加できる指標は 20 個までです。 A4T を使用しない *使用しない* アクティビティのレポートには、アクティビティに含める指標の数だけレポートを追加できます。
-* 複数の指標を選択した場合、[ ダウンロードオプション ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) を使用してレポートを CSV にダウンロードすることはできません。 [!UICONTROL Download] オプションを有効にするには、1 つの指標のみを選択する必要があります。
+* 複数の指標を選択した場合、[&#x200B; ダウンロードオプション &#x200B;](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) を使用してレポートを CSV にダウンロードすることはできません。 [!UICONTROL Download] オプションを有効にするには、1 つの指標のみを選択する必要があります。
 * 2015 年 7 月リリース（2015 年 7 月 30 日（PT））より前に作成されたアクティビティでは、複数の指標を [!DNL Target] 示することはできません。
 
 **複数の指標を選択してレポートに表示する方法は次のとおりです。**

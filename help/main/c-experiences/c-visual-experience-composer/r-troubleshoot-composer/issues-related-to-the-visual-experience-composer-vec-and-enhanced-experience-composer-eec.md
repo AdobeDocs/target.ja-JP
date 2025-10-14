@@ -24,7 +24,7 @@ ht-degree: 32%
 >
 >次の変更は、以下に示す 3 つの更新すべてに影響します。
 >
-> * *VEC Helper 拡張機能* がインストールされ [ サイトのパスワードで保護されたページに対して有効になっていない場合 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)VEC を使用できません。 サイトのログイン cookie はサードパーティ cookie と見なされ、[!UICONTROL Browse] モードの VEC エディター内のログインリクエストでは送信されません。 唯一の例外は、サイトのログイン Cookie に `SameSite=None` 属性と `Secure` 属性が既に設定されている場合です。
+> * *VEC Helper 拡張機能* がインストールされ [&#x200B; サイトのパスワードで保護されたページに対して有効になっていない場合 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)VEC を使用できません。 サイトのログイン cookie はサードパーティ cookie と見なされ、[!UICONTROL Browse] モードの VEC エディター内のログインリクエストでは送信されません。 唯一の例外は、サイトのログイン Cookie に `SameSite=None` 属性と `Secure` 属性が既に設定されている場合です。
 
 **Chrome 94 （2021 年 9 月 21 日（PT））**: Chrome 94 リリース（2021 年 9 月 21 日（PT））で予定されている差し迫った変更は、次の変更がChrome 94 以降のブラウザーバージョンのすべてのユーザーに影響します。
 
@@ -80,13 +80,13 @@ Web サイトの CSP ヘッダーが [!DNL Target] ライブラリをブロッ�
 
 >[!NOTE]
 >
->以下の情報に加えて、[Adobe Target VEC Helper ブラウザー拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) を使用でき [!DNL Google Chrome] す。
+>以下の情報に加えて、[Adobe Target VEC Helper ブラウザー拡張機能 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) を使用でき [!DNL Google Chrome] す。
 
 ![cps_headers image](assets/cps_headers.png)
 
 回避策として、次に示すように、[!DNL Requestly] ルールを設定して CSP ヘッダーを削除できます。
 
-![cps_headers_2 画像 ](assets/cps_headers_2.png)
+![cps_headers_2 画像 &#x200B;](assets/cps_headers_2.png)
 
 VEC 内でリソースが読み込まれない任意のヘッダーに対して、同様の [!DNL Requestly] ルールを設定できます。
 
@@ -114,7 +114,7 @@ VEC 内でリソースが読み込まれない任意のヘッダーに対して�
 ## ページ内の 1 つの要素を変更すると、複数の要素が変更されます。（VEC と EEC） {#section_309188ACF34942989BE473F63C5710AF}
 
 +++詳細
-同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。これは、標準のHTML ベストプラクティスです。 詳しくは、[ ページ修正のシナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB) を参照してください。
+同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。これは、標準のHTML ベストプラクティスです。 詳しくは、[&#x200B; ページ修正のシナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB) を参照してください。
 
 +++
 

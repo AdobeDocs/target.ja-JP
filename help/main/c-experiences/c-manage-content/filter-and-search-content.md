@@ -22,14 +22,14 @@ ht-degree: 1%
 
    ドロップダウンを使用して、[!UICONTROL Offer name]、[!UICONTROL AEM Paths] または [!UICONTROL AEM Tags] でフィルタリングできます。
 
-   また、「[!UICONTROL Type]」、「[!UICONTROL Source]」、「[!UICONTROL AEM Type]」の各オプションを使用してフィルタリングすることもできます。その場合は、[!UICONTROL Show Filters] のアイコン ![ フィルターアイコンを表示 ](/help/main/assets/icons/Filter.svg) をクリックして、検索を絞り込みます。
+   また、「[!UICONTROL Type]」、「[!UICONTROL Source]」、「[!UICONTROL AEM Type]」の各オプションを使用してフィルタリングすることもできます。その場合は、[!UICONTROL Show Filters] のアイコン ![&#x200B; フィルターアイコンを表示 &#x200B;](/help/main/assets/icons/Filter.svg) をクリックして、検索を絞り込みます。
 
 ## キーワードで画像オファーを検索 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. **[!UICONTROL Offers]**／**[!UICONTROL Image Offers]**&#x200B;をクリックします。
 
-1. （オプション） [!UICONTROL Card View] と [!UICONTROL List View] を切り替えるには、[!UICONTROL Card View] ライブラリの右上隅にある ![ アイコン（](/help/main/assets/icons/ViewCard.svg) カード表示アイコン [!UICONTROL List View]）または ![ アイコン（](/help/main/assets/icons/ViewList.svg) リスト表示アイコン [!UICONTROL Asset]）をクリックします。
-1. 左上隅の「**[!UICONTROL Content Only]**」アイコン ![ コンテンツのみアイコン ](/help/main/assets/icons/RailLeft.svg)）をクリックして、検索ボックスを表示します。
+1. （オプション） [!UICONTROL Card View] と [!UICONTROL List View] を切り替えるには、[!UICONTROL Card View] ライブラリの右上隅にある ![&#x200B; アイコン（](/help/main/assets/icons/ViewCard.svg) カード表示アイコン [!UICONTROL List View]）または ![&#x200B; アイコン（](/help/main/assets/icons/ViewList.svg) リスト表示アイコン [!UICONTROL Asset]）をクリックします。
+1. 左上隅の「**[!UICONTROL Content Only]**」アイコン ![&#x200B; コンテンツのみアイコン &#x200B;](/help/main/assets/icons/RailLeft.svg)）をクリックして、検索ボックスを表示します。
 1. 検索ボックスに検索するアセットのキーワードを入力し、[!UICONTROL Enter] キーを押します。
 1. （条件付き）左側の **[!UICONTROL Filters & Options]** ペインを使用して検索を絞り込みます。
 

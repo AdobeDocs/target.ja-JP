@@ -27,11 +27,11 @@ ht-degree: 20%
 
 次の図は、デフォルトの 1 x 4 のデザインを示しています。
 
-![1 x 4 デフォルトデザイン ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![1 x 4 デフォルトデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 次の図は、カスタムデザインを示しています。
 
-![ カスタムデザイン ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![&#x200B; カスタムデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 アクティビティの作成プロセス中に、[!UICONTROL Visual Experience Composer] （VEC）内から、またはアクティビティ作成外部のデザインライブラリからデザインを作成できます。 以下のセクションでは、ライブラリからデザインを作成することを前提としていますが、手順は似ています。
 
@@ -44,7 +44,7 @@ ht-degree: 20%
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
 
-1. 作成するデザインの「その他のアクション」アイコン ![ 「その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Copy]**」をクリックします。
+1. 作成するデザインの「その他のアクション」アイコン ![&#x200B; 「その他のアクション」アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Copy]**」をクリックします。
 
    [!UICONTROL Create Design] ダイアログボックスが表示されます。
 
@@ -54,7 +54,7 @@ ht-degree: 20%
 
 1. （条件付き）必要に応じてデザイン **[!UICONTROL Code]** を編集します。
 
-   レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。Velocity について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) および [Velocity を使用したデザインのカスタマイズ ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) を参照してください。
+   レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。Velocity について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) および [Velocity を使用したデザインのカスタマイズ &#x200B;](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) を参照してください。
 
    デザインは HTML または HTML 以外にすることができます。デフォルトでは、HTML デザインは、web 環境でのクリックの追跡を可能にするために `<div>` タグでラップされます。 HTML以外のデザインは、クリックの追跡が不可能な web 以外の環境向けです。 [!UICONTROL HTML Design] トグルを「オフ」の位置にスライドさせて、HTML以外のコードを使用します。
 
@@ -70,7 +70,7 @@ ht-degree: 20%
 
 1. **[!UICONTROL Create Design]** をクリックします。
 
-   既存のデザインを基に新しいカスタムデザインを作成する場合は、作成するデザインの [!UICONTROL More Actions] のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「[!UICONTROL Copy]」をクリックします。 その後、コピーを編集して新しいカスタムデザインを作成できます。
+   既存のデザインを基に新しいカスタムデザインを作成する場合は、作成するデザインの [!UICONTROL More Actions] のアイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「[!UICONTROL Copy]」をクリックします。 その後、コピーを編集して新しいカスタムデザインを作成できます。
 
 1. **[!UICONTROL Name]** とオプションのプレビュー画像を追加します。
 
@@ -84,7 +84,7 @@ ht-degree: 20%
 
 デフォルトデザインは編集またはコピーできないことに注意してください。コピーできるのは、デフォルトデザインのみです。
 
-編集または削除するデザインの [!UICONTROL More Actions] アイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]）をクリックします。
+編集または削除するデザインの [!UICONTROL More Actions] アイコン ![&#x200B; その他のアクションアイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]）をクリックします。
 
 既存のデザインをコピーして複製デザインを作成し、修正することができます。 このプロセスにより、少ない労力で同様のデザインを作成できます。
 
@@ -92,7 +92,7 @@ ht-degree: 20%
 
 ## JSON の例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-次の例は、[ フォームベースのエディター ](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを設定する際に JSON 応答を返す方法を示しています。
+次の例は、[&#x200B; フォームベースのエディター &#x200B;](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを設定する際に JSON 応答を返す方法を示しています。
 
 1. [!UICONTROL Design library] 内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC）ワークフロー内でデザインを作成しようとすると、クリックの追跡のために `<div>` でラップされたHTML デザイン以外は作成できません。
 
@@ -313,7 +313,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendations でカスタムデザインを作成（3:20） ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：Recommendations でカスタムデザインを作成（3:20） ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 

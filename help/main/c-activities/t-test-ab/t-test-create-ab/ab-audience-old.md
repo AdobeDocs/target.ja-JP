@@ -30,7 +30,7 @@ ht-degree: 64%
    * ライブラリからオーディエンスを選択
    * [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
    * [新しいオーディエンスの作成](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [ アクティビティのみのオーディエンスの作成 ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
+   * [&#x200B; アクティビティのみのオーディエンスの作成 &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 
    特定のオーディエンスのターゲティングを使用しない A/B テストの場合は、デフォルトの [!UICONTROL All Visitors] を選択します。
 
@@ -58,7 +58,7 @@ ht-degree: 64%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Adobe Targetでのオーディエンスの使用（6:21） ![ 概要バッジ ](/help/main/assets/overview.png)
+### Adobe Targetでのオーディエンスの使用（6:21） ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 
@@ -70,7 +70,7 @@ ht-degree: 64%
 
 >[!VIDEO](https://video.tv.adobe.com/v/29956?captions=jpn)
 
-### アクティビティワークフロー – ターゲティング（2:14） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### アクティビティワークフロー – ターゲティング（2:14） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、オーディエンスのセットアップに関する情報が説明されています。
 

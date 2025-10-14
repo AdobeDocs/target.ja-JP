@@ -99,7 +99,7 @@ A4T レポートの [!UICONTROL Table View] を次の図に示します。
 
 以下のビデオは、このトピックで説明する概念についてさらに詳しく説明しています。
 
-### Analytics for Adobe Target（A4T）（4:32） ![ 概要バッジ ](/help/main/assets/overview.png)
+### Analytics for Adobe Target（A4T）（4:32） ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、最適化プログラムの分析を推進するために [!DNL Target] で [!DNL Analytics] をレポートソースとして使用する方法を説明します。
 
@@ -109,7 +109,7 @@ A4T レポートの [!UICONTROL Table View] を次の図に示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421727?captions=jpn)
 
-### Analytics とAdobe Targetの統合（A4T）（40:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Analytics とAdobe Targetの統合（A4T）（40:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオは、「[Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 

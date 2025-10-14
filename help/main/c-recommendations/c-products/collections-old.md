@@ -44,9 +44,9 @@ ht-degree: 42%
 
    [!UICONTROL Collections] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、「[!UICONTROL Create Collection]」ボタンをクリックします。 目的のコレクションにカーソルを合わせて目的のアイコンをクリックして、既存のコレクションを編集、コピーおよび削除することもできます。
 
-   ![ ホバーアイコン：編集、コピー、削除 ](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   ![&#x200B; ホバーアイコン：編集、コピー、削除 &#x200B;](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL Collections] リスト表示の各コレクションについて報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内のそのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   [!UICONTROL Collections] リスト表示の各コレクションについて報告された「項目数」は、設定されたデフォルトの Recommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内のそのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. **[!UICONTROL Create Collection]** をクリックします。
 
@@ -68,9 +68,9 @@ ht-degree: 42%
 
 ## 詳細検索を使用したコレクションの作成
 
-[ カタログ検索 ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ（[!UICONTROL Recommendations]/[!UICONTROL Catalog Search]/[!UICONTROL Advanced Search]）の詳細検索を使用して、コレクションを作成することもできます。
+[&#x200B; カタログ検索 &#x200B;](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ（[!UICONTROL Recommendations]/[!UICONTROL Catalog Search]/[!UICONTROL Advanced Search]）の詳細検索を使用して、コレクションを作成することもできます。
 
-![ 名前を付けて保存ダイアログ ](/help/main/c-recommendations/c-products/assets/save-as.png)
+![&#x200B; 名前を付けて保存ダイアログ &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 例えば、「id > 次を含む」を使用して検索を作成したら、[!UICONTROL Save As] > [!UICONTROL Collection] をクリックできます。
 
@@ -82,7 +82,7 @@ ht-degree: 42%
 
 リスト内の目的のコレクションにポインタを合わせ、適切なアイコン（編集、コピー、削除）をクリックします。
 
-![ コレクションのホバーアイコン ](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+![&#x200B; コレクションのホバーアイコン &#x200B;](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 
 既存のコレクションをコピーして重複するコレクションを作成し、後で変更できます。 これにより、少ない労力で同様の除外を作成できます。
 
@@ -92,17 +92,17 @@ ht-degree: 42%
 
 1. 上記のいずれかの方法を使用して、コレクションを作成します。
 
-1. 「**[!UICONTROL Activities]**」をクリックして [ 新しい Recommendations を作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
+1. 「**[!UICONTROL Activities]**」をクリックして [&#x200B; 新しい Recommendations を作成 &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
 
 1. 条件とデザインを選択すると、目的のコレクションを選択したときに [!UICONTROL Options] のページが表示されます。
 
-   ![ コレクションオプションを選択 ](/help/main/c-recommendations/c-products/assets/choose-collection.png)
+   ![&#x200B; コレクションオプションを選択 &#x200B;](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
 1. （条件付き）既存のコレクション設定を変更するには、**[!UICONTROL Experiences]** のページ（3 つのパートから成るガイド付きワークフローのステップ 2）で、レコメンデーションを配置した場所をクリックし、「**[!UICONTROL Change Collection]**」をクリックして目的のコレクションを選択します。
 
-   ![ コレクションを変更オプション ](/help/main/c-recommendations/c-products/assets/change-collection.png)
+   ![&#x200B; コレクションを変更オプション &#x200B;](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

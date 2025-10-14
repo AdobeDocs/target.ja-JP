@@ -18,7 +18,7 @@ ht-degree: 27%
 ## A4T でオフライン計算を実行することはできますか？ {#section_55B5B750E17D414CAECBEECE27B15D81}
 
 +++回答
-A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。詳しくは、[A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
+A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。詳しくは、[A/Bn テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
 
 +++
 
@@ -32,7 +32,7 @@ A4T でオフライン計算を実行することはできますが、[!DNL Anal
 ## 信頼性はどのように計算されますか？ {#section_97DB24D833E742988318CA65DA65DAD9}
 
 +++回答
-信頼水準は、t 検定から `1 - p-value` が計算される確率（パーセントで表す）で、`p-value` と等しくなります。 [A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
+信頼水準は、t 検定から `1 - p-value` が計算される確率（パーセントで表す）で、`p-value` と等しくなります。 [A/Bn テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
 
 +++
 

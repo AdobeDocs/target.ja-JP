@@ -18,13 +18,13 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] は、[!DNL Target Premium] ソリューションの一部として利用できます。 [!DNL Target Standard]Target Premium ライセンス [ のない ](/help/main/c-intro/intro.md#premium) には含まれていません。
+>[!UICONTROL Automated Personalization] は、[!DNL Target Premium] ソリューションの一部として利用できます。 [!DNL Target Standard]Target Premium ライセンス [&#x200B; のない &#x200B;](/help/main/c-intro/intro.md#premium) には含まれていません。
 
 1. 「**[!UICONTROL Activities]**」をクリックし、リストから目的の [!UICONTROL Automated Personalization] アクティビティをクリックして、「**[!UICONTROL Reports]**」タブをクリックします。
 
-   アクティビティが多数ある場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
+   アクティビティが多数ある場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
-1. （任意） **[!UICONTROL Download]** （![ ダウンロードアイコン ](/help/main/assets/icons/Download.svg)）アイコンをクリックして、使用可能なすべての成功指標に分類された概要ビュー（例えば、コントロールトラフィックとターゲットトラフィックの比較）をダウンロードします。
+1. （任意） **[!UICONTROL Download]** （![&#x200B; ダウンロードアイコン &#x200B;](/help/main/assets/icons/Download.svg)）アイコンをクリックして、使用可能なすべての成功指標に分類された概要ビュー（例えば、コントロールトラフィックとターゲットトラフィックの比較）をダウンロードします。
 
 [!UICONTROL Automated Personalization] は次のレポートを提供します。
 
@@ -37,7 +37,7 @@ ht-degree: 13%
 
 [!UICONTROL Activity Level] レポートでは、[!UICONTROL Automated Personalization] アルゴリズムを使用しての集計パフォーマンスを、ランダムに提供されるコンテンツ（コントロール）と比較します。
 
-上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、[A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
+上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、[A/Bn テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
 
 ## オファーレベルレポート {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -49,19 +49,19 @@ ht-degree: 13%
 >
 >時計アイコンは、アルゴリズムモデルがまだ作成中であることを示します。 チェックマークアイコンは、ベースアルゴリズムが確立されたことを示します。
 
-オファーは [ レポートグループ ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) 内に表示することができ、これらのレポートグループは折りたたんだり展開したりできます。 テーブルで **[!UICONTROL Control]** または **[!UICONTROL Targeted]** をクリックすると、オファーごとではなくレポートグループごとにロールアップされた情報が表示されます。
+オファーは [&#x200B; レポートグループ &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) 内に表示することができ、これらのレポートグループは折りたたんだり展開したりできます。 テーブルで **[!UICONTROL Control]** または **[!UICONTROL Targeted]** をクリックすると、オファーごとではなくレポートグループごとにロールアップされた情報が表示されます。
 
 ## 自動セグメント
 
 [!UICONTROL Automated Segments] アイコンをクリックします。 このレポートは、AP/AT アクティビティのオファー/エクスペリエンスに対する様々な訪問者の反応を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
 
-詳しくは、[ 自動セグメントレポート ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を参照してください。
+詳しくは、[&#x200B; 自動セグメントレポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を参照してください。
 
 ## 重要な属性
 
 [!UICONTROL Important Attributes] アイコンをクリックします。 このレポートでは、モデルがどのようにパーソナライズを決定するかについて、様々なアクティビティで様々な属性がより多く（または少なく）重要である様子を示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
-詳しくは、[ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を参照してください。
+詳しくは、[&#x200B; 重要な属性レポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を参照してください。
 
 ## よくある質問
 

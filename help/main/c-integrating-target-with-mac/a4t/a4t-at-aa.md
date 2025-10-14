@@ -13,34 +13,34 @@ ht-degree: 9%
 
 # [!UICONTROL Auto-Allocate] アクティビティと [!UICONTROL Auto-Target] アクティビティに対する A4T のサポート
 
-[!DNL Adobe Target]Analytics for Target[!DNL Adobe Analytics] （A4T）と呼ばれる [ 対 ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) の統合では、[!UICONTROL Auto-Allocate] アクティビティと [!UICONTROL Auto-Target] アクティビティをサポートしています。
+[!DNL Adobe Target]Analytics for Target[!DNL Adobe Analytics] （A4T）と呼ばれる [&#x200B; 対 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) の統合では、[!UICONTROL Auto-Allocate] アクティビティと [!UICONTROL Auto-Target] アクティビティをサポートしています。
 
 A4T 統合により、次のことが可能になります。
 
-* [ 自動割り当て ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) マルチアームバンディット機能を使用して、勝者エクスペリエンスへとトラフィックを促します。
-* [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アンサンブル機械学習アルゴリズムを使用して、各訪問者に最適なエクスペリエンスを選択します。 [!UICONTROL Auto-Target] は、各ユーザーのプロファイル、行動およびコンテキストに基づいて最適なエクスペリエンスを選択すると同時に、[!DNL Adobe Analytics] しい目標指標や、[!DNL Adobe Analytics] の豊富なレポートおよび分析機能を使用します。
+* [&#x200B; 自動割り当て &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) マルチアームバンディット機能を使用して、勝者エクスペリエンスへとトラフィックを促します。
+* [&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アンサンブル機械学習アルゴリズムを使用して、各訪問者に最適なエクスペリエンスを選択します。 [!UICONTROL Auto-Target] は、各ユーザーのプロファイル、行動およびコンテキストに基づいて最適なエクスペリエンスを選択すると同時に、[!DNL Adobe Analytics] しい目標指標や、[!DNL Adobe Analytics] の豊富なレポートおよび分析機能を使用します。
 
-[A/B テストおよびエクスペリエンスのターゲティングアクティビティで使用するために A4T を実装 ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) したことを確認します。 `analyticsLogging = client_side` を使用する場合は、`sessionId` 値も [!DNL Analytics] に渡す必要があります。 詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=ja){target=_blank} の *Analytics for Target （A4T）レポート* を参照してください。
+[A/B テストおよびエクスペリエンスのターゲティングアクティビティで使用するために A4T を実装 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) したことを確認します。 `analyticsLogging = client_side` を使用する場合は、`sessionId` 値も [!DNL Analytics] に渡す必要があります。 詳しくは、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=ja){target=_blank} の *Analytics for Target （A4T）レポート* を参照してください。
 
 開始するには
 
-1. [[!UICONTROL A/B Test] アクティビティの作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 中に、**[!UICONTROL Targeting]** ページで **[!UICONTROL Traffic Allocation]** コントロールをクリックし、右側のパネルで目的のトラフィック配分方法を選択します。
+1. [[!UICONTROL A/B Test] アクティビティの作成 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 中に、**[!UICONTROL Targeting]** ページで **[!UICONTROL Traffic Allocation]** コントロールをクリックし、右側のパネルで目的のトラフィック配分方法を選択します。
 
-   ![ トラフィック配分方法の設定 ](/help/main/c-activities/assets/auto-target.png)
+   ![&#x200B; トラフィック配分方法の設定 &#x200B;](/help/main/c-activities/assets/auto-target.png)
 
    次のトラフィック割り当て方法を使用できます。
 
    * **[!UICONTROL Manual (Default)]**：各エクスペリエンスを表示するエントリの割合を指定します。 この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。全エクスペリエンスの合計が 100％になるようにします。
 
-   * **[!UICONTROL Auto-Allocate to best experience]**：ほとんどのアクティビティのエントリは、パフォーマンスの高いエクスペリエンスに自動的に移動します。 一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。詳しくは、[[!UICONTROL Auto-Allocate] の概要 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) を参照してください。
+   * **[!UICONTROL Auto-Allocate to best experience]**：ほとんどのアクティビティのエントリは、パフォーマンスの高いエクスペリエンスに自動的に移動します。 一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。詳しくは、[[!UICONTROL Auto-Allocate] の概要 &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) を参照してください。
 
-   * **[!UICONTROL Auto-Target for personalized experiences]**:[!DNL Target] は、高度な機械学習を使用して、パフォーマンスの高い複数のマーケターが定義したエクスペリエンスを特定し、個々の顧客プロファイルと類似する訪問者の過去の行動に基づいて最適なエクスペリエンスを訪問者に提供することで、コンテンツをパーソナライズし、コンバージョンを促進します。 詳しくは、[ 自動ターゲットの概要 ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) を参照してください。
+   * **[!UICONTROL Auto-Target for personalized experiences]**:[!DNL Target] は、高度な機械学習を使用して、パフォーマンスの高い複数のマーケターが定義したエクスペリエンスを特定し、個々の顧客プロファイルと類似する訪問者の過去の行動に基づいて最適なエクスペリエンスを訪問者に提供することで、コンテンツをパーソナライズし、コンバージョンを促進します。 詳しくは、[&#x200B; 自動ターゲットの概要 &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) を参照してください。
 
-   詳細と詳しい手順については、[ 自動配分アクティビティの作成 ](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) および [ 自動ターゲットアクティビティの作成 ](/help/main/c-activities/auto-target/create-auto-target.md) を参照してください。
+   詳細と詳しい手順については、[&#x200B; 自動配分アクティビティの作成 &#x200B;](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) および [&#x200B; 自動ターゲットアクティビティの作成 &#x200B;](/help/main/c-activities/auto-target/create-auto-target.md) を参照してください。
 
 1. **[!UICONTROL Adobe Analytics]** のページで **[!UICONTROL Reporting Source]** ーザーの **[!UICONTROL Goals & Settings]** を選択し、目的の最適化目標に対応する会社とレポートスイートを選択します。
 
-   ![ 目標と設定ページのSourceのレポートの節 ](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+   ![&#x200B; 目標と設定ページのSourceのレポートの節 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
 1. トラッキングサーバーとサンドボックスを指定します。
 
@@ -49,7 +49,7 @@ A4T 統合により、次のことが可能になります。
    * [!DNL Adobe Target] を使用して最適化目標を指定するには、「**[!UICONTROL Conversion]**」を選択します。
    * 「**[!UICONTROL Use an Analytics metric]**」を選択し、最適化目標として使用する指標を [!DNL Analytics] から選択します。 標準の [!DNL Analytics] コンバージョン指標または [!DNL Analytics] カスタムイベントを使用できます。
 
-   詳しくは、以下の [ サポートされる目標指標 ](#supported) を参照してください。
+   詳しくは、以下の [&#x200B; サポートされる目標指標 &#x200B;](#supported) を参照してください。
 
 1. アクティビティを保存してアクティベートします。
 
@@ -121,8 +121,8 @@ A4T 統合により、次のことが可能になります。
 
 * **トレーニング頻度**：通常どおり、[!UICONTROL Auto-Allocate] モデルは 1 時間ごとにトレーニングを続けます。
 * **アトリビューションモデル**:[!DNL Target] は、A4T を使用する [!DNL Adobe Analytics] アクティビティに [!UICONTROL &#x200B; Auto-Allocate] のデフォルトのアトリビューションモデルを使用します。
-* **信頼性**:[!UICONTROL Auto-Allocate] のアクティビティで使用される信頼性の数式が、[!DNL Adobe Analytics] の [!UICONTROL A4T] ントロールパネルにデフォルトで表示される数式と異なります。 [ ここで説明しているように ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[!UICONTROL Auto-Allocate] では、通常の [!UICONTROL A/B Test] アクティビティよりも保守的な信頼区間を使用します。 これらの保守的な信頼性レベルは、データでの繰り返しの評価（ピーク）を補います。 その結果、[!DNL Adobe Analytics] のデフォルトレポートには、[!UICONTROL Auto-Allocate] アルゴリズムで使用される間隔と比較して、狭い信頼区間が表示されます。 そうは言っても、どのエクスペリエンスがよりユニークな訪問者が送信されているかに基づいて、アルゴリズムによってどのエクスペリエンスが好まれるかを判断できます。
-* **勝者のステータス**：現在、[ 「まだ勝者がありません」および「勝者」バッジ ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) は [!UICONTROL A4T] の [!DNL Analysis Workspace] パネルでは使用できません。 これらのバッジは、同じレポートを [!DNL Target] で表示した場合にも利用できません。A4T を使用する [!DNL Target] アクティビティの [!UICONTROL Auto-Allocate] レポートで表示される勝者の「星」バッジは無視する必要があります。 このバッジは、[!UICONTROL Auto-Allocate] で使用される計算ではなく、通常の信頼性の計算を反映しています。
+* **信頼性**:[!UICONTROL Auto-Allocate] のアクティビティで使用される信頼性の数式が、[!DNL Adobe Analytics] の [!UICONTROL A4T] ントロールパネルにデフォルトで表示される数式と異なります。 [&#x200B; ここで説明しているように &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[!UICONTROL Auto-Allocate] では、通常の [!UICONTROL A/B Test] アクティビティよりも保守的な信頼区間を使用します。 これらの保守的な信頼性レベルは、データでの繰り返しの評価（ピーク）を補います。 その結果、[!DNL Adobe Analytics] のデフォルトレポートには、[!UICONTROL Auto-Allocate] アルゴリズムで使用される間隔と比較して、狭い信頼区間が表示されます。 そうは言っても、どのエクスペリエンスがよりユニークな訪問者が送信されているかに基づいて、アルゴリズムによってどのエクスペリエンスが好まれるかを判断できます。
+* **勝者のステータス**：現在、[&#x200B; 「まだ勝者がありません」および「勝者」バッジ &#x200B;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) は [!UICONTROL A4T] の [!DNL Analysis Workspace] パネルでは使用できません。 これらのバッジは、同じレポートを [!DNL Target] で表示した場合にも利用できません。A4T を使用する [!DNL Target] アクティビティの [!UICONTROL Auto-Allocate] レポートで表示される勝者の「星」バッジは無視する必要があります。 このバッジは、[!UICONTROL Auto-Allocate] で使用される計算ではなく、通常の信頼性の計算を反映しています。
 
 ### 自動ターゲット {#at}
 
@@ -132,7 +132,7 @@ A4T 統合により、次のことが可能になります。
 
 * [!DNL Analytics] アクティビティのデータソースとして [!UICONTROL Auto-Target] を使用する場合、6 時間が経過するとセッションは終了します。 6 時間後に発生したコンバージョンはカウントされません。
 
-詳しくは、[Analytics ツールガイド ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja) アトリビューションモデルとルックバックウィンドウ *を参照してください*。
+詳しくは、[Analytics ツールガイド &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja) アトリビューションモデルとルックバックウィンドウ *を参照してください*。
 
 ## チュートリアル
 
@@ -142,7 +142,7 @@ A4T 統合により、次のことが可能になります。
 
 このチュートリアルでは、[!UICONTROL Auto-Allocate] での [!DNL Analysis Workspace] アクティビティ分析に推奨される変更について、順番に説明します。
 
-詳しくは、[Adobe Target チュートリアル ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}Analysis Workspaceでの自動配分アクティビティに関する A4T レポートの設定 *を参照してください*。
+詳しくは、[Adobe Target チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}Analysis Workspaceでの自動配分アクティビティに関する A4T レポートの設定 *を参照してください*。
 
 ### [!DNL Analysis Workspace] での [!UICONTROL Auto-Target] アクティビティ用 A4T レポートの設定
 

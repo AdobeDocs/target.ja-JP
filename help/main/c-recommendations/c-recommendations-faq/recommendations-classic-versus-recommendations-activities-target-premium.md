@@ -41,13 +41,13 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 開始するには、[!UICONTROL A/B Test] を使用して [!UICONTROL Experience Targeting] アクティビティまたは [!UICONTROL Visual Experience Composer] アクティビティを作成し、[!UICONTROL Insert Before]、[!UICONTROL Insert After] または [!UICONTROL Replace With] アクションを使用してエクスペリエンスにレコメンデーションを追加します。
 
-詳細については、「[ オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。
+詳細については、「[&#x200B; オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。
 
 ## 条件 {#section_117709846DAA404580EBE879FFCBD9BA}
 
 [!DNL Target Recommendations] には、事前にパッケージ化された一連のルールや設定を含む条件ライブラリが含まれています。[!DNL Recommendations Classic] では、フォームへの入力や大量のルール一覧からの選択によって、各レコメンデーションを手動で構築していました。今は、事前に設定された条件セットから選択するだけで、[!DNL Recommendations] アクティビティを作成できるようになっています。現在もカスタムのレコメンデーションを作成することもできますが、条件ライブラリには、プロセスをシンプルにするために事前に構築され、理解できる言語が使用されているたくさんの一般的な設定が含まれています。こういった事前にパッケージ化された条件は、そのまま使用することも、特別なニーズに合わせてコピーして編集することもできます。
 
-![overview_criteria 画像 ](assets/overview_criteria.png)
+![overview_criteria 画像 &#x200B;](assets/overview_criteria.png)
 
 条件は事前に設定されており、業種、ページタイプ、実装によって分類されています。例えば、小売業界に適用され、製品ページに使用して、特定のカテゴリ（`entity.categoryID` パラメーターで定義されているもの）の製品を表示するための条件を探すことができます。
 
@@ -58,7 +58,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 [!DNL Recommendations] のワークフローはシンプルになりました。複雑なフォームに入力する代わりに、次のような視覚的なワークフローを実行します。
 
 1. 条件を選択します。
-1. 事前設定済みの [ デザイン ](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) を選択します。
+1. 事前設定済みの [&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) を選択します。
 1. レコメンデーションの結果をプレビューします。
 
 ## プレビュー表示 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

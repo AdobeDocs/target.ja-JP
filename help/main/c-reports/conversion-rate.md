@@ -17,7 +17,7 @@ ht-degree: 49%
 
 次の図は、[!UICONTROL Conversion Rate]、[!UICONTROL Lift]、[!UICONTROL Confidence] の各ヘッダーがハイライト表示されたサンプルアクティビティのグラフヘッダーを示しています。
 
-![ コンバージョンレート画像 ](assets/conversion-rate.jpg)
+![&#x200B; コンバージョンレート画像 &#x200B;](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 49%
 
 例えば、次のようなコンバージョン率レポート列があるとします。
 
-![ コンバージョン率の詳細画像 ](assets/conversion-rate-detail.jpg)
+![&#x200B; コンバージョン率の詳細画像 &#x200B;](assets/conversion-rate-detail.jpg)
 
 最初の行は、コントロールエクスペリエンスです。15％のコンバージョン率で、3 つのコンバージョンがあることを表しています。2 行目のエクスペリエンス B は、15％のコンバージョン率で、プラスマイナス 15.65％の信頼区間、3 つのコンバージョンがあることを表しています。
 
@@ -62,7 +62,7 @@ ht-degree: 49%
 
 信頼性が 99.995％以上の場合は、100.00％に切り上げられます。
 
-![conf_report image](assets/conf_report.png) ![conf_report_detail 画像 ](assets/conf_report_detail.png)
+![conf_report image](assets/conf_report.png) ![conf_report_detail 画像 &#x200B;](assets/conf_report_detail.png)
 
 ビジネス上の意思決定をおこなうのは、サンプルサイズが十分に大きくなり、1 つ以上のエクスペリエンスの信頼性を表す 4 本のバーが一定した値を一定期間維持し、安定した結果が得られるまで待つようにしてください。
 
@@ -75,7 +75,7 @@ ht-degree: 49%
 
 *信頼区間* は、指標の true 値が特定の信頼性レベルで見つかる予測値の範囲です。 Target では、常に 95% の信頼区間が表示されます。 信頼区間は、コンバージョン率列にライトグレーの +/- のパーセンテージとして表示されます。下の例では、エクスペリエンス B の上昇率の信頼区間はプラスマイナス 15.65％です。
 
-![conversion_rate 画像 ](assets/conversion_rate.png)
+![conversion_rate 画像 &#x200B;](assets/conversion_rate.png)
 
 **例：** エクスペリエンスの観測された RPV が$10 で、95% **信頼区間** が$5 ～ $15 である。 私たちには知られていませんが、その真の RPV は 12 ドルです。 このテストを複数回実行した場合、計算する信頼区間の 95% には、RPV の _true_ 値である$12 が含まれます。
 
@@ -88,7 +88,7 @@ ht-degree: 49%
 
 [ダウンロードした CSV レポート](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
 
-これらの計算指標を計算するには、Target の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルをダウンロードしてアクティビティの値を入力するか、[A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を確認します。
+これらの計算指標を計算するには、Target の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルをダウンロードしてアクティビティの値を入力するか、[A/Bn テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を確認します。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ ht-degree: 49%
 
 A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。
 
-A4T では、（バイナリ指標ではなく）連続変数に対して [Welch の t 検定 ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} 計算を使用します。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定の計算を行うには、分散を計算するために「平方和」が必要であり、t 統計の分母で使用されます。 [A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) では、使用される数式の詳細について説明しています。 平方和は、[!DNL Analytics] から取得することができます。 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
+A4T では、（バイナリ指標ではなく）連続変数に対して [Welch の t 検定 &#x200B;](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} 計算を使用します。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定の計算を行うには、分散を計算するために「平方和」が必要であり、t 統計の分母で使用されます。 [A/Bn テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) では、使用される数式の詳細について説明しています。 平方和は、[!DNL Analytics] から取得することができます。 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
 
 例えば、訪問者あたりのページビュー数を最適化する場合は、特定の時間枠、例えば数日（2、3 日で必要なデータポイントは数千）にわたって、訪問者ごとにページビューの合計数のサンプルを書き出します。 そのうえでそれぞれの値を 2 乗し、その総和を算出します（ここでは演算の順番が非常に重要です）。この「平方和」の値は、Complete Confidence Calculator で使用されます。これらの値には、このスプレッドシートの「売上高」セクションを使用します。
 
@@ -118,7 +118,7 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
    | 分類 | 目的のディメンションを選択します。「標準」は標準（OOTB）であり、「カスタム」には eVar および prop が含まれています。 「Experience Cloud訪問者 ID」ではなく、訪問者 ID レベルの情報が必要な場合は、「訪問者 ID」を使用することをお勧めします。<ul><li>訪問者 ID は、Analytics で使用される最終的な ID で、AID（既存の顧客）か MID（新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客）になります。</li><li>Experience Cloud 訪問者 ID が設定されるのは、新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客のみです。</li></ul> |
    | 指標 | 目的の指標を選択します。「標準」は OOTB で、「カスタム」にはカスタムイベントが含まれます。 |
    | レポートプレビュー | レポートのスケジュールを設定する前に設定を確認します。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | 配信の予定 | ファイルの配信先のメールアドレスを入力し、ファイルに名前を付けて、「[!UICONTROL Send Immediately]」を選択します。<br> メモ：ファイルは、FTP の [!UICONTROL Advanced Delivery Options]<br>![ スケジュール配信 ](/help/main/c-reports/assets/datawarehouse3.png) で配信できます。 |
+   | 配信の予定 | ファイルの配信先のメールアドレスを入力し、ファイルに名前を付けて、「[!UICONTROL Send Immediately]」を選択します。<br> メモ：ファイルは、FTP の [!UICONTROL Advanced Delivery Options]<br>![&#x200B; スケジュール配信 &#x200B;](/help/main/c-reports/assets/datawarehouse3.png) で配信できます。 |
 
 1. **[!UICONTROL Request this Report]** をクリックします。
 
@@ -128,8 +128,8 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
 
 [!DNL Data Warehouse] について詳しくは、[!DNL Analytics] のヘルプドキュメントの以下のリンクを参照してください。
 
-* [Data Warehouse リクエストの作成 ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ja)
-* [Data Warehouseのベストプラクティス ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ja)
+* [Data Warehouse リクエストの作成 &#x200B;](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ja)
+* [Data Warehouseのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ja)
 
 ## カウント手法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -172,13 +172,13 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
 
 A/B テストは、コントロールバリアント（エクスペリエンスとも呼ばれる）内の一部のビジネス指標の平均値と、1 つ以上の代替エクスペリエンス内の同じ指標の平均値を比較する実験です。
 
-[!DNL Target] では、z テストなどの代替案よりも前提条件が少なくてすむため、[Welch の t 検定 ](https://en.wikipedia.org/wiki/Welch%27s_t-test) を使用することをお勧めします。これは、コントロールエクスペリエンスと代替エクスペリエンスの間で（定量的な）ビジネス指標の一対の比較を行うための適切な統計的テストです。
+[!DNL Target] では、z テストなどの代替案よりも前提条件が少なくてすむため、[Welch の t 検定 &#x200B;](https://en.wikipedia.org/wiki/Welch%27s_t-test) を使用することをお勧めします。これは、コントロールエクスペリエンスと代替エクスペリエンスの間で（定量的な）ビジネス指標の一対の比較を行うための適切な統計的テストです。
 
 ### 詳しくは、
 
 オンライン A/B テストを実行すると、各ユーザー/訪問者が単一のバリアントにランダムに割り当てられます。 次に、各バリアントの訪問者に関する関心のあるビジネス指標（コンバージョン、注文、売上高など）を測定します。 使用する統計的テストでは、平均ビジネス指標（コンバージョン率、ユーザーあたりの注文数、ユーザーあたりの売上高など）がコントロールと特定の代替バリアントに等しいという仮説をテストします。
 
-ビジネス指標自体は何らかの任意の分布に従って分布する可能性がありますが、この指標の平均の分布（各バリアント内）は、[ 中央制限定理 ](https://en.wikipedia.org/wiki/Central_limit_theorem) を介して通常の分布に収束する必要があります。 平均のサンプリング分布が正常に収束する速度は保証されませんが、オンラインテストでの訪問者の規模を考慮すると、通常、この条件は達成されます。
+ビジネス指標自体は何らかの任意の分布に従って分布する可能性がありますが、この指標の平均の分布（各バリアント内）は、[&#x200B; 中央制限定理 &#x200B;](https://en.wikipedia.org/wiki/Central_limit_theorem) を介して通常の分布に収束する必要があります。 平均のサンプリング分布が正常に収束する速度は保証されませんが、オンラインテストでの訪問者の規模を考慮すると、通常、この条件は達成されます。
 
 この平均値の正規化に基づいて、使用するテスト統計量は、データからの推定値（平均値の差の標準誤差）に基づくスケーリング項に対する通常分布値（ビジネスメトリックの平均値の差）の比率であるため、t 分布に従っていることを示すことができます。 **t 検定** は、t 分布に従ったテスト統計を前提として、適切な仮説テストになります。
 

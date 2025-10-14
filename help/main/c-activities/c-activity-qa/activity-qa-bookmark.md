@@ -21,7 +21,7 @@ ht-degree: 13%
 
 ## at.js 1. アクティビティ QA ブックマークレット&#x200B;*x*
 
-[QA モード ](/help/main/c-activities/c-activity-qa/activity-qa.md) はスティッキーなので、QA モードで web サイトを閲覧した後は、[!DNL Target] セッションの有効期限が切れるか、通常の訪問者のようにサイトを表示す [!DNL Target] 前に QA モードを終了する必要があります。 QA [!DNL Target] ブックマークレットを使用して、QA モードを強制的に終了します。
+[QA モード &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) はスティッキーなので、QA モードで web サイトを閲覧した後は、[!DNL Target] セッションの有効期限が切れるか、通常の訪問者のようにサイトを表示す [!DNL Target] 前に QA モードを終了する必要があります。 QA [!DNL Target] ブックマークレットを使用して、QA モードを強制的に終了します。
 
 [!DNL Target] QA ブックマークレットを使用するには、以下のJavaScript コードを含むブックマークレットを作成して、ブラウザーのブックマークツールバーに追加します。
 

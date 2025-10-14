@@ -28,4 +28,4 @@ ht-degree: 69%
 * [レスポンストークン](/help/main/administrating-target/response-tokens.md)
 * [ユーザー](/help/main/administrating-target/c-user-management/user-management.md)
 
-![Adobe Target管理メニュー ](/help/main/administrating-target/assets/administration.png)
+![Adobe Target管理メニュー &#x200B;](/help/main/administrating-target/assets/administration.png)

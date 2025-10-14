@@ -43,7 +43,7 @@ ht-degree: 94%
 
 ## 人物サービスでの顧客属性へのアクセス
 
-1. [!DNL Adobe Experience Cloud] で、メニューアイコン（![ メニューアイコン ](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックしてから **[!UICONTROL People]** をクリックします。
+1. [!DNL Adobe Experience Cloud] で、メニューアイコン（![&#x200B; メニューアイコン &#x200B;](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックしてから **[!UICONTROL People]** をクリックします。
 
    ![人物](/help/main/c-target/c-visitor-profile/assets/people.png)
 

@@ -26,7 +26,7 @@ ht-degree: 60%
 >
 >* [!UICONTROL Personalization Insights] レポートは、「[!UICONTROL Primary Goal]」ドロップダウンリストから [!UICONTROL Report Metric] が選択されている場合にのみ使用できます。
 >
->* [!UICONTROL Personalization Insights] レポートは、[ デフォルト環境 ](/help/main/administrating-target/hosts.md) でのみサポートされます。
+>* [!UICONTROL Personalization Insights] レポートは、[&#x200B; デフォルト環境 &#x200B;](/help/main/administrating-target/hosts.md) でのみサポートされます。
 >
 >* [!UICONTROL Personalization Insights] レポートは、[!UICONTROL Live] ステータスのアクティビティのうち、アクティブ化され、トラフィックの受信が 15 日以上行われたものについてのみ生成されます。
 
@@ -34,13 +34,13 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 ## 自動セグメントレポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 「**[!UICONTROL Activities]**」をクリックし、目的の [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをリストからクリックします。
+1. 「**[!UICONTROL Activities]**」をクリックし、目的の [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをリストからクリックします。
 
-   アクティビティが多数ある場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
+   アクティビティが多数ある場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
 1. **[!UICONTROL Reports]** をクリックします。
 
-   アクティビティのパフォーマンスに関する情報を提供する [0&rbrace;Automated Personalizationの概要 ](/help/main/c-reports/personalization-reports/reports-ap.md) 自動ターゲットの概要 [ レポートが、最初の画面アイコンで表示されます。 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。 自動ターゲットでは、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフ アイコンがあります。
+   アクティビティのパフォーマンスに関する情報を提供する [0&rbrace;Automated Personalizationの概要 &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md) 自動ターゲットの概要 [&#x200B; レポートが、最初の画面アイコンで表示されます。 &#x200B;](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![&#x200B; 自動セグメントレポート &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![&#x200B; 重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）です。 自動ターゲットでは、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフ アイコンがあります。
 
    >[!IMPORTANT]
    >
@@ -56,7 +56,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. [!UICONTROL Automated Segments] レポートデータを確認します。
 
-1. （任意）「**[!UICONTROL Download]**」（![ ダウンロードアイコン ](/help/main/assets/icons/Download.svg)）アイコンをクリックして [ レポートを CSV 形式でダウンロード ](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) し、Excel やその他のツールで分析します。
+1. （任意）「**[!UICONTROL Download]**」（![&#x200B; ダウンロードアイコン &#x200B;](/help/main/assets/icons/Download.svg)）アイコンをクリックして [&#x200B; レポートを CSV 形式でダウンロード &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) し、Excel やその他のツールで分析します。
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 |--- |--- |
 | 左側パネル | 左側パネルには、Target のパーソナライゼーションモデルで特定された、このアクティビティの大規模な「自動セグメント」の上位 20 個が一覧表示されます。「自動セグメント」はオーディエンスに似ていますが、マーケティング担当者ではなく Target のパーソナライゼーションモデルで定義されます。それぞれの自動セグメントは特定の属性の特定の値（または値の範囲）で構成されます。<br> 自動セグメントは重複する可能性があります。 自動セグメントは、1 つ、2 つ、3 つまたは 4 つの属性で定義することができます。詳しくは、以下の例を参照してください。<br>Target のパーソナライゼーションモデルについて詳しくは、[ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。Target のパーソナライゼーションモデルで自動セグメントの作成に使用する属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。 |
 | 中央グラフ | 中央のグラフには、ハイライト表示された自動セグメントに対するアクティビティのコンテンツの実行方法が表示されます。 左側パネルで異なるセグメントをクリックすると、中央グラフが更新されます。 |
-| 円グラフ | 中央パネルの上部にある円グラフには、自動セグメントのサイズのほか、アクティビティにおけるパーソナライズされた訪問の合計数が表示されます（このような訪問には、例えば、パーソナライゼーションモデルで提供された、このアクティビティへのトラフィックなどが含まれます。制御トラフィックや、勝者モデル全体で提供されるトラフィックは含まれません）。セグメントのサイズは、パーソナライズされた訪問にのみ基づきます。<br>![ 円グラフ ](/help/main/c-reports/assets/pie.png) |
+| 円グラフ | 中央パネルの上部にある円グラフには、自動セグメントのサイズのほか、アクティビティにおけるパーソナライズされた訪問の合計数が表示されます（このような訪問には、例えば、パーソナライゼーションモデルで提供された、このアクティビティへのトラフィックなどが含まれます。制御トラフィックや、勝者モデル全体で提供されるトラフィックは含まれません）。セグメントのサイズは、パーソナライズされた訪問にのみ基づきます。<br>![&#x200B; 円グラフ &#x200B;](/help/main/c-reports/assets/pie.png) |
 | 2 軸棒グラフ | 2 軸棒グラフには、その特定の自動セグメントのオファーまたはエクスペリエンス別に、訪問およびコンバージョンの情報が表示されます。 |
 | ピンクのバー | ピンクのバーはコンバージョン率を表し、グラフの下部の軸を使用します。バーにマウスポインターを合わせると、詳細が表示されます |
 | 青のバー | 青のバーは訪問数を表し、グラフの上部の軸を使用します。バーにマウスポインターを合わせると、詳細が表示されます。 |
@@ -80,13 +80,13 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 この自動セグメントは、1 つの属性にのみ基づいて定義されています。この自動セグメントに含まれている訪問者には、平日の勤務時間外や週末に、この AP アクティビティが発生しました。
 
-![ 自動セグメントレポートの例 1](/help/main/c-reports/assets/automated_segment_example_1.png)
+![&#x200B; 自動セグメントレポートの例 1](/help/main/c-reports/assets/automated_segment_example_1.png)
 
 **自動セグメントの例 2**
 
 この自動セグメントは 2 つの属性に基づいて定義されています。この自動セグメントに含まれていてこの AP アクティビティを経験した訪問者は、現在の訪問のページビュー数が 3 未満で、緯度 42.57°から 47.29°までの範囲（米国を拠点とする企業の場合は、ほぼニューハンプシャー／オレゴン州とワシントン／メイン州の間）に位置していました。
 
-![ 自動セグメントレポートの例 2](/help/main/c-reports/assets/automated_segment_example_2.png)
+![&#x200B; 自動セグメントレポートの例 2](/help/main/c-reports/assets/automated_segment_example_2.png)
 
 ## 自動セグメントに関する FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
@@ -110,7 +110,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 自動セグメントは特定の属性の特定の値（または値の範囲）で構成されます。自動セグメントの例については、上記の手順 5 を参照してください。セグメントは重複する場合があります。
 
-Target のパーソナライゼーションモデルの基礎となるランダムフォレストパーソナライゼーションアルゴリズムについて詳しくは、[ ランダムフォレストアルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を参照してください。
+Target のパーソナライゼーションモデルの基礎となるランダムフォレストパーソナライゼーションアルゴリズムについて詳しくは、[&#x200B; ランダムフォレストアルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を参照してください。
 
 **自動セグメントの順序は何によって決まりますか？**
 
@@ -138,7 +138,7 @@ Personalization Insights レポート（[!UICONTROL Automated Segments] と [!UI
 
 **[!UICONTROL Personalization Insights] はどのように作成されますか？**
 
-MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許申請済みの手法を使用して [!UICONTROL Personalization Insights] ークフローを作成します。 MAGIX について詳しくは、[arXiv.org web サイト ](https://arxiv.org/abs/1706.07160) でAdobe リサーチチームが公開している論文を参照してください。
+MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許申請済みの手法を使用して [!UICONTROL Personalization Insights] ークフローを作成します。 MAGIX について詳しくは、[arXiv.org web サイト &#x200B;](https://arxiv.org/abs/1706.07160) でAdobe リサーチチームが公開している論文を参照してください。
 
 **[!UICONTROL Automated Segments] レポートの合計訪問者トラフィックデータが、AP または AT の概要/パフォーマンスレポートと一致しないのはなぜですか？**
 

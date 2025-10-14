@@ -25,7 +25,7 @@ ht-degree: 0%
 
 2 週間の A/B アクティビティの次の図について考えてみます。 [!UICONTROL Auto-Allocate] を使用すると、勝者エクスペリエンスが発生すると、テストの早い段階で、[!UICONTROL Target] は勝者により多くのトラフィックをそらします。
 
-![ 自動配分の図 ](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
+![&#x200B; 自動配分の図 &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
 ## [!UICONTROL Auto-Allocate] はどのように迅速な結果を提供しますか？
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 次の例では、コンバージョン率が最も高 [!UICONTROL Auto-Allocate] エクスペリエンス D により多くのトラフィック（40%）をプッシュすることで、テスト中により多くの売上高を得ています。
 
-![ 自動配分を使用すると、売上高が増える図 ](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
+![&#x200B; 自動配分を使用すると、売上高が増える図 &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
 ## 手動のトラフィック配分に固執する必要があるのはどのような場合ですか。
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 基本を学ぶ
 
-初めての [!UICONTROL Auto-Allocate] アクティビティを開始する準備はできていますか？ [ 詳細については、こちらを参照 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) してください。
+初めての [!UICONTROL Auto-Allocate] アクティビティを開始する準備はできていますか？ [&#x200B; 詳細については、こちらを参照 &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) してください。

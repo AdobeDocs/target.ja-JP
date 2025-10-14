@@ -20,9 +20,9 @@ ht-degree: 33%
 >
 >[!UICONTROL Automated Personalization] は、[!DNL Target Premium] ソリューションの一部として利用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md#premium) を参照してください。
 
-[!UICONTROL Auto-Target] と同様、[!UICONTROL Automated Personalization] は主要なデータサイエンスアンサンブル手法である [ ランダムフォレストアルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を主なパーソナライゼーションアルゴリズムとして使用して、訪問者に表示する最適なエクスペリエンスを決定します。 テストの発見フェーズでは [!UICONTROL Automated Personalization] が役立つ場合があります。 また、多様な訪問者をターゲット設定する際に、機械学習で最も効果的なコンテンツを決定する場合にも便利です。時間の経過とともに、アルゴリズムは最も効果的なコンテンツを予測し、目標を達成する可能性が最も高いコンテンツを表示できるようになります。
+[!UICONTROL Auto-Target] と同様、[!UICONTROL Automated Personalization] は主要なデータサイエンスアンサンブル手法である [&#x200B; ランダムフォレストアルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を主なパーソナライゼーションアルゴリズムとして使用して、訪問者に表示する最適なエクスペリエンスを決定します。 テストの発見フェーズでは [!UICONTROL Automated Personalization] が役立つ場合があります。 また、多様な訪問者をターゲット設定する際に、機械学習で最も効果的なコンテンツを決定する場合にも便利です。時間の経過とともに、アルゴリズムは最も効果的なコンテンツを予測し、目標を達成する可能性が最も高いコンテンツを表示できるようになります。
 
-[!UICONTROL Automated Personalization] との違いについて詳 [!UICONTROL Auto-Target] くは、[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) を参照してください。
+[!UICONTROL Automated Personalization] との違いについて詳 [!UICONTROL Auto-Target] くは、[&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) を参照してください。
 
 マーケターは、サイトに 1 つのファイルを実装します。このファイルを使用すれば、任意のコンテンツを指定してクリックし、[!UICONTROL Visual Experience Composer] （VEC）を使用してその領域の追加のコンテンツオプションを視覚的に作成して選択できます。 その後は、アルゴリズムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断し、パーソナライズしたエクスペリエンスを提供します。[!UICONTROL Automated Personalization] れは訪問者行動の変更に適応できるので、設定された終了日なしで実行して、進行中の上昇率とパーソナライゼーションを提供できます。 このモードは、「常時稼動」と呼ばれることもあります。 テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという、標準的な A/B アクティビティの結果を実装する標準的な演算順序を踏まなくても、最適化による改善を具現化できます。
 
@@ -38,7 +38,7 @@ ht-degree: 33%
 
 ## [!UICONTROL Automated Personalization] は、ランダムフォレストアルゴリズムを使用してパーソナライズします
 
-ランダムフォレストは、最先端の機械学習アプローチです。 データサイエンスの用語では、訪問者および訪問の属性に基づいて多くのデシジョンツリーを構築することで機能する、アンサンブル分類または回帰手法です。 [!DNL Target] 内では、ランダムフォレストを使用して、各特定の訪問者について、コンバージョンの可能性が最も高い（または訪問あたりの売上高が最も高い）エクスペリエンスを判断します。 例えば、Chromeを使用する訪問者はゴールドロイヤルティメンバーで、火曜日にサイトにアクセスした場合は、エクスペリエンス A でコンバージョンされる可能性が高くなります。ニューヨークの訪問者は、エクスペリエンス B でコンバージョンされる可能性が高くなります。[!DNL Target] のランダムフォレストについて詳しくは、[ ランダムフォレストアルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を参照してください。
+ランダムフォレストは、最先端の機械学習アプローチです。 データサイエンスの用語では、訪問者および訪問の属性に基づいて多くのデシジョンツリーを構築することで機能する、アンサンブル分類または回帰手法です。 [!DNL Target] 内では、ランダムフォレストを使用して、各特定の訪問者について、コンバージョンの可能性が最も高い（または訪問あたりの売上高が最も高い）エクスペリエンスを判断します。 例えば、Chromeを使用する訪問者はゴールドロイヤルティメンバーで、火曜日にサイトにアクセスした場合は、エクスペリエンス A でコンバージョンされる可能性が高くなります。ニューヨークの訪問者は、エクスペリエンス B でコンバージョンされる可能性が高くなります。[!DNL Target] のランダムフォレストについて詳しくは、[&#x200B; ランダムフォレストアルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) を参照してください。
 
 ## パーソナライゼーションモデルは、訪問ごとに最適化されます
 
@@ -72,7 +72,7 @@ CRM 情報や顧客チャーンの傾向スコアなどのオフラインデー�
 * [プロファイルパラメーター](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}
 * [プロファイル更新のためのサーバー側 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}
 
-[!UICONTROL Automated Personalization] および [!UICONTROL Auto-Target] パーソナライゼーションアルゴリズムによって自動的に収集および使用されるデータについて詳しくは、[Automated Personalizationのデータ収集 ](/help/main/c-activities/t-automated-personalization/ap-data.md) を参照してください。
+[!UICONTROL Automated Personalization] および [!UICONTROL Auto-Target] パーソナライゼーションアルゴリズムによって自動的に収集および使用されるデータについて詳しくは、[Automated Personalizationのデータ収集 &#x200B;](/help/main/c-activities/t-automated-personalization/ap-data.md) を参照してください。
 
 ## トレーニングビデオ：アクティビティのタイプ
 

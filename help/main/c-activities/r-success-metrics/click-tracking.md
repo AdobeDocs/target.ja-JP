@@ -62,7 +62,7 @@ ht-degree: 75%
 
   詳しくは、*Visual Experience Composer のオプション*&#x200B;の [DOM パスを使用した要素のナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。
 
-* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。[ 複数ページ機能 ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を使用して、この異なるページをアクティビティに含め、[!DNL at.js] れを実装する必要があります。
+* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。[&#x200B; 複数ページ機能 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を使用して、この異なるページをアクティビティに含め、[!DNL at.js] れを実装する必要があります。
 * 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。ページ上の複数の要素をクリックして 1 つの項目をカウントするには、CSS 要素セレクターを編集して複数の要素と一致させます。
 * 追跡する要素のレベルを選択していることを確認してください。例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * クリックイベントは、そのクリックと同じページの [!DNL Target] に送信されます。

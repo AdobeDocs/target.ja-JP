@@ -26,7 +26,7 @@ ht-degree: 58%
 >
 >* [!UICONTROL Personalization Insights] のレポートは、「[!UICONTROL Primary Goal]」ドロップダウンリストから [!UICONTROL Report Metric] が選択されている場合にのみ使用できます。
 >
->* [!UICONTROL Personalization Insights] レポートは、[ デフォルト環境 ](/help/main/administrating-target/hosts.md) でのみサポートされます。
+>* [!UICONTROL Personalization Insights] レポートは、[&#x200B; デフォルト環境 &#x200B;](/help/main/administrating-target/hosts.md) でのみサポートされます。
 >
 >* [!UICONTROL Personalization Insights] レポートは、[!UICONTROL Live] ステータスのアクティビティのうち、アクティブ化され、トラフィックの受信が 15 日以上行われたものについてのみ生成されます。
 
@@ -34,13 +34,13 @@ ht-degree: 58%
 
 ## [!UICONTROL Important Attributes] レポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 「**[!UICONTROL Activities]**」をクリックし、目的の [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをリストからクリックします。
+1. 「**[!UICONTROL Activities]**」をクリックし、目的の [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをリストからクリックします。
 
-   アクティビティが多数ある場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
+   アクティビティが多数ある場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
 1. **[!UICONTROL Reports]** をクリックします。
 
-   アクティビティのパフォーマンスに関する情報を提供する [0&rbrace;Automated Personalizationの概要 ](/help/main/c-reports/personalization-reports/reports-ap.md) 自動ターゲットの概要 [ レポートが、最初の画面アイコンで表示されます。 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。
+   アクティビティのパフォーマンスに関する情報を提供する [0&rbrace;Automated Personalizationの概要 &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md) 自動ターゲットの概要 [&#x200B; レポートが、最初の画面アイコンで表示されます。 &#x200B;](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![&#x200B; 自動セグメントレポート &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![&#x200B; 重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）です。
 
 
    [!UICONTROL Auto-Target] には、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフアイコンがあります。
@@ -49,7 +49,7 @@ ht-degree: 58%
    >
    >[!UICONTROL Important Attributes] レポートは、アクティビティをアクティブ化してから少なくとも 15 日後までは使用できません。 この最初の期間は、このレポートにアクセスしたり、[!UICONTROL Important Attributes] のアイコンをクリックしたりすることはできません。 15 日が経過すると、アクティビティに十分なパーソナライズされたトラフィックがあると仮定して、[!UICONTROL Important Attributes] レポートを使用できるようになります。
 
-1. アクティビティをアクティブ化してから 15 日後に、**[!UICONTROL Important Attributes]** 定（![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）アイコンをクリックします。
+1. アクティビティをアクティブ化してから 15 日後に、**[!UICONTROL Important Attributes]** 定（![&#x200B; 重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）アイコンをクリックします。
 
 1. 目的の日付範囲を選択します。
 
@@ -61,7 +61,7 @@ ht-degree: 58%
 
 1. [!UICONTROL Important Attributes] レポートデータを確認します。
 
-1. （任意）「ダウンロード」（![ ダウンロードアイコン ](/help/main/assets/icons/Download.svg)）アイコンをクリックして [ レポートを CSV 形式でダウンロード ](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) し、Excel やその他のツールで分析します。
+1. （任意）「ダウンロード」（![&#x200B; ダウンロードアイコン &#x200B;](/help/main/assets/icons/Download.svg)）アイコンをクリックして [&#x200B; レポートを CSV 形式でダウンロード &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) し、Excel やその他のツールで分析します。
 
    >[!NOTE]
    >
@@ -73,7 +73,7 @@ ht-degree: 58%
 
 | 要素 | 詳細 |
 |--- |--- |
-| 棒グラフ | 画面上部にある多色の横向き棒グラフでは、これらの相対的重要度スコアを視覚化し、表内の各属性の横にあるドットの色にマッピングさせることができます。棒グラフの特定の色にマウスポインターを置くと、その色で表される属性が表示されます。上位 100 個の属性の重要度スコアを加算すると 100% になります。Target のパーソナライゼーションモデルで使用できる属性をさらに追加する方法について詳しくは、[Target のPersonalization アルゴリズム用のデータのアップロード ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) を参照してください。 |
+| 棒グラフ | 画面上部にある多色の横向き棒グラフでは、これらの相対的重要度スコアを視覚化し、表内の各属性の横にあるドットの色にマッピングさせることができます。棒グラフの特定の色にマウスポインターを置くと、その色で表される属性が表示されます。上位 100 個の属性の重要度スコアを加算すると 100% になります。Target のパーソナライゼーションモデルで使用できる属性をさらに追加する方法について詳しくは、[Target のPersonalization アルゴリズム用のデータのアップロード &#x200B;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) を参照してください。 |
 | モデル属性ランキンググラフ | モデル属性ランキングには、各訪問者にどのようなコンテンツを表示するかを Target のパーソナライゼーションモデルで決定するうえで最も重要であった上位 10 個の属性が含まれています。重要度スコアは、このアクティビティにおける Target のパーソナライゼーションモデルにとって特定の属性がどの程度重要であったかを、上位 100 個の属性を基準にして示します。 |
 
 ## 重要な属性に関する FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
@@ -98,7 +98,7 @@ ht-degree: 58%
 
 この [!UICONTROL Models API] はブロックリスト API とも呼ばれ、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT） アクティビティの機械学習モデルで使用される属性（機能とも呼ばれます）のリストを表示および管理できます。 モデルが AP または AT アクティビティに使用する 1 つ以上の属性を除外する場合は、Models API を使用して、それらの属性を「ブロックリスト」に追加できます。
 
-詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank} の *Models API の概要* を参照してください。 API を使用して属性をブロックするには、[Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ja){target=_blank} を参照してください。
+詳しくは、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank} の *Models API の概要* を参照してください。 API を使用して属性をブロックするには、[Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ja){target=_blank} を参照してください。
 
 ### [!UICONTROL Automated Segments] および [!UICONTROL Important Attributes] レポートの情報は、CSV ダウンロードの情報と同じですか？
 
@@ -110,7 +110,7 @@ Personalization Insights レポート（[!UICONTROL Automated Segments] と [!UI
 
 ### [!UICONTROL Personalization Insights] はどのように作成されますか？
 
-MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許申請済みの手法を使用して [!UICONTROL Personalization Insights] ークフローを作成します。 MAGIX について詳しくは、[arXiv.org web サイト ](https://arxiv.org/abs/1706.07160) でAdobe リサーチチームが公開している論文を参照してください。
+MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許申請済みの手法を使用して [!UICONTROL Personalization Insights] ークフローを作成します。 MAGIX について詳しくは、[arXiv.org web サイト &#x200B;](https://arxiv.org/abs/1706.07160) でAdobe リサーチチームが公開している論文を参照してください。
 
 ### 収益ベースのモデリング目標/メイン目標に [!UICONTROL Personalization Insights] を使用できますか。
 

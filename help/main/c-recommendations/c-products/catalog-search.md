@@ -22,7 +22,7 @@ ht-degree: 24%
 
 1. [!UICONTROL Catalog Search] ページにアクセスするには、**[!UICONTROL Recommendations]**/**[!UICONTROL Catalog Search]** をクリックします。
 
-1. （任意）検索にフィルターを適用するには、「**[!UICONTROL Show Filters]**」アイコン（![ 「フィルターを表示」アイコン ](/help/main/assets/icons/Filter.svg)）をクリックします。 [!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory] および [!UICONTROL Value] でフィルタリングできます。
+1. （任意）検索にフィルターを適用するには、「**[!UICONTROL Show Filters]**」アイコン（![&#x200B; 「フィルターを表示」アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックします。 [!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory] および [!UICONTROL Value] でフィルタリングできます。
 
 ## 簡易検索の実行
 
@@ -84,7 +84,7 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 ## カタログを更新
 
-カタログのインデックスは、最初のフィードをアップロードすると自動的に作成され、[ 指定されたスケジュール ](/help/main/c-recommendations/c-products/feeds.md#steps) に従って更新されます。
+カタログのインデックスは、最初のフィードをアップロードすると自動的に作成され、[&#x200B; 指定されたスケジュール &#x200B;](/help/main/c-recommendations/c-products/feeds.md#steps) に従って更新されます。
 
 カタログは、フィードファイル、API または mbox の更新を介して更新を受け取ると、自動的に更新されます。更新は通常、1 時間以内に完了します。 更新が進行中の場合、最も新しく更新を開始した時間が表示されます。更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
 
@@ -104,9 +104,9 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## 環境の変更
 
-[ 環境 ](/help/main/administrating-target/environments.md) を使用すると、サイトと実稼動前の環境を整理し、管理と環境別レポートを容易にできます。
+[&#x200B; 環境 &#x200B;](/help/main/administrating-target/environments.md) を使用すると、サイトと実稼動前の環境を整理し、管理と環境別レポートを容易にできます。
 
-1. 「フィルターを表示」アイコン（![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックします。
+1. 「フィルターを表示」アイコン（![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックします。
 
 1. **[!UICONTROL Environment]** ドロップダウンリストから目的の環境を選択します。
 
@@ -132,7 +132,7 @@ Keep in mind that the additional filter facets are available in the current sess
 
 [!UICONTROL Catalog Search] ページのアクティブな列を変更できます。
 
-1. **[!UICONTROL Customize Table]** アイコン（![ テーブルアイコンをカスタマイズ ](/help/main/assets/icons/ColumnSetting.svg)）をクリックします。
+1. **[!UICONTROL Customize Table]** アイコン（![&#x200B; テーブルアイコンをカスタマイズ &#x200B;](/help/main/assets/icons/ColumnSetting.svg)）をクリックします。
 
 1. 表示または非表示にする列を選択または選択解除します。
 

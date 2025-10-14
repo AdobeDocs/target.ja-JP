@@ -27,7 +27,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->[ レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティの場合、目標指標は常に「[!UICONTROL Increment Count & Keep User in Activity]」設定と「[!UICONTROL On Every Impression]」設定を使用します。 これは設定可能ではあり&#x200B;*ません*。
+>[&#x200B; レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティの場合、目標指標は常に「[!UICONTROL Increment Count & Keep User in Activity]」設定と「[!UICONTROL On Every Impression]」設定を使用します。 これは設定可能ではあり&#x200B;*ません*。
 
 以下の成功指標を使用できます。
 

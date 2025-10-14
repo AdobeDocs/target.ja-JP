@@ -23,7 +23,7 @@ ht-degree: 33%
 
 1. **[!UICONTROL Form]** ダイアログボックスで「[!UICONTROL Create Activity]」を選択します。
 
-1. （条件付き） [Target Premium ユーザーの場合 ](/help/main/c-intro/intro.md#premium)、「**[!UICONTROL Choose Workspace]**」ドロップダウンリストから [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) を選択します。
+1. （条件付き） [Target Premium ユーザーの場合 &#x200B;](/help/main/c-intro/intro.md#premium)、「**[!UICONTROL Choose Workspace]**」ドロップダウンリストから [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) を選択します。
 
    「[[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは [Target Premium](/help/main/c-intro/intro.md) 機能であり、組織が [!UICONTROL Target Standard] ライセンスを保有している場合は表示されない可能性があります。
 
@@ -36,7 +36,7 @@ ht-degree: 33%
    この画面は、[!UICONTROL Recommendations] しいアクティビティを作成している場合は異なります。 [!UICONTROL Recommendations] アクティビティには、エクスペリエンスは含まれません。
 
 1. &#x200B;
-   1. **[!UICONTROL Rename]** アイコン（名前を変更アイコン ![ をクリックし ](/help/main/assets/icons/MoreSmallListVert.svg) 「名前を **[!UICONTROL Rename]** 更」をクリックしてアクティビティの名前を指定し、「名前を変更」をクリックし **[!UICONTROL Save]** す。
+   1. **[!UICONTROL Rename]** アイコン（名前を変更アイコン ![&#x200B; をクリックし &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) 「名前を **[!UICONTROL Rename]** 更」をクリックしてアクティビティの名前を指定し、「名前を変更」をクリックし **[!UICONTROL Save]** す。
 
    アクティビティ名は、次の文字で始めることはできません：
 
@@ -72,9 +72,9 @@ ht-degree: 33%
    >
    >アクティビティの作成時に手動で入力した位置を作成しても、新しい位置は自動的には作成されません。 場所の名前は、アクティビティのコンテキストでのみ保存されます。 コンテンツ配信呼び出しがある場合、ロケーションは作成されます。 場所を作成した後は、他のアクティビティやオーディエンスの作成などに使用できるようになります。 使用可能な場所のドロップダウンリストから。
 
-1. 「**[!UICONTROL Add Audience Refinements]**」をクリックし、このアクティビティに 1 つ以上の [ オーディエンス ](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) を選択して、「**[!UICONTROL Done]**」をクリックします。
+1. 「**[!UICONTROL Add Audience Refinements]**」をクリックし、このアクティビティに 1 つ以上の [&#x200B; オーディエンス &#x200B;](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) を選択して、「**[!UICONTROL Done]**」をクリックします。
 
-   [!UICONTROL Form-based Experience Composer] では、絞り込みは、完全なオーディエンス機能に置き換えられました。 既存のアクティビティの絞り込みが、[ アクティビティのみのオーディエンス ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) に移行されました。
+   [!UICONTROL Form-based Experience Composer] では、絞り込みは、完全なオーディエンス機能に置き換えられました。 既存のアクティビティの絞り込みが、[&#x200B; アクティビティのみのオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) に移行されました。
 
 1. その場所に表示するコンテンツのタイプを選択します。
 
@@ -92,11 +92,11 @@ ht-degree: 33%
 
    **JSON オファーの変更：** JSON オファーを選択します。
 
-   **エクスペリエンスフラグメントを変更：** エクスペリエンスフラグメントを選択します。 詳しくは、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) を参照してください。
+   **エクスペリエンスフラグメントを変更：** エクスペリエンスフラグメントを選択します。 詳しくは、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) を参照してください。
 
-   **リダイレクトオファーの変更：** リダイレクトオファーを選択します。 詳しくは、「[ リダイレクトオファーの作成 ](/help/main/c-experiences/c-manage-content/offer-redirect.md) を参照してください。
+   **リダイレクトオファーの変更：** リダイレクトオファーを選択します。 詳しくは、「[&#x200B; リダイレクトオファーの作成 &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md) を参照してください。
 
-   **リモートオファーを変更：** リモートオファーを選択します。 詳しくは、[ リモートオファーの作成 ](/help/main/c-experiences/c-manage-content/about-remote-offers.md) を参照してください。
+   **リモートオファーを変更：** リモートオファーを選択します。 詳しくは、[&#x200B; リモートオファーの作成 &#x200B;](/help/main/c-experiences/c-manage-content/about-remote-offers.md) を参照してください。
 
    **HTML オファーを作成:**
 
@@ -126,7 +126,7 @@ ht-degree: 33%
 
    [!DNL Adobe Journey Optimizer] （AJO）で作成したオファーを [!DNL Adobe Target] アクティビティに追加し、Offer Decisioning を使用して、web サイトまたはモバイルサイト上の訪問者に最適な動的なオファーとエクスペリエンスを提示します。 このオプションは、手動の [!UICONTROL A/B Test] および [!UICONTROL Experience Targeting] （XT）アクティビティでのみ使用できます。
 
-   詳しくは、「[ オファー決定の使用 ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
+   詳しくは、「[&#x200B; オファー決定の使用 &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
 
 1. （[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL Experience Targeting] のアクティビティの場合はオプション）このプロセスをその他の場所に対して繰り返すには、「**[!UICONTROL Add Location]**」をクリックして場所とコンテンツを設定します。
 1. 「**[!UICONTROL Next]**」をクリックし、アクティビティタイプに応じて通常どおりにアクティビティ作成手順を完了します。
@@ -135,7 +135,7 @@ ht-degree: 33%
 * [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Recommendations アクティビティの作成](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## トレーニングビデオ：フォームベースの Composer![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：フォームベースの Composer![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオは、フォームベースのコンポーザーのデモを紹介します。
 

@@ -30,9 +30,9 @@ ht-degree: 34%
 >
 >[!DNL Target] Standard/Premium 24.3.1 （2024 年 3 月 4～6 日（PT））以降、`Browser:iPad` や `Browser:iPhone` など、Target UI を使用して作成された組み込みオーディエンスが更新され、[!DNL iPad]、[!DNL iPhone] および `profile.mobile.deviceVendor` を使用して `profile.mobile.isMobilePhone` および `profile.mobile.isTablet` の適切なターゲティングが実行されるようになりました。
 >
->この更新は、顧客側でのアクションは必要ありません。 [!DNL Target] UI のラベルは今後変更される予定で、これらの変更が行われた [[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) でお知らせします。
+>この更新は、顧客側でのアクションは必要ありません。 [!DNL Target] UI のラベルは今後変更される予定で、これらの変更が行われた [[!DNL Target]  リリースノート（最新） &#x200B;](/help/main/r-release-notes/release-notes.md) でお知らせします。
 >
->回避策の設定については、以下の [ オーディエンス属性の  [!DNL iPad]  および  [!DNL iPhone]  の更新（2024 年 4 月 30 日（PT）） [!UICONTROL Browser]](#updates) 参照してください。
+>回避策の設定については、以下の [&#x200B; オーディエンス属性の  [!DNL iPad]  および  [!DNL iPhone]  の更新（2024 年 4 月 30 日（PT）） [!UICONTROL Browser]](#updates) 参照してください。
 
 ブラウザーをターゲットにするには、2 つの方法があります。
 
@@ -42,7 +42,7 @@ ht-degree: 34%
 
       このオプションは、特定のブラウザーを使用する訪問者のみをアクティビティのターゲットにします。
 
-      ![Target Chrome ユーザー ](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
+      ![Target Chrome ユーザー &#x200B;](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
 * **カスタマイズされたブラウザーオーディエンスルール：** カスタマイズされたオーディエンスを使用すると、複数のブラウザーをターゲットにしたり、特定のブラウザー、ブラウザーバージョンまたはブラウザー言語のルールや除外を設定したりできます。 この機能により、ブラウザー属性に基づいてアクティビティをターゲティングする際に、大きな柔軟性が得られます。
 
@@ -50,7 +50,7 @@ ht-degree: 34%
    1. オーディエンスに名前を付け、オプションで説明を追加します。
    1. オーディエンスビルダーにドラッグ&amp;ドロップ **[!UICONTROL Browser]** ます。
 
-      ![ ルール/ブラウザー ](assets/target_browser.png)
+      ![&#x200B; ルール/ブラウザー &#x200B;](assets/target_browser.png)
 
    1. 「**[!UICONTROL Select]**」をクリックして、次のいずれかのオプションを選択します。
 
@@ -126,7 +126,7 @@ ht-degree: 34%
 
 複数のオプションは、OR を使用して接続できます。
 
-## トレーニングビデオ：オーディエンスの作成 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：オーディエンスの作成 ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
@@ -137,13 +137,13 @@ ht-degree: 34%
 
 ## [!UICONTROL Browser] オーディエンス属性の [!DNL iPad] と [!DNL iPhone] の更新（2024年4月30日（PT）） {#updates}
 
-[!DNL Adobe Target] を使用すると、ページの訪問時に特定のブラウザーまたはブラウザーオプションを使用するユーザーなど [ 複数のカテゴリ属性のいずれかをターゲットに ](/help/main/c-target/c-audiences/c-target-rules/target-rules.md) することができます。
+[!DNL Adobe Target] を使用すると、ページの訪問時に特定のブラウザーまたはブラウザーオプションを使用するユーザーなど [&#x200B; 複数のカテゴリ属性のいずれかをターゲットに &#x200B;](/help/main/c-target/c-audiences/c-target-rules/target-rules.md) することができます。
 
 [!DNL Target] Standard/Premium 24.3.1 （2024 年 3 月 4～6 日（PT））以降、`Browser:iPad` や `Browser:iPhone` など、Target UI を使用して作成された組み込みオーディエンスが更新され、[!DNL iPad]、[!DNL iPhone] および `profile.mobile.deviceVendor` を使用して `profile.mobile.isMobilePhone` および `profile.mobile.isTablet` の適切なターゲティングが実行されるようになりました。
 
-[!DNL Target] や `Browser:iPad` など、`Browser:iPhone` UI を使用して作成された組み込みオーディエンスは、新しいオーディエンス定義に自動的に移動されるので、顧客側でのアクションは必要ありません。 ただし、今後は [ 以下に説明する ](#ui) 設定を使用する必要があります。
+[!DNL Target] や `Browser:iPad` など、`Browser:iPhone` UI を使用して作成された組み込みオーディエンスは、新しいオーディエンス定義に自動的に移動されるので、顧客側でのアクションは必要ありません。 ただし、今後は [&#x200B; 以下に説明する &#x200B;](#ui) 設定を使用する必要があります。
 
-プロファイルスクリプトで `user.browserType` を使用して、[!DNL iPhone] または [!DNL iPad] （例：`user.browserType == 'iphone'` または `user.browserType != 'ipad'`）かどうかを確認する場合は、これらのオーディエンスが引き続き期待どおりに機能するように、2024 年 4 月 30 日（PT）より前に、これらのプロファイルスクリプトを [ 以下の手順 ](#profile-scripts) で変更する必要があります。
+プロファイルスクリプトで `user.browserType` を使用して、[!DNL iPhone] または [!DNL iPad] （例：`user.browserType == 'iphone'` または `user.browserType != 'ipad'`）かどうかを確認する場合は、これらのオーディエンスが引き続き期待どおりに機能するように、2024 年 4 月 30 日（PT）より前に、これらのプロファイルスクリプトを [&#x200B; 以下の手順 &#x200B;](#profile-scripts) で変更する必要があります。
 
 JavaScript オーディエンスは、[!DNL Target] UI で非推奨となった [!DNL Target Classic] 式を使用した従来のオーディエンスです。 これらのオーディエンスは、API 経由でのみ変更できます。 これらのオーディエンスを更新する必要があるのは、アクティビティで従来のオーディエンスを引き続き使用する場合のみです。
 
@@ -171,11 +171,11 @@ JavaScript オーディエンスは、[!DNL Target] UI で非推奨となった 
 
 * **ブラウザーがiPhoneと一致しない場合**:[!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] が Or コンテナで [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] が [!UICONTROL false] である場合
 
-  ![ 携帯電話なし ](/help/main/r-release-notes/assets/mobile-phone-false.png)
+  ![&#x200B; 携帯電話なし &#x200B;](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
 * **ブラウザーがiPadと一致しない場合**:[!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] と Or コンテナが [!UICONTROL Mobile] > [!UICONTROL Is Tablet] で [!UICONTROL false]。
 
-  ![ タブレットではない ](/help/main/r-release-notes/assets/tablet-false.png)
+  ![&#x200B; タブレットではない &#x200B;](/help/main/r-release-notes/assets/tablet-false.png)
 
 ### プロファイルスクリプトを使用して作成されたオーディエンス {#profile-scripts}
 

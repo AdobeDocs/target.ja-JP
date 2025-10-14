@@ -27,7 +27,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->除外ルールはすべての [ 環境 ](/help/main/administrating-target/environments.md) にグローバルに適用されます。
+>除外ルールはすべての [&#x200B; 環境 &#x200B;](/help/main/administrating-target/environments.md) にグローバルに適用されます。
 >
 >静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
@@ -35,9 +35,9 @@ ht-degree: 14%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** をクリックして、既存の除外のリストを表示します。
 
-   [!UICONTROL Exclusions] リスト表示の各除外について報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法については、[Adobe Target開発者ガイド  [!DNL Recommendations] の ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank} 計画と実装 ** を参照してください。
+   [!UICONTROL Exclusions] リスト表示の各除外について報告された「項目数」は、設定されたデフォルトの Recommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法については、[Adobe Target開発者ガイド  [!DNL Recommendations] の &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank} 計画と実装 ** を参照してください。
 
-1. （条件付き）除外を作成（または更新）し **[!UICONTROL Show Filters]** その環境の除外のコンテンツをプレビューするには、![ のアイコン（](/help/main/assets/icons/Filter.svg) フィルターアイコンを表示 [）をクリックして、除外の作成 ](/help/main/administrating-target/environments.md) または更新）時に **[!UICONTROL Environment]** ドロップダウンリストから目的の（環境）を選択します。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）除外を作成（または更新）し **[!UICONTROL Show Filters]** その環境の除外のコンテンツをプレビューするには、![&#x200B; のアイコン（](/help/main/assets/icons/Filter.svg) フィルターアイコンを表示 [）をクリックして、除外の作成 &#x200B;](/help/main/administrating-target/environments.md) または更新）時に **[!UICONTROL Environment]** ドロップダウンリストから目的の（環境）を選択します。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
 
@@ -63,13 +63,13 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 除外の編集、コピー、削除
 
-リスト内の目的の除外の横にある「その他のアクション」アイコン ![ 「その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]）をクリックします。
+リスト内の目的の除外の横にある「その他のアクション」アイコン ![&#x200B; 「その他のアクション」アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]）をクリックします。
 
 既存の除外をコピーして重複する除外を作成し、それを変更できます。 このオプションを使用すると、同様の除外を少ない労力で作成できます。
 
 除外は、アカウント全体で利用できることに注意してください。 除外を削除する前に、次の点に注意してください。 削除した除外は復元できません。
 
-## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

@@ -27,11 +27,11 @@ ht-degree: 22%
 
 次の図は、デフォルトの 1 x 4 のデザインを示しています。
 
-![1 x 4 デフォルトデザイン ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![1 x 4 デフォルトデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 次の図は、カスタムデザインを示しています。
 
-![ カスタムデザイン ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![&#x200B; カスタムデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 アクティビティの作成プロセス中に、Visual Experience Composer （VEC）内から、またはアクティビティ作成外部のデザインライブラリからデザインを作成できます。 以下のセクションでは、ライブラリからデザインを作成することを前提としていますが、手順は似ています。
 
@@ -43,15 +43,15 @@ ht-degree: 22%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
-   ![Designs ライブラリ ](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
+   ![Designs ライブラリ &#x200B;](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. 作成するデザインのカードの上にマウスポインターを置き、**[!UICONTROL Copy]** アイコンをクリックします。
 
-   ![Card_CopyDesign 画像 ](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign 画像 &#x200B;](assets/Card_CopyDesign.png)
 
    [!UICONTROL Create Design] ダイアログボックスが表示されます。
 
-   ![createDesign 画像 ](assets/createDesign.png)
+   ![createDesign 画像 &#x200B;](assets/createDesign.png)
 
 1. **[!UICONTROL Information]** パネルで、デザイン **[!UICONTROL Content Name]** ードに表示する画像とオプションのプレビュー画像を追加します。
 
@@ -59,7 +59,7 @@ ht-degree: 22%
 
 1. （条件付き）必要に応じてデザイン **[!UICONTROL Code]** を編集します。
 
-   レコメンデーションデザインでは、オープンソースの [!DNL Velocity] デザイン言語を使用します。 [!DNL Velocity] について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) および [ を使用してデザインをカスタマイズ  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) を参照してください。
+   レコメンデーションデザインでは、オープンソースの [!DNL Velocity] デザイン言語を使用します。 [!DNL Velocity] について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) および [&#x200B; を使用してデザインをカスタマイズ  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) を参照してください。
 
    デザインは HTML または HTML 以外にすることができます。デフォルトでは、HTML デザインは、web 環境でのクリックの追跡を可能にするために `<div>` タグでラップされます。 HTML以外のデザインは、クリックの追跡が不可能な web 以外の環境向けです。 [!UICONTROL HTML Design] トグルを「オフ」の位置にスライドさせて、HTML以外のコードを使用します。
 
@@ -91,7 +91,7 @@ ht-degree: 22%
 
 [!UICONTROL Design] ライブラリで目的のデザインの上にマウスポインターを置き、適切なアイコン（編集、コピー、削除）をクリックします。
 
-![ デザインのホバーアイコン ](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+![&#x200B; デザインのホバーアイコン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
 既存のデザインをコピーして複製デザインを作成し、修正することができます。 このプロセスにより、少ない労力で同様のデザインを作成できます。
 
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendations でカスタムデザインを作成（3:20） ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：Recommendations でカスタムデザインを作成（3:20） ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 

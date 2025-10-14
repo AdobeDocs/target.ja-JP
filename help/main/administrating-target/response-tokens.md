@@ -28,7 +28,7 @@ ht-degree: 24%
 
 | Target SDK | 提案されたアクション |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja){target=_blank} ガイドの *SDKのインストール* を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) ガイドの *リリースノート* を参照してください。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『 [Platform Web SDKの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja){target=_blank} ガイドの *SDKのインストール* を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『 [Platform Web SDKの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) ガイドの *リリースノート* を参照してください。 |
 | [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank} を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。mbox.js （現在は非推奨）には存在し、at.js には存在しない内部メソッドに依存する一部のプラグインは、配信されますが失敗します。 |
 
 ## レスポンストークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -37,8 +37,8 @@ ht-degree: 24%
 
    詳しくは、以下を参照してください。
 
-   * **Platform Web SDK**:『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja) ガイドの *SDKのインストール* を参照してください。
-   * **at.js**:[at.js のダウンロード ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank} を参照してください。
+   * **Platform Web SDK**:『 [Platform Web SDKの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja) ガイドの *SDKのインストール* を参照してください。
+   * **at.js**:[at.js のダウンロード &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank} を参照してください。
 
 1. [!DNL Target] で、**[!UICONTROL Administration]**/**[!UICONTROL Response Tokens]** をクリックします。
 
@@ -78,7 +78,7 @@ ht-degree: 24%
 
 [!DNL Target] 応答および応答トークンの読み取りをリッスンするために使用するプロセスは、実装が [!DNL Platform Web SDK] と at.js のどちらに含まれているかによって異なります。
 
-### ![Adobe Experience Platform Web SDK バッジ ](/help/main/assets/platform.png) [!DNL Platform Web SDK] Handle オブジェクトクラスを使用 {#platform-web-sdk}
+### ![Adobe Experience Platform Web SDK バッジ &#x200B;](/help/main/assets/platform.png) [!DNL Platform Web SDK] Handle オブジェクトクラスを使用 {#platform-web-sdk}
 
 メタデータオブジェクトとデータオブジェクトを持つ Handle オブジェクトクラスを使用して、[!DNL Target] 応答をリッスンし、応答トークンを読み取ります。
 
@@ -145,9 +145,9 @@ ht-degree: 24%
 </html>
 ```
 
-### ![at.js バッジ ](/help/main/assets/atjs.png) カスタムイベントを使用した at.js
+### ![at.js バッジ &#x200B;](/help/main/assets/atjs.png) カスタムイベントを使用した at.js
 
-[at.js カスタムイベント ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=ja){target=_blank} を使用して [!DNL Target] 応答をリッスンし、応答トークンを読み取ります。
+[at.js カスタムイベント &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=ja){target=_blank} を使用して [!DNL Target] 応答をリッスンし、応答トークンを読み取ります。
 
 以下のコードサンプルは、[!DNL at.js] カスタムイベントハンドラーを HTML ページに直接追加します。
 
@@ -218,7 +218,7 @@ ht-degree: 24%
 
 次の節では、Google Analytics 4 にデータ [!DNL Target] 送信する方法について説明します。 応答トークンから送信されたデータは、他のサードパーティ統合環境に送信することもできます。
 
-### ![AEP バッジ ](/help/main/assets/platform.png)Platform Web SDKを介してGoogle Analyticsにデータを送信する
+### ![AEP バッジ &#x200B;](/help/main/assets/platform.png)Platform Web SDKを介してGoogle Analyticsにデータを送信する
 
 Google Analyticsページに次のコードを追加すると、Platform Web SDK バージョン 2.6.0 （またはそれ以降）を介してHTMLからデータを送信できます。
 
@@ -256,7 +256,7 @@ Google Analyticsページに次のコードを追加すると、Platform Web SDK
 </script>
 ```
 
-### ![at.js バッジ ](/help/main/assets/atjs.png)at.js を使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js バッジ &#x200B;](/help/main/assets/atjs.png)at.js を使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 次のコードを HTML ページに追加することで、Google Analytics に at.js を介してデータを送信できます。
 
@@ -312,7 +312,7 @@ Google Analyticsページに次のコードを追加すると、Platform Web SDK
 
 次の節では、応答トークンのデバッグについて説明します。
 
-### ![at.js バッジ ](/help/main/assets/atjs.png)Google Analyticsとデバッグ
+### ![at.js バッジ &#x200B;](/help/main/assets/atjs.png)Google Analyticsとデバッグ
 
 次のコードを使用すると、Google Analyticsを使用してデバッグできます。
 

@@ -72,7 +72,7 @@ $entities[0].categoriesList[2]
 
 例えば、デザインに次のような内容を表示するとします。
 
-![velocity_example 画像 ](assets/velocity_example.png)
+![velocity_example 画像 &#x200B;](assets/velocity_example.png)
 
 この場合は以下のようなコードを使用します。
 

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->条件やプロモーションに対する [ インクルージョンルールの作成プロセスと使用プロセス ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) は、ユースケースと例と同様です。
+>条件やプロモーションに対する [&#x200B; インクルージョンルールの作成プロセスと使用プロセス &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) は、ユースケースと例と同様です。
 
 次のシナリオは、[!UICONTROL Profile Attribute Matching] の使用方法を示しています。
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 例えば、「[!UICONTROL Profile Attribute Matching]」オプションを使用して、ブランドが `profile.favoritebrand` に格納されている値またはテキストと等しい項目のみを推奨するルールを作成できます。 このようなルールでは、訪問者が特定のブランドの実行中のショートパンツを見ている場合、そのユーザーのお気に入りのブランド（訪問者のプロファイルの `profile.favoritebrand` に保存されている値）に一致するレコメンデーションのみが表示されます。
 
-![ お気に入りのブランド ](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
+![&#x200B; お気に入りのブランド &#x200B;](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
 ```
 Profile Attribute Matching
@@ -48,7 +48,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 次の例に示すように、インクルージョンルールを使用して、訪問者のプロファイルから求職者の場所を求人情報に一致させることができます。
 
-![ ユーザーの市区町村 ](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
+![&#x200B; ユーザーの市区町村 &#x200B;](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
 ```
 Profile Attribute Matching
@@ -67,8 +67,8 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 お勧めは、web サイトで多くの小さなファンを表示することに基づいています。
 
-![ 小規模なファンの推奨事項 ](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
+![&#x200B; 小規模なファンの推奨事項 &#x200B;](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
 Web サイトでより大きなファンを表示することに基づくお勧め：
 
-![ 大規模なファンの推奨事項 ](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)
+![&#x200B; 大規模なファンの推奨事項 &#x200B;](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

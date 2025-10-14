@@ -19,7 +19,7 @@ ht-degree: 22%
 
 ## アクティビティページでホバーアイコンを使用してアクティビティを編集 [!UICONTROL More Actions] ます {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. **[!UICONTROL Activities]** のページで、編集するアクティビティの横にある **[!UICONTROL More Actions]** アイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **編集**]」をクリックします。
+1. **[!UICONTROL Activities]** のページで、編集するアクティビティの横にある **[!UICONTROL More Actions]** アイコン ![&#x200B; その他のアクションアイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **編集**]」をクリックします。
 
    アクティビティが [!DNL Target] （VEC）に開 [!UICONTROL Visual Experience Composer] れ、[!UICONTROL Experiences] のページが表示されます（3 ステップのガイド付きワークフローの最初のステップ）。
 
@@ -30,7 +30,7 @@ ht-degree: 22%
 1. **目標と設定** ページには、次のオプションがあります。
 
    * **[!UICONTROL Save & Close]:** 「**[!UICONTROL Save and Close]**」をクリックして変更を保存し、アクティビティの [!UICONTROL Overview] ページを表示します。
-   * **保存：** **[!UICONTROL More Actions]** のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックしてから「**[!UICONTROL Save]**」を選択すると、変更が保存され、VEC に残って引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
+   * **保存：** **[!UICONTROL More Actions]** のアイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックしてから「**[!UICONTROL Save]**」を選択すると、変更が保存され、VEC に残って引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
 
 ## [!UICONTROL Activities] ページで名前をクリックして、アクティビティを編集します {#section_176180DAD17E40CEA441903F39E0AA1C}
 
@@ -43,7 +43,7 @@ ht-degree: 22%
 1. 必要な変更を加え、アクティビティを保存します。
 
    * **[!UICONTROL Save & Close]:** 「**[!UICONTROL Save and Close]**」をクリックして変更を保存し、アクティビティの [!UICONTROL Overview] ページを表示します。
-   * **保存：** **[!UICONTROL More Actions]** のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックしてから「**[!UICONTROL Save]**」を選択すると、変更が保存され、VEC に残って引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
+   * **保存：** **[!UICONTROL More Actions]** のアイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックしてから「**[!UICONTROL Save]**」を選択すると、変更が保存され、VEC に残って引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
 
 ## ワークスペースを使用する際のアクティビティのコピー/編集 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -55,9 +55,9 @@ ht-degree: 22%
 
 多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
-ワークスペースとエンタープライズユーザー権限機能について詳しくは、[ エンタープライズユーザー権限 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) を参照してください。
+ワークスペースとエンタープライズユーザー権限機能について詳しくは、[&#x200B; エンタープライズユーザー権限 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) を参照してください。
 
-お使いの環境で [!UICONTROL Enterprise User Permissions] を有効にしている場合、アクティビティを同じワークスペースまたは別のワークスペースにコピーできます。 現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL Activities] のページで、コピーするアクティビティの横にある **[!UICONTROL More Actions]** のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **コピー**]」をクリックします。
+お使いの環境で [!UICONTROL Enterprise User Permissions] を有効にしている場合、アクティビティを同じワークスペースまたは別のワークスペースにコピーできます。 現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL Activities] のページで、コピーするアクティビティの横にある **[!UICONTROL More Actions]** のアイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **コピー**]」をクリックします。
 
 ワークスペースでコピー／編集機能を使用する際の重要なポイントは次のとおりです。
 
@@ -67,7 +67,7 @@ ht-degree: 22%
 
       * [!UICONTROL Form-Based Experience Composer] では、警告はユーザーインターフェイス内に直接表示されるので、すぐに確認できます。
 
-        ![ フォームベースのワークスペースの警告 ](/help/main/c-activities/assets/form-based-warning.png)
+        ![&#x200B; フォームベースのワークスペースの警告 &#x200B;](/help/main/c-activities/assets/form-based-warning.png)
 
       * VEC では、[!UICONTROL Configure] > [!UICONTROL Properties] をクリックすると、警告が表示されます。
 
@@ -89,7 +89,7 @@ ht-degree: 22%
 
      これらの非ターゲットオーディエンスとオファーを手動で置き換えると、コピーされたアクティビティでは、有効でアクセス可能なエンティティのみが使用され、編集や配信中のエラーが回避されます。
 
-     ![ 警告メッセージ ](/help/main/c-activities/assets/copy.png)
+     ![&#x200B; 警告メッセージ &#x200B;](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ ht-degree: 22%
 
 ## ドラフトフォームでのアクティビティの保存 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-[!UICONTROL Save as Draft] 機能は使用できなくなりました。 詳しくは、*[!UICONTROL Status]* アクティビティリストへのフィルターの適用 [ の ](/help/main/c-activities/activities.md#filters) を参照してください。
+[!UICONTROL Save as Draft] 機能は使用できなくなりました。 詳しくは、*[!UICONTROL Status]* アクティビティリストへのフィルターの適用 [&#x200B; の &#x200B;](/help/main/c-activities/activities.md#filters) を参照してください。
 
 ## [!DNL Recommendations Classic] で作成された従来のアクティビティの操作 {#classic}
 

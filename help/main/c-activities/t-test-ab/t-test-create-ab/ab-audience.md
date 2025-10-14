@@ -15,11 +15,11 @@ ht-degree: 8%
 
 オーディエンスは、[!DNL Adobe Target] アクティビティに入力される選定訪問者を決定します。
 
-[!UICONTROL Targeting] アクティビティを作成 [ 時の 3 つの部分から成るガイド付きワークフローの ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) の手順には、オーディエンスとそのトラフィックの割合を割り当てる手順、トラフィックの割り当て方法を選択する手順、アクティビティ内の各エクスペリエンスのトラフィックの割り当てを指定する手順を示すフロー図が表示されます。
+[!UICONTROL Targeting] アクティビティを作成 [&#x200B; 時の 3 つの部分から成るガイド付きワークフローの &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) の手順には、オーディエンスとそのトラフィックの割合を割り当てる手順、トラフィックの割り当て方法を選択する手順、アクティビティ内の各エクスペリエンスのトラフィックの割り当てを指定する手順を示すフロー図が表示されます。
 
 ![A/B テストのターゲット設定手順](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-フロー図のすべてのオプションについて詳しくは、「[A/B テストアクティビティの作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)」を参照してください。
+フロー図のすべてのオプションについて詳しくは、「[A/B テストアクティビティの作成 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)」を参照してください。
 
 ## アクティビティのオーディエンスの選択
 
@@ -31,20 +31,20 @@ ht-degree: 8%
 
    右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
 
-1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+1. オーディエンスを変更するには **[!UICONTROL Replace]右側のフレームで** アイコン（![&#x200B; 置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
 
-1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
+1. [!UICONTROL Add Audience] のダイアログボックスで [&#x200B; 目的のオーディエンスを選択 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
 
    デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは [!UICONTROL Audience Library] ージから選択するか、アクティビティのみのオーディエンスを作成できます。 [!UICONTROL Audience Library] には、[!DNL Target] の一部として事前に作成された一般的なオーディエンスなど、以前に定義されたオーディエンスが含まれています。
 
-1. （条件付き） **オーディエンスを組み合わせる** をクリックして [ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) します。
+1. （条件付き） **オーディエンスを組み合わせる** をクリックして [&#x200B; 複数のオーディエンスを組み合わせたオーディエンスを作成 &#x200B;](/help/main/c-target/combining-multiple-audiences.md) します。
 
 1. （条件付き）オーディエンスにまだ含まれていない新しいオーディ [!UICONTROL Audience Library] ンスを作成するには、**オーディエンスを作成** をクリックし、オーディエンスを定義して、「**[!UICONTROL Done]**」をクリックします。
 
-   [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) の間に、次のオプションから選択できます。
+   [&#x200B; オーディエンスを作成ワークフロー &#x200B;](/help/main/c-target/c-audiences/audiences.md) の間に、次のオプションから選択できます。
 
    * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
-   * **[!UICONTROL This activity only]**:[ ーザーに保存されず、現在のアクティビティでのみ使用できる ](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
+   * **[!UICONTROL This activity only]**:[&#x200B; ーザーに保存されず、現在のアクティビティでのみ使用できる &#x200B;](/help/main/c-target/creating-activity-only-audience.md) アクティビティ固有のオーディエンス [!UICONTROL Audience Library] を作成します。
 
 1. 右側のパネルで「**[!UICONTROL Visitor Percentage]**」をクリックし、条件を満たす訪問者をアクティビティに含める割合を指定します。
 
@@ -56,12 +56,12 @@ ht-degree: 8%
 
 ## オーディエンスの情報の表示
 
-1. [!UICONTROL Add Audiences] ダイアログボックスで、オーディエンスの横にある **[!UICONTROL Information]** アイコン（![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、ソースや属性など、そのオーディエンスに関する詳細が表示されます。
+1. [!UICONTROL Add Audiences] ダイアログボックスで、オーディエンスの横にある **[!UICONTROL Information]** アイコン（![&#x200B; 情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、ソースや属性など、そのオーディエンスに関する詳細が表示されます。
 
 1. 「**[!UICONTROL View Full Details]**」をクリックすると、オーディエンスに関する追加の詳細が表示されます。 詳細には、オーディエンスの属性、オーディエンスの説明、ワークスペース、タイプ、ソースおよび、このオーディエンスを参照するアクティビティのリストが含まれます。 アクティビティの名前、ステータス、ワークスペース、オーディエンスの最終変更日時や変更者など、各オーディエンスに関する情報を確認できます。
 
 ## オーディエンスの編集またはコピー
 
-オーディエンスを編集またはコピーするには、[!UICONTROL More Actions] ダイアログボックスで、目的のオーディエンスの横にある ![ のアイコン ](/help/main/assets/icons/More.svg) その他のアクションアイコン [!UICONTROL Add Audience]）をクリックし、「[!UICONTROL Edit]」または「[!UICONTROL Copy]」をクリックします。
+オーディエンスを編集またはコピーするには、[!UICONTROL More Actions] ダイアログボックスで、目的のオーディエンスの横にある ![&#x200B; のアイコン &#x200B;](/help/main/assets/icons/More.svg) その他のアクションアイコン [!UICONTROL Add Audience]）をクリックし、「[!UICONTROL Edit]」または「[!UICONTROL Copy]」をクリックします。
 
 オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成し、編集を加えてから、新しいオーディエンスとして保存できます。

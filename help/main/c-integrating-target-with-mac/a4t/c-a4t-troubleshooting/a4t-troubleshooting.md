@@ -55,7 +55,7 @@ ht-degree: 88%
 
 ## Analytics レポートにアクティビティが表示されません。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T アクティビティには Analytics トラッキングサーバーの指定が必要です。Analytics トラッキングサーバーが正しく設定されていることを確認するには、[Analytics トラッキングサーバーの使用 ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
+A4T アクティビティには Analytics トラッキングサーバーの指定が必要です。Analytics トラッキングサーバーが正しく設定されていることを確認するには、[Analytics トラッキングサーバーの使用 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
 
 >[!NOTE]
 >

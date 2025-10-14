@@ -13,7 +13,7 @@ ht-degree: 51%
 
 # プロファイル属性比較オーディエンスの作成
 
-[!DNL Adobe Target] のオーディエンスを定義して、[ オーディエンスライブラリ ](/help/main/c-target/c-audiences/audiences.md) または [ アクティビティのみのオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) の 2 つのプロファイル属性を比較します。 より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
+[!DNL Adobe Target] のオーディエンスを定義して、[&#x200B; オーディエンスライブラリ &#x200B;](/help/main/c-target/c-audiences/audiences.md) または [&#x200B; アクティビティのみのオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md) の 2 つのプロファイル属性を比較します。 より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 
 >[!NOTE]
 >
@@ -57,11 +57,11 @@ ht-degree: 51%
 
 1. 最初の属性と比較する追加属性を選択します。
 
-   ![propensity_score_4 画像 ](assets/propensity_score_4.png)
+   ![propensity_score_4 画像 &#x200B;](assets/propensity_score_4.png)
 
 1. **[!UICONTROL Done]** をクリックします。
 
-## トレーニングビデオ ![ 概要バッジ ](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## トレーニングビデオ ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 この機能を使用できるシナリオと詳細情報については、次のビデオを視聴してください。
 

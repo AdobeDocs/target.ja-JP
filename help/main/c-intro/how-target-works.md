@@ -29,18 +29,18 @@ JavaScript ライブラリ（[!DNL Adobe Target] および at.js）の詳細な�
 Target と web サイトの統合（[!DNL Experience Platform Web SDK] または at.js を使用）:
 
 * **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：このクライアントサイド JavaScript ライブラリを使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform Edge Network] を通じて様々なサービスを操作できます。 [!DNL Adobe] では、新規の [!DNL Target] ユーザーに [!DNL Experience Platform Web SDK] を実装することをお勧めします。
-* **[at.js](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**:[!DNL Target] 用のこの実装ライブラリは、web 実装のページ読み込み時間を改善し、単一ページアプリケーション向けのより優れたオプションを提供します。 新機能を使用して頻繁に更新される [!DNL Adobe]、すべての [at.js ユーザーを最新バージョンにアップデート ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} することをお勧めします。
+* **[at.js](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**:[!DNL Target] 用のこの実装ライブラリは、web 実装のページ読み込み時間を改善し、単一ページアプリケーション向けのより優れたオプションを提供します。 新機能を使用して頻繁に更新される [!DNL Adobe]、すべての [at.js ユーザーを最新バージョンにアップデート &#x200B;](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} することをお勧めします。
 
 >[!NOTE]
 >
 >mbox.js ライブラリは [!DNL Target] のレガシー実装で、2021 年 3 月 31 日（PT）以降はサポートされなくなります。 [!UICONTROL Experience Platform Web SDK] （推奨）または at.js の最新バージョンへのアップグレード。
 
-サイトの各ページの [!UICONTROL Experience Platform Web SDK] または at.js を参照します。 例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加します。 または、[Adobe Experience Platformのタグ ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home){target=_blank} を使用して [!DNL Target] を実装します。
+サイトの各ページの [!UICONTROL Experience Platform Web SDK] または at.js を参照します。 例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加します。 または、[Adobe Experience Platformのタグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home){target=_blank} を使用して [!DNL Target] を実装します。
 
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
 * [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
-* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [&#x200B; [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、ターゲティングシステムにリアルタイムリクエストが送信され、提供するコンテンツが決定されます。 このリクエストは、マーケターが制御するアクティビティやエクスペリエンスの管理の下で、ページが読み込まれるたびに行われ、実行されます。 コンテンツは、個々のサイト訪問者をターゲットにし、応答率、獲得率、売上高を最大化します。 パーソナライズされたコンテンツは、訪問者の反応、インタラクション、購入を保証するのに役立ちます。
 
@@ -217,7 +217,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 
   [!DNL Adobe] は、検索エンジンガイドラインに完全に準拠するソリューションを積極的に探しています。 テスト用に別々の URL を必要とするクライアントの場合、[!DNL Adobe] では、正規タグを正しく実装することで、関連するリスクを軽減できると考えています。
 
-* **実験を必要な期間のみ実行**:[!DNL Adobe] では、「必要な期間」を統計的有意性に到達するために必要な時間として定義します。 [!DNL Target] には、テストがこの時点に到達したかどうかを判断するためのベストプラクティスと [!DNL Adobe Target] [ サンプルサイズ計算ツール ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) が用意されています。 [!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
+* **実験を必要な期間のみ実行**:[!DNL Adobe] では、「必要な期間」を統計的有意性に到達するために必要な時間として定義します。 [!DNL Target] には、テストがこの時点に到達したかどうかを判断するためのベストプラクティスと [!DNL Adobe Target] [&#x200B; サンプルサイズ計算ツール &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) が用意されています。 [!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
 
   [!DNL Target] を使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。 勝者テストが常に 100% のユーザーに対して公開されている場合、このアプローチを一時的に使用して、勝者テストをハードコーディングできます。
 

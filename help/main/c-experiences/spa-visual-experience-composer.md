@@ -67,7 +67,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
    Adobe Target UI を使用して at.js 2.x を [!UICONTROL Administration > Implementation] からダウンロードします。 at.js 2.x は、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ja){target=_blank} のタグを使用してデプロイすることもできます。ただし、Adobe Target の拡張機能は現在最新ではなく、サポートされていません。
 
-1. サイトに at.js 2.x の最新の関数 [triggerView （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=ja){target=_blank} を実装します。
+1. サイトに at.js 2.x の最新の関数 [triggerView （） &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=ja){target=_blank} を実装します。
 
    A/B または XT テストを実行する SPA のビューを定義したら、パラメーターとして渡されたビューを使用して at.js 2.x の `triggerView()` 関数を実装します。 これにより、マーケターは VEC を使用し、定義されたビューに対して A/B テストと XT テストを設計して実行できます。これらのビューに対して `triggerView()` 関数が定義されていない場合、VEC はビューを検出しません。そのため、マーケターは VEC を使用して A/B テストや XT テストを設計して実行できません。
 
@@ -336,7 +336,7 @@ adobe.target.getOffers({
 | アクティビティのタイプ | 対応? |
 | --- | --- |
 | [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md) | ○ |
-| A/B テストおよびエクスペリエンスのターゲット設定（XT）アクティビティにおける[ オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)<br> | ○ |
+| A/B テストおよびエクスペリエンスのターゲット設定（XT）アクティビティにおける[&#x200B; オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)<br> | ○ |
 | [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ○ |
 | [エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md) | ○ |
 | [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | × |

@@ -28,7 +28,7 @@ ht-degree: 33%
 
 各条件は独自のタブで定義されます。トラフィックは、異なる条件のテスト全体で等しく分割されます。つまり、2 つの条件がある場合、トラフィックは等しく 2 分割されます。2 つの条件と 2 つのデザインがある場合、トラフィックは 4 つの組み合わせに対して等しく分割されます。さらに、比較のために、デフォルトコンテンツを表示するサイト訪問者の割合も指定できます。その場合、指定した割合の訪問者にはデフォルトコンテンツが表示され、残りは条件とデザインの組み合わせで分割されます。
 
-条件の作成、およびアルゴリズムのタイプとアルゴリズムの定義について詳しくは、「[ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)」を参照してください。
+条件の作成、およびアルゴリズムのタイプとアルゴリズムの定義について詳しくは、「[&#x200B; 条件の作成 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)」を参照してください。
 
 様々なレコメンデーションアルゴリズムが、様々なタイプのページ上の配置に役立ちます。 各アルゴリズムタイプとその使用可能なアルゴリズムの詳細については、次の節を参照してください。
 
@@ -240,7 +240,7 @@ ht-degree: 33%
 * 最後に閲覧された品目
 * 最も多く閲覧された品目
 
-詳しくは、[ コンテンツの類似性 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) を参照してください。
+詳しくは、[&#x200B; コンテンツの類似性 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) を参照してください。
 
 ## [!UICONTROL User-Based]
 
@@ -252,7 +252,7 @@ ht-degree: 33%
 
 訪問者の履歴（複数セッションにわたる）を使用して、デザインのスロット数に基づいて、訪問者が閲覧した最後の *x* 品目を提示します。
 
-最近表示された項目アルゴリズムは、特定の [ 環境 ](/help/main/administrating-target/hosts.md) に固有の結果を返します。 別々の環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、各サイトでは、そのサイトで最近表示された項目のみが表示されます。2 つのサイトが同じ環境にあり、訪問者が 2 つのサイト間を切り替えると、訪問者には、両方のサイトで最近閲覧された同じ項目が表示されます。
+最近表示された項目アルゴリズムは、特定の [&#x200B; 環境 &#x200B;](/help/main/administrating-target/hosts.md) に固有の結果を返します。 別々の環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、各サイトでは、そのサイトで最近表示された項目のみが表示されます。2 つのサイトが同じ環境にあり、訪問者が 2 つのサイト間を切り替えると、訪問者には、両方のサイトで最近閲覧された同じ項目が表示されます。
 
 >[!NOTE]
 >
@@ -261,7 +261,7 @@ ht-degree: 33%
 [!UICONTROL Recently Viewed Items]/Media は、特定の属性を持つ項目のみが表示されるようにフィルタリングできます。
 
 * 最近表示された項目の条件は、レコメンデーションの他の条件と同じように変更可能です。
-* [ 収集 ](/help/main/c-recommendations/c-products/collections.md)、[ 除外 ](/help/main/c-recommendations/c-products/exclusions.md) および [ 含む ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （価格と在庫の特別ルールを含む）は、他の条件と同じように使用できます。
+* [&#x200B; 収集 &#x200B;](/help/main/c-recommendations/c-products/collections.md)、[&#x200B; 除外 &#x200B;](/help/main/c-recommendations/c-products/exclusions.md) および [&#x200B; 含む &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （価格と在庫の特別ルールを含む）は、他の条件と同じように使用できます。
 
 考えられるユースケースとしては、複数の企業を抱える多国籍企業では、複数のデジタルプロパティをまたいで訪問者ビューの項目を持つ場合があります。 その場合は、最近表示した項目をレコメンデーションする場所を、それが表示された各プロパティのみに制限できます。これにより、最近閲覧された項目が別のデジタルプロパティのサイトに表示されるのを防ぐことができます。
 
@@ -308,7 +308,7 @@ ht-degree: 33%
 カスタム条件にインクルージョンルールを追加することで、静的なレコメンデーションを、訪問者の興味に合わせた動的なレコメンデーションに変えることができます。
 
 * カスタム条件は、レコメンデーションの他の条件と同じように変更可能です。
-* [ 収集 ](/help/main/c-recommendations/c-products/collections.md)、[ 除外 ](/help/main/c-recommendations/c-products/exclusions.md) および [ 含む ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （価格と在庫の特別ルールを含む）は、他の条件と同じように使用できます。
+* [&#x200B; 収集 &#x200B;](/help/main/c-recommendations/c-products/collections.md)、[&#x200B; 除外 &#x200B;](/help/main/c-recommendations/c-products/exclusions.md) および [&#x200B; 含む &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （価格と在庫の特別ルールを含む）は、他の条件と同じように使用できます。
 
 主な使用例は次のとおりです。
 

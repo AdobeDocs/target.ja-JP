@@ -20,7 +20,7 @@ ht-degree: 26%
 
 +++詳細を表示
 
-[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP）または [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択できます。
+[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP）または [&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択できます。
 
 この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィック全体を特定のエクスペリエンスにルーティングできます。その後、そのエクスペリエンスへのコントロールトラフィックに対するパーソナライズされたトラフィックのパフォーマンスレポートを評価できます。
 
@@ -40,7 +40,7 @@ ht-degree: 26%
 
 +++詳細を表示
 
-* トラフィックが少ないページのパーソナライズをおこなう場合や、パーソナライズするエクスペリエンスに構造的な変更を加える場合は、[!UICONTROL Auto-Target] の代わりに [!UICONTROL Automated Personalization] アクティビティを使用することを検討してください。 [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) を参照してください。
+* トラフィックが少ないページのパーソナライズをおこなう場合や、パーソナライズするエクスペリエンスに構造的な変更を加える場合は、[!UICONTROL Auto-Target] の代わりに [!UICONTROL Automated Personalization] アクティビティを使用することを検討してください。 [&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) を参照してください。
 * [!UICONTROL A/B Test] アクティビティで使用することを計画しているオファーや場所を対象とした [!UICONTROL Automated Personalization] アクティビティを実施し、それらのオファーや場所が最適化目標の達成に効果的かどうかを確認することをお勧めします。 [!UICONTROL A/B Test] アクティビティで有意な差異が示されなかった場合は、上昇率が生み出され [!UICONTROL Automated Personalization] い可能性も高くなります。
 
    * A/B...N テストでエクスペリエンス間の統計的に有意な違いが示されない場合、おそらく次の 1 つ以上の状況が原因です。
@@ -49,7 +49,7 @@ ht-degree: 26%
       * 選択した場所は、成功指標には影響しません。
       * 最適化の目標はコンバージョンファネル内で大きすぎて、選択したオファーの影響を受けません。
 
-* [ トラフィック見積もり ](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) を使用して、パーソナライゼーションモデルが [!UICONTROL Automated Personalization] アクティビティで構築されるまでにかかる時間を把握できるようにします。
+* [&#x200B; トラフィック見積もり &#x200B;](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) を使用して、パーソナライゼーションモデルが [!UICONTROL Automated Personalization] アクティビティで構築されるまでにかかる時間を把握できるようにします。
 * 目標に基づいて、アクティビティを開始する前にコントロールとターゲットの間の配分を決定します。
 
   アクティビティの目標と選択したコントロールのタイプに基づいて、考慮すべき 3 つのシナリオがあります。
@@ -80,7 +80,7 @@ ht-degree: 26%
 
 アクティビティで「[!UICONTROL Disalow Duplicates]」オプションが有効になっていても、この同じ制限が適用されます。
 
-[!DNL Target] ークフローのアクティビティやその他の要素に影響する文字制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について詳しくは、[ 制限 ](/help/main/r-troubleshooting-target/target-limits.md) を参照してください。
+[!DNL Target] ークフローのアクティビティやその他の要素に影響する文字制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について詳しくは、[&#x200B; 制限 &#x200B;](/help/main/r-troubleshooting-target/target-limits.md) を参照してください。
 
 +++
 
@@ -113,7 +113,7 @@ ht-degree: 26%
 
 +++詳細を表示
 
-[!UICONTROL Automated Personalization] は、各モデルで構築された最新の [ ランダムフォレスト ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) モデルに基づいて、成功指標の推定値が最も優れているエクスペリエンスを訪問者に提供します。 この推定値は、訪問者の特定の情報と訪問のコンテキストに基づいて算出されます。
+[!UICONTROL Automated Personalization] は、各モデルで構築された最新の [&#x200B; ランダムフォレスト &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) モデルに基づいて、成功指標の推定値が最も優れているエクスペリエンスを訪問者に提供します。 この推定値は、訪問者の特定の情報と訪問のコンテキストに基づいて算出されます。
 
 例えば、[!UICONTROL Automated Personalization] のアクティビティに、それぞれ 2 つのオファーがある 2 つの場所があったとします。 1 つ目の場所では、特定の訪問者に対するオファー A の推定コンバージョン率が 3％、オファー B の推定コンバージョン率が 1％です。2 つ目の場所では、同一の訪問者に対するオファー C の推定コンバージョン率が 2％、オファー D の推定コンバージョン率が 5％です。[!UICONTROL Automated Personalization] のため、この訪問者にはオファー A とオファー D のエクスペリエンスが提供されます。
 
@@ -131,7 +131,7 @@ ht-degree: 26%
 
 +++詳細を表示
 
-アクティビティでのモデルの作成に要する時間は、通常、選択したアクティビティの場所へのトラフィックとアクティビティの成功指標に依存します。 [ トラフィック見積もり ](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) を使用して、アクティビティでのモデルの作成に要する予想時間の長さを決定します。
+アクティビティでのモデルの作成に要する時間は、通常、選択したアクティビティの場所へのトラフィックとアクティビティの成功指標に依存します。 [&#x200B; トラフィック見積もり &#x200B;](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) を使用して、アクティビティでのモデルの作成に要する予想時間の長さを決定します。
 
 +++
 

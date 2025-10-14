@@ -20,7 +20,7 @@ ht-degree: 29%
 
 [!UICONTROL Personalization Insights] レポートを使用する場合は、次の点を考慮してください。
 
-* AP アクティビティと AT アクティビティは、[[!DNL Target Premium]  ソリューション ](/help/main/c-intro/intro.md#premium) の一部です。 これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
+* AP アクティビティと AT アクティビティは、[[!DNL Target Premium]  ソリューション &#x200B;](/help/main/c-intro/intro.md#premium) の一部です。 これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
 
 * [!UICONTROL Personalization Insights] レポートは、次のように設定された AP アクティビティおよび AT アクティビティに対してのみ使用できます。
 
@@ -28,31 +28,31 @@ ht-degree: 29%
 
      次に例を示します。
 
-     ![ ターゲットレポート/コンバージョン ](/help/main/c-reports/assets/conversion.png)
+     ![&#x200B; ターゲットレポート/コンバージョン &#x200B;](/help/main/c-reports/assets/conversion.png)
 
    * [!DNL Analytics] レポート/[!DNL Conversion]
 
      次に例を示します。
 
-     ![ 分析レポート/コンバージョン ](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+     ![&#x200B; 分析レポート/コンバージョン &#x200B;](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
    * [!DNL Analytics] レポート/[!UICONTROL Use an Analytics metric]/[!UICONTROL Maximize Visit Conversion Rate]
 
      次に例を示します。
 
-     ![Analytics 指標を使用/訪問のコンバージョン率を最大化 ](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+     ![Analytics 指標を使用/訪問のコンバージョン率を最大化 &#x200B;](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 
 * [!UICONTROL Personalization Insights] のレポートは、「[!UICONTROL Primary Goal]」ドロップダウンリストから [!UICONTROL Report Metric] が選択されている場合にのみ使用できます。
 
-* [!UICONTROL Personalization Insights] レポートは、[ デフォルト環境 ](/help/main/administrating-target/hosts.md) でのみサポートされます。
+* [!UICONTROL Personalization Insights] レポートは、[&#x200B; デフォルト環境 &#x200B;](/help/main/administrating-target/hosts.md) でのみサポートされます。
 
 * [!UICONTROL Personalization Insights] レポートは、[!UICONTROL Live] ステータスのアクティビティのうち、アクティブ化され、トラフィックの受信が 15 日以上行われたものについてのみ生成されます。
 
 ## Personalization Insights レポートの概要 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-[!UICONTROL Personalization Insights] レポートの目的は、AP と AT アクティビティの背後にある [!UICONTROL Target] パーソナライゼーションモデルが訪問者トラフィックをどのようにパーソナライズするかについての詳細を提供することです。 [ ランダムフォレストアルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) は、[!DNL Target] パーソナライゼーションモデルの基礎です。
+[!UICONTROL Personalization Insights] レポートの目的は、AP と AT アクティビティの背後にある [!UICONTROL Target] パーソナライゼーションモデルが訪問者トラフィックをどのようにパーソナライズするかについての詳細を提供することです。 [&#x200B; ランダムフォレストアルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) は、[!DNL Target] パーソナライゼーションモデルの基礎です。
 
 [!UICONTROL Personalization Insights] レポートの目的は、[!DNL Target] のパーソナライゼーションモデルが、どの訪問者をコンテンツに送信するかを決定した方法を理解することです。そのため、[!UICONTROL Personalization Insights] レポートには、AP または AT アクティビティから提供されるすべてのトラフィックのサブセグメントのみが反映されます。 具体的に言うと、これら 2 つのレポートは、パーソナライゼーションモデルを使用したすべてのトラフィックを反映します。つまり、[!UICONTROL Personalization Insights] レポートでは、制御トラフィックや、全体的な勝者モデルによって提供されるトラフィックは考慮されません。
 
@@ -67,8 +67,8 @@ ht-degree: 29%
 
 AP または自動ターゲット モデルで使用される [!UICONTROL Personalization Insights] レポートには、次の 2 種類の属性が表示されます。
 
-* **Target によって自動的に収集される属性：** [!DNL Target] は、ベースデータセットを使用して、Personalization Insights に反映される AP アクティビティと AT アクティビティでパーソナライゼーションアルゴリズムを構築します。 属性などのデータ型とその [ しい命名規則については、](/help/main/c-activities/t-automated-personalization/ap-data.md)Target のPersonalization アルゴリズムのデータ収集 [!UICONTROL Personalization Insights] を参照してください。 これらの属性は考慮されますが、個々のアクティビティのモデルは、最終的なモデルでこれらの属性のすべてを使用しない場合があります。
-* **Target に渡される属性：** Target Personalization アルゴリズムのデータのアップロード [ を参照してください ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+* **Target によって自動的に収集される属性：** [!DNL Target] は、ベースデータセットを使用して、Personalization Insights に反映される AP アクティビティと AT アクティビティでパーソナライゼーションアルゴリズムを構築します。 属性などのデータ型とその [&#x200B; しい命名規則については、](/help/main/c-activities/t-automated-personalization/ap-data.md)Target のPersonalization アルゴリズムのデータ収集 [!UICONTROL Personalization Insights] を参照してください。 これらの属性は考慮されますが、個々のアクティビティのモデルは、最終的なモデルでこれらの属性のすべてを使用しない場合があります。
+* **Target に渡される属性：** Target Personalization アルゴリズムのデータのアップロード [&#x200B; を参照してください &#x200B;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 [!DNL Target] では、追加のデータを [!DNL Target] に渡して、AP および AT アクティビティでパーソナライゼーションアルゴリズムを構築するために使用されるベースデータセットを強化する多くの方法を提供しています。
 
@@ -92,14 +92,14 @@ AP または自動ターゲット モデルで使用される [!UICONTROL Person
 
 [!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] モデルでは、ユーザーの行動、トレーニングレコード、モデル決定データが 90 日間保持され、[!UICONTROL Insights] しいレポートが作成されます。 90 日が経過すると、トレーニングレコードとモデル決定は破棄されます。 [!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] モデルでは、集計されたエクスペリエンス/オファーレベルのインプレッションとコンバージョンデータも、レポート目的で 2 年間保持します。 このデータは集計レベルのデータのみであり、個々のレベルのプロファイルデータは含まれていません。
 
-## トレーニングビデオ：Personalization Insights レポートの使用 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Personalization Insights レポートの使用 ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/328271?captions=jpn)
 
-詳しくは、[Adobe TargetでのPersonalization Insights レポートの使用 ](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html) を参照してください。
+詳しくは、[Adobe TargetでのPersonalization Insights レポートの使用 &#x200B;](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html) を参照してください。
 
 ## Adobe ブログ
 
-* 第 1 部 [AI 駆動Personalizationの魔法から謎を解き放つ ](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* 第 2 部 [Adobe TargetのPersonalizationで AI の幕裏を覗く ](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* 第 3 回 [MAGIX — AI 駆動型Personalizationのブラックボックス問題に対するソリューション ](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* 第 1 部 [AI 駆動Personalizationの魔法から謎を解き放つ &#x200B;](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* 第 2 部 [Adobe TargetのPersonalizationで AI の幕裏を覗く &#x200B;](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* 第 3 回 [MAGIX — AI 駆動型Personalizationのブラックボックス問題に対するソリューション &#x200B;](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

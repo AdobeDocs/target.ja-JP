@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL AI Assistant] にアクセスするには、組織がまず追加の法的条項に同意する必要があります。 次に、これらの条件のガイダンスについて、Adobe アカウントチームにお問い合わせください。
 
-詳しくは、[ ドキュメントの  [!DNL AI Assistant] Access [!DNL Experience Platform]in](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access){target=_blank}*[!DNL Experience Platform]* を参照してください。
+詳しくは、[&#x200B; ドキュメントの  [!DNL AI Assistant] Access [!DNL Experience Platform]in](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access){target=_blank}*[!DNL Experience Platform]* を参照してください。
 
 ## [!UICONTROL AI Assistant] のユーザー権限を有効にする
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
    権限ポップアップが表示されます。
 
-   ![AI アシスタントの設定 ](/help/main/c-intro/assets/ai-pop-up2.png)
+   ![AI アシスタントの設定 &#x200B;](/help/main/c-intro/assets/ai-pop-up2.png)
 
 1. 切替スイッチを使用して、そのユーザーの **[!UICONTROL Target AI Assistant]** 権限を有効または無効にします。
 
-   ![AI アシスタントの権限ポップアップ ](/help/main/c-intro/assets/ai-pop-up.png)
+   ![AI アシスタントの権限ポップアップ &#x200B;](/help/main/c-intro/assets/ai-pop-up.png)
 
    有効にすると、ユーザーは [!UICONTROL AI Assistant] 内で [!DNL Target] にアクセスできるようになります。 この権限が有効になっているユーザーのみが、[!UICONTROL AI Assistant] インターフェイスで [!DNL Target] の機能を表示できます。 この権限により、AI を利用したツールへのアクセスが制御され、組織のポリシーに合わせて調整されます。
 

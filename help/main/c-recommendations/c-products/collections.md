@@ -20,7 +20,7 @@ ht-degree: 27%
 
 コレクションは、製品や論理的な格納場所を整理するために使用できます。例えば、ある地域で使用できる項目があり、別の地域では使用できない項目がある場合、訪問者の地域で使用できない項目を除外するコレクションを作成できます。 また、コレクションを使用すると、季節的な品目やビジネスに適した任意の整理パラメーターによる整理をおこなえます。
 
-レコメンデーション内の各条件に対して生成された [ バックアップのレコメンデーション ](/help/main/c-recommendations/c-algorithms/backup-recs.md) でも、このコレクションを使用するので、コレクション内の項目のみがバックアップのレコメンデーションに含まれます。 コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
+レコメンデーション内の各条件に対して生成された [&#x200B; バックアップのレコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md) でも、このコレクションを使用するので、コレクション内の項目のみがバックアップのレコメンデーションに含まれます。 コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
 
 コレクションは、各条件が実行されるたびに、再構築または更新されます。
 
@@ -42,9 +42,9 @@ ht-degree: 27%
 
 1. **[!UICONTROL Recommendations]**/**[!UICONTROL Collections]** をクリックして、既存のコレクションのリストを表示します。
 
-   [!UICONTROL Collections] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、「[!UICONTROL Create Collection]」ボタンをクリックします。 また、目的のコレクションの横にある「その他のアクション」アイコン（![ その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしたあと目的のオプションをクリックすると、既存のコレクションを編集、コピー、削除できます。
+   [!UICONTROL Collections] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、「[!UICONTROL Create Collection]」ボタンをクリックします。 また、目的のコレクションの横にある「その他のアクション」アイコン（![&#x200B; その他のアクション」アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしたあと目的のオプションをクリックすると、既存のコレクションを編集、コピー、削除できます。
 
-   [!UICONTROL Collections] リスト表示の各コレクションについて報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内のそのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   [!UICONTROL Collections] リスト表示の各コレクションについて報告された「項目数」は、設定されたデフォルトの Recommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内のそのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. **[!UICONTROL Create Collection]** をクリックします。
 
@@ -52,7 +52,7 @@ ht-degree: 27%
 
    また、オプションで **[!UICONTROL Description]** を入力することもできます。
 
-1. （条件付き）コレクションを作成（または更新 [ する際に、](/help/main/administrating-target/environments.md) フィルターから **[!UICONTROL Environment]** 環境）を選択して、その環境内のコレクションのコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）コレクションを作成（または更新 [&#x200B; する際に、](/help/main/administrating-target/environments.md) フィルターから **[!UICONTROL Environment]** 環境）を選択して、その環境内のコレクションのコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. コレクションの構築に使用するルールを設定します。
 
@@ -76,7 +76,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## コレクションの編集、コピー、削除
 
-リスト内の目的のコレクションの横にある ![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!DNL Delete]）をクリックします。
+リスト内の目的のコレクションの横にある ![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!DNL Delete]）をクリックします。
 
 既存のコレクションをコピーして重複するコレクションを作成し、後で変更できます。 これにより、少ない労力で同様のコレクションを作成できます。
 
@@ -86,7 +86,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 上記のいずれかの方法を使用して、コレクションを作成します。
 
-1. 「**[!UICONTROL Activities]**」をクリックして [ 新しい Recommendations を作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
+1. 「**[!UICONTROL Activities]**」をクリックして [&#x200B; 新しい Recommendations を作成 &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
 
 1. 条件とデザインを選択すると、[!UICONTROL Options] のページが表示され、目的のコレクションを選択できます。
 

@@ -111,7 +111,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
   余白は正と負の値をサポートします。
 
-  Target は、rem、pc、em などのその他のサイズ単位もサポートしています。 これらの単位について詳しくは、[Web スタイルシートの CSS のヒントとテクニック ](https://www.w3.org/Style/Examples/007/units.en.html) を参照してください。
+  Target は、rem、pc、em などのその他のサイズ単位もサポートしています。 これらの単位について詳しくは、[Web スタイルシートの CSS のヒントとテクニック &#x200B;](https://www.w3.org/Style/Examples/007/units.en.html) を参照してください。
 
 * **[!UICONTROL Padding]**
 
@@ -121,7 +121,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
   パディングは 0 以上の幅に対応します。
 
-  Target は、rem、pc、em などの [ その他のサイズ単位 ](https://www.w3.org/Style/Examples/007/units.en.html) もサポートしています。
+  Target は、rem、pc、em などの [&#x200B; その他のサイズ単位 &#x200B;](https://www.w3.org/Style/Examples/007/units.en.html) もサポートしています。
 
 * **[!UICONTROL Border]**
 
@@ -135,11 +135,11 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
   境界線は 0 以上の幅に対応します。
 
-  Target は、rem、pc、em などの [ その他のサイズ単位 ](https://www.w3.org/Style/Examples/007/units.en.html) もサポートしています。
+  Target は、rem、pc、em などの [&#x200B; その他のサイズ単位 &#x200B;](https://www.w3.org/Style/Examples/007/units.en.html) もサポートしています。
 
 * **[!UICONTROL Position]**
 
-  選択した要素を現在の位置から移動します。要素の上、下、左、右、および [Z インデックス ](https://www.w3schools.com/cssref/pr_pos_z-index.asp) の位置を変更できます。
+  選択した要素を現在の位置から移動します。要素の上、下、左、右、および [Z インデックス &#x200B;](https://www.w3schools.com/cssref/pr_pos_z-index.asp) の位置を変更できます。
 
   「[!UICONTROL Static]」ドロップダウンリストをクリックして、次の位置オプションから選択します。
 
@@ -156,7 +156,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
   位置は正と負の値をサポートします。
 
-  Target は、rem、pc、em などの [ その他のサイズ単位 ](https://www.w3.org/Style/Examples/007/units.en.html) もサポートしています。
+  Target は、rem、pc、em などの [&#x200B; その他のサイズ単位 &#x200B;](https://www.w3.org/Style/Examples/007/units.en.html) もサポートしています。
 
 * **[!UICONTROL Size]**
 
@@ -217,11 +217,11 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
+Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [&#x200B; で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
 
-**メモ：** このオプションは、[ 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
+**メモ：** このオプションは、[&#x200B; 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
-詳しくは、「[ オファー決定の使用 ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
+詳しくは、「[&#x200B; オファー決定の使用 &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
 
 ### [!UICONTROL Image]、[!UICONTROL HTML] および [!UICONTROL Text]
 
@@ -249,11 +249,11 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
+Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [&#x200B; で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
 
-**メモ：** このオプションは、[ 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
+**メモ：** このオプションは、[&#x200B; 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
-詳しくは、「[ オファー決定の使用 ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
+詳しくは、「[&#x200B; オファー決定の使用 &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
 
 ### [!UICONTROL Image]、[!UICONTROL HTML] および [!UICONTROL Text]
 
@@ -281,11 +281,11 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [ で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
+Offer Decisioning を使用して顧客に最適なオファーとエクスペリエンスを提供する [&#x200B; で作成したオファー  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} を追加します。
 
-**メモ：** このオプションは、[ 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
+**メモ：** このオプションは、[&#x200B; 手動 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
-詳しくは、「[ オファー決定の使用 ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
+詳しくは、「[&#x200B; オファー決定の使用 &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) を参照してください。
 
 ### [!UICONTROL Image]
 
@@ -375,11 +375,11 @@ DOM 要素の遅延読み込みによる [!UICONTROL Rearrange] アクション�
 
 ## カスタム要素のサポート {#custom}
 
-VEC では、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスとオファーを作成およびテストできる [Web コンポーネント ](https://developer.mozilla.org/ja/docs/Web/Web_Components) をサポートしています。 この機能は、[!DNL Target] のすべてのアクティビティタイプに対して VEC で使用できます。
+VEC では、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスとオファーを作成およびテストできる [Web コンポーネント &#x200B;](https://developer.mozilla.org/ja/docs/Web/Web_Components) をサポートしています。 この機能は、[!DNL Target] のすべてのアクティビティタイプに対して VEC で使用できます。
 
 >[!NOTE]
 >
->カスタム要素の VEC サポートは [at.js バージョン ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}2.7.0 （またはそれ以降）でサポートされ {target=_blank} います。 Web サイトに必要なバージョンがデプロイされていることを確認します。 [Visual Experience Composer ヘルパー拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) を使用している場合は、必要なバージョンの at.js もデプロイしている必要があります。 上記の VEC オプションは表示されず、サポートされていないバージョンの at.js では使用できません。
+>カスタム要素の VEC サポートは [at.js バージョン &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}2.7.0 （またはそれ以降）でサポートされ {target=_blank} います。 Web サイトに必要なバージョンがデプロイされていることを確認します。 [Visual Experience Composer ヘルパー拡張機能 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) を使用している場合は、必要なバージョンの at.js もデプロイしている必要があります。 上記の VEC オプションは表示されず、サポートされていないバージョンの at.js では使用できません。
 >
 >カスタム要素の VEC サポートは、現在、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} ではサポートされていません。
 

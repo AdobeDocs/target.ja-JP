@@ -86,7 +86,7 @@ rawbox は、mbox リクエストに似ていますが、メールサービス�
 
 >[!NOTE]
 >
->rawboxと[!DNL Target]を使用する場合は、[ に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
+>rawboxと[!DNL Target]を使用する場合は、[&#x200B; に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
 
 この方法を使用すれば、電子メールでのレコメンデーションのパフォーマンスを追跡し、それをレコメンデーションを使用した通常の方法でテストして、さらにサイトでの追跡を継続することが可能になります。
 

@@ -19,7 +19,7 @@ ht-degree: 19%
 
 次の図に示 [!DNL Target] ように、レコメンデーションの完全なルックアンドフィールを提供できます。 デザインには、HTML、JavaScript、CSS を含めることができます。 このデザインは 4 x 1 デザインと呼ばれ、1 行に 4 つのスペースがあります。
 
-![velocity_example 画像 ](assets/velocity_example.png)
+![velocity_example 画像 &#x200B;](assets/velocity_example.png)
 
 Target では、電子メールメッセージ、IoT（モノのインターネット）デバイス、コンソール、音声サービス（Amazon Alexa または Google Home）の用途で利用できる JSON オブジェクトとしてレコメンデーションを送信することもできます。
 

@@ -17,7 +17,7 @@ ht-degree: 28%
 
 エクスペリエンスについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
 
-1. VEC の **[!UICONTROL Experiences]** ページで、[!UICONTROL Add] ペインの上部にある ![ アイコン（](/help/main/assets/icons/Add.svg) 追加アイコン [!UICONTROL Experiences]）をクリックします。
+1. VEC の **[!UICONTROL Experiences]** ページで、[!UICONTROL Add] ペインの上部にある ![&#x200B; アイコン（](/help/main/assets/icons/Add.svg) 追加アイコン [!UICONTROL Experiences]）をクリックします。
 
    VEC では、新しいアクティビティを作成した後、左側に「エクスペリエンス A」と「エクスペリエンス B」という 2 つのタブが表示されます。エクスペリエンス A はコントロールエクスペリエンスです。 複数のエクスペリエンスをテストに追加できます。
 
@@ -37,7 +37,7 @@ ht-degree: 28%
 
 ## エクスペリエンス名を変更
 
-1. エクスペリエンスの横にある **[!UICONTROL Rename Experience]** アイコン ![ 名前を変更アイコン ](/help/main/assets/icons/Rename.svg)）をクリックして、エクスペリエンスに新しい名前を付けます。
+1. エクスペリエンスの横にある **[!UICONTROL Rename Experience]** アイコン ![&#x200B; 名前を変更アイコン &#x200B;](/help/main/assets/icons/Rename.svg)）をクリックして、エクスペリエンスに新しい名前を付けます。
 
 2. 新しい名前を指定し、「**[!UICONTROL Save]**」をクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 28%
 
 ## URL にリダイレクト
 
-1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** アイコン ![ 詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Redirect to URL]**」をクリックします。
+1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** アイコン ![&#x200B; 詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Redirect to URL]**」をクリックします。
 
    詳しくは、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)を参照してください。
 
@@ -70,8 +70,8 @@ ht-degree: 28%
 
 [!UICONTROL A/B Test] でエクスペリエンスをコピーすると、エクスペリエンスを再作成せずに小規模な変更を加えることができます。
 
-1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** アイコン ![ 詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Duplicate]**」をクリックします。
+1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** アイコン ![&#x200B; 詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Duplicate]**」をクリックします。
 
 ## エクスペリエンスを削除する
 
-1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** のアイコン ![ 詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Delete]**」をクリックします。次に、「**[!UICONTROL Delete]**」をクリックしてアクションを確定します。
+1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** のアイコン ![&#x200B; 詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Delete]**」をクリックします。次に、「**[!UICONTROL Delete]**」をクリックしてアクションを確定します。

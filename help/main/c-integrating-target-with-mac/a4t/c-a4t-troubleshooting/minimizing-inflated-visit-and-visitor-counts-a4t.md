@@ -55,7 +55,7 @@ ht-degree: 99%
 | ![手順 1](assets/step1_icon.png) | [!DNL Target] で選択したレポートスイートが、アクティビティが表示されるページと同じであることを確認します。 |
 | ![手順 2](assets/step2_icon.png) | VisitorAPI. js、AppMeasurement.js、at.js ライブラリが A4T 互換バージョンになっていることを確認します。導入に必要な条件について詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)を参照してください。 |
 | ![手順 3](assets/step3_icon.png) | ページを離れるときに [!DNL Target] と [!DNL Analytics] のすべての呼び出しで SDID が設定されることと、それらが一致していることを確認します。<br/>ネットワーク分析やデバッグツールを使用して、`mboxMCSDID` の呼び出しの [!DNL Target] パラメーターが [!DNL Analytics] の呼び出しの SDID パラメーターと一致していることを確認します。 |
-| ![手順 4](assets/step4_icon.png) | サイトで実装ライブラリが正しい順序で読み込まれることを確認します。詳しくは、[Analytics for Target の実装 ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) を参照してください。 |
+| ![手順 4](assets/step4_icon.png) | サイトで実装ライブラリが正しい順序で読み込まれることを確認します。詳しくは、[Analytics for Target の実装 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) を参照してください。 |
 
 ## 部分的なデータの部分を見るにはどうすればよいですか？ {#section_89B663E2824A4805AB934153508A0F4B}
 

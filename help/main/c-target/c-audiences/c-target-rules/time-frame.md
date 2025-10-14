@@ -15,13 +15,13 @@ ht-degree: 25%
 
 特定の期間内にサイトを訪問したユーザーをターゲットに設定するた [!DNL Adobe Target] に、開始日時と終了日時を追加できます。 また、「週と日付の分割」オプションを設定して、オーディエンスのターゲット設定の繰り返しパターンを作成できます。
 
-例えば、[ 組み合わせアドホックオーディエンス機能 ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) を使用すると、ブラックフライデーおよびその後の他のコンテンツまでの 3 日間で、特定のコンテンツを使用して低支出者をターゲットにすることができます。
+例えば、[&#x200B; 組み合わせアドホックオーディエンス機能 &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) を使用すると、ブラックフライデーおよびその後の他のコンテンツまでの 3 日間で、特定のコンテンツを使用して低支出者をターゲットにすることができます。
 
 1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]**/**[!UICONTROL Create Audience]** をクリックします。
 1. オーディエンスに名前を付け、オプションで説明を追加します。
 1. **[!UICONTROL Time Frame]** をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
-   ![target_timeframe_dialog 画像 ](assets/target_timeframe_dialog.png)
+   ![target_timeframe_dialog 画像 &#x200B;](assets/target_timeframe_dialog.png)
 
 1. オーディエンスの [!UICONTROL Start] と [!UICONTROL End] の日時を指定します。
 
@@ -55,7 +55,7 @@ ht-degree: 25%
 
 1. **[!UICONTROL Done]** をクリックします。
 
-## トレーニングビデオ：オーディエンスの作成 ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：オーディエンスの作成 ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 

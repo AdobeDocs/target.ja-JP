@@ -26,7 +26,7 @@ ht-degree: 43%
 
    ![アクティビティを作成ドロップダウンリスト](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
-   利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Recommendations] は [Target Premium機能 ](/help/main/c-intro/intro.md#premium) です。 様々なアクティビティタイプについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md)および [Target アクティビティのガイド](/help/main/c-activities/target-activities-guide.md)を参照してください。
+   利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Recommendations] は [Target Premium機能 &#x200B;](/help/main/c-intro/intro.md#premium) です。 様々なアクティビティタイプについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md)および [Target アクティビティのガイド](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
 1. 必要に応じて「**[!UICONTROL Visual]**」を選択します。
 
@@ -40,7 +40,7 @@ ht-degree: 43%
 
 1. （条件付き）[Target Premium](/help/main/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
-1. [ アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) を指定し、「**[!UICONTROL Next]**」をクリックします。
+1. [&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) を指定し、「**[!UICONTROL Next]**」をクリックします。
 
    アカウントにデフォルトの URL が設定されている場合は、その URL がデフォルトで表示されます。デフォルトの URL を別の URL に変更できます。
 
@@ -65,7 +65,7 @@ ht-degree: 43%
 
    この [!UICONTROL Visual Experience Composer] では、アクティビティを作成した後、エクスペリエンス A とエクスペリエンス B の 2 つのタブが左側に表示されます。エクスペリエンス A はコントロールエクスペリエンスです。 フォーカスは「エクスペリエンス B」タブにあり、必要に応じて変更できます。 エクスペリエンス B は、テストに追加できる代替エクスペリエンスです。 テストには複数のエクスペリエンスを追加できます。デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
 
-   [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加および変更について詳しくは、[ エクスペリエンスの追加 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md) を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
+   [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加および変更について詳しくは、[&#x200B; エクスペリエンスの追加 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md) を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
 
 1. **[!UICONTROL Targeting]** の上部にある「[!UICONTROL Visual Experience Composer]」をクリックして、3 ステップのガイドによるワークフローの次のステップに進みます。
 
@@ -75,7 +75,7 @@ ht-degree: 43%
 
    フロー図を使用すると、アクティビティに対するオーディエンスの選択およびエクスペリエンスの設定を順に実行できます。
 
-1. [!UICONTROL Audience] ボックスで、アクティビティの編集アイコン（縦並びの省略記号）をクリックし、「**[!UICONTROL Replace Audience]**」をクリックして [ オーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) します。
+1. [!UICONTROL Audience] ボックスで、アクティビティの編集アイコン（縦並びの省略記号）をクリックし、「**[!UICONTROL Replace Audience]**」をクリックして [&#x200B; オーディエンスを選択 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) します。
 
    デフォルトでは、オーディエンスは [!UICONTROL All Visitors] に設定されています。
 
@@ -93,9 +93,9 @@ ht-degree: 43%
 
    トラフィック配分には、次の 3 つのタイプがあります。
 
-   * **[!UICONTROL Manual (Default)]**：各エクスペリエンスを表示するエントリの割合を指定します。 この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。全エクスペリエンスの合計が 100％になるようにします。詳しくは、[A/B テストの作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) を参照してください。
+   * **[!UICONTROL Manual (Default)]**：各エクスペリエンスを表示するエントリの割合を指定します。 この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。全エクスペリエンスの合計が 100％になるようにします。詳しくは、[A/B テストの作成 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) を参照してください。
 
-   * **[!UICONTROL Auto-Allocate to best experience]**：ほとんどのアクティビティのエントリは、パフォーマンスの高いエクスペリエンスに自動的に移動します。 一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。詳しくは、[ 自動配分の概要 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) を参照してください。
+   * **[!UICONTROL Auto-Allocate to best experience]**：ほとんどのアクティビティのエントリは、パフォーマンスの高いエクスペリエンスに自動的に移動します。 一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。詳しくは、[&#x200B; 自動配分の概要 &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) を参照してください。
 
    * **[!UICONTROL Auto-Target for personalized experiences]**:[!DNL Target] は、高度な機械学習を使用して、パフォーマンスの高い複数のマーケターが定義したエクスペリエンスを特定し、個々の顧客プロファイルと類似する訪問者の過去の行動に基づいて最適なエクスペリエンスを訪問者に提供することで、コンテンツをパーソナライズし、コンバージョンを促進します。
 
@@ -107,7 +107,7 @@ ht-degree: 43%
 
    >[!NOTE]
    >
-   >このアクティビティで [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4T による自動配分と自動ターゲットアクティビティのサポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) を参照してください。
+   >このアクティビティで [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4T による自動配分と自動ターゲットアクティビティのサポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) を参照してください。
 
 1. **[!UICONTROL Save & Close]** または **[!UICONTROL Save]** をクリックします。
 

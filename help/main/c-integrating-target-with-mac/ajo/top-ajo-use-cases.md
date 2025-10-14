@@ -31,5 +31,5 @@ Web チャネルとコードベースチャネルへの影響を最大限に高�
 
 これらのユースケースは、web チャネルとコードベースチャネルに関連します。
 
-* [ [!DNL Adobe Journey Optimizer] の A/B テストによるコンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [&#x200B; [!DNL Adobe Journey Optimizer] の A/B テストによるコンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
 * [Web ページへのコンポーネントの追加または非表示](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)

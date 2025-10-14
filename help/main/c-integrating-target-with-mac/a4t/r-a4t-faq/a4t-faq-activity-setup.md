@@ -26,7 +26,7 @@ ht-degree: 18%
 
 +++回答
 
-A4T レポートを使用している、別の [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) からの 2 つのアクティビティに同じアクティビティ名を使用しないでください。
+A4T レポートを使用している、別の [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) からの 2 つのアクティビティに同じアクティビティ名を使用しないでください。
 
 [!DNL Target] をレポートソースとして使用する場合はサポートされますが、[!UICONTROL Analytics for Target] をレポートソースとして使用する場合、2 つのアクティビティに同じアクティビティ名を使用することはできません。
 
@@ -45,7 +45,7 @@ A4T レポートを使用している、別の [ ワークスペース ](/help/m
 
 
 +++回答
-アクティビティを作成すると、[!DNL Target] は分類ファイルを [!DNL Analytics] に送信します。 [!DNL Analytics] はデータをキャプチャして処理していますが、分類ファイルが更新されるまで、レポートにそのことが表示されません。 この処理が完了するまでに 24～72 時間かかる場合があります。 72 時間経ってもデータが表示されない場合は、[Client Care にお問い合わせください ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 または、アクティビティを起動したことが分かっている場合は、数日前にそのアクティビティを作成しておくと、アクティビティを保存したときに分類が送信されます。 こうすることで、開始時にレポートにデータが表示されます。データが [!DNL Analytics] で処理されるまでに 45～90 分かかることに注意してください。
+アクティビティを作成すると、[!DNL Target] は分類ファイルを [!DNL Analytics] に送信します。 [!DNL Analytics] はデータをキャプチャして処理していますが、分類ファイルが更新されるまで、レポートにそのことが表示されません。 この処理が完了するまでに 24～72 時間かかる場合があります。 72 時間経ってもデータが表示されない場合は、[Client Care にお問い合わせください &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 または、アクティビティを起動したことが分かっている場合は、数日前にそのアクティビティを作成しておくと、アクティビティを保存したときに分類が送信されます。 こうすることで、開始時にレポートにデータが表示されます。データが [!DNL Analytics] で処理されるまでに 45～90 分かかることに注意してください。
 
 +++
 
@@ -57,7 +57,7 @@ A4T レポートを使用している、別の [ ワークスペース ](/help/m
 1. [!DNL Target] で、「**[!UICONTROL Administration]**」をクリックします。
 1. 「**[!UICONTROL Experience Cloud solution used for reporting]**」ドロップダウンリストで、「**[!UICONTROL Select per Activity]**」をクリックします。
 
-![ アクティビティごとの選択画像 ](assets/select-per-activity.png)
+![&#x200B; アクティビティごとの選択画像 &#x200B;](assets/select-per-activity.png)
 
 アクティビティの作成と編集を行う **[!UICONTROL Reporting Source]** 画面で、「**[!UICONTROL Goal & Settings]**」ドロップダウンリストが有効になります。
 

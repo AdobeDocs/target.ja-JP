@@ -24,11 +24,11 @@ ht-degree: 11%
 
 ## トラフィック見積もりを使用
 
-1. [!UICONTROL Experiences] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Automated Personalization] ページで、**[!UICONTROL Traffic]** ページの左上隅にある ![ アイコン ](/help/main/assets/icons/Gauge2.svg) トラフィック見積もりアイコン [!UICONTROL Experiences]）をクリックします。
+1. [!UICONTROL Experiences] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Automated Personalization] ページで、**[!UICONTROL Traffic]** ページの左上隅にある ![&#x200B; アイコン &#x200B;](/help/main/assets/icons/Gauge2.svg) トラフィック見積もりアイコン [!UICONTROL Experiences]）をクリックします。
 
    [!UICONTROL Traffic Estimator] が開きます。
 
-   ![ トラフィック見積もりユーザーインターフェイス ](assets/ap-est.png)
+   ![&#x200B; トラフィック見積もりユーザーインターフェイス &#x200B;](assets/ap-est.png)
 
    アイコンをもう一度クリックすると、ア [!UICONTROL Traffic Estimator] ットを非表示にできます。
 
@@ -45,7 +45,7 @@ ht-degree: 11%
 
    [!UICONTROL Traffic Estimator] の上部付近で、入力した値が計算され、結果が表示されます。
 
-   ![ 値と結果を表示したトラフィックの見積もり ](assets/ap-est-no.png)
+   ![&#x200B; 値と結果を表示したトラフィックの見積もり &#x200B;](assets/ap-est-no.png)
 
    数値を変更すると、見積もりも変更されます。例えば、テストする組み合わせが多く、コンバージョン率とインプレッション数が低すぎる場合、テストを成功させるためには、テストを実行する必要がある期間を [!UICONTROL Traffic Estimator] に示します。 または、トラフィックが少ない場合は、オファーの組み合わせの数を減らして、目的の日数で [!UICONTROL Traffic Estimator] ストを実行できるようにすることも可能です。
 
@@ -57,7 +57,7 @@ ht-degree: 11%
 
    [!UICONTROL Traffic Estimator] が十分なトラフィックがあることを示すまで数値を調整し、それに応じてテストを設計します。
 
-   ![ 十分なトラフィックメッセージを示すトラフィック見積もり ](assets/ap-est-yes.png)
+   ![&#x200B; 十分なトラフィックメッセージを示すトラフィック見積もり &#x200B;](assets/ap-est-yes.png)
 
    トラフィックが十分な場合、[!UICONTROL Traffic] のアイコンは緑色のチェックを示します。 トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
 

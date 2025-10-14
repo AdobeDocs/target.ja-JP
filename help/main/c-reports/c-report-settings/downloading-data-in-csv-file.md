@@ -19,10 +19,10 @@ CSV ファイル内のデータをダウンロードするには：
 
 1. をクリック **[!UICONTROL Activities]** し、リストから目的のアクティビティをクリックします。
 
-   アクティビティが多数ある場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
+   アクティビティが多数ある場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
 1. 「**[!UICONTROL Reports]**」タブをクリックします。
-1. **[!UICONTROL Download]** （ダウンロードアイコン ![ アイコンをクリックし ](/help/main/assets/icons/Download.svg) から、ダウンロードするレポートタイプを選択して、Excel や他のツールで分析します。
+1. **[!UICONTROL Download]** （ダウンロードアイコン ![&#x200B; アイコンをクリックし &#x200B;](/help/main/assets/icons/Download.svg) から、ダウンロードするレポートタイプを選択して、Excel や他のツールで分析します。
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
@@ -38,7 +38,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 >[!NOTE]
 >
->CSV レポートには、生データのみが含まれ、訪問者あたりの売上高、上昇率、A/B テストに使用された信頼性などの計算指標は含まれていません。 これらの計算指標を計算するには、[!DNL Target] [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルをダウンロードしてアクティビティの値を入力するか、[A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を確認します。
+>CSV レポートには、生データのみが含まれ、訪問者あたりの売上高、上昇率、A/B テストに使用された信頼性などの計算指標は含まれていません。 これらの計算指標を計算するには、[!DNL Target] [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルをダウンロードしてアクティビティの値を入力するか、[A/Bn テストでの統計計算 &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を確認します。
 
 ## [!UICONTROL Export Order Details to CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

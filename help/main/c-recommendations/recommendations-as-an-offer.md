@@ -33,7 +33,7 @@ ht-degree: 66%
    >
    >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) オプションを選択できます。
 
-1. [ エクスペリエンス ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、「**[!UICONTROL Replace Content]**」をクリックして「**[!UICONTROL Recommendation]**」を選択します。
+1. [&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、「**[!UICONTROL Replace Content]**」をクリックして「**[!UICONTROL Recommendation]**」を選択します。
 
    ![Recommendations をオファーとして挿入](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
@@ -48,8 +48,8 @@ ht-degree: 66%
    * 「ありがとうございます」ページ
    * その他
 
-1. 目的の [ 条件 ](/help/main/c-recommendations/c-algorithms/algorithms.md) を選択し、「[!UICONTROL Next]」をクリックします。
-1. 目的の [ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択し、「[!UICONTROL Next]」をクリックします。
+1. 目的の [&#x200B; 条件 &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md) を選択し、「[!UICONTROL Next]」をクリックします。
+1. 目的の [&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択し、「[!UICONTROL Next]」をクリックします。
 1. [!UICONTROL Options] ダイアログボックスで、次の設定を行います。
 
    * [コレクション](/help/main/c-recommendations/c-products/collections.md)を選択します。
@@ -82,7 +82,7 @@ ht-degree: 66%
 
 ### 変更パネルを使用した Recommendations オファーの編集
 
-1. [!UICONTROL Modifications] アイコン **（`</>`）** をクリックして [ 変更 ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) ペインを表示します。
+1. [!UICONTROL Modifications] アイコン **（`</>`）** をクリックして [&#x200B; 変更 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) ペインを表示します。
 1. 目的のアクションの上にマウスポインターを置いて、「**[!UICONTROL Edit]**」アイコンをクリックします。
 
    ![変更パネル](/help/main/c-recommendations/assets/recs-offer-modifications.png)
@@ -104,7 +104,7 @@ Recommendations オファーを削除するには、次の 2 つの方法があ�
 
 ### 変更パネルを使用した Recommendations オファーの削除
 
-1. [!UICONTROL Modifications] アイコン **（&lt;/>）** をクリックして [ 変更 ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) ペインを表示します。
+1. [!UICONTROL Modifications] アイコン **（&lt;/>）** をクリックして [&#x200B; 変更 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) ペインを表示します。
 1. 目的のアクションの上にマウスポインターを置いて、「[!UICONTROL Delete]」アイコンをクリックします。
 
    ![削除アイコン](/help/main/c-recommendations/assets/recs-offer-delete.png)

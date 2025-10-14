@@ -51,7 +51,7 @@ ht-degree: 63%
 
    デフォルトでは、新しく認識されたホストは [!UICONTROL Production] 環境に配置されます。 この [!UICONTROL Production] 環境は最も安全な環境です。なぜなら、これらのホストからは、非アクティブなアクティビティを表示できないからです。
 
-1. （条件次第） **[!UICONTROL Move]** 動アイコン（![ 移動アイコン ](/help/main/assets/icons/MoveTo.svg)）をクリックして、ホストを [!UICONTROL Development]、[!UICONTROL Staging]、またはその他の環境に移動します。
+1. （条件次第） **[!UICONTROL Move]** 動アイコン（![&#x200B; 移動アイコン &#x200B;](/help/main/assets/icons/MoveTo.svg)）をクリックして、ホストを [!UICONTROL Development]、[!UICONTROL Staging]、またはその他の環境に移動します。
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ ht-degree: 63%
 
 不要になったホストは削除することができます。
 
-1. [!UICONTROL Hosts] リストで「削 **[!UICONTROL Delete]**」アイコン（![ 削除アイコン ](/help/main/assets/icons/DeleteOutline.svg)）をクリックします。
+1. [!UICONTROL Hosts] リストで「削 **[!UICONTROL Delete]**」アイコン（![&#x200B; 削除アイコン &#x200B;](/help/main/assets/icons/DeleteOutline.svg)）をクリックします。
 1. 「**[!UICONTROL Delete]**」をクリックして削除を確認します。
 
 >[!NOTE]
