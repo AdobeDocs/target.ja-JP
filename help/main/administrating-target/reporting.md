@@ -56,7 +56,7 @@ ht-degree: 22%
 
   レポートソースとして [!DNL Analytics] を指定した場合でも、[!DNL Target] は [!DNL Automated Personalization] アクティビティのレポートソースとして使用されます。
 
-* **[!DNL Customer Journey Analytics]**: [!DNL Target] の [!DNL Customer Journey Analytics] レポートを使用したサポートされるアクティビティのマトリックスについては、[&#x200B; のレポートの &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) サポートされるアクティビティタイプ *[!DNL Target][!DNL Adobe Customer Journey Analytics]* 参照してください。
+* **[!DNL Customer Journey Analytics]**: [!DNL Target] の [!DNL Customer Journey Analytics] レポートを使用したサポートされるアクティビティのマトリックスについては、[&#x200B; のレポートの &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) サポートされるアクティビティタイプ *[!DNL Target]&#x200B;[!DNL Adobe Customer Journey Analytics]* 参照してください。
 
   [!UICONTROL Automated Personalization] （AP）、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] アクティビティの作成とアクティブ化は、選択したレポートソースに関係なく許可されます。 これらのアクティビティは、[Adobe Customer Journey Analyticsをレポートソースとして選択した場合はサポートされ &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) せん。
 

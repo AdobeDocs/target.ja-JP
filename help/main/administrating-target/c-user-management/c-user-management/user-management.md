@@ -22,7 +22,7 @@ ht-degree: 64%
 >
 >組織が [!UICONTROL Standard] ライセンスまたは [!UICONTROL Premium] ライセンスを持っているかどうかを確認するには、[!UICONTROL Administration] UI の上部にある [!DNL Target] リンクをクリックします。
 >
->* **[!DNL Target][!UICONTROL Standard] のお客様**: 「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示され、「**[!UICONTROL Properties]**」タブが表示されない場合、組織の [!DNL Target] ライセンスは [!UICONTROL Standard] です。 [!DNL Target] [!UICONTROL Standard] のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard] のお客様**: 「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示され、「**[!UICONTROL Properties]**」タブが表示されない場合、組織の [!DNL Target] ライセンスは [!UICONTROL Standard] です。 [!DNL Target] [!UICONTROL Standard] のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
 >
 >* **[!DNL Target]Premium のお客様**:「[!UICONTROL Users]」タブと「[!UICONTROL Properties]」タブ（[!UICONTROL Administration > Properties]）が表示された場合、組織のライセンスは [!DNL Target] Premium です。 [!DNL Target] Premium のお客様が [!DNL Adobe Admin Console] でユーザーの追加や権限の割り当てを行う際は、[Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) と [Enterprise 権限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の設定の手順に従ってください。
 >
