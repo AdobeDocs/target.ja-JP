@@ -21,13 +21,13 @@ ht-degree: 66%
 >
 >* リリース日、機能などの情報は、予告なく変更されることがあります。この記事の情報は、特にリリース前に頻繁に更新されます。
 >
->* 最新のリリースに関する情報を確認するには、[Target リリースノート ](release-notes.md) を参照してください。
+>* 最新のリリースに関する情報を確認するには、[Target リリースノート &#x200B;](release-notes.md) を参照してください。
 >
 >* 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 ## [!DNL Target Standard/Premium] 25.10.1 （2025 年 10 月 22 日（PT））
 
-このリリースは公開されました。 詳しくは、[[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) を参照してください。
+このリリースは公開されました。 詳しくは、[[!DNL Target]  リリースノート（最新） &#x200B;](/help/main/r-release-notes/release-notes.md) を参照してください。
 
 ## その他のリリースノートとバージョンの詳細
 

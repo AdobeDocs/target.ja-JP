@@ -21,7 +21,7 @@ ht-degree: 17%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE  重要 ]{type=Informative}
+[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間依存の更新については、[!DNL Adobe] が [!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供します。 実装に関連する主なハイライトを次に示します。
 
@@ -122,7 +122,7 @@ VEC で、明確なルート要素を欠いた変更を読み込む際にエク�
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
