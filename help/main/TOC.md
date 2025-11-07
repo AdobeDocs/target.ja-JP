@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 85%
@@ -47,7 +47,7 @@ ht-degree: 85%
    + [用語集](c-intro/glossary.md)
    + [Target の仕組み](c-intro/how-target-works.md)
    + [トレーニングと資格認定](c-intro/training-and-certification.md)
-   + [&#x200B; Target Standard および Premium のトレーニングビデオ &#x200B;](c-intro/target-standard-premium-training-videos.md)
+   + [ Target Standard および Premium のトレーニングビデオ ](c-intro/target-standard-premium-training-videos.md)
    + [Target の最適化とパーソナライゼーションに関する FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target の管理 {#administer}
    + [Target の管理：概要](administrating-target/administrating-target.md)
@@ -100,7 +100,7 @@ ht-degree: 85%
       + [Adobe Customer Journey Analyticsでの Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Target とAdobe Journey Optimizerの統合（AJO） {#ajo}
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [統合  [!DNL Adobe Target Recommendations]  および  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizerの使用例 {#use-cases}
          + [Adobe Journey Optimizerの最適化の上位の使用例 – web およびコードベースチャネル](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Adobe Journey Optimizerの A/B テストを通じたコンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -146,10 +146,10 @@ ht-degree: 85%
       + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください &#x200B;](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
+      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target パーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Automated Personalization テスト用のエクスペリエンスのプレビュー &#x200B;](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Automated Personalization テスト用のエクスペリエンスのプレビュー ](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Automated Personalization のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
@@ -162,7 +162,7 @@ ht-degree: 85%
          + [アクティビティの作成](c-activities/t-experience-target/t-xt-create/xt-create.md)
          + [アクティビティ URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [エクスペリエンスの作成](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [エクスペリエンスターゲット設定でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [エクスペリエンスのターゲット設定でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
          + [目標と設定](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [指標の設定](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + 多変量分析テスト {#multivariate-test}
@@ -327,7 +327,7 @@ ht-degree: 85%
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Recommendations アクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [&#x200B; オファーとしての Recommendations &#x200B;](c-recommendations/recommendations-as-an-offer.md)
+   + [ オファーとしての Recommendations ](c-recommendations/recommendations-as-an-offer.md)
    + よくある質問 {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Recommendations と電子メールの統合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
@@ -339,4 +339,4 @@ ht-degree: 85%
    + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
    + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)

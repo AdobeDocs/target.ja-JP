@@ -4,7 +4,7 @@ description: Analytics for  [!DNL Target]  （A4T）使用時のリダイレク�
 title: A4T でのリダイレクトオファーに関する FAQ はどこで見つけることができますか？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 51%
@@ -22,7 +22,7 @@ ht-degree: 51%
 
 +++
 
-## ![Adobe Experience Platform Web SDK バッジ &#x200B;](/help/main/assets/platform.png) この [!DNL Adobe Experience Platform Web SDK] は、A4T のリダイレクトオファーをサポートしていますか？ {#platform}
+## ![Adobe Experience Platform Web SDK バッジ ](/help/main/assets/platform.png) この [!DNL Adobe Experience Platform Web SDK] は、A4T のリダイレクトオファーをサポートしていますか？ {#platform}
 
 +++回答
 次の FAQ では、[!DNL Platform Web SDK] での A4T の使用とオファーのリダイレクトに関する詳細情報を提供しています。
@@ -32,7 +32,7 @@ ht-degree: 51%
 ### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
 
 +++回答
-はい、Platform Web SDKを介した A4T では、[&#x200B; リダイレクトオファー &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md) をサポートしています。
+はい、Platform Web SDKを介した A4T では、[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md) をサポートしています。
 
 +++
 
@@ -110,7 +110,7 @@ at.js の以前のサポートされていないバージョンを使用して�
 
 | パラメーター | 説明 |
 |--- |--- |
-| `adobe_mc_sdid` | `adobe_mc_sdid` パラメーターは、追加データ ID （SDID）とExperience Cloud組織 ID をデフォルトページから新しいページに渡します。 これらの ID により、A4T は、デフォルトページの Target リクエストと新しいページの Analytic リクエストを「ステッチ」できます。<br>URL で SDID を渡すと期待される形式（ハイブリッドアプリの場合、またはアプリケーションから Web サイトの場合、または Web サイトから別の Web サイトの場合）は `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` です |
+| `adobe_mc_sdid` | `adobe_mc_sdid` パラメーターは、追加データ ID （SDID）とExperience Cloud組織 ID をデフォルトページから新しいページに渡します。 これらの ID により、A4T は、デフォルトページの Target リクエストと新しいページの Analytic リクエストを「ステッチ」できます。<br>URL で SDID を渡すと期待される形式（ハイブリッドアプリの場合、またはアプリケーションから Web サイトの場合、または Web サイトから別の Web サイトの場合）は `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` です |
 | `adobe_mc_ref` | `adobe_mc_ref` パラメーターは、デフォルトのページの参照 URL を新しいページに渡します。AppMeasurement.js バージョン 2.1 （以降）で使用する場合、Analytics はこのパラメーター値を新しいページの参照 URL として使用します。 |
 
 訪問者 ID サービスがページに実装されていると、VEC とフォームベースの Experience Composer で組み込みのリダイレクトオファーを使用する場合に、これらのパラメーターがリダイレクト URL に自動的に追加されます。VEC またはフォームベースのコンポーザーでリダイレクトに独自のカスタムコードを使用している場合、必ずこれらのパラメーターをカスタムコードとともに渡す必要があります。

@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] で動的データをオファーに渡す方
 title: 動的データをオファーに渡すにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 52%
@@ -18,7 +18,7 @@ ht-degree: 52%
 ## ビジネスケース
 
 * 割引オファーを昇格して、最後に購入した製品を「再入力」または「補充」することができます。カタログ内のアイテムごとに個別のオファーを作成する代わりに、動的テキストを使用してオファーを作成し、プロファイルから「最後に購入した製品」を読み取り、オファーにリンクを表示できます。
-* 訪問者が、`keyword=world` `cup` を含むランディングページに到達します。この場合、「*ワールドカップ*」という用語をオファーに表示します。
+* 訪問者が、`keyword=world``cup` を含むランディングページに到達します。この場合、「*ワールドカップ*」という用語をオファーに表示します。
 * （1）訪問者の買い物かごに追加された最後の項目（Nike Air Max 1000s）、（2）訪問者のカラー環境設定（黒）、（3）訪問者のお気に入りのノンシューズカテゴリ（パーソナライゼーション）などの情報を含むレコメンデーションラベルをパーソナライズします。 例:「クールな『黒』『パーカー』で、あなたの『Nike Air Max 1000』をコーディネートしましょう！」
 
 ## 技術的なメリット
@@ -47,7 +47,7 @@ ht-degree: 52%
 
 デバッグ目的でコンソールに `${campaign.name}`、`${campaign.id}`、`${campaign.recipe.name}`、`${campaign.recipe.id}`、`${offer.name}`、`${offer.id}`、`${campaign.name}` などの情報を記録します。
 
-[!DNL Recommendations] のデザインについては、その他の例を [&#x200B; デザインの概要 &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md) で参照してください。
+[!DNL Recommendations] のデザインについては、その他の例を [ デザインの概要 ](/help/main/c-recommendations/c-design-overview/design-overview.md) で参照してください。
 
 ## 実装
 

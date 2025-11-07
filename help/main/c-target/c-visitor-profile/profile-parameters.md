@@ -4,10 +4,10 @@ description: 訪問者のプロファイルに保存され、Adobe [!DNL Target]
 title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。[Target 開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} の *グローバル mbox へのパラメーターの受け渡し* を参照してください。<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、[!UICONTROL Profile Update API] メソッドを使用して渡すことができます。 詳しくは、『 [Target 開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank} の *プロファイルの更新* を参照してください。 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。[Target 開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} の *グローバル mbox へのパラメーターの受け渡し* を参照してください。<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、[!UICONTROL Profile Update API] メソッドを使用して渡すことができます。 詳しくは、『 [Target 開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank} の *プロファイルの更新* を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計数（顧客の支出合計額など）を保存することができ、mbox リクエストごとに実行されます。以下の&#x200B;*プロファイルスクリプト属性*&#x200B;を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -176,7 +176,7 @@ if (mbox.name == 'Track_Interest') {
 
 **プロファイルスクリプトを使用してデータレイヤーにあるページから情報を取得できますか？**
 
-プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データは、mbox リクエストまたは他の [&#x200B; データを Target に送信する方法 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} を使用して渡す必要があります。 データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
+プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データは、mbox リクエストまたは他の [ データを Target に送信する方法 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank} を使用して渡す必要があります。 データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
 
 ## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 
@@ -271,8 +271,8 @@ else if (mbox.param("adobeQA"))
 | `<=` | `<` と同様に、変数が等しい場合を除いて true に評価されます。 |
 | `>=` | `>` と同様に、変数が等しい場合を除いて true に評価されます。 |
 | `&&` | 論理演算子「AND」の左右に式を書いた場合は、両辺の式がともに true の場合にのみ true になります（そうでなければ false になります）。 |
-| `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでなければ false になります）。 |
-| `//` | ターゲットのブール演算子（配列ソース、配列ターゲット）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//`は、ターゲット（regexp に対応）からサブ文字列を抽出し、`Array/*String*/ decode(String encoding, String regexp, String target)`にデコードします。<br>この機能では、定数の文字列値、グループ化（`condition1 || condition2) && condition3`）および正規表現（`/[^a-z]$/.test(landing.referring.url)`）の使用もサポートされています。 |
+| `\|\|` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでなければ false になります）。 |
+| `//` | ターゲットのブール演算子（配列ソース、配列ターゲット）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//`は、ターゲット（regexp に対応）からサブ文字列を抽出し、`Array/*String*/ decode(String encoding, String regexp, String target)`にデコードします。<br> この機能では、定数の文字列値、グループ化（`condition1 \|\| condition2) && condition3`）および正規表現（`/[^a-z]$/.test(landing.referring.url)`）の使用もサポートされています。 |
 
 ## トレーニングビデオ：プロファイルスクリプト ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
