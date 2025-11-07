@@ -22,7 +22,7 @@ ht-degree: 51%
 
 +++
 
-## ![Adobe Experience Platform Web SDK バッジ ](/help/main/assets/platform.png) この [!DNL Adobe Experience Platform Web SDK] は、A4T のリダイレクトオファーをサポートしていますか？ {#platform}
+## ![Adobe Experience Platform Web SDK バッジ &#x200B;](/help/main/assets/platform.png) この [!DNL Adobe Experience Platform Web SDK] は、A4T のリダイレクトオファーをサポートしていますか？ {#platform}
 
 +++回答
 次の FAQ では、[!DNL Platform Web SDK] での A4T の使用とオファーのリダイレクトに関する詳細情報を提供しています。
@@ -32,7 +32,7 @@ ht-degree: 51%
 ### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
 
 +++回答
-はい、Platform Web SDKを介した A4T では、[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md) をサポートしています。
+はい、Platform Web SDKを介した A4T では、[&#x200B; リダイレクトオファー &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md) をサポートしています。
 
 +++
 
