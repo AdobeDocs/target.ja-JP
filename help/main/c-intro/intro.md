@@ -43,7 +43,7 @@ AP は完全に自動化され、人間による分析を最小限に抑えな�
 
 ### [!UICONTROL Auto-Target]
 
-[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) では、高度な機械学習を使用して、マーケターが定義した高パフォーマンスのエクスペリエンスを特定します。 次に、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。 [!UICONTROL Auto-Target] は、コンテンツをパーソナライズし、コンバージョンを促進します。
+[&#x200B; 自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) では、高度な機械学習を使用して、マーケターが定義した高パフォーマンスのエクスペリエンスを特定します。 次に、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。 [!UICONTROL Auto-Target] は、コンテンツをパーソナライズし、コンバージョンを促進します。
 
 ### Recommendations
 
@@ -63,9 +63,9 @@ AP は完全に自動化され、人間による分析を最小限に抑えな�
 
   「これを閲覧した人が購入したもの」という条件を使用して、レコメンデーションの最初の製品を表示する代わりに、多くの顧客がある製品の閲覧後に購入した他の商品を表示します。
 
-###  オファーとしての Recommendations 
+### オファーとしての Recommendations 
 
-[ オファーとしてのレコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md) では、[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができます。
+[&#x200B; オファーとしてのレコメンデーション &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md) では、[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
@@ -102,7 +102,7 @@ Betaの機能 [!DNL Target] 説明するガイドの記事には、各ページ�
 
 [Adobe Target ウェルカムキット](/help/main/c-intro/target-welcome-kit.md)
 
-## トレーニングビデオ：アクティビティタイプ（9:03） ![ 概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：アクティビティタイプ（9:03） ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 次のビデオでは、[!DNL Target Standard/Premium] で使用できるアクティビティタイプと、サイトの目標を達成するため [!DNL Target] でおこなう 3 ステップのガイド付きワークフローを説明します。
 
