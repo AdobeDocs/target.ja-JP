@@ -21,7 +21,7 @@ ht-degree: 17%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間依存の更新については、[!DNL Adobe] が [!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供します。 実装に関連する主なハイライトを次に示します。
 
@@ -109,7 +109,7 @@ ht-degree: 17%
 +++詳細を表示
 * ボタン **[!UICONTROL Delete Modification]問題により、アクティビティの変更を削除できませんでした。** [!UICONTROL Delete Modification] UI の [!DNL Target] ボタンが機能せず、ユーザーがアクティビティ内の変更を削除できなかった問題を修正しました。 ボタンが期待どおりに動作するようになり、変更を確実に遅滞なく削除できます。 （TGT-53728）
 * **更新された UI で優先セレクターが認識されません。** 更新された UI で、`data-target-component-id` などの優先セレクターが VEC 内の CSS セレクターリストに表示されない問題を解決しました。 動的に生成されるクラス名ではなく、優先する属性を確実に選択できるようになり、SPA ページのアップデート間で安定したターゲティングを確保できるようになりました。 （TGT-53908）
-* **[!UICONTROL Edit] ページと [!UICONTROL Overview] ページのアクティビティの場所の配置が一致していません。** [!UICONTROL Overview] ページのアクティビティの場所の番号が [!UICONTROL &#x200B; Edit Experience] ページで行われた更新と一致しない問題を解決しました。 位置は両方のビュー間で一貫するようになり、正確な位置合わせを確保し、位置の欠落や番号の誤りを防ぐことができます。 （TGT-53960 および TGT-53954）
+* **[!UICONTROL Edit] ページと [!UICONTROL Overview] ページのアクティビティの場所の配置が一致していません。** [!UICONTROL Overview] ページのアクティビティの場所の番号が [!UICONTROL  Edit Experience] ページで行われた更新と一致しない問題を解決しました。 位置は両方のビュー間で一貫するようになり、正確な位置合わせを確保し、位置の欠落や番号の誤りを防ぐことができます。 （TGT-53960 および TGT-53954）
 * **更新された VEC で [!UICONTROL Design] モードに戻すことができません。** 更新された VEC UI で、[!UICONTROL Design] モードで新しいページに移動した後、[!UICONTROL Browse] モードに戻すことができなかった問題を修正しました。 [!UICONTROL Design] の切り替えが正しく機能し、ページ間で変更をシームレスに適用できるようになりました。 （TGT-53988 および TGT-53993）
 * **クエリパラメーターがアクティビティの概要に表示されない。** 更新された UI で、アクティビティの [!UICONTROL Overview] ページにクエリパラメーターが表示されず、[!UICONTROL Overview] ージとページ配信 URL で不一致が発生する問題を修正しました。 クエリパラメーターが正しく表示されるようになり、アクティビティの場所が完全に表現され、ビュー間で一貫性を持つようになりました。 （TGT-53701）
 
@@ -130,7 +130,7 @@ ht-degree: 17%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
