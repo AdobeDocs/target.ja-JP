@@ -178,4 +178,4 @@ ht-degree: 51%
 
 ## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33952?captions=jpn)
