@@ -17,10 +17,10 @@ ht-degree: 55%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなりました。[!DNL Recommendations] を最大限に活用するには、[!DNL Recommendations]Adobe Target Premium[ で利用できる ](/help/main/c-intro/intro.md) アクティビティにアップグレードしてください。
+>[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなりました。[!DNL Recommendations] を最大限に活用するには、[!DNL Recommendations]Adobe Target Premium[&#x200B; で利用できる &#x200B;](/help/main/c-intro/intro.md) アクティビティにアップグレードしてください。
 
 Recommendations を使用すると、顧客が知らなかった品目を表示し、Web サイトの売上を促進できます。
 
-[!DNL Recommendations Classic] での [!DNL Recommendations] アクティビティと [!DNL Target Premium] アクティビティの選択に役立つ情報については、[Target Premiumの Recommendations Classic と Recommendations アクティビティ ](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) を参照してください。
+[!DNL Recommendations Classic] での [!DNL Recommendations] アクティビティと [!DNL Target Premium] アクティビティの選択に役立つ情報については、[Target Premiumの Recommendations Classic と Recommendations アクティビティ &#x200B;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) を参照してください。
 
 [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) のドキュメントは PDF 形式でダウンロードできます。
