@@ -5,10 +5,10 @@ title: アクティビティの作成方法  [!DNL Recommendations]  教えて�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 52%
+source-wordcount: '1201'
+ht-degree: 51%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 52%
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-1. （条件付き） [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) を選択します。
+1. （条件付き） [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) を選択します。
 
 1. アクティビティ URL を指定し、「**[!UICONTROL Create]**」をクリックします。
 
@@ -41,6 +41,10 @@ ht-degree: 52%
    「[!UICONTROL Create]」をクリックすると、VEC が開いてページが表示されます。 現在の要素をレコメンデーションで置き換えたり、レコメンデーションを挿入したりすることができます。
 
 1. ページ上の要素をクリックし、その要素がある場所にレコメンデーションがある場合は、「**[!UICONTROL Replace w/ Recommendations]**」、「**[!UICONTROL Insert Recommendations Before]**」または「**[!UICONTROL Insert Recommendations After]**」をクリックします。
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Recommendations] アクティビティでは、一度に 1 つの変更/レコメンデーションのみをサポートします。 複数のレコメンデーションについては、複数の [!DNL Recommendations] アクティビティを作成するか、A/B または XT テストを使用できます。
 
    サイトへの訪問者には、レコメンデーションの対象となる場合にのみ、推奨コンテンツが表示されます。 レコメンデーションに該当しない訪問者には、デフォルトコンテンツが表示されます。
 
@@ -60,7 +64,7 @@ ht-degree: 52%
    * カテゴリページ
    * ホームページ
    * ランディングページ
-   * 製品紹介ページ
+   * 製品ページ
    * 検索結果ページ
    * 「ありがとうございます」ページ
    * その他
@@ -84,12 +88,12 @@ ht-degree: 52%
      [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
 
    * 新しい条件を作成するには、**[!UICONTROL Create Criteria]**/**[!UICONTROL Create Criteria]** をクリックし、新しい条件の情報を入力します。 新しい条件の作成について詳しくは、[条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
-   * また、条件をシーケンスにグループ化することもできます。新しい条件シーケンスを作成するには、**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]** をクリックします。 詳しくは、[&#x200B; 条件シーケンスを作成 &#x200B;](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) を参照してください。
+   * また、条件をシーケンスにグループ化することもできます。新しい条件シーケンスを作成するには、**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]** をクリックします。 詳しくは、[ 条件シーケンスを作成 ](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) を参照してください。
 
 1. **[!UICONTROL Next]** をクリックします。
 1. [デザイン](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択します。
 
-   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。[!DNL Target] には、事前設定済みのデザインがいくつか含まれています。 カスタムのデザインを作成することも可能です。詳しくは、[&#x200B; デザインの作成 &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) および [&#x200B; デザインのカスタマイズ &#x200B;](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) を参照してください。
+   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。[!DNL Target] には、事前設定済みのデザインがいくつか含まれています。 カスタムのデザインを作成することも可能です。詳しくは、[ デザインの作成 ](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) および [ デザインのカスタマイズ ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) を参照してください。
 
    ![デザインを選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -103,7 +107,7 @@ ht-degree: 52%
 
 1. **[!UICONTROL Next]** をクリックします。
 
-   レコメンデーションにプロモーションを追加することもできます。前後の販促の追加の詳細は、「[&#x200B; 販促の追加 &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)」を参照してください。
+   レコメンデーションにプロモーションを追加することもできます。前後の販促の追加の詳細は、「[ 販促の追加 ](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)」を参照してください。
 
 1. **[!UICONTROL Save]** をクリックします。
 
@@ -144,7 +148,7 @@ ht-degree: 52%
 1. 終了したら「**[!UICONTROL Next]**」をクリックします。
 1. アクティビティを設定します。
 
-   例えば、アクティビティの名前（必須）および目標（任意）を入力します。この設定について詳しくは、[Recommendations アクティビティの設定 &#x200B;](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB) を参照してください。
+   例えば、アクティビティの名前（必須）および目標（任意）を入力します。この設定について詳しくは、[Recommendations アクティビティの設定 ](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB) を参照してください。
 
    >[!NOTE]
    >
@@ -168,10 +172,10 @@ ht-degree: 52%
 
 1. （オプション） [!UICONTROL Reports] のページを開いて、[!DNL Recommendations] アクティビティのパフォーマンスを示すレポートを表示します。
 
-1. （オプション） [!UICONTROL Collisions] ページを開いて、発生する可能性のある [&#x200B; アクティビティの衝突 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md) を表示します。
+1. （オプション） [!UICONTROL Collisions] ページを開いて、発生する可能性のある [ アクティビティの衝突 ](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md) を表示します。
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
 
-## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33952?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
