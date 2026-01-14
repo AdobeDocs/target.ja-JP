@@ -29,7 +29,7 @@ ht-degree: 49%
 
 保有しているライセンスが Standard か Premium かどうかは、[!UICONTROL Administration] の UI 上部の「[!DNL Target]」リンクをクリックすることで確認できます。
 
-* **[!DNL Target Standard]のお客様**:「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示される場合（[!UICONTROL Properties] タブではない）、組織のライセンスは [!DNL Target Standard] です。 [!DNL Target Standard][ ユーザーを追加したり、権限を割り当てたりする際は、](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) ユーザー [!DNL Adobe Admin Console] の手順に従ってください。
+* **[!DNL Target Standard]のお客様**:「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示される場合（[!UICONTROL Properties] タブではない）、組織のライセンスは [!DNL Target Standard] です。 [!DNL Target Standard][&#x200B; ユーザーを追加したり、権限を割り当てたりする際は、](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) ユーザー [!DNL Adobe Admin Console] の手順に従ってください。
 
 * **[!DNL Target Premium]顧客**:「[!UICONTROL Properties]」タブ（[!UICONTROL Administration > Properties]）と「[!UICONTROL Users]」タブが表示された場合、組織のライセンスは [!DNL Target Premium] です。 [!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
@@ -37,7 +37,7 @@ ht-degree: 49%
 
 >[!IMPORTANT]
 >
->エンタープライズ権限の処理に進む前に、以下の [ 注意事項 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) の節を必ずお読みください。
+>エンタープライズ権限の処理に進む前に、以下の [&#x200B; 注意事項 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) の節を必ずお読みください。
 
 ## この節で使用される用語と定義 {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
@@ -108,13 +108,13 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 新しい [!UICONTROL Permissions] 機能を使用すると、様々なプロジェクト（[!DNL Adobe Admin Console for Enterprise] では「製品プロファイル」と呼ばれます）を作成できます。 プロジェクトでは、1 人のユーザーに異なる権限を割り当て、そのユーザーのアクセス権限をプロジェクトごとに指定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、お客様は、地域、環境（開発/ステージ/実稼動）、チャネル、その他のカスタム条件（以下に示す）に基づいて、ユーザーに対して表示、編集、承認のアクセスを制限できます。
 
-![ 権限画像 ](assets/permissions.png)
+![&#x200B; 権限画像 &#x200B;](assets/permissions.png)
 
 例えば、ある特定のユーザーが米国の Web サイトでの「承認」アクセス権を持つが、欧州のモバイルアプリでは「表示」アクセス権のみ持っているとします。この同じユーザーは、APAC 地域の Web およびモバイルプロパティで提供されるアクティビティについては、表示を含め、あらゆるアクセス権がありません。
 
 [!DNL Target] [!UICONTROL Permissions] モデルには次の権限ロール （監視者、編集者、承認者、監視者）があります。 この記事の図では、オブザーバーの役割は示されていません。
 
-![permissions_1 画像 ](assets/permissions_1.png)
+![permissions_1 画像 &#x200B;](assets/permissions_1.png)
 
 各役割には、様々なレベルの権限があります。
 
@@ -127,17 +127,17 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 各ユーザーの役割は、次に示すように、[!DNL Target] タグを含むアカウントのすべてのページ、プロパティまたはサイトに適用されることに注意する必要があります。
 
-![permissions_2 画像 ](assets/permissions_2.png)
+![permissions_2 画像 &#x200B;](assets/permissions_2.png)
 
 新しい [!DNL Target] [!UICONTROL Permissions] モデルには同じ 3 つの権限ロール（監視者、編集者、承認者）がありますが、以下に示すように、個々のページ、プロパティ、サイトに対して、ユーザーの権限ロールを個別に割り当てることができます。
 
-![permissions_3 画像 ](assets/permissions_3.png)
+![permissions_3 画像 &#x200B;](assets/permissions_3.png)
 
 この例では、Jan は、米国ホームページおよび米国サイトに対する承認者権限を持ち、フランスサイトに対する監視者権限を持ちます。
 
 さらに、Jan は、次に示すように、表示する権限がない [!DNL Target] 合は、ページ、プロパティ、サイトを表示できません。
 
-![permissions_4 画像 ](assets/permissions_4.png)
+![permissions_4 画像 &#x200B;](assets/permissions_4.png)
 
 この例では、Jan は、商品ページ、ロシアサイト、キャリアサイトを表示できません。
 
@@ -198,7 +198,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 * **オーディエンスの作成：** オーディエンスを作成すると、現在選択しているワークスペースに作成されます。
 * **オーディエンスリスト：** オーディ [!UICONTROL More Actions] ンスページの [!DNL Move]/[!UICONTROL Audiences] オプションを使用して、ワークスペース間でオーディエンスを移動できます。
 * **オファーの作成：** オファーを作成すると、現在選択しているワークスペースに作成されます。
-* **プロパティページ（管理/プロパティ）:**[!UICONTROL Search] のボックスを使用して、[!UICONTROL Property] リストを検索できます。
+* **プロパティページ（管理/プロパティ）:**&#x200B;[!UICONTROL Search] のボックスを使用して、[!UICONTROL Property] リストを検索できます。
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -270,11 +270,11 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 1. **[!UICONTROL More Actions]** ボタン（3 つの省略記号）をクリックし、「**[!UICONTROL Move]**」をクリックします。
 
-   ![ その他のアクション/移動 ](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+   ![&#x200B; その他のアクション/移動 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
 1. **[!UICONTROL Workspace]** ドロップダウンリストから目的のワークスペースを選択し、「**[!UICONTROL Move]**」をクリックします。
 
-   ![ 新しいワークスペースに移動するオーディエンスを選択 ](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+   ![&#x200B; 新しいワークスペースに移動するオーディエンスを選択 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
 
 >[!NOTE]
 >
@@ -302,7 +302,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### トレーニングビデオ：エンタープライズ権限トレーニングビデオ ![ 概要バッジ ](/help/main/assets/overview.png)
+### トレーニングビデオ：エンタープライズ権限トレーニングビデオ ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 学習内容：
 

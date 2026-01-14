@@ -41,7 +41,7 @@ ht-degree: 97%
 部分的なデータが生じる原因として特定されているものは次のとおりです。
 
 * **レポートスイート ID（実装）の不一致：**&#x200B;アクティビティの設定中に指定されたレポートスイートが、テストが配信されるページのレポートスイートと一致していません。データは [!DNL Analytics] サーバー上では調整できないので、部分的なデータのように見えます。
-* **低速のページ：**[!DNL Target] 呼び出しはページの上部、[!DNL Analytics] 呼び出しは通常、ページの下部にあります。ページの読み込みに時間がかかると、[!DNL Target] 呼び出しが実行されてから [!DNL Analytics] 呼び出しの前に訪問者がページを離れる可能性が高くなります。ページの速度低下は、接続速度が頻繁に低下するモバイル web サイトでは特に問題になります。
+* **低速のページ：**&#x200B;[!DNL Target] 呼び出しはページの上部、[!DNL Analytics] 呼び出しは通常、ページの下部にあります。ページの読み込みに時間がかかると、[!DNL Target] 呼び出しが実行されてから [!DNL Analytics] 呼び出しの前に訪問者がページを離れる可能性が高くなります。ページの速度低下は、接続速度が頻繁に低下するモバイル web サイトでは特に問題になります。
 * **ページエラー：** JavaScript エラーがある場合や、各タッチポイントが実行されないシナリオ（Experience Cloud ID サービス、Target および Analytics）の場合、部分的なデータが生じます。
 * **[!DNL Target] アクティビティのリダイレクトオファー：** A4T を使用してアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。また、知っておくべき重要な情報があります。詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) を参照してください。
 * **古いバージョンのライブラリ：** データをできる限り効率的に送信するために、昨年、JavaScript ライブラリ（[!DNL appMeasurement.js]、`at.js`、および `visitorAPI.js`）にいくつかの改善を加えました。導入に必要な条件について詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)を参照してください。
@@ -55,7 +55,7 @@ ht-degree: 97%
 | ![手順 1](assets/step1_icon.png) | [!DNL Target] で選択したレポートスイートが、アクティビティが表示されるページと同じであることを確認します。 |
 | ![手順 2](assets/step2_icon.png) | VisitorAPI. js、AppMeasurement.js、at.js ライブラリが A4T 互換バージョンになっていることを確認します。導入に必要な条件について詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)を参照してください。 |
 | ![手順 3](assets/step3_icon.png) | ページを離れるときに [!DNL Target] と [!DNL Analytics] のすべての呼び出しで SDID が設定されることと、それらが一致していることを確認します。<br/>ネットワーク分析やデバッグツールを使用して、`mboxMCSDID` の呼び出しの [!DNL Target] パラメーターが [!DNL Analytics] の呼び出しの SDID パラメーターと一致していることを確認します。 |
-| ![手順 4](assets/step4_icon.png) | サイトで実装ライブラリが正しい順序で読み込まれることを確認します。詳しくは、[Analytics for Target の実装 ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) を参照してください。 |
+| ![手順 4](assets/step4_icon.png) | サイトで実装ライブラリが正しい順序で読み込まれることを確認します。詳しくは、[Analytics for Target の実装 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) を参照してください。 |
 
 ## 部分的なデータの部分を見るにはどうすればよいですか？ {#section_89B663E2824A4805AB934153508A0F4B}
 
