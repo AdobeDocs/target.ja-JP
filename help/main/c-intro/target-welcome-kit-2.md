@@ -4,10 +4,10 @@ description: Adobe Target を俯瞰的に見る。利用可能なアクティビ
 title: Target の概要はどこで確認できますか？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 80%
+source-wordcount: '2485'
+ht-degree: 74%
 
 ---
 
@@ -21,27 +21,27 @@ ht-degree: 80%
 
 テストアクティビティでは、デジタルエクスペリエンスの 1 つのバリエーションと 1 つ以上のバリエーションを比較し、ほとんどの訪問者が望ましい行動をとった原因が何かを特定します。[!DNL Target] は次のテスト機能があります：A/B テスト、多変量分析テスト（MVT）、自動配分。
 
-パーソナライズ機能のアクティビティを使用すると、特定の訪問者グループまたは個々の訪問者に合わせてカスタマイズしたデジタルエクスペリエンスを提供できます。[!DNL Target] では、次のパーソナライズ機能を提供します：エクスペリエンスのターゲット設定、自動ターゲット、Automated Personalization、Recommendations。
+パーソナライズ機能のアクティビティを使用すると、特定の訪問者グループまたは個々の訪問者に合わせてカスタマイズしたデジタルエクスペリエンスを提供できます。[!DNL Target] では、次のパーソナライズ機能を提供します：エクスペリエンスのターゲット設定、自動ターゲット、Automated Personalization、レコメンデーション。
 
 各機能の使い方について詳しくは、[Target のアクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
 | アクティビティタイプ | 詳細 |
 | --- | --- |
 | A/B テスト | Web サイト上の複数のエクスペリエンスやオファーのバリエーション、または他のデジタル顧客のタッチポイントを比較して、事前に指定したテスト期間中に主要ビジネス指標を最も改善するバリエーションを調べます。A/B テストは、新しい Web ページレイアウト、サイトナビゲーションに対するアプローチの違い、コピー、画像、誘い文句（CTA：コールトゥアクション）ボタンなどのデジタルエクスペリエンスの個々の要素の扱いが大幅に異なるなど、変更が大きい場合に適しています。[詳細情報](/help/main/c-activities/t-test-ab/test-ab.md) |
-| 自動配分 | 2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やしてコンバージョンを促進します。その間もテストによる学習は続けられます。[!DNL Adobe Sensei] を活用した人工知能を使用します。[詳細情報](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) |
-| 自動ターゲット<br>（Premium） | [!DNL Target]の Adobe Sensei AI を活用し、個々の顧客プロファイルと類似プロファイルを持つ以前の訪問者の行動に基づいて、複数の訪問者に対する最高のエクスペリエンスを決定および提供します。自動ターゲットでは、大規模にパーソナライズ機能を実行できます。[詳細情報](/help/main/c-activities/auto-target/auto-target-to-optimize.md) |
-| Automated Personalization<br>（Premium） | [!DNL Adobe Sensei] を活用した高度な機械学習アルゴリズムと自動化機能を使用して、オファーでの画像、コピー、その他の要素の様々な組み合わせを確認し、訪問者あたりのコンバージョンや売上高の増加など、ビジネス目標を最も達成できる最適な組み合わせを各訪問者に提供します。[詳細情報](/help/main/c-activities/t-automated-personalization/automated-personalization.md) |
-| エクスペリエンスターゲット設定（XT） | ユーザーが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。オーディエンス **[!UICONTROL Experience Targeting]** 貴重であることを理解し、どのエクスペリエンスが彼らの共感を得られるのかを把握している場合、特定のエクスペリエンスやコンテンツを、特定のオーディエンスにターゲティングするのに役立ちます。 [詳細情報](/help/main/c-activities/t-experience-target/experience-target.md) |
+| 自動配分 | 2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やしてコンバージョンを促進します。その間もテストによる学習は続けられます。[!DNL Adobe Adobe AI] を活用した人工知能を使用します。[詳細情報](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) |
+| 自動ターゲット<br>（Premium） | [!DNL Target] のAdobe AI を活用し、個々の顧客プロファイルと類似プロファイルを持つ以前の訪問者の行動に基づいて、複数の訪問者に対する最高のエクスペリエンスを決定および提供します。 自動ターゲットでは、大規模にパーソナライズ機能を実行できます。[詳細情報](/help/main/c-activities/auto-target/auto-target-to-optimize.md) |
+| Automated Personalization<br>（Premium） | [!DNL Adobe Adobe AI] を活用した高度な機械学習アルゴリズムと自動化機能を使用して、オファーでの画像、コピー、その他の要素の様々な組み合わせを確認し、訪問者あたりのコンバージョンや売上高の増加など、ビジネス目標を最も達成できる最適な組み合わせを各訪問者に提供します。[詳細情報](/help/main/c-activities/t-automated-personalization/automated-personalization.md) |
+| エクスペリエンスのターゲット設定（XT） | ユーザーが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。オーディエンス **[!UICONTROL Experience Targeting]** 貴重であることを理解し、どのエクスペリエンスが彼らの共感を得られるのかを把握している場合、特定のエクスペリエンスやコンテンツを、特定のオーディエンスにターゲティングするのに役立ちます。 [詳細情報](/help/main/c-activities/t-experience-target/experience-target.md) |
 | Multivariate Testing（MVT） | ページ上の要素やデジタルエクスペリエンスの要素の組み合わせをすべて比較します。例えば、3 種類の背景画像、2 種類のコピー画像、2 種類のボタンの色などです。MVT は、特定のオーディエンスに対して最も高いパフォーマンスを発揮するコンビネーションと、結果に最も影響を与える要素を決定します。[詳細情報](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) |
-| Recommendations<br>（Premium） | Adobe Sensei AI を使用すると、ユーザーの以前のアクティビティや他の顧客のアクティビティに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に提案できます。[詳細情報](/help/main/c-recommendations/recommendations.md) |
+| レコメンデーション<br>（Premium） | Adobe AI を使用すると、顧客の以前のアクティビティや他の顧客のアクティビティに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に提案できます。 [詳細情報](/help/main/c-recommendations/recommendations.md) |
 
 ## チャネル
 
-[!DNL Target] を使えば、Web サイト、モバイルサイト、モバイルアプリなど従来のデジタルタッチポイントをはじめ、キオスク、電子メール、IoT デバイス、ゲーム機、Alexa や Cortana などの音声アシスタントなど、どこからでもデジタルエクスペリエンスをテストおよびパーソナライズできます。多くの企業が、Web サイトで[!DNL Target] を使い始めています。しかし、最近の調査では、モバイルデバイスからブランドにアクセスする人が増えていることが示されています。モバイルチャネルの最適化が重要となっています。すべてのタッチポイントをまたいで訪問者のエクスペリエンスを結び付け、シームレスで一貫性のあるエクスペリエンスを提供するのが理想的です。
+[!DNL Target] を使えば、Web サイト、モバイルサイト、モバイルアプリなど従来のデジタルタッチポイントをはじめ、キオスク、電子メール、IoT デバイス、ゲーム機、Alexa や Cortana などの音声アシスタントなど、どこからでもデジタルエクスペリエンスをテストおよびパーソナライズできます。 多くの企業が、Web サイトで[!DNL Target] を使い始めています。しかし、最近の調査では、モバイルデバイスからブランドにアクセスする人が増えていることが示されています。モバイルチャネルの最適化が重要となっています。すべてのタッチポイントをまたいで訪問者のエクスペリエンスを結び付け、シームレスで一貫性のあるエクスペリエンスを提供するのが理想的です。
 
 | チャネル | 詳細 |
 | --- | --- |
-| Web サイト | [!DNL Target] を使用すれば、複数ページ、単一ページアプリケーション（SPA）、モバイル Web サイトのページで A/B テスト、Multivariate Testing、エクスペリエンスのターゲット設定、自動配分、自動ターゲット、Automated Personalization、Recommendations の各アクティビティを実行して、訪問者と顧客のエンゲージメントを向上させ、コンバージョンと売上高を増やすことができます。 |
+| Web サイト | [!DNL Target] を使用すれば、複数ページ、単一ページアプリケーション（SPA）、モバイル web サイトのページで A/B テスト、Multivariate Testing、エクスペリエンスのターゲット設定、自動配分、自動ターゲット、Automated Personalization、レコメンデーションの各アクティビティを実行して、訪問者と顧客のエンゲージメントを向上させ、コンバージョンと売上高を増やすことができます。 |
 | モバイル Web | [!DNL Target] を使用すれば、モバイル Web サイトページで、Web サイトと同じアクティビティタイプをすべて実行し、訪問者と顧客のエンゲージメントを向上させ、コンバージョンと売上高を増やすことができます。 |
 | モバイルアプリ | [!DNL Target] を使用して、ユーザーの行動やモバイルのコンテキストに基づいてモバイルアプリのエクスペリエンスをテストおよびパーソナライズできます。[!DNL Target] では、反復的なテストやエクスペリエンスのターゲット設定、AI を活用したパーソナライゼーションを通じてエンゲージメントやコンバージョンにつながるインタラクションを提供することができます。モバイルアプリで [!DNL Target] を使用するには、Adobe Mobile Services SDKを使用する必要があります。 |
 | あらゆる場所で IoT を活用 | [!DNL Target] では、サーバーサイド実装を提供し、従来の web サイト、モバイルサイト、モバイルアプリと同じテスト機能とパーソナライズ機能を、電子メールや、ブラウザーのない、またはJavaScript コードを使用しないタッチポイントで使用できるようにします。 例えば、キオスク、セットトップボックス、ゲーム機、音声アシスタント、その他の従来とは異なるタッチポイントをテストしてパーソナライズできます。 |
@@ -52,7 +52,7 @@ ht-degree: 80%
 
 | 実装タイプ | 詳細 |
 | --- | --- |
-| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]** （VEC）、または非視覚的なインターフェイスである **[!UICONTROL Form-based Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} |
+| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]** （VEC）、または非視覚的なインターフェイスである **[!UICONTROL Form-based Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} |
 | サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} |
 | ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。例えば、クライアントサイドの実装を使用してホームページのヒーローバナー内のオファーで A/B テストを実行したり、サーバーサイドの実装を使用してクライアントブラウザーに表示する内部検索結果やスマートカーダッシュボードに表示するエクスペリエンス、音声アシスタントから配信する音声応答を決定したりできます。 |
 
@@ -76,7 +76,7 @@ ht-degree: 80%
 | --- | --- |
 | [!UICONTROL Visual Experience Composer]（VEC） | サイトコンテキストでパーソナライズされたエクスペリエンスおよびオファーを簡単に作成およびテストできる、WYSIWYG ユーザーインターフェイスです。Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。[詳細情報](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
 | [!UICONTROL Form-based Experience Composer] | Visual Experience Composer が使用できない、または使用が実用的でない場合に、A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、Recommendations アクティビティで使用するエクスペリエンスを作成するのに役立つ、非視覚的なエクスペリエンスおよびオファー作成インターフェイスです。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。[詳細情報](/help/main/c-experiences/form-experience-composer.md) |
-| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスターゲット設定（XT）アクティビティを作成することが可能です。[詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
+| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティを作成することが可能です。[詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
 
 ## ガバナンスと管理
 
