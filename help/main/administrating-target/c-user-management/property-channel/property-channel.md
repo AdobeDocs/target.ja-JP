@@ -310,7 +310,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 * プロパティとワークスペースの概念のほか、これらの違いとグループ分けを生かしてユーザーのアクセスレベルを管理する方法
 * 組織に役立つ様々なプロパティの例
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421739?captions=jpn)
 
 ### 業務時間：[!DNL Target] Premium Workspaces
 
