@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer]（VEC）で一部の web �
 title: '[!UICONTROL Visual Editing Helper] 拡張機能の使用方法'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 98%
+source-wordcount: '765'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 98%
 >[!IMPORTANT]
 >
 >* この新しい拡張機能は、以前の [Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に代わるものです。この記事の上部にある重要なメモを参照してください。Manifest v3 のセキュリティ強化のため、[!DNL Target] では、[!DNL Adobe] で web サイトを視覚的に引き続き作成するために、この新しい拡張機能をダウンロードする必要があります。
+
+## [!UICONTROL Visual Editing Helper] 拡張機能の変更点（2026 年 1 月 17 日（PT））
+
+### **VEC Helper に新しいスタートアップ cookie のクリーンアップの実験的機能を追加することで問題を修正しました。**
+
+* VEC Helper に新しいスタートアップ cookie のクリーンアップの実験的機能を追加することで発生した問題を修正しました。
+* この機能強化により、オーサリングを継続的に開始するのではなく、タブごとに 1 回、パーティション化されていない Cookie をクリーンアップすることで、パフォーマンスと信頼性が向上します。
+* この機能は、タブの履歴を追跡して重複したクリーンアップを防ぎ、タブを閉じるときに履歴をクリアするので、タブを再度開いたときにクリーンアップが正しく動作します。
+* 一貫した動作を保証するために、包括的な単体テストが追加されました。
+
+![VEC の新しいオプション ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## VEC で一部の web サイトを確実に開くことができない理由
 
@@ -40,7 +51,7 @@ ht-degree: 98%
 
 ## [!UICONTROL Visual Editing Helper] ブラウザー拡張機能の取得とインストール
 
-1. Chrome Web ストアの [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能に移動します &#x200B;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}。
+1. Chrome Web ストアの [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能に移動します ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}。
 1. **[!UICONTROL Add to Chrome]**／**[!UICONTROL Add Extension]**&#x200B;をクリックします。
 1. [!DNL Target] で VEC を開きます。
 1. この拡張機能を使用するには、VEC または QA モードで、Chrome ブラウザーのツールバーにある「[!UICONTROL Visual Editing Helper]」ブラウザー拡張機能アイコン（![Visual Editing 拡張機能アイコン](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）をクリックします。
