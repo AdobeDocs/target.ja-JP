@@ -21,7 +21,7 @@ ht-degree: 14%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE  重要 ]{type=Informative}
+[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間依存の更新については、[!DNL Adobe] が [!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供します。 実装に関連する主なハイライトを次に示します。
 
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 Adobe Targetには、組織が Target をどのように使用しているかの概要を表示する、新しいインサイトダッシュボードが含まれるようになりました。 ダッシュボードには、ライブアクティビティ、ライブおよび変更済みアクティビティ、完了したアクティビティ、公開済みアクティビティ、A/B テストアクティビティなどの主要指標が表示されます。 時間範囲セレクターを使用して、2025 年の振り返りビューを含む、様々な期間のトレンドを調べます。 このダッシュボードは、継続的な採用状況とアクティビティの推移の追跡方法として引き続き使用できます。
 
-[Adobe Target Insights ダッシュボードを参照してください ](/help/main/c-activities/insights-dashboard.md)
+[Adobe Target Insights ダッシュボードを参照してください &#x200B;](/help/main/c-activities/insights-dashboard.md)
 
 ## [!DNL Target Standard/Premium] 26.1.1 （2026 年 1 月 18 日（PT））
 
@@ -114,7 +114,7 @@ Adobe Targetには、組織が Target をどのように使用しているかの
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
