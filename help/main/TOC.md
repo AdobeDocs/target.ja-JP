@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズして、売上高を増やす方法を説明します。
 feature-set: Target
-source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 84%
+source-wordcount: '1275'
+ht-degree: 83%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 84%
    + [用語集](c-intro/glossary.md)
    + [Target の仕組み](c-intro/how-target-works.md)
    + [トレーニングと資格認定](c-intro/training-and-certification.md)
-   + [&#x200B; Target Standard および Premium のトレーニングビデオ &#x200B;](c-intro/target-standard-premium-training-videos.md)
+   + [ Target Standard および Premium のトレーニングビデオ ](c-intro/target-standard-premium-training-videos.md)
    + [Target の最適化とパーソナライゼーションに関する FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target の管理 {#administer}
    + [Target の管理：概要](administrating-target/administrating-target.md)
@@ -117,6 +117,7 @@ ht-degree: 84%
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
 + アクティビティ {#activities}
    + [アクティビティの概要](c-activities/activities.md)
+   + [Insights ダッシュボード](c-activities/insights-dashboard.md)
    + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
    + A/B テスト {#abtest}
       + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
@@ -146,10 +147,10 @@ ht-degree: 84%
       + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください &#x200B;](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
+      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target パーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Automated Personalization テスト用のエクスペリエンスのプレビュー &#x200B;](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Automated Personalization テスト用のエクスペリエンスのプレビュー ](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Automated Personalization のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
@@ -179,7 +180,7 @@ ht-degree: 84%
          + [目標と設定](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [指標の設定](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [多変量分析テストのトラブルシューティング](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
-   + [Recommendations アクティビティ](c-activities/recommendations-activity.md)
+   + [レコメンデーションアクティビティ](c-activities/recommendations-activity.md)
    + [アクティビティの編集](c-activities/edit-activity.md)
    + [優先度](c-activities/priority.md)
    + [アクティビティの設定](c-activities/activity-settings.md)
@@ -290,9 +291,9 @@ ht-degree: 84%
    + [Analytics for Target（A4T）レポート](c-reports/analytics-for-target-a4t-reporting.md)
    + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
 + レコメンデーション {#recommendations}
-   + [Recommendations の概要](c-recommendations/recommendations.md)
-   + [Recommendations の概要](c-recommendations/introduction-to-recommendations.md)
-   + [Recommendations の計画と実装](c-recommendations/plan-implement.md)
+   + [レコメンデーションの概要](c-recommendations/recommendations.md)
+   + [レコメンデーションの概要](c-recommendations/introduction-to-recommendations.md)
+   + [レコメンデーションの計画と実装](c-recommendations/plan-implement.md)
    + エンティティ {#entities}
       + [エンティティの概要](c-recommendations/c-products/products.md)
       + [エンティティの属性](c-recommendations/c-products/entity-attributes.md)
@@ -316,27 +317,27 @@ ht-degree: 84%
          + [静的フィルター](/help/main/c-recommendations/c-algorithms/static-value.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
       + [複数値の属性の扱い](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Adobe Analytics を Recommendations と併用する](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Adobe Analytics をレコメンデーションと併用する](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
       + [デザイン FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Velocity を使用したデザインのカスタマイズ](c-recommendations/c-design-overview/customizing-a-template.md)
    + アクティビティ {#recommendations-activity}
-      + [Recommendations アクティビティの作成](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [レコメンデーションアクティビティの作成](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Recommendations アクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [&#x200B; オファーとしての Recommendations &#x200B;](c-recommendations/recommendations-as-an-offer.md)
+      + [レコメンデーションアクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [レコメンデーションアクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+   + [オファーとしてのレコメンデーション](c-recommendations/recommendations-as-an-offer.md)
    + よくある質問 {#recommendations-faq}
-      + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
-      + [Recommendations と電子メールの統合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
-      + [Recommendations フィード処理サーバーで使用される IP アドレス](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
-      + [Recommendations Classic と Target Premium の Recommendations アクティビティ](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Recommendations Classic ドキュメント](/help/main/c-recommendations/recommendations-classic-documentation.md)
+      + [レコメンデーション FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
+      + [レコメンデーションとメールの統合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
+      + [レコメンデーションフィード処理サーバーで使用される IP アドレス](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
+      + [レコメンデーション Classic と Target Premium のレコメンデーションアクティビティ](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
+   + [レコメンデーション Classic ドキュメント](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Target のトラブルシューティング {#troubleshoot}
    + [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)
    + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
    + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)

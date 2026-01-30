@@ -6,10 +6,10 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1862'
+ht-degree: 14%
 
 ---
 
@@ -21,13 +21,21 @@ ht-degree: 15%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間依存の更新については、[!DNL Adobe] が [!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供します。 実装に関連する主なハイライトを次に示します。
 
 ### [!DNL Target] UI バージョンの切り替えの廃止
 
 詳しくは、[[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md) を参照してください。
+
+## [!DNL Target Standard/Premium] 26.1.2 （2026 年 1 月 30 日（Pt））
+
+**Adobe Target Insights ダッシュボード**
+
+Adobe Targetには、組織が Target をどのように使用しているかの概要を表示する、新しいインサイトダッシュボードが含まれるようになりました。 ダッシュボードには、ライブアクティビティ、ライブおよび変更済みアクティビティ、完了したアクティビティ、公開済みアクティビティ、A/B テストアクティビティなどの主要指標が表示されます。 時間範囲セレクターを使用して、2025 年の振り返りビューを含む、様々な期間のトレンドを調べます。 このダッシュボードは、継続的な採用状況とアクティビティの推移の追跡方法として引き続き使用できます。
+
+[Adobe Target Insights ダッシュボードを参照してください ](/help/main/c-activities/insights-dashboard.md)
 
 ## [!DNL Target Standard/Premium] 26.1.1 （2026 年 1 月 18 日（PT））
 
@@ -47,6 +55,7 @@ ht-degree: 15%
 **プロパティ**
 
 +++詳細を表示
+
 * **既に削除されている場合、アクティビティの編集で、自動検出されたプロパティを追加しないでください。** この修正は、アクティビティを編集すると、以前にユーザーが削除した、自動検出されたプロパティが自動的に再導入される問題を修正します。 編集するアクティビティを再度開くと、削除されたプロパティがシステムによって誤って復元され、[!UICONTROL Properties List] ークフローでの動作に一貫性がなくなり混乱が生じました。 このアップデートにより、自動検出されたプロパティが削除されると、その後のすべての編集中に削除されたままになり、ユーザーが明示的に追加し直さない限り、再び表示されなくなります。 （TGT-54182）
 * **自動検出されたプロパティは、既に削除されている場合は追加しないでください。この修正により、自動検出されたプロパティをアクティビティからユーザーが手動で削除した**、アクティビティエディター内での後続のナビゲーション中にシステムによって再導入されることがなくなります。 以前は、ユーザーが自動検出プロパティの選択を解除して [!UICONTROL Targeting] ステップに移動し、[!UICONTROL Experiences] に戻ると、アクティビティエディターの状態スライスに格納されている自動検出リストに基づいて、削除されたプロパティが再入力されていました。 更新されたロジックでは、自動検出されたプロパティと ~ActivityState~ スライス内の現在のプロパティが比較されるようになり、ユーザーが既に削除した、自動検出されたプロパティの再追加を防ぎます。 これにより、ステップ間で一貫した動作が行われ、ユーザーの意図に従います。 （TGT-54181）
 * **自動検出されたテキストをプロパティリストに追加します。** この機能強化により、システムによって自動的に検出されたプロパティに明確なラベルを付けるために [!UICONTROL Properties List] が更新されます。 ユーザーに表示される [!UICONTROL Properties List] に自動検出されたプロパティも存在する場合、「ActivityEditorSlice~ 状態に保存された値を使用して、その名前の横に「（自動検出 ~」テキストが表示されるようになりました。 これにより、従来の UI の動作が反映され、ユーザーは手動で選択したプロパティと、自動的に識別されるプロパティを簡単に区別できます。 （TGT-54120）
@@ -57,6 +66,7 @@ ht-degree: 15%
 **レコメンデーション**
 
 +++詳細を表示
+
 * ドロップダウ **[!UICONTROL Environment]に表示される結果は 100 件のみです。** この修正は、環境が 100 を超えるお客様の場合、[!UICONTROL Environment] 内の [!UICONTROL Recommendations] ドロップダウンに最初の 100 個のエントリしか表示できないという制限に対応しています。 基になるGraphQL クエリ（~getEnvironmentsV2~）は、ハードコーディングされたページサイズ 100 でページ分割されていました。そのため、他のページが使用可能な場合でも、UI には部分的なリストのみが表示されます。 環境が 100 以上あるお客様の場合、この問題が原因でオプションが見つからず、選択エクスペリエンスが不完全でした。 この更新により制限が増えるので、すべての環境が返されて表示され、環境数に関係なく完全な可視性が確保されます。 （TGT-53903）
 
 +++
@@ -80,6 +90,7 @@ ht-degree: 15%
 **[!UICONTROL Visual Experience Composer]（VEC）**
 
 +++詳細を表示
+
 * 新 **[!UICONTROL Experience Fragment]い VEC UI で名前が切り詰められました** （TGT-54312）
 * **指標に [!UICONTROL Advanced Settings] を使用でき [!UICONTROL Revenue] せん。** この修正では、[!UICONTROL Advanced Settings] で [!UICONTROL Revenue] 指標の [!UICONTROL Goals & Settings] を設定する際に、403 「アクセスが拒否されました」というエラーが発生する問題を修正しました。 この問題は、主な目標に関連付けられた依存関係条件を追加する際に発生しました。アクティビティの作成と編集に十分な権限を既に持っているユーザーであっても、バックエンドではエディター権限が誤って必要でした。 その結果、有効な設定にもかかわらず、アクティビティの保存に失敗しました。 この更新では権限チェックが修正されるので、適切なアクセス権を持つユーザーは、禁止リソース エラーをトリガーすることなく、売上高指標の依存関係を正常に追加できます。 （TGT-54092）
 * **選択した画像に「追加」ボタンが適用されない問題を修正しました。** アクティビティ作成プロセスで画像を選択または更新する際に、お客様が特定の画像を追加できなかった問題を修正しました。 顧客が特定のアセット（例えば、「ipp」の検索時に返された画像）を検索したとき、「[!UICONTROL Add]」ボタンをクリックしても、選択した画像が適用されず、変更は作成されませんでした。 `Homepage-banner-1-moz.jpg` などの他の画像の選択は、引き続き期待どおりに動作しました。 この更新により、更新された UI で、有効なすべての画像を一貫して適用できるようになります。 （TGT-53610）
@@ -103,7 +114,7 @@ ht-degree: 15%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
