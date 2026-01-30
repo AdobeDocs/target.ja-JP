@@ -47,7 +47,7 @@ ht-degree: 84%
    + [用語集](c-intro/glossary.md)
    + [Target の仕組み](c-intro/how-target-works.md)
    + [トレーニングと資格認定](c-intro/training-and-certification.md)
-   + [ Target Standard および Premium のトレーニングビデオ ](c-intro/target-standard-premium-training-videos.md)
+   + [&#x200B; Target Standard および Premium のトレーニングビデオ &#x200B;](c-intro/target-standard-premium-training-videos.md)
    + [Target の最適化とパーソナライゼーションに関する FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target の管理 {#administer}
    + [Target の管理：概要](administrating-target/administrating-target.md)
@@ -146,10 +146,10 @@ ht-degree: 84%
       + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
+      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください &#x200B;](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target パーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Automated Personalization テスト用のエクスペリエンスのプレビュー ](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Automated Personalization テスト用のエクスペリエンスのプレビュー &#x200B;](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Automated Personalization のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
@@ -339,4 +339,4 @@ ht-degree: 84%
    + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
    + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
