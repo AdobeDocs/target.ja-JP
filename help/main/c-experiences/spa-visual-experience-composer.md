@@ -4,7 +4,7 @@ description: SPA VEC を Adobe  [!DNL Target]  で使用して、開発部門に
 title: シングルページアプリケーション Visual Experience Composer（SPA VEC）の使用方法
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 69%
@@ -17,7 +17,7 @@ ht-degree: 69%
 
 ![従来のライフサイクルと SPA のライフサイクルの比較](/help/main/c-experiences/assets/trad-vs-spa.png)
 
-最新リリースでは、SPA 用の VEC が導入されました。SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。VEC では、React や Angular などの人気あるフレームワークで [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md)や[エクスペリエンスターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md)（XT）アクティビティを作成することが可能です。
+最新リリースでは、SPA 用の VEC が導入されました。SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。VEC では、React や Angular などの人気あるフレームワークで [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md)や[エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md)（XT）アクティビティを作成することが可能です。
 
 ## Adobe [!DNL Target] ビューとシングルページアプリケーション
 
@@ -336,7 +336,7 @@ adobe.target.getOffers({
 | アクティビティのタイプ | 対応? |
 | --- | --- |
 | [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md) | ○ |
-| A/B テストおよびエクスペリエンスのターゲット設定（XT）アクティビティにおける[&#x200B; オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)<br> | ○ |
+| A/B テストおよびエクスペリエンスのターゲット設定（XT）アクティビティにおける[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)<br> | ○ |
 | [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ○ |
 | [エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md) | ○ |
 | [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | × |
