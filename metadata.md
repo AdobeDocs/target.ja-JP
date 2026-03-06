@@ -8,7 +8,7 @@ git-repo: https://github.com/AdobeDocs/target.ja-JP
 landing-page-breadcrumb-title: Target
 landing-page-name: target
 index: true
-source-git-commit: 666000c3257a3e07cafa020f881f5b7c2dc24795
+source-git-commit: 8dc638c665547aba1e53474bcf9f338604ff3b8e
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
