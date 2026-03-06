@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズして、売上高を増やす方法を説明します。
 feature-set: Target
-source-git-commit: 4e6941914a840267ac115d68ea317bc987bf8a83
+source-git-commit: 1cadff277a22d72e8d2a781f8a641033cedea520
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 83%
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Adobe Target実務担当者ガイドホーム](target-home.md)
 + Target リリースノート {#release-notes}
-   + [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc}[Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md)
    + [Target リリースノート（最新）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
    + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
@@ -32,7 +32,7 @@ ht-degree: 83%
       + [AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)
       + [AI アシスタントを有効にする](/help/main/c-intro/enabling-ai-assistant.md)
       + [AI アシスタントを使用して製品の知識を得る](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + [コンテンツ生成に AI アシスタントを使用する](/help/main/c-intro/ai-assistant-content-generation.md)
+      + {hide-from-toc}[ コンテンツ生成に AI アシスタントを使用する ](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target ウェルカムキット {#welcome}
       + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)
       + [第 1 章：はじめに](/help/main/c-intro/target-welcome-kit-1.md)
@@ -47,7 +47,7 @@ ht-degree: 83%
    + [用語集](c-intro/glossary.md)
    + [Target の仕組み](c-intro/how-target-works.md)
    + [トレーニングと資格認定](c-intro/training-and-certification.md)
-   + [&#x200B; Target Standard および Premium のトレーニングビデオ &#x200B;](c-intro/target-standard-premium-training-videos.md)
+   + [ Target Standard および Premium のトレーニングビデオ ](c-intro/target-standard-premium-training-videos.md)
    + [Target の最適化とパーソナライゼーションに関する FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target の管理 {#administer}
    + [Target の管理：概要](administrating-target/administrating-target.md)
@@ -100,11 +100,11 @@ ht-degree: 83%
       + [Adobe Customer Journey Analyticsでの Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Target とAdobe Journey Optimizerの統合（AJO） {#ajo}
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [統合  [!DNL Adobe Target Recommendations]  および  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + {hide-from-toc}[Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizerの使用例 {#use-cases}
-         + [Adobe Journey Optimizerの最適化の上位の使用例 – web およびコードベースチャネル](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + [Adobe Journey Optimizerの A/B テストを通じたコンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-         + [Web ページへのコンポーネントの追加または非表示](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+         + {hide-from-toc}[Adobe Journey Optimizerにおける最適化の上位の使用例 – web チャネルとコードベースチャネル ](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + {hide-from-toc}[Adobe Journey Optimizerの A/B テストを通じたコンテンツの変更 ](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + {hide-from-toc}[Web ページへのコンポーネントの追加または非表示 ](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Target とAdobe Experience Managerの統合（AEM） {#aem}
       + [Target とAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -147,10 +147,10 @@ ht-degree: 83%
       + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください &#x200B;](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
+      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target パーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Automated Personalization テスト用のエクスペリエンスのプレビュー &#x200B;](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Automated Personalization テスト用のエクスペリエンスのプレビュー ](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Automated Personalization のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
@@ -327,7 +327,7 @@ ht-degree: 83%
       + [レコメンデーションアクティビティの作成](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [レコメンデーションアクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [レコメンデーションアクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + {hide-from-toc}[レコメンデーションアクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [オファーとしてのレコメンデーション](c-recommendations/recommendations-as-an-offer.md)
    + よくある質問 {#recommendations-faq}
       + [レコメンデーション FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
@@ -340,4 +340,4 @@ ht-degree: 83%
    + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
    + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)
