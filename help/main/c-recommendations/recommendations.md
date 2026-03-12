@@ -33,7 +33,7 @@ ht-degree: 99%
 
 次の図に、Webページ上のレコメンデーションを示します。
 
-![velocity_example 画像 ](assets/velocity_example.png)
+![velocity_example 画像 &#x200B;](assets/velocity_example.png)
 
 Recommendations では、サイト上の顧客のアクティビティに応じ、その顧客に製品を提案する方法を決定します。次に例を示します。
 
