@@ -17,7 +17,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースには、VEC の更新バージョンが含まれています。 更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。 更新された VEC の様々なオプションの概要については、[Visual Experience Composer オプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) を参照してください。
+>[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースには、VEC の更新バージョンが含まれています。 更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。 更新された VEC の様々なオプションの概要については、[Visual Experience Composer オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) を参照してください。
 
 VEC を使用すると、サイトコンテキストのパーソナライズされたエクスペリエンスとオファーを簡単に作成およびテストできます。 Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ&amp;ドロップ、入れ替えおよび変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。
 
