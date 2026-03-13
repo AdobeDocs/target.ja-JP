@@ -4,7 +4,7 @@ description: Adobe Targetでの Visual Experience Composer （VEC）の使用に
 title: Visual Experience Composer （VEC）の使用方法
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 3f5b198ad08d85caa9c859171e78b710083e44fb
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 43%
@@ -17,7 +17,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースには、VEC の更新バージョンが含まれています。 更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。 更新された VEC の様々なオプションの概要については、[Visual Experience Composer オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) を参照してください。
+>[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースには、VEC の更新バージョンが含まれています。 更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。 更新された VEC の様々なオプションの概要については、[Visual Experience Composer オプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) を参照してください。
 
 VEC を使用すると、サイトコンテキストのパーソナライズされたエクスペリエンスとオファーを簡単に作成およびテストできます。 Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ&amp;ドロップ、入れ替えおよび変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。
 
@@ -43,9 +43,11 @@ VEC は [!DNL Target] の主要機能の 1 つです。VEC を使用すると、
 
 マウスポインターがページの周囲を移動すると、カーソルに従って状況依存型のボックスがページ上の要素をハイライトします。
 
-<!--Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+<!--
+Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
+![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+-->
 
 ハイライト表示された要素をクリックすると、その要素タイプで使用可能なオプションのメニューが表示されます。 例えば、画像をクリックして **[!UICONTROL Change Image]** を選択すると、画像を別の画像に変更できます。 または、ボタンをクリックしてテキストの色を変更します。
 
