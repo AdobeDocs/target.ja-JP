@@ -4,7 +4,7 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] （RTCDP）
 title: ' [!DNL Target] と [!DNL Real-Time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
+source-git-commit: 7e6947a37586c1840216d4137969f399f38a429d
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 71%
@@ -46,7 +46,7 @@ RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要 &#x20
 
 | 解決策 | 使用可能なユースケース |
 | --- | --- |
-| <ul><li>[!DNL RTCDP]（任意の SKU）と [!DNL Target]</li></ul> | <ul><li>次のセッションのパーソナライズ機能</li><ul><li>[!UICONTROL at.js] を使用するすべてのページの場合</li></ul><li>同じページのパーソナライズ機能</li><ul><li>[!DNL Platform Web SDK] を使用するすべてのページの場合</li></ul> |
+| <ul><li>[!DNL RTCDP]（任意の SKU）と [!DNL Target]</li></ul> | <ul><li>次のセッションのパーソナライズ機能<ul><li>[!UICONTROL at.js] を使用するすべてのページの場合</li></ul></li><li>同じページのパーソナライズ機能<ul><li>[!DNL Platform Web SDK] を使用するすべてのページの場合</li></ul></li></ul> |
 | <ul><li>[!DNL RTCDP]（任意の SKU）、[!DNL AAM]、[!DNL Target]</li></ul> | <ul><li>次のセッションのパーソナライズ機能</li><ul><li>[!UICONTROL at.js] を使用するすべてのページの場合</li><li>[!DNL AAM] セグメント</li><li>[!DNL AAM] を介したサードパーティセグメント</li></ul> |
 
 ## セグメント評価時間
@@ -128,25 +128,25 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 [!DNL Real-Time Customer Data Platform] での [!DNL Adobe Target] の宛先を設定して、[!DNL Real-Time CDP] から [!DNL Target] へのセグメントとプロファイル属性の送信を開始する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449794/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3449794/?captions=jpn&learn=on)
 
 ### ビデオ：セグメントとプロファイル属性のアクティブ化
 
 [!DNL Adobe Real-Time Customer Data Platform] から [!DNL Adobe Target] までのセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447356/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3447356/?captions=jpn&learn=on)
 
 ### ビデオ：[!DNL Target] での [!DNL Real-Time CDP] セグメントの使用
 
 [!DNL Adobe Target] での [!DNL Real-Time Customer Data Platform] セグメントを使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446828/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3446828/?captions=jpn&learn=on)
 
 ### ビデオ：[!DNL Adobe Target] での [!DNL Real-Time CDP] プロファイル属性の使用
 
 [!DNL Adobe Target] での [!DNL Adobe Real-Time Customer Data Platform] プロファイル属性を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451894/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3451894/?captions=jpn&learn=on)
 
 ### [!DNL Adobe Target] のブログとビデオ：同じページの強化されたパーソナライゼーション
 

@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 99%
@@ -17,7 +17,8 @@ ht-degree: 99%
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -36,7 +37,8 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=ja){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## 過去のウェビナーやスキルビルダーセッションの録画
 
@@ -205,7 +207,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### [!DNL Adobe]：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]（2022年6月2日（PT））
 
-機械学習モデルとデータインサイトが、マーケター、開発者、製品所有者に新しい扉を開き、重要なパーソナライズされたエクスペリエンスで消費者を魅了するように、人工知能がいかに消費者の期待を再定義し続けるかについて説明します。パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] + [!DNL Adobe Target] ワークフローについて手順ごとに説明します。
+機械学習モデルとデータインサイトが、マーケター、開発者、製品所有者に新しい扉を開き、重要なパーソナライズされたエクスペリエンスで消費者を魅了するように、人工知能がいかに消費者の期待を再定義し続けるかについて説明します。パーソナライゼーション、ターゲティング、テストのための [!DNL Adobe Analytics] + [!DNL Adobe Target] ワークフローについて手順ごとに説明します。
 
 +++詳細
 
@@ -213,7 +215,7 @@ Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューシ
 
 * マーケター、開発者、製品チームが AI の「ブラックボックス」を開き、将来のテストとパーソナライゼーション戦略を推進する方法
 * コンバージョンとエンゲージメントを高めるために、web、モバイルアプリ、メール、IoT、各デジタルタッチポイントの最適化の課題を克服
-* パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] と [!DNL Target] のワークフローについて手順ごとのガイドツアー
+* パーソナライゼーション、ターゲティング、テストのための [!DNL Adobe Analytics] と [!DNL Target] のワークフローについて手順ごとのガイドツアー
 * どの属性が訪問者の行動を予測し、どの属性がキービジュアライゼーションおよびセグメンテーション分析に最も重要であるかを解き明かす上位のユースケース
 
 +++
