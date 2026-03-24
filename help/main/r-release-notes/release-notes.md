@@ -6,10 +6,11 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+hold: true
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 53%
 
 ---
 
@@ -29,32 +30,17 @@ ht-degree: 47%
 
 詳しくは、[[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 26.3.2（2026年3月10日（PT））
+## [!DNL Target Standard/Premium] 26.3.4（2026年3月19日（PT））
 
-**アクティビティ**
-
-+++詳細を見る
-
-* **エクスペリエンスのダイレクトオファーの変更は保存されません。**&#x200B;この修正プログラムは、アクティビティ エクスペリエンス内のダイレクト オファーに対して行われた変更が保存されなかった問題を解決します。 以前は、ユーザーがダイレクトオファーを開いて変更し、保存すると、変更内容は最初に反映されたように見えましたが、オファーを再度開いたときに失われていました。 この修正により、ダイレクトオファーへの変更が適切に保存され、オファーが再度開かれたときに保持されるようになります。 （TGT-54653）
-
-+++
-
-**実装**
+**[!UICONTROL Visual Experience Composer]（VEC）**
 
 +++詳細を見る
 
-* **実装画面のちらつき管理トグルを追加します。** フリッカー管理設定の有効化を制御するための新しい切り替えスイッチが[!UICONTROL Implementation]画面に追加されました。 この切り替えにより、管理者は実装画面から直接ちらつき管理を設定できます。 （TGT-52247）
+* **Visual Experience Composer web エディターに表示されるデザイン/参照モードの選択。**&#x200B;この修正プログラムは、デザイン モード、参照モード、プレビューモードの切り替えが正しく機能したが、アクティブ モードがインターフェイスに明確に表示されない問題を解決します。 選択したモードがハイライト表示され、どのモードになっているかがわかります。 （TGT-54790）
+
+* Visual Experience Composer （Chrome）の&#x200B;**プライベート ネットワーク URL。** Chromeは、ローカルネットワークへのアクセスが許可されていない限り、プライベートネットワーク上のページをブロックできます。 **[!UICONTROL Visual Experience Composer]**&#x200B;は、Experience Cloudが使用するフレーミングで権限をリクエストするようになりました。これにより、Chromeはサイレントで失敗するのではなく、許可プロンプトを表示できます。 アクセスを許可すると、内部URLは、お使いの環境でサポートされているときにVECに読み込まれる可能性があります。 （TGT-54346）
 
 +++
-
-**概要**
-
-+++詳細を見る
-
-* **概要ページでオーディエンスとエクスペリエンスのフルネームを表示します。**&#x200B;この機能強化により、[!UICONTROL Overview] ページが更新され、オーディエンスとエクスペリエンスの完全な名前が表示されます。 以前は、長い名前は切り捨てられ、完全に表示されていなかったため、ユーザーはトリプルクリックしてすべてのテキストを選択し、完全な名前を表示する必要がありました。 このアップデートにより、完全なオーディエンス名とエクスペリエンス名が表示されるようになり、ユーザーがアクティビティ設定を識別およびレビューしやすくなります。 （TGT-53323）
-
-+++
-
 
 ## その他のリリースノートとバージョンの詳細
 
@@ -71,7 +57,7 @@ ht-degree: 47%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
