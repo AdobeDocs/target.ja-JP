@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
 workflow-type: tm+mt
-source-wordcount: '64864'
+source-wordcount: '64938'
 ht-degree: 68%
 
 ---
@@ -46,6 +46,14 @@ ht-degree: 68%
 +++詳細を見る
 
 * **概要ページでオーディエンスとエクスペリエンスのフルネームを表示します。**&#x200B;この機能強化により、[!UICONTROL Overview] ページが更新され、オーディエンスとエクスペリエンスの完全な名前が表示されます。 以前は、長い名前は切り捨てられ、完全に表示されていなかったため、ユーザーはトリプルクリックしてすべてのテキストを選択し、完全な名前を表示する必要がありました。 このアップデートにより、完全なオーディエンス名とエクスペリエンス名が表示されるようになり、ユーザーがアクティビティ設定を識別およびレビューしやすくなります。 （TGT-53323）
+
++++
+
+**[!UICONTROL Visual Experience Composer]（VEC）**
+
++++詳細を見る
+
+* **VECの変更が、Shadow DOM （Salesforce Lightning Web コンポーネント）を使用しているサイトに反映されない。**&#x200B;この修正プログラムは、Lightning Web コンポーネント （LWC）を使用しているSalesforce ベースのサイトのライブサイトで、Adobe Targetで行われた変更（CTAのカラー変更など）が保存または反映されない問題を解決します。 CMSでは、Target アクティビティからの更新を受け付けていませんでした。この問題は、A/B テストやその他のアクティビティタイプで一貫して発生しました。 （TGT-54059）
 
 +++
 
