@@ -34,7 +34,7 @@ ht-degree: 43%
    * [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) アカウントを所有している場合、*ユーザー*&#x200B;の[役割および権限の指定](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)を参照してください。
    * [Target Premium](/help/main/c-intro/intro.md#premium) アカウントを所有している場合は、*Enterprise ユーザーの権限*&#x200B;で[役割と権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)を参照してください。
 
-* [!DNL Adobe Experience Platform]をレポートソースとして使用して[!DNL Target] アクティビティを設定するには、[!DNL Customer Journey Analytics]の役割に参加してください。 詳しくは、[ データアーキテクトおよびエンジニアチュートリアルの [!DNL Adobe Experience Platform]権限の設定](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}の&#x200B;*役割の追加**を参照してください。*
+* [!DNL Adobe Experience Platform]をレポートソースとして使用して[!DNL Target] アクティビティを設定するには、[!DNL Customer Journey Analytics]の役割に参加してください。 詳しくは、[&#x200B; データアーキテクトおよびエンジニアチュートリアルの [!DNL Adobe Experience Platform]権限の設定](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}の&#x200B;*役割の追加**を参照してください。*
 * 設定に応じて、アクティビティごとまたは組織レベルでレポートを変更できます。詳しくは、*Target でのレポートの設定*&#x200B;で[レポートクラウドソリューション](/help/main/administrating-target/reporting.md#solution)を参照してください。
 * どちらか 1 つのレポートソースを選びます。1 つのアクティビティのデータを複数のレポートソースに収集することはできません。
 * [!DNL Customer Journey Analytics] をレポートソースとして設定すると、レポート用のサンドボックスを指定するよう求められます。 設定時には、アクセスできるサンドボックスのみが表示されます。
@@ -43,13 +43,13 @@ ht-degree: 43%
 
   現在[!DNL Adobe Experience Platform Web SDK]を実装していない場合は、[[!DNL Adobe Analytics]  ソース接続](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)を作成して、データを[!DNL Adobe Experience Platform]に取り込むこともできます。 この方法を使用する場合は、[!DNL Analytics]で使用する[!DNL Adobe Experience Platform] サンドボックスと一緒に[!DNL Customer Journey Analytics] レポートスイートを選択する必要があります。
 
-  レポート設定ダイアログボックスの![ サンドボックスオプション ](/help/main/c-integrating-target-with-mac/cja/assets/aep-sandbox.png)
+  レポート設定ダイアログボックスの![&#x200B; サンドボックスオプション &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/aep-sandbox.png)
 
   >[!NOTE]
   >
   >[!DNL Adobe Analytics] ソース接続を使用している場合、[!DNL Adobe Analytics]と[!DNL Customer Journey Analytics]の両方にレポートがあります。 しかし、両者のアルゴリズムが異なるため、結果が一致する可能性は低くなります。
 
-* タイミングに関するご質問は、[ ガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank}の&#x200B;*よくある質問*&#x200B;の&#x200B;*[!DNL Adobe Customer Analytics]遅延に関する考慮事項*&#x200B;を参照してください。
+* タイミングに関するご質問は、[&#x200B; ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank}の&#x200B;*よくある質問*&#x200B;の&#x200B;*[!DNL Adobe Customer Analytics]遅延に関する考慮事項*&#x200B;を参照してください。
 
 ## サポートされているアクティビティのタイプ {#supported-activities}
 
@@ -73,7 +73,7 @@ ht-degree: 43%
 >
 >また、[!DNL Target]がアカウントで作成されたすべてのアクティビティに[!DNL Customer Journey Analytics]のレポートを使用するように指定することもできます（**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**）。 詳しくは、*レポートの* Reporting Cloud Solution[を参照してください。 [!DNL Target]](/help/main/administrating-target/reporting.md#solution)でレポートを設定します。
 
-1. **[!UICONTROL Activities]** リストから「**[!UICONTROL Create Activity]**」をクリックし、アクティビティの種類（[ サポートされているアクティビティ チャート ](#supported-activities)に従う）を選択して、アクティビティの設定を開始します。
+1. **[!UICONTROL Activities]** リストから「**[!UICONTROL Create Activity]**」をクリックし、アクティビティの種類（[&#x200B; サポートされているアクティビティ チャート &#x200B;](#supported-activities)に従う）を選択して、アクティビティの設定を開始します。
 1. 3部構成のアクティビティ作成ワークフローの&#x200B;**[!UICONTROL Goals & Settings]** ページにアクセスしたら、レポートソースとして「**[!DNL Customer Journey Analytics]**」を選択します。
 
    ![レポートソースとしての Customer Journey Analytics オプション](/help/main/c-integrating-target-with-mac/cja/assets/cja-as-reporting-source.png)
@@ -112,7 +112,7 @@ ht-degree: 43%
 
 1. イベントデータセットを設定します。
 
-   詳細については、[ ガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank}の「*接続の作成*」の「*[!DNL Adobe Customer Journey Analytics]データセットの追加と設定*」を参照してください。
+   詳細については、[&#x200B; ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank}の「*接続の作成*」の「*[!DNL Adobe Customer Journey Analytics]データセットの追加と設定*」を参照してください。
 
 1. [!UICONTROL Key] フィールドを「key」とし、[!UICONTROL Matching] キーフィールドを次のパスに設定して、ルックアップデータセットを設定します。
 
@@ -130,7 +130,7 @@ ht-degree: 43%
 
 1. データビューを設定し、上記で作成した接続をポイントしていることを確認します。
 
-   詳しくは、[ ガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank}の「*[!DNL Adobe Customer Journey Analytics]データビューの作成または編集*」を参照してください。
+   詳しくは、[&#x200B; ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank}の「*[!DNL Adobe Customer Journey Analytics]データビューの作成または編集*」を参照してください。
 
 1. [!DNL Customer Journey Analytics] の [!DNL Target] データを適切に表示するには、ルックアップデータセットから次のフィールドをディメンションとして追加する必要があります。
 
@@ -156,7 +156,7 @@ ht-degree: 43%
 
 「レポート」タブには&#x200B;**[!UICONTROL View in Customer Journey Analytics]** リンクがあります。 現在、このリンクをクリックすると、[!DNL Customer Journey Analytics] ホーム ランディングページに移動します。
 
-![CJA レポート リンク ](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
+![CJA レポート リンク &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
 >[!NOTE]
 >
@@ -168,13 +168,13 @@ ht-degree: 43%
 
 1. [!DNL Customer Journey Analytics]で、実験パネルを作成し、**[!UICONTROL Experiment]** ドロップダウンメニューからアクティビティを選択します。
 
-   詳しくは、[ ガイドの](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}実験パネル *の下の*&#x200B;実験パネル *[!DNL Customer Journey Analytics]*&#x200B;を参照してください。
+   詳しくは、[&#x200B; ガイドの](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}実験パネル *の下の*&#x200B;実験パネル *[!DNL Customer Journey Analytics]*&#x200B;を参照してください。
 
-   Customer Journey Analyticsの![実験パネル ](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
+   Customer Journey Analyticsの![実験パネル &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
    >[!IMPORTANT]
    >
-   >アクティビティが[!UICONTROL Experiment] ドロップダウンリストに表示されない場合は、正しいデータビューが選択されていること、および[!DNL Target] ディメンションに必要なコンテキストラベルが含まれていることを確認します（[ データビューの設定](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}の手順3を参照）。
+   >アクティビティが[!UICONTROL Experiment] ドロップダウンリストに表示されない場合は、正しいデータビューが選択されていること、および[!DNL Target] ディメンションに必要なコンテキストラベルが含まれていることを確認します（[&#x200B; データビューの設定](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}の手順3を参照）。
 
 1. **[!UICONTROL Build]** をクリックします。
 
