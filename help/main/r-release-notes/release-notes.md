@@ -6,11 +6,10 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 53%
+source-wordcount: '378'
+ht-degree: 63%
 
 ---
 
@@ -30,15 +29,14 @@ ht-degree: 53%
 
 詳しくは、[[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 26.3.4（2026年3月19日（PT））
 
-**[!UICONTROL Visual Experience Composer]（VEC）**
+## [!DNL Target Standard/Premium] 26.3.7（2026年3月26日（PT））
+
+**オーディエンス**
 
 +++詳細を見る
 
-* **Visual Experience Composer web エディターに表示されるデザイン/参照モードの選択。**&#x200B;この修正プログラムは、デザイン モード、参照モード、プレビューモードの切り替えが正しく機能したが、アクティブ モードがインターフェイスに明確に表示されない問題を解決します。 選択したモードがハイライト表示され、どのモードになっているかがわかります。 （TGT-54790）
-
-* Visual Experience Composer （Chrome）の&#x200B;**プライベート ネットワーク URL。** Chromeは、ローカルネットワークへのアクセスが許可されていない限り、プライベートネットワーク上のページをブロックできます。 **[!UICONTROL Visual Experience Composer]**&#x200B;は、Experience Cloudが使用するフレーミングで権限をリクエストするようになりました。これにより、Chromeはサイレントで失敗するのではなく、許可プロンプトを表示できます。 アクセスを許可すると、内部URLは、お使いの環境でサポートされているときにVECに読み込まれる可能性があります。 （TGT-54346）
+* オーディエンス インターフェイスで&#x200B;**オーディエンス ソース ラベルの精度。** Adobe Experience PlatformのAdobe Target v2の宛先から来たオーディエンスが、**Adobe Experience Platform**&#x200B;ではなく&#x200B;**Adobe Experience Cloud**&#x200B;をソースとして表示される問題を修正しました。 このアップデートにより、オーディエンスをフィルタリングおよびレビューする際のソースラベルの一貫性が向上します。 （TGT-54802）
 
 +++
 
