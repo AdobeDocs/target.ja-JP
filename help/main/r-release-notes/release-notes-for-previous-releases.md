@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
+source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
 workflow-type: tm+mt
-source-wordcount: '65113'
+source-wordcount: '65169'
 ht-degree: 67%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 67%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2026 年
+
+## [!DNL Target Standard/Premium] 26.3.7（2026年3月26日（PT））
+
+**オーディエンス**
+
++++詳細を見る
+
+* オーディエンス インターフェイスで&#x200B;**オーディエンス ソース ラベルの精度。** Adobe Experience PlatformのAdobe Target v2の宛先から来たオーディエンスが、**Adobe Experience Platform**&#x200B;ではなく&#x200B;**Adobe Experience Cloud**&#x200B;をソースとして表示される問題を修正しました。 このアップデートにより、オーディエンスをフィルタリングおよびレビューする際のソースラベルの一貫性が向上します。 （TGT-54802）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.6（2026年3月23日（PT））
 

@@ -6,10 +6,10 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
+source-git-commit: ada5803424b4930d91dda735901390fe5073932f
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 63%
+source-wordcount: '660'
+ht-degree: 39%
 
 ---
 
@@ -29,16 +29,71 @@ ht-degree: 63%
 
 詳しくは、[[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)を参照してください。
 
+<!--
+## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
 
-## [!DNL Target Standard/Premium] 26.3.7（2026年3月26日（PT））
+**Activities**
+
++++See details
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
++++
+
+-->
+
+## [!DNL Target Standard/Premium] 26.4.1（2026年4月2日（PT））
+
+**アクティビティ**
+
++++詳細を見る
+
+* アクティビティ ビューに&#x200B;**オーディエンス属性が表示されます。** **[!UICONTROL Activity]**&#x200B;から表示されたオーディエンスルールの詳細で、同じオーディエンスを&#x200B;**[!UICONTROL Audiences]** セクションから開いたときに表示された特定の属性が表示されない問題を修正しました。 （TGT-54742）
+
+* **アクティビティとオーディエンスのリストページでCSVを書き出します。** **[!UICONTROL Export CSV]** アクションを追加しました。これにより、日常的な書き出しのAPIのみに依存することなく、フィルターの適用時を含め、ユーザーインターフェイスからアクティビティリストを書き出すことができます。 （TGT-51466）
+
+* **セレクターが見つからない場合、エクスペリエンスの変更がフラグ付けされます。** エクスペリエンスの変更で、セレクターの存在チェックが実行されるようになりました。ページにセレクターが見つからない場合、変更は無効としてフラグ付けされます。 （TGT-54815）
+
+* **[!UICONTROL Automated personalization]件のアクティビティ。**&#x200B;自動パーソナライゼーションアクティビティの作成、編集、管理をユーザーが確実に行うことができず、キャンペーンの設定がブロックされ、パーソナライゼーションのユースケースが遅れる、インターフェイスとアクティビティの読み込みの問題が修正されました。 （TGT-54421）
+
++++
 
 **オーディエンス**
 
 +++詳細を見る
 
-* オーディエンス インターフェイスで&#x200B;**オーディエンス ソース ラベルの精度。** Adobe Experience PlatformのAdobe Target v2の宛先から来たオーディエンスが、**Adobe Experience Platform**&#x200B;ではなく&#x200B;**Adobe Experience Cloud**&#x200B;をソースとして表示される問題を修正しました。 このアップデートにより、オーディエンスをフィルタリングおよびレビューする際のソースラベルの一貫性が向上します。 （TGT-54802）
+* アクティビティからオーディエンスを作成する際に、**オーディエンス名と説明が表示されます。** アクティビティフローからオーディエンスを作成または編集する際に、**[!UICONTROL Name]**&#x200B;の直下にオーディエンスを作成する場合と比較して、オーディエンス **[!UICONTROL Description]**&#x200B;と&#x200B;**[!UICONTROL Audiences]**&#x200B;のフィールドが明確に表示されない問題を修正しました。 （TGT-54837）
 
 +++
+
+**インサイト**
+
++++詳細を見る
+
+* **[!UICONTROL Live Activities]はインサイトを利用しています。** インサイトダッシュボードの&#x200B;**[!UICONTROL Live Activities]**&#x200B;指標が、**[!UICONTROL All Activities]**&#x200B;にライブとして表示されたアクティビティの数よりも多い合計を報告する可能性がある問題を修正しました。 （TGT-54788）
+
++++
+
+**レコメンデーション**
+
++++詳細を見る
+
+* **の[!UICONTROL Global Exclusions]長いID リスト。** **[!UICONTROL Global Exclusions]**&#x200B;のIDの長いリストを貼り付けたり入力したりすると、更新されたインターフェイスでレガシーと比較して切り捨てられる問題を修正し、不完全な除外リストが発生します。 （TGT-54422）
+
++++
+
+**[!UICONTROL Visual Experience Composer]（VEC）**
+
++++詳細を見る
+
+* **の[!UICONTROL Visual Experience Composer]Enhanced Experience Composer （EEC） ステータスインジケーター。** EEC インジケーターは、拡張Experience Composerが有効かどうかを示します。 表示が修正され、インタラクティブではないステータス表示としてのみ機能するため、インタラクティブなトグルに似なくなりました。 （TGT-54828）
+
+* **折りたたみ可能な左側のパネル（[!UICONTROL Visual Experience Composer]）。** アクティビティが編集用に開いている間に、左側のパネルを折りたたむことができるようになりました。 これにより、小さなディスプレイを含め、複数のオーディエンスとページを含むアクティビティの&#x200B;**[!UICONTROL Components]**&#x200B;と&#x200B;**[!UICONTROL Properties]**&#x200B;へのアクセスが改善されます。 （TGT-54269）
+
++++
+
 
 ## その他のリリースノートとバージョンの詳細
 
