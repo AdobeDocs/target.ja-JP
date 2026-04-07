@@ -6,11 +6,10 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: cad8c365028b28bd9349d2d283370e2c8a750180
+source-git-commit: ada5803424b4930d91dda735901390fe5073932f
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 35%
+source-wordcount: '660'
+ht-degree: 39%
 
 ---
 
@@ -30,6 +29,20 @@ ht-degree: 35%
 
 詳しくは、[[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)を参照してください。
 
+<!--
+## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
+
+**Activities**
+
++++See details
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
++++
+
+-->
 
 ## [!DNL Target Standard/Premium] 26.4.1（2026年4月2日（PT））
 
@@ -38,8 +51,6 @@ ht-degree: 35%
 +++詳細を見る
 
 * アクティビティ ビューに&#x200B;**オーディエンス属性が表示されます。** **[!UICONTROL Activity]**&#x200B;から表示されたオーディエンスルールの詳細で、同じオーディエンスを&#x200B;**[!UICONTROL Audiences]** セクションから開いたときに表示された特定の属性が表示されない問題を修正しました。 （TGT-54742）
-
-* **追加のビューに適用すると、カスタムコードが保持されます。**&#x200B;同じ&#x200B;**[!UICONTROL View]**&#x200B;内の別の&#x200B;**[!UICONTROL View]**&#x200B;のカスタムコードを追加または保存する際に、1つの&#x200B;**[!UICONTROL Activity]**&#x200B;に適用されたカスタムコードが削除される問題を修正しました。 （TGT-53933）
 
 * **アクティビティとオーディエンスのリストページでCSVを書き出します。** **[!UICONTROL Export CSV]** アクションを追加しました。これにより、日常的な書き出しのAPIのみに依存することなく、フィルターの適用時を含め、ユーザーインターフェイスからアクティビティリストを書き出すことができます。 （TGT-51466）
 
@@ -83,15 +94,6 @@ ht-degree: 35%
 
 +++
 
-## [!DNL Target Standard/Premium] 26.3.7（2026年3月26日（PT））
-
-**オーディエンス**
-
-+++詳細を見る
-
-* オーディエンス インターフェイスで&#x200B;**オーディエンス ソース ラベルの精度。** Adobe Experience PlatformのAdobe Target v2の宛先から来たオーディエンスが、**Adobe Experience Platform**&#x200B;ではなく&#x200B;**Adobe Experience Cloud**&#x200B;をソースとして表示される問題を修正しました。 このアップデートにより、オーディエンスをフィルタリングおよびレビューする際のソースラベルの一貫性が向上します。 （TGT-54802）
-
-+++
 
 ## その他のリリースノートとバージョンの詳細
 
@@ -108,7 +110,7 @@ ht-degree: 35%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
