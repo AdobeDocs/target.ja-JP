@@ -38,9 +38,9 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
    >
    >上記の手順により、[!UICONTROL Upload CSV] セクションが[!UICONTROL Create Criteria] ダイアログボックスの下部に表示されます。
 
-1. （条件付き）「[ コンテンツをバックアップ ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
+1. （条件付き）「[&#x200B; コンテンツをバックアップ &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
 
-1. （条件付き）「[包含ルール ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
+1. （条件付き）「[包含ルール &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
 
 1. **[!UICONTROL Upload CSV]** セクションで、CSV ファイルの&#x200B;**[!UICONTROL Location]**&#x200B;を選択します。
 
