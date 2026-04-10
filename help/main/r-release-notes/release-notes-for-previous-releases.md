@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
+source-git-commit: ee66ca185cc1d2c4659134d038add2e75026ad0d
 workflow-type: tm+mt
-source-wordcount: '65169'
+source-wordcount: '65505'
 ht-degree: 67%
 
 ---
@@ -22,6 +22,56 @@ ht-degree: 67%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2026 年
+
+## [!DNL Target Standard/Premium] 26.4.1（2026年4月2日（PT））
+
+**アクティビティ**
+
++++詳細を見る
+
+* アクティビティ ビューに&#x200B;**オーディエンス属性が表示されます。** **[!UICONTROL Activity]**&#x200B;から表示されたオーディエンスルールの詳細で、同じオーディエンスを&#x200B;**[!UICONTROL Audiences]** セクションから開いたときに表示された特定の属性が表示されない問題を修正しました。 （TGT-54742）
+
+* **アクティビティ リスト ページでCSVを書き出します。** **[!UICONTROL Export CSV]** アクションを追加しました。これにより、日常的な書き出しのAPIのみに依存することなく、フィルターの適用時を含め、ユーザーインターフェイスからアクティビティリストを書き出すことができます。 （TGT-51466）
+
+* **セレクターが見つからない場合、エクスペリエンスの変更がフラグ付けされます。** エクスペリエンスの変更で、セレクターの存在チェックが実行されるようになりました。ページにセレクターが見つからない場合、変更は無効としてフラグ付けされます。 （TGT-54815）
+
+* **[!UICONTROL Automated personalization]件のアクティビティ。**&#x200B;自動パーソナライゼーションアクティビティの作成、編集、管理をユーザーが確実に行うことができず、キャンペーンの設定がブロックされ、パーソナライゼーションのユースケースが遅れる、インターフェイスとアクティビティの読み込みの問題が修正されました。 （TGT-54421）
+
++++
+
+**オーディエンス**
+
++++詳細を見る
+
+* アクティビティからオーディエンスを作成する際に、**オーディエンス名と説明が表示されます。** アクティビティフローからオーディエンスを作成または編集する際に、**[!UICONTROL Name]**&#x200B;の直下にオーディエンスを作成する場合と比較して、オーディエンス **[!UICONTROL Description]**&#x200B;と&#x200B;**[!UICONTROL Audiences]**&#x200B;のフィールドが明確に表示されない問題を修正しました。 （TGT-54837）
+
++++
+
+**インサイト**
+
++++詳細を見る
+
+* **[!UICONTROL Live Activities]はインサイトを利用しています。** インサイトダッシュボードの&#x200B;**[!UICONTROL Live Activities]**&#x200B;指標が、**[!UICONTROL All Activities]**&#x200B;にライブとして表示されたアクティビティの数よりも多い合計を報告する可能性がある問題を修正しました。 （TGT-54788）
+
++++
+
+**レコメンデーション**
+
++++詳細を見る
+
+* **の[!UICONTROL Global Exclusions]長いID リスト。** **[!UICONTROL Global Exclusions]**&#x200B;のIDの長いリストを貼り付けたり入力したりすると、更新されたインターフェイスでレガシーと比較して切り捨てられる問題を修正し、不完全な除外リストが発生します。 （TGT-54422）
+
++++
+
+**[!UICONTROL Visual Experience Composer]（VEC）**
+
++++詳細を見る
+
+* **の[!UICONTROL Visual Experience Composer]Enhanced Experience Composer （EEC） ステータスインジケーター。** EEC インジケーターは、拡張Experience Composerが有効かどうかを示します。 表示が修正され、インタラクティブではないステータス表示としてのみ機能するため、インタラクティブなトグルに似なくなりました。 （TGT-54828）
+
+* **折りたたみ可能な左側のパネル（[!UICONTROL Visual Experience Composer]）。** アクティビティが編集用に開いている間に、左側のパネルを折りたたむことができるようになりました。 これにより、小さなディスプレイを含め、複数のオーディエンスとページを含むアクティビティの&#x200B;**[!UICONTROL Components]**&#x200B;と&#x200B;**[!UICONTROL Properties]**&#x200B;へのアクセスが改善されます。 （TGT-54269）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7（2026年3月26日（PT））
 
