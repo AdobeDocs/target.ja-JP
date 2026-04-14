@@ -5,7 +5,7 @@ title: Recommendations アクティビティをプレビューして起動する
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 804953ecd9e5d437b513180e3fa632a0fd495ec2
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 15%

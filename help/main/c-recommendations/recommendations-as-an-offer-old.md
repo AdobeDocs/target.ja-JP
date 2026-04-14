@@ -1,30 +1,30 @@
 ---
-keywords: Recommendations;オファー
-description: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティで、オファーとして Adobe Recommendations を使用する方法を説明します。
-title: Recommendations を他のアクティビティタイプでオファーとして使用するにはどうすればよいですか。
+keywords: レコメンデーション;オファー
+description: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティで、オファーとして Adobe レコメンデーションを使用する方法を説明します。
+title: レコメンデーションを他のアクティビティタイプでオファーとして使用するにはどうすればよいですか。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 52%
 
 ---
 
-# オファーとしての Recommendations 
+# オファーとしてのレコメンデーション
 
-[!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）アクティビティおよび [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができるようになりました。
+[!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate]と[!UICONTROL Auto-Target]を含む）および[!UICONTROL Experience Targeting] （XT）アクティビティ内にレコメンデーションを含めることができるようになりました。
 
 この機能により、次のようなことがおこなえるようになります。
 
-* 同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。
-* 複数のレコメンデーションの順序を含め、ページ上のレコメンデーションの配置を簡単に試すことができます。
+* 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
+* 複数のレコメンデーションの順序など、ページ上のレコメンデーションの配置を簡単に試すことができます。
 * [!UICONTROL Auto-Allocate] を使用して、トラフィックをパフォーマンスの高いレコメンデーションエクスペリエンスに自動的にプッシュします。
-* [!UICONTROL Auto-Target] を使用し、プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスへと訪問者を動的に割り当てます。
+* [!UICONTROL Auto-Target]を使用して、プロファイルに基づいて、カスタマイズされたレコメンデーション エクスペリエンスに訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL A/B Test] を使用して [!UICONTROL Experience Targeting] アクティビティまたは [!UICONTROL Visual Experience Composer] アクティビティを作成し、[!UICONTROL Recommend] アクションを使用してエクスペリエンスにレコメンデーションを追加します。
+開始するには、[!UICONTROL A/B Test]を使用して[!UICONTROL Experience Targeting]または[!UICONTROL Visual Experience Composer] アクティビティを作成し、[!UICONTROL Recommend] アクションを使用してエクスペリエンスに推奨事項を追加します。
 
 ## Recommendations をオファーとして A/B テストまたは XT アクティビティに追加する
 
@@ -32,32 +32,32 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) オプションを選択できます。
+   >A/B テストの場合、パフォーマンスが最も高いレコメンデーションにトラフィックを自動的にプッシュする[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされたレコメンデーションエクスペリエンスに動的に割り当てる[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)オプションを選択できます。
 
-1. [&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、「**[!UICONTROL Replace Content]**」（![&#x200B; コンテンツを置換アイコン &#x200B;](/help/main/assets/icons/Switch.svg)）をクリックして、「**[!UICONTROL Recommendation]**」を選択します。
+1. [&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を作成する際に、オファーとしてレコメンデーションを追加する要素をクリックし、**[!UICONTROL Replace Content]** （![&#x200B; コンテンツアイコンを置換](/help/main/assets/icons/Switch.svg)）をクリックしてから、**[!UICONTROL Recommendation]**&#x200B;を選択します。
 
    ![Recommendations をオファーとして挿入](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
-1. 右側の [!UICONTROL Recommendation] パネルで「**[!UICONTROL Select a Recommendation]**」をクリックして、「[!UICONTROL Select Criteria]」ダイアログボックスを表示します。
+1. 右側の[!UICONTROL Recommendation] パネルから、**[!UICONTROL Select a Recommendation]**&#x200B;をクリックして[!UICONTROL Select Criteria] ダイアログボックスを表示します。
 
-1. 「**[!UICONTROL Create Criteria]**」をクリックするか、既存の条件を選択します。
+1. **[!UICONTROL Create Criteria]**&#x200B;をクリックするか、既存の条件を選択してください。
 
-1. （オプション） **[!UICONTROL Filter]** アイコン（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックして次のオプションから選択し、ページタイプ別の一般的なレコメンデーション条件を表示します。
+1. （オプション） **[!UICONTROL Filter]** アイコン （![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックして、次のオプションから選択し、ページのタイプ別に一般的なレコメンデーション条件を表示します。
 
    * 買い物かごページ
    * カテゴリページ
    * ホームページ
    * ランディングページ
-   * 製品紹介ページ
+   * 製品ページ
    * 検索結果ページ
    * 「ありがとうございます」ページ
    * その他
 
-1. 「**[!UICONTROL Create Criteria]**」をクリックするか、既存の [&#x200B; 条件 &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md) を選択し、「**[!UICONTROL Next]**」をクリックして [!UICONTROL Select Design] 定ダイアログボックスを表示します。
+1. **[!UICONTROL Create Criteria]**&#x200B;をクリックするか、既存の[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を選択してから、**[!UICONTROL Next]**&#x200B;をクリックして[!UICONTROL Select Design] ダイアログボックスを表示します。
 
-1. 「**[!UICONTROL Create Design]**」をクリックするか、既存の [&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択して、「**[!UICONTROL &#x200B; Next]**」をクリックします。
+1. **[!UICONTROL Create Design]**&#x200B;をクリックするか、既存の[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択してから、**[!UICONTROL &#x200B; Next]**&#x200B;をクリックします。
 
-1. [!UICONTROL Options] ダイアログボックスで、次の設定を行います。
+1. [!UICONTROL Options] ダイアログボックスで、次の項目を指定します。
 
    * [コレクション](/help/main/c-recommendations/c-products/collections.md)を選択します。
    * 必要に応じて、[プロモーション - 前とプロモーション - 後](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)オプションを設定します。
@@ -65,17 +65,17 @@ ht-degree: 52%
 1. **[!UICONTROL Save]** をクリックします。
 1. 3 ステップのガイドによるワークフローを使用して、A/B テストまたは XT アクティビティの設定を完了します。
 
-## Recommendations オファーの設定の編集
+## レコメンデーションオファーの設定の編集
 
-1. [!UICONTROL Recommendation] パネルで、**[!UICONTROL Edit]**、![、](/help/main/assets/icons/Edit.svg) の横にある [!UICONTROL Criteria Name] アイコン [!UICONTROL Design Name] 編集アイコン [!UICONTROL Collection Name]）をクリックして、要素を変更します。
+1. [!UICONTROL Recommendation] パネルで、**[!UICONTROL Edit]**、![、または](/help/main/assets/icons/Edit.svg)の横にある[!UICONTROL Criteria Name] アイコン（[!UICONTROL Design Name]編集アイコン [!UICONTROL Collection Name]）をクリックして、要素を変更します。
 
-## Recommendations オファーの削除
+## レコメンデーションオファーの削除
 
-1. **[!UICONTROL Delete]** パネルの上部にある ![&#x200B; アイコン &#x200B;](/help/main/assets/icons/Delete.svg) 削除アイコン [!UICONTROL Recommendation]）をクリックします。
+1. **[!UICONTROL Delete]** パネルの上部にある![&#x200B; アイコン（](/help/main/assets/icons/Delete.svg)削除アイコン [!UICONTROL Recommendation]）をクリックします。
 
-### Recommendations オファーのステータスの表示 {#status}
+### レコメンデーションオファーのステータスの表示 {#status}
 
-Recommendations オファー（アルゴリズム）ステータスは、A/B テストと、Recommendations オファーを含む XT アクティビティについて、アクティビティの [!UICONTROL Overview] ページの下部に表示されます。
+Recommendations オファー（アルゴリズム）のステータスは、A/B テストおよびRecommendations オファーを含むXT アクティビティのアクティビティの[!UICONTROL Overview] ページの下部に表示されます。
 
 * 結果の準備ができました
 * 結果の準備ができていません
