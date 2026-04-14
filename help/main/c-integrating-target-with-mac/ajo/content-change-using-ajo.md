@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を強調表示します。 [!DNL Journey Optimizer] web デザイナーで利用できるオプションについて詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}の&#x200B;*web デザイナーの操作*&#x200B;を参照してください。
+>この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を強調表示します。 [!DNL Journey Optimizer] web デザイナーで利用できるオプションについて詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}の&#x200B;*web デザイナーの操作*&#x200B;を参照してください。
 >
 >特にページ下部の動画が役立ちます。
 
@@ -58,17 +58,17 @@ ht-degree: 1%
 
    web設定（チャネルサーフェス）は、システム管理者が定義する設定です。 Web設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれます。
 
-   詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}の「*チャネルサーフェスの設定*」を参照してください。
+   詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}の「*チャネルサーフェスの設定*」を参照してください。
 
 1. **[!UICONTROL Action]** セクションで、**[!UICONTROL Edit Content]**&#x200B;をクリックして、[!DNL Journey Optimizer] web デザイナーでweb サイトを開きます。
 
    A/B テストには、2つ以上の実験が必要です。 既存のホームページを最初の実験として使用できます。 以降の手順では、2回目の実験を設定する方法を説明します。
 
-   LUMA web サイトの![ ヨガランディングページ ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+   LUMA web サイトの![&#x200B; ヨガランディングページ &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
 1. どのコンテンツがより効果的かを判断するための実験を作成するには、**[!UICONTROL Create Experiment]**&#x200B;をクリックします。
 
-   コンテンツの検証により、メッセージのコンテンツ、件名、送信者を変更して、複数の処理を定義し、オーディエンスに最適な組み合わせを決定できます。 詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}の「*コンテンツ実験の作成*」を参照してください。
+   コンテンツの検証により、メッセージのコンテンツ、件名、送信者を変更して、複数の処理を定義し、オーディエンスに最適な組み合わせを決定できます。 詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}の「*コンテンツ実験の作成*」を参照してください。
 
 1. 成功指標を選択し、「アクション」をクリックします。
 
@@ -86,27 +86,27 @@ ht-degree: 1%
 
 1. 右側のパネルで「**[!UICONTROL Edit Web Page]**」をクリックします。
 
-   ![ ヨガランディングページのコンテンツページを編集](/help/main/c-integrating-target-with-mac/ajo/assets/edit-yoga-page.png)
+   ![&#x200B; ヨガランディングページのコンテンツページを編集](/help/main/c-integrating-target-with-mac/ajo/assets/edit-yoga-page.png)
 
 1. ヒーロー画像を変更するには、変更する画像をクリックし、**[!UICONTROL Choose Image]** ボタンをクリックします。
 
-   ![画像を選択ボタン ](/help/main/c-integrating-target-with-mac/ajo/assets/choose-image.png)
+   ![画像を選択ボタン &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/choose-image.png)
 
 1. 目的の画像を参照して選択し、**[!UICONTROL Use This Image]**&#x200B;をクリックします。
 
-   ![ ヨガページに新しいヒーロー画像](/help/main/c-integrating-target-with-mac/ajo/assets/new-hero-image.png)
+   ![&#x200B; ヨガページに新しいヒーロー画像](/help/main/c-integrating-target-with-mac/ajo/assets/new-hero-image.png)
 
 1. プロファイル属性を使用してユーザーのファーストネームでメッセージをパーソナライズするには、パーソナライズするテキストをクリックし、**[!UICONTROL Add Personalization]**&#x200B;をクリックして[!UICONTROL Add Personalization] ページを表示します。
 
    ![Personalization ボタンを追加します。](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   プロファイル属性について詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}の「*パーソナライゼーションエディターの基本を学ぶ*」を参照してください。
+   プロファイル属性について詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}の「*パーソナライゼーションエディターの基本を学ぶ*」を参照してください。
 
 1. 「+」記号を検索してクリックし、「名」プロファイル属性を追加し、必要に応じてテキストを調整してから「**[!UICONTROL Save]**」をクリックします。
 
    ![名前](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)のプロファイル属性を追加
 
-   詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}の「*パーソナライゼーションエディターの基本を学ぶ*」を参照してください。
+   詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}の「*パーソナライゼーションエディターの基本を学ぶ*」を参照してください。
 
 1. 左上隅の後向き矢印をクリックして、web デザイナーに戻ります。
 
@@ -121,9 +121,9 @@ ht-degree: 1%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}の「*新しいレポートインターフェイスの基本を学ぶ*」を参照してください。
+詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}の「*新しいレポートインターフェイスの基本を学ぶ*」を参照してください。
 
 >[!MORELIKETHIS]
 >
->[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}のweb デザイナー&#x200B;*の操作*
->[](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer チュートリアル *でキャンペーン*&#x200B;を作成
+>[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}のweb デザイナー&#x200B;*の操作*
+>[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer チュートリアル *でキャンペーン*&#x200B;を作成

@@ -29,23 +29,23 @@ ht-degree: 1%
 
 [!DNL AI Assistant]を使用して魅力的なテキストを生成するには：
 
-1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) （VEC）内から、VEC UIの右側のパネルにある&#x200B;**[!UICONTROL Show Content Assistant]** （![ コンテンツアシスタントアイコン ](/help/main/assets/icons/MagicWand.svg)）アイコンをクリックします。
+1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) （VEC）内から、VEC UIの右側のパネルにある&#x200B;**[!UICONTROL Show Content Assistant]** （![&#x200B; コンテンツアシスタントアイコン &#x200B;](/help/main/assets/icons/MagicWand.svg)）アイコンをクリックします。
 
-   ![ コンテンツアシスタントアイコンを表示](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
+   ![&#x200B; コンテンツアシスタントアイコンを表示](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
 1. [!DNL AI Assistant]を使用して昇格するテキスト要素をクリックします。
 
    例えば、ヒーローテキストを変更するには、「次の休暇を計画」をクリックしてテキストオプションを表示します。
 
-   ![ テキスト設定ペイン ](/help/main/c-intro/assets/ai-text-settings.png)
+   ![&#x200B; テキスト設定ペイン &#x200B;](/help/main/c-intro/assets/ai-text-settings.png)
 
-1. （オプション） **フルスクリーンアイコン** （![ フルスクリーンアイコン ](/help/main/assets/icons/FullScreen.svg)）をクリックして、[!DNL AI Assistant]を展開します。
+1. （オプション） **フルスクリーンアイコン** （![&#x200B; フルスクリーンアイコン &#x200B;](/help/main/assets/icons/FullScreen.svg)）をクリックして、[!DNL AI Assistant]を展開します。
 
 1. **[!UICONTROL Prompt]** ボックスに、生成するテキストを記述します。
 
    たとえば、季節ごとのバケーションセールには、「期間限定の夏休みセールを広告する魅力的なヒーローテキストを書く」と入力するとします。
 
-   以下の[ バリエーションの例](#variations)を参照して、[!DNL AI Assistant]がシンプルなプロンプトをどのように魅力的で長い形式の広告コピーに変換し、エキサイティングなニューヨークの冒険を実現するかを確認してください。
+   以下の[&#x200B; バリエーションの例](#variations)を参照して、[!DNL AI Assistant]がシンプルなプロンプトをどのように魅力的で長い形式の広告コピーに変換し、エキサイティングなニューヨークの冒険を実現するかを確認してください。
 
 1. **[!UICONTROL Text Settings]** アイコンをクリックして、テキストのトーンとコミュニケーション戦略を指定します。
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **トーン**: テキストのトーンは、オーディエンスの心に響くものでなければなりません。 有益で、刺激的で、遊び心があり、説得力のあるメッセージを表示したい場合でも、[!DNL AI Assistant]はメッセージを適切に調整できます。
 
-     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]および[!UICONTROL Conversational]が含まれます。
+     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling]および[!UICONTROL Conversational]が含まれます。
 
 1. スライダーを使用して、テキストの長さを短くする長さを選択します。
 
@@ -67,21 +67,21 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL Generate]**」をクリックして、テキストのバリエーションのリストを作成します。
 
-   ![AI アシスタントのテキストのバリエーション ](/help/main/c-intro/assets/ai-variations-text.png)
+   ![AI アシスタントのテキストのバリエーション &#x200B;](/help/main/c-intro/assets/ai-variations-text.png)
 
 1. **[!UICONTROL Apply]**&#x200B;をクリックして、目的のテキストバリエーションを選択します。
 
    **[!UICONTROL Preview]**&#x200B;をクリックして、様々なバリエーションを表示することもできます。 目的のバリエーションをクリックし、**[!UICONTROL Select]**&#x200B;をクリックします。
 
-   生成されたテキストを含む![AI アシスタント ](/help/main/c-intro/assets/ai-text-done.png)
+   生成されたテキストを含む![AI アシスタント &#x200B;](/help/main/c-intro/assets/ai-text-done.png)
 
-1. （条件付き）変更を元に戻すには、[!UICONTROL Undo] アイコン（![取り消しアイコン ](/help/main/assets/icons/Undo.svg)）をクリックします。
+1. （条件付き）変更を元に戻すには、[!UICONTROL Undo] アイコン（![取り消しアイコン &#x200B;](/help/main/assets/icons/Undo.svg)）をクリックします。
 
 1. （オプション） [!DNL AI Assistant]にフィードバックを提供します。
 
-   * サムズアップアイコン（![ サムズアップ ](/help/main/assets/icons/ThumbUp.svg)）をクリックして、[!DNL AI Assistant]にバリエーションが気に入っていることを伝えます。
-   * 下の親指（![下の親指アイコン ](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、[!DNL AI Assistant]にバリエーションが気に入らないことを伝えます。
-   * [!UICONTROL Report Results] （![結果を報告アイコン ](/help/main/assets/icons/Flag.svg)）アイコンをクリックして、問題を[!DNL AI Assistant]に報告します。
+   * サムズアップアイコン（![&#x200B; サムズアップ &#x200B;](/help/main/assets/icons/ThumbUp.svg)）をクリックして、[!DNL AI Assistant]にバリエーションが気に入っていることを伝えます。
+   * 下の親指（![下の親指アイコン &#x200B;](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、[!DNL AI Assistant]にバリエーションが気に入らないことを伝えます。
+   * [!UICONTROL Report Results] （![結果を報告アイコン &#x200B;](/help/main/assets/icons/Flag.svg)）アイコンをクリックして、問題を[!DNL AI Assistant]に報告します。
 
 ## バリエーションの例 {#variations}
 
