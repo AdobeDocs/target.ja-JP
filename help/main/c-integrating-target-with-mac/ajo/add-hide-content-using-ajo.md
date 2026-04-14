@@ -1,13 +1,13 @@
 ---
-keywords: 最適化；パーソナライゼーション；adobe journey optimizer;ajo；ユースケース；シナリオ；コンテンツを追加；コンテンツを非表示；コンポーネントを追加；コンポーネントを非表示
-description: ' [!DNL Adobe Journey Optimizer] を使用して、web ページ上のコンポーネントを追加または非表示にする方法を説明します。'
-title: ' [!DNL Adobe Journey Optimizer] の場所で Web ページにコンポーネントを追加または非表示にします。'
+keywords: 最適化；パーソナライゼーション；adobe journey optimizer;ajo；ユースケース；シナリオ；コンテンツの追加；コンテンツの非表示；コンポーネントの追加；コンポーネントの非表示
+description: ' [!DNL Adobe Journey Optimizer]を使用してweb ページでコンポーネントを追加または非表示にする方法について説明します。'
+title: Web ページへのコンポーネントの追加または非表示 [!DNL Adobe Journey Optimizer]
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 2%
@@ -16,84 +16,84 @@ ht-degree: 2%
 
 # Web ページへのコンポーネントの追加または非表示
 
-このユースケースは、[!DNL Adobe Journey Optimizer] でコンテンツの変更を効果的に A/B テストするための秘密鍵のロックを解除するのに役立ちます。
+このユースケースは、[!DNL Adobe Journey Optimizer]で効果的なA/B テスト コンテンツの変更を行うための秘密を解き放つのに役立ちます。
 
-このユースケースでは、[&#x200B; の代わりに &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) を使用して、[!DNL Journey Optimizer]A/B テスト アクティビティ [!DNL Adobe Target] による A/B テストなど、使い慣れたタスクを実行する方法を示します。
+この使用例では、[ではなく](/help/main/c-activities/t-test-ab/test-ab.md)を使用して、[!DNL Journey Optimizer]A/B テストアクティビティ [!DNL Adobe Target]を使用したA/B テストなどの使い慣れたタスクを実行する方法を示します。
 
-このユースケースは、[!DNL Adobe Target]、[A/B テスト アクティビティ &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) を使用した A/B テストを使用し、[!DNL Journey Optimizer] を使用して、実行した可能性のある使い慣れたタスクを実行する方法を示すように設計されています。
+このユースケースは、[!DNL Adobe Target]、[A/B テストアクティビティ ](/help/main/c-activities/t-test-ab/test-ab.md)を使用したA/B テスト、[!DNL Journey Optimizer]を使用したA/B テストを使用して実行した可能性のある、使い慣れたタスクを実行する方法を示すように設計されています。
 
-## メリットと価値
+## 利点と価値
 
-* **ユーザーエンゲージメントの向上**：プロモーションなどの関連情報をハイライト表示する最適化されたページデザインでユーザーの注意を引きます。
-* **検出性の向上**：新しいコンポーネントやコンテンツを web またはモバイルアプリに戦略的に配置して、アクションを合理化し、ナビゲーションを強化します。
-* **追加のタッチポイントを増やす**：コンバージョンイベントと目標に向けてユーザーを効果的に導き、ビジネスに与える影響を加速します。
+* **ユーザーエンゲージメントの強化**：最適化されたページデザインで、プロモーションなどの関連情報を強調して、ユーザーの注目を集めます。
+* **見つけやすさの向上**:webまたはモバイルアプリに新しいコンポーネントまたはコンテンツを戦略的に配置して、アクションを合理化し、ナビゲーションを強化します。
+* **顧客接点を増やす**: ユーザーをコンバージョンイベントと目標に効果的に導き、ビジネスへの影響を加速させます。
 
 ## 考えられるシナリオ
 
-* ある金融サービス企業は、ホームページに新しいタイルを追加して、ローン計算ツールにすばやくアクセスし、検索時間を短縮し、ローン申し込みを強化する予定です。
+* ある金融サービス企業は、ホームページに新しいタイルを追加し、ローン計算機にすばやくアクセスできるようにして、検索時間を短縮し、ローンの申し込みを増やす予定です。
 
-* あるアパレル会社は、web ページに新しい「call-to-action」ボタンを追加し、コンバージョンを向上させました。
+* あるアパレル企業は、web ページに新しい「call-to-action」ボタンを追加することで、コンバージョン率を向上させました。
 
 ## 手順
 
 >[!NOTE]
 >
->この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を重点的に説明します。 [!DNL Journey Optimizer] Web Designer で使用可能なオプションについて詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}Web Designer の操作 *を参照してください*。
+>この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を強調表示します。 [!DNL Journey Optimizer] web デザイナーで利用できるオプションについて詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}の&#x200B;*web デザイナーの操作*&#x200B;を参照してください。
 >
->ページ下部のビデオは特に役立ちます。
+>特にページ下部の動画が役立ちます。
 
-次の手順を実行して、コンポーネントを追加するか、web ページ上のコンポーネントを非表示にします。
+Web ページでコンポーネントを追加または非表示にするには、次の手順を実行します。
 
-1. [!DNL Adobe Journey Optimizer] で、左側のパネルから **キャンペーン** をクリックして、[!UICONTROL Campaigns] のページを表示します。
+1. [!DNL Adobe Journey Optimizer]で、左側のパネルの&#x200B;**キャンペーン**&#x200B;をクリックして、[!UICONTROL Campaigns] ページを表示します。
 
-   ![&#x200B; 「キャンペーン」タブがハイライト表示されたAdobe Journey Optimizerランディングページ &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+   「キャンペーン」タブが強調表示された![Adobe Journey Optimizer ランディングページ。](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
 1. **[!UICONTROL Create Campaign]** ページの右上隅にある「[!UICONTROL Campaigns]」をクリックします。
 
-1. 「**[!UICONTROL Scheduled - Marketing]**」（デフォルト）を選択し、「**作成** をクリックして、[!UICONTROL Campaign] の詳細ページを表示します。
+1. **[!UICONTROL Scheduled - Marketing]** （デフォルト）を選択し、**作成**&#x200B;をクリックして、[!UICONTROL Campaign]の詳細ページを表示します。
 
-   ![Adobe Journey Optimizerのキャンペーン詳細ページ &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
+   Adobe Journey Optimizerの![ キャンペーンの詳細ページ ](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. 「**[!UICONTROL Properties]**」セクションでは、キャンペーンのわかりやすい名前と説明（オプション）を入力します。
+1. 「**[!UICONTROL Properties]**」セクションで、キャンペーンの説明的な名前とオプションの説明を入力します。
 
-1. （条件付き） **[!UICONTROL Audience]** のセクションで、「**[!UICONTROL Select Audience]**」をクリックして目的のオーディエンスを選択します。
+1. （条件付き） **[!UICONTROL Audience]** セクションで、**[!UICONTROL Select Audience]**&#x200B;をクリックし、目的のオーディエンスを選択します。
 
-   この使用例では、[!UICONTROL All Visitors] のキャンペーン（デフォルト）をアクティブ化できます。
+   このユースケースでは、[!UICONTROL All Visitors]のキャンペーンをアクティブ化できます（デフォルト）。
 
-1. 「**[!UICONTROL Action]**」セクションで、「**[!UICONTROL Web]**」ドロップダウンリストから「**[!UICONTROL Action]**」を選択し、新しい web 設定を選択または作成します。
+1. **[!UICONTROL Action]** セクションで、**[!UICONTROL Web]** ドロップダウンリストから&#x200B;**[!UICONTROL Action]**&#x200B;を選択し、新しいweb設定を選択または作成します。
 
-   Web 設定（チャネルサーフェス）は、システム管理者が定義する設定です。 Web 設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。
+   web設定（チャネルサーフェス）は、システム管理者が定義する設定です。 Web設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれます。
 
-   詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} チャネルサーフェスの設定 *を参照してください*。
+   詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}の「*チャネルサーフェスの設定*」を参照してください。
 
-1. [**[!UICONTROL Action]**] セクションの [**[!UICONTROL Edit Content]**] をクリックして、[!DNL Journey Optimizer] Web Designer で Web サイトを開きます。
+1. **[!UICONTROL Action]** セクションで、**[!UICONTROL Edit Content]**&#x200B;をクリックして、[!DNL Journey Optimizer] web デザイナーでweb サイトを開きます。
 
-   ![LUMA web サイトの Yoga ランディングページ &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+   LUMA web サイトの![ ヨガランディングページ ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 要素の非表示を追加するには、右側のパネルで「**[!UICONTROL Edit Web Page]**」をクリックします。
+1. 要素を非表示にするには、右側のパネルで「**[!UICONTROL Edit Web Page]**」をクリックします。
 
-1. 非表示にする要素をクリックし、右側のパネルの「[!UICONTROL Hide]」ボタンをクリックします。
+1. 非表示にする要素をクリックし、右側のパネルの[!UICONTROL Hide] ボタンをクリックします。
 
    右側のパネルには、選択した要素に対して実行できるオプションが表示されます。 これらのオプションは、選択した要素によって異なります。
 
-   ![&#x200B; 要素を非表示ボタン &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
+   ![要素ボタンを非表示](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
-1. 左上隅の戻る矢印をクリックして、web デザイナーに戻ります。
+1. 左上隅の後向き矢印をクリックして、web デザイナーに戻ります。
 
-   ![&#x200B; 左向き矢印 &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
+   ![戻る矢印](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. 「**[!UICONTROL Review to Activate]**」をクリックして、すべてが期待どおりに表示されることを確認してから、「**アクティブ化**」をクリックします。
+1. **[!UICONTROL Review to Activate]**&#x200B;をクリックし、すべてが期待どおりに表示されることを確認してから、**アクティブ化**&#x200B;をクリックします。
 
 ## レポートを表示
 
-「[!UICONTROL Reports]」ボタンをクリックしてから、目的のレポート期間をクリックします。
+「[!UICONTROL Reports]」ボタンをクリックし、目的のレポート期間をクリックします。
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-詳しくは、[Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} 新しいレポートインターフェイスの概要 *を参照してください*。
+詳しくは、[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}の「*新しいレポートインターフェイスの基本を学ぶ*」を参照してください。
 
 >[!MORELIKETHIS]
 >
->[Web デザイナーの操作 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}、*Journey Optimizer ドキュメント*
->[キャンペーンの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} *Journey Optimizer チュートリアル*
+>[Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}のweb デザイナー&#x200B;*の操作*
+>[](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer チュートリアル *でキャンペーン*&#x200B;を作成

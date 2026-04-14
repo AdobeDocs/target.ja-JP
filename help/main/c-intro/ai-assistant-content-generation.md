@@ -1,103 +1,103 @@
 ---
-keywords: ai アシスタント；人工知能アシスタント；コンテンツ生成；コンテンツアクセラレーター；コンテンツ生成；コンテンツの生成
-description: ' [!DNL AI Assistant] を使用して魅力的なコンテンツを生成する方法を説明します。'
-title: ' [!DNL AI Assistant] in [!DNL Target]  を使用して魅力的なコンテンツを生成する方法'
+keywords: ai アシスタント；ai アシスタント；コンテンツ生成；コンテンツアクセラレーター；コンテンツ生成；コンテンツ生成
+description: ' [!DNL AI Assistant]で魅力的なコンテンツを生成する方法について説明します。'
+title: ' [!DNL AI Assistant] in [!DNL Target] を使用して魅力的なコンテンツを生成するにはどうすればよいですか？'
 feature: Overview
-badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
-# コンテンツ生成に [!DNL AI Assistant] の [!DNL Adobe Target] を使用
+# [!DNL AI Assistant]の[!DNL Adobe Target]をコンテンツ生成に使用
 
-[!DNL Adobe Target] を使用して、エンゲージメントとコンバージョン [!DNL AI Assistant] 促進します。 ジェネレーティブ AI を活用して、オーディエンスの共感を呼び、アクティビティ コンテンツを強化する、パーソナライズされた効果的なテキストを作成します。
+[!DNL Adobe Target]さんと[!DNL AI Assistant]のエンゲージメントとコンバージョンを促進します。 生成AIを活用して、オーディエンスの共感を呼び、アクティビティやコンテンツを向上させる、パーソナライズされたインパクトの大きいテキストを作成します。
 
 ## 前提条件
 
-1. [&#x200B; の有効化  [!DNL Adobe Experience Platform] [!DNL AI Assistant] で前提条件のタスクを完了していることを確認し  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) ください。
+1. 前提条件となるタスクが[で完了したことを確認します。 [!DNL Adobe Experience Platform] [!DNL AI Assistant]を [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)で有効にします。
 
    * 組織はまず法的条件に同意する必要があります。 詳しくは、Adobe アカウントチームにお問い合わせください。
-   * 管理者から、[!DNL AI Assistant] にアクセスするための十分な権限を付与してもらう必要があります。
+   * 管理者は、[!DNL AI Assistant]にアクセスするための十分な権限を付与する必要があります。
 
 ## テキストを生成
 
-[!DNL AI Assistant] を使用して魅力的なテキストを生成するには：
+[!DNL AI Assistant]を使用して魅力的なテキストを生成するには：
 
-1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) （VEC）内から、VEC UI の右側のパネルにある **[!UICONTROL Show Content Assistant]** ール ![&#x200B; コンテンツアシスタントアイコンを表示 &#x200B;](/help/main/assets/icons/MagicWand.svg)）アイコンをクリックします。
+1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) （VEC）内から、VEC UIの右側のパネルにある&#x200B;**[!UICONTROL Show Content Assistant]** （![ コンテンツアシスタントアイコン ](/help/main/assets/icons/MagicWand.svg)）アイコンをクリックします。
 
-   ![Content Assistant アイコンを表示 &#x200B;](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
+   ![ コンテンツアシスタントアイコンを表示](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
-1. [!DNL AI Assistant] を使用して昇格させるテキスト要素をクリックします。
+1. [!DNL AI Assistant]を使用して昇格するテキスト要素をクリックします。
 
-   例えば、ヒーローテキストを変更するには、「次の移行を計画」をクリックして、テキストオプションを表示します。
+   例えば、ヒーローテキストを変更するには、「次の休暇を計画」をクリックしてテキストオプションを表示します。
 
-   ![&#x200B; テキスト設定ペイン &#x200B;](/help/main/c-intro/assets/ai-text-settings.png)
+   ![ テキスト設定ペイン ](/help/main/c-intro/assets/ai-text-settings.png)
 
-1. （任意） **フルスクリーンアイコン** （![&#x200B; フルスクリーンアイコン &#x200B;](/help/main/assets/icons/FullScreen.svg)）をクリックして展開 [!DNL AI Assistant] ます。
+1. （オプション） **フルスクリーンアイコン** （![ フルスクリーンアイコン ](/help/main/assets/icons/FullScreen.svg)）をクリックして、[!DNL AI Assistant]を展開します。
 
-1. **[!UICONTROL Prompt]** ボックスに、生成するテキストを入力します。
+1. **[!UICONTROL Prompt]** ボックスに、生成するテキストを記述します。
 
-   例えば、季節限定の夏休みのセールには、「夏物セールを宣伝する魅力的なヒーローテキストを書く」と入力します。
+   たとえば、季節ごとのバケーションセールには、「期間限定の夏休みセールを広告する魅力的なヒーローテキストを書く」と入力するとします。
 
-   シンプルなプロンプトを魅力的で長 [&#x200B; 形式の広告コピーに変換して、エキサイティングな NYC アドベンチャーを実現する方法については、以下の &#x200B;](#variations) バリエーションの例 [!DNL AI Assistant] を参照してください。
+   以下の[ バリエーションの例](#variations)を参照して、[!DNL AI Assistant]がシンプルなプロンプトをどのように魅力的で長い形式の広告コピーに変換し、エキサイティングなニューヨークの冒険を実現するかを確認してください。
 
 1. **[!UICONTROL Text Settings]** アイコンをクリックして、テキストのトーンとコミュニケーション戦略を指定します。
 
-   * **コミュニケーション方法**：生成テキストに最適なコミュニケーションスタイルを選択します。
+   * **コミュニケーション戦略**：生成したテキストに最適なコミュニケーション スタイルを選択します。
 
-     オプションには、[!UICONTROL None]、[!UICONTROL Urgent]、[!UICONTROL FOMO] （欠落恐怖）、[!UICONTROL Social Proof]、[!UICONTROL Scarcity]、[!UICONTROL Incentive]、[!UICONTROL Exclusivity]、[!UICONTROL Gameification]、[!UICONTROL Informative] および [!UICONTROL Education & Insights] があります。
+     オプションには、[!UICONTROL None]、[!UICONTROL Urgent]、[!UICONTROL FOMO] （見落としを恐れる）、[!UICONTROL Social Proof]、[!UICONTROL Scarcity]、[!UICONTROL Incentive]、[!UICONTROL Exclusivity]、[!UICONTROL Gameification]、[!UICONTROL Informative]および[!UICONTROL Education & Insights]が含まれます。
 
-   * **言語**：テキストに必要な言語を選択します。
+   * **言語**: テキストに使用する言語を選択します。
 
-     [!DNL AI Assistant] は現在、英語でのみ利用できます。
+     [!DNL AI Assistant]は現在英語でのみ利用できます。
 
-   * **トーン**：テキストのトーンは、オーディエンスの共感を呼ぶはずです。 有益な情報を伝えたい、エキサイティングな内容を伝えたい、遊び心がある、説得力がある内容を伝えたいなど、目的に応じてメッセージを調整で [!DNL AI Assistant] ます。
+   * **トーン**: テキストのトーンは、オーディエンスの心に響くものでなければなりません。 有益で、刺激的で、遊び心があり、説得力のあるメッセージを表示したい場合でも、[!DNL AI Assistant]はメッセージを適切に調整できます。
 
-     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling] および [!UICONTROL Conversational] があります。
+     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]および[!UICONTROL Conversational]が含まれます。
 
-1. スライダーを使用して、テキストの長さを短くしたり長くしたりできます。
+1. スライダーを使用して、テキストの長さを短くする長さを選択します。
 
-1. （任意）「**[!UICONTROL Brand Assets]**」をクリックして、生成中に追加のコンテンツコンテキストのブランドアセットをアップロードまたは切り替えます。
+1. （オプション） **[!UICONTROL Brand Assets]**&#x200B;をクリックして、生成中に追加のコンテンツコンテキスト用のブランドアセットをアップロードまたは切り替えます。
 
-1. 「**[!UICONTROL Generate]**」をクリックして、テキストバリエーションのリストを作成します。
+1. 「**[!UICONTROL Generate]**」をクリックして、テキストのバリエーションのリストを作成します。
 
-   ![AI アシスタントのテキストのバリエーション &#x200B;](/help/main/c-intro/assets/ai-variations-text.png)
+   ![AI アシスタントのテキストのバリエーション ](/help/main/c-intro/assets/ai-variations-text.png)
 
-1. 「**[!UICONTROL Apply]**」をクリックして、目的のテキストバリエーションを選択します。
+1. **[!UICONTROL Apply]**&#x200B;をクリックして、目的のテキストバリエーションを選択します。
 
-   「**[!UICONTROL Preview]**」をクリックして、様々なバリエーションを表示することもできます。 目的のバリエーションをクリックし、「**[!UICONTROL Select]**」をクリックします。
+   **[!UICONTROL Preview]**&#x200B;をクリックして、様々なバリエーションを表示することもできます。 目的のバリエーションをクリックし、**[!UICONTROL Select]**&#x200B;をクリックします。
 
-   ![&#x200B; 生成テキストを使用した AI アシスタント &#x200B;](/help/main/c-intro/assets/ai-text-done.png)
+   生成されたテキストを含む![AI アシスタント ](/help/main/c-intro/assets/ai-text-done.png)
 
-1. （条件付き） [!UICONTROL Undo] 動アイコン（取り消しアイコン ![）をクリックして &#x200B;](/help/main/assets/icons/Undo.svg) 変更を元に戻します。
+1. （条件付き）変更を元に戻すには、[!UICONTROL Undo] アイコン（![取り消しアイコン ](/help/main/assets/icons/Undo.svg)）をクリックします。
 
-1. （任意） [!DNL AI Assistant] ーザーにフィードバックを提供します。
+1. （オプション） [!DNL AI Assistant]にフィードバックを提供します。
 
-   * サムズアップアイコン（![&#x200B; サムズアップ &#x200B;](/help/main/assets/icons/ThumbUp.svg)）をクリックすると、バリエーションが気に入 [!DNL AI Assistant] ていることが表示されます。
-   * サムズダウン （![&#x200B; サムズダウンアイコン &#x200B;](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、バリエーションが気に入らないことを [!DNL AI Assistant] に知らせます。
-   * [!UICONTROL Report Results] （結果を報告アイコン ![&#x200B; アイコンをクリック &#x200B;](/help/main/assets/icons/Flag.svg) て、問題を [!DNL AI Assistant] に報告します。
+   * サムズアップアイコン（![ サムズアップ ](/help/main/assets/icons/ThumbUp.svg)）をクリックして、[!DNL AI Assistant]にバリエーションが気に入っていることを伝えます。
+   * 下の親指（![下の親指アイコン ](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、[!DNL AI Assistant]にバリエーションが気に入らないことを伝えます。
+   * [!UICONTROL Report Results] （![結果を報告アイコン ](/help/main/assets/icons/Flag.svg)）アイコンをクリックして、問題を[!DNL AI Assistant]に報告します。
 
 ## バリエーションの例 {#variations}
 
-ヒーローテキストの変更は、ほんの始まりにすぎません。 [!DNL AI Assistant] in [!DNL Target] を使用すると、基本的な編集に限定されません。 エクスペリエンス全体でコンテンツを作成、調整、昇格させる権限が付与されます。 バリエーションのブレーンストーミング、メッセージの最適化、その場での新しいコピーの生成など、[!DNL AI Assistant] はジェネレーティブ AI の力を活用して、説得力のある、インパクトの高いコンテンツを数秒で作成できます。
+ヒーローテキストの変更は始まりに過ぎません。 [!DNL AI Assistant]の[!DNL Target]では、基本的な編集に限定されません。 エクスペリエンス全体をまたいで、コンテンツを制作、洗練、向上させる力を手に入れましょう。 バリエーションのブレインストーミングから、メッセージの最適化、新しいコピーの生成に至るまで、[!DNL AI Assistant]は生成AIのパワーを活用して、魅力的でインパクトの大きいコンテンツを数秒で作成することができます。
 
-次のプロンプトとバリエーションは、[!DNL AI Assistant] のパワーを示しています。
+次のプロンプトとバリエーションは、[!DNL AI Assistant]の機能を示しています。
 
-**[!UICONTROL Prompt]**：主要な目的地を訪問するためにニューヨークへ 3 日間の旅行のために魅力的な広告を書いてください。
-**[!UICONTROL Text Settings]**: FOMO、英語、説得力、Medium length。
-* **[!UICONTROL Variation 1]**: 3 日間の特別な旅行でニューヨークの魔法を発見しましょう！ タイムズスクエア、セントラルパーク、自由の女神などの象徴的な観光スポットに浸りましょう。 すでに眠らない街のスリルと美しさを体験した無数の人に参加しましょう。 忘れられない思い出をお見逃しなく。 今日のあなたの冒険を予約して、興奮の一部である！ スポット限定！
-* **[!UICONTROL Variation 2]**: 3 日間の特別な休暇でニューヨークの魔法を発見しましょう！ タイムズスクエアやセントラルパークなどの象徴的なランドマークを訪れ、ワールドクラスの食事やエンターテイメントに浸りましょう。 この忘れられない冒険をお見逃しなく。 スペースは限られており、誰もが彼らの素晴らしい経験について誇りに思っています。 今すぐ予約して、世界中の旅行者を魅了する興奮の一部になってください。
-* **[!UICONTROL Variation 3]**：象徴的なランドマークが待つニューヨークに 3 日間のスリリングな逃走に乗り出そう！ Times Square の電動式雰囲気を体験し、マンハッタンで美味しい料理を味わい、エンパイアステートビルから息を呑むような景色を眺めることができます。 今行動し、彼らの夢を生きて無数の冒険に参加しています。 眠らない街に、忘れられない思い出を作ってみませんか。 スポットは限定されています。 今日のあなたの冒険を予約！
-* **[!UICONTROL Variation 4]**：今すぐ 3 日間のニューヨークでのアドベンチャーを予約して、これまでにない魔法の街を体験してください。 象徴的な観光スポットから隠された宝石まで、ビッグAppleの隅々にはエキサイティングな何かが存在します。 他の人がすでに楽しんでいる忘れられない瞬間をお見逃しなく。 話題の一部である。 今日のあなたの場所を確保し、一生の思い出を作成します。 急いで、スペースはすぐに充填されている！
+**[!UICONTROL Prompt]**: ニューヨークへの3日間の旅行の魅力的な広告を作成して、上位の目的地を訪問します。
+**[!UICONTROL Text Settings]**: FOMO、英語、説得力、Mediumの長さ
+* **[!UICONTROL Variation 1]**: 3日間の特別旅行で、ニューヨーク市の魅力を発見しましょう！ タイムズスクエア、セントラルパーク、自由の女神像などの象徴的な観光スポットに浸りましょう。 眠ることのない街のスリルと美しさを既に経験している数え切れないほどの他の人に参加してください。 忘れられない思い出をお見逃しなく。 今日は冒険を予約して、興奮の一部になってください！ 限定スポットあり！
+* **[!UICONTROL Variation 2]**: 3日間の特別な休暇で、ニューヨーク市の魅力を発見しましょう！ タイムズスクエアやセントラルパークなどの象徴的なランドマークを訪れ、世界クラスの食事やエンターテイメントに没頭してください。 忘れられない冒険をお見逃しなく。 スペースは限られており、誰もが自分の素晴らしい体験を高く評価しています。 今すぐ予約して、世界中の旅行者を魅了する興奮の一部になってください！
+* **[!UICONTROL Variation 3]**：象徴的なランドマークが待っているニューヨークへのスリリングな3日間のエスケープに乗り出しましょう！ タイムズスクエアの電気の雰囲気やマンハッタンの料理を堪能し、エンパイアステートビルからの息をのむような景色を堪能しましょう。 今すぐ行動し、夢を生きる無数の冒険家に参加してください。 決して眠らない街で忘れられない思い出を作り出すことを忘れないでください。 限定的な機能。 今すぐ冒険を予約しましょう！
+* **[!UICONTROL Variation 4]**：今すぐ3日間のニューヨークの冒険を予約して、これまでにない街の魔法を体験しましょう！ 象徴的な観光スポットから隠れた宝石まで、ビッグAppleのあらゆるコーナーにはエキサイティングなものがあります。 他の人が既に楽しんでいる忘れられない瞬間を逃さないでください。 話題の一部になってください。 今日の場所を確保し、生涯続く思い出を作りましょう。 急いで、スペースは素早く埋まっています！
 
 ## トレーニングビデオ
 
-### AI アシスタントを使用したコンテンツ生成の作成
+### AI アシスタントを利用して、コンテンツを制作する
 
->[!VIDEO](https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn">https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

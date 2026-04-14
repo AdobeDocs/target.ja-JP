@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 99%
@@ -23,7 +23,7 @@ ht-degree: 99%
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=ja){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -33,9 +33,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ja){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=ja){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++
 -->
@@ -60,13 +60,13 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   パーソナライゼーションの成熟度の中核となるのは、人工知能と機械学習です。[!DNL Adobe Target] では、これらのテクノロジーを活用してユーザーの行動を理解し、好みを予測し、コンテンツを動的に調整します。AI と ML の機能を活用して、ブランドが静的な A/B テストやルールベースのパーソナライゼーションを超えて、動的でコンテキストに応じた関連性の高いエクスペリエンスを提供する方法について説明します。
 
-  [&#x200B; 録音を聞く &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ja){target=_blank}
+  [録音を聴きます。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高パフォーマンスのレコメンデーション**
 
   レコメンデーションアルゴリズムでビジネスに変革をもたらし、エンゲージメントと収益を促進する方法について説明します。パーソナライズされた製品の提案からコンテンツのレコメンデーションまで、ジャーニーを通じてユーザーをシームレスにガイドする機能は、ビジネスの大幅な成長を実現することに直接貢献します。
 
-  [&#x200B; 録音を聞く &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=ja#M3685){target=_blank}
+  [録音を聴きます。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **AI を活用したパーソナライゼーションの実現**
 
@@ -78,7 +78,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 魅力的な顧客体験を提供して、コンバージョン率を高めます。お客様のビジネスはピークシーズンの準備が整っていますか？是非ご参加ください。今回、最適なパフォーマンスを実現し、ROI を最大化する方法について、エキスパートヒントをご利用いただけます。
 
-+++詳細を表示
++++詳細を見る
 
 アドビカスタマーサクセスマネージャーの John Magnusson と、Macy&#39;s Inc. の MarTech &amp; AdTech Solutions 担当ディレクターの Katherine Klein が、ピークシーズンの準備プログラムに大きな影響を与える戦略について説明します。
 
@@ -162,7 +162,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
 
-[!DNL Adobe Target]  チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
+[!DNL Adobe Target] [!DNL] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
 
 * [録画リンク](https://video.tv.adobe.com/v/346970/){target=_blank}
 
