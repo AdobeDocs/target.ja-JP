@@ -192,5 +192,5 @@ curl http://localhost:8080/health
 ## 関連リソース {#self-hosted-related}
 
 * [MCP クライアントの操作](target-mcp.md) — ホストされたエンドポイントの設定とツール参照
-* [ モデル コンテキスト プロトコルのドキュメント ](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] 管理者API リファレンス ](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [&#x200B; モデル コンテキスト プロトコルのドキュメント &#x200B;](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target] 管理者API リファレンス &#x200B;](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
