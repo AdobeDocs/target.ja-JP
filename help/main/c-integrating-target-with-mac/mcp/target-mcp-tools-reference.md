@@ -664,5 +664,5 @@ IDで特定のエンティティのすべてのリビジョンを取得します
 ## 関連リソース {#tools-related}
 
 * [MCP クライアントの操作](target-mcp.md)
-* [ [!DNL Adobe Target] MCP サーバーのセルフホスト](target-mcp-self-hosted.md)
-* [[!DNL Adobe Target] 管理者API リファレンス ](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [&#x200B; [!DNL Adobe Target] MCP サーバーのセルフホスト](target-mcp-self-hosted.md)
+* [[!DNL Adobe Target] 管理者API リファレンス &#x200B;](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
