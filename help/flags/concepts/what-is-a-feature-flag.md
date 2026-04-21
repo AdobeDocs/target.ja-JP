@@ -20,6 +20,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->フラグでは、機能フラグは機能制御の最もアトミックな単位です。 単独で使用して、1つの機能をターゲットにしたり、[機能グループ ](feature-groups-to-control-multiple-features.md)の他のフラグと組み合わせたりできます。
+>フラグでは、機能フラグは機能制御の最もアトミックな単位です。 単独で使用して、1つの機能をターゲットにしたり、[機能グループ &#x200B;](feature-groups-to-control-multiple-features.md)の他のフラグと組み合わせたりできます。
 
 <!-- -->

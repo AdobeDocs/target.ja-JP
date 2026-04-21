@@ -15,7 +15,7 @@ ht-degree: 3%
 ## 前提条件 {#prerequisites}
 
 * **リリースマネージャー**&#x200B;の役割があります – <!-- broken link[User roles](../teams/user-roles.md) -->を参照
-* アプリケーションがオンボーディングされました。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
+* アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
 
 >[!TIP]
 >
@@ -40,7 +40,7 @@ ht-degree: 3%
 
 ## リリースの作成後 {#after}
 
-リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[ リリースワークフローのエンドツーエンド ](release-workflow-end-to-end.md)を参照してください。
+リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[&#x200B; リリースワークフローのエンドツーエンド &#x200B;](release-workflow-end-to-end.md)を参照してください。
 
 ## 詳しくは、 {#see-also}
 
