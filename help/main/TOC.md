@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1290'
 ht-degree: 84%
 
 ---
@@ -106,9 +106,11 @@ ht-degree: 84%
          + {hide-from-toc}[Adobe Journey OptimizerでのA/B テストによる コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + MCP クライアントの操作 {#mcp}
-      + {hide-from-toc}[MCP クライアントの操作](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[Adobe Target MCP サーバーツール リファレンス &#x200B;](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
+   + Adobe Target MCP サーバー {#mcp}
+      + {hide-from-toc}[概要](c-integrating-target-with-mac/mcp/target-mcp.md)
+      + {hide-from-toc}[基本を学ぶ](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+      + {hide-from-toc}[&#x200B; ユースケースとウォークスルー](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+      + {hide-from-toc}[MCP サーバーツール リファレンス &#x200B;](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
       + [Adobe TargetとAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}

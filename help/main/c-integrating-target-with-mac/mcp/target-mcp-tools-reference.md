@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2972'
 ht-degree: 14%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 14%
 
 目次：
 
-* [MCP クライアントの操作](target-mcp.md)
+* [概要](target-mcp.md)
+* [基本を学ぶ](target-mcp-get-started.md)
+* [ユースケースとチュートリアル](target-mcp-use-cases.md)
 * **[MCP サーバーツール リファレンス](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-このページは、[!DNL Adobe Target] MCP サーバーによって公開されているすべての公開ツールの完全なリファレンスです。 各ツールには、説明、パラメーターの詳細、戻り値、自然言語プロンプトの例が表示されます。 セットアップ手順とユースケースについては、[MCP クライアントの操作](target-mcp.md)を参照してください。
-
->[!NOTE]
->
->読み取りツールは、**Observer**&#x200B;以上の役割を持つ接続されているすべてのユーザーが利用できます。書き込みツールには、**編集者**&#x200B;または&#x200B;**承認者**&#x200B;の役割が必要です。
+このページは、[!DNL Adobe Target] MCP サーバーによって公開されているすべての公開ツールの完全なリファレンスです。 各ツールには、説明、パラメーターの詳細、戻り値、自然言語プロンプトの例が表示されます。 セットアップ手順とユースケースについては、[基本を学ぶ](target-mcp-get-started.md)および[&#x200B; ユースケースとチュートリアル &#x200B;](target-mcp-use-cases.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -40,6 +38,16 @@ ht-degree: 14%
 >MCP クライアントまたはサーバーをAdobe製品に接続することは、お客様が選択した設定であり、お客様はMCP統合のセキュリティと適合性を評価する責任があります。 Adobeは、設定ミス、MCPの誤用、サードパーティ実装の脆弱性、またはMCP対応ワークフローを通じて実行された意図しないアクションから生じる問題については責任を負いません。
 >
 >リスクを軽減するために、Adobeでは、本番稼働前にサンドボックス環境で統合をテストし、MCPで開始されるすべてのアクションと応答を慎重にレビューおよび検証してから、確認または依存することを推奨しています。
+
+## 前提条件 {#tools-prerequisites}
+
+[!DNL Adobe Target]の役割によって、使用可能なツールが決まります。
+
+* **オブザーバー**&#x200B;以上：すべての読み取りツールへのアクセス
+* **編集者**&#x200B;の役割：読み取りと書き込み（作成）ツールへのアクセス
+* **承認者**&#x200B;の役割：ツールの読み取り、書き込み、アクティベート/非アクティベートへのアクセス
+
+完全なセットアップ手順については、[基本を学ぶ](target-mcp-get-started.md)を参照してください。
 
 ## アクティビティツール {#tools-activities}
 
