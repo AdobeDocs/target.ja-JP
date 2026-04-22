@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 83%
+source-wordcount: '1289'
+ht-degree: 84%
 
 ---
 
@@ -109,7 +109,6 @@ ht-degree: 83%
    + MCP クライアントの操作 {#mcp}
       + {hide-from-toc}[MCP クライアントの操作](c-integrating-target-with-mac/mcp/target-mcp.md)
       + {hide-from-toc}[Adobe Target MCP サーバーツール リファレンス &#x200B;](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
-      + {hide-from-toc}[Adobe Target MCP サーバーをセルフホストします](c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)
    + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
       + [Adobe TargetとAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
