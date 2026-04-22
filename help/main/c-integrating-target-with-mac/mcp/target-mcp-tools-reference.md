@@ -29,7 +29,7 @@ ht-degree: 14%
 
 >[!ENDSHADEBOX]
 
-このページは、[!DNL Adobe Target] MCP サーバーによって公開されているすべての公開ツールの完全なリファレンスです。 各ツールには、説明、パラメーターの詳細、戻り値、自然言語プロンプトの例が表示されます。 セットアップ手順とユースケースについては、[基本を学ぶ](target-mcp-get-started.md)および[ ユースケースとチュートリアル ](target-mcp-use-cases.md)を参照してください。
+このページは、[!DNL Adobe Target] MCP サーバーによって公開されているすべての公開ツールの完全なリファレンスです。 各ツールには、説明、パラメーターの詳細、戻り値、自然言語プロンプトの例が表示されます。 セットアップ手順とユースケースについては、[基本を学ぶ](target-mcp-get-started.md)および[&#x200B; ユースケースとチュートリアル &#x200B;](target-mcp-use-cases.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -835,4 +835,4 @@ IDで特定のエンティティのすべてのリビジョンを取得します
 ## 関連リソース {#tools-related}
 
 * [MCP クライアントの操作](target-mcp.md)
-* [[!DNL Adobe Target] 管理者API リファレンス ](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [[!DNL Adobe Target] 管理者API リファレンス &#x200B;](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
