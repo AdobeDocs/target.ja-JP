@@ -6,10 +6,10 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
+source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 49%
 
 ---
 
@@ -29,19 +29,52 @@ ht-degree: 56%
 
 詳しくは、[[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 26.4.3（2026年4月9日（PT））
+## [!DNL Target Standard/Premium] 26.4.4 （2026年4月28日）
 
 **アクティビティ**
 
 +++詳細を見る
 
-* 一部のアクティビティに&#x200B;**場所がありません。**&#x200B;一部のアクティビティで&#x200B;**[!UICONTROL Location]**&#x200B;が見つからない問題を修正しました。 （TGT-54951）
+* **レポートのオーディエンスフィルターでエラーが発生しました。** **[!UICONTROL Goals & Settings]**&#x200B;内でオーディエンスフィルターを変更すると、[!DNL Target] ユーザーインターフェイスの「レポート」セクションでエラーが発生する問題を修正しました。 （TGT-55006）
 
-* **レポート指標の列の順序。**&#x200B;更新された[!DNL Target] インターフェイスを使用すると、選択範囲の全範囲をクリアして指標を順番に再追加することなく、レポート指標を並べ替えることができます。 以前は、ユーザーはすべての指標の選択を解除し、目的の順序で再度選択する必要がありました。これは、多くの指標が有効になっている場合や、列の配置を調整して水平スクロールを制限する場合に時間がかかりました。 （TGT-53044）
+* **アクティビティを優先度順に並べ替え。** **[!UICONTROL Priority]**&#x200B;列ヘッダーを使用して、アクティビティ リストの優先順位による並べ替えを追加しました。昇順と降順は、他の並べ替え可能な列と一致しています。 （TGT-54948）
+
+* **追加のアクティビティ プロパティは、保存後も保持されません。** アクティビティを保存して再度開いた後、特定の&#x200B;**[!UICONTROL Properties]**&#x200B;選択が保持されない問題を修正しました。 （TGT-53889）
+
++++
+
+**ローカライズ**
+
++++詳細を見る
+
+* [!UICONTROL Page Delivery]のルール演算子の&#x200B;**日本語ラベル。** 日本語UIのページ配信ルール演算子ラベルの読み取り不可能または破損した文字列を修正しました。 （TGT-53097）
+
++++
+
+**API**
+
++++詳細を見る
+
+* **レポート [!DNL GraphQL] `segmentId`.**&#x200B;に対するAPI サポート レポート [!DNL GraphQL] APIに`segmentId`を追加しました。 （TGT-55021）
+
++++
+
+**[!UICONTROL Visual Experience Composer]（VEC）**
+
++++詳細を見る
+
+* **エディターで間違ったエクスペリエンスに表示される変更。** [!UICONTROL Visual Experience Composer]でエクスペリエンスを切り替えた後、削除やその他の変更が間違ったエクスペリエンスに表示される問題を修正しました。 （TGT-54955）
+
+* HTMLを挿入を削除すると、**変更が削除されました。** **[!UICONTROL Insert before]**&#x200B;または&#x200B;**[!UICONTROL Insert after]**&#x200B;で追加された追加の&#x200B;**[!UICONTROL HTML]** ブロックを削除すると、CSS セレクターを持たないリンクされた変更も削除される問題を修正しました。 （TGT-54530）
 
 +++
 
 <!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+
+
+
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
@@ -50,15 +83,6 @@ ht-degree: 56%
 
 +++
 -->
-
-## [!DNL Target Standard/Premium] 26.4.2（2026年4月7日（PT））
-
-**アクティビティ**
-
-+++詳細を見る
-
-* **追加のビューに適用すると、カスタムコードが保持されます。**&#x200B;同じ&#x200B;**[!UICONTROL View]**&#x200B;内の別の&#x200B;**[!UICONTROL View]**&#x200B;のカスタムコードを追加または保存する際に、1つの&#x200B;**[!UICONTROL Activity]**&#x200B;に適用されたカスタムコードが削除される問題を修正しました。 （TGT-53933）
-+++
 
 ## その他のリリースノートとバージョンの詳細
 
