@@ -6,7 +6,7 @@ product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
 audience: end-user
 type: Documentation
-git-repo: https://github.com/AdobeDocs/target.en
+git-repo: https://github.com/AdobeDocs/target.ja-JP
 landing-page-breadcrumb-title: Target 
 landing-page-name: target
 index: true
