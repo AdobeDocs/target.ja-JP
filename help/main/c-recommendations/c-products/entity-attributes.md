@@ -6,7 +6,7 @@ title: エンティティ属性の使用方法
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 100%
 
