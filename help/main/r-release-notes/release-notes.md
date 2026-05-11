@@ -6,10 +6,10 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
+source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 46%
+source-wordcount: '531'
+ht-degree: 51%
 
 ---
 
@@ -39,33 +39,27 @@ ht-degree: 46%
 
 +++
 
-## [!DNL Target Standard/Premium] 26.4.4 （2026年4月28日）
-
 **アクティビティ**
 
 +++詳細を見る
 
-* **レポートのオーディエンスフィルターでエラーが発生しました。** **[!UICONTROL Goals & Settings]**&#x200B;内でオーディエンスフィルターを変更すると、[!DNL Target] ユーザーインターフェイスの「レポート」セクションでエラーが発生する問題を修正しました。 （TGT-55006）
-
-* **アクティビティを優先度順に並べ替え。** **[!UICONTROL Priority]**&#x200B;列ヘッダーを使用して、アクティビティ リストの優先順位による並べ替えを追加しました。昇順と降順は、他の並べ替え可能な列と一致しています。 （TGT-54948）
-
-* **追加のアクティビティ プロパティは、保存後も保持されません。** アクティビティを保存して再度開いた後、特定の&#x200B;**[!UICONTROL Properties]**&#x200B;選択が保持されない問題を修正しました。 （TGT-53889）
+* テーブルとダウンロードの同期が&#x200B;**[!UICONTROL Graph View]から失われました。** **[!UICONTROL Table View]**&#x200B;とダウンロードしたレポートに正しい値が表示されていても、一部の日付範囲の&#x200B;**[!UICONTROL Graph View]**&#x200B;でアクティビティレポートに欠落またはゼロの指標が表示される場合がある問題を修正しました。 （TGT-54998）
 
 +++
 
-**ローカライズ**
+**[!UICONTROL Audiences]**
 
 +++詳細を見る
 
-* [!UICONTROL Page Delivery]のルール演算子の&#x200B;**日本語ラベル。** 日本語UIのページ配信ルール演算子ラベルの読み取り不可能または破損した文字列を修正しました。 （TGT-53097）
+* **オーディエンス使用リストが完全にレンダリングされていません。** オーディエンスの詳細の&#x200B;**[!UICONTROL Usage]** セクションで、追加のアクティビティがそのオーディエンスに関連付けられている場合でも、マッピングされたアクティビティのサブセットのみを表示できる問題を修正しました。 （TGT-55094）
 
 +++
 
-**API**
+**[!UICONTROL Administration]**
 
 +++詳細を見る
 
-* **レポート [!DNL GraphQL] `segmentId`.**&#x200B;に対するAPI サポート レポート [!DNL GraphQL] APIに`segmentId`を追加しました。 （TGT-55021）
+* **最後のオクテット IPの難読化に関する確認がより明確になります。** **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;で&#x200B;**[!UICONTROL Obfuscate Visitor IP addresses]**&#x200B;を&#x200B;**[!UICONTROL Last octet]**&#x200B;に変更すると、確認ダイアログに、[!DNL Target]が訪問者IP アドレスの最後のオクテットを非表示にすることが説明されるようになりました。 （TGT-44821）
 
 +++
 
@@ -73,11 +67,10 @@ ht-degree: 46%
 
 +++詳細を見る
 
-* **エディターで間違ったエクスペリエンスに表示される変更。** [!UICONTROL Visual Experience Composer]でエクスペリエンスを切り替えた後、削除やその他の変更が間違ったエクスペリエンスに表示される問題を修正しました。 （TGT-54955）
-
-* HTMLを挿入を削除すると、**変更が削除されました。** **[!UICONTROL Insert before]**&#x200B;または&#x200B;**[!UICONTROL Insert after]**&#x200B;で追加された追加の&#x200B;**[!UICONTROL HTML]** ブロックを削除すると、CSS セレクターを持たないリンクされた変更も削除される問題を修正しました。 （TGT-54530）
+* **拡張Experience Composer （EEC）を使用した空白または不完全なページ。** **[!UICONTROL Enhanced Experience Composer]**&#x200B;が有効になっているときに[!UICONTROL Visual Experience Composer]がエディターでサイトを読み込めない問題を修正しました。 （TGT-54576）
 
 +++
+
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
@@ -109,7 +102,7 @@ ht-degree: 46%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
