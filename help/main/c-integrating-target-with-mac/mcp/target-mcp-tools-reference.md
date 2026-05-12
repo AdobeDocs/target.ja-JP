@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 11%
@@ -16,7 +16,6 @@ ht-degree: 11%
 ---
 
 # [!DNL Adobe Target] MCP サーバーツール リファレンス {#target-mcp-tools-reference}
-
 
 >[!AVAILABILITY]
 >

@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Target] MCP サーバー {#target-mcp}
-
 
 [!DNL Adobe Target] MCP統合により、A/B テスト、パーソナライゼーションアクティビティ、および推奨事項の条件を、AI アシスタントから直接検査、分析、および管理できます。 [!DNL Target]の読み取りと書き込みのAPIを平易な言語のワークフローに変換します。テスト ポートフォリオの監査、パフォーマンスレポートの確認、オーディエンスとオファーの管理、UIの操作やAPI呼び出しの記述を行うことなく、管理されたアクションを実行します。
 
