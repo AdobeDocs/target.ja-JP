@@ -6,10 +6,22 @@ short-description: ' [!DNL Target] の現在のリリースに含まれる新機
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
+TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 51%
+source-wordcount: 633
+ht-degree: 42%
 
 ---
 
@@ -28,6 +40,18 @@ ht-degree: 51%
 ### [!DNL Target] UI バージョン トグルの非推奨化
 
 詳しくは、[[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)を参照してください。
+
+
+## 最新アップデート - 2026年5月12日（PT）
+
+**[!DNL Adobe Target]MCP サーバー（パブリック Beta）**
+
+[!DNL Adobe Target]は、MCP互換アプリケーション内で実験、パーソナライゼーション、レポート操作を直接表示するMCP （Model Context Protocol） サーバーを提供するようになりました。 この統合により、マーケティング担当者と技術者のペルソナは、A/B テストの検査、パフォーマンスレポートの分析、オーディエンスとオファーの管理、および管理されたアクションを実行できます。これらはすべて、複数のUI画面を移動したり、[!DNL Adobe Target] REST APIに対してクエリを記述したりする代わりに、自然言語のプロンプトを使用します。 この機能は現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;で利用できます。
+
+この機能は、パブリック Betaのすべてのユーザーが利用できます。
+
+詳しくは、[[!DNL Adobe Target] MCP サーバー](../c-integrating-target-with-mac/mcp/target-mcp.md)を参照してください。
+
 
 ## [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
 

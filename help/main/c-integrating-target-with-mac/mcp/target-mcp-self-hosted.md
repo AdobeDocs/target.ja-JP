@@ -8,31 +8,27 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer
 level: Experienced
-hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Target] MCP サーバーをセルフホストします {#target-mcp-self-hosted}
 
->[!BEGINSHADEBOX]
 
-目次：
+>[!AVAILABILITY]
+>
+>[!DNL Adobe Target] MCP サーバーは、**パブリック Beta**&#x200B;のすべてのユーザーが利用できます。 現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;でサポートされています。
 
-* [MCP クライアントの操作](target-mcp.md)
-* [MCP サーバーツールリファレンス](target-mcp-tools-reference.md)
-* **[MCP サーバーをセルフホスト](target-mcp-self-hosted.md)**
-
->[!ENDSHADEBOX]
+このページでは、[!DNL Adobe Target] MCP サーバーの独自のインスタンスを複製、設定、実行する方法について説明します。 セルフホスティングは、ローカル開発環境やカスタムネットワーク設定が必要な場合、またはサーバーコードベースに組み込む場合に便利です。
 
 >[!AVAILABILITY]
 >
 >セルフホスト型のデプロイメントは、[!DNL Adobe Target] MCP サーバーランタイムを完全に制御する必要がある開発者および上級ユーザーを対象としています。 ほとんどのユーザーには、ホスト エンドポイント （`https://targetmcp.adobe.io/mcp`）をお勧めします。 [MCP クライアントの操作](target-mcp.md)を参照してください。
 
-このページでは、[!DNL Adobe Target] MCP サーバーの独自のインスタンスを複製、設定、実行する方法について説明します。 セルフホスティングは、ローカル開発環境やカスタムネットワーク設定が必要な場合、またはサーバーコードベースに組み込む場合に便利です。
+
 
 ## 前提条件 {#self-hosted-prereqs}
 
@@ -50,21 +46,21 @@ ht-degree: 2%
 
 ## インストール {#self-hosted-install}
 
-**1.リポジトリのクローンを作成します：**
+**1. リポジトリのクローンを作成します：**
 
 ```bash
 git clone https://github.com/Adobe-TnT/target-mcp.git
 cd target-mcp
 ```
 
-**2.仮想環境を作成してアクティブ化します：**
+**2. 仮想環境を作成してアクティブ化します：**
 
 ```bash
 uv venv --python 3.13
 source .venv/bin/activate
 ```
 
-**3.環境変数の設定：**
+**3. 環境変数の設定：**
 
 ```bash
 cp env.example .env
@@ -72,13 +68,13 @@ cp env.example .env
 
 `.env`を開き、プレースホルダーの値を資格情報と組織の設定に置き換えます。
 
-**4.依存関係のインストール：**
+**4. 依存関係のインストール：**
 
 ```bash
 make uv-install
 ```
 
-**5.サーバーを開始：**
+**5. サーバーを開始：**
 
 ユースケースに合ったモードを選択します。
 
@@ -192,5 +188,5 @@ curl http://localhost:8080/health
 ## 関連リソース {#self-hosted-related}
 
 * [MCP クライアントの操作](target-mcp.md) — ホストされたエンドポイントの設定とツール参照
-* [&#x200B; モデル コンテキスト プロトコルのドキュメント &#x200B;](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] 管理者API リファレンス &#x200B;](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [モデル コンテキスト プロトコル ドキュメント](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target]管理者API リファレンス](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
