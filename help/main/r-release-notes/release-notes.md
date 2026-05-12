@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 42%
+source-wordcount: 630
+ht-degree: 43%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 42%
 
 **[!DNL Adobe Target]MCP サーバー（パブリック Beta）**
 
-[!DNL Adobe Target]は、MCP互換アプリケーション内で実験、パーソナライゼーション、レポート操作を直接表示するMCP （Model Context Protocol） サーバーを提供するようになりました。 この統合により、マーケティング担当者と技術者のペルソナは、A/B テストの検査、パフォーマンスレポートの分析、オーディエンスとオファーの管理、および管理されたアクションを実行できます。これらはすべて、複数のUI画面を移動したり、[!DNL Adobe Target] REST APIに対してクエリを記述したりする代わりに、自然言語のプロンプトを使用します。 この機能は現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;で利用できます。
+[!DNL Adobe Target]は、MCP互換アプリケーション内で実験、パーソナライゼーション、レポート操作を直接表示するMCP （Model Context Protocol） サーバーを提供するようになりました。 この統合により、マーケティング部門と技術部門のペルソナは、A/B テストの検査、パフォーマンスレポートの分析、オーディエンスとオファーの調査を行うことができます。これらはすべて、複数のUI画面を移動したり、REST APIに対してクエリを記述したりするのではなく、自然言語のプロンプトを使用します。 [!DNL Adobe Target]この機能は現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;で利用できます。
 
 この機能は、パブリック Betaのすべてのユーザーが利用できます。
 
