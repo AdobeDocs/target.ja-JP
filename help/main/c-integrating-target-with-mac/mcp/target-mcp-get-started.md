@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,11 @@ ht-degree: 0%
 
 * Adobe Experience Platform組織のアクティブな[!DNL Adobe Target] ライセンス （Adobe Experience Cloud サブスクリプション）があります。
 * サポートされているMCP互換アプリケーション（現在、Claude Web、Claude Desktop、Claude Code、Cursor、またはChatGPT）があります。
-* Adobe Admin Consoleで[!DNL Adobe Target]権限が設定されています：
-   * **Observer**&#x200B;の役割：読み取り専用ツール
-   * **編集者**&#x200B;の役割：読み取り+作成ツール
-   * **承認者**&#x200B;の役割：ツールの読み取り+作成+有効化/無効化
+* Adobe Admin Consoleで[!DNL Adobe Target]権限が設定されています。 Public Betaでは、23の使用可能なツールはすべて読み取り専用です。 **Observer**&#x200B;以上の役割は、MCP サーバーを使用するのに十分です。
+
+>[!NOTE]
+>
+>書き込みツール（作成、更新、アクティブ化、非アクティブ化）は、パブリック Betaのパブリック MCP カタログを介して公開されません。 現時点では、編集者と承認者のロール権限によって追加のツールが使用されることはありません。 書き込みアクセスは、今後のリリースで利用できるようになります。
 
 ## [!DNL Adobe Target] MCP サーバーを接続します {#mcp-connect}
 
@@ -112,7 +113,7 @@ Claude Code MCP設定に次を追加します。
 
 +++ツールがエラーメッセージを返す
 
-1. 操作に必要な権限が[!DNL Adobe Target]にあることを確認します（[前提条件](#mcp-prerequisites)を参照）。
+1. [!DNL Adobe Target]に&#x200B;**Observer**&#x200B;以上の役割があることを確認します（[前提条件](#mcp-prerequisites)を参照）。
 1. 参照されるリソース（アクティビティ、オファー、オーディエンス）が組織内に存在することを確認します。
 1. アクティビティ IDおよびその他のIDが正しいことを確認します。
 +++
