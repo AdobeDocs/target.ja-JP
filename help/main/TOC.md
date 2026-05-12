@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
+source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 83%
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Adobe Target Business Practitioner Guide Home](target-home.md)
 + Target リリースノート {#release-notes}
-   + {hide-from-toc}[Targetのお知らせとイベント &#x200B;](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc}[Targetのお知らせとイベント ](/help/main/r-release-notes/target-announcements.md)
    + [Target リリースノート（最新）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
    + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
@@ -32,7 +32,7 @@ ht-degree: 83%
       + [AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)
       + [AI アシスタントを有効にする](/help/main/c-intro/enabling-ai-assistant.md)
       + [AI アシスタントを使用して製品知識を獲得し](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + {hide-from-toc}[&#x200B; コンテンツ生成にAI アシスタントを使用](/help/main/c-intro/ai-assistant-content-generation.md)
+      + {hide-from-toc}[ コンテンツ生成にAI アシスタントを使用](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target ウェルカムキット {#welcome}
       + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)
       + [第 1 章：はじめに](/help/main/c-intro/target-welcome-kit-1.md)
@@ -73,6 +73,11 @@ ht-degree: 83%
    + [レコメンデーション](/help/main/administrating-target/recommendations-settings.md)
 + Target の実装 {#implement-target}
    + [Target の実装の概要](c-implementing-target/implementing-target.md)
++ Adobe Target MCP サーバー {#mcp}
+   + [概要](c-integrating-target-with-mac/mcp/target-mcp.md)
+   + [基本を学ぶ](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+   + [ユースケースとチュートリアル](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+   + [MCP サーバーツールリファレンス](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + Adobe TargetとExperience Cloudの統合 {#integrate}
    + Target （A4T）のレポートソースとしてのAdobe Analytics {#a4t}
       + [A4T の概要](c-integrating-target-with-mac/a4t/a4t.md)
@@ -102,16 +107,11 @@ ht-degree: 83%
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + {hide-from-toc}[統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizerのユースケース {#use-cases}
-         + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル &#x200B;](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + {hide-from-toc}[Adobe Journey OptimizerでのA/B テストによる コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル ](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + Adobe Journey OptimizerでのA/B テストによる{hide-from-toc}[ コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Adobe TargetとExperimentation Acceleratorの統合](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Adobe Target MCP サーバー {#mcp}
-      + {hide-from-toc}[概要](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[基本を学ぶ](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
-      + {hide-from-toc}[&#x200B; ユースケースとウォークスルー](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
-      + {hide-from-toc}[MCP サーバーツール リファレンス &#x200B;](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
       + [Adobe TargetとAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
@@ -346,4 +346,4 @@ ht-degree: 83%
    + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
    + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)
