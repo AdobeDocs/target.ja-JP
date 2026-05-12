@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Target] MCP サーバー {#target-mcp}
-
 
 [!DNL Adobe Target] MCP統合により、A/B テスト、パーソナライゼーションアクティビティ、および推奨事項の条件を、AI アシスタントから直接検査、分析、および管理できます。 [!DNL Target]の読み取りと書き込みのAPIを平易な言語のワークフローに変換します。テスト ポートフォリオの監査、パフォーマンスレポートの確認、オーディエンスとオファーの管理、UIの操作やAPI呼び出しの記述を行うことなく、管理されたアクションを実行します。
 
@@ -55,9 +54,9 @@ ht-degree: 0%
 >
 >書き込み操作（作成、更新、アクティブ化、非アクティブ化）には、安全性の注釈が含まれます。 ユーザーの明示的な確認がなければ、変更は実行されません。
 
-[!DNL Adobe Target] MCP サーバーは、アクティビティ管理、レポート、オーディエンス作成、QA プレビューなど、10のカテゴリで52のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス &#x200B;](target-mcp-tools-reference.md)を参照してください。
+[!DNL Adobe Target] MCP サーバーは、アクティビティ管理、レポート、オーディエンス作成、QA プレビューなど、10のカテゴリで52のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス ](target-mcp-tools-reference.md)を参照してください。
 
-ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[&#x200B; ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
+ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[ ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
 
 前提条件、クライアント固有の設定、トラブルシューティングなど、[!DNL Adobe Target] MCP サーバーをAI アシスタントに接続するには、[開始](target-mcp-get-started.md)を参照してください。
 
@@ -85,7 +84,7 @@ ht-degree: 0%
 
 +++[!DNL Adobe Target] データはMCP クライアントプロバイダーに送信されますか？
 
-プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Target] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。 Adobeのデータ処理は、[Adobe プライバシーポリシー](https://www.adobe.com/privacy.html)および[&#x200B; データ保護条件](https://www.adobe.com/go/dpt-ww)に準拠しています。
+プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Target] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。 Adobeのデータ処理は、[Adobe プライバシーポリシー](https://www.adobe.com/privacy.html)および[ データ保護条件](https://www.adobe.com/go/dpt-ww)に準拠しています。
 +++
 
 +++書き込み操作によって、ライブアクティビティに意図しない変更が生じる可能性がありますか？

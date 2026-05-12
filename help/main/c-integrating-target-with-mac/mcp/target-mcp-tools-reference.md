@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 11%
@@ -17,12 +17,11 @@ ht-degree: 11%
 
 # [!DNL Adobe Target] MCP サーバーツール リファレンス {#target-mcp-tools-reference}
 
-
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Target] MCP サーバーは、**パブリック Beta**&#x200B;のすべてのユーザーが利用できます。 現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;でサポートされています。
 
-このページは、[!DNL Adobe Target] MCP サーバーによって公開されたすべての読み取り専用ツールの完全なリファレンスです。 各ツールには、説明、パラメーターの詳細、戻り値、自然言語プロンプトの例が表示されます。 セットアップ手順とユースケースについては、[基本を学ぶ](target-mcp-get-started.md)および[&#x200B; ユースケースとチュートリアル &#x200B;](target-mcp-use-cases.md)を参照してください。
+このページは、[!DNL Adobe Target] MCP サーバーによって公開されたすべての読み取り専用ツールの完全なリファレンスです。 各ツールには、説明、パラメーターの詳細、戻り値、自然言語プロンプトの例が表示されます。 セットアップ手順とユースケースについては、[基本を学ぶ](target-mcp-get-started.md)および[ ユースケースとチュートリアル ](target-mcp-use-cases.md)を参照してください。
 
 >[!IMPORTANT]
 >

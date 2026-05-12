@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -17,11 +17,9 @@ ht-degree: 0%
 
 # [!DNL Adobe Target] MCP サーバー – ユースケースとウォークスルー {#target-mcp-use-cases}
 
-
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Target] MCP サーバーは、**パブリック Beta**&#x200B;のすべてのユーザーが利用できます。 現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;でサポートされています。
-
 
 このページでは、クイックルックアップからマルチステップのアクティビティ管理タスクまで、自然言語プロンプトを使用して[!DNL Adobe Target] MCP サーバーで達成できることについて説明します。
 
