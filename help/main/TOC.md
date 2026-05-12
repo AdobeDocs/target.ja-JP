@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
+source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 83%
@@ -73,6 +73,11 @@ ht-degree: 83%
    + [レコメンデーション](/help/main/administrating-target/recommendations-settings.md)
 + Target の実装 {#implement-target}
    + [Target の実装の概要](c-implementing-target/implementing-target.md)
++ Adobe Target MCP サーバー {#mcp}
+   + [概要](c-integrating-target-with-mac/mcp/target-mcp.md)
+   + [基本を学ぶ](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+   + [ユースケースとチュートリアル](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+   + [MCP サーバーツールリファレンス](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + Adobe TargetとExperience Cloudの統合 {#integrate}
    + Target （A4T）のレポートソースとしてのAdobe Analytics {#a4t}
       + [A4T の概要](c-integrating-target-with-mac/a4t/a4t.md)
@@ -107,11 +112,6 @@ ht-degree: 83%
          + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Adobe TargetとExperimentation Acceleratorの統合](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Adobe Target MCP サーバー {#mcp}
-      + {hide-from-toc}[概要](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[基本を学ぶ](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
-      + {hide-from-toc}[&#x200B; ユースケースとウォークスルー](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
-      + {hide-from-toc}[MCP サーバーツール リファレンス &#x200B;](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
       + [Adobe TargetとAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
