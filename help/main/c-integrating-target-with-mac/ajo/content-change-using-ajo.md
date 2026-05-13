@@ -48,7 +48,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を強調表示します。 [!DNL Journey Optimizer] web デザイナーで利用できるオプションについて詳しくは、*Journey Optimizer ドキュメント*&#x200B;の[web デザイナーの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}を参照してください。
+>この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を強調表示します。 [!DNL Journey Optimizer] web デザイナーで利用できるオプションについて詳しくは、*Journey Optimizer ドキュメント*&#x200B;の[web デザイナーの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}を参照してください。
 >
 >特にページ下部の動画が役立ちます。
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
    web設定（チャネルサーフェス）は、システム管理者が定義する設定です。 Web設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれます。
 
-   詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[&#x200B; チャネルサーフェスの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}」を参照してください。
+   詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[&#x200B; チャネルサーフェスの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}」を参照してください。
 
 1. **[!UICONTROL Action]** セクションで、**[!UICONTROL Edit Content]**&#x200B;をクリックして、[!DNL Journey Optimizer] web デザイナーでweb サイトを開きます。
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 1. どのコンテンツがより効果的かを判断するための実験を作成するには、**[!UICONTROL Create Experiment]**&#x200B;をクリックします。
 
-   コンテンツの検証により、メッセージのコンテンツ、件名、送信者を変更して、複数の処理を定義し、オーディエンスに最適な組み合わせを決定できます。 詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[&#x200B; コンテンツ実験の作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}」を参照してください。
+   コンテンツの検証により、メッセージのコンテンツ、件名、送信者を変更して、複数の処理を定義し、オーディエンスに最適な組み合わせを決定できます。 詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[&#x200B; コンテンツ実験の作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}」を参照してください。
 
 1. 成功指標を選択し、「アクション」をクリックします。
 
@@ -112,13 +112,13 @@ ht-degree: 2%
 
    ![Personalization ボタンを追加します。](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   プロファイル属性について詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[&#x200B; パーソナライゼーションエディターの基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}」を参照してください。
+   プロファイル属性について詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[&#x200B; パーソナライゼーションエディターの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}」を参照してください。
 
 1. 「+」記号を検索してクリックし、「名」プロファイル属性を追加し、必要に応じてテキストを調整してから「**[!UICONTROL Save]**」をクリックします。
 
    ![名前](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)のプロファイル属性を追加
 
-   詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[&#x200B; パーソナライゼーションエディターの基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}」を参照してください。
+   詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[&#x200B; パーソナライゼーションエディターの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}」を参照してください。
 
 1. 左上隅の後向き矢印をクリックして、web デザイナーに戻ります。
 
@@ -133,9 +133,9 @@ ht-degree: 2%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[新しいレポートインターフェイスの基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}」を参照してください。
+詳しくは、*Journey Optimizer ドキュメント*&#x200B;の「[新しいレポートインターフェイスの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}」を参照してください。
 
 >[!MORELIKETHIS]
 >
->[Web デザイナーの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} （*Journey Optimizer ドキュメント）*
->[*Journey Optimizer チュートリアル*&#x200B;でキャンペーン &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}を作成
+>[Web デザイナーの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} （*Journey Optimizer ドキュメント）*
+>[*Journey Optimizer チュートリアル*&#x200B;でキャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}を作成

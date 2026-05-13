@@ -32,9 +32,9 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer]とオファーの決定について詳しくは、*[!DNL Journey Optimizer]* ドキュメントの次のトピックを参照してください。
 
-* [Journey Optimizer入門](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [Journey Optimizer入門](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=ja)
 
-* [意思決定管理について](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
+* [意思決定管理について](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=ja)
 
 ## 前提条件
 
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 1. VECの右側にある&#x200B;**[!UICONTROL Add Offer Decision]** パネルで、目的のサンドボックスを選択し、「オファー決定。配置を選択」をクリックします。
 
-   [!DNL Adobe Experience Platform]の[&#x200B; サンドボックス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}を使用すると、インスタンスを仮想環境に分割できます。 たとえば、実稼動環境とステージング環境があるとします。 [!DNL Adobe Journey Optimizer]の[&#x200B; プレースメント &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}は、適切なオファーコンテンツを適切な場所に表示するのに役立ちます。
+   [!DNL Adobe Experience Platform]の[&#x200B; サンドボックス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=ja){target=_blank}を使用すると、インスタンスを仮想環境に分割できます。 たとえば、実稼動環境とステージング環境があるとします。 [!DNL Adobe Journey Optimizer]の[&#x200B; プレースメント &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=ja){target=_blank}は、適切なオファーコンテンツを適切な場所に表示するのに役立ちます。
 
    オファー決定を追加ダイアログボックスの![&#x200B; サンドボックスと配置ドロップダウンリスト &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 

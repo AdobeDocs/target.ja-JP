@@ -54,7 +54,7 @@ ht-degree: 52%
 | 顧客属性 | CRS | 顧客属性が[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja){target=_blank}経由で[!DNL Target] プロファイルにアップロードされました。 | カスタム – 訪問者プロファイル - [属性名] |
 | URL パラメーター | URL | URLと、現在表示されているページのURL パラメーター。 | カスタム - URL パラメーター – [URL パラメーター] |
 | 参照 URL | REF | 参照URLと、参照URLのURL パラメーター。 | カスタム - [参照URL パラメーター] - [ パラメーター値] |
-| [!DNL Adobe Experience Cloud]個の共有オーディエンス | AAM | 他の[!DNL Adobe Experience Cloud] ソリューション （[!DNL Adobe Audience Manager]および[!DNL Adobe Analytics]など、[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}経由）から[!DNL Target]と共有されたすべてのオーディエンス。 | カスタム - Experience Cloud Audience - [Audience Name] |
+| [!DNL Adobe Experience Cloud]個の共有オーディエンス | AAM | 他の[!DNL Adobe Experience Cloud] ソリューション （[!DNL Adobe Audience Manager]および[!DNL Adobe Analytics]など、[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target=_blank}経由）から[!DNL Target]と共有されたすべてのオーディエンス。 | カスタム - Experience Cloud Audience - [Audience Name] |
 | [!DNL Adobe Experience Platform Real-time CDP]人のオーディエンス | UPS | [!UICONTROL Destinations]を介して[!DNL Target]と共有されたPlatform Real-Time CDP オーディエンス。 |  |
 
 

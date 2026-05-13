@@ -41,7 +41,7 @@ ht-degree: 14%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;をクリックして、既存の除外のリストを表示します。
 
-   [!UICONTROL Exclusions] リストビューで各除外について報告された「項目の数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法について詳しくは、*Adobe Target開発者ガイド*&#x200B;の[計画と実装 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}を参照してください。
+   [!UICONTROL Exclusions] リストビューで各除外について報告された「項目の数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法について詳しくは、*Adobe Target開発者ガイド*&#x200B;の[計画と実装 [!DNL Recommendations]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank}を参照してください。
 
 1. （条件付き）除外を作成（または更新）する際に、**[!UICONTROL Show Filters]** アイコン（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックし、**[!UICONTROL Environment]** ドロップダウンリストから目的の[環境](/help/main/administrating-target/environments.md)を選択して、その環境の除外の内容をプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 

@@ -37,7 +37,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->この記事は、at.js実装にのみ適用されます。 [!DNL Adobe Experience Platform Web SDK]での[!UICONTROL Analytics for Target] （A4T）の実装について詳しくは、[Adobe Analytics for Target （A4T）のExperience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}へのログインを参照してください。
+>この記事は、at.js実装にのみ適用されます。 [!DNL Adobe Experience Platform Web SDK]での[!UICONTROL Analytics for Target] （A4T）の実装について詳しくは、[Adobe Analytics for Target （A4T）のExperience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=ja){target=_blank}へのログインを参照してください。
 
 ## 実装の必要システム構成 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 

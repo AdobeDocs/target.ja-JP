@@ -232,7 +232,7 @@ A/B テストを実行すると、[Welchのt-test](https://en.wikipedia.org/wiki
 [!DNL Analysis Workspace]のアクティビティのインプレッションを表示するには：
 
 1. [!DNL Target] UIで、**[!UICONTROL View in Analytics]**&#x200B;をクリックします。
-1. **[!UICONTROL Activity Impressions]**&#x200B;列を[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} レポートに追加します。
+1. **[!UICONTROL Activity Impressions]**&#x200B;列を[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja){target=_blank} レポートに追加します。
 1. **[!UICONTROL Activity Impressions]**&#x200B;列で、[!UICONTROL Gear] アイコンをクリックします。
 1. **[!UICONTROL Use non-default attribution model]** をクリックします。
 1. **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**&#x200B;を選択します。
