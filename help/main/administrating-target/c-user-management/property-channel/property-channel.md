@@ -7,11 +7,28 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: e22d67ea-317b-44f8-abd1-52e07f636ca8id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: e22d67ea-317b-44f8-abd1-52e07f636ca8
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 3199
@@ -35,7 +52,7 @@ ht-degree: 49%
 
 組織が標準ライセンスまたはプレミアムライセンスを持っているかどうかを確認するには、[!DNL Target] UIの上部にある「[!UICONTROL Administration]」リンクをクリックします。
 
-* **[!DNL Target Standard]人のお客様**:「[!UICONTROL Users]」タブ （[!UICONTROL Properties]」タブではなく）が表示されている場合、組織には[!DNL Target Standard] ライセンスがあります。 [!UICONTROL Administration > Users][!DNL Target Standard]人のお客様は、[ ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)の指示に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
+* **[!DNL Target Standard]人のお客様**:「[!UICONTROL Users]」タブ （[!UICONTROL Properties]」タブではなく）が表示されている場合、組織には[!DNL Target Standard] ライセンスがあります。 [!UICONTROL Administration > Users]&#x200B;[!DNL Target Standard]人のお客様は、[&#x200B; ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)の指示に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
 
 * **[!DNL Target Premium]人のお客様**:「[!UICONTROL Properties]」タブ（[!UICONTROL Administration > Properties]）と「[!UICONTROL Users]」タブが表示されている場合、組織には[!DNL Target Premium] ライセンスがあります。 [!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
@@ -309,7 +326,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### トレーニングビデオ：エンタープライズ権限トレーニングビデオ ![概要バッジ ](/help/main/assets/overview.png)
+### トレーニングビデオ：エンタープライズ権限トレーニングビデオ ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 学習内容：
 

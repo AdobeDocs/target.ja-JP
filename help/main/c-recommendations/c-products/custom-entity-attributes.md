@@ -7,8 +7,10 @@ feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1504
@@ -130,7 +132,7 @@ mbox パラメーターの配信APIを使用して、エスケープされたJSO
   }
 ```
 
-配信および保存エンティティ APIの使用について詳しくは、[Adobe Recommendations API ドキュメント ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+配信および保存エンティティ APIの使用について詳しくは、[Adobe Recommendations API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 ## 複数値の属性を持つ演算子の使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

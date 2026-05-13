@@ -5,9 +5,18 @@ title: 成功指標とは
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1374
@@ -31,7 +40,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->[Analyticsをレポートソース ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）として使用するアクティビティの場合、目標指標は常に&quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;と&quot;[!UICONTROL On Every Impression]&quot;の設定を使用します。 これらの設定は、*変更できません*。
+>[Analyticsをレポートソース &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）として使用するアクティビティの場合、目標指標は常に&quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;と&quot;[!UICONTROL On Every Impression]&quot;の設定を使用します。 これらの設定は、*変更できません*。
 
 次の成功指標は、[!UICONTROL Goals & Settings] ステップの[!UICONTROL Activity Settings page]の[!UICONTROL Reporting Settings] セクションで設定できます。
 
@@ -59,11 +68,11 @@ ht-degree: 44%
 
 詳細設定を使用して、成功の測定方法を管理します。 依存関係の追加、アクティビティでユーザーを保持するか削除するかの選択、参加者ごとに 1 回指標をカウントするか、すべてのインプレッションで指標をカウントするかの選択などのオプションがあります。
 
-[!UICONTROL Advanced Settings] オプションにアクセスするには、**[!UICONTROL More Actions]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL Advanced Settings]**&#x200B;をクリックします。
+[!UICONTROL Advanced Settings] オプションにアクセスするには、**[!UICONTROL More Actions]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL Advanced Settings]**&#x200B;をクリックします。
 
 ![詳細設定メニュー](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-[!UICONTROL Advanced Settings] オプション （「[!UICONTROL What will happen after a user encounters this goal]」および「[!UICONTROL How will the count be incremented]」）について詳しくは、[ ユーザーがこの目標指標](#what-happens)に遭遇した後はどうなりますか？
+[!UICONTROL Advanced Settings] オプション （「[!UICONTROL What will happen after a user encounters this goal]」および「[!UICONTROL How will the count be incremented]」）について詳しくは、[&#x200B; ユーザーがこの目標指標](#what-happens)に遭遇した後はどうなりますか？
 
 >[!NOTE]
 >
@@ -117,7 +126,7 @@ ht-degree: 44%
 
 ## 更新された[!DNL Target] UIの変更 {#changes}
 
-2015年2月17日にリリースされた[[!DNL Target Standard/Premium] 25.2.1 リリース ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)では、更新された[!DNL Target]および[!UICONTROL Visual Experience Composer] （VEC） UIが導入されました。 このセクションでは、レガシーUIと更新されたUIの主な違いを説明します。特に、成功指標の設定と管理に関する点について説明します。
+2015年2月17日にリリースされた[[!DNL Target Standard/Premium] 25.2.1 リリース &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)では、更新された[!DNL Target]および[!UICONTROL Visual Experience Composer] （VEC） UIが導入されました。 このセクションでは、レガシーUIと更新されたUIの主な違いを説明します。特に、成功指標の設定と管理に関する点について説明します。
 
 ### [!UICONTROL Revenue]成功指標に関連するUIの変更
 

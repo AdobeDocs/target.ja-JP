@@ -6,9 +6,18 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1986
@@ -20,11 +29,11 @@ ht-degree: 52%
 
 [!DNL Adobe Target]は、様々なデータを自動的に収集して使用し、[!UICONTROL Automated Personalization] （AP）および[!UICONTROL Auto-Target] （AT）アクティビティでパーソナライゼーションアルゴリズムを構築します。 訪問者が[!UICONTROL Automated Personalization]または[!UICONTROL Auto-Target] アクティビティにエントリすると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムが学習する訪問者データ）のセットに渡されます。
 
-[!DNL Target] パーソナライゼーション アルゴリズムについて詳しくは、[ ランダム フォレスト アルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
+[!DNL Target] パーソナライゼーション アルゴリズムについて詳しくは、[&#x200B; ランダム フォレスト アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
 
 ## 既定の[!DNL Target]属性カテゴリ
 
-次の表は、[!DNL Target]またはその他の[!DNL Adobe] ソリューションの設定なしで、[!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target] アクティビティによってデフォルトで収集されたデータを示しています。 このテーブルには、[Personalization インサイトレポート ](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)でこれらの属性を示すために使用される命名規則も含まれています。 入力データセットはいつでも増やすことができます。 追加のデータをアップロードする方法について詳しくは、 [!DNL Target]  パーソナライゼーションアルゴリズム ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)の[ データのアップロードを参照してください。
+次の表は、[!DNL Target]またはその他の[!DNL Adobe] ソリューションの設定なしで、[!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target] アクティビティによってデフォルトで収集されたデータを示しています。 このテーブルには、[Personalization インサイトレポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)でこれらの属性を示すために使用される命名規則も含まれています。 入力データセットはいつでも増やすことができます。 追加のデータをアップロードする方法について詳しくは、 [!DNL Target]  パーソナライゼーションアルゴリズム [&#128279;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)の データのアップロードを参照してください。
 
 | データカテゴリ | システム接頭辞 | 説明 | [!UICONTROL Insights]件のレポートの表示名 |
 | --- | --- | --- | --- |
@@ -53,7 +62,7 @@ ht-degree: 52%
 
 [!DNL Target]個の機械学習アルゴリズムから機能をブロックして、[!UICONTROL Automated Personalization]または[!UICONTROL Auto-Target]個のモデルまたはアクティビティで使用できないようにすることができます。
 
-詳しくは、*[!DNL Adobe Target]開発者ガイド*&#x200B;の「[ モデル API （ブロックリストへの登録）の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank}」を参照してください。
+詳しくは、*[!DNL Adobe Target]開発者ガイド*&#x200B;の「[&#x200B; モデル API （ブロックリストへの登録）の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank}」を参照してください。
 
 ## デバイスとモバイルデータ {#device-mobile}
 

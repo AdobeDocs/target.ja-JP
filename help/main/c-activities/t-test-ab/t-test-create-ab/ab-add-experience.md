@@ -5,8 +5,10 @@ title: A/B アクティビティにエクスペリエンスを追加するには
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 387
@@ -20,7 +22,7 @@ ht-degree: 33%
 
 エクスペリエンスについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
 
-1. VECの&#x200B;**[!UICONTROL Experiences]** ページで、[!UICONTROL Experiences] ペインの上部にある[!UICONTROL Add] アイコン （![追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。
+1. VECの&#x200B;**[!UICONTROL Experiences]** ページで、[!UICONTROL Experiences] ペインの上部にある[!UICONTROL Add] アイコン （![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックします。
 
    VECは、新しいアクティビティを作成した後、左側にエクスペリエンス Aとエクスペリエンス Bの2つのタブを表示します。エクスペリエンス Aはコントロール エクスペリエンスです。 テストには複数のエクスペリエンスを追加できます。
 
@@ -59,7 +61,7 @@ ht-degree: 33%
 
 ## URL にリダイレクト
 
-1. **[!UICONTROL Experiences]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL More]** アイコン （![詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL Redirect to URL]**&#x200B;をクリックします。
+1. **[!UICONTROL Experiences]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL More]** アイコン （![詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL Redirect to URL]**&#x200B;をクリックします。
 
    詳しくは、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)を参照してください。
 
@@ -73,8 +75,8 @@ ht-degree: 33%
 
 [!UICONTROL A/B Test]のエクスペリエンスをコピーして、エクスペリエンスを再作成することなく、エクスペリエンスにマイナーな変更を加えることができます。
 
-1. **[!UICONTROL Experiences]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL More]** アイコン （![詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
+1. **[!UICONTROL Experiences]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL More]** アイコン （![詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
 ## エクスペリエンスを削除する
 
-1. **[!UICONTROL Experiences]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL More]** アイコン （![詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックしてから、**[!UICONTROL Delete]**&#x200B;をクリックしてアクションを確認します。
+1. **[!UICONTROL Experiences]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL More]** アイコン （![詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックしてから、**[!UICONTROL Delete]**&#x200B;をクリックしてアクションを確認します。

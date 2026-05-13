@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 TQID: https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 525
@@ -36,7 +38,7 @@ ht-degree: 69%
    >
    >A/B テストの場合、パフォーマンスが最も高いレコメンデーションにトラフィックを自動的にプッシュする[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされたレコメンデーションエクスペリエンスに動的に割り当てる[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)オプションを選択できます。
 
-1. [ エクスペリエンス ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を作成する際に、オファーとしてレコメンデーションを追加する要素をクリックし、**[!UICONTROL Replace Content]**&#x200B;をクリックしてから、**[!UICONTROL Recommendation]**&#x200B;を選択します。
+1. [&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を作成する際に、オファーとしてレコメンデーションを追加する要素をクリックし、**[!UICONTROL Replace Content]**&#x200B;をクリックしてから、**[!UICONTROL Recommendation]**&#x200B;を選択します。
 
    ![Recommendations をオファーとして挿入](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
@@ -52,7 +54,7 @@ ht-degree: 69%
    * その他
 
 1. 目的の[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を選択し、[!UICONTROL Next]をクリックします。
-1. 目的の[ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択し、[!UICONTROL Next]をクリックします。
+1. 目的の[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択し、[!UICONTROL Next]をクリックします。
 1. [!UICONTROL Options] ダイアログボックスで、次の項目を指定します。
 
    * [コレクション](/help/main/c-recommendations/c-products/collections.md)を選択します。

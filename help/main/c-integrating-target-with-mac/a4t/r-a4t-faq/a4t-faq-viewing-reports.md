@@ -5,10 +5,16 @@ title: A4T でのレポート表示に関する FAQ
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2624
@@ -25,7 +31,7 @@ ht-degree: 73%
 +++回答
 [!DNL Analysis Workspace] を使用して、[!DNL Target] アクティビティとエクスペリエンスを分析できます。 この [Analytics for Target パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja)では、最大 3 つの成功指標に対する上昇率と信頼性を確認できます。 また、テーブルとビジュアライゼーションを使用して、より深く掘り下げることもできます。
 
-詳細な情報と例については、[!UICONTROL Adobe Experience League]が提供する[AnalyticsとTarget：分析に関するベストプラクティスのチュートリアル ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)を開いてください。
+詳細な情報と例については、[!UICONTROL Adobe Experience League]が提供する[AnalyticsとTarget：分析に関するベストプラクティスのチュートリアル &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)を開いてください。
 
 +++
 

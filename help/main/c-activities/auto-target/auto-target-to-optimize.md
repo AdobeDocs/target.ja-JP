@@ -6,10 +6,21 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2:
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 1882
@@ -39,11 +50,11 @@ ht-degree: 41%
 
 3 ステップのガイドによるワークフローを使用して [A/B アクティビティを作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)するときは、**[!UICONTROL Targeting]** ページ（ステップ 2）で **[!UICONTROL Auto-Target for personalized experiences]** オプションを選択します。
 
-![ トラフィック配分メソッドの設定](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
+![&#x200B; トラフィック配分メソッドの設定](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 A/B アクティビティフロー内の[!UICONTROL Auto-Target] オプションを使用すると、マシンラーニングを活用して、マーケターが定義した一連のエクスペリエンスに基づいて、ワンクリックでパーソナライズできます。 [!UICONTROL Auto-Target]は、訪問者ごとに表示するエクスペリエンスを決定することにより、従来のA/B テストまたは[!UICONTROL Auto Allocate]と比較して、最大限の最適化を実現するように設計されています。 目的が単一の勝者を見つけることであるA/B アクティビティとは異なり、[!UICONTROL Auto-Target]は、特定の訪問者に対する最適なエクスペリエンスを自動的に決定します。 優れた体験は、訪問者のプロファイルやその他のコンテクスト情報にもとづいて構築され、詳細にパーソナライズされた体験を提供します。
 
-[!UICONTROL Automated Personalization]と同様に、[!UICONTROL Auto-Target]は[ ランダムフォレスト アルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を使用して、訪問者に表示する最適なエクスペリエンスを決定します。 [!UICONTROL Auto-Target]は訪問者の行動の変化に適応できるため、永続的に実行して上昇率を提供できます。 この方法は、「常時オン」モードと呼ばれることもあります。
+[!UICONTROL Automated Personalization]と同様に、[!UICONTROL Auto-Target]は[&#x200B; ランダムフォレスト アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を使用して、訪問者に表示する最適なエクスペリエンスを決定します。 [!UICONTROL Auto-Target]は訪問者の行動の変化に適応できるため、永続的に実行して上昇率を提供できます。 この方法は、「常時オン」モードと呼ばれることもあります。
 
 特定の訪問者に対するエクスペリエンスの割り当てが固定されるA/B アクティビティとは異なり、[!UICONTROL Auto-Target]は各訪問に対して指定されたビジネス目標を最適化します。 [!UICONTROL Auto Personalization]と同様、[!UICONTROL Auto-Target]は、デフォルトでは、アクティビティのトラフィックの一部をコントロールグループとして予約し、上昇率を測定します。 コントロールグループの訪問者には、アクティビティのランダムエクスペリエンスが配信されます。
 
@@ -67,9 +78,9 @@ A/B アクティビティフロー内の[!UICONTROL Auto-Target] オプション
 
 | 用語 | 定義 |
 |---|---|
-| [ マルチアームドバンディット ](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | マルチアームバンディット最適化アプローチでは、調査学習とその学習の活用のバランスを取ります。 |
+| [&#x200B; マルチアームドバンディット &#x200B;](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | マルチアームバンディット最適化アプローチでは、調査学習とその学習の活用のバランスを取ります。 |
 | [ランダムフォレスト](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | ランダムフォレストは、有力な機械学習アプローチです。 データサイエンス分野では、訪問者と訪問の属性に基づいて多数の決定ツリーを作成することで機能するアンサンブル分類または回帰手法を指します。 [!DNL Target] 内部では、ランダムフォレストを使用して、コンバージョンの可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを特定の訪問者ごとに決定します。 |
-| [ トンプソンサンプリング ](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | トンプソンサンプリングの目的は、全体的に最良の（パーソナライズされていない）エクスペリエンスを最小限の「コスト」で特定することです。 トンプソンサンプリングでは、2 つのエクスペリエンスに統計的な差異がない場合でも、必ず勝者が選定されます。 |
+| [&#x200B; トンプソンサンプリング &#x200B;](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | トンプソンサンプリングの目的は、全体的に最良の（パーソナライズされていない）エクスペリエンスを最小限の「コスト」で特定することです。 トンプソンサンプリングでは、2 つのエクスペリエンスに統計的な差異がない場合でも、必ず勝者が選定されます。 |
 
 ## [!UICONTROL Auto-Target]の仕組み {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -78,8 +89,8 @@ A/B アクティビティフロー内の[!UICONTROL Auto-Target] オプション
 | 用語 | 詳細 |
 |--- |--- |
 | [ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL Auto-Target]と[!UICONTROL Automated Personalization]の両方で使用される[!DNL Target]の主なパーソナライゼーションアルゴリズムは、ランダム フォレストです。 ランダムフォレストなどのアンサンブル手法では、複数の学習アルゴリズムを使用して、任意の構成学習アルゴリズムから得られるよりも優れた予測性能を得ることができます。 [!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target] アクティビティのランダムフォレスト アルゴリズムは分類または回帰方法であり、学習時に多数の決定木を構築することによって動作します。 |
-| [の [!DNL Target]のPersonalization アルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)のデータをアップロードしています | [!UICONTROL Auto-Target]および[!UICONTROL Automated Personalization] モデルのデータを入力するには、いくつかの方法があります。 |
-|  [!DNL Target]のPersonalization アルゴリズム ](/help/main/c-activities/t-automated-personalization/ap-data.md)の[ データ収集 | [!DNL Target]のパーソナライゼーションアルゴリズムは、様々なデータを自動的に収集します。 |
+| [の [!DNL Target]のPersonalization アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)のデータをアップロードしています | [!UICONTROL Auto-Target]および[!UICONTROL Automated Personalization] モデルのデータを入力するには、いくつかの方法があります。 |
+|  [!DNL Target]のPersonalization アルゴリズム [&#128279;](/help/main/c-activities/t-automated-personalization/ap-data.md)の データ収集 | [!DNL Target]のパーソナライゼーションアルゴリズムは、様々なデータを自動的に収集します。 |
 
 ## トラフィック配分の決定 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -141,7 +152,7 @@ A/B アクティビティフロー内の[!UICONTROL Auto-Target] オプション
 
 ### マーケターは、オフラインデータや傾向スコアなどのカスタムデータをアップロードして、パーソナライゼーションモデルを構築することができます。
 
-* [!UICONTROL Auto-Target]と[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)のデータのアップロードについて詳しくは、[を参照してください。
+* [!UICONTROL Auto-Target]と[!UICONTROL Automated Personalization][&#128279;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)のデータのアップロードについて詳しくは、を参照してください。
 
 ## [!UICONTROL Auto-Target]と[!UICONTROL Automated Personalization]の違いとは？ {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -158,7 +169,7 @@ A/B アクティビティフロー内の[!UICONTROL Auto-Target] オプション
 
 ### [!UICONTROL Auto-Target]には完全なセットアップ機能があります。
 
-* [!UICONTROL Auto-Target]はA/B アクティビティワークフローに組み込まれているため、[!UICONTROL Auto-Target]はより成熟した本格的な[!UICONTROL Visual Experience Composer] （VEC）から恩恵を受けます。 [QA リンク ](/help/main/c-activities/c-activity-qa/activity-qa.md)を[!UICONTROL Auto-Target]と共に使用することもできます。
+* [!UICONTROL Auto-Target]はA/B アクティビティワークフローに組み込まれているため、[!UICONTROL Auto-Target]はより成熟した本格的な[!UICONTROL Visual Experience Composer] （VEC）から恩恵を受けます。 [QA リンク &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)を[!UICONTROL Auto-Target]と共に使用することもできます。
 
 ### [!UICONTROL Auto-Target]は、広範なオンライン テスト フレームワークを提供します。
 

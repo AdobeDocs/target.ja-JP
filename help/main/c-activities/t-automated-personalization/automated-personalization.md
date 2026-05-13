@@ -6,10 +6,22 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1003
@@ -25,9 +37,9 @@ ht-degree: 40%
 >
 >[!UICONTROL Automated Personalization]は[!DNL Target Premium] ソリューションの一部として利用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。 このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md#premium) を参照してください。
 
-[!UICONTROL Auto-Target]と同様に、[!UICONTROL Automated Personalization]では、主要なデータサイエンス アンサンブル手法である[ ランダムフォレスト アルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を主なパーソナライゼーションアルゴリズムとして使用して、訪問者に最適なエクスペリエンスを決定しています。 [!UICONTROL Automated Personalization]は、テストの検出フェーズで役立ちます。 また、多様な訪問者をターゲティングする際に、機械学習で最も効果的なコンテンツを決定する場合にも便利です。 時間の経過とともに、アルゴリズムは最も効果的なコンテンツを予測し、目標を達成する可能性が最も高いコンテンツを表示できるようになります。
+[!UICONTROL Auto-Target]と同様に、[!UICONTROL Automated Personalization]では、主要なデータサイエンス アンサンブル手法である[&#x200B; ランダムフォレスト アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を主なパーソナライゼーションアルゴリズムとして使用して、訪問者に最適なエクスペリエンスを決定しています。 [!UICONTROL Automated Personalization]は、テストの検出フェーズで役立ちます。 また、多様な訪問者をターゲティングする際に、機械学習で最も効果的なコンテンツを決定する場合にも便利です。 時間の経過とともに、アルゴリズムは最も効果的なコンテンツを予測し、目標を達成する可能性が最も高いコンテンツを表示できるようになります。
 
-[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]の違いについて詳しくは、[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)を参照してください。
+[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]の違いについて詳しくは、[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)を参照してください。
 
 マーケターはサイトに1つのファイルを実装し、任意のコンテンツをポイントしてクリックし、[!UICONTROL Visual Experience Composer] （VEC）を使用して、その領域の追加のコンテンツオプションを視覚的に作成および選択できます。 その後は、アルゴリズムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断し、パーソナライズしたエクスペリエンスを提供します。 [!UICONTROL Automated Personalization]は訪問者の行動の変化に適応できるため、終了日を設定せずに実行して、継続的なリフトとパーソナライゼーションを提供できます。 このモードは「常時オン」と呼ばれることもあります。 テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという、標準的な A/B アクティビティの結果を実装する標準的な演算順序を踏まなくても、最適化による改善を具現化できます。
 
@@ -43,7 +55,7 @@ ht-degree: 40%
 
 ## [!UICONTROL Automated Personalization]は、ランダム フォレスト アルゴリズムを使用してパーソナライズします
 
-Random Forestは主要なマシンラーニングアプローチです。 データサイエンスの用語では、訪問者と訪問属性に基づいて多くの決定木を構築することで機能するアンサンブル分類または回帰方法です。 [!DNL Target] 内部では、ランダムフォレストを使用して、コンバージョンの可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを特定の訪問者ごとに決定します。 たとえば、Chromeを利用し、ゴールドロイヤルティの会員で、火曜日にサイトにアクセスした訪問者は、エクスペリエンス Aでコンバージョンする可能性が高くなります。ニューヨークの訪問者は、エクスペリエンス Bでコンバージョンする可能性が高くなります。[!DNL Target]のランダム フォレストについて詳しくは、[ ランダム フォレスト アルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
+Random Forestは主要なマシンラーニングアプローチです。 データサイエンスの用語では、訪問者と訪問属性に基づいて多くの決定木を構築することで機能するアンサンブル分類または回帰方法です。 [!DNL Target] 内部では、ランダムフォレストを使用して、コンバージョンの可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを特定の訪問者ごとに決定します。 たとえば、Chromeを利用し、ゴールドロイヤルティの会員で、火曜日にサイトにアクセスした訪問者は、エクスペリエンス Aでコンバージョンする可能性が高くなります。ニューヨークの訪問者は、エクスペリエンス Bでコンバージョンする可能性が高くなります。[!DNL Target]のランダム フォレストについて詳しくは、[&#x200B; ランダム フォレスト アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
 
 ## パーソナライゼーションモデルは、各訪問に最適化されます
 

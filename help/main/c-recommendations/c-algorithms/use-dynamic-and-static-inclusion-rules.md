@@ -7,8 +7,10 @@ feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1861
@@ -30,17 +32,17 @@ ht-degree: 17%
 
 1. [条件の作成中](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) （**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**）、**[!UICONTROL Inclusion Rules]**&#x200B;の下の&#x200B;**[!UICONTROL Add Filtering Rule]**&#x200B;をクリックします。
 
-   ![ フィルタリングルールを追加](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
+   ![&#x200B; フィルタリングルールを追加](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
 1. 「推奨事項が従う必要があるその他のルール」ボックスの&#x200B;**静的フィルター** ドロップダウンリストをクリックし、[!UICONTROL Static Filter] ドロップダウンリストから目的のオプションを選択します。
 
-   ![静的フィルターのドロップダウンリスト ](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
+   ![静的フィルターのドロップダウンリスト &#x200B;](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
    利用できるオプションは、選択した業種とレコメンデーションキーによって変わります。
 
 ### プロモーションへのフィルタールールの追加
 
-1. [ プロモーションの作成中](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)、**[!UICONTROL Promote by Attribute]**&#x200B;を選択し、**[!UICONTROL Add Filtering Rule]**&#x200B;をクリックします。
+1. [&#x200B; プロモーションの作成中](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)、**[!UICONTROL Promote by Attribute]**&#x200B;を選択し、**[!UICONTROL Add Filtering Rule]**&#x200B;をクリックします。
 
 ## フィルターのタイプ {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -116,7 +118,7 @@ ht-degree: 17%
 |--- |--- |--- |
 | [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | このアクションは、[!UICONTROL Profile Attribute Matching]および[!UICONTROL Parameter Matching]の既定値です。<P>このオプションではルールを無視するよう指定します。 例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
 | [!UICONTROL Do not show any results for this criteria]<P>（基準のみ） | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] | このアクションは[!UICONTROL Entity Attribute Matching]の既定値です。<P>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
-| [!UICONTROL 項目を昇格しない<P>（プロモーションのみ） ] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] | このアクションは[!UICONTROL Entity Attribute Matching]の既定値です。<P>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
+| [!UICONTROL 項目を昇格しない<P>（プロモーションのみ） &#x200B;] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] | このアクションは[!UICONTROL Entity Attribute Matching]の既定値です。<P>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] | 値が空だった場合に静的値を使用するよう設定できます。 |
 
 ## 注意事項 {#caveats}

@@ -6,8 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 519
@@ -25,7 +28,7 @@ ht-degree: 25%
 
 1. [!UICONTROL Catalog Search] ページにアクセスするには、**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**&#x200B;をクリックします。
 
-1. （オプション）検索にフィルターを適用するには、**[!UICONTROL Show Filters]** アイコン （![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックします。 [!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory]および[!UICONTROL Value]でフィルタリングできます。
+1. （オプション）検索にフィルターを適用するには、**[!UICONTROL Show Filters]** アイコン （![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックします。 [!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory]および[!UICONTROL Value]でフィルタリングできます。
 
 ## シンプルな検索の実行
 
@@ -89,7 +92,7 @@ ID、名前、メッセージ、カテゴリなどの個々の項目の詳細を
 
 ## カタログを更新する
 
-カタログのインデックスは、最初のフィードをアップロードしたときに自動的に作成され、[指定されたスケジュール ](/help/main/c-recommendations/c-products/feeds.md#steps)に従って更新されます。
+カタログのインデックスは、最初のフィードをアップロードしたときに自動的に作成され、[指定されたスケジュール &#x200B;](/help/main/c-recommendations/c-products/feeds.md#steps)に従って更新されます。
 
 カタログは、フィードファイル、API または mbox の更新を介して更新を受け取ると、自動的に更新されます。 通常、1時間以内に更新が完了します。 更新が進行中の場合、最も新しく更新を開始した時間が表示されます。 更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
 
@@ -113,7 +116,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 [環境](/help/main/administrating-target/environments.md)を使用すると、サイトとプリプロダクション環境を整理して、管理を容易にし、レポートを分離できます。
 
-1. フィルターを表示アイコン（![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックします。
+1. フィルターを表示アイコン（![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックします。
 
 1. **[!UICONTROL Environment]** ドロップダウンリストから目的の環境を選択します。
 
@@ -141,7 +144,7 @@ Keep in mind that the additional filter facets are available in the current sess
 
 [!UICONTROL Catalog Search] ページのアクティブな列を変更できます。
 
-1. **[!UICONTROL Customize Table]** アイコン（![ テーブルをカスタマイズ アイコン ](/help/main/assets/icons/ColumnSetting.svg)）をクリックします。
+1. **[!UICONTROL Customize Table]** アイコン（![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](/help/main/assets/icons/ColumnSetting.svg)）をクリックします。
 
 1. 表示または非表示にする目的の列を選択または選択解除します。
 

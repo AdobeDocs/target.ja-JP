@@ -6,9 +6,19 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2111
@@ -38,13 +48,13 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 ## セグメントの自動作成レポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL Activities]**&#x200B;をクリックし、リストから目的の[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)または[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをクリックします。
+1. **[!UICONTROL Activities]**&#x200B;をクリックし、リストから目的の[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)または[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをクリックします。
 
-   アクティビティが多い場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、および[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択してリストをフィルタリングします。
+   アクティビティが多い場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、および[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
 1. **[!UICONTROL Reports]** をクリックします。
 
-   [Automated Personalizationの概要](/help/main/c-reports/personalization-reports/reports-ap.md)または[自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが表示され、アクティビティのパフォーマンスに関する情報が最初の画面アイコンで表示されます。 追加された2つのアイコンは、2つの[!UICONTROL Personalization Insights] レポートを表します：**[!UICONTROL Automated Segments]** （![自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と&#x200B;**[!UICONTROL Important Attributes]** （![重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）。 自動ターゲットには、[!UICONTROL Summary] レポートのグラフィック表示に追加のグラフアイコンがあります。
+   [Automated Personalizationの概要](/help/main/c-reports/personalization-reports/reports-ap.md)または[自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが表示され、アクティビティのパフォーマンスに関する情報が最初の画面アイコンで表示されます。 追加された2つのアイコンは、2つの[!UICONTROL Personalization Insights] レポートを表します：**[!UICONTROL Automated Segments]** （![自動セグメントレポート &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）と&#x200B;**[!UICONTROL Important Attributes]** （![重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）。 自動ターゲットには、[!UICONTROL Summary] レポートのグラフィック表示に追加のグラフアイコンがあります。
 
    >[!IMPORTANT]
    >
@@ -60,7 +70,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. [!UICONTROL Automated Segments] レポートデータを確認します。
 
-1. （オプション） **[!UICONTROL Download]** （![ ダウンロードアイコン ](/help/main/assets/icons/Download.svg)）アイコンをクリックして、[Excelやその他のツールでの分析のために、CSV形式](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)でレポートをダウンロードします。
+1. （オプション） **[!UICONTROL Download]** （![&#x200B; ダウンロードアイコン &#x200B;](/help/main/assets/icons/Download.svg)）アイコンをクリックして、[Excelやその他のツールでの分析のために、CSV形式](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)でレポートをダウンロードします。
 
    >[!NOTE]
    >
@@ -74,7 +84,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 |--- |--- |
 | 左側パネル | 左側パネルには、Target のパーソナライゼーションモデルで特定された、このアクティビティの大規模な「自動セグメント」の上位 20 個が一覧表示されます。 「自動セグメント」はオーディエンスに似ていますが、マーケティング担当者ではなく Target のパーソナライゼーションモデルで定義されます。 それぞれの自動セグメントは特定の属性の特定の値（または値の範囲）で構成されます。<br>自動セグメントは重複する可能性があります。 自動セグメントは、1 つ、2 つ、3 つまたは 4 つの属性で定義することができます。 詳しくは、以下の例を参照してください。<br>Target のパーソナライゼーションモデルについて詳しくは、[ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。 Target のパーソナライゼーションモデルで自動セグメントの作成に使用する属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。 |
 | 中央グラフ | 中央のグラフには、ハイライト表示された自動セグメントに対するアクティビティのコンテンツのパフォーマンスが表示されます。 左側パネルで異なるセグメントをクリックすると、中央グラフが更新されます。 |
-| 円グラフ | 中央パネルの上部にある円グラフには、自動セグメントのサイズのほか、アクティビティにおけるパーソナライズされた訪問の合計数が表示されます（このような訪問には、例えば、パーソナライゼーションモデルで提供された、このアクティビティへのトラフィックなどが含まれます。 制御トラフィックや、勝者モデル全体で提供されるトラフィックは含まれません）。 セグメントのサイズは、パーソナライズされた訪問のみに基づいています。<br>![円グラフ ](/help/main/c-reports/assets/pie.png) |
+| 円グラフ | 中央パネルの上部にある円グラフには、自動セグメントのサイズのほか、アクティビティにおけるパーソナライズされた訪問の合計数が表示されます（このような訪問には、例えば、パーソナライゼーションモデルで提供された、このアクティビティへのトラフィックなどが含まれます。 制御トラフィックや、勝者モデル全体で提供されるトラフィックは含まれません）。 セグメントのサイズは、パーソナライズされた訪問のみに基づいています。<br>![円グラフ &#x200B;](/help/main/c-reports/assets/pie.png) |
 | 2 軸棒グラフ | 2 軸棒グラフには、その特定の自動セグメントのオファーまたはエクスペリエンス別に、訪問およびコンバージョンの情報が表示されます。 |
 | ピンクのバー | ピンクのバーはコンバージョン率を表し、グラフの下部の軸を使用します。 バーにマウスポインターを合わせると、詳細が表示されます |
 | 青のバー | 青のバーは訪問数を表し、グラフの上部の軸を使用します。 バーにマウスポインターを合わせると、詳細が表示されます。 |
@@ -114,7 +124,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 自動セグメントは特定の属性の特定の値（または値の範囲）で構成されます。 自動セグメントの例については、上記の手順 5 を参照してください。 セグメントは重複する可能性があります。
 
-Targetのパーソナライゼーションモデルの基礎となるランダムなフォレストのパーソナライゼーションアルゴリズムについて詳しくは、[ ランダムなフォレストのアルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
+Targetのパーソナライゼーションモデルの基礎となるランダムなフォレストのパーソナライゼーションアルゴリズムについて詳しくは、[&#x200B; ランダムなフォレストのアルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
 
 **自動セグメントの順序を決定する項目は何ですか？**
 
@@ -142,7 +152,7 @@ Personalization インサイトレポート（[!UICONTROL Automated Segments]と
 
 **どのように[!UICONTROL Personalization Insights]を作成しますか？**
 
-[!UICONTROL Personalization Insights]は、MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許保留中の手法を使用して作成されます。 MAGIXについて詳しくは、[arXiv.org web サイト ](https://arxiv.org/abs/1706.07160)に掲載されているAdobeのリサーチチームが公開した論文をご覧ください。
+[!UICONTROL Personalization Insights]は、MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許保留中の手法を使用して作成されます。 MAGIXについて詳しくは、[arXiv.org web サイト &#x200B;](https://arxiv.org/abs/1706.07160)に掲載されているAdobeのリサーチチームが公開した論文をご覧ください。
 
 **[!UICONTROL Automated Segments] レポートの訪問者トラフィックデータの合計が、APまたはAT概要/パフォーマンスレポートと一致しないのはなぜですか？**
 

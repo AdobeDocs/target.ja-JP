@@ -6,8 +6,12 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 TQID: https://experienceleague.adobe.com/rLjNgDlAWK-r9Zv7083vo-PdWTPy3aHGS4fXEGeTdnY
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 730
@@ -27,11 +31,11 @@ ht-degree: 12%
 
 ## Traffic Estimatorの使用
 
-1. [!UICONTROL Automated Personalization] アクティビティの[!UICONTROL Visual Experience Composer]の[!UICONTROL Experiences] ページから、[!UICONTROL Experiences] ページの左上隅にある&#x200B;**[!UICONTROL Traffic]** アイコン （![ トラフィック見積もりアイコン ](/help/main/assets/icons/Gauge2.svg)）をクリックします。
+1. [!UICONTROL Automated Personalization] アクティビティの[!UICONTROL Visual Experience Composer]の[!UICONTROL Experiences] ページから、[!UICONTROL Experiences] ページの左上隅にある&#x200B;**[!UICONTROL Traffic]** アイコン （![&#x200B; トラフィック見積もりアイコン &#x200B;](/help/main/assets/icons/Gauge2.svg)）をクリックします。
 
    [!UICONTROL Traffic Estimator]が開きます。
 
-   ![Traffic Estimator ユーザーインターフェイス ](assets/ap-est.png)
+   ![Traffic Estimator ユーザーインターフェイス &#x200B;](assets/ap-est.png)
 
    アイコンをもう一度クリックすると、[!UICONTROL Traffic Estimator]を非表示にできます。
 
@@ -60,7 +64,7 @@ ht-degree: 12%
 
    [!UICONTROL Traffic Estimator]が十分なトラフィックがあることを示すまで数値を調整し、それに応じてテストを設計します。
 
-   十分なトラフィック メッセージを示す![ トラフィック見積もり](assets/ap-est-yes.png)
+   十分なトラフィック メッセージを示す![&#x200B; トラフィック見積もり](assets/ap-est-yes.png)
 
    トラフィックが十分な場合、[!UICONTROL Traffic] アイコンに緑色のチェックが表示されます。 トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
 

@@ -6,9 +6,15 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2578
@@ -72,7 +78,7 @@ ht-degree: 49%
 
 1. **[!UICONTROL Algorithm Type]**&#x200B;と&#x200B;**[!UICONTROL Algorithm]**&#x200B;を選択：
 
-   ![推奨されるアルゴリズムセクション ](assets/recommended-algorithm.png)
+   ![推奨されるアルゴリズムセクション &#x200B;](assets/recommended-algorithm.png)
 
    | アルゴリズムタイプ | 使用するタイミング/使用可能なアルゴリズム |
    | --- | --- |
@@ -84,17 +90,17 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Items]**/**[!UICONTROL Media with Similar Attributes]**&#x200B;を選択した場合、[ コンテンツの類似性ルール ](#similarity)を設定するオプションがあります。
+   >**[!UICONTROL Items]**/**[!UICONTROL Media with Similar Attributes]**&#x200B;を選択した場合、[&#x200B; コンテンツの類似性ルール &#x200B;](#similarity)を設定するオプションがあります。
 
 1. 必要に応じて、**項目属性**&#x200B;と&#x200B;**プロファイル属性を選択して一致**&#x200B;に設定し、**推奨キー**、**フィルタリングキー**&#x200B;および/または&#x200B;**分析指標**&#x200B;を選択して、アルゴリズムを設定します。
 
 残りのアルゴリズム設定オプションは、選択したアルゴリズムによって異なります。 アルゴリズムの設定を完了するには、[!UICONTROL Recommendation Key]、[!UICONTROL Filtering Key]、[!UICONTROL Co-Occurrence Basis]、[!UICONTROL Analytics Metric]および/または[!UICONTROL Item Attribute]および[!UICONTROL Profile Attribute to Match]を選択します。
 
-[!UICONTROL Recommendation Key]の選択について詳しくは、[ レコメンデーションキーに基づくレコメンデーション ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。
+[!UICONTROL Recommendation Key]の選択について詳しくは、[&#x200B; レコメンデーションキーに基づくレコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。
 
 ## [!UICONTROL Backup Content] {#content}
 
-[!UICONTROL Backup Content] ルールは、推奨されるアイテムの数が[ レコメンデーションデザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md)に含まれていない場合の処理を決定します。 [!DNL Recommendations]条件で、デザインが要求するレコメンデーション数よりも少ないレコメンデーションを返すこともできます。 例えば、デザインに4つの項目のスロットが含まれているが、基準によって2つの項目だけが推奨される場合、残りのスロットを空のままにするか、バックアップの推奨事項を使用して追加のスロットを埋めるか、推奨事項を表示しないように選択できます。
+[!UICONTROL Backup Content] ルールは、推奨されるアイテムの数が[&#x200B; レコメンデーションデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md)に含まれていない場合の処理を決定します。 [!DNL Recommendations]条件で、デザインが要求するレコメンデーション数よりも少ないレコメンデーションを返すこともできます。 例えば、デザインに4つの項目のスロットが含まれているが、基準によって2つの項目だけが推奨される場合、残りのスロットを空のままにするか、バックアップの推奨事項を使用して追加のスロットを埋めるか、推奨事項を表示しないように選択できます。
 
 1. （オプション） **[!UICONTROL Partial Design Rendering]** トグルを「オン」の位置にスライドさせます。
 
@@ -108,7 +114,7 @@ ht-degree: 49%
 
    バックアップのレコメンデーションを使用すると、レコメンデーションのデザインが利用可能なすべてのスロットに確実に埋められます。 以下に示すように、4 x 1のデザインを持っているとします。
 
-   ![4 x 1 デザイン ](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+   ![4 x 1 デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
    条件によって推奨される項目が2つだけであるとします。 [!UICONTROL Partial Design Rendering] オプションを有効にすると、最初の2つのスロットは一杯になりますが、残りの2つのスロットは空のままです。 ただし、[!UICONTROL Show Backup Recommendations] オプションを有効にすると、指定した条件に基づいて最初の2つのスロットが入力され、残りの2つのスロットはバックアップの推奨事項に基づいて入力されます。
 
@@ -121,7 +127,7 @@ ht-degree: 49%
    | 有効 | 有効 | 使用可能なデザインの「スロット」に代替レコメンデーションが挿入され、デザインが完全にレンダリングされます。<br>インクルージョンルールを代替レコメンデーションに適用するとデザインに挿入できなくなるほど適格な代替レコメンデーションの数が制限される場合、デザインは部分的にレンダリングされます。<br>この基準がレコメンデーションを返さず、インクルージョンルールが代替レコメンデーションをゼロに制限する場合、デザインはデフォルトコンテンツで置き換えられます。 |
    | 無効 | 有効 | 使用可能なデザインの「スロット」に代替レコメンデーションが挿入され、デザインが完全にレンダリングされます。<br>インクルージョンルールを代替レコメンデーションに適用するとデザインに挿入できなくなるほど適格な代替レコメンデーションの数が制限される場合、デザインはデフォルトコンテンツに置き換えられ、レコメンデーションは表示されません。 |
 
-   詳しくは、[ バックアップの推奨事項の使用](/help/main/c-recommendations/c-algorithms/backup-recs.md)を参照してください。
+   詳しくは、[&#x200B; バックアップの推奨事項の使用](/help/main/c-recommendations/c-algorithms/backup-recs.md)を参照してください。
 
 1. （条件付き）前の手順で&#x200B;**[!UICONTROL Show Backup Content]**&#x200B;を選択した場合、**[!UICONTROL Apply inclusion rules to backup recommendations]**&#x200B;を有効にできます。
 
@@ -137,7 +143,7 @@ ht-degree: 49%
    >
    >[!UICONTROL Behavioral Data Source] セクションは、実装で[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用している場合にのみ表示されます。
 
-   ![行動データ Source セクション ](assets/data-source.png)
+   ![行動データ Source セクション &#x200B;](assets/data-source.png)
 
    [!UICONTROL Analytics]を選択した場合は、目的のレポートスイートを選択します。
 
@@ -151,7 +157,7 @@ ht-degree: 49%
 
 1. 表示するレコメンデーションを決定する際に使用できる過去のユーザー行動データの時間範囲を決定するには、**[!UICONTROL Lookback Window]**&#x200B;を設定します。 このオプションは、[!UICONTROL Items with Similar Attributes]と[!UICONTROL Custom Algorithms]を除くすべてのアルゴリズムで使用できます。
 
-   ![ ルックバックウィンドウ スライダー](assets/data-range.png)
+   ![&#x200B; ルックバックウィンドウ スライダー](assets/data-range.png)
 
    サイトのトラフィックが多く、行動が頻繁に変わる場合は、データの範囲を狭めます。 [!DNL Recommendations] は、範囲を狭くするほどマーケットやビジネスの変化に反応しやすくなります。 例えば、範囲を狭く設定した場合、訪問者が新学期やクリスマスなどの季節の製品の購入を始めると、[!DNL Recommendations] は訪問者の行動の変化を検知して季節に適した品目をレコメンデーションするようになります。
 

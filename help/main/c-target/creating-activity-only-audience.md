@@ -5,9 +5,13 @@ title: 1回だけ使用するオーディエンスを作成できますか？
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 449
@@ -24,7 +28,7 @@ ht-degree: 28%
 * アクティビティのみのオーディエンスを使用して、1回だけ使用するオーディエンスを作成できます。また、[!UICONTROL Audiences Library]に保存しないでください。 アクティビティのみのオーディエンスは、二度と使用しないオーディエンスで[!UICONTROL Audiences Library]が乱雑になるのを防ぐのに役立ちます。
 * アクティビティのみのオーディエンスは[!UICONTROL Audiences Library]に表示されません。 これらのオーディエンスはライブラリでは表示されないため、組織内の他のユーザーによる望ましくない変更から保護されます。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を作成する際、**[!UICONTROL Targeting]** ページで、3つの垂直省略記号をクリックし、**[!UICONTROL Replace Audience]**&#x200B;をクリックします。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を作成する際、**[!UICONTROL Targeting]** ページで、3つの垂直省略記号をクリックし、**[!UICONTROL Replace Audience]**&#x200B;をクリックします。
 
    ![ステップの結果](assets/edit_audience.png)
 
@@ -32,12 +36,12 @@ ht-degree: 28%
 
 1. **[!UICONTROL This activity only]** をクリックします。
 
-   ![ アクティビティのみ – aud画像](assets/activity-only-aud.png)
+   ![&#x200B; アクティビティのみ – aud画像](assets/activity-only-aud.png)
 
 1. わかりやすいオーディエンスの名前を入力します。
 1. 必要な属性をオーディエンスビルダーにドラッグ&amp;ドロップします。
 
-   ルールにより、サイト訪問者のサブセットにオーディエンスを制限することができます。 各ルールタイプには、独自のパラメーターがあります。 各タイプのオーディエンスルールの設定について詳しくは、[ オーディエンスのカテゴリ ](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)を参照してください。
+   ルールにより、サイト訪問者のサブセットにオーディエンスを制限することができます。 各ルールタイプには、独自のパラメーターがあります。 各タイプのオーディエンスルールの設定について詳しくは、[&#x200B; オーディエンスのカテゴリ &#x200B;](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)を参照してください。
 
 1. **[!UICONTROL Done]** をクリックします。
 
@@ -55,5 +59,5 @@ ht-degree: 28%
 
   除外ルールを使用するには、次の代替手段を使用できます。
 
-   * [ アクティビティのみのオーディエンスの代わりに、ライブラリオーディエンス ](/help/main/c-target/c-audiences/create-audience.md)を作成して使用します。
+   * [&#x200B; アクティビティのみのオーディエンスの代わりに、ライブラリオーディエンス &#x200B;](/help/main/c-target/c-audiences/create-audience.md)を作成して使用します。
    * [複数の](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) （最大20）ライブラリオーディエンスをアクティビティのみのオーディエンスに組み合わせます。 オーディエンスを組み合わせる場合、組み合わせたオーディエンスがアクティビティのみのオーディエンスとして保存されている場合でも、個々のライブラリオーディエンスのルールを含める/除外することができます。

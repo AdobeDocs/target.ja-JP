@@ -5,9 +5,18 @@ title: 顧客属性およびその使用方法とは
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 TQID: https://experienceleague.adobe.com/Ahg5FSw4ugzcnpccVs6s5r5JMe37Oet4lEbC8CS21u4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1605
@@ -32,7 +41,7 @@ ht-degree: 81%
 顧客属性と [!DNL Target] を使用する際は次の点に注意してください。
 
 * [!DNL People] サービスで[!UICONTROL Customer Attributes]機能を使用する前に満たす必要がある前提条件がいくつかあります。 詳しくは、*Experience Cloud インターフェイスおよび管理* ガイドの[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#section_BD38693AFBF34926BA28E964963B4EA0)の「顧客属性をアップロードするための前提条件」を参照してください。
-* *Experience Cloud インターフェイスおよび管理* ガイドの[顧客属性データファイルおよびソース ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)に記載されているように、ファイルのアップロードに関する制限に注意してください。 ベストプラクティスは次のとおりです。
+* *Experience Cloud インターフェイスおよび管理* ガイドの[顧客属性データファイルおよびソース &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)に記載されているように、ファイルのアップロードに関する制限に注意してください。 ベストプラクティスは次のとおりです。
 
    * 単一の大きなファイル（[指定された制限](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)の範囲内）をアップロードします。 複数の小さなファイルよりも、単一の大きなファイルの方が望ましいです。
    * アップロードを複数のファイルに分割する必要がある場合は、新しいファイルを送信する前に、今のファイルが完全に処理されていることを確認してください。 バッチ内に次のファイルを送信する前に、バッチ内の各ファイルが完全に処理されていることを確認してください。
@@ -47,7 +56,7 @@ ht-degree: 81%
 
 ## 人物サービスでの顧客属性へのアクセス
 
-1. [!DNL Experience Cloud]で、メニューアイコン（![ メニューアイコン ](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックし、**[!UICONTROL People]**&#x200B;をクリックします。
+1. [!DNL Experience Cloud]で、メニューアイコン（![&#x200B; メニューアイコン &#x200B;](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックし、**[!UICONTROL People]**&#x200B;をクリックします。
 
    ![人物](/help/main/c-target/c-visitor-profile/assets/people.png)
 
@@ -61,7 +70,7 @@ ht-degree: 81%
 
 ![CRM ワークフロー](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-次の各作業を完了するための詳細な手順については、[顧客属性ソースを作成し、データファイル ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ja)を&#x200B;*Experience Cloud インターフェイスおよび管理* ガイドにアップロードするをご覧ください。
+次の各作業を完了するための詳細な手順については、[顧客属性ソースを作成し、データファイル &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ja)を&#x200B;*Experience Cloud インターフェイスおよび管理* ガイドにアップロードするをご覧ください。
 
 1. データファイルを作成します。
 
@@ -148,7 +157,7 @@ Experience Cloud ID サービスを使用する場合は、ターゲティング
 
 [!DNL Target]での顧客属性の使用について詳しくは、次のリソースを参照してください。
 
-* *Experience Cloud インターフェイスおよび管理* ガイドの[顧客属性データの作成とアップロード ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=ja)
+* *Experience Cloud インターフェイスおよび管理* ガイドの[顧客属性データの作成とアップロード &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=ja)
 
 ## よくある問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
@@ -186,7 +195,7 @@ Experience Cloud ID サービスを使用する場合は、ターゲティング
 
 顧客属性データが Target に見つからない場合は、過去 *x* 日以内に読み込みを行ったかどうかを確認してください。ここで *x* は Target の[訪問者プロファイルのライフタイム](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)値です（デフォルトでは 14 日）。
 
-## トレーニングビデオ：顧客属性![チュートリアルバッジ](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}を使用してオフラインデータをアップロード
+## トレーニングビデオ：顧客属性![チュートリアルバッジ](/help/main/assets/tutorial.png)を使用してオフラインデータをアップロード {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
 このビデオでは、CRM、ヘルプデスク、販売時点（POS）などのオフラインのマーケティングデータを [!DNL Experience Cloud People] サービスにインポートし、訪問者の既知の ID を使用して訪問者に関連付ける方法を説明します。
 

@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 TQID: https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 483
@@ -23,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->条件とプロモーションに含めるルール ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成して使用する[ プロセスは、ユースケースと例と同様に類似しています。
+>条件とプロモーションに含めるルール [&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成して使用する プロセスは、ユースケースと例と同様に類似しています。
 
 次のシナリオは、[!UICONTROL Profile Attribute Matching]の使用方法を示しています。
 
@@ -38,7 +40,7 @@ ht-degree: 3%
 
 例えば、[!UICONTROL Profile Attribute Matching] オプションを使用して、ブランドが`profile.favoritebrand`に格納された値またはテキストと等しい場合にのみアイテムをレコメンドするルールを作成できます。 このようなルールでは、訪問者が特定のブランドのショーツを使用している場合、そのユーザーのお気に入りのブランド（訪問者のプロファイルに`profile.favoritebrand`に保存されている値）に一致するレコメンデーションのみが表示されます。
 
-![お気に入りのブランド ](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
+![お気に入りのブランド &#x200B;](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
 ```
 Profile Attribute Matching
@@ -51,7 +53,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 インクルージョンルールを使用すると、次の例のように、訪問者のプロファイルからジョブリストへの求職者の場所を一致させることができます。
 
-![ ユーザーの市区町村](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
+![&#x200B; ユーザーの市区町村](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
 ```
 Profile Attribute Matching
@@ -70,8 +72,8 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 web サイトでより多くの小規模なファンを表示することに基づくレコメンデーション：
 
-![ スモールファンのレコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
+![&#x200B; スモールファンのレコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
 web サイトでより多くのファンを表示することにもとづくレコメンデーション：
 
-![大規模なファンのレコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)
+![大規模なファンのレコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

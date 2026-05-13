@@ -5,10 +5,18 @@ title: オファー決定機能の利用方法？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 951
@@ -61,9 +69,9 @@ ht-degree: 2%
 
 ## オファー決定を使用するエクスペリエンスを作成します。
 
-1. [!UICONTROL Visual Experience Composer] （VEC）で手動[!UICONTROL A/B Test]または[!UICONTROL Experience Targeting] （XT）アクティビティを編集または作成する際に、ページ要素をクリックして[ オプション メニュー](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を表示します。
+1. [!UICONTROL Visual Experience Composer] （VEC）で手動[!UICONTROL A/B Test]または[!UICONTROL Experience Targeting] （XT）アクティビティを編集または作成する際に、ページ要素をクリックして[&#x200B; オプション メニュー](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を表示します。
 
-   Visual Experience Composerの![ オプション メニュー](assets/options-menu1.png)
+   Visual Experience Composerの![&#x200B; オプション メニュー](assets/options-menu1.png)
 
    >[!NOTE]
    >
@@ -73,23 +81,23 @@ ht-degree: 2%
 
    [!UICONTROL Offer Decision] オプションは、[手動[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティの編集または作成時にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。 メニューで使用できるオプションは、選択した要素によって異なります。
 
-   Visual Experience Composerの![ オプション メニュー](assets/options-menu.png)
+   Visual Experience Composerの![&#x200B; オプション メニュー](assets/options-menu.png)
 
 1. VECの右側にある&#x200B;**[!UICONTROL Add Offer Decision]** パネルで、目的のサンドボックスを選択し、「オファー決定。配置を選択」をクリックします。
 
-   [!DNL Adobe Experience Platform]の[ サンドボックス ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}を使用すると、インスタンスを仮想環境に分割できます。 たとえば、実稼動環境とステージング環境があるとします。 [!DNL Adobe Journey Optimizer]の[ プレースメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}は、適切なオファーコンテンツを適切な場所に表示するのに役立ちます。
+   [!DNL Adobe Experience Platform]の[&#x200B; サンドボックス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}を使用すると、インスタンスを仮想環境に分割できます。 たとえば、実稼動環境とステージング環境があるとします。 [!DNL Adobe Journey Optimizer]の[&#x200B; プレースメント &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}は、適切なオファーコンテンツを適切な場所に表示するのに役立ちます。
 
-   オファー決定を追加ダイアログボックスの![ サンドボックスと配置ドロップダウンリスト ](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
+   オファー決定を追加ダイアログボックスの![&#x200B; サンドボックスと配置ドロップダウンリスト &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
 1. 目的のオファーのプレースメントとオファーの決定を選択し、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-   ![ オファー決定ダイアログボックスを選択](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
+   ![&#x200B; オファー決定ダイアログボックスを選択](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
    Web サイトがVECに表示され、新しく作成されたオファー決定が[!UICONTROL Modifications] パネルに表示されます。 [!UICONTROL Offer Decision] パネルの下部にある[!UICONTROL Offer Preview]の下にあるオファーをクリックして、オファーの決定を確認できます。
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
-   ![ オファープレビュー](assets/offer-preview2.png)
+   ![&#x200B; オファープレビュー](assets/offer-preview2.png)
 
 1. 3部構成のガイド付きワークフローの[!UICONTROL Targeting]と[!UICONTROL Goals & Settings]の手順を完了して、アクティビティの作成を完了します。
 
@@ -107,8 +115,8 @@ ht-degree: 2%
 
 * アクティビティでオファー決定を使用している場合は、[[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用できません。 アクティビティでオファー決定を使用する場合は、アクティビティの設定時に[!UICONTROL Goals and Settings] ページのレポートソースとして[!DNL Target]を選択します。
 
-* text/html コンテンツタイプのオファーは、deliveryURL コンテンツ配信をサポートしていません。 deliveryURLは、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を通じてサポートされますが、これは、クライアントがコンテンツの明示的な取得と作成を担当する場合に限られます。
+* text/html コンテンツタイプのオファーは、deliveryURL コンテンツ配信をサポートしていません。 deliveryURLは、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を通じてサポートされますが、これは、クライアントがコンテンツの明示的な取得と作成を担当する場合に限られます。
 
 * [!DNL Target] レポートでは、オファー決定レベルのレポートは提供されていません。
 
-* オファー決定を含む[!DNL Target]個のエクスペリエンスの[QA リンク ](/help/main/c-activities/c-activity-qa/activity-qa.md)を視覚化すると、これらのオファー決定の[!DNL Adobe Journey Optimizer]で設定された頻度の上限に影響します。
+* オファー決定を含む[!DNL Target]個のエクスペリエンスの[QA リンク &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)を視覚化すると、これらのオファー決定の[!DNL Adobe Journey Optimizer]で設定された頻度の上限に影響します。

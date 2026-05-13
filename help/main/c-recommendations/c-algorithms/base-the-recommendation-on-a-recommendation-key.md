@@ -6,9 +6,15 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 3510
@@ -244,7 +250,7 @@ ht-degree: 28%
 * [!UICONTROL Last Viewed Item]
 * [!UICONTROL Most Viewed Item]
 
-詳しくは、[ コンテンツの類似性](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)を参照してください。
+詳しくは、[&#x200B; コンテンツの類似性](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)を参照してください。
 
 ## [!UICONTROL User-Based]
 
@@ -265,7 +271,7 @@ ht-degree: 28%
 [!UICONTROL Recently Viewed Items]または[!UICONTROL Recently Viewed Media]をフィルタリングして、特定の属性を持つ項目のみを表示できます。
 
 * [!UICONTROL Recently Viewed]条件は、レコメンデーションの他の条件と同様に設定可能です。
-* [ コレクション ](/help/main/c-recommendations/c-products/collections.md)、[除外](/help/main/c-recommendations/c-products/exclusions.md)、[包含](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （価格と在庫に関する特別なルールを含む）は、他の条件と同じように使用できます。
+* [&#x200B; コレクション &#x200B;](/help/main/c-recommendations/c-products/collections.md)、[除外](/help/main/c-recommendations/c-products/exclusions.md)、[包含](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （価格と在庫に関する特別なルールを含む）は、他の条件と同じように使用できます。
 
 考えられるユースケースとしては、複数の企業を持つ多国籍企業が、複数のデジタルプロパティにまたがる訪問者ビュー項目を持っている場合があります。 その場合は、最近表示した項目をレコメンデーションする場所を、それが表示された各プロパティのみに制限できます。 これにより、最近閲覧した商品が、他のデジタルプロパティのサイトに表示されるのを防ぐことができます。
 
@@ -312,7 +318,7 @@ ht-degree: 28%
 [!UICONTROL Custom Criteria]に包含ルールが追加されたことで、訪問者の興味に基づいて、静的なレコメンデーションが動的なレコメンデーションに変換されます。
 
 * カスタム条件は、レコメンデーションの他の条件と同じように変更可能です。
-* [ コレクション ](/help/main/c-recommendations/c-products/collections.md)、[除外](/help/main/c-recommendations/c-products/exclusions.md)、[包含](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （価格と在庫に関する特別なルールを含む）は、他の条件と同じように使用できます。
+* [&#x200B; コレクション &#x200B;](/help/main/c-recommendations/c-products/collections.md)、[除外](/help/main/c-recommendations/c-products/exclusions.md)、[包含](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （価格と在庫に関する特別なルールを含む）は、他の条件と同じように使用できます。
 
 主な使用例は次のとおりです。
 

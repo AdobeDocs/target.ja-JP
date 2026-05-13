@@ -5,9 +5,12 @@ title: 訪問者は[!UICONTROL Experience Targeting] アクティビティでエ
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 723
@@ -25,7 +28,7 @@ ht-degree: 41%
 |--- |--- |
 | 地理的な位置 | 訪問者が出張または旅行により、異なる地理的位置から Web サイトまたはモバイルアプリを表示します。 |
 | 顧客ステータス | 訪問者は、アカウントを作成したり、商品を購入する前に、見込み客と見なされる可能性があります。 |
-| カテゴリ親和性 | [!DNL Target]の[ カテゴリ親和性](/help/main/c-target/c-visitor-profile/category-affinity.md)機能は、訪問者が表示するカテゴリを自動的にキャプチャし、ターゲティング目的でカテゴリに対する訪問者の親和性を計算します。 例えば、特定のテーマに関する記事をweb サイトで複数閲覧した訪問者には、そのテーマに関連するコンテンツが表示されます。 |
+| カテゴリ親和性 | [!DNL Target]の[&#x200B; カテゴリ親和性](/help/main/c-target/c-visitor-profile/category-affinity.md)機能は、訪問者が表示するカテゴリを自動的にキャプチャし、ターゲティング目的でカテゴリに対する訪問者の親和性を計算します。 例えば、特定のテーマに関する記事をweb サイトで複数閲覧した訪問者には、そのテーマに関連するコンテンツが表示されます。 |
 | 曜日 | 週末の取り組みとして、訪問者に映画、食事またはその他の娯楽に関するコンテンツを表示できます。 |
 
 [!DNL Target]でこれらの機能を使用するには、[!UICONTROL Experience Targeting] アクティビティを操作する際に、次の情報を理解することが重要です。

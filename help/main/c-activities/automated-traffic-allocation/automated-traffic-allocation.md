@@ -5,9 +5,16 @@ title: '[!UICONTROL Auto-Allocate] アクティビティとは'
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 3572
@@ -33,7 +40,7 @@ ht-degree: 97%
 
 [!DNL Target] の通常の A/B テストでは、対抗エクスペリエンスとコントロールエクスペリエンスの一対比較しかできません。 例えば、アクティビティにエクスペリエンス A、B、C、D があり、A がコントロールである場合、通常の [!DNL Target] の A/B テストでは、A 対 B、A 対 C、A 対 D を比較します。
 
-このようなテストでは、[!DNL Target]を含むほとんどの製品で、[ ウェルチのt-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}を使用して、p値に基づく信頼性を生成します。 その後、この信頼値を使用して、対抗エクスペリエンスがコントロールエクスペリエンスと十分に異なるかどうかを特定します。 ただし、[!DNL Target] は「最良の」エクスペリエンスを見つけるのに必要な暗黙の比較（B 対 C、B 対 D、C 対 D）を自動的に実行することはありません。 その結果、マーケターは、「最良の」エクスペリエンスを判断する結果を手動で分析する必要があります。
+このようなテストでは、[!DNL Target]を含むほとんどの製品で、[&#x200B; ウェルチのt-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}を使用して、p値に基づく信頼性を生成します。 その後、この信頼値を使用して、対抗エクスペリエンスがコントロールエクスペリエンスと十分に異なるかどうかを特定します。 ただし、[!DNL Target] は「最良の」エクスペリエンスを見つけるのに必要な暗黙の比較（B 対 C、B 対 D、C 対 D）を自動的に実行することはありません。 その結果、マーケターは、「最良の」エクスペリエンスを判断する結果を手動で分析する必要があります。
 
 [!UICONTROL Auto-Allocate] は、エクスペリエンス全体に対してすべての暗黙の比較を実行し、「真」の勝者を見つけます。 このテストには「コントロール」エクスペリエンスという概念がありません。
 
@@ -55,7 +62,7 @@ ht-degree: 97%
 
 [!UICONTROL Auto-Allocate] について説明するときに役立つ用語を次に示します。
 
-**マルチアームバンディット：**[マルチアームバンディット](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}は、調査学習とその学習の活用のバランスを最適化するためのアプローチです。
+**マルチアームバンディット：**&#x200B;[マルチアームバンディット](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}は、調査学習とその学習の活用のバランスを最適化するためのアプローチです。
 
 ## アルゴリズムの仕組み {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -87,7 +94,7 @@ ht-degree: 97%
 >
 >アクティビティに 2 つのエクスペリエンスしかない場合は、[!DNL Target] が 75％の信頼性で勝者となるエクスペリエンスを特定するまでは、両方が均等のトラフィックを得ます。 この時点で、トラフィックの 3 分の 2 が勝者に、3 分の 1 が敗者に配分されます。 その後、エクスペリエンスが 95％の信頼性に達したら、トラフィックの 90％が勝者に、10％が敗者に配分されます。 [!DNL Target] は、最終的に偽陽性が発生するのを防ぐため（つまり、調査を続行するため）、ある程度のトラフィックを常に「敗者」エクスペリエンスにも送信します。
 
-[!UICONTROL Auto-Allocate] アクティビティを有効にすると、次の操作が Tar[!DNL]get UI から行えなくなります。
+[!UICONTROL Auto-Allocate] アクティビティを有効にすると、次の操作が Target UI から行えなくなります。
 
 * 「トラフィック配分」モードから「手動」への切り替え
 * 目標指標タイプの変更
@@ -232,7 +239,7 @@ ht-degree: 97%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### アクティビティワークフロー – ターゲティング （2:14） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### アクティビティワークフロー – ターゲティング （2:14） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、トラフィック配分の設定に関する情報が含まれています。
 
@@ -243,7 +250,7 @@ ht-degree: 97%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### A/B テストの作成（8:36） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### A/B テストの作成（8:36） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。 [!UICONTROL Auto-Allocate]は4:45から議論されています。
 

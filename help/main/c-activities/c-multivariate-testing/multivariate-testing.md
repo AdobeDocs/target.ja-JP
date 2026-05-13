@@ -5,9 +5,13 @@ title: '[!UICONTROL Multivariate Test]とは'
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1453
@@ -76,7 +80,7 @@ Targetの[Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-cr
 ## 部分的階乗テスト
 
 [!DNL Target] では、全因子多変量分析テストがビルトインアクティビティオプションとして用意されています。 統計では，
-「実験の設計」は、どの要因が結果に影響を与えるかを決定するために、多くのアプローチや設計を提供します。 そのようなアプローチの1つが、部分的要因テスト用の[Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods)です。 Taguchiを使用すると、マーケターはテストが必要なエクスペリエンスの順列数を減らし、多変量テストのトラフィック要件を減らす一連の仮定を作成できます。 この機能とテストのアプローチは、この[ オフラインスプレッドシート ](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)を使用して[!DNL Target]に適用できます。
+「実験の設計」は、どの要因が結果に影響を与えるかを決定するために、多くのアプローチや設計を提供します。 そのようなアプローチの1つが、部分的要因テスト用の[Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods)です。 Taguchiを使用すると、マーケターはテストが必要なエクスペリエンスの順列数を減らし、多変量テストのトラフィック要件を減らす一連の仮定を作成できます。 この機能とテストのアプローチは、この[&#x200B; オフラインスプレッドシート &#x200B;](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)を使用して[!DNL Target]に適用できます。
 
 チームで他の実験計画法アプローチを使用している場合は、この計算スプレッドシートをカスタム実験デザインのリファレンス実装として使用できます。
 
@@ -94,7 +98,7 @@ Targetの[Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-cr
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### アクティビティの種類（9:03） ![概要バッジ ](/help/main/assets/overview.png)
+### アクティビティの種類（9:03） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 この概要ビデオでは、[!DNL Target]で使用可能なアクティビティの種類について説明します。 多変量テストについては、4:20から説明します。
 
@@ -104,9 +108,9 @@ Targetの[Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-cr
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 多変量テストの作成（9:25） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### 多変量テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
-このビデオでは、[!DNL]Targetの3段階のガイド付きワークフローを使用して、多変量テストを理解、計画、作成する方法を説明します。
+このビデオでは、Targetの3段階のガイド付きワークフローを使用して、多変量テストを理解、計画、作成する方法を説明します。
 
 * 多変量分析テストの定義と設計
 * 多変量分析テストの作成

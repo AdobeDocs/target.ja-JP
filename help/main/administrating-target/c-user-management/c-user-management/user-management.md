@@ -6,11 +6,22 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4bea
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 873
@@ -28,9 +39,9 @@ ht-degree: 62%
 >
 >[!DNL Target] UIの上部にある[!UICONTROL Administration] リンクをクリックすると、組織が[!UICONTROL Standard]または[!UICONTROL Premium] ライセンスを持っているかどうかを確認できます。
 >
->* **[!DNL Target][!UICONTROL Standard]のお客様**:「[!UICONTROL Users]」タブ （**[!UICONTROL Properties]**」タブではなく）が表示されている場合、組織には[!DNL Target] [!UICONTROL Standard] ライセンスがあります。[!DNL Target] [!UICONTROL Standard]のお客様は、この記事の指示に従ってユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。[!UICONTROL Administration > Users]
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard]のお客様**:「[!UICONTROL Users]」タブ （**[!UICONTROL Properties]**」タブではなく）が表示されている場合、組織には[!DNL Target] [!UICONTROL Standard] ライセンスがあります。[!DNL Target] [!UICONTROL Standard]のお客様は、この記事の指示に従ってユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。[!UICONTROL Administration > Users]
 >
->* **[!DNL Target]プレミアム顧客**:「[!UICONTROL Users]」タブと「[!UICONTROL Properties]」タブ （[!UICONTROL Administration > Properties]）が表示されている場合、組織には[!DNL Target] プレミアム ライセンスがあります。[!DNL Target] プレミアムのお客様は、[ エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)および[ エンタープライズ権限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の手順に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
+>* **[!DNL Target]プレミアム顧客**:「[!UICONTROL Users]」タブと「[!UICONTROL Properties]」タブ （[!UICONTROL Administration > Properties]）が表示されている場合、組織には[!DNL Target] プレミアム ライセンスがあります。[!DNL Target] プレミアムのお客様は、[&#x200B; エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)および[&#x200B; エンタープライズ権限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の手順に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
 >
 >ユーザーと権限の管理方法について詳しくは、[製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)の&#x200B;*エンタープライズおよびチームユーザーガイド*&#x200B;を参照してください。
 

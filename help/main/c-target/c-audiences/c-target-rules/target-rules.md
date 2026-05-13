@@ -5,9 +5,12 @@ title: オーディエンスのカテゴリーは何ですか？
 feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 TQID: https://experienceleague.adobe.com/gdwPSImsbXfvaX2Z4bL9-hGyLwo0b0q-At0fokUfYN8
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 374
@@ -19,7 +22,7 @@ ht-degree: 47%
 
 [!DNL Adobe Target]を使用して、複数のカテゴリ属性のいずれかをターゲットにできます。 各属性のターゲティングルール（またはグループ）を作成するには、目的の属性をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
-![ オーディエンスの属性](/help/main/c-target/c-audiences/assets/attributes.png)
+![&#x200B; オーディエンスの属性](/help/main/c-target/c-audiences/assets/attributes.png)
 
 特定のカテゴリが選択された場合、1 つ以上のターゲット条件を適用できます。 例えば、地域カテゴリ内では、ルールを「市区町村=San Francisco」のように定義できます。 複数の値を追加すると、OR 条件が作成されます。 訪問者がこれらの値のいずれかと一致するだけで、ターゲット条件が満たされます。 同じパラメーターで AND 条件を設定するには、カスタムエクスプレッションターゲットを作成します。
 
@@ -35,7 +38,7 @@ OR演算を含む複雑なターゲティングルールをカテゴリをまた
 
 [!UICONTROL Audience] リストは、オーディエンス名で並べ替えたり、最終更新日で並べ替えたりできます。 名前や日付で並べ替える場合は、列見出しをクリックし、昇順または降順でオーディエンスを表示するよう選択します。
 
-## トレーニングビデオ：オーディエンスの作成![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：オーディエンスの作成![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 

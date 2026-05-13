@@ -5,8 +5,12 @@ title: アクティビティのトラブルシューティング方法
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 847
@@ -91,7 +95,7 @@ ht-degree: 44%
 
 * アクティビティを再構築します。
 
-ページの変更が[!DNL Target]の表示機能にどのような影響を与えるかについて詳しくは、[ ページの変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+ページの変更が[!DNL Target]の表示機能にどのような影響を与えるかについて詳しくは、[&#x200B; ページの変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 ## ページの読み込み中にページの構造が変更される。
 
@@ -104,7 +108,7 @@ ht-degree: 44%
 * （IDを使用して）テストされる各要素を一意に識別するようにページコードを更新します。
 * 前述のとおり、クラスや兄弟を動的に修正するのを止めます。
 
-ページの変更が[!DNL Target]の表示機能にどのような影響を与えるかについて詳しくは、[ ページの変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+ページの変更が[!DNL Target]の表示機能にどのような影響を与えるかについて詳しくは、[&#x200B; ページの変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 ## 同じページ上で他のアクティビティが実行される。
 
