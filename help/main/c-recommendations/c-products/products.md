@@ -1,20 +1,23 @@
 ---
 keywords: 製品;コレクション
-description: Adobe [!DNL Target] Recommendations のエンティティについて説明します。 エンティティとは、記事、ムービー、製品など  [!DNL Target] 使用を推奨する項目を指します。
+description: Adobe [!DNL Target] Recommendationsのエンティティについて説明します。 エンティティは、記事、映画、製品など、 [!DNL Target]を使用して推奨する項目を参照します。
 title: エンティティの使用方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+TQID: https://experienceleague.adobe.com/zfISb59XJ5qrD1-FA0syglPPswIL8cA0N0pBpY4tgIE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 76%
+source-wordcount: 122
+ht-degree: 78%
 
 ---
 
 # エンティティ
 
-エンティティとは、レコメンデーションする項目を指します。製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。
+エンティティとは、レコメンデーションする項目を指します。 製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。
 
 Recommendations は、コレクションから設定した条件に応じて品目を表示します。
 

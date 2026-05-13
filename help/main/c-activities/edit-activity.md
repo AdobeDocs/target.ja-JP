@@ -1,107 +1,111 @@
 ---
-keywords: アクティビティ；アクティビティ；アクティビティタイプ；アクティビティの編集；編集；コピー
+keywords: アクティビティ；アクティビティの種類；アクティビティの編集；編集；コピー
 description: 既存のアクティビティを編集する様々な方法について説明します。
-title: アクティビティを編集するには
+title: アクティビティの編集方法
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
+TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: 978
 ht-degree: 22%
 
 ---
 
 # アクティビティの編集
 
-[!DNL Adobe Target] の既存のアクティビティを編集する方法について説明します。 この記事では、[!DNL Target] インターフェイスで使用できる、アクティビティを変更するための様々な方法について説明します。 エクスペリエンスの更新、ターゲティングルールの調整、目標の設定などを行う場合でも、アクティブ化の前に変更 [!DNL Target] 安全に保存されます。
+[!DNL Adobe Target]で既存のアクティビティを編集する方法について説明します。 この記事では、アクティビティを変更するために[!DNL Target] インターフェイスで使用できるさまざまな方法について説明します。 エクスペリエンスの更新、ターゲティングルールの調整、目標の設定など、[!DNL Target]を使用すると、アクティベーションの前に変更を安全に保存できます。
 
-[!DNL Target] には、既存のアクティビティを編集できる UI の様々な場所が用意されています。 プロセスは、選択する方法によって異なります。
+[!DNL Target]には、既存のアクティビティを編集できるUIの様々な場所が用意されています。 プロセスは、選択する方法によって異なります。
 
-## アクティビティページでホバーアイコンを使用してアクティビティを編集 [!UICONTROL More Actions] ます {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## アクティビティ ページのホバー[!UICONTROL More Actions] アイコンを使用して、アクティビティを編集します {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. **[!UICONTROL Activities]** のページで、編集するアクティビティの横にある **[!UICONTROL More Actions]** アイコン ![&#x200B; その他のアクションアイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **編集**]」をクリックします。
+1. **[!UICONTROL Activities]** ページで、編集するアクティビティの横にある&#x200B;**[!UICONTROL More Actions]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、[!UICONTROL **編集**]&#x200B;をクリックします。
 
-   アクティビティが [!DNL Target] （VEC）に開 [!UICONTROL Visual Experience Composer] れ、[!UICONTROL Experiences] のページが表示されます（3 ステップのガイド付きワークフローの最初のステップ）。
+   [!DNL Target]が[!UICONTROL Visual Experience Composer] （VEC）でアクティビティを開き、[!UICONTROL Experiences] ページが表示されます（3段階のガイド付きワークフローの最初のステップ）。
 
 1. [VEC オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を使用して、目的に応じてアクティビティを編集します。
 
-1. **[!UICONTROL Next]** をクリックして次の手順に進み、必要な編集を行います。
+1. **[!UICONTROL Next]**&#x200B;をクリックして次の手順に進み、必要な編集を行います。
 
-1. **目標と設定** ページには、次のオプションがあります。
+1. 「**目標と設定**」ページにアクセスすると、次のオプションが表示されます。
 
-   * **[!UICONTROL Save & Close]:** 「**[!UICONTROL Save and Close]**」をクリックして変更を保存し、アクティビティの [!UICONTROL Overview] ページを表示します。
-   * **保存：** **[!UICONTROL More Actions]** のアイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックしてから「**[!UICONTROL Save]**」を選択すると、変更が保存され、VEC に残って引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
+   * **[!UICONTROL Save & Close]:** **[!UICONTROL Save and Close]**&#x200B;をクリックして変更を保存し、アクティビティの[!UICONTROL Overview] ページを表示します。
+   * **保存：** **[!UICONTROL More Actions]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL Save]**&#x200B;を選択して変更を保存し、引き続き変更を加えることができます。 保存が完了するまで待ってから次の変更作業に移ってください。 保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
 
-## [!UICONTROL Activities] ページで名前をクリックして、アクティビティを編集します {#section_176180DAD17E40CEA441903F39E0AA1C}
+## [!UICONTROL Activities] ページから名前をクリックして、アクティビティを編集します {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. ワークフローを 1 手順ずつ実行する必要をなくすには、目的のアクティビティを [!UICONTROL Activities] のページからクリックして開き、「**[!UICONTROL Edit Activity]**」ドロップダウンリストからオプションを選択して、目的のオプションを選択します。
+1. ワークフローをステップで進める必要がないようにするには、[!UICONTROL Activities] ページから目的のアクティビティをクリックして開き、**[!UICONTROL Edit Activity]** ドロップダウンリストからオプションを選択してから、目的のオプションを選択します。
 
-   * **エクスペリエンスを編集：** エクスペリ [!UICONTROL Experiences] ンスのページ（3 ステップのガイド付きワークフローの最初のステップ）に直接移動します。
-   * **ターゲティングを編集**:[!UICONTROL Targeting] ページ（3 ステップのガイドによるワークフローの 2 番目の手順）に直接移動します。
-   * **[!UICONTROL Goals & Settings]**: [!UICONTROL Goals & Settings] ページに直接移動します（3 ステップのガイドによるワークフローの 3 ステップ目）。
+   * **エクスペリエンスを編集：** [!UICONTROL Experiences] ページに直接移動します（3段階のガイド付きワークフローの最初のステップ）。
+   * **ターゲット設定を編集**：直接[!UICONTROL Targeting] ページに移動します（3段階のガイド付きワークフローの2番目のステップ）。
+   * **[!UICONTROL Goals & Settings]**: [!UICONTROL Goals & Settings] ページに直接移動します（3段階のガイド付きワークフローの3番目のステップ）。
 
-1. 必要な変更を加え、アクティビティを保存します。
+1. 必要な変更を行い、アクティビティを保存します。
 
-   * **[!UICONTROL Save & Close]:** 「**[!UICONTROL Save and Close]**」をクリックして変更を保存し、アクティビティの [!UICONTROL Overview] ページを表示します。
-   * **保存：** **[!UICONTROL More Actions]** のアイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックしてから「**[!UICONTROL Save]**」を選択すると、変更が保存され、VEC に残って引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
+   * **[!UICONTROL Save & Close]:** **[!UICONTROL Save and Close]**&#x200B;をクリックして変更を保存し、アクティビティの[!UICONTROL Overview] ページを表示します。
+   * **保存：** **[!UICONTROL More Actions]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL Save]**&#x200B;を選択して変更を保存し、引き続き変更を加えることができます。 保存が完了するまで待ってから次の変更作業に移ってください。 保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
 
 ## ワークスペースを使用する際のアクティビティのコピー/編集 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
-ワークスペースを使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。多くの点で、ワークスペースは [!DNL Adobe Analytics] のレポートスイートに似ています。
+ワークスペースを使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。 多くの点で、ワークスペースは [!DNL Adobe Analytics] のレポートスイートに似ています。
 
 >[!NOTE]
 >
->ワークスペースは、[!UICONTROL Properties and Permissions] ソリューションの一部として使用できる [!DNL Target Premium] 機能の一部です。 [!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
+>ワークスペースは、[!DNL Target Premium] ソリューションの一部として利用できる[!UICONTROL Properties and Permissions]機能の一部です。 [!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
 
-多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
+多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。 複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
-ワークスペースとエンタープライズユーザー権限機能について詳しくは、[&#x200B; エンタープライズユーザー権限 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) を参照してください。
+ワークスペースとエンタープライズユーザー権限機能について詳しくは、[ エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)を参照してください。
 
-お使いの環境で [!UICONTROL Enterprise User Permissions] を有効にしている場合、アクティビティを同じワークスペースまたは別のワークスペースにコピーできます。 現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL Activities] のページで、コピーするアクティビティの横にある **[!UICONTROL More Actions]** のアイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **コピー**]」をクリックします。
+環境で[!UICONTROL Enterprise User Permissions]を有効にしている場合、アクティビティを同じワークスペースまたは別のワークスペースにコピーできます。 現時点では、アクティビティを別のワークスペースに移すことはできません。 アクティビティを別のワークスペースにコピーするには、[!UICONTROL Activities] ページから、コピーするアクティビティの横にある&#x200B;**[!UICONTROL More Actions]** アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、[!UICONTROL **コピー**]&#x200B;をクリックします。
 
 ワークスペースでコピー／編集機能を使用する際の重要なポイントは次のとおりです。
 
-* 同じワークスペース内またはデフォルトワークスペースからデフォルト以外のワークスペースにアクティビティをコピーすると、アクティビティウィザードが自動的に開きます。 ワークスペース間のコピーでは、アクティビティプロパティの更新のみが必要になる場合があります。
-* アクティビティをデフォルト以外のワークスペースから別のワークスペース（デフォルトか非デフォルトかに関わらず）にコピーすると、アクティビティ ウィザードが開き、設定を完了するために手動の入力が必要になります。
-   * **[!UICONTROL Properties]**: プロパティは、ワークスペース間で異なる場合があります。 この状況により、次の警告がトリガーされる場合があります。
+* 同じワークスペース内またはデフォルトのワークスペースからデフォルト以外のワークスペースにアクティビティをコピーすると、アクティビティウィザードが自動的に開きます。 クロスワークスペースコピーでは、アクティビティプロパティを更新するだけで済む場合があります。
+* アクティビティがデフォルト以外のワークスペースから別のワークスペースにコピーされた場合（デフォルトまたはデフォルト以外の場合）、アクティビティウィザードが開き、設定を完了するには手動入力が必要です。
+   * **[!UICONTROL Properties]**: ワークスペース間でプロパティが異なる場合があります。 この状況は警告をトリガーする可能性があります：
 
-      * [!UICONTROL Form-Based Experience Composer] では、警告はユーザーインターフェイス内に直接表示されるので、すぐに確認できます。
+      * [!UICONTROL Form-Based Experience Composer]では、警告がユーザーインターフェイス内に直接表示され、すぐに表示されます。
 
-        ![&#x200B; フォームベースのワークスペースの警告 &#x200B;](/help/main/c-activities/assets/form-based-warning.png)
+        ![ フォームベースのワークスペースに関する警告](/help/main/c-activities/assets/form-based-warning.png)
 
-      * VEC では、[!UICONTROL Configure] > [!UICONTROL Properties] をクリックすると、警告が表示されます。
+      * VECでは、[!UICONTROL Configure] > [!UICONTROL Properties]をクリックすると警告が表示されます。
 
         ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
 
-        この問題を解決するには、[!UICONTROL Add/Remove] をクリックして、対象のワークスペースで使用可能なプロパティのみが選択対象として表示されるようにします。
+        この問題を解決するには、[!UICONTROL Add/Remove]をクリックして、宛先ワークスペースで使用可能なプロパティのみが選択用に表示されるようにします。
 
-   * **オーディエンスとオファー**：アクティビティを新しいワークスペースにコピーすると、関連するすべてのオーデ [!DNL Target] エンスまたはアドホックオーディエンスと、元のワークスペースからのオファーが、`<Entity Name> Copy <Date>` オーディエンスの場合は [!DNL Target]、アドホックオファーの場合は `<Entity Name>` の形式で複製されます。
+   * **オーディエンスとオファー**: アクティビティを新しいワークスペースにコピーする場合、関連付けられたすべての[!DNL Target]または元のワークスペースからのアドホックオーディエンスとオファーが、[!DNL Target]個のオーディエンスとアドホックオファー`<Entity Name>`の形式`<Entity Name> Copy <Date>`を使用して複製されます。
 
      動作の詳細：
 
-      * コピーしたオーディエンスとオファーは、アクティビティを保存して再び開くまで、[!UICONTROL Audiences] ーディエンスと [!UICONTROL Offers] リストに表示されません。
-      * これらのエンティティは、コピー後すぐに編集することはできません。 ユーザーには、最初の編集セッション中に、これらの項目に関する空のコンテンツが VEC に表示される場合があります。
-      * 顧客は、必要に応じて、コピーしたオーディエンスやオファーを宛先ワークスペースの他のユーザーに置き換えることができます。
+      * コピーしたオーディエンスとオファーは、アクティビティが保存され、再度開くまで、[!UICONTROL Audiences]および[!UICONTROL Offers]のリストには表示されません。
+      * これらのエンティティは、コピー後すぐに編集することはできません。 お客様は、最初の編集セッション中にこれらの項目に対してVECで空のコンテンツが表示される場合があります。
+      * 顧客は、必要に応じて、コピーしたオーディエンスやオファーを、コピー先のワークスペースから他のオーディエンスに置き換えることができます。
 
-     このプロセスにより、カスタマイズの柔軟性を維持しながら、ワークスペース間のアクティビティの複製がよりスムーズになります。
+     このプロセスにより、カスタマイズの柔軟性を維持しながら、ワークスペース間のアクティビティの複製をよりスムーズに行うことができます。
 
-     アクティビティをコピーする際、現在のワークスペースまたはデフォルトのワークスペースのいずれにも保存されていないターゲット以外のオーディエンスおよびオファーは、手動で置き換える必要があります。
+     アクティビティ、非ターゲットオーディエンス、および現在のワークスペースまたはデフォルトのワークスペースに保存されていないオファーをコピーする場合は、手動で置き換える必要があります。
 
-     これらの非ターゲットオーディエンスとオファーを手動で置き換えると、コピーされたアクティビティでは、有効でアクセス可能なエンティティのみが使用され、編集や配信中のエラーが回避されます。
+     これらの非ターゲットオーディエンスとオファーを手動で置き換えることで、コピーされたアクティビティで有効でアクセス可能なエンティティのみが使用され、編集または配信中のエラーを防ぐことができます。
 
-     ![&#x200B; 警告メッセージ &#x200B;](/help/main/c-activities/assets/copy.png)
+     ![警告メッセージ ](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >
->環境で [!UICONTROL Enterprise User Permissions] 機能が有効になっていない場合、コピーする前にすべてのアクティビティが編集モードで開きます。
+>環境で[!UICONTROL Enterprise User Permissions]機能が有効になっていない場合、すべてのアクティビティはコピーする前に編集モードで開きます。
 
 ## ドラフトフォームでのアクティビティの保存 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-[!UICONTROL Save as Draft] 機能は使用できなくなりました。 詳しくは、*[!UICONTROL Status]* アクティビティリストへのフィルターの適用 [&#x200B; の &#x200B;](/help/main/c-activities/activities.md#filters) を参照してください。
+[!UICONTROL Save as Draft]機能は使用できなくなりました。 詳しくは、[ アクティビティ リストにフィルターを適用](/help/main/c-activities/activities.md#filters)の&#x200B;*[!UICONTROL Status]*&#x200B;を参照してください。
 
-## [!DNL Recommendations Classic] で作成された従来のアクティビティの操作 {#classic}
+## [!DNL Recommendations Classic]で作成されたレガシーアクティビティの操作 {#classic}
 
-[!UICONTROL Activities] リストには、[!DNL Recommendations Classic] を含む様々なソースで作成されたアクティビティが表示されます。 [!DNL Recommendations Classic] で作成した従来のアクティビティを使用する場合、次のアクションを使用できます。
+[!UICONTROL Activities] リストには、[!DNL Recommendations Classic]を含む様々なソースで作成されたアクティビティが表示されます。 [!DNL Recommendations Classic] で作成した従来のアクティビティを使用する場合、次のアクションを使用できます。
 
 * [!UICONTROL Activate]
 * [!UICONTROL Deactivate]
@@ -109,4 +113,4 @@ ht-degree: 22%
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
 
-[!DNL Recommendations] アクティビティを直接編集することはできません。アクティビティを編集する場合、[!DNL Target Premium] を使用してアクティビティのコピーを作成してから、新しく作成したアクティビティを保存する必要があります。この新しく作成したアクティビティは、必要に応じて編集できます。
+[!DNL Recommendations] アクティビティを直接編集することはできません。 アクティビティを編集する場合、[!DNL Target Premium] を使用してアクティビティのコピーを作成してから、新しく作成したアクティビティを保存する必要があります。 この新しく作成したアクティビティは、必要に応じて編集できます。

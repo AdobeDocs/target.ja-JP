@@ -1,28 +1,31 @@
 ---
-keywords: 多変量分析テスト；トラブルシューティング；トラブルシューティング；mvt
-description: '[!UICONTROL Multivariate Test] で  [!DNL Adobe Target] （MVT）アクティビティを使用する際に発生する可能性のある課題を、提案されたソリューションと共に紹介します。'
-title: '[!UICONTROL Multivariate Test] のトラブルシューティング方法'
+keywords: 多変量テスト；トラブルシューティング；トラブルシューティング；mvt
+description: ' [!DNL Adobe Target]で[!UICONTROL Multivariate Test] （MVT） アクティビティを使用する際に直面する可能性のある潜在的な課題と、推奨される解決策について説明します。'
+title: '[!UICONTROL Multivariate Test]のトラブルシューティング方法'
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+TQID: https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: 166
 ht-degree: 22%
 
 ---
 
 # [!UICONTROL Multivariate Test] アクティビティのトラブルシューティング
 
-この記事では、[!UICONTROL Multivariate Test] で [!DNL Adobe Target] （MVT）を設計する際に発生する可能性のある問題を解決するための推奨事項を説明します。
+この記事では、[!DNL Adobe Target]で[!UICONTROL Multivariate Test] （MVT）を設計する際に発生する可能性のある問題を解決するための推奨事項について説明します。
 
-* アクティビティの編集時に [!DNL Analytics] ベースの指標を使用したが、レポートスイートが読み込まれない（編集ボックスが表示される）場合は、指標を [!DNL Target] ベースの指標に切り替えてから、もう一度 [!DNL Analytics] ベースの指標に切り替えます。 これで、レポートスイートがロードされるようになります。
-* 既に実行中のテストに変更を加えると、テストとそのデータがリセットされる場合があります。
+* アクティビティを編集する際に、[!DNL Analytics] ベースの指標を使用し、レポートスイートが読み込まれない（スピナー表示）場合は、指標を[!DNL Target]指標に切り替えてから、もう一度[!DNL Analytics] ベースの指標に切り替えます。 これで、レポートスイートがロードされるようになります。
+* 既に実行中のテストに変更を加えた場合は、テストとそのデータをリセットする可能性があります。
 
-  ライブアクティビティを編集で [!DNL Target] ます。 進行中のアクティビティを編集すると、テストがリセットされる可能性があるので、レポートで一部の変更が認識されない場合があります。
+  [!DNL Target]では、ライブアクティビティを編集できます。 処理中のアクティビティを編集すると、テストがリセットされ、レポートが変更の一部を認識しない場合があります。
 
   既存のテキストまたは HTML オファーなど、小さな変更のみをおこなうようにしてください。
 
-  エクスペリエンス名およびレポートをリセットする具体的なアクションを次に示します。
+  エクスペリエンス名とレポートをリセットするアクションには、次のものが含まれます。
 
    * 新しい場所の追加
    * 場所の削除

@@ -1,30 +1,33 @@
 ---
 keywords: レコメンデーションのデザイン;テンプレート;デザインの作成;配信;出力
-description: Adobe [!DNL Target] Recommendations のデザインを使用して、レコメンデーションがページ上でどのように表示されるかを定義する方法（1 X 4、1 X 6、2 X 2 など）を説明します。
-title: Recommendations でデザインを使用するには
+description: Adobe [!DNL Target] Recommendationsのデザインを使用して、レコメンデーションがページ上でどのように表示されるかを定義する方法（1X4、1X6、2X2など）について説明します。
+title: レコメンデーションでデザインを使用するにはどうすればよいですか？
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 19%
+source-wordcount: 201
+ht-degree: 23%
 
 ---
 
 # デザインの概要
 
-[!DNL Adobe Target Recommendations] のデザインは、ページ上でのレコメンデーションの表示方法を定義します。 デザインは、訪問者のエンゲージメント、コンバージョンおよび売上高を向上させるために、レコメンデーションのレイアウトと形式を定義します。
+[!DNL Adobe Target Recommendations]のデザインは、ページ上でのレコメンデーションの表示方法を定義します。 デザインは、訪問者のエンゲージメント、コンバージョン、収益を向上させるために、レコメンデーションのレイアウトとフォーマットを定義します。
 
-[!DNL Recommendations] くつかのデフォルト（ビルド前）デザインが用意されていますが、独自のデザインを作成することもできます。
+[!DNL Recommendations]には、いくつかの既定（ビルド前）のデザインが付属しています。または、独自のデザインを作成できます。
 
-次の図に示 [!DNL Target] ように、レコメンデーションの完全なルックアンドフィールを提供できます。 デザインには、HTML、JavaScript、CSS を含めることができます。 このデザインは 4 x 1 デザインと呼ばれ、1 行に 4 つのスペースがあります。
+[!DNL Target]は、次の図に示すように、レコメンデーションの完全な外観を提供できます。 このデザインには HTML、JavaScript、CSS などが含まれます。 このデザインは4 x 1のデザインと呼ばれています：1行に4つのスペース。
 
-![velocity_example 画像 &#x200B;](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 Target では、電子メールメッセージ、IoT（モノのインターネット）デバイス、コンソール、音声サービス（Amazon Alexa または Google Home）の用途で利用できる JSON オブジェクトとしてレコメンデーションを送信することもできます。
 
-デザインは、次の項目を判断するのに役立ちます。
+デザインは次のことを決定するのに役立ちます。
 
-* レコメンデーションに表示する項目数
-* 項目の表示方法（行、列、グリッド、またはテーブル）
-* 指定した数の項目のみを表示するように訪問者を制限するか、複数の項目をスクロールできるようにするか。
+* レコメンデーションに表示するアイテム数
+* 項目の表示方法（行、列、グリッドまたは表）
+* 指定した数の項目のみを表示するように訪問者を制限するか、複数の項目をスクロールできるようにしますか？

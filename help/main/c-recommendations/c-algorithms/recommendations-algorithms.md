@@ -1,14 +1,18 @@
 ---
-keywords: recommendations アルゴリズム；モデルトレーニング；モデルサービング；コンテンツ配信；項目ベース；ユーザーベース；人気度ベース；買い物かごベース；カスタム条件
+keywords: レコメンデーションアルゴリズム;モデルトレーニング;モデルサービング;コンテンツ配信;項目ベース;ユーザーベース;人気度ベース;買い物かごベース;カスタム条件
 description: モデルのトレーニングやモデルの提供など  [!DNL Target Recommendations] で使用するアルゴリズムについて説明します。
-title: Target のRecommendations アルゴリズムの背後にあるサイエンスについて
+title: Target のレコメンデーションアルゴリズムの背後にあるサイエンスについて
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: 2850
 ht-degree: 100%
 
 ---
@@ -29,7 +33,7 @@ ht-degree: 100%
 
 * **買い物かごベースのアルゴリズム**:「これらのアイテムを表示/購入したユーザーは、これらのアイテムも表示/購入しました」というロジックを使用して、複数項目ベースのレコメンデーションを含めます。
 
-* **カスタム条件**:[!DNL Target] にアップロードされたカスタムファイルに基づいてお勧めを含めます。
+* **カスタム条件**：[!DNL Target] にアップロードされたカスタムファイルに基づいてレコメンデーションを含めます。
 
 >[!NOTE]
 >
@@ -47,7 +51,7 @@ ht-degree: 100%
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-アイテム アイテム協調フィルタリングの推奨アルゴリズムは、多くのユーザーの行動パターン （協調）を使用して、特定のアイテムに対して役に立つ推奨を提供する（例えば、推奨する可能性のあるアイテムのカタログをフィルタリングする）必要があるという考えに基づいています。 [ 協調フィルタリング ](https://en.wikipedia.org/wiki/Collaborative_filtering) の一般的な傘下に分類されるアルゴリズムは多数ありますが、これらのアルゴリズムは一般的に、行動データソースを入力として使用します。 [!DNL Target Recommendations] では、これらの入力は、ユーザーによる項目のユニークな閲覧と購入です。
+アイテム間協調フィルタリングのレコメンデーションアルゴリズムは、多くのユーザーの行動パターン（協調）を活用して、特定のアイテムに対して有用なレコメンデーションを提供するという考え方に基づいています（例えば、レコメンド可能なアイテムのカタログをフィルターします）。 [ 協調フィルタリング ](https://en.wikipedia.org/wiki/Collaborative_filtering) の一般的な傘下に分類されるアルゴリズムは多数ありますが、これらのアルゴリズムは一般的に、行動データソースを入力として使用します。 [!DNL Target Recommendations] では、これらの入力は、ユーザーによる項目のユニークな閲覧と購入です。
 
 「このアイテムを閲覧/購入したユーザーもこれらのアイテムを閲覧/購入したユーザー」アルゴリズムの場合、目標はアイテムのすべてのペア間の類似性（A、B）を計算することです。 特定の項目 A について、上位のレコメンデーションが類似性の高い順に並べられます（A、B）。
 
@@ -65,7 +69,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**:[Target を実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} から収集した訪問者のビューおよび購入の形式の行動データ。
+* **入力データ**:[Target を実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} から収集した訪問者のビューおよび購入の形式の行動データ。
 
 * **モデルトレーニング**:
 
@@ -73,7 +77,7 @@ ht-degree: 100%
    * **項目類似性計算**：これは、すべての候補項目ペア間のログ尤度比類似性と、この類似性スコアによる項目のランキングペアを計算するコア計算ステップです。
    * **オフラインフィルタリング**：最後に、さらに適用できるすべての動的フィルター（動的カテゴリの除外など）が適用されます。 この手順の後、事前に計算されたレコメンデーションはグローバルにキャッシュされ、提供できるようになります。
 
-* **モデルサービング**:Recommendationsのコンテンツは、[!DNL Target] の [ グローバル「Edge」ネットワーク ](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) から配信されます。 [!DNL Target] に mbox リクエストが行われ、recommendations コンテンツをページに配信する必要があると判断した場合、Recommendations アルゴリズムに対する適切な [ 項目キー ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) のリクエストは、リクエストから解析されるか、ユーザープロファイルから検索されます。その後、このリクエストを使用して、前の手順で計算された Recommendations を取得します。 現時点では、適切な [ デザイン ](/help/main/c-recommendations/c-design-overview/create-design.md) がレンダリングされる前に、さらに動的フィルターが適用されます。
+* **モデルサービング**：レコメンデーションのコンテンツは、[!DNL Target] の [ グローバル「Edge」ネットワーク ](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) から配信されます。 [!DNL Target] に mbox リクエストが行われ、レコメンデーションコンテンツをページに配信する必要があると判断した場合、レコメンデーションアルゴリズムに対する適切な [ 項目キー ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) のリクエストは、リクエストから解析されるか、ユーザープロファイルから検索されます。その後、このリクエストを使用して、前の手順で計算されたレコメンデーションを取得します。 現時点では、適切な [ デザイン ](/help/main/c-recommendations/c-design-overview/create-design.md) がレンダリングされる前に、さらに動的フィルターが適用されます。
 
 ## コンテンツの類似性
 
@@ -89,7 +93,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**: 前述のように、このアルゴリズムは、純粋にカタログデータに基づいています[ カタログフィード、エンティティ API を介して、またはページ上の更新から [!DNL Target]に取り込みます ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}.
+* **入力データ**: 前述のように、このアルゴリズムは、純粋にカタログデータに基づいています[ カタログフィード、エンティティ API を介して、またはページ上の更新から [!DNL Target]に取り込みます ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **モデルトレーニング**:
 
@@ -127,7 +131,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**：これは、品目協調フィルタリング （CF） メソッドと同じです。 [!UICONTROL Both Recommended For You] および買い物かごベースのアルゴリズムはどちらも、[ Target の実装時](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} または [Adobe Analytics から収集されたユーザーの閲覧および購入の形式](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} で行動データを使用します。
+* **入力データ**：これは、品目協調フィルタリング （CF） メソッドと同じです。 [!UICONTROL Both Recommended For You] および買い物かごベースのアルゴリズムはどちらも、[ Target の実装時](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} または [Adobe Analytics から収集されたユーザーの閲覧および購入の形式](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} で行動データを使用します。
 
 * **モデルトレーニング**:
 
@@ -139,16 +143,16 @@ ht-degree: 100%
 
   ![ トレーニングの計算を示す式 ](assets/formula4.png)
 
-   * **項目類似性モデル評価**：モデル評価は、前の手順で生成された推奨事項を受け取り、テストデータセットを予測することで行われます。 オンラインスコアリングフェーズは、テストデータセット内の各ユーザーの項目使用を時系列に並べ替え、次に後続のビューと購入を予測しようとして、項目の順序付きサブセットに対して 100 のレコメンデーションを行うことで模倣されます。 情報検索指標 [ 平均精度 ] （https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)）を使用して、これらのレコメンデーションの品質を評価します。 この指標は、レコメンデーションの順序を考慮し、ランキングシステムの重要なプロパティであるレコメンデーションのリスト内の上位の関連項目を優先します。
+   * **項目類似性モデル評価**：モデル評価は、前の手順で生成されたレコメンデーションを受け取り、テストデータセットを予測することで行われます。 オンラインスコアリングフェーズは、テストデータセット内の各ユーザーの項目使用を時系列に並べ替え、次に後続のビューと購入を予測しようとして、項目の順序付きサブセットに対して 100 のレコメンデーションを行うことで模倣されます。 情報検索指標 [ 平均精度 ] （https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)）を使用して、これらのレコメンデーションの品質を評価します。 この指標は、レコメンデーションの順序を考慮し、ランキングシステムの重要なプロパティであるレコメンデーションのリスト内の上位の関連項目を優先します。
    * **モデル選択**：オフライン評価後、平均精度が最も高いモデルが選択され、そのモデルに対して計算されたすべての個々の項目項目のレコメンデーションが選択されます。
    * **オフラインフィルタリング**：モデルトレーニングの最後のステージは、適用可能な動的フィルターの適用です。 この手順の後、事前に計算されたレコメンデーションはグローバルにキャッシュされ、提供できるようになります。
 
 * **モデルサービング**：レコメンデーションの提供に、取得する単一のキーを指定し、その後ビジネスルールを適用する必要がある以前のアルゴリズムとは異なり、[!UICONTROL Recommended for You] および買い物かごベースのアルゴリズムでは、より複雑なランタイムプロセスが使用されます。
 
-   * **複数キーの取得と結合**：買い物かごベースのお勧めの場合は、買い物かごで渡された最大 10 個の項目が取得用のキーと見なされ、それぞれからのお勧めが等しく重み付けられます。 [!UICONTROL Recommended for You] えば、最大 5 つのユニークな閲覧済み項目と最後 5 つのユニークな購入項目が検索のキーと見なされ、購入項目から生じるレコメンデーションは、閲覧済み項目から生じるレコメンデーションの 2 倍の重み付けされます。 レコメンデーションを結合する際に、レコメンデーションの複数の個別リストに項目が表示される場合、その重み付けされた類似性スコアが追加されます。 このステージのレコメンデーションの最後のリストは、重み付けを変更したレコメンデーションの結合リストで、降順にランク付けされます。
+   * **複数キーの取得と結合**：買い物かごベースのレコメンデーションの場合は、買い物かごで渡された最大 10 個の項目が取得用のキーと見なされ、それぞれからのレコメンデーションが等しく重み付けられます。 [!UICONTROL Recommended for You] えば、最大 5 つのユニークな閲覧済み項目と最後 5 つのユニークな購入項目が検索のキーと見なされ、購入項目から生じるレコメンデーションは、閲覧済み項目から生じるレコメンデーションの 2 倍の重み付けされます。 レコメンデーションを結合する際に、レコメンデーションの複数の個別リストに項目が表示される場合、その重み付けされた類似性スコアが追加されます。 このステージのレコメンデーションの最後のリストは、重み付けを変更したレコメンデーションの結合リストで、降順にランク付けされます。
    * **フィルタリング**：次に、以前に表示した項目や購入した項目の削除などのフィルタリングルールのほか、他の動的なビジネスルールが適用されます。
 
-次の画像に、これらのプロセスを示します。ここでは、訪問者が項目 A を表示し、項目 B を購入しています。個々のレコメンデーションは、各項目ラベルの下に表示されるオフラインの類似性スコアを使用して取得されます。 取得後、推奨事項は重み付けされた類似性スコアの合計と結合されます。 最後に、以前に表示および購入した項目を除外する必要があると顧客が指定したシナリオでは、フィルタリングステップにより、レコメンデーションのリストから項目 A と項目 B が削除されます。
+次の画像に、これらのプロセスを示します。ここでは、訪問者が項目 A を表示し、項目 B を購入しています。個々のレコメンデーションは、各項目ラベルの下に表示されるオフラインの類似性スコアを使用して取得されます。 取得後、レコメンデーションは重み付けされた類似性スコアの合計と結合されます。 最後に、以前に表示および購入した項目を除外する必要があると顧客が指定したシナリオでは、フィルタリングステップにより、レコメンデーションのリストから項目 A と項目 B が削除されます。
 
 ![ マルチキーアルゴリズムの処理を示した図 ](assets/diagram4.png)
 
@@ -170,11 +174,11 @@ ht-degree: 100%
 個々のアルゴリズムのニュアンスは次のとおりです。
 
 * [!UICONTROL Most Viewed Across the Site] と [!UICONTROL Top Sellers Across the Site] は、これらの項目がそれぞれ表示または購入されたセッションの合計数に基づいて項目をランク付けします。 出力されるのは、推奨される項目の単一（キーレス）リストです。
-* カテゴリ/項目属性別の最も多くの閲覧済み/トップセラーは、これらの項目が表示または購入されたセッションの合計数で項目が並べ替えられ、項目カテゴリまたは特定の項目属性別にグループ化されたレコメンデーションです。 出力は、カテゴリの値または項目属性の値をキーにした、推奨項目のリストです。
+* カテゴリ／項目属性別の最も多くの閲覧済み／トップセラーは、これらの項目が表示または購入されたセッションの合計数で項目が並べ替えられ、項目カテゴリまたは特定の項目属性別にグループ化されたレコメンデーションです。 出力は、カテゴリの値または項目属性の値をキーにした、推奨項目のリストです。
 
 ## 最近表示された項目
 
-「最近閲覧された」レコメンデーションアルゴリズムにより、レコメンデーションのセッション内パーソナライゼーションが可能になります。 このアルゴリズムでは、オフラインの「モデルトレーニング」は必要ありません。 代わりに、[!DNL Target] は一意の [ 訪問者プロファイル ](/help/main/c-target/c-visitor-profile/visitor-profile.md) を使用して、特定のセッションで表示された項目のリストを常に管理し、これらの項目を Recommendations アクティビティに表示できます。 これにより、レコメンデーションと次のページのパーソナライゼーションをリアルタイムで更新できます。
+「最近閲覧された」レコメンデーションアルゴリズムにより、レコメンデーションのセッション内パーソナライゼーションが可能になります。 このアルゴリズムでは、オフラインの「モデルトレーニング」は必要ありません。 代わりに、[!DNL Target] は一意の [ 訪問者プロファイル ](/help/main/c-target/c-visitor-profile/visitor-profile.md) を使用して、特定のセッションで表示された項目のリストを常に管理し、これらの項目をレコメンデーションアクティビティに表示できます。 これにより、レコメンデーションと次のページのパーソナライゼーションをリアルタイムで更新できます。
 
 ## カスタム条件
 

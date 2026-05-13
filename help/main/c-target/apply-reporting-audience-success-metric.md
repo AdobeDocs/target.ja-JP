@@ -1,27 +1,31 @@
 ---
-keywords: ターゲット設定、オーディエンス、レポート、成功指標
-description: レポートオーディエンスのユーザーを選定する  [!DNL Adobe Target]  の成功指標の選択方法を説明します。
-title: 成功指標にレポート用オーディエンスを適用できますか？
+keywords: ターゲティング、オーディエンス、レポート、成功指標
+description: レポートオーディエンスのユーザーを選定する [!DNL Adobe Target] の成功指標を選択する方法について説明します。
+title: 成功指標にレポートオーディエンスを適用できますか？
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: bcbb6dec9d6add07c109b07bf125c1356ad2a8b9
+TQID: https://experienceleague.adobe.com/n3iyCzlY5oDOrCEqvo6nO51PvknlySPCMasQZ0JfIEM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 396
 ht-degree: 36%
 
 ---
 
 # 成功指標へのレポート用オーディエンスの適用
 
-[!DNL Adobe Target] のレポートオーディエンスに対してユーザーを認定する成功指標を選択します。
+[!DNL Adobe Target]のレポートオーディエンスのユーザーを選定する成功指標を選択します。
 
-すべてのアクティビティについて、[!UICONTROL Applied At] ドロップダウンリストを使用すると、成功指標にオーディエンスを適用し、指標に達した後とその後のアクションのレポート番号を表示できます。
+すべてのアクティビティに対して、[!UICONTROL Applied At] ドロップダウンリストを使用すると、成功指標にオーディエンスを適用して、指標に到達した後およびその後のアクションのレポート番号を表示できます。
 
 ![success_metric image](assets/success_metric.png)
 
 例えば、ホームページから入ってコンバージョンページに到達するすべての訪問者に対するアクティビティを作成したとします。さらに、コンバージョンの前に $50 を超える商品をカートに追加した訪問者をドリルダウンするとします。
 
-[!UICONTROL Applied At] ドロップダウンリストには、次の 3 つのカテゴリが表示されます。
+[!UICONTROL Applied At] ドロップダウンリストには、次の3つのカテゴリが表示される場合があります。
 
 * アクティビティへの訪問者
 * アクティビティの特定のステップに到達した訪問者のみ
@@ -31,30 +35,30 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。成功指標を定義していない場合、ドロップダウンリストには [!UICONTROL Campaign Entry] と [!UICONTROL Conversion] の 2 つのオプションのみ表示されます。
+>[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。 成功指標を定義していない場合は、ドロップダウンリストに[!UICONTROL Campaign Entry]と[!UICONTROL Conversion]の2つのオプションのみが表示されます。
 
 
 ## 注意点
 
 レポート用オーディエンスを成功指標に適用するときは、次の情報を考慮します。
 
-* オーディエンスが適用された成功指標では、そのオーディエンスによってセグメント化されたレポートデータのみが表示されます
-* オーディエンスが適用される成功指標より前の成功指標は、オーディエンスによってセグメント化されず、すべての訪問者データが表示されます
-* 指標はアクティビティ定義での順序に基づいて考慮され、[!UICONTROL Primary Goal] は最後の指標となります。
+* オーディエンスが適用された指標から始まる成功指標のみが、オーディエンスによってセグメント化されたレポートデータを表示します
+* オーディエンスが適用される前の成功指標は、オーディエンスによってセグメント化されず、すべての訪問者データが表示されます
+* 指標は、アクティビティ定義での順序に基づいて考慮され、[!UICONTROL Primary Goal]が最後のものになります。
 
 ## レポートでのセグメント化の表示
 
-レポートでセグメント化を表示するには、アクティビティのレポートの「[!UICONTROL Audience]」ドロップダウンリストから目的のオーディエンスを選択します。
+レポートでセグメント化を表示するには、アクティビティのレポートの[!UICONTROL Audience] ドロップダウンリストから目的のオーディエンスを選択します。
 
-![reporting_audience_dropdown 画像 &#x200B;](assets/reporting_audience_dropdown.png)
+![reporting_audience_dropdown image](assets/reporting_audience_dropdown.png)
 
 ## 例
 
-成功指標 1、成功指標 2、成功指標 3 およびプライマリ目標があるアクティビティについて考えてみます。
+成功指標1、成功指標2、成功指標3およびプライマリ目標を持つアクティビティを検討します。
 
-「エントリ」に設定されたレポート Audience1 と、成功指標 2 に設定されたレポート Audience2 があるとします。 オーディエンスは、次のようにレポートデータをフィルタリングします。
+「エントリ」に設定されたレポートオーディエンス 1と、成功指標2に設定されたレポートオーディエンス 2があるとします。 オーディエンスは、次のようにレポートデータをフィルタリングします。
 
-|  | 訪問者数 | 成功指標 1 | 成功指標 2 | 成功指標 3 | プライマリ目標 |
+|  | 訪問者数 | 成功指標1 | 成功指標2 | 成功指標3 | プライマリ目標 |
 | --- | --- | --- | --- | --- | --- |
-| オーディエンス 1 | 適用済み | 適用済み | 適用済み | 適用済み | 適用済み |
-| Audience2 | 適用なし | 適用なし | 適用済み | 適用済み | 適用済み |
+| Audience1 | 適用済み | 適用済み | 適用済み | 適用済み | 適用済み |
+| Audience2 | 未適用 | 未適用 | 適用済み | 適用済み | 適用済み |

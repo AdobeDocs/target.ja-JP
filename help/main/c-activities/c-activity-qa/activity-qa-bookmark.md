@@ -1,29 +1,32 @@
 ---
 keywords: qa、preview、ブックマークレット、リンクのプレビュー
-description: Adobe [!DNL Target] QA ブックマークレットを使用して、強制的に QA モードから解放  [!DNL Target]  る方法を説明します。
-title: アクティビティ QA ブックマークレットの使用方法
+description: Adobe [!DNL Target] QA ブックマークレットを使用して、強制的に [!DNL Target] QA モードから解放する方法を説明します。
+title: アクティビティ QA ブックマークレットの使用方法を教えてください。
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
+TQID: https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 13%
+source-wordcount: 272
+ht-degree: 12%
 
 ---
 
 # アクティビティ QA ブックマークレット
 
-[!DNL Target] の QA ブックマークレットを使用して、ユーザーに QA モードからのリリースを強制する [!DNL Target] めに役立つ情報です。
+[!DNL Target] QA ブックマークレットを使用して[!DNL Target]に強制的にQA モードから解放してもらうための情報です。
 
 >[!NOTE]
 >
->ブックマークレットを作成するプロセスは、ブラウザーのタイプとバージョンによって異なります。ブラウザーのヘルプを参照するか、インターネットで特定の方向に検索してください。
+>ブックマークレットを作成するプロセスは、ブラウザーのタイプとバージョンによって異なります。 ブラウザーのヘルプを参照するか、インターネットで特定の方向に検索してください。
 
-## at.js 1. アクティビティ QA ブックマークレット&#x200B;*x*
+## at.js 1.*x*&#x200B;のアクティビティ QA ブックマークレット
 
-[QA モード &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) はスティッキーなので、QA モードで web サイトを閲覧した後は、[!DNL Target] セッションの有効期限が切れるか、通常の訪問者のようにサイトを表示す [!DNL Target] 前に QA モードを終了する必要があります。 QA [!DNL Target] ブックマークレットを使用して、QA モードを強制的に終了します。
+[QA モード ](/help/main/c-activities/c-activity-qa/activity-qa.md)はスティッキーなので、QA モードでweb サイトを閲覧した後は、[!DNL Target] セッションの有効期限が切れる必要があります。または、一般的な訪問者のようにサイトを表示する前に、[!DNL Target]がQA モードから解放する必要があります。 QA [!DNL Target] ブックマークレットを使用して、強制的にQA モードを解除します。
 
-[!DNL Target] QA ブックマークレットを使用するには、以下のJavaScript コードを含むブックマークレットを作成して、ブラウザーのブックマークツールバーに追加します。
+[!DNL Target] QA ブックマークレットを使用するには、次のJavaScript コードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
 
 ```javascript
 javascript:(
@@ -42,17 +45,17 @@ javascript:(
 )();
 ```
 
-また、`at_preview_token` パラメーターの値が空のページをサイトに読み込むことで、手動で QA モードを強制終了することもできます。
+また、空の値を持つ`at_preview_token` パラメーターを使用してサイト上のページを読み込むことで、手動でQA モードを強制的に解除することもできます。
 
 次に例を示します。
 
 `https://www.mysite.com/?at_preview_token=`
 
-## at.js 2. アクティビティ QA ブックマークレット&#x200B;*x*
+## at.js 2.*x*&#x200B;のアクティビティ QA ブックマークレット
 
-at.js 1 とは異なります。*x*、at.js 2.*x* はサードパーティ cookie をサポートしておらず、QA モードはファーストパーティドメインの場合のみスティッキーです（at.js によって設定されたファーストパーティ cookie を使用）。 そのため、at.js 2.*x*、QA モードセッションはクライアントサイドでのみ管理され、QA モード Cookie は Target に送信されません。
+at.js 1.*x*&#x200B;とは対照的に、at.js 2.*x*&#x200B;はサードパーティ Cookieをサポートしておらず、QA モードは（at.jsによって設定されたファーストパーティ Cookieを使用して）ファーストパーティドメインに対してのみ固定されます。 したがって、at.js 2.*x*&#x200B;では、QA モードセッションはクライアントサイドでのみ管理され、QA モードクッキーはTargetに送信されません。
 
-[!DNL Target] QA ブックマークレットを使用するには、以下のJavaScript コードを含むブックマークレットを作成して、ブラウザーのブックマークツールバーに追加します。
+[!DNL Target] QA ブックマークレットを使用するには、次のJavaScript コードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
 
 ```javascript
 javascript:(
@@ -70,6 +73,6 @@ javascript:(
     })(); 
 ```
 
-## アクティビティ QA ブックマークレットの使用
+## Activity QA ブックマークレットの使用
 
-ブラウザーのツールバーでブックマークレットをクリックします。
+ブラウザーのツールバーのブックマークレットをクリックします。

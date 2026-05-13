@@ -1,19 +1,23 @@
 ---
 keywords: オーディエンス、傾向、profile属性、比較、比較、オーディエンスの作成、オーディエンスの作成
-description: 2 つのプロファイル属性を比較するオーディエンスの定義方法を説明します。
-title: オーディエンスで使用する 2 つのプロファイル属性を比較できますか？
+description: 2つのプロファイル属性を比較するオーディエンスを定義する方法を説明します。
+title: オーディエンスで使用する2つのプロファイル属性を比較できますか？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 51%
+source-wordcount: 428
+ht-degree: 52%
 
 ---
 
 # プロファイル属性比較オーディエンスの作成
 
-[!DNL Adobe Target] のオーディエンスを定義して、[&#x200B; オーディエンスライブラリ &#x200B;](/help/main/c-target/c-audiences/audiences.md) または [&#x200B; アクティビティのみのオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md) の 2 つのプロファイル属性を比較します。 より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
+[!DNL Adobe Target]でオーディエンスを定義して、[ オーディエンスライブラリ ](/help/main/c-target/c-audiences/audiences.md)または[ アクティビティのみのオーディエンス ](/help/main/c-target/creating-activity-only-audience.md)の2つのプロファイル属性を比較します。 より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 
 >[!NOTE]
 >
@@ -21,22 +25,22 @@ ht-degree: 51%
 
 ## 概要 {#section_303CBC78194D49A2A004945D425441E1}
 
-オーディエンスは、誰が [!DNL Target] アクティビティに含まれるか、または除外されるかを決定するルールによって定義されます。オーディエンス定義には複数のルールを含めることができ、各ルールには複数のパラメーターを含めることができます。含めるルールの 1 つが [!UICONTROL Visitor Profile] カテゴリを使用する場合、訪問者プロファイル属性の特定の値に基づいてルールを定義したり、その属性の値を別の訪問者プロファイル属性と比較したりできます。
+オーディエンスは、誰が [!DNL Target] アクティビティに含まれるか、または除外されるかを決定するルールによって定義されます。 オーディエンス定義には複数のルールを含めることができ、各ルールには複数のパラメーターを含めることができます。 含めるルールの1つが[!UICONTROL Visitor Profile] カテゴリを使用している場合、訪問者プロファイル属性の特定の値に基づいてルールを定義するか、その属性の値を別の訪問者プロファイル属性と比較できます。
 
-例えば、ある家具会社で働いていて、2 つの顧客の傾向スコアを [!DNL Target] にアップロードしたとします。
+例えば、家具メーカーに勤め、2つの顧客傾向スコアを[!DNL Target]にアップロードしたとします。
 
 * 次の 90 日間にダイニングルーム用の家具を購入する可能性
 * 次の 90 日間にリビング用の家具を購入する可能性
 
-ダイニングルーム用の家具を購入する傾向が、リビング用の家具を購入する傾向よりも高くなるように定義されたオーディエンスを作成できます。[!DNL Target] の後、特定の訪問者のダイニングルームとリビングルームの傾向スコアを動的に比較し、その訪問者がこのオーディエンスに該当するかどうかを判断します。
+ダイニングルーム用の家具を購入する傾向が、リビング用の家具を購入する傾向よりも高くなるように定義されたオーディエンスを作成できます。 [!DNL Target]は、特定の訪問者のダイニング ルームとリビング ルームの傾向スコアを動的に比較して、その訪問者がこのオーディエンスに適格かどうかを判断します。
 
 詳しくは、[データを Target に送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}を参照してください。
 
 ## プロファイル属性比較オーディエンスの作成 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. **[!UICONTROL Audiences]**／**[!UICONTROL Create Audience]**&#x200B;をクリックします。
-1. オーディエンスに名前を付け、オプションで説明を追加します。
-1. **[!UICONTROL Visitor Profile]** をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
+1. オーディエンスに名前を付け、オプションの説明を追加します。
+1. **[!UICONTROL Visitor Profile]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 1. **[!UICONTROL Visitor Profile]** ドロップダウンリストから、属性を選択します。
 
    ![傾向スコア 1](assets/propensity_score_1.png)
@@ -45,7 +49,7 @@ ht-degree: 51%
 
    ![傾向スコア 2](assets/propensity_score_2.png)
 
-1. 「**[!UICONTROL Choose Comparison Type]**」ドロップダウン・リストから「**[!UICONTROL Attribute]**」を選択します。
+1. **[!UICONTROL Choose Comparison Type]** ドロップダウンリストから、**[!UICONTROL Attribute]**&#x200B;を選択します。
 
    「静的値」比較タイプを使用すると、訪問者プロファイル属性を特定の値と比較できます。
 
@@ -53,16 +57,16 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >デフォルトの訪問者プロファイルカテゴリ（新規訪問者、再訪問者など）のいずれかを使用している場合は、静的な値オプションのみを選択できます。 動的比較オプションは、デフォルトカテゴリーでは使用できません。動的比較オプションを使用できない他の例としては、「セッションの最初のページ」、「他のテストに存在しない」、「セッションの最初のページ以外」、「カテゴリー親和性」があります。
+   >デフォルトの訪問者プロファイルカテゴリ（新規訪問者や再訪問者など）のいずれかを使用している場合は、静的値オプションのみを選択できます。 動的比較オプションは、デフォルトカテゴリーでは使用できません。 動的比較オプションを使用できない他の例としては、「セッションの最初のページ」、「他のテストに存在しない」、「セッションの最初のページ以外」、「カテゴリー親和性」があります。
 
 1. 最初の属性と比較する追加属性を選択します。
 
-   ![propensity_score_4 画像 &#x200B;](assets/propensity_score_4.png)
+   ![propensity_score_4 image](assets/propensity_score_4.png)
 
 1. **[!UICONTROL Done]** をクリックします。
 
-## トレーニングビデオ ![&#x200B; 概要バッジ &#x200B;](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## トレーニングビデオ ![概要バッジ ](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 この機能を使用できるシナリオと詳細情報については、次のビデオを視聴してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/328272?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

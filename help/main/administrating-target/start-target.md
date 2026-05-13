@@ -5,10 +5,14 @@ title: ' [!DNL Target] の管理を開始するにはどうすればよいです
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
+TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 91%
+source-wordcount: 446
+ht-degree: 90%
 
 ---
 
@@ -18,9 +22,9 @@ ht-degree: 91%
 
 ## [!DNL Target] に招待される {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-[!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。システム管理者は、1 つ以上の役割固有の製品プロファイル（ユーザーのグループ）にあなたを追加する必要があります。 これらのタスクは両方とも、[Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
+[!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。 次に、システム管理者は、1つ以上の役割に特化した製品プロファイル（ユーザーのグループ）にあなたを追加する必要があります。 これらのタスクは両方とも[Adobe Admin Console](https://adminconsole.adobe.com)で実行されます。
 
-詳しくは、[&#x200B; ユーザーグループの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/users.html) を参照してください。
+詳しくは、[ ユーザーグループの管理](https://helpx.adobe.com/enterprise/using/users.html)を参照してください。
 
 ステム管理者がこれらの手順を実行すると、招待メールが届きます。
 
@@ -29,7 +33,7 @@ ht-degree: 91%
 [!DNL Adobe Experience Cloud] への招待を受け取ったら、招待を受け入れ、ログインして、[!UICONTROL End User License Agreement] （EULA）に同意します。
 
 1. [!DNL Adobe Experience Cloud] への招待を受諾します。
-1. Adobe ID をまだ持っていない場合は、作成するよう求められます。 
+1. Adobe ID をまだ持っていない場合は、作成するよう求められます。
 
    Adobe IDを使用している場合は、Adobe IDが認識され、ログインするように求められます。
 1. [!UICONTROL Terms of Use] を承認します。
@@ -40,7 +44,7 @@ ht-degree: 91%
    >
    >アカウントをリンクしないと、[!DNL Target] にアクセスできません。
 
-   すべて [!UICONTROL Experience Cloud] 製品がリンクページに表示されます。`Link Target` をクリックし、[!DNL Target] のユーザー名とパスワードを入力して [!DNL Target] にアクセスします。
+   すべて [!UICONTROL Experience Cloud] 製品がリンクページに表示されます。 `Link Target` をクリックし、[!DNL Target] のユーザー名とパスワードを入力して [!DNL Target] にアクセスします。
 1. **[!UICONTROL Continue to Experience Cloud]** をクリックします。
 
    この時点では、リンクできる権限を持ったグループはまだ設定されていません。
@@ -56,12 +60,12 @@ ht-degree: 91%
 
 お客様の組織が [Target Premium](/help/main/c-intro/intro.md#premium) ライセンスを所有している場合、*エンタープライズ権限の設定*&#x200B;の[手順 6：役割および権限の指定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)を参照してください。
 
-次の手順は、[!DNL Target Standard] と [!DNL Target Premium] でユーザーを設定することです。 詳しくは、ユーザー管理を参照してください。詳しくは、[ユーザー管理](/help/main/administrating-target/c-user-management/user-management.md)を参照してください。
+次の手順は、[!DNL Target Standard] と [!DNL Target Premium] でユーザーを設定することです。 詳しくは、ユーザー管理を参照してください。 詳しくは、[ユーザー管理](/help/main/administrating-target/c-user-management/user-management.md)を参照してください。
 
 ## [!UICONTROL Administration] 設定の編集に必要な権限 {#admin-permissions}
 
-**2025 年 4 月 22 日（PT）より前:**&#x200B;[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
+**2025 年 4 月 22 日（PT）より前:**[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
 
-**2025 年 4 月 22 日（PT）**&#x200B;より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるようになります。この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
+**2025 年 4 月 22 日（PT）**&#x200B;より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるようになります。 この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
 
 この更新により、[!DNL Target] インスタンス設定の組織管理が強化され、様々なテストやパーソナライゼーションチームにわたるアクティビティの配信に影響を与える可能性のある、誤った更新を防ぐことができます。

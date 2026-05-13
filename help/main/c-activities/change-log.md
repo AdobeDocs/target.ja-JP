@@ -1,33 +1,36 @@
 ---
-keywords: アクティビティ変更ログ；変更ログ
-description: Adobeでアクティビティの変更ログにアクセスし  [!DNL Target] 、アクティビティを変更したユーザーと変更が発生したタイミングの記録を表示します。
-title: アクティビティの変更ログを確認するにはどうすればよいですか？
+keywords: アクティビティの変更ログ；変更ログ
+description: Adobe [!DNL Target] のアクティビティの変更ログにアクセスすると、アクティビティを変更したユーザーと変更がいつ発生したかの記録を表示できます。
+title: アクティビティの変更ログを表示するにはどうすればよいですか？
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: f227e09052db168f99dc28f652c4f0ed5d220601
+TQID: https://experienceleague.adobe.com/YmadzVwbj4Hy1bk3Q7a0hp9oZ7-lSgl12ImQaEsiDwU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: 180
+ht-degree: 12%
 
 ---
 
 # アクティビティの変更ログ
 
-[!DNL Adobe Target] [!UICONTROL Change Log] は、変更内容、変更を加えたユーザー、変更が発生したタイミングなど、アクティビティのアクションを記録します。 [!UICONTROL Change Log] ページには、リアルタイムのインサイトが入力されます。
+[!DNL Adobe Target] [!UICONTROL Change Log]には、変更された内容、変更を加えたユーザー、変更が発生した日時など、アクティビティのアクションが記録されます。 [!UICONTROL Change Log] ページは、リアルタイムのインサイト用に入力されます。
 
-[!UICONTROL Change Log] のページにアクセスするには：
+[!UICONTROL Change Log] ページにアクセスするには：
 
-1. **[!UICONTROL Activities]** をクリックし、リストから目的のアクティビティをクリックします。
-1. 左パネルで「**[!UICONTROL Change Log]**」をクリックします。
+1. 「**[!UICONTROL Activities]**」をクリックし、リストから目的のアクティビティをクリックします。
+1. 左側のパネルで「**[!UICONTROL Change Log]**」をクリックします。
 
-実行されたアクション、アクションが実行された日付、アクションを実行したユーザーは、アクティビティが作成、更新、アクティブ化または非アクティブ化されるたびに一覧表示されます。 アクティビティで使用されるカスタムターゲットとオファーへの変更も一覧表示されます。
+実行されたアクション、アクションが実行された日付、アクションを実行したユーザーは、アクティビティが作成、更新、アクティブ化、または非アクティブ化されるたびに一覧表示されます。 アクティビティで使用したカスタムターゲットとオファーに関する変更も一覧表示されます。
 
-ページを更新して、ステータスの変更を確認します。 [!UICONTROL Date] 列ヘッダーをクリックして、実行されたアクションを昇順または降順でリストすることもできます。
+ステータスの変更を確認するには、ページを更新します。 [!UICONTROL Date]列ヘッダーをクリックして、昇順または降順で実行されたアクションを一覧表示することもできます。
 
-## Target 監査ログ API
+## Target監査ログ API
 
-* [&#x200B; リビジョン：最終作成者名と変更後のタイムスタンプから監査ログを取得します &#x200B;](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
-* [&#x200B; リストアクティビティの変更ログ &#x200B;](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+* [リビジョン：最終作成者の名前と変更後のタイムスタンプで監査ログを取得します](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [アクティビティの変更ログのリスト](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
 
 
 

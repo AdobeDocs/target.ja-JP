@@ -1,67 +1,70 @@
 ---
 keywords: コンテンツライブラリ;アセット;注釈;コピー;アセットの削除;アセットのダウンロード;コンテンツの編集;カードの共有;コンテンツプロパティの表示
-description: '[!UICONTROL Offers] ライブラリ内でのコードおよび画像オファーの整理と最適化。'
-title: '[!UICONTROL Offers] ライブラリでのコンテンツ管理の調査'
+description: コードと画像オファーを[!UICONTROL Offers] ライブラリ内で整理および最適化します。
+title: '[!UICONTROL Offers] ライブラリでのコンテンツ管理の詳細'
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: 709
 ht-degree: 12%
 
 ---
 
-# [!UICONTROL Asset] ライブラリ内のコンテンツの操作
+# [!UICONTROL Asset] ライブラリのコンテンツの操作
 
-[!UICONTROL Adobe Target] [!UICONTROL Content Library] でアセットに対して実行できるタスクを確認します。 注釈、コピー、削除、ダウンロード、編集、共有、プロパティの表示などのタスクを実行します。
+[!UICONTROL Adobe Target] [!UICONTROL Content Library]のアセットに対して実行できるタスクについて説明します。 タスクには、注釈、コピー、削除、ダウンロード、編集、共有、プロパティの表示などがあります。
 
 ## オファーライブラリへのアクセス
 
-1. **[!UICONTROL Offers]**/**[!UICONTROL Code Offers]** または **[!UICONTROL Image Offers]** をクリックします。
+1. **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**&#x200B;または&#x200B;**[!UICONTROL Image Offers]**&#x200B;をクリックします。
 
-   [!UICONTROL Offer library] の検索とコンテンツの作成について詳しくは、[!UICONTROL Smart Collections][&#x200B; ィルターと検索 &#x200B;](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276) を参照してください。
+   [!UICONTROL Offer library]の検索と[!UICONTROL Smart Collections]の作成について詳しくは、[ コンテンツのフィルターと検索](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)を参照してください。
 
-1. （条件付き）画像オファーの場合は、[!UICONTROL Card View] と [!UICONTROL List View] の間を切り替え、[!UICONTROL Card View] ライブラリの右上隅にある ![&#x200B; アイコン（](/help/main/assets/icons/ViewCard.svg) カード表示アイコン [!UICONTROL List View]）または ![&#x200B; アイコン（](/help/main/assets/icons/ViewList.svg) リスト表示アイコン [!UICONTROL Asset]）をクリックします。
+1. （条件付き）画像オファーの場合、[!UICONTROL Card View]と[!UICONTROL List View]を切り替えるには、[!UICONTROL Asset] ライブラリの右上隅にある[!UICONTROL Card View] アイコン （![ カード表示アイコン ](/help/main/assets/icons/ViewCard.svg)）または[!UICONTROL List View] アイコン （![ リスト表示アイコン ](/help/main/assets/icons/ViewList.svg)）をクリックします。
 
-1. 次の節で説明するように、目的のアクションを実行します。
+1. 次の節で説明するように、必要なアクションを実行します。
 
-## [!UICONTROL Code Offers] オプション
+## [!UICONTROL Code Offers]個のオプション
 
-[!UICONTROL Code Offers] ページでは、オファーやフォルダーの横にある [!UICONTROL Quick Info] アイコン（![&#x200B; クイック情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）または [!UICONTROL More Actions] アイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックして適切なアイコンを選択することで、項目に対して次の操作を実行できます。
+[!UICONTROL Code Offers] ページを表示する際に、オファーまたはフォルダーの横にある[!UICONTROL Quick Info] アイコン（![ クイック情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）または[!UICONTROL More Actions] アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、適切なアイコンを選択することで、アイテムに対して次のアクションを実行できます。
 
-* **情報**:「**[!UICONTROL Quick Info]」アイコン** （![&#x200B; クイック情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、[!UICONTROL Offer ID]、[!UICONTROL Type]、[!UICONTROL Last Modified] （日付、時刻、修飾子の名前）などのオファーの情報が表示されます。 「[!UICONTROL View Full Details]」をクリックすると、オファー属性やアクティビティの使用状況（アクティビティ名、ステータス、ワークスペース、変更日時）などの追加情報が表示されます。
-* **[!UICONTROL Edit]**:**[!UICONTROL More Actions]のアイコン（** その他のアクション ![）/](/help/main/assets/icons/MoreSmallList.svg) をクリックして **[!UICONTROL Edit]** フォルダーまたはオファーを編集します。
-* **[!UICONTROL Copy]**:「**[!UICONTROL More Actions]」アイコン（** その他のアクション ![） &#x200B;](/help/main/assets/icons/MoreSmallList.svg)> **[!UICONTROL Copy]** をクリックして、オファーをコピーします。 オファーをコピーして編集すると、類似した新しいオファーを簡単に作成できます。
-* **[!UICONTROL Delete]**:**[!UICONTROL More Actions]のアイコン（** その他のアクション ![）/](/help/main/assets/icons/MoreSmallList.svg) をクリックして **[!UICONTROL Delete]** オファーまたはフォルダーを削除します。
+* **情報**: **[!UICONTROL Quick Info]アイコン** （![ クイック情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックして、[!UICONTROL Offer ID]、[!UICONTROL Type]、[!UICONTROL Last Modified] （日付、時刻、修飾子の名前）などのオファーの情報を表示します。 [!UICONTROL View Full Details]をクリックして、オファーの属性とアクティビティの使用状況（アクティビティ名、ステータス、ワークスペース、変更日時）などの追加情報を表示します。
+* **[!UICONTROL Edit]**: フォルダーまたはオファーを編集するには、**[!UICONTROL More Actions]アイコン** （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)） > **[!UICONTROL Edit]**&#x200B;をクリックします。
+* **[!UICONTROL Copy]**: **[!UICONTROL More Actions]アイコン** （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)） > **[!UICONTROL Copy]**&#x200B;をクリックして、オファーをコピーします。 オファーをコピーして編集すると、同様の新しいオファーを簡単に作成できます。
+* **[!UICONTROL Delete]**: **[!UICONTROL More Actions]アイコン** （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)） > **[!UICONTROL Delete]**&#x200B;をクリックして、オファーまたはフォルダーを削除します。
 
-  詳しくは、[&#x200B; 項目を削除する際の考慮事項 &#x200B;](#delete) を参照してください。
+  詳しくは、[項目を削除する際の考慮事項](#delete)を参照してください。
 
-* **[!UICONTROL Move]**: **[!UICONTROL More Actions]** アイコン（![&#x200B; その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）/**[!UICONTROL Move]** をクリックして、オファーまたはフォルダーの移動先の場所に移動し、「**[!UICONTROL Move]**」をクリックします。 例えば、1 つ以上のフォルダーを別のフォルダーに移動して、サブフォルダーを作成できます。
+* **[!UICONTROL Move]**: **[!UICONTROL More Actions]アイコン** （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)） > **[!UICONTROL Move]**&#x200B;をクリックし、オファーまたはフォルダーを移動する場所に移動してから、**[!UICONTROL Move]**&#x200B;をクリックします。 例えば、1つ以上のフォルダーを別のフォルダーに移動して、サブフォルダーを作成できます。
 
-## [!UICONTROL Image Offers] オプション
+## [!UICONTROL Image Offers]個のオプション
 
-[!UICONTROL Image Offers] ページを表示する際に、項目に対して次の操作を実行できます。実行するには、オファーまたはフォルダーを選択し、[!UICONTROL Title] 列左側のサムネールをクリックします。次に、適切な操作を選択します。
+[!UICONTROL Image Offers] ページを表示する際は、[!UICONTROL Title]列の左側にあるオファーまたはフォルダーのサムネールをクリックし、適切なアクションを選択することで、アイテムに対して次のアクションを実行できます。
 
-* **フォルダー**：次のアクションを実行する 1 つ以上のフォルダーを選択します。
+* **フォルダー**：次の操作を実行する1つ以上のフォルダーを選択します。
 
-   * ダウンロード：フォルダーとそのコンテンツをダウンロードします。
+   * ダウンロード：フォルダーとその内容をダウンロードします。
    * コピー：フォルダーとその内容をコピーします。
-   * 移動：**[!UICONTROL Move]** アイコンをクリックします。フォルダーの名前を変更するか、同じ名前のままにします。**[!UICONTROL Select Destination]** アイコンをクリックしてフォルダーの移動先を選択し、「**[!UICONTROL Move]**」をクリックします。
-   * 削除（[&#x200B; 項目を削除する際の考慮事項 &#x200B;](#delete) を参照してください）。
+   * 移動：**[!UICONTROL Move]** アイコンをクリックします。フォルダーの名前を変更するか、フォルダーの名前を変更します。**[!UICONTROL Select Destination]**&#x200B;をクリックして、フォルダーを移動する場所を選択してから、**[!UICONTROL Move]**&#x200B;をクリックします。
+   * 削除（項目を削除する際の[考慮事項](#delete)を参照）。
 
-* **オファー**：次のアクションを実行する 1 つ以上の画像オファーを選択します。
+* **オファー**：次のアクションを実行する1つ以上の画像オファーを選択します。
 
    * [!UICONTROL Share]：組織内のユーザーまたはグループに画像オファーを共有します。
-   * [!UICONTROL Download]：画像オファーまたはフォルダーとそのコンテンツをダウンロードします。
-   * [!UICONTROL View Properties]：項目のプロパティを表示します。 使用可能なすべての情報を表示するには、必ず「[!UICONTROL Basic]」タブと「[!UICONTROL Advanced]」タブをクリックしてください。 プロパティを編集し、詳細情報を追加できます。 メタデータ情報、投稿状況およびライセンスデータを追加することができます。
-   * [!UICONTROL Edit]：フォルダーまたはオファーを編集します。
-   * [!UICONTROL Annotate]：アセットにメモを追加します。 アセットをクリックして、注釈を付ける領域を選択し、注釈を入力します。
-   * [!UICONTROL Copy]: オファーをコピーします。 オファーをコピーして編集すると、類似した新しいオファーを簡単に作成できます。
-   * [!UICONTROL Move]: 「[!UICONTROL Move]」アイコンをクリックして、オファーまたはフォルダーの移動先の場所に移動し、「**[!UICONTROL Move]**」をクリックします。 例えば、1 つ以上のフォルダーを別のフォルダーに移動して、サブフォルダーを作成できます。
-   * [!UICONTROL Delete]: オファーを削除します。 詳しくは、以下の [&#x200B; 項目を削除する際の考慮事項 &#x200B;](#delete) を参照してください。
+   * [!UICONTROL Download]：画像オファーまたはフォルダーとその内容をダウンロードします。
+   * [!UICONTROL View Properties]：項目のプロパティを表示します。 [!UICONTROL Basic] タブと[!UICONTROL Advanced] タブをクリックして、利用可能なすべての情報を表示してください。 プロパティを編集して、より多くの情報を追加できます。 メタデータ情報、投稿状況およびライセンスデータを追加することができます。
+   * [!UICONTROL Edit]: フォルダーまたはオファーを編集します。
+   * [!UICONTROL Annotate]: アセットにメモを追加します。 アセットをクリックして、注釈を付ける領域を選択し、注釈を入力します。
+   * [!UICONTROL Copy]: オファーをコピーします。 オファーをコピーして編集すると、同様の新しいオファーを簡単に作成できます。
+   * [!UICONTROL Move]: [!UICONTROL Move] アイコンをクリックし、オファーまたはフォルダーを移動する場所に移動してから、**[!UICONTROL Move]**&#x200B;をクリックします。 例えば、1つ以上のフォルダーを別のフォルダーに移動して、サブフォルダーを作成できます。
+   * [!UICONTROL Delete]: オファーを削除します。 詳しくは、以下の「[項目を削除する際の考慮事項](#delete)」を参照してください。
 
-## 項目を削除する際の考慮事項 {#delete}
+## アイテムを削除する際の考慮事項 {#delete}
 
-* フォルダー内の任意の数のアセットとサブフォルダーを含んだフォルダー全体を削除できます。 この機能は、[!DNL Target] UI でも [!DNL Adobe Experience Cloud Assets] UI でも使用できます。
-* 多数の画像を含むフォルダーを削除する場合、UI が更新されて最終状態が表示されるまで、バックグラウンドで実行されているプロセスに数分かかる場合があります。 必要な時間は、画像サイズではなく、画像数の関数です。適切な推定値は、2,000 画像に対し 10 分です。他の作業を続行し、後で最終状態を確認して、削除を検証できます。
-* [!UICONTROL Image Offer library] ージ内の空でないフォルダーは削除できます。 フォルダー内のすべての画像がどのアクティビティでも参照されていない場合、フォルダー全体とそのコンテンツが削除されます。フォルダー内の一部の画像がアクティビティで参照されている場合、参照されていない画像はすべて削除されます。 参照画像と、それらの画像を含むフォルダーは保持されます。
+* 任意の数のアセットとサブフォルダーを含むフォルダー全体を削除できます。 この機能は、[!DNL Target] UIと[!DNL Adobe Experience Cloud Assets] UIでも使用できます。
+* 多数の画像を含むフォルダーを削除した場合、バックグラウンドで実行されているプロセスは、UIが更新されるまでに数分かかり、最終状態が表示されます。 必要な時間は、画像サイズではなく、画像数の関数です。 適切な推定値は、2,000 画像に対し 10 分です。 他の作業に進み、後で最終状態を確認して削除を確認できます。
+* [!UICONTROL Image Offer library]内の空でないフォルダーは削除できます。 フォルダー内のすべての画像がどのアクティビティでも参照されていない場合、フォルダー全体とそのコンテンツが削除されます。 フォルダー内の一部の画像が任意のアクティビティで参照されている場合、参照されていない画像はすべて削除されます。 参照画像とそれらの画像を含むフォルダーは保持されます。
