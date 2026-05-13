@@ -123,7 +123,7 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 * A4T の仕組みの説明
 * A4T を使用する前に必要な前提条件の理解
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/3421727?captions=jpn)
 
 ### Analytics / Adobe Target統合（A4T） （40:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 

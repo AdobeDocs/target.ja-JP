@@ -77,10 +77,10 @@ ht-degree: 1%
 
 [!DNL AI Assistant]の[!DNL Adobe Experience Platform]件のアプリケーションについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441025/?captions=jpn&learn=on&#x26;enablevpops)
 
 ### AI アシスタントからの回答を検証する
 
 [!DNL Adobe Experience Platform]の[!DNL AI Assistant]が提供する応答を検証および検証する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441739/?captions=jpn&learn=on&#x26;enablevpops)

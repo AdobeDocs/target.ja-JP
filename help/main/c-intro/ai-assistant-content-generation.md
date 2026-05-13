@@ -107,4 +107,4 @@ ht-degree: 2%
 
 ### AI アシスタントを利用して、コンテンツを制作する
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434636/?captions=jpn&learn=on">https://video.tv.adobe.com/v/3434636/?captions=jpn&learn=on)

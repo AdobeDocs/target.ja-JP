@@ -108,7 +108,7 @@ AP モデルまたは自動ターゲット モデルで使用される[!UICONTRO
 
 ## トレーニングビデオ：Personalization インサイトレポートの使用![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/328271?captions=jpn)
 
 詳しくは、[Adobe TargetでのPersonalization インサイトレポートの使用](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)を参照してください。
 
