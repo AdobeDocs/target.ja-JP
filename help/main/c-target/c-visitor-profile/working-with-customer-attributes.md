@@ -4,46 +4,59 @@ description: ' [!DNL Adobe Target] でのコンテンツターゲティングに
 title: 顧客属性およびその使用方法とは
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 0b17b61bb60162af6bc35246219355077ab6bf44
+TQID: https://experienceleague.adobe.com/Ahg5FSw4ugzcnpccVs6s5r5JMe37Oet4lEbC8CS21u4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 80%
+source-wordcount: 1605
+ht-degree: 81%
 
 ---
 
 # 顧客属性
 
-[!DNL Adobe Target] サービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを [!DNL Adobe Experience Cloud People] でのコンテンツターゲティングに活用する方法について説明します。
+[!DNL Adobe Experience Cloud People] サービスの顧客属性を使用して、[!DNL Adobe Target]のコンテンツのターゲティングに顧客関係管理（CRM） データベースの企業顧客データを使用する方法に関する情報。
 
-複数のソースから収集し、CRM データベースに保管されている企業顧客データを [!DNL Target] で使用することで、最も関連性の高いコンテンツを戦略的に配信でき、特に再訪問者に対して効果を発揮します。[!DNL People] サービスのオーディエンスおよび顧客属性（以前のプロファイルおよびオーディエンス）により、データの収集や分析をテストや最適化と組み合わせることで、アクションにつながるデータやインサイトを得ることができます。
+複数のソースから収集し、CRM データベースに保管されている企業顧客データを [!DNL Target] で使用することで、最も関連性の高いコンテンツを戦略的に配信でき、特に再訪問者に対して効果を発揮します。 [!DNL People] サービス（旧プロファイルおよびオーディエンス）のオーディエンスと顧客属性は、データの収集と分析をテストと最適化と統合し、データとインサイトを実用的なものにします。
 
 ## 顧客属性の概要 {#section_B4099971FA4B48598294C56EAE86B45A}
 
 [!DNL People] サービスの[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja)は [!DNL Adobe Experience Cloud] の一部であり、 顧客データを [!DNL Experience Cloud] プラットフォームにプッシュするツールを企業に提供します。
 
-[!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] では、このデータを利用し、属性に基づいて再訪問者をターゲティングします。[!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
+[!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。 [!DNL Target] では、このデータを利用し、属性に基づいて再訪問者をターゲティングします。 [!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
 
 ![CRS の例](/help/main/c-target/c-visitor-profile/assets/crs.png)
 
 顧客属性と [!DNL Target] を使用する際は次の点に注意してください。
 
-* [!UICONTROL Customer Attributes] サービスの [!DNL People] 機能を使用するには、いくつかの前提条件を満たしておく必要があります。 詳しくは、[Experience Cloud インターフェイスおよび管理 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#section_BD38693AFBF34926BA28E964963B4EA0) ガイドの *顧客属性* の「顧客属性をアップロードするための前提条件」を参照してください。
-* 「[Experience Cloud インターフェイスおよび管理 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja) ガイド」の *顧客属性データファイルおよびソース* に記載されている通り、ファイルのアップロードに関する制限についてご注意ください。 ベストプラクティスは次のとおりです。
+* [!DNL People] サービスで[!UICONTROL Customer Attributes]機能を使用する前に満たす必要がある前提条件がいくつかあります。 詳しくは、*Experience Cloud インターフェイスおよび管理* ガイドの[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#section_BD38693AFBF34926BA28E964963B4EA0)の「顧客属性をアップロードするための前提条件」を参照してください。
+* *Experience Cloud インターフェイスおよび管理* ガイドの[顧客属性データファイルおよびソース &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)に記載されているように、ファイルのアップロードに関する制限に注意してください。 ベストプラクティスは次のとおりです。
 
-   * 単一の大きなファイル（[指定された制限](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)の範囲内）をアップロードします。複数の小さなファイルよりも、単一の大きなファイルの方が望ましいです。
-   * アップロードを複数のファイルに分割する必要がある場合は、新しいファイルを送信する前に、今のファイルが完全に処理されていることを確認してください。バッチ内に次のファイルを送信する前に、バッチ内の各ファイルが完全に処理されていることを確認してください。
+   * 単一の大きなファイル（[指定された制限](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)の範囲内）をアップロードします。 複数の小さなファイルよりも、単一の大きなファイルの方が望ましいです。
+   * アップロードを複数のファイルに分割する必要がある場合は、新しいファイルを送信する前に、今のファイルが完全に処理されていることを確認してください。 バッチ内に次のファイルを送信する前に、バッチ内の各ファイルが完全に処理されていることを確認してください。
 
-* CRM データベースの顧客属性（訪問者プロファイル）データがすべて [!DNL Experience Cloud] に転送され、[!DNL Target] でのターゲティングに利用できることを、[!DNL Adobe] は必ずしも保証するものではありません。現在の設計では、わずかな割合のデータ（大規模な生産バッチの 0.1％以下）はオンボードされない可能性があります。
-* [!DNL Experience Cloud] から [!DNL Target] に読み込んだ顧客属性データの有効期間は、訪問者プロファイルの有効期間（デフォルトでは 14 日間）によって決まります。 詳しくは、[訪問者プロファイルの有効期間](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)を参照してください。
-* `vst.*` が訪問者を特定する唯一のパラメーターである場合は、`authState` が UNAUTHENTICATED (0) である限り、既存の「認証済み」プロファイルが取得されません。プロファイルは、`authState` が AUTHENTICATED (1) に変更された場合のみ利用されます。
+* CRM データベースの顧客属性（訪問者プロファイル）データがすべて [!DNL Experience Cloud] に転送され、[!DNL Target] でのターゲティングに利用できることを、[!DNL Adobe] は必ずしも保証するものではありません。 現在の設計では、わずかな割合のデータ（大規模な生産バッチの 0.1％以下）はオンボードされない可能性があります。
+* [!DNL Experience Cloud]から[!DNL Target]にインポートされた顧客属性データの有効期間は、訪問者プロファイルの有効期間（デフォルトでは14日間）によって異なります。 詳しくは、[訪問者プロファイルの有効期間](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)を参照してください。
+* `vst.*` が訪問者を特定する唯一のパラメーターである場合は、`authState` が UNAUTHENTICATED (0) である限り、既存の「認証済み」プロファイルが取得されません。 プロファイルは、`authState` が AUTHENTICATED (1) に変更された場合のみ利用されます。
 
-  例えば、訪問者の特定に `vst.myDataSource.id` パラメーター（`myDataSource` はデータソースのエイリアス）を使用しており、MCID もサードパーティ ID も存在しない場合には、パラメーター `vst.myDataSource.authState=0` を使用しても、顧客属性インポートにより作成されるなどしたプロファイルが取得されることはありません。認証済みプロファイルを取得する動作が必要であれば、`vst.myDataSource.authState` の値が「1 (AUTHENTICATED)」になっている必要があります。
+  例えば、訪問者の特定に `vst.myDataSource.id` パラメーター（`myDataSource` はデータソースのエイリアス）を使用しており、MCID もサードパーティ ID も存在しない場合には、パラメーター `vst.myDataSource.authState=0` を使用しても、顧客属性インポートにより作成されるなどしたプロファイルが取得されることはありません。 認証済みプロファイルを取得する動作が必要であれば、`vst.myDataSource.authState` の値が「1 (AUTHENTICATED)」になっている必要があります。
 
 * 送信する `mbox3rdPartyID` には、プラス記号（+）とスラッシュ（/）を含めることはできません。
 
 ## 人物サービスでの顧客属性へのアクセス
 
-1. [!DNL Experience Cloud] で、メニューアイコン（![&#x200B; メニューアイコン &#x200B;](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックしてから、「**[!UICONTROL People]**」をクリックします。
+1. [!DNL Experience Cloud]で、メニューアイコン（![&#x200B; メニューアイコン &#x200B;](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックし、**[!UICONTROL People]**&#x200B;をクリックします。
 
    ![人物](/help/main/c-target/c-visitor-profile/assets/people.png)
 
@@ -51,17 +64,17 @@ ht-degree: 80%
 
    ![「顧客属性」タブ](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## [!DNL Target] の顧客属性のワークフロー {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## [!DNL Target]の顧客属性ワークフロー {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 [!DNL Target] で CRM データを使用する手順は次の図のとおりです。
 
 ![CRM ワークフロー](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-次の各タスクを実行する方法について詳しくは、&lbrace;2[Experience Cloud インターフェイスおよび管理 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ja) ガイドの「顧客属性ソースの作成とデータファイルのアップロード *を参照してください。*
+次の各作業を完了するための詳細な手順については、[顧客属性ソースを作成し、データファイル &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ja)を&#x200B;*Experience Cloud インターフェイスおよび管理* ガイドにアップロードするをご覧ください。
 
 1. データファイルを作成します。
 
-   CRM の顧客データを CSV 形式に書き出して、.csv ファイルを作成します。アップロード用に zip ファイルまたは gzip ファイルを作成することもできます。CSV ファイルの最初の行がヘッダーであり、すべての行（顧客データ）に同じ数のエントリが含まれていることを確認してください。
+   CRM の顧客データを CSV 形式に書き出して、.csv ファイルを作成します。 アップロード用に zip ファイルまたは gzip ファイルを作成することもできます。 CSV ファイルの最初の行がヘッダーであり、すべての行（顧客データ）に同じ数のエントリが含まれていることを確認してください。
 
    次の図に、エンタープライズ顧客データファイルの例を示します。
 
@@ -73,7 +86,7 @@ ht-degree: 80%
 
 1. 属性ソースを作成し、データファイルをアップロードします。
 
-   データソースの名前と説明、エイリアス ID を指定します。エイリアス ID は、`VisitorAPI.js` の顧客属性コードで使用する一意の ID です。
+   データソースの名前と説明、エイリアス ID を指定します。 エイリアス ID は、`VisitorAPI.js` の顧客属性コードで使用する一意の ID です。
 
    >[!IMPORTANT]
    >
@@ -81,16 +94,16 @@ ht-degree: 80%
 
    使用するデータファイルは、ファイルのアップロード要件に準拠し、100 MB を超えないようにする必要があります。 ファイルが大きすぎる場合、または定期的にアップロードする必要があるデータがある場合は、代わりに FTP でファイルをアップロードすることができます。
 
-   * **HTTPS:** .csv データファイルをドラッグ&amp;ドロップするか、「**[!UICONTROL Browse]**」をクリックしてファイルシステムからアップロードしてください。
-   * **FTP：** FTP リンクをクリックして [FTP 経由でファイルをアップロード](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=ja)します。まず、アドビが指定した FTP サーバーのパスワードを入力します。パスワードを指定し、「**[!UICONTROL Done]**」をクリックします。
+   * **HTTPS:** .csv データファイルをドラッグ&amp;ドロップするか、**[!UICONTROL Browse]**&#x200B;をクリックしてファイルシステムからアップロードできます。
+   * **FTP：** FTP リンクをクリックして [FTP 経由でファイルをアップロード](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=ja)します。 まず、アドビが指定した FTP サーバーのパスワードを入力します。 パスワードを指定し、**[!UICONTROL Done]**&#x200B;をクリックします。
 
-   CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前と `.fin` 拡張子の新しいファイルを作成します。この空のファイルをサーバーに転送します。これにより転送が完了したことを示し、[!DNL Experience Cloud] がデータファイルの処理を開始します。
+   CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。 このファイル転送が正常に完了したら、同じ名前と `.fin` 拡張子の新しいファイルを作成します。 この空のファイルをサーバーに転送します。 これにより転送が完了したことを示し、[!DNL Experience Cloud] がデータファイルの処理を開始します。
 
 1. スキーマを検証します。
 
-   検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明を設定できます。各属性を適切なデータタイプ、表示名、説明に対応付けます。
+   検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明を設定できます。 各属性を適切なデータタイプ、表示名、説明に対応付けます。
 
-   スキーマの検証が完了したら、「**[!UICONTROL Save]**」をクリックします。 ファイルのアップロード時間はサイズによって異なります。
+   スキーマの検証が完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。 ファイルのアップロード時間はサイズによって異なります。
 
    ![スキーマの検証](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
@@ -98,7 +111,7 @@ ht-degree: 80%
 
 1. 購読を設定し、属性ソースを有効にします。
 
-   「**[!UICONTROL Add Subscription]**」をクリックして、これらの属性を登録するソリューションを選択します。 [購読の構成](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=ja)は、[!DNL Experience Cloud] とソリューションの間のデータフローを設定します。属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+   「**[!UICONTROL Add Subscription]**」をクリックし、これらの属性をサブスクライブするソリューションを選択します。 [購読の構成](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=ja)は、[!DNL Experience Cloud] とソリューションの間のデータフローを設定します。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。 アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
    ![ソリューションの設定](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -114,9 +127,9 @@ ht-degree: 80%
 
 [!DNL Target] で顧客属性を使用する方法は次のとおりです。
 
-### ターゲティングオーディエンスの作成
+### ターゲティングオーディエンスの構築
 
-[!DNL Target] では、オーディエンスの作成時に「[!UICONTROL Visitor Profile]」セクションから顧客属性を選択できます。 リスト内の顧客属性はすべて接頭辞 &lt; data_source_name > が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target]では、オーディエンスの作成時に[!UICONTROL Visitor Profile] セクションから顧客属性を選択できます。 リスト内の顧客属性はすべて接頭辞 &lt; data_source_name > が付きます。 これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![Target オーディエンス](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -126,9 +139,9 @@ ht-degree: 80%
 
 このプロファイルスクリプトはオファーで直接使用し、現在の訪問者に属する属性を配信できます。
 
-### 実装と使用を成功させるには、web サイトで mbox3rdPartyID を使用します
+### web サイトでmbox3rdPartyIDを使用して、実装と使用を成功させる
 
-`mbox3rdPartyId` をパラメーターとして、`targetPageParams()` メソッド内のグローバル mbox に渡します。`mbox3rdPartyId` の値は、CSV データファイルの顧客 ID に設定する必要があります。
+`mbox3rdPartyId` をパラメーターとして、`targetPageParams()` メソッド内のグローバル mbox に渡します。 `mbox3rdPartyId` の値は、CSV データファイルの顧客 ID に設定する必要があります。
 
 ```javascript
 <script type="text/javascript">
@@ -140,11 +153,11 @@ ht-degree: 80%
 
 ### Experience Cloud ID サービスの使用
 
-Experience Cloud ID サービスを使用する場合は、ターゲティングで顧客属性を使用するために、顧客 ID と認証状態を設定する必要があります。詳しくは、[Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) ガイドの *顧客 ID と認証状態* を参照してください。
+Experience Cloud ID サービスを使用する場合は、ターゲティングで顧客属性を使用するために、顧客 ID と認証状態を設定する必要があります。 詳しくは、*Experience Cloud ID サービス* ガイドの[顧客IDと認証状態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)を参照してください。
 
-[!DNL Target] での顧客属性の使用について詳しくは、次のリソースを参照してください。
+[!DNL Target]での顧客属性の使用について詳しくは、次のリソースを参照してください。
 
-* [2&rbrace;Experience Cloud インターフェイスおよび管理 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=ja) ガイドの顧客属性データの作成とアップロード **
+* *Experience Cloud インターフェイスおよび管理* ガイドの[顧客属性データの作成とアップロード &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=ja)
 
 ## よくある問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
@@ -152,7 +165,7 @@ Experience Cloud ID サービスを使用する場合は、ターゲティング
 
 >[!NOTE]
 >
->この領域の問題の約 60％は、問題 1 と問題 2 が原因です。問題の約 30％は、問題 3 が原因です。問題の約 5％は、問題 4 が原因です。残りの 5％の原因はそれ以外です。
+>この領域の問題の約 60％は、問題 1 と問題 2 が原因です。 問題の約 30％は、問題 3 が原因です。 問題の約 5％は、問題 4 が原因です。 残りの 5％の原因はそれ以外です。
 
 ### 問題 1：プロファイルが大きすぎることが原因で顧客属性が削除される
 
@@ -160,17 +173,17 @@ Experience Cloud ID サービスを使用する場合は、ターゲティング
 
 ### 問題 2：数日間経っても [!DNL Target] のオーディエンスライブラリに属性が表示されない
 
-その場合は、パイプラインの接続に問題が生じているケースがほとんどです。顧客属性チームにフィードの再発行を依頼してください。
+その場合は、パイプラインの接続に問題が生じているケースがほとんどです。 顧客属性チームにフィードの再発行を依頼してください。
 
 ### 問題 3：属性に基づく配信が適切に機能しない
 
-プロファイルがまだエッジで更新されていません。顧客属性チームにフィードの再発行を依頼してください。
+プロファイルがまだエッジで更新されていません。 顧客属性チームにフィードの再発行を依頼してください。
 
 ### 問題 4：実装に関する問題
 
 注意を要する実装に関する問題は次のとおりです。
 
-* 訪問者 ID が適切に渡されなかった。ID が `setCustomerId` ではなく、`mboxMCGVID` で渡された。
+* 訪問者 ID が適切に渡されなかった。 ID が `setCustomerId` ではなく、`mboxMCGVID` で渡された。
 * 訪問者 ID は適切に渡されたが、認証状態が認証済みに設定されなかった。
 * `mbox3rdPartyId` が適切に渡されなかった。
 

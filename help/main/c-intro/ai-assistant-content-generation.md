@@ -7,16 +7,23 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: 777
+ht-degree: 2%
 
 ---
 
-# [!DNL AI Assistant]の[!DNL Adobe Target]をコンテンツ生成に使用
+# [!DNL Adobe Target]の[!DNL AI Assistant]をコンテンツ生成に使用
 
-[!DNL Adobe Target]さんと[!DNL AI Assistant]のエンゲージメントとコンバージョンを促進します。 生成AIを活用して、オーディエンスの共感を呼び、アクティビティやコンテンツを向上させる、パーソナライズされたインパクトの大きいテキストを作成します。
+[!DNL AI Assistant]さんと[!DNL Adobe Target]のエンゲージメントとコンバージョンを促進します。 生成AIを活用して、オーディエンスの共感を呼び、アクティビティやコンテンツを向上させる、パーソナライズされたインパクトの大きいテキストを作成します。
 
 ## 前提条件
 
@@ -85,7 +92,7 @@ ht-degree: 1%
 
 ## バリエーションの例 {#variations}
 
-ヒーローテキストの変更は始まりに過ぎません。 [!DNL AI Assistant]の[!DNL Target]では、基本的な編集に限定されません。 エクスペリエンス全体をまたいで、コンテンツを制作、洗練、向上させる力を手に入れましょう。 バリエーションのブレインストーミングから、メッセージの最適化、新しいコピーの生成に至るまで、[!DNL AI Assistant]は生成AIのパワーを活用して、魅力的でインパクトの大きいコンテンツを数秒で作成することができます。
+ヒーローテキストの変更は始まりに過ぎません。 [!DNL Target]の[!DNL AI Assistant]では、基本的な編集に限定されません。 エクスペリエンス全体をまたいで、コンテンツを制作、洗練、向上させる力を手に入れましょう。 バリエーションのブレインストーミングから、メッセージの最適化、新しいコピーの生成に至るまで、[!DNL AI Assistant]は生成AIのパワーを活用して、魅力的でインパクトの大きいコンテンツを数秒で作成することができます。
 
 次のプロンプトとバリエーションは、[!DNL AI Assistant]の機能を示しています。
 

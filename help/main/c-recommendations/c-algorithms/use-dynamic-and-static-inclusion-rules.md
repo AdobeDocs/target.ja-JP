@@ -1,132 +1,137 @@
 ---
 keywords: インクルージョンルール;包含条件;レコメンデーション;新しい条件の作成;プロモーション;動的フィルター;動的;空の値;フィルタールールの無視;静的フィルター;値でフィルター;エンティティ属性のマッチング;プロファイル属性のマッチング;パラメーターのマッチング;値でフィルター;静的フィルター
-description: 条件やプロモーションに関するインクルージョンルールを  [!DNL Target] Recommendations 内に作成する方法を説明します。
-title: Recommendations での動的および静的インクルージョンルールの使用方法
+description: 条件とプロモーションの [!DNL Target] Recommendationsで包含ルールを作成する方法について説明します。
+title: レコメンデーションで動的および静的インクルージョンルールを使用するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: 1861
 ht-degree: 17%
 
 ---
 
 # 動的および静的インクルージョンルールの使用
 
-条件およびプロモーションのインクルージョンルールを [!DNL Adobe Target] で作成し、動的または静的フィルタールールを追加して、レコメンデーションにより良い結果を得ることができます。
+[!DNL Adobe Target]で条件とプロモーションの包含ルールを作成し、動的または静的フィルタールールを追加して、レコメンデーションの結果を向上させます。
 
-条件とプロモーションでは、インクルージョンルールを作成、使用する方法は類似しています。使用例やサンプルも同様です。この節では、条件とプロモーションの両方と、インクルージョンルールの使用について説明します。
+条件とプロモーションでは、インクルージョンルールを作成、使用する方法は類似しています。使用例やサンプルも同様です。 このセクションでは、基準とプロモーションの両方と、包含ルールの使用について説明します。
 
-## 条件およびプロモーションへのフィルタールールの追加 {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
+## 条件とプロモーションへのフィルタールールの追加 {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
 詳しくは以下のセクションで説明されています。
 
-### 条件へのフィルタールールの追加
+### 条件にフィルタールールを追加
 
-1. [&#x200B; 条件の作成 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) （**[!UICONTROL Recommendations]/[!UICONTROL Criteria]/[!UICONTROL Create Criteria]/[!UICONTROL Create Criteria]**）中に、**[!UICONTROL Add Filtering Rule]** の下の「**[!UICONTROL Inclusion Rules]**」をクリックします。
+1. [条件の作成中](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) （**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**）、**[!UICONTROL Inclusion Rules]**&#x200B;の下の&#x200B;**[!UICONTROL Add Filtering Rule]**&#x200B;をクリックします。
 
-   ![&#x200B; フィルタールールを追加 &#x200B;](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
+   ![&#x200B; フィルタリングルールを追加](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
-1. 「レコメンデーションに従う他のルール **ボックスの** 静的フィルター」ドロップダウンリストをクリックし、「[!UICONTROL Static Filter]」ドロップダウンリストから目的のオプションを選択します。
+1. 「推奨事項が従う必要があるその他のルール」ボックスの&#x200B;**静的フィルター** ドロップダウンリストをクリックし、[!UICONTROL Static Filter] ドロップダウンリストから目的のオプションを選択します。
 
-   ![&#x200B; 静的フィルターのドロップダウンリスト &#x200B;](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
+   ![静的フィルターのドロップダウンリスト &#x200B;](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
    利用できるオプションは、選択した業種とレコメンデーションキーによって変わります。
 
 ### プロモーションへのフィルタールールの追加
 
-1. [&#x200B; プロモーションの作成 &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14) 中に、「**[!UICONTROL Promote by Attribute]**」を選択し、「**[!UICONTROL Add Filtering Rule]**」をクリックします。
+1. [&#x200B; プロモーションの作成中](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)、**[!UICONTROL Promote by Attribute]**&#x200B;を選択し、**[!UICONTROL Add Filtering Rule]**&#x200B;をクリックします。
 
 ## フィルターのタイプ {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-次の項では、条件と販促の両方に対する [!UICONTROL Dynamic Filtering] と [!UICONTROL Filter by Value] のフィルタ・オプションのタイプをリストします。
+次の節では、条件とプロモーションの両方に対する[!UICONTROL Dynamic Filtering]と[!UICONTROL Filter by Value]のフィルターオプションのタイプを示します。
 
 ### 動的フィルタリング
 
-動的インクルージョンルールは、静的インクルージョンルールよりも強力で、より良い結果とエンゲージメントを生み出します。 次の点に留意してください。
+動的な包含ルールは、静的な包含ルールよりも強力で、より優れた結果とエンゲージメントをもたらします。 次の点に留意してください。
 
-* 動的包含ルールは、ユーザーのプロファイルパラメーターまたは mbox 呼び出しで属性を照合することにより、レコメンデーションを提供します。
+* 動的インクルージョンルールは、ユーザーのプロファイルパラメーターまたはmbox呼び出しの属性に一致させることで、レコメンデーションを提供します。
 
-  例えば、「一番人気のある条件」のレコメンデーションを作成できます。 返されたレコメンデーションのセットから、レコメンデーションが表示されているページにユーザーがアクセスする際に渡された属性に対して、（リアルタイムで）レコメンデーションを除外できます。
+  例えば、「最も人気のある基準」レコメンデーションを作成できます。 返されるレコメンデーションのセットから、ユーザーがレコメンデーションが表示されるページにアクセスしたときに渡された属性に対して、レコメンデーションをリアルタイムでフィルタリングできます。
 
-* コレクションを使用する代わりに、静的ルールを使用して、レコメンデーションに含める項目を制限します。
+* 静的ルールを使用して、レコメンデーションに含めるアイテムを制限します（コレクションを使用する代わりに）。
 
-* 必要な数の動的インクルージョンルールを作成できます。 インクルージョンルールは AND 演算子で結合します。品目がレコメンデーションに含まれるためには、すべてのルールを満たす必要があります。
+* 必要な数の動的インクルージョンルールを作成できます。 インクルージョンルールは AND 演算子で結合します。 品目がレコメンデーションに含まれるためには、すべてのルールを満たす必要があります。
 
-動的フィルタリングには次のオプションを使用できます。
+動的フィルタリングでは、次のオプションを使用できます。
 
 | 動的フィルターオプション | 詳細 |
 | --- | --- |
-| [[!UICONTROL Entity Attribute Matching]](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | ユーザーがやり取りした特定の項目に、可能性のあるレコメンデーション項目のプールを比較することで、動的にフィルタリングします。<P>訪問者のお気に入りのブランドなど、訪問者にアピールする可能性が最も高いレコメンデーションを表示する場合は、[!UICONTROL Entity Attribute Matching] を使用します。 |
-| [[!UICONTROL Profile Attribute Matching]](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | ユーザーのプロファイルの値に対して項目（エンティティ）を比較することで動的にフィルタリングします。<P>サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するお勧めを表示する場合は、[!UICONTROL Profile Attribute Matching] を使用します。 |
-| [[!UICONTROL Parameter Matching]](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | リクエスト（API または mbox）の値に対して項目（エンティティ）を比較することで動的にフィルタリングします。<P>[!UICONTROL Parameter Matching] を使用して、ページパラメーターまたは訪問者のパラメーターに一致するコンテンツ（デバイスのサイズや位置情報など）をレコメンデーションします。 |
+| [[!UICONTROL Entity Attribute Matching]](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | 潜在的なレコメンデーション項目のプールを、ユーザーが操作した特定の項目と比較して、動的にフィルタリングします。<P>訪問者のお気に入りのブランドなど、訪問者にアピールする可能性が最も高いレコメンデーションを表示する場合は、[!UICONTROL Entity Attribute Matching]を使用します。 |
+| [[!UICONTROL Profile Attribute Matching]](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | ユーザーのプロファイルの値に対して項目（エンティティ）を比較して、動的にフィルタリングします。<P>サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するレコメンデーションを表示する場合は、[!UICONTROL Profile Attribute Matching]を使用します。 |
+| [[!UICONTROL Parameter Matching]](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | アイテム（エンティティ）をリクエスト（APIまたはmbox）の値と比較して、動的にフィルタリングします。<P>[!UICONTROL Parameter Matching]を使用して、ページパラメーターや訪問者のパラメーター（デバイスのサイズや位置情報など）に一致するコンテンツをレコメンドします。 |
 
 ### 値でフィルター
 
 値によるフィルタリングには、次のオプションを使用できます。
 
-| 値によるフィルターオプション | 詳細 |
+| 値によるフィルタリング オプション | 詳細 |
 | --- | --- |
-| [[!UICONTROL Static Filter]](/help/main/c-recommendations/c-algorithms/static-value.md) | フィルターする 1 つ以上の静的値を手動で入力します。 |
+| [[!UICONTROL Static Filter]](/help/main/c-recommendations/c-algorithms/static-value.md) | フィルターする1つ以上の静的値を手動で入力します。 |
 
 ## 使用可能な演算子 {#operators}
 
-動的な条件とプロモーションは、静的な条件とプロモーションよりもはるかに強力で、より良い結果とエンゲージメントを生み出します。
+動的な基準とプロモーションは、静的な基準とプロモーションよりもはるかに強力で、より優れた結果とエンゲージメントをもたらします。
 
-次の例では、マーケティング活動で動的なプロモーションと除外を使用する方法に関する一般的なアイデアを提供します。
+次の例では、マーケティング施策で動的なプロモーションと除外を使用する方法について、一般的な考え方を示します。
 
 >[!NOTE]
 >
->「リスト」には、エンティティとプロファイル属性の両方を配列として格納する必要があります。 コンマ区切りリストは機能しません。
+>「リスト」では、エンティティとプロファイル属性の両方を配列として保存する必要があります。 コンマ区切りのリストは機能しません。
 
 | 演算子 | 例 |
 | --- | --- |
-| [!UICONTROL equals any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 動的プロモーションの「次に等しい」演算子を使用すると、訪問者が web サイト上の項目（製品、記事、ムービーなど）を表示している際に、次の場所から他の項目を昇格させることができます。<ul><li>同じブランド</li><li>同じカテゴリ</li><li>同じカテゴリーとハウスブランドから</li><li>同じ店舗</li></ul> |
-| [!UICONTROL does not equal any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 動的プロモーションで「[!UICONTROL does not equal any of]」オペレーターを使用すると、訪問者が web サイト上の項目（製品、記事、映画など）を表示している際に、次の場所から他の項目を昇格させることができます。<ul><li>別のテレビシリーズ</li><li>異なるジャンル</li><li>別の製品シリーズ</li><li>別のスタイル ID</li></ul> |
-| [!UICONTROL is greater than or equal to any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 「[!UICONTROL is greater than or equal to any of]」演算子を使用すると、訪問者が web サイト上の項目（製品など）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>コストは同じか、またはより高価</li></ul> |
-| [!UICONTROL is less than or equal to any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 「[!UICONTROL is less than or equal to an of]」演算子を使用すると、訪問者が web サイト上の項目（製品など）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>同じか、またはより安い</li><li>より安価な項目を除外</li></ul> |
-| [!UICONTROL contains any of] （[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 「[!UICONTROL contains any of]」演算子を使用すると、訪問者が web サイト上の項目（製品など）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>タイトルに同じブランドが含まれる</li></ul> |
-| [!UICONTROL does not contain any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 「次のいずれも含まない」演算子を使用すると、訪問者が web サイト上の項目（製品など）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>タイトルに宣誓の言葉は含まれていません</li></ul> |
-| [!UICONTROL starts with any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 「[!UICONTROL starts with an of]」演算子を使用すると、訪問者が web サイト上の項目（製品など）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>商品名がiPhoneで始まる</li></ul> |
-| [!UICONTROL ends with any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] および [!UICONTROL Static Filter] で使用可能） | 「[!UICONTROL ends with an of]」演算子を使用すると、訪問者が web サイト上の項目（製品など）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>コンテンツが英語を示す EN で終わる</li></ul> |
-| [!UICONTROL is between]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | 動的プロモーションで「i[!UICONTROL s between]」オペレーターを使用すると、訪問者が web サイト上の項目（製品、記事、映画など）を表示しているときに、次のような他の項目をプロモーションできます。<ul><li>より高価</li><li>低コスト</li><li>コスト +または – 30%</li><li>同じシーズンの後半のエピソード</li><li>シリーズ内の以前の本</li></ul> |
-| [!UICONTROL list contains an item in]<P>（[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | プロファイル属性のマッチングで「[!UICONTROL list contains an item in]」演算子を使用すると、訪問者が web サイト上の項目（製品、記事、ムービーなど）を表示している際に、次に示す他の項目を昇格させることができます。<ul><li>訪問者の地域で利用可能</li></ul>**例**：訪問者の地域でのみ使用できる項目をレコメンデーションする場合。<P>フィルタールールは次のようになります。<P>`availableGeographies list contains an item in user.currentGeography`<P>**メモ**：この演算子を使用する場合、ルールの [&#x200B; 右側 &#x200B;](#caveats) にリストが必要です。 |
-| [!UICONTROL list does not contain an item in]<P>（[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | プロファイル属性のマッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者が web サイト上の項目（製品、記事、映画など）を表示する際に、次に該当する他の項目を除外できます。<ul><li>訪問者が閲覧した最後の 10 項目のリスト</li></ul></ul>**例**：訪問者が最近表示し、興味を示していない項目を昇格させたくない。<P>フィルタールールは次のようになります。<P>`id is not contained in list user.lastViewedItems`<P>**メモ**：この演算子を使用する場合、ルールの [&#x200B; 右側 &#x200B;](#caveats) にリストが必要です。 |
-| [!UICONTROL list contains an item in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | プロファイル属性のマッチングで「[!UICONTROL list contains an item in]」演算子を使用すると、訪問者が web サイト上の項目（スポーツイベントやコンサートなど）を表示している際に、次に示す他の項目を昇格させることができます。<ul><li>訪問者のお気に入りのチームの 1 つに関連付けられる</li></ul>**例**：訪問者のお気に入りのチームの 1 つに関連付けられているゲームをレコメンデーションします。<P>フィルタールールは次のようになります。<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**注意**：この演算子を使用する場合、ルールの [&#x200B; 両側 &#x200B;](#caveats) にリストが想定されます。 |
-| [!UICONTROL list does not contain an item in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | パラメーター属性のマッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者が web サイト上の項目（製品、記事、ムービーなど）を表示する際に、次に該当する他の項目を除外できます。<ul><li>禁止されているタイプのリストに含まれる</li></ul>**例**：大人の訪問者が利用できる項目（タバコやアルコールなど）を除外します。<P>フィルタールールは次のようになります。<P>`itemType is not contained in list mbox.prohibitedTypes`<P>**注意**：この演算子を使用する場合、ルールの [&#x200B; 両側 &#x200B;](#caveats) にリストが想定されます。 |
-| [!UICONTROL list contains all items in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | プロファイル属性のマッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者が web サイト上の項目（ジョブの投稿やレシピなど）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>一連のスキルを含める</li><li>必要な成分のセットを含める</li></ul>**例 1**：訪問者が一連のスキル（Java、C++およびHTML）を持っているとします。 カタログの項目は、必要なスキルを持つジョブ（Java およびHTML）です。 ジョブを訪問者にレコメンデーションする前に、訪問者のプロファイルに必要なすべてのスキルが含まれていることを確認する必要があります。<P>フィルタールールは次のようになります。<P>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<P>**例 2**：ユーザーがパントリー食材のリストを持っているとします。 レシピには必要な成分のリストがあります。 訪問者にレシピをレコメンデーションする前に、訪問者のプロファイルに必要な成分がすべて含まれていることを確認する必要があります。<P>フィルタールールは次のようになります。<P>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<P>**注意**：この演算子を使用する場合、ルールの [&#x200B; 両側 &#x200B;](#caveats) にリストが想定されます。 |
-| [!UICONTROL list does not contain all items in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] で使用可能） | エンティティ属性のマッチングで「[!UICONTROL list does not contain all items in]」演算子を使用すると、訪問者が web サイト上の項目（スポーツイベントやコンサートなど）を表示している際に、次のような他の項目を昇格させることができます。<ul><li>チームのセットを含めない</li></ul>**例**：スポーツイベントに 2 つのチームが含まれるとします。 訪問者のプロファイルは、この訪問者がこれらのチームのゲームを見たくないことを示しています。 これらのチームがプレイしている場合は、ゲームをレコメンデーションしないようにする必要があります。<P>フィルタールールは次のようになります。<P>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<P>**注意**：この演算子を使用する場合、ルールの [&#x200B; 両側 &#x200B;](#caveats) にリストが想定されます。 |
+| [!UICONTROL equals any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]、[!UICONTROL Static Filter]で利用可能） | 動的なプロモーションで「次と等しい」演算子を使用すると、訪問者がweb サイト上のアイテム（製品、記事、映画など）を表示しているときに、次の場所から他のアイテムをプロモーションできます。<ul><li>同じブランド</li><li>同じカテゴリ</li><li>同じカテゴリのANDをハウスブランドから</li><li>同じ店舗</li></ul> |
+| [!UICONTROL does not equal any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]、[!UICONTROL Static Filter]で利用可能） | 動的なプロモーションで「[!UICONTROL does not equal any of]」演算子を使用すると、訪問者がweb サイト上のアイテム（製品、記事、映画など）を表示しているときに、次の場所から他のアイテムをプロモーションできます。<ul><li>別のテレビシリーズ</li><li>別のジャンル</li><li>異なる製品シリーズ</li><li>別のスタイル ID</li></ul> |
+| [!UICONTROL is greater than or equal to any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]、[!UICONTROL Static Filter]で利用可能） | 「[!UICONTROL is greater than or equal to any of]」演算子を使用すると、訪問者がweb サイト上のアイテム（製品など）を表示しているときに、次のような他のアイテムを宣伝できます。<ul><li>同じ値段か、より高額か</li></ul> |
+| [!UICONTROL is less than or equal to any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]、[!UICONTROL Static Filter]で利用可能） | 「[!UICONTROL is less than or equal to an of]」演算子を使用すると、訪問者がweb サイト上のアイテム（製品など）を表示しているときに、次のような他のアイテムを宣伝できます。<ul><li>同じ値段か、安い値段です</li><li>価格の安い商品を除外</li></ul> |
+| [!UICONTROL contains any of] （[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]、[!UICONTROL Static Filter]で利用可能） | 「[!UICONTROL contains any of]」演算子を使用すると、訪問者がweb サイト上のアイテム（製品など）を表示しているときに、次のような他のアイテムを宣伝できます。<ul><li>タイトルに同じブランドが含まれています</li></ul> |
+| [!UICONTROL does not contain any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]、[!UICONTROL Static Filter]で利用可能） | 「どの項目も含まない」演算子を使用すると、訪問者がweb サイト上の項目（製品など）を表示する際に、次のような項目を宣伝できます。<ul><li>タイトルに誓いの言葉が含まれていません</li></ul> |
+| [!UICONTROL starts with any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]、[!UICONTROL Static Filter]で利用可能） | 「[!UICONTROL starts with an of]」演算子を使用すると、訪問者がweb サイト上のアイテム（製品など）を表示しているときに、次のような他のアイテムを宣伝できます。<ul><li>IPhoneで始まる製品名</li></ul> |
+| [!UICONTROL ends with any of]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]、[!UICONTROL Static Filter]で利用可能） | 「[!UICONTROL ends with an of]」演算子を使用すると、訪問者がweb サイト上のアイテム（製品など）を表示しているときに、次のような他のアイテムを宣伝できます。<ul><li>コンテンツは英語を示すENで終わります</li></ul> |
+| [!UICONTROL is between]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]で利用可能） | 動的なプロモーションで「i[!UICONTROL s between]」演算子を使用すると、訪問者がweb サイト上のアイテム（製品、記事、映画など）を表示しているときに、次のようなアイテムをプロモーションできます。<ul><li>コストの増大</li><li>コストの削減</li><li>コストのプラスまたはマイナス 30%</li><li>同じシーズンの後のエピソード</li><li>シリーズの前作</li></ul> |
+| [!UICONTROL list contains an item in]<P>（[!UICONTROL Profile Attribute Matching]および[!UICONTROL Parameter Matching]で使用可能） | プロファイル属性マッチングで「[!UICONTROL list contains an item in]」演算子を使用すると、訪問者がweb サイト上の項目（製品、記事、映画など）を表示しているときに、次のような項目を宣伝できます。<ul><li>訪問者の地域で利用可能</li></ul>**例**：訪問者の地理的エリアでのみ利用可能なアイテムをレコメンドする場合。<P>フィルタールールは次のようになります。<P>`availableGeographies list contains an item in user.currentGeography`<P>**注意**：この演算子を使用する場合、ルールの[右側](#caveats)にリストが必要です。 |
+| [!UICONTROL list does not contain an item in]<P>（[!UICONTROL Profile Attribute Matching]および[!UICONTROL Parameter Matching]で使用可能） | プロファイル属性マッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者がweb サイト上の項目（製品、記事、映画など）を表示する際に、次のような項目を除外できます。<ul><li>訪問者が最後に閲覧した10項目のリスト</li></ul></ul>**例**：訪問者が最近閲覧し、興味を示していない項目を宣伝しない。<P>フィルタールールは次のようになります。<P>`id is not contained in list user.lastViewedItems`<P>**注意**：この演算子を使用する場合、ルールの[右側](#caveats)にリストが必要です。 |
+| [!UICONTROL list contains an item in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]で利用可能） | プロファイル属性マッチングで「[!UICONTROL list contains an item in]」演算子を使用すると、訪問者がweb サイト上のアイテム（スポーツイベントやコンサートなど）を表示している場合、次のようなアイテムを宣伝できます。<ul><li>訪問者のお気に入りのチームのひとつに関連し</li></ul>**例**：訪問者のお気に入りのチームのいずれかに関連付けられているゲームをレコメンドする場合。<P>フィルタールールは次のようになります。<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**注意**：この演算子を使用する場合、ルールの[両側](#caveats)にリストが必要です。 |
+| [!UICONTROL list does not contain an item in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]で利用可能） | パラメーター属性マッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者がweb サイト上の項目（製品、記事、映画など）を表示する際に、次のような項目を除外できます。<ul><li>禁止されているタイプのリストに含まれています</li></ul>**例**：タバコやアルコールなど、大人の訪問者が利用できるアイテムを除外する。<P>フィルタールールは次のようになります。<P>`itemType is not contained in list mbox.prohibitedTypes`<P>**注意**：この演算子を使用する場合、ルールの[両側](#caveats)にリストが必要です。 |
+| [!UICONTROL list contains all items in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]で利用可能） | プロファイル属性マッチングで「[!UICONTROL list does not contain an item in]」演算子を使用すると、訪問者がweb サイト上の項目（求人投稿やレシピなど）を表示しているときに、次のような項目を宣伝できます。<ul><li>一連のスキルを含める</li><li>必要な成分のセットを含めます</li></ul>**例1**：訪問者が一連のスキル（Java、C++、HTML）を持っているとします。 カタログ内の項目は、必要なスキル（JavaおよびHTML）を持つジョブです。 訪問者に仕事を推薦する前に、訪問者のプロファイルに必要なスキルがすべて含まれていることを確認する必要があります。<P>フィルタールールは次のようになります。<P>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<P>**例2**：ユーザーがパントリーの材料のリストを持っているとします。 レシピには必要な成分のリストがあります。 訪問者にレシピを推奨する前に、訪問者のプロファイルに必要な材料がすべて含まれていることを確認する必要があります。<P>フィルタールールは次のようになります。<P>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<P>**注意**：この演算子を使用する場合、ルールの[両側](#caveats)にリストが必要です。 |
+| [!UICONTROL list does not contain all items in]<P>（[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]で利用可能） | エンティティ属性マッチングで「[!UICONTROL list does not contain all items in]」演算子を使用すると、訪問者がweb サイト上のアイテム（スポーツイベントやコンサートなど）を表示している場合、次のような他のアイテムを宣伝できます。<ul><li>グループを含まない</li></ul>**例**: スポーツイベントに2つのチームが含まれているとします。 訪問者のプロファイルは、この訪問者がこれらのチームのゲームを表示したくないことを示します。 これらのチームがプレイしている場合は、ゲームをお勧めしません。<P>フィルタールールは次のようになります。<P>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<P>**注意**：この演算子を使用する場合、ルールの[両側](#caveats)にリストが必要です。 |
 
-## [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] でフィルタリングする際の空の値の処理 {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]によるフィルタリング時の空の値の処理 {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-終了条件およびプロモーションで [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] でフィルタリングする際に空の値を処理するオプションをいくつか選択できます。
+終了条件とプロモーション用に[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching]でフィルタリングする場合は、空の値を処理する複数のオプションを選択できます。
 
-以前は、値が空の場合は何も結果が返されませんでした。次の図のように、「*x* が空の場合」ドロップダウンリストを使用することで、条件に空の値があった場合に実行する処理を選択できます。
+以前は、値が空の場合は何も結果が返されませんでした。 次の図のように、「*x* が空の場合」ドロップダウンリストを使用することで、条件に空の値があった場合に実行する処理を選択できます。
 
-![empty_value 画像 &#x200B;](assets/empty_value.png)
+![empty_value image](assets/empty_value.png)
 
-目的のアクションを選択するには、歯車アイコン（![icon_gear image](assets/icon_gear.png)）にマウスポインターを置いて、目的のアクションを選択します。
+目的のアクションを選択するには、歯車アイコン（![icon_gear image](assets/icon_gear.png)）にカーソルを合わせ、目的のアクションを選択します。
 
 | アクション | 利用できるマッチング | 詳細 |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Profile Attribute Matching] と [!UICONTROL Parameter Matching] のデフォルト設定は、このアクションです。<P>このオプションではルールを無視するよう指定します。例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
-| [!UICONTROL Do not show any results for this criteria]<P>（条件のみ） | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<P>このアクションは、このオプションを追加 [!DNL Target] る前の空の値の処理方法です。この条件に対する結果は表示されません。 |
-| [!UICONTROL &#x200B; アイテムを昇格しない<P>（プロモーションのみ） &#x200B;] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<P>このアクションは、このオプションを追加 [!DNL Target] る前の空の値の処理方法です。この条件に対する結果は表示されません。 |
-| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | 値が空だった場合に静的値を使用するよう設定できます。 |
+| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | このアクションは、[!UICONTROL Profile Attribute Matching]および[!UICONTROL Parameter Matching]の既定値です。<P>このオプションではルールを無視するよう指定します。 例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
+| [!UICONTROL Do not show any results for this criteria]<P>（基準のみ） | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] | このアクションは[!UICONTROL Entity Attribute Matching]の既定値です。<P>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
+| [!UICONTROL 項目を昇格しない<P>（プロモーションのみ） &#x200B;] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] | このアクションは[!UICONTROL Entity Attribute Matching]の既定値です。<P>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
+| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]、[!UICONTROL Parameter Matching] | 値が空だった場合に静的値を使用するよう設定できます。 |
 
 ## 注意事項 {#caveats}
 
 >[!IMPORTANT]
 >
->データタイプが異なる属性に対して「次に等しい」および「等しくない」演算子を使用した動的な条件またはプロモーションでは、実行時に互換性がない可能性があります。左側に定義済みの属性またはカスタム属性がある場合は、右側に [!UICONTROL Value]、[!UICONTROL Margin]、[!UICONTROL Inventory]、[!UICONTROL Environment] の値を適切に使用します。
+>データタイプが異なる属性に対して「次に等しい」および「等しくない」演算子を使用した動的な条件またはプロモーションでは、実行時に互換性がない可能性があります。 左側に定義済みの属性またはカスタム属性がある場合は、右側で[!UICONTROL Value]、[!UICONTROL Margin]、[!UICONTROL Inventory]、[!UICONTROL Environment]の値を適切に使用します。
 
-![left_right 画像 &#x200B;](assets/left_right.png)
+![left_right image](assets/left_right.png)
 
 以下の表に、効果的なルールと実行時に互換性のない可能性のあるルールを示します。
 
-| 互換性のあるルール | 潜在的に互換性のないルール |
+| 互換性のあるルール | 互換性のない可能性のあるルール |
 |--- |--- |
 | value - is between - 90% and 110% of current item&#39;s - salesValue | salesValue - is between - 90% and 110% of current item&#39;s - value |
 | value - is between - 90% and 110% of current item&#39;s - value | clearancePrice - is between - 90% and 110% of current item&#39;s - margin |

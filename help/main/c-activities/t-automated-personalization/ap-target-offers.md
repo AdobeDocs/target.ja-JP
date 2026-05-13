@@ -1,23 +1,32 @@
 ---
-keywords: automated personalization；オファー；ターゲット；オーディエンス；ターゲティングルール；ターゲティング
-description: '[!UICONTROL Automated Personalization] （AP）アクティビティを使用して、特定のオーディエンスに対して個々のオファーをターゲットにする方法を説明します。'
-title: '[!UICONTROL Automated Personalization] のオファーをターゲットにするにはどうすればよいですか？'
+keywords: 自動パーソナライゼーション；オファー；ターゲット；オーディエンス；ターゲティングルール；ターゲティング
+description: '[!UICONTROL Automated Personalization] （AP）アクティビティを使用して、特定のオーディエンスに個々のオファーをターゲティングする方法について説明します。'
+title: '[!UICONTROL Automated Personalization]件のオファーをターゲットするにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 22%
+source-wordcount: 380
+ht-degree: 24%
 
 ---
 
-# Target [!UICONTROL Automated Personalization] オファー
+# ターゲット [!UICONTROL Automated Personalization]のオファー
 
-[!DNL Adobe Target] [!DNL Automated Personalization] （AP）アクティビティで、特定のオーディエンスに対してオファーをターゲット設定できます。
+[!DNL Adobe Target] [!DNL Automated Personalization] （AP）アクティビティでは、特定のオーディエンスに対するオファーをターゲットにできます。
 
-この機能を使用すると、特定の訪問者が閲覧できるオファーの数を減らすことができます。例えば、3 つのオファーを持つ [!UICONTROL Automated Personalization] アクティビティについて考えてみましょう。 オファー 1 には、オーディエンス A への露出を制限するターゲティングルールがあります。このアクティビティは 2 人の訪問者が閲覧しました。
+この機能を使用すると、特定の訪問者が閲覧できるオファーの数を減らすことができます。 例えば、3つのオファーを持つ[!UICONTROL Automated Personalization] アクティビティを考えてみましょう。 オファー1には、オーディエンス Aへの露出を制限するターゲティングルールがあります。2人の訪問者がこのアクティビティを見ました。
 
 | | 訪問者 1 | 訪問者 2 |
 |--- |--- |--- |
@@ -26,28 +35,28 @@ ht-degree: 22%
 | オファー 2 Target パーソナライゼーションモデルスコア | 50 | 70 |
 | オファー 3 Target パーソナライゼーションモデルスコア | 80 | 60 |
 
-このシナリオでは、訪問者 1 は（この訪問者はオーディエンス A の一部と認定されるため）、その訪問者の最高スコアであるオファー 1 を表示します。 ただし、訪問者 2 はオーディエンス A に含まれていないので、最も高いスコアがオファー 1 に関するものであっても、訪問者 2 にはオファー 2 が表示されます。この例は、ビジネスニーズを満たすためにターゲティングルールを慎重に使用する理由を示しています。 これらのルールを追加すると、パーソナライゼーションモデルの効果 [!DNL Target] 低下する可能性があります。
+このシナリオでは、訪問者1はオファー1を見ます（この訪問者はオーディエンス Aの一部として適格であるため）。これは、その訪問者の最高スコアです。 ただし、訪問者2はオーディエンス Aに含まれていないため、訪問者2はオファー1のスコアが最も高くなってもオファー2を見ます。この例では、ターゲティングルールをビジネスニーズに合わせて控えめに使用すべき理由を示しています。 これらのルールを追加すると、[!DNL Target]個のパーソナライゼーションモデルの効果を低下させることができます。
 
-## ターゲット設定ルールの設定
+## ターゲティングルールの設定
 
-1. ターゲット設定したいオファーを含む [0&rbrace;Automated Personalization アクティビティを作成または編集します。](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)
-1. [!UICONTROL Visual Experience Composer] でアクティビティのオファーを設定したら、**[!UICONTROL Manage Content]** のアイコン（![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックします。
+1. ターゲットにするオファーを含む[Automated Personalization アクティビティ &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)を作成または編集します。
+1. [!UICONTROL Visual Experience Composer]でアクティビティのオファーを設定したら、**[!UICONTROL Manage Content]** アイコン（![&#x200B; コンテンツの管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックします。
 
    [!UICONTROL Manage Content] ダイアログボックスが表示されます。
 
 1. 「**[!UICONTROL Offers]**」タブをクリックします。
 
-1. 目的のオファーを選択し、そのオファーを表示するために選定するオーディエンスを選択します。
+1. 必要なオファーを選択し、そのオファーを表示する対象のオーディエンスを選択します。
 
-   1 つのオファーに対してターゲティングを設定するには、目的のオファーの横にある詳細情報 ![&#x200B; 詳細情報アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）アイコンをクリックし、「**[!UICONTROL Target Audience]**」をクリックして [!UICONTROL Add Audiences] のダイアログボックスを表示します。
+   1つのオファーのターゲティングを設定するには、目的のオファーの横にある詳細情報（![詳細情報アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）アイコンをクリックし、**[!UICONTROL Target Audience]**&#x200B;をクリックして[!UICONTROL Add Audiences] ダイアログボックスを表示します。
 
-   複数のオファーに対してターゲティングを設定するには、目的のオファーのチェックボックスを選択し、リストの下部に表示される **[!UICONTROL Target Audience]** リンクをクリックします。
+   複数のオファーのターゲティングを設定するには、目的のオファーのチェックボックスを選択し、リストの下部に表示される&#x200B;**[!UICONTROL Target Audience]** リンクをクリックします。
 
-1. [!UICONTROL Add Audiences] ダイアログボックスで、オファーに必要なオーディエンスを選択し、「**[!UICONTROL Assign Audience]**」をクリックして [!UICONTROL Manage Content] ダイアログボックスに戻ります。
+1. [!UICONTROL Add Audiences] ダイアログボックスで、オファーに必要なオーディエンスを選択し、**[!UICONTROL Assign Audience]**&#x200B;をクリックして[!UICONTROL Manage Content] ダイアログボックスに戻ります。
 
    >[!NOTE]
    >
-   >既存のオーディエンスを選択できるだけでなく、新しいオーディエンスを作成しなくても、複数のオーディエンスを組み合わせて、オンデマンドで組み合わせたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
+   >既存のオーディエンスを選択するだけでなく、複数のオーディエンスを組み合わせて、新しいオーディエンスを作成するのではなく、オンデマンドで組み合わされたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
 1. **[!UICONTROL Done]** をクリックします。
 

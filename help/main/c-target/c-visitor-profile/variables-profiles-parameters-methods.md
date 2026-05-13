@@ -1,13 +1,26 @@
 ---
 keywords: 変数、プロファイル、パラメーター、組み込みプロファイル、メソッド、url変数、地域プロファイル、サードパーティプロファイル、mbox変数、campaign変数、顧客属性
-description: Adobe Targetのプロファイルスクリプトで役立つ様々なプロファイル、変数、パラメーターのリストを表示します。
-title: ' [!DNL Target] で使用されるプロファイル、変数、パラメーターはどれですか？'
+description: Adobe Targetのプロファイルスクリプトで役立つ様々なプロファイル、変数、パラメーターの一覧を表示します。
+title: ' [!DNL Target]で使用されるプロファイル、変数、パラメーターはどれですか？'
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/YMF4eXnu758kloK--c2mBzP-rwLBNRO2jLoV6s-P5JM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 67%
+source-wordcount: 699
+ht-degree: 59%
 
 ---
 
@@ -28,30 +41,30 @@ ht-degree: 67%
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | ユーザーエージェント |
-| user.browserType | ブラウザーのタイプ（safari、chrome など）を返します。 |
+| user.browserType | ブラウザーの種類（safari、chromeなど）を返します。 |
 | user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータからビルトインされます |
-| user.header （&#39;x-forwarded-for&#39;） | 訪問者がいるネットワーク接続の公開される IP アドレス。<br> これは、いくつかの方法で取得できます。例えば、[whatismyip.com](https://www.whatismyip.com/)。 IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。<br> メモ：user.header （&#39;x-cluster-client-ip&#39;）は非推奨（廃止予定）となりました。 |
+| user.header （&#39;x-forwarded-for&#39;） | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>例えば[whatismyip.com](https://www.whatismyip.com/)など、いくつかの方法で取得できます。 IP アドレスは、10.、192.168.、または172から始まるNAT アドレス（内部アドレス）ではありません。<br>注：user.header （&#39;x-cluster-client-ip&#39;）は非推奨（廃止予定）になりました。 |
 | user.header(&#39;host&#39;) | Web サイトのホスト名 |
 | user.header(&#39;cookie&#39;) | 訪問者の cookie データ |
 | user.header(&#39;user-agent&#39;) | 訪問者のブラウザーのユーザーエージェント |
 | user.header(&#39;accept-language&#39;) | 訪問者の言語 |
 | user.header(&#39;accept-encoding&#39;) | 訪問者の文字エンコード |
 | user.header(&#39;accept&#39;) | 訪問者の言語および文字エンコード |
-| user.header(&#39;connection&#39;) | サーバー接続。例：keep-live |
-| user.header(&#39;referrer&#39;) | 訪問者の現在のページの Web サイト URL。Internet Explorer では動作しません。 |
-| user.getLocal （&#39;param_name&#39;）; | `user.setLocal` を使用して設定した値を取得します。 |
-| user.setLocal （&#39;param_name&#39;,&#39;value&#39;） | プロファイルスクリプト内に、永続的なプロファイル値を作成します。 これらの値は、プロファイルスクリプトと同様に保持されますが、設定されたスクリプト内でのみアクセスできます。 |
+| user.header(&#39;connection&#39;) | サーバー接続。 例：keep-live |
+| user.header(&#39;referrer&#39;) | 訪問者の現在のページの Web サイト URL。 Internet Explorer では動作しません。 |
+| user.getLocal （&#39;param_name&#39;）; | `user.setLocal`を使用して設定した値を取得します。 |
+| user.setLocal （&#39;param_name&#39;,&#39;value&#39;） | プロファイルスクリプト内で永続プロファイル値を作成します。 これらの値はプロファイルスクリプトと同じように保持されますが、設定されたスクリプト内でのみアクセスできます。 |
 | user.get(&#39;param_name&#39;) |  |
-| user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、位置情報、訪問回数などの「システム」プロファイルも参照します。 |
+| user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。 位置情報や訪問回数などの「システム」プロファイルも参照します。 |
 | profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメーターを取得する正しい方法は、profile.get （&#39;param_name&#39;） メソッドです。 |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | profile.  接頭辞. |
-| profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
+| profile.browserTime | 訪問者のブラウザーのローカル時間。 システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | 訪問者デバイスはタブレットです。<P>**メモ**：このプロファイルは、非推奨（廃止予定）の従来のブラウザーであるiPad オーディエンスカテゴリに代わるものです。 詳しくは、[&#x200B; ブラウザー &#x200B;](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) を参照してください。 |
-| profile.mobile.isMobilePhone | 訪問者デバイスは携帯電話です。<P>**メモ**：このプロファイルは、非推奨（廃止予定）の従来のブラウザーであるiPhone オーディエンスカテゴリに代わるものです。 詳しくは、[&#x200B; ブラウザー &#x200B;](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) を参照してください。 |
-| parameter= | mbox に渡された追加の値を示す一般的な用語で、通常は名前と値のペアです。`profile.parameter` か `user.parameter` を使用しない限り、永続的ではありません。 |
+| profile.mobile.isTablet | 訪問者デバイスはタブレットです。<P>**メモ**：このプロファイルは、非推奨のレガシーブラウザーであるiPad オーディエンスカテゴリに置き換わります。 詳しくは、[&#x200B; ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts)を参照してください。 |
+| profile.mobile.isMobilePhone | 訪問者デバイスは携帯電話です。<P>**メモ**：このプロファイルは、非推奨のレガシーブラウザーであるiPhone オーディエンスカテゴリに置き換わります。 詳しくは、[&#x200B; ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts)を参照してください。 |
+| parameter= | mbox に渡された追加の値を示す一般的な用語で、通常は名前と値のペアです。 `profile.parameter` か `user.parameter` を使用しない限り、永続的ではありません。 |
 
 ## URL 変数 {#section_8F25958273164EBAA6DC659302993FD3}
 
@@ -85,13 +98,13 @@ ht-degree: 67%
 | mbox.param(&#39;param_name&#39;) |  |
 | リクエストごとに自動的に渡されるパラメーター：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |  |
 | 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |  |
-| mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。その後、この ID を使用して、プロファイル API や [&#x200B; 顧客属性 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja){target=_blank} 経由で情報を追加できます。 |
+| mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。 顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。 このIDを使用して、プロファイル APIと[顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja){target=_blank}を介して情報を追加できます。 |
 | mboxPageValue | mbox の呼び出しごとに、ページに値が割り当てられます。 |
-| mboxDebug | デバッグ情報にのみ使用されます。at.js が検索するページ URL にを追加しました。 |
-| mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所でどのように表示されるかをテストできます。<br>**注意：** mboxOverride パラメーターは、アクティビティをテストするときにのみ使用し、実稼動環境で使用しないでください。任意のmboxOverrideパラメーターを使用すると、Analytics for [Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する際にレポートの相違が生じる可能性があります。アクティビティをテスト中に [アクティビティQAモード](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |
+| mboxDebug | デバッグ情報にのみ使用されます。 at.jsが検索するページ URLに追加されました。 |
+| mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所で何かが見えるかどうかをテストできるようにします。<br>**注意：** mboxOverride パラメーターを使用する場合は、アクティビティのテスト中にのみ使用し、実稼動中には使用しないでください。 任意のmboxOverrideパラメーターを使用すると、Analytics for [Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する際にレポートの相違が生じる可能性があります。 アクティビティをテスト中に [アクティビティQAモード](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |
 
 ## 顧客属性 {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 顧客属性は、プロファイルスクリプトで参照でき、形式 `crs.get('<Datasource Name>.<Attribute name>')`　設定されています。
 
-この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンは、`${crs.datasourceName.attributeName}` の形式である必要があります。 `datasourceName` のスペースは、すべての API 呼び出しから削除する必要があります。
+この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。 トークンは次の形式である必要があります：`${crs.datasourceName.attributeName}`。 `datasourceName`内のスペースは、任意のAPI呼び出しから取り除く必要があります。

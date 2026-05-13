@@ -1,51 +1,57 @@
 ---
 keywords: 除外
-description: で除外を作成して、製品やコンテンツが訪問者  [!DNL Target Recommendations]  推奨されないようにする方法を説明します。
-title: 除外を [!UICONTROL Recommendations] アクティビティで使用する方法
+description: ' [!DNL Target Recommendations] で除外を作成して、製品またはコンテンツが訪問者に推奨されないようにする方法を説明します。'
+title: '[!UICONTROL Recommendations] アクティビティで除外を使用するにはどうすればよいですか？'
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
+TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: 511
 ht-degree: 14%
 
 ---
 
 # 除外
 
-[!DNL Adobe Target Recommendations] で除外を作成して、製品やコンテンツが訪問者に推奨されないようにします。 除外とは、訪問者に推奨すべきでない製品またはコンテンツのサブセットです。
+[!DNL Adobe Target Recommendations]に除外を作成して、製品またはコンテンツが訪問者に推奨されないようにします。 除外とは、訪問者に推奨すべきではない製品やコンテンツのサブセットのことです。
 
-除外は、アカウント全体で利用できます。 [!UICONTROL Recommendations] アクティビティを作成する際にエクスペリエンスごとに特定のコレクションを指定するコレクションとは異なり、除外はアカウント全体のすべてのアクティビティに適用されます。 アクティビティの作成時に除外グループを割り当てるオプションはありません。
+除外は、アカウント全体で使用できます。 [!UICONTROL Recommendations] アクティビティを作成する際に、エクスペリエンスごとに特定のコレクションを指定するコレクションとは異なり、除外はアカウント全体のすべてのアクティビティに適用されます。 アクティビティの作成中に除外グループを割り当てるオプションはありません。
 
-除外を使用する時間の例を次に示します。
+除外の使用例には、次のようなものがあります。
 
-* 生産中止品です。
-* 現在、秋冬カタログは、オンラインで公開する唯一のカタログとなっています。 サマーカタログの商品は購入できなくなりました。
-* 多くのページや画面で推奨するのに適さないアイテム（アダルトグッズ、NC-17 動画など）。
-* メタデータフィールドが不完全な製品（サムネール、価格、その他の重要なメタデータが欠落）
-* 推奨されるべきではない製品（SKU がシステム内に存在しているかもしれませんが、購入可能な項目ではありません。 または、QA チームが実際に何かを注文せずに購入をシミュレートするための偽の SKU である場合もあります（その他）。
+* 廃止された製品。
+* 秋と冬のカタログは、オンラインで表示する必要がある唯一のカタログです。 夏のカタログの商品は購入できなくなりました。
+* ほとんどのページやスクリーン（アダルト製品、NC-17映画など）で推奨するのが不適切な可能性があるアイテム。
+* 不完全なメタデータフィールド（サムネール、価格、その他の重要なメタデータが含まれていない）を持つ製品。
+* 推奨すべきでない商品（SKUがシステム内に存在し、購入可能な商品ではない可能性がある）。 あるいは、実際に何かを注文することなく購入をシミュレートすることは、QA チームにとって偽のSKUかもしれません）。
 
 >[!IMPORTANT]
 >
->除外ルールはすべての [&#x200B; 環境 &#x200B;](/help/main/administrating-target/environments.md) にグローバルに適用されます。
+>除外ルールは、すべての[環境](/help/main/administrating-target/environments.md)にグローバルに適用されます。
 >
->静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
+>静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。 詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
 ## 除外の作成
 
-1. **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** をクリックして、既存の除外のリストを表示します。
+1. **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;をクリックして、既存の除外のリストを表示します。
 
-   [!UICONTROL Exclusions] リスト表示の各除外について報告された「項目数」は、設定されたデフォルトの Recommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法については、[Adobe Target開発者ガイド  [!DNL Recommendations] の &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank} 計画と実装 ** を参照してください。
+   [!UICONTROL Exclusions] リストビューで各除外について報告された「項目の数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法について詳しくは、*Adobe Target開発者ガイド*&#x200B;の[計画と実装 [!DNL Recommendations]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank}を参照してください。
 
-1. （条件付き）除外を作成（または更新）し **[!UICONTROL Show Filters]** その環境の除外のコンテンツをプレビューするには、![&#x200B; のアイコン（](/help/main/assets/icons/Filter.svg) フィルターアイコンを表示 [）をクリックして、除外の作成 &#x200B;](/help/main/administrating-target/environments.md) または更新）時に **[!UICONTROL Environment]** ドロップダウンリストから目的の（環境）を選択します。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）除外を作成（または更新）する際に、**[!UICONTROL Show Filters]** アイコン（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックし、**[!UICONTROL Environment]** ドロップダウンリストから目的の[環境](/help/main/administrating-target/environments.md)を選択して、その環境の除外の内容をプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
 
-1. 除外 **[!UICONTROL Name]** を入力し、オプションで説明を入力します。
+1. 除外&#x200B;**[!UICONTROL Name]**&#x200B;を入力し、オプションの説明を入力します。
 
 1. ルールビルダーを使用して除外を作成します。
 
-   [!UICONTROL Rules] リストでパラメーターを選択し、演算子を選択してから、製品を識別する値を 1 つ以上入力します。 複数の値はコンマで区切ります。
+   [!UICONTROL Rules] リストでパラメーターを選択し、演算子を選択してから、1つ以上の値を入力して製品を識別します。 複数の値はコンマで区切ります。
 
 1. **[!UICONTROL Create]** をクリックします。
 
@@ -65,13 +71,13 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 除外の編集、コピー、削除
 
-リスト内の目的の除外の横にある「その他のアクション」アイコン ![&#x200B; 「その他のアクション」アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]）をクリックします。
+リスト内の目的の除外の横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、または[!UICONTROL Delete]）をクリックします。
 
-既存の除外をコピーして重複する除外を作成し、それを変更できます。 このオプションを使用すると、同様の除外を少ない労力で作成できます。
+既存の除外をコピーして重複した除外を作成し、変更することができます。 このオプションを使用すると、より少ない労力で同様の除外を作成できます。
 
-除外は、アカウント全体で利用できることに注意してください。 除外を削除する前に、次の点に注意してください。 削除した除外は復元できません。
+除外は、アカウント全体で使用できます。 除外を削除する前に、この注意事項を考慮してください。 削除された除外は復元できません。
 
-## トレーニングビデオ：Recommendations でのコレクションと除外の作成（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

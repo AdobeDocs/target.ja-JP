@@ -1,78 +1,89 @@
 ---
-keywords: analytics トラッキングサーバー；A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger；レポートソース；デベロッパーツール
-description: 旧バージョンの at.js を使用している場合に、Analytics for [!DNL Target]  （A4T）を使用するアクティビティ用に Analytics トラッキングサーバーを指定する方法を説明します。
-title: Analytics トラッキングサーバーの使用方法
+keywords: analytics トラッキングサーバー；A4T;Adobe Experience Cloud デバッガー；Adobe Experience Platform デバッガー；レポートソース；開発者ツール
+description: 古いバージョンのat.jsを使用している場合に、 [!DNL Target]  （A4T）用にAnalyticsを使用するアクティビティにAnalytics トラッキングサーバーを指定する方法について説明します。
+title: Analytics トラッキングサーバーの使用方法を教えてください。
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+TQID: https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: 675
 ht-degree: 15%
 
 ---
 
 # [!DNL Analytics] トラッキングサーバーの使用
 
-古いバージョンの at.js を使用している場合は、[!DNL Analytics] for [!DNL Adobe Analytics] （A4T）を使用するアクティビティの [!DNL Adobe Target] トラッキングサーバーを指定する必要があります。
+古いバージョンのat.jsを使用している場合は、[!DNL Adobe Target] （A4T）に[!DNL Adobe Analytics]を使用するアクティビティに[!DNL Analytics] トラッキングサーバーを指定する必要があります。
 
 >[!NOTE]
 >
->at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Tracking Server] のページの「[!UICONTROL Goals & Settings]」フィールドを空白にできます。
+>at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。 at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。 アクティビティの作成中、[!UICONTROL Goals & Settings] ページで[!UICONTROL Tracking Server] フィールドを空のままにできます。
 >
->[!DNL Target] チームは、両方の at.js 1.*x* と at.js 2 の両方について示しています。*x* を通じてクロスドメイントラッキングを使用している場合です。サポート対象のバージョンを使用するには、at.js のいずれかのメジャーバージョンの最新アップデートにアップグレードしてください。 詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
+>[!DNL Target] チームは、at.js 1.*x*&#x200B;とat.js 2.*x*&#x200B;の両方をサポートしています。 いずれかのメジャーバージョンのat.jsの最新のアップデートにアップグレードして、サポートされているバージョンを実行していることを確認します。 詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
 
-[!DNL Target] からのデータが [!DNL Analytics] の正しい場所に送信されるようにするために、A4T では、[!DNL Analytics] からの Modstats へのすべての呼び出しで [!DNL Target] トラッキングサーバーを送信する必要があります。 複数のトラッキングサーバーを使用する実装の場合は、[!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを決定します。
+[!DNL Target]からのデータが[!DNL Analytics]の正しい場所に確実に送信されるようにするには、A4Tでは、[!DNL Target]からのすべての呼び出しで[!DNL Analytics] トラッキングサーバーを送信する必要があります。 複数のトラッキングサーバーを使用する実装の場合は、[!DNL Adobe Experience Platform Debugger]またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを決定します。
 
-## [!DNL Analytics] を使用した [!DNL Adobe Experience Platform Debugger] トラッキングサーバーの取得
+## [!DNL Adobe Experience Platform Debugger]を使用して[!DNL Analytics] トラッキングサーバーを取得する
 
-アクティビティが配信されるページでデバッガーを表示して、正しいトラッキングサーバーを選択していることを確認してください。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
+デバッガーは、アクティビティが配信されるページで表示され、正しいトラッキングサーバーを選択していることを確認する必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。 デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
 
-1. アクティビティを作成するページから [!DNL Adobe Experience Platform Debugger] を開きます。
+1. アクティビティを作成しているページから、[!DNL Adobe Experience Platform Debugger]を開きます。
 
-   デバッガーをまだインストールしていない場合は、[Adobe Experience Platform Debugger overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ja) を参照してください。
+   デバッガーをインストールしていない場合は、[Adobe Experience Platform Debuggerの概要](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ja)を参照してください。
 
-1. 左側のナビゲーションメニューの「**[!UICONTROL Analytics]**」をクリックします。
+1. 左側のナビゲーションメニューで「**[!UICONTROL Analytics]**」をクリックします。
 
-   ![Screen_DebuggerTrackServ 画像 &#x200B;](assets/Screen_DebuggerTrackServ.png)
+   ![Screen_DebuggerTrackServ画像](assets/Screen_DebuggerTrackServ.png)
 
-   [!DNL Analytics] トラッキングサーバーは、デバッガーの [!UICONTROL Hostname] セクションにあります。
+   [!DNL Analytics] トラッキングサーバーは、デバッガーの[!UICONTROL Hostname] セクションにあります。
 
-   * **ファーストパーティトラッキングサーバー**：リクエストのホスト名が使用中のドメインと一致する場合、それはファーストパーティトラッキングサーバーです。 例えば、`adobe.com` を使用している場合、`adobe.com` はファーストパーティトラッキングサーバーです。
-   * **サードパーティトラッキングサーバー**：通常、サードパーティトラッキングサーバーは `[company].sc.omtrdc.net` です。会社は会社の名前ですが、常に `sc.omtrdc.net` で終わります。
-   * **CNAME 実装**:`sstats.adobe.com` は、https （セキュア）リクエスト用の CNAME ファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http （非セキュア）ページに対する CNAME ファーストパーティリクエストの例です。
+   * **ファーストパーティ追跡サーバー**：要求のホスト名が使用中のドメインと一致する場合、それはファーストパーティ追跡サーバーです。 例えば、`adobe.com`を使用している場合、`adobe.com`は1st パーティトラッキングサーバーです。
+   * **サードパーティ追跡サーバー**: サードパーティ追跡サーバーは通常`[company].sc.omtrdc.net`です。会社は会社名ですが、常に`sc.omtrdc.net`で終わります。
+   * **CNAME実装**: `sstats.adobe.com`は、https （セキュア）リクエストのCNAME ファーストパーティ追跡サーバーの例です。 `stats.adobe.com`は、http （非セキュア）ページに対するCNAME ファーストパーティリクエストの例です。
 
 1. フィールドの内容すべてをコピーします。
 
-1. アクティビティの **[!UICONTROL Reporting Settings]** 画面の「**[!UICONTROL Goal & Settings]**」セクションで、トラッキングサーバー情報を **[!UICONTROL Tracking Server]** フィールドに貼り付けます。
+1. アクティビティの&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;画面の&#x200B;**[!UICONTROL Reporting Settings]** セクションで、**[!UICONTROL Tracking Server]** フィールドにトラッキングサーバー情報を貼り付けます。
 
    >[!NOTE]
    >
-   >[!UICONTROL Analytics as the Reporting Source] フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Tracking Server]」を選択します。
+   >「[!UICONTROL Tracking Server]」フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Analytics as the Reporting Source]」を選択します。
 
-## ブラウザーの開発者ツールを使用して [!DNL Analytics] トラッキングサーバーを取得する
+## ブラウザーの開発者ツールを使用して[!DNL Analytics]追跡サーバーを取得します
 
-正しいトラッキングサーバーを確実に選択するために、アクティビティが配信されるページで開発者ツールを表示する必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
+開発者ツールは、アクティビティが配信されるページで表示され、適切なトラッキングサーバーを選択できることが確認されます。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。 デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
 
-1. アクティビティを作成するページから、ブラウザーのデベロッパーツールを開きます（Google Chromeで、右上隅にある 3 つの縦並びの省略記号（その他のツール/デベロッパーツール）をクリックします）。
+1. アクティビティを作成するページで、ブラウザーのデベロッパーツールを開きます（Google Chromeで、右上隅の3つの縦長の省略記号をクリックして、その他のツール/デベロッパーツール）。
 
-   ![Chrome デベロッパーツール &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Chrome開発者向けツール &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. 「**[!UICONTROL Network]**」タブをクリックします。
 
-1. `/ss,` リクエストを表示する [!DNL Analytics] をフィルタリングします。
+1. `/ss,`にフィルターを適用して、[!DNL Analytics]要求を表示します。
 
-   ![/ss 検索を使用したChrome デベロッパーツール &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
+   ![Chrome開発者向けツールと/ss検索](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
-   トラッキングサーバーはリクエストのホスト名です。
+   トラッキングサーバーは、リクエストのホスト名です。
 
-   * **ファーストパーティトラッキングサーバー**：リクエストのホスト名が使用中のドメインと一致する場合、それはファーストパーティトラッキングサーバーです。 例えば、`adobe.com` を使用している場合、`adobe.com` はファーストパーティトラッキングサーバーです。
-   * **サードパーティトラッキングサーバー**：通常、サードパーティトラッキングサーバーは `[company].sc.omtrdc.net` です。会社は会社の名前ですが、常に `sc.omtrdc.net` で終わります。
-   * **CNAME 実装**:`sstats.adobe.com` は、https （セキュア）リクエスト用の CNAME ファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http （非セキュア）ページに対する CNAME ファーストパーティリクエストの例です。
+   * **ファーストパーティ追跡サーバー**：要求のホスト名が使用中のドメインと一致する場合、それはファーストパーティ追跡サーバーです。 例えば、`adobe.com`を使用している場合、`adobe.com`は1st パーティトラッキングサーバーです。
+   * **サードパーティ追跡サーバー**: サードパーティ追跡サーバーは通常`[company].sc.omtrdc.net`です。会社は会社名ですが、常に`sc.omtrdc.net`で終わります。
+   * **CNAME実装**: `sstats.adobe.com`は、https （セキュア）リクエストのCNAME ファーストパーティ追跡サーバーの例です。 `stats.adobe.com`は、http （非セキュア）ページに対するCNAME ファーストパーティリクエストの例です。
 
 1. フィールドの内容すべてをコピーします。
 
-1. アクティビティの **[!UICONTROL Reporting Settings]** 画面の「**[!UICONTROL Goal & Settings]**」セクションで、トラッキングサーバー情報を **[!UICONTROL Tracking Server]** フィールドに貼り付けます。
+1. アクティビティの&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;画面の&#x200B;**[!UICONTROL Reporting Settings]** セクションで、**[!UICONTROL Tracking Server]** フィールドにトラッキングサーバー情報を貼り付けます。
 
    >[!NOTE]
    >
-   >[!UICONTROL Analytics as the Reporting Source] フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Tracking Server]」を選択します。
+   >「[!UICONTROL Tracking Server]」フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Analytics as the Reporting Source]」を選択します。

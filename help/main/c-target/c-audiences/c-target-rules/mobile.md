@@ -1,48 +1,59 @@
 ---
-keywords: ターゲット設定;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
-description: でオーディエンスを作成してモバイルデバイス  [!DNL Adobe Target]  ターゲットにする方法を説明します。
-title: モバイルオプションに基づいて訪問者をターゲットにできますか？
+keywords: ターゲティング;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
+description: ターゲットモバイルデバイスに [!DNL Adobe Target] でオーディエンスを作成する方法について説明します。
+title: モバイルオプションに基づいて訪問者をターゲティングできますか？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 35%
+source-wordcount: 692
+ht-degree: 38%
 
 ---
 
 # モバイル
 
-モバイルデバイス、デバイスのタイプ、デバイスのベンダー、画面の寸法などのパラメーターに基づいてモバイルデバイスをターゲティングするた [!DNL Adobe Target] に、オーディエンスを作成します。
+モバイルデバイス、デバイスの種類、デバイスベンダー、画面サイズなどのパラメーターにもとづいて、ターゲットモバイルデバイスに[!DNL Adobe Target]でオーディエンスを作成します。
 
-例えば、電話を使用してページを訪問したユーザーには、コンピューターを使用して訪問したユーザーとは異なるコンテンツを表示する場合があります。 この場合は、[!UICONTROL Mobile] オーディエンスを選択してから、「**[!UICONTROL Is Mobile Phone]**」オプションを選択します。 その後、電話の種類、画面のサイズ（ピクセル単位）など、重要な特定の詳細を追加できます。
+例えば、PCを使用して自社ページにアクセスしたオーディエンスとは異なるコンテンツを表示したい場合があります。 その場合、[!UICONTROL Mobile] オーディエンスを選択してから、**[!UICONTROL Is Mobile Phone]** オプションを選択できます。 次に、電話の種類、画面のサイズ（ピクセル単位）など、重要な特定の詳細を追加できます。
 
-モバイルターゲットは、DotMobi 社のサービスである [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) から提供されます。DeviceAtlas は、メーカーやネットワーク通信業者を含む非常に多くのソースから収集したデータに基づいて構築された、モバイルデバイスの包括的なデータベースです。このデータには、大規模で正確なモバイルデバイスデータベースを構築するための検証、相互参照、妥当性確認が実施されます。
+モバイルターゲットは、DotMobi 社のサービスである [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) から提供されます。 DeviceAtlas は、メーカーやネットワーク通信業者を含む非常に多くのソースから収集したデータに基づいて構築された、モバイルデバイスの包括的なデータベースです。 このデータには、大規模で正確なモバイルデバイスデータベースを構築するための検証、相互参照、妥当性確認が実施されます。
 
-デバイス検出は、ユーザーエージェント文字列を分析することで実行されます。Apple などの一部のデバイス製造業者は、UA に十分な情報を提供しないことで、この機能を無効にしています。
+デバイス検出は、ユーザーエージェント文字列を分析することで実行されます。 Apple などの一部のデバイス製造業者は、UA に十分な情報を提供しないことで、この機能を無効にしています。
 
-例えば、Apple デバイスは、デバイスモデル専用のトークンを UA で共有しません。その結果、単純なキーワードベースの手法では、iPhone モデル（iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max など）を検出できません。
+例えば、Apple デバイスは、デバイスモデル専用のトークンを UA で共有しません。 その結果、iPhone モデル（iPhone 12 Pro、iPhone 12、iPhone 11 Pro Maxなど）を簡単なキーワードベースの方法で検出できなくなります。
 
-この問題を解決するために、[!DNL Target] では、iPhone やその他のApple デバイスを次のパラメーターを使用して正確に検出するための追加データを収集します。
+この問題を解決するために、[!DNL Target]は次のパラメーターを使用して、iPhoneやその他のApple デバイスを正確に検出するための追加データを収集します。
 
 | パラメーター | タイプ | 説明 |
 |--- |--- |--- |
-| devicePixelRatio | 文字列 | ブラウザー上の物理ピクセルとデバイスに依存しないピクセル（dip）の比率。 例えば、「1.5」や「2」です |
-| screenOrientation | 文字列 | デバイスとブラウザーの JavaScript エンジンは、デバイスオリエンテーションに対応します。横または縦にすることができます。 |
+| devicePixelRatio | 文字列 | ブラウザー上の物理的なピクセルとデバイスに依存しないピクセル（dips）の比率。 例えば、「1.5」や「2」などです |
+| screenOrientation | 文字列 | デバイスとブラウザーの JavaScript エンジンは、デバイスオリエンテーションに対応します。 横または縦にすることができます。 |
 | webGLRenderer | 文字列 | グラフィックドライバーのブラウザーレンダラーです。 |
 
 >[!NOTE]
 >
->Mobile SDKを使用しているお客様は、この機能を適用するために何もする必要はありません。 at.jsを使用する顧客は、[at.js バージョン 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} （以降）にアップグレードする必要があります。
+>Mobile SDKをご利用のお客様は、この機能を適用するために何もする必要はありません。 at.jsを使用する顧客は、[at.js バージョン 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} （以降）にアップグレードする必要があります。
 
-複数のモバイルデバイスプロパティを選択できます。複数の選択項目は、OR 演算子で結合されます。
+複数のモバイルデバイスプロパティを選択できます。 複数の選択範囲は、OR演算子で結合されます。
 
 （at.js または Mobile SDK を使用していない）カスタム統合を使用しているユーザーは、これらのパラメーターを手動で収集して mbox パラメーターとして渡すことができます。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]**/**[!UICONTROL Create Audience]** をクリックします。
-1. オーディエンスに名前を付け、オプションで説明を追加します。
-1. **[!UICONTROL Mobile]** をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
-1. 「**[!UICONTROL Select]**」をクリックして、次のいずれかのオプションを選択します。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. オーディエンスに名前を付け、オプションの説明を追加します。
+1. **[!UICONTROL Mobile]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
+1. 「**[!UICONTROL Select]**」をクリックし、次のいずれかのオプションを選択します。
 
    * デバイスのマーケティング名
    * デバイスモデル
@@ -58,26 +69,26 @@ ht-degree: 35%
    >
    >[地域設定](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)を使用してモバイルデバイスの通信事業者にターゲット設定できます。
 
-1. （任意）オーディエンスの追加ルールを設定します。
+1. （オプション）オーディエンスの追加ルールを設定します。
 1. **[!UICONTROL Done]** をクリックします。
 
-次の図は、Googleが製造するモバイルデバイスを使用して、訪問者をターゲティングするオーディエンスを示しています。
+次の図は、Googleで製造されたモバイルデバイスを使用する訪問者をターゲットとするオーディエンスを示しています。
 
 ![モバイルデバイスをターゲット設定](assets/target_mobile.png)
 
 ## 注意点
 
-モバイルデバイスをターゲティングする際は、次の情報を考慮してください。
+モバイルデバイスをターゲティングする場合は、次の情報を考慮してください。
 
-### iOS 12.2 以降を実行するデバイスのターゲティング
+### IOS 12.2以降を実行しているデバイスをターゲットにする
 
-iOS 12.2 で導入された新しい変更により、[!UICONTROL Device Marketing Name] と [!UICONTROL Device Model] で定義され、iPhone モデルを指定するルールを含むオーディエンスの作成に影響が及びます。 iOS 12.2 （[!DNL Target] 降）がインストールされた iPhone を使用しているユーザーをターゲットに設定できなくなりました。 ただし、これらのユーザーがiOS 12.2 （またはそれ以降）を持っていない場合、iPhone モデルのターゲット設定は引き続き正しく機能します。
+IOS 12.2で導入された新しい変更により、iPhone モデルを指定する[!UICONTROL Device Marketing Name]および[!UICONTROL Device Model]によって定義されたルールを使用してオーディエンスを作成することが影響を受けます。 [!DNL Target]は、iOS 12.2以降がインストールされたiPhoneを持つユーザーをターゲットにできなくなりました。 ただし、これらのユーザーがiOS 12.2 （またはそれ以降）を持っていない場合、iPhone モデルのターゲティングは引き続き正しく機能します。
 
-iOS 12.2 （以降）のアップデートは、iOS 12.2 へのアップグレードをサポートしていないので、次のモデルの ID には影響しません。これらのモデル：iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/Retina ディスプレイ、iPad Retina （第 4 世代）、iPod Touch 4、iPod Touch 5
+IOS 12.2 （以降）のアップデートは、以下のモデルの識別には影響しません。これらのモデルは、iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina display、iPad Retina （第4世代）、iPod Touch 4、およびiPod Touch 5へのアップグレードをサポートしていないためです。
 
-### Safari 14.0.2 以降を実行するデバイスのターゲティング
+### Safari 14.0.2以降を実行しているデバイスをターゲットにする
 
-macOSで Safari バージョン 14.0.2 （またはそれ以降）が稼働しているデバイスをモバイルルールを使用してターゲティングする場合、Appleのユーザーエージェントと DeviceAtlas に関する既知の問題が原因で、[!DNL Target] ではMacおよびiPad デバイス上の Safari を誤って識別します。 この問題は今後対処される予定です。
+MacOSでSafari バージョン 14.0.2 （またはそれ以降）を実行しているデバイスにモバイルルールを使用する場合、AppleのユーザーエージェントとDeviceAtlasに関する既知の問題により、[!DNL Target]はMacおよびiPad デバイスでSafariを誤って識別します。 この問題は将来対処されるだろう。
 
 ## トレーニングビデオ: オーディエンスの作成
 
