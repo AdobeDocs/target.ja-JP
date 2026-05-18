@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
+source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 83%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 83%
       + [収益向上の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7 の設定](administrating-target/scene7-settings.md)
    + [実装](/help/main/administrating-target/implementation.md)
+   + {hide-from-toc}[&#x200B; コンテンツの事前非表示](administrating-target/content-pre-hiding.md)
    + [ホスト](administrating-target/hosts.md)
    + [環境](/help/main/administrating-target/environments.md)
    + [レスポンストークン](administrating-target/response-tokens.md)
