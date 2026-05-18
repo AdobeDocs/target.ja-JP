@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ ht-degree: 1%
 | **アクティビティのインサイト** | 「私の「サマーセールバナー」テストのインサイトを得てください。パフォーマンスはどのような感じで、異常はありますか？」 |
 | **オーディエンス管理** | 「モバイルユーザーをターゲットとしているすべてのオーディエンスをリストアップし、そのオーディエンスが関連するアクティビティを表示します。」 |
 | **QAとプレビュー** | 「アクティビティ 12345のQA プレビューURLを生成して、アクティブ化する前にすべてのバリエーションを確認できるようにします。」 |
-| **推奨事項のレビュー** | 「このアカウントで設定されたすべてのRecommendations基準を一覧表示し、使用中のアルゴリズムタイプを要約します。」 |
-| **実装監査** | 「どのバージョンのat.jsが設定され、現在アクティブな応答トークンは何ですか？」 |
-| **監査の変更** | 「過去30日間に行われたアクティビティの変更と98765の作成者をすべて表示します。」 |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
+| **実装監査** | 「at.jsのどのバージョンが設定され、現在アクティブな応答トークンは何ですか？」 |
+| **監査を変更** | 「過去30日間に行われたアクティビティの変更と、98765の変更内容をすべて表示します。」 |
 
 ## ユースケースのチュートリアル {#mcp-use-case-walkthroughs}
 
