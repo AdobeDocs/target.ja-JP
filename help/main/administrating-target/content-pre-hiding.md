@@ -6,9 +6,9 @@ feature: Administration & Configuration
 role: Admin
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Save]** をクリックします。 これにより、ちらつき管理設定がインスタンスに適用されます。
 
-1. 有効になったら、**[!UICONTROL Download]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。
+1. 有効になったら、**[!UICONTROL Download]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。 実装の手順について詳しくは、「[SDKのコンテンツの事前非表示](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)」を参照してください。
 
    ![](assets/content-pre-hiding-2.png)
 
