@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 630
-ht-degree: 43%
+source-wordcount: 504
+ht-degree: 53%
 
 ---
 
@@ -31,57 +31,33 @@ ht-degree: 43%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
+## [!DNL Target Standard/Premium] 26.5.2 （2026年5月14日）
 
-## 最新アップデート - 2026年5月12日（PT）
+**管理**
+
++++詳細を見る
+
+* **許可されたURLの正規表現の検証。** 適切な検証を行うことなく、無効な正規表現を&#x200B;**[!UICONTROL Allowed URLs]** フィールドに入力できる問題を修正しました。 （TGT-55095）
+
++++
+
+**オーディエンス**
+
++++詳細を見る
+
+* [!UICONTROL Edit Audience] ダイアログの&#x200B;**ボタン。** **[!UICONTROL Edit Audience]** ダイアログ内のボタンが正しくレンダリングされなくなった問題を修正しました。 （TGT-54638）
+
++++
 
 **[!DNL Adobe Target]MCP サーバー（パブリック Beta）**
+
++++詳細を見る
 
 [!DNL Adobe Target]は、MCP互換アプリケーション内で実験、パーソナライゼーション、レポート操作を直接表示するMCP （Model Context Protocol） サーバーを提供するようになりました。 この統合により、マーケティング部門と技術部門のペルソナは、A/B テストの検査、パフォーマンスレポートの分析、オーディエンスとオファーの調査を行うことができます。これらはすべて、複数のUI画面を移動したり、REST APIに対してクエリを記述したりするのではなく、自然言語のプロンプトを使用します。 [!DNL Adobe Target]この機能は現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;で利用できます。
 
 この機能は、パブリック Betaのすべてのユーザーが利用できます。
 
 詳しくは、[[!DNL Adobe Target] MCP サーバー](../c-integrating-target-with-mac/mcp/target-mcp.md)を参照してください。
-
-
-## [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
-
-**統合**
-
-+++詳細を見る
-
-* Experimentation Acceleratorの&#x200B;**[!DNL Adobe Target]管理。** Experimentation Accelerator サンドボックスに[!DNL Target]個のワークスペースを割り当てるためのサポートが追加され、Experimentation Acceleratorの[!DNL Adobe Target]の実験を1か所で確認できるようになりました。 [詳細情報](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
-
-**アクティビティ**
-
-+++詳細を見る
-
-* テーブルとダウンロードの同期が&#x200B;**[!UICONTROL Graph View]から失われました。** **[!UICONTROL Table View]**&#x200B;とダウンロードしたレポートに正しい値が表示されていても、一部の日付範囲の&#x200B;**[!UICONTROL Graph View]**&#x200B;でアクティビティレポートに欠落またはゼロの指標が表示される場合がある問題を修正しました。 （TGT-54998）
-
-+++
-
-**[!UICONTROL Audiences]**
-
-+++詳細を見る
-
-* **オーディエンス使用リストが完全にレンダリングされていません。** オーディエンスの詳細の&#x200B;**[!UICONTROL Usage]** セクションで、追加のアクティビティがそのオーディエンスに関連付けられている場合でも、マッピングされたアクティビティのサブセットのみを表示できる問題を修正しました。 （TGT-55094）
-
-+++
-
-**[!UICONTROL Administration]**
-
-+++詳細を見る
-
-* **最後のオクテット IPの難読化に関する確認がより明確になります。** **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;で&#x200B;**[!UICONTROL Obfuscate Visitor IP addresses]**&#x200B;を&#x200B;**[!UICONTROL Last octet]**&#x200B;に変更すると、確認ダイアログに、[!DNL Target]が訪問者IP アドレスの最後のオクテットを非表示にすることが説明されるようになりました。 （TGT-44821）
-
-+++
-
-**[!UICONTROL Visual Experience Composer]（VEC）**
-
-+++詳細を見る
-
-* **拡張Experience Composer （EEC）を使用した空白または不完全なページ。** **[!UICONTROL Enhanced Experience Composer]**&#x200B;が有効になっているときに[!UICONTROL Visual Experience Composer]がエディターでサイトを読み込めない問題を修正しました。 （TGT-54576）
 
 +++
 
