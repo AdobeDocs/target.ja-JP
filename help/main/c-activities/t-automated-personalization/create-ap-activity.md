@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1873
-ht-degree: 25%
+source-wordcount: 1856
+ht-degree: 24%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 25%
 [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Adobe Target]で[!UICONTROL Automated Personalization] （AP） アクティビティを作成します。
 
 [!DNL Target]の[!UICONTROL Automated Personalization] （AP） アクティビティワークフローは、他のアクティビティタイプのワークフローとは異なります。
+
+この手順は、[!UICONTROL Visual Experience Composer]の3段階のガイド付きワークフローに従います。
+
+1. [ステップ 1：エクスペリエンスの構築](#build-experiences)
+1. [手順2：ターゲティングの設定](#set-targeting)
+1. [手順3：目標と設定の設定](#configure-goals-and-settings)
+
+## ステップ 1：エクスペリエンスの構築 {#build-experiences}
+
+[!UICONTROL Automated Personalization]がパーソナライズできるコンテンツのバリエーションのプールを定義します。 顧客体験やオファーが豊かで明確であればあるほど、アルゴリズムが各訪問者に適切なコンテンツを提供できるようになります。
 
 1. [!DNL Target] [!UICONTROL Activities] リストから、**[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**&#x200B;をクリックします。
 
@@ -86,17 +96,11 @@ ht-degree: 25%
 
 1. **[!UICONTROL Manage Content]** アイコン（![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
 
-   ダイアログボックスが表示され、画面上部に[!UICONTROL Experiences]と[!UICONTROL Offers]の2つのオプションが表示されます。
+   ダイアログボックスが表示され、[!UICONTROL Experiences]と[!UICONTROL Offers]の2つのタブが表示されます。 「[!UICONTROL Experiences]」タブには、各コンテンツとその割り当てられた場所が一覧表示されます。 1つ以上のエクスペリエンスを除外するには、対応するチェックボックスを選択し、[!UICONTROL Exclude] アイコンをクリックします。 詳細なオプションについては、[除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)を参照してください。
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >AP アクティビティでは最大30,000個のエクスペリエンスを作成できますが、5,000個未満のエクスペリエンスを使用すると、このアクティビティのパフォーマンスは最も高くなります。 アクティビティで[!UICONTROL Disalow Duplicates] オプションが有効になっている場合でも、同じ制限が適用されます。
-
-   [!UICONTROL Experiences] リストには、アクティビティ用に選択された各コンテンツと、そのアクティビティが割り当てられている場所が表示されます。
-
-   特定のエクスペリエンスを除外するには、目的のエクスペリエンスの横にあるチェックボックスを選択し、[!UICONTROL Exclude] アイコンをクリックします。
-
-   関連するエクスペリエンスのチェックボックスを選択し、[!UICONTROL Exclude] アイコンをクリックすることで、エクスペリエンスを一括除外または含めることができます。
+   >**ベストプラクティス：**&#x200B;最適なパフォーマンスを得るには、1か所につき4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6か所に制限してください。 エクスペリエンスの総数は、場所とオファーのデカルトの組み合わせから増加します。 設定を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。 最良の結果を得るには、合計を5,000未満に抑えます。ハード制限は30,000です（[!UICONTROL Disallow Duplicates] オプションが有効になっている場合も同じ制限が適用されます）。
 
 1. （条件付き） **[!UICONTROL Offers]**&#x200B;をクリックしてコンテンツを選択し、レポートグループに割り当てるか、特定の訪問者にターゲティング付きの特定のオファーのみを表示できるようにします。
 
@@ -116,35 +120,21 @@ ht-degree: 25%
 
 1. アクティビティのコンテンツの設定が完了したら、**[!UICONTROL Done]**&#x200B;をクリックします。
 
+## 手順2：ターゲティングの設定 {#set-targeting}
+
+アクティビティに参加する訪問者と、公開されるトラフィックの量を決定します。 これらをコントロール グループと組み合わせて、[!DNL Target]がパーソナライゼーションの成果を測定できるようにします。
+
 1. [!UICONTROL Visual Experience Composer]の上部にある「**[!UICONTROL Targeting]**」をクリックして、3段階のガイド付きワークフローの次のステップに移動します。
 
    他の[!DNL Target] アクティビティタイプを使用している場合、**ターゲティング**&#x200B;手順は見慣れています。 ここで、オーディエンスを選択し、各エクスペリエンスを表示する訪問者の割合を指定できます。
 
-   フロー図が開きます。
+1. フロー図では、オーディエンスとそのトラフィック率の割り当て、トラフィック配分方法の選択、アクティビティの各エクスペリエンスのトラフィック配分の指定の手順を順を追って説明します。
 
    ![AP テストのターゲット設定ステップ &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-   フロー図では、オーディエンスとそのトラフィック率の割り当て、トラフィック配分方法の選択、アクティビティの各エクスペリエンスのトラフィック配分の指定の手順を順を追って説明します。
+1. （条件付き）アクティビティの&#x200B;**[!UICONTROL All Visitors]** コントロールをクリックして[別のオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、その訪問者の割合を設定します。
 
-1. （条件付き）アクティビティの別のオーディエンスを選択するには、**[!UICONTROL All Visitors]** コントロールをクリックします。
-
-   [!UICONTROL All Visitors] オーディエンスがデフォルトとして設定されています。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。
-
-   右側のフレームが表示され、オーディエンスを追加または削除し、アクティビティの訪問者パーセンテージを割り当てることができます。
-
-   1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL Replace]アイコン** （![置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
-   1. [!UICONTROL Add Audience] ダイアログボックスで、[目的のオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL Assign Audience]**&#x200B;をクリックします。
-
-      「**オーディエンスを結合**」をクリックして、[複数のオーディエンスを結合するオーディエンスを作成できます](/help/main/c-target/combining-multiple-audiences.md)。
-
-      まだ[!UICONTROL Audience Library]にない新しいオーディエンスを作成する必要がある場合は、**オーディエンスの作成**&#x200B;をクリックします。 [create-audience ワークフロー](/help/main/c-target/c-audiences/audiences.md)中に、次のオプションから選択できます。
-
-      * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]に保存されたオンデマンドオーディエンスを作成し、他のアクティビティで再利用できます。
-      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]に保存されず、現在のアクティビティでのみ使用できる[&#x200B; アクティビティ固有のオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md)を作成します。
-
-   1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティに参加する適格な訪問者の割合を選択します。
-
-   例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
+   [!UICONTROL All Visitors] オーディエンスがデフォルトとして設定されています。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。例えば、エントリを全訪問者の50%または「カリフォルニア人」オーディエンスの45%に制限することができます。
 
 1. **[!UICONTROL Traffic Allocation]** コントロールをクリックして、次のオプションから選択します。
 
@@ -163,6 +153,10 @@ ht-degree: 25%
    >[!NOTE]
    >
    >[!UICONTROL Automated Personalization]のアクティビティでは、エントリ条件（URL ターゲティング、テンプレートルール、オーディエンスターゲット）がリクエストごとに評価されます。 以前のバージョンでは、エントリ条件はセッションごとに 1 度評価されていました。
+
+## 手順3：目標と設定の設定 {#configure-goals-and-settings}
+
+[!DNL Target]の成功例を説明してください。 選択した最適化の目標は、パーソナライゼーションアルゴリズムが対象とする指標です。そのため、このアクティビティにとって最も重要な結果を選択してください。
 
 1. **[!UICONTROL Next]**&#x200B;をクリックして&#x200B;**[!UICONTROL Goals & Settings]** ページを表示します。
 1. 次の設定でアクティビティを設定し、**[!UICONTROL Save & Close]**&#x200B;をクリックします。
