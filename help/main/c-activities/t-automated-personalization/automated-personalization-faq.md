@@ -6,20 +6,12 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1967
+source-wordcount: 2032
 ht-degree: 26%
 
 ---
@@ -32,7 +24,7 @@ ht-degree: 26%
 
 +++詳細を見る
 
-[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP）または[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティの作成中に、コントロールとして使用するエクスペリエンスを選択できます。
+[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP）または[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティの作成中に、コントロールとして使用するエクスペリエンスを選択できます。
 
 この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィック全体を特定のエクスペリエンスにルーティングできます。 その後、そのエクスペリエンスへのコントロールトラフィックに対するパーソナライズされたトラフィックのパフォーマンスレポートを評価できます。
 
@@ -52,7 +44,8 @@ ht-degree: 26%
 
 +++詳細を見る
 
-* トラフィックの少ないページをパーソナライズする場合や、パーソナライズするエクスペリエンスに構造的な変更を加える場合は、[!UICONTROL Automated Personalization]の代わりに[!UICONTROL Auto-Target] アクティビティを使用することを検討してください。 [自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
+* [!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]のアクティビティを、1か所あたり4 ～ 6件のオファーを含む4 ～ 6か所に制限します。 設定を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。
+* トラフィックの少ないページをパーソナライズする場合や、パーソナライズするエクスペリエンスに構造的な変更を加える場合は、[!UICONTROL Automated Personalization]の代わりに[!UICONTROL Auto-Target] アクティビティを使用することを検討してください。 [自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
 * [!UICONTROL Automated Personalization] アクティビティで使用する予定のオファーと場所の間で[!UICONTROL A/B Test] アクティビティを完了して、場所と場所が最適化目標に影響を与えることを確認することを検討してください。 [!UICONTROL A/B Test] アクティビティが有意な違いを示さない場合、[!UICONTROL Automated Personalization]も上昇率を生成できない可能性があります。
 
    * A/B...N テストで、エクスペリエンス間に統計的に有意な差が見られない場合、次の状況のうち1つ以上が原因であると考えられます。
@@ -92,6 +85,8 @@ ht-degree: 26%
 
 アクティビティで[!UICONTROL Disalow Duplicates] オプションが有効になっている場合でも、同じ制限が適用されます。
 
+最適なパフォーマンスを得るには、1か所あたり4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6件の場所に制限してください。 場所とオファーの組み合わせからエクスペリエンスの合計数が増加するため、構成を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。
+
 [!DNL Target]のアクティビティやその他の要素に影響を与える文字制限およびその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について詳しくは、[制限](/help/main/r-troubleshooting-target/target-limits.md)を参照してください。
 
 +++
@@ -125,7 +120,7 @@ ht-degree: 26%
 
 +++詳細を見る
 
-[!UICONTROL Automated Personalization]は、各モデル用に構築された最新の[&#x200B; ランダムフォレスト &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) モデルに基づいて、最も予測された成功指標を持つエクスペリエンスに訪問者をルーティングします。 この推定値は、訪問者の特定の情報と訪問のコンテキストに基づいて算出されます。
+[!UICONTROL Automated Personalization]は、各モデル用に構築された最新の[ ランダムフォレスト ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) モデルに基づいて、最も予測された成功指標を持つエクスペリエンスに訪問者をルーティングします。 この推定値は、訪問者の特定の情報と訪問のコンテキストに基づいて算出されます。
 
 例えば、[!UICONTROL Automated Personalization] アクティビティに、それぞれ2つのオファーを含む2つの場所があるとします。 1 つ目の場所では、特定の訪問者に対するオファー A の推定コンバージョン率が 3％、オファー B の推定コンバージョン率が 1％です。 2 つ目の場所では、同一の訪問者に対するオファー C の推定コンバージョン率が 2％、オファー D の推定コンバージョン率が 5％です。 したがって、[!UICONTROL Automated Personalization]は、この訪問者にオファーAとオファーDのエクスペリエンスを提供します。
 
