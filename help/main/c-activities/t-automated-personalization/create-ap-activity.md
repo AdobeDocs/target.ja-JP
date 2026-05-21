@@ -6,20 +6,12 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: 1854
 ht-degree: 24%
 
 ---
@@ -50,11 +42,11 @@ ht-degree: 24%
    >
    >VECと[!UICONTROL Form-Based Experience Composer]に加えて、[!DNL Target]は[!UICONTROL Single Page Application VEC]を提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
-   >VECに関するトラブルシューティング情報については、[Visual Experience Composerのトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
+   >VECに関するトラブルシューティング情報については、[Visual Experience Composerのトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-1. （条件付き） [&#x200B; ワークスペースを選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （条件付き） [ ワークスペースを選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. **[!UICONTROL Enter Activity URL]** ボックスで、[&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定します。
+1. **[!UICONTROL Enter Activity URL]** ボックスで、[ アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定します。
 
    アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。 必要に応じて、デフォルトから別のURLに変更できます。
 
@@ -64,7 +56,7 @@ ht-degree: 24%
 
    指定されたURLを持つページがVECで開きます。
 
-1. アクティビティに名前を付けるには、「[!UICONTROL Untitled Activity]」の横にある&#x200B;**[!UICONTROL Edit]** アイコン（![編集アイコン &#x200B;](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL Save]**&#x200B;をクリックします。
+1. アクティビティに名前を付けるには、「[!UICONTROL Untitled Activity]」の横にある&#x200B;**[!UICONTROL Edit]** アイコン（![編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL Save]**&#x200B;をクリックします。
 
    アクティビティ名の先頭に次の文字を使用することはできません：
 
@@ -94,13 +86,13 @@ ht-degree: 24%
 
    アセットマネージャーから一度に複数の画像を選択できます。 これにより、アクティビティ用に設定された各画像を含むページをすばやく表示できます。 また、オファー内のテキスト要素を容易に編集することもできます。 要素を編集すると、その要素が変更されたことを示すバーが要素上に表示されます。
 
-1. **[!UICONTROL Manage Content]** アイコン（![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
+1. **[!UICONTROL Manage Content]** アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
 
    ダイアログボックスが表示され、[!UICONTROL Experiences]と[!UICONTROL Offers]の2つのタブが表示されます。 「[!UICONTROL Experiences]」タブには、各コンテンツとその割り当てられた場所が一覧表示されます。 1つ以上のエクスペリエンスを除外するには、対応するチェックボックスを選択し、[!UICONTROL Exclude] アイコンをクリックします。 詳細なオプションについては、[除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)を参照してください。
 
    >[!IMPORTANT]
    >
-   >**ベストプラクティス：**&#x200B;最適なパフォーマンスを得るには、1か所につき4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6か所に制限してください。 エクスペリエンスの総数は、場所とオファーのデカルトの組み合わせから増加します。 設定を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。 最良の結果を得るには、合計を5,000未満に抑えます。ハード制限は30,000です（[!UICONTROL Disallow Duplicates] オプションが有効になっている場合も同じ制限が適用されます）。
+   >最適なパフォーマンスを得るには、1か所あたり4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6件の場所に制限してください。 エクスペリエンスの総数は、場所とオファーのデカルトの組み合わせから増加します。 設定を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。 最良の結果を得るには、合計を5,000未満に抑えます。ハード制限は30,000です（[!UICONTROL Disallow Duplicates] オプションが有効になっている場合も同じ制限が適用されます）。
 
 1. （条件付き） **[!UICONTROL Offers]**&#x200B;をクリックしてコンテンツを選択し、レポートグループに割り当てるか、特定の訪問者にターゲティング付きの特定のオファーのみを表示できるようにします。
 
@@ -111,7 +103,7 @@ ht-degree: 24%
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
@@ -130,21 +122,21 @@ ht-degree: 24%
 
 1. フロー図では、オーディエンスとそのトラフィック率の割り当て、トラフィック配分方法の選択、アクティビティの各エクスペリエンスのトラフィック配分の指定の手順を順を追って説明します。
 
-   ![AP テストのターゲット設定ステップ &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+   ![AP テストのターゲット設定ステップ ](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-1. （条件付き）アクティビティの&#x200B;**[!UICONTROL All Visitors]** コントロールをクリックして[別のオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、その訪問者の割合を設定します。
+1. （条件付き）アクティビティの&#x200B;**[!UICONTROL All Visitors]** コントロールをクリックして[別のオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、その訪問者の割合を設定します。
 
    [!UICONTROL All Visitors] オーディエンスがデフォルトとして設定されています。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。例えば、エントリを全訪問者の50%または「カリフォルニア人」オーディエンスの45%に制限することができます。
 
 1. **[!UICONTROL Traffic Allocation]** コントロールをクリックして、次のオプションから選択します。
 
-   ![&#x200B; トラフィック配分の目標オプション &#x200B;](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
+   ![ トラフィック配分の目標オプション ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:**&#x200B;目標がアルゴリズムをテストする場合は、コントロールとターゲット アルゴリズムの間で訪問者を50/50%分割します。 この配分により、上昇率を最も正確に推定できます。 「ランダムエクスペリエンス」をコントロールとして使用する場合にお勧めします。
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:**&#x200B;目標が「常時稼動」アクティビティを作成する場合は、訪問者の10%をコントロールに入れます。 このオプションにより、アルゴリズムが継続的に学習するのに十分なデータが確保されます。 ここでのトレードオフは、より多くのトラフィックをパーソナライズする見返りとして、正確な上昇率を把握する精度が低くなることです。 特定のエクスペリエンスをコントロールとして使用する場合、このオプションは目標に関係なく推奨されるトラフィック分割です。
    * **[!UICONTROL Custom Allocation]:**&#x200B;必要に応じて、手動で割合を分割します。
 
-1. （条件付き） [!UICONTROL Control] ドロップダウンリストから、[&#x200B; コントロールとして使用する特定のエクスペリエンスを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)するか、[!UICONTROL Random Experience.]を選択します
+1. （条件付き） [!UICONTROL Control] ドロップダウンリストから、[ コントロールとして使用する特定のエクスペリエンスを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)するか、[!UICONTROL Random Experience.]を選択します
 
    コントロールエクスペリエンスは、自動テストによってどれだけの上昇率を実現するかを判断するための比較となります。
 
