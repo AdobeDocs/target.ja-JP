@@ -6,8 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
 source-wordcount: 3543
@@ -201,7 +204,7 @@ mbox パラメーターに基づいてレコメンデーションの条件、プ
 
 ## フィードのアップロードに使用する CSV ファイルのサイズ上限を教えてください。 {#section_20F1AF4839A447B9889B246D6E873538}
 
-フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。 ただし、ベストプラクティスとして、アドビでは、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。 ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。 カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。 必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)で確認できます。
+フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。 ただし、ベストプラクティスとして、アドビでは、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。 ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。 カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。 必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)で確認できます。
 
 ## [!UICONTROL Download data] アクションが[!DNL Recommendations] アクティビティで失敗するのはなぜですか？ {#download-data-error}
 
