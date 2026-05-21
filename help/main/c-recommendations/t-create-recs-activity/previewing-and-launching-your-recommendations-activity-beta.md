@@ -5,16 +5,16 @@ title: Recommendations アクティビティをプレビューして起動する
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1371'
 ht-degree: 15%
 
 ---
 
 # レコメンデーションアクティビティのプレビューと起動
 
-[!UICONTROL Recommendations]Recommendations オファー[!UICONTROL A/B Test]を含む[!UICONTROL Experience Targeting]、[または](/help/main/c-recommendations/recommendations-as-an-offer.md) （XT）アクティビティを作成した後、アクティビティを起動する前に結果が利用可能であることを確認するために、レコメンデーションをプレビューする必要があります。 [!DNL Target Recommendations]では、レコメンデーションをプレビューする複数の方法が用意されています。
+[Recommendations オファー](/help/main/c-recommendations/recommendations-as-an-offer.md)を含む[!UICONTROL Recommendations]、[!UICONTROL A/B Test]または[!UICONTROL Experience Targeting] （XT）アクティビティを作成した後、アクティビティを起動する前に結果が利用可能であることを確認するために、レコメンデーションをプレビューする必要があります。 [!DNL Target Recommendations]では、レコメンデーションをプレビューする複数の方法が用意されています。
 
 ## Recommendations アルゴリズムのステータスの確認
 
@@ -40,15 +40,15 @@ ht-degree: 15%
 
 ### mbox
 
-mbox が行動データソースとして選択される場合、一旦作成されると、条件は即座に実行されます。使用される行動データの量とカタログのサイズに応じて、アルゴリズムの実行には最大で 12 時間かかります。条件の設定を変更すると、通常、アルゴリズムが再実行されます。変更に応じて、以前に計算された推奨事項は、再実行が完了するまで利用できない場合があります。また、より大きな変更の場合は、再実行が完了するまでバックアップまたはデフォルトのコンテンツのみが利用できる場合があります。 アルゴリズムが変更されない場合、選択されたデータ範囲に応じて 12 ～ 48 時間ごとに、[!DNL Target] によって自動的に再実行されます。
+mbox が行動データソースとして選択される場合、一旦作成されると、条件は即座に実行されます。 使用される行動データの量とカタログのサイズに応じて、アルゴリズムの実行には最大で 12 時間かかります。 条件の設定を変更すると、通常、アルゴリズムが再実行されます。 変更に応じて、以前に計算された推奨事項は、再実行が完了するまで利用できない場合があります。また、より大きな変更の場合は、再実行が完了するまでバックアップまたはデフォルトのコンテンツのみが利用できる場合があります。 アルゴリズムが変更されない場合、選択されたデータ範囲に応じて 12 ～ 48 時間ごとに、[!DNL Target] によって自動的に再実行されます。
 
 ### [!DNL Adobe Analytics]
 
 [!DNL Adobe Analytics] を行動データソースとして使用する条件を作成した場合は、選択されているレポートスイートとルックバックウィンドウが他の条件でも使用されているかどうかに応じて、条件が使用可能になる時間が異なります。
 
-* **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。この期間は、[!DNL Analytics] システム負荷に依存します。
+* **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。 この期間は、[!DNL Analytics] システム負荷に依存します。
 * **既に利用可能なレポートスイートを使用して新しい条件または編集された条件**：新しい条件を作成するか、既存の条件を編集する際に、選択したレポートスイートが既に[!DNL Target Recommendations]で使用されていて、選択したデータ範囲と同じかそれ以下のデータ範囲がある場合、データはすぐに使用でき、1回限りの設定は必要ありません。 この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
-* **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、[!UICONTROL Viewed Affinity]のレコメンデーションでは、ユーザーが製品を閲覧すると、リアルタイムに近い[!DNL Analytics]に製品ビューのトラッキング呼び出しが渡されます。 [!DNL Analytics] データは翌日早く[!DNL Target]にプッシュされ、[!DNL Target]はアルゴリズムを12時間未満で実行します。
+* **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。 例えば、[!UICONTROL Viewed Affinity]のレコメンデーションでは、ユーザーが製品を閲覧すると、リアルタイムに近い[!DNL Analytics]に製品ビューのトラッキング呼び出しが渡されます。 [!DNL Analytics] データは翌日早く[!DNL Target]にプッシュされ、[!DNL Target]はアルゴリズムを12時間未満で実行します。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ mbox が行動データソースとして選択される場合、一旦作成さ
 
 ## QA リンクを使用したレコメンデーションのプレビュー
 
-アルゴリズムが結果を準備したら、[の](/help/main/c-activities/c-activity-qa/activity-qa.md)QA リンク [!DNL Adobe Target]機能を使用して、それらの結果をプレビューできます。 QA リンクは、[!UICONTROL Activity Location]概要ページの[!UICONTROL Activity] セクションで利用できます。
+アルゴリズムが結果を準備したら、[!DNL Adobe Target]の[QA リンク &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)機能を使用して、それらの結果をプレビューできます。 QA リンクは、[!UICONTROL Activity]概要ページの[!UICONTROL Activity Location] セクションで利用できます。
 
 >[!NOTE]
 >
@@ -91,6 +91,8 @@ CSV ファイルがダウンロードされます。 このタブを開くと、
 アスタリスク （*）が行の最初の値である場合、[&#x200B; バックアップ項目](/help/main/c-recommendations/c-algorithms/backup-recs.md)を示します。 設計のすべてのスロットをアルゴリズムの推奨項目（条件）で埋めることができない場合は、バックアップ項目が表示されます。
 
 [!UICONTROL People Who Viewed This, Viewed That]などのキー値に基づくその他のアルゴリズムタイプの場合、キー値（「この」項目）が一番左の列に表示され、推奨項目（「その」項目）がRecommendation_X列に左から右に表示されます。
+
+非常に大きな結果セットを持つアクティビティの場合、**[!UICONTROL Download data]** オプションはエラー`Error while fetching recommendation data file.`で失敗する可能性があります。これは、生成されたCSVが、1回のダウンロードでユーザーインターフェイスから返すことができる応答サイズを超えた場合に発生します。
 
 >[!NOTE]
 >

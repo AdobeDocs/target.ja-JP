@@ -21,10 +21,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1920
-ht-degree: 41%
+source-wordcount: 1962
+ht-degree: 40%
 
 ---
 
@@ -62,7 +62,10 @@ A/B アクティビティフロー内の[!UICONTROL Auto-Target] オプション
 
 [!UICONTROL Auto-Target]を使用する際は、いくつかの重要な考慮事項に注意する必要があります。
 
-* [!UICONTROL Auto-Target]と[!UICONTROL Automated Personalization]のアクティビティを、1か所あたり4 ～ 6件のオファーを含む4 ～ 6か所に制限します。 場所とオファーの組み合わせからエクスペリエンスの合計数が増加するため、構成を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。
+* アクティビティの形を覚えておいてください。 パフォーマンスは、未加工のエクスペリエンス数よりも×オファーの数に左右されます。 大きなデカルトの組み合わせでは、ドキュメントに記載されているエクスペリエンス制限を下回る場合でも、[!UICONTROL Visual Experience Composer]の読み込みと編集が遅くなる可能性があります。
+
+  ベストプラクティスとして、1か所あたり4 ～ 6件のオファーを含む[!UICONTROL Auto-Target]および[!UICONTROL Automated Personalization]件のアクティビティを4 ～ 6か所に保存します。 大きな設定は推奨されません。 これらのアクティビティは[!UICONTROL Experiences] ステップで直接構築されているため、設定がサポートされているしきい値を超えると、[!DNL Target] UIにインライン警告またはブロック保存が表示される場合があります。
+
 * 特定のアクティビティを[!UICONTROL Auto-Target]から[!UICONTROL Automated Personalization]に切り替えることはできません。その逆の方法です。
 * アクティビティがドラフトとして保存された後、トラフィックの割り当て（従来の[!UICONTROL A/B Test]）を[!UICONTROL Auto-Target]に[!UICONTROL Manual]から切り替えることはできません。
 * ひとつのモデルは、パーソナライズされた戦略のパフォーマンスを特定するように構築されており、ランダムにトラフィックを提供するか、全体的な勝者エクスペリエンスにすべてのトラフィックを送信するかを決定します。 このモデルでは、ヒットとコンバージョンはデフォルト環境でのみ考慮されます。

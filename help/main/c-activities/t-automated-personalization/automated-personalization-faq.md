@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 2032
-ht-degree: 26%
+source-wordcount: 2157
+ht-degree: 24%
 
 ---
 
@@ -52,7 +52,8 @@ ht-degree: 26%
 
 +++詳細を見る
 
-* [!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]のアクティビティを、1か所あたり4 ～ 6件のオファーを含む4 ～ 6か所に制限します。 設定を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。
+* 合計体験数だけでなく、*アクティビティの形状* （場所×オファーの数）に細心の注意を払います。 場所とオファーのデカルト的な組み合わせにより、生のエクスペリエンス数よりもオーサリング時間のパフォーマンスが向上します。
+* 最適なパフォーマンスと管理性を実現するには、1か所あたり4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6か所に制限してください。 大きな設定はお勧めできません。[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があり、[!DNL Target] UIで制限される可能性があります。 現在のUIでは、[!DNL Target]はインライン警告を表示するか、設定がサポートされているしきい値を超えた場合にアクティビティを保存しないようにします。
 * トラフィックの少ないページをパーソナライズする場合や、パーソナライズするエクスペリエンスに構造的な変更を加える場合は、[!UICONTROL Automated Personalization]の代わりに[!UICONTROL Auto-Target] アクティビティを使用することを検討してください。 [自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
 * [!UICONTROL Automated Personalization] アクティビティで使用する予定のオファーと場所の間で[!UICONTROL A/B Test] アクティビティを完了して、場所と場所が最適化目標に影響を与えることを確認することを検討してください。 [!UICONTROL A/B Test] アクティビティが有意な違いを示さない場合、[!UICONTROL Automated Personalization]も上昇率を生成できない可能性があります。
 
@@ -91,9 +92,13 @@ ht-degree: 26%
 
 [!DNL Target]には30,000件のエクスペリエンスのハードリミットがありますが、作成されたエクスペリエンス数が10,000件に満たない場合は、最高の状態で機能します。
 
-アクティビティで[!UICONTROL Disalow Duplicates] オプションが有効になっている場合でも、同じ制限が適用されます。
+アクティビティで[!UICONTROL Disallow Duplicates] オプションが有効になっている場合でも、同じ制限が適用されます。
 
-最適なパフォーマンスを得るには、1か所あたり4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6件の場所に制限してください。 場所とオファーの組み合わせからエクスペリエンスの合計数が増加するため、構成を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。
+[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]のアクティビティは多数のエクスペリエンスをサポートできますが、オーサリングのパフォーマンスは&#x200B;*アクティビティの形状* （場所×オファーの数）に大きく依存します。 特定の設定では、負荷と編集のパフォーマンスに大きな影響を与える大きなデカルトの組み合わせが作成され、文書化されたエクスペリエンス制限を下回る場合でも使用できます。
+
+最適なパフォーマンスと管理性を実現するには、1か所あたり4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6か所に制限してください。 大きな設定は推奨されず、[!DNL Target] UIで制限される場合があります。
+
+現在の[!DNL Target] UIでは、[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]のアクティビティが[!UICONTROL Experiences]手順で直接設定されています。 [!DNL Target]は、設定がサポートされているしきい値を超えると、インライン警告が表示されるか、アクティビティの保存が妨げられる可能性があります。また、[!UICONTROL Next]、[!UICONTROL Save]、[!UICONTROL Publish]でアクティビティの形状が再検証されます。
 
 [!DNL Target]のアクティビティやその他の要素に影響を与える文字制限およびその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について詳しくは、[制限](/help/main/r-troubleshooting-target/target-limits.md)を参照してください。
 

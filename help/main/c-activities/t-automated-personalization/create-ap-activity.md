@@ -17,9 +17,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: 1854
 ht-degree: 24%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 24%
 
    >[!IMPORTANT]
    >
-   >**ベストプラクティス：**&#x200B;最適なパフォーマンスを得るには、1か所につき4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6か所に制限してください。 エクスペリエンスの総数は、場所とオファーのデカルトの組み合わせから増加します。 設定を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。 最良の結果を得るには、合計を5,000未満に抑えます。ハード制限は30,000です（[!UICONTROL Disallow Duplicates] オプションが有効になっている場合も同じ制限が適用されます）。
+   >最適なパフォーマンスを得るには、1か所あたり4 ～ 6件のオファーを含む[!UICONTROL Automated Personalization]と[!UICONTROL Auto-Target]件のアクティビティを4 ～ 6件の場所に制限してください。 エクスペリエンスの総数は、場所とオファーのデカルトの組み合わせから増加します。 設定を大きくすると、[!UICONTROL Visual Experience Composer]での読み込みや編集が遅くなる可能性があります。 最良の結果を得るには、合計を5,000未満に抑えます。ハード制限は30,000です（[!UICONTROL Disallow Duplicates] オプションが有効になっている場合も同じ制限が適用されます）。
 
 1. （条件付き） **[!UICONTROL Offers]**&#x200B;をクリックしてコンテンツを選択し、レポートグループに割り当てるか、特定の訪問者にターゲティング付きの特定のオファーのみを表示できるようにします。
 
@@ -111,7 +111,7 @@ ht-degree: 24%
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 

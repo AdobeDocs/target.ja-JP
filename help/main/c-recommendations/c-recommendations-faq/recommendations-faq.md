@@ -11,10 +11,10 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3467
-ht-degree: 82%
+source-wordcount: 3543
+ht-degree: 81%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 82%
 
 ## [!DNL Target] APIを使用して[!DNL Target]件のUI作成ビジュアルオファーを管理できますか？
 
-いいえ。 [!DNL Target] UIで作成されたビジュアルオファーを含む[!DNL Recommendations] アクティビティは、[!DNL Target] APIを使用して管理できません。 これらのアクティビティは[!UICONTROL Activities] リストに表示されますが、（GET/PUTを使用して）読み取りまたは更新することはできません。
+いいえ。 [!DNL Target] UIで作成されたビジュアルオファーを含む[!DNL Recommendations] アクティビティは、[!DNL Target] APIを使用して管理できません。 これらのアクティビティは[!UICONTROL Activities] リストに表示されますが、（GET/PUTを使用して）読み取りや更新はできません。
 
 ## 数値を持つカスタム属性を検索すると、[!UICONTROL Catalog Search]に正しい結果が表示されないのはなぜですか？
 
@@ -205,6 +205,12 @@ mbox パラメーターに基づいてレコメンデーションの条件、プ
 ## フィードのアップロードに使用する CSV ファイルのサイズ上限を教えてください。 {#section_20F1AF4839A447B9889B246D6E873538}
 
 フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。 ただし、ベストプラクティスとして、アドビでは、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。 ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。 カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。 必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)で確認できます。
+
+## [!UICONTROL Download data] アクションが[!DNL Recommendations] アクティビティで失敗するのはなぜですか？ {#download-data-error}
+
+[!DNL Recommendations] アクティビティの[!UICONTROL Activity Overview] ページで&#x200B;**[!UICONTROL Download data]**&#x200B;をクリックすると、[!DNL Target] ユーザーインターフェイスにエラー`Error while fetching recommendation data file.`が表示される場合があります
+
+これは通常、アクティビティに非常に大きな結果セットがある場合に発生します。生成されたCSVが、1回のダウンロードでユーザーインターフェイスから返すことができる応答サイズを超えています。 レコメンデーションデータ自体は維持されますが、ブラウザー内のダウンロードパスのみがそのサイズのファイルを配信できません。
 
 ## エンティティを動的に除外できますか。 {#exclude}
 

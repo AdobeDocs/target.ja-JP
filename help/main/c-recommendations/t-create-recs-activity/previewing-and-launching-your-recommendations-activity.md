@@ -11,10 +11,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 15%
+source-wordcount: 1462
+ht-degree: 14%
 
 ---
 
@@ -97,6 +97,8 @@ CSV ファイルがダウンロードされます。 このタブを開くと、
 アスタリスク （*）が行の最初の値である場合、[&#x200B; バックアップ項目](/help/main/c-recommendations/c-algorithms/backup-recs.md)を示します。 設計のすべてのスロットをアルゴリズムの推奨項目（条件）で埋めることができない場合は、バックアップ項目が表示されます。
 
 [!UICONTROL People Who Viewed This, Viewed That]などのキー値に基づくその他のアルゴリズムタイプの場合、キー値（「この」項目）が一番左の列に表示され、推奨項目（「その」項目）がRecommendation_X列に左から右に表示されます。
+
+非常に大きな結果セットを持つアクティビティの場合、**[!UICONTROL Download data]** オプションはエラー`Error while fetching recommendation data file.`で失敗する可能性があります。これは、生成されたCSVが、1回のダウンロードでユーザーインターフェイスから返すことができる応答サイズを超えた場合に発生します。
 
 >[!NOTE]
 >
