@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 許可リストに加えるURL
 
-許可リストに加えるURLは、リモートまたはリダイレクトのオファーを使用する場合を含め、組織が[!DNL Adobe Target] エクスペリエンスを作成および実行できる信頼できるURL パターンを定義します。 このリストは、[ ホスト管理](/help/main/administrating-target/hosts.md)および[環境](/help/main/administrating-target/environments.md)と並行して機能しますが、許可されたリモートオファーのURL パターンと関連する検証に特に適用されます。
+許可リストに加えるURLは、リモートまたはリダイレクトのオファーを使用する場合を含め、組織が[!DNL Adobe Target] エクスペリエンスを作成および実行できる信頼できるURL パターンを定義します。 このリストは、[&#x200B; ホスト管理](/help/main/administrating-target/hosts.md)および[環境](/help/main/administrating-target/environments.md)と並行して機能しますが、許可されたリモートオファーのURL パターンと関連する検証に特に適用されます。
 
 許可リストに加えるされたURLを管理するには、**[!UICONTROL Administration]** > **[!UICONTROL Allowlisted URLs]**&#x200B;をクリックします。
 
