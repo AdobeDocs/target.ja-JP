@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 83%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Adobe Target Business Practitioner Guide Home](target-home.md)
 + Target リリースノート {#release-notes}
-   + {hide-from-toc}[Targetのお知らせとイベント &#x200B;](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc}[Targetのお知らせとイベント ](/help/main/r-release-notes/target-announcements.md)
    + [Target リリースノート（最新）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
    + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
@@ -32,7 +32,7 @@ ht-degree: 83%
       + [AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)
       + [AI アシスタントを有効にする](/help/main/c-intro/enabling-ai-assistant.md)
       + [AI アシスタントを使用して製品知識を獲得し](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + {hide-from-toc}[&#x200B; コンテンツ生成にAI アシスタントを使用](/help/main/c-intro/ai-assistant-content-generation.md)
+      + {hide-from-toc}[ コンテンツ生成にAI アシスタントを使用](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target ウェルカムキット {#welcome}
       + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)
       + [第 1 章：はじめに](/help/main/c-intro/target-welcome-kit-1.md)
@@ -58,9 +58,10 @@ ht-degree: 83%
       + [収益向上の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7 の設定](administrating-target/scene7-settings.md)
    + [実装](/help/main/administrating-target/implementation.md)
-   + {hide-from-toc}[&#x200B; コンテンツの事前非表示](administrating-target/content-pre-hiding.md)
+   + {hide-from-toc}[ コンテンツの事前非表示](administrating-target/content-pre-hiding.md)
    + [ホスト](administrating-target/hosts.md)
    + [環境](/help/main/administrating-target/environments.md)
+   + [許可リストに加えるURL](administrating-target/allowlisted-urls.md)
    + [レスポンストークン](administrating-target/response-tokens.md)
    + ユーザーの管理 {#manage-users}
       + [ユーザー管理](administrating-target/c-user-management/user-management.md)
@@ -108,8 +109,8 @@ ht-degree: 83%
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + {hide-from-toc}[統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizerのユースケース {#use-cases}
-         + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル &#x200B;](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + {hide-from-toc}[Adobe Journey OptimizerでのA/B テストによる コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル ](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + Adobe Journey OptimizerでのA/B テストによる{hide-from-toc}[ コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Adobe TargetとExperimentation Acceleratorの統合](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
@@ -347,4 +348,4 @@ ht-degree: 83%
    + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
    + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)
