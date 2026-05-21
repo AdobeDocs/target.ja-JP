@@ -19,16 +19,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 100%
+source-wordcount: 94
+ht-degree: 70%
 
 ---
 
 # [!DNL Target] 管理の概要
 
-[!DNL Adobe Target] の管理に役立つ情報です。これには、Visual Experience Composer（VEC）、レポート、Scene7 設定、実装、ホスト、環境、応答トークン、ユーザー、[!DNL Recommendations] の設定が含まれます。
+Visual Experience Composer （VEC）、レポート、Scene7の設定、実装、ホスト、環境、許可リストに加えるURL、応答トークン、ユーザー、および[!DNL Recommendations]の設定など、[!DNL Adobe Target]の管理に役立つ情報です。
 
 {{permissions-update}}
 
@@ -41,6 +41,7 @@ ht-degree: 100%
 * [プロパティ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
 * [ホスト](/help/main/administrating-target/hosts.md)
 * [環境](/help/main/administrating-target/environments.md)
+* [許可リストに加えるURL](/help/main/administrating-target/allowlisted-urls.md)
 * [レスポンストークン](/help/main/administrating-target/response-tokens.md)
 * [ユーザー](/help/main/administrating-target/c-user-management/user-management.md)
 * [レコメンデーション](/help/main/administrating-target/recommendations-settings.md)
