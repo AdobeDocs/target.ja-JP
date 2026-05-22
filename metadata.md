@@ -7,7 +7,7 @@ product_v2:
 usetq: true
 audience: end-user
 type: Documentation
-git-repo: https://github.com/AdobeDocs/target.en
+git-repo: https://github.com/AdobeDocs/target.ja-JP
 landing-page-breadcrumb-title: Target 
 landing-page-name: target
 index: true
