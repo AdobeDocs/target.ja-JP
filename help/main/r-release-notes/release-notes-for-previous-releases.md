@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
 workflow-type: tm+mt
-source-wordcount: 68360
+source-wordcount: 68506
 ht-degree: 65%
 
 ---
@@ -57,6 +57,36 @@ ht-degree: 65%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2026
+
+## [!DNL Target Standard/Premium] 26.5.2 （2026年5月14日）
+
+**管理**
+
++++詳細を見る
+
+* **許可されたURLの正規表現の検証。** 適切な検証を行うことなく、無効な正規表現を&#x200B;**[!UICONTROL Allowed URLs]** フィールドに入力できる問題を修正しました。 （TGT-55095）
+
++++
+
+**オーディエンス**
+
++++詳細を見る
+
+* [!UICONTROL Edit Audience] ダイアログの&#x200B;**ボタン。** **[!UICONTROL Edit Audience]** ダイアログ内のボタンが正しくレンダリングされなくなった問題を修正しました。 （TGT-54638）
+
++++
+
+**[!DNL Adobe Target]MCP サーバー（パブリック Beta）**
+
++++詳細を見る
+
+[!DNL Adobe Target]は、MCP互換アプリケーション内で実験、パーソナライゼーション、レポート操作を直接表示するMCP （Model Context Protocol） サーバーを提供するようになりました。 この統合により、マーケティング部門と技術部門のペルソナは、A/B テストの検査、パフォーマンスレポートの分析、オーディエンスとオファーの調査を行うことができます。これらはすべて、複数のUI画面を移動したり、REST APIに対してクエリを記述したりするのではなく、自然言語のプロンプトを使用します。 [!DNL Adobe Target]この機能は現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;で利用できます。
+
+この機能は、パブリック Betaのすべてのユーザーが利用できます。
+
+詳しくは、[[!DNL Adobe Target] MCP サーバー](../c-integrating-target-with-mac/mcp/target-mcp.md)を参照してください。
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
 
