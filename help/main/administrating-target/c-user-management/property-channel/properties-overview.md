@@ -230,7 +230,7 @@ ht-degree: 55%
 
 * デフォルトのワークスペースの概要を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421733?captions=jpn)
 
 ### Adobe Targetでプロパティを作成する方法（3:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
