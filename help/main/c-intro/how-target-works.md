@@ -50,14 +50,14 @@ JavaScript ライブラリ （[!DNL Adobe Experience Platform Web SDK]およびa
 
 Targetは、[!DNL Experience Platform Web SDK]またはat.jsを使用してWeb サイトと統合します。
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：このクライアントサイドのJavaScript ライブラリを使用すると、[!DNL Adobe Experience Cloud]のお客様は[!DNL Experience Platform Edge Network]を通じて様々なサービスと対話できます。 [!DNL Adobe]様は、新しい[!DNL Target]のお客様が[!DNL Experience Platform Web SDK]を実装することを推奨しています。
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：このクライアントサイドのJavaScript ライブラリを使用すると、[!DNL Adobe Experience Cloud]のお客様は[!DNL Experience Platform Edge Network]を通じて様々なサービスと対話できます。 [!DNL Adobe]様は、新しい[!DNL Target]のお客様が[!DNL Experience Platform Web SDK]を実装することを推奨しています。
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: [!DNL Target]用のこの実装ライブラリは、web実装のページ読み込み時間を改善し、シングルページアプリケーションのより優れたオプションを提供します。 頻繁に更新される新機能により、[!DNL Adobe]では、すべての[at.js ユーザーに最新バージョン &#x200B;](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}への更新を推奨しています。
 
 >[!NOTE]
 >
 >mbox.js ライブラリは、[!DNL Target]のレガシー実装であり、2021年3月31日をもってサポートされなくなりました。 [!UICONTROL Experience Platform Web SDK] （推奨）または最新バージョンのat.jsにアップグレードします。
 
-サイトのすべてのページで[!UICONTROL Experience Platform Web SDK]またはat.jsを参照してください。 例えば、次のいずれかのライブラリをグローバルヘッダーに追加します。 または、Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}の タグを使用して[!DNL Target]を実装します。
+サイトのすべてのページで[!UICONTROL Experience Platform Web SDK]またはat.jsを参照してください。 例えば、次のいずれかのライブラリをグローバルヘッダーに追加します。 または、Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home){target=_blank}の タグを使用して[!DNL Target]を実装します。
 
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 

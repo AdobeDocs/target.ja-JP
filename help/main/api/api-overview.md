@@ -46,4 +46,4 @@ ht-degree: 3%
 * レポート用API:
 * Recommendation API。
 
-詳しくは、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}の[Target APIの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank}を参照してください。
+詳しくは、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}の[Target APIの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=ja){target=_blank}を参照してください。
