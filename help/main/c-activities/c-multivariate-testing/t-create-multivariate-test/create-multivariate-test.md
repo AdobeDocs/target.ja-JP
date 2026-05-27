@@ -5,12 +5,9 @@ title: '[!UICONTROL Multivariate Test]を作成するにはどうすればよい
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 737
@@ -34,9 +31,9 @@ ht-degree: 26%
 
 1. （条件付き）配信タイプを選択します：[!UICONTROL Web]、[!UICONTROL Mobile]、[!UICONTROL Email]、または[!UICONTROL Other/API]。
 
-1. （条件付き）お客様が[Target Premium](/help/main/c-intro/intro.md#premium)のお客様の場合は、[&#x200B; ワークスペースを選択してください](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （条件付き）お客様が[Target Premium](/help/main/c-intro/intro.md#premium)のお客様の場合は、[ ワークスペースを選択してください](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. [&#x200B; テストするページのURL &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)を指定し、**[!UICONTROL Create]**&#x200B;をクリックします。
+1. [ テストするページのURL ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)を指定し、**[!UICONTROL Create]**&#x200B;をクリックします。
 
    >[!NOTE]
    >
@@ -46,7 +43,7 @@ ht-degree: 26%
 
    [!UICONTROL Visual Experience Composer]が開きます。
 
-1. アクティビティに名前を付けるには、「[!UICONTROL Untitled Activity]」の横にある&#x200B;**[!UICONTROL Edit]** アイコン（![編集アイコン &#x200B;](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL Save]**&#x200B;をクリックします。
+1. アクティビティに名前を付けるには、「[!UICONTROL Untitled Activity]」の横にある&#x200B;**[!UICONTROL Edit]** アイコン（![編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL Save]**&#x200B;をクリックします。
 
    アクティビティ名の先頭に次の文字を使用することはできません：
 
@@ -82,13 +79,13 @@ ht-degree: 26%
 
 1. **[!UICONTROL Preview]**&#x200B;をクリックして[体験をプレビュー](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)します。
 
-1. **[!UICONTROL Show Experiences]** アイコン（![&#x200B; エクスペリエンスを表示アイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックすると、左側のフレームにすべてのエクスペリエンスのリストが表示されます。
+1. **[!UICONTROL Show Experiences]** アイコン（![ エクスペリエンスを表示アイコン ](/help/main/assets/icons/WebPages.svg)）をクリックすると、左側のフレームにすべてのエクスペリエンスのリストが表示されます。
 
 1. リスト内の特定のエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
 
-1. （条件付き）アクティビティから1つ以上のエクスペリエンスを除外するには、**[!UICONTROL Manage Content]** アイコン （![&#x200B; エクスペリエンスの管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL Manage Experiences] ダイアログボックスを表示します。
+1. （条件付き）アクティビティから1つ以上のエクスペリエンスを除外するには、**[!UICONTROL Manage Content]** アイコン （![ エクスペリエンスの管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL Manage Experiences] ダイアログボックスを表示します。
 
-1. （条件付き） [!UICONTROL Manage Experiences] ダイアログボックスで、除外するエクスペリエンスの横にある&#x200B;**[!UICONTROL More Actions]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL Exclude]**&#x200B;をクリックします。
+1. （条件付き） [!UICONTROL Manage Experiences] ダイアログボックスで、除外するエクスペリエンスの横にある&#x200B;**[!UICONTROL More Actions]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL Exclude]**&#x200B;をクリックします。
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 
@@ -108,31 +105,31 @@ ht-degree: 26%
 
    右側のフレームが表示され、オーディエンスを追加または削除し、アクティビティの訪問者パーセンテージを割り当てることができます。
 
-   1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL Replace]アイコン** （![置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
-   1. [!UICONTROL Add Audience] ダイアログボックスで、[目的のオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL Assign Audience]**&#x200B;をクリックします。
+   1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL Replace]アイコン** （![置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. [!UICONTROL Add Audience] ダイアログボックスで、[目的のオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL Assign Audience]**&#x200B;をクリックします。
 
       「**オーディエンスを結合**」をクリックして、[複数のオーディエンスを結合するオーディエンスを作成できます](/help/main/c-target/combining-multiple-audiences.md)。
 
       まだ[!UICONTROL Audience Library]にない新しいオーディエンスを作成する必要がある場合は、**オーディエンスの作成**&#x200B;をクリックします。 [create-audience ワークフロー](/help/main/c-target/c-audiences/audiences.md)中に、次のオプションから選択できます。
 
       * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]に保存されたオンデマンドオーディエンスを作成し、他のアクティビティで再利用できます。
-      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]に保存されず、現在のアクティビティでのみ使用できる[&#x200B; アクティビティ固有のオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md)を作成します。
+      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]に保存されず、現在のアクティビティでのみ使用できる[ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md)を作成します。
 
    1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティに参加する適格な訪問者の割合を選択します。
 
    例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
 
-1. [&#x200B; テストの概要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)を確認し、必要な変更を加えたら、**[!UICONTROL Next]**&#x200B;をクリックします。
+1. [ テストの概要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)を確認し、必要な変更を加えたら、**[!UICONTROL Next]**&#x200B;をクリックします。
 
 1. [テストの目標と設定を指定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)します。
 
 1. 「**[!UICONTROL Save and Close]**」をクリックしてアクティビティを作成します。
 
-## トレーニングビデオ：多変量テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：多変量テストの作成（9:25） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] 3段階のガイド付きワークフローを使用して、多変量テストを計画および作成する方法を説明します。
 
 * 多変量分析テストの定義と設計
 * 多変量分析テストの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

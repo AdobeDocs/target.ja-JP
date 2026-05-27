@@ -6,14 +6,9 @@ feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 446
@@ -29,7 +24,7 @@ ht-degree: 90%
 
 [!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。 次に、システム管理者は、1つ以上の役割に特化した製品プロファイル（ユーザーのグループ）にあなたを追加する必要があります。 これらのタスクは両方とも[Adobe Admin Console](https://adminconsole.adobe.com)で実行されます。
 
-詳しくは、[&#x200B; ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
+詳しくは、[ ユーザーグループの管理](https://helpx.adobe.com/enterprise/using/users.html)を参照してください。
 
 ステム管理者がこれらの手順を実行すると、招待メールが届きます。
 
@@ -69,7 +64,7 @@ ht-degree: 90%
 
 ## [!UICONTROL Administration] 設定の編集に必要な権限 {#admin-permissions}
 
-**2025 年 4 月 22 日（PT）より前:**&#x200B;[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
+**2025 年 4 月 22 日（PT）より前:**[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
 
 **2025 年 4 月 22 日（PT）**&#x200B;より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるようになります。 この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
 
