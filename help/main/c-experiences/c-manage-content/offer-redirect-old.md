@@ -37,11 +37,11 @@ ht-degree: 45%
 
 1. 「**[!UICONTROL Offers]**」をクリックし、「**[!UICONTROL Code Offers]**」タブを選択します。
 
-   ![ コードオファータブ ](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+   ![&#x200B; コードオファータブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
 1. **[!UICONTROL Create]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
 
-   ![ リダイレクトオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![&#x200B; リダイレクトオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. オファーのわかりやすい名前を入力します。
 
@@ -71,17 +71,17 @@ ht-degree: 45%
 
 ## フォームベースのExperience Composerを使用したリダイレクトオファーの作成
 
-1. [ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL Content]** セクションを表示する場所を選択します。
+1. [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL Content]** セクションを表示する場所を選択します。
 
-   フォームベースのExperience Composerの![ コンテンツセクション ](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
+   フォームベースのExperience Composerの![&#x200B; コンテンツセクション &#x200B;](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
 1. **[!UICONTROL Default Content]** ドロップダウンリストをクリックし、**[!UICONTROL Change Redirect Offer]**&#x200B;をクリックします。
 
-   ![ リダイレクトオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
+   ![&#x200B; リダイレクトオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
 
 1. **[!UICONTROL Create]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
 
-   ![ リダイレクトオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![&#x200B; リダイレクトオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. オファーのわかりやすい名前を入力します。
 
@@ -117,19 +117,19 @@ ht-degree: 45%
 
 1. [!UICONTROL Form-Based Experience Composer]でアクティビティを作成または編集します。
 
-   詳細な手順については、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
+   詳細な手順については、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
 
 1. 必要に応じて、目的の場所を指定し、オーディエンスの絞り込みを追加します。
 
 1. **[!UICONTROL Content]** セクションのドロップダウンリストをクリックし、**[!UICONTROL Change Redirect Offer]**&#x200B;をクリックします。
 
-   ![ リダイレクトオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
+   ![&#x200B; リダイレクトオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
 1. [!UICONTROL Select Remote Offer] ダイアログボックスから目的のリダイレクトオファーを選択し、**[!UICONTROL Done]**&#x200B;をクリックします。
 
 1. アクティビティの設定を終了します。
 
-## トレーニングビデオ：フォームベースのコンポーザー![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：フォームベースのコンポーザー![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、リダイレクトオファーの作成に使用できるフォームベースのコンポーザーのデモを紹介します。
 
