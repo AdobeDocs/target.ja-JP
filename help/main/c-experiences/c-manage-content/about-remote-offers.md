@@ -5,12 +5,8 @@ title: リモートオファーの作成方法
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1040
@@ -47,7 +43,7 @@ ht-degree: 19%
 
 * 次の場所では、リモートオファーはサポートされていません。
 
-   * [&#x200B; プレミアム機能](/help/main/c-intro/intro.md#premium) （Automated Personalization （AP）、自動ターゲット、およびレコメンデーション）
+   * [ プレミアム機能](/help/main/c-intro/intro.md#premium) （Automated Personalization （AP）、自動ターゲット、およびレコメンデーション）
    * Multivariate Testing（MVT）は、リモートオファーをサポートしていないVECに依存しているため、
 
 * オファーが[!DNL Target] リクエストと同じドメインに存在する場合、[!UICONTROL Cached] オプションを使用すると、オファーの場所を説明する際に相対URLを使用できます。
@@ -68,11 +64,11 @@ ht-degree: 19%
 
    わかりやすい名前を付けると、[!UICONTROL Offers] ライブラリでオファーをすばやく見つけることができます。
 
-1. （条件付き）Target Premium アカウント [&#128279;](/help/main/c-intro/intro.md#premium)をお持ちの場合は、目的の[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)を選択します。
+1. （条件付き）Target Premium アカウント [をお持ちの場合は、目的の[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)を選択します。](/help/main/c-intro/intro.md#premium)
 
 1. リダイレクト URL タイプを指定します。
 
-   詳しくは、以下の「[&#x200B; リダイレクト URL タイプ：[!UICONTROL Onsite Cached]または[!UICONTROL Onsite Dynamic]](#url-type)」を参照してください。
+   詳しくは、以下の「[ リダイレクト URL タイプ：[!UICONTROL Onsite Cached]または[!UICONTROL Onsite Dynamic]](#url-type)」を参照してください。
 
 1. リモートオファーの絶対リモート URLを指定します。
 
@@ -80,8 +76,8 @@ ht-degree: 19%
 
 ## [!UICONTROL Form-Based Experience Composer]を使用したリモート オファーの作成
 
-1. [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL Content]** セクションを表示する場所を選択します。
-1. **[!UICONTROL Content]** ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン （![&#x200B; リスト &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、**[!UICONTROL Change Remote Offer]**&#x200B;をクリックします。
+1. [ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL Content]** セクションを表示する場所を選択します。
+1. **[!UICONTROL Content]** ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン （![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、**[!UICONTROL Change Remote Offer]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Create Offer]**／**[!UICONTROL Remote Offer]**&#x200B;をクリックします。
 
@@ -89,11 +85,11 @@ ht-degree: 19%
 
    わかりやすい名前を付けると、[!UICONTROL Assets] ライブラリでオファーをすばやく見つけることができます。
 
-1. （条件付き）Target Premium アカウント [&#128279;](/help/main/c-intro/intro.md#premium)をお持ちの場合は、目的の[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)を選択します。
+1. （条件付き）Target Premium アカウント [をお持ちの場合は、目的の[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)を選択します。](/help/main/c-intro/intro.md#premium)
 
 1. リダイレクト URL タイプを指定します。
 
-   詳しくは、以下の「[&#x200B; リダイレクト URL タイプ：[!UICONTROL Onsite Cached]または[!UICONTROL Onsite Dynamic]](#url-type)」を参照してください。
+   詳しくは、以下の「[ リダイレクト URL タイプ：[!UICONTROL Onsite Cached]または[!UICONTROL Onsite Dynamic]](#url-type)」を参照してください。
 
 1. リモートオファーのリモート URLを指定します。
 
@@ -129,11 +125,11 @@ ht-degree: 19%
 
 1. [!UICONTROL Form-Based Experience Composer]でアクティビティを作成または編集します。
 
-   詳細な手順については、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
+   詳細な手順については、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
 
 1. 必要に応じて、目的の場所を指定し、オーディエンスの絞り込みを追加します。
 
-1. **[!UICONTROL Content]** ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン （![&#x200B; リスト &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、**[!UICONTROL Change Remote Offer]**&#x200B;をクリックします。
+1. **[!UICONTROL Content]** ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン （![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、**[!UICONTROL Change Remote Offer]**&#x200B;をクリックします。
 
 1. [!UICONTROL Change Remote Offer] ダイアログボックスから目的のリモートオファーを選択し、**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**&#x200B;をクリックします。
 
