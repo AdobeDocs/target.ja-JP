@@ -44,11 +44,11 @@ ht-degree: 38%
    >
    >アクティビティの作成中に手動で入力した場所を作成しても、新しい場所は自動的に作成されません。 場所の名前は、アクティビティのコンテキストでのみ保存されます。 場所は、コンテンツ配信コールがあるときに作成されます。 作成される場所の後に、利用可能な場所のドロップダウンリストからオーディエンスの作成など、他のアクティビティで使用できるようになります。
 
-1. **[!UICONTROL Add Audience Refinements]**&#x200B;をクリックし、このアクティビティの[ オーディエンス ](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)を1つ以上選択してから、**[!UICONTROL Done]**&#x200B;をクリックします。
+1. **[!UICONTROL Add Audience Refinements]**&#x200B;をクリックし、このアクティビティの[&#x200B; オーディエンス &#x200B;](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)を1つ以上選択してから、**[!UICONTROL Done]**&#x200B;をクリックします。
 
    ![location_refinements_2 image](assets/location_refinements_2.png)
 
-   [!UICONTROL Form-based Experience Composer]では、絞り込みが完全なオーディエンス機能に置き換えられました。 既存のアクティビティの絞り込みが[ アクティビティのみのオーディエンス ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)に移行されました。
+   [!UICONTROL Form-based Experience Composer]では、絞り込みが完全なオーディエンス機能に置き換えられました。 既存のアクティビティの絞り込みが[&#x200B; アクティビティのみのオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)に移行されました。
 
 1. その場所に表示するコンテンツのタイプを選択します。
 
@@ -68,11 +68,11 @@ ht-degree: 38%
 
    **JSON オファーの変更：** JSON オファーを選択します。
 
-   **エクスペリエンスフラグメントの変更：** エクスペリエンスフラグメントを選択します。 詳しくは、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)を参照してください。
+   **エクスペリエンスフラグメントの変更：** エクスペリエンスフラグメントを選択します。 詳しくは、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)を参照してください。
 
-   **リダイレクト オファーの変更：** リダイレクト オファーを選択します。 詳しくは、[ リダイレクトオファーの作成](/help/main/c-experiences/c-manage-content/offer-redirect.md)を参照してください。
+   **リダイレクト オファーの変更：** リダイレクト オファーを選択します。 詳しくは、[&#x200B; リダイレクトオファーの作成](/help/main/c-experiences/c-manage-content/offer-redirect.md)を参照してください。
 
-   **リモートオファーの変更：** リモートオファーを選択します。 詳しくは、[ リモートオファーの作成](/help/main/c-experiences/c-manage-content/about-remote-offers.md)を参照してください。
+   **リモートオファーの変更：** リモートオファーを選択します。 詳しくは、[&#x200B; リモートオファーの作成](/help/main/c-experiences/c-manage-content/about-remote-offers.md)を参照してください。
 
    **HTML オファーを作成:**
 
@@ -100,13 +100,13 @@ ht-degree: 38%
 
    Target の 3 つの手順から成るガイド付きワークフローのターゲット設定ページから：
 
-   ![change_criteria_2 イメージ ](assets/change_criteria_2.png)
+   ![change_criteria_2 イメージ &#x200B;](assets/change_criteria_2.png)
 
    **オファー決定を追加：**
 
    [!DNL Adobe Journey Optimizer] （AJO）で作成されたオファーを[!DNL Adobe Target] アクティビティに追加し、オファー決定機能を使用して、web サイトまたはモバイルサイトの訪問者に最適な動的なオファーとエクスペリエンスを提示します。 このオプションは、手動の[!UICONTROL A/B Test]および[!UICONTROL Experience Targeting] （XT）アクティビティでのみ使用できます。
 
-   詳しくは、[ オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
+   詳しくは、[&#x200B; オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
 
 1. （オプション、[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL Experience Targeting]のアクティビティの場合）追加の場所でこのプロセスを繰り返すには、**[!UICONTROL Add Location]**&#x200B;をクリックし、場所とコンテンツを設定します。
 1. 「**[!UICONTROL Next]**」をクリックし、アクティビティの種類に応じて通常どおりアクティビティ作成ステップを完了します。
@@ -115,7 +115,7 @@ ht-degree: 38%
 * [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [レコメンデーションアクティビティの作成](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## トレーニングビデオ：フォームベースのコンポーザー![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：フォームベースのコンポーザー![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオは、フォームベースのコンポーザーのデモを紹介します。
 
