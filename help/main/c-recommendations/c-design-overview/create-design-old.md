@@ -27,11 +27,11 @@ ht-degree: 25%
 
 次の図は、デフォルトの1 x 4 デザインを示しています。
 
-![1 x 4 デフォルトデザイン ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![1 x 4 デフォルトデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 次の図は、カスタムデザインを示しています。
 
-![ カスタムデザイン ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![&#x200B; カスタムデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 アクティビティ作成プロセス中に、Visual Experience Composer （VEC）内またはアクティビティ作成以外のデザインライブラリからデザインを作成できます。 次のセクションでは、ライブラリからデザインを作成することを前提としていますが、手順は似ています。
 
@@ -43,7 +43,7 @@ ht-degree: 25%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
-   ![ デザインライブラリ ](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
+   ![&#x200B; デザインライブラリ &#x200B;](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. 作成するデザインのカードにマウスを合わせ、**[!UICONTROL Copy]** アイコンをクリックします。
 
@@ -91,7 +91,7 @@ ht-degree: 25%
 
 [!UICONTROL Design] ライブラリ内の目的のデザインにカーソルを合わせ、適切なアイコン（「編集」、「コピー」、「削除」など）をクリックします。
 
-デザインの![ アイコンにカーソルを合わせる](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+デザインの![&#x200B; アイコンにカーソルを合わせる](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
 既存のデザインをコピーして複製したデザインを作成し、変更することができます。 このプロセスにより、より少ない労力で同様のデザインを作成できます。
 
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 

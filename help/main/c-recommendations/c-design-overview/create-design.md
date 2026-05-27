@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1006
@@ -30,11 +32,11 @@ ht-degree: 24%
 
 次の図は、デフォルトの1 x 4 デザインを示しています。
 
-![1 x 4 デフォルトデザイン ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![1 x 4 デフォルトデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 次の図は、カスタムデザインを示しています。
 
-![ カスタムデザイン ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![&#x200B; カスタムデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 アクティビティ作成プロセス中に、[!UICONTROL Visual Experience Composer] （VEC）内またはアクティビティ作成以外のデザインライブラリからデザインを作成できます。 次のセクションでは、ライブラリからデザインを作成することを前提としていますが、手順は似ています。
 
@@ -47,11 +49,11 @@ ht-degree: 24%
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
 
-1. 作成するデザインの「その他のアクション」アイコン（![その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Copy]**」をクリックします。
+1. 作成するデザインの「その他のアクション」アイコン（![その他のアクション」アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Copy]**」をクリックします。
 
    [!UICONTROL Create Design] ダイアログボックスが表示されます。
 
-1. デザイン カードに表示する&#x200B;**[!UICONTROL  Name]**&#x200B;とオプションのプレビュー画像を入力します。
+1. デザイン カードに表示する&#x200B;**[!UICONTROL &#x200B; Name]**&#x200B;とオプションのプレビュー画像を入力します。
 
    デフォルトのデザインを使用すると、**[!UICONTROL Content Name]** フィールドにデザイン名と「コピー」が表示されます。 名前は編集できます。 デザインカードに表示する画像を選択することもできます。
 
@@ -73,7 +75,7 @@ ht-degree: 24%
 
 1. **[!UICONTROL Create Design]** をクリックします。
 
-   新しいカスタムデザインを既存のデザインに基づいて作成する場合は、作成するデザインの[!UICONTROL More Actions] アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、[!UICONTROL Copy]をクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
+   新しいカスタムデザインを既存のデザインに基づいて作成する場合は、作成するデザインの[!UICONTROL More Actions] アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、[!UICONTROL Copy]をクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
 
 1. **[!UICONTROL Name]**&#x200B;とオプションのプレビュー画像を追加します。
 
@@ -87,7 +89,7 @@ ht-degree: 24%
 
 デフォルトデザインは編集またはコピーできません。デフォルトデザインのみコピーできます。
 
-編集または削除するデザインの[!UICONTROL More Actions] アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、または[!UICONTROL Delete]）をクリックします。
+編集または削除するデザインの[!UICONTROL More Actions] アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、または[!UICONTROL Delete]）をクリックします。
 
 既存のデザインをコピーして複製したデザインを作成し、変更することができます。 このプロセスにより、より少ない労力で同様のデザインを作成できます。
 
@@ -95,7 +97,7 @@ ht-degree: 24%
 
 ## JSON の例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-次の例は、[ フォームベースのエディター](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを設定する際に、JSON応答を返す方法を示しています。
+次の例は、[&#x200B; フォームベースのエディター](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを設定する際に、JSON応答を返す方法を示しています。
 
 1. [!UICONTROL Design library]内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC） ワークフロー内でデザインを作成しようとすると、クリックトラッキング用に`<div>`にラップされたHTML デザイン以外は作成できません。
 
@@ -316,7 +318,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
