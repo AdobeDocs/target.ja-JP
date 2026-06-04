@@ -44,4 +44,4 @@ ht-degree: 71%
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。 エクスペリエンスパフォーマンスレポートについては、8:20から説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)

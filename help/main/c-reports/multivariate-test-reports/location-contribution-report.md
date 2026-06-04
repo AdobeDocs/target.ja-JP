@@ -43,4 +43,4 @@ ht-degree: 32%
 
 このビデオでは、[!DNL Target] 3段階のガイド付きワークフローを使用して多変量テストを作成する方法を示します。 場所の貢献度レポートは、8:45から説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)

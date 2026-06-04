@@ -181,7 +181,7 @@ HTML ページ全体で[!UICONTROL &#x200B; エクスペリエンスフラグメ
 
 次のビデオでは、[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を設定して使用する方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/38085?captions=jpn)
 
 >[!NOTE]
 >

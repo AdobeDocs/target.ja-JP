@@ -325,4 +325,4 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 * カスタムデザインの作成
 * デザインで表示変数を参照する方法について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/27687)
+>[!VIDEO](https://video.tv.adobe.com/v/35340?captions=jpn)

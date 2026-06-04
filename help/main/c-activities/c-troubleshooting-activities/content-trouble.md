@@ -220,12 +220,12 @@ adobe.target.trackEvent({
 
 ### 拡張機能![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)を追加
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/34063?captions=jpn)
 
 ### Adobe Target の基本的なデバッグ ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/34064?captions=jpn)
 
 ### Mbox Trace ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/34065?captions=jpn)

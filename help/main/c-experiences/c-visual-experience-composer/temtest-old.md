@@ -107,4 +107,4 @@ ht-degree: 32%
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)

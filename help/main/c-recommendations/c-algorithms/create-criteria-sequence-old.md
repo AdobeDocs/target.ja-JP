@@ -95,4 +95,4 @@ ht-degree: 32%
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35341?captions=jpn&quality=12)

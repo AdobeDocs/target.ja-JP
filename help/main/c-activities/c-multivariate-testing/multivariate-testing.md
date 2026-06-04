@@ -106,7 +106,7 @@ Targetの[Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-cr
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
 
 ### 多変量テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
@@ -115,4 +115,4 @@ Targetの[Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-cr
 * 多変量分析テストの定義と設計
 * 多変量分析テストの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)
