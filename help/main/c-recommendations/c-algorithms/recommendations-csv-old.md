@@ -38,13 +38,13 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
       >
       >上記の手順により、[!UICONTROL 新規条件の作成] ダイアログボックスの下部に「[!UICONTROL CSV]をアップロード」セクションが表示されます。
 
-1. （条件付き）「[ コンテンツをバックアップ ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
+1. （条件付き）「[&#x200B; コンテンツをバックアップ &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
 
-1. （条件付き）「[包含ルール ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
+1. （条件付き）「[包含ルール &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
 
 1. 「**[!UICONTROL CSVをアップロード]**」セクションで、CSV ファイルの&#x200B;**[!UICONTROL 場所]**&#x200B;を選択します。
 
-   ![CSV セクションをアップロード ](assets/upload-csv.png)
+   ![CSV セクションをアップロード &#x200B;](assets/upload-csv.png)
 
    アップロードを成功させるには、CSV ファイルが正しくフォーマットされている必要があります。 「**[!UICONTROL CSV テンプレートのダウンロード]**」をクリックして、正しくフォーマットされた CSV ファイルをダウンロードします。
 
@@ -67,7 +67,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 
   カスタム条件のアップロードと同期のステータスは、[!UICONTROL Recommendations] > [!UICONTROL Criteria] ページの各条件カードの下部に表示されます。 カスタム条件を編集する際に、[!UICONTROL 編集] ダイアログボックスにステータスを表示することもできます。
 
-* エラーのないアップロードのフローは、[!UICONTROL  スケジュール済み] > [!UICONTROL  フィードファイルのダウンロード ] > [!UICONTROL  インポート ] > [!UICONTROL 成功]である必要があります。
+* エラーのないアップロードのフローは、[!UICONTROL &#x200B; スケジュール済み] > [!UICONTROL &#x200B; フィードファイルのダウンロード &#x200B;] > [!UICONTROL &#x200B; インポート &#x200B;] > [!UICONTROL 成功]である必要があります。
 
 * [!DNL Target]がアップロードに問題が発生した場合に表示される可能性のあるエラーメッセージは次のとおりです。
 
@@ -80,7 +80,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
   | ディレクトリが見つかりません | サーバーに存在するディレクトリを指定します。 |
   | ファイルが見つかりません | サーバー上の指定したディレクトリに存在するファイルの名前を指定します。 |
 
-## トレーニングビデオ：Recommendationsで条件を作成する（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendationsで条件を作成する（12:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています（カスタム条件のアップロードの詳細は11:43から始まります）。
 

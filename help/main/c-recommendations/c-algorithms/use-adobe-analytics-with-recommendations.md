@@ -6,9 +6,14 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 804
@@ -22,11 +27,11 @@ ht-degree: 81%
 
 [!DNL Analytics] を行動データソースとして使用すると、ユーザーの行動に関する豊富な情報のソースとして機能できます。 この情報には、[!DNL Analytics] とのみ共有されるサードパーティのソースやフィードからのデータが含まれる場合があります。
 
-[!DNL Recommendations]で[条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)していますが、使用するデータソースを選択できるラジオボタンが2つあります：[!UICONTROL mboxes]または[!UICONTROL Analytics]。 条件を作成するには、[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL 条件を作成] > [!UICONTROL 条件を作成]をクリックします。 詳しくは、 [条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
+[!DNL Recommendations]で[条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)していますが、使用するデータソースを選択できるラジオボタンが2つあります：[!UICONTROL mboxes]または[!UICONTROL Analytics]。 条件を作成するには、[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL 条件を作成] > [!UICONTROL 条件を作成]をクリックします。 詳しくは、 [条件の作成 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
 
 >[!NOTE]
 >
->これら 2 つのボタンがアカウントに表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
+>これら 2 つのボタンがアカウントに表示されない場合は、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
 
 ## [!DNL Target]の[!DNL Analytics] データの使用例
 

@@ -13,29 +13,29 @@ ht-degree: 16%
 
 # オファー
 
-コード オファーと画像オファーのコンテンツを管理するには、[!DNL Adobe Target]の[!UICONTROL  オファー] ライブラリを使用します。
+コード オファーと画像オファーのコンテンツを管理するには、[!DNL Adobe Target]の[!UICONTROL &#x200B; オファー] ライブラリを使用します。
 
 1. **[!UICONTROL オファー]**&#x200B;をクリックして、ライブラリを開きます。
 
    ライブラリには、[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager]（AEM）、[!DNL Adobe Mobile Services]（AMS）および API で設定されたオファーが含まれています。 [!DNL Target Classic] またはその他のソリューションで作成されたオファーは [!DNL Target Standard/Premium] で編集可能です。
 
-   [!UICONTROL  オファー] ページには、右側に2つのタブがあります。[!UICONTROL  コードオファー]と[!UICONTROL 画像オファー] タイプ別にオファーを表示できます。
+   [!UICONTROL &#x200B; オファー] ページには、右側に2つのタブがあります。[!UICONTROL &#x200B; コードオファー]と[!UICONTROL 画像オファー] タイプ別にオファーを表示できます。
 
-   ![ オファーページに「コードオファー」タブと「画像オファー」タブが表示されている](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
+   ![&#x200B; オファーページに「コードオファー」タブと「画像オファー」タブが表示されている](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. （オプション）「**[!UICONTROL タイプ]**」ドロップダウンリストをクリックして、オファーをタイプ別にフィルタリングします（HTML オファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[ リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[ リモートオファー](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)、および[ フォルダー](/help/main/c-experiences/c-manage-content/create-content-folder.md)）。
+1. （オプション）「**[!UICONTROL タイプ]**」ドロップダウンリストをクリックして、オファーをタイプ別にフィルタリングします（HTML オファー、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[&#x200B; リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[&#x200B; リモートオファー](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)、および[&#x200B; フォルダー](/help/main/c-experiences/c-manage-content/create-content-folder.md)）。
 
    ![offers_filter image](assets/offers_filter.png)
 
 1. （オプション）「**[!UICONTROL Source]**」ドロップダウンリストをクリックして、オファーをソース別にフィルタリングします（Adobe Target、Adobe Target Classic、Adobe Experience Manager）。
 
-1. （オプション）「[!UICONTROL  コードオファー]」タブの目的のオファーまたはフォルダーにカーソルを合わせ、目的のアイコンをクリックして、追加のタスクを実行します。
+1. （オプション）「[!UICONTROL &#x200B; コードオファー]」タブの目的のオファーまたはフォルダーにカーソルを合わせ、目的のアイコンをクリックして、追加のタスクを実行します。
 
-   ![ コードオファーオプション ](assets/offer-picker-large.png)
+   ![&#x200B; コードオファーオプション &#x200B;](assets/offer-picker-large.png)
 
    オプションは以下のとおりです。
 
-   * 表示（詳細については、以下の「[ オファー定義の表示](#section_6B059DD121434E6292CAB393507D010E)」を参照してください）。
+   * 表示（詳細については、以下の「[&#x200B; オファー定義の表示](#section_6B059DD121434E6292CAB393507D010E)」を参照してください）。
    * 編集
    * コピー
    * 移動（例えば、1つ以上のアイテムをフォルダーに移動するには、目的のアイテムの&#x200B;**[!UICONTROL 移動]** アイコンをクリックし、目的のフォルダーをクリックしてから、**[!UICONTROL ドロップ]**&#x200B;をクリックします）。
@@ -43,11 +43,11 @@ ht-degree: 16%
 
    権限によっては、すべてのオプションにアイコンが表示されない場合があります。 例えば、[!UICONTROL Observer]権限を持つユーザーには、[!UICONTROL Copy] オプションを使用する権限がありません。
 
-   オファーとフォルダーで実行できるタスクについて詳しくは、[ アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
+   オファーとフォルダーで実行できるタスクについて詳しくは、[&#x200B; アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
 
 1. （オプション）「[!UICONTROL 画像オファー]」タブの目的の画像オファーまたはフォルダーにカーソルを合わせ、目的のアイコンをクリックして、追加のタスクを実行します。
 
-   ![画像オファーオプション ](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
+   ![画像オファーオプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
 
    オプションは以下のとおりです。
 
@@ -58,11 +58,11 @@ ht-degree: 16%
    * 注釈
    * コピー
 
-   オファーとフォルダーで実行できるタスクについて詳しくは、[ アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
+   オファーとフォルダーで実行できるタスクについて詳しくは、[&#x200B; アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
 
    >[!NOTE]
    >
-   >画像オファーは、[ エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデルの一部ではありません。
+   >画像オファーは、[&#x200B; エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデルの一部ではありません。
 
 
 ## オファー定義の表示 {#section_6B059DD121434E6292CAB393507D010E}
@@ -80,9 +80,9 @@ ht-degree: 16%
 * タイプ
 * 最終変更日
 
-「[!UICONTROL 詳細を表示]」リンクをクリックして、オファーコンテンツと、コードオファーを参照するアクティビティを表示します。 これにより、オファーの編集中に他のアクティビティに影響が及ぶことを防止できます。 情報には、[!UICONTROL  ライブアクティビティ ]と[!UICONTROL 非アクティブアクティビティ ]が含まれます。
+「[!UICONTROL 詳細を表示]」リンクをクリックして、オファーコンテンツと、コードオファーを参照するアクティビティを表示します。 これにより、オファーの編集中に他のアクティビティに影響が及ぶことを防止できます。 情報には、[!UICONTROL &#x200B; ライブアクティビティ &#x200B;]と[!UICONTROL 非アクティブアクティビティ &#x200B;]が含まれます。
 
-各カードで利用できる情報は、オファータイプによって異なります。HTML オファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[ リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[ リモートオファー](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、または[JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
+各カードで利用できる情報は、オファータイプによって異なります。HTML オファー、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[&#x200B; リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[&#x200B; リモートオファー](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、または[JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
 
 オファーの詳細機能は、画像オファーには適用されません。
 

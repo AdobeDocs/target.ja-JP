@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->条件とプロモーションに含めるルール ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成して使用する[ プロセスは、ユースケースと例と同様に類似しています。
+>条件とプロモーションに含めるルール [&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成して使用する プロセスは、ユースケースと例と同様に類似しています。
 
 例えば、次の例のように、現在の項目のブランドに一致する項目のみをレコメンデーションします。
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 ## エンティティ属性の一致の例
 
-[!UICONTROL  エンティティ属性一致]を使用すると、次のように一致する項目のみをレコメンデーションできます。
+[!UICONTROL &#x200B; エンティティ属性一致]を使用すると、次のように一致する項目のみをレコメンデーションできます。
 
 * ユーザーが現在表示している項目の属性
 * ユーザーが最近閲覧した項目
@@ -48,17 +48,17 @@ ht-degree: 4%
 
 ページのレコメンデーションには、ブランド Aの商品のみが表示されます。
 
-![ ブランド Aのおすすめ](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
+![&#x200B; ブランド Aのおすすめ](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
 ブランド Bの製品ページを表示すると、`entity.brand`の値が「ブランド B」にリセットされ、ブランド Bの製品ページでブランド Bの製品が推奨されます。
 
-![ ブランド B レコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
+![&#x200B; ブランド B レコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### より高価な商品へのアップセル
 
 例えば、アパレル企業が、retailerの高価格帯の商品を購入するように促したい場合、 「等しい」演算子と「次の値の間にある」演算子を使用すると、同じカテゴリと同じブランドの高価な項目を宣伝できます。 例えば、靴のretailerは、次のサンプルのように、ランニングシューズを見ている訪問者にアップセルするために、より高価なランニングシューズを宣伝できます。
 
-![ アップセル ](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
+![&#x200B; アップセル &#x200B;](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 
 ```
 Entity Attribute Matching
@@ -75,7 +75,7 @@ value - is between - 100% and 1000% of - current item's - value
 
 動的フィルターと静的フィルターを組み合わせることで、プライベートラベルの商品を宣伝できます。 たとえば、オフィス用品メーカーは、同社のハウスブランドのトナーカートリッジを宣伝して、トナーを見る訪問者にとってより収益性の高い販売を促進することができます。また、次の例のように、同社のハウスブランドのペンを宣伝して、ペンを見る訪問者にとってより収益性の高い販売を促進することもできます。
 
-![ ハウスブランド ](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
+![&#x200B; ハウスブランド &#x200B;](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching

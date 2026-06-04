@@ -1,7 +1,7 @@
 ---
 keywords: 多変量テスト；アクティビティ URL
-description: '[!UICONTROL 多変量テスト ] アクティビティが [!DNL Adobe Target]を使用して設計されたときに開く、テストで使用されるページを決定するアクティビティ URLを指定する方法を説明します。'
-title: '[!UICONTROL 多変量テスト ] （MVT）アクティビティのアクティビティ URLは何ですか？'
+description: '[!UICONTROL 多変量テスト &#x200B;] アクティビティが [!DNL Adobe Target]を使用して設計されたときに開く、テストで使用されるページを決定するアクティビティ URLを指定する方法を説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティのアクティビティ URLは何ですか？'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
@@ -13,7 +13,7 @@ ht-degree: 45%
 
 # アクティビティ URL
 
-アクティビティ URLにより、[!UICONTROL 多変量テスト ] （MVT）で使用され、[!DNL Adobe Target]でテストが設計されたときに開くページが決まります。
+アクティビティ URLにより、[!UICONTROL 多変量テスト &#x200B;] （MVT）で使用され、[!DNL Adobe Target]でテストが設計されたときに開くページが決まります。
 
 [アクティビティ作成](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)中にアクティビティ URL の入力を求められたら、URL を指定します。 完全なURL （`https://`を含む）を入力し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 

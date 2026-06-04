@@ -30,7 +30,7 @@ ht-degree: 32%
 
 変更要素を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-1. 「[ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
+1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で歯車アイコンをクリックし、**[!UICONTROL ページ配信]**&#x200B;を選択します。
 
@@ -40,7 +40,7 @@ ht-degree: 32%
 
 1. ページの範囲を指定します。 ページの範囲は、次のいずれかの方法で指定します。
 
-   * URL （TargetによるURLの評価方法について詳しくは、[ ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
+   * URL （TargetによるURLの評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
    * ドメイン
    * パス
    * ハッシュ（#）フラグメント（#記号に続くURLの部分をターゲットにする）
@@ -88,7 +88,7 @@ ht-degree: 32%
 * グローバルバナー（COVID-19の発表など）を含めるには
 * グローバルな送料無料プロモーションを含めるには
 
-1. 「[ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
+1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスが表示されるドメインを指定するには、Visual Experience Composerで歯車アイコンをクリックし、**[!UICONTROL ページ配信]**&#x200B;を選択します。
 
@@ -96,9 +96,9 @@ ht-degree: 32%
 
 1. **[!UICONTROL 評価者を選択]** ドロップダウンから、**[!UICONTROL 含む]**&#x200B;を選択し、ドメインを指定します。
 
-   ![ ドメインに](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)が含まれています
+   ![&#x200B; ドメインに](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)が含まれています
 
-## トレーニングビデオ：Visual Experience Composer （2/2） （7:29） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Visual Experience Composer （2/2） （7:29） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成

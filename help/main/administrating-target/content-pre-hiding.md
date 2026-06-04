@@ -31,7 +31,7 @@ ht-degree: 3%
 
 1. [!DNL Target]は、ライブ [!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer] アクティビティからルールセットを構築します。 ルールセットには、配信が変更される可能性のあるセレクターと地域が一覧表示されます。
 
-   [!UICONTROL  フォームベースのComposer] アクティビティはサポートされていません。
+   [!UICONTROL &#x200B; フォームベースのComposer] アクティビティはサポートされていません。
 
 1. ライブラリは、Adobe CDNからルールセットを取得し、パーソナライズされたコンテンツの読み込み中にのみ一致する要素を事前に非表示にします。
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 
 インスタンスの事前非表示を有効にして、各アクティビティで&#x200B;**[!UICONTROL 目標と設定]**&#x200B;で使用するかどうかを選択します。 事前非表示を有効にしたアクティビティは、公開時にターゲットとなる動作に含まれます。
 
-次に、[!DNL Target]は、[!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL  フォームベースのComposer]で作成されたライブアクティビティから軽量ルールセットを作成し、配信が変更できるセレクターと領域を説明します。
+次に、[!DNL Target]は、[!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL &#x200B; フォームベースのComposer]で作成されたライブアクティビティから軽量ルールセットを作成し、配信が変更できるセレクターと領域を説明します。
 
 アクティビティを作成または編集する場合：
 

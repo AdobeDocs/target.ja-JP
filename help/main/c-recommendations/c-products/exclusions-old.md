@@ -37,7 +37,7 @@ ht-degree: 32%
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions] リストビューで各除外について報告された「項目数」は、設定されたデフォルトのRecommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   [!UICONTROL Exclusions] リストビューで各除外について報告された「項目数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. 「**[!UICONTROL 除外を作成]**」をクリックします。
 
@@ -55,9 +55,9 @@ ht-degree: 32%
 
 ## 詳細検索を使用した除外の作成
 
-また、[ カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ （[!UICONTROL おすすめ] > [!UICONTROL  カタログ検索] > [!UICONTROL 高度な検索]）の[!UICONTROL 高度な検索]を使用して除外を作成することもできます。
+また、[&#x200B; カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ （[!UICONTROL おすすめ] > [!UICONTROL &#x200B; カタログ検索] > [!UICONTROL 高度な検索]）の[!UICONTROL 高度な検索]を使用して除外を作成することもできます。
 
-![別名で保存ダイアログ ](/help/main/c-recommendations/c-products/assets/save-as.png)
+![別名で保存ダイアログ &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。
 
@@ -69,13 +69,13 @@ ht-degree: 32%
 
 リスト内の目的の除外にカーソルを合わせ、編集、コピー、削除の適切なアイコンをクリックします。
 
-除外のアイコンに![ カーソルを合わせる](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
+除外のアイコンに![&#x200B; カーソルを合わせる](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
 既存の除外をコピーして重複した除外を作成し、変更することができます。 これにより、より少ない労力で同様の除外を作成できます。
 
 除外は、アカウント全体で使用できます。 除外を削除する前に、このことを考慮してください。 削除された除外は復元できません。
 
-## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

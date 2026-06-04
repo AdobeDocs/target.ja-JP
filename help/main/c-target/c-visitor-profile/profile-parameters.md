@@ -5,9 +5,16 @@ title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2520
@@ -37,7 +44,7 @@ ht-degree: 88%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。 *ターゲット開発者ガイド*&#x200B;の「[ グローバル Mboxにパラメーターを渡す](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank}」を参照してください。<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。 50を超えるプロファイル属性を[!DNL Target]に渡す必要がある場合は、[!UICONTROL Profile Update API] メソッドを使用して渡します。 詳しくは、*Target開発者ガイド*&#x200B;の「[ プロファイルの更新](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank}」を参照してください。 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。 *ターゲット開発者ガイド*&#x200B;の「[&#x200B; グローバル Mboxにパラメーターを渡す](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank}」を参照してください。<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。 50を超えるプロファイル属性を[!DNL Target]に渡す必要がある場合は、[!UICONTROL Profile Update API] メソッドを使用して渡します。 詳しくは、*Target開発者ガイド*&#x200B;の「[&#x200B; プロファイルの更新](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank}」を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。 これらのスニペットは、現在の合計数（顧客の支出合計額など）を保存することができ、mbox リクエストごとに実行されます。 以下の&#x200B;*プロファイルスクリプト属性*&#x200B;を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -50,13 +57,13 @@ ht-degree: 88%
 
 ## プロファイルスクリプトの作成 {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-プロファイルスクリプトは、[!DNL Target] インターフェイスの「[!UICONTROL  オーディエンス ]」タブで使用できます。
+プロファイルスクリプトは、[!DNL Target] インターフェイスの「[!UICONTROL &#x200B; オーディエンス &#x200B;]」タブで使用できます。
 
 プロファイルスクリプトを追加するには、「**[!UICONTROL プロファイルスクリプト]**」タブ「**[!UICONTROL スクリプトを作成]**」をクリックし、スクリプトを作成します。
 
 または
 
-既存のプロファイルスクリプトをコピーするには、[!UICONTROL  プロファイルスクリプト ] リストから、目的のスクリプトの省略記号アイコンをクリックし、**[!UICONTROL 複製]**&#x200B;をクリックします。
+既存のプロファイルスクリプトをコピーするには、[!UICONTROL &#x200B; プロファイルスクリプト &#x200B;] リストから、目的のスクリプトの省略記号アイコンをクリックし、**[!UICONTROL 複製]**&#x200B;をクリックします。
 
 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
@@ -89,9 +96,9 @@ if (mbox.name == 'Track_Interest') {
 
 プロファイルスクリプトの情報については、オファー情報カードと同様のポップアップカードを表示できます。 これらのプロファイルスクリプト情報カードでは、選択したプロファイルスクリプトを参照しているアクティビティのリストやその他の有用なメタデータが表示されます。
 
-例えば、次のプロファイルスクリプト情報カードにアクセスするには、リスト（[!UICONTROL  オーディエンス ] > [!UICONTROL  プロファイルスクリプト ]）から、目的のプロファイルスクリプトの[!UICONTROL 情報] アイコンをクリックします。
+例えば、次のプロファイルスクリプト情報カードにアクセスするには、リスト（[!UICONTROL &#x200B; オーディエンス &#x200B;] > [!UICONTROL &#x200B; プロファイルスクリプト &#x200B;]）から、目的のプロファイルスクリプトの[!UICONTROL 情報] アイコンをクリックします。
 
-「[!UICONTROL  スクリプト情報]」タブには、名前、説明、スクリプトコードの情報が含まれています。
+「[!UICONTROL &#x200B; スクリプト情報]」タブには、名前、説明、スクリプトコードの情報が含まれています。
 
 ![プロファイルスクリプト情報カード](assets/profile_script_info_card.png)
 
@@ -101,9 +108,9 @@ if (mbox.name == 'Track_Interest') {
 
 >[!NOTE]
 >
->「[!UICONTROL  スクリプト使用状況]」タブには、次の状況で、選択したプロファイルスクリプトを参照するアクティビティが表示されません。
+>「[!UICONTROL &#x200B; スクリプト使用状況]」タブには、次の状況で、選択したプロファイルスクリプトを参照するアクティビティが表示されません。
 >
-> * アクティビティは[!UICONTROL  ドラフト ]状態です。
+> * アクティビティは[!UICONTROL &#x200B; ドラフト &#x200B;]状態です。
 > * アクティビティで使用されるコンテンツまたはオファーが、スクリプト変数（アクティビティ内のインラインオファーまたはオファーライブラリ内のオファー）を使用する場合。
 
 ## 特定の状況での Target によるプロファイルスクリプトの無効化 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -168,7 +175,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **mboxTrace デバッグツールを使用して、プロファイルスクリプトをデバッグする**
 
-  この方法では、[!UICONTROL  デバッガーツール ] セクションの&#x200B;**[!UICONTROL Target]** > **[!UICONTROL 管理]** > **[!UICONTROL 実装]** > **[!UICONTROL 認証トークンを生成]**&#x200B;をクリックして生成できる認証トークンが必要です。
+  この方法では、[!UICONTROL &#x200B; デバッガーツール &#x200B;] セクションの&#x200B;**[!UICONTROL Target]** > **[!UICONTROL 管理]** > **[!UICONTROL 実装]** > **[!UICONTROL 認証トークンを生成]**&#x200B;をクリックして生成できる認証トークンが必要です。
 
   その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の「?」の後に追加します。
 
@@ -180,7 +187,7 @@ if (mbox.name == 'Track_Interest') {
 
 **プロファイルスクリプトを使用してデータレイヤーにあるページから情報を取得できますか？**
 
-プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。 データは、mbox リクエストまたはTarget](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}にデータを取得する他の[方法を通じて渡す必要があります。 データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
+プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。 データは、mbox リクエストまたはTarget[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}にデータを取得する他の方法を通じて渡す必要があります。 データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
 
 ## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 

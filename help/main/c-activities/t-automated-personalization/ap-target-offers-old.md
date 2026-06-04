@@ -30,12 +30,12 @@ ht-degree: 30%
 
 ## ターゲティングルールの設定
 
-1. ターゲットにするオファーを含む[Automated Personalization アクティビティ ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)を作成します。
+1. ターゲットにするオファーを含む[Automated Personalization アクティビティ &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)を作成します。
 1. [!UICONTROL Visual Experience Composer]でアクティビティのオファーを設定したら、**[!UICONTROL コンテンツの管理]**&#x200B;をクリックします。
 
    ![コンテンツを管理](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   [!UICONTROL  コンテンツの管理] ダイアログボックスが表示されます。
+   [!UICONTROL &#x200B; コンテンツの管理] ダイアログボックスが表示されます。
 
 1. 「**[!UICONTROL オファー]**」タブをクリックします。
 
@@ -47,7 +47,7 @@ ht-degree: 30%
 
    複数のオファーのターゲティングを設定するには、目的のオファーのチェックボックスを選択し、リストの右上に表示される&#x200B;**[!UICONTROL ターゲティング]** アイコンをクリックします。
 
-1. [!UICONTROL  オーディエンスを選択] ダイアログボックスで、オファーに必要なオーディエンスを選択し、**[!UICONTROL 完了]**&#x200B;をクリックして[!UICONTROL  コンテンツを管理] ダイアログボックスに戻ります。
+1. [!UICONTROL &#x200B; オーディエンスを選択] ダイアログボックスで、オファーに必要なオーディエンスを選択し、**[!UICONTROL 完了]**&#x200B;をクリックして[!UICONTROL &#x200B; コンテンツを管理] ダイアログボックスに戻ります。
 
    >[!NOTE]
    >

@@ -5,9 +5,12 @@ title: オーディエンスの構築方法を教えてください。
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 538
@@ -17,7 +20,7 @@ ht-degree: 47%
 
 # [!DNL Target]でオーディエンスを作成
 
-カスタマイズしたオーディエンスを作成し、アクティビティで使用するために[!DNL Adobe Target] [!UICONTROL  オーディエンス ] ライブラリに保存します。 既存のオーディエンスをコピーして編集し、類似のオーディエンスを作成したり、複数のオーディエンスを組み合わせたりすることもできます。
+カスタマイズしたオーディエンスを作成し、アクティビティで使用するために[!DNL Adobe Target] [!UICONTROL &#x200B; オーディエンス &#x200B;] ライブラリに保存します。 既存のオーディエンスをコピーして編集し、類似のオーディエンスを作成したり、複数のオーディエンスを組み合わせたりすることもできます。
 
 ## オーディエンスの概要
 
@@ -43,11 +46,11 @@ ht-degree: 47%
 
    ![audiences_list image](assets/audiences_list.png)
 
-1. [!UICONTROL  オーディエンス ]のリストから、「**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!UICONTROL &#x200B; オーディエンス &#x200B;]のリストから、「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 
    または
 
-   既存のオーディエンスをコピーするには、[!UICONTROL  オーディエンス ] リストから、コピーするオーディエンスの&#x200B;**[!UICONTROL その他のアクション]** アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 複製]**&#x200B;をクリックします。 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
+   既存のオーディエンスをコピーするには、[!UICONTROL &#x200B; オーディエンス &#x200B;] リストから、コピーするオーディエンスの&#x200B;**[!UICONTROL その他のアクション]** アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 複製]**&#x200B;をクリックします。 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
 1. 一意でわかりやすいオーディエンス名と、オプションの説明を入力します。
 
@@ -61,15 +64,15 @@ ht-degree: 47%
 
 1. 左側の&#x200B;**[!UICONTROL 属性]** リストから目的の属性をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
-   ![属性をドラッグ&amp;ドロップ ](assets/drag-attribute.png)
+   ![属性をドラッグ&amp;ドロップ &#x200B;](assets/drag-attribute.png)
 
-   各ルールタイプには、独自のパラメーターがあります。 各タイプのオーディエンスルールの設定について詳しくは、[ オーディエンスのカテゴリ ](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)を参照してください。
+   各ルールタイプには、独自のパラメーターがあります。 各タイプのオーディエンスルールの設定について詳しくは、[&#x200B; オーディエンスのカテゴリ &#x200B;](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)を参照してください。
 
 1. ルールパラメーターを定義します。
 
    例えば、次のオーディエンスは、[!DNL Macintosh] オペレーティングシステムを使用してユタ州からの訪問者をターゲットにしています。
 
-   ![ ユタ州/Macintosh オーディエンス ](assets/adience-builder.png)
+   ![&#x200B; ユタ州/Macintosh オーディエンス &#x200B;](assets/adience-builder.png)
 
 1. （条件付き）目的の属性の追加と定義を続行します。
 
@@ -79,7 +82,7 @@ ht-degree: 47%
 
    処理遅延の数秒後に、新しく作成したオーディエンスがリストに表示されます。 オーディエンスがすぐにリストに表示されない場合は、オーディエンスを検索するか、リストを更新してください。
 
-## トレーニングビデオ：オーディエンスの作成![概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：オーディエンスの作成![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、オーディエンスの作成について説明します。
 

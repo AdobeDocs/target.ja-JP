@@ -5,9 +5,15 @@ title: Target で初めてアクティビティを作成する必要がありま
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1742
@@ -95,7 +101,7 @@ A/B テストのセットアップワークフローの 2 番目の手順で「[
 
 テストから統計的に有意な結論を導くには、テスト母集団に特定の数の訪問者を含む必要があります。 テストの参加者が 2 人だけであった場合、テスト結果を信頼できるでしょうか。
 
-[!DNL Target] は、統計的な原則に基づいて、テストの結果が統計的に有効であることを判断します。 [!DNL Adobe Target] [ サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)は、結果に必要な信頼性に基づいて、テストを実行する時間の長さを決定するのに役立ちます。 このボックスの[!UICONTROL 詳細] リンクをクリックして、電卓を開いて使用します。
+[!DNL Target] は、統計的な原則に基づいて、テストの結果が統計的に有効であることを判断します。 [!DNL Adobe Target] [&#x200B; サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)は、結果に必要な信頼性に基づいて、テストを実行する時間の長さを決定するのに役立ちます。 このボックスの[!UICONTROL 詳細] リンクをクリックして、電卓を開いて使用します。
 
 ### このアクティビティはどのくらい重要か。
 

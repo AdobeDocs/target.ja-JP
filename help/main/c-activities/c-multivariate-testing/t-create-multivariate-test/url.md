@@ -1,12 +1,14 @@
 ---
 keywords: 多変量テスト；アクティビティ URL
-description: '[!UICONTROL 多変量テスト ] アクティビティが [!DNL Adobe Target]を使用して設計されたときに開く、テストで使用されるページを決定するアクティビティ URLを指定する方法を説明します。'
-title: '[!UICONTROL 多変量テスト ] （MVT）アクティビティのアクティビティ URLは何ですか？'
+description: '[!UICONTROL 多変量テスト &#x200B;] アクティビティが [!DNL Adobe Target]を使用して設計されたときに開く、テストで使用されるページを決定するアクティビティ URLを指定する方法を説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティのアクティビティ URLは何ですか？'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 298
@@ -16,7 +18,7 @@ ht-degree: 38%
 
 # アクティビティ URL
 
-アクティビティ URLにより、[!UICONTROL 多変量テスト ] （MVT）で使用され、[!DNL Adobe Target]でテストが設計されたときに開くページが決まります。
+アクティビティ URLにより、[!UICONTROL 多変量テスト &#x200B;] （MVT）で使用され、[!DNL Adobe Target]でテストが設計されたときに開くページが決まります。
 
 1. [アクティビティ作成](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)中にアクティビティ URL の入力を求められたら、URL を指定します。 完全なURL （`https://`を含む）を入力し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
@@ -32,11 +34,11 @@ ht-degree: 38%
 
    追加のルールは、以下のいずれかに基づいています。
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL ドメイン]
-   * [!UICONTROL  パス ]
-   * [!UICONTROL  ハッシュ （#） フラグメント ]
-   * [!UICONTROL  クエリ ]
+   * [!UICONTROL &#x200B; パス &#x200B;]
+   * [!UICONTROL &#x200B; ハッシュ （#） フラグメント &#x200B;]
+   * [!UICONTROL &#x200B; クエリ &#x200B;]
    * [!UICONTROL カスタム]
 
    追加のルールは、ANDまたはORを使用してアクティビティ URLに結合できます。 追加したすべてのルールは、ANDを使用して相互に評価されます。

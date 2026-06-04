@@ -1,12 +1,15 @@
 ---
 keywords: 多変量；mvt；プレビュー；エクスペリエンス
-description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して [!DNL Adobe Target] の[!UICONTROL 多変量テスト ] （MVT）アクティビティで各エクスペリエンスをプレビューする方法について説明します。'
-title: '[!UICONTROL 多変量テスト ] （MVT）のエクスペリエンスをプレビューするにはどうすればよいですか？'
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して [!DNL Adobe Target] の[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティで各エクスペリエンスをプレビューする方法について説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）のエクスペリエンスをプレビューするにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 TQID: https://experienceleague.adobe.com/IswPThtgoGod4lcCbHWbsSp6-cTzhI6hi0CvTZ1al9A
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 229
@@ -16,15 +19,15 @@ ht-degree: 8%
 
 # [!UICONTROL 多変量テストのエクスペリエンスをプレビュー]
 
-[!DNL Adobe Target]の[!UICONTROL 多変量テスト ]は、ページ上の複数のエクスペリエンスを比較するため、各エクスペリエンスでページをプレビューすると便利です。
+[!DNL Adobe Target]の[!UICONTROL 多変量テスト &#x200B;]は、ページ上の複数のエクスペリエンスを比較するため、各エクスペリエンスでページをプレビューすると便利です。
 
-1. **[!UICONTROL プレビュー]**&#x200B;をクリックし、**[!UICONTROL エクスペリエンスを表示]** アイコン （![ エクスペリエンスを表示アイコン ](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
+1. **[!UICONTROL プレビュー]**&#x200B;をクリックし、**[!UICONTROL エクスペリエンスを表示]** アイコン （![&#x200B; エクスペリエンスを表示アイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
 
 1. リスト内の特定のエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
 
-1. （条件付き）アクティビティから1つ以上のエクスペリエンスを除外するには、**[!UICONTROL コンテンツを管理]** アイコン （![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL  コンテンツを管理] ダイアログボックスを表示します。
+1. （条件付き）アクティビティから1つ以上のエクスペリエンスを除外するには、**[!UICONTROL コンテンツを管理]** アイコン （![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL &#x200B; コンテンツを管理] ダイアログボックスを表示します。
 
-1. （条件付き）コンテンツを管理[!UICONTROL  ダイアログボックスで、除外するエクスペリエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。]
+1. （条件付き）コンテンツを管理&#x200B; ダイアログボックスで、除外するエクスペリエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 

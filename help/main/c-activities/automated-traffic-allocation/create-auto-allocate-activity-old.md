@@ -13,9 +13,9 @@ ht-degree: 39%
 
 # [!UICONTROL 自動割り当て] アクティビティの作成
 
-[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL 自動割り当て] [!UICONTROL A/B テスト ] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
+[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL 自動割り当て] [!UICONTROL A/B テスト &#x200B;] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
 
-[!UICONTROL 自動割り当て] [!UICONTROL A/B テスト ] アクティビティ（この記事で説明）に加えて、[!DNL Target]には、[!UICONTROL A/B テスト ] アクティビティの2つの追加タイプ（[!UICONTROL 手動（デフォルト） ]と[!UICONTROL 自動ターゲット ]）が用意されています。 *A/B テストの概要*&#x200B;の[A/B テスト アクティビティの種類](/help/main/c-activities/t-test-ab/test-ab.md#types)を参照してください。
+[!UICONTROL 自動割り当て] [!UICONTROL A/B テスト &#x200B;] アクティビティ（この記事で説明）に加えて、[!DNL Target]には、[!UICONTROL A/B テスト &#x200B;] アクティビティの2つの追加タイプ（[!UICONTROL 手動（デフォルト） &#x200B;]と[!UICONTROL 自動ターゲット &#x200B;]）が用意されています。 *A/B テストの概要*&#x200B;の[A/B テスト アクティビティの種類](/help/main/c-activities/t-test-ab/test-ab.md#types)を参照してください。
 
 [!UICONTROL 自動配分] アクティビティを作成するには：
 
@@ -27,17 +27,17 @@ ht-degree: 39%
 
 1. **[!UICONTROL A/B テスト アクティビティを作成]** ダイアログボックスで、必要に応じて&#x200B;**[!UICONTROL Visual]**&#x200B;を選択します。
 
-   [!UICONTROL  フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VECおよび[!UICONTROL  フォームベースのExperience Composer]に加えて、[!DNL Target]はシングルページアプリケーション VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
+   >VECおよび[!UICONTROL &#x200B; フォームベースのExperience Composer]に加えて、[!DNL Target]はシングルページアプリケーション VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
 1. （条件付き）[Target Premium](/help/main/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
-1. [ アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
+1. [&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
    アカウントにデフォルトの URL が設定されている場合は、その URL がデフォルトで表示されます。 必要に応じて、デフォルトから別のURLに変更できます。
 
@@ -62,7 +62,7 @@ ht-degree: 39%
 
    新しいアクティビティを作成すると、[!UICONTROL Visual Experience Composer] の左側に「エクスペリエンス A」と「エクスペリエンス B」の 2 つのタブが表示されます。エクスペリエンス A はコントロールエクスペリエンスです。 エクスペリエンス B タブに注目し、必要に応じて変更できます。 エクスペリエンス B は代替エクスペリエンスで、テストに追加することができます。 テストには複数のエクスペリエンスを追加できます。 デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
 
-   [!UICONTROL Visual Experience Composer]でのエクスペリエンスの追加と変更について詳しくは、[ エクスペリエンスの追加](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
+   [!UICONTROL Visual Experience Composer]でのエクスペリエンスの追加と変更について詳しくは、[&#x200B; エクスペリエンスの追加](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
 
 1. [!UICONTROL Visual Experience Composer]の上部にある&#x200B;**[!UICONTROL ターゲティング]**&#x200B;をクリックして、3段階のガイド付きワークフローの次のステップに移動します。
 
@@ -72,7 +72,7 @@ ht-degree: 39%
 
    フロー図を使用すると、アクティビティに対するオーディエンスの選択およびエクスペリエンスの設定を順に実行できます。
 
-1. [!UICONTROL  オーディエンス ] ボックスで、編集アイコン（垂直省略記号）をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックしてから、[ アクティビティのオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択します。
+1. [!UICONTROL &#x200B; オーディエンス &#x200B;] ボックスで、編集アイコン（垂直省略記号）をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックしてから、[&#x200B; アクティビティのオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択します。
 
    デフォルトでは、オーディエンスは[!UICONTROL すべての訪問者]に設定されています。
 
@@ -94,7 +94,7 @@ ht-degree: 39%
 
    * **[!UICONTROL 最適なエクスペリエンスに自動割り当て]**：ほとんどのアクティビティ参加者は、パフォーマンスの高いエクスペリエンスに自動的に送信されます。 一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。
 
-   * **[!UICONTROL パーソナライズされたエクスペリエンスのための自動ターゲティング]**: [!DNL Target]は、高度な機械学習を使用して、コンテンツをパーソナライズし、コンバージョンを促進します。複数のパフォーマンスの高いマーケター定義エクスペリエンスを特定し、個々の顧客プロファイルと類似の訪問者の過去の行動に基づいて、訪問者に最もカスタマイズされたエクスペリエンスを提供します。 詳しくは、[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
+   * **[!UICONTROL パーソナライズされたエクスペリエンスのための自動ターゲティング]**: [!DNL Target]は、高度な機械学習を使用して、コンテンツをパーソナライズし、コンバージョンを促進します。複数のパフォーマンスの高いマーケター定義エクスペリエンスを特定し、個々の顧客プロファイルと類似の訪問者の過去の行動に基づいて、訪問者に最もカスタマイズされたエクスペリエンスを提供します。 詳しくは、[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
 
    「**[!UICONTROL 追加]**」をクリックして、別のエクスペリエンスをアクティビティに追加することもできます。
 
@@ -104,7 +104,7 @@ ht-degree: 39%
 
    >[!NOTE]
    >
-   >このアクティビティで[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4Tの自動配分および自動ターゲットアクティビティのサポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)に関する重要な情報を参照してください。
+   >このアクティビティで[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4Tの自動配分および自動ターゲットアクティビティのサポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)に関する重要な情報を参照してください。
 
 1. **[!UICONTROL 保存して閉じる]**&#x200B;または&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックします。
 
@@ -114,7 +114,7 @@ ht-degree: 39%
 
 このビデオでは、[!DNL Target] で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。
 
-* [!DNL Adobe Target]に[!UICONTROL A/B テスト ] アクティビティを作成します
+* [!DNL Adobe Target]に[!UICONTROL A/B テスト &#x200B;] アクティビティを作成します
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

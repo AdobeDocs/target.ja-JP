@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 755
@@ -23,7 +25,7 @@ ht-degree: 31%
 
 コレクションは、製品や論理的な格納場所を整理するために使用できます。 例えば、ある地域で利用可能なアイテムが別の地域では利用できないアイテムがある場合、訪問者の地域で利用できないアイテムを除外するコレクションを作成できます。 また、コレクションを使用すると、季節的な品目やビジネスに適した任意の整理パラメーターによる整理をおこなえます。
 
-レコメンデーション内の各条件に対して生成された[ バックアップ レコメンデーション ](/help/main/c-recommendations/c-algorithms/backup-recs.md)もこのコレクションを使用するため、コレクション内のアイテムのみがバックアップ レコメンデーションに含まれます。 コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
+レコメンデーション内の各条件に対して生成された[&#x200B; バックアップ レコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md)もこのコレクションを使用するため、コレクション内のアイテムのみがバックアップ レコメンデーションに含まれます。 コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
 
 コレクションは、各条件が実行されるたびに、再構築または更新されます。
 
@@ -37,7 +39,7 @@ ht-degree: 31%
 >
 >* コレクションのルールは、条件の実行後に生成されたレコメンデーション項目に適用されます。 これらは、キーではなく、出力内のエンティティ推奨（ER）のみに影響します。
 >
->* [!UICONTROL 最近閲覧したアイテム ]のレコメンデーションキーを使用する場合、コレクションは適用されません。
+>* [!UICONTROL 最近閲覧したアイテム &#x200B;]のレコメンデーションキーを使用する場合、コレクションは適用されません。
 
 ## コレクションの作成 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -45,9 +47,9 @@ ht-degree: 31%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL コレクション]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
 
-   [!UICONTROL  コレクション ] ページには、既存のコレクションのリストが表示されます。 「[!UICONTROL  コレクションを作成]」ボタンをクリックして、新しいコレクションを作成します。 また、目的のコレクションの横にあるその他のアクション アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、目的のオプションをクリックして、既存のコレクションを編集、コピー、削除することもできます。
+   [!UICONTROL &#x200B; コレクション &#x200B;] ページには、既存のコレクションのリストが表示されます。 「[!UICONTROL &#x200B; コレクションを作成]」ボタンをクリックして、新しいコレクションを作成します。 また、目的のコレクションの横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、目的のオプションをクリックして、既存のコレクションを編集、コピー、削除することもできます。
 
-   [!UICONTROL  コレクション ] リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   [!UICONTROL &#x200B; コレクション &#x200B;] リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 
@@ -81,7 +83,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## コレクションの編集、コピー、削除
 
-リスト内の目的のコレクションの横にある（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL  コピー]、または[!DNL Delete]）をクリックします。
+リスト内の目的のコレクションの横にある（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL &#x200B; コピー]、または[!DNL Delete]）をクリックします。
 
 既存のコレクションをコピーして重複したコレクションを作成し、それを変更できます。 これにより、より少ない労力で同様のコレクションを作成できます。
 
@@ -93,6 +95,6 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. **[!UICONTROL アクティビティ]**&#x200B;と[をクリックして、新しいRecommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
 
-1. 条件とデザインを選択すると、[!UICONTROL  オプション ] ページが表示され、目的のコレクションを選択できます。
+1. 条件とデザインを選択すると、[!UICONTROL &#x200B; オプション &#x200B;] ページが表示され、目的のコレクションを選択できます。
 
 1. （条件付き）既存のコレクション設定を変更するには、**[!UICONTROL エクスペリエンス]** ページ（3つの部分のガイド付きワークフローのステップ 1）で、レコメンデーションを配置した場所をクリックし、**[!UICONTROL コレクションを変更]**&#x200B;をクリックしてから、目的のコレクションを選択します。

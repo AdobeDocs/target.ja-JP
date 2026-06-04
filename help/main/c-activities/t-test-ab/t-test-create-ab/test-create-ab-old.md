@@ -13,15 +13,15 @@ ht-degree: 36%
 
 # A/B テストの作成
 
-[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL A/B テスト ] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
+[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL A/B テスト &#x200B;] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
 
 >[!NOTE]
 >
->手動（デフォルト）の[!UICONTROL A/B テスト ] アクティビティ（この記事で説明）に加えて、[!DNL Target]には、[!UICONTROL A/B テスト ] アクティビティの2つの追加タイプが用意されています（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット ]）。
+>手動（デフォルト）の[!UICONTROL A/B テスト &#x200B;] アクティビティ（この記事で説明）に加えて、[!DNL Target]には、[!UICONTROL A/B テスト &#x200B;] アクティビティの2つの追加タイプが用意されています（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット &#x200B;]）。
 >
 >*A/B テストの概要*&#x200B;の[A/B テスト アクティビティの種類](/help/main/c-activities/t-test-ab/test-ab.md#types)を参照してください。
 
-手動の[!UICONTROL A/B テスト ] アクティビティを作成するには：
+手動の[!UICONTROL A/B テスト &#x200B;] アクティビティを作成するには：
 
 1. **[!UICONTROL アクティビティ]** リストから、**[!UICONTROL アクティビティの作成]** > **[!UICONTROL A/B テスト]**&#x200B;をクリックします。
 
@@ -35,19 +35,19 @@ ht-degree: 36%
 
 1. A/B テスト アクティビティを作成ダイアログから、必要に応じて&#x200B;**[!UICONTROL ビジュアル（デフォルト）]**&#x200B;を選択します。
 
-   [!UICONTROL  フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VECおよび[!UICONTROL  フォームベースのExperience Composer]に加えて、[!DNL Target]はシングルページアプリケーション VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
+   >VECおよび[!UICONTROL &#x200B; フォームベースのExperience Composer]に加えて、[!DNL Target]はシングルページアプリケーション VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-1. （条件付き）お客様が[Target Premiumのお客様](/help/main/c-intro/intro.md#premium)の場合、「**[!UICONTROL Workspaceを選択]**」ドロップダウンリストから「[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」を選択します。
+1. （条件付き）お客様が[Target Premiumのお客様](/help/main/c-intro/intro.md#premium)の場合、「**[!UICONTROL Workspaceを選択]**」ドロップダウンリストから「[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」を選択します。
 
    前の図の「[[!UICONTROL 職場を選択]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは[Target Premium](/help/main/c-intro/intro.md)機能であり、組織が[!UICONTROL Target Standard] ライセンスを持っている場合は表示されない可能性があります。
 
-1. **[!UICONTROL アクティビティ URLを入力]** ボックスで、[ アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
+1. **[!UICONTROL アクティビティ URLを入力]** ボックスで、[&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
    アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。 必要に応じて、デフォルトから別のURLに変更できます。
 
@@ -83,7 +83,7 @@ ht-degree: 36%
 
    新しいアクティビティを作成すると、[!UICONTROL Visual Experience Composer] の左側に「エクスペリエンス A」と「エクスペリエンス B」の 2 つのタブが表示されます。エクスペリエンス A はコントロールエクスペリエンスです。 エクスペリエンス B タブに注目し、必要に応じて変更できます。 エクスペリエンス Bは、テストに追加できる代替エクスペリエンスです。 テストには複数のエクスペリエンスを追加できます。 デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
 
-   [!UICONTROL Visual Experience Composer]でのエクスペリエンスの追加と変更について詳しくは、[ エクスペリエンスの追加](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
+   [!UICONTROL Visual Experience Composer]でのエクスペリエンスの追加と変更について詳しくは、[&#x200B; エクスペリエンスの追加](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
 
 1. [!UICONTROL Visual Experience Composer]の上部にある&#x200B;**[!UICONTROL ターゲティング]**&#x200B;をクリックして、3段階のガイド付きワークフローの次のステップに移動します。
 
@@ -93,7 +93,7 @@ ht-degree: 36%
 
    フロー図を使用すると、アクティビティに対するオーディエンスの選択およびエクスペリエンスの設定を順に実行できます。
 
-1. **[!UICONTROL オーディエンス]** ボックスで、編集アイコン（垂直省略記号）をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックしてから、[ アクティビティのオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択します。
+1. **[!UICONTROL オーディエンス]** ボックスで、編集アイコン（垂直省略記号）をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックしてから、[&#x200B; アクティビティのオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択します。
 
    デフォルトでは、オーディエンスは[!UICONTROL すべての訪問者]に設定されています。
 
@@ -125,11 +125,11 @@ ht-degree: 36%
 
 アクティビティを作成すると、「[!UICONTROL 概要]」タブに、アクティビティに関する情報（アクティビティの図を含む）が表示されます。
 
-## トレーニングビデオ：A/B テストの作成（8:36） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：A/B テストの作成（8:36） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。
 
-* [!DNL Adobe Target]に[!UICONTROL A/B テスト ] アクティビティを作成します
+* [!DNL Adobe Target]に[!UICONTROL A/B テスト &#x200B;] アクティビティを作成します
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

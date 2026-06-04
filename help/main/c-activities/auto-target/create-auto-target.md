@@ -1,14 +1,21 @@
 ---
 keywords: 自動ターゲティングの作成；A/B テスト；自動ターゲティングアクティビティ；新しいA/B アクティビティ；自動ターゲティング；パーソナライズされたエクスペリエンスの自動ターゲティング；パーソナライズされた；最適化
-description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して[!UICONTROL 自動ターゲット ] A/B テスト アクティビティを作成する方法を説明します。'
-title: '[!UICONTROL 自動ターゲット ] アクティビティを作成するにはどうすればよいですか？'
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して[!UICONTROL 自動ターゲット &#x200B;] A/B テスト アクティビティを作成する方法を説明します。'
+title: '[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 TQID: https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1062
@@ -16,33 +23,33 @@ ht-degree: 19%
 
 ---
 
-# [!UICONTROL 自動ターゲット ] アクティビティの作成
+# [!UICONTROL 自動ターゲット &#x200B;] アクティビティの作成
 
-[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL 自動ターゲット ] [!UICONTROL A/B テスト ] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
+[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL 自動ターゲット &#x200B;] [!UICONTROL A/B テスト &#x200B;] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
 
 >[!NOTE]
 >
->[!UICONTROL 自動ターゲット ]は、[!DNL Target Premium] ソリューションの一部として利用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。 このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md) を参照してください。
+>[!UICONTROL 自動ターゲット &#x200B;]は、[!DNL Target Premium] ソリューションの一部として利用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。 このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md) を参照してください。
 
-[!UICONTROL 自動ターゲット ] アクティビティを作成するには：
+[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成するには：
 
 1. **[!UICONTROL アクティビティ]** リストから、**[!UICONTROL アクティビティの作成]** > **[!UICONTROL A/B テスト]**&#x200B;をクリックします。
 
 1. [!UICONTROL A/B テスト アクティビティを作成] ダイアログから、必要に応じて&#x200B;**[!UICONTROL Visual]**&#x200B;を選択します。
 
-   [!UICONTROL  フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VECおよび[!UICONTROL  フォームベースのExperience Composer]に加えて、[!DNL Target]は[!UICONTROL 単一ページアプリケーション ]VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
+   >VECおよび[!UICONTROL &#x200B; フォームベースのExperience Composer]に加えて、[!DNL Target]は[!UICONTROL 単一ページアプリケーション &#x200B;]VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
-   >VECに関するトラブルシューティング情報については、[Visual Experience Composerのトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
+   >VECに関するトラブルシューティング情報については、[Visual Experience Composerのトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-1. （条件付き）お客様が[Target Premiumのお客様](/help/main/c-intro/intro.md#premium)の場合、「**[!UICONTROL Workspaceを選択]**」ドロップダウンリストから「[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」を選択します。
+1. （条件付き）お客様が[Target Premiumのお客様](/help/main/c-intro/intro.md#premium)の場合、「**[!UICONTROL Workspaceを選択]**」ドロップダウンリストから「[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」を選択します。
 
    「[[!UICONTROL 職場を選択]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは[Target Premium](/help/main/c-intro/intro.md)機能であり、組織が[!UICONTROL Target Standard] ライセンスを持っている場合は表示されない可能性があります。
 
-1. 「**[!UICONTROL アクティビティ URLを入力]**」ボックスに、[ アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定します。
+1. 「**[!UICONTROL アクティビティ URLを入力]**」ボックスに、[&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定します。
 
    アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。 必要に応じて、デフォルトから別のURLに変更できます。
 
@@ -50,7 +57,7 @@ ht-degree: 19%
 
    [!UICONTROL Visual Experience Composer] が表示され、URL で指定したページが表示されます。
 
-1. **[!UICONTROL 名前変更]** アイコン （![名前変更アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 名前変更]**&#x200B;をクリックし、アクティビティの名前を指定してから、**[!UICONTROL 保存]**&#x200B;をクリックします。
+1. **[!UICONTROL 名前変更]** アイコン （![名前変更アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 名前変更]**&#x200B;をクリックし、アクティビティの名前を指定してから、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
    アクティビティ名の先頭に次の文字を使用することはできません：
 
@@ -78,9 +85,9 @@ ht-degree: 19%
 
 1. ページ上の要素を変更して、新しいエクスペリエンスを作成します。
 
-   [!UICONTROL Visual Experience Composer]には、新しいアクティビティを作成した後、左側に2つのタブ（[!UICONTROL Experience A]および[!UICONTROL Experience B]）が表示されます。[!UICONTROL Experience A]は、コントロール エクスペリエンスです。 対象は[!UICONTROL  エクスペリエンス B] タブで、必要に応じて変更できます。 [!UICONTROL  エクスペリエンス B]は、テストに追加できる代替エクスペリエンスです。 [!UICONTROL  エクスペリエンス ] ペインの上部にある[!UICONTROL 追加] アイコン （![追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックすると、テストに複数のエクスペリエンスを追加できます。 デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
+   [!UICONTROL Visual Experience Composer]には、新しいアクティビティを作成した後、左側に2つのタブ（[!UICONTROL Experience A]および[!UICONTROL Experience B]）が表示されます。[!UICONTROL Experience A]は、コントロール エクスペリエンスです。 対象は[!UICONTROL &#x200B; エクスペリエンス B] タブで、必要に応じて変更できます。 [!UICONTROL &#x200B; エクスペリエンス B]は、テストに追加できる代替エクスペリエンスです。 [!UICONTROL &#x200B; エクスペリエンス &#x200B;] ペインの上部にある[!UICONTROL 追加] アイコン （![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックすると、テストに複数のエクスペリエンスを追加できます。 デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
 
-   [!UICONTROL Visual Experience Composer]でのエクスペリエンスの追加と変更について詳しくは、[ エクスペリエンスの追加](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
+   [!UICONTROL Visual Experience Composer]でのエクスペリエンスの追加と変更について詳しくは、[&#x200B; エクスペリエンスの追加](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
 
 1. [!UICONTROL Visual Experience Composer]の上部にある&#x200B;**[!UICONTROL ターゲティング]**&#x200B;をクリックして、3段階のガイド付きワークフローの次のステップに移動します。
 
@@ -96,15 +103,15 @@ ht-degree: 19%
 
    右側のフレームが表示され、オーディエンスを追加または削除し、アクティビティの訪問者パーセンテージを割り当てることができます。
 
-   1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL 置換] アイコン** （![置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
-   1. [!UICONTROL  オーディエンスを追加] ダイアログボックスで、[目的のオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックします。
+   1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL 置換] アイコン** （![置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. [!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスで、[目的のオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックします。
 
       「**オーディエンスを結合**」をクリックして、[複数のオーディエンスを結合するオーディエンスを作成できます](/help/main/c-target/combining-multiple-audiences.md)。
 
-      まだ[!UICONTROL  オーディエンスライブラリ ]にない新しいオーディエンスを作成する必要がある場合は、**オーディエンスの作成**&#x200B;をクリックします。 [create-audience ワークフロー](/help/main/c-target/c-audiences/audiences.md)中に、次のオプションから選択できます。
+      まだ[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]にない新しいオーディエンスを作成する必要がある場合は、**オーディエンスの作成**&#x200B;をクリックします。 [create-audience ワークフロー](/help/main/c-target/c-audiences/audiences.md)中に、次のオプションから選択できます。
 
-      * **[!UICONTROL オーディエンスライブラリ]**: [!UICONTROL  オーディエンスライブラリ ]に保存されたオンデマンドオーディエンスを作成し、他のアクティビティで再利用できます
-      * **[!UICONTROL このアクティビティのみ]**: [!UICONTROL  オーディエンスライブラリ ]に保存されていない[ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md)を作成し、現在のアクティビティでのみ使用できます
+      * **[!UICONTROL オーディエンスライブラリ]**: [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に保存されたオンデマンドオーディエンスを作成し、他のアクティビティで再利用できます
+      * **[!UICONTROL このアクティビティのみ]**: [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に保存されていない[&#x200B; アクティビティ固有のオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md)を作成し、現在のアクティビティでのみ使用できます
 
    1. 右側のフレームで「**[!UICONTROL 訪問者の割合]**」をクリックし、アクティビティに参加する対象となる訪問者の割合を選択します。
 
@@ -112,7 +119,7 @@ ht-degree: 19%
 
 1. 「**[!UICONTROL トラフィック配分]**」コントロールをクリックし、右側のペインで目的のトラフィック配分方法を選択します。 このシナリオでは、**[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]**&#x200B;をクリックします。
 
-   ![ トラフィック配分メソッドの設定](/help/main/c-activities/assets/auto-target.png)
+   ![&#x200B; トラフィック配分メソッドの設定](/help/main/c-activities/assets/auto-target.png)
 
    次のトラフィック割り当て方法を使用できます。
 
@@ -130,7 +137,7 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   >このアクティビティで[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4Tの自動配分および自動ターゲットアクティビティのサポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)に関する重要な情報を参照してください。
+   >このアクティビティで[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4Tの自動配分および自動ターゲットアクティビティのサポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)に関する重要な情報を参照してください。
 
 1. **[!UICONTROL 保存して閉じる]**&#x200B;または&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックします。
 

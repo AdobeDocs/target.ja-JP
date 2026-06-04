@@ -6,11 +6,22 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1095
@@ -34,7 +45,7 @@ ht-degree: 71%
 
 ## ホストの認識 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
-ホストを認識して[!UICONTROL  ホスト ] リストに追加するには、次の条件を満たす必要があります。
+ホストを認識して[!UICONTROL &#x200B; ホスト &#x200B;] リストに追加するには、次の条件を満たす必要があります。
 
 * 1 つ以上の [!DNL Target] リクエストがホストに存在する必要があります。
 * ホスト上のページには、以下が含まれている必要があります。
@@ -44,7 +55,7 @@ ht-degree: 71%
 
 * [!DNL Target] リクエストのあるページはブラウザーで表示する必要があります。
 
-ページを表示すると、ホストは[!UICONTROL  ホスト ]のリストに表示され、環境で管理したり、アクティビティやテストをプレビューおよび起動したりできます。
+ページを表示すると、ホストは[!UICONTROL &#x200B; ホスト &#x200B;]のリストに表示され、環境で管理したり、アクティビティやテストをプレビューおよび起動したりできます。
 
 >[!NOTE]
 >
@@ -57,7 +68,7 @@ ht-degree: 71%
 
    デフォルトでは、新しく認識されたホストが[!UICONTROL 実稼動]環境に配置されます。 [!UICONTROL 実稼動]環境は、非アクティブなアクティビティをこれらのホストから表示できないため、最も安全な環境です。
 
-1. （条件付き）ホストを[!UICONTROL 開発]、[!UICONTROL  ステージング ]またはその他の環境に移動するには、**[!UICONTROL 移動]** アイコン（![移動アイコン ](/help/main/assets/icons/MoveTo.svg)）をクリックします。
+1. （条件付き）ホストを[!UICONTROL 開発]、[!UICONTROL &#x200B; ステージング &#x200B;]またはその他の環境に移動するには、**[!UICONTROL 移動]** アイコン（![移動アイコン &#x200B;](/help/main/assets/icons/MoveTo.svg)）をクリックします。
 
 >[!NOTE]
 >
@@ -65,17 +76,17 @@ ht-degree: 71%
 
 ## ホストリストの並べ替えと検索 {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-[!UICONTROL  ホスト ] リストを並べ替えるには、列ヘッダー（[!UICONTROL 名前]、[!UICONTROL 環境]、または[!UICONTROL 最後にリクエストされた]）をクリックして、リストを昇順または降順で並べ替えます。
+[!UICONTROL &#x200B; ホスト &#x200B;] リストを並べ替えるには、列ヘッダー（[!UICONTROL 名前]、[!UICONTROL 環境]、または[!UICONTROL 最後にリクエストされた]）をクリックして、リストを昇順または降順で並べ替えます。
 
-[!UICONTROL  ホスト ] リストを検索するには、[!UICONTROL  ホストを検索] ボックスに検索語を入力します。
+[!UICONTROL &#x200B; ホスト &#x200B;] リストを検索するには、[!UICONTROL &#x200B; ホストを検索] ボックスに検索語を入力します。
 
 ## [!DNL Target] リクエストを [!DNL Target] に送信できるホストを指定する許可リストを作成します。 {#allowlist}
 
-[!DNL Target] リクエストを [!DNL Target] に送信できるホスト（ドメイン）を指定する許可リストを作成できます。 この場合、許可リストにないホストがリクエストを生成すると、許可されていない旨を記した承認エラーレスポンスが送信されます。 デフォルトでは、[!DNL Target] リクエストを含むホストは、[!UICONTROL 実稼動]環境の[!DNL Target]に登録され、すべてのアクティブおよび承認済みアクティビティにアクセスできます。 これが期待された手法でない場合は、代わりに許可リストを使用して、[!DNL Target] リクエストの生成と [!DNL Target] コンテンツの受け取りの資格がある特定のホストを記録できます。 すべてのホストは[!UICONTROL  ホスト ] リストに引き続き表示され、環境を使用してこれらのホストをグループ化し、ホストがアクティブなアクティビティと非アクティブなアクティビティのどちらを表示できるかなど、各ホストに異なるレベルを割り当てることができます。
+[!DNL Target] リクエストを [!DNL Target] に送信できるホスト（ドメイン）を指定する許可リストを作成できます。 この場合、許可リストにないホストがリクエストを生成すると、許可されていない旨を記した承認エラーレスポンスが送信されます。 デフォルトでは、[!DNL Target] リクエストを含むホストは、[!UICONTROL 実稼動]環境の[!DNL Target]に登録され、すべてのアクティブおよび承認済みアクティビティにアクセスできます。 これが期待された手法でない場合は、代わりに許可リストを使用して、[!DNL Target] リクエストの生成と [!DNL Target] コンテンツの受け取りの資格がある特定のホストを記録できます。 すべてのホストは[!UICONTROL &#x200B; ホスト &#x200B;] リストに引き続き表示され、環境を使用してこれらのホストをグループ化し、ホストがアクティブなアクティビティと非アクティブなアクティビティのどちらを表示できるかなど、各ホストに異なるレベルを割り当てることができます。
 
 許可リストを作成するには、次の手順を実行します。
 
-1. [!UICONTROL  ホスト ]のリストから、**[!UICONTROL ホストの承認]**&#x200B;をクリックします。
+1. [!UICONTROL &#x200B; ホスト &#x200B;]のリストから、**[!UICONTROL ホストの承認]**&#x200B;をクリックします。
 1. 「**[!UICONTROL コンテンツ配信に許可されたホストを有効にする]**」切替スイッチを有効にします。
 1. 必要に応じて、「**[!UICONTROL ホストが含まれる]**」ボックスに目的のホストを追加します。
 
@@ -99,17 +110,17 @@ ht-degree: 71%
 
 `mboxHost` が API 呼び出しで渡される場合、渡される環境のコンバージョンが記録されます。 環境が渡されない場合、呼び出し内のホストはデフォルトで[!UICONTROL 実稼動]になります。
 
-[!UICONTROL  ホストが含まれていない] ボックスに目的のホストを追加することで、[!DNL Target] リクエストを[!DNL Target]に送信できないホスト（ドメイン）を指定するブロックリストを作成することもできます。
+[!UICONTROL &#x200B; ホストが含まれていない] ボックスに目的のホストを追加することで、[!DNL Target] リクエストを[!DNL Target]に送信できないホスト（ドメイン）を指定するブロックリストを作成することもできます。
 
 >[!NOTE]
 >
->[!UICONTROL 承認済みホスト ] リストは、[!DNL Target] ホストとデフォルトのリダイレクトホストの両方に使用されます。 [!DNL Adobe Target] JavaScript SDK（at.js）の使用を許可されているすべての既存のドメイン、*および* ubox のデフォルトのリダイレクト URL で使用されるすべてのドメインを追加してください。 今後、同様のドメインが新しく出てきた場合は、そのドメインを許可リストに追加してください。
+>[!UICONTROL 承認済みホスト &#x200B;] リストは、[!DNL Target] ホストとデフォルトのリダイレクトホストの両方に使用されます。 [!DNL Adobe Target] JavaScript SDK（at.js）の使用を許可されているすべての既存のドメイン、*および* ubox のデフォルトのリダイレクト URL で使用されるすべてのドメインを追加してください。 今後、同様のドメインが新しく出てきた場合は、そのドメインを許可リストに追加してください。
 
 ## ホストの削除 {#section_F56355BA4BC54B078A1A8179BC954632}
 
 不要になったホストは削除することができます。
 
-1. [!UICONTROL  ホスト ] リストから、**[!UICONTROL 削除]** アイコン （![削除アイコン ](/help/main/assets/icons/DeleteOutline.svg)）をクリックします。
+1. [!UICONTROL &#x200B; ホスト &#x200B;] リストから、**[!UICONTROL 削除]** アイコン （![削除アイコン &#x200B;](/help/main/assets/icons/DeleteOutline.svg)）をクリックします。
 1. 「**[!UICONTROL 削除]**」をクリックして削除を確定します。
 
 >[!NOTE]

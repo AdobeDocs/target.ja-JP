@@ -5,10 +5,15 @@ title: ページを別のURLにリダイレクトできますか？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 TQID: https://experienceleague.adobe.com/8Bh5z7SRWw3QqKQMHZck01GKVBtMufwLbw9JxLsSACU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 485
@@ -18,7 +23,7 @@ ht-degree: 80%
 
 # URL にリダイレクト
 
-同じページにコンテンツを表示するのではなく、別のページに訪問者を送信する場合は、[!DNL Adobe Target]の「[!UICONTROL URLにリダイレクト ]」オプションを使用します。
+同じページにコンテンツを表示するのではなく、別のページに訪問者を送信する場合は、[!DNL Adobe Target]の「[!UICONTROL URLにリダイレクト &#x200B;]」オプションを使用します。
 
 ページ内でコンテンツの一部を変更するのではなく、まったく異なる 2 つのページをテストすることができます。 この場合、A/B テストではページ A とページ B を比較します。A/B テストキャンペーンを 2 つのエクスペリエンスで設定します。1 つはデフォルトのページ A をポイントするエクスペリエンス、もう 1 つはページ B にリダイレクトするエクスペリエンスです。エクスペリエンスに対して表示される文字のラベルをクリックして表示できるエクスペリエンスのアクションメニューで、「**[!UICONTROL URL にリダイレクト]**」を選択して、ページ B の URL を指定します。訪問者を別のページにリダイレクトするオファーが設定されます。
 
@@ -36,7 +41,7 @@ ht-degree: 80%
 リダイレクトオファーを作成する手順は次のとおりです。
 
 1. エクスペリエンスを作成します。
-1. [!UICONTROL  エクスペリエンス ] フレームから、目的のエクスペリエンスの&#x200B;**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックします。
+1. [!UICONTROL &#x200B; エクスペリエンス &#x200B;] フレームから、目的のエクスペリエンスの&#x200B;**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックします。
 1. 「**[!UICONTROL URLにリダイレクト]**」をクリックします。
 1. URLにリダイレクト ダイアログボックスで、URLを入力します。
 1. 必要に応じて、現在のクエリパラメーターを含めるオプションを選択します。

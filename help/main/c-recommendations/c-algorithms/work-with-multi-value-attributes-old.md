@@ -63,8 +63,8 @@ function targetPageParams() {
 
 複数値のエンティティ、プロファイルおよびmbox属性で使用できる演算子は次のとおりです。
 
-* [!UICONTROL はリスト ]に含まれています
-* [!UICONTROL はリスト ]に含まれていません
+* [!UICONTROL はリスト &#x200B;]に含まれています
+* [!UICONTROL はリスト &#x200B;]に含まれていません
 
 ## 包含ルールでの複数値の属性の操作
 

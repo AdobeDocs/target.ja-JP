@@ -1,7 +1,7 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: 「 [!DNL Adobe Target] [!UICONTROL 多変量テスト ]」アクティビティを成功させるために十分なトラフィックがあるかどうかを確認できるトラフィック見積もり機能の使用方法について説明します。
-title: '[!UICONTROL 多変量テスト ] （MVT）アクティビティに必要なトラフィックの量'
+description: 「 [!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;]」アクティビティを成功させるために十分なトラフィックがあるかどうかを確認できるトラフィック見積もり機能の使用方法について説明します。
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティに必要なトラフィックの量'
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
@@ -11,7 +11,7 @@ ht-degree: 51%
 
 ---
 
-# 成功した[!UICONTROL 多変量テスト ] アクティビティに必要なトラフィックの見積もり
+# 成功した[!UICONTROL 多変量テスト &#x200B;] アクティビティに必要なトラフィックの見積もり
 
 多変量分析テストでは複数のエクスペリエンスを比較するので、有意な結果を得るためにはどの程度のトラフィックが必要かを把握しておくことが重要です。 トラフィック見積もり機能は、ページに関する統計情報とテスト中のエクスペリエンスの数に基づいて、テストを正常に完了させるために必要なトラフィック数とテスト期間を見積もります。
 

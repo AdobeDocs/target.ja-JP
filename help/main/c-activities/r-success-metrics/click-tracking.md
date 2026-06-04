@@ -5,9 +5,14 @@ title: クリックの追跡とは
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 903
@@ -40,21 +45,21 @@ ht-degree: 77%
 
 ## 選択された要素パネル {#selected-elements}
 
-[!UICONTROL A/B テスト ]、[!UICONTROL  エクスペリエンスのターゲット設定] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL 多変量テスト ] （MVT）アクティビティの場合、[!UICONTROL Selected Elements] パネルには、左側のクリックトラッキング用に選択した要素が一覧表示されます。
+[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの場合、[!UICONTROL Selected Elements] パネルには、左側のクリックトラッキング用に選択した要素が一覧表示されます。
 
 ![選択された要素パネル](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-[!UICONTROL  トラッキングコンポーネント ] パネルでエレメントをクリックすると、適用できるアクションがいくつかあります。 以下の表で、要素で実行できる各操作を説明します。
+[!UICONTROL &#x200B; トラッキングコンポーネント &#x200B;] パネルでエレメントをクリックすると、適用できるアクションがいくつかあります。 以下の表で、要素で実行できる各操作を説明します。
 
 | アクション | 説明 |
 | --- | --- |
-| [!UICONTROL  トラッキングされたアクション ] | 要素アクションを表示します。 |
+| [!UICONTROL &#x200B; トラッキングされたアクション &#x200B;] | 要素アクションを表示します。 |
 | [!UICONTROL CSS セレクター] | CSS セクターを編集できます。 |
 | [!DNL Delete] | 要素を削除します。 |
 
 ### 要素を追加
 
-セレクターへのDOM パスが既にわかっている場合は、パネルの上部にある「[!UICONTROL  コンポーネントを追加]」アイコンをクリックして、手動で追加できます。
+セレクターへのDOM パスが既にわかっている場合は、パネルの上部にある「[!UICONTROL &#x200B; コンポーネントを追加]」アイコンをクリックして、手動で追加できます。
 
 ## 注意点 {#considerations}
 
@@ -66,7 +71,7 @@ ht-degree: 77%
 
   詳しくは、*Visual Experience Composer のオプション*&#x200B;の [DOM パスを使用した要素のナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。
 
-* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。 この異なるページは、[ マルチページ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を使用するアクティビティに含める必要があり、[!DNL at.js]を実装する必要があります。
+* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。 この異なるページは、[&#x200B; マルチページ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を使用するアクティビティに含める必要があり、[!DNL at.js]を実装する必要があります。
 * 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。 各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。 ページ上の複数の要素をクリックして 1 つの項目をカウントするには、CSS 要素セレクターを編集して複数の要素と一致させます。
 * 追跡する要素のレベルを選択していることを確認してください。 例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * クリックイベントは、そのクリックと同じページの [!DNL Target] に送信されます。
@@ -111,7 +116,7 @@ ht-degree: 77%
 このビデオでは、クリックの追跡の成功指標の作成について説明します。
 
 * 「目標」指標の理解
-* [!UICONTROL  コンバージョン ]、[!UICONTROL 収益]、[!UICONTROL  エンゲージメント ]の指標を理解して構築する
+* [!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]の指標を理解して構築する
 * クリック追跡指標の構築
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

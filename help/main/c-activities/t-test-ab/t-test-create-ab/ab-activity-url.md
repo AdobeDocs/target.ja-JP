@@ -1,13 +1,15 @@
 ---
 keywords: アクティビティ url;url；別のurl
-description: '[!UICONTROL  アクティビティ URL]を設定してテストページを定義し、正確なテストデザインを確保する方法を説明します。'
+description: '[!UICONTROL &#x200B; アクティビティ URL]を設定してテストページを定義し、正確なテストデザインを確保する方法を説明します。'
 title: A/B アクティビティのアクティビティ URLは何ですか？
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
 reason: republish
 TQID: https://experienceleague.adobe.com/arQWsSfBKYtrayq9AI8ejU1T-Uor-oL5j2Sp2JKKXZE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 305

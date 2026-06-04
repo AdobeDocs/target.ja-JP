@@ -17,11 +17,11 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->この機能は、[!UICONTROL  テーブル ] ビューでレポートを表示する場合にのみ使用できます。 この機能は、Analytics をレポートソースに使用する（A4T）[アクティビティでは利用できません。](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。
+>この機能は、[!UICONTROL &#x200B; テーブル &#x200B;] ビューでレポートを表示する場合にのみ使用できます。 この機能は、Analytics をレポートソースに使用する（A4T）[アクティビティでは利用できません。](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。
 
 ## データの解釈 {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-次の図は、[!UICONTROL 上昇率の境界と信頼性レベル ]情報を示しています。
+次の図は、[!UICONTROL 上昇率の境界と信頼性レベル &#x200B;]情報を示しています。
 
 ![平均上昇率および信頼性レベルレポート](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 

@@ -5,10 +5,16 @@ title: Analytics トラッキングサーバーの使用方法を教えてくだ
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 TQID: https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 708
@@ -40,7 +46,7 @@ ht-degree: 17%
 
    ![Screen_DebuggerTrackServ画像](assets/Screen_DebuggerTrackServ.png)
 
-   [!DNL Analytics] トラッキングサーバーは、デバッガーの[!UICONTROL  ホスト名] セクションにあります。
+   [!DNL Analytics] トラッキングサーバーは、デバッガーの[!UICONTROL &#x200B; ホスト名] セクションにあります。
 
    * **ファーストパーティ追跡サーバー**：要求のホスト名が使用中のドメインと一致する場合、それはファーストパーティ追跡サーバーです。 例えば、`adobe.com`を使用している場合、`adobe.com`は1st パーティトラッキングサーバーです。
    * **サードパーティ追跡サーバー**: サードパーティ追跡サーバーは通常`[company].sc.omtrdc.net`です。会社は会社名ですが、常に`sc.omtrdc.net`で終わります。
@@ -52,7 +58,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >「[!UICONTROL  トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
+   >「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
 
 ## ブラウザーの開発者ツールを使用して[!DNL Analytics]追跡サーバーを取得します
 
@@ -60,7 +66,7 @@ ht-degree: 17%
 
 1. アクティビティを作成するページで、ブラウザーのデベロッパーツールを開きます（Google Chromeで、右上隅の3つの縦長の省略記号をクリックして、その他のツール/デベロッパーツール）。
 
-   ![Chrome開発者向けツール ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Chrome開発者向けツール &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. 「**[!UICONTROL ネットワーク]**」タブをクリックします。
 
@@ -80,4 +86,4 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >「[!UICONTROL  トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
+   >「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。

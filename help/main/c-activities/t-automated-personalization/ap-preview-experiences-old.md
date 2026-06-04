@@ -30,7 +30,7 @@ ht-degree: 19%
 
    ![除外アイコン](/help/main/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   [!UICONTROL  コンテンツの管理] ダイアログボックスが表示されます。
+   [!UICONTROL &#x200B; コンテンツの管理] ダイアログボックスが表示されます。
 
    ![コンテンツを管理ダイアログボックス](/help/main/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
@@ -44,4 +44,4 @@ ht-degree: 19%
 
    除外された複数のエクスペリエンスを含めるには、目的のエクスペリエンスのチェックボックスを選択し、リストの右上にある「**[!UICONTROL 含める]**」アイコンをクリックします。
 
-1. **[!UICONTROL 作成]**&#x200B;をクリックして[!UICONTROL Visual Experience Composer]に戻り、追加の変更を加えるか、**[!UICONTROL 次の]**&#x200B;をクリックして[!UICONTROL  ターゲティング ]の手順に移動します。
+1. **[!UICONTROL 作成]**&#x200B;をクリックして[!UICONTROL Visual Experience Composer]に戻り、追加の変更を加えるか、**[!UICONTROL 次の]**&#x200B;をクリックして[!UICONTROL &#x200B; ターゲティング &#x200B;]の手順に移動します。

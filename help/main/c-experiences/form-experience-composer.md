@@ -5,9 +5,13 @@ title: フォームベースのExperience Composerの使用方法を教えてく
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 988
@@ -17,17 +21,17 @@ ht-degree: 35%
 
 # フォームベースの Experience Composer
 
-[!DNL Adobe Target] [!UICONTROL  フォームベースのExperience Composer]は、[!UICONTROL Visual Experience Composer] （VEC）が使用できないか、使用できない場合に[!UICONTROL A/B テスト ]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]および[!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスの作成に役立つ、非ビジュアル エクスペリエンスおよびオファー作成インターフェイスです。 たとえば、フォームベースのAdobe Experience Composerを使用して、電子メール、キオスク端末、音声アシスタントで配信するエクスペリエンスやオファーを作成することができます。
+[!DNL Adobe Target] [!UICONTROL &#x200B; フォームベースのExperience Composer]は、[!UICONTROL Visual Experience Composer] （VEC）が使用できないか、使用できない場合に[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]および[!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスの作成に役立つ、非ビジュアル エクスペリエンスおよびオファー作成インターフェイスです。 たとえば、フォームベースのAdobe Experience Composerを使用して、電子メール、キオスク端末、音声アシスタントで配信するエクスペリエンスやオファーを作成することができます。
 
 [!UICONTROL Recommendations] アクティビティを作成している場合、エクスペリエンスはありません。 条件およびデザインを選択します。 複数の基準またはデザインを選択した場合、[!UICONTROL Target]はエクスペリエンスを自動的に生成します。
 
 1. 「**[!UICONTROL アクティビティを作成]**」をクリックし、作成するアクティビティのタイプを選択します。
 
-   [!UICONTROL  フォームベースのExperience Composer]は、[!UICONTROL A/B テスト ]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]、および[!UICONTROL Recommendations] アクティビティで利用できます。
+   [!UICONTROL &#x200B; フォームベースのExperience Composer]は、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]、および[!UICONTROL Recommendations] アクティビティで利用できます。
 
-1. 「[!UICONTROL  アクティビティを作成]」ダイアログボックスから「**[!UICONTROL フォーム]**」を選択します。
+1. 「[!UICONTROL &#x200B; アクティビティを作成]」ダイアログボックスから「**[!UICONTROL フォーム]**」を選択します。
 
-1. （条件付き）お客様が[Target Premiumのお客様](/help/main/c-intro/intro.md#premium)の場合、「**[!UICONTROL Workspaceを選択]**」ドロップダウンリストから「[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」を選択します。
+1. （条件付き）お客様が[Target Premiumのお客様](/help/main/c-intro/intro.md#premium)の場合、「**[!UICONTROL Workspaceを選択]**」ドロップダウンリストから「[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」を選択します。
 
    「[[!UICONTROL 職場を選択]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは[Target Premium](/help/main/c-intro/intro.md)機能であり、組織が[!UICONTROL Target Standard] ライセンスを持っている場合は表示されない可能性があります。
 
@@ -35,12 +39,12 @@ ht-degree: 35%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-   [!UICONTROL  フォームベースのExperience Composer]が開きます。
+   [!UICONTROL &#x200B; フォームベースのExperience Composer]が開きます。
 
    この画面は、[!UICONTROL Recommendations] アクティビティを作成している場合とは異なります。 [!UICONTROL Recommendations]のアクティビティには、エクスペリエンスが含まれていません。
 
-1. 
-   1. **[!UICONTROL 名前変更]** アイコン （![名前変更アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 名前変更]**&#x200B;をクリックし、アクティビティの名前を指定してから、**[!UICONTROL 保存]**&#x200B;をクリックします。
+1. &#x200B;
+   1. **[!UICONTROL 名前変更]** アイコン （![名前変更アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 名前変更]**&#x200B;をクリックし、アクティビティの名前を指定してから、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
    アクティビティ名の先頭に次の文字を使用することはできません：
 
@@ -76,9 +80,9 @@ ht-degree: 35%
    >
    >アクティビティの作成中に手動で入力した場所を作成しても、新しい場所は自動的に作成されません。 場所の名前は、アクティビティのコンテキストでのみ保存されます。 場所は、コンテンツ配信コールがあるときに作成されます。 作成される場所の後に、利用可能な場所のドロップダウンリストからオーディエンスの作成など、他のアクティビティで使用できるようになります。
 
-1. 「**[!UICONTROL オーディエンスの絞り込みを追加]**」をクリックし、このアクティビティに1つ以上の[ オーディエンス ](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)を選択してから、**[!UICONTROL 完了]**&#x200B;をクリックします。
+1. 「**[!UICONTROL オーディエンスの絞り込みを追加]**」をクリックし、このアクティビティに1つ以上の[&#x200B; オーディエンス &#x200B;](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)を選択してから、**[!UICONTROL 完了]**&#x200B;をクリックします。
 
-   [!UICONTROL  フォームベースのExperience Composer]では、絞り込みが完全なオーディエンス機能に置き換えられています。 既存のアクティビティの絞り込みが[ アクティビティのみのオーディエンス ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)に移行されました。
+   [!UICONTROL &#x200B; フォームベースのExperience Composer]では、絞り込みが完全なオーディエンス機能に置き換えられています。 既存のアクティビティの絞り込みが[&#x200B; アクティビティのみのオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)に移行されました。
 
 1. その場所に表示するコンテンツのタイプを選択します。
 
@@ -96,11 +100,11 @@ ht-degree: 35%
 
    **JSON オファーの変更：** JSON オファーを選択します。
 
-   **エクスペリエンスフラグメントの変更：** エクスペリエンスフラグメントを選択します。 詳しくは、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)を参照してください。
+   **エクスペリエンスフラグメントの変更：** エクスペリエンスフラグメントを選択します。 詳しくは、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)を参照してください。
 
-   **リダイレクト オファーの変更：** リダイレクト オファーを選択します。 詳しくは、[ リダイレクトオファーの作成](/help/main/c-experiences/c-manage-content/offer-redirect.md)を参照してください。
+   **リダイレクト オファーの変更：** リダイレクト オファーを選択します。 詳しくは、[&#x200B; リダイレクトオファーの作成](/help/main/c-experiences/c-manage-content/offer-redirect.md)を参照してください。
 
-   **リモートオファーの変更：** リモートオファーを選択します。 詳しくは、[ リモートオファーの作成](/help/main/c-experiences/c-manage-content/about-remote-offers.md)を参照してください。
+   **リモートオファーの変更：** リモートオファーを選択します。 詳しくは、[&#x200B; リモートオファーの作成](/help/main/c-experiences/c-manage-content/about-remote-offers.md)を参照してください。
 
    **HTML オファーを作成:**
 
@@ -124,22 +128,22 @@ ht-degree: 35%
 
    フォームベースの Experience Composer で Recommendations の条件を選択する際には、選択した条件カードへの直接リンクが追加されるようになったので、条件をすばやく容易に編集できます。
 
-   [!DNL Target]の3段階のガイド付きワークフローの[!UICONTROL  ターゲティング ] ページから：
+   [!DNL Target]の3段階のガイド付きワークフローの[!UICONTROL &#x200B; ターゲティング &#x200B;] ページから：
 
    **オファー決定を追加：**
 
-   [!DNL Adobe Journey Optimizer] （AJO）で作成されたオファーを[!DNL Adobe Target] アクティビティに追加し、オファー決定機能を使用して、web サイトまたはモバイルサイトの訪問者に最適な動的なオファーとエクスペリエンスを提示します。 このオプションは、手動の[!UICONTROL A/B テスト ]および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティでのみ使用できます。
+   [!DNL Adobe Journey Optimizer] （AJO）で作成されたオファーを[!DNL Adobe Target] アクティビティに追加し、オファー決定機能を使用して、web サイトまたはモバイルサイトの訪問者に最適な動的なオファーとエクスペリエンスを提示します。 このオプションは、手動の[!UICONTROL A/B テスト &#x200B;]および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティでのみ使用できます。
 
-   詳しくは、[ オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
+   詳しくは、[&#x200B; オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
 
-1. （オプション、[!UICONTROL A/B テスト ]、[!UICONTROL Automated Personalization]、[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティの場合）このプロセスを繰り返して他の場所に移動するには、**[!UICONTROL 場所を追加]**&#x200B;をクリックし、場所と内容を設定します。
+1. （オプション、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Automated Personalization]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティの場合）このプロセスを繰り返して他の場所に移動するには、**[!UICONTROL 場所を追加]**&#x200B;をクリックし、場所と内容を設定します。
 1. 「**[!UICONTROL 次へ]**」をクリックし、アクティビティタイプの通常のアクティビティ作成手順を完了します。
 
 * [A/B テストの作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [レコメンデーションアクティビティの作成](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## トレーニングビデオ：フォームベースのコンポーザー![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：フォームベースのコンポーザー![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオは、フォームベースのコンポーザーのデモを紹介します。
 

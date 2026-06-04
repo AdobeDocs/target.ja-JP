@@ -26,21 +26,21 @@ ht-degree: 12%
 
 1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL 画像オファー]**」をクリックします。
 
-1. （オプション） [!UICONTROL  カードビュー]と[!UICONTROL  リストビュー]を切り替え、[!UICONTROL  カードビュー] アイコンまたはコンテンツライブラリの右上隅にある[!UICONTROL  リストビュー] アイコンをクリックします。 [!UICONTROL 表示設定]を使用して、[!UICONTROL  リストビュー]を表示する際に列をさらに設定することもできます。
+1. （オプション） [!UICONTROL &#x200B; カードビュー]と[!UICONTROL &#x200B; リストビュー]を切り替え、[!UICONTROL &#x200B; カードビュー] アイコンまたはコンテンツライブラリの右上隅にある[!UICONTROL &#x200B; リストビュー] アイコンをクリックします。 [!UICONTROL 表示設定]を使用して、[!UICONTROL &#x200B; リストビュー]を表示する際に列をさらに設定することもできます。
 
-   次の図は、[!UICONTROL  リストビュー]を表示する際に使用できるオプションを示しています。
+   次の図は、[!UICONTROL &#x200B; リストビュー]を表示する際に使用できるオプションを示しています。
 
-   ![ リスト表示オプション ](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![&#x200B; リスト表示オプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. 左上隅の&#x200B;**[!UICONTROL コンテンツのみ]**&#x200B;アイコンをクリックして、検索ボックスを表示します。
 
-   ![ コンテンツのみオプション ](/help/main/c-experiences/c-manage-content/assets/content-only.png)
+   ![&#x200B; コンテンツのみオプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/content-only.png)
 
 1. 検索ボックスに探しているアセットのキーワードを入力して、Enter キーを押します。
 
 1. （オプション）検索をさらに絞り込むには、**[!UICONTROL フィルターとオプション]** ペインを使用します。
 
-   ![ フィルターとオプション ウィンドウ ](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
+   ![&#x200B; フィルターとオプション ウィンドウ &#x200B;](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
 
    次の条件でフィルタリングできます。
 

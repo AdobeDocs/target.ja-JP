@@ -1,12 +1,15 @@
 ---
 keywords: レポート；統計的手法；統計計算；統計；平均；コンバージョン率；訪問者あたりの売上高；rpv；信頼区間；上昇率；ウェルチ t テスト；オフライン計算
-description: ' [!DNL Adobe Target]の[!UICONTROL A/B テスト ]手動アクティビティで使用される統計計算について説明します。'
-title: '[!UICONTROL A/B テスト ] アクティビティで使用される統計計算について学習するにはどうすればよいですか？'
+description: ' [!DNL Adobe Target]の[!UICONTROL A/B テスト &#x200B;]手動アクティビティで使用される統計計算について説明します。'
+title: '[!UICONTROL A/B テスト &#x200B;] アクティビティで使用される統計計算について学習するにはどうすればよいですか？'
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1202
@@ -16,13 +19,13 @@ ht-degree: 4%
 
 # A/Bn テストによる統計計算
 
-この記事では、[!DNL Adobe Target]の手動A/Bn テストで使用される詳細な統計計算について説明します。 定義は、[!UICONTROL  コンバージョン率]、[!UICONTROL  コンバージョン率]の信頼区間、[!UICONTROL 上昇率]、[!UICONTROL 上昇率]および[!UICONTROL 信頼区間]に対して提供されます。
+この記事では、[!DNL Adobe Target]の手動A/Bn テストで使用される詳細な統計計算について説明します。 定義は、[!UICONTROL &#x200B; コンバージョン率]、[!UICONTROL &#x200B; コンバージョン率]の信頼区間、[!UICONTROL 上昇率]、[!UICONTROL 上昇率]および[!UICONTROL 信頼区間]に対して提供されます。
 
 >[!NOTE]
 >
 >この記事の情報は、以前このサイトでダウンロード可能だった&#x200B;*Adobe Target A/B テスト用の計算* pdf ファイルに置き換わるものです。
 
-A/B テスト アクティビティの[!UICONTROL  コンバージョン率]、[!UICONTROL 平均上昇率と信頼区間]、および[!UICONTROL 信頼性]を示す![Target レポート。](/help/main/c-reports/statistical-methodology/img/target_report.png)
+A/B テスト アクティビティの[!UICONTROL &#x200B; コンバージョン率]、[!UICONTROL 平均上昇率と信頼区間]、および[!UICONTROL 信頼性]を示す![Target レポート。](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## 平均性能
 
@@ -30,7 +33,7 @@ A/B テスト アクティビティの[!UICONTROL  コンバージョン率]、[
 
 ### 訪問者あたりのコンバージョン率と収益（RPV）キャンペーン
 
-次の図は、[!DNL Target] レポートの[!UICONTROL  コンバージョン率]、[!UICONTROL  コンバージョン率]の信頼区間、および[!UICONTROL  コンバージョン数]を示しています。 例えば、最初の行は、エクスペリエンス Aについて、[!UICONTROL  コンバージョン率]は25.81%で、[!UICONTROL 信頼区間]は±7.7%で、コンバージョンは32件が記録されていることを示しています。 124人の訪問者がこのエクスペリエンスを視聴したことを考えると、これは32/124 = 25.81%に相当します。
+次の図は、[!DNL Target] レポートの[!UICONTROL &#x200B; コンバージョン率]、[!UICONTROL &#x200B; コンバージョン率]の信頼区間、および[!UICONTROL &#x200B; コンバージョン数]を示しています。 例えば、最初の行は、エクスペリエンス Aについて、[!UICONTROL &#x200B; コンバージョン率]は25.81%で、[!UICONTROL 信頼区間]は±7.7%で、コンバージョンは32件が記録されていることを示しています。 124人の訪問者がこのエクスペリエンスを視聴したことを考えると、これは32/124 = 25.81%に相当します。
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -48,7 +51,7 @@ A/B テスト アクティビティの[!UICONTROL  コンバージョン率]、[
    * *[!UICONTROL 訪問]*&#x200B;がカウント方法として使用される場合、各単位は、[!DNL Target] セッション中にエクスペリエンスの一意の参加者として定義された一意の訪問です（一意の`sessionId`）。 `sessionId`が変更されたとき、または訪問者がコンバージョンステップに達したとき、新しい訪問がカウントされます。
    * *[!UICONTROL アクティビティ インプレッション]*&#x200B;がカウント方法として使用される場合、各単位は、訪問者がアクティビティの任意のページを読み込むたびに定義される一意のインプレッションです。
 
-## 平均]/[!UICONTROL  コンバージョン率]の[!UICONTROL 信頼区間
+## 平均/[!UICONTROL &#x200B; コンバージョン率]の信頼区間
 
 コンバージョン率の信頼区間は、基礎データと一貫性のある可能なコンバージョン率の範囲として直感的に定義されます。
 
@@ -92,7 +95,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!DNL Confidence Interval of Lift]
 
-[!UICONTROL 平均上昇率と信頼区間]列のボックスプロットグラフは、上昇率]の平均値と95% [!UICONTROL 信頼区間を表します。 ある非制御エクスペリエンスの信頼区間と制御エクスペリエンスの信頼区間に重複がある場合、ボックスプロットはグレーになります。 与えられたエクスペリエンスの信頼区間の範囲がコントロールエクスペリエンスの信頼区間の上下にある場合、ボクスプロットは緑または赤になります。
+[!UICONTROL 平均上昇率と信頼区間]列のボックスプロットグラフは、上昇率の平均値と95% 信頼区間を表します。 ある非制御エクスペリエンスの信頼区間と制御エクスペリエンスの信頼区間に重複がある場合、ボックスプロットはグレーになります。 与えられたエクスペリエンスの信頼区間の範囲がコントロールエクスペリエンスの信頼区間の上下にある場合、ボクスプロットは緑または赤になります。
 
 エクスペリエンス *ν*&#x200B;と制御エクスペリエンス *ν<sub>0</sub>*&#x200B;との間のリフトの標準エラーは、次のように定義されます。
 

@@ -7,11 +7,28 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: e22d67ea-317b-44f8-abd1-52e07f636ca8id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: e22d67ea-317b-44f8-abd1-52e07f636ca8
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 3233
@@ -29,15 +46,15 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->[!UICONTROL  プロパティと権限]機能は、[!DNL Target] Premium ソリューションの一部として利用できます。 [!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
+>[!UICONTROL &#x200B; プロパティと権限]機能は、[!DNL Target] Premium ソリューションの一部として利用できます。 [!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >
 >[!DNL Target]の実装では、任意のバージョンのat.jsまたは[!DNL Adobe Experience Platform Web SDK]を使用できます。
 
 組織が標準ライセンスまたはプレミアムライセンスを持っているかどうかを確認するには、[!DNL Target] UIの上部にある「[!UICONTROL 管理]」リンクをクリックします。
 
-* **[!DNL Target Standard]人の顧客**:「[!UICONTROL  ユーザー]」タブ（[!UICONTROL 管理> ユーザー]）が表示され、[!UICONTROL  プロパティ ] タブが表示されない場合、組織には[!DNL Target Standard] ライセンスがあります。 [!DNL Target Standard]人のお客様は、[ ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)の指示に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
+* **[!DNL Target Standard]人の顧客**:「[!UICONTROL &#x200B; ユーザー]」タブ（[!UICONTROL 管理> ユーザー]）が表示され、[!UICONTROL &#x200B; プロパティ &#x200B;] タブが表示されない場合、組織には[!DNL Target Standard] ライセンスがあります。 [!DNL Target Standard]人のお客様は、[&#x200B; ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)の指示に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
 
-* **[!DNL Target Premium]のお客様**:「[!UICONTROL  プロパティ ]」タブ（[!UICONTROL 管理/ プロパティ ]）と「[!UICONTROL  ユーザー]」タブが表示されている場合、組織には[!DNL Target Premium] ライセンスがあります。 [!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
+* **[!DNL Target Premium]のお客様**:「[!UICONTROL &#x200B; プロパティ &#x200B;]」タブ（[!UICONTROL 管理/ プロパティ &#x200B;]）と「[!UICONTROL &#x200B; ユーザー]」タブが表示されている場合、組織には[!DNL Target Premium] ライセンスがあります。 [!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
 ## エンタープライズ権限の概要
 
@@ -63,7 +80,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ワークスペースを使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。 多くの点で、ワークスペースは [!DNL Adobe Analytics] のレポートスイートに似ています。
 
-注意：ワークスペースは、[!DNL Adobe Admin Console for Enterprise]では[!UICONTROL 製品プロファイル ]として知られています。
+注意：ワークスペースは、[!DNL Adobe Admin Console for Enterprise]では[!UICONTROL 製品プロファイル &#x200B;]として知られています。
 
 多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。 複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
@@ -99,7 +116,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 |--- |--- |
 | [!UICONTROL 承認者] | アクティビティの作成、編集、アクティブ化、停止ができます。 |
 | [!UICONTROL 編集者] | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
-| [!UICONTROL  オブザーバー] | アクティビティを表示できますが、作成または編集はできません。 |
+| [!UICONTROL &#x200B; オブザーバー] | アクティビティを表示できますが、作成または編集はできません。 |
 | [!UICONTROL 発行者] | [!UICONTROL Observer]の役割と同様です（アクティビティを表示できますが、作成または編集することはできません）。 ただし、[!UICONTROL 発行者]の役割には、アクティビティをアクティブ化するための追加の権限があります。 |
 
 ### チャネル
@@ -110,7 +127,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ## 権限の概要 {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-次の情報では、[!DNL Target]で以前に権限が適用された方法と、[!UICONTROL  プロパティ ]および[!UICONTROL 権限]機能を使用して権限が適用された方法について説明します。
+次の情報では、[!DNL Target]で以前に権限が適用された方法と、[!UICONTROL &#x200B; プロパティ &#x200B;]および[!UICONTROL 権限]機能を使用して権限が適用された方法について説明します。
 
 新しい[!UICONTROL 権限]機能を使用すると、異なるプロジェクト（[!DNL Adobe Admin Console for Enterprise]の「製品プロファイル」と呼ばれます）を作成できます。 プロジェクトを使用すると、1人のユーザーに対して異なる権限を割り当てることができ、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、お客様は、次に示すように、地域、環境（開発/ステージ/実稼動）、チャネル、またはその他のカスタム条件に基づいて、ユーザーへの表示、編集、承認アクセスを制限できます。
 
@@ -203,9 +220,9 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 * **アクティビティの作成：** アクティビティを作成すると、現在選択されているワークスペースに作成されます。 最初のダイアログボックスには、Web、モバイルアプリ、電子メール、その他/APIなど、アクティビティに適したチャネルを選択できるチャネル選択オプションが表示されます。
 
 * **オーディエンス作成：** オーディエンスを作成すると、現在選択されているワークスペースに作成されます。
-* **オーディエンスリスト：** [!UICONTROL  オーディエンス ] ページの[!UICONTROL 詳細アクション ] > [!DNL Move] オプションを使用すると、ワークスペース間でオーディエンスを移動できます。
+* **オーディエンスリスト：** [!UICONTROL &#x200B; オーディエンス &#x200B;] ページの[!UICONTROL 詳細アクション &#x200B;] > [!DNL Move] オプションを使用すると、ワークスペース間でオーディエンスを移動できます。
 * **オファー作成：** オファーを作成すると、現在選択されているワークスペースに作成されます。
-* **プロパティ ページ （管理/プロパティ）:** [!UICONTROL 検索] ボックスを使用して、[!UICONTROL  プロパティ ] リストを検索できます。
+* **プロパティ ページ （管理/プロパティ）:** [!UICONTROL 検索] ボックスを使用して、[!UICONTROL &#x200B; プロパティ &#x200B;] リストを検索できます。
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -215,7 +232,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 * すべてのマイワークスペースビューを使用する場合：
 
    * アクセスするための適切な役割と権限を持っているすべてのワークスペースのアクティビティ、オーディエンスおよびオファーを確認できます。
-   * [!UICONTROL すべてのマイワークスペース ] ビューを選択すると、アクティビティ、オーディエンス、オファーページに新しい列が追加されます。 この列には、アイテムのワークスペースと、そのアイテムに関連付けられているユーザー権限（オブザーバー、エディター、または承認者）が一覧表示されます。
+   * [!UICONTROL すべてのマイワークスペース &#x200B;] ビューを選択すると、アクティビティ、オーディエンス、オファーページに新しい列が追加されます。 この列には、アイテムのワークスペースと、そのアイテムに関連付けられているユーザー権限（オブザーバー、エディター、または承認者）が一覧表示されます。
    * すべてのマイワークスペースビューでアクティビティ、オーディエンスまたはオファーを作成する場合は、アイテムを作成するワークスペースを選択する必要があります。 編集者または承認者の権限を持っているワークスペースのみ選択できます。
    * すべてのマイワークスペースビューでアクティビティ、オーディエンスまたはオファーをコピーする場合は、アイテムをコピーするワークスペースを選択する必要があります。 編集者または承認者の権限を持っているワークスペースのみ選択できます。
 
@@ -273,7 +290,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ### オーディエンスを別のワークスペースに移動させることはできますか？ {#move-audience}
 
-はい、[!UICONTROL  オーディエンス ] ページの[!UICONTROL その他のアクション ] オプションを使用して、ワークスペース間でオーディエンスを移動できます。
+はい、[!UICONTROL &#x200B; オーディエンス &#x200B;] ページの[!UICONTROL その他のアクション &#x200B;] オプションを使用して、ワークスペース間でオーディエンスを移動できます。
 
 1. 「**[!UICONTROL その他のアクション]**」ボタン（3つの省略記号）をクリックし、**[!UICONTROL 移動]**&#x200B;をクリックします。
 
@@ -309,7 +326,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### トレーニングビデオ：エンタープライズ権限トレーニングビデオ ![概要バッジ ](/help/main/assets/overview.png)
+### トレーニングビデオ：エンタープライズ権限トレーニングビデオ ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 学習内容：
 
@@ -330,6 +347,6 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL  セットアップ ]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は正しいですが、オプションは少し異なる場所にある場合があります。
+>[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は正しいですが、オプションは少し異なる場所にある場合があります。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

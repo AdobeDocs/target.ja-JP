@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1065
@@ -30,11 +32,11 @@ ht-degree: 27%
 
 次の図は、デフォルトの1 x 4 デザインを示しています。
 
-![1 x 4 デフォルトデザイン ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![1 x 4 デフォルトデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 次の図は、カスタムデザインを示しています。
 
-![ カスタムデザイン ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![&#x200B; カスタムデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 アクティビティ作成プロセス中に、[!UICONTROL Visual Experience Composer] （VEC）内またはアクティビティ作成以外のデザインライブラリからデザインを作成できます。 次のセクションでは、ライブラリからデザインを作成することを前提としていますが、手順は似ています。
 
@@ -47,9 +49,9 @@ ht-degree: 27%
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
 
-1. 作成するデザインの「その他のアクション」アイコン（![その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL コピー]**」をクリックします。
+1. 作成するデザインの「その他のアクション」アイコン（![その他のアクション」アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL コピー]**」をクリックします。
 
-   「[!UICONTROL  デザインを作成]」ダイアログボックスが表示されます。
+   「[!UICONTROL &#x200B; デザインを作成]」ダイアログボックスが表示されます。
 
 1. デザイン カードに表示する&#x200B;**[!UICONTROL Name]**&#x200B;とオプションのプレビュー画像を入力します。
 
@@ -59,7 +61,7 @@ ht-degree: 27%
 
    レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。 Velocityに関する情報は、[https://velocity.apache.org](https://velocity.apache.org)および[Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)を使用したデザインのカスタマイズで確認できます。
 
-   デザインは HTML または HTML 以外にすることができます。 デフォルトでは、HTML デザインは`<div>` タグでラップされ、Web環境でのクリックトラッキングが可能になります。 HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。 HTML以外のコードを使用するには、[!UICONTROL HTML デザイン ]のトグルを「オフ」にスライドさせます。
+   デザインは HTML または HTML 以外にすることができます。 デフォルトでは、HTML デザインは`<div>` タグでラップされ、Web環境でのクリックトラッキングが可能になります。 HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。 HTML以外のコードを使用するには、[!UICONTROL HTML デザイン &#x200B;]のトグルを「オフ」にスライドさせます。
 
    >[!NOTE]
    >
@@ -73,7 +75,7 @@ ht-degree: 27%
 
 1. 「**[!UICONTROL デザインを作成]**」をクリックします。
 
-   新しいカスタムデザインを既存のデザインに基づいて作成する場合は、作成するデザインの[!UICONTROL 詳細アクション ] アイコン（![詳細アクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、[!UICONTROL  コピー]をクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
+   新しいカスタムデザインを既存のデザインに基づいて作成する場合は、作成するデザインの[!UICONTROL 詳細アクション &#x200B;] アイコン（![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、[!UICONTROL &#x200B; コピー]をクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
 
 1. **[!UICONTROL 名前]**&#x200B;とオプションのプレビュー画像を追加します。
 
@@ -87,7 +89,7 @@ ht-degree: 27%
 
 デフォルトデザインは編集またはコピーできません。デフォルトデザインのみコピーできます。
 
-編集または削除するデザインの[!UICONTROL その他のアクション ] アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL  コピー]、または[!UICONTROL 削除]）をクリックします。
+編集または削除するデザインの[!UICONTROL その他のアクション &#x200B;] アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL &#x200B; コピー]、または[!UICONTROL 削除]）をクリックします。
 
 既存のデザインをコピーして複製したデザインを作成し、変更することができます。 このプロセスにより、より少ない労力で同様のデザインを作成できます。
 
@@ -95,9 +97,9 @@ ht-degree: 27%
 
 ## JSON の例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-次の例は、[ フォームベースのエディター](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを設定する際に、JSON応答を返す方法を示しています。
+次の例は、[&#x200B; フォームベースのエディター](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを設定する際に、JSON応答を返す方法を示しています。
 
-1. [!UICONTROL  デザインライブラリ ]内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC）ワークフロー内でデザインを作成しようとすると、クリックトラッキング用に`<div>`にラップされたHTML デザイン以外は作成できません。
+1. [!UICONTROL &#x200B; デザインライブラリ &#x200B;]内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC）ワークフロー内でデザインを作成しようとすると、クリックトラッキング用に`<div>`にラップされたHTML デザイン以外は作成できません。
 
 1. 「HTML デザイン」オプションがオフになっていることを確認します。
 
@@ -176,7 +178,7 @@ ht-degree: 27%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-応答でその他の情報を送信することもできます。 次のコードファイルはより複雑なサンプルで、エンティティ ID と関連するスロット（順序）以外に様々な情報を返します。 このデザインの例では、アクティビティの詳細、[!UICONTROL  ターゲットプロファイル ]の詳細（該当する場合）、および返された項目に関連するその他`entity.attributes`も返します。
+応答でその他の情報を送信することもできます。 次のコードファイルはより複雑なサンプルで、エンティティ ID と関連するスロット（順序）以外に様々な情報を返します。 このデザインの例では、アクティビティの詳細、[!UICONTROL &#x200B; ターゲットプロファイル &#x200B;]の詳細（該当する場合）、および返された項目に関連するその他`entity.attributes`も返します。
 
 ```javascript
     {   
@@ -316,7 +318,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 

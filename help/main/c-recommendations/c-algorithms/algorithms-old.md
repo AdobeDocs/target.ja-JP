@@ -34,19 +34,19 @@ ht-degree: 25%
 
 選択したアルゴリズムタイプによって、使用可能なアルゴリズムが決まります。 いくつかのアルゴリズムタイプがあり、[!DNL Recommendations] アクティビティの設定時に基準カードとして表されます。
 
-![条件ページ ](assets/criteria-page.png)
+![条件ページ &#x200B;](assets/criteria-page.png)
 
 次の表では、様々なアルゴリズムのタイプとそれに付随するアルゴリズムについて説明します。
 
 | アルゴリズムタイプ | 使用するタイミング | 使用可能なアルゴリズム |
 | --- | --- | --- |
-| [!UICONTROL  カートベース ] | ユーザーのカートの内容に基づいてレコメンデーションを行います。 | <ul><li>これらを見た人、見た人</li><li>これらを見た人、購入した人</li><li>これらを買った人は、それを買った</li></ul>詳しくは、*の「[ カートベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)」を参照してください。レコメンデーションキー*&#x200B;に基づいてレコメンデーションを行います。 |
-| [!UICONTROL 人気度ベース ] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 | <ul><li>サイト全体で最も閲覧されたページ</li><li>カテゴリー別閲覧者数</li><li>項目属性で最も閲覧された項目</li><li>サイト全体でトップ売り手</li><li>カテゴリー別のトップセラー</li><li>項目属性によるトップセラー</li><li>分析指標で上位</li></ul> |
-| [!UICONTROL  アイテムベース ] | 利用者が現在閲覧している項目や最近閲覧した項目と類似する項目を見つけることで、レコメンデーションを行うことができます。 | <ul><li>これを閲覧した人が他に閲覧したもの</li><li>これを閲覧した人が購入したもの</li><li>これを購入した人が他に購入したもの</li><li>類似の属性を持つ項目</li></ul> |
-| [!UICONTROL  ユーザーベース ] | 利用者の行動にもとづいてレコメンデーションする： | <ul><li>最近表示された項目</li><li>あなたにおすすめ</li></ul> |
-| [!UICONTROL  カスタム条件] | アップロードしたカスタムファイルにもとづいて、レコメンデーションを作成できます。 | <ul><li>カスタムアルゴリズム</li></ul> |
+| [!UICONTROL &#x200B; カートベース &#x200B;] | ユーザーのカートの内容に基づいてレコメンデーションを行います。 | <ul><li>これらを見た人、見た人</li><li>これらを見た人、購入した人</li><li>これらを買った人は、それを買った</li></ul>詳しくは、*の「[&#x200B; カートベース &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)」を参照してください。レコメンデーションキー*&#x200B;に基づいてレコメンデーションを行います。 |
+| [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 | <ul><li>サイト全体で最も閲覧されたページ</li><li>カテゴリー別閲覧者数</li><li>項目属性で最も閲覧された項目</li><li>サイト全体でトップ売り手</li><li>カテゴリー別のトップセラー</li><li>項目属性によるトップセラー</li><li>分析指標で上位</li></ul> |
+| [!UICONTROL &#x200B; アイテムベース &#x200B;] | 利用者が現在閲覧している項目や最近閲覧した項目と類似する項目を見つけることで、レコメンデーションを行うことができます。 | <ul><li>これを閲覧した人が他に閲覧したもの</li><li>これを閲覧した人が購入したもの</li><li>これを購入した人が他に購入したもの</li><li>類似の属性を持つ項目</li></ul> |
+| [!UICONTROL &#x200B; ユーザーベース &#x200B;] | 利用者の行動にもとづいてレコメンデーションする： | <ul><li>最近表示された項目</li><li>あなたにおすすめ</li></ul> |
+| [!UICONTROL &#x200B; カスタム条件] | アップロードしたカスタムファイルにもとづいて、レコメンデーションを作成できます。 | <ul><li>カスタムアルゴリズム</li></ul> |
 
-各アルゴリズムについて詳しくは、[ レコメンデーションキーに基づいてレコメンデーションを作成する](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。
+各アルゴリズムについて詳しくは、[&#x200B; レコメンデーションキーに基づいてレコメンデーションを作成する](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。
 
 ## カスタムレコメンデーションキーの使用 {#custom-key}
 
@@ -54,7 +54,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->カスタムプロファイルパラメーターは、JavaScript、API、または統合機能を使用して[!DNL Target]に渡すことができます。 カスタムプロファイル属性について詳しくは、[訪問者プロファイル ](/help/main/c-target/c-visitor-profile/visitor-profile.md)を参照してください。
+>カスタムプロファイルパラメーターは、JavaScript、API、または統合機能を使用して[!DNL Target]に渡すことができます。 カスタムプロファイル属性について詳しくは、[訪問者プロファイル &#x200B;](/help/main/c-target/c-visitor-profile/visitor-profile.md)を参照してください。
 
 例えば、ユーザーが最後にキューに追加したムービーに基づいて、推奨ムービーを表示するとします。
 
@@ -62,15 +62,15 @@ ht-degree: 25%
 
 1. **[!UICONTROL 条件を作成]** > **[!UICONTROL 条件を作成]**&#x200B;をクリックします。
 
-1. [基本情報セクション ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)に情報を入力します。
+1. [基本情報セクション &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)に情報を入力します。
 
-1. 「[推奨アルゴリズム ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)」セクションで、**[!UICONTROL アルゴリズムタイプ]** リストから「**[!UICONTROL アイテムベース]**」を選択します。
+1. 「[推奨アルゴリズム &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)」セクションで、**[!UICONTROL アルゴリズムタイプ]** リストから「**[!UICONTROL アイテムベース]**」を選択します。
 
 1. 「**[!UICONTROL アルゴリズム]**」リストから「**[!UICONTROL これを表示したユーザー]**」を選択します。
 
 1. **[!UICONTROL Recommendation Key]** リストからカスタム プロファイル属性を選択します（例：[!UICONTROL 前回のウォッチリストに追加された番組]）。
 
-   ![新しい条件を作成ダイアログボックス ](assets/custom-key1.png)
+   ![新しい条件を作成ダイアログボックス &#x200B;](assets/custom-key1.png)
 
 ## 条件情報の表示 {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
@@ -84,8 +84,8 @@ ht-degree: 25%
 
 「**[!UICONTROL アルゴリズム使用状況]**」タブをクリックして、選択した条件を参照するアクティビティのリストを表示します。 カードには、アクティブ、非アクティブ、ドラフトの各アクティビティが一覧表示されます。 「ライブアクティビティ/非アクティブアクティビティ/ドラフトアクティビティ」ドロップダウンリストをクリックして、その条件を参照するアクティビティのリスト全体を表示します。 アクティビティリンクをクリックすると、編集するアクティビティを開くことができます。
 
-![ アルゴリズム使用状況タブ ](/help/main/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![&#x200B; アルゴリズム使用状況タブ &#x200B;](/help/main/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->[!UICONTROL  アルゴリズム使用状況]機能は、現在、Recommendations アクティビティでのみサポートされています。 この機能は、現在、[推奨事項をオファー](/help/main/c-recommendations/recommendations-as-an-offer.md)として含むA/B テスト、自動配分、自動ターゲット、およびエクスペリエンスターゲティング （XT）アクティビティではサポートされていません。
+>[!UICONTROL &#x200B; アルゴリズム使用状況]機能は、現在、Recommendations アクティビティでのみサポートされています。 この機能は、現在、[推奨事項をオファー](/help/main/c-recommendations/recommendations-as-an-offer.md)として含むA/B テスト、自動配分、自動ターゲット、およびエクスペリエンスターゲティング （XT）アクティビティではサポートされていません。

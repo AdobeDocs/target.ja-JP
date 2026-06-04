@@ -6,11 +6,22 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4bea
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 925
@@ -24,29 +35,29 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->[!UICONTROL  プロパティ ]および[!UICONTROL 権限]機能は、[!DNL Target Premium] ソリューションの一部として利用できます。 [!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
+>[!UICONTROL &#x200B; プロパティ &#x200B;]および[!UICONTROL 権限]機能は、[!DNL Target Premium] ソリューションの一部として利用できます。 [!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >
 >[!DNL Target] UIの上部にある[!UICONTROL 管理] リンクをクリックすると、組織が[!UICONTROL Standard]または[!UICONTROL Premium] ライセンスを持っているかどうかを確認できます。
 >
->* **[!DNL Target][!UICONTROL 標準]のお客様**:「[!UICONTROL  ユーザー]」タブ（[!UICONTROL 管理> ユーザー]）が表示されている場合（**[!UICONTROL プロパティ]** タブではない）、組織には[!DNL Target] [!UICONTROL 標準] ライセンスがあります。[!DNL Target] [!UICONTROL Standard]のお客様は、この記事の手順に従ってユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
+>* **[!DNL Target]&#x200B;[!UICONTROL 標準]のお客様**:「[!UICONTROL &#x200B; ユーザー]」タブ（[!UICONTROL 管理> ユーザー]）が表示されている場合（**[!UICONTROL プロパティ]** タブではない）、組織には[!DNL Target] [!UICONTROL 標準] ライセンスがあります。[!DNL Target] [!UICONTROL Standard]のお客様は、この記事の手順に従ってユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
 >
->* **[!DNL Target]プレミアム顧客**:「[!UICONTROL  ユーザー]」タブと「[!UICONTROL  プロパティ ]」タブ（[!UICONTROL 管理> プロパティ ]）が表示されている場合、組織には[!DNL Target] プレミアムライセンスがあります。[!DNL Target] プレミアムのお客様は、[ エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)および[ エンタープライズ権限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の手順に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
+>* **[!DNL Target]プレミアム顧客**:「[!UICONTROL &#x200B; ユーザー]」タブと「[!UICONTROL &#x200B; プロパティ &#x200B;]」タブ（[!UICONTROL 管理> プロパティ &#x200B;]）が表示されている場合、組織には[!DNL Target] プレミアムライセンスがあります。[!DNL Target] プレミアムのお客様は、[&#x200B; エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)および[&#x200B; エンタープライズ権限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の手順に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
 >
 >ユーザーと権限の管理方法について詳しくは、[製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)の&#x200B;*エンタープライズおよびチームユーザーガイド*&#x200B;を参照してください。
 
 [!DNL Adobe Target] を初めて使用するときには、[!DNL Adobe Experience Cloud] アカウントのところに、「Adobe.com」で終わる ID があらかじめ表示されています。 これらの ID は [!DNL Adobe] チームのメンバーのもので、新しいアカウントや [!DNL Adobe Target] の使い方について疑問点があるときに、メンバーに質問をすることができます。 質問があるときは、通常の方法で Adobe チームにご連絡ください。
 
-ユーザーが[!DNL Adobe Experience Cloud] アカウントを使用してログインし、[!DNL Target]にログインするまで、新しいユーザーが[!UICONTROL  ユーザー] ページに表示されません。
+ユーザーが[!DNL Adobe Experience Cloud] アカウントを使用してログインし、[!DNL Target]にログインするまで、新しいユーザーが[!UICONTROL &#x200B; ユーザー] ページに表示されません。
 
 デフォルトでは、すべての[!DNL Target] ユーザーは[!UICONTROL Observer]権限で始まります。
 
-管理者ユーザーは、[!UICONTROL  ユーザー] リストで特定されます。 アクセスレベルの変更が必要な場合は、いずれかのシステム管理者ユーザーにお問い合わせください。
+管理者ユーザーは、[!UICONTROL &#x200B; ユーザー] リストで特定されます。 アクセスレベルの変更が必要な場合は、いずれかのシステム管理者ユーザーにお問い合わせください。
 
 ## [!DNL Target]内からユーザー情報を表示する
 
 ワークスペースごとの役割やメールアドレスなど、[!DNL Target] UI で現在のユーザーのリストを表示できます。
 
-[!UICONTROL  ユーザー] ページを表示するには、**[!UICONTROL 管理]** > **[!UICONTROL ユーザー]**&#x200B;をクリックします。
+[!UICONTROL &#x200B; ユーザー] ページを表示するには、**[!UICONTROL 管理]** > **[!UICONTROL ユーザー]**&#x200B;をクリックします。
 
 >[!NOTE]
 >
@@ -92,15 +103,15 @@ ht-degree: 60%
 
 1. 目的のワークスペース（デフォルトのワークスペースなど）をクリックします。
 
-   「[!UICONTROL  ユーザー]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
+   「[!UICONTROL &#x200B; ユーザー]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
 
-1. [!UICONTROL 製品ロール ]列の各ユーザーのドロップダウンリストを使用して、目的の権限ロール（[!UICONTROL 承認者]、[!UICONTROL 編集者]、[!UICONTROL  オブザーバー]または[!UICONTROL 発行者]）を選択します。
+1. [!UICONTROL 製品ロール &#x200B;]列の各ユーザーのドロップダウンリストを使用して、目的の権限ロール（[!UICONTROL 承認者]、[!UICONTROL 編集者]、[!UICONTROL &#x200B; オブザーバー]または[!UICONTROL 発行者]）を選択します。
 
    | 役割 | 説明 |
    |--- |--- |
    | [!UICONTROL 承認者] | アクティビティの作成、編集、アクティブ化、停止ができます。 |
    | [!UICONTROL 編集者] | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
-   | [!UICONTROL  オブザーバー] | アクティビティを表示できますが、作成または編集はできません。 |
+   | [!UICONTROL &#x200B; オブザーバー] | アクティビティを表示できますが、作成または編集はできません。 |
    | [!UICONTROL 発行者] | [!UICONTROL Observer]の役割と同様です（アクティビティを表示できますが、作成または編集することはできません）。 ただし、[!UICONTROL 発行者]の役割には、アクティビティをアクティブ化するための追加の権限があります。 |
 
 詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/jp/enterprise/help/manage-permissions-and-roles.html)を参照してください。
@@ -117,6 +128,6 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL  セットアップ ]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
+>[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)

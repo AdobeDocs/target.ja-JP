@@ -16,7 +16,7 @@ ht-degree: 11%
 
 [!DNL Adobe Target] [!UICONTROL Traffic Estimator]は、[!UICONTROL Automated Personalization] （AP）アクティビティを成功させるのに十分なトラフィックがあるかどうかを確認するためのフィードバックを提供します。
 
-[!UICONTROL Automated Personalization]のアクティビティでは、複数のオファーの組み合わせを使用するため、有意義な結果を提供するために必要なトラフィック量を把握することが重要です。 [!UICONTROL  トラフィック見積もり]では、ページとテスト中のエクスペリエンスの数に関する統計を使用して、アクティビティを成功させるために必要なトラフィック量とテスト期間を見積もります。
+[!UICONTROL Automated Personalization]のアクティビティでは、複数のオファーの組み合わせを使用するため、有意義な結果を提供するために必要なトラフィック量を把握することが重要です。 [!UICONTROL &#x200B; トラフィック見積もり]では、ページとテスト中のエクスペリエンスの数に関する統計を使用して、アクティビティを成功させるために必要なトラフィック量とテスト期間を見積もります。
 
 [!UICONTROL Traffic Estimator]は、ページの推定ページのインプレッション数と一般的なコンバージョン率を比較することで、パーソナライズされたモデルを生成するのに十分なトラフィックがあるかどうかを判断します。 アクティビティの成功のためには、パーソナライズされたコンテンツがアクティビティ期間の 50％以内または 14 日以内（どちらか短い方）に準備されるようなサンプルサイズにするのが理想的です。 このプロセスにより、パーソナライズされたコンテンツを入手し、どのようなコンテンツを配信すべきかを学ぶのに十分な時間を確保できます。
 
@@ -28,9 +28,9 @@ ht-degree: 11%
 
    ![トラフィックアイコン](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   [!UICONTROL Traffic Estimator]が開きます。 「**[!UICONTROL トラフィック]**」をもう一度クリックすると、[!UICONTROL  トラフィック見積もり]を非表示にできます。
+   [!UICONTROL Traffic Estimator]が開きます。 「**[!UICONTROL トラフィック]**」をもう一度クリックすると、[!UICONTROL &#x200B; トラフィック見積もり]を非表示にできます。
 
-   ![Traffic Estimator ユーザーインターフェイス ](assets/ap_est.png)
+   ![Traffic Estimator ユーザーインターフェイス &#x200B;](assets/ap_est.png)
 
 1. 一般的なコンバージョン率（またはこのアクティビティから期待されるコンバージョン率）、1日あたりの推定アクティビティインプレッション数、テスト期間を指定します。
 
@@ -51,15 +51,15 @@ ht-degree: 11%
 
    十分なトラフィックがない場合は、次の点を考慮してください。
 
-   * [!UICONTROL Automated Personalization]ではなく[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを使用して、1つのエクスペリエンスのバリエーションで複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
+   * [!UICONTROL Automated Personalization]ではなく[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを使用して、1つのエクスペリエンスのバリエーションで複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
    * [!UICONTROL Automated Personalization] アクティビティ内のオファーの組み合わせ数を減らします。
    * アクティビティの実行期間を長くします。
 
    [!UICONTROL Traffic Estimator]で十分なトラフィックがあることが示されるまで数値を調整し、それに応じてテストを設計します。
 
-   十分なトラフィック メッセージを示す![ トラフィック見積もり](assets/ap_est_yes.png)
+   十分なトラフィック メッセージを示す![&#x200B; トラフィック見積もり](assets/ap_est_yes.png)
 
-   トラフィックが十分な場合は、[!UICONTROL  トラフィック ] アイコンに緑色のチェックが表示されます。 トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
+   トラフィックが十分な場合は、[!UICONTROL &#x200B; トラフィック &#x200B;] アイコンに緑色のチェックが表示されます。 トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
 
 ## Traffic Estimatorに関するよくある質問
 
