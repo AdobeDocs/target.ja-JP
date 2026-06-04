@@ -5,13 +5,8 @@ title: ' [!DNL Target] を使用する際に犯しがちなミスにはどのよ
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 400
@@ -29,7 +24,7 @@ ht-degree: 89%
 
 | 落とし穴 | 解決策 |
 | --- | --- |
-| 統計的に有意な結果に達するのに十分なトラフィックがない。 | 事前に[!DNL Adobe Target] [&#x200B; サンプルサイズ計算ツール &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、テストを実行する必要がある期間を把握し、テストを完了するまで実行します。 |
+| 統計的に有意な結果に達するのに十分なトラフィックがない。 | 事前に[!DNL Adobe Target] [ サンプルサイズ計算ツール ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、テストを実行する必要がある期間を把握し、テストを完了するまで実行します。 |
 | 変更が小さすぎる、または目立たない。 | 画面から数フィート離れた位置に立ったときに見えるように、十分な量の変更を加えます。 |
 | アクティビティとビジネス目標の連携に失敗する。 | 優先順位付け手法に重点を置き、その方法を社内の関係者に伝えます。 |
 | テストのバックログがほとんどない、またはまったくない。 | 社内の関係者と協力し、ビジネスの主要目標に合致したテストを提出できるようにします。 |
@@ -37,7 +32,7 @@ ht-degree: 89%
 | 意思決定に役立たないアクティビティ成功指標データを選択する。 | すべての主要なテスト指標を文書化し、追加の指標を含めて、さらなるインサイトを得ます。 |
 | 結果に影響する可能性がある変更を、テスト中におこなう。 | 予定されているプロモーションやサイトの変更について、カレンダーを管理します。 競合を避けるため、[!DNL Target]アクティビティの開始を明確に伝えます。 |
 | アクティビティの開始に近いテストエクスペリエンスまたは条件を変更する。 | テストアクティビティプロセスの初期段階で、主な関係者に承認を依頼します。 |
-| 結果が統計的に有意な結果になる前にアクティビティを終了する。 | [!DNL Adobe Target] [&#x200B; サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、テスト期間を確認します。 |
+| 結果が統計的に有意な結果になる前にアクティビティを終了する。 | [!DNL Adobe Target] [ サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、テスト期間を確認します。 |
 | [!DNL Target]アクティビティから得られる結果がマイナスまたはフラットになる。 | アクティビティがテストに値することを確認します。 |
 | 勝者エクスペリエンスをハードコーディングしない。 | アクティビティデータを使用して値を示し、ハードコーディングに対する賛同を得ます。 |
 | 結果をテストチーム以外と共有していない。 | 昼食や学習を含むコミュニケーションを拡大、プログラムダッシュボードを開発し、関係者とのミーティングをスケジュールします。 |

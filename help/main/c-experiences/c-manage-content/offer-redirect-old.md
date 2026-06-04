@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 45%
+source-wordcount: '1210'
+ht-degree: 44%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
-> * リダイレクトオファーは、[!UICONTROL Offers] > [!UICONTROL Code Offers] ページまたは[Forms ベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)で作成できます。 Visual Experience Composer （VEC）では、リダイレクトオファーを作成または適用できません。 コンテンツは[!DNL Target] リクエストの場所に挿入されるため、これらはグローバル [!DNL Target] リクエストには適していない可能性が高くなります。
+> * リダイレクトオファーは、[!UICONTROL  オファー]/[!UICONTROL  コードオファー] ページまたは[Forms ベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)で作成できます。 Visual Experience Composer （VEC）では、リダイレクトオファーを作成または適用できません。 コンテンツは[!DNL Target] リクエストの場所に挿入されるため、これらはグローバル [!DNL Target] リクエストには適していない可能性が高くなります。
 >
 >* ajax mbox （`mboxUpdate`）ではリダイレクト オファーを使用できません。
 >
@@ -35,13 +35,13 @@ ht-degree: 45%
 
 ## コードオファーページからリダイレクトオファーを作成します
 
-1. 「**[!UICONTROL Offers]**」をクリックし、「**[!UICONTROL Code Offers]**」タブを選択します。
+1. 「**[!UICONTROL オファー]**」をクリックしてから、「**[!UICONTROL コードオファー]**」タブを選択します。
 
-   ![&#x200B; コードオファータブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+   ![ コードオファータブ ](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
-1. **[!UICONTROL Create]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
+1. **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
 
-   ![&#x200B; リダイレクトオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![ リダイレクトオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. オファーのわかりやすい名前を入力します。
 
@@ -63,7 +63,7 @@ ht-degree: 45%
 
      1st パーティおよび3rd パーティのCookie設定を使用する場合、ドメインを渡す際にmbox セッション IDを渡す必要はありません。 この値はサードパーティ Cookie に保持されているため、URL に含める必要がないからです。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >
@@ -71,17 +71,17 @@ ht-degree: 45%
 
 ## フォームベースのExperience Composerを使用したリダイレクトオファーの作成
 
-1. [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL Content]** セクションを表示する場所を選択します。
+1. [ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL コンテンツ]** セクションを表示する場所を選択します。
 
-   フォームベースのExperience Composerの![&#x200B; コンテンツセクション &#x200B;](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
+   フォームベースのExperience Composerの![ コンテンツセクション ](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
-1. **[!UICONTROL Default Content]** ドロップダウンリストをクリックし、**[!UICONTROL Change Redirect Offer]**&#x200B;をクリックします。
+1. 「**[!UICONTROL デフォルトコンテンツ]**」ドロップダウンリストをクリックし、**[!UICONTROL リダイレクトオファーの変更]**&#x200B;をクリックします。
 
-   ![&#x200B; リダイレクトオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
+   ![ リダイレクトオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
 
-1. **[!UICONTROL Create]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
+1. **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
 
-   ![&#x200B; リダイレクトオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![ リダイレクトオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. オファーのわかりやすい名前を入力します。
 
@@ -103,7 +103,7 @@ ht-degree: 45%
 
      1st パーティおよび3rd パーティのCookie設定を使用する場合、ドメインを渡す際にmbox セッション IDを渡す必要はありません。 この値はサードパーティ Cookie に保持されているため、URL に含める必要がないからです。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >
@@ -111,25 +111,25 @@ ht-degree: 45%
 
 ## アクティビティでのリダイレクトオファーの使用
 
-[!UICONTROL Form-Based Experience Composer]を使用してリダイレクト オファーを適用する必要があります。 現在、VECを使用してリダイレクトオファーを適用することはできません。
+[!UICONTROL  フォームベースのExperience Composer]を使用してリダイレクト オファーを適用する必要があります。 現在、VECを使用してリダイレクトオファーを適用することはできません。
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]は、[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL Recommendations]のアクティビティで使用するエクスペリエンスの作成に役立つ、非ビジュアルエクスペリエンスおよびオファー作成インターフェイスです。ビジュアルエクスペリエンスコンポーザーが使用できないか、使用に実用的でない場合に使用できます。 例えば、[!UICONTROL Form-Based Experience Composer]を使用して、リダイレクト オファーを使用するエクスペリエンスを作成できます。
+[!DNL Adobe Target] [!UICONTROL  フォームベースのExperience Composer]は、[!UICONTROL A/B テスト ]、[!UICONTROL  エクスペリエンスのターゲット設定] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL Recommendations]のアクティビティで、Visual Experience Composerが使用できない、または使用できない場合に使用するエクスペリエンスの作成に役立つ、非ビジュアルなエクスペリエンスおよびオファー作成インターフェイスです。 例えば、[!UICONTROL  フォームベースのExperience Composer]を使用して、リダイレクトオファーを使用するエクスペリエンスを作成できます。
 
-1. [!UICONTROL Form-Based Experience Composer]でアクティビティを作成または編集します。
+1. [!UICONTROL  フォームベースのExperience Composer]でアクティビティを作成または編集します。
 
-   詳細な手順については、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
+   詳細な手順については、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
 
 1. 必要に応じて、目的の場所を指定し、オーディエンスの絞り込みを追加します。
 
-1. **[!UICONTROL Content]** セクションのドロップダウンリストをクリックし、**[!UICONTROL Change Redirect Offer]**&#x200B;をクリックします。
+1. 「**[!UICONTROL コンテンツ]**」セクションのドロップダウンリストをクリックし、**[!UICONTROL リダイレクトオファーの変更]**&#x200B;をクリックします。
 
-   ![&#x200B; リダイレクトオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
+   ![ リダイレクトオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
-1. [!UICONTROL Select Remote Offer] ダイアログボックスから目的のリダイレクトオファーを選択し、**[!UICONTROL Done]**&#x200B;をクリックします。
+1. 「[!UICONTROL  リモートオファーを選択]」ダイアログボックスから目的のリダイレクトオファーを選択し、「**[!UICONTROL 完了]**」をクリックします。
 
 1. アクティビティの設定を終了します。
 
-## トレーニングビデオ：フォームベースのコンポーザー![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：フォームベースのコンポーザー![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオでは、リダイレクトオファーの作成に使用できるフォームベースのコンポーザーのデモを紹介します。
 

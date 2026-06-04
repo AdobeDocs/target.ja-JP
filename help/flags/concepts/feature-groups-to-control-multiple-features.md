@@ -5,14 +5,14 @@ hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
 # 複数の機能を制御する機能グループ {#feature-groups}
 
-[機能フラグ &#x200B;](what-is-a-feature-flag.md)は、1つの機能を制御します。 複数の関連する機能フラグを一緒に管理し、同じオーディエンスに確実に届ける必要がある場合は、**機能グループ**&#x200B;を使用します。
+[機能フラグ ](what-is-a-feature-flag.md)は、1つの機能を制御します。 複数の関連する機能フラグを一緒に管理し、同じオーディエンスに確実に届ける必要がある場合は、**機能グループ**&#x200B;を使用します。
 
 ## 機能グループの役割 {#what-it-does}
 

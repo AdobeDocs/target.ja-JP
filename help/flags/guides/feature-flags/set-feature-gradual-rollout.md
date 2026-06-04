@@ -5,7 +5,7 @@ hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '146'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ロールアウトを拡大または縮小するには、時間の経過に伴って割合を増減できます。 パーセンテージを0%に減らすと、フラグを削除することなく、オーディエンス全員の機能が効果的にオフになります。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [段階的な展開](../../concepts/gradual-rollout.md)
 * [機能グループを設定し](set-feature-group-gradual-rollout.md)

@@ -5,32 +5,27 @@ title: オーディエンスで使用する2つのプロファイル属性を比
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
 # プロファイル属性比較オーディエンスの作成
 
-[!DNL Adobe Target]でオーディエンスを定義して、[&#x200B; オーディエンスライブラリ &#x200B;](/help/main/c-target/c-audiences/audiences.md)または[&#x200B; アクティビティのみのオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md)の2つのプロファイル属性を比較します。 より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
+[!DNL Adobe Target]でオーディエンスを定義して、[ オーディエンスライブラリ ](/help/main/c-target/c-audiences/audiences.md)または[ アクティビティのみのオーディエンス ](/help/main/c-target/creating-activity-only-audience.md)の2つのプロファイル属性を比較します。 より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 
 >[!NOTE]
 >
->この機能は、[[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) カテゴリでのみ使用できます。
+>この機能は、[[!UICONTROL 訪問者プロファイル ]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) カテゴリでのみ使用できます。
 
 ## 概要 {#section_303CBC78194D49A2A004945D425441E1}
 
-オーディエンスは、誰が [!DNL Target] アクティビティに含まれるか、または除外されるかを決定するルールによって定義されます。 オーディエンス定義には複数のルールを含めることができ、各ルールには複数のパラメーターを含めることができます。 含めるルールの1つが[!UICONTROL Visitor Profile] カテゴリを使用している場合、訪問者プロファイル属性の特定の値に基づいてルールを定義するか、その属性の値を別の訪問者プロファイル属性と比較できます。
+オーディエンスは、誰が [!DNL Target] アクティビティに含まれるか、または除外されるかを決定するルールによって定義されます。 オーディエンス定義には複数のルールを含めることができ、各ルールには複数のパラメーターを含めることができます。 含めるルールの1つが[!UICONTROL 訪問者プロファイル ] カテゴリを使用している場合、訪問者プロファイル属性の特定の値に基づいてルールを定義するか、その属性の値を別の訪問者プロファイル属性と比較できます。
 
 例えば、家具メーカーに勤め、2つの顧客傾向スコアを[!DNL Target]にアップロードしたとします。
 
@@ -43,9 +38,9 @@ ht-degree: 52%
 
 ## プロファイル属性比較オーディエンスの作成 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. **[!UICONTROL Audiences]**／**[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. 「**[!UICONTROL オーディエンス]**」 > 「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付け、オプションの説明を追加します。
-1. **[!UICONTROL Visitor Profile]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
+1. **[!UICONTROL 訪問者プロファイル]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 1. **[!UICONTROL Visitor Profile]** ドロップダウンリストから、属性を選択します。
 
    ![傾向スコア 1](assets/propensity_score_1.png)
@@ -54,7 +49,7 @@ ht-degree: 52%
 
    ![傾向スコア 2](assets/propensity_score_2.png)
 
-1. **[!UICONTROL Choose Comparison Type]** ドロップダウンリストから、**[!UICONTROL Attribute]**&#x200B;を選択します。
+1. **[!UICONTROL Choose Comparison Type]** ドロップダウンリストから、**[!UICONTROL Attribute]** を選択します。
 
    「静的値」比較タイプを使用すると、訪問者プロファイル属性を特定の値と比較できます。
 
@@ -68,10 +63,10 @@ ht-degree: 52%
 
    ![propensity_score_4 image](assets/propensity_score_4.png)
 
-1. **[!UICONTROL Done]** をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
-## トレーニングビデオ ![概要バッジ &#x200B;](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## トレーニングビデオ ![概要バッジ ](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 この機能を使用できるシナリオと詳細情報については、次のビデオを視聴してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/328272?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

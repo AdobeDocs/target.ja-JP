@@ -5,7 +5,7 @@ hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 ## 手順1：アクセスのリクエスト {#step-1-access}
 
-フラグコンソールへのアクセスをリクエストして、チームに参加します。 詳細な手順については、[&#x200B; アクセスを要求](../console/request-access.md)を参照してください。
+フラグコンソールへのアクセスをリクエストして、チームに参加します。 詳細な手順については、[ アクセスを要求](../console/request-access.md)を参照してください。
 
 ## 手順2：アプリケーションのオンボーディング {#step-2-onboard}
 
-アクセスを取得したら、フラグコンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
+アクセスを取得したら、フラグコンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
 
 オンボーディングの前に、次の手順に従います。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 * [最初の機能フラグを作成](../feature-flags/create-your-first-feature-flag.md)
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [アプリにフラグを統合](integrating-in-your-app.md)
 * [統合ステップ](integration-steps.md)

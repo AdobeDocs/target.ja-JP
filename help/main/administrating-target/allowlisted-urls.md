@@ -10,16 +10,16 @@ solution: Target
 product: Target
 source-git-commit: 882c91244e5dae0977c8a6a1e5878525f497a720
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
 # 許可リストに加えるURL
 
-許可リストに加えるURLは、リモートまたはリダイレクトのオファーを使用する場合を含め、組織が[!DNL Adobe Target] エクスペリエンスを作成および実行できる信頼できるURL パターンを定義します。 このリストは、[&#x200B; ホスト管理](/help/main/administrating-target/hosts.md)および[環境](/help/main/administrating-target/environments.md)と並行して機能しますが、許可されたリモートオファーのURL パターンと関連する検証に特に適用されます。
+許可リストに加えるURLは、リモートまたはリダイレクトのオファーを使用する場合を含め、組織が[!DNL Adobe Target] エクスペリエンスを作成および実行できる信頼できるURL パターンを定義します。 このリストは、[ ホスト管理](/help/main/administrating-target/hosts.md)および[環境](/help/main/administrating-target/environments.md)と並行して機能しますが、許可されたリモートオファーのURL パターンと関連する検証に特に適用されます。
 
-許可リストに加えるされたURLを管理するには、**[!UICONTROL Administration]** > **[!UICONTROL Allowlisted URLs]**&#x200B;をクリックします。
+許可リストに加えるURLを管理するには、**[!UICONTROL 管理]**/**[!UICONTROL 許可リストに加えるURL]**&#x200B;をクリックします。
 
 ![URL リスト、検索フィールドおよびURL コントロールを許可リストに加える](../administrating-target/assets/allowlist-1.png)するURL ページを追加しました
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 メインテーブルには、1つの列に許可リストに加えるされた各パターンが一覧表示されます。 サポートされるエントリには、正確なURL、ワイルドカードパス、リモートエクスペリエンスに対して組織が受け入れるパターン形式などが含まれます。
 
-1. **[!UICONTROL Add URL]** をクリックします。
+1. 「**[!UICONTROL URLを追加]**」をクリックします。
 
    ![](../administrating-target/assets/allowlist-2.png)
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    パターンを許可リストに加えるした後、他の[!DNL Target] ルールに従って、そのURLに依存するアクティビティとオファーを作成または実行できます。
 
-1. **[!UICONTROL Search URLs]** フィールドを使用して、テーブルをフィルタリングします。
+1. 「**[!UICONTROL URLを検索]**」フィールドを使用して、テーブルをフィルタリングします。
 
 1. URLを削除するには、不要になったパターンの行を見つけて、![削除](../administrating-target/assets/do-not-localize/Smock_Delete_18_N.svg) アイコンをクリックします。
 

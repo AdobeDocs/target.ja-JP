@@ -5,14 +5,11 @@ title: A/A テストとは？
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
 TQID: https://experienceleague.adobe.com/-kLz0mG8LaFqEbB-9M89vJWTFjfypupbcOQ3MjQz-jQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: 949
 ht-degree: 1%
 
 ---
@@ -53,7 +50,7 @@ A/A テストでは、データピッキングによって、アナリストが1
 
 A/A テストでは、テストが目的のサンプルサイズに達した後、統計的に有意な結果が&#x200B;*not*&#x200B;に表示されます。
 
-[!UICONTROL Adobe Target Sample Size Calculator]は、目的とするサンプルサイズとテストを実行する期間を決定するのに役立つ重要なツールです。
+[!UICONTROL Adobe Target サンプルサイズ計算ツール ]は、目的とするサンプルサイズとテストを実行する期間を決定するのに役立つ重要なツールです。
 
 * [Adobe Target サイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
@@ -74,6 +71,6 @@ A/A テストで95%の信頼性レベルを達成したいとします。 信頼
 
 組織でA/A テストが必要であると判断した場合、同じエクスペリエンスが一時的にコントロールとの違いを示す場合があることに注意してください。 これは、テストを実行できる時間によっては通常どおりです。 時間と訪問者が増えれば、その差は縮まるはずです。
 
-ベストプラクティスは、通常のA/B テスト手法を使用することです。[Adobe Target サイズ計算ツール &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、関連する最小エフェクトサイズ、望ましいパワー、有意性に基づいて、サンプルサイズを事前に決定します。
+ベストプラクティスは、通常のA/B テスト手法を使用することです。[Adobe Target サイズ計算ツール ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、関連する最小エフェクトサイズ、望ましいパワー、有意性に基づいて、サンプルサイズを事前に決定します。
 
 次に、結論に達する前に適切な時間と訪問者を許可し、テストの有意性レベルに応じて、1つのエクスペリエンスで上昇率に違いが見られ、勝者が宣言される可能性があることを忘れないでください。

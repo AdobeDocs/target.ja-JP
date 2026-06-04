@@ -1,26 +1,22 @@
 ---
 keywords: 多変量分析;mvt;指標;指標の設定;目標指標;アクティビティ設定;成功指標;コンバージョン;売上高;エンゲージメント
-description: '[!UICONTROL Conversion]、[!UICONTROL Revenue]、[!UICONTROL Engagement]など、訪問が成功したタイミングを判断するために、 [!DNL Adobe Target] [!UICONTROL Multivariate Test] アクティビティで指標を指定する方法について説明します。'
-title: '[!UICONTROL Multivariate Test] （MVT）アクティビティで目標の指標を設定するにはどうすればよいですか？'
+description: '[!UICONTROL  コンバージョン ]、[!UICONTROL 収益]、[!UICONTROL  エンゲージメント ]など、訪問が成功したかどうかを判断するために、 [!DNL Adobe Target] [!UICONTROL 多変量テスト ] アクティビティで指標を指定する方法について説明します。'
+title: '[!UICONTROL 多変量テスト ] （MVT）アクティビティで目標の指標を設定するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 TQID: https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 325
-ht-degree: 64%
+source-wordcount: 353
+ht-degree: 59%
 
 ---
 
-# [!UICONTROL Multivariate Test] アクティビティの指標の設定
+# [!UICONTROL 多変量テスト ] アクティビティの指標を設定
 
-[!DNL Adobe Target] [!UICONTROL Multivariate Test]の指標を使用して、訪問が成功したかどうかを判断します。
+[!DNL Adobe Target] [!UICONTROL 多変量テスト ]で指標を使用して、訪問が成功したかどうかを判断します。
 
 成功指標について詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
@@ -29,11 +25,11 @@ ht-degree: 64%
 
    ![指標リストを設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
-   [!UICONTROL Select Metrics] ページには、アクティビティに選択できる成功指標が一覧表示されます。 成功指標は次のカテゴリに分類されます。
+   [!UICONTROL 指標の選択] ページには、アクティビティに選択できる成功指標が一覧表示されます。 成功指標は次のカテゴリに分類されます。
 
-   * [!UICONTROL Conversion]
-   * [!UICONTROL Revenue]
-   * [!UICONTROL Engagement]
+   * [!UICONTROL コンバージョン]
+   * [!UICONTROL 売上高]
+   * [!UICONTROL エンゲージメント]
 
    あらかじめ用意されている成功指標を使用することも、カスタム成功指標を作成することもできます。 成功指標を主要指標としてマークすることもできます。 Reports カードおよび Experience Cloud カードは、主要指標が設定されている場合はデフォルトで主要指標を表示します。
 
@@ -41,14 +37,14 @@ ht-degree: 64%
 
    使用可能な設定は、使用している成功指標によって異なります。
 
-   有効にした場合、[!UICONTROL Estimated Value of the Conversion] フィールド（[!UICONTROL Page Score]指標では使用できません）は、目標の値を提供します。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 データタイプは通貨です。 このフィールドは、ユーザーが目標を満たすためにとるアクションを指定した後、順次表示されます。 詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
+   有効にした場合、「[!UICONTROL  コンバージョンの見積もり値]」フィールド（[!UICONTROL  ページスコア ]指標では使用できません）は、目標の値を提供します。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 データタイプは通貨です。 このフィールドは、ユーザーが目標を満たすためにとるアクションを指定した後、順次表示されます。 詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
 
    期待するデータを確実に入手するためには、成功指標を正しく設定することが重要です。
 
    詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
 1. （オプション）さらに指標を追加します。
-1. 指標の設定が完了したら、**[!UICONTROL Save and Close]**&#x200B;をクリックします。
+1. 指標の設定が完了したら、**[!UICONTROL 保存して閉じる]**&#x200B;をクリックします。
 
 指標に名前を付けたり、名前を変更したりする場合、次の文字は使用できません。
 
@@ -63,12 +59,12 @@ ht-degree: 64%
 | `-` | マイナス |
 | `@` | アットマーク |
 
-## トレーニングビデオ：アクティビティ指標（7:43） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ指標（7:43） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオでは、成功指標に関する作業について説明します。
 
 * 「目標」指標の理解
-* [!UICONTROL Conversion]、[!UICONTROL Revenue]および[!UICONTROL Engagement]指標を理解して構築する
+* [!UICONTROL  コンバージョン ]、[!UICONTROL 収益]、[!UICONTROL  エンゲージメント ]の指標を理解して構築する
 * クリック追跡指標の構築
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

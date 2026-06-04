@@ -5,15 +5,12 @@ title: カテゴリ親和性とは
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 880
 ht-degree: 97%
 
 ---
@@ -111,15 +108,15 @@ ht-degree: 97%
 
 ### カテゴリ親和性を使用するオーディエンスの作成 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. **[!UICONTROL Audiences]** リストから、**[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. **[!UICONTROL オーディエンス]**&#x200B;のリストから、「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 
    または
 
    既存のオーディエンスをコピーするには、オーディエンスのリストから目的のオーディエンスにマウスポインターを置き、コピーアイコンをクリックします。 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
 1. わかりやすいオーディエンスの名前を入力します。
-1. **[!UICONTROL + Add Rule]**／**[!UICONTROL Visitor Profile]**&#x200B;をクリックします。
-1. **[!UICONTROL Visitor Profile]** ドロップダウンリストから、**[!UICONTROL Category Affinity]**&#x200B;を選択します。
+1. **[!UICONTROL + ルールを追加]**／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックします。
+1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、「**[!UICONTROL カテゴリーの親和性]**」を選択します。
 
    ![訪問者プロファイル／カテゴリ親和性](assets/affinity.png)
 
@@ -145,7 +142,7 @@ ht-degree: 97%
    * 次と等しい
 
 1. 新しい値はそれぞれ別の行（例えば、「靴」）に指定します。
-1. **[!UICONTROL Save]** をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ### アクティビティにおけるカテゴリ親和性オーディエンスの使用 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 

@@ -1,33 +1,24 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extension;browser
-description: '[!UICONTROL Visual Experience Composer]（VEC）で一部の web サイトを確実に開くことができない理由を明らかにします。 VEC Helper ブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込むことができます。'
+description: 一部のweb サイトが[!UICONTROL Visual Experience Composer] （VEC）で確実に開かない理由を確認します。 VEC Helper ブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込むことができます。
 title: '[!UICONTROL Visual Experience Composer] （VEC） ヘルパー拡張機能の使用方法を教えてください。'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 TQID: https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 55%
+source-wordcount: 1111
+ht-degree: 51%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] ヘルパー拡張機能
 
-[!DNL Google Chrome]の[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC） ヘルパーブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込んで、Web エクスペリエンスを迅速にオーサリングおよびQAできます。
+[!DNL Google Chrome]の[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC） ヘルパーブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込んで、Web エクスペリエンスを迅速に作成およびQAできます。
 
 VEC ヘルパーブラウザーは[!DNL Chrome]拡張機能です。 [!DNL Mozilla Firefox]を使用する場合、この拡張機能は必要ありません。
 
@@ -64,19 +55,19 @@ Chrome用VEC Helper ブラウザー拡張機能は、お客様が[!DNL Target] [
 
   Enhanced Experience Composer （EEC）を使用すると、拡張機能はat.jsを挿入しませんが、SameSite Cookie機能は引き続き存在します。 Web ページに at.js を挿入するには、EEC をオフにします。
 
-* [モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL Enhanced Experience Composer]（EEC）がなくてもサポートされます。
+* [ モバイルビューポート ](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL Enhanced Experience Composer] （EEC）がなくてもサポートされます。
 * [!DNL Target]が初めてのお客様は、自社の IT 開発者がまだ Web サイトに[!DNL Target]を実装していない場合でも、拡張機能を使用して[!DNL Target]を試すことができます。
 * 複数のお客様の Web サイトおよび[!DNL Target]アカウントにサービスを提供するパートナーは、サードパーティツールで複数のルールを管理するのではなく、VEC 読み込みをサポートする 1 つのシンプルなメカニズムを利用できるようになりました。
 
 ## VEC ヘルパーブラウザー拡張の取得とインストール
 
-1. Chrome Web ストア [&#128279;](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)のAdobe Target VEC Helper ブラウザー拡張機能に移動します。
-1. **[!UICONTROL Add to Chrome > Add Extension]** をクリックします。
+1. Chrome Web ストア ](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)の[Adobe Target VEC Helper ブラウザー拡張機能に移動します。
+1. **[!UICONTROL Chromeに追加/拡張機能を追加]**&#x200B;をクリックします。
 1. [!DNL Target] で VEC を開きます。
 1. 拡張機能を使用するには、VEC または [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で、Chrome ブラウザーのツールバーにある「VEC ヘルパーブラウザー拡張」アイコン（ ![「VEC ヘルパー」アイコン](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ）をクリックします。
-1. （条件付き） web ページに[!DNL Target] at.js JavaScript ライブラリがまだ含まれていない場合は、**[!UICONTROL Inject Target Libraries]** トグルを「オン」の位置にスライドさせます。
+1. （条件付き） web ページに[!DNL Target] at.js JavaScript ライブラリがまだ含まれていない場合は、**[!UICONTROL ターゲットライブラリを挿入]** トグルを「オン」の位置にスライドさせます。
 
-   次の図は、[!UICONTROL Inject Target Libraries]設定が有効になっているVEC ヘルパーを示しています。
+   次の図は、[!UICONTROL  ターゲットライブラリの挿入]設定が有効になっているVEC ヘルパーを示しています。
 
    ![VEC ヘルパー 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -84,19 +75,19 @@ Chrome用VEC Helper ブラウザー拡張機能は、お客様が[!DNL Target] [
 
    ![VEC ヘルパー 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. （条件付き） **[!UICONTROL Cookies]** トグルを「オン」位置にスライドさせ、`SameSite=None`属性ブラウザーの修正を自動的に追加します。
+1. （条件付き） **[!UICONTROL Cookie]** トグルを「オン」位置にスライドさせ、`SameSite=None`属性ブラウザーの修正を自動的に追加します。
 
-   VEC ヘルパー拡張機能の![Cookie トグル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+   VEC ヘルパー拡張機能の![Cookie トグル ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
    `SameSite=None` 属性に関するブラウザーの修正について詳しくは、「Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？」の節を参照してください。 [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)。
 
 ## メモ
 
-* 拡張機能の[!UICONTROL Inject Target libraries] フラグは、デフォルトでオフになっています。 [!DNL Target]向けにまだ実装されていないサイトで VEC を使用する場合は、このフラグを有効にすることができます。
+* 拡張機能の[!UICONTROL  ターゲットライブラリの挿入] フラグは、デフォルトでオフになっています。 [!DNL Target]向けにまだ実装されていないサイトで VEC を使用する場合は、このフラグを有効にすることができます。
 
   このフラグはグローバル設定です。 このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。 例えば、このフラグを「on」に設定し、at.jsで既に実装されているweb サイトを開くと、at.jsが既に読み込まれていることを知らせるメッセージが表示されます。 Adobeでは、多くのお客様が既にat.jsをページに実装しており、デフォルト設定の「off」を使用していることを想定しています。
 
-* 拡張機能は、[!UICONTROL Administration > Implementation]の[!DNL Target UI]から利用可能な最新バージョンのat.jsを読み込みます。
+* 拡張機能は、最新バージョンのat.jsを読み込みます。このバージョンは、[!DNL Target UI]から[!UICONTROL 管理/実装]で利用できます。
 * 拡張機能を使用して [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で at.js を挿入する場合は、別の Chrome タブを開く必要があります。 この Chrome タブは、アクティビティを作成したのと同じ[!DNL Adobe Experience Cloud]組織に対して認証される必要があります。
 * 次のメッセージにより、さらに情報が提供されます。
 

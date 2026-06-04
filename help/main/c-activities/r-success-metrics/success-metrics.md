@@ -5,26 +5,17 @@ title: 成功指標とは
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1374
-ht-degree: 44%
+source-wordcount: 1502
+ht-degree: 40%
 
 ---
 
-# [!UICONTROL Success metrics]
+# [!UICONTROL 成功指標]
 
 [!DNL Adobe Target]の成功指標は、アクティビティのパフォーマンスを測定するのに役立つ主要な指標です。 これらの指標には、コンバージョン、訪問者あたりの売上、顧客エンゲージメントなどの重要なビジネス成果が反映されており、特定の体験やオファーの影響を評価することができます。
 
@@ -34,21 +25,21 @@ ht-degree: 44%
 
 [!DNL Target]では、正確なレポートと効果的なトラッキングを確実に行うために、成功指標が事前設定され、推奨される設定が使用されます。
 
-デフォルトでは、コンバージョンイベントは設定&#x200B;**[!UICONTROL Increment count & keep user in activity].**&#x200B;を使用します この設定では、各訪問者は1回のみコンバージョンとしてカウントされます。 リピートコンバージョンはカウントされません。 これらの訪問者は、セッション全体を通じてアクティビティコンテンツを引き続き表示します。
+デフォルトでは、コンバージョンイベントは設定&#x200B;**[!UICONTROL 増分数とユーザーをアクティビティに保持].**&#x200B;を使用します この設定では、各訪問者は1回のみコンバージョンとしてカウントされます。 リピートコンバージョンはカウントされません。 これらの訪問者は、セッション全体を通じてアクティビティコンテンツを引き続き表示します。
 
-同じ設定を使用する収益指標の場合、訪問者の最初の注文のみが注文の詳細を記録します。 後続の注文はコンバージョン数を増やしますが、[!UICONTROL Revenue per Visitor (RPV)]、[!UICONTROL Average Order Value (AOV)]、[!DNL Total Sales]などの収益ベースの指標には貢献しません。 これらの追加注文も[!UICONTROL Order Details] レポートから除外されます。
+同じ設定を使用する収益指標の場合、訪問者の最初の注文のみが注文の詳細を記録します。 後続の注文はコンバージョン数を増やしますが、[!UICONTROL 訪問者あたりの売上高（RPV） ]、[!UICONTROL 平均注文額（AOV） ]、[!DNL Total Sales]などの収益ベースの指標には貢献しません。 これらの追加注文は、[!UICONTROL 注文詳細] レポートからも除外されます。
 
 >[!NOTE]
 >
->[Analyticsをレポートソース &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）として使用するアクティビティの場合、目標指標は常に&quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;と&quot;[!UICONTROL On Every Impression]&quot;の設定を使用します。 これらの設定は、*変更できません*。
+>[Analyticsをレポートソース ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）として使用するアクティビティの場合、目標指標は常に「[!UICONTROL 増分数とアクティビティ内のユーザーを維持]」および「[!UICONTROL すべてのインプレッション ]」設定を使用します。 これらの設定は、*変更できません*。
 
-次の成功指標は、[!UICONTROL Goals & Settings] ステップの[!UICONTROL Activity Settings page]の[!UICONTROL Reporting Settings] セクションで設定できます。
+次の成功指標は、[!UICONTROL 目標と設定] ステップの[!UICONTROL  アクティビティ設定ページ ]の[!UICONTROL  レポート設定] セクションで設定できます。
 
 | 成功指標 | 測定アプローチ | 定義 |
 |--- |--- |--- |
-| [!UICONTROL Conversion] | コンバージョンベース | コンバージョンとは、訪問者が、定義したサイトに対して、次のようなアクションを実行するときです。 <ul><li>ページが表示された</li><li>mbox が表示された</li><li>要素をクリックしました</li></ul>コンバージョンは訪問者ごとに 1 回としてカウントすることも、訪問者がコンバージョンを達成するたびにカウントすることもできます。 |
-| [!UICONTROL Revenue] | コンバージョンベース | 訪問者によって生成された売上高。 収益指標は1つだけ選択できます。<ul><li>mbox が表示された</li></ul>収益成功指標に関連する、更新された[!DNL Target] UIの変更について詳しくは、以下の[更新された [!DNL Target] UIの変更](#changes)を参照してください。 |
-| [!UICONTROL Engagement] | エンゲージメントベース | 訪問によって生成されたエンゲージメント。 次のエンゲージメント指標から選択できます。<UL><li>ページビュー：一意の訪問は、コンバージョンとしてカウントされます。</li><li>[!UICONTROL Custom Scoring]: サイトで訪問したページに割り当てられた値に基づいて、訪問者が最初にアクティビティの最初の表示[!DNL Target] リクエストを見た時点から集計されたスコアです。</li>[!DNL Time on Site]：訪問者がアクティビティの最初の表示[!DNL Target] リクエストを見た時点から、セッションでのリクエストを含む最終ページの読み込みまでの訪問に費やした時間（秒単位）。</UL> |
+| [!UICONTROL コンバージョン] | コンバージョンベース | コンバージョンとは、訪問者が、定義したサイトに対して、次のようなアクションを実行するときです。 <ul><li>ページが表示された</li><li>mbox が表示された</li><li>要素をクリックしました</li></ul>コンバージョンは訪問者ごとに 1 回としてカウントすることも、訪問者がコンバージョンを達成するたびにカウントすることもできます。 |
+| [!UICONTROL 売上高] | コンバージョンベース | 訪問者によって生成された売上高。 収益指標は1つだけ選択できます。<ul><li>mbox が表示された</li></ul>収益成功指標に関連する、更新された[!DNL Target] UIの変更について詳しくは、以下の[更新された [!DNL Target] UIの変更](#changes)を参照してください。 |
+| [!UICONTROL エンゲージメント] | エンゲージメントベース | 訪問によって生成されたエンゲージメント。 次のエンゲージメント指標から選択できます。<UL><li>ページビュー：一意の訪問は、コンバージョンとしてカウントされます。</li><li>[!UICONTROL  カスタムスコアリング ]: サイトで訪問したページに割り当てられた値に基づいて、訪問者が最初にアクティビティの最初の表示[!DNL Target] リクエストを見た時点から集計されたスコアです。</li>[!DNL Time on Site]：訪問者がアクティビティの最初の表示[!DNL Target] リクエストを見た時点から、セッションでのリクエストを含む最終ページの読み込みまでの訪問に費やした時間（秒単位）。</UL> |
 
 エンゲージメントベースの指標（コンバージョンベースおよび収益ベースの指標とは異なる）の場合、訪問者は各訪問のアクティビティを再選定して、そのセッションの数を増やす必要があります。 関連付けられた指標は、再評価の後にインクリメントが開始され、各訪問者のセッションの終わりでインクリメントが停止します。 30 分間無操作状態が続くと、そのセッションは終了します。 したがって、テスト中にすぐに結果が表示されるわけではありません。ただし、そのセッションのすべての結果は、セッション終了後の数分以内に利用できます。
 
@@ -56,27 +47,27 @@ ht-degree: 44%
 
 カスタムの成功指標も作成できます。
 
-成功指標を選択し、目的を達成するために訪問者がとるアクションを選択します。 例えば、[!UICONTROL Conversion]指標を選択し、訪問者ごとに1回カウントされるように設定し、訪問者が特定のページ（またはページのセット）を表示したり、特定の[!DNL Target]要求を表示したり、特定のリンクをクリックしたりしたときに成功が達成されるかどうかを設定します。
+成功指標を選択し、目的を達成するために訪問者がとるアクションを選択します。 例えば、[!UICONTROL  コンバージョン ]指標を選択し、訪問者ごとに1回カウントされるように設定し、訪問者が特定のページ（またはページのセット）を表示したり、特定の[!DNL Target]要求を表示したり、特定のリンクをクリックしたりしたときに成功が達成されるかどうかを設定します。
 
-有効にすると、[!UICONTROL Estimated Value of one conversion] フィールド（[!UICONTROL Page Score]指標では使用できません）は目標の値を提供しますが、他の指標の値は提供しません。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 すべての収益指標（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales]、および[!UICONTROL Orders]）に対して、見積もりは[!UICONTROL Revenue per Visitor]を使用します。 データタイプは通貨です。 詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
+有効にした場合、1つのコンバージョン ] フィールドの[!UICONTROL 見積もり値（[!UICONTROL  ページスコア ]指標では使用できません）は、目標の値を提供しますが、他の指標の値は提供しません。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 すべての収益指標（[!UICONTROL 訪問者あたりの売上高]、[!UICONTROL 平均注文額]、[!UICONTROL 総売上高]、および[!UICONTROL 注文数]）に対して、見積もりは[!UICONTROL 訪問者あたりの売上高]を使用します。 データタイプは通貨です。 詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
 
 アクティビティ用に選択した成功指標は、アクティビティのレポートを表示するときに、レポート設定で使用できます。
 
-[!UICONTROL Custom Scoring]や[!UICONTROL Revenue Per Visitor]などの一部の指標では、注文合計や注文IDなどの情報を渡すカスタマイズされた実装が必要です。
+[!UICONTROL  カスタムスコアリング ]や[!UICONTROL 訪問者あたりの収益]などの一部の指標では、注文合計や注文IDなどの情報を渡すカスタマイズされた実装が必要です。
 
 ## 詳細設定 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 詳細設定を使用して、成功の測定方法を管理します。 依存関係の追加、アクティビティでユーザーを保持するか削除するかの選択、参加者ごとに 1 回指標をカウントするか、すべてのインプレッションで指標をカウントするかの選択などのオプションがあります。
 
-[!UICONTROL Advanced Settings] オプションにアクセスするには、**[!UICONTROL More Actions]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL Advanced Settings]**&#x200B;をクリックします。
+[!UICONTROL 詳細設定] オプションにアクセスするには、**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 詳細設定]**&#x200B;をクリックします。
 
 ![詳細設定メニュー](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-[!UICONTROL Advanced Settings] オプション （「[!UICONTROL What will happen after a user encounters this goal]」および「[!UICONTROL How will the count be incremented]」）について詳しくは、[&#x200B; ユーザーがこの目標指標](#what-happens)に遭遇した後はどうなりますか？
+[!UICONTROL 詳細設定] オプションの詳細（「[!UICONTROL  ユーザーがこの目標に到達した後に何が起こるか]」および「[!UICONTROL  カウントをどのように増分するか]」）については、[ ユーザーがこの目標指標に到達した後に何が起こるか](#what-happens)）を参照してください。
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] をレポートソースとして使用する場合、設定は [!DNL Analytics] サーバーによって管理されます。 [!UICONTROL Advanced Settings] オプションは使用できません。 詳しくは、[Adobe Target（A4T）のレポートソースとしての Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
+>[!DNL Adobe Analytics] をレポートソースとして使用する場合、設定は [!DNL Analytics] サーバーによって管理されます。 [!UICONTROL 詳細設定] オプションは使用できません。 詳しくは、[Adobe Target（A4T）のレポートソースとしての Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
 
 ### 依存関係の追加
 
@@ -86,7 +77,7 @@ ht-degree: 44%
 
 依存関係機能は、次の場合はサポートされて&#x200B;*いません*。
 
-* [!UICONTROL Recommendations]件のアクティビティ。 それ以外のすべてのアクティビティタイプには対応しています。
+* [!UICONTROL おすすめ]件のアクティビティ。 それ以外のすべてのアクティビティタイプには対応しています。
 * [Analytics をレポートソース（A4T）として](/help/main/c-integrating-target-with-mac/a4t/a4t.md)使用している場合。
 * 「ページが表示されました」指標タイプ。
 * Visual Experience Composer（VEC）アクティビティの「要素がクリックされました」指標タイプ。
@@ -94,7 +85,7 @@ ht-degree: 44%
 依存成功指標は、次の場合に変換されません。
 
 * 循環依存（指標 1 が指標 2 に依存し、指標 2 が指標 1 に依存する）を作成した場合、どちらの指標もコンバートできません。
-* [!UICONTROL Automated Personalization]個のアクティビティがユーザーを解放し、コンバージョン指標に達したときにアクティビティを再起動します。そのため、コンバージョン指標に依存する指標はコンバージョンしません。
+* [!UICONTROL Automated Personalization] アクティビティは、コンバージョン指標に達したときにユーザーを解放し、アクティビティを再起動します。そのため、コンバージョン指標に依存する指標はコンバージョンしません。
 
 ### ユーザーがこの目標指標に達した後、どうなりますか？ {#what-happens}
 
@@ -102,13 +93,13 @@ ht-degree: 44%
 
 | ユーザーがこの目標指標に達した後 | オプション |
 |--- |--- |
-| [!UICONTROL Increment Count & Keep User in Activity] | カウントの増分方法を指定します。<ul><li>参加者ごとに1回（デフォルト）</li><li>すべてのインプレッション（ページの更新を除く）</li><li>すべてのインプレッション</li></ul> |
-| [!UICONTROL Increment Count, Release user, & Allow Reentry] | 訪問者がアクティビティを再入力した場合に表示されるエクスペリエンスを選択します。<ul><li>同じエクスペリエンス（デフォルト）</li><li>ランダムエクスペリエンス</li><li>未表示のエクスペリエンス</li></ul> |
-| [!UICONTROL Increment Count, Release User, & Bar from Reentry] | アクティビティのコンテンツの代わりにユーザーに表示する内容を指定します。<ul><li>トラッキングなしで同じエクスペリエンス（デフォルト）</li><li>デフォルト／他のアクティビティのコンテンツ</li></ul> |
+| [!UICONTROL  アクティビティ内のユーザーの増分数と維持] | カウントの増分方法を指定します。<ul><li>参加者ごとに1回（デフォルト）</li><li>すべてのインプレッション（ページの更新を除く）</li><li>すべてのインプレッション</li></ul> |
+| [!UICONTROL 増分数、リリースユーザー、再入力を許可] | 訪問者がアクティビティを再入力した場合に表示されるエクスペリエンスを選択します。<ul><li>同じエクスペリエンス（デフォルト）</li><li>ランダムエクスペリエンス</li><li>未表示のエクスペリエンス</li></ul> |
+| [!UICONTROL 再入力からの増分数、リリースユーザー、およびバー] | アクティビティのコンテンツの代わりにユーザーに表示する内容を指定します。<ul><li>トラッキングなしで同じエクスペリエンス（デフォルト）</li><li>デフォルト／他のアクティビティのコンテンツ</li></ul> |
 
 >[!NOTE]
 >
->指標を[!UICONTROL Increment Count] オプションのいずれかに設定した場合（上記）、指標のカウントは、訪問者レベルでのみ参加者ごとに1回正しく増加します。 指標カウントは、訪問レベルで新しいセッションが始まるたびに、訪問ごとに 1 ずつ増分します。
+>指標を[!UICONTROL 増分数] オプションのいずれかに設定すると、指標の数は、訪問者レベルでのみ参加者ごとに1回正しく増分されます。 指標カウントは、訪問レベルで新しいセッションが始まるたびに、訪問ごとに 1 ずつ増分します。
 
 ### カウントを増やす方法：
 
@@ -126,12 +117,12 @@ ht-degree: 44%
 
 ## 更新された[!DNL Target] UIの変更 {#changes}
 
-2015年2月17日にリリースされた[[!DNL Target Standard/Premium] 25.2.1 リリース &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)では、更新された[!DNL Target]および[!UICONTROL Visual Experience Composer] （VEC） UIが導入されました。 このセクションでは、レガシーUIと更新されたUIの主な違いを説明します。特に、成功指標の設定と管理に関する点について説明します。
+2015年2月17日にリリースされた[[!DNL Target Standard/Premium] 25.2.1 リリース ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)では、更新された[!DNL Target]および[!UICONTROL Visual Experience Composer] （VEC） UIが導入されました。 このセクションでは、レガシーUIと更新されたUIの主な違いを説明します。特に、成功指標の設定と管理に関する点について説明します。
 
-### [!UICONTROL Revenue]成功指標に関連するUIの変更
+### [!UICONTROL 収益]成功指標に関連するUIの変更
 
-更新された[!DNL Target] インターフェイスで、[!UICONTROL Default View for Reporting] ドロップダウンが削除されました。 このフィールドは、以前に従来のUIの[!DNL Overview] > [!UICONTROL Reports]の下にデフォルトのレポートビューを保存していたため、冗長でした。
+更新された[!DNL Target] インターフェイスで、[!UICONTROL  レポート用のデフォルト表示] ドロップダウンが削除されました。 このフィールドは、以前に従来のUIの[!DNL Overview] > [!UICONTROL Reports]の下にデフォルトのレポートビューを保存していたため、冗長でした。
 
-更新されたUIでは、デフォルトのレポート指標が常に[!UICONTROL Revenue per Visitor (RPV)]に設定されるようになりました。 [!UICONTROL Reports] セクションのビューをカスタマイズして、分析に最も関連性の高い指標を表示できます。
+更新されたUIでは、デフォルトのレポート指標が常に[!UICONTROL 訪問者あたりの収益（RPV） ]に設定されるようになりました。 [!UICONTROL  レポート ] セクションのビューをカスタマイズして、分析に最も関連する指標を表示できます。
 
-この変更は、配信指標には影響しません。 この変更は、レポートビューに表示されるデフォルトのフィルターにのみ影響します。 RPVは顧客の間で最も一般的に使用される指標であるため、このデフォルトはレポートワークフローを合理化するために選択されました。 [!UICONTROL Reports] セクション内では、いつでも他の指標に切り替えることができます。
+この変更は、配信指標には影響しません。 この変更は、レポートビューに表示されるデフォルトのフィルターにのみ影響します。 RPVは顧客の間で最も一般的に使用される指標であるため、このデフォルトはレポートワークフローを合理化するために選択されました。 [!UICONTROL  レポート ] セクション内で、いつでも他の指標に切り替えることができます。

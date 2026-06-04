@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '483'
 ht-degree: 8%
 
 ---
@@ -63,8 +63,8 @@ function targetPageParams() {
 
 複数値のエンティティ、プロファイルおよびmbox属性で使用できる演算子は次のとおりです。
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL はリスト ]に含まれています
+* [!UICONTROL はリスト ]に含まれていません
 
 ## 包含ルールでの複数値の属性の操作
 

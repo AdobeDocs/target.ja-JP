@@ -5,7 +5,7 @@ hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * 同じキーを持つ機能フラグが宛先サンドボックスに既に存在する場合、そのフラグは読み込まれません。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [機能と機能グループ](../feature-flags/features-feature-groups-releases.md)
 * [最初の機能フラグを作成](../feature-flags/create-your-first-feature-flag.md)

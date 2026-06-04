@@ -6,20 +6,13 @@ feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 TQID: https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 37%
+source-wordcount: 307
+ht-degree: 36%
 
 ---
 
@@ -39,7 +32,7 @@ ht-degree: 37%
 
 あなたの[!DNL Analytics]および[!DNL Target]のユーザーアカウントは Adobe ID にリンクされている必要があります。
 
-詳しくは、[組織とアカウントリンク &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)を参照してください。
+詳しくは、[組織とアカウントリンク ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)を参照してください。
 
 ### Experience Cloud グループのメンバーシップを設定します。
 
@@ -51,7 +44,7 @@ ht-degree: 37%
 
 特定のレポートスイートでA4Tを使用するには、そのレポートスイートにアクセスし、[!DNL Web Services Access] グループへのアクセス権を付与する必要があります。
 
-1. **[!UICONTROL Admin Console]**&#x200B;で、[!DNL Analytics]製品プロファイルをクリックし、「**[!UICONTROL Permissions]**」タブをクリックします。
+1. **[!UICONTROL Admin Console]**&#x200B;で、[!DNL Analytics]製品プロファイルをクリックし、**[!UICONTROL 権限]** タブをクリックします。
 
    次に、プロファイルがアクセスできるレポートスイートを確認できます。
 
@@ -59,9 +52,9 @@ ht-degree: 37%
 
    次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
 
-   ![Admin Console権限タブ &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Admin Console権限タブ ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. [!UICONTROL Web Services Access] グループへのアクセスを構成します。
+1. [!UICONTROL Web サービス アクセス ] グループへのアクセスを構成します。
 
    [!DNL Target]のレポートソースとして[!DNL Analytics]を使用するには、[!DNL Analytics]の[!UICONTROL Web Services Access] グループへのアクセスが必要です。
 

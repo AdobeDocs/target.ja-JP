@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## 前提条件 {#prerequisites}
 
-* コンソールにアクセスできます。[&#x200B; コンソールにログイン &#x200B;](../console/log-in-to-the-console.md)を参照してください。
+* コンソールにアクセスできます。[ コンソールにログイン ](../console/log-in-to-the-console.md)を参照してください。
 * チームに所属し、アプリケーションがオンボーディングされます
 * **開発者**&#x200B;または&#x200B;**製品リリース所有者**&#x200B;の役割があります
 * テストする機能フラグを作成しました。[最初の機能フラグを作成する](create-your-first-feature-flag.md)を参照してください。
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 機能グループの設定を保存します。 テストを開始する準備ができたら、機能グループをアクティブ状態に設定します。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [機能グループの作成](create-a-feature-group.md)
 * [機能グループを設定し](set-feature-group-gradual-rollout.md)

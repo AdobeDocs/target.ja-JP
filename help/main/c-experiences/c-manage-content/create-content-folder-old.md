@@ -1,58 +1,58 @@
 ---
 keywords: コンテンツ;フォルダーの作成;アセット;フォルダーの移動;フォルダーのコピー;フォルダーの削除;フォルダーのダウンロード;フォルダー
-description: オファーライブラリでフォルダーを作成するには
-title: Adobe [!DNL Target]  オファーライブラリでフォルダーを作成して、コード、画像オファー、その他のフォルダーを保持する方法を説明します。
+description: オファーライブラリでフォルダーを作成するにはどうすればよいですか？
+title: Adobe [!DNL Target] Offers ライブラリでフォルダーを作成し、コードと画像のオファーを保持する方法と、その他のフォルダーを作成する方法について説明します。
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 17%
+source-wordcount: '277'
+ht-degree: 16%
 
 ---
 
 # オファーフォルダーの作成
 
-Adobe Target オファーライブラリに、コードオファー、画像オファーおよびその他のフォルダーを格納するフォルダーを作成して、サブフォルダー構造を作成します。
+Adobe Target オファーライブラリでフォルダーを作成して、コードのオファー、画像のオファーおよびその他のフォルダーを保持し、サブフォルダー構造を作成します。
 
-コードオファーと画像オファーのフォルダーを作成するプロセスは少し異なります。 詳しくは、次の節を参照してください。
+コードオファーと画像オファーのフォルダーを作成するプロセスは、少し異なります。 詳しくは以下のセクションで説明されています。
 
-## オファーフォルダーをコーディング
+## コードオファーフォルダー
 
-1. **[!UICONTROL Offers]**／**[!UICONTROL Code Offers]**&#x200B;をクリックします。
+1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL コードオファー]**」をクリックします。
 
-   ![&#x200B; 「コードオファー」タブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![ コードオファータブ ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. **[!UICONTROL Create]**／**[!UICONTROL Folder]**&#x200B;をクリックします。
+1. **[!UICONTROL 作成]** / **[!UICONTROL フォルダー]**&#x200B;をクリックします。
 
 1. フォルダーのわかりやすい名前を指定します。
 
-1. **[!UICONTROL Create]** をクリックします。
+1. 「**[!UICONTROL 作成]**」をクリックします。
 
-オファーおよびフォルダーに対して実行できるタスクについては、「[&#x200B; アセットライブラリのコンテンツの操作 &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
+オファーとフォルダーで実行できるタスクについて詳しくは、[ アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
 
 ## 画像オファーフォルダー
 
-1. **[!UICONTROL Offers]**／**[!UICONTROL Image Offers]**&#x200B;をクリックします。
+1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL 画像オファー]**」をクリックします。
 
-   ![&#x200B; 「画像オファー」タブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![画像オファータブ ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-1. **[!UICONTROL Create]**／**[!UICONTROL Folder]**&#x200B;をクリックします。
-1. フォルダーの説明 **[!UICONTROL Title]** を指定します。
+1. **[!UICONTROL 作成]** / **[!UICONTROL フォルダー]**&#x200B;をクリックします。
+1. フォルダーの説明的な&#x200B;**[!UICONTROL タイトル]**&#x200B;を指定します。
 
    例えば、保存するコンテンツのタイプを名前に含めることができます。
 
-   名前には、パーセント記号 `%`、スラッシュ `/`、バックスラッシュ `\`、コロン `:`、アスタリスク `*`、疑問符 `?`、二重引用符 `"`、角括弧 `[`、角括弧 `]`、プラス記号：`+`、パイプ：`|`、ピリオド：`.`、中括弧：`#`、中括弧：`{`、中括弧 `}`、キャレット `^`、セミコロン `;` を含めることはできません。 これらの文字の代わりにハイフン（`- `）を使用できます。
+   名前に次の文字を含めることはできません：パーセント記号`%`、前方スラッシュ `/`、バックスラッシュ `\`、コロン `:`、アスタリスク `*`、疑問符`?`、二重引用符`"`、正方形ブラケット `[`、正方形ブラケット `]`、プラス記号：`+`、パイプ：`|`、期間：`.`、番号記号：`#`、カーリーブラケット：`{`、カーリーブラケット `}`、キャレット `^`、またはセミコロン `;`。 これらの文字の代わりにハイフン（`- `）を使用できます。
 
-1. （任意） **[!UICONTROL Name]** を編集します。
-1. （オプション）「**[!UICONTROL Private]**」チェックボックスをオンにします。
+1. （オプション） **[!UICONTROL Name]**&#x200B;を編集します。
+1. （オプション）「**[!UICONTROL プライベート]**」チェックボックスを選択します。
 
    フォルダーを非公開にし、フォルダーとそのコンテンツを自分しか閲覧できないようにします。
 
-1. （オプション）「**[!UICONTROL Reorder-able in List View]**」チェックボックスをオンにします。
+1. （オプション）「**[!UICONTROL リスト表示で並べ替え可能]**」チェックボックスを選択します。
 
-   [!UICONTROL List View] 内のフォルダの位置を並べ替えられるように指定します。
+   ユーザーと他のユーザーが、[!UICONTROL  リスト表示]でのフォルダーの位置を並べ替えることができるように指定します。
 
-1. **[!UICONTROL Create]** をクリックします。
+1. 「**[!UICONTROL 作成]**」をクリックします。
 
-オファーおよびフォルダーに対して実行できるタスクについては、「[&#x200B; アセットライブラリのコンテンツの操作 &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
+オファーとフォルダーで実行できるタスクについて詳しくは、[ アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。

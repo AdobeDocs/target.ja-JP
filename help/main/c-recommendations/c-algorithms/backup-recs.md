@@ -6,16 +6,12 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 TQID: https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: 533
 ht-degree: 72%
 
 ---
@@ -28,7 +24,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->追加情報は、条件の作成[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) トピックの コンテンツ セクションに含まれています。これには、[!UICONTROL Partial Design Rendering]と[!UICONTROL Show Backup Recommendations]のオプションを一緒にまたは別々に使用する場合に確認できる結果を説明するマトリックスが含まれます。
+>追加の情報は、「条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」トピックの「[ コンテンツ」セクションに含まれています。これには、[!UICONTROL 部分デザインレンダリング ]および[!UICONTROL  バックアップの推奨事項を表示] オプションを一緒にまたは個別に使用する場合に確認できる結果を説明するマトリックスが含まれます。
 
 バックアップのレコメンデーション機能は、アルゴリズムのデータが使用された後に、常にサイトで一番上に表示された項目を使用して、残りのスロットを埋めます。 例えば、テンプレートにレコメンデーション品目が 5 つ表示されるよう設定されていて、*購入の親和性*&#x200B;のアルゴリズムを使用しているとします。 ここで、5 つのスロットのうち 2 つ分のデータしかない場合は、代替レコメンデーション機能により、最多閲覧品目が残りの 3 つのスロットに挿入されます。
 
@@ -57,4 +53,4 @@ ht-degree: 72%
 
 代替レコメンデーションの使用については、初期セットアップ時に導入チームと話し合っていただくことになります。 導入後に代替レコメンデーション機能の設定を変更する場合は、アカウント担当者までお問い合わせください。
 
-部分デザインレンダリングを有効にする（[&#x200B; コンテンツ設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を参照）が有効になっておらず、テンプレートが表示されない場合は、代わりにバックアップの推奨事項またはデフォルトコンテンツが表示されます。
+部分デザインレンダリングを有効にする（[ コンテンツ設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を参照）が有効になっておらず、テンプレートが表示されない場合は、代わりにバックアップの推奨事項またはデフォルトコンテンツが表示されます。

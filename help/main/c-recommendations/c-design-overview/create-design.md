@@ -6,14 +6,12 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 24%
+source-wordcount: 1065
+ht-degree: 27%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 24%
 
 デザインによって、レコメンデーションがページに表示される方法が定義されます。
 
-デフォルトデザインを使用するか、カスタムデザインを作成することで、[!UICONTROL Recommendations] デザインを作成できます。 **[!UICONTROL Recommendations > Designs]**&#x200B;画面には、デフォルトのデザインカードと、アカウントで作成されたデザインの両方が表示されます。
+[!UICONTROL Recommendations] のデザイン作成には、デフォルトのデザインを使用するか、カスタムデザインを作成することができます。 **[!UICONTROL Recommendations > Designs]**&#x200B;画面には、デフォルトのデザインカードと、アカウントで作成されたデザインの両方が表示されます。
 
 デザインを操作する際は、次の情報を考慮してください。
 
@@ -32,11 +30,11 @@ ht-degree: 24%
 
 次の図は、デフォルトの1 x 4 デザインを示しています。
 
-![1 x 4 デフォルトデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![1 x 4 デフォルトデザイン ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 次の図は、カスタムデザインを示しています。
 
-![&#x200B; カスタムデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![ カスタムデザイン ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 アクティビティ作成プロセス中に、[!UICONTROL Visual Experience Composer] （VEC）内またはアクティビティ作成以外のデザインライブラリからデザインを作成できます。 次のセクションでは、ライブラリからデザインを作成することを前提としていますが、手順は似ています。
 
@@ -49,47 +47,47 @@ ht-degree: 24%
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
 
-1. 作成するデザインの「その他のアクション」アイコン（![その他のアクション」アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Copy]**」をクリックします。
+1. 作成するデザインの「その他のアクション」アイコン（![その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL コピー]**」をクリックします。
 
-   [!UICONTROL Create Design] ダイアログボックスが表示されます。
+   「[!UICONTROL  デザインを作成]」ダイアログボックスが表示されます。
 
-1. デザイン カードに表示する&#x200B;**[!UICONTROL &#x200B; Name]**&#x200B;とオプションのプレビュー画像を入力します。
+1. デザイン カードに表示する&#x200B;**[!UICONTROL Name]**&#x200B;とオプションのプレビュー画像を入力します。
 
-   デフォルトのデザインを使用すると、**[!UICONTROL Content Name]** フィールドにデザイン名と「コピー」が表示されます。 名前は編集できます。 デザインカードに表示する画像を選択することもできます。
+   デフォルトデザインを使用すると、**[!UICONTROL コンテンツ名]** フィールドにデザイン名と「コピー」が表示されます。 名前は編集できます。 デザインカードに表示する画像を選択することもできます。
 
-1. （条件付き）必要に応じて、デザイン **[!UICONTROL Code]**&#x200B;を編集します。
+1. （条件付き）必要に応じて、デザイン **[!UICONTROL コード]**&#x200B;を編集します。
 
    レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。 Velocityに関する情報は、[https://velocity.apache.org](https://velocity.apache.org)および[Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)を使用したデザインのカスタマイズで確認できます。
 
-   デザインは HTML または HTML 以外にすることができます。 デフォルトでは、HTML デザインは`<div>` タグでラップされ、Web環境でのクリックトラッキングが可能になります。 HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。 HTML以外のコードを使用するには、[!UICONTROL HTML Design] トグルを「オフ」の位置にスライドさせます。
+   デザインは HTML または HTML 以外にすることができます。 デフォルトでは、HTML デザインは`<div>` タグでラップされ、Web環境でのクリックトラッキングが可能になります。 HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。 HTML以外のコードを使用するには、[!UICONTROL HTML デザイン ]のトグルを「オフ」にスライドさせます。
 
    >[!NOTE]
    >
    >デザインで参照できるエンティティの最大数は、ハードコーディングの場合もループの場合も 99 です。
 
-1. **[!UICONTROL Create]** をクリックします。
+1. 「**[!UICONTROL 作成]**」をクリックします。
 
 ### カスタムデザインの作成
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
-1. **[!UICONTROL Create Design]** をクリックします。
+1. 「**[!UICONTROL デザインを作成]**」をクリックします。
 
-   新しいカスタムデザインを既存のデザインに基づいて作成する場合は、作成するデザインの[!UICONTROL More Actions] アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、[!UICONTROL Copy]をクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
+   新しいカスタムデザインを既存のデザインに基づいて作成する場合は、作成するデザインの[!UICONTROL 詳細アクション ] アイコン（![詳細アクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、[!UICONTROL  コピー]をクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
 
-1. **[!UICONTROL Name]**&#x200B;とオプションのプレビュー画像を追加します。
+1. **[!UICONTROL 名前]**&#x200B;とオプションのプレビュー画像を追加します。
 
-1. （条件付き）必要に応じて、デザイン **[!UICONTROL Code]**&#x200B;を編集します。
+1. （条件付き）必要に応じて、デザイン **[!UICONTROL コード]**&#x200B;を編集します。
 
    詳しくは、上記の手順4の情報を参照してください。
 
-1. **[!UICONTROL Create]** をクリックします。
+1. 「**[!UICONTROL 作成]**」をクリックします。
 
 ## デザインの編集、コピー、削除
 
 デフォルトデザインは編集またはコピーできません。デフォルトデザインのみコピーできます。
 
-編集または削除するデザインの[!UICONTROL More Actions] アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、または[!UICONTROL Delete]）をクリックします。
+編集または削除するデザインの[!UICONTROL その他のアクション ] アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL  コピー]、または[!UICONTROL 削除]）をクリックします。
 
 既存のデザインをコピーして複製したデザインを作成し、変更することができます。 このプロセスにより、より少ない労力で同様のデザインを作成できます。
 
@@ -97,9 +95,9 @@ ht-degree: 24%
 
 ## JSON の例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-次の例は、[&#x200B; フォームベースのエディター](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを設定する際に、JSON応答を返す方法を示しています。
+次の例は、[ フォームベースのエディター](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを設定する際に、JSON応答を返す方法を示しています。
 
-1. [!UICONTROL Design library]内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC） ワークフロー内でデザインを作成しようとすると、クリックトラッキング用に`<div>`にラップされたHTML デザイン以外は作成できません。
+1. [!UICONTROL  デザインライブラリ ]内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC）ワークフロー内でデザインを作成しようとすると、クリックトラッキング用に`<div>`にラップされたHTML デザイン以外は作成できません。
 
 1. 「HTML デザイン」オプションがオフになっていることを確認します。
 
@@ -136,16 +134,16 @@ ht-degree: 24%
 
 1. このデザインを使用するフォームベースの[!DNL Recommendations] アクティビティを設定します。
 
-   1. **[!UICONTROL Activities]** ページに移動します。
-   1. **[!UICONTROL Create Activity]**／**[!UICONTROL Recommendations]**&#x200B;をクリックします。
-   1. **[!UICONTROL Choose Experience Composer]**&#x200B;で「**[!UICONTROL Form]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
+   1. 「**[!UICONTROL アクティビティ]**」ページに移動します。
+   1. 「**[!UICONTROL アクティビティを作成]** > **[!UICONTROL Recommendations]**」をクリックします。
+   1. **[!UICONTROL Experience Composer]**&#x200B;で、**[!UICONTROL Form]**&#x200B;を選択し、**[!UICONTROL Next]**&#x200B;をクリックします。
    1. 「場所」で &quot;Sample_Recs_Response&quot; というテキストを入力します。
-   1. **[!UICONTROL Default Content]**&#x200B;で下向き矢印をクリックし、**[!UICONTROL Add Recommendation]**&#x200B;をクリックします。
+   1. 「**[!UICONTROL デフォルトコンテンツ]**」で、下矢印、「**[!UICONTROL レコメンデーションの追加]**」の順にクリックします。
    1. 「ページタイプ」を選択します。 これにより、次の画面の最初のフィルタリングが決まります。
-   1. 条件カードを選択し、**[!UICONTROL Next]**&#x200B;をクリックします。
-   1. 前の手順で作成したデザインを選択し、**[!UICONTROL Next]**&#x200B;をクリックします。
+   1. 条件カードを選択し、「**[!UICONTROL 次へ]**」をクリックします。
+   1. 前の手順で作成したデザインを選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
    1. 設定プロセスを完了します。
-   1. **[!UICONTROL Inactive]**&#x200B;の横にある右向き矢印をクリックし、**[!UICONTROL Activate]**&#x200B;を選択します。
+   1. 「**[!UICONTROL 非アクティブ]**」の横にある右矢印をクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
 
 1. アクティビティを設定してアクティブ化したら、クリーンな JSON 応答を返すサンプルのリクエストを設定できます。
 
@@ -178,7 +176,7 @@ ht-degree: 24%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-応答でその他の情報を送信することもできます。 次のコードファイルはより複雑なサンプルで、エンティティ ID と関連するスロット（順序）以外に様々な情報を返します。 このデザインの例では、アクティビティの詳細、[!UICONTROL Target Profile]の詳細（該当する場合）、および返された項目に関連するその他`entity.attributes`も返します。
+応答でその他の情報を送信することもできます。 次のコードファイルはより複雑なサンプルで、エンティティ ID と関連するスロット（順序）以外に様々な情報を返します。 このデザインの例では、アクティビティの詳細、[!UICONTROL  ターゲットプロファイル ]の詳細（該当する場合）、および返された項目に関連するその他`entity.attributes`も返します。
 
 ```javascript
     {   
@@ -318,11 +316,11 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
 * カスタムデザインの作成
 * デザインで表示変数を参照する方法について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/35340?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

@@ -5,10 +5,8 @@ title: Targetで使用できるエクスペリエンステンプレート？
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 TQID: https://experienceleague.adobe.com/0FXZ1swtrMyiz9mT8tvb9VIQxIIXsBrW0HelZ3sygm8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 573
@@ -62,7 +60,7 @@ ht-degree: 60%
 
 ## ライトボックス {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-[&#x200B; ライトボックスエクスペリエンステンプレート &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックスオーバーレイポップアップで、ホームページやランディングページ、またはその他の大量のエントリーページで一般的に使用されます。
+[ ライトボックスエクスペリエンステンプレート ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックスオーバーレイポップアップで、ホームページやランディングページ、またはその他の大量のエントリーページで一般的に使用されます。
 
 ![exp-template-lightbox image](assets/exp-template-lightbox.png)
 

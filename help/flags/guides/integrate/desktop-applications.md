@@ -22,7 +22,7 @@ ht-degree: 5%
 
 デスクトップクライアントは、**製品コードと製品バージョン**&#x200B;をアプリケーション IDとして使用できます。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [統合ステップ](integration-steps.md)
 * [スタートアップガイド](startup-guide.md)

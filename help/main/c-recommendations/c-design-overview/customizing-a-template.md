@@ -6,13 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 62%
 
 ---
@@ -215,7 +213,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![rec_key image](assets/rec_key.png)
 
-[!DNL Recommendations] アクティビティを作成する際に、「最後に購入したアイテム」など、訪問者のプロファイルからキーアイテムが取得された場合、[!DNL Target]は[!UICONTROL Visual Experience Composer] （VEC）にランダムな商品を表示します。 これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。 訪問者がページを表示すると、期待された重要品目が表示されます。
+[!DNL Recommendations] アクティビティを作成する際に、「最後に購入したアイテム」など、訪問者のプロファイルから主要なアイテムが取得された場合、[!DNL Target]は[!UICONTROL Visual Experience Composer] （VEC）にランダムな製品を表示します。 これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。 訪問者がページを表示すると、期待された重要品目が表示されます。
 
 ## 文字列値での置換の実行 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +243,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## テンプレートサイズのカスタマイズと空白値の確認 {#default}
 
-[!DNL Velocity] スクリプトを使用してエンティティ表示の動的なサイズを制御すると、次のテンプレートは、一致するエンティティが[!DNL Recommendations]から返されない場合に空のHTML要素を作成しないように、1対多の結果を含みます。 このスクリプトは、バックアップの推奨事項が意味がなく、[!UICONTROL Partial Template Rendering]が有効になっているシナリオに最適です。
+[!DNL Velocity] スクリプトを使用してエンティティ表示の動的なサイズを制御すると、次のテンプレートは、一致するエンティティが[!DNL Recommendations]から返されない場合に空のHTML要素を作成しないように、1対多の結果を含みます。 このスクリプトは、バックアップの推奨事項が意味がなく、[!UICONTROL 部分テンプレートレンダリング ]が有効になっているシナリオに最適です。
 
 以下の HTML スニペットは、4x2 デフォルトデザインの既存の HTML 部分を置き換えます（ここでは、簡潔にするために CSS は含まれません）。
 

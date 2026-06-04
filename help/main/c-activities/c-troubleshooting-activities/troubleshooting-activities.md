@@ -5,16 +5,12 @@ title: アクティビティのトラブルシューティング方法
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 44%
+source-wordcount: 866
+ht-degree: 43%
 
 ---
 
@@ -40,7 +36,7 @@ ht-degree: 44%
 
 ## アクティビティが実行されない。
 
-**検証：** 「[!UICONTROL Overview]」タブに移動し、テストが非アクティブまたはドラフトとマークされているかどうかを確認します。
+**検証：** 「[!UICONTROL 概要]」タブに移動し、テストが非アクティブまたはドラフトとマークされているかどうかを確認します。
 
 **オプション：**
 
@@ -58,7 +54,7 @@ ht-degree: 44%
 
 ## ページがページターゲティング条件に適格ではありません。
 
-**検証：** [!UICONTROL Overview] ページで、ページがターゲティング条件の範囲外にあるかどうかを判断します。
+**検証：** [!UICONTROL 概要] ページで、ページがターゲティング条件の範囲外にあるかどうかを判断します。
 
 **オプション：**
 
@@ -76,14 +72,14 @@ ht-degree: 44%
 
 ## [!DNL Target] に最近追加されましたが、アクティビティを作成できません。
 
-**検証：** 「[!UICONTROL Create Activity]」をクリックします。 オプションが有効でない場合、たいていは、アクティビティを作成するのに十分な権限がありません。
+**検証：** 「[!UICONTROL  アクティビティを作成]」をクリックします。 オプションが有効でない場合、たいていは、アクティビティを作成するのに十分な権限がありません。
 
 **オプション：**
 
-[!DNL Target]でユーザーとして追加された後、アクティビティを作成するには[!UICONTROL Approver]の役割が必要です。
+[!DNL Target]でユーザーとして追加された後、アクティビティを作成するには、[!UICONTROL 承認者]の役割が必要です。
 
 * あなたのアカウントの管理者に承認者として登録してもらってください。
-* 管理者の場合は、[!DNL Target]の&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;から[!UICONTROL Approver]の役割を自分自身に与えます。
+* 管理者である場合は、[!DNL Target]の&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL ユーザー]**&#x200B;の[!UICONTROL 承認者]の役割を自分に与えます。
 
   「[承認者の役割の割り当て](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)」を参照してください。
 
@@ -95,7 +91,7 @@ ht-degree: 44%
 
 * アクティビティを再構築します。
 
-ページの変更が[!DNL Target]の表示機能にどのような影響を与えるかについて詳しくは、[&#x200B; ページの変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+ページの変更が[!DNL Target]の表示機能にどのような影響を与えるかについて詳しくは、[ ページの変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 ## ページの読み込み中にページの構造が変更される。
 
@@ -108,13 +104,13 @@ ht-degree: 44%
 * （IDを使用して）テストされる各要素を一意に識別するようにページコードを更新します。
 * 前述のとおり、クラスや兄弟を動的に修正するのを止めます。
 
-ページの変更が[!DNL Target]の表示機能にどのような影響を与えるかについて詳しくは、[&#x200B; ページの変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+ページの変更が[!DNL Target]の表示機能にどのような影響を与えるかについて詳しくは、[ ページの変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 ## 同じページ上で他のアクティビティが実行される。
 
-**検証：** 「[!UICONTROL Collisions]」タブを使用して、他のアクティビティが実行されているかどうかを確認します。
+**検証：** [!UICONTROL 衝突] タブを使用して、他のアクティビティが実行中かどうかを確認します。
 
-**メモ：** 「[!UICONTROL Collisions]」タブは、テンプレートテストモジュールでは機能しません。
+**メモ：** 「[!UICONTROL  コリジョン ]」タブは、テンプレートテストモジュールでは機能しません。
 
 **オプション：**
 
@@ -137,7 +133,7 @@ ht-degree: 44%
 
 **注意：**&#x200B;同じ名前で異なるパラメーターを持つ複数のajax [!DNL Target]呼び出しが、同じページで機能しません。 最初の呼び出しのみが行われます。
 
-## [!DNL Target] APIを使用してアクティビティをアクティブ化しましたが、アクティビティは[!DNL Target] UIに[!UICONTROL Inactive]のステータスを表示します。
+## [!DNL Target] APIを使用してアクティビティをアクティブ化しましたが、アクティビティは[!DNL Target] UIで[!UICONTROL 非アクティブ ]のステータスを示します。
 
 [!DNL Target] APIを使用してUI外でアクティビティをアクティブ化するなど、特定のアクションを実行する場合、更新がUIに反映されるまでに最大10分かかる場合があります。
 
@@ -145,4 +141,4 @@ ht-degree: 44%
 
 まれに、エクスペリエンスの対象となるアクティビティのコンバージョン指標がアクティビティの選定と同じリクエストで送信された場合、リクエストの送信後に訪問者がエクスペリエンスに入っていない可能性があります。 この状況では、訪問者はデフォルトのコンテンツと、トークンを介してキャプチャされたエクスペリエンス IDが–1であることを確認します。 [!DNL Adobe]は、同じ[!DNL Target] リクエストでアクティビティの選定とコンバージョンを送信することはお勧めしません。
 
-同じリクエストで両方の指標を送信する場合は、[!UICONTROL Advanced Settings]を使用して、変換後も訪問者が同じエクスペリエンスに留まるように指定できます。
+同じリクエストで両方の指標を送信する場合は、[!UICONTROL 詳細設定]を使用して、変換後も訪問者が同じエクスペリエンスに留まるように指定できます。

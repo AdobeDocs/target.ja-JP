@@ -7,16 +7,16 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 69%
+source-wordcount: '95'
+ht-degree: 47%
 
 ---
 
 # [!DNL Target] 管理の概要
 
-[!DNL Adobe Target] の管理に役立つ情報です。これには、Visual Experience Composer （VEC）、レポート、Scene7 設定、実装、ホスト、環境、応答トークン、ユーザーの設定を含みます。
+Visual Experience Composer （VEC）、レポート、Scene7設定、実装、ホスト、環境、応答トークン、ユーザーの設定設定など、[!DNL Adobe Target]の管理に役立つ情報です。
 
-[!UICONTROL Administration] メニュー項目にアクセスするには、上部のメニューバーで **[!UICONTROL Administration]** をクリックしてから、左側で目的のタブをクリックします。
+[!UICONTROL 管理] メニュー項目にアクセスするには、上部メニューバーの&#x200B;**[!UICONTROL 管理]**&#x200B;をクリックし、左側の目的のタブをクリックします。
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [レポート](/help/main/administrating-target/reporting.md)
@@ -28,4 +28,4 @@ ht-degree: 69%
 * [レスポンストークン](/help/main/administrating-target/response-tokens.md)
 * [ユーザー](/help/main/administrating-target/c-user-management/user-management.md)
 
-![Adobe Target管理メニュー &#x200B;](/help/main/administrating-target/assets/administration.png)
+![Adobe Target管理メニュー](/help/main/administrating-target/assets/administration.png)

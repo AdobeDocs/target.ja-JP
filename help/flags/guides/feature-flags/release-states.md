@@ -5,7 +5,7 @@ hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 3か月以内にリリースをベースライン化または中止することを計画している場合。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [リリースをリクエスト](request-a-release.md)
 * [エンドツーエンドのリリースワークフロー](release-workflow-end-to-end.md)

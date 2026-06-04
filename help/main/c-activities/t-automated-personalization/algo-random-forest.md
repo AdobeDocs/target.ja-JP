@@ -1,30 +1,27 @@
 ---
 keywords: ランダム フォレスト；決定ツリー；ap;Automated Personalization
-description: ' [!DNL Adobe Target] が[!UICONTROL Automated Personalization] （AP）と[!UICONTROL Auto-Target]の両方のアクティビティでランダム フォレスト アルゴリズムを使用する方法について説明します。'
+description: ' [!DNL Adobe Target] が[!UICONTROL Automated Personalization] （AP）と[!UICONTROL 自動ターゲット ]の両方のアクティビティでランダム フォレスト アルゴリズムを使用する方法について説明します。'
 title: ' [!DNL Target]  ランダムフォレスト アルゴリズムの使用方法を教えてください。'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1438
-ht-degree: 44%
+source-wordcount: 1458
+ht-degree: 43%
 
 ---
 
 # ランダムフォレストアルゴリズム
 
-（AP）と[!DNL Auto-Target]の両方のアクティビティで使用される主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストなどのアンサンブル手法では、複数の学習アルゴリズムを使用して、任意の構成学習アルゴリズムから得られるよりも優れた予測性能を得ることができます。 [!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target]のランダム フォレスト アルゴリズムは、学習中に多数の決定木を作成することによって動作する分類または回帰方法です。
+（AP）と[!DNL Auto-Target]の両方のアクティビティで使用される主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストなどのアンサンブル手法では、複数の学習アルゴリズムを使用して、任意の構成学習アルゴリズムから得られるよりも優れた予測性能を得ることができます。 [!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット ]のランダムフォレスト アルゴリズムは、トレーニング中に多数の決定木を作成することによって動作する分類または回帰メソッドです。
 
 統計学の観点から見ると、結果の予測に使用される単一の回帰モデルが思い浮かぶかもしれません。 データサイエンスの最新の調査では、同一のデータセットから複数のモデルが構築され、効果的に組み合わせられる「アンサンブル手法」の方が、単一のモデルだけで予測する場合よりも結果が優れていることが示されています。
 
-ランダムフォレスト アルゴリズムは、[!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target]のアクティビティで使用されるパーソナライゼーション アルゴリズムの基礎となる鍵です。 ランダムフォレストは、何百もの決定木を組み合わせて、単一の木が単独で行うことができるよりも優れた予測に到達します。
+ランダムフォレスト アルゴリズムは、[!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット ] アクティビティで使用されるパーソナライゼーション アルゴリズムの基礎となるキーです。 ランダムフォレストは、何百もの決定木を組み合わせて、単一の木が単独で行うことができるよりも優れた予測に到達します。
 
 ## 決定木とは？ {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -57,7 +54,7 @@ ht-degree: 44%
 
 ### モデルの構築方法
 
-次の図は、[!UICONTROL Auto-Target]と[!UICONTROL Automated Personalization]のアクティビティに対してモデルがどのように構築されるかを示しています。
+次の図は、[!UICONTROL 自動ターゲット ]および[!UICONTROL Automated Personalization] アクティビティ用のモデルの構築方法をまとめたものです。
 
 ![random_forest_flow image](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
@@ -67,7 +64,7 @@ ht-degree: 44%
 1. [!DNL Target]は、モデルがしきい値の品質スコアを満たしているかどうかを確認します
 1. [!DNL Target]は、将来のトラフィックをパーソナライズするためにモデルを実稼動環境にプッシュします
 
-[!DNL Target]は、自動的に収集するデータと、ユーザーから提供されたカスタム データを使用して、パーソナライゼーション アルゴリズムを構築します。 このモデルによって、訪問者に表示する最適なエクスペリエンスやオファーが予測されます。 通常、1つのモデルは、エクスペリエンスごとに（アクティビティが[!UICONTROL Auto-Target]の場合）またはオファーごとに（アクティビティが[!UICONTROL Automated Personalization]の場合）構築されます。 [!DNL Target]は、予測される成功指標が最も高いエクスペリエンスまたはオファー（コンバージョン率など）を表示します。 これらのモデルは、予測に使用する前に、ランダムに割り当てられた訪問を対象にトレーニングをおこなう必要があります。 そのため、アクティビティが開始されると、パーソナライゼーションアルゴリズムの準備が整うまで、パーソナライズ対象のグループに入っている訪問者にも複数のエクスペリエンスまたはオファーが配信されます。
+[!DNL Target]は、自動的に収集するデータと、ユーザーから提供されたカスタム データを使用して、パーソナライゼーション アルゴリズムを構築します。 このモデルによって、訪問者に表示する最適なエクスペリエンスやオファーが予測されます。 一般的に、1つのモデルは、エクスペリエンスごとに（[!UICONTROL 自動ターゲット ] アクティビティの場合）またはオファーごとに（[!UICONTROL Automated Personalization] アクティビティの場合）構築されます。 [!DNL Target]は、予測される成功指標が最も高いエクスペリエンスまたはオファー（コンバージョン率など）を表示します。 これらのモデルは、予測に使用する前に、ランダムに割り当てられた訪問を対象にトレーニングをおこなう必要があります。 そのため、アクティビティが開始されると、パーソナライゼーションアルゴリズムの準備が整うまで、パーソナライズ対象のグループに入っている訪問者にも複数のエクスペリエンスまたはオファーが配信されます。
 
 各モデルは、アクティビティで使用する前に、訪問者の行動を予測するのに役立つように、検証する必要があります。 モデルは、曲線の下の領域（AUC）に基づいて検証されます。 そのため、検証が不可欠です。パーソナライズされたエクスペリエンスの提供をモデルが開始する正確な時間は、データの詳細によって異なります。 トラフィックのプランニングの観点からの目安としては、モデルが有効になるまでには、最低限のコンバージョン数が必要になるのが一般的です。
 

@@ -1,5 +1,5 @@
 ---
-title: モバイルアプリ
+title: モバイルアプリケーション
 description: Mobile SDKを使用してFlagsをモバイルアプリケーションに統合する方法を説明します。
 hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
@@ -10,7 +10,7 @@ ht-degree: 9%
 
 ---
 
-# モバイルアプリ {#mobile-applications}
+# モバイルアプリケーション {#mobile-applications}
 
 モバイルアプリケーションは、モバイルのSDKを介してフラグと統合されます。
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 統合プロセスの詳細については、[統合手順](integration-steps.md)を参照してください。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [統合ステップ](integration-steps.md)
 * [スタートアップガイド](startup-guide.md)

@@ -1,29 +1,23 @@
 ---
 keywords: ターゲティング;eec;visual experience composer;拡張 experience composer のトラブルシューティング;トラブルシューティング
-description: 特定の条件で [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で発生することがある問題のトラブルシューティング方法について説明します。
-title: '[!UICONTROL Enhanced Experience Composer]に関連する問題のトラブルシューティング方法を教えてください。'
+description: 特定の条件下で [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で発生することがある問題のトラブルシューティング方法について説明します。
+title: '[!UICONTROL Enhanced Experience Composer]に関連する問題をトラブルシューティングするには、どうすればよいですか？'
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 35%
+source-wordcount: 509
+ht-degree: 36%
 
 ---
 
-# [!UICONTROL Enhanced Experience Composer]に関連する問題のトラブルシューティング
+# [!UICONTROL Enhanced Experience Composer]に関する問題のトラブルシューティング
 
-特定の条件で、[!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で表示の問題が発生することがあります。
+特定の条件下で、[!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で表示の問題が発生することがあります。
 
 ## EEC で、公開 IP ではアクセスできない内部 QA 用 URL が読み込まれません。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -139,11 +133,11 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![EEC_error イメージ &#x200B;](assets/EEC_error.png)
+![EEC_error イメージ ](assets/EEC_error.png)
 
 このエラーメッセージが表示される理由と、問題の解決方法は次のとおりです。
 
-* **問題：**&#x200B;お使いのweb サイト ドメイン （ISP）が[!UICONTROL Enhanced Experience Composer]をブロックしています。
+* **問題：**&#x200B;お使いのweb サイト ドメイン （ISP）が[!UICONTROL 拡張Experience Composer]をブロックしています。
 
   **救済策：** – 上記のIP アドレスを許可リストに加えるします。
 
@@ -161,11 +155,11 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
 
 1. Firefox で対象の Web サイトを開きます。
-1. ブラウザーのアドレスバーの&#x200B;**[!UICONTROL Show Site Information]** アイコンをクリックします。
+1. ブラウザーのアドレスバーにある&#x200B;**[!UICONTROL サイトの情報を表示します]**&#x200B;アイコンをクリックします。
 
    ![firefox_more_info image](assets/firefox_more_info.png)
 
-1. **[!UICONTROL Show Connection Details]**／**[!UICONTROL More Information]**&#x200B;をクリックします。
+1. **[!UICONTROL 接続の詳細を表示]**／**[!UICONTROL 詳細を表示]**&#x200B;をクリックします。
 
    ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
 
@@ -173,7 +167,7 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 
    ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
 
-1. Web サイトにTLS 1.0が表示されていることがわかったら、TargetのTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 現在の状況を解決するには（2018年9月12日まで有効） {target=_blank}、TLS バージョンとドメインを使用した設定については、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+1. Web サイトにTLS 1.0が表示されていることがわかったら、TargetのTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 現在の状況を解決するには（2018年9月12日まで有効） {target=_blank}、TLS バージョンとドメインを使用した設定については、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 +++
 

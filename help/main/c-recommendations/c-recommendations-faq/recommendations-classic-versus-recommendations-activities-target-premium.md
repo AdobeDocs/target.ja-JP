@@ -6,20 +6,13 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 90%
+source-wordcount: 692
+ht-degree: 85%
 
 ---
 
@@ -41,16 +34,16 @@ ht-degree: 90%
 
 ## オファーとしてのレコメンデーション
 
-[!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate]と[!UICONTROL Auto-Target]を含む）および[!UICONTROL Experience Targeting] （XT）アクティビティ内にレコメンデーションを含めることができます。
+[!UICONTROL A/B テスト ] （[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット ]を含む）および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
-* [!UICONTROL Auto-Allocate] を使用して、トラフィックをパフォーマンスの高いレコメンデーションエクスペリエンスに自動的にプッシュします。
-* [!UICONTROL Auto-Target]を使用して、プロファイルに基づいて、カスタマイズされたレコメンデーション エクスペリエンスに訪問者を動的に割り当てます。
+* [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
+* [!UICONTROL 自動ターゲット ]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B Test]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL Insert Before]、[!UICONTROL Insert After]または[!UICONTROL Replace With] アクションを使用して、エクスペリエンスに推奨事項を追加します。
+開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト ]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
 
 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
@@ -69,7 +62,7 @@ ht-degree: 90%
 [!DNL Recommendations] のワークフローはシンプルになりました。 複雑なフォームに入力する代わりに、次のような視覚的なワークフローを実行します。
 
 1. 条件を選択します。
-1. 事前設定済みの[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を選択します。
+1. 事前設定済みの[ デザイン ](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を選択します。
 1. レコメンデーションの結果をプレビューします。
 
 ## プレビュー表示 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
