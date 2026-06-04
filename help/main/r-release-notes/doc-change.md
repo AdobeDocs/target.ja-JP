@@ -24,8 +24,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: 2503
-ht-degree: 35%
+source-wordcount: 2566
+ht-degree: 34%
 
 ---
 
@@ -52,14 +52,14 @@ ht-degree: 35%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
-| 1月17日（PT） | [[!UICONTROL Visual Editing Helper]拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しいセクションを追加しました：[!UICONTROL Visual Editing Helper]拡張機能の変更（2026年1月17日）。 |
+| 1月17日（PT） | [[!UICONTROL &#x200B; ビジュアル編集ヘルパー]拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しいセクションを追加しました：[!UICONTROL Visual Editing Helper]拡張機能の変更（2026年1月17日）。 |
 |  | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 26.1.1 リリースに関するリリースノートを追加しました。 |
 
 ### [!DNL Target Standard/Premium] 25.11.1 （2025年11月10日）
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
-| 11月20日（PT） | [レコメンデーションアクティビティの作成](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 手順5の下に次のメモを追加しました。 <ul><li>[!UICONTROL Recommendations]件のアクティビティでは、一度に1件の変更/レコメンデーションのみがサポートされます。 複数のレコメンデーションの場合は、複数の[!DNL Recommendations] アクティビティを作成するか、A/B テストまたはXT テストを使用できます。</li></ul> |
+| 11月20日（PT） | [レコメンデーションアクティビティの作成](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 手順5の下に次のメモを追加しました。 <ul><li>[!UICONTROL Recommendations]のアクティビティでは、一度に1つの変更/レコメンデーションのみがサポートされます。 複数のレコメンデーションの場合は、複数の[!DNL Recommendations] アクティビティを作成するか、A/B テストまたはXT テストを使用できます。</li></ul> |
 | 11月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.11.2 リリースに関するリリースノートを追加しました。 |
 | 11月12日（PT） | [[!DNL Adobe Target] [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/profile-apis/profile-bulk-api#benefits-of-the-bulk-profile-update-api){target=_blank} | バッチファイルの下の次のメモが削除されました。このメモは削除されました。 「複数のファイルを送信できます。 ただし、1日に送信するすべてのファイルの行の合計は、各クライアントに対して100万を超えてはなりません。」 |
 | 11月11日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.11.1 リリースに関するリリースノートを追加しました。 |
@@ -97,15 +97,15 @@ ht-degree: 35%
 |--- |--- |--- |
 | 9月1日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.8.4 リリースに関するリリースノートを追加しました。 |
 | 8月27日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] 25.8.4 リリースのプレリリースノートを更新しました。 リリース日、機能などの情報は、予告なく変更されることがあります。 この記事の情報は、特にリリース前に頻繁に更新されます。 |
-|  | [Visual Experience Composer で使用される要素セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) | 「[!UICONTROL Use preferred selectors]」オプションを追加しました。 |
+|  | [Visual Experience Composer で使用される要素セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) | 「[!UICONTROL 優先セレクターを使用]」オプションを追加しました。 |
 | 8月22日（PT） | *[!DNL Target]開発者ガイド*&#x200B;の[CNAMEと [!DNL Target]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} | ワークフローを改善するために記事全体を更新しました。 |
-|  | *[!DNL Target]開発者ガイド*&#x200B;の[推奨事項](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank}を計画および実装する | [!DNL Target Delivery API]を介して[!DNL Recommendations] [!UICONTROL Catalogs]を更新する際の注意事項を追加しました。 |
+|  | *[!DNL Target]開発者ガイド*&#x200B;の[推奨事項](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank}を計画および実装する | [!DNL Recommendations] [!UICONTROL &#x200B; カタログ &#x200B;]を[!DNL Target Delivery API]経由で更新する際の注意事項を追加しました。 |
 | 8 月 22 日 | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.8.3 リリースに関するリリースノートを追加しました。 |
 | 8月18日（PT） | *[!DNL Target]開発者ガイド*&#x200B;の[Analytics for Target （A4T） レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} | 以下の節を更新しました。<ul><li>GET リクエストコードスニペットを更新しました。</li><li>クエリ文字列パラメーターと変数テーブルを更新しました。</li><li>「*サンプル A4T データ挿入HTTP Get呼び出し*」セクションを更新しました。</li></ul> |
 |  | *[!DNL Target]開発者ガイド*&#x200B;の[Adobe Target Bulk Profile Update API](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank} | 使用するAPIのバージョンに関するメモを更新します。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] 25.8.3 リリース（2025年8月21日）のプレリリースノートを更新しました。 リリース日、機能などの情報は、予告なく変更されることがあります。 この記事の情報は、特にリリース前に頻繁に更新されます。 |
 | 8月15日 | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.8.2 リリースに関するリリースノートを追加しました。 |
-| 8月11日（PT） | [Experience Platform Web SDKにログインしているTarget用Adobe Analytics（A4T） &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/a4t/overview-a4t){target=_blank} | コンテンツの整理とアクセシビリティを改善するために、[!UICONTROL Analytics for Target] （A4T）の実装ガイダンス全体を&#x200B;*データ収集* ガイドから[!DNL Target]開発者ガイドに[!DNL Adobe Experience Platform Web SDK]を使用して移動しました。 この統合により、すべての[!DNL Target]関連の情報が単一の合理化された場所に格納されるようになり、開発者が関連コンテンツを簡単に検索して参照できるようになりました。 |
+| 8月11日（PT） | [Experience Platform Web SDKにログインしているTarget用Adobe Analytics（A4T） &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/a4t/overview-a4t){target=_blank} | コンテンツの整理とアクセシビリティを改善するために、*データ収集* ガイドの[!DNL Adobe Experience Platform Web SDK]を使用して、[!UICONTROL Analytics for Target] （A4T）の実装ガイダンス全体を[!DNL Target]開発者ガイドに移動しました。 この統合により、すべての[!DNL Target]関連の情報が単一の合理化された場所に格納されるようになり、開発者が関連コンテンツを簡単に検索して参照できるようになりました。 |
 |  | [&#x200B; アクティビティの編集](/help/main/c-activities/edit-activity.md) | 次の編集を行いました。<UL><li>「*オーディエンスとオファー*」セクションを編集して、アドホックオファーの場合、正しい形式は`<Entity Name>`であることを示しました。</li><li>組み合わせオーディエンスに関する情報を削除するために、*オーディエンスとオファー* セクションを編集しました。</li></ul> |
 | 8月7日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.8.1 リリースに関するリリースノートを追加しました。 |
 
@@ -118,14 +118,14 @@ ht-degree: 35%
 |  | [[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md#options) | 次のFAQを追加しました。「更新されたVECは、並べ替え、サイズ変更、移動、非表示、および削除オプションをどのように処理しますか。これらのオプションは従来のVECとどのように異なりますか？」 |
 | 7月29日（PT） | [&#x200B; アクティビティの編集](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) | ワークスペースを使用する場合は、*アクティビティのコピー/編集*&#x200B;の下の「オーディエンスとオファー」セクションを更新します。 |
 | 7 月 25 日 | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.7.3 リリースに関するリリースノートを追加しました。 |
-| 7月21日（PT） | [[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md#collapse) | 新しいFAQを追加しました：[!UICONTROL Design] パネルを拡大できるように、[!UICONTROL Components]、[!UICONTROL Modifications]、[!UICONTROL Properties] レールを折りたたむことができますか？ |
-|  | [[!UICONTROL Visual Experience Composer]件の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | [!UICONTROL Components]と[!UICONTROL Modifications]のレールを折りたたんで[!UICONTROL Design] パネルを拡大する方法に関する情報を追加しました。これにより、編集が簡単になりました。 |
+| 7月21日（PT） | [[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md#collapse) | 新しいFAQを追加しました：[!UICONTROL &#x200B; デザイン &#x200B;] パネルを拡大できるように、[!UICONTROL &#x200B; コンポーネント &#x200B;]、[!UICONTROL 変更]、および[!UICONTROL &#x200B; プロパティ &#x200B;] レールを折りたたむことができますか？ |
+|  | [[!UICONTROL Visual Experience Composer]の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | [!UICONTROL &#x200B; コンポーネント &#x200B;]および[!UICONTROL 変更] レールを折りたたんで[!UICONTROL &#x200B; デザイン &#x200B;] パネルを拡大する方法に関する情報を追加しました。これにより、編集が簡単になりました。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 25.7.3 リリースに関するプレリリースノートを追加しました。 |
 | 7月18日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.7.2 リリースに関するリリースノートを追加しました。 |
-| 7 月 18 日 | [成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md) | 以下の変更を加えました。<ul><li>[!UICONTROL Overview]の下の[!UICONTROL Revenue]行を更新しました。</li><li>新しいセクションを追加しました：[!UICONTROL Revenue]成功指標に関連するUIの変更。</li></ul> |
+| 7 月 18 日 | [成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md) | 以下の変更を加えました。<ul><li>[!UICONTROL 概要]の下の[!UICONTROL 収益]行を更新しました。</li><li>新しいセクションを追加しました：[!UICONTROL 収益]成功指標に関連するUIの変更。</li></ul> |
 | 7 月 16 日 | [&#x200B; アクティビティの編集](/help/main/c-activities/edit-activity.md#ection_45A92E1DD3934523B07E71EF90C4F8B6) | セクション全体が更新されました：*ワークスペースを使用する場合のアクティビティのコピーと編集*。 |
-| 7 月 15 日 | [アクティビティの概要](/help/main/c-activities/activities.md#filters) | 更新されたUIに[!UICONTROL Save as Draft]および[!UICONTROL Syncing] ステータスの廃止に関する情報を追加しました。 |
-|  | [[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md) | 更新されたUIに[!UICONTROL Save as Draft]および[!UICONTROL Syncing] ステータスの廃止に関する情報を追加しました。 |
+| 7 月 15 日 | [アクティビティの概要](/help/main/c-activities/activities.md#filters) | 更新されたUIに、[!UICONTROL &#x200B; ドラフトとして保存]および[!UICONTROL 同期] ステータスの非推奨化に関する情報を追加しました。 |
+|  | [[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md) | 更新されたUIに、[!UICONTROL &#x200B; ドラフトとして保存]および[!UICONTROL 同期] ステータスの非推奨化に関する情報を追加しました。 |
 | 7月10日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.7.1 リリースに関するリリースノートを追加しました。 |
 
 ### [!DNL Target Standard/Premium] 25.6.1（2025年6月6日（PT））
@@ -173,8 +173,8 @@ ht-degree: 35%
 | 4 月 8 日 | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次の今後のリリースのプレリリースノートを追加しました。<UL><li>[!DNL Target Standard/Premium] 25.4.3（2025年4月10日（PT））</li></ul> |
 | 4月4日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 2025年4月22日に予定されている今後の[!DNL Target]権限の更新に関するリリースノートを更新しました。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 2025年4月22日に予定されている今後の[!DNL Target]権限の更新に関するプレリリースノートを更新しました。 |
-|  | [管理者の最初の手順](/help/main/administrating-target/start-target.md#admin-permissions) | 新しいセクション「[!UICONTROL Administration]設定の編集に必要な権限」を追加しました。 |
-|  | [管理 [!DNL Target] 概要](/help/main/administrating-target/administrating-target.md) | [!UICONTROL Administration]設定の編集に必要な権限に関する重要なメモを追加しました。<P>[!UICONTROL Administration] セクションのすべての記事に同じメモを追加しました。 |
+|  | [管理者の最初の手順](/help/main/administrating-target/start-target.md#admin-permissions) | 新しいセクション「[!UICONTROL 管理]設定の編集に必要な権限」を追加しました。 |
+|  | [管理 [!DNL Target] 概要](/help/main/administrating-target/administrating-target.md) | [!UICONTROL 管理]設定の編集に必要な権限に関する重要なメモを追加しました。<P>[!UICONTROL 管理] セクションのすべての記事に同じメモを追加しました。 |
 | 4 月 3 日 | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.1 リリースに関するリリースノートを追加しました。 |
 
 ### [!DNL Target Standard/Premium] 25.3.1（2025年3月3日（PT））
@@ -185,8 +185,8 @@ ht-degree: 35%
 | 3月26日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.7 リリースに関するリリースノートを追加しました。 |
 |  | [レコメンデーション FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | APIを介して作成された[!DNL Recommendations] オブジェクトが[!DNL Target] UIで使用できることを示すFAQを更新しました。 |
 |  | [コレクション](/help/main/c-recommendations/c-products/collections.md) | 次の注意を追加しました：コレクションのルールは、条件の実行後に生成されたレコメンデーション項目に適用されます。 これらは、キーではなく、出力内のエンティティ推奨（ER）のみに影響します。 |
-| 3月19日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | IP アドレスを「許可リストに加える」に更新しました。 |
-| 3月18日（PT） | [!UICONTROL Auto-Allocate]および[!UICONTROL Auto-Target]のアクティビティ [&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)に対するA4T サポート | 「*サポートされている目標指標*」セクションにメモを追加しました。 |
+| 3月19日（PT） | [Enhanced Experience Composer[!UICONTROL に関する問題のトラブルシューティング &#x200B;]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | IP アドレスを「許可リストに加える」に更新しました。 |
+| 3月18日（PT） | [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティ [&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)に対するA4T サポート | 「*サポートされている目標指標*」セクションにメモを追加しました。 |
 | 3月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.6 リリースに関するリリースノートを追加しました。 |
 | 3月14日（PT） | [サポートされているブラウザー](https://experienceleague.adobe.com/ja/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | サポートされているブラウザーを更新し、「ビジュアル編集要件」セクションを追加しました。 |
 | 3月11日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.5 リリースに関するリリースノートを追加しました。 |
@@ -212,6 +212,6 @@ ht-degree: 35%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
-| 1月27日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次のアップデートに関するプレリリースノートを追加しました。 <ul><li>[!UICONTROL Activities] ユーザーインターフェイスの更新（2025年2月6日）</li><li>[!DNL Recommendations] ユーザーインターフェイスの更新（2025年2月7日）</li></ul> |
-| 1月22日（PT） | [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しい[!UICONTROL Visual Editing Helper Extension]が[!DNL Private Chrome Web Stores]をサポートするようになりました。 [!DNL Private Chrome Web Stores]を使用している顧客が引き続きレガシー[!UICONTROL Visual Experience Composer helper extension]を使用することを示すメモが削除されました。 |
-| 1月7日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL Offers Library] ユーザーインターフェイスの更新プログラムのリリースノートを追加しました（2025年1月9日に予定）。 すべてのオファーの記事が更新され、UIの変更が反映されました。 |
+| 1月27日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次のアップデートに関するプレリリースノートを追加しました。 <ul><li>[!UICONTROL &#x200B; アクティビティ &#x200B;] ユーザーインターフェイスの更新（2025年2月6日）</li><li>[!DNL Recommendations] ユーザーインターフェイスの更新（2025年2月7日）</li></ul> |
+| 1月22日（PT） | [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しい[!UICONTROL &#x200B; ビジュアル編集ヘルパー拡張機能]は、[!DNL Private Chrome Web Stores]をサポートするようになりました。 [!DNL Private Chrome Web Stores]を使用している顧客が従来の[!UICONTROL Visual Experience Composer ヘルパー拡張機能]を引き続き使用することを示すメモが削除されました。 |
+| 1月7日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL &#x200B; オファーライブラリ &#x200B;] ユーザーインターフェイスの更新（2025年1月9日に予定）のリリースノートを追加しました。 すべてのオファーの記事が更新され、UIの変更が反映されました。 |

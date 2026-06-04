@@ -1,7 +1,7 @@
 ---
 keywords: ターゲティング;eec;visual experience composer;拡張 experience composer のトラブルシューティング;トラブルシューティング
-description: 特定の条件で [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で発生することがある問題のトラブルシューティング方法について説明します。
-title: '[!UICONTROL Enhanced Experience Composer]に関連する問題のトラブルシューティング方法を教えてください。'
+description: 特定の条件下で [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で発生することがある問題のトラブルシューティング方法について説明します。
+title: '[!UICONTROL Enhanced Experience Composer]に関連する問題をトラブルシューティングするには、どうすればよいですか？'
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
@@ -16,14 +16,14 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 35%
+source-wordcount: 509
+ht-degree: 36%
 
 ---
 
-# [!UICONTROL Enhanced Experience Composer]に関連する問題のトラブルシューティング
+# [!UICONTROL Enhanced Experience Composer]に関する問題のトラブルシューティング
 
-特定の条件で、[!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で表示の問題が発生することがあります。
+特定の条件下で、[!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で表示の問題が発生することがあります。
 
 ## EEC で、公開 IP ではアクセスできない内部 QA 用 URL が読み込まれません。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -143,7 +143,7 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 
 このエラーメッセージが表示される理由と、問題の解決方法は次のとおりです。
 
-* **問題：**&#x200B;お使いのweb サイト ドメイン （ISP）が[!UICONTROL Enhanced Experience Composer]をブロックしています。
+* **問題：**&#x200B;お使いのweb サイト ドメイン （ISP）が[!UICONTROL 拡張Experience Composer]をブロックしています。
 
   **救済策：** – 上記のIP アドレスを許可リストに加えるします。
 
@@ -161,11 +161,11 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
 
 1. Firefox で対象の Web サイトを開きます。
-1. ブラウザーのアドレスバーの&#x200B;**[!UICONTROL Show Site Information]** アイコンをクリックします。
+1. ブラウザーのアドレスバーにある&#x200B;**[!UICONTROL サイトの情報を表示します]**&#x200B;アイコンをクリックします。
 
    ![firefox_more_info image](assets/firefox_more_info.png)
 
-1. **[!UICONTROL Show Connection Details]**／**[!UICONTROL More Information]**&#x200B;をクリックします。
+1. **[!UICONTROL 接続の詳細を表示]**／**[!UICONTROL 詳細を表示]**&#x200B;をクリックします。
 
    ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
 

@@ -1,6 +1,6 @@
 ---
 keywords: Automated Personalization;ap；データのアップロード；オフラインデータ；パーソナライゼーションアルゴリズム；自動ターゲット；自動ターゲット；ベストプラクティス
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）および[!UICONTROL Auto-Target] アクティビティでパーソナライゼーションモデルを構築する際にオフラインデータをアップロードする方法について説明します。'
+description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] アクティビティでパーソナライゼーションモデルを構築する際にオフラインデータをアップロードする方法について説明します。'
 title: Personalization アルゴリズムのデータをアップロードするにはどうすればよいですか？
 feature: Automated Personalization, Auto-Target
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
@@ -22,24 +22,24 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 302
-ht-degree: 19%
+source-wordcount: 323
+ht-degree: 18%
 
 ---
 
 # [!DNL Target] パーソナライゼーションアルゴリズムのデータのアップロード
 
-CRM情報や顧客解約傾向スコアなどのオフラインデータは、[!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）および[!UICONTROL Auto-Target]のアクティビティでパーソナライゼーションモデルを構築する際に、非常に価値があります。
+[!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] アクティビティでパーソナライゼーションモデルを構築する場合、CRM情報や顧客解約傾向スコアなどのオフラインデータは、非常に価値があります。
 
-[!UICONTROL Automated Personalization] （AP）および[!UICONTROL Auto-Target]個のパーソナライゼーションアルゴリズムにデータを入力するには、いくつかの方法があります。 [Targetにデータを取り込む方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}のメソッドに加えて、[!DNL Experience Cloud]の共有オーディエンス（[!UICONTROL Adobe Analytics]、[!DNL Audience Manager]）およびアクティビティ内レポートオーディエンスも[!DNL Target] アルゴリズムで使用されます。
+[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] パーソナライゼーションアルゴリズムでデータを入力するには、いくつかの方法があります。 [Targetにデータを取り込む方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}、[!DNL Experience Cloud]の共有オーディエンス （[!UICONTROL Adobe Analytics]、[!DNL Audience Manager]）およびアクティビティ内レポートオーディエンスの方法に加えて、[!DNL Target] アルゴリズムでも使用されています。
 
-[!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target]個のパーソナライゼーションアルゴリズムによって自動的に収集および使用されるデータについて詳しくは、[Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。
+[!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;]のパーソナライゼーションアルゴリズムによって自動的に収集および使用されるデータについて詳しくは、[Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。
 
 ## ベストプラクティス {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
 
 次のリストは、[!DNL Target]個のパーソナライゼーションアルゴリズムのデータをアップロードするためのベストプラクティスを示しています。
 
-* [!DNL Target]個のパーソナライゼーションアルゴリズムで利用できる高品質なデータが多ければ多いほど、[!UICONTROL Automated Personalization]および[!UICONTROL Auto-Target]のアクティビティで生成されるモデルの品質が向上します。
+* [!DNL Target]個のパーソナライゼーションアルゴリズムで利用できる高品質なデータが多ければ多いほど、[!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティで生成されるモデルの品質が向上します。
 * 同じ目的を果たす複数のプロファイルスクリプトまたは属性の使用を制限します。
 * セッション IDなどの一意のIDは、必要に応じて渡さないでください。
 * 重複したデータを送信しないように、[!DNL Target]が自動的に収集するデータ （[TargetのPersonalization アルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)）を確認します。 例えば、[!DNL Target]はIP アドレスを使用して、訪問者の郵便番号を決定します。 この情報を別個の変数として渡す必要はありません。

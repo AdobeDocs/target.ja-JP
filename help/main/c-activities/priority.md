@@ -14,16 +14,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 39%
+source-wordcount: 987
+ht-degree: 37%
 
 ---
 
 # 優先度
 
-[!DNL Adobe Target]は、使用している[!DNL Target] インターフェイスと、どのアクティビティ作成関数（[[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)または[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)）に応じて、ページに配信するアクティビティ（またはアクティビティ）を決定します。
+[!DNL Adobe Target]は、使用している[!DNL Target] インターフェイスと、どのアクティビティ作成関数（[[!UICONTROL Visual Experience Composer （VEC） &#x200B;]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)または[&#x200B; フォームベース Experience Composer](/help/main/c-experiences/form-experience-composer.md)）に応じて、ページに配信するアクティビティまたはアクティビティを決定します。
 
-## [!UICONTROL Visual Experience Composer]のみ、またはグローバル [!DNL Target]要求のみを使用する[!UICONTROL Form-Based Experience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Visual Experience Composer]のみ、またはグローバル [!DNL Target]要求のみを使用する[!UICONTROL &#x200B; フォームベース Experience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 自社でVECを独占的に使用している場合、同じ呼び出しに対して複数のアクティビティのコンテンツを返すことができます。 アクティビティは、次の決定フローを使用して配信されます。
 
@@ -31,7 +31,7 @@ ht-degree: 39%
 1. [!DNL Target]は、そのURLで実行されているすべてのアクティビティを取得します。
 1. 訪問者をアクティビティに照合しようとしました。[!DNL Target]
 
-   訪問者が既に[!UICONTROL A/B Test]または[!UICONTROL Multivariate Test] アクティビティにある場合、コンバージョンするまで、そのアクティビティと一致します。 以前に[!UICONTROL Experience Targeting] アクティビティに参加していた場合は、再度一致させる必要があります。 オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
+   訪問者が既に[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL 多変量テスト &#x200B;] アクティビティに参加している場合、コンバージョンするまで、そのアクティビティに一致します。 以前に[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティに参加していた場合は、再度一致させる必要があります。 オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
 
 1. 訪問者が適合するすべてのアクティビティおよびエクスペリエンスのコンテンツがページに返されます。
 1. 各アクティビティのコンテンツが異なる[CSS セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)を参照している場合、すべてのコンテンツが表示されます。
@@ -47,9 +47,9 @@ ht-degree: 39%
    * 1 つのアクティビティだけがオーディエンスターゲティングを持つ場合、そのアクティビティが表示されます。
    * すべての場合またはまったくターゲティングがない場合は、最初に承認されたアクティビティが表示されます。
 
-## [!UICONTROL Form-Based Experience Composer] および [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
+## [!UICONTROL &#x200B; フォームベースのExperience Composer]および[!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
-お客様の会社がVECを[!UICONTROL Form-Based Experience Composer] *および*&#x200B;使用している場合、複数の[!UICONTROL Form-Based Experience Composer]およびVEC アクティビティからコンテンツを配信できます。 以前は、フォームベースのワークフローから配信できるアクティビティは 1 つのみでした。 配信できるフォームベースのアクティビティ数に制限がなくなりました。
+お客様の会社が[!UICONTROL Form-Based Experience Composer] *および* VECを使用している場合、複数の[!UICONTROL Form-Based Experience Composer]およびVEC アクティビティからコンテンツを配信できます。 以前は、フォームベースのワークフローから配信できるアクティビティは 1 つのみでした。 配信できるフォームベースのアクティビティ数に制限がなくなりました。
 
 アクティビティの配信は、次の決定フローを使用して決定されます。
 
@@ -57,7 +57,7 @@ ht-degree: 39%
 1. [!DNL Target]は、その[!DNL Target] リクエストで実行されているすべてのアクティビティを取得します。
 1. 訪問者をアクティビティに照合しようとしました。[!DNL Target]
 
-   訪問者が既に[!UICONTROL A/B Test]または[!UICONTROL Multivariate Test] アクティビティにある場合、コンバージョンするまでテストに一致します。 以前に[!UICONTROL Experience Targeting] アクティビティに参加していた場合は、再度一致させる必要があります。 オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
+   訪問者が既に[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL 多変量テスト &#x200B;] アクティビティに参加している場合、コンバージョンするまで訪問者はそのテストに一致します。 以前に[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティに参加していた場合は、再度一致させる必要があります。 オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
 
 1. フォームベースのアクティビティが最優先事項である場合、そのアクティビティコンテンツは、VEC アクティビティのすべての一致するアクティビティコンテンツと共に返されます。
 1. VEC アクティビティが最優先度の場合、一致するすべてのVEC アクティビティのコンテンツが返されますが、フォームベースのアクティビティコンテンツは返されません。
@@ -70,7 +70,7 @@ ht-degree: 39%
 
 ターゲットアクティビティの双方が同じ優先度の場合、最後に表示されたアクティビティが表示されます。 このページに初めて訪問する訪問者の場合は、最後にアクティブ化されたアクティビティが表示されます。
 
-## [!UICONTROL Form-Based Experience Composer]と非グローバル [!DNL Target]要求 {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!UICONTROL &#x200B; グローバル以外の[!DNL Target]要求を含むフォームベースのExperience Composer] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 会社がフォームベースのコンポーザーでグローバル [!DNL Target] リクエスト以外の[!DNL Target] リクエストを使用する場合、呼び出しごとに1つのアクティビティのコンテンツのみを返すことができます。 アクティビティの配信は、次の決定フローを使用して決定されます。
 
@@ -78,7 +78,7 @@ ht-degree: 39%
 1. [!DNL Target]は、その[!DNL Target] リクエストで実行されているすべてのアクティビティを取得します。
 1. [!DNL Target]は、訪問者を最も優先度の高いアクティビティに一致させます。
 
-   訪問者が既に[!UICONTROL A/B Test]または[!UICONTROL Multivariate Test] アクティビティにある場合、コンバージョンするまで、そのアクティビティと一致します。 以前に[!UICONTROL Experience Targeting] アクティビティに参加していた場合は、再度一致させる必要があります。 オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
+   訪問者が既に[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL 多変量テスト &#x200B;] アクティビティに参加している場合、コンバージョンするまで、そのアクティビティに一致します。 以前に[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティに参加していた場合は、再度一致させる必要があります。 オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
 
 1. 複数のアクティビティが優先レベルを共有する場合、2つのタイブレーカーがあります。
 
@@ -93,7 +93,7 @@ ht-degree: 39%
 
 応答：offer1
 
-**2つのアクティビティでは、異なるセレクター**&#x200B;に[!UICONTROL Visual Experience Composer]で作成されたオファーのみを使用します
+**2つのアクティビティでは、異なるセレクター**&#x200B;に対して[!UICONTROL Visual Experience Composer]で作成されたオファーのみを使用します
 
 * アクティビティ 1: target-global-mbox、selector1、visualExpCompOffer1、priority low
 * アクティビティ 2: target-global-mbox、selector2、visualExpCompOffer2、priority high

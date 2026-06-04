@@ -15,7 +15,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: 533
 ht-degree: 72%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->追加情報は、条件の作成[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) トピックの コンテンツ セクションに含まれています。これには、[!UICONTROL Partial Design Rendering]と[!UICONTROL Show Backup Recommendations]のオプションを一緒にまたは別々に使用する場合に確認できる結果を説明するマトリックスが含まれます。
+>追加の情報は、「条件を作成[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」トピックの「 コンテンツ」セクションに含まれています。これには、[!UICONTROL 部分デザインレンダリング &#x200B;]および[!UICONTROL &#x200B; バックアップの推奨事項を表示] オプションを一緒にまたは個別に使用する場合に確認できる結果を説明するマトリックスが含まれます。
 
 バックアップのレコメンデーション機能は、アルゴリズムのデータが使用された後に、常にサイトで一番上に表示された項目を使用して、残りのスロットを埋めます。 例えば、テンプレートにレコメンデーション品目が 5 つ表示されるよう設定されていて、*購入の親和性*&#x200B;のアルゴリズムを使用しているとします。 ここで、5 つのスロットのうち 2 つ分のデータしかない場合は、代替レコメンデーション機能により、最多閲覧品目が残りの 3 つのスロットに挿入されます。
 

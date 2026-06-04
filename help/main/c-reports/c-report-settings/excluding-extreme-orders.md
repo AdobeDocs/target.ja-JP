@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 64%
+source-wordcount: 332
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->[!UICONTROL Exclude Extreme Values] フラグは、[!UICONTROL Revenue]および[!UICONTROL Engagement]指標タイプを持つアクティビティにのみ適用されます。
+>[!UICONTROL Extreme Values] フラグは、[!UICONTROL 収益]および[!UICONTROL &#x200B; エンゲージメント &#x200B;]指標タイプのアクティビティにのみ適用されます。
 
 極端な値は、後述のルールに基づいて自動的にフラグ付けされます。 レポートから極端な値を除外するかどうかを選択できます。 アクティビティが 1 時間実施された後、または 15 件の注文を受けた後のいずれか早い方のタイミングで、アクティビティの極端な値が除外されます。
 
@@ -30,12 +30,12 @@ ht-degree: 64%
 
 例えば、極端な値のフィルターは、多くの場合、RPV を使用する場合に役立ちます。 RPV は、コンバージョン率と平均注文額を組み合わせたもので、多くの場合これらの指標の変動率を表します。 RPV を使用し、注文が均一に分散していないことがわかった場合、極端な注文のフィルターを適用すると、より通常に近い結果を確認できます。
 
-ある値が極端としてマークされると、その注文値は前月のエクスペリエンスの平均注文額から極端な値を除いたものの平均値で置き換えられます。 注文は、[!UICONTROL Order Details] レポートおよびCSV ダウンロードで、毎日の結果に対して極端とマークされています。
+ある値が極端としてマークされると、その注文値は前月のエクスペリエンスの平均注文額から極端な値を除いたものの平均値で置き換えられます。 注文は、毎日の結果に関する[!UICONTROL 注文詳細] レポートおよびCSV ダウンロードでも極端とマークされています。
 
 **レポートから極端な値を除外するには：**
 
-1. [!UICONTROL Revenue]または[!UICONTROL Engagement]指標タイプを含むアクティビティを開き、「**[!UICONTROL Reports]**」タブをクリックします。
-1. レポート設定（![&#x200B; レポート設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）アイコンをクリックして、**[!UICONTROL Settings]** ダイアログボックスを表示します。
+1. [!UICONTROL 収益]または[!UICONTROL &#x200B; エンゲージメント &#x200B;]指標タイプを含むアクティビティを開き、「**[!UICONTROL レポート]**」タブをクリックします。
+1. レポート設定（![&#x200B; レポート設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）アイコンをクリックして、**[!UICONTROL 設定]** ダイアログボックスを表示します。
 
-1. 必要に応じて、**[!UICONTROL Exclude Extreme Values]** トグルを「オン」または「オフ」の位置にスライドさせます。
-1. **[!UICONTROL Save]** をクリックします。
+1. 必要に応じて、**[!UICONTROL Extreme Valuesを除外]** トグルを「オン」または「オフ」の位置にスライドさせます。
+1. 「**[!UICONTROL 保存]**」をクリックします。

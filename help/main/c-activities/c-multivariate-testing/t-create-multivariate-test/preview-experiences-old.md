@@ -1,29 +1,29 @@
 ---
-keywords: 多変量分析；mvt；プレビュー；エクスペリエンス
-description: '[!UICONTROL Multivariate Test] （VEC）を使用して、の  [!DNL Adobe Target]  （MVT）アクティビティの各エクスペリエンスをプレビュ [!UICONTROL Visual Experience Composer] する方法について説明します。'
-title: '[!UICONTROL Multivariate Test] （MVT）のエクスペリエンスをプレビューするには、どうすればよいですか？'
+keywords: 多変量；mvt；プレビュー；エクスペリエンス
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して [!DNL Adobe Target] の[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティで各エクスペリエンスをプレビューする方法について説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）のエクスペリエンスをプレビューするにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 25%
+source-wordcount: '202'
+ht-degree: 29%
 
 ---
 
-# [!UICONTROL Multivariate Test] ーザーのエクスペリエンスのプレビュー
+# [!UICONTROL 多変量テストのエクスペリエンスをプレビュー]
 
-[!UICONTROL Multivariate Test] の [!DNL Adobe Target] では、ページ上で複数のエクスペリエンスを比較するので、各エクスペリエンスのページをプレビューできると便利です。
+[!DNL Adobe Target]の[!UICONTROL 多変量テスト &#x200B;]は、ページ上の複数のエクスペリエンスを比較するため、各エクスペリエンスでページをプレビューすると便利です。
 
-1. [!UICONTROL Visual Experience Composer] （VEC）から、「**[!UICONTROL Preview]**」をクリックします。
+1. [!UICONTROL Visual Experience Composer] （VEC）から、**[!UICONTROL プレビュー]**&#x200B;をクリックします。
 
    すべてのエクスペリエンスのリストが表示されます。
 
-   ![&#x200B; 画像をプレビュー &#x200B;](assets/preview.png)
+   ![画像のプレビュー](assets/preview.png)
 
 1. リストでエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
 
-1. 多変量分析テストから 1 つ以上のエクスペリエンスを除外するには、目的のエクスペリエンスを選択し、「**[!UICONTROL Exclude]**」をクリックします。
+1. 多変量テストから1つ以上のエクスペリエンスを除外するには、目的のエクスペリエンスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックします。
 
    ![エクスペリエンスを除外](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -31,8 +31,8 @@ ht-degree: 25%
 
    >[!NOTE]
    >
-   >多変量分析テストを作成する場合、分析にオフラインレポートを使用する必要があるという警告を確認すると、10% 以上のエクスペリエンスをテストから除外できます。
+   >多変量テストを作成する場合、分析にオフラインレポートを使用する必要があるという警告を確認した場合、テストから10%以上のエクスペリエンスを除外できます。
 
-   多変量分析テストには、デフォルトで、すべてのエクスペリエンスが組み込まれます。除外されたエクスペリエンスを含めるには、除外されたエクスペリエンスを選択し、「**[!UICONTROL Include]**」をクリックします。
+   多変量分析テストには、デフォルトで、すべてのエクスペリエンスが組み込まれます。 除外したエクスペリエンスを組み込むには、除外したエクスペリエンスを選択して、「**[!UICONTROL 含める]**」をクリックします。
 
-1. **[!UICONTROL Exit Preview Mode]** をクリックして [!UICONTROL Visual Experience Composer] に戻って変更を加えるか、**[!UICONTROL Continue]** をクリックしてテストの概要に移動します。
+1. 「**[!UICONTROL プレビューモードを終了]**」をクリックして[!UICONTROL Visual Experience Composer]に戻り、変更を加えるか、「**[!UICONTROL 続行]**」をクリックしてテストの概要に移動します。

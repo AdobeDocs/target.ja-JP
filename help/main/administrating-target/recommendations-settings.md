@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: 133
 ht-degree: 14%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 14%
 
 {{permissions-update}}
 
-[!DNL Recommendations]設定オプションにアクセスするには、[!DNL Adobe Experience Cloud]で[!DNL Target]を開き、[!UICONTROL Administration] > [!UICONTROL Recommendations]をクリックします。
+[!DNL Recommendations]設定オプションにアクセスするには、[!DNL Adobe Experience Cloud]で[!DNL Target]を開き、[!UICONTROL 管理] > [!UICONTROL 推奨事項]をクリックします。
 
 次の設定を行うことができます。
 

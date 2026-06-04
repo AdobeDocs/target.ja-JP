@@ -19,8 +19,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 79%
+source-wordcount: 1326
+ht-degree: 78%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 79%
 
 Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
 
-## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Target コミュニティ] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-[!UICONTROL Adobe Target Community]を見つける：インサイトと共同作業のためのハブ。
+[!UICONTROL Adobe Target コミュニティ &#x200B;]をご覧ください。インサイトと共同作業のためのハブです。
 
-[!UICONTROL Adobe Target Community Forum]は、すべての[!DNL Adobe Targe]tに対する移動先です。 このコミュニティは、始めたばかりでも、熟練の実務担当者でも、次のような貴重な機会を提供します。
+[!UICONTROL Adobe Target コミュニティ フォーラム &#x200B;]は、すべての[!DNL Adobe Targe]tに対するアクセス先です。 このコミュニティは、始めたばかりでも、熟練の実務担当者でも、次のような貴重な機会を提供します。
 
 * **[!DNL Target]の機能**&#x200B;について：ベストプラクティスを学び、[!DNL Target]の新しい使い方を見つけます。
 * **連携して共同作業**：仲間や[!DNL Adobe]人のエキスパートとエンゲージして、インサイトを共有し、課題を一緒に解決します。
@@ -45,7 +45,7 @@ Target の機能の学習に役立つ追加のリソースと、Target につい
 ## 「Target の基本」ウェビナーシリーズ {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 +++詳細を見る
-[!UICONTROL Adobe Target Community]さんから提供されたカスタマーサクセスの取り組みである[[Target Basics Webinar Series]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}をご覧ください。 今後のセッションの登録の詳細にアクセスし、以前のウェビナーの録画を参照して、[!DNL Target]の機能、ベストプラクティス、実際のユースケースについての理解を深めます。
+[!UICONTROL Adobe Target コミュニティ &#x200B;]が提供したカスタマーサクセス イニシアチブ「[[Target Basics Webinar Series]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}」をご覧ください。 今後のセッションの登録の詳細にアクセスし、以前のウェビナーの録画を参照して、[!DNL Target]の機能、ベストプラクティス、実際のユースケースについての理解を深めます。
 
 +++
 
@@ -118,7 +118,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 * [Experience Cloud ヘルプページでアドバイス、ヒント、よくある質問を確認する](https://helpx.adobe.com/jp/marketing-cloud.html)
 * [チケットを発行してサポートを受ける](https://experienceleague.adobe.com/ja?support-solution=Target&lang=ja#support)
 * [カスタマーケアチームに直接連絡](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)
-* [Experience Cloud Solutionsの可用性とステータスを確認する](https://status.adobe.com/ja)
+* [Experience Cloud ソリューションの可用性とステータスを確認する](https://status.adobe.com/ja)
 
 今後の製品の機能強化に関する事前通知をご希望の方は、Adobe Priority Product Update にご登録ください。
 
@@ -130,7 +130,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### フィードバック {#section_8154D6D712054220A90D85FA8E92933E}
 
-このソリューションに対するご提案やフィードバックをお待ちしております。 [Adobe Target Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)に、改良のアイデアや提案を投稿できます。 「[!UICONTROL Ideas]」タブをクリックします。
+このソリューションに対するご提案やフィードバックをお待ちしております。 [Adobe Target Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)に、改良のアイデアや提案を投稿できます。 「[!UICONTROL &#x200B; アイデア &#x200B;]」タブをクリックします。
 
 ### 法的事項 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

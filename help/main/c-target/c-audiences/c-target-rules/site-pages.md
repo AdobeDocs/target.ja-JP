@@ -14,8 +14,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 20%
+source-wordcount: 929
+ht-degree: 19%
 
 ---
 
@@ -23,76 +23,76 @@ ht-degree: 20%
 
 サイト上の特定のページにアクセスする[!DNL Adobe Target]を使用して、訪問者をターゲットにすることができます。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**」 > 「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付け、オプションの説明を追加します。
-1. **[!UICONTROL Site Pages]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
+1. **[!UICONTROL サイトページ]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
    ![サイトページオーディエンス](assets/target_site_pages.png)
 
-1. 「**[!UICONTROL Select]**」ドロップダウンリストをクリックし、次のいずれかのオプションを選択してから、必要に応じてルールを設定します。
+1. 「**[!UICONTROL 選択]**」ドロップダウンリストをクリックし、次のいずれかのオプションを選択してから、必要に応じてルールを設定します。
 
-   ルール内のその後のドロップダウンリストで使用できるオプションと評価者は、選択するオプションによって異なります。 次の図は、[!UICONTROL Current Page]を選択した場合に使用できるオプションを示しています。
+   ルール内のその後のドロップダウンリストで使用できるオプションと評価者は、選択するオプションによって異なります。 次の図は、[!UICONTROL 現在のページ &#x200B;]を選択した場合に使用できるオプションを示しています。
 
    ![現在のページ &#x200B;](assets/current-page.png)
 
-   [!UICONTROL Select]を選択すると、初期ドロップダウンリストで次のオプションを使用できます。
+   [!UICONTROL Select]を選択すると、最初のドロップダウンリストで次のオプションを使用できます。
 
-   * **[!UICONTROL Current Page]:** ユーザーが表示しているページ。
+   * **[!UICONTROL 現在のページ &#x200B;]:** ユーザーが表示しているページ。
 
      次のオプションは、このオプションを選択した場合に、2番目のドロップダウンリストで使用できます。
 
       * [!UICONTROL URL] （[!DNL Target]がURLを評価する方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL ドメイン]
+      * [!UICONTROL &#x200B; クエリ &#x200B;]
+      * [!UICONTROL &#x200B; サブドメイン &#x200B;]
+      * [!UICONTROL &#x200B; トップレベルドメイン &#x200B;]
+      * [!UICONTROL &#x200B; パス &#x200B;]
+      * [!UICONTROL &#x200B; ハッシュ （#） フラグメント &#x200B;]
 
-   * **[!UICONTROL Previous Page]:** ユーザーが現在のページをクリックする前に表示されたページ。 ユーザーがトラッキングするページを表示するには、前のページから現在のページまでクリックする必要があります。 ユーザーがブラウザーで新しいURLを入力した場合、前のページは追跡されません。 このページの実際のコンテンツはサイトのデザインによって異なります。 例えば、現在のページに特定の製品に関する情報が表示されている場合、前のページは、訪問者が特定の製品を選択するカテゴリーページです。 例えば、特定のタイプのカメラを複数表示しているページ、または最終的なページに至るホームページを選択できます。
-
-     次のオプションは、このオプションを選択した場合に、2番目のドロップダウンリストで使用できます。
-
-      * [!UICONTROL URL] （TargetによるURLの評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-
-   * **[!UICONTROL Landing Page]:** ランディングページは、訪問者がサイトにアクセスしたときに最初に表示されるページです。 例えば、訪問者が Google 上のリンクをクリックしてカテゴリページが開いた場合は、そのカテゴリページがランディングページになります。 リンクからホームページが表示された場合は、そのホームページがランディングページになります。 ランディングページは訪問者のセッション中記憶されます。 このセッションで訪問者のランディングページが何であったのかを基に、サイトをより掘り下げてターゲットを定めることができます。
+   * **[!UICONTROL 前のページ &#x200B;]:**&#x200B;現在のページをクリックする前にユーザーが表示されたページ。 ユーザーがトラッキングするページを表示するには、前のページから現在のページまでクリックする必要があります。 ユーザーがブラウザーで新しいURLを入力した場合、前のページは追跡されません。 このページの実際のコンテンツはサイトのデザインによって異なります。 例えば、現在のページに特定の製品に関する情報が表示されている場合、前のページは、訪問者が特定の製品を選択するカテゴリーページです。 例えば、特定のタイプのカメラを複数表示しているページ、または最終的なページに至るホームページを選択できます。
 
      次のオプションは、このオプションを選択した場合に、2番目のドロップダウンリストで使用できます。
 
       * [!UICONTROL URL] （TargetによるURLの評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL ドメイン]
+      * [!UICONTROL &#x200B; クエリ &#x200B;]
+      * [!UICONTROL &#x200B; サブドメイン &#x200B;]
+      * [!UICONTROL &#x200B; トップレベルドメイン &#x200B;]
+      * [!UICONTROL &#x200B; パス &#x200B;]
+
+   * **[!UICONTROL ランディングページ &#x200B;]:** ランディングページは、訪問者がサイトにアクセスしたときに最初に表示されるページです。 例えば、訪問者が Google 上のリンクをクリックしてカテゴリページが開いた場合は、そのカテゴリページがランディングページになります。 リンクからホームページが表示された場合は、そのホームページがランディングページになります。 ランディングページは訪問者のセッション中記憶されます。 このセッションで訪問者のランディングページが何であったのかを基に、サイトをより掘り下げてターゲットを定めることができます。
+
+     次のオプションは、このオプションを選択した場合に、2番目のドロップダウンリストで使用できます。
+
+      * [!UICONTROL URL] （TargetによるURLの評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
+      * [!UICONTROL ドメイン]
+      * [!UICONTROL &#x200B; クエリ &#x200B;]
+      * [!UICONTROL &#x200B; サブドメイン &#x200B;]
+      * [!UICONTROL &#x200B; トップレベルドメイン &#x200B;]
+      * [!UICONTROL &#x200B; パス &#x200B;]
+      * [!UICONTROL &#x200B; ハッシュ （#） フラグメント &#x200B;]
 
      >[!NOTE]
      >
      >`landing.url` サブドメインの変更またはダイレクトURLの置換時にオブジェクトがリセットされます。
 
-   * **[!UICONTROL HTTP Header]:**&#x200B;このオプションは、[!DNL Target] リクエストのHTTP ヘッダーの情報を評価します。 例えば、HTTP ヘッダーに言語情報が含まれている場合、スペイン語でページにアクセスする訪問者をターゲットとする`Accept-Language: es`条件を含むルールを作成できます。
+   * **[!UICONTROL HTTP ヘッダー]:**&#x200B;このオプションは、[!DNL Target] リクエストのHTTP ヘッダーの情報を評価します。 例えば、HTTP ヘッダーに言語情報が含まれている場合、スペイン語でページにアクセスする訪問者をターゲットとする`Accept-Language: es`条件を含むルールを作成できます。
 
      次のオプションは、このオプションを選択した場合に、2番目のドロップダウンリストで使用できます。
 
-      * [!UICONTROL Accept]
+      * [!UICONTROL 同意]
       * [!UICONTROL Accept-Charset]
       * [!UICONTROL Accept-Encoding]
       * [!UICONTROL Accept-Language]
       * [!UICONTROL Authorization]
       * [!UICONTROL Cache-Control]
-      * [!UICONTROL Connection]
+      * [!UICONTROL 接続]
       * [!UICONTROL Content-Length]
       * [!UICONTROL Content-MDS]
       * [!UICONTROL Content-Type]
       * [!UICONTROL Date]
-      * [!UICONTROL Expect]
-      * [!UICONTROL From]
+      * [!UICONTROL 期待]
+      * [!UICONTROL 送信元]
       * [!UICONTROL Host]
       * [!UICONTROL If-Match]
       * [!UICONTROL If-Modified-Since]
@@ -101,16 +101,16 @@ ht-degree: 20%
       * [!UICONTROL If-Unmodified-Since]
       * [!UICONTROL Max-Forwards]
       * [!UICONTROL Pragma]
-      * [!UICONTROL Proxy-Authorization]
+      * [!UICONTROL &#x200B; プロキシ認証]
       * [!UICONTROL Range]
-      * [!UICONTROL Referrer]
+      * [!UICONTROL リファラー]
       * [!UICONTROL TE]
-      * [!UICONTROL Upgrade]
+      * [!UICONTROL &#x200B; アップグレード &#x200B;]
       * [!UICONTROL User-Agent]
-      * [!UICONTROL Via]
-      * [!UICONTROL Warning]
+      * [!UICONTROL 経由]
+      * [!UICONTROL 警告]
 
-   [!UICONTROL Current Page]、[!UICONTROL Previous Page]または[!UICONTROL Landing Page]を選択した場合、[!UICONTROL Domain]および[!UICONTROL Query]のオプションを使用できます。 これらのオプションを選択する際には、次の点を考慮してください。
+   [!UICONTROL 現在のページ &#x200B;]、[!UICONTROL 前のページ &#x200B;]、または[!UICONTROL &#x200B; ランディングページ &#x200B;]を選択した場合、[!UICONTROL &#x200B; ドメイン &#x200B;]および[!UICONTROL &#x200B; クエリ &#x200B;]のオプションを使用できます。 これらのオプションを選択する際には、次の点を考慮してください。
 
    * **ドメイン：**&#x200B;ページの完全ドメイン。 ドメインを指定する際には、ベストプラクティスとして、「次を含む」を使用することが推奨されます。 例えば、「Domain equals facebook.com」は`m.facebook.com`または`www.facebook.com`を受け付けません。 「ドメインにはfacebook.comが含まれています」は、facebook.comの任意のバリアントを受け入れます。
    * **クエリ：**&#x200B;最初の疑問符（?）の後のURLの内容。
@@ -118,13 +118,13 @@ ht-degree: 20%
      `foo.html?e0a72cb2a2c7`
 
 1. （オプション）オーディエンスの追加ルールを設定します。
-1. **[!UICONTROL Done]** をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 独自の「ユーザー定義のクエリパラメーター」または「ユーザー定義のヘッダー」を使用して、サイトページのオーディエンスを作成することもできます。
 
 それぞれの使い分けは次のとおりです。
 
-* ユーザーが選択したルールが[!UICONTROL Current Page]、[!UICONTROL Landing Page]または[!UICONTROL Previous Page]の場合のクエリパラメーター
+* ユーザーが選択したルールが[!UICONTROL 現在のページ &#x200B;]、[!UICONTROL &#x200B; ランディングページ &#x200B;]、[!UICONTROL 前のページ &#x200B;]の場合のクエリパラメーター
 * ユーザーが選択したルールがHTTP ヘッダーである場合のヘッダー
 
 ## トラブルシューティング {#ts}

@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 29%
+source-wordcount: '1105'
+ht-degree: 38%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->リモートオファーは、[!UICONTROL Offers] > [!UICONTROL Code Offers] ページまたは[Forms ベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)で作成できます。 Visual Experience Composer （VEC）でリモート オファーを作成または適用することはできません。 コンテンツは[!DNL Target] リクエストの場所に挿入されるため、これらはグローバル [!DNL Target] リクエストには適していない可能性が高くなります。
+>リモートオファーは、[!UICONTROL &#x200B; オファー]/[!UICONTROL &#x200B; コードオファー] ページまたは[Forms ベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)で作成できます。 Visual Experience Composer （VEC）でリモート オファーを作成または適用することはできません。 コンテンツは[!DNL Target] リクエストの場所に挿入されるため、これらはグローバル [!DNL Target] リクエストには適していない可能性が高くなります。
 >
->[!DNL Target Classic]には同様の機能が含まれています：[!UICONTROL Offer on Your Site]と[!UICONTROL Offer Outside Test&Target]。
+>[!DNL Target Classic]には、同様の機能が含まれています：[!UICONTROL &#x200B; サイトでのオファー]および[!UICONTROL 外部テストのオファー&amp;ターゲット &#x200B;]。
 
 リモートオファーの例をいくつか挙げます。
 
@@ -40,23 +40,23 @@ ht-degree: 29%
 
   つまり、ステージングサーバーから実稼動サーバーにアクティビティを移動する際、URL を手動で変更しなくても、そのコンテンツに自動的にアクセスできるようになります。
 
-* テストでサーバーによって動的に生成されたデータが含まれる場合は、[!UICONTROL Dynamic] オプションが適切な選択肢になる可能性があります。
-* 既存のリモート オファーコンテンツの外観のみをテストする場合は、[!UICONTROL Visual Experience Composer]を使用して、コンテンツ管理システムから返されるコンテンツの外観を変更します。
+* サーバーが動的に生成するデータでテストをおこなう場合は、「[!UICONTROL 動的]」オプションを選択することをお勧めします。
+* 既存のリモートオファーコンテンツの外見のテストをおこなう予定であれば、[!UICONTROL Visual Experience Composer] を使用し、コンテンツ管理システムから戻されるコンテンツの外観と操作性を変更します。
 * 特定のケースに最適なオファーを選択するには、[Remote Offer Selection Matrix](#reference_B23BEDD29DDD47709A7651AFD27E776B) （以下）を使用してください。 ご質問がある場合は、アカウント担当者にお問い合わせください。
 
 ## コードオファーページからリモートオファーを作成する
 
-1. 「**[!UICONTROL Offers]**」をクリックし、「**[!UICONTROL Code Offers]**」タブを選択します。
+1. 「**[!UICONTROL オファー]**」をクリックしてから、「**[!UICONTROL コードオファー]**」タブを選択します。
 
    ![&#x200B; オファー/ コードオファー](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
-1. **[!UICONTROL Create]**／**[!UICONTROL Remote Offer]**&#x200B;をクリックします。
+1. **[!UICONTROL 作成]**／**[!UICONTROL リモートオファー]**&#x200B;をクリックします。
 
    ![&#x200B; リモートオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. オファーのわかりやすい名前を入力します。
 
-   わかりやすい名前を付けると、[!UICONTROL Assets] ライブラリでオファーをすばやく見つけることができます。
+   わかりやすい名前を付けると、後で [!UICONTROL アセット] ライブラリからオファーをすばやく見つけることができます。
 
 1. リダイレクト URL タイプを指定します。
 
@@ -64,25 +64,25 @@ ht-degree: 29%
 
 1. リモートオファーのリモート URLを指定します。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## フォームベースのExperience Composerを使用したリモートオファーの作成
 
-1. [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL Content]** セクションを表示する場所を選択します。
+1. [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL コンテンツ]** セクションを表示する場所を選択します。
 
    フォームベースのExperience Composerの![&#x200B; コンテンツセクション &#x200B;](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
-1. **[!UICONTROL Default Content]** ドロップダウンリストをクリックし、**[!UICONTROL Change Remote Offer]**&#x200B;をクリックします。
+1. 「**[!UICONTROL デフォルトコンテンツ]**」ドロップダウンリストをクリックし、「**[!UICONTROL リモートオファーの変更]**」をクリックします。
 
    ![&#x200B; リモートオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
-1. **[!UICONTROL Create]**／**[!UICONTROL Remote Offer]**&#x200B;をクリックします。
+1. **[!UICONTROL 作成]**／**[!UICONTROL リモートオファー]**&#x200B;をクリックします。
 
    ![&#x200B; リモートオファーダイアログボックスを作成](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. オファーのわかりやすい名前を入力します。
 
-   わかりやすい名前を付けると、[!UICONTROL Assets] ライブラリでオファーをすばやく見つけることができます。
+   わかりやすい名前を付けると、後で [!UICONTROL アセット] ライブラリからオファーをすばやく見つけることができます。
 
 1. リダイレクト URL タイプを指定します。
 
@@ -90,7 +90,7 @@ ht-degree: 29%
 
 1. リモートオファーのリモート URLを指定します。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## リダイレクト URL タイプ：キャッシュまたは動的 {#url-type}
 
@@ -112,25 +112,25 @@ ht-degree: 29%
 
 訪問者がリモートオファーを含むエクスペリエンスを含むサイトを読み込むたびに、コンテンツを定期的にキャッシュしてから[!DNL Target]によって配信することは望ましくないかもしれません。 代わりに、コンテンツをホストしているシステムを呼び出し、返されるオファーがユーザーごとに動的（または異なる）ように、特定の情報を渡す可能性があります。 例えば、あるユーザーが、動的リモートオファーのエクスペリエンスを含むクレジットカード用ウェブサイトにログインしたら、そのユーザーのアカウント情報をパラメーターとして URL に渡すことができます。 そうすると、ウェブサイトは、アカウントの残高など、ユーザーに特化した情報を提供することができます。
 
-**[!UICONTROL Add Parameter]**&#x200B;をクリックして、1つ以上の[!DNL Target]要求または要求パラメーターを追加できます。
+「**[!UICONTROL パラメーターを追加]**」をクリックして、1つ以上の[!DNL Target]要求または要求パラメーターを追加できます。
 
 ## アクティビティでのリモートオファーの使用
 
-[!UICONTROL Form-Based Experience Composer]を使用してリモート オファーを適用する必要があります。 現在、VECを使用してリモート オファーを適用することはできません。
+[!UICONTROL &#x200B; フォームベースのExperience Composer]を使用してリモート オファーを適用する必要があります。 現在、VECを使用してリモート オファーを適用することはできません。
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]は、[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL Recommendations]のアクティビティで使用するエクスペリエンスの作成に役立つ、非ビジュアルエクスペリエンスおよびオファー作成インターフェイスです。ビジュアルエクスペリエンスコンポーザーが使用できないか、使用に実用的でない場合に使用できます。 例えば、[!UICONTROL Form-Based Experience Composer]を使用して、リモート オファーを使用するエクスペリエンスを作成できます。
+[!DNL Adobe Target] [!UICONTROL &#x200B; フォームベースのExperience Composer]は、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL Recommendations]のアクティビティで、Visual Experience Composerが使用できない、または使用できない場合に使用するエクスペリエンスの作成に役立つ、非ビジュアルなエクスペリエンスおよびオファー作成インターフェイスです。 例えば、[!UICONTROL &#x200B; フォームベースのExperience Composer]を使用して、リモートオファーを使用するエクスペリエンスを作成できます。
 
-1. [!UICONTROL Form-Based Experience Composer]でアクティビティを作成または編集します。
+1. [!UICONTROL &#x200B; フォームベースのExperience Composer]でアクティビティを作成または編集します。
 
    詳細な手順については、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
 
 1. 必要に応じて、目的の場所を指定し、オーディエンスの絞り込みを追加します。
 
-1. **[!UICONTROL Content]** セクションのドロップダウンリストをクリックし、**[!UICONTROL Change Remote Offer]**&#x200B;をクリックします。
+1. 「**[!UICONTROL コンテンツ]**」セクションのドロップダウンリストをクリックし、「**[!UICONTROL リモートオファーの変更]**」をクリックします。
 
    ![&#x200B; リモートオファーオプションの変更](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
-1. [!UICONTROL Select Remote Offer] ダイアログボックスから目的のリモートオファーを選択し、**[!UICONTROL Done]**&#x200B;をクリックします。
+1. [!UICONTROL &#x200B; リモートオファーを選択] ダイアログボックスから目的のリモートオファーを選択し、**[!UICONTROL 完了]**&#x200B;をクリックします。
 
 1. アクティビティの設定を終了します。
 
@@ -144,7 +144,7 @@ ht-degree: 29%
 
 ## リモートオファーの選択指標 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-Remote Offer Selection Matrixでは、選択するリモート オファーの種類を[!UICONTROL Cached]または[!UICONTROL Dynamic]に決定できます。
+リモートオファーには[!UICONTROL キャッシュ]と[!UICONTROL 動的]の 2 つのタイプがあり、リモートオファー選択のマトリックスは、どちらのタイプを選択するか判断するのに役立ちます。
 
 | 機能 | キャッシュ | 動的 |
 |--- |--- |--- |

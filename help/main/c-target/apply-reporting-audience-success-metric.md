@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 36%
+source-wordcount: 406
+ht-degree: 43%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 36%
 
 [!DNL Adobe Target]のレポートオーディエンスのユーザーを選定する成功指標を選択します。
 
-すべてのアクティビティに対して、[!UICONTROL Applied At] ドロップダウンリストを使用すると、成功指標にオーディエンスを適用して、指標に到達した後およびその後のアクションのレポート番号を表示できます。
+すべてのアクティビティについて、「[!UICONTROL 適用先]」ドロップダウンリストを使用して、オーディエンスを成功指標に適用できます。これにより、指標に達した後および後続のアクションについてのレポート値を表示できます。
 
 ![success_metric image](assets/success_metric.png)
 
 例えば、ホームページから入ってコンバージョンページに到達するすべての訪問者に対するアクティビティを作成したとします。さらに、コンバージョンの前に $50 を超える商品をカートに追加した訪問者をドリルダウンするとします。
 
-[!UICONTROL Applied At] ドロップダウンリストには、次の3つのカテゴリが表示される場合があります。
+「[!UICONTROL 適用日時]」ドロップダウンリストには、次の3つのカテゴリが表示される場合があります。
 
 * アクティビティへの訪問者
 * アクティビティの特定のステップに到達した訪問者のみ
@@ -39,7 +39,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。 成功指標を定義していない場合は、ドロップダウンリストに[!UICONTROL Campaign Entry]と[!UICONTROL Conversion]の2つのオプションのみが表示されます。
+>[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。 成功指標を定義していない場合、ドロップダウンリストに[!UICONTROL &#x200B; キャンペーンエントリ &#x200B;]と[!UICONTROL &#x200B; コンバージョン &#x200B;]の2つのオプションのみが表示されます。
 
 
 ## 注意点
@@ -48,11 +48,11 @@ ht-degree: 36%
 
 * オーディエンスが適用された指標から始まる成功指標のみが、オーディエンスによってセグメント化されたレポートデータを表示します
 * オーディエンスが適用される前の成功指標は、オーディエンスによってセグメント化されず、すべての訪問者データが表示されます
-* 指標は、アクティビティ定義での順序に基づいて考慮され、[!UICONTROL Primary Goal]が最後のものになります。
+* 指標は、アクティビティ定義の順序に基づいて考慮され、[!UICONTROL プライマリ目標]が最後になります。
 
 ## レポートでのセグメント化の表示
 
-レポートでセグメント化を表示するには、アクティビティのレポートの[!UICONTROL Audience] ドロップダウンリストから目的のオーディエンスを選択します。
+レポートでセグメント化を表示するには、アクティビティのレポートの[!UICONTROL &#x200B; オーディエンス &#x200B;] ドロップダウンリストから目的のオーディエンスを選択します。
 
 ![reporting_audience_dropdown image](assets/reporting_audience_dropdown.png)
 

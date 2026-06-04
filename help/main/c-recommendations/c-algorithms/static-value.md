@@ -12,12 +12,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 246
+source-wordcount: 248
 ht-degree: 75%
 
 ---
 
-# [!UICONTROL Static Filter]
+# [!UICONTROL 静的フィルター]
 
 [!DNL Adobe Target Recommendations]の包含ルールを使用してフィルターを実行するには、1つ以上の静的値を手動で入力してください。
 

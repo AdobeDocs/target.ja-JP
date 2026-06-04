@@ -14,8 +14,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 24%
+source-wordcount: 564
+ht-degree: 23%
 
 ---
 
@@ -40,33 +40,33 @@ ht-degree: 24%
 
 1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
 
-1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で[!UICONTROL Configure] アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL Page Delivery]**&#x200B;を選択します。
+1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で[!UICONTROL Configure] アイコン（![Configure icon](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL Page Delivery]**&#x200B;を選択します。
 
-1. 「**[!UICONTROL Add Rule]**」をクリックし、エクスペリエンスを追加するページの条件を指定します。
+1. 「**[!UICONTROL ルールを追加]**」をクリックし、エクスペリエンスを追加するページの条件を指定します。
 
 1. ページの範囲を指定します。 ページの範囲は、次のいずれかの方法で指定します。
 
    * [!UICONTROL URL] （[!DNL Target]がURLを評価する方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
-   * [!UICONTROL Domain]
-   * [!UICONTROL Path]
-   * [!UICONTROL Hash (#) Fragment] （#記号に続くURLの部分をターゲットにします）
-   * [!UICONTROL Query]
-   * [!UICONTROL Custom]
+   * [!UICONTROL ドメイン]
+   * [!UICONTROL &#x200B; パス &#x200B;]
+   * [!UICONTROL &#x200B; ハッシュ （#） フラグメント &#x200B;] （#記号に続くURLの部分をターゲットにする）
+   * [!UICONTROL &#x200B; クエリ &#x200B;]
+   * [!UICONTROL カスタム]
 
 1. 演算子を選択します。
 
    演算子は、演算子の後ろに指定された項目がどのようにページ範囲を規定するかを指定するものです。 使用可能な演算子は次のとおりです。
 
    * [!UICONTROL Contains]
-   * [!UICONTROL Does not contain]
-   * [!UICONTROL Is (case sensitive)]
-   * [!UICONTROL Is not]
-   * [!UICONTROL Starts with]
-   * [!UICONTROL Ends with]
+   * [!UICONTROL 次を含まない]
+   * [!UICONTROL は（大文字と小文字を区別） &#x200B;]です
+   * [!UICONTROL は]ではありません
+   * [!UICONTROL が]で始まります
+   * [!UICONTROL が]で終了
 
 1. ドメインや、ページ名に含まれる文字列など、エクスペリエンスを追加する場所を定義する文字列を入力します。
 
-   例えば、**[!UICONTROL Domain]**&#x200B;と&#x200B;**[!UICONTROL Is (case sensitive)]**&#x200B;を選択した場合は、エクスペリエンスをすべてのページに追加するドメインを入力します。
+   例えば、**[!UICONTROL Domain]**&#x200B;と&#x200B;**[!UICONTROL Is （大文字と小文字を区別）]**&#x200B;を選択した場合、エクスペリエンスをすべてのページに追加するドメインを入力します。
 
    複数の項目を指定することができます。
 
@@ -74,7 +74,7 @@ ht-degree: 24%
    >
    >複数の項目はOR ロジックを使用します。つまり、リスト内の単一の項目が条件をtrueにします。
 
-1. 必要に応じて、**[!UICONTROL Add Rule]**&#x200B;をクリックし、前の手順で手順を繰り返して、追加の条件を入力します。
+1. 必要に応じて、「**[!UICONTROL ルールを追加]**」をクリックし、前の手順を繰り返して、追加の条件を入力します。
 
    複数の条件は AND のロジックで連結されます。 [!DNL Target]は、指定された条件に一致するすべてのページにエクスペリエンスを追加します。
 
@@ -96,8 +96,8 @@ ht-degree: 24%
 
 1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
 
-1. エクスペリエンスが表示されるドメインを指定するには、[!UICONTROL Visual Experience Composer]で[!UICONTROL Configure] アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL Page Delivery]**&#x200B;を選択します。
+1. エクスペリエンスが表示されるドメインを指定するには、[!UICONTROL Visual Experience Composer]で「[!UICONTROL 設定]」アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**」を選択します。
 
-1. **[!UICONTROL Add Rule]**／**[!UICONTROL Domain]**&#x200B;をクリックします。
+1. **[!UICONTROL ルールを追加]** > **[!UICONTROL ドメイン]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Choose evaluator]**」ドロップダウンから「**[!UICONTROL Contains]**」を選択し、ドメインを指定します。
+1. **[!UICONTROL 評価者を選択]** ドロップダウンから、**[!UICONTROL 含む]**&#x200B;を選択し、ドメインを指定します。

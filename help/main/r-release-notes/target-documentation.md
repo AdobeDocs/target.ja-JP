@@ -14,7 +14,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 511
 ht-degree: 89%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 89%
 | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja) | [!DNL Target] の多くのコンポーネントを学ぶのに役立つビデオとチュートリアル。 |
 | [Adobe Experience League Target コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja) | [!DNL Target]が提供する内容について詳しく学び、同僚や[!DNL Adobe]人のエキスパートとつながり、今後の[!DNL Target] リリースに向けて独自のアイデアを投票または提出してください。 |
 | [Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。 [!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
-| [Target レコメンデーション API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=ja){target=_blank} | [!DNL Target]件のレコメンデーションサーバーとプログラムで対話できる[!UICONTROL Recommendations] APIに関する情報。 これらの API は様々なアプリケーションスタックと統合して、通常 [!DNL Target] UI からおこなわれる関数を実行できます。 |
+| [Target レコメンデーション API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=ja){target=_blank} | [!DNL Target]件のRecommendations サーバーとプログラムで対話できる[!UICONTROL Recommendations] APIに関する情報。 これらの API は様々なアプリケーションスタックと統合して、通常 [!DNL Target] UI からおこなわれる関数を実行できます。 |
 | [Server Side Delivery API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} | Adobe Target 配信 API を構成するリソースに関する情報です。 |
 | [ターゲットサーバーサイド SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=ja){target=_blank} | SDK を使用してサーバーサイドで [!DNL Target] をデプロイする方法を説明します。 |
 | [Adobe Experience Platform モバイル SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ja) | モバイルアプリに [!DNL Target] を実装する方法に関する情報です。 |

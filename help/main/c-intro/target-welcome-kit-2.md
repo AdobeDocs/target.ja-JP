@@ -29,8 +29,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2558
-ht-degree: 73%
+source-wordcount: 2606
+ht-degree: 72%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 73%
 | 自動配分 | 2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やしてコンバージョンを促進します。その間もテストによる学習は続けられます。 [!DNL Adobe Adobe AI] を活用した人工知能を使用します。 [詳細情報](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) |
 | 自動ターゲット<br>（Premium） | [!DNL Target]のAdobe AIを活用して、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に対する複数のエクスペリエンスの最適なエクスペリエンスを判断して配信します。 自動ターゲットでは、大規模にパーソナライズ機能を実行できます。 [詳細情報](/help/main/c-activities/auto-target/auto-target-to-optimize.md) |
 | Automated Personalization<br>（Premium） | [!DNL Adobe Adobe AI] を活用した高度な機械学習アルゴリズムと自動化機能を使用して、オファーでの画像、コピー、その他の要素の様々な組み合わせを確認し、訪問者あたりのコンバージョンや売上高の増加など、ビジネス目標を最も達成できる最適な組み合わせを各訪問者に提供します。 [詳細情報](/help/main/c-activities/t-automated-personalization/automated-personalization.md) |
-| エクスペリエンスのターゲット設定（XT） | ユーザーが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。 **[!UICONTROL Experience Targeting]**&#x200B;は、特定のオーディエンスに対する特定のエクスペリエンスやコンテンツのターゲティングに役立ちます。オーディエンスは価値があり、どのエクスペリエンスがオーディエンスの心に響くのかを十分に理解している必要があります。 [詳細情報](/help/main/c-activities/t-experience-target/experience-target.md) |
+| エクスペリエンスのターゲット設定（XT） | ユーザーが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。 **[!UICONTROL エクスペリエンスのターゲット設定]**&#x200B;は、特定のオーディエンスに対する特定のエクスペリエンスやコンテンツのターゲット設定に役立ちます。オーディエンスが価値を持ち、どのエクスペリエンスがオーディエンスの心に響くのかを理解している場合に役立ちます。 [詳細情報](/help/main/c-activities/t-experience-target/experience-target.md) |
 | Multivariate Testing（MVT） | ページ上の要素やデジタルエクスペリエンスの要素の組み合わせをすべて比較します。例えば、3 種類の背景画像、2 種類のコピー画像、2 種類のボタンの色などです。 MVT は、特定のオーディエンスに対して最も高いパフォーマンスを発揮するコンビネーションと、結果に最も影響を与える要素を決定します。 [詳細情報](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) |
 | レコメンデーション<br>（Premium） | Adobe AIを活用して、顧客の過去の行動や、他の顧客の行動にもとづいて、関心の高い可能性のある商品やコンテンツを自動的に提案。 [詳細情報](/help/main/c-recommendations/recommendations.md) |
 
@@ -75,7 +75,7 @@ ht-degree: 73%
 
 | 実装タイプ | 詳細 |
 | --- | --- |
-| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。 ブラウザーは、表示するエクスペリエンスを決定して表示します。 クライアントサイドでは、WYSIWYG エディター、**[!UICONTROL Visual Experience Composer]** （VEC）、または非ビジュアルインターフェイスの&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;を使用して、テストおよびパーソナライゼーションエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} |
+| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。 ブラウザーは、表示するエクスペリエンスを決定して表示します。 クライアントサイドでは、WYSIWYG エディター、**[!UICONTROL Visual Experience Composer]** （VEC）、または非ビジュアルインターフェイスである&#x200B;**[!UICONTROL フォームベースのExperience Composer]**&#x200B;を使用して、テストおよびパーソナライズされたエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} |
 | サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。 エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。 サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} |
 | ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。 例えば、クライアントサイドの実装を使用してホームページのヒーローバナー内のオファーで A/B テストを実行したり、サーバーサイドの実装を使用してクライアントブラウザーに表示する内部検索結果やスマートカーダッシュボードに表示するエクスペリエンス、音声アシスタントから配信する音声応答を決定したりできます。 |
 
@@ -93,23 +93,23 @@ ht-degree: 73%
 
 ## アクティビティ作成ツール
 
-[!DNL Target]には、テストおよびパーソナライゼーションアクティビティを設定するための主な3つの方法が用意されています。[!UICONTROL Visual Experience Composer] （VEC）、[!UICONTROL Form-based Experience Composer]、[!UICONTROL Single Page Application (SPA) Visual Experience Composer]です。 どちらも、エクスペリエンスの定義、オーディエンスの選択と定義、アクティビティの結果を測定するプライマリとセカンダリの成功指標の選択という3つのステップでアクティビティの設定プロセスをガイドします。
+[!DNL Target]では、テストおよびパーソナライゼーションアクティビティを設定するための主な3つの方法として、[!UICONTROL Visual Experience Composer] （VEC）、[!UICONTROL &#x200B; フォームベースのExperience Composer]、[!UICONTROL &#x200B; シングルページアプリケーション （SPA） Visual Experience Composer]があります。 どちらも、エクスペリエンスの定義、オーディエンスの選択と定義、アクティビティの結果を測定するプライマリとセカンダリの成功指標の選択という3つのステップでアクティビティの設定プロセスをガイドします。
 
 | ツール | 詳細 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer]（VEC） | サイトコンテキストでパーソナライズされたエクスペリエンスおよびオファーを簡単に作成およびテストできる、WYSIWYG ユーザーインターフェイスです。 Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。 [詳細情報](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
-| [!UICONTROL Form-based Experience Composer] | Visual Experience Composerが使用できない場合や使用が実用的でない場合に、A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、Recommendations アクティビティで使用するエクスペリエンスを作成する際に役立つ、視覚的でないエクスペリエンスおよびオファー作成インターフェイス。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。 [詳細情報](/help/main/c-experiences/form-experience-composer.md) |
-| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。 VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティを作成することが可能です。 [詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
+| [!UICONTROL Visual Experience Composer] （VEC） | サイトコンテキストでパーソナライズされたエクスペリエンスおよびオファーを簡単に作成およびテストできる、WYSIWYG ユーザーインターフェイスです。 Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。 [詳細情報](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
+| [!UICONTROL フォームベースの Experience Composer] | Visual Experience Composerが使用できない場合や使用が実用的でない場合に、A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、Recommendations アクティビティで使用するエクスペリエンスを作成する際に役立つ、視覚的でないエクスペリエンスおよびオファー作成インターフェイス。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。 [詳細情報](/help/main/c-experiences/form-experience-composer.md) |
+| [!UICONTROL &#x200B; シングルページアプリケーション （SPA） Visual Experience Composer] | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。 VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティを作成することが可能です。 [詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
 
 ## ガバナンスと管理
 
-適切な人に適切な役割と [!DNL Target] への役割に応じたアクセスレベルと権限を提供するために、管理コンソールがあります。 [!UICONTROL Target Premium]人のユーザーに対して、より詳細なガバナンスと制御を提供します
-[!UICONTROL Enterprise Permissions]と共に。
+適切な人に適切な役割と [!DNL Target] への役割に応じたアクセスレベルと権限を提供するために、管理コンソールがあります。 [!UICONTROL Target Premium]のユーザーに対して、より詳細なガバナンスと制御を提供します
+[!UICONTROL &#x200B; エンタープライズ権限]を持つ。
 
 | ツール | 詳細 |
 | --- | --- |
 | [!UICONTROL Adobe Admin Console for Enterprise] | Adobe Target にユーザーを追加し、Adobe Admin Console から権限を割り当てます。 [詳細情報](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) |
-| [!UICONTROL Enterprise Permission]s<br> （プレミアム） | 管理する企業全体の [!DNL Target] へのユーザーアクセスの正式な手段。 [!DNL Target] にユーザーを追加し、その役割に基づいて権限を割り当て、異なる部署、世界規模での所在地、チャネルおよび他の論理グループに基づいて、チーム用にワークスペースを作成します。 ユーザーに監視者、編集者、発行者、承認者の役割を割り当てることができます。 [詳細情報](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) |
+| [!UICONTROL &#x200B; エンタープライズ権限]s<br> （プレミアム） | 管理する企業全体の [!DNL Target] へのユーザーアクセスの正式な手段。 [!DNL Target] にユーザーを追加し、その役割に基づいて権限を割り当て、異なる部署、世界規模での所在地、チャネルおよび他の論理グループに基づいて、チーム用にワークスペースを作成します。 ユーザーに監視者、編集者、発行者、承認者の役割を割り当てることができます。 [詳細情報](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) |
 
 ## 統合
 
@@ -119,7 +119,7 @@ ht-degree: 73%
 | 統合 | 詳細 |
 | --- | --- |
 | Adobe Experience Cloud | [!DNL Target] には、エクスペリエンスを大幅にパーソナライズするために他の [!DNL Adobe Experience Cloud] ソリューションとともに組み込み機能が搭載されています。 [!DNL Target] を [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)、[Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)（AAM）および [Adobe Experience Manager](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)（AEM）とともに活用します。 |
-| Target API（Premium） | [!UICONTROL Target]では、Adobe Targetをファーストパーティ、セカンドパーティ、サードパーティのシステムと統合するために使用できる40以上のAPIを提供しています。 [詳細情報](/help/main/api/api-overview.md) |
+| Target API（Premium） | [!UICONTROL Target]には、Adobe Targetをファーストパーティ、セカンドパーティ、サードパーティのシステムと統合するために使用できる40以上のAPIが用意されています。 [詳細情報](/help/main/api/api-overview.md) |
 
 ## 次の点に注意してください。
 

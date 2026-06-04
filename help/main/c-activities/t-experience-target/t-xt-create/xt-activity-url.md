@@ -1,7 +1,7 @@
 ---
 keywords: エクスペリエンスのターゲット設定；xt；アクティビティ url;url
-description: テストで使用され、[!UICONTROL Experience Targeting] アクティビティが [!DNL Adobe Target]を使用して設計されたときに開くページを決定する[!UICONTROL Activity URL]を指定する方法を説明します。
-title: '[!UICONTROL Experience Targeting] （XT） アクティビティの[!UICONTROL Activity URL]とは何ですか？'
+description: テストで使用され、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティが [!DNL Adobe Target]を使用して設計されたときに開くページを決定する[!UICONTROL &#x200B; アクティビティ URL]を指定する方法を説明します。
+title: '[!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] （XT）アクティビティの[!UICONTROL &#x200B; アクティビティ URL]とは何ですか？'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
@@ -11,16 +11,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 268
-ht-degree: 37%
+source-wordcount: 298
+ht-degree: 35%
 
 ---
 
 # [!UICONTROL Experience Targeting] （XT） アクティビティのアクティビティ URL
 
-[!UICONTROL Activity URL]は、[!DNL Adobe Target] [!UICONTROL Experience Targeting] （XT）アクティビティで使用されるページを決定します。 これは、アクティビティの設計時に[!UICONTROL Visual Experience Composer] （VEC）または[!UICONTROL Form-Based Experience Composer]で開くページです。
+[!UICONTROL &#x200B; アクティビティ URL]は、[!DNL Adobe Target] [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT） アクティビティで使用されるページを決定します。 これは、アクティビティの設計時に[!UICONTROL Visual Experience Composer] （VEC）または[!UICONTROL &#x200B; フォームベース Experience Composer]で開くページです。
 
-1. [XT アクティビティを作成する](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)際にアクティビティ URL の入力を求められたら、URL を指定します。 完全なURL （`https://`を含む）を入力し、**[!UICONTROL Create Activity]**&#x200B;をクリックします。
+1. [XT アクティビティを作成する](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)際にアクティビティ URL の入力を求められたら、URL を指定します。 完全なURL （`https://`を含む）を入力し、**[!UICONTROL アクティビティの作成]**&#x200B;をクリックします。
 
    >[!NOTE]
    >
@@ -30,13 +30,13 @@ ht-degree: 37%
    >
    >[[!DNL Target] at.js JavaScript ライブラリまたは [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja){target=_blank}を含まないサイトのURLを指定した場合、ページ要素を選択することはできません。
 
-1. （条件付き） VECが開いた後に別のページを表示するには、**[!UICONTROL Configure]**&#x200B;をクリックし、**[!UICONTROL Page Delivery]**&#x200B;を選択してから、[!UICONTROL URL] フィールドにURLを指定します。
+1. （条件付き） VECが開いた後に別のページを表示するには、**[!UICONTROL 設定]**&#x200B;をクリックし、**[!UICONTROL ページ配信]**&#x200B;を選択してから、[!UICONTROL URL] フィールドにURLを指定します。
 
    >[!NOTE]
    >
    >1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、おこなった変更が失われます。
 
-1. （条件付き） **[!UICONTROL Add Rule]**&#x200B;をクリックして、アクティビティにページまたはセクションを追加します。
+1. （条件付き）「**[!UICONTROL ルールを追加]**」をクリックして、アクティビティにページまたはセクションを追加します。
 
    追加のルールは、以下のいずれかに基づいています。
 
@@ -49,4 +49,4 @@ ht-degree: 37%
 
    追加のルールは、AND または OR を使用してアクティビティ URL と結合できます。 追加したすべてのルールは、AND を使用してお互いに評価されます。
 
-1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+1. 終了したら「**[!UICONTROL 保存]**」をクリックします。

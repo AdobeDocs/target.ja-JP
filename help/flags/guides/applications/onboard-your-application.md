@@ -5,7 +5,7 @@ hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '180'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 2%
 * [最初の機能フラグを作成](../feature-flags/create-your-first-feature-flag.md)
 * [アプリにフラグを統合](../integrate/integrating-in-your-app.md)
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [アプリケーションの管理](manage-applications.md)
 * [コンソールにログインします](../console/log-in-to-the-console.md)

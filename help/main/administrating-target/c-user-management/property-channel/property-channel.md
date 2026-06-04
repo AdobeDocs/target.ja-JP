@@ -31,14 +31,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 3199
-ht-degree: 49%
+source-wordcount: 3233
+ht-degree: 48%
 
 ---
 
 # Enterprise ユーザーの権限
 
-エンタープライズユーザー権限は、[!DNL Adobe Target]へのエンタープライズ全体のユーザーアクセスを正式に管理する手段です。 ユーザーを[!DNL Target]に追加し、役割に基づいて権限を割り当て、異なる部門、グローバルな場所、チャネル、その他の論理グループに基づいてチーム用のワークスペースを作成します。 ユーザーに[!UICONTROL Observer]、[!UICONTROL Editor]、[!UICONTROL Approver]または[!UICONTROL Publisher]の役割を割り当てることができます。
+エンタープライズユーザー権限は、[!DNL Adobe Target]へのエンタープライズ全体のユーザーアクセスを正式に管理する手段です。 ユーザーを[!DNL Target]に追加し、役割に基づいて権限を割り当て、異なる部門、グローバルな場所、チャネル、その他の論理グループに基づいてチーム用のワークスペースを作成します。 ユーザーには、[!UICONTROL Observer]、[!UICONTROL Editor]、[!UICONTROL Approver]または[!UICONTROL Publisher]の役割を割り当てることができます。
 
 {{permissions-update}}
 
@@ -46,15 +46,15 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->[!UICONTROL Properties and Permissions]機能は、[!DNL Target] Premium ソリューションの一部として利用できます。 [!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
+>[!UICONTROL &#x200B; プロパティと権限]機能は、[!DNL Target] Premium ソリューションの一部として利用できます。 [!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >
 >[!DNL Target]の実装では、任意のバージョンのat.jsまたは[!DNL Adobe Experience Platform Web SDK]を使用できます。
 
-組織が標準ライセンスまたはプレミアムライセンスを持っているかどうかを確認するには、[!DNL Target] UIの上部にある「[!UICONTROL Administration]」リンクをクリックします。
+組織が標準ライセンスまたはプレミアムライセンスを持っているかどうかを確認するには、[!DNL Target] UIの上部にある「[!UICONTROL 管理]」リンクをクリックします。
 
-* **[!DNL Target Standard]人のお客様**:「[!UICONTROL Users]」タブ （[!UICONTROL Properties]」タブではなく）が表示されている場合、組織には[!DNL Target Standard] ライセンスがあります。 [!UICONTROL Administration > Users]&#x200B;[!DNL Target Standard]人のお客様は、[&#x200B; ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)の指示に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
+* **[!DNL Target Standard]人の顧客**:「[!UICONTROL &#x200B; ユーザー]」タブ（[!UICONTROL 管理> ユーザー]）が表示され、[!UICONTROL &#x200B; プロパティ &#x200B;] タブが表示されない場合、組織には[!DNL Target Standard] ライセンスがあります。 [!DNL Target Standard]人のお客様は、[&#x200B; ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)の指示に従って、ユーザーを追加し、[!DNL Adobe Admin Console]で権限を割り当てる必要があります。
 
-* **[!DNL Target Premium]人のお客様**:「[!UICONTROL Properties]」タブ（[!UICONTROL Administration > Properties]）と「[!UICONTROL Users]」タブが表示されている場合、組織には[!DNL Target Premium] ライセンスがあります。 [!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
+* **[!DNL Target Premium]のお客様**:「[!UICONTROL &#x200B; プロパティ &#x200B;]」タブ（[!UICONTROL 管理/ プロパティ &#x200B;]）と「[!UICONTROL &#x200B; ユーザー]」タブが表示されている場合、組織には[!DNL Target Premium] ライセンスがあります。 [!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
 ## エンタープライズ権限の概要
 
@@ -80,7 +80,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ワークスペースを使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。 多くの点で、ワークスペースは [!DNL Adobe Analytics] のレポートスイートに似ています。
 
-注意：ワークスペースは、[!DNL Adobe Admin Console for Enterprise]では[!UICONTROL Product Profiles]として知られています。
+注意：ワークスペースは、[!DNL Adobe Admin Console for Enterprise]では[!UICONTROL 製品プロファイル &#x200B;]として知られています。
 
 多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。 複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
@@ -114,10 +114,10 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 | 役割 | 説明 |
 |--- |--- |
-| [!UICONTROL Approver] | アクティビティの作成、編集、アクティブ化、停止ができます。 |
-| [!UICONTROL Editor] | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
-| [!UICONTROL Observer] | アクティビティを表示できますが、作成または編集はできません。 |
-| [!UICONTROL Publisher] | [!UICONTROL Observer]の役割と同様です（アクティビティを表示できますが、作成または編集することはできません）。 ただし、[!UICONTROL Publisher] の役割には、アクティビティをアクティブ化する追加の権限があります。 |
+| [!UICONTROL 承認者] | アクティビティの作成、編集、アクティブ化、停止ができます。 |
+| [!UICONTROL 編集者] | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+| [!UICONTROL &#x200B; オブザーバー] | アクティビティを表示できますが、作成または編集はできません。 |
+| [!UICONTROL 発行者] | [!UICONTROL Observer]の役割と同様です（アクティビティを表示できますが、作成または編集することはできません）。 ただし、[!UICONTROL 発行者]の役割には、アクティビティをアクティブ化するための追加の権限があります。 |
 
 ### チャネル
 
@@ -127,15 +127,15 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ## 権限の概要 {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-次の情報では、以前[!DNL Target]で権限が適用された方法と、[!UICONTROL Properties]および[!UICONTROL Permissions]機能を使用して権限が適用される方法について説明します。
+次の情報では、[!DNL Target]で以前に権限が適用された方法と、[!UICONTROL &#x200B; プロパティ &#x200B;]および[!UICONTROL 権限]機能を使用して権限が適用された方法について説明します。
 
-新しい[!UICONTROL Permissions]機能を使用すると、異なるプロジェクト（[!DNL Adobe Admin Console for Enterprise]の「製品プロファイル」と呼ばれる）を作成できます。 プロジェクトを使用すると、1人のユーザーに対して異なる権限を割り当てることができ、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、お客様は、次に示すように、地域、環境（開発/ステージ/実稼動）、チャネル、またはその他のカスタム条件に基づいて、ユーザーへの表示、編集、承認アクセスを制限できます。
+新しい[!UICONTROL 権限]機能を使用すると、異なるプロジェクト（[!DNL Adobe Admin Console for Enterprise]の「製品プロファイル」と呼ばれます）を作成できます。 プロジェクトを使用すると、1人のユーザーに対して異なる権限を割り当てることができ、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、お客様は、次に示すように、地域、環境（開発/ステージ/実稼動）、チャネル、またはその他のカスタム条件に基づいて、ユーザーへの表示、編集、承認アクセスを制限できます。
 
 ![権限の画像](assets/permissions.png)
 
 例えば、ある特定のユーザーが米国の Web サイトでの「承認」アクセス権を持つが、欧州のモバイルアプリでは「表示」アクセス権のみ持っているとします。 この同じユーザーは、APAC 地域の Web およびモバイルプロパティで提供されるアクティビティについては、表示を含め、あらゆるアクセス権がありません。
 
-[!DNL Target] [!UICONTROL Permissions] モデルには、次の権限の役割（Observer、Editor、Approver、およびObserver）があります。 オブザーバーの役割は、この記事の図には示されていません。
+[!DNL Target] [!UICONTROL 権限] モデルには、次の権限の役割（Observer、Editor、Approver、およびObserver）があります。 オブザーバーの役割は、この記事の図には示されていません。
 
 ![permissions_1 image](assets/permissions_1.png)
 
@@ -152,7 +152,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ![permissions_2 image](assets/permissions_2.png)
 
-新しい[!DNL Target] [!UICONTROL Permissions] モデルには、同じ3つの権限ロール （Observer、Editor、およびApprover）がありますが、次に示すように、個々のページ、プロパティ、またはサイトに対してユーザーの権限ロールを個別に割り当てることができます。
+新しい[!DNL Target] [!UICONTROL 権限] モデルには、同じ3つの権限の役割（Observer、Editor、およびApprover）がありますが、次に示すように、個々のページ、プロパティ、またはサイトに対してユーザーの権限の役割を個別に割り当てることができます。
 
 ![permissions_3 image](assets/permissions_3.png)
 
@@ -170,8 +170,8 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ### 多国籍組織
 
-多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。
-再編成後、上の図の人物を使用して、以下のようなワークスペースおよび権限を設定してください。
+多国籍企業の一部である場合は、ヨーロッパのweb ページ、プロパティ、サイト用のワークスペースと、アメリカのweb ページ、プロパティ、サイト用のワークスペースを使用できます。
+再編成の後、上記の図のペルソナを使用して、次のようなワークスペースと権限を設定できます。
 
 * **Jan**：Jan は、組織の米国 Web ページ、プロパティ、サイトに関する研究センターの最適化部門のトップです。 Jan はおそらく Adobe Experience Cloud のシステム管理者権限を持っています。
 
@@ -215,14 +215,14 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 新しい権限機能は、[!DNL Target] UI の様々な場所に表示できます。
 
-* **Workspace（Product Profile） ドロップダウンリスト：** Workspace ドロップダウンリストは、[!UICONTROL Activities]、[!UICONTROL Audiences]、および[!UICONTROL Offers] ページの上部に表示されます。 目的のワークスペースを選択して、リストをフィルターし、選択したワークスペースのアイテムのみを表示します。
+* **ワークスペース（製品プロファイル）ドロップダウンリスト：**&#x200B;ワークスペースドロップダウンリストが、[!UICONTROL アクティビティ]、[!UICONTROL オーディエンス]、[!UICONTROL オファー]の各ページの上部に表示されます。 目的のワークスペースを選択して、リストをフィルターし、選択したワークスペースのアイテムのみを表示します。
 
 * **アクティビティの作成：** アクティビティを作成すると、現在選択されているワークスペースに作成されます。 最初のダイアログボックスには、Web、モバイルアプリ、電子メール、その他/APIなど、アクティビティに適したチャネルを選択できるチャネル選択オプションが表示されます。
 
 * **オーディエンス作成：** オーディエンスを作成すると、現在選択されているワークスペースに作成されます。
-* **オーディエンスリスト：** [!UICONTROL Audiences] ページの[!UICONTROL More Actions] > [!DNL Move] オプションを使用すると、ワークスペース間でオーディエンスを移動できます。
+* **オーディエンスリスト：** [!UICONTROL &#x200B; オーディエンス &#x200B;] ページの[!UICONTROL 詳細アクション &#x200B;] > [!DNL Move] オプションを使用すると、ワークスペース間でオーディエンスを移動できます。
 * **オファー作成：** オファーを作成すると、現在選択されているワークスペースに作成されます。
-* **プロパティ ページ （管理/プロパティ）:** [!UICONTROL Search] ボックスを使用して、[!UICONTROL Property] リストを検索できます。
+* **プロパティ ページ （管理/プロパティ）:** [!UICONTROL 検索] ボックスを使用して、[!UICONTROL &#x200B; プロパティ &#x200B;] リストを検索できます。
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -232,11 +232,11 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 * すべてのマイワークスペースビューを使用する場合：
 
    * アクセスするための適切な役割と権限を持っているすべてのワークスペースのアクティビティ、オーディエンスおよびオファーを確認できます。
-   * [!UICONTROL All My Workspaces] ビューを選択すると、新しい列がアクティビティ、オーディエンス、オファーページに追加されます。 この列には、アイテムのワークスペースと、そのアイテムに関連付けられているユーザー権限（オブザーバー、エディター、または承認者）が一覧表示されます。
+   * [!UICONTROL すべてのマイワークスペース &#x200B;] ビューを選択すると、アクティビティ、オーディエンス、オファーページに新しい列が追加されます。 この列には、アイテムのワークスペースと、そのアイテムに関連付けられているユーザー権限（オブザーバー、エディター、または承認者）が一覧表示されます。
    * すべてのマイワークスペースビューでアクティビティ、オーディエンスまたはオファーを作成する場合は、アイテムを作成するワークスペースを選択する必要があります。 編集者または承認者の権限を持っているワークスペースのみ選択できます。
    * すべてのマイワークスペースビューでアクティビティ、オーディエンスまたはオファーをコピーする場合は、アイテムをコピーするワークスペースを選択する必要があります。 編集者または承認者の権限を持っているワークスペースのみ選択できます。
 
-* 次の[!UICONTROL Administration] ページの設定は、任意のワークスペースの任意の[!UICONTROL Approver]で制御できます。
+* 次の[!UICONTROL 管理] ページの設定は、任意のワークスペースの[!UICONTROL 承認者]によって制御できます。
 
    * Visual Experience Composer
    * レポート
@@ -280,7 +280,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ### ユーザーに複数の役割と権限がある場合はどうなりますか？ {#multiple-roles}
 
-ユーザーが複数の役割と権限を持っている場合、採用者権限を持つ役割が適用されます。 例えば、ユーザーに[!UICONTROL Observer]と[!UICONTROL Approver]の役割がある場合、[!UICONTROL Approver]の役割が適用されます。
+ユーザーが複数の役割と権限を持っている場合、採用者権限を持つ役割が適用されます。 例えば、ユーザーが[!UICONTROL Observer]および[!UICONTROL Approver]の役割を持っている場合、[!UICONTROL Approver]の役割が適用されます。
 
 ### アクティビティを別のワークスペースに移動させることはできますか？
 
@@ -290,9 +290,9 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ### オーディエンスを別のワークスペースに移動させることはできますか？ {#move-audience}
 
-はい、[!UICONTROL Audiences] ページの[!UICONTROL More Actions] オプションを使用して、ワークスペース間でオーディエンスを移動できます。
+はい、[!UICONTROL &#x200B; オーディエンス &#x200B;] ページの[!UICONTROL その他のアクション &#x200B;] オプションを使用して、ワークスペース間でオーディエンスを移動できます。
 
-1. **[!UICONTROL More Actions]** ボタン （3つの省略記号）をクリックしてから、**[!UICONTROL Move]**&#x200B;をクリックします。
+1. 「**[!UICONTROL その他のアクション]**」ボタン（3つの省略記号）をクリックし、**[!UICONTROL 移動]**&#x200B;をクリックします。
 
    ![その他のアクション >移動](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
@@ -347,6 +347,6 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration] メニューUI （旧称[!UICONTROL Setup]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は正しいですが、オプションは少し異なる場所にある場合があります。
+>[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は正しいですが、オプションは少し異なる場所にある場合があります。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

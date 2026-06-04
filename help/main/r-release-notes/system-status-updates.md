@@ -12,26 +12,26 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 305
-ht-degree: 83%
+source-wordcount: 319
+ht-degree: 79%
 
 ---
 
 # システムステータスの更新と事前通知
 
-[!UICONTROL Adobe System Status] ページとプロアクティブな通知を使用して、[!DNL Adobe]製品と[!DNL Adobe Experience Cloud]解決策のステータスを常に把握します。 アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
+[!UICONTROL Adobe システムステータス &#x200B;] ページとプロアクティブな通知を使用して、[!DNL Adobe]製品と[!DNL Adobe Experience Cloud]件の解決策のステータスを常に把握します。 アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
 
 ## システムステータスの更新
 
-[!UICONTROL Adobe System Status] ページを使用して、[!DNL Target]およびその他[!DNL Adobe]製品と[!DNL Adobe Experience Cloud]製品の状態を表示します。 このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
+[!UICONTROL Adobe System Status] ページを使用して、[!DNL Target]およびその他の[!DNL Adobe]製品と[!DNL Adobe Experience Cloud]製品のステータスを表示します。 このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
 
 >[!NOTE]
 >
 >製品内通知は、毎月の [!DNL Target] リリースの間、常に表示されますが、マイナーアップデートが発生した場合は、このページに記載されます。
 
-1. [[!UICONTROL System Status]](https://status.adobe.com/ja){target=_blank}にアクセスします。
+1. [[!UICONTROL &#x200B; システムの状態]](https://status.adobe.com/ja){target=_blank}にアクセスします。
 
-1. [!DNL Target]を含む[!DNL Experience Cloud] ソリューションのステータスを表示するには、「[!UICONTROL Experience Cloud]」タブをクリックします。
+1. [!DNL Target]を含む[!DNL Experience Cloud]個のソリューションのステータスを表示するには、「[!UICONTROL Experience Cloud]」タブをクリックします。
 
    ![system_status 画像](assets/system_status.png)
 
@@ -39,7 +39,7 @@ ht-degree: 83%
 
    上記の図では、[!DNL Adobe Advertising]、[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager] およびその他のソリューションが最近メンテナンスアップデートを完了しました。 その他のすべての製品およびソリューションは、通常どおり機能していました。 使用時に問題が発生した場合は、必ずこのページを確認 [!DNL Target] してください。
 
-1. （オプション）製品、地域または日付範囲別にリストをフィルタリングします。 [!UICONTROL Major]、[!UICONTROL Minor]、[!UICONTROL Potential]または[!UICONTROL Maintenance]のリンクをクリックして、結果をさらに絞り込みます。
+1. （オプション）製品、地域または日付範囲別にリストをフィルタリングします。 [!UICONTROL &#x200B; メジャー]、[!UICONTROL &#x200B; マイナー]、[!UICONTROL 可能性]、または[!UICONTROL &#x200B; メンテナンス &#x200B;]のリンクをクリックして、結果をさらに絞り込みます。
 
 ## 事前通知
 

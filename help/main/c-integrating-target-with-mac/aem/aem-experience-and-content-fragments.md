@@ -1,7 +1,7 @@
 ---
 keywords: AEM;Experience Manager;Adobe Experience Manager;統合;エクスペリエンスフラグメント;コンテンツフラグメント
 description: ' [!DNL Adobe Target]  アクティビティで  [!DNL Adobe Experience Manager]  エクスペリエンスフラグメントおよびコンテンツフラグメントを使用する方法について説明します。'
-title: ' [!DNL Adobe Experience Manager]  （AEM） [!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]の使用方法を教えてください。'
+title: ' [!DNL Adobe Experience Manager]  （AEM） [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用するにはどうすればよいですか？'
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 TQID: https://experienceleague.adobe.com/OlgveSjoE0rh1orFsbEZVCSbjd3TKEk8fdBbbXtLxhA
@@ -18,45 +18,45 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 341
-ht-degree: 43%
+source-wordcount: 407
+ht-degree: 40%
 
 ---
 
-# AEM [!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]の概要
+# AEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]および[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]の概要
 
-[!DNL Target] アクティビティの[!DNL Adobe Experience Manager] （AEM）で作成された[!UICONTROL Experience Fragments] （XF）と[!UICONTROL Content Fragments] （CF）を使用して、最適化とパーソナライゼーションを支援します。
+[!DNL Target]件のアクティビティで[!DNL Adobe Experience Manager] （AEM）で作成された[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;] （XF）と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;] （CF）を使用して、最適化とパーソナライゼーションを支援します。
 
-[!DNL Target]のアクティビティで[!DNL AEM]で作成された[!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]を使用すると、[!DNL AEM]の使いやすさとパワーを、[!DNL Target]の強力な人工知能（AI）および機械学習（ML）機能と組み合わせて、エクスペリエンスを大規模にテストおよびパーソナライズできます。
+[!DNL Target]のアクティビティで[!DNL AEM]で作成された[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用すると、[!DNL AEM]の使いやすさと機能を、[!DNL Target]の強力な人工知能（AI）および機械学習（ML）機能と組み合わせて、エクスペリエンスを大規模にテストおよびパーソナライズできます。
 
 [!DNL AEM] では、パーソナライゼーション戦略に生かせるよう、すべてのコンテンツとアセットが一元化されます。 [!DNL AEM] では、コードを記述しなくても、デスクトップ、タブレット、モバイルデバイス向けのコンテンツを 1 か所で簡単に作成できます。 デバイスごとにページを作成する必要はありません。 [!DNL AEM] は、コンテンツを使用して各デバイスのエクスペリエンスを自動的に調整します。
 
 [!DNL Target] では、行動変数、コンテキスト変数、オフライン変数を組み込んだルールベースの手法と AI 駆動の機械学習手法を組み合わせ、それを土台にしてパーソナライズされたエクスペリエンスを幅広く提供できます。
 
-[!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]は、[!DNL Target]を使用してビジネス成果を促進している最適化とパーソナライゼーションの専門家に、コンテンツ/エクスペリエンスの作成者とマネージャーをリンクさせるための大きな前進です。
+[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、[!DNL Target]を使用してビジネス成果を促進している最適化およびパーソナライゼーションの専門家に、コンテンツ/エクスペリエンスの作成者と管理者をリンクするための大きな前進です。
 
 ## 注意点
 
-[!DNL Target]でAEM [!UICONTROL Experience Fragments]および[!UICONTROL Content Fragments]を使用する場合は、次の点を考慮してください。
+[!DNL Target]でAEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]および[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用する場合は、次の点を考慮してください。
 * これらの機能を使用するには、[!DNL Adobe Experience Manager]（AEM）の顧客である必要があります。 各フラグメントタイプ（[エクスペリエンスフラグメント](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements)または[コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements)）の要件を満たしていることを確認します。
-* [!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]は、次のアクティビティタイプで使用できます。
+* [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、次のアクティビティタイプで使用できます。
 
-   * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] （AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Experience Targeting] （XT）](/help/main/c-activities/t-experience-target/experience-target.md)
+   * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL 自動ターゲット]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization]（AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL エクスペリエンスのターゲット設定]（XT）](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]は、次のアクティビティの種類では利用できません：
+* [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、次のアクティビティタイプでは使用できません。
 
-   * [[!UICONTROL Multivariate Test] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+   * [[!UICONTROL 多変量分析テスト] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL レコメンデーション]](/help/main/c-recommendations/recommendations.md)
 
-* [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用して、[!DNL Target]のアクティビティで[!UICONTROL Experience Fragments]を利用できます。
-* [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)のみを使用して、[!DNL Target]のアクティビティで[!UICONTROL Content Fragments]を使用できます。
+* [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用して、[!DNL Target]のアクティビティで[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を使用できます。
+* [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)のみを使用して、[!DNL Target]のアクティビティで[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用できます。
 
-## [!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]の違いとは？
+## [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]の違いは何ですか？
 
-[!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]は表面的には似ているように見えるかもしれませんが、各フラグメントタイプは異なるユースケースで重要な役割を果たします。
+[!DNL Adobe Experience Manager] [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は表面的には似ているように見えるかもしれませんが、各フラグメントタイプは異なるユースケースで重要な役割を果たします。
 
-[!UICONTROL Experience Fragments]と[!UICONTROL Content Fragments]が似ている方法、異なる方法、およびそれぞれの使用方法について詳しくは、[AEM Sites ビデオとチュートリアル ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=ja){target=_blank}の[理解[!UICONTROL Content Fragments]と[!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=ja){target=_blank}を参照してください。
+[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]が似ている、異なる、使用するタイミングと方法について詳しくは、[AEM Sites ビデオおよびチュートリアルガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=ja){target=_blank}の[ コンテンツフラグメント ]と[[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=ja){target=_blank}を理解してください。

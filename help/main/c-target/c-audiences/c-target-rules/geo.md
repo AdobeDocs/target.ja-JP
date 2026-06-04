@@ -16,7 +16,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: 1078
 ht-degree: 40%
 
 ---
@@ -29,28 +29,28 @@ ht-degree: 40%
 
 ## 地域ターゲティングでオーディエンスを作成する {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**」 > 「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付け、オプションの説明を追加します。
-1. **[!UICONTROL Geo]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
+1. **[!UICONTROL 地域]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
-1. 「**[!UICONTROL Select]**」をクリックし、次のいずれかのオプションを選択します。
+1. 「**[!UICONTROL 選択]**」をクリックして、次のいずれかのオプションを選択します。
 
-   * [!UICONTROL Country/Region]
-   * [!UICONTROL State]
-   * [!UICONTROL City]
-   * [!UICONTROL Zip Code]
-   * [!UICONTROL Longitude]
-   * [!UICONTROL Latitude]
+   * [!UICONTROL 国/地域]
+   * [!UICONTROL 状態]
+   * [!UICONTROL 市区町村]
+   * [!UICONTROL 郵便番号]
+   * [!UICONTROL 経度]
+   * [!UICONTROL 緯度]
    * [!UICONTROL DMA]
-   * [!UICONTROL Mobile Carrier]
+   * [!UICONTROL 携帯電話会社]
 
    訪問者の地域情報は、[!DNL Target] 場所リクエスト（mbox リクエスト）の発信元 IP アドレスから決定されます。 IP-to-geo 解決は、新しいセッションの最初の呼び出しに対して行われます。 つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。
 
-   [!UICONTROL Mobile Carrier]の場合、[!DNL Target]はIP アドレス登録データ （IP アドレスのブロックを所有するユーザー）を使用して、[Mobile Country Codes （MCC）とMobile Network Codes （MNC） &#x200B;](https://www.mcc-mnc.com)を使用して、適切な携帯電話会社を決定します。
+   [!UICONTROL Mobile Carrier]の場合、[!DNL Target]はIP アドレス登録データ（IP アドレスのブロックを所有するユーザー）を使用して、[Mobile Country Codes （MCC）とMobile Network Codes MNC） &#x200B;](https://www.mcc-mnc.com)を使用して適切なモバイル キャリアを決定します。
 
 1. 演算子と適切な値を指定します。
 1. （オプション）オーディエンスの追加ルールを設定します。
-1. **[!UICONTROL Done]** をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 次の図は、緯度が44°を超え、経度が22°未満のユーザーがアクティビティにアクセスすることをターゲットとするオーディエンスを示しています。
 

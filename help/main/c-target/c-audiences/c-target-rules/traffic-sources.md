@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 240
-ht-degree: 53%
+source-wordcount: 267
+ht-degree: 51%
 
 ---
 
@@ -26,27 +26,27 @@ ht-degree: 53%
 
 複数のトラフィックソースを組み合わせて複雑なターゲティングルールを作成できます。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**」 > 「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. &#x200B;
    1. オーディエンスに名前を付け、オプションの説明を追加します。
-1. **[!UICONTROL Traffic Sources]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
+1. **[!UICONTROL トラフィックソース]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
    ![target_traffic_source画像](assets/target_traffic_source.png)
 
-1. 「**[!UICONTROL Select]**」をクリックし、次のいずれかのオプションを選択します。
+1. 「**[!UICONTROL 選択]**」をクリックして、次のいずれかのオプションを選択します。
 
-   * **[!UICONTROL From Baidu]**
-   * **[!UICONTROL From Bing]**
-   * **[!UICONTROL From Google]**
-   * **[!UICONTROL From Yahoo]**
-   * **[!UICONTROL Referring Landing Page: URL]**
-   * **[!UICONTROL Referring Landing Page: Domain]**
-   * **[!UICONTROL Referring Landing Page: Query]**
+   * **[!UICONTROL Baiduから]**
+   * **[!UICONTROL Bingから]**
+   * **[!UICONTROL Googleから]**
+   * **[!UICONTROL Yahoo]**&#x200B;から
+   * **[!UICONTROL 参照ランディングページ：URL]**
+   * **[!UICONTROL 参照ランディングページ：ドメイン]**
+   * **[!UICONTROL 参照ランディングページ：クエリ]**
 
    選択に応じて、追加の情報（評価者や値）を提供する必要があります。
 
 1. （オプション）オーディエンスの追加ルールを設定します。
-1. **[!UICONTROL Done]** をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 特定の検索エンジン、または特定のランディングページからサイトに導かれたユーザーをターゲット設定できます。
 

@@ -5,7 +5,7 @@ hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '252'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[&#x200B; リリースワークフローのエンドツーエンド &#x200B;](release-workflow-end-to-end.md)を参照してください。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [エンドツーエンドのリリースワークフロー](release-workflow-end-to-end.md)
 * [リリースオーディエンスルールの更新](update-release-audience-rules.md)

@@ -1,7 +1,7 @@
 ---
 keywords: mvt、多変量分析テスト、場所の貢献度レポート
-description: 各要素と各オファーのパフォーマンスを示すAdobe [!DNL Target] [!UICONTROL Experience Targeting] アクティビティの場所の貢献度レポートの使用方法について説明します。
-title: '[!UICONTROL Multivariate Test] アクティビティに[!UICONTROL Location Contribution] レポートを使用する方法を教えてください。'
+description: 各要素と各オファーのパフォーマンスを示すAdobe [!DNL Target] [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティの場所の貢献度レポートの使用方法について説明します。
+title: '[!UICONTROL 多変量テスト &#x200B;]のアクティビティに[!UICONTROL 場所の貢献度] レポートを使用するにはどうすればよいですか？'
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
@@ -12,28 +12,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 261
-ht-degree: 35%
+source-wordcount: 283
+ht-degree: 32%
 
 ---
 
-# [!UICONTROL Location Contribution] レポート （MVT）
+# [!UICONTROL 場所の貢献度] レポート （MVT）
 
-[!UICONTROL Location Contribution] レポートには、各要素と各オファーのパフォーマンスが表示されます。
+[!UICONTROL 場所の貢献度] レポートには、各要素と各オファーのパフォーマンスが表示されます。
 
 レポートの上部には、レポートで使用されている指標、開始日、終了日、オーディエンスが表示されます。 これらの要素は変更できます。
 
 >[!NOTE]
 >
->[!UICONTROL Location Contribution] レポートを使用する際は、次の情報に注意してください。
+>[!UICONTROL 場所の貢献度] レポートを使用する際は、次の情報に注意してください。
 >
 >* オーディエンスと指標のピッカーは、[!DNL Analytics]がレポートソース（A4T）として使用されている場合にのみ使用できます。
 >
->* アクティビティが[!UICONTROL Analytics as the reporting source] （A4T）を使用するように設定されている場合でも、[!UICONTROL Location Contribution] レポートのデータが[!DNL Target] バックエンドから取得されます。
+>* アクティビティが[!UICONTROL Analyticsをレポートソース &#x200B;] （A4T）として使用するように設定されている場合でも、[!UICONTROL 場所の貢献度] レポートのデータが[!DNL Target] バックエンドから取得されます。
 >
->* [!DNL Target] アカウントレベルで異なるデフォルト環境が定義されている場合でも、[!UICONTROL Location Contribution] レポートのデータが「実稼動環境」環境に取得されます。
+>* [!DNL Target] アカウントレベルで別のデフォルト環境が定義されている場合でも、[!UICONTROL 場所の貢献度] レポートのデータが「実稼動」環境に取得されます。
 
-[!UICONTROL Location Contribution] レポートには2つのテーブルが含まれています。
+[!UICONTROL 場所の貢献度] レポートには、2つのテーブルが含まれています。
 
 最初のテーブルには、各要素の相対的な影響度が表示されます。 この表は、オファーを追加した要素のうち、最もコンバージョン率が高い要素を示しています。
 

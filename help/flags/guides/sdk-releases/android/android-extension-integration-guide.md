@@ -470,7 +470,7 @@ String version = Rollout.extensionVersion();
 | `refreshCache()` | 無効 |
 | `extensionVersion()` | 文字列 |
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [モバイルアプリケーション](../../integrate/mobile-applications.md)
 * [統合ステップ](../../integrate/integration-steps.md)

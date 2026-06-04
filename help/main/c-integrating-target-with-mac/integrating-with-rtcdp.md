@@ -22,8 +22,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 74%
+source-wordcount: 1173
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要](http
 主な機能は以下のとおりです。
 
 * エッジにおける Real-Time CDP/[!DNL Adobe Experience Platform] と [!DNL Target] の直接統合（[!DNL Audience Core services] への依存を排除 - AAM）
-* ガバナンスとポリシーの適用を含む[!UICONTROL Target Edge Destinations Card]
+* ガバナンスとポリシーの適用が可能な[!UICONTROL Target Edge Destinations Card]
 * Real-time CDP セグメントと共有プロファイル属性
 
 ## 実装シナリオ
@@ -62,8 +62,8 @@ RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要](http
 
 | 解決策 | 使用可能なユースケース |
 | --- | --- |
-| <ul><li>[!DNL RTCDP]（任意の SKU）と [!DNL Target]</li></ul> | <ul><li>次のセッションのパーソナライズ機能<ul><li>[!UICONTROL at.js] を使用するすべてのページの場合</li></ul></li><li>同じページのパーソナライズ機能<ul><li>[!DNL Platform Web SDK] を使用するすべてのページの場合</li></ul></li></ul> |
-| <ul><li>[!DNL RTCDP]（任意の SKU）、[!DNL AAM]、[!DNL Target]</li></ul> | <ul><li>次のセッションのパーソナライズ機能</li><ul><li>[!UICONTROL at.js] を使用するすべてのページの場合</li><li>[!DNL AAM] セグメント</li><li>[!DNL AAM] を介したサードパーティセグメント</li></ul> |
+| <ul><li>[!DNL RTCDP]（任意の SKU）と [!DNL Target]</li></ul> | <ul><li>次のセッションのパーソナライズ機能<ul><li>[!UICONTROL at.js]のすべてのページ</li></ul></li><li>同じページのパーソナライズ機能<ul><li>[!DNL Platform Web SDK] を使用するすべてのページの場合</li></ul></li></ul> |
+| <ul><li>[!DNL RTCDP]（任意の SKU）、[!DNL AAM]、[!DNL Target]</li></ul> | <ul><li>次のセッションのパーソナライズ機能</li><ul><li>[!UICONTROL at.js]のすべてのページ</li><li>[!DNL AAM] セグメント</li><li>[!DNL AAM] を介したサードパーティセグメント</li></ul> |
 
 ## セグメント評価時間
 
@@ -97,21 +97,21 @@ Real-Time CDP プロファイル属性は、HTML オファーおよび [JSON オ
 次の点に留意してください。
 
 * 特定のオファー内の属性は、同じ[!UICONTROL Experience Platform] サンドボックスから取得する必要があります。 （つまり、オファーに異なる[!UICONTROL Experience Platform] サンドボックスの属性を含めることはできません）。
-* 特定のオファー内の属性は、異なるソース（[!DNL Target] プロファイルと[!UICONTROL Experience Platform] プロファイル）から取得できます。 （つまり、[!DNL Target]から来るか、[!UICONTROL Experience Platform] プロファイルから来るかを問わず、属性を組み合わせることができます）。
-* オファーを定義する際に、属性に明示的な値がない場合に備えて、[!UICONTROL Real-Time CDP Profile Attributes]のデフォルト値を割り当てることができます。 例えば、パーソナライゼーションサービスで使用されている属性が同意ポリシーやガバナンスポリシーによってブロックされている場合は、代わりにデフォルト値を使用できます。
+* 特定のオファー内の属性は、異なるソースから取得できます。つまり、[!DNL Target] プロファイルと[!UICONTROL Experience Platform] プロファイルです。 （つまり、[!DNL Target]または[!UICONTROL Experience Platform] プロファイルの属性を組み合わせることができます）。
+* オファーを定義する際に、属性に明示的な値がない場合に備えて、[!UICONTROL Real-Time CDP プロファイル属性]にデフォルト値を割り当てることができます。 例えば、パーソナライゼーションサービスで使用されている属性が同意ポリシーやガバナンスポリシーによってブロックされている場合は、代わりにデフォルト値を使用できます。
 * [!DNL Target]は、オファーで使用される[!DNL Adobe Experience Platform] プロファイル属性の「文字列」データタイプのみをサポートしています。 「マップ」および「配列」タイプの属性はまだサポートされていません。
 
 ### JSON サンプルのユースケース
 
-オンラインマーケターは、AEP／統合プロファイルで属性値を [!DNL Target] と共有して、リアルタイムのパーソナライゼーションを実現したいと考えています。 [!UICONTROL Real-Time CDP Profile Attributes]を使用すると、トークンの置換を使用して、[!DNL Target] オファーの[!UICONTROL Experience Platform]属性の値を表示できます。 例えば、`${aep.profile.favoriteColor}` を使用して顧客のお気に入りのカラーに応じてパーソナライズしたり、トークン `${aep.loyalty.tier}` と `${aep.loyalty.points}` を使用して顧客のロイヤルティ層とロイヤルティポイント値に従ってパーソナライズしたりできます。
+オンラインマーケターは、AEP／統合プロファイルで属性値を [!DNL Target] と共有して、リアルタイムのパーソナライゼーションを実現したいと考えています。 [!UICONTROL Real-Time CDP プロファイル属性]を使用すると、トークンの置換を使用して[!DNL Target] オファーの[!UICONTROL Experience Platform]属性の値を表示できます。 例えば、`${aep.profile.favoriteColor}` を使用して顧客のお気に入りのカラーに応じてパーソナライズしたり、トークン `${aep.loyalty.tier}` と `${aep.loyalty.points}` を使用して顧客のロイヤルティ層とロイヤルティポイント値に従ってパーソナライズしたりできます。
 
 AEP／統合プロファイル属性を [!DNL Target] と共有するための JSON オファーを作成するには：
 
-1. [JSON オファーの作成中](/help/main/c-experiences/c-manage-content/create-json-offer.md)、**[!UICONTROL Select a source]** リストから「**[!UICONTROL Adobe Experience Platform]**」を選択します。
-1. **[!UICONTROL Select a profile sandbox name]** リストから、目的のサンドボックスを選択します。
-1. **[!UICONTROL Select a profile attribute]** リストから、目的の属性を選択します。
-1. （オプション） **[!UICONTROL Insert a default value]** リストから、目的の値を選択します。
-1. **[!UICONTROL Add]** をクリックします。
+1. [JSON オファーの作成中](/help/main/c-experiences/c-manage-content/create-json-offer.md)、**[!UICONTROL ソースの選択]** リストから、**[!UICONTROL Adobe Experience Platform]**&#x200B;を選択します。
+1. **[!UICONTROL プロファイルサンドボックス名を選択]** リストから、目的のサンドボックスを選択します。
+1. **[!UICONTROL プロファイル属性を選択]** リストから、目的の属性を選択します。
+1. （オプション）「**[!UICONTROL デフォルト値を挿入]**」リストから、目的の値を選択します。
+1. 「**[!UICONTROL Add]**」をクリックします。
 
 次の図に、2 つのプロファイル属性、`loyalty.tier` と `loyalty.points` が JSON オファーに追加されたことを示します。
 

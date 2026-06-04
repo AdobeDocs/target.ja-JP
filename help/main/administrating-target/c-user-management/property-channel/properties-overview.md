@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: 1509
 ht-degree: 55%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 55%
 
 [!DNL Adobe Admin Console for Enterprise]で実行されたタスクについては、次の手順に従ってコンソールにアクセスします。
 
-1. Adobe Targetで、**[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**&#x200B;をクリックします。
+1. Adobe Targetで、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]** > **[!UICONTROL プロパティをワークスペースに割り当て]**&#x200B;をクリックします。
 
    または
 
@@ -65,9 +65,9 @@ ht-degree: 55%
 
 ## 手順 1. ユーザーの追加（オプション） {#section_A92AF0F921B743FEB9E9033433BD816A}
 
-新しい[!UICONTROL Properties]機能の使用を開始する場合、すべてのユーザー管理を[!DNL Adobe Admin Console for Enterprise]で実行する必要があります。 ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
+新しい[!UICONTROL &#x200B; プロパティ &#x200B;]機能の使用を開始する場合、すべてのユーザー管理を[!DNL Adobe Admin Console for Enterprise]で実行する必要があります。 ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)で、ページの上部にある「**[!UICONTROL Users]**」タブをクリックして、新規ユーザーを作成するか、既存のユーザーを編集します。>**[!UICONTROL Add Users]**
+1. [Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)で、ページの上部にある「**[!UICONTROL ユーザー]**」タブをクリックし、「**[!UICONTROL ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
 
 ## 手順 2： ワークスペースの作成（製品プロファイル） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -80,7 +80,7 @@ ht-degree: 55%
 
 ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つこともできます。
 
-1. [!DNL Admin Console]で「**[!UICONTROL Products]**」をクリックし、目的の製品の名前を選択します。
+1. [!DNL Admin Console]で、**[!UICONTROL 製品]**&#x200B;をクリックし、目的の製品の名前を選択します。
 
    ![ワークスペース](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -106,7 +106,7 @@ ht-degree: 55%
 
 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} の Enterprise 権限を活用するには、ワークスペース IDを渡す必要があります。
 
-1. [Adobe Admin Console](https://adminconsole.adobe.com)で、「[!UICONTROL Products]」タブをクリックし、左側のメニューの商品をクリックしてPLC （ワークスペース）リストを表示します。
+1. [Adobe Admin Console](https://adminconsole.adobe.com)で、「[!UICONTROL 製品]」タブをクリックし、左側のメニューの製品をクリックしてPLC （ワークスペース）リストを表示します。
 1. 目的のPLC（ワークスペース）をクリックし、次に示す URL で「プロファイル」 ID を探します。
 
    ![ワークスペース ID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -115,7 +115,7 @@ ht-degree: 55%
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。 新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
-1. Admin Consoleで、ページの上部にある「**[!UICONTROL Users]**」タブをクリックして、新しいユーザーグループを作成するか、既存のグループを編集します。**[!UICONTROL User Groups]**
+1. Admin Consoleで、ページの上部にある「**[!UICONTROL ユーザー]**」タブ/「**[!UICONTROL ユーザーグループ]**」をクリックして、新しいユーザーグループを作成するか、既存のグループを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 ## 手順 4. プロパティを作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -126,7 +126,7 @@ ht-degree: 55%
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
-1. [!DNL Target]で、**[!UICONTROL Administration]** > **[!UICONTROL Properties]**&#x200B;をクリックして、[!UICONTROL Properties] リストを表示します。
+1. [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;]のリストを表示します。
 1. 「**プロパティを作成**」をクリックします。
 
    以下のフィールドを設定します。
@@ -135,8 +135,8 @@ ht-degree: 55%
    * **説明：**（オプション）プロパティの説明を指定します。
    * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
 
-1. 「**[!UICONTROL Copy]**」をクリックして、コードをクリップボードにコピーします。このコードは、[5: Update Your Implementation to Include the at_property Parameter](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)の手順を実行しているときに使用します。
-1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+1. 「**[!UICONTROL コピー]**」をクリックして、コードをクリップボードにコピーします。このコードは、[5の手順を実行する際に使用します。「実装を更新してat_property パラメーター](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)を含める」の手順を実行します。
+1. 終了したら「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >プロパティ作成について詳しくは、以下のトレーニングビデオをご覧ください。
@@ -151,9 +151,9 @@ ht-degree: 55%
 
    または
 
-   [!DNL Target]で、**[!UICONTROL Administration]** > **[!UICONTROL Properties]**&#x200B;をクリックして、[!UICONTROL Properties] リストを表示します。
+   [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;]のリストを表示します。
 
-   1. 目的のプロパティを表示するには、[!UICONTROL Last Updated]列にマウスポインターを置き、[!UICONTROL Code] アイコン （![&#x200B; コードアイコン &#x200B;](/help/main/assets/icons/Code.svg)）をクリックします。
+   1. 目的のプロパティを表示するには、[!UICONTROL 最終更新日]列にマウスポインターを置き、[!UICONTROL &#x200B; コード &#x200B;] アイコン （![&#x200B; コードアイコン &#x200B;](/help/main/assets/icons/Code.svg)）をクリックします。
 
       ![プロパティホバーコード](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -183,7 +183,7 @@ ht-degree: 55%
 
 ## 手順6：役割と権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. Admin Consoleで「**[!UICONTROL Products]**」をクリックし、目的の商品の名前を選択します。
+1. Admin Console で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
 
    ![ワークスペース](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -191,13 +191,13 @@ ht-degree: 55%
 
    ![デフォルトのワークスペース](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-1. **[!UICONTROL Users]** をクリックします。
+1. 「**[!UICONTROL ユーザー]**」をクリックします。
 
-   「[!UICONTROL Users]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
+   「[!UICONTROL &#x200B; ユーザー]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
 
    ![設定ユーザー](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. [!UICONTROL Product Role]列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（承認者、編集者、オブザーバー、または発行者）を選択します。
+1. [!UICONTROL 製品の役割]列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（承認者、編集者、オブザーバー、または発行者）を選択します。
 
    ![製品の役割ドロップダウンリスト](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -216,7 +216,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration] メニューUI （旧称[!UICONTROL Setup]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は一般的に正しいですが、オプションは少し異なる場所にある場合があります。 更新されたビデオは間もなく投稿される予定です。
+>[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は一般的に正しいですが、オプションは少し異なる場所にある場合があります。 更新されたビデオは間もなく投稿される予定です。
 
 ### Adobe Target Workspacesの設定方法（6:55） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 

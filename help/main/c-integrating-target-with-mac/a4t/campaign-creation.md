@@ -14,7 +14,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 662
 ht-degree: 30%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 レポートソースとして[!DNL Analytics]を使用する[!DNL Target] アクティビティの作成は、通常の[!DNL Target] アクティビティの設定と似ていますが、いくつかの重要な違いがあります。 例えば、[!DNL Analytics]で使用可能なすべてのセグメントは、レポートの表示時に適用できるため、アクティビティの作成中にレポート用のセグメントを選択することはできません。
 
-1. **[!UICONTROL Create Activity]** をクリックします。
+1. 「**[!UICONTROL アクティビティを作成]**」をクリックします。
 
    >[!NOTE]
    >
@@ -39,9 +39,9 @@ ht-degree: 30%
 
 1. アクティビティのタイプを選択して、アクティビティの設定を開始します。
 
-   [!UICONTROL Auto-Allocate]または[!UICONTROL Auto-Target] アクティビティを作成する場合は、[A4Tの自動配分および自動ターゲット アクティビティのサポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
+   [!UICONTROL 自動配分]または[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成する場合は、[自動配分と自動ターゲット アクティビティのA4T サポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
 
-1. アクティビティ作成フローの&#x200B;**[!UICONTROL Settings]**&#x200B;部分にアクセスしたら、**[!UICONTROL Adobe Analytics]**&#x200B;を選択して会社を指定します。
+1. アクティビティ作成フローの&#x200B;**[!UICONTROL Settings]**&#x200B;部分にアクセスしたら、**[!UICONTROL Adobe Analytics]**&#x200B;を選択し、会社を指定します。
 1. レポートスイートを選択します。
 
    [!DNL Analytics]で使用可能な任意のレポートスイートを選択できます。 レポートスイートでは、収集されたデータの利用場所を定義します。 仮想レポートスイートは、レポートスイートリストには含まれません。
@@ -79,7 +79,7 @@ ht-degree: 30%
    >
    >レポートソースとして[!DNL Analytics]を設定した後にアクティビティを設定する場合、レポート用のオーディエンスを設定するオプションはありません。 [!DNL Analytics] セグメントは、[!DNL Target] アクティビティ レポートで利用できます。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## A4T アクティビティおよび自動配分アクティビティと自動ターゲットアクティビティ
 

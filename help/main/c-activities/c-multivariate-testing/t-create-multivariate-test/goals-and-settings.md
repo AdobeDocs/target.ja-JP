@@ -1,7 +1,7 @@
 ---
 keywords: アクティビティ設定；目標と設定；多変量；mvt
-description: ' [!DNL Adobe Target] の[!UICONTROL Goals & Settings] ページを使用して、[!UICONTROL Multivariate Test] （MVT） アクティビティの目標に関する情報を指定する方法について説明します。'
-title: '[!UICONTROL Multivariate Test] （MVT）アクティビティで目標と設定を指定するにはどうすればよいですか？'
+description: ' [!DNL Adobe Target] の[!UICONTROL 目標と設定] ページを使用して、[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの目標に関する情報を指定する方法を説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティで目標と設定を指定するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
@@ -16,20 +16,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1170
-ht-degree: 38%
+source-wordcount: 1261
+ht-degree: 39%
 
 ---
 
-# 目標と設定（[!UICONTROL Multivariate Test]）
+# 目標と設定（[!UICONTROL 多変量テスト &#x200B;]）
 
-[!DNL Adobe Target]の[!UICONTROL Goals & Settings] ページには、[!UICONTROL Multivariate Test] （MVT）活動の目標に関する情報を入力します。
+[!DNL Adobe Target]の[!UICONTROL 目標と設定] ページでは、[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの目標に関する情報を入力します。
 
 次のセクションを使用できます。
 
-* [!UICONTROL Activity Settings]
-* [!UICONTROL Reporting Settings]
-* [!UICONTROL Other Metadata]
+* [!UICONTROL アクティビティの設定]
+* [!UICONTROL レポート設定]
+* [!UICONTROL その他のメタデータ]
 
 各セクションで使用できる設定は、レポートソースとして[!DNL Target]または[!DNL Analytics]を使用するかどうかに応じて異なります。
 
@@ -43,20 +43,20 @@ ht-degree: 38%
 
 ### 優先度
 
-設定に応じて、[!UICONTROL Priority]の[!DNL Target] UIとオプションは異なります。 [!UICONTROL Low]、[!UICONTROL Medium]または[!UICONTROL High]の従来の設定を使用するか、0 ～ 999の細かい優先度を有効にできます。
+設定に応じて、[!UICONTROL 優先度]の[!DNL Target] UIとオプションが異なります。 [!UICONTROL Low]、[!UICONTROL Medium]または[!UICONTROL High]の従来の設定を使用するか、0 ～ 999の細かい優先度を有効にできます。
 
 優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。 ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
-このオプションが[!UICONTROL Administration] > [!UICONTROL Reporting] （デフォルト）で有効になっていない場合は、優先度を[!UICONTROL Low]、[!UICONTROL Medium]、または[!UICONTROL High]に指定します。
+このオプションが[!UICONTROL 管理] > [!UICONTROL &#x200B; レポート &#x200B;] （デフォルト）で有効になっていない場合は、優先度を指定します：[!UICONTROL 低]、[!UICONTROL Medium]、または[!UICONTROL 高]。
 
-きめ細かい優先度を有効にするには、[!UICONTROL Administration] > [!UICONTROL Reporting]をクリックし、[!UICONTROL Enable Fine-Grained Priorities] オプションを「オン」の位置に切り替えます。
+きめ細かい優先度を有効にするには、[!UICONTROL 管理] > [!UICONTROL &#x200B; レポート &#x200B;]をクリックし、[!UICONTROL きめ細かい優先度を有効にする] オプションを「オン」の位置に切り替えます。
 
 このオプションが有効になっている場合は、0 ～ 999の値を指定します。
 
 * 0 = 低
 * 999 = 高
 
-以前のバージョンの[!DNL Target]で作成されたアクティビティの場合、[!UICONTROL Low]の優先度は0に変換され、[!UICONTROL Medium]の優先度は5に変換され、[!UICONTROL High]の優先度は10に変換されます。 これらの値は必要に応じて調整できます。
+以前のバージョンの[!DNL Target]で作成されたアクティビティの場合、[!UICONTROL 低]の優先度は0に変換され、[!UICONTROL Medium]の優先度は5に変換され、[!UICONTROL 高]の優先度は10に変換されます。 これらの値は必要に応じて調整できます。
 
 >[!NOTE]
 >
@@ -86,21 +86,21 @@ ht-degree: 38%
 
 [!DNL Analytics]を[!DNL Target] （A4T）のレポートソースとして選択する場合、[!DNL Analytics] レポートスイートを選択して[!DNL Target] アクティビティデータを受信します。 これを行うには、最初にアカウントが関連付けられている[!DNL Analytics]社の中から選択し、次にアクティビティに適したレポートスイートを選択します。 [!DNL Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 期待するレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。 レポートスイートがまだリストにない場合は、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
-[!DNL Analytics for Target] （A4T）は、結果を正しく報告するためにトラッキングサーバーを必要とします。 デフォルトのトラッキングサーバーが[!UICONTROL Tracking Server] フィールドに表示されます。 複数のトラッキングサーバーを使用する場合は、このフィールドに正しいトラッキングサーバーを含めてください。 詳しくは、[Analytics トラッキングサーバーの使用](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照してください。
+[!DNL Analytics for Target] （A4T）は、結果を正しく報告するためにトラッキングサーバーを必要とします。 デフォルトのトラッキングサーバーが「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合は、このフィールドに正しいトラッキングサーバーを含めてください。 詳しくは、[Analytics トラッキングサーバーの使用](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照してください。
 
 **[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics]と[!DNL Target]の統合について詳しくは、 [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを参照してください。
 
 ### 目標指標
 
-目標達成の基準となる、訪問者の行動を選択します。 例えば、[!UICONTROL Conversion]指標を選択し、成功が達成されたときに決定するパラメーターを設定します。
+目標達成の基準となる、訪問者の行動を選択します。 例えば、[!UICONTROL &#x200B; コンバージョン &#x200B;]指標を選択し、成功が達成されたときに決定するパラメーターを設定します。
 
 >[!NOTE]
 >
->レポート ソリューションが[!DNL Analytics]に設定されている場合、使用可能な目標指標は[!UICONTROL Conversion]のみです。 目標として[!DNL Analytics]指標を選択できません。
+>レポート ソリューションが[!DNL Analytics]に設定されている場合、使用可能な目標指標は[!UICONTROL &#x200B; コンバージョン &#x200B;]のみです。 目標として[!DNL Analytics]指標を選択できません。
 
 成功指標を選択したら、セレクターが表示されます。 このセレクターを使用して、成功指標の具体的な内容を選択します。
 
-有効にすると、[!UICONTROL Estimated Value of the Conversion] フィールド（[!UICONTROL Page Score]指標では使用できません）は目標の値を提供しますが、他の指標の値は提供しません。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 すべての収益指標（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales]、および[!UICONTROL Orders]）に対して、見積もりは[!UICONTROL Revenue per Visitor]を使用します。 データタイプは通貨です。
+有効にした場合、「[!UICONTROL &#x200B; コンバージョンの見積もり値]」フィールド（[!UICONTROL &#x200B; ページスコア &#x200B;]指標では使用できません）は、目標の値を提供しますが、他の指標の値は提供しません。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 すべての収益指標（[!UICONTROL 訪問者あたりの売上高]、[!UICONTROL 平均注文額]、[!UICONTROL 総売上高]、および[!UICONTROL 注文数]）に対して、見積もりは[!UICONTROL 訪問者あたりの売上高]を使用します。 データタイプは通貨です。
 
 アクティビティの目標に到達した後、訪問者は、その訪問者がより優先度の高いアクティビティに適格でない限り、アクティビティコンテンツを引き続き表示します。 訪問者が再度目標を達成した場合は、追加のコンバージョンとしてカウントされます。 この動作は、[!DNL Target Classic]のデフォルトの動作とは異なり、テストが再度表示された場合に訪問者を新規としてカウントします。
 
@@ -116,7 +116,7 @@ ht-degree: 38%
 
 ### 詳細設定 {#section_E2FE441AFB324E498793ABB025ED9974}
 
-詳細設定は、[!UICONTROL Multivariate Test]目標の指標に対して使用できます。
+詳細設定は、[!UICONTROL 多変量テスト &#x200B;]の目標指標で使用できます。
 
 ![詳細設定メニュー](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
@@ -132,16 +132,16 @@ ht-degree: 38%
 
 別の指標に依存させる前に、両方（または複数）の成功指標を定義します。
 
-[!UICONTROL Add Dependency] オプションを使用すると、別の成功指標に達した場合または達しなかった場合に、成功指標を増分できます。
+「[!UICONTROL 依存関係を追加]」オプションを利用すると、ある成功指標に到達した場合、または到達しなかった場合に別の成功指標を増分するよう設定できます。
 
 依存関係を追加する手順は次のとおりです。
 
-1. 指標を追加したら、**[!UICONTROL Advanced Settings]**&#x200B;をクリックします。
-2. 「**[!UICONTROL Add Dependency]**」オプションをクリックします。
+1. 指標を追加したら、「**[!UICONTROL 詳細設定]**」をクリックします。
+2. 「**[!UICONTROL 依存関係を追加]**」オプションをクリックします。
 
    ![依存関係を追加](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. 左側のペインから目的の指標を右側のペインにドラッグ&amp;ドロップし、**[!UICONTROL Reached]**&#x200B;をクリックして、「到達」と「未到達」の設定を切り替えます。
+3. 左側のペインから目的の指標を右側のペインにドラッグ&amp;ドロップし、**[!UICONTROL 到達]**&#x200B;をクリックして、「到達」と「未到達」の設定を切り替えます。
 
    ![依存関係に達する](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
@@ -151,9 +151,9 @@ ht-degree: 38%
 
 ユーザーが目標指標に到達した後の動作には、3 つのオプションがあります。
 
-* [!UICONTROL Select Increment Count & Keep User in Activity]を使用して、カウントの増分方法を指定します。
-* [!UICONTROL Select Increment Count, Release User & Allow Reentry]は、ユーザーがアクティビティを再入力した場合に表示されるエクスペリエンスを指定します。
-* [!UICONTROL Select Increment Count, Release User & Bar from Reentry]を使用して、アクティビティコンテンツの代わりにユーザーに表示される内容を指定します。
+* [!UICONTROL &#x200B; アクティビティ内の増分カウントとユーザーの保持]を選択して、カウントの増分方法を指定します。
+* [!UICONTROL 増分カウント、リリースユーザー、再入力を許可]を選択して、ユーザーがアクティビティに再入力した場合に表示されるエクスペリエンスを指定します。
+* [!UICONTROL 増分カウント、リエントリからユーザーとバーを解放]を選択して、アクティビティコンテンツの代わりにユーザーに表示される内容を指定します。
 
 詳細設定について詳しくは、「[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」を参照してください。
 
@@ -163,7 +163,7 @@ ht-degree: 38%
 
 ### メモ
 
-自身や他のチームメンバーにとって役立つ、自身のアクティビティに関する情報を入力します。 [!UICONTROL Notes] ペインはサイズ変更可能です。
+自身や他のチームメンバーにとって役立つ、自身のアクティビティに関する情報を入力します。 [!UICONTROL &#x200B; メモ &#x200B;] ペインはサイズ変更可能です。
 
 ## トレーニングビデオ
 

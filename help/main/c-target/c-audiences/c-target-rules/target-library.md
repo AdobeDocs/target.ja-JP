@@ -14,8 +14,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 183
-ht-degree: 32%
+source-wordcount: 206
+ht-degree: 33%
 
 ---
 
@@ -23,24 +23,24 @@ ht-degree: 32%
 
 事前定義済みのターゲティングルールに基づいて、[!DNL Adobe Target]を使用してユーザーをターゲティングします。
 
-[!UICONTROL Target Library] カテゴリの事前定義済みオーディエンスはレガシーオーディエンスであり、他のカテゴリに存在します。 詳細とベストプラクティスについては、[&#x200B; ターゲットとオーディエンスのよくある質問](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D)を参照してください。
+[!UICONTROL &#x200B; ターゲットライブラリ &#x200B;] カテゴリの事前定義済みオーディエンスは、レガシーオーディエンスであり、他のカテゴリに存在します。 詳細とベストプラクティスについては、[&#x200B; ターゲットとオーディエンスのよくある質問](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D)を参照してください。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**」 > 「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付け、オプションの説明を追加します。
 1. **[!UICONTROL Target Library]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
    ![ターゲットライブラリ](assets/target_library.png)
 
-1. 「**[!UICONTROL Select]**」をクリックし、事前定義済みのターゲティングルールを選択します。
+1. **[!UICONTROL 選択]**&#x200B;をクリックして、事前設計されたターゲットルールを選択します。
 
-   事前定義済みのターゲティングルールには、[!UICONTROL Windows Operating System]、[!UICONTROL Tablet Device]、[!UICONTROL Safari Browser]、[!UICONTROL Returning Visitors]、[!UICONTROL Referred from Google]などが含まれます。
+   事前定義済みのターゲティングルールには、[!UICONTROL Windows オペレーティングシステム &#x200B;]、[!UICONTROL &#x200B; タブレットデバイス &#x200B;]、[!UICONTROL Safari Browser]、[!UICONTROL 再訪問者数]、[!UICONTROL Google]から参照したものなどがあります。
 
-   定義済みのオーディエンス「[!UICONTROL Tablet Device]」は、ユーザーエージェントに次のいずれかの文字列（一部はデバイスのモデル番号）が含まれている場合に、既に修飾されます。 このため、ここに挙げたデバイスについてはカスタムターゲットルールを作成する必要はありません。
+   ユーザーエージェントに次の文字列（一部はデバイスのモデル番号）が含まれている場合、定義済みのオーディエンス「[!UICONTROL &#x200B; タブレットデバイス &#x200B;]」は既に修飾されています。 このため、ここに挙げたデバイスについてはカスタムターゲットルールを作成する必要はありません。
 
    Kindle、Silk、iPad、Sony Tablet、TF101、GT-P1000、GT-P1000R、GT-P1000M、SGH-T849、SHW-M180S、GT-I9000T、BNTV250 および Tablet PC。
 
 1. （オプション）オーディエンスの追加ルールを設定します。
-1. **[!UICONTROL Done]** をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 ## トレーニングビデオ: オーディエンスの作成
 

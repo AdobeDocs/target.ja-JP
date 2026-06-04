@@ -65,7 +65,7 @@ ht-degree: 0%
 
 機能グループ設定の「**スケジュール**」オプションを使用して、機能グループを将来の日時にアクティブ化するようにスケジュールできます。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [機能グループを設定し](set-feature-group-gradual-rollout.md)
 * [機能フラグによるA/B テスト](a-b-testing.md)

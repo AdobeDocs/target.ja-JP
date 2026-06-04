@@ -1,6 +1,6 @@
 ---
 keywords: ターゲティング;AP レポート;Automated Personalizationレポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;FAQ;よくある質問;重要な属性
-description: パーソナライゼーションモデルに影響を与えた上位の属性とその相対的な重要度を示す[!UICONTROL Important Attributes] レポートの使用方法について説明します。
+description: パーソナライゼーションモデルに影響を与えた上位の属性とその相対的な重要度を示す[!UICONTROL 重要な属性] レポートの使用方法について説明します。
 title: 重要な属性レポートとは何ですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Reports
@@ -22,59 +22,59 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1835
-ht-degree: 58%
+source-wordcount: 1937
+ht-degree: 63%
 
 ---
 
 # 重要な属性レポート
 
-[!UICONTROL Important Attributes] レポートに関する情報。これは、[!UICONTROL Automated Personalization] （AP）および[!UICONTROL Auto-Target] （AT）アクティビティのユーザーが利用できる2つの専用レポートのうちの1つです。
+[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] （AT）アクティビティのユーザーが利用できる2つの特殊なレポートの1つである、[!UICONTROL 重要な属性] レポートに関する情報。
 
 >[!NOTE]
 >
->[!UICONTROL Personalization Insights]件のレポートを使用する場合は、次の点を考慮してください。
+>[!UICONTROL Personalization インサイト &#x200B;] レポートを使用する場合は、次の点を考慮してください。
 >
 >* AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。 これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
 >
->* [!UICONTROL Personalization Insights]件のレポートは、コンバージョンの最適化目標を使用するAPおよびAT アクティビティでのみ使用できます。 アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
+>* [!UICONTROL Personalization インサイト &#x200B;]のレポートは、コンバージョンの最適化目標を使用するAPおよびAT アクティビティでのみ使用できます。 アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 >
->* [!UICONTROL Personalization Insights] レポートは、[!UICONTROL Report Metric] ドロップダウンリストから[!UICONTROL Primary Goal]が選択されている場合にのみ使用できます。
+>* [!UICONTROL Personalization インサイト &#x200B;] レポートは、[!UICONTROL &#x200B; レポート指標] ドロップダウンリストから[!UICONTROL プライマリ目標]が選択されている場合にのみ使用できます。
 >
->* [!UICONTROL Personalization Insights]件のレポートは、[既定の環境](/help/main/administrating-target/hosts.md)でのみサポートされています。
+>* [!UICONTROL Personalization インサイト &#x200B;] レポートは、[&#x200B; デフォルト環境](/help/main/administrating-target/hosts.md)でのみサポートされています。
 >
->* [!UICONTROL Personalization Insights] レポートは、[!UICONTROL Live] ステータスで、少なくとも15日間アクティブ化され、トラフィックを受信しているアクティビティに対してのみ生成されます。
+>* [!UICONTROL Personalization インサイト &#x200B;] レポートは、[!UICONTROL &#x200B; ライブ &#x200B;]状態で、少なくとも15日間アクティブ化されトラフィックを受信したアクティビティに対してのみ生成されます。
 
 異なるアクティビティでは、モデルによるパーソナライゼーションの決定にとって重要な属性も多かれ少なかれ異なります。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
-## [!UICONTROL Important Attributes] レポートにアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## [!UICONTROL 重要な属性] レポートにアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL Activities]**&#x200B;をクリックし、リストから目的の[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)または[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをクリックします。
+1. **[!UICONTROL アクティビティ]**&#x200B;をクリックし、リストから目的の[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)または[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをクリックします。
 
-   アクティビティが多い場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、および[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択してリストをフィルタリングします。
+   アクティビティが多い場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL 指標タイプ &#x200B;]、[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択して、リストをフィルタリングします。
 
-1. **[!UICONTROL Reports]** をクリックします。
+1. 「**[!UICONTROL レポート]**」をクリックします。
 
-   [Automated Personalizationの概要](/help/main/c-reports/personalization-reports/reports-ap.md)または[自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが表示され、アクティビティのパフォーマンスに関する情報が最初の画面アイコンで表示されます。 追加された2つのアイコンは、2つの[!UICONTROL Personalization Insights] レポートを表します：**[!UICONTROL Automated Segments]** （![自動セグメントレポート &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）と&#x200B;**[!UICONTROL Important Attributes]** （![重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）。
+   [Automated Personalizationの概要](/help/main/c-reports/personalization-reports/reports-ap.md)または[自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが表示され、アクティビティのパフォーマンスに関する情報が最初の画面アイコンで表示されます。 追加の2つのアイコンは、2つの[!UICONTROL Personalization インサイト &#x200B;] レポートを表します。**[!UICONTROL 自動セグメント]** （![自動セグメントレポート &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）と&#x200B;**[!UICONTROL 重要な属性]** （![重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）。
 
 
-   [!UICONTROL Auto-Target]には、[!UICONTROL Summary] レポートのグラフィック表示に追加のグラフアイコンがあります。
+   [!UICONTROL 自動ターゲット &#x200B;]には、[!UICONTROL 概要] レポートのグラフィック表示に追加のグラフアイコンが表示されていることに注意してください。
 
    >[!IMPORTANT]
    >
-   >アクティビティをアクティブ化してから少なくとも15日後まで、[!UICONTROL Important Attributes] レポートは利用できません。 この初期の期間では、このレポートにアクセスしたり、[!UICONTROL Important Attributes] アイコンをクリックしたりすることはできません。 アクティビティに十分なパーソナライズされたトラフィックがあると仮定して、15日が経過すると、[!UICONTROL Important Attributes] レポートが使用可能になります。
+   >[!UICONTROL 重要な属性] レポートは、アクティビティをアクティブ化してから少なくとも15日後まで利用できません。 この初期期間中は、このレポートにアクセスできません。また、[!UICONTROL 重要な属性]アイコンをクリックすることもできません。 アクティビティに十分なパーソナライズされたトラフィックがあると仮定して、15日が経過すると、[!UICONTROL 重要な属性] レポートが使用可能になります。
 
-1. アクティビティをアクティブ化してから15日後に、**[!UICONTROL Important Attributes]** （![重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）アイコンをクリックします。
+1. アクティビティのアクティベーションから15日後、**[!UICONTROL 重要な属性]** （![重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）アイコンをクリックします。
 
 1. 目的の日付範囲を選択します。
 
-   [!UICONTROL Summary] レポート （パフォーマンス レポート）とは異なり、[!UICONTROL Important Attributes]を含む[!UICONTROL Personalization Insights]は、15日、30日、60日の固定日付範囲でのみ使用できます。
+   [!UICONTROL 概要] レポート （パフォーマンスレポート）とは異なり、[!UICONTROL 重要な属性]を含む[!UICONTROL Personalization インサイト &#x200B;]は、15日、30日、60日の固定日付範囲でのみ使用できます。
 
-   これらの固定日付範囲を使用すると、[!UICONTROL Personalization Insights]は十分な範囲のデータを使用して、アクティビティの短期的なパターンからインサイトを導き出す可能性を減らすことができます。 日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。 「開始日」はグレー表示になっています。 開始日は、選択した終了日と期間に基づいて自動的に変わります。
+   これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。 日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。 「開始日」はグレー表示になっています。 開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
-   使用可能な固定日付範囲には、[!UICONTROL Preset Date Range] ドロップダウンリストからアクセスできます。
+   使用可能な固定日付範囲には、[!UICONTROL &#x200B; プリセット日付範囲] ドロップダウンリストからアクセスできます。
 
-1. [!UICONTROL Important Attributes] レポートデータを確認します。
+1. [!UICONTROL 重要な属性]レポートデータを確認します。
 
 1. （オプション）ダウンロード（![&#x200B; ダウンロードアイコン &#x200B;](/help/main/assets/icons/Download.svg)）アイコンをクリックして、[Excelやその他のツールでの分析用にCSV形式](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)でレポートをダウンロードします。
 
@@ -93,15 +93,15 @@ ht-degree: 58%
 
 ## 重要な属性に関する FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
-[!UICONTROL Important Attributes] レポートの使用に関してよく寄せられる質問に対する回答については、次のFAQを参照してください。
+[!UICONTROL 重要属性] レポートの使用に関するよくある質問に対する回答については、次のFAQを参照してください。
 
 ### Personalization インサイトレポートは、まだ自分のアクティビティで使用できません。 なぜでしょうか？
 
-[!UICONTROL Personalization Insights] レポートがまだアクティビティで利用できない理由がいくつかあります。
+[!UICONTROL Personalization インサイト &#x200B;] レポートがまだアクティビティで利用できない理由がいくつかあります。
 
 * アクティビティをアクティブ化してからまだ 15 日経過していません。 アクティビティを開始してから 15 日以上経過するまで、自動セグメントレポートと重要な属性レポートは使用できません。 この初期期間中は、これらのレポートにアクセスできません。また、自動セグメントアイコンと重要な属性アイコンをクリックすることもできません。
 * 指定した期間中、アクティビティに十分なトラフィックがありませんでした。 15 日が経過したら、パーソナライゼーションモデルを構築できるだけの[パーソナライズされた十分なトラフィック](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)がアクティビティにあると仮定して、自動セグメントレポートと重要な属性レポートを使用できるようになります。
-* お客様のアクティビティに売上高最適化目標があります。 現時点では、[!UICONTROL Personalization Insights]はコンバージョン最適化の目標アクティビティでのみ使用できます。 今後のリリースで、売上高最適化目標のアクティビティもサポートする予定です。
+* お客様のアクティビティに売上高最適化目標があります。 現時点では、[!UICONTROL パーソナライゼーションインサイト]は、コンバージョン最適化目標のアクティビティにのみ使用できます。 今後のリリースで、売上高最適化目標のアクティビティもサポートする予定です。
 
 ### 属性とは？
 
@@ -111,25 +111,25 @@ ht-degree: 58%
 
 ### モデルでトレーニングに使用する必要がない属性が 1 つ以上表示されます。 これらの属性をトレーニングモデルから削除できますか？ {#models-api}
 
-[!UICONTROL Models API]は、[!UICONTROL Automated Personalization] （AP）および[!UICONTROL Auto-Target] （AT）アクティビティのマシンラーニングモデルで使用される属性（機能とも呼ばれる）のリストを表示および管理できます。この機能は、ブロックリスト APIとも呼ばれます。 APまたはAT アクティビティのモデルで使用される1つ以上の属性を除外する場合は、Models APIを使用して、これらの属性を「ブロックリスト」に追加できます。
+[!UICONTROL &#x200B; モデル API]は、[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] （AT）アクティビティのマシンラーニングモデルで使用される属性（機能とも呼ばれる）のリストを表示および管理できます。 APまたはAT アクティビティのモデルで使用される1つ以上の属性を除外する場合は、Models APIを使用して、これらの属性を「ブロックリスト」に追加できます。
 
 詳しくは、*Adobe Target開発者ガイド*&#x200B;の[&#x200B; モデル APIの概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank}を参照してください。 APIを使用して属性をブロックするには、[&#x200B; モデル API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ja){target=_blank}を参照してください。
 
-### [!UICONTROL Automated Segments]と[!UICONTROL Important Attributes]の情報は、CSV ダウンロードと同じですか？
+### [!UICONTROL 自動セグメント &#x200B;]および[!UICONTROL 重要属性]の情報は、CSV ダウンロードと同じですか？
 
 いいえ、UI レポートには、限定された情報のみ含まれています。 CSV ダウンロードには、追加の詳細情報が含まれています。 自動セグメントインサイトレポートのダウンロードには、UI に含まれている上位セグメント以外のセグメントのほか、オファーやエクスペリエンスに対するこれらのセグメントのパフォーマンスが含まれています。 重要な属性レポートには、上位 100 個の訪問者属性とそれらの相対的重要度が含まれていますが、UI には上位 10 個の訪問者属性のみ含まれます。
 
 ### カスタム日付範囲のPersonalization インサイトを表示できますか？
 
-Personalization インサイトレポート（[!UICONTROL Automated Segments]および[!UICONTROL Important Attributes]）は、15日、30日、45日、60日、および90日の固定日付範囲でのみ使用できます。 これらの固定日付範囲を使用すると、[!UICONTROL Personalization Insights]は十分な範囲のデータを使用して、アクティビティの短期的なパターンからインサイトを導き出す可能性を減らすことができます。 これらの期間は任意の終了日に対して選択できます（期間を満たすのに十分なデータがアクティビティにある場合）。
+パーソナライゼーションインサイトレポート（[!UICONTROL 自動セグメント]と[!UICONTROL 重要な属性]の両方）は、15 日、30 日、45 日、60 日、90 日の固定日付範囲でのみ使用できます。 これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。 これらの期間は任意の終了日に対して選択できます（期間を満たすのに十分なデータがアクティビティにある場合）。
 
-### [!UICONTROL Personalization Insights]はどのように作成されますか？
+### [!UICONTROL Personalization インサイト &#x200B;]の作成方法
 
-[!UICONTROL Personalization Insights]は、MAGIX （Model Agnostic Globally Interpretable Explanations）と呼ばれるAdobeの特許保留中の手法を使用して作成されます。 MAGIXについて詳しくは、[arXiv.org web サイト &#x200B;](https://arxiv.org/abs/1706.07160)に掲載されているAdobeのリサーチチームが公開した論文をご覧ください。
+[!UICONTROL パーソナライゼーションインサイト]は、MAGIX（Model Agnostic Globally Interpretable Explanations）と呼ばれる、アドビの特許出願中の手法を使用して作成されます。 MAGIXについて詳しくは、[arXiv.org web サイト &#x200B;](https://arxiv.org/abs/1706.07160)に掲載されているAdobeのリサーチチームが公開した論文をご覧ください。
 
-### 収益ベースのモデリング目標/主要目標に[!UICONTROL Personalization Insights]を使用できますか？
+### レベニューベースモデルの目標/主要目標に対して[!UICONTROL Personalization インサイト &#x200B;]を使用できますか？
 
-現時点では、[!UICONTROL Personalization Insights]はコンバージョン最適化の目標アクティビティでのみ使用できます。 今後のリリースで、売上高最適化目標のアクティビティもサポートする予定です。
+現時点では、[!UICONTROL パーソナライゼーションインサイト]は、コンバージョン最適化目標のアクティビティにのみ使用できます。 今後のリリースで、売上高最適化目標のアクティビティもサポートする予定です。
 
 ### 「重要属性」レポートの属性重要性スコアは何ですか。
 
@@ -161,4 +161,4 @@ Personalization インサイトレポート（[!UICONTROL Automated Segments]お
 
 次の問題は現在、[!DNL Target] エンジニアリングチームによって調査中です。
 
-* [!UICONTROL Automated Personalization] （AP）および[!UICONTROL Auto-Target] （AT）アクティビティの[!UICONTROL Important Attributes] レポートに[!DNL Adobe Experience Platform]個のセグメント名が表示されません。 （上位 3813 項目）
+* [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] （AT）アクティビティの[!UICONTROL 重要な属性] レポートに[!DNL Adobe Experience Platform] セグメント名が表示されません。 （上位 3813 項目）

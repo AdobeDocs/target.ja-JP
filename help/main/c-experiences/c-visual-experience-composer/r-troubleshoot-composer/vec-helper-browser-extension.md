@@ -1,6 +1,6 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extension;browser
-description: '[!UICONTROL Visual Experience Composer]（VEC）で一部の web サイトを確実に開くことができない理由を明らかにします。 VEC Helper ブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込むことができます。'
+description: 一部のweb サイトが[!UICONTROL Visual Experience Composer] （VEC）で確実に開かない理由を確認します。 VEC Helper ブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込むことができます。
 title: '[!UICONTROL Visual Experience Composer] （VEC） ヘルパー拡張機能の使用方法を教えてください。'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
@@ -20,14 +20,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 55%
+source-wordcount: 1111
+ht-degree: 51%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] ヘルパー拡張機能
 
-[!DNL Google Chrome]の[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC） ヘルパーブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込んで、Web エクスペリエンスを迅速にオーサリングおよびQAできます。
+[!DNL Google Chrome]の[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC） ヘルパーブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込んで、Web エクスペリエンスを迅速に作成およびQAできます。
 
 VEC ヘルパーブラウザーは[!DNL Chrome]拡張機能です。 [!DNL Mozilla Firefox]を使用する場合、この拡張機能は必要ありません。
 
@@ -64,19 +64,19 @@ Chrome用VEC Helper ブラウザー拡張機能は、お客様が[!DNL Target] [
 
   Enhanced Experience Composer （EEC）を使用すると、拡張機能はat.jsを挿入しませんが、SameSite Cookie機能は引き続き存在します。 Web ページに at.js を挿入するには、EEC をオフにします。
 
-* [モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL Enhanced Experience Composer]（EEC）がなくてもサポートされます。
+* [&#x200B; モバイルビューポート &#x200B;](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL Enhanced Experience Composer] （EEC）がなくてもサポートされます。
 * [!DNL Target]が初めてのお客様は、自社の IT 開発者がまだ Web サイトに[!DNL Target]を実装していない場合でも、拡張機能を使用して[!DNL Target]を試すことができます。
 * 複数のお客様の Web サイトおよび[!DNL Target]アカウントにサービスを提供するパートナーは、サードパーティツールで複数のルールを管理するのではなく、VEC 読み込みをサポートする 1 つのシンプルなメカニズムを利用できるようになりました。
 
 ## VEC ヘルパーブラウザー拡張の取得とインストール
 
 1. Chrome Web ストア [&#128279;](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)のAdobe Target VEC Helper ブラウザー拡張機能に移動します。
-1. **[!UICONTROL Add to Chrome > Add Extension]** をクリックします。
+1. **[!UICONTROL Chromeに追加/拡張機能を追加]**&#x200B;をクリックします。
 1. [!DNL Target] で VEC を開きます。
 1. 拡張機能を使用するには、VEC または [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で、Chrome ブラウザーのツールバーにある「VEC ヘルパーブラウザー拡張」アイコン（ ![「VEC ヘルパー」アイコン](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ）をクリックします。
-1. （条件付き） web ページに[!DNL Target] at.js JavaScript ライブラリがまだ含まれていない場合は、**[!UICONTROL Inject Target Libraries]** トグルを「オン」の位置にスライドさせます。
+1. （条件付き） web ページに[!DNL Target] at.js JavaScript ライブラリがまだ含まれていない場合は、**[!UICONTROL ターゲットライブラリを挿入]** トグルを「オン」の位置にスライドさせます。
 
-   次の図は、[!UICONTROL Inject Target Libraries]設定が有効になっているVEC ヘルパーを示しています。
+   次の図は、[!UICONTROL &#x200B; ターゲットライブラリの挿入]設定が有効になっているVEC ヘルパーを示しています。
 
    ![VEC ヘルパー 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -84,7 +84,7 @@ Chrome用VEC Helper ブラウザー拡張機能は、お客様が[!DNL Target] [
 
    ![VEC ヘルパー 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. （条件付き） **[!UICONTROL Cookies]** トグルを「オン」位置にスライドさせ、`SameSite=None`属性ブラウザーの修正を自動的に追加します。
+1. （条件付き） **[!UICONTROL Cookie]** トグルを「オン」位置にスライドさせ、`SameSite=None`属性ブラウザーの修正を自動的に追加します。
 
    VEC ヘルパー拡張機能の![Cookie トグル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -92,11 +92,11 @@ Chrome用VEC Helper ブラウザー拡張機能は、お客様が[!DNL Target] [
 
 ## メモ
 
-* 拡張機能の[!UICONTROL Inject Target libraries] フラグは、デフォルトでオフになっています。 [!DNL Target]向けにまだ実装されていないサイトで VEC を使用する場合は、このフラグを有効にすることができます。
+* 拡張機能の[!UICONTROL &#x200B; ターゲットライブラリの挿入] フラグは、デフォルトでオフになっています。 [!DNL Target]向けにまだ実装されていないサイトで VEC を使用する場合は、このフラグを有効にすることができます。
 
   このフラグはグローバル設定です。 このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。 例えば、このフラグを「on」に設定し、at.jsで既に実装されているweb サイトを開くと、at.jsが既に読み込まれていることを知らせるメッセージが表示されます。 Adobeでは、多くのお客様が既にat.jsをページに実装しており、デフォルト設定の「off」を使用していることを想定しています。
 
-* 拡張機能は、[!UICONTROL Administration > Implementation]の[!DNL Target UI]から利用可能な最新バージョンのat.jsを読み込みます。
+* 拡張機能は、最新バージョンのat.jsを読み込みます。このバージョンは、[!DNL Target UI]から[!UICONTROL 管理/実装]で利用できます。
 * 拡張機能を使用して [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で at.js を挿入する場合は、別の Chrome タブを開く必要があります。 この Chrome タブは、アクティビティを作成したのと同じ[!DNL Adobe Experience Cloud]組織に対して認証される必要があります。
 * 次のメッセージにより、さらに情報が提供されます。
 

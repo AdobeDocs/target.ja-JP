@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 272
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## at.js 1.*x* アクティビティ QA ブックマークレット
 
-[QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)はスティッキーなので、QA モードで web サイトを閲覧した後は、[!DNL Target] セッションの有効期限が切れるか、[!DNL Target] で QA モードを終了することで、通常の訪問者のようにサイトを表示できるようになります。QA [!DNL Target] ブックマークレットを使用すると、QA モードから強制的に離脱できます。
+[QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)はスティッキーなので、QA モードで web サイトを閲覧した後は、[!DNL Target] セッションの有効期限が切れるか、[!DNL Target] で QA モードを終了することで、通常の訪問者のようにサイトを表示できるようになります。 QA [!DNL Target] ブックマークレットを使用すると、QA モードから強制的に離脱できます。
 
 [!DNL Target] QA ブックマークレットを使用するには、次の JavaScript コードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
 
@@ -55,7 +55,7 @@ javascript:(
 
 ## at.js 2.*x* アクティビティ QA ブックマークレット
 
-at.js 1.*x* とは異なり、at.js 2.*x* はサードパーティ cookie をサポートしておらず、QA モードはファーストパーティドメインの場合のみスティッキーです（at.js によって設定されたファーストパーティ cookie を使用）。そのため、at.js 2.*x* では、QA モードセッションはクライアントサイドでのみ管理され、QA モード Cookie は Target に送信されません。
+at.js 1.*x* とは異なり、at.js 2.*x* はサードパーティ cookie をサポートしておらず、QA モードはファーストパーティドメインの場合のみスティッキーです（at.js によって設定されたファーストパーティ cookie を使用）。 そのため、at.js 2.*x* では、QA モードセッションはクライアントサイドでのみ管理され、QA モード Cookie は Target に送信されません。
 
 [!DNL Target] QA ブックマークレットを使用するには、次の JavaScript コードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
 

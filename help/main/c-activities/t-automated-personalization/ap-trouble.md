@@ -15,20 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 742
-ht-degree: 37%
+source-wordcount: 764
+ht-degree: 36%
 
 ---
 
 # [!UICONTROL Automated Personalization]のトラブルシューティング
 
-アクティビティで不測の問題が生じることもあります。 [!UICONTROL Automated Personalization] （AP）の使用中に直面する可能性のある潜在的な課題と、推奨される解決策をいくつか紹介します。
+アクティビティで不測の問題が生じることもあります。 [!UICONTROL Automated Personalization] （AP）の使用中に直面する可能性のある課題と、推奨される解決策をいくつか紹介します。
 
 ## [!UICONTROL Automated Personalization] アクティビティでモデルの構築に時間がかかりすぎています。 {#section_20028B204DBB4D77A324BA193434AEE2}
 
 +++詳細を見る
 
-モデルを構築する予想時間を短縮する可能性のあるアクティビティ設定の変更がいくつかあり、[!UICONTROL Automated Personalization] アクティビティのエクスペリエンス数、サイトへのトラフィック、選択した成功指標などが含まれます。
+モデルの構築に予想時間を短縮する可能性のあるアクティビティ設定の変更がいくつかあり、[!UICONTROL Automated Personalization] アクティビティのエクスペリエンス数、サイトへのトラフィック、選択した成功指標などが含まれます。
 
 **解決策：** アクティビティの設定を確認し、モデルの構築スピードを向上させるために、必要な変更を行うかどうかを確認します。
 
@@ -54,7 +54,7 @@ ht-degree: 37%
 
 +++
 
-## [!UICONTROL Automated Personalization] アクティビティのURLに、間違ったページにオファーコンテンツが表示されています。 {#section_82A224406DBF4107B05204BEFBBE458C}
+## [!UICONTROL Automated Personalization]のアクティビティ URLに、間違ったページにオファーコンテンツが表示されています。 {#section_82A224406DBF4107B05204BEFBBE458C}
 
 +++詳細を見る
 

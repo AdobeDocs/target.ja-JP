@@ -16,13 +16,13 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 59
-ht-degree: 66%
+source-wordcount: 63
+ht-degree: 61%
 
 ---
 
 # [!DNL Target] と [!DNL Adobe Experience Manager]（AEM）の統合
 
-[!DNL Adobe Target]/[!DNL Adobe Experience Manager] （AEM）統合では、現在、[!DNL Target]件のアクティビティで[!UICONTROL Experience Fragments] （XF）と[!UICONTROL Content Fragments] （CF）をAEMで作成し、最適化とパーソナライゼーションに役立てることができます。
+[!DNL Adobe Target]/[!DNL Adobe Experience Manager] （AEM）統合では、現在、[!DNL Target]のアクティビティで[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;] （XF）と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;] （CF）をAEMで作成し、最適化とパーソナライゼーションに役立てることができます。
 
 詳しくは、[AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)を参照してください。

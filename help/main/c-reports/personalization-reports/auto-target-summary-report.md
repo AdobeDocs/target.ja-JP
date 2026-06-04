@@ -15,35 +15,35 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 628
-ht-degree: 39%
+source-wordcount: 666
+ht-degree: 38%
 
 ---
 
-# [!UICONTROL Auto-Target Summary report]
+# [!UICONTROL 自動ターゲット概要レポート]
 
-[!DNL Adobe Target]での[!UICONTROL Auto-Target Summary] レポートの解釈方法に関する情報。
+[!DNL Adobe Target]の[!UICONTROL 自動ターゲットサマリー] レポートの解釈方法に関する情報。
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target]は[!DNL Target Premium] ソリューションの一部として利用できます。 [Target Premium ライセンス &#x200B;](/help/main/c-intro/intro.md#premium)を持たない[!DNL Target Standard]には含まれていません。
+>[!UICONTROL 自動ターゲット &#x200B;]は、[!DNL Target Premium] ソリューションの一部として利用できます。 [Target Premium ライセンス &#x200B;](/help/main/c-intro/intro.md#premium)を持たない[!DNL Target Standard]には含まれていません。
 
-[!UICONTROL Auto-Target Summary] レポートを表示するには：
+[!UICONTROL 自動ターゲットサマリー] レポートを表示するには：
 
-1. [!UICONTROL Activities] ページで、目的の[!UICONTROL Auto-Target] アクティビティをクリックします。
+1. [!UICONTROL &#x200B; アクティビティ &#x200B;] ページで、目的の[!UICONTROL 自動ターゲット &#x200B;] アクティビティをクリックします。
 
-   アクティビティが多い場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、および[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択してリストをフィルタリングします。
+   アクティビティが多い場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL 指標タイプ &#x200B;]、[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択して、リストをフィルタリングします。
 
-1. 「**[!UICONTROL Reports]**」タブをクリックし、目的のアイコンをクリックします。
+1. 「**[!UICONTROL レポート]**」タブをクリックし、目的のアイコンをクリックします。
 
-   * **[!UICONTROL Table View]** （![&#x200B; テーブル表示アイコン &#x200B;](/help/main/assets/icons/Table.svg)）
-   * **[!UICONTROL Graph View]** （![&#x200B; グラフ表示アイコン &#x200B;](/help/main/assets/icons/GraphTrend.svg)）
-   * **[!UICONTROL Automated Segments]** （![自動セグメントレポート &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）
-   * [!UICONTROL Important Attributes]** （![重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）
+   * **[!UICONTROL テーブルビュー]** （![&#x200B; テーブルビューアイコン &#x200B;](/help/main/assets/icons/Table.svg)）
+   * **[!UICONTROL グラフ表示]** （![&#x200B; グラフ表示アイコン &#x200B;](/help/main/assets/icons/GraphTrend.svg)）
+   * **[!UICONTROL セグメントの自動化]** （![&#x200B; セグメントの自動化レポート &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)）
+   * [!UICONTROL 重要な属性]** （![重要な属性アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）
 
 ## テーブル表示
 
-[!UICONTROL Auto-Target] レポートを解釈する際のヒントと考慮事項：
+[!UICONTROL 自動ターゲット &#x200B;] レポートを解釈する際のヒントと考慮事項：
 
 * テーブルの様々な行は、アクティビティのパフォーマンスを把握するのに役立ちます。
 
@@ -56,7 +56,7 @@ ht-degree: 39%
    * このケースでは、アクティビティのすべてのエクスペリエンスのモデル構築を高速化するために、まだモデルが構築されていないエクスペリエンスに追加トラフィックを送るようになっています。
    * パーソナライゼーションを開始するには、構築されたモデル（緑のチェックマーク）で少なくとも2つのエクスペリエンスが必要です。
 
-* エクスペリエンス Aとエクスペリエンス Bのコンバージョン率を比較することは、[!UICONTROL Auto-Target]では正しい比較ではありません。 この機能の要点は、エクスペリエンス A がインテリジェントな方法で提供された場合に、ランダムで提供された場合よりもパフォーマンスが高まるのかどうかということです。 マーケティング担当者は、個々のエクスペリエンスの上昇率を見るときに注意する必要があります。パーソナライゼーションアルゴリズムでは、個々のエクスペリエンス単位ではなく、アクティビティ全体での成功指標を重視して最適化をおこなうためです。
+* エクスペリエンス Aとエクスペリエンス Bのコンバージョン率を比較することは、[!UICONTROL 自動ターゲット &#x200B;]では正しい比較ではありません。 この機能の要点は、エクスペリエンス A がインテリジェントな方法で提供された場合に、ランダムで提供された場合よりもパフォーマンスが高まるのかどうかということです。 マーケティング担当者は、個々のエクスペリエンスの上昇率を見るときに注意する必要があります。パーソナライゼーションアルゴリズムでは、個々のエクスペリエンス単位ではなく、アクティビティ全体での成功指標を重視して最適化をおこなうためです。
 * 最も高い上昇率を示すエクスペリエンスは、母集団内で最も高い差別化要因を持つと考えることができます。 つまり、アルゴリズムにより、その特定の体験を最も気に入るセグメントが見つかりました。
 * 表の様々な列には、訪問数、コンバージョン率、平均上昇率と信頼性レベル、および信頼性が表示されます。 詳しくは、[A/B テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)を参照してください。
 

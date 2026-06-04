@@ -16,8 +16,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 71%
+source-wordcount: 1742
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ A/B テストのセットアップワークフローの 2 番目の手順で「[
 
 テストから統計的に有意な結論を導くには、テスト母集団に特定の数の訪問者を含む必要があります。 テストの参加者が 2 人だけであった場合、テスト結果を信頼できるでしょうか。
 
-[!DNL Target] は、統計的な原則に基づいて、テストの結果が統計的に有効であることを判断します。 [!DNL Adobe Target] [&#x200B; サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)は、結果に必要な信頼性に基づいて、テストを実行する時間の長さを決定するのに役立ちます。 このボックス内の[!UICONTROL Learn More] リンクをクリックして、電卓を開いて使用します。
+[!DNL Target] は、統計的な原則に基づいて、テストの結果が統計的に有効であることを判断します。 [!DNL Adobe Target] [&#x200B; サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)は、結果に必要な信頼性に基づいて、テストを実行する時間の長さを決定するのに役立ちます。 このボックスの[!UICONTROL 詳細] リンクをクリックして、電卓を開いて使用します。
 
 ### このアクティビティはどのくらい重要か。
 
@@ -117,4 +117,4 @@ A/B テストのセットアップワークフローの 2 番目の手順で「[
 
 ## [!DNL Target] の起動とアクティビティの作成および開始
 
-アクティビティプランナーに入力しました。 ここでソリューションに入り、アクティビティを構築します。 [!DNL Target]を使用すると、[!UICONTROL Visual Experience Composer]でweb ページを簡単に変更できます。
+アクティビティプランナーに入力しました。 ここでソリューションに入り、アクティビティを構築します。 [!DNL Target]を使用すると、[!UICONTROL Visual Experience Composer]でweb ページを非常に簡単に変更できます。

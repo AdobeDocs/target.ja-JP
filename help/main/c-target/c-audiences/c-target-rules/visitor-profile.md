@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 221
-ht-degree: 35%
+source-wordcount: 250
+ht-degree: 36%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 35%
 
 特定のプロファイルパラメーターを満たす訪問者をターゲットに、[!DNL Adobe Target]でオーディエンスを作成します。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**」 > 「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付け、オプションの説明を追加します。
-1. **[!UICONTROL Visitor Profile]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
+1. **[!UICONTROL 訪問者プロファイル]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 
-1. 「**[!UICONTROL Select]**」をクリックし、次のいずれかのオプションを選択します。
+1. 「**[!UICONTROL 選択]**」をクリックして、次のいずれかのオプションを選択します。
 
    ![target_visitor_profile image](assets/target_visitor_profile.png)
 
    訪問者プロファイルのパラメーターは mbox（プロファイル）を介して渡されます。 新しい訪問者と再訪問者のいずれもターゲットに設定することができます。さらに、すべてのユーザーを含めることも可能です。
 
-   * [!UICONTROL New Visitor]
-   * [!UICONTROL Returning Visitor]
-   * [!UICONTROL In Other Tests]
-   * [!UICONTROL Not In Other Tests]
-   * [!UICONTROL First Page of Session]
-   * [!UICONTROL Not First Page of Session]
-   * [!UICONTROL Category Affinity]
+   * [!UICONTROL 新しい訪問者]
+   * [!UICONTROL 再訪問者]
+   * [!UICONTROL その他のテスト中]
+   * [!UICONTROL 他のテストにはありません]
+   * [!UICONTROL &#x200B; セッションの最初のページ &#x200B;]
+   * [!UICONTROL &#x200B; セッションの最初のページではありません]
+   * [!UICONTROL &#x200B; カテゴリーの親和性]
 
    訪問者プロファイルは、新しい `mboxPC` によって mbox 呼び出しごとにローカルエッジのメモリ内に作成されます。 非アクティブ状態が30分間続くと、プロファイルは[!DNL Target] データベースに保存され、他のエッジからアクセスできるようになります。
 
@@ -47,7 +47,7 @@ ht-degree: 35%
    カスタムプロファイルパラメーターと `user.` パラメーターをターゲット設定できます。 アクティビティのターゲット設定で使用するパラメーターを選択します。 目的のパラメーターが表示されない場合、パラメーターはmboxによって起動されていません。
 
 1. （オプション）オーディエンスの追加ルールを設定します。
-1. **[!UICONTROL Done]** をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 ## トレーニングビデオ：オーディエンスの作成![概要バッジ &#x200B;](/help/main/assets/overview.png)
 

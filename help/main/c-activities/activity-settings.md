@@ -16,27 +16,27 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 71%
+source-wordcount: 432
+ht-degree: 77%
 
 ---
 
 # アクティビティの設定
 
-[!DNL Adobe Target]の[!UICONTROL Activity Settings]を使用して、アクティビティの目的、優先度、期間を管理します。
+[!DNL Adobe Target]の[!UICONTROL &#x200B; アクティビティ設定]を使用して、アクティビティの目的、優先度、期間を管理します。
 
 1. アクティビティの目標に関するメモを入力します。
 
-   アクティビティに関して、自分自身または他のチームメンバーにとって手元にあると便利な情報を入力します。 ドラッグして、[!UICONTROL Objective] フィールドのサイズを変更します。
+   アクティビティに関して、自分自身または他のチームメンバーにとって手元にあると便利な情報を入力します。 [!UICONTROL 目標]フィールドをドラッグして、サイズを変更します。
 1. アクティビティの優先度を設定します。
 
-   設定に応じて、[!UICONTROL Priority]のUIとオプションは異なります。 従来の「低」、「中」、「高」の各設定も使用できますが、0 から 999 の値を入力して詳細な優先度を設定することもできます。
+   [!UICONTROL 優先度]の UI とオプションは、設定によって変わります。 従来の「低」、「中」、「高」の各設定も使用できますが、0 から 999 の値を入力して詳細な優先度を設定することもできます。
 
    優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。 ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
-   このオプションが[!UICONTROL Administration] > [!UICONTROL Reporting] （デフォルト）で有効になっていない場合は、優先度を「低」、「Medium」、「高」に指定します。
+   このオプションが[!UICONTROL Administration] > [!UICONTROL Reporting] （デフォルト）で有効になっていない場合は、優先度をLow、Medium、Highに指定します。
 
-   きめ細かい優先度を有効にするには、[!UICONTROL Administration] > [!UICONTROL Reporting]をクリックし、[!UICONTROL Enable Fine-Grained Priorities] オプションを「オン」の位置に切り替えます。
+   きめ細かい優先度を有効にするには、[!UICONTROL 管理] > [!UICONTROL &#x200B; レポート &#x200B;]をクリックし、[!UICONTROL きめ細かい優先度を有効にする] オプションを「オン」の位置に切り替えます。
 
    このオプションを有効にした場合は、0～999 の値を指定します。
 
@@ -57,7 +57,7 @@ ht-degree: 71%
    >
    >アクティビティのスケジュールはアクティビティの配信期間を制御します。ただし、アクティビティは、特定のスケジュールに従って配信される前に、明示的にアクティブ化されている必要があります。
 
-[!UICONTROL Goal & Settings] ページには、作成するアクティビティのタイプに応じて異なる追加設定が含まれています。 これらの設定について詳しくは、アクティビティのタイプを参照してください。
+[!UICONTROL 目標と設定]ページには、作成するアクティビティのタイプに基づいて異なる追加の設定が含まれています。 これらの設定について詳しくは、アクティビティのタイプを参照してください。
 
 * [A/B テスト](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)

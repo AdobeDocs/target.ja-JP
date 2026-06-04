@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 17%
+source-wordcount: 642
+ht-degree: 21%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 17%
 
 A4T レポートを使用している別々の[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)の2つのアクティビティに対して、同じアクティビティ名を使用しないでください。
 
-これは[!DNL Target]をレポートソースとして使用する場合はサポートされますが、[!UICONTROL Analytics for Target]をレポートソースとして使用する場合は、2つのアクティビティに同じアクティビティ名を使用することはサポートされません。
+これは[!DNL Target]をレポートソースとして使用する場合はサポートされますが、2つのアクティビティに同じアクティビティ名を使用することは、レポートソースとして[!UICONTROL Analytics for Target]を使用する場合はサポートされません。
 
 +++
 
 ## 目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？
 
 +++回答
-レポートソース （A4T）として[!DNL Analytics]を使用するアクティビティの場合、目標指標は「[!UICONTROL Increment Count & Keep User in Activity]」と「[!UICONTROL On Every Impression]」の設定を使用します。 これらの設定は、*変更できません*。
+レポートソース（A4T）として[!DNL Analytics]を使用するアクティビティの場合、目標指標は「[!UICONTROL &#x200B; アクティビティの増分数とユーザーをアクティビティ &#x200B;]」と「[!UICONTROL すべてのインプレッション &#x200B;]」の設定を使用します。 これらの設定は、*変更できません*。
 
 詳しくは、「目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？」 （[指標の定義 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)）を参照してください。
 
@@ -59,16 +59,16 @@ A4T レポートを使用している別々の[&#x200B; ワークスペース &#
 ## アクティビティの作成時に、Analyticsをレポートソースとして選択できないのはなぜですか？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++回答
-[!UICONTROL Reporting Settings]のオプションは[!UICONTROL Administration]で変更できます。
+[!UICONTROL &#x200B; レポート設定]のオプションは、[!UICONTROL 管理]で変更できます。
 
-1. [!DNL Target]で、**[!UICONTROL Administration]**&#x200B;をクリックします。
-1. **[!UICONTROL Experience Cloud solution used for reporting]** ドロップダウンリストで、**[!UICONTROL Select per Activity]**&#x200B;をクリックします。
+1. [!DNL Target]で、**[!UICONTROL 管理]**&#x200B;をクリックします。
+1. **[!UICONTROL レポートに使用する Experience Cloud ソリューション]**&#x200B;ドロップダウンリストで、「**[!UICONTROL アクティビティごとに選択]**」を選択します。
 
 ![&#x200B; アクティビティごとの選択画像](assets/select-per-activity.png)
 
-**[!UICONTROL Reporting Source]** ドロップダウンリストは、**[!UICONTROL Goal & Settings]**&#x200B;画面でアクティビティを作成および編集するために有効になっています。
+アクティビティを作成および編集する&#x200B;**[!UICONTROL 目標と設定]**&#x200B;画面で、**[!UICONTROL レポートソース]**&#x200B;ドロップダウンリストが有効になります。
 
-常に[!DNL Analytics]をレポートソースとして使用するには、[!UICONTROL Administration]のドロップダウンリストから&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;を選択します。
+常に[!DNL Analytics]をレポートソースとして使用するには、[!UICONTROL 管理]のドロップダウンリストから&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;を選択します。
 
 +++
 
@@ -86,9 +86,9 @@ A4T レポートを使用している別々の[&#x200B; ワークスペース &#
 
 +++
 
-## [!UICONTROL Auto-Allocate] アクティビティで、セグメントを最適化目標として適用した二項式[!DNL Analytics]指標を使用できますか？ {#binomial}
+## [!UICONTROL 自動配分] アクティビティで、セグメントが最適化目標として適用された二項式[!DNL Analytics]指標を使用できますか？ {#binomial}
 
 +++回答
-セグメントが適用された[!DNL Analytics]指標を[!UICONTROL Auto-Allocate] アクティビティの最適化目標として使用することはできません。 回避策として、同じ目的を達成するカスタムイベントを定義し、それを最適化目標指標として使用できます。
+[!UICONTROL 自動配分] アクティビティで、セグメントが最適化目標として適用された[!DNL Analytics]指標を使用することはできません。 回避策として、同じ目的を達成するカスタムイベントを定義し、それを最適化目標指標として使用できます。
 
 +++

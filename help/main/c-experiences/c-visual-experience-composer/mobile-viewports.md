@@ -12,8 +12,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 95%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +103,14 @@ ht-degree: 95%
 
 エクスペリエンスの作成時に使用可能にするモバイルビューポートを設定します。
 
-1. **[!UICONTROL Administration]**／**[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
-1. **[!UICONTROL Mobile viewports configuration]** セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
+1. **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
+1. **[!UICONTROL モバイルビューポート設定]** セクションで、**[!UICONTROL 追加]**&#x200B;をクリックします。
 
    ![ビューポートの追加](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    または
 
-   既存のモバイルビューポートの設定を変更するには、そのビューポートを選択し、[!UICONTROL Edit] （鉛筆）アイコンをクリックします。
+   既存のモバイルビューポートの設定を変更するには、そのビューポートを選択し、[!UICONTROL 編集] （鉛筆）アイコンをクリックします。
 
 1. モバイルビューポートの名前を入力します。
 
@@ -132,7 +132,7 @@ ht-degree: 95%
 
    [拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を使用してオペレーティングシステムを選択する場合、[!DNL Target] は、ページを表示する際にデバイスをエミュレートします。 例えば、レスポンシブサイトで Android のルックアンドフィールが iOS と異なる場合、[!DNL Target] はその動作を模倣します。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >
@@ -143,11 +143,11 @@ ht-degree: 95%
 [!DNL Target] アクティビティにモバイルビューポートを追加して、モバイル画面用のレスポンシブエクスペリエンスを作成します。
 
 1. [目的のアクティビティ](/help/main/c-activities/activities.md)を作成します。
-1. [!UICONTROL Visual Experience Composer] （VEC）で、**[!UICONTROL Settings]** ギアアイコンをクリックし、**[!UICONTROL Add Mobile Viewports]**&#x200B;を選択します。
+1. [!UICONTROL Visual Experience Composer] （VEC）で、**[!UICONTROL 設定]**&#x200B;歯車アイコンをクリックし、**[!UICONTROL モバイルビューポートの追加]**&#x200B;を選択します。
 
    ![「モバイルビューポートを追加」オプション](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. **[!UICONTROL Devices]** アイコンをクリックし、モバイルビューポートを持つ必要がある各デバイスを有効にします。
+1. **[!UICONTROL デバイス]** アイコンをクリックし、モバイルビューポートを持つ必要がある各デバイスを有効にします。
 
    ![モバイルビューポートを有効にする](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 

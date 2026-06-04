@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1168
+source-wordcount: 1194
 ht-degree: 18%
 
 ---
@@ -50,9 +50,9 @@ A4Tを実装する前に、[!DNL Analytics]と[!DNL Target]に対してプロビ
 
 ### 手順5:A4Tを使用するためのオプションを有効にする
 
-[!DNL Target] UIで、**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、**[!UICONTROL Select per activity]**&#x200B;または&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;のいずれかを選択します。
+[!DNL Target] UIで、**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、**[!UICONTROL アクティビティごとに選択]**&#x200B;または&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;のいずれかを選択します。
 
-* **[!UICONTROL Select per activity]**&#x200B;では、各アクティビティの作成時に[!DNL Target]と[!DNL Analytics]のいずれかを選択できます。
+* **[!UICONTROL アクティビティごとに選択]**&#x200B;すると、各アクティビティの作成時に[!DNL Target]から[!DNL Analytics]を選択できます。
 * **[!UICONTROL Adobe Analytics]**&#x200B;は、作成するすべてのアクティビティのレポートソースとして[!DNL Analytics]を設定します。
 
 ## ![at.js バッジ &#x200B;](/help/main/assets/atjs.png) at.js実装の実装手順{#section_73961BAD5BB4430A95E073DE5C026277}
@@ -69,9 +69,9 @@ A4Tを実装する前に、[!DNL Analytics]と[!DNL Target]に対してプロビ
 
 ### 手順 3： Experience Cloud 訪問者 ID サービスを導入します。
 
-訪問者ID サービスを使用すると、[!DNL Adobe Experience Cloud]個のソリューションでユーザーを識別できます。 必要なバージョンのExperience Cloud訪問者IDを実装するか、移行します。 詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
+訪問者ID サービスを使用すると、[!DNL Adobe Experience Cloud]個のソリューションでユーザーを識別できます。 Experience Cloud訪問者IDの必要なバージョンを実装または移行します。 詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-*Experience Cloud訪問者ID サービス*&#x200B;のドキュメントの「[Experience Cloud ID サービスをTarget](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=ja)に実装する」を参照してください。
+*Experience Cloud Visitor ID Service* ドキュメントの「[Target用Experience Cloud ID サービスの実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=ja)」を参照してください。
 
 ### 手順 4： AppMeasurement for JavaScript または s_code を更新します。
 
@@ -205,9 +205,9 @@ Adobeでは、導入を簡素化し、システム間の不一致を整理する
 
 ### 手順 10： Analytics を Target のレポートソースとして使用するためのオプションを有効にします。
 
-[!DNL Target]で、**[!UICONTROL Administration > Reporting]**&#x200B;をクリックし、**[!UICONTROL Select per activity]**&#x200B;または&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;のいずれかを選択してオプションを有効にします。
+[!DNL Target]で、**[!UICONTROL 管理/ レポート]**&#x200B;をクリックし、**[!UICONTROL アクティビティごとに選択]**&#x200B;または&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;のいずれかを選択して、オプションを有効にします。
 
-* **[!UICONTROL Select per activity]**&#x200B;では、各アクティビティの作成時に[!DNL Target]と[!DNL Analytics]のいずれかを選択できます。
+* **[!UICONTROL アクティビティごとに選択]**&#x200B;すると、各アクティビティの作成時に[!DNL Target]から[!DNL Analytics]を選択できます。
 * **[!UICONTROL Adobe Analytics]**&#x200B;は、作成するすべてのアクティビティのレポートソースとして[!DNL Analytics]を設定します。
 
 

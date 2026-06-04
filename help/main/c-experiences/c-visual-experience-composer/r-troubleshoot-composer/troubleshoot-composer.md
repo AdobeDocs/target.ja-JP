@@ -15,14 +15,14 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 67%
+source-wordcount: 250
+ht-degree: 66%
 
 ---
 
 # Visual Experience Composer と拡張 Experience Composer のトラブルシューティング
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL Enhanced Experience Composer] （EEC）で、特定の条件で表示の問題が発生することがあります。
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL Enhanced Experience Composer] （EEC）で、特定の条件で表示の問題が発生することがあります。
 
 VEC は [!DNL Adobe Target] の主要機能の 1 つです。 マーケティング担当者やデザイナーが視覚的なインターフェイスを使用して、コンテンツを作成および変更できるエディターです。 コードを直接編集することなく、多くのデザインの選択肢を作成できます。 コンポーザーで利用可能な編集オプションを使用すれば、HTML および JavaScript の編集も可能です。
 

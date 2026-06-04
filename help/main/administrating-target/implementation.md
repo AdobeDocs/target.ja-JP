@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 181
-ht-degree: 41%
+source-wordcount: 184
+ht-degree: 40%
 
 ---
 
@@ -35,6 +35,6 @@ ht-degree: 41%
 >
 >[!DNL Adobe Experience Platform]のタグは、[!DNL Target]を実装する際に推奨される方法です。 [!DNL Adobe Experience Platform] のタグは、[!DNL Adobe] の次世代タグ管理機能です。 タグは、適切な顧客体験の実現に必要な分析、マーケティングおよび広告タグをデプロイおよび管理するためのシンプルな手段を提供します。 詳しくは、[実装 [!DNL Target] using [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ja){target=_blank}を参照してください。
 
-1. [!UICONTROL Implementation] ページにアクセスするには、**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;をクリックします。
+1. [!UICONTROL 実装] ページにアクセスするには、**[!UICONTROL 管理]** > **[!UICONTROL 実装]**&#x200B;をクリックします。
 
 1. このページの設定に適用できる情報については、[&#x200B; タグマネージャーなしでTargetを実装する](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank}を参照してください。

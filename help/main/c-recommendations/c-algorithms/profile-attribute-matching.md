@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: 495
 ht-degree: 3%
 
 ---
@@ -21,24 +21,24 @@ ht-degree: 3%
 
 ユーザーのプロファイル内の値に対して項目（エンティティ）を比較することにより、[!DNL Adobe Target Recommendations]で動的にフィルタリングします。
 
-サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するレコメンデーションを表示する場合は、[!UICONTROL Profile Attribute Matching]を使用します。
+サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致する推奨事項を表示する場合は、[!UICONTROL &#x200B; プロファイル属性の一致]を使用します。
 
 >[!NOTE]
 >
 >条件とプロモーションに含めるルール [&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成して使用する プロセスは、ユースケースと例と同様に類似しています。
 
-次のシナリオは、[!UICONTROL Profile Attribute Matching]の使用方法を示しています。
+次のシナリオは、[!UICONTROL &#x200B; プロファイル属性の一致]の使用方法を示しています。
 
 * 眼鏡を販売する会社が、訪問者が好むフレームの色を「クルミ」として保存します。 特定の訪問者に対しては、色が「クルミ」に一致する眼鏡フレームのみを返すようにレコメンデーションが設定されています。
 * プロファイルパラメーターは、企業のweb サイトを移動する際の訪問者の服のサイズ（小、Medium、大など）に対して定義できます。 レコメンデーションは、プロファイルパラメーターに一致するように設定でき、ユーザーが好む服のサイズに限定した商品を返します。
 
 ## プロファイル属性の一致の例 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Profile Attribute Matching]では、次の例のように、訪問者のプロファイルの属性に一致する項目のみをレコメンデーションできます。
+[!UICONTROL &#x200B; プロファイル属性の一致]を使用すると、以下の例のように、訪問者のプロファイルの属性に一致する項目のみをレコメンドできます。
 
 ### 利用者が好むブランドの商品を勧める
 
-例えば、[!UICONTROL Profile Attribute Matching] オプションを使用して、ブランドが`profile.favoritebrand`に格納された値またはテキストと等しい場合にのみアイテムをレコメンドするルールを作成できます。 このようなルールでは、訪問者が特定のブランドのショーツを使用している場合、そのユーザーのお気に入りのブランド（訪問者のプロファイルに`profile.favoritebrand`に保存されている値）に一致するレコメンデーションのみが表示されます。
+例えば、[!UICONTROL &#x200B; プロファイル属性一致] オプションを使用して、ブランドが`profile.favoritebrand`に保存されている値またはテキストと等しい場合にのみアイテムをレコメンドするルールを作成できます。 このようなルールでは、訪問者が特定のブランドのショーツを使用している場合、そのユーザーのお気に入りのブランド（訪問者のプロファイルに`profile.favoritebrand`に保存されている値）に一致するレコメンデーションのみが表示されます。
 
 ![お気に入りのブランド &#x200B;](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 

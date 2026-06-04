@@ -18,8 +18,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 37%
+source-wordcount: 307
+ht-degree: 36%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 37%
 
 特定のレポートスイートでA4Tを使用するには、そのレポートスイートにアクセスし、[!DNL Web Services Access] グループへのアクセス権を付与する必要があります。
 
-1. **[!UICONTROL Admin Console]**&#x200B;で、[!DNL Analytics]製品プロファイルをクリックし、「**[!UICONTROL Permissions]**」タブをクリックします。
+1. **[!UICONTROL Admin Console]**&#x200B;で、[!DNL Analytics]製品プロファイルをクリックし、**[!UICONTROL 権限]** タブをクリックします。
 
    次に、プロファイルがアクセスできるレポートスイートを確認できます。
 
@@ -61,7 +61,7 @@ ht-degree: 37%
 
    ![Admin Console権限タブ &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. [!UICONTROL Web Services Access] グループへのアクセスを構成します。
+1. [!UICONTROL Web サービス アクセス &#x200B;] グループへのアクセスを構成します。
 
    [!DNL Target]のレポートソースとして[!DNL Analytics]を使用するには、[!DNL Analytics]の[!UICONTROL Web Services Access] グループへのアクセスが必要です。
 

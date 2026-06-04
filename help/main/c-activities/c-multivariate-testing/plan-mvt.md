@@ -1,7 +1,7 @@
 ---
 keywords: 多変量分析テスト;mvt;mvt プラン;多変量分析テストプラン
-description: テストを成功させるために[!UICONTROL Multivariate Test]を [!DNL Adobe Target] で計画する方法を説明します。
-title: '[!UICONTROL Multivariate Test]を計画するにはどうすればよいですか？'
+description: ' [!DNL Adobe Target] で[!UICONTROL 多変量テスト &#x200B;]を計画して、テストを成功させる方法を説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;]を計画するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 64%
+source-wordcount: 295
+ht-degree: 63%
 
 ---
 
-# [!UICONTROL Multivariate Test]の計画
+# [!UICONTROL 多変量テストの計画]
 
-[!DNL Adobe Target]の[!UICONTROL Multivariate Tests] （MVT） アクティビティでは、テストを成功させるには、いくつかの計画が必要です。
+[!DNL Adobe Target]の[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティでは、テストを成功させるためにいくつかの計画が必要です。
 
 MVTでは、有益な結果を生成するのに十分なトラフィックが必要です。 テストを設定する前に、インプレッションおよびコンバージョンの数を含む、通常発生するトラフィック量を把握しておく必要があります。 このような情報があれば、サイトのトラフィックを上回る要件を満たすテストを設計する可能性を減らすことができます。
 

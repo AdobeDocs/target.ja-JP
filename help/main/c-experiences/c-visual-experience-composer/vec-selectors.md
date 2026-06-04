@@ -13,7 +13,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: 455
 ht-degree: 29%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 29%
 
 CSS セレクターに関する基本的な情報は、*[!DNL Mozilla Developer Network]* （MDN）の[&#x200B; セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) ドキュメントにあります。
 
-アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。 「**[!UICONTROL Administration > Visual Experience Composer]**」をクリックし、任意のCSS セレクターを選択します。
+アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。 **[!UICONTROL 管理 / Visual Experience Composer]**&#x200B;をクリックし、任意のCSS セレクターを選択します。
 
 * **要素IDを使用**：同じIDが複数の要素に使用されている場合や、ページ読み込み時に要素IDが変更される場合は、無効にします。
 * **要素クラスを使用**: ページ上の要素クラスが変更される可能性がある場合は無効にします。
@@ -32,7 +32,7 @@ CSS セレクターに関する基本的な情報は、*[!DNL Mozilla Developer 
 
 >[!NOTE]
 >
->エレメントクラスは、[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]および[!UICONTROL &#x200B; Multivariate Test] アクティビティでセレクターとして使用できます。
+>エレメントクラスは、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Automated Personalization]、[!UICONTROL 多変量テスト &#x200B;]のアクティビティでセレクターとして使用できます。
 
 CSS セレクターを使用するタイミングと一意の ID を使用するタイミングについて詳しくは、[Visual Experience Composer のベストプラクティスと制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を参照してください。
 

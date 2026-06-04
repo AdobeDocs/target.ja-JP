@@ -14,8 +14,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 32%
+source-wordcount: 379
+ht-degree: 35%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 32%
 ## [!DNL Adobe Campaign]件の電子メールに[!DNL Target]件のオファーを含める {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. [!DNL Adobe Campaign]にメールを作成します。
-1. メールのプロパティで、**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**&#x200B;をクリックします。
+1. 電子メールのプロパティで、**[!UICONTROL 含める]**／**[!UICONTROL Adobe Target によって提供される動的画像]**&#x200B;をクリックします。
 1. 共有アセットからデフォルト画像を選択します。
 1. 場所（rawbox）を指定します。
 1. 受信者の性別など、その他の決定パラメーターを追加します。

@@ -11,47 +11,47 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 1%
+source-wordcount: 281
+ht-degree: 0%
 
 ---
 
 # コンテンツの検索とフィルター
 
-[!DNL Adobe Target]の[!UICONTROL Offers] ライブラリ内のキーワードでアセットを検索します。
+[!DNL Adobe Target]の[!UICONTROL Offers] ライブラリで、キーワードでアセットを検索します。
 
 ## キーワードによるコードオファーの検索
 
-1. **[!UICONTROL Offers]**／**[!UICONTROL Code Offers]**&#x200B;をクリックします。
-1. **[!UICONTROL Search In]** ボックスに目的のキーワードを入力します。
+1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL コードオファー]**」をクリックします。
+1. **[!UICONTROL 検索先]** ボックスに目的のキーワードを入力します。
 
-   ドロップダウンを使用して、[!UICONTROL Offer name]、[!UICONTROL AEM Paths]または[!UICONTROL AEM Tags]でフィルタリングできます。
+   ドロップダウンを使用して、[!UICONTROL &#x200B; オファー名]、[!UICONTROL AEM パス &#x200B;]、または[!UICONTROL AEM タグ &#x200B;]でフィルタリングできます。
 
-   [!UICONTROL Show Filters] アイコン ![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)をクリックして、[!UICONTROL Type]、[!UICONTROL Source]、[!UICONTROL AEM Type]のオプションを使用してフィルターを実行し、検索をさらに絞り込むこともできます。
+   [!UICONTROL &#x200B; フィルターを表示] アイコン ![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)をクリックして、[!UICONTROL Type]、[!UICONTROL Source]、および[!UICONTROL AEM Type] オプションを使用してフィルターを実行し、検索をさらに絞り込むこともできます。
 
 ## キーワードによる画像オファーの検索 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. **[!UICONTROL Offers]**／**[!UICONTROL Image Offers]**&#x200B;をクリックします。
+1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL 画像オファー]**」をクリックします。
 
-1. （オプション） [!UICONTROL Card View]と[!UICONTROL List View]を切り替え、[!UICONTROL Asset] ライブラリの右上隅にある[!UICONTROL Card View] アイコン （![&#x200B; カード表示アイコン &#x200B;](/help/main/assets/icons/ViewCard.svg)）または[!UICONTROL List View] アイコン （![&#x200B; リスト表示アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）をクリックします。
-1. 左上隅の&#x200B;**[!UICONTROL Content Only]** アイコン（![&#x200B; コンテンツのみアイコン &#x200B;](/help/main/assets/icons/RailLeft.svg)）をクリックして、検索ボックスを表示します。
+1. （オプション） [!UICONTROL &#x200B; カード表示]と[!UICONTROL &#x200B; リスト表示]を切り替え、[!UICONTROL &#x200B; カード表示] アイコン （![&#x200B; カード表示アイコン &#x200B;](/help/main/assets/icons/ViewCard.svg)）または[!UICONTROL &#x200B; リスト表示] アイコン （![&#x200B; リスト表示アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）を[!UICONTROL &#x200B; アセット &#x200B;] ライブラリの右上隅でクリックします。
+1. 左上隅の「**[!UICONTROL コンテンツのみ]**」アイコン（![&#x200B; コンテンツのみアイコン &#x200B;](/help/main/assets/icons/RailLeft.svg)）をクリックして、検索ボックスを表示します。
 1. 検索ボックスで、検索するアセットのキーワードを入力し、[!UICONTROL Enter]を押します。
-1. （条件付き）左側の&#x200B;**[!UICONTROL Filters & Options]** ペインを使用して検索を絞り込みます。
+1. （条件付き）左側の&#x200B;**[!UICONTROL フィルターとオプション]** ペインを使用して、検索を絞り込みます。
 
    次の条件でフィルタリングできます。
 
-   * を使用します&#x200B;**[!UICONTROL File Type]**。
-      * [!UICONTROL Images]
-      * [!UICONTROL Documents]
-      * [!UICONTROL Multimedia]
-      * [!UICONTROL Archives]
-   * **[!UICONTROL File Size]**：スライダーを使用して、目的のファイルサイズを選択します：[!UICONTROL Smallest]、[!UICONTROL Small]、[!UICONTROL Medium]、[!UICONTROL Large]、または[!UICONTROL Largest]。
-   * **[!UICONTROL Last Modified]**: スライダーを使用して、期間を選択します：[!UICONTROL Recent]、[!UICONTROL Hour]、[!UICONTROL Day]、[!UICONTROL Week]、[!UICONTROL Month]、[!UICONTROL Year]、または[!UICONTROL All Assets]。
-   * **[!UICONTROL Approval Status]**: [!UICONTROL Approved]または[!UICONTROL Rejected]
-   * **[!UICONTROL Expiry Status]**: [!UICONTROL Expired].
-   * **[!UICONTROL Average Rating]**: 1 ～ 5。
-   * **[!UICONTROL Orientation]**: [!UICONTROL Horizontal]、[!UICONTROL Vertical]、または[!UICONTROL Square]。
-   * **[!UICONTROL Style]**: [!UICONTROL Color]または[!UICONTROL Black & White]。
-   * **[!UICONTROL Usage Score]**: [!UICONTROL Minimum] ～ [!UICONTROL Maximum]。
-   * **[!UICONTROL Impression Score]**: [!UICONTROL Minimum] ～ [!UICONTROL Maximum]。
-   * **[!UICONTROL Click Score]**: [!UICONTROL Minimum] ～ [!UICONTROL Maximum]。
+   * **[!UICONTROL ファイルの種類]**:
+      * [!UICONTROL 画像]
+      * [!UICONTROL &#x200B; ドキュメント &#x200B;]
+      * [!UICONTROL &#x200B; マルチメディア &#x200B;]
+      * [!UICONTROL &#x200B; アーカイブ &#x200B;]
+   * **[!UICONTROL ファイルサイズ]**：スライダーを使用して、目的のファイルサイズを選択します：[!UICONTROL 最小]、[!UICONTROL 小]、[!UICONTROL Medium]、[!UICONTROL 大]、または[!UICONTROL 最大]。
+   * **[!UICONTROL 最終更新日]**: スライダーを使用して、期間を選択します：[!UICONTROL 最近]、[!UICONTROL 時間]、[!UICONTROL 日]、[!UICONTROL 週]、[!UICONTROL 月]、[!UICONTROL 年]、または[!UICONTROL すべてのAssets]。
+   * **[!UICONTROL 承認ステータス]**: [!UICONTROL 承認済み]または[!UICONTROL 却下]
+   * **[!UICONTROL 有効期限ステータス]**: [!UICONTROL 有効期限]。
+   * **[!UICONTROL 平均評価]**: 1 ～ 5。
+   * **[!UICONTROL 方向]**: [!UICONTROL 水平]、[!UICONTROL 垂直]、または[!UICONTROL 正方形]。
+   * **[!UICONTROL スタイル]**: [!UICONTROL 色]または[!UICONTROL 白黒]。
+   * **[!UICONTROL 使用状況スコア]**: [!UICONTROL 最小] ～ [!UICONTROL 最大]。
+   * **[!UICONTROL インプレッションスコア]**: [!UICONTROL 最小] ～ [!UICONTROL 最大]。
+   * **[!UICONTROL クリックスコア]**: [!UICONTROL 最小] ～ [!UICONTROL 最大]。

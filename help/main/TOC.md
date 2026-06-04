@@ -80,7 +80,7 @@ ht-degree: 83%
    + [基本を学ぶ](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
    + [ユースケースとチュートリアル](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
    + [MCP サーバーツールリファレンス](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
-+ Adobe TargetとExperience Cloudの統合 {#integrate}
++ Adobe TargetとAdobe Experience Cloudの統合 {#integrate}
    + Target （A4T）のレポートソースとしてのAdobe Analytics {#a4t}
       + [A4T の概要](c-integrating-target-with-mac/a4t/a4t.md)
       + [実装する前に](c-integrating-target-with-mac/a4t/before-implement.md)

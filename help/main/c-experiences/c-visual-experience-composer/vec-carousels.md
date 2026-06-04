@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: 152
 ht-degree: 71%
 
 ---
 
 # Visual Experience Composer 内で動作するカルーセルの作成
 
-このトピックでは、[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で編集可能なカルーセルを作成する方法について説明します。
+このトピックでは、[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で編集できるカルーセルを作成する方法について説明します。
 
 次の手順を使用すると、Visual Experience Composer 内で数秒後に変更された場合でも、選択スライドが正しいスライドの「セレクター」を持つことを [!DNL Target] が必ず認識するようになります。
 
@@ -38,7 +38,7 @@ ht-degree: 71%
 
    >[!NOTE]
    >
-   >現在、Visual Experience Composer でカスタムコードと共に使用する場合は、「[!UICONTROL Render Using JavaScript]」オプションがサポートされません。
+   >現在、Visual Experience Composer でカスタムコードとともに使用する場合は、「[!UICONTROL JavaScript を使用してレンダリング]」オプションがサポートされません。
 
 1. classNames の更新のみをおこなって、他を非表示にし、タイマーやアニメーションで次を表示するようにします。
 

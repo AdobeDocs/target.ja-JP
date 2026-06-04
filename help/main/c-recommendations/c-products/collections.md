@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 732
+source-wordcount: 755
 ht-degree: 31%
 
 ---
@@ -33,31 +33,31 @@ ht-degree: 31%
 
 包含条件を使用するとコレクションと同様のことができますが、包含条件はアクティビティを作成する都度設定する必要があります。 コレクションを利用すれば、一度に複数のアイテムを作成し、再び設定することなく、適切なときにいつでも使用できます。
 
-[!DNL Recommendations] アクティビティを作成または編集する際に、アクティビティ ダイアグラムの[!UICONTROL Criteria] ラベルの横にコレクション名が表示されます。
+[!DNL Recommendations] アクティビティを作成または編集する際に、アクティビティ ダイアグラムの[!UICONTROL 条件] ラベルの横にコレクション名が表示されます。
 
 >[!NOTE]
 >
 >* コレクションのルールは、条件の実行後に生成されたレコメンデーション項目に適用されます。 これらは、キーではなく、出力内のエンティティ推奨（ER）のみに影響します。
 >
->* [!UICONTROL Recently Viewed Items] レコメンデーションキーを使用する場合、コレクションは適用されません。
+>* [!UICONTROL 最近閲覧したアイテム &#x200B;]のレコメンデーションキーを使用する場合、コレクションは適用されません。
 
 ## コレクションの作成 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 レコメンデーションに表示する商品やコンテンツを整理するためのコレクションを作成します。
 
-1. **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
+1. **[!UICONTROL Recommendations]** > **[!UICONTROL コレクション]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
 
-   [!UICONTROL Collections] ページには、既存のコレクションのリストが表示されます。 [!UICONTROL Create Collection] ボタンをクリックして、新しいコレクションを作成します。 また、目的のコレクションの横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、目的のオプションをクリックして、既存のコレクションを編集、コピー、削除することもできます。
+   [!UICONTROL &#x200B; コレクション &#x200B;] ページには、既存のコレクションのリストが表示されます。 「[!UICONTROL &#x200B; コレクションを作成]」ボタンをクリックして、新しいコレクションを作成します。 また、目的のコレクションの横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、目的のオプションをクリックして、既存のコレクションを編集、コピー、削除することもできます。
 
-   [!UICONTROL Collections] リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   [!UICONTROL &#x200B; コレクション &#x200B;] リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
-1. **[!UICONTROL Create Collection]** をクリックします。
+1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 
-1. コレクションの&#x200B;**[!UICONTROL Name]**&#x200B;を入力します。
+1. コレクションの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-   オプションの&#x200B;**[!UICONTROL Description]**&#x200B;を入力することもできます。
+   オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を入力することもできます。
 
-1. （条件付き）コレクションを作成（または更新）中に&#x200B;**[!UICONTROL Environment]** フィルターから[環境](/help/main/administrating-target/environments.md)を選択すると、その環境のコレクションの内容がプレビューされます。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き） コレクションを作成（または更新）中に&#x200B;**[!UICONTROL 環境]** フィルターから[環境](/help/main/administrating-target/environments.md)を選択すると、その環境のコレクションの内容がプレビューされます。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. コレクションの構築に使用するルールを設定します。
 
@@ -65,7 +65,7 @@ ht-degree: 31%
 
    ルールを追加し、複数のパラメーターを使用して、コレクションを定義することができます。 複数のルールをAND演算子で結合します。 コレクションが適用されるには、指定したすべてのルールに合致する必要があります。
 
-1. **[!UICONTROL Create]** をクリックします。
+1. 「**[!UICONTROL 作成]**」をクリックします。
 
 <!--
 ## Create a collection using [!UICONTROL Advanced Search]
@@ -83,7 +83,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## コレクションの編集、コピー、削除
 
-リスト内の目的のコレクションの横にある（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、または[!DNL Delete]）をクリックします。
+リスト内の目的のコレクションの横にある（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL &#x200B; コピー]、または[!DNL Delete]）をクリックします。
 
 既存のコレクションをコピーして重複したコレクションを作成し、それを変更できます。 これにより、より少ない労力で同様のコレクションを作成できます。
 
@@ -93,8 +93,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 上記のいずれかの方法を使用して、コレクションを作成します。
 
-1. **[!UICONTROL Activities]**&#x200B;と[をクリックして、新しいRecommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
+1. **[!UICONTROL アクティビティ]**&#x200B;と[をクリックして、新しいRecommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
 
-1. 条件とデザインを選択すると、[!UICONTROL Options] ページが表示され、目的のコレクションを選択できます。
+1. 条件とデザインを選択すると、[!UICONTROL &#x200B; オプション &#x200B;] ページが表示され、目的のコレクションを選択できます。
 
-1. （条件付き）既存のコレクション設定を変更するには、**[!UICONTROL Experiences]** ページ（3つの部分のガイド付きワークフローの手順1）で、レコメンデーションを配置した場所をクリックし、**[!UICONTROL Change Collection]**&#x200B;をクリックしてから、目的のコレクションを選択します。
+1. （条件付き）既存のコレクション設定を変更するには、**[!UICONTROL エクスペリエンス]** ページ（3つの部分のガイド付きワークフローのステップ 1）で、レコメンデーションを配置した場所をクリックし、**[!UICONTROL コレクションを変更]**&#x200B;をクリックしてから、目的のコレクションを選択します。

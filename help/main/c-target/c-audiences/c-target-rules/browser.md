@@ -13,12 +13,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: 1116
 ht-degree: 35%
 
 ---
 
-# [!UICONTROL Browser]
+# [!UICONTROL ブラウザー]
 
 ページの訪問時に特定のブラウザーまたは特定のブラウザーオプションを使用しているユーザーをターゲットに設定することができます。
 
@@ -29,7 +29,7 @@ ht-degree: 35%
 * [!UICONTROL Safari]
 * [!UICONTROL Internet Explorer]
 * [!UICONTROL Microsoft Edge]
-* [!UICONTROL Opera]
+* [!UICONTROL &#x200B; オペラ &#x200B;]
 * [!DNL iPad]
 * [!DNL iPhone]
 
@@ -39,7 +39,7 @@ ht-degree: 35%
 >
 >このアップデートでは、お客様側でのアクションは必要ありません。 [!DNL Target] UIのラベルは今後変更され、これらの変更が行われた際に[[!DNL Target]  リリースノート（最新） &#x200B;](/help/main/r-release-notes/release-notes.md)に発表されます。
 >
->回避策の設定については、以下の[!UICONTROL Browser]個のオーディエンス属性の [!DNL iPad] および [!DNL iPhone] の[更新（2024年4月30日） &#x200B;](#updates)を参照してください。
+>回避策の設定については、以下の[!UICONTROL &#x200B; ブラウザー]のオーディエンス属性の [!DNL iPad] および [!DNL iPhone] の[更新（2024年4月30日） &#x200B;](#updates)を参照してください。
 
 ブラウザーをターゲットにするには、2 つの方法があります。
 
@@ -53,20 +53,20 @@ ht-degree: 35%
 
 * **カスタマイズされたブラウザーのオーディエンス ルール：** カスタマイズされたオーディエンスを使用すると、複数のブラウザーをターゲットにしたり、特定のブラウザー、ブラウザーのバージョン、ブラウザーの言語に対するルールや除外を設定したりできます。 この機能は、ブラウザーの属性に基づいてアクティビティをターゲティングする際に大きな柔軟性を提供します。
 
-   1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;をクリックします。
+   1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**」 > 「**[!UICONTROL オーディエンスを作成]**」をクリックします。
    1. オーディエンスに名前を付け、オプションの説明を追加します。
-   1. **[!UICONTROL Browser]**&#x200B;をオーディエンスビルダーにドラッグ&amp;ドロップします。
+   1. **[!UICONTROL ブラウザー]**&#x200B;をオーディエンスビルダーにドラッグ&amp;ドロップします。
 
       ![&#x200B; ルール > ブラウザー](assets/target_browser.png)
 
-   1. 「**[!UICONTROL Select]**」をクリックし、次のいずれかのオプションを選択します。
+   1. 「**[!UICONTROL 選択]**」をクリックして、次のいずれかのオプションを選択します。
 
       * **タイプ：**&#x200B;特定のブラウザーをターゲットにするか除外します。 [タイプ](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)を参照してください。
       * **言語：**&#x200B;特定の言語を使用するように設定されている特定のブラウザーをターゲットまたは除外します。 [言語](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)を参照してください。
       * **バージョン：**&#x200B;特定のブラウザーのバージョンをターゲットにするか除外します。 [バージョン](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)を参照してください。
 
    1. （オプション）オーディエンスの追加ルールを設定します。
-   1. **[!UICONTROL Done]** をクリックします。
+   1. 「**[!UICONTROL Done]**」をクリックします。
 
   次の例は、バージョン 91または92の[!DNL Microsoft Edge] ユーザーを含むオーディエンスを示しています。
 
@@ -80,10 +80,10 @@ ht-degree: 35%
 
 特定のブラウザーをターゲットにするか除外します。
 
-「**[!UICONTROL Type]**」を選択し、「等しい」または「等しくない」のいずれかを選択します。
+「**[!UICONTROL タイプ]**」を選択して、「次の値と等しい」または「次の値と等しくない」を選択します。
 
-* [!UICONTROL Equals]：選択したブラウザーをターゲットにします。
-* [!UICONTROL Does not equal]：選択したブラウザーを除外します。
+* [!UICONTROL 次と等しい]：選択したブラウザーをターゲットにします。
+* [!UICONTROL 次と等しくない]：選択したブラウザーを除外します。
 
 1 つ以上のブラウザーを選択します。 複数のオプションは、OR を使用して接続できます。
 
@@ -95,10 +95,10 @@ ht-degree: 35%
 
 言語が場所よりも重要な場合、ブラウザーの言語を含めるまたは除外することで、地域に基づくターゲティングよりも正確に訪問者をターゲティングできます。 例えば、英語で記載された記事を提供している場合、英語を話す国をターゲットにするか、英語に設定されたブラウザーをターゲットにすることができます。 ブラウザーをターゲットにすることで、英語が第一言語でない国にいる英語話者に対して記事を提供できます。
 
-「**[!UICONTROL Language]**」を選択し、「等しい」または「等しくない」のいずれかを選択します。
+「**[!UICONTROL 言語]**」を選択して、「次の値と等しい」または「次の値と等しくない」を選択します。
 
-* [!UICONTROL Equals]：選択したブラウザー言語をターゲットにします。
-* [!UICONTROL Does not equal]：選択したブラウザー言語を除外します。
+* [!UICONTROL 次と等しい]：選択したブラウザー言語をターゲットにします。
+* [!UICONTROL 次と等しくない]：選択したブラウザー言語を除外します。
 
 1 つ以上の言語を選択します。 複数のオプションは、OR を使用して接続できます。
 
@@ -120,14 +120,14 @@ ht-degree: 35%
 
 例えば、ページが[!DNL Internet Explorer] バージョン 11以前で正しく表示されない場合は、これらのバージョンを除外するオーディエンスを作成できます。 その場合、ブラウザーの種類が[!DNL Internet Explorer]に等しいルールを設定し、バージョンが11以下の2つ目のルールを追加します。
 
-**[!UICONTROL Version]**&#x200B;を選択してから、演算子を選択してください：
+「**[!UICONTROL バージョン]**」を選択して、演算子を選択します。
 
-* [!UICONTROL Equals]
-* [!UICONTROL Does not equal]
-* [!UICONTROL Is greater than]
+* [!UICONTROL 次に等しい]
+* [!UICONTROL 次と等しくない]
+* [!UICONTROL が]より大きい
 * 次よりも大きいか等しい
-* [!UICONTROL Is less than]
-* [!UICONTROL Is less than or equal to]
+* [!UICONTROL が]より小さい
+* [!UICONTROL が]以下
 
 バージョン番号を入力します。 テキストフィールドにはメジャーバージョンのみ入力できます。 指定したバージョンには、そのリリースの任意のマイナーバージョンが含まれます。 例えば、バージョン 10を指定した場合、バージョン 10.1の訪問者も含まれます。
 
@@ -142,7 +142,7 @@ ht-degree: 35%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## [!UICONTROL Browser] オーディエンス属性の [!DNL iPad] と [!DNL iPhone] の更新（2024年4月30日（PT）） {#updates}
+## [!UICONTROL &#x200B; ブラウザー]のオーディエンス属性の[!DNL iPad]と[!DNL iPhone]の更新（2024年4月30日） {#updates}
 
 [!DNL Adobe Target]を使用すると、特定のブラウザーまたはブラウザーのオプションを使用してページにアクセスしたユーザーを含む、複数のカテゴリ属性[&#128279;](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)のいずれかを ターゲットにできます。
 
@@ -158,11 +158,11 @@ JavaScript オーディエンスは、[!DNL Target Classic] UIで非推奨とな
 
 今後は次の設定を使用できます。
 
-* **ブラウザーが[!DNL Apple]**&#x200B;と一致する場合：[!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* **ブラウザーが[!DNL Apple]**&#x200B;に一致：[!UICONTROL &#x200B; モバイル &#x200B;] > [!UICONTROL &#x200B; デバイスベンダー] [!UICONTROL 一致] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* **ブラウザーがタブレット**&#x200B;と一致する場合：[!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **ブラウザーがタブレット**&#x200B;と一致する場合：[!UICONTROL &#x200B; モバイル &#x200B;] > [!UICONTROL はタブレット &#x200B;] > [!UICONTROL true]です
 
   ![モバイルはタブレットです](/help/main/r-release-notes/assets/is-tablet.png)
 
@@ -176,11 +176,11 @@ JavaScript オーディエンスは、[!DNL Target Classic] UIで非推奨とな
 
 条件が無効になっている場合など、他にも使用できる設定が多数あります。 否定された条件の例は次のようになります。
 
-* **For browser does not match iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] with an Or container with [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
+* **For browser does not match iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL が] [!UICONTROL Apple]と[!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]のOr コンテナが[!UICONTROL false]に一致しません
 
   ![携帯電話ではありません](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **For browser does not match iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] with an Or container with [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
+* **For browser does not match iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL が] [!UICONTROL Apple]と[!UICONTROL Mobile] > [!UICONTROL Is Tablet]のOr コンテナが[!UICONTROL false]に一致しません。
 
   ![&#x200B; タブレットではありません](/help/main/r-release-notes/assets/tablet-false.png)
 

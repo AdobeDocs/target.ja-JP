@@ -20,8 +20,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 52%
+source-wordcount: 995
+ht-degree: 50%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 52%
 
 ## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard]は[!DNL Adobe Target]のフロントエンドで、A/B テストとルールベースのターゲティング アクティビティの視覚的な作成と管理を可能にします。 [!DNL Target]は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC） ワークフロー内および外部でのカスタムコード挿入をサポートしています。 [!DNL Target Standard]では、デジタル プロパティの実装戦略が簡素化され、各ページの1行のコードで、サイトと[!DNL Target]間のすべての通信を管理できます。
+[!DNL Target Standard]は[!DNL Adobe Target]のフロントエンドで、A/B テストとルールベースのターゲティング アクティビティの視覚的な作成と管理を可能にします。 [!DNL Target]では、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC） ワークフロー内および外部でのカスタムコード挿入がサポートされています。 [!DNL Target Standard]では、デジタル プロパティの実装戦略が簡素化され、各ページの1行のコードで、サイトと[!DNL Target]間のすべての通信を管理できます。
 
 業界のベストプラクティスは[!DNL Target Standard]に統合されているため、新規ユーザーと経験豊富なユーザーの両方に適しています。 [!DNL Adobe Experience Cloud]を使用して、データの共有、結果の共有、チームメンバーとの共同作業を簡単に行うことができます。
 
@@ -47,19 +47,19 @@ ht-degree: 52%
 
 ### [!UICONTROL Automated Personalization]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) （AP）は、高度な機械学習アルゴリズムを使用して、パーソナライズされたエクスペリエンスを提供し、デジタルインタラクションのコンバージョン率を向上させます。
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) （AP）は、高度なマシンラーニングアルゴリズムを使用して、パーソナライズされたエクスペリエンスを提供し、デジタルインタラクションのコンバージョン率を向上させます。
 
 APは訪問者のアクティビティを記録し、プロファイルを構築して、類似する訪問者にコンテンツをターゲットにします。 APは、個人や人口向けのコンテンツへの反応を追跡し、高度なモデリングを使用して、訪問者について知られているあらゆる情報に基づいて各訪問者を自動的にターゲティングします。
 
 APは完全に自動化され、最小限の人間の分析で継続的に学習します。 訪問者が興味を持ちそうな製品を判断するためのモデルを構築し、情報を収集して訪問者プロファイルに保存します。 複数のアルゴリズムが、自社のシステムに最適なモデルを実現します。
 
-### [!UICONTROL Auto-Target]
+### [!UICONTROL 自動ターゲット]
 
-[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)は、高度な機械学習を使用して、パフォーマンスの高いマーケター定義エクスペリエンスを特定します。 そして、個々の顧客プロファイルや、類似のプロファイルを持つ以前の訪問者の行動にもとづいて、各訪問者に最もカスタマイズされた体験を提供します。 [!UICONTROL Auto-Target]は、コンテンツのパーソナライズとコンバージョンの促進に役立ちます。
+[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)は、高度な機械学習を使用して、パフォーマンスの高いマーケター定義エクスペリエンスを特定します。 そして、個々の顧客プロファイルや、類似のプロファイルを持つ以前の訪問者の行動にもとづいて、各訪問者に最もカスタマイズされた体験を提供します。 [!UICONTROL 自動ターゲット &#x200B;]は、コンテンツのパーソナライズとコンバージョンの促進に役立ちます。
 
 ### レコメンデーション
 
-[レコメンデーション](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。 [!UICONTROL Recommendations]は、顧客が知らない可能性のある関連項目に顧客を誘導するのに役立ちます。
+[レコメンデーション](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。 [!UICONTROL おすすめ]は、顧客が知らない可能性のある関連項目に誘導するのに役立ちます。
 
 レコメンデーションでは、サイトでの顧客のアクティビティを基にして、その顧客に製品を提案する方法を決定します。 次に例を示します。
 
@@ -77,18 +77,18 @@ APは完全に自動化され、最小限の人間の分析で継続的に学習
 
 ### オファーとしてのレコメンデーション
 
-[&#x200B; オファーとしてのレコメンデーション &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md)では、[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]および[!UICONTROL Experience Targeting] （XT）アクティビティ内にレコメンデーションを含めることができます。
+[&#x200B; オファーとしてのレコメンデーション &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md)を使用すると、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内にレコメンデーションを含めることができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
-* [!UICONTROL Auto-Allocate] を使用して、トラフィックをパフォーマンスの高いレコメンデーションエクスペリエンスに自動的にプッシュします。
-* [!UICONTROL Auto-Target]を使用して、個々のプロファイルに基づいて、カスタマイズされたレコメンデーション エクスペリエンスに訪問者を動的に割り当てます。
+* [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
+* [!UICONTROL 自動ターゲット &#x200B;]を使用して、個々のプロファイルに基づいて、カスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
 
 ### Enterprise ユーザーの権限
 
-[エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)機能を使用すると、様々なプロジェクト（ [!DNL Adobe Admin Console for Enterprise] では「製品プロファイル」と呼ばれます）を作成できます。 [!UICONTROL Enterprise User Permissions]では、1人のユーザーに対して異なる権限を割り当て、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、顧客は、ユーザーに対して閲覧、編集、承認および公開のアクセスを制限することができます。 地域、環境（開発／ステージ／実稼動）、チャネル、その他のカスタム条件に基づいて、ユーザーを制限できます。
+[エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)機能を使用すると、様々なプロジェクト（ [!DNL Adobe Admin Console for Enterprise] では「製品プロファイル」と呼ばれます）を作成できます。 [!UICONTROL &#x200B; エンタープライズ ユーザー権限]を使用すると、1人のユーザーに異なる権限を割り当て、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、顧客は、ユーザーに対して閲覧、編集、承認および公開のアクセスを制限することができます。 地域、環境（開発／ステージ／実稼動）、チャネル、その他のカスタム条件に基づいて、ユーザーを制限できます。
 
 ## Betaの機能 {#beta}
 

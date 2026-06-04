@@ -18,7 +18,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 5%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 5%
 
   指定された期間が経過すると、[!DNL Journey Optimizer]のカスタムアクションは[!DNL Target Recommendations]を呼び出して、各訪問者の[!DNL Adobe Experience Cloud Identifier] （EDID）、訪問者の[!DNL Target] プロファイル、および[&#x200B; ユーザーベースの](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) アルゴリズムを使用して、各訪問者が閲覧した項目を決定します。 次に、[!DNL Adobe Journey Optimizer]は、適格なオーディエンスの各メンバーに対して、各訪問者の閲覧アイテムへの画像とリンクを含むパーソナライズされた電子メールを送信し、訪問者に再購入を依頼します。
 
-  このシナリオでは、[!UICONTROL Experience Cloud Visitor ID] （ECID）と各訪問者の[!DNL Target] プロファイルのコンテンツを使用して、最近表示されたアルゴリズムに基づいてレコメンデーションを生成します。
+  このシナリオでは、[!UICONTROL Experience Cloud訪問者ID] （ECID）と各訪問者の[!DNL Target] プロファイルのコンテンツを使用して、最近表示されたアルゴリズムに基づいてレコメンデーションを生成します。
 
   例えば、訪問者が小売web サイトにアクセスし、複数の腕時計を閲覧したとします。 この訪問者の[!DNL Target] プロファイルは、閲覧済み時計のリストで更新されます。 ECIDと訪問者の[!DNL Target] プロファイルを使用して、[!DNL Target]様が[!DNL Journey Optimizer]様にレコメンデーションを送信します。 次に、[!DNL Journey Optimizer]は、最近閲覧したアルゴリズムを使用して、この訪問者が閲覧した時計の画像とリンクを含むメールを送信します。 別の訪問者には、その訪問者が閲覧したアイテムの画像とリンクが含まれたパーソナライズされたメールが届きます。 各メールメッセージは、訪問者一人ひとりにパーソナライズされています。
 

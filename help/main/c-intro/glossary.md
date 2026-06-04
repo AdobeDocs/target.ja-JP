@@ -30,7 +30,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2514
+source-wordcount: 2526
 ht-degree: 97%
 
 ---
@@ -171,7 +171,7 @@ Digital Asset Manager。 Target でコンテンツとして使用されるアイ
 
 **拡張 Experience Composer**
 
-[!UICONTROL Enhanced Experience Composer]は、[!DNL Target]実装がまだ含まれていないiframe バストサイトまたはページのエクスペリエンスを編集するのに役立つ[!UICONTROL Visual Experience Composer]の拡張機能です。 [!UICONTROL Visual Experience Composer]でページを開く際に問題が発生した場合は、[!UICONTROL Enhanced Experience Composer]を試してください。
+[!UICONTROL Enhanced Experience Composer]は、[!UICONTROL Visual Experience Composer]の拡張機能であり、[!DNL Target]実装がまだ含まれていないiframeを破棄するサイトまたはページのエクスペリエンスを編集するのに役立ちます。 [!UICONTROL Visual Experience Composer] でページを開くうえで問題がある場合は、[!UICONTROL 拡張 Experience Composer] を試してみてください。
 
 **Enterprise ユーザーの権限**
 

@@ -13,7 +13,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
@@ -40,9 +40,9 @@ ht-degree: 51%
 
    複数のバージョンを持つエクスペリエンスを設定する際に、次の手順のようにして各バージョンのオーディエンスを選択します。
 
-1. エクスペリエンスを選択し、**[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**&#x200B;をクリックします。
+1. エクスペリエンスを選択し、**[!UICONTROL 設定]**/**[!UICONTROL 複数のオーディエンス]**&#x200B;をクリックします。
 
-1. [!UICONTROL Experience Audiences] ペインの&#x200B;**[!UICONTROL Add Audience]** アイコン （![&#x200B; アイコンを追加](/help/main/assets/icons/Add.svg)）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
+1. [!UICONTROL &#x200B; エクスペリエンスオーディエンス &#x200B;] ペインの「**[!UICONTROL オーディエンスを追加]**」アイコン（![&#x200B; アイコンを追加](/help/main/assets/icons/Add.svg)）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
 
    オーディエンスがまだ存在しない場合は、「[オーディエンスを作成](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)」をクリックして設定します。
 

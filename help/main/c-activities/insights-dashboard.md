@@ -1,19 +1,19 @@
 ---
 keywords: アクティビティ；アクティビティ；インサイトダッシュボード
-description: '[!UICONTROL Adobe Target Dashboard]では、組織の利用状況の概要、導入、アクティビティ量、実験の利用状況が一目で把握できます [!DNL Target] 。'
+description: '[!UICONTROL Adobe Target ダッシュボード &#x200B;]では、組織の利用状況 [!DNL Target] の経時的な全体像を把握し、導入、アクティビティ量、実験の利用状況を一目で把握できます。'
 title: Adobe Target インサイトダッシュボード
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
 source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 1%
 
 ---
 
 # Adobe Target インサイトダッシュボード
 
-[!UICONTROL Adobe Target Dashboard]は、組織が時間の経過とともにどのように[!DNL Adobe Target]を使用しているかを大まかに示します。 導入、アクティビティ量、テストの使用状況を一目で把握できます。
+[!UICONTROL Adobe Target ダッシュボード &#x200B;]では、組織が時間の経過とともにどのように[!DNL Adobe Target]を使用しているかを大まかに把握できます。 導入、アクティビティ量、テストの使用状況を一目で把握できます。
 
 ダッシュボードは、個々のアクティビティレポートを掘り下げることなく、[!DNL Target]の使用状況をすばやく可視化したい実務担当者と関係者の両方に向けて設計されています。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * その結果、指標の合計が正確に合計されない場合があります。 例えば、多くのアクティビティを同じ時間枠で開始および完了できます。
 
-ダッシュボードのスナップショットを書き出すには、詳細メニューから「**[!UICONTROL Download as PNG]**」を選択します。
+ダッシュボードのスナップショットを書き出すには、詳細メニューから「**[!UICONTROL PNGとしてダウンロード]**」を選択します。
 
 ![](assets/insights-3.png)
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 ![](assets/insights-5.png)
 
-[!UICONTROL Activity Type] チャートには、選択した時間範囲内のタイプ別のライブアクティビティの分布が表示されます。次の項目を含みます。
+[!UICONTROL &#x200B; アクティビティの種類]のグラフには、選択した時間範囲内の種類ごとのライブアクティビティの分布が表示されます。次の項目を含みます。
 
-* [!UICONTROL A/B Test]
-* [!UICONTROL Experience Targeting]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/B テスト]
+* [!UICONTROL エクスペリエンスのターゲット設定]
+* [!UICONTROL レコメンデーション]
 * [!UICONTROL Automated Personalization]
-* [!UICONTROL Multivariate Test]
+* [!UICONTROL 多変量分析テスト]
 
 このグラフを使用して、組織が最も利用している[!DNL Target]機能を特定し、実行するアクティビティタイプの組み合わせを広げる機会を見つけます。
 
@@ -98,11 +98,11 @@ ht-degree: 0%
 
 ![](assets/insights-6.png){align="center"}
 
-このセクションでは、**[!UICONTROL A/B Test]** アクティビティに特に関連する使用方法について説明します。
+このセクションでは、**[!UICONTROL A/B テスト]** アクティビティに特に関連する使用方法について説明します。
 
-**[!UICONTROL Total live A/B Test activities]**&#x200B;指標は、選択した時間範囲内の任意の時点でライブだった&#x200B;**[!UICONTROL A/B Test]** アクティビティの数を示します。
+**[!UICONTROL ライブ A/B テスト アクティビティの合計数]**&#x200B;指標は、選択した時間範囲内の任意の時点でライブだった&#x200B;**[!UICONTROL A/B テスト]** アクティビティの数を示します。
 
-**[!UICONTROL Total A/B Tests published]**&#x200B;には、選択した期間に公開された&#x200B;**[!UICONTROL A/B Test]**&#x200B;件のアクティビティの数が表示されます。
+公開された&#x200B;**[!UICONTROL 合計A/B テスト]**&#x200B;は、選択した時間範囲内に公開された&#x200B;**[!UICONTROL A/B テスト]**&#x200B;のアクティビティの数を示します。
 
 これらの指標は、A/B テストの使用頻度を把握したり、長期的なテスト件数と導入状況を追跡するために使用できます。
 
@@ -110,5 +110,5 @@ ht-degree: 0%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL Activities Over Time]** グラフは、選択した時間範囲で作成、変更、公開されたアクティビティの数を追跡し、実験プログラムの傾向、スパイク、またはサイレント期間を簡単に検出できます。
+**[!UICONTROL 時間を超えるアクティビティ]** グラフは、選択した時間範囲で作成、変更、公開されたアクティビティの数を追跡し、実験プログラムの傾向、スパイク、またはサイレントピリオドを簡単に検出できます。
 

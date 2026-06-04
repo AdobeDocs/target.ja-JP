@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
+source-wordcount: 1472
 ht-degree: 51%
 
 ---
@@ -49,10 +49,10 @@ ht-degree: 51%
 
 +++
 
-### [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL Form-Based Experience Composer]はサポートされていますか？
+### [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL &#x200B; フォームベースのExperience Composer]はサポートされていますか？
 
 +++回答
-はい。組み込みのリダイレクト オファーを使用する場合は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)がサポートされます。
+はい。組み込みのリダイレクトオファーを使用する場合は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[[!UICONTROL &#x200B; フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)がサポートされます。
 
 +++
 

@@ -1,7 +1,7 @@
 ---
 keywords: カタログ検索；カタログ；検索；除外；コレクション；フィルター；推奨事項
-description: ' [!DNL Recommendations] [!UICONTROL Catalog Search]を使用して商品やコンテンツを検索する方法、カタログからアイテムを削除する方法などについて説明します。'
-title: ' [!DNL Recommendations] [!UICONTROL Catalog Search]の使用方法を教えてください。'
+description: ' [!DNL Recommendations] [!UICONTROL &#x200B; カタログ検索]を使用して、商品やコンテンツを検索したり、カタログからアイテムを削除したりする方法を説明します。'
+title: ' [!DNL Recommendations] [!UICONTROL &#x200B; カタログ検索]を使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
@@ -13,28 +13,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 25%
+source-wordcount: 552
+ht-degree: 24%
 
 ---
 
-# [!UICONTROL Catalog Search]
+# [!UICONTROL カタログ検索]
 
-[!DNL Adobe Recommendations]の[!UICONTROL Catalog Search] ページは、カタログ内の商品またはコンテンツを検索するのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 さらに、環境の変更、ファセットのフィルタリング、テーブルの列の変更、新しい検索ファセットの追加などを行うことができます。
+[!DNL Adobe Recommendations]の[!UICONTROL &#x200B; カタログ検索] ページは、カタログ内の商品またはコンテンツを検索するのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 さらに、環境の変更、ファセットのフィルタリング、テーブルの列の変更、新しい検索ファセットの追加などを行うことができます。
 
 カタログは、製品セット（エンティティ）全体を表します。 カタログには多数のコレクションを含めることができるため、商品を論理バケットで整理できます。
 
-## [!UICONTROL Catalog Search]へのアクセス
+## [!UICONTROL &#x200B; カタログ検索]にアクセス
 
-1. [!UICONTROL Catalog Search] ページにアクセスするには、**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**&#x200B;をクリックします。
+1. [!UICONTROL &#x200B; カタログ検索] ページにアクセスするには、**[!UICONTROL 推奨事項]** > **[!UICONTROL カタログ検索]**&#x200B;をクリックします。
 
-1. （オプション）検索にフィルターを適用するには、**[!UICONTROL Show Filters]** アイコン （![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックします。 [!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory]および[!UICONTROL Value]でフィルタリングできます。
+1. （オプション）検索にフィルターを適用するには、「**[!UICONTROL フィルターを表示]**」アイコン（![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックします。 [!UICONTROL 環境]、[!UICONTROL &#x200B; コレクション &#x200B;]、[!UICONTROL &#x200B; カテゴリー]、[!UICONTROL &#x200B; ブランド &#x200B;]、[!UICONTROL 在庫]および[!UICONTROL 値]でフィルタリングできます。
 
 ## シンプルな検索の実行
 
-1. **[!UICONTROL Search In]** フィールドに検索語句を入力します。
+1. 「**[!UICONTROL 検索先]**」フィールドに検索語を入力します。
 
-1. （オプション） [!UICONTROL Search In] フィールドの下向き矢印をクリックすると表示されるオプションメニューから検索オプションを選択して、検索を絞り込むことができます。
+1. （オプション）「[!UICONTROL 検索先]」フィールドの下向き矢印をクリックすると表示されるオプションメニューから検索オプションを選択して、検索を絞り込むことができます。
 
    次の検索オプションがあります。
 
@@ -84,7 +84,7 @@ ID、名前、メッセージ、カテゴリなどの個々の項目の詳細を
 
 1. 検索結果の項目をクリックすると、その詳細が表示されます。
 
-1. **[!UICONTROL Remove from Catalog]** をクリックします。
+1. 「**[!UICONTROL カタログから削除]**」をクリックします。
 
 1. 項目を削除することを確認します。
 
@@ -118,7 +118,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. フィルターを表示アイコン（![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックします。
 
-1. **[!UICONTROL Environment]** ドロップダウンリストから目的の環境を選択します。
+1. **[!UICONTROL 環境]** ドロップダウンリストから目的の環境を選択します。
 
 <!--
 ## Modify the Catalog Search page (filters and columns)
@@ -142,9 +142,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 列を変更
 
-[!UICONTROL Catalog Search] ページのアクティブな列を変更できます。
+アクティブな列は、[!UICONTROL &#x200B; カタログ検索] ページで変更できます。
 
-1. **[!UICONTROL Customize Table]** アイコン（![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](/help/main/assets/icons/ColumnSetting.svg)）をクリックします。
+1. **[!UICONTROL テーブルをカスタマイズ]** アイコン（![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](/help/main/assets/icons/ColumnSetting.svg)）をクリックします。
 
 1. 表示または非表示にする目的の列を選択または選択解除します。
 

@@ -6,7 +6,7 @@ hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 7%
    + [フラグにログイン](guides/console/log-in-to-the-console.md)
    + [サンドボックスの選択](guides/console/environments-overview.md)
    + [利用申請](guides/console/request-access.md)
-+ アプリ管理 {#applications}
++ アプリケーション {#applications}
    + [アプリケーションの管理](guides/applications/manage-applications.md)
    + [アプリケーションのオンボーディング](guides/applications/onboard-your-application.md)
 + フラグを統合 {#integrate}
    + [アプリにフラグを統合](guides/integrate/integrating-in-your-app.md)
    + [スタートアップガイド](guides/integrate/startup-guide.md)
    + [デスクトップアプリケーション](guides/integrate/desktop-applications.md)
-   + [モバイルアプリ](guides/integrate/mobile-applications.md)
+   + [モバイルアプリケーション](guides/integrate/mobile-applications.md)
    + [Web アプリケーション](guides/integrate/web-applications.md)
    + [Web サービス](guides/integrate/web-services.md)
    + [SDK](guides/integrate/sdks.md)

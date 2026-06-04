@@ -12,8 +12,8 @@ topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 55%
+source-wordcount: 353
+ht-degree: 54%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 55%
 
 テストにページを追加するには：
 
-1. **[!UICONTROL Configure]** アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックします。
-1. **[!UICONTROL Add Additional Pages]** をクリックします。
+1. **[!UICONTROL 設定]** アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックします。
+1. 「**[!UICONTROL 追加ページを追加]**」をクリックします。
 
-   画面の左側に[!UICONTROL Pages] ペインが表示されます。
+   画面の左側に[!UICONTROL &#x200B; ページ &#x200B;] ペインが表示されます。
 
 1. ページを指定し、デフォルトページを設定します。
 
-   **[!UICONTROL Add Page]** （![&#x200B; アイコンを追加](/help/main/assets/icons/Add.svg)）をクリックして追加ページを追加し、ページ名とURLを指定してから、**[!UICONTROL Save]**&#x200B;をクリックします。
+   **[!UICONTROL ページを追加]** （![&#x200B; アイコンを追加](/help/main/assets/icons/Add.svg)）をクリックして追加ページを追加し、ページ名とURLを指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
 1. [!UICONTROL Visual Experience Composer]を使用して、各ページでのオファーの表示方法をデザインします。

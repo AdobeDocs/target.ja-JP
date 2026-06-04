@@ -49,7 +49,7 @@ ht-degree: 1%
 
 機能グループの設定を保存します。 テストを開始する準備ができたら、機能グループをアクティブ状態に設定します。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [機能グループの作成](create-a-feature-group.md)
 * [機能グループを設定し](set-feature-group-gradual-rollout.md)

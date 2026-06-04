@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 76%
+source-wordcount: 903
+ht-degree: 77%
 
 ---
 
@@ -30,36 +30,36 @@ ht-degree: 76%
 
 ## クリックの追跡のセットアップ {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. アクティビティの[!UICONTROL Goals & Settings] ページで目標を設定する際に、**[!UICONTROL Conversion]**&#x200B;成功指標を選択します。
-1. アクションの場合は、**[!UICONTROL Clicked an element]**&#x200B;を選択し、**[!UICONTROL Select elements]**&#x200B;をクリックします。
+1. アクティビティの[!UICONTROL 目標と設定]ページで目標を設定する際に、**[!UICONTROL コンバージョン]**&#x200B;成功指標を選択します。
+1. アクションについて、「**[!UICONTROL 要素をクリック]**」を選択し、「**[!UICONTROL 要素を選択]**」をクリックします。
 
-   ページが[!UICONTROL Visual Experience Composer] （VEC）で開きます。
+   [!UICONTROL Visual Experience Composer]（VEC）でページが開きます。
 
 1. 追跡する要素を選択します。
 
    要素の選択に関するヒントについては、次の「*注意点*」の節を参照してください。
 
-1. 画面上部の&#x200B;**[!UICONTROL Done]**&#x200B;をクリックして、選択内容を保存します。
+1. 画面上部の&#x200B;**[!UICONTROL 完了]**&#x200B;をクリックして、選択内容を保存します。
 
 選択した要素をアクティビティ参加者がクリックすると、そのクリックはコンバージョンとしてカウントされます。
 
 ## 選択された要素パネル {#selected-elements}
 
-[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）、および[!UICONTROL Multivariate Test] （MVT）アクティビティの場合、[!UICONTROL Selected Elements] パネルには、左側のクリック追跡用に選択した要素が一覧表示されます。
+[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの場合、[!UICONTROL Selected Elements] パネルには、左側のクリックトラッキング用に選択した要素が一覧表示されます。
 
 ![選択された要素パネル](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-[!UICONTROL Tracked Components] パネルで要素をクリックすると、適用できるアクションがいくつかあります。 以下の表で、要素で実行できる各操作を説明します。
+[!UICONTROL &#x200B; トラッキングコンポーネント &#x200B;] パネルでエレメントをクリックすると、適用できるアクションがいくつかあります。 以下の表で、要素で実行できる各操作を説明します。
 
 | アクション | 説明 |
 | --- | --- |
-| [!UICONTROL Tracked actions] | 要素アクションを表示します。 |
-| [!UICONTROL CSS selector] | CSS セクターを編集できます。 |
+| [!UICONTROL &#x200B; トラッキングされたアクション &#x200B;] | 要素アクションを表示します。 |
+| [!UICONTROL CSS セレクター] | CSS セクターを編集できます。 |
 | [!DNL Delete] | 要素を削除します。 |
 
 ### 要素を追加
 
-セレクターへのDOM パスが既にわかっている場合は、パネルの上部にある[!UICONTROL Add Component] アイコンをクリックして手動で追加できます。
+セレクターへのDOM パスが既にわかっている場合は、パネルの上部にある「[!UICONTROL &#x200B; コンポーネントを追加]」アイコンをクリックして、手動で追加できます。
 
 ## 注意点 {#considerations}
 
@@ -75,7 +75,7 @@ ht-degree: 76%
 * 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。 各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。 ページ上の複数の要素をクリックして 1 つの項目をカウントするには、CSS 要素セレクターを編集して複数の要素と一致させます。
 * 追跡する要素のレベルを選択していることを確認してください。 例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * クリックイベントは、そのクリックと同じページの [!DNL Target] に送信されます。
-* クリック追跡指標が[!UICONTROL Analytics for Target] （A4T） アクティビティの目標指標である場合、訪問者はページ読み込みから60秒以内にこの要素をクリックして、指標を追跡する必要があります。
+* クリック追跡指標が[!UICONTROL Analytics for Target] （A4T）アクティビティの目標指標である場合、訪問者はページの読み込みから60秒以内にこの要素をクリックして、指標を追跡する必要があります。
 * 次に示すエスケープ文字がセレクターに含まれる要素では、クリックの追跡は機能しません。
 
   | 文字 | 説明 |
@@ -116,7 +116,7 @@ ht-degree: 76%
 このビデオでは、クリックの追跡の成功指標の作成について説明します。
 
 * 「目標」指標の理解
-* [!UICONTROL Conversion]、[!UICONTROL Revenue]および[!UICONTROL Engagement]指標を理解して構築する
+* [!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]の指標を理解して構築する
 * クリック追跡指標の構築
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

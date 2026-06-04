@@ -1,53 +1,53 @@
 ---
 keywords: コンテンツ;アセット;コンテンツの管理;オファー;アセットの管理;選択モードを入力;選択モード
-description: Adobe Targetでオファーライブラリを使用して、コードおよび画像オファーを管理する方法を説明します。
-title: コードと画像オファーの管理方法
+description: Adobe Targetのオファーライブラリを使用して、コードと画像オファーを管理する方法について説明します。
+title: コードと画像オファーを管理するにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '471'
 ht-degree: 16%
 
 ---
 
 # オファー
 
-[!UICONTROL Offers] の [!DNL Adobe Target] ライブラリを使用して、コードオファーと画像オファーのコンテンツを管理します。
+コード オファーと画像オファーのコンテンツを管理するには、[!DNL Adobe Target]の[!UICONTROL &#x200B; オファー] ライブラリを使用します。
 
-1. 「**[!UICONTROL Offers]**」をクリックしてライブラリを開きます。
+1. **[!UICONTROL オファー]**&#x200B;をクリックして、ライブラリを開きます。
 
-   ライブラリには、[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager]（AEM）、[!DNL Adobe Mobile Services]（AMS）および API で設定されたオファーが含まれています。[!DNL Target Classic] またはその他のソリューションで作成されたオファーは [!DNL Target Standard/Premium] で編集可能です。
+   ライブラリには、[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager]（AEM）、[!DNL Adobe Mobile Services]（AMS）および API で設定されたオファーが含まれています。 [!DNL Target Classic] またはその他のソリューションで作成されたオファーは [!DNL Target Standard/Premium] で編集可能です。
 
-   [!UICONTROL Offers] ページには、右側に 2 つのタブ（タイプ別にオファーを表示できる [!UICONTROL Code Offers] と [!UICONTROL Image Offers]）があります。
+   [!UICONTROL &#x200B; オファー] ページには、右側に2つのタブがあります。[!UICONTROL &#x200B; コードオファー]と[!UICONTROL 画像オファー] タイプ別にオファーを表示できます。
 
-   ![&#x200B; 「コードオファー」タブと「画像オファー」タブを表示するオファーページ &#x200B;](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
+   ![&#x200B; オファーページに「コードオファー」タブと「画像オファー」タブが表示されている](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. （任意）「**[!UICONTROL Type]**」ドロップダウンリストをクリックして、タイプ（HTML オファー、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[&#x200B; リダイレクトオファー &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[&#x200B; リモートオファー &#x200B;](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー &#x200B;](/help/main/c-experiences/c-manage-content/create-json-offer.md)、および [&#x200B; フォルダー &#x200B;](/help/main/c-experiences/c-manage-content/create-content-folder.md)）でオファーをフィルタリングします。
+1. （オプション）「**[!UICONTROL タイプ]**」ドロップダウンリストをクリックして、オファーをタイプ別にフィルタリングします（HTML オファー、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[&#x200B; リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[&#x200B; リモートオファー](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)、および[&#x200B; フォルダー](/help/main/c-experiences/c-manage-content/create-content-folder.md)）。
 
-   ![offers_filter 画像 &#x200B;](assets/offers_filter.png)
+   ![offers_filter image](assets/offers_filter.png)
 
-1. （任意）「**[!UICONTROL Source]**」ドロップダウンリストをクリックして、ソース（Adobe Target、Adobe Target Classic、Adobe Experience Manager）別にオファーをフィルタリングします。
+1. （オプション）「**[!UICONTROL Source]**」ドロップダウンリストをクリックして、オファーをソース別にフィルタリングします（Adobe Target、Adobe Target Classic、Adobe Experience Manager）。
 
-1. （オプション）「[!UICONTROL Code Offers]」タブで目的のオファーまたはフォルダーにマウスポインターを置いてから目的のアイコンをクリックして、追加のタスクを実行します。
+1. （オプション）「[!UICONTROL &#x200B; コードオファー]」タブの目的のオファーまたはフォルダーにカーソルを合わせ、目的のアイコンをクリックして、追加のタスクを実行します。
 
    ![&#x200B; コードオファーオプション &#x200B;](assets/offer-picker-large.png)
 
    オプションは以下のとおりです。
 
-   * 表示（詳しくは、以下の [&#x200B; オファー定義の表示 &#x200B;](#section_6B059DD121434E6292CAB393507D010E) を参照してください）。
+   * 表示（詳細については、以下の「[&#x200B; オファー定義の表示](#section_6B059DD121434E6292CAB393507D010E)」を参照してください）。
    * 編集
    * コピー
-   * 移動（例えば、1 つ以上の項目をフォルダーに移動するには、目的の項目の **[!UICONTROL Move]** のアイコンをクリックし、目的のフォルダーをクリックしてから「**[!UICONTROL Drop]**」をクリックします）。
+   * 移動（例えば、1つ以上のアイテムをフォルダーに移動するには、目的のアイテムの&#x200B;**[!UICONTROL 移動]** アイコンをクリックし、目的のフォルダーをクリックしてから、**[!UICONTROL ドロップ]**&#x200B;をクリックします）。
    * 削除
 
-   権限によっては、一部のオプションのアイコンが表示されない場合があります。 例えば、[!UICONTROL Observer] の権限を持つユーザーは [!UICONTROL Copy] オプションを使用する権限を持っていません。
+   権限によっては、すべてのオプションにアイコンが表示されない場合があります。 例えば、[!UICONTROL Observer]権限を持つユーザーには、[!UICONTROL Copy] オプションを使用する権限がありません。
 
-   オファーおよびフォルダーに対して実行できるタスクについて詳しくは、「[&#x200B; アセットライブラリのコンテンツの操作 &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
+   オファーとフォルダーで実行できるタスクについて詳しくは、[&#x200B; アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
 
-1. （オプション） [!UICONTROL Image Offers] ールタブで目的の画像オファーまたはフォルダーにマウスポインターを置き、目的のアイコンをクリックして、追加のタスクを実行します。
+1. （オプション）「[!UICONTROL 画像オファー]」タブの目的の画像オファーまたはフォルダーにカーソルを合わせ、目的のアイコンをクリックして、追加のタスクを実行します。
 
-   ![&#x200B; 画像オファーオプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
+   ![画像オファーオプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
 
    オプションは以下のとおりです。
 
@@ -58,20 +58,20 @@ ht-degree: 16%
    * 注釈
    * コピー
 
-   オファーおよびフォルダーに対して実行できるタスクについて詳しくは、「[&#x200B; アセットライブラリのコンテンツの操作 &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
+   オファーとフォルダーで実行できるタスクについて詳しくは、[&#x200B; アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
 
    >[!NOTE]
    >
-   >画像オファーは、「[&#x200B; エンタープライズユーザー権限 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデルには含まれていません。
+   >画像オファーは、[&#x200B; エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデルの一部ではありません。
 
 
 ## オファー定義の表示 {#section_6B059DD121434E6292CAB393507D010E}
 
-オファーを開かなくても、[!UICONTROL Offers] ライブラリのポップアップカードにオファー定義の詳細を表示できます。
+オファーを開かずに、[!UICONTROL Offers] ライブラリのポップアップカードでオファー定義の詳細を表示できます。
 
-例えば、HTMLオファーの次のオファー定義カードは、情報アイコンをクリックしてアクセスします。
+例えば、HTML オファーの次のオファー定義カードにアクセスするには、情報アイコンをクリックします。
 
-![offer-card-html 画像 &#x200B;](assets/offer-card-html-new.png)
+![offer-card-html image](assets/offer-card-html-new.png)
 
 以下の情報が表示されます。
 
@@ -80,11 +80,11 @@ ht-degree: 16%
 * タイプ
 * 最終変更日
 
-[!UICONTROL View Full Details] リンクをクリックして、オファーのコンテンツと、コードオファーを参照するアクティビティを表示します。 これにより、オファーの編集中に他のアクティビティに影響が及ぶことを防止できます。情報には、[!UICONTROL Live Activities] と [!UICONTROL Inactive Activities] があります。
+「[!UICONTROL 詳細を表示]」リンクをクリックして、オファーコンテンツと、コードオファーを参照するアクティビティを表示します。 これにより、オファーの編集中に他のアクティビティに影響が及ぶことを防止できます。 情報には、[!UICONTROL &#x200B; ライブアクティビティ &#x200B;]と[!UICONTROL 非アクティブアクティビティ &#x200B;]が含まれます。
 
-各カードで使用できる情報は、オファータイプ（HTML オファー、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[&#x200B; リダイレクトオファー &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[&#x200B; リモートオファー &#x200B;](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON オファー &#x200B;](/help/main/c-experiences/c-manage-content/create-json-offer.md) によって異なります。
+各カードで利用できる情報は、オファータイプによって異なります。HTML オファー、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[&#x200B; リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[&#x200B; リモートオファー](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、または[JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
 
-オファー詳細機能は、画像オファーには適用されません。
+オファーの詳細機能は、画像オファーには適用されません。
 
 <!--
 

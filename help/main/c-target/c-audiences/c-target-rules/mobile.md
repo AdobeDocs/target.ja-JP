@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 38%
+source-wordcount: 707
+ht-degree: 39%
 
 ---
 
@@ -50,10 +50,10 @@ ht-degree: 38%
 
 （at.js または Mobile SDK を使用していない）カスタム統合を使用しているユーザーは、これらのパラメーターを手動で収集して mbox パラメーターとして渡すことができます。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;をクリックします。
+1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**」 > 「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付け、オプションの説明を追加します。
 1. **[!UICONTROL Mobile]**&#x200B;をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
-1. 「**[!UICONTROL Select]**」をクリックし、次のいずれかのオプションを選択します。
+1. 「**[!UICONTROL 選択]**」をクリックして、次のいずれかのオプションを選択します。
 
    * デバイスのマーケティング名
    * デバイスモデル
@@ -70,7 +70,7 @@ ht-degree: 38%
    >[地域設定](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)を使用してモバイルデバイスの通信事業者にターゲット設定できます。
 
 1. （オプション）オーディエンスの追加ルールを設定します。
-1. **[!UICONTROL Done]** をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 次の図は、Googleで製造されたモバイルデバイスを使用する訪問者をターゲットとするオーディエンスを示しています。
 
@@ -82,7 +82,7 @@ ht-degree: 38%
 
 ### IOS 12.2以降を実行しているデバイスをターゲットにする
 
-IOS 12.2で導入された新しい変更により、iPhone モデルを指定する[!UICONTROL Device Marketing Name]および[!UICONTROL Device Model]によって定義されたルールを使用してオーディエンスを作成することが影響を受けます。 [!DNL Target]は、iOS 12.2以降がインストールされたiPhoneを持つユーザーをターゲットにできなくなりました。 ただし、これらのユーザーがiOS 12.2 （またはそれ以降）を持っていない場合、iPhone モデルのターゲティングは引き続き正しく機能します。
+IOS 12.2で導入された新しい変更により、[!UICONTROL Device Marketing Name]および[!UICONTROL Device Model]によって定義されたルールを使用して、iPhone モデルを指定するオーディエンスを作成することが影響を受けます。 [!DNL Target]は、iOS 12.2以降がインストールされたiPhoneを持つユーザーをターゲットにできなくなりました。 ただし、これらのユーザーがiOS 12.2 （またはそれ以降）を持っていない場合、iPhone モデルのターゲティングは引き続き正しく機能します。
 
 IOS 12.2 （以降）のアップデートは、以下のモデルの識別には影響しません。これらのモデルは、iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina display、iPad Retina （第4世代）、iPod Touch 4、およびiPod Touch 5へのアップグレードをサポートしていないためです。
 

@@ -5,7 +5,7 @@ hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ロールアウトを拡張、縮小、または一時停止するには、いつでもパーセンテージを増減できます。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [機能グループの作成](create-a-feature-group.md)
 * [機能フラグによるA/B テスト](a-b-testing.md)

@@ -15,7 +15,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: 476
 ht-degree: 61%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 61%
 +++回答
 Analytics アクティビティを定義するときは、レポートスイートを選択する前に、Analytics ユーザーアカウントと Target ユーザーアカウントの両方が必要になります。 ドキュメントの説明に従って、ユーザーアカウントを設定する必要があります。 [&#x200B; ユーザー権限の要件](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)を参照してください。
 
-AnalyticsとTargetにアクセスできる1つ以上のExperience Cloud グループのメンバーであり、すべてのレポートスイートにアクセスできる場合は、**[!UICONTROL Create Activity]**&#x200B;でAnalyticsを使用してA/B テストを作成するオプションが表示されます。
+AnalyticsとTargetにアクセスできる1つ以上のExperience Cloud グループのメンバーであり、すべてのレポートスイートにアクセスできる場合は、**[!UICONTROL アクティビティを作成]**&#x200B;でAnalyticsを使用してA/B テストを作成するオプションが表示されます。
 
 プロビジョニングの問題が発生した場合は、A4T が正しくプロビジョニングされているかどうかをチェックします。
 

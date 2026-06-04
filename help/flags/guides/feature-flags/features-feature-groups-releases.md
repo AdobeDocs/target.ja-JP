@@ -5,7 +5,7 @@ hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 | 単一の機能を単一のアプリケーションでテストまたはロールアウトする | **機能フラグ** |
 | 同じチームの複数の機能を同時に公開する | **機能グループ** |
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [最初の機能フラグを作成](create-your-first-feature-flag.md)
 * [機能グループの作成](create-a-feature-group.md)

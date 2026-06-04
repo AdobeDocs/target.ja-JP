@@ -5,7 +5,7 @@ hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '99'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 アプリケーションを追加する手順については、[&#x200B; アプリケーションのオンボーディング &#x200B;](onboard-your-application.md)を参照してください。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [アプリケーションのオンボーディング](onboard-your-application.md)
 * [複数の機能を制御する機能グループ](../../concepts/feature-groups-to-control-multiple-features.md)

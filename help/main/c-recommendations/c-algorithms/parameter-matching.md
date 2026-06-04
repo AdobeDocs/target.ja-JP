@@ -12,12 +12,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: 350
 ht-degree: 15%
 
 ---
 
-# [!UICONTROL Parameter Matching]
+# [!UICONTROL パラメーターのマッチング]
 
 アイテム（エンティティ）をリクエスト（APIまたはmbox）の値と比較して、動的にフィルタリングします。
 
@@ -37,7 +37,7 @@ ht-degree: 15%
 
 ## パラメーターの一致の例
 
-[!UICONTROL Parameter Matching]を使用すると、次の例のように、ページパラメーターや訪問者のパラメーター（デバイスのサイズや位置情報など）に一致するコンテンツをレコメンドできます。
+[!UICONTROL &#x200B; パラメーターマッチング &#x200B;]を使用すると、次の例のように、ページパラメーターや訪問者のパラメーター（デバイスのサイズや位置情報など）に一致するコンテンツをレコメンドできます。
 
 [!DNL Recommendations]は、[!DNL Target]呼び出しで送信されたパラメーター値と一致する可能性があります。 この場合、[!DNL Target]は、[!DNL Target]呼び出しで送信された画面の高さと幅のパラメーターに基づいて、訪問者がモバイルデバイスを使用していることを検出し、モバイルデバイスである項目のみを推奨します。
 

@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 46%
+source-wordcount: 367
+ht-degree: 44%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 46%
 ## 目標の指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？ {#adv-settings}
 
 +++回答
-[!UICONTROL Advanced Settings] オプションは、[!DNL Analytics]をレポートソース （A4T）として使用するアクティビティでは使用できません。
+[!UICONTROL 詳細設定] オプションは、[!DNL Analytics]をレポートソース （A4T）として使用するアクティビティでは使用できません。
 
-A4Tを使用するアクティビティの場合、目標指標は常に&quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;および&quot;[!UICONTROL On Every Impression]&quot;設定を使用します。 これらの設定は、*変更できません*。
+A4Tを使用するアクティビティの場合、目標指標は常に「[!UICONTROL 増分数とアクティビティ内のユーザーを保持]」と「[!UICONTROL すべてのインプレッション &#x200B;]」の設定を使用します。 これらの設定は、*変更できません*。
 
-A4T以外のアクティビティの場合は、[詳細設定オプション &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)を使用して、成功の測定方法を管理できます。 依存関係の追加、アクティビティでユーザーを保持するか削除するかの選択、参加者ごとに 1 回指標をカウントするか、すべてのインプレッションで指標をカウントするかの選択などのオプションがあります。 以下に示すように、A4T以外のアクティビティの[!UICONTROL Advanced Settings] オプションにアクセスするには、垂直楕円> [!UICONTROL Advanced Settings]をクリックします。
+A4T以外のアクティビティの場合は、[詳細設定オプション &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)を使用して、成功の測定方法を管理できます。 依存関係の追加、アクティビティでユーザーを保持するか削除するかの選択、参加者ごとに 1 回指標をカウントするか、すべてのインプレッションで指標をカウントするかの選択などのオプションがあります。 以下に示すように、A4T以外のアクティビティで[!UICONTROL 詳細設定] オプションにアクセスするには、垂直省略記号> [!UICONTROL 詳細設定]をクリックします。
 
 ![詳細設定](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

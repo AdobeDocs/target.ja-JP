@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 60%
 
 ## [!DNL Target Standard/Premium] 26.5.3 （2026年5月21日（PT））
 
-**[!UICONTROL What's new]ページ**
+**[!UICONTROL 新機能] ページ**
 
 +++詳細を見る
 
-* **新規[!UICONTROL What's new] ページ。** 製品から離れることなく、最新の機能、機能強化、更新を見つけやすくするために、[!DNL Adobe Target] UIに新しい&#x200B;**[!UICONTROL What's new]** ページを追加しました。 （TGT-55137）
+* **新規[!UICONTROL 新機能] ページ。** 製品から離れることなく、最新の機能、機能強化、アップデートを見つけやすくするために、[!DNL Adobe Target] UIに新しい&#x200B;**[!UICONTROL 新機能]** ページを追加しました。 （TGT-55137）
 
 +++
 
@@ -45,7 +45,7 @@ ht-degree: 60%
 
 +++詳細を見る
 
-* [!UICONTROL Automated Personalization]件のアクティビティでターゲティングを編集する際に、**間違ったエクスペリエンスが選択されました。** [!UICONTROL Automated Personalization] （AP）アクティビティで&#x200B;**[!UICONTROL Targeting]** ステップを編集する際に、間違ったエクスペリエンスを選択できる問題を修正しました。 （TGT-55176）
+* [!UICONTROL Automated Personalization] アクティビティでターゲティングを編集する際に、**間違ったエクスペリエンスが選択されました。** [!UICONTROL Automated Personalization] （AP）アクティビティで&#x200B;**[!UICONTROL ターゲティング]** ステップを編集する際に、間違ったエクスペリエンスを選択できる問題を修正しました。 （TGT-55176）
 
 * **スケジュールされたアクティビティを閉じる前の日付。** スケジュールされたアクティビティを閉じるために以前の日付を選択できない問題を修正しました。 （TGT-55163）
 

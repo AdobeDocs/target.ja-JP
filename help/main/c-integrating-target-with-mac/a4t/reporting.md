@@ -15,8 +15,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1269
-ht-degree: 39%
+source-wordcount: 1316
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 39%
 
 訪問者がページ上のアクティビティコンテンツを見るたびに、[!DNL Target]は、訪問者が見たアクティビティとエクスペリエンスを含め、[!DNL Analytics]に直接サーバー間呼び出しを行います。 [!DNL Target]は、変換が行われるたびに[!DNL Analytics]も呼び出します。 [!DNL Analytics]は、コンバージョンを「アクティビティのコンバージョン」という名前の特定の新しい[!DNL Analytics] イベントとして追加します。このイベントは、[!DNL Analytics]によって収集された他のデータと共に追跡されます。
 
-[!UICONTROL Select]操作を使用して&#x200B;*参加者*&#x200B;に並べ替えると、選択した期間に参加者を受け取ったエクスペリエンスのみがレポートに表示されます。
+[!UICONTROL Select]操作を使用し、*参加者*&#x200B;に並べ替えると、選択した期間に参加者を受け取ったエクスペリエンスのみがレポートに表示されます。
 
 >[!NOTE]
 >
@@ -47,21 +47,21 @@ ht-degree: 39%
 ### ディメンション
 
 * [!UICONTROL Analytics for Target] – 統合を通じて渡される親ID。 このディメンションの形式は`Activity ID:Experience ID:3rd ID`です。 以下のディメンションは、このディメンションの分類です。
-* [!UICONTROL Target Activities]
-* [!UICONTROL Target Experiences]
-* [!UICONTROL Target Activity]／[!UICONTROL Experience]
+* [!UICONTROL &#x200B; ターゲットアクティビティ &#x200B;]
+* [!UICONTROL &#x200B; ターゲットエクスペリエンス &#x200B;]
+* [!UICONTROL &#x200B; ターゲットアクティビティ &#x200B;] > [!UICONTROL &#x200B; エクスペリエンス &#x200B;]
 * [!UICONTROL 3rd ID] – 無視できます
 
 ### 指標
 
-* [!UICONTROL Activity Impressions] - [!DNL Target] レポートの[!UICONTROL Entrants]番号と一致します。
-* [!UICONTROL Activity Conversions] - [!DNL Target] レポートの[!UICONTROL Custom Conversions]番号と一致します。
+* [!UICONTROL &#x200B; アクティビティのインプレッション &#x200B;] - [!DNL Target] レポートの[!UICONTROL 参加者]の数値と一致します。
+* [!UICONTROL &#x200B; アクティビティ コンバージョン &#x200B;] - [!DNL Target] レポートの[!UICONTROL &#x200B; カスタム コンバージョン &#x200B;]番号と一致します。
 
-[!DNL Analysis Workspace]では、[!UICONTROL Analytics for Target] パネルを使用して、上昇率と信頼性で[!DNL Target]のアクティビティとエクスペリエンスを分析します。 詳しくは、*分析ツールガイド*&#x200B;の「[Analytics for Target （A4T） Panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja)」を参照してください。
+[!DNL Analysis Workspace]では、[!UICONTROL Analytics for Target] パネルを使用して、上昇率と信頼性を持って[!DNL Target]のアクティビティとエクスペリエンスを分析します。 詳しくは、*分析ツールガイド*&#x200B;の「[Analytics for Target （A4T） Panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja)」を参照してください。
 
 >[!IMPORTANT]
 >
->[!DNL Analytics]の[!UICONTROL Target Activities] レポートで、アクティビティを一覧表示する代わりに「未指定」が一覧表示される場合、プロビジョニングされたアカウントに更新が必要です。 カスタマーケアに連絡して、この問題を解決してください。
+>[!DNL Analytics]の[!UICONTROL &#x200B; ターゲットアクティビティ &#x200B;] レポートに、アクティビティを一覧表示する代わりに「未指定」が一覧表示されている場合、プロビジョニングされたアカウントに更新が必要です。 カスタマーケアに連絡して、この問題を解決してください。
 
 詳細な情報と例については、Adobe Experience Leagueが提供する[AnalyticsとTarget：分析のベストプラクティス &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)のチュートリアルを開いてください。
 
@@ -69,8 +69,8 @@ ht-degree: 39%
 
 [!DNL Analytics]がレポートソースとして使用されている場合、[!DNL Target]のレポートには[!DNL Analytics]から収集されたデータが表示されます。 このレポートは、他の[!DNL Target]件のレポートとは多少異なります。
 
-* [!UICONTROL Audiences] リストには、[!DNL Analytics] レポートスイートで使用できるオーディエンスが表示されます。
-* [!UICONTROL Metric] リストには、[!DNL Analytics]を通じて使用可能なすべての指標が表示されます。
+* [!UICONTROL &#x200B; オーディエンス &#x200B;]のリストには、[!DNL Analytics] レポートスイートで使用できるオーディエンスが表示されます。
+* [!UICONTROL 指標] リストには、[!DNL Analytics]を通じて使用可能なすべての指標が表示されます。
 
   [!DNL Analytics]に組み込まれているカスタム指標または計算指標を含め、すべての指標を利用できます。
 
@@ -82,7 +82,7 @@ ht-degree: 39%
 
 ## アクティビティの作成 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-アクティビティの作成中に、[!UICONTROL Settings] ページのアクティビティの目標を指定する必要があります。 この目標は、レポートのデフォルトの指標となり、指標セレクターで常に先頭に表示されます。 通常の Target アクティビティとは異なり、レポート用のセグメントを自由に選択できません。 [!DNL Analytics]を使用したテストでは、[!DNL Target]人のオーディエンスではなく[!DNL Adobe Analytics]人のセグメントを使用します。
+アクティビティを作成する場合は、[!UICONTROL 設定]ページでアクティビティの目標を指定する必要があります。 この目標は、レポートのデフォルトの指標となり、指標セレクターで常に先頭に表示されます。 通常の Target アクティビティとは異なり、レポート用のセグメントを自由に選択できません。 [!DNL Analytics]を使用したテストでは、[!DNL Target]人のオーディエンスではなく[!DNL Adobe Analytics]人のセグメントを使用します。
 
 ## Analytics for Adobe Target（A4T）のオフライン計算の実行 {#section_B34BD016C8274C97AC9564F426B9607E}
 
@@ -95,8 +95,8 @@ A4Tの場合、（バイナリ指標ではなく）連続変数に[Welchのt-tes
 **[!DNL Analytics] のデータエクスポート機能を使用してこれをおこなう手順は次のとおりです。**
 
 1. [!DNL Adobe Analytics]にログインします。
-1. **[!UICONTROL Tools]**／**[!UICONTROL Data Warehouse]**&#x200B;をクリックします。
-1. 「**[!UICONTROL Data Warehouse Request]**」タブで、フィールドに入力します。
+1. **[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]** をクリックします。
+1. 「**[!UICONTROL Data Warehouse リクエスト]**」タブで、各フィールドに記入します。
 
    各フィールドについて詳しくは、[Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=ja) の「Data Warehouse の説明」を参照してください。
 
@@ -105,16 +105,16 @@ A4Tの場合、（バイナリ指標ではなく）連続変数に[Welchのt-tes
    | リクエスト名 | リクエストの名前を指定します。 |
    | レポート日 | 期間と精度を指定します。<br>最初のリクエストでは 1 時間以内または 1 日以内のデータを選択することをお勧めします。  Data Warehouse のファイルは、リクエストする期間が長いほど処理に時間がかかります。そのため、最初は短い期間のデータをリクエストして、ファイルが想定どおりの結果を返すかどうかを確認することをお勧めします。 その後リクエストマネージャーに移動してリクエストを複製し、2 回目はより長い期間のデータをリクエストします。 また、粒度を「なし」以外に切り替えると、ファイルサイズが大幅に増加します。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | 選択可能なセグメント | 必要に応じてセグメントを適用します。 |
-   | 分類 | 目的のディメンションを選択します。標準は標準（OOTB）ですが、カスタムにはeVarとpropが含まれます。 「Experience Cloud Visitor ID」ではなく、訪問者ID レベルの情報が必要な場合は、「訪問者ID」を使用することをお勧めします。<ul><li>訪問者 ID は、Analytics で使用される最終的な ID で、 AID（既存の顧客）か MID（新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客）になります。</li><li>Experience Cloud 訪問者 ID が設定されるのは、新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客のみです。</li></ul> |
+   | 分類 | 目的のディメンションを選択します。標準は標準（OOTB）ですが、カスタムにはeVarとpropが含まれます。 「Experience Cloud訪問者ID」ではなく、訪問者ID レベルの情報が必要な場合は、「訪問者ID」を使用することをお勧めします。<ul><li>訪問者 ID は、Analytics で使用される最終的な ID で、 AID（既存の顧客）か MID（新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客）になります。</li><li>Experience Cloud 訪問者 ID が設定されるのは、新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客のみです。</li></ul> |
    | 指標 | 目的の指標を選択します。 「標準」は OOTB で、「カスタム」にはカスタムイベントが含まれます。 |
    | レポートプレビュー | レポートのスケジュールを設定する前に設定を確認します。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | 配信の予定 | ファイルを配信する電子メールアドレスを入力し、ファイルに名前を付けて、[!UICONTROL Send Immediately]を選択します。<br>注意：ファイルは、[!UICONTROL Advanced Delivery Options]<br>![配信スケジュール &#x200B;](/help/main/c-reports/assets/datawarehouse3.png)の下のFTP経由で配信できます。 |
+   | 配信の予定 | ファイルを配信する電子メールアドレスを入力し、ファイルに名前を付けて、[!UICONTROL すぐに送信]を選択します。<br>注意：ファイルは、[!UICONTROL 詳細配信オプション &#x200B;]<br>![配信スケジュール &#x200B;](/help/main/c-reports/assets/datawarehouse3.png)の下でFTP経由で配信できます。 |
 
-1. **[!UICONTROL Request this Report]** をクリックします。
+1. 「**[!UICONTROL このレポートのリクエスト]**」をクリックします。
 
-   ファイルの配信には、リクエストしたデータの量に応じて最大で 72 時間かかります。 リクエストの進行状況は、[!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager]をクリックすることでいつでも確認できます。
+   ファイルの配信には、リクエストしたデータの量に応じて最大で 72 時間かかります。 リクエストの進捗状況は、[!UICONTROL ツール]／[!UICONTROL Data Warehouse]／[!UICONTROL リクエストマネージャー]をクリックすることでいつでもチェックできます。
 
-   過去に要求したデータを再リクエストする場合は、必要に応じて[!UICONTROL Request Manager]から古いリクエストを複製できます。
+   過去にリクエストしたデータを再リクエストする場合は、必要に応じて[!UICONTROL &#x200B; リクエストマネージャー]から古いリクエストを複製できます。
 
 [!DNL Data Warehouse] について詳しくは、[!DNL Analytics] のヘルプドキュメントの以下のリンクを参照してください。
 

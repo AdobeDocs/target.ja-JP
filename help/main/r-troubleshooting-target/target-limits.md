@@ -22,8 +22,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
-ht-degree: 74%
+source-wordcount: 1772
+ht-degree: 73%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 74%
 
 * デザインで参照できるエンティティの最大数は、ハードコーディングでもループ経由でも 99 です。
 * 最高のパフォーマンスを得るには、カタログを環境あたり 100 万項目未満、すべての環境で 1000 万項目未満に制限することをお勧めします。
-* 上限は、環境あたり1000 万項目、全環境で 1 億項目です。 環境ごとに100万～1000万個の項目がある場合、[!UICONTROL Catalog Search] UIのパフォーマンスに影響が及びます。 [!DNL Target Recommendations]ただし、レコメンデーションの生成と配信は引き続き行われます。
+* 上限は、環境あたり1000 万項目、全環境で 1 億項目です。 環境ごとに100万～1000万個のアイテムがある場合、[!UICONTROL &#x200B; カタログ検索] UIのパフォーマンスに影響が及びます。 [!DNL Target Recommendations]ただし、レコメンデーションの生成と配信は引き続き行われます。
 
 ### エンティティカスタム属性
 
@@ -170,7 +170,7 @@ ht-degree: 74%
 
 ### アクティビティあたりのエクスペリエンス
 
-* **制限**: [!UICONTROL Experience Targeting] （XT）、[!UICONTROL A/B Test]、[!UICONTROL Multivariate Test] （MVT）、および[!UICONTROL Auto-Target] アクティビティごとに2,000件のエクスペリエンス。
+* **制限**: [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL 多変量テスト &#x200B;] （MVT）、[!UICONTROL 自動ターゲット &#x200B;] アクティビティごとに2,000件のエクスペリエンス。
 
   Automated Personalization（AP）アクティビティあたり 30,000 個のエクスペリエンス。
 

@@ -6,7 +6,7 @@ exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ IOSのFlags拡張機能は、Adobe Experience Platform Mobile SDKと統合され
 
 設定手順については、[iOS拡張機能の統合ガイド &#x200B;](../sdk-releases/ios/ios-extension-integration-guide.md)を参照してください。
 
-## 詳しくは、 {#see-also}
+## 詳細については、 {#see-also}
 
 * [Android拡張機能の統合ガイド](../sdk-releases/android/android-extension-integration-guide.md)
 * [Web サービス](web-services.md)
