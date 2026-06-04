@@ -64,7 +64,7 @@ ht-degree: 47%
 >
 >[!DNL Recommendations] ユーザーは、ホストのホストグループを切り替える場合、行動データベースおよび製品データベースを再構築する必要があります。
 >
-> [!DNL Adobe Experience Platform]  データストリーム [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}で デフォルト環境を指定した場合、この設定は[!DNL Target]の設定を上書きします。
+> [!DNL Adobe Experience Platform]  データストリーム [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja#target){target=_blank}で デフォルト環境を指定した場合、この設定は[!DNL Target]の設定を上書きします。
 
 ## 環境の名前の変更 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

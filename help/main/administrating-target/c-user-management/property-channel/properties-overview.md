@@ -97,7 +97,7 @@ ht-degree: 55%
 
    これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。 ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つことができます。
 
-1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
@@ -116,7 +116,7 @@ ht-degree: 55%
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。 新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
 1. Admin Consoleで、ページの上部にある「**[!UICONTROL ユーザー]**」タブ/「**[!UICONTROL ユーザーグループ]**」をクリックして、新しいユーザーグループを作成するか、既存のグループを編集します。
-1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 ## 手順 4. プロパティを作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -165,7 +165,7 @@ ht-degree: 55%
 
    * **[!DNL Adobe Experience Platform]:**&#x200B;内のタグの「カスタムパラメーター」経由
 
-     詳しくは、*タグの概要* ドキュメントの[Mbox パラメーターの追加](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params)を参照してください。
+     詳しくは、*タグの概要* ドキュメントの[Mbox パラメーターの追加](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ja#add-mbox-params)を参照してください。
 
    * **targetPageParamsAll （）関数を使用：** at.js参照の上の`<head>` タグに次のコードを配置します。
 

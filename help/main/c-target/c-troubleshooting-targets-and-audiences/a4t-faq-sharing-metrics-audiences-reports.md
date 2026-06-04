@@ -30,7 +30,7 @@ ht-degree: 65%
 +++回答
 異なるユーザーグループ用にテストのビューを作成して、テスト結果を簡単に考察できるようにしたいと思うことはよくあります。 Analytics では、レポートの現在のビュー（指標、データ範囲、セグメントなどのデータ）を保存するブックマークを作成できます。
 
-詳しくは、[&#x200B; ブックマークマネージャー](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html)を参照してください。
+詳しくは、[&#x200B; ブックマークマネージャー](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=ja)を参照してください。
 
 +++
 
@@ -39,6 +39,6 @@ ht-degree: 65%
 +++回答
 特別な指標およびセグメントをテストに使用している場合、最適化チームのためのユーザーグループを作成することを検討します。 これらの指標およびセグメントを個別のメンバーではなくグループと共有して、全員がセグメントおよび指標にアクセスできるようにします。 管理者だけがグループと共有できます。
 
-[&#x200B; セグメントの共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)および[計算指標の共有](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html)を参照してください。
+[&#x200B; セグメントの共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html?lang=ja)および[計算指標の共有](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html?lang=ja)を参照してください。
 
 +++

@@ -50,8 +50,8 @@ ht-degree: 23%
 
 | Target SDK | 推奨アクション |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0以降を使用していることを確認します。 最新バージョンのPlatform Web SDKのダウンロードについて詳しくは、*Platform Web SDKの概要* ガイドの[SDKのインストール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、*Platform Web SDKの概要* ガイドの[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja)を参照してください。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。 at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank} を参照してください。 at.jsの各バージョンの新機能について詳しくは、[at.js バージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。<br>at.jsを使用しているお客様は、応答トークンを使用し、プラグインから移動することをお勧めします。 mbox.js （現在は非推奨）に存在していたものの、at.jsには存在しない内部メソッドに依存する一部のプラグインは、配信されますが、失敗します。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0以降を使用していることを確認します。 最新バージョンのPlatform Web SDKのダウンロードについて詳しくは、*Platform Web SDKの概要* ガイドの[SDKのインストール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja){target=_blank}を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、*Platform Web SDKの概要* ガイドの[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja)を参照してください。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。 at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank} を参照してください。 at.jsの各バージョンの新機能について詳しくは、[at.js バージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。<br>at.jsを使用しているお客様は、応答トークンを使用し、プラグインから移動することをお勧めします。 mbox.js （現在は非推奨）に存在していたものの、at.jsには存在しない内部メソッドに依存する一部のプラグインは、配信されますが、失敗します。 |
 
 ## 応答トークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -59,7 +59,7 @@ ht-degree: 23%
 
    詳細：
 
-   * **Platform Web SDK**: *Platform Web SDKの概要* ガイドの[SDKのインストール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)を参照してください。
+   * **Platform Web SDK**: *Platform Web SDKの概要* ガイドの[SDKのインストール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)を参照してください。
    * **at.js**: [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank}のダウンロードを参照してください。
 
 1. [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL 応答トークン]**&#x200B;をクリックします。

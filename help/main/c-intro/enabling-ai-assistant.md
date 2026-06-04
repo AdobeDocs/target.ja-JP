@@ -26,7 +26,7 @@ ht-degree: 0%
 
 [!DNL AI Assistant]へのアクセスを取得するには、まず追加の法的条件に同意する必要があります。 次に、これらの条件に関するガイダンスについて、Adobeのアカウントチームにお問い合わせください。
 
-詳しくは、*[!DNL Experience Platform]* ドキュメントの[&#x200B; アクセス  [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}を参照してください。
+詳しくは、*[!DNL Experience Platform]* ドキュメントの[&#x200B; アクセス  [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access){target=_blank}を参照してください。
 
 ## [!UICONTROL AI アシスタント &#x200B;]のユーザー権限を有効にする
 

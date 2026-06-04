@@ -35,7 +35,7 @@ JSON オファーを使用する際は次の点を考慮してください。
 
 * JSON オファーは現在、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティでのみ使用できます。
 * JSON オファーは、[&#x200B; フォームベースのアクティビティ &#x200B;](/help/main/c-experiences/form-experience-composer.md)でのみ使用できます。
-* JSON オファーは、[Server Side APIとMobile Node.js、Java、.NET、およびPython SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}を使用している場合に直接取得できます。
+* JSON オファーは、[Server Side APIとMobile Node.js、Java、.NET、およびPython SDK](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/server-side-overview){target=_blank}を使用している場合に直接取得できます。
 * ブラウザーでは、JSON オファーは、`setJson` アクションを使用してアクションをフィルタリングすることにより、at.js 1.2.3 （以降）および[getOffer （） &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}を使用してのみ取得できます。
 * JSON オファーは、文字列ではなくネイティブの JSON オブジェクトとして配信されます。 これらのオブジェクトを利用する際に、オブジェクトを文字列として処理し、JSON オブジェクトに変換する必要はなくなりました。
 * JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。 開発者は、[getOffer （） &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}を使用してオファーを明示的に取得するコードを記述する必要があります。

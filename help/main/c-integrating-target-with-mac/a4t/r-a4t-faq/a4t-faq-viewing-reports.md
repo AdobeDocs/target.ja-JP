@@ -232,7 +232,7 @@ A/B テストを実行すると、[Welchのt-test](https://en.wikipedia.org/wiki
 [!DNL Analysis Workspace]のアクティビティのインプレッションを表示するには：
 
 1. [!DNL Target] UIで、「**[!UICONTROL Analyticsで表示]**」をクリックします。
-1. **[!UICONTROL アクティビティのインプレッション]**&#x200B;列を[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} レポートに追加します。
+1. **[!UICONTROL アクティビティのインプレッション]**&#x200B;列を[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja){target=_blank} レポートに追加します。
 1. **[!UICONTROL アクティビティインプレッション]**&#x200B;列で、[!UICONTROL &#x200B; ギア &#x200B;] アイコンをクリックします。
 1. 「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」をクリックします。
 1. **[!UICONTROL 同じタッチモデル]** > **[!UICONTROL 適用]**&#x200B;を選択します。

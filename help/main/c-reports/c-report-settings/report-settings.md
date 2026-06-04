@@ -145,7 +145,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} （AEP）を使用して指標データを[!DNL Target]に送信する場合、AEP データストリームの環境は、[!DNL Target] レポート設定の環境と一致する必要があります。
+>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target=_blank} （AEP）を使用して指標データを[!DNL Target]に送信する場合、AEP データストリームの環境は、[!DNL Target] レポート設定の環境と一致する必要があります。
 
 ### レポートデータをリセット
 

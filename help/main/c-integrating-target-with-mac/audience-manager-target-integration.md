@@ -25,7 +25,7 @@ ht-degree: 0%
 
 [!DNL Target]/[!DNL Audience Manager]統合では、[!DNL Audience Manager] セグメントを[!DNL Target]に送信できます。
 
-詳しくは、*[!DNL Audience Manager]ユーザーガイド*&#x200B;の「[統合 [!DNL Audience Manager] と [!DNL Target]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)」を参照してください。
+詳しくは、*[!DNL Audience Manager]ユーザーガイド*&#x200B;の「[統合 [!DNL Audience Manager] と [!DNL Target]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)」を参照してください。
 
 ## ビデオ：[!DNL Target]と[!DNL Adobe Audience Manager] （3:06）の統合
 

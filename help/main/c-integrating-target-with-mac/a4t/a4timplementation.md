@@ -46,7 +46,7 @@ A4Tを実装する前に、[!DNL Analytics]と[!DNL Target]に対してプロビ
 
 ### 手順4:Platform Web SDKのインストールと設定
 
-[!DNL Target] エクスペリエンスの配信を開始し、トラッキングと分析の目的で[!DNL Analytics]を適用するには、[Platform Web SDKをサイトページに](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) インストールし、[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)します。
+[!DNL Target] エクスペリエンスの配信を開始し、トラッキングと分析の目的で[!DNL Analytics]を適用するには、[Platform Web SDKをサイトページに](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja) インストールし、[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja)します。
 
 ### 手順5:A4Tを使用するためのオプションを有効にする
 
@@ -71,15 +71,15 @@ A4Tを実装する前に、[!DNL Analytics]と[!DNL Target]に対してプロビ
 
 訪問者ID サービスを使用すると、[!DNL Adobe Experience Cloud]個のソリューションでユーザーを識別できます。 Experience Cloud訪問者IDの必要なバージョンを実装または移行します。 詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-*Experience Cloud Visitor ID Service* ドキュメントの「[Target用Experience Cloud ID サービスの実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)」を参照してください。
+*Experience Cloud Visitor ID Service* ドキュメントの「[Target用Experience Cloud ID サービスの実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=ja)」を参照してください。
 
 ### 手順 4： AppMeasurement for JavaScript または s_code を更新します。
 
 必要なバージョンのappMeasurement.jsを実装または移行します。 詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-新しい実装については、*Analytics実装ガイド*&#x200B;の[JavaScript実装の概要](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)を参照してください。
+新しい実装については、*Analytics実装ガイド*&#x200B;の[JavaScript実装の概要](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ja)を参照してください。
 
-移行については、*Analytics実装ガイド*&#x200B;の「[JavaScript版AppMeasurementへの移行](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)」を参照してください。
+移行については、*Analytics実装ガイド*&#x200B;の「[JavaScript版AppMeasurementへの移行](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=ja)」を参照してください。
 
 ### 手順5:at.jsのダウンロードと更新
 
@@ -129,7 +129,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-その後、ペイロードは[Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)を介してAnalyticsに転送できます。 自動配分アクティビティと自動ターゲットアクティビティの場合は、sessionIdも転送する必要があります。 詳しくは、*Adobe Target SDK* ガイドの[Analytics for Target （A4T） レポート &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}を参照してください。
+その後、ペイロードは[Data Insertion API](https://helpx.adobe.com/jp/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)を介してAnalyticsに転送できます。 自動配分アクティビティと自動ターゲットアクティビティの場合は、sessionIdも転送する必要があります。 詳しくは、*Adobe Target SDK* ガイドの[Analytics for Target （A4T） レポート &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=ja){target=_blank}を参照してください。
 
 グローバル設定が望ましくなく、よりオンデマンドなアプローチが望ましい場合は、**analyticsLogging: &quot;client_side&quot;**&#x200B;を渡してat.js関数[getOffers （） &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank}を使用します。 この呼び出しにのみ分析ペイロードが返され、[!DNL Target] バックエンドはペイロードを[!DNL Analytics]に転送しません。 このアプローチを実行すると、すべてのat.js [!DNL Target] リクエストはデフォルトでペイロードを返しますが、必要な場合と指定された場合にのみ返されます。
 
@@ -187,7 +187,7 @@ adobe.target.getOffers({
 }
 ```
 
-その後、ペイロードは [&#x200B; Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) を介して [!DNL Analytics] に転送できます。
+その後、ペイロードは [&#x200B; Data Insertion API](https://helpx.adobe.com/jp/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) を介して [!DNL Analytics] に転送できます。
 
 ### 手順 8： 実装を検証します。 {#step8}
 

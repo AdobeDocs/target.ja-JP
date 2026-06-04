@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]製品の分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics]製品分類は、推奨事項に使用できる唯一の分類です。 この分類ファイルについて詳しくは、*分析コンポーネント* ガイドの[分類について](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)を参照してください。 レコメンデーションに必要なすべての情報が現在の実装で使用できるわけではないので、分類ファイルに追加する場合は、このユーザーガイドに従ってください。
+[!DNL Analytics]製品分類は、推奨事項に使用できる唯一の分類です。 この分類ファイルについて詳しくは、*分析コンポーネント* ガイドの[分類について](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja)を参照してください。 レコメンデーションに必要なすべての情報が現在の実装で使用できるわけではないので、分類ファイルに追加する場合は、このユーザーガイドに従ってください。
 
 >[!IMPORTANT]
 >

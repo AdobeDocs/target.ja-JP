@@ -25,7 +25,7 @@ ht-degree: 58%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform] ソースは、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}を使用しているすべての[!DNL Target]のお客様が利用できます。 [!DNL Adobe Experience Platform]から利用可能なオーディエンスは、そのまま使用することも、このトピックで説明しているように、既存のオーディエンスと組み合わせることもできます。
+>[!DNL Adobe Experience Platform] ソースは、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}を使用しているすべての[!DNL Target]のお客様が利用できます。 [!DNL Adobe Experience Platform]から利用可能なオーディエンスは、そのまま使用することも、このトピックで説明しているように、既存のオーディエンスと組み合わせることもできます。
 >
 >詳しくは、[Adobe Experience Platformのオーディエンスの使用](/help/main/c-target/c-audiences/audiences.md#aep)を参照してください。
 

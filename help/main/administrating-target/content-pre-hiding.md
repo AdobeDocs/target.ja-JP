@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。 これにより、ちらつき管理設定がインスタンスに適用されます。
 
-1. 有効になったら、**[!UICONTROL ダウンロード]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。 実装の手順について詳しくは、「[SDKのコンテンツの事前非表示](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)」を参照してください。
+1. 有効になったら、**[!UICONTROL ダウンロード]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。 実装の手順について詳しくは、「[SDKのコンテンツの事前非表示](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/prehide-sdk)」を参照してください。
 
    ![](assets/content-pre-hiding-2.png)
 

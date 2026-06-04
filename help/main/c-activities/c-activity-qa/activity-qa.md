@@ -98,7 +98,7 @@ ht-degree: 27%
 * [!DNL Target Standard/Premium]に読み込まれたアクティビティ （例：[!DNL Target Classic]から）は、QA URLをサポートしていません。
 * [!UICONTROL 自動割り当て]および[!UICONTROL Recommendations] アクティビティでは、モデルは[!UICONTROL Activity QA]でキャプチャされた訪問の影響を受けません。
 * アクティビティ [の作成中に「URLが」を指定した場合は、フォームベースのコンポーザー](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)または[&#x200B; ページ配信オプション （Visual Experience Composer） &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)で、アクティビティ の絞り込みが発生します。これは、[!UICONTROL &#x200B; アクティビティ QA]がURL パラメーターを追加しているためです。 この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
-* at.js 1.*x*&#x200B;をお持ちの場合、Safariまたはサードパーティ Cookieをブロックする別のブラウザーを使用している場合、[!UICONTROL Activity QA] モードはスティッキーではありません。 この場合、移動する各URLにプレビューパラメーターを追加する必要があります。 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}を実装した場合も同様です。
+* at.js 1.*x*&#x200B;をお持ちの場合、Safariまたはサードパーティ Cookieをブロックする別のブラウザーを使用している場合、[!UICONTROL Activity QA] モードはスティッキーではありません。 この場合、移動する各URLにプレビューパラメーターを追加する必要があります。 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=ja){target=_blank}を実装した場合も同様です。
 * アクティビティで複数のエクスペリエンスオーディエンス（同じアクティビティに含まれる米国と英国のサイトなど）を使用する場合、4つの組み合わせ（エクスペリエンス A/米国サイト、エクスペリエンス A/英国サイト、エクスペリエンス B/米国サイト、エクスペリエンス B/英国サイト）に対してQA リンクは生成されません。 エクスペリエンス A とエクスペリエンス B に対する 2 つだけが生成されます。オーディエンス条件を満たすユーザーにのみ、該当のページが表示されます。 英国のQA ユーザーは米国のサイトを表示できません。
 * `at_preview` すべてのパラメーターと値は、既にURLエンコードされています。 多くの場合、すべてが期待通りに機能します。 ただし、一部の顧客は、クエリ文字列パラメーターを再びエンコードしようとするバランサーまたはWeb サーバーを読み込む必要があります。
 
@@ -125,8 +125,8 @@ ht-degree: 27%
 
 [!DNL Target]は次のJavaScript ライブラリをサポートしています：
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja)
 
 次の表に、様々なアクティビティタイプを示し、各ライブラリで[!UICONTROL Activity QA] モードがサポートされているかどうかを示します。

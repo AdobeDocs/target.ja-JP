@@ -29,7 +29,7 @@ ht-degree: 89%
 | --- | --- |
 | [Adobe Target Business Practitioner ガイド &#x200B;](/help/main/target-home.md)<br> （このガイド） | ユーザーインターフェイスを通じた [!DNL Target] の操作に重点を置いた概要情報、手順、スクリーンショット。 このガイドでは、回避すべき「落とし穴」を含む、使用可能なすべてのアクションとオプションについて概説します。 これは、[!DNL Target] UI の操作に関する最も詳細なリソースです。 |
 | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja) | [!DNL Target] の多くのコンポーネントを学ぶのに役立つビデオとチュートリアル。 |
-| [Adobe Experience League Target コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) | [!DNL Target]が提供する内容について詳しく学び、同僚や[!DNL Adobe]人のエキスパートとつながり、今後の[!DNL Target] リリースに向けて独自のアイデアを投票または提出してください。 |
+| [Adobe Experience League Target コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja) | [!DNL Target]が提供する内容について詳しく学び、同僚や[!DNL Adobe]人のエキスパートとつながり、今後の[!DNL Target] リリースに向けて独自のアイデアを投票または提出してください。 |
 | [Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。 [!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
 | [Target レコメンデーション API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=ja){target=_blank} | [!DNL Target]件のRecommendations サーバーとプログラムで対話できる[!UICONTROL Recommendations] APIに関する情報。 これらの API は様々なアプリケーションスタックと統合して、通常 [!DNL Target] UI からおこなわれる関数を実行できます。 |
 | [Server Side Delivery API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} | Adobe Target 配信 API を構成するリソースに関する情報です。 |
@@ -40,5 +40,5 @@ ht-degree: 89%
 | [アドビカスタマーケアの営業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | アドビのサポートチームによるイニシアチブ、「Office Hours」に関する情報です。 これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。 |
 | [「Target の基本」ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | コミュニティでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「 [!DNL Target]の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。 |
 
-上記のリソースに加えて、[Adobe Experience League Target コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)にアクセスしてください。このコミュニティでは、次のことが可能です。
+上記のリソースに加えて、[Adobe Experience League Target コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)にアクセスしてください。このコミュニティでは、次のことが可能です。
 

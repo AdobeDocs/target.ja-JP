@@ -26,7 +26,7 @@ ht-degree: 25%
 ## [!UICONTROL 分類インポーター]を使用して分類をダウンロードした後、tnt アクション後の値をアクティビティ名と一致させるにはどうすればよいですか？ {#section_6045DAC488B248418F430E663C38D001}
 
 +++回答
-管理ツールの[分類インポーター](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html)から A4T／TNT 文字列用の分類をダウンロードできます。 この変数は、書き出しリストで「TNT」と呼ばれます。 ダウンロードしたデータには、アクティビティ、エクスペリエンスなどのわかりやすい名前が含まれています。
+管理ツールの[分類インポーター](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=ja)から A4T／TNT 文字列用の分類をダウンロードできます。 この変数は、書き出しリストで「TNT」と呼ばれます。 ダウンロードしたデータには、アクティビティ、エクスペリエンスなどのわかりやすい名前が含まれています。
 
 このルックアップファイルは、[!DNL Adobe]のクリックストリームデータフィードを受け取るお客様に役立ちます。 ファイルは、`post_tnt` および `post_tnt_action` 列のわかりやすい名前を提供します。
 
@@ -50,6 +50,6 @@ activityId:experienceId:targettype:algorithmId|event
 * event = 32767 は、アクティビティのコンバージョンを表します。
 * イベント -1または65535は、ユーザーがアクティビティまたはエクスペリエンスから削除されたことを表します。 この状況は、訪問者がコンバージョンしたときに頻繁に発生します。 訪問者はエクスペリエンスから解放され、他のエクスペリエンスの資格を得られるようになりました。
 
-分類ファイルは、[&#x200B; ブラウザー読み込み](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)または[FTP読み込み](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en)を使用して、UIから頻繁に読み込むことができます。 また、エンジニアリングサービスと連携して、クリックストリームデータフィードと同時にルックアップテーブルとしてファイルを取得できます。
+分類ファイルは、[&#x200B; ブラウザー読み込み](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=ja)または[FTP読み込み](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=ja)を使用して、UIから頻繁に読み込むことができます。 また、エンジニアリングサービスと連携して、クリックストリームデータフィードと同時にルックアップテーブルとしてファイルを取得できます。
 
 +++
