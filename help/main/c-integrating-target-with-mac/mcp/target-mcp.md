@@ -51,9 +51,9 @@ ht-degree: 0%
 <!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **監査の実装** - at.js設定、応答トークン、エンティティごとのリビジョン履歴を確認します。
 
-[!DNL Adobe Target] MCP サーバーは、アクティビティの作成、レポート、オーディエンス管理、QA プレビューなど、10のカテゴリで41のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス ](target-mcp-tools-reference.md)を参照してください。
+[!DNL Adobe Target] MCP サーバーは、アクティビティの作成、レポート、オーディエンス管理、QA プレビューなど、10のカテゴリで41のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス &#x200B;](target-mcp-tools-reference.md)を参照してください。
 
-ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[ ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
+ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[&#x200B; ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
 
 前提条件、クライアント固有の設定、トラブルシューティングなど、[!DNL Adobe Target] MCP サーバーをAI アシスタントに接続するには、[開始](target-mcp-get-started.md)を参照してください。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 +++[!DNL Adobe Target] データはMCP クライアントプロバイダーに送信されますか？
 
-プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Target] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。 Adobeのデータ処理は、[Adobe プライバシーポリシー](https://www.adobe.com/privacy.html)および[ データ保護条件](https://www.adobe.com/go/dpt-ww)に準拠しています。
+プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Target] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。 Adobeのデータ処理は、[Adobe プライバシーポリシー](https://www.adobe.com/privacy.html)および[&#x200B; データ保護条件](https://www.adobe.com/go/dpt-ww)に準拠しています。
 +++
 
 +++書き込み操作によって、ライブアクティビティに意図しない変更が生じる可能性がありますか？
