@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
-source-wordcount: 2889
+source-wordcount: 2900
 ht-degree: 46%
 
 ---
@@ -75,6 +75,11 @@ ht-degree: 46%
    業界の垂直型とページ型を組み合わせることで、保存された基準を分類し、他の[!DNL Recommendations]活動の基準を簡単に再利用できます。
 
 ## [!UICONTROL Recommendations アルゴリズム &#x200B;] {#rec-algo}
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="プロファイル属性"
+>abstract="プロファイルスクリプトを使用してプロファイル属性を作成できます。"
 
 1. **[!UICONTROL アルゴリズムタイプ]**&#x200B;と&#x200B;**[!UICONTROL アルゴリズム]**&#x200B;を選択します。
 
