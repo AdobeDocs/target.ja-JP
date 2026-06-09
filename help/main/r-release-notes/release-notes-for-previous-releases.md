@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 70383
+source-wordcount: 70482
 ht-degree: 56%
 
 ---
@@ -87,6 +87,38 @@ ht-degree: 56%
 詳しくは、[[!DNL Adobe Target] MCP サーバー](../c-integrating-target-with-mac/mcp/target-mcp.md)を参照してください。
 
 +++
+
+## [!DNL Target Standard/Premium] 26.5.3 （2026年5月21日（PT））
+
+**[!UICONTROL 新機能] ページ**
+
++++詳細を見る
+
+* **新規[!UICONTROL 新機能] ページ。** 製品から離れることなく、最新の機能、機能強化、アップデートを見つけやすくするために、[!DNL Adobe Target] UIに新しい&#x200B;**[!UICONTROL 新機能]** ページを追加しました。 （TGT-55137）
+
++++
+
+**アクティビティ**
+
++++詳細を見る
+
+* [!UICONTROL Automated Personalization] アクティビティでターゲティングを編集する際に、**間違ったエクスペリエンスが選択されました。** [!UICONTROL Automated Personalization] （AP）アクティビティで&#x200B;**[!UICONTROL ターゲティング]** ステップを編集する際に、間違ったエクスペリエンスを選択できる問題を修正しました。 （TGT-55176）
+
+* **スケジュールされたアクティビティを閉じる前の日付。** スケジュールされたアクティビティを閉じるために以前の日付を選択できない問題を修正しました。 （TGT-55163）
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
 
