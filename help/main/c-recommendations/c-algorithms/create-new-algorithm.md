@@ -6,9 +6,15 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
@@ -56,9 +62,9 @@ ht-degree: 46%
 
    | 業種 | 目標 |
    |--- |--- |
-   | [!UICONTROL 小売/デジタルコマース ] | 購入をもたらすコンバージョン |
-   | [!UICONTROL  リードジェネレーション/B2B/金融サービス ] | 購入を伴わないコンバージョン |
-   | [!UICONTROL  メディア/公開] | エンゲージメント |
+   | [!UICONTROL 小売/デジタルコマース &#x200B;] | 購入をもたらすコンバージョン |
+   | [!UICONTROL &#x200B; リードジェネレーション/B2B/金融サービス &#x200B;] | 購入を伴わないコンバージョン |
+   | [!UICONTROL &#x200B; メディア/公開] | エンゲージメント |
 
    その他の基準オプションは、選択した業界の業種によって異なります。
 
@@ -68,7 +74,7 @@ ht-degree: 46%
 
    業界の垂直型とページ型を組み合わせることで、保存された基準を分類し、他の[!DNL Recommendations]活動の基準を簡単に再利用できます。
 
-## [!UICONTROL Recommendations アルゴリズム ] {#rec-algo}
+## [!UICONTROL Recommendations アルゴリズム &#x200B;] {#rec-algo}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
@@ -77,29 +83,29 @@ ht-degree: 46%
 
 1. **[!UICONTROL アルゴリズムタイプ]**&#x200B;と&#x200B;**[!UICONTROL アルゴリズム]**&#x200B;を選択します。
 
-   ![推奨されるアルゴリズムセクション ](assets/recommended-algorithm.png)
+   ![推奨されるアルゴリズムセクション &#x200B;](assets/recommended-algorithm.png)
 
    | アルゴリズムタイプ | 使用するタイミング/使用可能なアルゴリズム |
    | --- | --- |
-   | [!UICONTROL  カートベース ] | ユーザーのカートの内容に基づいてレコメンデーションを行います。 <ul><li>[!UICONTROL これらを閲覧したユーザーは、]も閲覧しました </li><li>[!UICONTROL これらを閲覧したユーザーも購入しました]</li><li>[!UICONTROL これらを購入した人、また購入した人]</li></ul> |
-   | [!UICONTROL 人気度ベース ] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL  サイト全体で最も閲覧された]</li><li>[!UICONTROL  カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>サイト全体で[!UICONTROL  トップ セラー]</li><li>[!UICONTROL  カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
-   | [!UICONTROL  アイテムベース ] | 利用者が現在閲覧している項目や最近閲覧した項目と類似する項目を見つけることで、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL これを閲覧したユーザー、これを閲覧したユーザー]</li><li>[!UICONTROL これを閲覧したユーザーが購入しました]</li><li>[!UICONTROL これを購入した人、購入した人]</li><li>[!UICONTROL 類似の属性を持つアイテム ]</li></ul> |
-   | [!UICONTROL  ユーザーベース ] | 利用者の行動にもとづいてレコメンデーションする：<ul><li>[!UICONTROL 最近表示された項目]</li><li>[!UICONTROL あなたにおすすめ]</li></ul> |
-   | [!UICONTROL  カスタム条件] | アップロードしたカスタムファイルにもとづいて、レコメンデーションを作成できます。<ul><li>カスタムアルゴリズム</li></ul> |
+   | [!UICONTROL &#x200B; カートベース &#x200B;] | ユーザーのカートの内容に基づいてレコメンデーションを行います。 <ul><li>[!UICONTROL これらを閲覧したユーザーは、]も閲覧しました </li><li>[!UICONTROL これらを閲覧したユーザーも購入しました]</li><li>[!UICONTROL これらを購入した人、また購入した人]</li></ul> |
+   | [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
+   | [!UICONTROL &#x200B; アイテムベース &#x200B;] | 利用者が現在閲覧している項目や最近閲覧した項目と類似する項目を見つけることで、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL これを閲覧したユーザー、これを閲覧したユーザー]</li><li>[!UICONTROL これを閲覧したユーザーが購入しました]</li><li>[!UICONTROL これを購入した人、購入した人]</li><li>[!UICONTROL 類似の属性を持つアイテム &#x200B;]</li></ul> |
+   | [!UICONTROL &#x200B; ユーザーベース &#x200B;] | 利用者の行動にもとづいてレコメンデーションする：<ul><li>[!UICONTROL 最近表示された項目]</li><li>[!UICONTROL あなたにおすすめ]</li></ul> |
+   | [!UICONTROL &#x200B; カスタム条件] | アップロードしたカスタムファイルにもとづいて、レコメンデーションを作成できます。<ul><li>カスタムアルゴリズム</li></ul> |
 
    >[!NOTE]
    >
-   >**[!UICONTROL アイテム]**/**[!UICONTROL 類似属性を持つメディア]**&#x200B;を選択すると、[ コンテンツの類似性ルール ](#similarity)を設定するオプションが表示されます。
+   >**[!UICONTROL アイテム]**/**[!UICONTROL 類似属性を持つメディア]**&#x200B;を選択すると、[&#x200B; コンテンツの類似性ルール &#x200B;](#similarity)を設定するオプションが表示されます。
 
 1. 必要に応じて、**項目属性**&#x200B;と&#x200B;**プロファイル属性を選択して一致**&#x200B;に設定し、**推奨キー**、**フィルタリングキー**&#x200B;および/または&#x200B;**分析指標**&#x200B;を選択して、アルゴリズムを設定します。
 
-残りのアルゴリズム設定オプションは、選択したアルゴリズムによって異なります。 アルゴリズムの設定を完了するには、[!UICONTROL 推奨キー]、[!UICONTROL  フィルタリングキー]、[!UICONTROL 同時発生基準]、[!UICONTROL 分析指標]、および/または[!UICONTROL 項目属性]と[!UICONTROL 一致するプロファイル属性]を選択します。
+残りのアルゴリズム設定オプションは、選択したアルゴリズムによって異なります。 アルゴリズムの設定を完了するには、[!UICONTROL 推奨キー]、[!UICONTROL &#x200B; フィルタリングキー]、[!UICONTROL 同時発生基準]、[!UICONTROL 分析指標]、および/または[!UICONTROL 項目属性]と[!UICONTROL 一致するプロファイル属性]を選択します。
 
-[!UICONTROL  レコメンデーションキー]の選択について詳しくは、[ レコメンデーションキー](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)に基づいてレコメンデーションを作成するを参照してください。
+[!UICONTROL &#x200B; レコメンデーションキー]の選択について詳しくは、[&#x200B; レコメンデーションキー](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)に基づいてレコメンデーションを作成するを参照してください。
 
-## [!UICONTROL  コンテンツのバックアップ ] {#content}
+## [!UICONTROL &#x200B; コンテンツのバックアップ &#x200B;] {#content}
 
-[!UICONTROL  コンテンツのバックアップ ] ルールは、推奨項目の数が[推奨事項のデザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md)に満たさない場合に何が起こるかを決定します。 [!DNL Recommendations]条件で、デザインが要求するレコメンデーション数よりも少ないレコメンデーションを返すこともできます。 例えば、デザインに4つの項目のスロットが含まれているが、基準によって2つの項目だけが推奨される場合、残りのスロットを空のままにするか、バックアップの推奨事項を使用して追加のスロットを埋めるか、推奨事項を表示しないように選択できます。
+[!UICONTROL &#x200B; コンテンツのバックアップ &#x200B;] ルールは、推奨項目の数が[推奨事項のデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md)に満たさない場合に何が起こるかを決定します。 [!DNL Recommendations]条件で、デザインが要求するレコメンデーション数よりも少ないレコメンデーションを返すこともできます。 例えば、デザインに4つの項目のスロットが含まれているが、基準によって2つの項目だけが推奨される場合、残りのスロットを空のままにするか、バックアップの推奨事項を使用して追加のスロットを埋めるか、推奨事項を表示しないように選択できます。
 
 1. （オプション）「**[!UICONTROL 部分デザインレンダリング]**」トグルを「オン」の位置にスライドさせます。
 
@@ -113,11 +119,11 @@ ht-degree: 46%
 
    バックアップのレコメンデーションを使用すると、レコメンデーションのデザインが利用可能なすべてのスロットに確実に埋められます。 以下に示すように、4 x 1のデザインを持っているとします。
 
-   ![4 x 1 デザイン ](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+   ![4 x 1 デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   条件によって推奨される項目が2つだけであるとします。 「[!UICONTROL 部分デザインレンダリング ]」オプションを有効にすると、最初の2つのスロットは一杯になりますが、残りの2つのスロットは空のままになります。 ただし、「[!UICONTROL  バックアップの推奨事項を表示]」オプションを有効にすると、指定した条件に基づいて最初の2つのスロットが埋められ、残りの2つのスロットはバックアップの推奨事項に基づいて埋められます。
+   条件によって推奨される項目が2つだけであるとします。 「[!UICONTROL 部分デザインレンダリング &#x200B;]」オプションを有効にすると、最初の2つのスロットは一杯になりますが、残りの2つのスロットは空のままになります。 ただし、「[!UICONTROL &#x200B; バックアップの推奨事項を表示]」オプションを有効にすると、指定した条件に基づいて最初の2つのスロットが埋められ、残りの2つのスロットはバックアップの推奨事項に基づいて埋められます。
 
-   次のマトリックスは、[!UICONTROL 部分デザインレンダリング ]および[!UICONTROL  コンテンツのバックアップ ] オプションを使用した場合に表示される結果を示しています。
+   次のマトリックスは、[!UICONTROL 部分デザインレンダリング &#x200B;]および[!UICONTROL &#x200B; コンテンツのバックアップ &#x200B;] オプションを使用した場合に表示される結果を示しています。
 
    | デザインの部分レンダリング | バックアップコンテンツ | 結果 |
    |--- |--- |--- |
@@ -126,7 +132,7 @@ ht-degree: 46%
    | 有効 | 有効 | 使用可能なデザインの「スロット」に代替レコメンデーションが挿入され、デザインが完全にレンダリングされます。<br>インクルージョンルールを代替レコメンデーションに適用するとデザインに挿入できなくなるほど適格な代替レコメンデーションの数が制限される場合、デザインは部分的にレンダリングされます。<br>この基準がレコメンデーションを返さず、インクルージョンルールが代替レコメンデーションをゼロに制限する場合、デザインはデフォルトコンテンツで置き換えられます。 |
    | 無効 | 有効 | 使用可能なデザインの「スロット」に代替レコメンデーションが挿入され、デザインが完全にレンダリングされます。<br>インクルージョンルールを代替レコメンデーションに適用するとデザインに挿入できなくなるほど適格な代替レコメンデーションの数が制限される場合、デザインはデフォルトコンテンツに置き換えられ、レコメンデーションは表示されません。 |
 
-   詳しくは、[ バックアップの推奨事項の使用](/help/main/c-recommendations/c-algorithms/backup-recs.md)を参照してください。
+   詳しくは、[&#x200B; バックアップの推奨事項の使用](/help/main/c-recommendations/c-algorithms/backup-recs.md)を参照してください。
 
 1. （条件付き）前の手順で&#x200B;**[!UICONTROL バックアップコンテンツを表示]**&#x200B;を選択した場合、**[!UICONTROL 包含ルールをバックアップの推奨事項に適用する]**&#x200B;を有効にできます。
 
@@ -142,7 +148,7 @@ ht-degree: 46%
    >
    >[!UICONTROL 行動データ Source] セクションは、実装で[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用している場合にのみ表示されます。
 
-   ![行動データ Source セクション ](assets/data-source.png)
+   ![行動データ Source セクション &#x200B;](assets/data-source.png)
 
    「[!UICONTROL Analytics]」を選択した場合、目的のレポートスイートを選択します。
 
@@ -154,9 +160,9 @@ ht-degree: 46%
 
    詳しくは、[Target RecommendationsでのAdobe Analyticsの使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)を参照してください。
 
-1. **[!UICONTROL ルックバックウィンドウ]**&#x200B;を設定して、表示するレコメンデーションを決定する際に使用できる過去のユーザー行動データの時間範囲を決定します。 このオプションは、[!UICONTROL 類似属性を持つアイテム ]と[!UICONTROL  カスタムアルゴリズム ]を除くすべてのアルゴリズムで使用できます。
+1. **[!UICONTROL ルックバックウィンドウ]**&#x200B;を設定して、表示するレコメンデーションを決定する際に使用できる過去のユーザー行動データの時間範囲を決定します。 このオプションは、[!UICONTROL 類似属性を持つアイテム &#x200B;]と[!UICONTROL &#x200B; カスタムアルゴリズム &#x200B;]を除くすべてのアルゴリズムで使用できます。
 
-   ![ ルックバックウィンドウ スライダー](assets/data-range.png)
+   ![&#x200B; ルックバックウィンドウ スライダー](assets/data-range.png)
 
    サイトのトラフィックが多く、行動が頻繁に変わる場合は、データの範囲を狭めます。 [!DNL Recommendations] は、範囲を狭くするほどマーケットやビジネスの変化に反応しやすくなります。 例えば、範囲を狭く設定した場合、訪問者が新学期やクリスマスなどの季節の製品の購入を始めると、[!DNL Recommendations] は訪問者の行動の変化を検知して季節に適した品目をレコメンデーションするようになります。
 
@@ -168,11 +174,11 @@ ht-degree: 46%
    | --- | --- | --- |
    | 6時間 | アルゴリズムは3～6時間ごとに実行されます | 選択した[!UICONTROL 行動データ Source]が[!DNL Adobe Target]の場合の[!UICONTROL 人気ベースの] アルゴリズム |
    | 1日 | アルゴリズムは12～24時間ごとに実行されます | [!UICONTROL 人気ベースの] アルゴリズム |
-   | 2 日 | アルゴリズムは12～24時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL  アイテムベース ] アルゴリズム</li><li>[!UICONTROL  ユーザーベースの] アルゴリズム</li><li>[!UICONTROL  カートベースの] アルゴリズム</li></ul> |
-   | 1 週間 | アルゴリズムは24～48時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL  アイテムベース ] アルゴリズム</li><li>[!UICONTROL  ユーザーベースの] アルゴリズム</li><li>[!UICONTROL  カートベースの] アルゴリズム</li></ul> |
-   | 2 週間 | アルゴリズムは24～48時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL  アイテムベース ] アルゴリズム</li><li>すべての[!UICONTROL  ユーザーベースの] アルゴリズム</li><li>[!UICONTROL  カートベースの] アルゴリズム</li></ul> |
-   | 1か月（30日間） | アルゴリズムは24～48時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL  アイテムベース ] アルゴリズム</li><li>[!UICONTROL  ユーザーベースの] アルゴリズム</li><li>[!UICONTROL  カートベースの] アルゴリズム</li></ul> |
-   | 2か月（61日） | アルゴリズムは24～48時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL  アイテムベース ] アルゴリズム</li><li>[!UICONTROL  ユーザーベースの] アルゴリズム</li><li>[!UICONTROL  カートベースの] アルゴリズム</li></ul> |
+   | 2 日 | アルゴリズムは12～24時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; アイテムベース &#x200B;] アルゴリズム</li><li>[!UICONTROL &#x200B; ユーザーベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; カートベースの] アルゴリズム</li></ul> |
+   | 1 週間 | アルゴリズムは24～48時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; アイテムベース &#x200B;] アルゴリズム</li><li>[!UICONTROL &#x200B; ユーザーベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; カートベースの] アルゴリズム</li></ul> |
+   | 2 週間 | アルゴリズムは24～48時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; アイテムベース &#x200B;] アルゴリズム</li><li>すべての[!UICONTROL &#x200B; ユーザーベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; カートベースの] アルゴリズム</li></ul> |
+   | 1か月（30日間） | アルゴリズムは24～48時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; アイテムベース &#x200B;] アルゴリズム</li><li>[!UICONTROL &#x200B; ユーザーベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; カートベースの] アルゴリズム</li></ul> |
+   | 2か月（61日） | アルゴリズムは24～48時間ごとに実行されます | <ul><li>[!UICONTROL 人気ベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; アイテムベース &#x200B;] アルゴリズム</li><li>[!UICONTROL &#x200B; ユーザーベースの] アルゴリズム</li><li>[!UICONTROL &#x200B; カートベースの] アルゴリズム</li></ul> |
 
 ## コンテンツの類似性 {#similarity}
 
@@ -180,7 +186,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->[!UICONTROL  アルゴリズムタイプ ]および[!UICONTROL  アルゴリズム ]として、**[!UICONTROL アイテムベース]**/**[!UICONTROL 類似属性を持つメディア]**&#x200B;を選択した場合、コンテンツの類似性ルールを設定するオプションがあります。
+>[!UICONTROL &#x200B; アルゴリズムタイプ &#x200B;]および[!UICONTROL &#x200B; アルゴリズム &#x200B;]として、**[!UICONTROL アイテムベース]**/**[!UICONTROL 類似属性を持つメディア]**&#x200B;を選択した場合、コンテンツの類似性ルールを設定するオプションがあります。
 
 コンテンツの類似性では、アイテム属性キーワードを比較し、複数の項目に共通するキーワードの数に基づいてレコメンデーションを作成します。 コンテンツの類似性に基づくレコメンデーションでは、過去のデータがなくても質の高い結果が得られます。
 
