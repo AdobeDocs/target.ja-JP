@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "Corp Jira": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--name",
+        "corp-jira-tmkiz",
+        "--env-file",
+        "~\\.easymcp\\adobe-mcp-servers\\src\\corp-jira\\.env-tmkiz",
+        "-e",
+        "REGION_NAME=local",
+        "-e",
+        "ENVIRONMENT_NAME=local",
+        "corp-jira"
+      ]
+    },
+    "Adobe Wiki Confluence": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--name",
+        "adobe-wiki-confluence-bcede",
+        "--env-file",
+        "~\\.easymcp\\adobe-mcp-servers\\src\\adobe-wiki\\.env-bcede",
+        "-e",
+        "REGION_NAME=local",
+        "-e",
+        "ENVIRONMENT_NAME=local",
+        "adobe-wiki-confluence"
+      ]
+    }
+  }
+}
