@@ -7,21 +7,14 @@ title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 41%
+source-wordcount: 467
+ht-degree: 57%
 
 ---
 
@@ -31,51 +24,17 @@ ht-degree: 41%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] 26.6.1 （2026年6月4日）
-
-**アクティビティ**
-
-+++詳細を見る
-
-* **アクティビティの概要[!UICONTROL に関する不完全なアクティビティ URL].** アクティビティの完全なURLが[!UICONTROL &#x200B; アクティビティ概要]に表示されない問題を修正しました。 （TGT-54029）
-
-* **アクティビティレポートのローカライズされていない日付形式。** 「**[!UICONTROL プリセット日付範囲]**」ドロップダウンリストから「**過去X日間**」オプションを選択した際に、日付形式が「**[!UICONTROL レポート]**」タブにローカライズされない問題を修正しました。 （TGT-51637）
-
-* **特定のGB18030文字を含むフォームベースのアクティビティを[!UICONTROL 場所].**&#x200B;に保存できません **[!UICONTROL 場所]** フィールドに特定のGB18030文字が含まれている場合に、フォームベースのアクティビティを保存できない問題を修正しました。 （TGT-46980）
-
-+++
-
-**[!UICONTROL オーディエンス]**
-
-+++詳細を見る
-
-* **簡体字中国語と繁体字中国語のオーディエンスフローの作成のカレンダーがローカライズされていません。** 「オーディエンスを作成」フロー中に、**[!UICONTROL 時間枠]**&#x200B;属性の&#x200B;**[!UICONTROL 開始]**&#x200B;および&#x200B;**[!UICONTROL 終了]** フィールドのカレンダーが簡体字中国語（CHS）および繁体字中国語（CHT）ロケールでローカライズされない問題を修正しました。 （TGT-50619）
-
-+++
-
-**[!UICONTROL Visual Experience Composer] （VEC）**
-
-+++詳細を見る
-
-* **更新されたActivity Builderのローカライズされていないツールヒント。** 更新された[!UICONTROL Visual Experience Composer] アクティビティビルダーで&#x200B;**[!UICONTROL 改良]**&#x200B;および&#x200B;**[!UICONTROL コンテンツ]**&#x200B;情報ツールヒントがローカライズされなかったローカライズの問題を修正しました。 （TGT-53721）
-
-* [!UICONTROL Experience Audiences]の&#x200B;**ローカライズされていない[!UICONTROL すべての訪問者]。** 左側のレールの&#x200B;**[!UICONTROL Experience Audiences]**&#x200B;の&#x200B;**[!UICONTROL すべての訪問者]**&#x200B;文字列が[!UICONTROL Visual Experience Composer]にローカライズされない問題を修正しました。 （TGT-50086）
-
-+++
-
-**[!UICONTROL レポート]**
-
-+++詳細を見る
-
-* **プリセットを作成[!UICONTROL &#x200B; ウィンドウでローカライズされていない日付形式]。** 「**[!UICONTROL プリセットを作成]**」ウィンドウの「**[!UICONTROL 日付範囲]**」フィールドの日付形式がローカライズされない問題を修正しました。 （TGT-49239）
-
-+++
+## [!DNL Target Standard/Premium] 26.6.3 （2026年6月11日（PT））
 
 **ローカライズ**
 
 +++詳細を見る
 
-* **GB18030文字が複数の領域に表示されます。** 一部のプライベート使用領域の文字が、**[!UICONTROL Audience]** UI、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;の文字として正しく表示されない問題、モバイルビューポート設定、およびトースト通知を修正しました。 （TGT-49622、TGT-49623、TGT-49624、およびTGT-49625）
+* **アクティビティの作成中に、オーディエンスカレンダーモーダルで週の最初の日をローカライズ解除します。** アクティビティの作成中に、**[!UICONTROL 作成]**、**[!UICONTROL 編集]**、**[!UICONTROL オーディエンスの重複]** モーダルで、週の最初の日がカレンダーにローカライズされない問題を修正しました。 （TGT-50510）
+
+* **アクティビティ概要レポートのローカライズされていないパーセント形式。** **[!UICONTROL アクティビティの概要]** ページの「**[!UICONTROL レポート]**」タブのテーブルにパーセント形式がローカライズされない問題を修正しました。 （TGT-50094）
+
+* **条件の作成] ダイアログの[!UICONTROL  ローカライズされていない番号形式。** **[!UICONTROL Recommendations]**&#x200B;の&#x200B;**[!UICONTROL 条件の作成]** ダイアログで番号形式がローカライズされていない問題を修正しました。 （TGT-52250）
 
 +++
 
@@ -116,7 +75,7 @@ ht-degree: 41%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
