@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
 workflow-type: tm+mt
-source-wordcount: 70774
+source-wordcount: 70881
 ht-degree: 56%
 
 ---
@@ -57,6 +57,20 @@ ht-degree: 56%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2026
+
+## [!DNL Target Standard/Premium] 26.6.3 （2026年6月11日（PT））
+
+**ローカライズ**
+
++++詳細を見る
+
+* **アクティビティの作成中に、オーディエンスカレンダーモーダルで週の最初の日をローカライズ解除します。** アクティビティの作成中に、**[!UICONTROL 作成]**、**[!UICONTROL 編集]**、**[!UICONTROL オーディエンスの重複]** モーダルで、週の最初の日がカレンダーにローカライズされない問題を修正しました。 （TGT-50510）
+
+* **アクティビティ概要レポートのローカライズされていないパーセント形式。** **[!UICONTROL アクティビティの概要]** ページの「**[!UICONTROL レポート]**」タブのテーブルにパーセント形式がローカライズされない問題を修正しました。 （TGT-50094）
+
+* **条件の作成 ダイアログの ローカライズされていない番号形式。** **[!UICONTROL Recommendations]**&#x200B;の&#x200B;**[!UICONTROL 条件の作成]** ダイアログで番号形式がローカライズされていない問題を修正しました。 （TGT-52250）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.1 （2026年6月4日）
 
