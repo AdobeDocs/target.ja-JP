@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
+source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 612
+ht-degree: 44%
 
 ---
 
@@ -30,6 +30,24 @@ ht-degree: 49%
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.6.5 （2026年6月17日（PT））
+
+**アクティビティ**
+
++++詳細を見る
+
+* **ソースで削除されたオーディエンスをアクティビティが使用すると、エラーが発生します。** ソースで削除された1つ以上のオーディエンスをアクティビティが使用していることを示すエラーが表示される問題を修正しました。 （TGT-55272）
+
++++
+
+**[!UICONTROL ターゲットの分析] （A4T）**
+
++++詳細を見る
+
+* **A4T レポートは表示されません。** ターゲット向け[!UICONTROL Analytics] （A4T）レポートが表示されない問題を修正しました。 （TGT-55432）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.4 （2026年6月16日（PT））
 
