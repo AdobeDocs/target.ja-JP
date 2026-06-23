@@ -74,7 +74,7 @@ ht-degree: 46%
 
    業界の垂直型とページ型を組み合わせることで、保存された基準を分類し、他の[!DNL Recommendations]活動の基準を簡単に再利用できます。
 
-## [!UICONTROL Recommendations アルゴリズム &#x200B;] {#rec-algo}
+## [!UICONTROL レコメンデーションアルゴリズム] {#rec-algo}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
