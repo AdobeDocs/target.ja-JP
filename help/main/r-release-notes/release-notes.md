@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
+source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
 workflow-type: tm+mt
-source-wordcount: 612
-ht-degree: 44%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,33 +31,15 @@ ht-degree: 44%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] 26.6.5 （2026年6月17日（PT））
+## [!DNL Target Standard/Premium] 26.6.8 （2026年6月24日）
 
 **アクティビティ**
 
 +++詳細を見る
 
-* **ソースで削除されたオーディエンスをアクティビティが使用すると、エラーが発生します。** ソースで削除された1つ以上のオーディエンスをアクティビティが使用していることを示すエラーが表示される問題を修正しました。 （TGT-55272）
+* **APIおよびMCP用のSource フィルターがリソースを作成しました。** [!UICONTROL Adobe Target API]または[!UICONTROL Adobe Target MCP]によるフィルタリングが、アクティビティ、オーディエンス、およびオファーのリストページで機能しない問題を修正しました。 （TGT-55236）
 
-+++
-
-**[!UICONTROL ターゲットの分析] （A4T）**
-
-+++詳細を見る
-
-* **A4T レポートは表示されません。** ターゲット向け[!UICONTROL Analytics] （A4T）レポートが表示されない問題を修正しました。 （TGT-55432）
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 （2026年6月16日（PT））
-
-**アクティビティ**
-
-+++詳細を見る
-
-* 更新された[!DNL Target] UIの&#x200B;**[!UICONTROL 保存して閉じる]。** 更新された[!DNL Target] UIの&#x200B;**[!UICONTROL 保存と閉じる]** オプションを復元しました。 （TGT-55152）
-
-* 更新された[!DNL Target] UIの&#x200B;**QA URL。** 更新された[!DNL Target] UIでQA URLが正しく機能しない問題を修正しました。 （[TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110)）
+* **アクティビティソースフィルターの値。** [!UICONTROL Adobe Target API]または[!UICONTROL Adobe Target MCP] ソースフィルターで新しく作成されたオーディエンスが表示されない問題を修正しました。 （TGT-55237）
 
 +++
 
@@ -65,33 +47,15 @@ ht-degree: 44%
 
 +++詳細を見る
 
-* アクティビティの概要グラフ レポートの&#x200B;**ローカライズされていないパーセント形式。** **[!UICONTROL アクティビティの概要]** ページの「**[!UICONTROL レポート]**」タブの&#x200B;**[!UICONTROL グラフビュー]**&#x200B;のチャートでパーセント形式がローカライズされない問題を修正しました。 （TGT-50100）
+* [!UICONTROL JSON オファーの作成] モーダルの&#x200B;**ローカライズされていない文字列。** [!UICONTROL 名前]と[!UICONTROL Workspace]を含む[!UICONTROL Create JSON Offer] モーダルの文字列が、アクティビティの作成中にローカライズされない問題を修正しました。 （TGT-50084）
 
-* アクティビティ URL内の&#x200B;**日本語の文字。** アクティビティ URL内の日本語の文字が&#x200B;**[!UICONTROL アクティビティの概要]** ページおよびアクティビティを保存した後にアクティビティリストで破損して表示される問題を修正しました。 （TGT-53459）
+* [!UICONTROL Recommendations] アクティビティの&#x200B;**ローカライズされていないトーストメッセージ。** フォームベースの[!UICONTROL Recommendations] アクティビティでレコメンデーションを追加する際に、ローカライズされていないトーストメッセージが表示される問題を修正しました。 （TGT-50463）
 
-* **既定のアクティビティ名にタイムスタンプがローカライズされていません。** アクティビティの作成中にデフォルトのアクティビティ名を保持した場合に、タイムスタンプがアクティビティタイトルにローカライズされない問題を修正しました。 （TGT-53273）
+* [!UICONTROL &#x200B; コレクション &#x200B;]および[!UICONTROL 除外] ダイアログの&#x200B;**ローカライズされていない文字列。** [!UICONTROL Recommendations]の[!UICONTROL &#x200B; コレクション &#x200B;]および[!UICONTROL 除外] ダイアログで「項目ペイロード」文字列がローカライズされない問題を修正しました。 （TGT-51542）
 
-+++
-
-**[!UICONTROL レコメンデーション]**
-
-+++詳細を見る
-
-* **フィードを作成した後のURL内のマルチバイト文字。** フィードを作成した後に、URLでマルチバイト文字が破損して表示される問題を修正しました。 （TGT-54793）
+* **ローカライズされていない「承認者」文字列（[!UICONTROL &#x200B; オーディエンス &#x200B;] タブ）。** [!UICONTROL Audience Library] ページの[!UICONTROL Workspace]列で「承認者」文字列がローカライズされない問題を修正しました。 （TGT-51751）
 
 +++
-
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
-
-+++
--->
 
 ## 知っておく必要がある時間的制約のある更新 {#time-sensitive}
 
