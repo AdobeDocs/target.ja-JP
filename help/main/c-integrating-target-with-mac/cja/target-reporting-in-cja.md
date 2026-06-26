@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 28043bff2987da0280091df9c935a4644309b1c0
 workflow-type: tm+mt
-source-wordcount: 1488
-ht-degree: 37%
+source-wordcount: 1580
+ht-degree: 35%
 
 ---
 
@@ -158,6 +158,12 @@ ht-degree: 37%
    * [!UICONTROL &#x200B; アクティビティ ID]
 
    ![Customer Journey Analytics の「名前」および「ID」オプション](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. 訪問者ジャーニー全体で[!DNL Customer Journey Analytics]属性の指標を正しい[!DNL Target] エクスペリエンスに確実に設定するには、[!UICONTROL &#x200B; アクティビティ名]および[!UICONTROL &#x200B; アクティビティ ID] ディメンションの永続性を設定します。
+
+   永続性が設定されていない場合、[!DNL Customer Journey Analytics]は[!DNL Target] エクスペリエンスと同じイベントで発生する指標のみをリンクします。 例えば、訪問者がホームページでTarget エクスペリエンスを見た場合、その後のページで購入した訪問者の収益指標は、Target アクティビティには関連付けられません。
+
+   永続性について詳しくは、[Adobe Customer Journey Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}を参照してください。
 
 1. [!UICONTROL 実験] パネルで[!DNL Target] ディメンションを使用するには、次のコンテキストラベルを設定します。
 
