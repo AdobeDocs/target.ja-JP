@@ -13,10 +13,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 77%
+source-wordcount: 942
+ht-degree: 73%
 
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 77%
 * クリック追跡指標の範囲を制限する必要がある場合は、オーディエンスを使用します。
 
 * 複数のアクティビティで、同じセレクターのクリック追跡指標を定義できます。 その場合、訪問者がそのアクティビティの 1 つに該当し、そのセレクターをクリックすると、クリック追跡指標は、その訪問者が該当するすべての関連アクティビティについて増加します。
+
+* [!UICONTROL Automated Personalization] （AP）およびシングルページアプリケーション（SPA）上の自動ターゲットアクティビティの場合、特定の[!DNL Target] ビューに属するクリックトラッキング用のエレメントを選択できます。 ビューについて詳しくは、[Adobe Target ビューとシングルページアプリケーション &#x200B;](/help/main/c-experiences/spa-visual-experience-composer.md)を参照してください。
 
 ## トレーニングビデオ {#section_36607204DAE146E3B8E2C609D244EDB1}
 
