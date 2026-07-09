@@ -22,10 +22,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: 2566
-ht-degree: 34%
+source-wordcount: 2647
+ht-degree: 33%
 
 ---
 
@@ -34,6 +34,13 @@ ht-degree: 34%
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
 ## アップデート
+
+### [!DNL Target Standard/Premium] 26.6.5 （2026年6月17日（PT））
+
+| 日付 | トピック | 変更点 |
+|--- |--- |--- |
+| 6月18日（PT） | [[!DNL Adobe Target] MCP サーバーツール リファレンス &#x200B;](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | アクティビティツールの統合を反映するように更新されました：タイプごとに6つのツール （`get_ab_activity`、`get_xt_activity`、`get_abt_activity`、`update_ab_activity`、`update_xt_activity`、`update_abt_activity`）と4つのタイプごとのレポートツールを、4つの統合ツール （`get_activity`、`update_activity`、`get_activity_performance_report`、`get_activity_orders_report`）に置き換えました。 サポートされている6つのアクティビティタイプをすべて一覧表示するように、`list_target_activities`と`update_activity_schedule`を更新しました。 `update_activity`がA/B テスト、エクスペリエンスのターゲット設定、Automated Personalization アクティビティをサポートしていることを明確にするスコープ ノートを追加しました。自動割り当て、多変量テスト、およびRecommendations アクティビティは読み取り専用です。 |
+|  | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Adobe Target] MCP サーバーアクティビティ ツール統合のリリースノートを追加しました。 |
 
 ### [!DNL Target Standard/Premium] 26.5.1 （2026年5月7日）
 

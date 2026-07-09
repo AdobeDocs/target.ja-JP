@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
+source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 719
+ht-degree: 37%
 
 ---
 
@@ -39,7 +39,40 @@ ht-degree: 49%
 
 * **APIおよびMCP用のSource フィルターがリソースを作成しました。** [!UICONTROL Adobe Target API]または[!UICONTROL Adobe Target MCP]によるフィルタリングが、アクティビティ、オーディエンス、およびオファーのリストページで機能しない問題を修正しました。 （TGT-55236）
 
-* **アクティビティソースフィルターの値。** [!UICONTROL Adobe Target API]または[!UICONTROL Adobe Target MCP] ソースフィルターで新しく作成されたオーディエンスが表示されない問題を修正しました。 （TGT-55237）
++++
+
+**[!UICONTROL ターゲットの分析] （A4T）**
+
++++詳細を見る
+
+* **A4T レポートは表示されません。** ターゲット向け[!UICONTROL Analytics] （A4T）レポートが表示されない問題を修正しました。 （TGT-55432）
+
++++
+
+**[!DNL Adobe Target]MCP サーバー**
+
++++詳細を見る
+
+* **統合アクティビティツール。** [!DNL Adobe Target] MCP サーバーアクティビティ ツールが統合され、ツール選択のオーバーヘッドが削減され、すべてのアクティビティ タイプに読み取りとレポートのカバレッジが拡張されました。 6種類ごとのツールが、4つの統合ツールに置き換えられました。
+
+   * `get_activity`は`get_ab_activity`、`get_xt_activity`、`get_abt_activity`に置き換わります。 A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、自動割り当て、多変量分析テスト（MVT）、Recommendationsなど、すべてのタイプのアクティビティの詳細を取得します。 アクティビティタイプは、IDから自動的に検出されます。
+   * `update_activity`は`update_ab_activity`、`update_xt_activity`、`update_abt_activity`に置き換わります。 A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization アクティビティをサポートします。自動割り当て、MVT、およびRecommendations アクティビティは読み取り専用です。
+   * `get_activity_performance_report`は`get_ab_performance_report`と`get_xt_performance_report`を置き換えます。 すべてのアクティビティタイプのコンバージョン、リフト、および信頼度の指標を取得します。
+   * `get_activity_orders_report`は`get_ab_orders_report`と`get_xt_orders_report`を置き換えます。 すべてのアクティビティタイプの注文および収益指標を取得します。
+
+  詳しくは、[[!DNL Adobe Target] MCP サーバーツールのリファレンス &#x200B;](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
+
++++
+
+## [!DNL Target Standard/Premium] 26.6.4 （2026年6月16日（PT））
+
+**アクティビティ**
+
++++詳細を見る
+
+* 更新された[!DNL Target] UIの&#x200B;**[!UICONTROL 保存して閉じる]。** 更新された[!DNL Target] UIの&#x200B;**[!UICONTROL 保存と閉じる]** オプションを復元しました。 （TGT-55152）
+
+* 更新された[!DNL Target] UIの&#x200B;**QA URL。** 更新された[!DNL Target] UIでQA URLが正しく機能しない問題を修正しました。 （[TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110)）
 
 +++
 
