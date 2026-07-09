@@ -7,10 +7,17 @@ title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
 workflow-type: tm+mt
 source-wordcount: 719
@@ -53,7 +60,7 @@ ht-degree: 37%
    * `get_activity_performance_report`は`get_ab_performance_report`と`get_xt_performance_report`を置き換えます。 すべてのアクティビティタイプのコンバージョン、リフト、および信頼度の指標を取得します。
    * `get_activity_orders_report`は`get_ab_orders_report`と`get_xt_orders_report`を置き換えます。 すべてのアクティビティタイプの注文および収益指標を取得します。
 
-  詳しくは、[[!DNL Adobe Target] MCP サーバーツールのリファレンス ](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
+  詳しくは、[[!DNL Adobe Target] MCP サーバーツールのリファレンス &#x200B;](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
 
 +++
 
@@ -77,9 +84,9 @@ ht-degree: 37%
 
 * [!UICONTROL Recommendations] アクティビティの&#x200B;**ローカライズされていないトーストメッセージ。** フォームベースの[!UICONTROL Recommendations] アクティビティでレコメンデーションを追加する際に、ローカライズされていないトーストメッセージが表示される問題を修正しました。 （TGT-50463）
 
-* [!UICONTROL  コレクション ]および[!UICONTROL 除外] ダイアログの&#x200B;**ローカライズされていない文字列。** [!UICONTROL Recommendations]の[!UICONTROL  コレクション ]および[!UICONTROL 除外] ダイアログで「項目ペイロード」文字列がローカライズされない問題を修正しました。 （TGT-51542）
+* [!UICONTROL &#x200B; コレクション &#x200B;]および[!UICONTROL 除外] ダイアログの&#x200B;**ローカライズされていない文字列。** [!UICONTROL Recommendations]の[!UICONTROL &#x200B; コレクション &#x200B;]および[!UICONTROL 除外] ダイアログで「項目ペイロード」文字列がローカライズされない問題を修正しました。 （TGT-51542）
 
-* **ローカライズされていない「承認者」文字列（[!UICONTROL  オーディエンス ] タブ）。** [!UICONTROL Audience Library] ページの[!UICONTROL Workspace]列で「承認者」文字列がローカライズされない問題を修正しました。 （TGT-51751）
+* **ローカライズされていない「承認者」文字列（[!UICONTROL &#x200B; オーディエンス &#x200B;] タブ）。** [!UICONTROL Audience Library] ページの[!UICONTROL Workspace]列で「承認者」文字列がローカライズされない問題を修正しました。 （TGT-51751）
 
 +++
 
@@ -108,7 +115,7 @@ ht-degree: 37%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
