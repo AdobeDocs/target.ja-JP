@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
+source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 37%
+source-wordcount: 465
+ht-degree: 58%
 
 ---
 
@@ -31,62 +31,31 @@ ht-degree: 37%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] 26.6.8 （2026年6月24日）
+## [!DNL Target Standard/Premium] 26.7.1 （2026年7月9日）
 
 **アクティビティ**
 
 +++詳細を見る
 
-* **APIおよびMCP用のSource フィルターがリソースを作成しました。** [!UICONTROL Adobe Target API]または[!UICONTROL Adobe Target MCP]によるフィルタリングが、アクティビティ、オーディエンス、およびオファーのリストページで機能しない問題を修正しました。 （TGT-55236）
+* **アクティビティ 、[!UICONTROL &#x200B; オーディエンス &#x200B;]、[!UICONTROL &#x200B; オファー] ページにわたってソース表示に一貫性がありません。** ソースが[!UICONTROL &#x200B; アクティビティ &#x200B;]、[!UICONTROL &#x200B; オーディエンス &#x200B;]、[!UICONTROL &#x200B; オファー] ページにわたって一貫して表示されない問題を修正しました。 （TGT-55247）
+
+* **UIを介した編集時にアクティビティソースが変更される。** UIを使用してアクティビティを編集すると、元のアクティビティソースが変更される問題を修正しました。 （TGT-55248）
 
 +++
 
-**[!UICONTROL ターゲットの分析] （A4T）**
+**オーディエンス**
 
 +++詳細を見る
 
-* **A4T レポートは表示されません。** ターゲット向け[!UICONTROL Analytics] （A4T）レポートが表示されない問題を修正しました。 （TGT-55432）
+* **オーディエンスの編集時の既定のワークスペースが正しくありません。** オーディエンスを編集した後にデフォルトのワークスペースが正しくない問題を修正しました。 （TGT-55510）
 
 +++
 
-**[!DNL Adobe Target]MCP サーバー**
+**レポート**
 
 +++詳細を見る
 
-* **統合アクティビティツール。** [!DNL Adobe Target] MCP サーバーアクティビティ ツールが統合され、ツール選択のオーバーヘッドが削減され、すべてのアクティビティ タイプに読み取りとレポートのカバレッジが拡張されました。 6種類ごとのツールが、4つの統合ツールに置き換えられました。
-
-   * `get_activity`は`get_ab_activity`、`get_xt_activity`、`get_abt_activity`に置き換わります。 A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、自動割り当て、多変量分析テスト（MVT）、Recommendationsなど、すべてのタイプのアクティビティの詳細を取得します。 アクティビティタイプは、IDから自動的に検出されます。
-   * `update_activity`は`update_ab_activity`、`update_xt_activity`、`update_abt_activity`に置き換わります。 A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization アクティビティをサポートします。自動割り当て、MVT、およびRecommendations アクティビティは読み取り専用です。
-   * `get_activity_performance_report`は`get_ab_performance_report`と`get_xt_performance_report`を置き換えます。 すべてのアクティビティタイプのコンバージョン、リフト、および信頼度の指標を取得します。
-   * `get_activity_orders_report`は`get_ab_orders_report`と`get_xt_orders_report`を置き換えます。 すべてのアクティビティタイプの注文および収益指標を取得します。
-
-  詳しくは、[[!DNL Adobe Target] MCP サーバーツールのリファレンス &#x200B;](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 （2026年6月16日（PT））
-
-**アクティビティ**
-
-+++詳細を見る
-
-* 更新された[!DNL Target] UIの&#x200B;**[!UICONTROL 保存して閉じる]。** 更新された[!DNL Target] UIの&#x200B;**[!UICONTROL 保存と閉じる]** オプションを復元しました。 （TGT-55152）
-
-* 更新された[!DNL Target] UIの&#x200B;**QA URL。** 更新された[!DNL Target] UIでQA URLが正しく機能しない問題を修正しました。 （[TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110)）
-
-+++
-
-**ローカライズ**
-
-+++詳細を見る
-
-* [!UICONTROL JSON オファーの作成] モーダルの&#x200B;**ローカライズされていない文字列。** [!UICONTROL 名前]と[!UICONTROL Workspace]を含む[!UICONTROL Create JSON Offer] モーダルの文字列が、アクティビティの作成中にローカライズされない問題を修正しました。 （TGT-50084）
-
-* [!UICONTROL Recommendations] アクティビティの&#x200B;**ローカライズされていないトーストメッセージ。** フォームベースの[!UICONTROL Recommendations] アクティビティでレコメンデーションを追加する際に、ローカライズされていないトーストメッセージが表示される問題を修正しました。 （TGT-50463）
-
-* [!UICONTROL &#x200B; コレクション &#x200B;]および[!UICONTROL 除外] ダイアログの&#x200B;**ローカライズされていない文字列。** [!UICONTROL Recommendations]の[!UICONTROL &#x200B; コレクション &#x200B;]および[!UICONTROL 除外] ダイアログで「項目ペイロード」文字列がローカライズされない問題を修正しました。 （TGT-51542）
-
-* **ローカライズされていない「承認者」文字列（[!UICONTROL &#x200B; オーディエンス &#x200B;] タブ）。** [!UICONTROL Audience Library] ページの[!UICONTROL Workspace]列で「承認者」文字列がローカライズされない問題を修正しました。 （TGT-51751）
+* 5月のレポートの&#x200B;**CSVのダウンロードに失敗しました。** 5月のCSV レポートのダウンロードに失敗する問題を修正しました。 （TGT-55524）
 
 +++
 
