@@ -1,40 +1,40 @@
 ---
 source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 # スニペット
 
-## Target Premiumの機能 {#premium-note}
+## Target Premium の機能 {#premium-note}
 
 >[!NOTE]
 >
->この機能は、[Target Premium](/help/main/c-intro/intro.md#premium) ライセンスの一部として利用できます。 この機能は[!DNL Target Standard]では利用できません。
+>この機能は、[Target Premium](/help/main/c-intro/intro.md#premium) ライセンスの一部として利用できます。 [!DNL Target Standard] では、この機能を利用できません。
 
-## ターゲット権限の更新 {#permissions-update}
+## Target 権限の更新 {#permissions-update}
 
 >[!IMPORTANT]
 >
->[!UICONTROL 製品管理者]および[!UICONTROL &#x200B; システム管理者]権限を持つ[!DNL Target] ユーザーは、[!DNL Target]での役割に関係なく、[!UICONTROL 管理] ページのすべての設定を編集できます。 これらの権限を持たないユーザーには、これらの設定に対して読み取り専用アクセス権があります。
+>[!UICONTROL 製品管理者]および[!UICONTROL システム管理者]の権限を持つ [!DNL Target] ユーザーは、[!DNL Target] での役割に関係なく、[!UICONTROL 管理]ページ上のすべての設定を編集できます。 これらの権限を持たないユーザーには、これらの設定に対して読み取り専用アクセス権があります。
 
-## 更新されたTarget UI {#updated-ui}
+## 更新された Target UI {#updated-ui}
 
 >[!NOTE]
 >
->2025年の新機能として、[!DNL Target]が更新されたUIと[!UICONTROL Visual Experience Composer] （VEC）を導入しました。 詳細については、次のリンクをクリックしてください。
+>2025年の新機能として、[!DNL Target] では、更新された UI と [!UICONTROL Visual Experience Composer]（VEC）が導入されました。 詳しくは、次のリンクをクリックしてください。
 >
->* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL &#x200B; アクティビティ &#x200B;]、[!UICONTROL 推奨事項]、および[!UICONTROL Visual Experience Composer] （VEC）の[!DNL Target]の主要なUI変更の概要を提供します。
+>* [[!DNL Target Standard/Premium]  25.2.1（2025年2月17日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：[!DNL Target] の[!UICONTROL アクティビティ]、[!UICONTROL レコメンデーション]、[!UICONTROL Visual Experience Composer]（VEC）に関する主な UI の変更の概要について説明します。
 >
->* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL &#x200B; オファーライブラリ &#x200B;]の[!DNL Target]の主要なUI変更の概要を提供します。
+>* [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!DNL Target] の[!UICONTROL オファーライブラリ] に関する主な UI の変更の概要について説明します。
 >
->* [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+>* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 >
->* [[!UICONTROL Visual Experience Composer]の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日）では、更新された[!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
+>* [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 >
->* [[!UICONTROL Visual Experience Composer] オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新されたVEC UIとそのオプションについて説明します。
+>* [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 >
->* [[!DNL Target] UI更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)：このFAQでは、ナビゲーションの変更、機能の場所、一時的なUI バージョンの廃止トグルなど、新しい[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+>* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
 
 
