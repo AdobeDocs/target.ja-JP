@@ -3,9 +3,9 @@ title: SDK
 description: FlagsのSDK アーキテクチャと、利用可能なAEP Web SDKおよびAEP Mobile SDK拡張機能について説明します。
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -20,14 +20,18 @@ ht-degree: 3%
 
 * **Initialization** — SDKは起動時に設定され、Flags サービスに登録されます。
 * **機能の取得** — SDKは機能フラグデータを取得し、フラグをローカルで評価します。
-* **キャッシュ** — SDKは機能フラグデータをキャッシュし、設定可能なポーリング間隔（TTL）で更新します。
+* **Caching** — SDKは機能フラグデータをキャッシュし、設定可能なポーリング間隔で更新します。
 * **エラー処理** — サービスが利用できない場合、SDKは引き続きローカルキャッシュから機能フラグ評価を提供します。
 
 ## 利用可能なSDK {#available-sdks}
 
 ### AEP Web SDK {#web-sdk}
 
-Web用のフラグ拡張機能は、Adobe Experience Platform Web SDKと統合され、web アプリケーションでのフラグ評価が可能になります。
+Web用のフラグ拡張機能は、Adobe Experience Platform Web SDKと統合されています。
+
+>[!NOTE]
+>
+>Web SDKのサポートは近日提供開始予定です。 早期アクセスガイダンスについては、Adobe担当者にお問い合わせください。
 
 ### Android拡張機能 {#android-extension}
 
