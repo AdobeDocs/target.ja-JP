@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ## アクセスが許可された後 {#after-access}
 
-リクエストが承認されたら、Adobe Target内からフラグを開き、チームとアプリケーションが表示されていることを確認します。 次の手順については、[Adobe Targetのフラグへのアクセス ](log-in-to-the-console.md)を参照してください。
+リクエストが承認されたら、Adobe Target内からフラグを開き、チームとアプリケーションが表示されていることを確認します。 次の手順については、[Adobe Targetのフラグへのアクセス &#x200B;](log-in-to-the-console.md)を参照してください。
 
 ## サポートが必要ですか？ {#need-help}
 
