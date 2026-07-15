@@ -3,10 +3,10 @@ title: 統合ステップ
 description: 使用可能なSDKを使用して、アプリケーションタイプの統合手順に従って、フラグをweb サービス、web アプリ、モバイルアプリ、またはデスクトップアプリケーションに接続します。
 hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
+source-wordcount: '167'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,20 @@ ht-degree: 4%
 >
 >サーバーサイド SDKのドキュメントは現在準備中であり、近日中に公開される予定です。 早期アクセスガイダンスについては、Adobe担当者にお問い合わせください。
 
-## webおよびモバイルアプリケーション {#web-mobile}
+## モバイルアプリケーション {#mobile}
 
-web アプリケーションとモバイルアプリケーションは、それぞれweb SDKとモバイルSDKを介して統合されます。
+モバイルアプリケーションは、AEP Mobile SDK拡張機能を介して統合されます。
+
+* [Android拡張機能の統合ガイド](../sdk-releases/android/android-extension-integration-guide.md)
+* [iOS拡張機能の統合ガイド](../sdk-releases/ios/ios-extension-integration-guide.md)
+
+## Web アプリケーション {#web}
+
+Web アプリケーションのサポートは近日リリース予定です。
 
 >[!NOTE]
 >
->Web SDKおよびモバイル SDKのドキュメントは現在準備中であり、近日中に公開される予定です。 早期アクセスガイダンスについては、Adobe担当者にお問い合わせください。
+>Web SDKのドキュメントは現在準備中であり、近日中に公開される予定です。 早期アクセスガイダンスについては、Adobe担当者にお問い合わせください。
 
 ## デスクトップアプリケーション {#desktop}
 

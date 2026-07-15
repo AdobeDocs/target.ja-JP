@@ -3,10 +3,10 @@ audience: user
 user-guide-title: フラグ
 user-guide-description: Adobe Targetのフラグを使用して、アプリケーション全体で機能フラグ、制御されたロールアウト、ターゲットリリースを管理する方法について説明します。
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [段階的な展開](concepts/gradual-rollout.md)
 + コンソールの概要 {#console}
    + [フラグにログイン](guides/console/log-in-to-the-console.md)
-   + [サンドボックスの選択](guides/console/environments-overview.md)
+   + [環境の概要](guides/console/environments-overview.md)
    + [利用申請](guides/console/request-access.md)
 + アプリケーション {#applications}
    + [アプリケーションの管理](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [機能グループの作成](guides/feature-flags/create-a-feature-group.md)
    + [機能グループを設定し](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [機能フラグによるA/B テスト](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [レポート](guides/feature-flags/analytics.md)
 + オーディエンス基準 {#audience}
    + [機能フラグと機能グループのオーディエンス](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [オーディエンスルールでのコンテキストの使用](guides/audience/using-context-in-audience-rules.md)
