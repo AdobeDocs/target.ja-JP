@@ -7,21 +7,14 @@ title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -31,13 +24,41 @@ ht-degree: 58%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
+## [!DNL Target Standard/Premium] 26.7.2 （2026年7月16日）
+
+**アクティビティ**
+
++++詳細を見る
+
+* **アクティビティの概要] ページの目標情報が正しくありません。** [!UICONTROL [!DNL Automated Personalization] アクティビティの[!UICONTROL  アクティビティの概要] ページで、最適化目標ではなく追加の目標が表示される問題を修正しました。 （TGT-55553）
+
+* [!UICONTROL 参照] モードでページを移動すると、**応答しない画面が表示されます。** [!UICONTROL 参照] モードでページ間を移動すると、画面が応答しなくなる問題を修正しました。 （TGT-55565）
+
++++
+
+**ホームページ**
+
++++詳細を見る
+
+* [!UICONTROL  トップパフォーマー]と[!UICONTROL 保存]の&#x200B;**UIの変更。** トップパフォーマーのUIを更新し、エクスペリエンスを節約しました。 （TGT-54975）
+
++++
+
+**オーディエンス**
+
++++詳細を見る
+
+* **プロファイルスクリプトを作成[!UICONTROL  ダイアログでローカライズされていない文字列。** ][!UICONTROL  プロファイルスクリプトを作成] ダイアログの文字列がローカライズされない問題を修正しました。 （TGT-51527）
+
++++
+
 ## [!DNL Target Standard/Premium] 26.7.1 （2026年7月9日）
 
 **アクティビティ**
 
 +++詳細を見る
 
-* **アクティビティ 、[!UICONTROL &#x200B; オーディエンス &#x200B;]、[!UICONTROL &#x200B; オファー] ページにわたってソース表示に一貫性がありません。** ソースが[!UICONTROL &#x200B; アクティビティ &#x200B;]、[!UICONTROL &#x200B; オーディエンス &#x200B;]、[!UICONTROL &#x200B; オファー] ページにわたって一貫して表示されない問題を修正しました。 （TGT-55247）
+* **アクティビティ ]、[!UICONTROL  オーディエンス ]、[!UICONTROL  オファー] ページにわたってソース表示に一貫性がありません。** [!UICONTROL ソースが[!UICONTROL  アクティビティ ]、[!UICONTROL  オーディエンス ]、[!UICONTROL  オファー] ページにわたって一貫して表示されない問題を修正しました。 （TGT-55247）
 
 * **UIを介した編集時にアクティビティソースが変更される。** UIを使用してアクティビティを編集すると、元のアクティビティソースが変更される問題を修正しました。 （TGT-55248）
 
@@ -84,7 +105,7 @@ ht-degree: 58%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
