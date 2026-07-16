@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 58%
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.7.2 （2026年7月16日）
+
+**アクティビティ**
+
++++詳細を見る
+
+* **アクティビティの概要 ページの目標情報が正しくありません。** [!DNL Automated Personalization] アクティビティの[!UICONTROL &#x200B; アクティビティの概要] ページで、最適化目標ではなく追加の目標が表示される問題を修正しました。 （TGT-55553）
+
+* [!UICONTROL 参照] モードでページを移動すると、**応答しない画面が表示されます。** [!UICONTROL 参照] モードでページ間を移動すると、画面が応答しなくなる問題を修正しました。 （TGT-55565）
+
++++
+
+**ホームページ**
+
++++詳細を見る
+
+* [!UICONTROL &#x200B; トップパフォーマー]と[!UICONTROL 保存]の&#x200B;**UIの変更。** トップパフォーマーのUIを更新し、エクスペリエンスを節約しました。 （TGT-54975）
+
++++
+
+**オーディエンス**
+
++++詳細を見る
+
+* **プロファイルスクリプトを作成[!UICONTROL &#x200B; ダイアログでローカライズされていない文字列。** &#x200B;]&#x200B;[!UICONTROL &#x200B; プロファイルスクリプトを作成] ダイアログの文字列がローカライズされない問題を修正しました。 （TGT-51527）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1 （2026年7月9日）
 
