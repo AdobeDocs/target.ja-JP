@@ -3,9 +3,9 @@ title: 機能フラグの読み込み
 description: フラグ設定を手動で再作成しないように、あるサンドボックスから別のサンドボックスに機能フラグを読み込む方法について説明します。
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 ## 手順1：宛先サンドボックスとアプリケーションに移動する {#step-1}
 
-**destination** サンドボックス （フラグ *を*&#x200B;に読み込むサンドボックス）のコンソールにログインします。 機能フラグページのアプリケーションドロップダウンから、フラグを読み込むアプリケーションを選択します。
+**destination** サンドボックス （フラグを読み込むサンドボックス）のコンソールにログインします。 「**機能フラグの読み込み**」をクリックし、アプリケーションドロップダウンからフラグを読み込むアプリケーションを選択します。
+
+![機能フラグページの「機能フラグを読み込む」ボタン ](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >
