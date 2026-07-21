@@ -3,10 +3,10 @@ title: SDK
 description: FlagsのSDK アーキテクチャと、利用可能なAEP Web SDKおよびAEP Mobile SDK拡張機能について説明します。
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ IOSのFlags拡張機能は、Adobe Experience Platform Mobile SDKと統合され
 ## 詳細については、 {#see-also}
 
 * [Android拡張機能の統合ガイド](../sdk-releases/android/android-extension-integration-guide.md)
-* [Web サービス](web-services.md)
-* [統合ステップ](integration-steps.md)
+* [iOS拡張機能の統合ガイド](../sdk-releases/ios/ios-extension-integration-guide.md)
+* [web拡張機能の統合ガイド](../sdk-releases/web/web-extension-integration-guide.md)
 
 <!-- -->

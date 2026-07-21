@@ -3,9 +3,9 @@ title: スタートアップガイド
 description: アクセスのリクエストから最初の機能フラグの作成まで、アプリケーションをフラグと統合するには、次の手順に従います。
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
@@ -27,31 +27,25 @@ ht-degree: 1%
 | 要件 | 詳細 |
 |---|---|
 | **アプリケーション ID** | Flags APIの呼び出し時に使用される一意のクライアント ID。 使用可能な場合は、アプリケーションの既存のクライアント IDを使用します。 |
-| **サーバーサイドのクライアント** | サーバーサイドのSDKと統合する場合は、適切な権限を持つ管理者クライアント IDが必要です。 |
-| **デスクトップクライアント** | クライアント IDの代わりに、製品コードと製品バージョンを使用できます。 |
 
-## 手順3：資格情報の取得 {#step-3-credentials}
+## 手順3：環境ファイル IDを取得する {#step-3-credentials}
 
-必要な資格情報は、統合パスによって異なります。
+必要な環境ファイル IDは、統合パスによって異なります。
 
 * **Webとモバイル（タグベース）:**&#x200B;公開されたタグプロパティから&#x200B;**環境ファイル ID**&#x200B;を使用します。 この方法については、手順4aを参照してください。
-* **サーバーサイド SDK:** **サービストークン クライアント ID**&#x200B;をリクエストし、SDKからAPI呼び出しを行う前に、Flagsでサポートされているトークンを許可リストに加えるしてください。
-* **デスクトップ：** クライアント IDの代わりに、製品コードと製品バージョンを使用できます。
 
 ## ステップ 4:SDKを使用した統合 {#step-4-integrate}
 
-アプリケーションの種類に応じて[統合手順](integration-steps.md)に従います。 スタックに合ったパスを選択：
+お使いのアプリケーションタイプの統合ガイドに従ってください。 スタックに合ったパスを選択：
 
-* **Web サービス** → Java SDKまたはNode.js SDK
-* **Webおよびモバイルアプリ** → AEP Mobile SDK — [iOS](../sdk-releases/android/android-extension-integration-guide.md)および[Android](../sdk-releases/ios/ios-extension-integration-guide.md) ガイドを参照
-* **デスクトップアプリ** → SDK（近日リリース予定）
+* **Web アプリとモバイルアプリ** – 統合ガイド セクションの[Android](../sdk-releases/android/android-extension-integration-guide.md)、[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)、[Web](../sdk-releases/web/web-extension-integration-guide.md) ガイドを参照してください。
 
 ## 手順4a：データ収集の設定と設定の公開 {#step-4a-data-collection}
 
 タグベースのアプローチ（webまたはモバイル）を使用して統合する場合は、SDKを初期化する前にタグプロパティを設定します。
 
 1. [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)で、モバイルまたはweb プロパティを開きます。
-1. **Edge Network**&#x200B;拡張機能をインストールし、次に&#x200B;**Experience Rollout**&#x200B;拡張機能を（その順序で）インストールします。
+1. **Edge Network**&#x200B;拡張機能をインストールし、次に&#x200B;**フラグ**&#x200B;拡張機能を（その順序で）インストールします。
 1. **データストリーム**&#x200B;とエッジドメインを選択します（Customer Journey Analytics データセットを含める必要があります）。
 1. 実稼動環境&#x200B;**の**&#x200B;開発→ ステージングを通じて設定→公開します。
 1. **環境ファイル ID**&#x200B;を&#x200B;**環境** タブからコピーします。これを使用して、SDKを初期化します。
@@ -69,7 +63,6 @@ ht-degree: 1%
 ## 詳細については、 {#see-also}
 
 * [アプリにフラグを統合](integrating-in-your-app.md)
-* [統合ステップ](integration-steps.md)
 * [SDK](sdks.md)
 
 <!-- -->

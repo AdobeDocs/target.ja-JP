@@ -3,9 +3,9 @@ title: リリースをリクエスト
 description: フラグで新しいリリースをリクエストする方法と、提供する情報について説明します。
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 3%
 
 ## 前提条件 {#prerequisites}
 
-* **リリースマネージャー**&#x200B;の役割があります – <!-- broken link[User roles](../teams/user-roles.md) -->を参照
+* **リリースマネージャー**&#x200B;の役割があります
 * アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
 
 >[!TIP]
 >
->リリースをリクエストする前に、<!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->を確認してください。 クロスチームの機能グループは、セルフサービス型で、より豊富なオーディエンスターゲティングをサポートするため、より少ないオーバーヘッドでニーズを満たすことができます。
+>リリースをリクエストする前に、クロスチームの機能グループが、より少ないオーバーヘッドでニーズを満たしているかどうかを検討します。セルフサービス方式で、より多くのオーディエンスのターゲティングをサポートします。
 
 ## サポートリクエストを送信 {#submit}
 
