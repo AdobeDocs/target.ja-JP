@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## 前提条件 {#prerequisites}
 
-* コンソールにアクセスできます。[ コンソールにログイン ](../console/log-in-to-the-console.md)を参照してください。
+* コンソールにアクセスできます。[&#x200B; コンソールにログイン &#x200B;](../console/log-in-to-the-console.md)を参照してください。
 * チームに所属し、アプリケーションがオンボーディングされます
 * **製品リリース所有者**&#x200B;の役割があります
 * テストする機能フラグを作成しました。[最初の機能フラグを作成する](create-your-first-feature-flag.md)を参照してください。

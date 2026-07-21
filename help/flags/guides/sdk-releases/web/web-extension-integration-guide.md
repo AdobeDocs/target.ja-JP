@@ -168,7 +168,7 @@ const context = {
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`と`FeatureEvaluationContext`を渡します。 [評価コンテキスト ](#evaluation-context)を参照してください。 **機能が有効になっています** タグ条件を使用するか、初期化後にカスタムコードから`window._flagClient.isFeatureEnabled(...)`を呼び出します。
+`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`と`FeatureEvaluationContext`を渡します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 **機能が有効になっています** タグ条件を使用するか、初期化後にカスタムコードから`window._flagClient.isFeatureEnabled(...)`を呼び出します。
 
 **署名**
 
@@ -181,7 +181,7 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | string | フラグで評価する機能キー |
-| `context` | FeatureEvaluationContext | ID （必須）とオプションのターゲティング属性。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
+| `context` | FeatureEvaluationContext | ID （必須）とオプションのターゲティング属性。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 
 ### 機能フラグデータ要素の作成 {#create-data-element}
 
@@ -250,7 +250,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | string | フラグで評価する機能キー |
-| `context` | FeatureEvaluationContext | ID （必須）とターゲティング属性。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
+| `context` | FeatureEvaluationContext | ID （必須）とターゲティング属性。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 
 **応答**
 
