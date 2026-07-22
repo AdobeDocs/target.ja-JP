@@ -15,10 +15,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 27%
+source-wordcount: 4405
+ht-degree: 25%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 27%
 | アルゴリズムタイプ | 使用するタイミング/使用可能なアルゴリズム |
 | --- | --- |
 | [!UICONTROL &#x200B; カートベース &#x200B;] | ユーザーのカートの内容に基づいてレコメンデーションを行います。<ul><li>[!UICONTROL これらを閲覧したユーザーは、]も閲覧しました</li><li>[!UICONTROL これらを閲覧したユーザーも購入しました]</li><li>[!UICONTROL これらを購入した人、また購入した人]</li></ul> |
-| [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
+| [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>[!UICONTROL &#x200B; プロファイル属性]で最も閲覧されたユーザー</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>プロファイル属性による トップセラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
 | [!UICONTROL &#x200B; アイテムベース &#x200B;] | 利用者が現在閲覧している項目や最近閲覧した項目と類似する項目を見つけることで、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL これを閲覧したユーザー、これを閲覧したユーザー]</li><li>[!UICONTROL これを閲覧したユーザーが購入しました]</li><li>[!UICONTROL これを購入した人、購入した人]</li><li>[!UICONTROL 類似の属性を持つアイテム &#x200B;]</li></ul> |
 | [!UICONTROL &#x200B; ユーザーベース &#x200B;] | 利用者の行動にもとづいてレコメンデーションする： <ul><li>[!UICONTROL 最近表示された項目]</li><li>[!UICONTROL あなたにおすすめ]</li></ul> |
 | [!UICONTROL &#x200B; カスタム条件] | アップロードしたカスタムファイルにもとづいて、レコメンデーションを作成できます。 <ul><li>カスタムアルゴリズム</li></ul> |
@@ -179,6 +179,38 @@ ht-degree: 27%
 このアルゴリズムでは、「名前」や「ブランド」など、レコメンデーションのベースとなる項目属性を選択できます。
 
 次に、「お気に入りブランド」、「最後にカートに追加されたアイテム」、「最も閲覧された番組」など、訪問者のプロファイルに一致するように保存されているプロファイル属性を選択します。
+
+### [!UICONTROL &#x200B; プロファイル属性]で最も閲覧されたユーザー
+
+[!UICONTROL &#x200B; カテゴリー別に最も閲覧された項目]と[!UICONTROL 項目属性で最も閲覧された項目]のように、項目情報ではなく訪問者プロファイル属性でグループ化された最も閲覧された項目をレコメンドします。 [!DNL Target]は、属性値ごとにランク付けされたリストを個別に保持し、配信時に、各訪問者に各自の格納値に一致するリストを表示します。
+
+このアルゴリズムは、属性を入力するプロファイルスクリプトに依存します。スクリプトの名前は`recsAttribute`接頭辞で始まる必要があるので、[!DNL Target]はそれを`user.recsAttribute<Name>`として保存します。 ユースケースに関連する任意の訪問者特性のスクリプトを作成できます。
+
+プロファイルスクリプトを使用したプロファイル属性の設定について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/audiences/visitor-profiles/profile-parameters)を参照してください。
+
+例えば、訪問者の地域に基づいてレコメンデーションを作成する`recsAttributeRegion`という名前のスクリプトは、次のようになります。
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+スクリプトを作成してアクティブ化すると、対応する[!UICONTROL 地域] エントリが条件を作成ウィンドウのプロファイル属性ドロップダウンで使用できるようになります。 `recsAttribute` プレフィックス自体はドロップダウンには表示されません。
+
+### プロファイル属性による トップセラー
+
+[!UICONTROL &#x200B; カテゴリー別のトップセラー]と[!UICONTROL &#x200B; アイテム属性のトップセラー]のように、アイテム情報ではなく訪問者プロファイル属性でグループ化されたトップセラー項目をレコメンドします。 [!DNL Target]は、属性値ごとに個別のトップセラーのリストを保持し、配信時に、各訪問者に独自の格納値に一致するリストを表示します。
+
+[!UICONTROL &#x200B; プロファイル属性で最も閲覧された属性]と同様に、このアルゴリズムは属性を入力するプロファイルスクリプトに依存しており、スクリプトの名前は`recsAttribute`接頭辞で始まる必要があるので、[!DNL Target]はそれを`user.recsAttribute<Name>`として保存します。 ユースケースに関連する任意の訪問者特性のスクリプトを作成できます。 プロファイルスクリプトを使用したプロファイル属性の設定について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/audiences/visitor-profiles/profile-parameters)を参照してください。
+
+例えば、訪問者のロイヤルティ層にレコメンデーションを基にした`recsAttributeLoyaltyTier`という名前のスクリプトは次のようになります。
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+スクリプトを作成してアクティブ化すると、対応する[!UICONTROL &#x200B; ロイヤルティ層] エントリが、条件を作成ウィンドウのプロファイル属性ドロップダウンで使用できるようになります。 `recsAttribute` プレフィックス自体はドロップダウンには表示されません。
 
 ### 分析指標[!UICONTROL 上位]
 

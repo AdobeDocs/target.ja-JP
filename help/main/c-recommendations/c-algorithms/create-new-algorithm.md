@@ -15,10 +15,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 45%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 46%
    | アルゴリズムタイプ | 使用するタイミング/使用可能なアルゴリズム |
    | --- | --- |
    | [!UICONTROL &#x200B; カートベース &#x200B;] | ユーザーのカートの内容に基づいてレコメンデーションを行います。 <ul><li>[!UICONTROL これらを閲覧したユーザーは、]も閲覧しました </li><li>[!UICONTROL これらを閲覧したユーザーも購入しました]</li><li>[!UICONTROL これらを購入した人、また購入した人]</li></ul> |
-   | [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
+   | [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>[!UICONTROL &#x200B; プロファイル属性]で最も閲覧されたユーザー</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>プロファイル属性による トップセラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
    | [!UICONTROL &#x200B; アイテムベース &#x200B;] | 利用者が現在閲覧している項目や最近閲覧した項目と類似する項目を見つけることで、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL これを閲覧したユーザー、これを閲覧したユーザー]</li><li>[!UICONTROL これを閲覧したユーザーが購入しました]</li><li>[!UICONTROL これを購入した人、購入した人]</li><li>[!UICONTROL 類似の属性を持つアイテム &#x200B;]</li></ul> |
    | [!UICONTROL &#x200B; ユーザーベース &#x200B;] | 利用者の行動にもとづいてレコメンデーションする：<ul><li>[!UICONTROL 最近表示された項目]</li><li>[!UICONTROL あなたにおすすめ]</li></ul> |
    | [!UICONTROL &#x200B; カスタム条件] | アップロードしたカスタムファイルにもとづいて、レコメンデーションを作成できます。<ul><li>カスタムアルゴリズム</li></ul> |
@@ -100,6 +100,8 @@ ht-degree: 46%
 1. 必要に応じて、**項目属性**&#x200B;と&#x200B;**プロファイル属性を選択して一致**&#x200B;に設定し、**推奨キー**、**フィルタリングキー**&#x200B;および/または&#x200B;**分析指標**&#x200B;を選択して、アルゴリズムを設定します。
 
 残りのアルゴリズム設定オプションは、選択したアルゴリズムによって異なります。 アルゴリズムの設定を完了するには、[!UICONTROL 推奨キー]、[!UICONTROL &#x200B; フィルタリングキー]、[!UICONTROL 同時発生基準]、[!UICONTROL 分析指標]、および/または[!UICONTROL 項目属性]と[!UICONTROL 一致するプロファイル属性]を選択します。
+
+プロファイル属性によって最も閲覧された[!UICONTROL またはプロファイル属性]によって上位の販売者を選択する場合は、**[!UICONTROL プロファイル属性]**&#x200B;を選択して、インタラクションデータをグループ化します。 プロファイル属性は、地域や国などの訪問者の特徴をキャプチャするプロファイルスクリプトから取得されます。スクリプト名には`recsAttribute`接頭辞が必要なので、`user.recsAttribute<Name>` （例：`user.recsAttributeRegion`）として保存されます。 配信時に、[!DNL Target]は各訪問者に、その属性の独自の値に対応するランクリストを提供します。
 
 [!UICONTROL &#x200B; レコメンデーションキー]の選択について詳しくは、[&#x200B; レコメンデーションキー](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)に基づいてレコメンデーションを作成するを参照してください。
 
