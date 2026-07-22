@@ -1,11 +1,12 @@
 ---
 title: エンドツーエンドのリリースワークフロー
 description: 機能フラグの定義から運用開始まで、フラグで調整されたリリースを管理するためのエンドツーエンドのワークフローを説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 2%
 
 ## &#x200B;5. ロールアウトの展開と管理 {#expand}
 
-リリースの公開後、リリースマネージャーはオーディエンスルールを調整して、ロールアウトを徐々に展開し、問題を監視し、リリース状態コントロールを使用してライフサイクルを管理できます。 詳しくは、[&#x200B; リリースの状態](release-states.md)を参照してください。
+リリースの公開後、リリースマネージャーはオーディエンスルールを調整して、ロールアウトを徐々に展開し、問題を監視し、リリース状態コントロールを使用してライフサイクルを管理できます。 詳しくは、[ リリースの状態](release-states.md)を参照してください。
 
 ## キーポイント {#key-points}
 

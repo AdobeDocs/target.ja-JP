@@ -1,12 +1,13 @@
 ---
 title: レポート
 description: Customer Journey Analyticsを使用して、フラグで機能フラグレポートを表示する方法を説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 2%
 
 レポートを表示する前に、次のことを確認します。
 
-1. レポートはアプリケーション用に設定されています。[Customer Journey Analyticsを使用したレポートの設定](#setup)を参照してください。
+1. レポートはアプリケーション用に設定されています。機能フラグのレポート用にCJAを設定する[を参照してください](set-up-cja-reporting.md)。
 1. 機能フラグまたは機能グループがアクティブで、データが蓄積されています。
 
 ## レポートを読む {#view-report}
@@ -34,13 +35,13 @@ ht-degree: 2%
 1. 必要なデータビューを選択し、**レポートを表示**&#x200B;を選択します。 レポートを読み込まずにダイアログを閉じるには、**キャンセル**&#x200B;を選択します。
 1. レポートは、そのフラグまたはグループのエンティティ IDの範囲を示すタブ内に読み込まれます。
 
-![機能フラグの詳細ページの「レポート」タブ &#x200B;](assets/report-tab.png)
+![機能フラグの詳細ページの「レポート」タブ ](assets/report-tab.png)
 
 >[!NOTE]
 >
 >このダイアログには、現在のサンドボックスでアクセスできるデータビューのみが一覧表示されます。 使用できない場合は、ダイアログにメッセージが表示され、**レポートの表示**&#x200B;が無効のままになります。データビューの権限を確認するか、サンドボックスを切り替えてください。
 
-![&#x200B; データ表示を選択ダイアログ &#x200B;](assets/select-dataview.png)
+![ データ表示を選択ダイアログ ](assets/select-dataview.png)
 
 ### パフォーマンスレポートを見る {#view-performance-report}
 
@@ -51,7 +52,7 @@ ht-degree: 2%
 
 パネルヘッダーの日付範囲を調整して、別のウィンドウ用に再プロットします（デフォルトは30日間）。
 
-![概要パフォーマンスレポート &#x200B;](assets/performance-report.png)をフラグ付けします
+![概要パフォーマンスレポート ](assets/performance-report.png)をフラグ付けします
 
 ### さらに詳しく {#explore-experimentation-results}
 
@@ -60,34 +61,15 @@ ht-degree: 2%
 1. オプションで&#x200B;**信頼区間の上限/下限を含める**&#x200B;を有効にします。
 1. **ビルド**&#x200B;を選択して、選択した指標のバリアントごとに&#x200B;**上昇率**、**信頼率**、**コンバージョン率**&#x200B;を計算します。
 
-![実験、コントロールバリアント、指標セレクターを含む実験パネル &#x200B;](assets/experimentation-selection.png)
+![実験、コントロールバリアント、指標セレクターを含む実験パネル ](assets/experimentation-selection.png)
 
-これらの指標の計算方法について詳しくは、[実験パネルのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation)を参照してください。
+これらの指標の計算方法について詳しくは、[実験パネルのドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation)を参照してください。
 
-![&#x200B; バリエーション別の上昇率、信頼性、コンバージョン率を示す実験結果](assets/experimentation.png)
-
-### CJAでの分析（オプション） {#analyze-in-cja}
-
-レポートが読み込まれると、「レポート」タブの右上に「**CJAで分析**」ボタンが表示されます。 これを選択すると、新しいブラウザータブでCustomer Journey Analyticsと同じレポートのフルページが開きます。このタブには、より詳細な高度な分析を行うためのCJAの完全なツールセットが用意されています。
-
-Customer Journey Analytics ワークスペースで![&#x200B; フラグ概要レポートを開きました](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->レポートが一時的な保存されていないプロジェクトとして開きます。 CJAでカスタマイズし（指標の追加、パネルの変更、フィルターの調整など）、変更を保持する場合は、**プロジェクト/テンプレートとして保存**&#x200B;を使用して保存します。 そうしないと、レポートを閉じると編集内容が失われます。
-
-![&#x200B; テンプレートとして保存がハイライト表示されたプロジェクトメニュー](assets/save-as-template.png)
-
-## Customer Journey Analyticsでのレポートの設定 {#setup}
-
-レポートを作成するには、Flags アプリケーションに接続されたCustomer Journey Analytics データセットが必要です。 お使いのアプリケーションのレポート機能を有効にするには、Flags サポートまたはAdobe担当者にお問い合わせください。
-
->[!NOTE]
->
->機能リクエストで渡されたIDは、プロファイルにリンクする必要はありません。 評価は実行時に行われ、イベントはCustomer Journey Analyticsに送信されます。
+![ バリエーション別の上昇率、信頼性、コンバージョン率を示す実験結果](assets/experimentation.png)
 
 ## 詳細については、 {#see-also}
 
+* [機能フラグレポート用にCJAを設定する](set-up-cja-reporting.md)
 * [最初の機能フラグを作成](create-your-first-feature-flag.md)
 * [機能フラグによるA/B テスト](a-b-testing.md)
 * [機能グループの作成](create-a-feature-group.md)

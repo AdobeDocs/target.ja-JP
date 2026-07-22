@@ -1,11 +1,12 @@
 ---
 title: リリース状態
 description: 各ステートの意味や許可されるトランジションなど、フラグ内のリリースのライフサイクル状態について説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 3%
 
 ---

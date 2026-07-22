@@ -1,11 +1,12 @@
 ---
 title: Web統合ガイドのフラグ拡張機能
 description: Web アプリケーション用のAdobe Experience Platform Web SDK（Alloy）にFlags拡張機能を統合する方法について説明します。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 7%
+source-wordcount: '1181'
+ht-degree: 8%
 
 ---
 
@@ -168,7 +169,7 @@ const context = {
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`と`FeatureEvaluationContext`を渡します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 **機能が有効になっています** タグ条件を使用するか、初期化後にカスタムコードから`window._flagClient.isFeatureEnabled(...)`を呼び出します。
+`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`と`FeatureEvaluationContext`を渡します。 [評価コンテキスト ](#evaluation-context)を参照してください。 **機能が有効になっています** タグ条件を使用するか、初期化後にカスタムコードから`window._flagClient.isFeatureEnabled(...)`を呼び出します。
 
 **署名**
 
@@ -181,7 +182,7 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | string | フラグで評価する機能キー |
-| `context` | FeatureEvaluationContext | ID （必須）とオプションのターゲティング属性。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
+| `context` | FeatureEvaluationContext | ID （必須）とオプションのターゲティング属性。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
 
 ### 機能フラグデータ要素の作成 {#create-data-element}
 
@@ -250,7 +251,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | string | フラグで評価する機能キー |
-| `context` | FeatureEvaluationContext | ID （必須）とターゲティング属性。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
+| `context` | FeatureEvaluationContext | ID （必須）とターゲティング属性。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
 
 **応答**
 

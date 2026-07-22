@@ -1,10 +1,11 @@
 ---
 title: ルールセットの作成と使用
 description: フラグで再利用可能なオーディエンスコンテキスト条件のルールセットを作成し、それをフィーチャーフラグおよびフィーチャーグループにインポートする方法について説明します。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 1%
 
 「**自分のルールセット**」タブには、作成したルールセットが表示されます。 「**チームルールセット**」タブには、チームで使用可能なルールセットが表示されます。
 
-ルール セットがまだ作成されていない![&#x200B; ルール セット リスト &#x200B;](assets/rule-set-list-empty.png)
+ルール セットがまだ作成されていない![ ルール セット リスト ](assets/rule-set-list-empty.png)
 
 ### 手順2：ルールセットの詳細と条件の追加 {#step-2-details}
 
@@ -39,13 +40,13 @@ ht-degree: 1%
 1. **And**&#x200B;または&#x200B;**Or**&#x200B;を使用して、複数の条件を組み合わせます。
 1. より複雑な式を作成するには、**ネストされたロジックを有効にする**&#x200B;を選択します。
 
-![&#x200B; コンテキスト条件の例を含むルールセット作成フォーム &#x200B;](assets/rule-set-create-context.png)
+![ コンテキスト条件の例を含むルールセット作成フォーム ](assets/rule-set-create-context.png)
 
 ### 手順3：ルールセットの保存 {#step-3-save}
 
 **設定を保存**&#x200B;を選択します。 保存されたルールセットは、**自分のルールセット**&#x200B;の下に表示されます。
 
-![新しく保存されたルールセットを表示するルールセットリスト &#x200B;](assets/rule-set-list-created.png)
+![新しく保存されたルールセットを表示するルールセットリスト ](assets/rule-set-list-created.png)
 
 ## 機能フラグまたは機能グループでのルールセットの使用 {#use-rule-set}
 
@@ -57,13 +58,13 @@ ht-degree: 1%
 
 「**ルールセットを選択**」ドロップダウンを開きます。 **My Rule Set**&#x200B;または&#x200B;**My Team Rule Set**&#x200B;からルールセットを選択します。
 
-![&#x200B; オーディエンスタブでルール設定ドロップダウンを選択](assets/rule-set-select-in-audience.png)
+![ オーディエンスタブでルール設定ドロップダウンを選択](assets/rule-set-select-in-audience.png)
 
 ### 手順3：読み込んだ基準の確認 {#step-3-review}
 
 選択したルールセットのコンテキスト基準がオーディエンスに読み込まれます。 条件を確認し、機能フラグまたは機能グループを保存します。
 
-読み込まれたルールセット条件を示す![機能フラグオーディエンスタブ &#x200B;](assets/rule-set-imported-audience.png)
+読み込まれたルールセット条件を示す![機能フラグオーディエンスタブ ](assets/rule-set-imported-audience.png)
 
 同じオーディエンスを必要とする複数の機能フラグおよび機能グループで、同じルールセットを使用できます。
 

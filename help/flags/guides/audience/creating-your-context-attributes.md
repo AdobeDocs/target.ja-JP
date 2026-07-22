@@ -1,10 +1,11 @@
 ---
 title: コンテキスト属性の作成
 description: フラグでコンテキスト属性とコンテキストグループを作成および整理して、オーディエンスの条件で使用できるようにする方法を説明します。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 5%
 
 ---
@@ -51,7 +52,7 @@ ht-degree: 5%
 | フィールド | 説明 |
 | --- | --- |
 | **グループ名** | グループの一意の名前を入力します。 |
-| **&#x200B;**&#x200B;のサブグループを作成 | 階層を整理する親グループを選択します。 属性の作成中にグループを作成することもできます。 |
+| ****&#x200B;のサブグループを作成 | 階層を整理する親グループを選択します。 属性の作成中にグループを作成することもできます。 |
 
 ## コンテキスト属性の作成 {#create-attribute}
 

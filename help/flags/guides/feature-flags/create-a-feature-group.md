@@ -1,11 +1,12 @@
 ---
 title: 機能グループの作成
 description: フラグで機能グループを作成して、チーム内のアプリケーション間で複数の機能フラグを1つのユニットとして管理する方法を説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -16,12 +17,12 @@ ht-degree: 0%
 
 機能グループを作成する前に、次の手順を実行します。
 
-* フラグコンソールにアクセスできます。[&#x200B; コンソールへのログイン &#x200B;](../console/log-in-to-the-console.md)を参照してください。
-* アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
+* フラグコンソールにアクセスできます。[ コンソールへのログイン ](../console/log-in-to-the-console.md)を参照してください。
+* アプリケーションがオンボーディングされました。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
 * **製品リリース所有者**&#x200B;の役割があります
 * グループに追加する機能フラグを作成しました。[最初の機能フラグの作成](create-your-first-feature-flag.md)を参照してください。
 
-機能グループの概要については、[複数の機能を制御する機能グループ &#x200B;](../../concepts/feature-groups-to-control-multiple-features.md)を参照してください。
+機能グループの概要については、[複数の機能を制御する機能グループ ](../../concepts/feature-groups-to-control-multiple-features.md)を参照してください。
 
 ## 手順1：機能グループの作成 {#create}
 
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 1. タイトル、キー、説明、およびオプションでタグを指定します。
 2. 機能グループの&#x200B;**パーセンテージのロールアウト**&#x200B;を設定します。
-3. A/B テストを実施したい場合は、複数のバリエーションを選択してください。 それ以外は、1つのバリエーションのままにします。 詳しくは、[機能フラグを使用したA/B テスト &#x200B;](a-b-testing.md)を参照してください。
+3. A/B テストを実施したい場合は、複数のバリエーションを選択してください。 それ以外は、1つのバリエーションのままにします。 詳しくは、[機能フラグを使用したA/B テスト ](a-b-testing.md)を参照してください。
 
 ## ステップ 3：オーディエンス {#audience}
 

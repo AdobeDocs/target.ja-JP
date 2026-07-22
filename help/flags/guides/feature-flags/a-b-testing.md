@@ -1,11 +1,12 @@
 ---
 title: 機能フラグによるA/B テスト
 description: 一連の機能フラグに対して複数のバリエーションを設定することで、フラグの機能グループを使用してA/B テストを実行する方法について説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 ## 前提条件 {#prerequisites}
 
-* コンソールにアクセスできます。[&#x200B; コンソールにログイン &#x200B;](../console/log-in-to-the-console.md)を参照してください。
+* コンソールにアクセスできます。[ コンソールにログイン ](../console/log-in-to-the-console.md)を参照してください。
 * チームに所属し、アプリケーションがオンボーディングされます
 * **製品リリース所有者**&#x200B;の役割があります
 * テストする機能フラグを作成しました。[最初の機能フラグを作成する](create-your-first-feature-flag.md)を参照してください。

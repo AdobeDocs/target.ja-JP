@@ -1,11 +1,12 @@
 ---
 title: オーディエンスルールでのコンテキストの使用
 description: フラグの機能フラグと機能グループに対するオーディエンスルールでコンテキスト属性を使用する方法について説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 1%
 3. **Context**&#x200B;で、新しい条件を追加します。
 4. コンテキストの属性、演算子、値を選択します。
 
-必要なコンテキスト属性がリストに表示されない場合は、新しいコンテキスト属性を作成できます。[&#x200B; コンテキスト属性の作成](creating-your-context-attributes.md)を参照してください。
+必要なコンテキスト属性がリストに表示されない場合は、新しいコンテキスト属性を作成できます。[ コンテキスト属性の作成](creating-your-context-attributes.md)を参照してください。
 
 ## 詳しくは、 {#see-also}
 

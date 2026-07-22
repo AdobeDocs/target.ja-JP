@@ -1,11 +1,12 @@
 ---
 title: 最初の機能フラグを作成
 description: フラグで機能フラグを作成し、オーディエンスを設定し、ユーザーにロールアウトする前にテストする方法を説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 2%
 
 ---
@@ -16,8 +17,8 @@ ht-degree: 2%
 
 機能フラグを作成する前に、次の手順を実行します。
 
-* フラグコンソールにアクセスできます。[&#x200B; コンソールへのログイン &#x200B;](../console/log-in-to-the-console.md)を参照してください。
-* アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
+* フラグコンソールにアクセスできます。[ コンソールへのログイン ](../console/log-in-to-the-console.md)を参照してください。
+* アプリケーションがオンボーディングされました。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
 * **製品リリース所有者**&#x200B;の役割があります
 
 ## 手順1：機能フラグの作成 {#create}
@@ -50,7 +51,7 @@ ht-degree: 2%
 
 ## 手順2：オーディエンス条件の追加 {#audience}
 
-オーディエンス基準は、どのユーザーに機能を表示するかを制御します。 **コンテキスト属性** – 機能リクエストでweb サイトまたはアプリが送信する値（`locale`または`platform`など）を持つユーザーをターゲットにできます。 **AND**、**OR**、**NOT**&#x200B;と組み合わせます。 [&#x200B; オーディエンスルールでコンテキストを使用](../audience/using-context-in-audience-rules.md)を参照してください。
+オーディエンス基準は、どのユーザーに機能を表示するかを制御します。 **コンテキスト属性** – 機能リクエストでweb サイトまたはアプリが送信する値（`locale`または`platform`など）を持つユーザーをターゲットにできます。 **AND**、**OR**、**NOT**&#x200B;と組み合わせます。 [ オーディエンスルールでコンテキストを使用](../audience/using-context-in-audience-rules.md)を参照してください。
 
 オーディエンス条件を追加するには、機能フラグを作成または編集する際に「**オーディエンス**」タブに移動します。
 
