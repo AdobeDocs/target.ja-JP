@@ -19,15 +19,15 @@ ht-degree: 0%
 
 アプリケーションの種類に合ったガイドを選択します。
 
-1. [ スタートアップガイド ](startup-guide.md) – すべての統合手順の概要については、ここから始めてください
-1. [ モバイルアプリ ](mobile-applications.md) — モバイルアプリ用SDK統合
-1. [Web アプリケーション ](web-applications.md) — web プロパティ用SDK統合
+1. [&#x200B; スタートアップガイド &#x200B;](startup-guide.md) – すべての統合手順の概要については、ここから始めてください
+1. [&#x200B; モバイルアプリ &#x200B;](mobile-applications.md) — モバイルアプリ用SDK統合
+1. [Web アプリケーション &#x200B;](web-applications.md) — web プロパティ用SDK統合
 
 ## アプリケーションタイプの概要 {#overview}
 
 | アプリケーションタイプ | 連携の強化 |
 | --- | --- |
 | **モバイルアプリケーション** | AEP Mobile SDK — [Android](../sdk-releases/android/android-extension-integration-guide.md)および[iOS](../sdk-releases/ios/ios-extension-integration-guide.md) ガイドを参照 |
-| **Web アプリケーション** | Web SDK — [Web統合ガイド ](../sdk-releases/web/web-extension-integration-guide.md)を参照 |
+| **Web アプリケーション** | Web SDK — [Web統合ガイド &#x200B;](../sdk-releases/web/web-extension-integration-guide.md)を参照 |
 
 <!-- -->

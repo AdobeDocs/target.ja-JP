@@ -35,13 +35,13 @@ ht-degree: 3%
 1. 必要なデータビューを選択し、**レポートを表示**&#x200B;を選択します。 レポートを読み込まずにダイアログを閉じるには、**キャンセル**&#x200B;を選択します。
 1. レポートは、そのフラグまたはグループのエンティティ IDの範囲を示すタブ内に読み込まれます。
 
-![機能フラグの詳細ページの「レポート」タブ ](assets/report-tab.png)
+![機能フラグの詳細ページの「レポート」タブ &#x200B;](assets/report-tab.png)
 
 >[!NOTE]
 >
 >このダイアログには、現在のサンドボックスでアクセスできるデータビューのみが一覧表示されます。 使用できない場合は、ダイアログにメッセージが表示され、**レポートの表示**&#x200B;が無効のままになります。データビューの権限を確認するか、サンドボックスを切り替えてください。
 
-![ データ表示を選択ダイアログ ](assets/select-dataview.png)
+![&#x200B; データ表示を選択ダイアログ &#x200B;](assets/select-dataview.png)
 
 ### パフォーマンスレポートを見る {#view-performance-report}
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 パネルヘッダーの日付範囲を調整して、別のウィンドウ用に再プロットします（デフォルトは30日間）。
 
-![概要パフォーマンスレポート ](assets/performance-report.png)をフラグ付けします
+![概要パフォーマンスレポート &#x200B;](assets/performance-report.png)をフラグ付けします
 
 ### さらに詳しく {#explore-experimentation-results}
 
@@ -61,11 +61,11 @@ ht-degree: 3%
 1. オプションで&#x200B;**信頼区間の上限/下限を含める**&#x200B;を有効にします。
 1. **ビルド**&#x200B;を選択して、選択した指標のバリアントごとに&#x200B;**上昇率**、**信頼率**、**コンバージョン率**&#x200B;を計算します。
 
-![実験、コントロールバリアント、指標セレクターを含む実験パネル ](assets/experimentation-selection.png)
+![実験、コントロールバリアント、指標セレクターを含む実験パネル &#x200B;](assets/experimentation-selection.png)
 
-これらの指標の計算方法について詳しくは、[実験パネルのドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation)を参照してください。
+これらの指標の計算方法について詳しくは、[実験パネルのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation)を参照してください。
 
-![ バリエーション別の上昇率、信頼性、コンバージョン率を示す実験結果](assets/experimentation.png)
+![&#x200B; バリエーション別の上昇率、信頼性、コンバージョン率を示す実験結果](assets/experimentation.png)
 
 ## 詳細については、 {#see-also}
 

@@ -17,11 +17,11 @@ ht-degree: 1%
 
 ## 手順1：アクセスのリクエスト {#step-1-access}
 
-フラグコンソールへのアクセスをリクエストして、チームに参加します。 詳細な手順については、[ アクセスを要求](../console/request-access.md)を参照してください。
+フラグコンソールへのアクセスをリクエストして、チームに参加します。 詳細な手順については、[&#x200B; アクセスを要求](../console/request-access.md)を参照してください。
 
 ## 手順2：アプリケーションのオンボーディング {#step-2-onboard}
 
-アクセスを取得したら、フラグコンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
+アクセスを取得したら、フラグコンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
 
 オンボーディングの前に、次の手順に従います。
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 タグベースのアプローチ（webまたはモバイル）を使用して統合する場合は、SDKを初期化する前にタグプロパティを設定します。
 
-1. [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)で、[ タグプロパティ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)を作成するか、既存のタグプロパティを使用します。
+1. [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)で、[&#x200B; タグプロパティ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)を作成するか、既存のタグプロパティを使用します。
 1. モバイルまたはweb タグプロパティを開き、[拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)に移動します。
 1. **Edge Network**&#x200B;拡張機能をインストールして設定します。 次に、**Flags**&#x200B;拡張機能をインストールします。
 1. **データストリーム**&#x200B;を選択し（Customer Journey Analytics データセットを含める必要があります）、Edge ドメインを設定します。
