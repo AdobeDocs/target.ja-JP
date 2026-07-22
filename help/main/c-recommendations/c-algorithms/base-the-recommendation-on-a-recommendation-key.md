@@ -186,7 +186,7 @@ ht-degree: 25%
 
 このアルゴリズムは、属性を入力するプロファイルスクリプトに依存します。スクリプトの名前は`recsAttribute`接頭辞で始まる必要があるので、[!DNL Target]はそれを`user.recsAttribute<Name>`として保存します。 ユースケースに関連する任意の訪問者特性のスクリプトを作成できます。
 
-プロファイルスクリプトを使用したプロファイル属性の設定について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)を参照してください。
+プロファイルスクリプトを使用したプロファイル属性の設定について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/audiences/visitor-profiles/profile-parameters)を参照してください。
 
 例えば、訪問者の地域に基づいてレコメンデーションを作成する`recsAttributeRegion`という名前のスクリプトは、次のようになります。
 
@@ -201,7 +201,7 @@ if (region) return region;
 
 [!UICONTROL &#x200B; カテゴリー別のトップセラー]と[!UICONTROL &#x200B; アイテム属性のトップセラー]のように、アイテム情報ではなく訪問者プロファイル属性でグループ化されたトップセラー項目をレコメンドします。 [!DNL Target]は、属性値ごとに個別のトップセラーのリストを保持し、配信時に、各訪問者に独自の格納値に一致するリストを表示します。
 
-[!UICONTROL &#x200B; プロファイル属性で最も閲覧された属性]と同様に、このアルゴリズムは属性を入力するプロファイルスクリプトに依存しており、スクリプトの名前は`recsAttribute`接頭辞で始まる必要があるので、[!DNL Target]はそれを`user.recsAttribute<Name>`として保存します。 ユースケースに関連する任意の訪問者特性のスクリプトを作成できます。 プロファイルスクリプトを使用したプロファイル属性の設定について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)を参照してください。
+[!UICONTROL &#x200B; プロファイル属性で最も閲覧された属性]と同様に、このアルゴリズムは属性を入力するプロファイルスクリプトに依存しており、スクリプトの名前は`recsAttribute`接頭辞で始まる必要があるので、[!DNL Target]はそれを`user.recsAttribute<Name>`として保存します。 ユースケースに関連する任意の訪問者特性のスクリプトを作成できます。 プロファイルスクリプトを使用したプロファイル属性の設定について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/audiences/visitor-profiles/profile-parameters)を参照してください。
 
 例えば、訪問者のロイヤルティ層にレコメンデーションを基にした`recsAttributeLoyaltyTier`という名前のスクリプトは次のようになります。
 
