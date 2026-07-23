@@ -15,9 +15,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4405
+source-wordcount: 4434
 ht-degree: 25%
 
 ---
@@ -181,6 +181,11 @@ ht-degree: 25%
 次に、「お気に入りブランド」、「最後にカートに追加されたアイテム」、「最も閲覧された番組」など、訪問者のプロファイルに一致するように保存されているプロファイル属性を選択します。
 
 ### [!UICONTROL &#x200B; プロファイル属性]で最も閲覧されたユーザー
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="プロファイル属性"
+>abstract="プロファイルスクリプトを使用してプロファイル属性を作成できます。 プロファイルスクリプトを作成してアクティブ化すると、対応するプロファイル属性をこのアルゴリズムで使用できます。"
 
 [!UICONTROL &#x200B; カテゴリー別に最も閲覧された項目]と[!UICONTROL 項目属性で最も閲覧された項目]のように、項目情報ではなく訪問者プロファイル属性でグループ化された最も閲覧された項目をレコメンドします。 [!DNL Target]は、属性値ごとにランク付けされたリストを個別に保持し、配信時に、各訪問者に各自の格納値に一致するリストを表示します。
 

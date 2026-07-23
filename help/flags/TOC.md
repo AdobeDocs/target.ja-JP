@@ -3,9 +3,9 @@ audience: user
 user-guide-title: フラグ
 user-guide-description: Adobe Targetのフラグを使用して、アプリケーション全体で機能フラグ、制御されたロールアウト、ターゲットリリースを管理する方法について説明します。
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 9%
   + [機能グループを設定し](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [機能フラグによるA/B テスト](guides/feature-flags/a-b-testing.md)
   + [レポート](guides/feature-flags/reporting.md)
+  + [機能フラグレポート用にCJAを設定する](guides/feature-flags/set-up-cja-reporting.md)
 + オーディエンス基準 {#audience}
   + [機能フラグと機能グループのオーディエンス](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [オーディエンスルールでのコンテキストの使用](guides/audience/using-context-in-audience-rules.md)

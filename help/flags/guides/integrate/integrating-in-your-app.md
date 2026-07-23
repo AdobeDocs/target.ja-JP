@@ -1,11 +1,12 @@
 ---
 title: アプリにフラグを統合
 description: Web サービス、web プロパティ、モバイルアプリ、デスクトップアプリケーションなど、フラグをアプリケーションに統合する方法について説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---

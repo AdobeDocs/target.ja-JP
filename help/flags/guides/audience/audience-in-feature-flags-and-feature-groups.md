@@ -1,12 +1,13 @@
 ---
 title: 機能フラグと機能グループのオーディエンス
 description: コンテキスト属性を使用して、フラグのフィーチャーフラグとフィーチャーグループのオーディエンス基準を定義する方法を説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 4a8f7c3f-1ae5-4e65-a070-9fc33133eec0
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '70'
+ht-degree: 4%
 
 ---
 

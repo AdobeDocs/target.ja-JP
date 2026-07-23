@@ -1,11 +1,12 @@
 ---
 title: スタートアップガイド
 description: アクセスのリクエストから最初の機能フラグの作成まで、アプリケーションをフラグと統合するには、次の手順に従います。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
+source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -44,9 +45,10 @@ ht-degree: 1%
 
 タグベースのアプローチ（webまたはモバイル）を使用して統合する場合は、SDKを初期化する前にタグプロパティを設定します。
 
-1. [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)で、モバイルまたはweb プロパティを開きます。
-1. **Edge Network**&#x200B;拡張機能をインストールし、次に&#x200B;**フラグ**&#x200B;拡張機能を（その順序で）インストールします。
-1. **データストリーム**&#x200B;とエッジドメインを選択します（Customer Journey Analytics データセットを含める必要があります）。
+1. [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)で、[&#x200B; タグプロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/get-started/quick-start)を作成するか、既存のタグプロパティを使用します。
+1. モバイルまたはweb タグプロパティを開き、[拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/extensions/overview)に移動します。
+1. **Edge Network**&#x200B;拡張機能をインストールして設定します。 次に、**Flags**&#x200B;拡張機能をインストールします。
+1. **データストリーム**&#x200B;を選択し（Customer Journey Analytics データセットを含める必要があります）、Edge ドメインを設定します。
 1. 実稼動環境&#x200B;**の**&#x200B;開発→ ステージングを通じて設定→公開します。
 1. **環境ファイル ID**&#x200B;を&#x200B;**環境** タブからコピーします。これを使用して、SDKを初期化します。
 

@@ -1,11 +1,12 @@
 ---
 title: 段階的な展開
 description: フラグの段階的なロールアウトによって、リアルタイムのフィードバックとリスクを最小限に抑えながら、機能の配信を安全に本番環境に導入する方法を説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---

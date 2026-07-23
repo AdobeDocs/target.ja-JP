@@ -1,12 +1,13 @@
 ---
 title: SDK
 description: FlagsのSDK アーキテクチャと、利用可能なAEP Web SDKおよびAEP Mobile SDK拡張機能について説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 

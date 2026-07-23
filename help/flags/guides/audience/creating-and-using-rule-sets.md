@@ -1,10 +1,11 @@
 ---
 title: ルールセットの作成と使用
 description: フラグで再利用可能なオーディエンスコンテキスト条件のルールセットを作成し、それをフィーチャーフラグおよびフィーチャーグループにインポートする方法について説明します。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---

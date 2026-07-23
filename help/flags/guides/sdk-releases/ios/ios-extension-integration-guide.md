@@ -1,10 +1,11 @@
 ---
 title: IOS統合ガイドのフラグ拡張機能
 description: Flags拡張機能をiOS上のAdobe Experience Platform Mobile SDKと統合する方法について説明します。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1036'
 ht-degree: 5%
 
 ---

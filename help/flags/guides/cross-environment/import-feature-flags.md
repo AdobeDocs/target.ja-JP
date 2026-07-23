@@ -1,11 +1,12 @@
 ---
 title: 機能フラグの読み込み
 description: フラグ設定を手動で再作成しないように、あるサンドボックスから別のサンドボックスに機能フラグを読み込む方法について説明します。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
