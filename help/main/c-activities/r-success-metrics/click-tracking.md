@@ -5,24 +5,19 @@ title: クリックの追跡とは
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 942
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # クリックの追跡
 
-[!DNL Adobe Target]では、任意の要素のクリックを成功指標として追跡できます。 クリックトラッキングとは、web ページやエクスペリエンス内の要素のクリック数を中心に、ユーザーのインタラクションを監視および記録するプロセスです。 これは、A/B テスト、多変量テスト、パーソナライゼーションアクティビティにおいて、エンゲージメントとパフォーマンスを測定するための重要な要素です。
+[!DNL Adobe Target] では、任意の要素のクリックを成功指標として追跡できます。クリックの追跡とは、web ページやエクスペリエンス内の要素のクリック数を中心に、ユーザーのインタラクションを監視および記録するプロセスです。これは、A/B テスト、多変量テスト、パーソナライゼーションアクティビティにおいて、エンゲージメントとパフォーマンスを測定するための重要な要素です。
 
 >[!NOTE]
 >
@@ -39,27 +34,27 @@ ht-degree: 73%
 
    要素の選択に関するヒントについては、次の「*注意点*」の節を参照してください。
 
-1. 画面上部の&#x200B;**[!UICONTROL 完了]**&#x200B;をクリックして、選択内容を保存します。
+1. 画面上部の「**[!UICONTROL 完了]**」をクリックして、選択内容を保存します。
 
 選択した要素をアクティビティ参加者がクリックすると、そのクリックはコンバージョンとしてカウントされます。
 
 ## 選択された要素パネル {#selected-elements}
 
-[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの場合、[!UICONTROL Selected Elements] パネルには、左側のクリックトラッキング用に選択した要素が一覧表示されます。
+[!UICONTROL A/B テスト]、[!UICONTROL エクスペリエンスのターゲット設定]（XT）、[!UICONTROL Automated Personalization]（AP）、[!UICONTROL 多変量分析テスト]（MVT）アクティビティの場合、[!UICONTROL 選択された要素]パネルには、左側のクリックの追跡用に選択した要素が一覧表示されます。
 
 ![選択された要素パネル](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-[!UICONTROL &#x200B; トラッキングコンポーネント &#x200B;] パネルでエレメントをクリックすると、適用できるアクションがいくつかあります。 以下の表で、要素で実行できる各操作を説明します。
+[!UICONTROL Tracked Components] パネルで要素をクリックすると、いくつかのアクションを適用できます。以下の表で、要素で実行できる各操作を説明します。
 
 | アクション | 説明 |
 | --- | --- |
-| [!UICONTROL &#x200B; トラッキングされたアクション &#x200B;] | 要素アクションを表示します。 |
+| [!UICONTROL 追跡したアクション] | 要素アクションを表示します。 |
 | [!UICONTROL CSS セレクター] | CSS セクターを編集できます。 |
 | [!DNL Delete] | 要素を削除します。 |
 
 ### 要素を追加
 
-セレクターへのDOM パスが既にわかっている場合は、パネルの上部にある「[!UICONTROL &#x200B; コンポーネントを追加]」アイコンをクリックして、手動で追加できます。
+セレクターへの DOM パスが既にわかっている場合は、パネルの上部にある「[!UICONTROL コンポーネントを追加]」アイコンをクリックして、手動で追加できます。
 
 ## 注意点 {#considerations}
 
@@ -71,11 +66,11 @@ ht-degree: 73%
 
   詳しくは、*Visual Experience Composer のオプション*&#x200B;の [DOM パスを使用した要素のナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。
 
-* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。 この異なるページは、[&#x200B; マルチページ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を使用するアクティビティに含める必要があり、[!DNL at.js]を実装する必要があります。
+* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。 この異なるページは、[マルチページ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を使用するアクティビティに含める必要があり、[!DNL at.js] を実装する必要があります。
 * 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。 各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。 ページ上の複数の要素をクリックして 1 つの項目をカウントするには、CSS 要素セレクターを編集して複数の要素と一致させます。
 * 追跡する要素のレベルを選択していることを確認してください。 例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * クリックイベントは、そのクリックと同じページの [!DNL Target] に送信されます。
-* クリック追跡指標が[!UICONTROL Analytics for Target] （A4T）アクティビティの目標指標である場合、訪問者はページの読み込みから60秒以内にこの要素をクリックして、指標を追跡する必要があります。
+* クリック追跡指標が [!UICONTROL Analytics for Target]（A4T）アクティビティの目標指標の場合は、訪問者がページの読み込みから 60 秒以内にこの要素をクリックしないと、指標は追跡されません。
 * 次に示すエスケープ文字がセレクターに含まれる要素では、クリックの追跡は機能しません。
 
   | 文字 | 説明 |
@@ -92,14 +87,14 @@ ht-degree: 73%
 
   クリックの追跡イベントが [!DNL at.js]（リンク）タグまたは `A` タグに付加されている場合、次の手順が `FORM` によって実行されます。
 
-   1. `event.preventDefault()` を呼び出す。
+  1. `event.preventDefault()` を呼び出す。
 
-   1. [!DNL Target] リクエストをトリガーします。
+  1. [!DNL Target] リクエストをトリガーします。
 
-   1. [!DNL Target] リクエストの成功またはエラーコールバックで、デフォルトの動作を実行します。
+  1. [!DNL Target] リクエストの成功またはエラーコールバックで、デフォルトの動作を実行します。
 
-      * `A`（リンク）タグ：デフォルトの動作では、HREF 属性に定義されている URL に移動します。
-      * `FORM` タグ：デフォルトの動作では、フォームを送信します。
+     * `A`（リンク）タグ：デフォルトの動作では、HREF 属性に定義されている URL に移動します。
+     * `FORM` タグ：デフォルトの動作では、フォームを送信します。
 
   このデフォルトの動作により、[!DNL Analytics] のクリックの追跡が妨げられることがあります。 [!DNL Analytics] を使用している場合は、[!DNL Target] ではなく [!DNL Analytics] を使用してクリックの追跡を行う必要があります。
 
@@ -111,14 +106,14 @@ ht-degree: 73%
 
 * 複数のアクティビティで、同じセレクターのクリック追跡指標を定義できます。 その場合、訪問者がそのアクティビティの 1 つに該当し、そのセレクターをクリックすると、クリック追跡指標は、その訪問者が該当するすべての関連アクティビティについて増加します。
 
-* [!UICONTROL Automated Personalization] （AP）およびシングルページアプリケーション（SPA）上の自動ターゲットアクティビティの場合、特定の[!DNL Target] ビューに属するクリックトラッキング用のエレメントを選択できます。 ビューについて詳しくは、[Adobe Target ビューとシングルページアプリケーション &#x200B;](/help/main/c-experiences/spa-visual-experience-composer.md)を参照してください。
+* [!UICONTROL Automated Personalization]（AP）およびシングルページアプリケーション（SPA）上の自動ターゲットアクティビティの場合、特定の [!DNL Target] ビューに属するクリックの追跡用の要素を選択できます。ビューについて詳しくは、[Adobe Target ビューとシングルページアプリケーション](/help/main/c-experiences/spa-visual-experience-composer.md)を参照してください。
 
 ## トレーニングビデオ {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 このビデオでは、クリックの追跡の成功指標の作成について説明します。
 
 * 「目標」指標の理解
-* [!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]の指標を理解して構築する
+* [!UICONTROL コンバージョン]、[!UICONTROL 売上高]、[!UICONTROL エンゲージメント]の各指標の理解と作成
 * クリック追跡指標の構築
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)
