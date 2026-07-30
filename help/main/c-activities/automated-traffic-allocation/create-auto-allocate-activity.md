@@ -14,9 +14,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: a2afe9f1acd1758f1c9e0f8442eafd54037bb3f4
 workflow-type: tm+mt
-source-wordcount: 1060
+source-wordcount: 1074
 ht-degree: 14%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 14%
 
 1. 「**[!UICONTROL トラフィック配分]**」コントロールをクリックし、右側のペインで目的のトラフィック配分方法を選択します。 このシナリオでは、**[!UICONTROL 最適なエクスペリエンスに自動割り当て]**&#x200B;をクリックします。
 
-   ![&#x200B; トラフィック配分メソッドの設定](/help/main/c-activities/automated-traffic-allocation/assets/auto-allocate-to-best-exp.png)
+   ![トラフィック配分方法の設定](/help/main/c-activities/automated-traffic-allocation/assets/auto-allocate-to-best-exp.png)
 
    次のトラフィック割り当て方法を使用できます。
 
@@ -134,6 +134,8 @@ ht-degree: 14%
    >[!NOTE]
    >
    >このアクティビティで[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4Tの自動配分および自動ターゲットアクティビティのサポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)に関する重要な情報を参照してください。
+   >
+   >このアクティビティで [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを使用する場合は、[このページ &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source)を参照してください。
 
 1. **[!UICONTROL 保存して閉じる]**&#x200B;または&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックします。
 
