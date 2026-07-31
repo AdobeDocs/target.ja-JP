@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
+source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 29%
+source-wordcount: 1046
+ht-degree: 26%
 
 ---
 
@@ -30,6 +30,26 @@ ht-degree: 29%
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.7.5 （2026年7月30日）
+
+**アクティビティ**
+
++++詳細を見る
+
+* **アクティビティ [!DNL A/B Test (Manual)]のベイズ統計** [!DNL A/B Test (Manual)] アクティビティが、Welchのt テストの代替としてベイズ統計をサポートするようになりました。 [!UICONTROL 目標と設定]の統計的手法を選択します。ベイズ活動のレポートには、[!UICONTROL &#x200B; ビートコントロールの可能性]などの確率ベースの決定指標と、周波数論的な信頼区間の代わりに信頼性の高い区間が表示されます。 [詳細情報](../c-reports/statistical-methodology/statistical-calculations.md)
+
+* [!DNL Auto-Allocate]件のアクティビティに関する&#x200B;**[!DNL Customer Journey Analytics]件のレポート。** [!DNL Auto-Allocate]のアクティビティで、[!DNL Target]および[!DNL Adobe Analytics] （A4T）に加えて、[!DNL Customer Journey Analytics]をレポートソースとして使用できるようになりました。 [詳細情報](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+
++++
+
+**[!UICONTROL Visual Experience Composer] （VEC）**
+
++++詳細を見る
+
+* **アクティビティでHTML オファーを選択または変更できません。** 特定のHTMLまたはエクスペリエンスフラグメントオファーをアクティビティに追加すると、[!UICONTROL Visual Experience Composer]がクラッシュし、オファーが選択または変更されない問題を修正しました。 （TGT-55732）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.4 （2026年7月23日（PT））
 
