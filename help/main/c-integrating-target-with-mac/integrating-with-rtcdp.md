@@ -138,7 +138,7 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 詳しくは、*Platform チュートリアル* ガイドの「[Real-Time CDPとAdobe Targetを使用した次のヒットのパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja){target=_blank}」を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342979?captions=jpn&quality=12&learn=on)
 
 ### ビデオ：[!DNL Real-Time Customer Data Platform] での [!DNL Adobe Target] の宛先の設定
 
