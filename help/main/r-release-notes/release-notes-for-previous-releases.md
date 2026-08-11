@@ -1029,7 +1029,7 @@ Adobe Targetには新しいインサイトダッシュボードが追加され�
 
 +++詳細を見る
 
-* **Target固有のWeb SDK ドキュメントページをAdobe Target リポジトリに移動しました。** Web SDK ドキュメントの再構築の一環として、[!DNL Target]固有のコンテンツが一般的なWeb SDK ドキュメントから[!DNL Adobe Target] [開発者ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}に移行されました。 この変更により、コンテンツの見つけやすさが向上し、適切な製品チームがソリューション固有のガイダンスを維持できるようになります。 （TGT-53374）
+* **Target固有のWeb SDK ドキュメントページをAdobe Target リポジトリに移動しました。** Web SDK ドキュメントの再構築の一環として、[!DNL Target]固有のコンテンツが一般的なWeb SDK ドキュメントから[!DNL Adobe Target] [開発者ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}に移行されました。 この変更により、コンテンツの見つけやすさが向上し、適切な製品チームがソリューション固有のガイダンスを維持できるようになります。 （TGT-53374）
 
 +++
 
@@ -1110,7 +1110,7 @@ Adobe Targetには新しいインサイトダッシュボードが追加され�
 * 同じデータストリーム IDを異なる接続に使用できるのは、異なるサンドボックスで設定されている場合のみです。
 * このルールは、「なし」が選択されている場合を含め、すべてのデータストリーム選択に適用されます。
 
-このアップデートにより、設定の一貫性が確保され、マルチサンドボックス環境での競合を防ぐことができます。 詳しくは、*Adobe Target Destinations* ガイドの[Experience Platform connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}を参照してください。
+このアップデートにより、設定の一貫性が確保され、マルチサンドボックス環境での競合を防ぐことができます。 詳しくは、*Adobe Target Destinations* ガイドの[Experience Platform connection](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}を参照してください。
 
 ### [!DNL Target Standard/Premium] 25.9.1 （2025年9月5日）
 
@@ -2351,7 +2351,7 @@ Adobe Targetには新しいインサイトダッシュボードが追加され�
 >
 >2025年2月3日（PT）までに実装レビューを完了して問題を解決できない場合は、1 回限りの 6 か月間の延長をリクエストできます。 リクエストは、2025年1月31日（PT）までに送信する必要があります。 アドビがリクエストをレビューし、決定します。
 
-手動の提案レンダリングの場合にこの最適化のメリットを活用するには、[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} をレビューして、エクスペリエンスを手動でレンダリングした後や、`applyPropositions` メソッド（またはヘルパーとしての対応する [!DNL Launch] アクション）を使用してエクスペリエンスをレンダリングした際に、通知が送信されるようにします。
+手動の提案レンダリングの場合にこの最適化のメリットを活用するには、[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} をレビューして、エクスペリエンスを手動でレンダリングした後や、`applyPropositions` メソッド（またはヘルパーとしての対応する [!DNL Launch] アクション）を使用してエクスペリエンスをレンダリングした際に、通知が送信されるようにします。
 
 エクスペリエンスを手動でレンダリングする際の最も一般的なシナリオは次のとおりです。
 
@@ -2826,7 +2826,7 @@ at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#
 このリリースには、次の修正が含まれています：
 
 * 3 つの買い物かごベースのアルゴリズムによって [!DNL Target] バックエンドで同じ購入／購入条件が使用されていた問題を修正しました。 （TGT-43456）
-* [Business ID アカウント](https://helpx.adobe.com/enterprise/using/identity.html?lang=ja){target=_blank}およびポリシーベースの認証（PBA）で有効化された組織に対して [!DNL Target] UI トークンを有効にしました。 （TGT-42590）
+* [Business ID アカウント](https://helpx.adobe.com/jp/enterprise/using/identity.html?lang=ja){target=_blank}およびポリシーベースの認証（PBA）で有効化された組織に対して [!DNL Target] UI トークンを有効にしました。 （TGT-42590）
 
 ### [!DNL Target] プラットフォームリリース（2022年4月27日（PT））
 
@@ -4499,7 +4499,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルのバッチおよびプリフェッチ配信 </p> </td> 
-   <td colname="col2"> <p><b>更新日：2017 年 10 月 12 日</b> </p> <p> エンドユーザーがコンテンツを見た時間や方法、さらにはコンテンツを見たかどうかに関係なく、複数の mbox のコンテンツを、1 回の呼び出しでプリフェッチしてデバイスにローカルにキャッシュできます。 </p> <p>この機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードしてインストールする必要があります。 </p> <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local">オファーコンテンツのプリフェッチ</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><b>更新日：2017 年 10 月 12 日</b> </p> <p> エンドユーザーがコンテンツを見た時間や方法、さらにはコンテンツを見たかどうかに関係なく、複数の mbox のコンテンツを、1 回の呼び出しでプリフェッチしてデバイスにローカルにキャッシュできます。 </p> <p>この機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードしてインストールする必要があります。 </p> <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=ja" format="dita" scope="local">オファーコンテンツのプリフェッチ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アクティビティ </p> </td> 
@@ -4823,7 +4823,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target フォーラムの場所の変更 </p> </td> 
-   <td colname="col2"> <p> Target フォーラムが新しい<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external">アドビコミュニティプラットフォーム</a>に移動しました。 </p> </td> 
+   <td colname="col2"> <p> Target フォーラムが新しい<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja" format="https" scope="external">アドビコミュニティプラットフォーム</a>に移動しました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
