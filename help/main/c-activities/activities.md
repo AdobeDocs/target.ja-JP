@@ -17,9 +17,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 26%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 26%
 | [!UICONTROL 優先順位] | アクティビティの優先度。<P>優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。 ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。<P>[設定](/help/main/administrating-target/reporting.md)によって、[!DNL Target]のUIと[!UICONTROL 優先度]のオプションが異なります。 [!UICONTROL Low]、[!UICONTROL Medium]または[!UICONTROL High]の従来の設定を使用するか、0 ～ 999の細かい優先度を有効にできます。<P>優先度設定について詳しくは、*目標と設定*&#x200B;の&#x200B;*アクティビティ設定*&#x200B;の[優先度](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)を参照してください。 |
 | [!UICONTROL &#x200B; プロパティ &#x200B;] | アクティビティの[プロパティ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を表示します。<P>エンタープライズユーザー権限は[Target Premium](/help/main/c-intro/intro.md#premium)機能です。 |
 | [!UICONTROL 収益の予想上昇率] | 100％のオーディエンスが勝者エクスペリエンスを閲覧した場合に予測される売上高の増加を表示します。<P>以下の数式を使用して計算します。<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>この数字は、短縮形の表記で小数点の前が 1 桁だけの場合、最大で小数第 1 位に丸められます。 例：$1.6M、$60K、$900、$8.5K、$205K<P>勝者となる十分なデータがない、またはコストの見積もりがないアクティビティの場合、このコラムには「---」と表示されます。<P>詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。 |
-| [!UICONTROL ソース] | アクティビティが作成された場所を表示します：[!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)、または[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
+| [!UICONTROL ソース] | アクティビティが作成された場所を表示します：[!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview)、[[!DNL Adobe Target] MCP サーバー](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)、または[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
 | [!UICONTROL 作成者] | アクティビティを作成したユーザーの名前。 |
 | [!UICONTROL 決定方法] | 各アクティビティで使用される決定方法：[&#x200B; サーバーサイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja)または[&#x200B; クライアントサイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=ja)。 |
 
@@ -91,7 +91,7 @@ ht-degree: 26%
 | [!UICONTROL Experience Composer] | アクティビティの作成中に使用されたエクスペリエンスコンポーザーをフィルタリングします。<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): [!UICONTROL Visual Experience Composer] （VEC）を使用して作成されたアクティビティを表示します。</li><li>[&#x200B; フォームベース &#x200B;](/help/main/c-experiences/form-experience-composer.md): [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用して作成されたアクティビティを表示します。</li></ul> |
 | [!UICONTROL 指標タイプ &#x200B;] | アクティビティの作成中に[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md)が選択されたフィルター。<ul><li>[!UICONTROL コンバージョン]</li><li>[!UICONTROL 売上高]</li><li>[!UICONTROL エンゲージメント]</li><li>[!UICONTROL Analytics指標を使用]</lI></ul> |
 | [!UICONTROL 決定方法] | 各アクティビティで使用される決定方法でフィルタリングします。<ul><li>[&#x200B; サーバーサイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja): サーバーサイド決定を使用するアクティビティを表示します。</li><li>[&#x200B; クライアントサイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=ja): クライアントサイド決定を使用するアクティビティを表示します。</li></ul> |
-| [!UICONTROL &#x200B; アクティビティ Source] | 各アクティビティの作成に使用するアクティビティソースでフィルタリングします。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL &#x200B; アクティビティ Source] | 各アクティビティの作成に使用するアクティビティソースでフィルタリングします。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja)</li><li>[[!DNL Adobe Target] MCP サーバー](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL &#x200B; プロパティ &#x200B;] | アクティビティが作成された[&#x200B; プロパティ &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)でフィルタリングします。 |
 
 
@@ -111,7 +111,7 @@ ht-degree: 26%
 
 | アクション | 説明 |
 | --- | --- |
-| [!UICONTROL Edit] | アクティビティを変更します。 どのアクティビティも編集できます。<P>アクティビティを編集する様々な方法について詳しくは、[&#x200B; アクティビティの編集またはドラフトとして保存](/help/main/c-activities/edit-activity.md)を参照してください。 |
+| [!UICONTROL Edit] | アクティビティを変更します。 [!DNL Adobe Target] APIまたは[!DNL Adobe Target] MCP サーバーを介して作成されたアクティビティを含め、すべてのアクティビティを編集できます。<P>アクティビティを編集する様々な方法について詳しくは、[&#x200B; アクティビティの編集またはドラフトとして保存](/help/main/c-activities/edit-activity.md)を参照してください。 |
 | [!UICONTROL 非アクティブ化] | ライブまたは日時指定のアクティビティを停止します。 非アクティブ化されたアクティビティは、再アクティブ化またはアーカイブできます。<P>アクティビティを非アクティブ化またはアーカイブした後に再度アクティブ化した場合、非アクティブ化またはアーカイブ以前からアクティビティに含まれていた訪問者は、再アクティブ化の後も引き続きアクティビティに含まれます。 非アクティブ化またはアーカイブと再アクティブ化までの間に記録されるコンバージョン指標は、アクティビティによるものとはされません。 |
 | [!UICONTROL アクティブ化] | 非アクティブなアクティビティまたはアクティブ化する準備ができているアクティビティを開始します。 |
 | [!UICONTROL アーカイブ] | アクティビティをアーカイブに送信します。 デフォルトでは、アーカイブされたアクティビティは[!UICONTROL &#x200B; アクティビティ &#x200B;] リストに表示されなくなります。 「[!UICONTROL &#x200B; アクティビティ &#x200B;]」リストのフィルターを変更して、アーカイブされたアクティビティを含めて表示します。 アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。<P>アクティビティを非アクティブ化またはアーカイブし、その後に再アクティブ化した場合、そのアクティビティが非アクティブ化またはアーカイブされる前に訪問者がそのアクティビティ内にいた場合、再アクティブ化後も訪問者はそのアクティビティの一部であり続けます。 非アクティブ化またはアーカイブと再アクティブ化までの間に記録されるコンバージョン指標は、アクティビティによるものとはされません。 |
@@ -127,11 +127,11 @@ ht-degree: 26%
 * [!UICONTROL Automated Personalization] （AP）、[!UICONTROL 自動割り当て]、[!UICONTROL 自動ターゲット &#x200B;]以外のすべてのアクティビティタイプでは、[!DNL Target]または[!DNL Adobe Analytics]のいずれかをデータソースとして使用できます。 [!UICONTROL Automated Personalization]、[!UICONTROL 自動割り当て]、[!UICONTROL 自動ターゲット &#x200B;]*常に*&#x200B;は[!DNL Target] データを使用します。
 * アクティビティは複数のチャネルで利用可能です。
 
-   * Web およびモバイルサイト
-   * インターネットに接続された画面およびデバイス（キオスクや ATM を含む）
-   * メールや他の購買チャネルまたはパートナーサイト
-   * モバイルアプリ
-   * タグ付きコンテンツを配信できる他の場所すべて
+  * Web およびモバイルサイト
+  * インターネットに接続された画面およびデバイス（キオスクや ATM を含む）
+  * メールや他の購買チャネルまたはパートナーサイト
+  * モバイルアプリ
+  * タグ付きコンテンツを配信できる他の場所すべて
 
 ## 制限事項 {#section_049D4684403A4E07B998067EB8E9BE56}
 

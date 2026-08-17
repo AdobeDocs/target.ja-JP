@@ -14,10 +14,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 28%
+source-wordcount: 844
+ht-degree: 27%
 
 ---
 
@@ -46,9 +46,11 @@ ht-degree: 28%
 
 ![[!UICONTROL &#x200B; オーディエンス &#x200B;] リスト &#x200B;](assets/audiences_list.png)
 
-[!UICONTROL &#x200B; オーディエンス &#x200B;]のリストには、アクティビティで使用できるオーディエンスが含まれています。 [!UICONTROL &#x200B; オーディエンス &#x200B;] リストを使用して、オーディエンスを作成、編集、複製、コピー、または結合します。 このリストには、オーディエンスが作成されたソースも表示されます。
+[!UICONTROL &#x200B; オーディエンス &#x200B;]のリストには、アクティビティで使用できるオーディエンスが含まれています。 [!UICONTROL &#x200B; オーディエンス &#x200B;] リストを使用して、オーディエンスを作成、編集、複製、コピー、または結合します。 [!DNL Adobe Target] APIまたは[[!DNL Adobe Target] MCP サーバー](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)経由で作成されたオーディエンスを含め、あらゆるオーディエンスを編集できます。 このリストには、オーディエンスが作成されたソースも表示されます。
 
 * [!DNL Adobe Target]
+* [!DNL Adobe Target] API
+* [!DNL Adobe Target] MCP サーバー
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
