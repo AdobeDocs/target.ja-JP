@@ -35,7 +35,7 @@ RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要](http
 
 >[!NOTE]
 >
->この記事では、[!DNL Target]/RTCDPの統合に焦点を当てます。 2026年8月現在、Experience Platform宛先カタログの基になる&#x200B;**[!UICONTROL Adobe Target]**&#x200B;の宛先は、Real-Time CDPを持たない[!DNL Adobe Journey Optimizer]の組織でも利用できます。 各エンタイトルメントタイプで使用できる機能について詳しくは、*Adobe Target connection* ガイドの[&#x200B; エンタイトルメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank}を参照してください。
+>この記事では、[!DNL Target]/RTCDPの統合に焦点を当てます。 2026年8月現在、Experience Platform宛先カタログの基になる&#x200B;**[!UICONTROL Adobe Target]**&#x200B;の宛先は、Real-Time CDPを持たない[!DNL Adobe Journey Optimizer]の組織でも利用できます。 各エンタイトルメントタイプで使用できる機能について詳しくは、*Adobe Target connection* ガイドの[&#x200B; エンタイトルメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja#entitlement){target=_blank}を参照してください。
 
 ## 主な機能
 
