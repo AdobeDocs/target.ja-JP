@@ -20,10 +20,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 6d72a6d0a1de27d8cd0286c799e61028d6419761
 workflow-type: tm+mt
-source-wordcount: 1173
-ht-degree: 71%
+source-wordcount: 1239
+ht-degree: 67%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 71%
 [!DNL Real-Time Customer Data Platform]（RTCDP）は、[!DNL Adobe Experience Platform] にビルドされ、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 RTCDP では、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
 
 RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank}を参照してください。
+
+>[!NOTE]
+>
+>この記事では、[!DNL Target]/RTCDPの統合に焦点を当てます。 2026年8月現在、Experience Platform宛先カタログの基になる&#x200B;**[!UICONTROL Adobe Target]**&#x200B;の宛先は、Real-Time CDPを持たない[!DNL Adobe Journey Optimizer]の組織でも利用できます。 各エンタイトルメントタイプで使用できる機能について詳しくは、*Adobe Target connection* ガイドの[&#x200B; エンタイトルメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja#entitlement){target=_blank}を参照してください。
 
 ## 主な機能
 
