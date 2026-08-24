@@ -5,10 +5,21 @@ title: ' [!DNL Target] と [!DNL Real-Time Customer Data Platform] の統合方�
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 TQID: https://experienceleague.adobe.com/0Zw98ulFxHFH-PdV8tmocpOXYCKR2ciKtqFKwD44iiM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 6d72a6d0a1de27d8cd0286c799e61028d6419761
 workflow-type: tm+mt
 source-wordcount: 1239
@@ -24,7 +35,7 @@ RTCDPについて詳しくは、[Real-Time Customer Data Platformの概要](http
 
 >[!NOTE]
 >
->この記事では、[!DNL Target]/RTCDPの統合に焦点を当てます。 2026年8月現在、Experience Platform宛先カタログの基になる&#x200B;**[!UICONTROL Adobe Target]**&#x200B;の宛先は、Real-Time CDPを持たない[!DNL Adobe Journey Optimizer]の組織でも利用できます。 各エンタイトルメントタイプで使用できる機能について詳しくは、*Adobe Target connection* ガイドの[ エンタイトルメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank}を参照してください。
+>この記事では、[!DNL Target]/RTCDPの統合に焦点を当てます。 2026年8月現在、Experience Platform宛先カタログの基になる&#x200B;**[!UICONTROL Adobe Target]**&#x200B;の宛先は、Real-Time CDPを持たない[!DNL Adobe Journey Optimizer]の組織でも利用できます。 各エンタイトルメントタイプで使用できる機能について詳しくは、*Adobe Target connection* ガイドの[&#x200B; エンタイトルメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank}を参照してください。
 
 ## 主な機能
 
@@ -114,11 +125,11 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 詳しくは、次のトピックを参照してください。
 
-* *Adobe Experience Platform リリースノート*&#x200B;の[宛先リリースノート ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja#destinations){target=_blank}
-* [宛先の概要&#x200B;*ガイドの*&#x200B;同ページおよび次ページのパーソナライゼーション ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja){target=_blank}のパーソナライゼーション宛先を設定します。
+* *Adobe Experience Platform リリースノート*&#x200B;の[宛先リリースノート &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja#destinations){target=_blank}
+* [宛先の概要&#x200B;*ガイドの*&#x200B;同ページおよび次ページのパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja){target=_blank}のパーソナライゼーション宛先を設定します。
 * *宛先の概要* ガイドの[Adobe Target接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja){target=_blank}
-* *宛先の概要* ガイドの[ マップ属性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank}。
-* *宛先の概要* ガイドの[ エッジパーソナライゼーション宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=ja){target=_blank}に対するオーディエンスのアクティブ化。
+* *宛先の概要* ガイドの[&#x200B; マップ属性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank}。
+* *宛先の概要* ガイドの[&#x200B; エッジパーソナライゼーション宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=ja){target=_blank}に対するオーディエンスのアクティブ化。
 * *宛先の概要* ガイドの「よくある質問」の[同ページと次ページのパーソナライゼーションは、 [!DNL Adobe Target] およびカスタム Personalizationの宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=ja#same-next-page-personalization){target=_blank}を通じて行われます。
 
 ## ビデオおよびブログ投稿 {#videos-blogs}
@@ -129,7 +140,7 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 [!DNL Real-Time Customer Data Platform] と [!DNL Adobe Target] を使用して、次のヒットでパーソナライズする方法を説明します。 [!DNL Real-Time CDP] の [!DNL Adobe Target] 宛先では、[!DNL Adobe Target] の [!DNL Experience Platform] セグメントを使用して、ガバナンスとプライバシーをサポートする同じページのパーソナライゼーションと次のページのパーソナライゼーションを行うことができます。
 
-詳しくは、*Platform チュートリアル* ガイドの「[Real-Time CDPとAdobe Targetを使用した次のヒットのパーソナライゼーション ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja){target=_blank}」を参照してください。
+詳しくは、*Platform チュートリアル* ガイドの「[Real-Time CDPとAdobe Targetを使用した次のヒットのパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja){target=_blank}」を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
