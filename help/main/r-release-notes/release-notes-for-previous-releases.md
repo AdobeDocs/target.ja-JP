@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 72198
+source-wordcount: 72534
 ht-degree: 55%
 
 ---
@@ -57,6 +57,66 @@ ht-degree: 55%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2026
+
+## [!DNL Target Standard/Premium] 26.8.5 （2026年8月18日）
+
+**レコメンデーション**
+
++++詳細を見る
+
+* 除外とコレクションに対する&#x200B;**Null値フィルター。** [!DNL Recommendations]で除外ルールとコレクションフィルターを定義する際に、**値が存在する**&#x200B;および&#x200B;**値が存在しない**&#x200B;演算子を使用できるようになりました。 （TGT-55790）
+
++++
+
+**[!UICONTROL Visual Experience Composer] （VEC）**
+
++++詳細を見る
+
+* **アクティビティの保存後、VEC エディターに表示されない指標エレメントをクリックします。** [!UICONTROL Visual Experience Composer]でアクティビティの目標と指標を編集したときに、以前に設定したクリック指標が表示されない問題を修正しました。ただし、指標はアクティビティレポートで引き続き正しく追跡されます。 （TGT-55826）
+
+* **間欠的な「変更なし」メッセージがVECに表示されます。** アクティブなエクスペリエンスのターゲット設定アクティビティの既存の変更について、**[!UICONTROL 変更]** パネルに「変更なし」が断続的に表示される問題を修正しました。 （TGT-55842）
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.3 （2026年8月13日）
+
+**アクティビティとオーディエンス**
+
++++詳細を見る
+
+* **API/MCPで作成されたアクティビティとオーディエンスに対する編集が有効になりました。** [!DNL Adobe Target]管理APIと[!DNL Target] MCPを介して作成されたアクティビティとオーディエンスを、[!DNL Target] UIで編集できるようになりました。
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.2 （2026年8月11日（PT））
+
+**オーディエンス**
+
++++詳細を見る
+
+* **アクティビティのみのオーディエンスを使用して、アクティビティでカスタムコードの変更をコピーして保存できません。** カスタムコードの変更を追加した後、アクティビティのみのオーディエンスを使用したアクティビティをコピーすると、「無効なオーディエンス ID」エラーで保存できなかった問題を修正しました。 （TGT-55785）
+
++++
+
+**ローカライズ**
+
++++詳細を見る
+
+* **アクティビティ URLのマルチバイト文字が破損しています。** アクティビティ URLのマルチバイト文字が[!UICONTROL Visual Experience Composer]および&#x200B;**[!UICONTROL Collisions]** タブで破損して表示される問題を修正しました。 （TGT-55708）
+
+* 削除されたデザインを開くときに&#x200B;**ローカライズされていないエラーメッセージが表示されます。** 別のユーザーによって削除されたデザインを開こうとしたときに、**[!UICONTROL リクエストされたリソースが見つかりませんでした]** エラーメッセージがローカライズされない問題を修正しました。 （TGT-50902）
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 （2026年8月4日）
+
+**[!UICONTROL Visual Experience Composer] （VEC）**
+
++++詳細を見る
+
+* **Experience Audiences パネルの切り捨てられたアイコン。** アクティビティの作成中に&#x200B;**[!UICONTROL エクスペリエンスオーディエンス]** パネルで&#x200B;**[!UICONTROL 追加]**&#x200B;および展開/折りたたみアイコンが非表示または切り捨てられる問題を修正しました。 （TGT-55372）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5 （2026年7月30日）
 
@@ -3151,7 +3211,7 @@ at.js のこのリリースはメンテナンスリリースで、次の修正�
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
-* [!UICONTROL 合計]行の[!DNL Auto-Target] レポートに[!UICONTROL 平均上昇信頼区間]および[!UICONTROL 信頼区間]が表示されない問題を修正しました。 測定値は、すべてのエクスペリエンスで正しく表示されていました。 （TGT-37301）
+* [!UICONTROL 合計]行の[!DNL Auto-Target] レポートに[!UICONTROL 平均上昇信頼区間]および[!UICONTROL 信頼区間]が表示されない問題を修正しました。 測定値は、すべての個別エクスペリエンスで正しく表示されていました。 （TGT-37301）
 * 9月15日午後2時30分（PDT）から10月6日午前9時25分（PDT）までの[!DNL Adobe Target Premium] ユーザーの[!UICONTROL 自動ターゲット &#x200B;] レポートに影響を与える問題を修正しました。 影響を受けるコンバージョン指標のレポートを表示する際（「[!UICONTROL &#x200B; ページを表示]」または「[!UICONTROL mbox] クリック」オプションを使用して設定）に、コンバージョン率が誤って報告されます。 現時点では、配信に関する既知の問題はありません。
 * 選択可能な[!UICONTROL 最終更新日]列を[!UICONTROL &#x200B; カタログ検索] テーブルに追加し、[!UICONTROL 最終更新日] フィルターを追加しました。 この機能強化により、個々の項目を開いて最終更新日を確認する必要がなくなり、項目が最後に更新された日時でフィルタリングできるため、時間と労力を節約できます。
 
@@ -3378,7 +3438,7 @@ Target at.js JavaScript ライブラリの次の新しいバージョンを利�
   | 日別訪問者、時間別訪問者、月別訪問者、四半期別訪問者、週別訪問者、年別訪問者 | ユニーク訪問者数 |
   | 訪問の深さ（平均） | 該当なし。 主要目標指標としては提案されていない |
   | ボット | 該当なし。 主要目標指標としては提案されていない |
-  | モバイルのクラッシュ率、モバイルの前回セッションの平均の長さ、モバイルのアプリストアの平均ランク、モバイルのアプリのパフォーマンスクラッシュ率、モバイルのアプリストアの平均評価 | 該当なし。 主要目標指標としては提案されていない |
+  | モバイルのクラッシュ率、モバイルの前回セッションの平均の長さ、モバイルのアプリストアの平均ランキング、モバイルのアプリのパフォーマンスクラッシュ率、モバイルのアプリストアの平均評価 | 該当なし。 主要目標指標としては提案されていない |
 
 ### Adobe Experience Cloud のナビゲーション（2019 年 2 月 22 日）
 
@@ -4499,7 +4559,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルのバッチおよびプリフェッチ配信 </p> </td> 
-   <td colname="col2"> <p><b>更新日：2017 年 10 月 12 日</b> </p> <p> エンドユーザーがコンテンツを見た時間や方法、さらにはコンテンツを見たかどうかに関係なく、複数の mbox のコンテンツを、1 回の呼び出しでプリフェッチしてデバイスにローカルにキャッシュできます。 </p> <p>この機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードしてインストールする必要があります。 </p> <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=ja" format="dita" scope="local">オファーコンテンツのプリフェッチ</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><b>更新日：2017 年 10 月 12 日</b> </p> <p> エンドユーザーがコンテンツを見た時間や方法、さらにはコンテンツを見たかどうかに関係なく、複数の mbox のコンテンツを、1 回の呼び出しでプリフェッチしてデバイスにローカルにキャッシュできます。 </p> <p>この機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードしてインストールする必要があります。 </p> <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local">オファーコンテンツのプリフェッチ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アクティビティ </p> </td> 
@@ -6397,7 +6457,7 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="keyword">Automated Personalization（Target Premium）</span> </td> 
-   <td colname="col2"> <p> <span class="keyword">Automated Personalization</span>は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。 </p> <p> <p>注意：<span class="keyword">Automated Personalization</span>は <span class="keyword">Target Premium</span> ソリューションの一部です。 <span class="keyword">Target Premium</span> ライセンスのない <span class="keyword">Target Standard</span> には含まれません。 <span class="keyword">Target Standard</span> または <span class="keyword">Target Premium</span> のライセンスをお持ちの場合は、Adobe Experience Cloud では <span class="keyword">Target</span> カードをご利用ください。 </p> </p> <p>あるファイルをサイトに実装し、任意のコンテンツをクリックしてこの機能を有効にすると、その領域の追加のコンテンツオプションを視覚的に作成および選択できるようになります。 その後は、モデリングシステムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断します。 この機能により、訪問者ごとにパーソナライズしたエクスペリエンスを提供することができます。 マーケティング担当者は、テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという手順を踏まなくても、最適化による上昇を実感できます。 </p> <p> <span class="keyword">Automated Personalization</span>の主な機能を次に示します。 </p> 
+   <td colname="col2"> <p> <span class="keyword">Automated Personalization</span>は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。 </p> <p> <p>注意：<span class="keyword">Automated Personalization</span>は <span class="keyword">Target Premium</span> ソリューションの一部です。 <span class="keyword">Target Premium</span> ライセンスのない <span class="keyword">Target Standard</span> には含まれません。 <span class="keyword">Target Standard</span> または <span class="keyword">Target Premium</span> のライセンスをお持ちの場合は、Adobe Experience Cloud では <span class="keyword">Target</span> カードをご利用ください。 </p> </p> <p>あるファイルをサイトに実装し、任意のコンテンツをクリックしてこの機能を有効にすると、その領域の追加のコンテンツオプションを視覚的に作成および選択できるようになります。 その後は、モデリングシステムが各個人に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断します。 この機能により、訪問者ごとにパーソナライズしたエクスペリエンスを提供することができます。 マーケティング担当者は、テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという手順を踏まなくても、最適化による上昇を実感できます。 </p> <p> <span class="keyword">Automated Personalization</span>の主な機能を次に示します。 </p> 
     <ul id="ul_9EF654B10FFA46169EE2E033683BA82E"> 
      <li id="li_8D201BF8F37B4B2489D039A0340E065E">2 種類の機械学習アルゴリズム： 
       <ul id="ul_E1DF69071C9047EEA692B5EF01176E4B"> 
