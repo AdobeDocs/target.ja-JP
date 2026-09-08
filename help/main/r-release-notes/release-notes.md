@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 65%
+source-wordcount: 495
+ht-degree: 54%
 
 ---
 
@@ -30,6 +30,25 @@ ht-degree: 65%
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.9.2 （2026年9月8日）
+
+
+**[!UICONTROL レコメンデーション]**
+
++++詳細を見る
+
+* **[!DNL New]ユーザーインターフェイスがフィード URLを誤ってエンコードしています**。 新しい[!DNL Target] インターフェイスのURLからレコメンデーションフィードを作成する際に、フィード URLが正しくエンコードされなかったため、フィードの作成が不明なエラーで失敗しました。 （TGT-56084）
+
++++
+
+**[!UICONTROL レポート]**
+
++++詳細を見る
+
+* **自動セグメントレポートで、属性値が一貫して表示されない**。 自動セグメントのレポートでは、[!DNL Automated Personalization]および[!DNL Auto-Target] アクティビティの属性値と範囲が一貫して表示されません。 一部の自動セグメントでは、関連付けられた値や範囲ではなく、属性名のみが表示されていました。 （TGT-55855）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.1 （2026年9月1日）
 
