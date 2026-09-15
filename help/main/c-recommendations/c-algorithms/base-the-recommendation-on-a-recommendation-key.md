@@ -8,20 +8,24 @@ exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4434
-ht-degree: 25%
-
+source-wordcount: '4434'
+ht-degree: 26%
 ---
-
 # レコメンデーションキーに基づくレコメンデーションの設定
 
 アルゴリズムに基づくレコメンデーションは、訪問者の行動コンテキストを使用して、[!DNL Adobe Target] [!DNL Recommendations]のアクティビティで関連する結果を表示します。
@@ -31,7 +35,7 @@ ht-degree: 25%
 | アルゴリズムタイプ | 使用するタイミング/使用可能なアルゴリズム |
 | --- | --- |
 | [!UICONTROL &#x200B; カートベース &#x200B;] | ユーザーのカートの内容に基づいてレコメンデーションを行います。<ul><li>[!UICONTROL これらを閲覧したユーザーは、]も閲覧しました</li><li>[!UICONTROL これらを閲覧したユーザーも購入しました]</li><li>[!UICONTROL これらを購入した人、また購入した人]</li></ul> |
-| [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>[!UICONTROL &#x200B; プロファイル属性]で最も閲覧されたユーザー</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>プロファイル属性による トップセラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
+| [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>[!UICONTROL プロファイル属性別で最も多く閲覧された]</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>プロファイル属性による トップセラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
 | [!UICONTROL &#x200B; アイテムベース &#x200B;] | 利用者が現在閲覧している項目や最近閲覧した項目と類似する項目を見つけることで、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL これを閲覧したユーザー、これを閲覧したユーザー]</li><li>[!UICONTROL これを閲覧したユーザーが購入しました]</li><li>[!UICONTROL これを購入した人、購入した人]</li><li>[!UICONTROL 類似の属性を持つアイテム &#x200B;]</li></ul> |
 | [!UICONTROL &#x200B; ユーザーベース &#x200B;] | 利用者の行動にもとづいてレコメンデーションする： <ul><li>[!UICONTROL 最近表示された項目]</li><li>[!UICONTROL あなたにおすすめ]</li></ul> |
 | [!UICONTROL &#x200B; カスタム条件] | アップロードしたカスタムファイルにもとづいて、レコメンデーションを作成できます。 <ul><li>カスタムアルゴリズム</li></ul> |
@@ -180,7 +184,7 @@ ht-degree: 25%
 
 次に、「お気に入りブランド」、「最後にカートに追加されたアイテム」、「最も閲覧された番組」など、訪問者のプロファイルに一致するように保存されているプロファイル属性を選択します。
 
-### [!UICONTROL &#x200B; プロファイル属性]で最も閲覧されたユーザー
+### [!UICONTROL プロファイル属性別で最も多く閲覧された]
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
