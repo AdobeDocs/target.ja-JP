@@ -26,12 +26,103 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 9a55efe5570867a822e4f6c0494a505e456bd536
+source-git-commit: 2cecb1f8ae52fd6c47e543710bb14e00503c06ef
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 33%
 ---
 # [!DNL Target]の概要
+
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="日々のトラフィック"
+>abstract="1日に何人のユーザーがテストに参加しているか。 1日のトラフィックがわからない場合は、上記の「トラフィックボリューム」を選択すると、計算機が他の入力を使用して解決します。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="テストの設定"
+>abstract="これらのフィールドは、A/B テスト、期待される結果、およびその結果にどの程度自信を持って使用する必要があるかを定義します。 上記で選択した項目に関連付けられたフィールドは、自動的に解決されます。 残りの部分には、期待値を入力します。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="エクスペリエンス数"
+>abstract="コントロールを含めた、実験のバリエーションの数。 A/B テストは2つのアームで構成されています。 5つのバリエーションとコントロールが6に等しい。 より多くの武器は、統計的な力を維持するために比例してより多くのトラフィックを必要とします。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="A/B テストの所要時間"
+>abstract="実験を行う日数です。 長い期間により、データを収集する時間が増え、より小さな効果を確実に検出できます。 期間が短い場合は、信頼性の高い結果を得るために、より大きな効果や毎日のトラフィックが必要になります。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="最小検出可能な効果"
+>abstract="検出する価値のある最小の改善点、指標の最小の変化を示します。 これは、ベースラインに対する変化率ではなく、上昇率ポイントのサイズです。 たとえば、ベースラインが5%で、1%のポイントが向上した場合は、「1」と入力します。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="期待される改善"
+>abstract="実験が生成すると期待される改善。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="平方偏差"
+>abstract="指標の平均ではなく、値の広がり。 クリック率（主に0秒と1秒）のような指標はバリエーションが少なく、ユーザーあたりの売上高（少数の高支出、多くの低い）のような指標はバリエーションがはるかに多い可能性があります。 わからない場合は、デフォルト値の1のままにしておきます。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="信頼性レベル"
+>abstract="結果が単なるランダムな確率ではなく、統計的有意性のしきい値である必要がある自信。 95%の信頼度は、偽陽性の可能性が最大5%であることを意味します。 値を大きくすると誤検出は減りますが、より多くのデータが必要です。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="統計的検出力"
+>abstract="ある効果が本当に存在する場合の効果を検出する確率、実験の感度。 80%の電力は、実際の効果を検出する可能性が80%であることを意味します。 パワーが高いほど偽陰性は減少しますが、より多くのトラフィックまたは長いランタイムが必要です。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="トラフィックモード"
+>abstract="ユーザーが実験に参加する方法。 継続：ユーザーは実験期間にわたって毎日エントリします。 結果が出るにつれて、トラフィックは自動的にパフォーマンスの高いバリエーションに移行します。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="指標タイプ"
+>abstract="どのような指標を測定しているのか。 パーセンテージ：クリックやコンバージョンなどのバイナリ結果で、各ユーザーが何かを行うか行わないかのどちらかに使用します。 数値：収益やページビューなどの指標で、利用者ごとに値が大きく異なる場合に使用します。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="日々のトラフィック"
+>abstract="1日に何人のユーザーがテストに参加しているか。 複数日間にわたる継続的な検証に使用できます。結果が出ると、トラフィックは自動的に優れたパフォーマンスを発揮するバリエーションに移行します。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="ベースライン指標レート"
+>abstract="実験開始前の現在のパフォーマンス、コントロールアームの平均。 常に必須。 パーセンテージ指標の場合は、パーセンテージで入力します。訪問者の5%が「今すぐ購入」をクリックした場合は、5と入力します。 カウント指標には、生の10進数値を入力します。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="プライマリ指標"
+>abstract="プライマリ指標は、レポート設定から自動的に取得されます。 変更するには、「目標と設定」で目標指標を変更します。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="仮説"
+>abstract="仮説は、実験の期待される結果を説明する定義したステートメントです。 何をどこで変更するのかを説明し、変更したい指標とその方法を明記します。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_insights"
+>title="インサイト"
+>abstract="実験のインサイトとは、実験データが統計的優位差を満たした際に AI が見つける学習です。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="オポチュニティ"
+>abstract="実験の機会は、実験のスクリーンショットと結果で見つかったパターン AIに基づいてAIが提案した治療のアイデアです。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="処理の詳細"
+>abstract="処理の詳細には、ユーザーが処理の対象となる場合の処理の画像が表示されます。 これらの画像はすべての実験に使用できます。 一部の実験では、画像を確認するか、必要に応じて置き換えるよう求められることがあります。"
 
 [!DNL Adobe Experience Cloud]の一部である[!DNL Adobe Target]では、web、モバイルサイト、アプリ、ソーシャルメディアなどのデジタルチャネルをまたいで顧客体験をパーソナライズするための包括的なツールを提供しています。
 
@@ -130,92 +221,4 @@ Betaの機能について説明する[!DNL Target] ガイドの記事には、�
 
 >[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
 
->[!CONTEXTUALHELP]
->id="target_sample_size_ab_daily_traffic"
->title="日々のトラフィック"
->abstract="1日に何人のユーザーがテストに参加しているか。 1日のトラフィックがわからない場合は、上記の「トラフィックボリューム」を選択すると、計算機が他の入力を使用して解決します。"
 
->[!CONTEXTUALHELP]
->id="target_sample_size_setup"
->title="テストの設定"
->abstract="これらのフィールドは、A/B テスト、期待される結果、およびその結果にどの程度自信を持って使用する必要があるかを定義します。 上記で選択した項目に関連付けられたフィールドは、自動的に解決されます。 残りの部分には、期待値を入力します。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_number_experiences"
->title="エクスペリエンス数"
->abstract="コントロールを含めた、実験のバリエーションの数。 A/B テストは2つのアームで構成されています。 5つのバリエーションとコントロールが6に等しい。 より多くの武器は、統計的な力を維持するために比例してより多くのトラフィックを必要とします。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_duration"
->title="A/B テストの所要時間"
->abstract="実験を行う日数です。 長い期間により、データを収集する時間が増え、より小さな効果を確実に検出できます。 期間が短い場合は、信頼性の高い結果を得るために、より大きな効果や毎日のトラフィックが必要になります。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_minimum_detectable_effect"
->title="最小検出可能な効果"
->abstract="検出する価値のある最小の改善点、指標の最小の変化を示します。 これは、ベースラインに対する変化率ではなく、上昇率ポイントのサイズです。 たとえば、ベースラインが5%で、1%のポイントが向上した場合は、「1」と入力します。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_expected_improvement"
->title="期待される改善"
->abstract="実験が生成すると期待される改善。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_variance"
->title="平方偏差"
->abstract="指標の平均ではなく、値の広がり。 クリック率（主に0秒と1秒）のような指標はバリエーションが少なく、ユーザーあたりの売上高（少数の高支出、多くの低い）のような指標はバリエーションがはるかに多い可能性があります。 わからない場合は、デフォルト値の1のままにしておきます。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_confidence_level"
->title="信頼性レベル"
->abstract="結果が単なるランダムな確率ではなく、統計的有意性のしきい値である必要がある自信。 95%の信頼度は、偽陽性の可能性が最大5%であることを意味します。 値を大きくすると誤検出は減りますが、より多くのデータが必要です。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_statistical_power"
->title="統計的検出力"
->abstract="ある効果が本当に存在する場合の効果を検出する確率、実験の感度。 80%の電力は、実際の効果を検出する可能性が80%であることを意味します。 パワーが高いほど偽陰性は減少しますが、より多くのトラフィックまたは長いランタイムが必要です。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_traffic_mode"
->title="トラフィックモード"
->abstract="ユーザーが実験に参加する方法。 継続：ユーザーは実験期間にわたって毎日エントリします。 結果が出るにつれて、トラフィックは自動的にパフォーマンスの高いバリエーションに移行します。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_metric_type"
->title="指標タイプ"
->abstract="どのような指標を測定しているのか。 パーセンテージ：クリックやコンバージョンなどのバイナリ結果で、各ユーザーが何かを行うか行わないかのどちらかに使用します。 数値：収益やページビューなどの指標で、利用者ごとに値が大きく異なる場合に使用します。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_auto_daily_traffic"
->title="日々のトラフィック"
->abstract="1日に何人のユーザーがテストに参加しているか。 複数日間にわたる継続的な検証に使用できます。結果が出ると、トラフィックは自動的に優れたパフォーマンスを発揮するバリエーションに移行します。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_baseline_metric_rate"
->title="ベースライン指標レート"
->abstract="実験開始前の現在のパフォーマンス、コントロールアームの平均。 常に必須。 パーセンテージ指標の場合は、パーセンテージで入力します。訪問者の5%が「今すぐ購入」をクリックした場合は、5と入力します。 カウント指標には、生の10進数値を入力します。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="プライマリ指標"
->abstract="プライマリ指標は、レポート設定から自動的に取得されます。 変更するには、「目標と設定」で目標指標を変更します。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="仮説"
->abstract="仮説は、実験の期待される結果を説明する定義したステートメントです。 何をどこで変更するのかを説明し、変更したい指標とその方法を明記します。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="インサイト"
->abstract="実験のインサイトとは、実験データが統計的優位差を満たした際に AI が見つける学習です。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="オポチュニティ"
->abstract="実験の機会は、実験のスクリーンショットと結果で見つかったパターン AIに基づいてAIが提案した治療のアイデアです。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="処理の詳細"
->abstract="処理の詳細には、ユーザーが処理の対象となる場合の処理の画像が表示されます。 これらの画像はすべての実験に使用できます。 一部の実験では、画像を確認するか、必要に応じて置き換えるよう求められることがあります。"
