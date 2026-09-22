@@ -8,20 +8,18 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '3804'
 ht-degree: 14%
-
 ---
-
 # [!DNL Adobe Target] MCP サーバーツール リファレンス {#target-mcp-tools-reference}
 
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Target] MCP サーバーは、**パブリック Beta**&#x200B;のすべてのユーザーが利用できます。 現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;でサポートされています。
 
-このページは、[!DNL Adobe Target] MCP サーバーによって公開されているすべてのツールの完全なリファレンスです。 各ツールには、説明、パラメーターの詳細、戻り値、自然言語プロンプトの例が表示されます。 セットアップ手順とユースケースについては、[基本を学ぶ](target-mcp-get-started.md)および[&#x200B; ユースケースとチュートリアル &#x200B;](target-mcp-use-cases.md)を参照してください。
+このページは、[!DNL Adobe Target] MCP サーバーによって公開されているすべてのツールの完全なリファレンスです。 各ツールには、説明、パラメーターの詳細、戻り値、自然言語プロンプトの例が表示されます。 セットアップ手順とユースケースについては、[基本を学ぶ](target-mcp-get-started.md)および[ ユースケースとチュートリアル ](target-mcp-use-cases.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -755,6 +753,143 @@ IDで特定のエンティティのすべてのリビジョンを取得します
 
 +++
 
+## レコメンデーションツール {#tools-recommendations}
+
+>[!NOTE]
+>
+>* Recommendations ツールには、**Target Premium**&#x200B;のRecommendations対応テナントが必要です。 プレミアム以外のアカウントでは、これらのツールはクライアントのツールリストに表示されず、基盤となるAPIは403 エラーを返します。
+>* これらのツールは、条件、コレクション、デザイン、プロモーション、および除外のリスト、取得、作成、および更新操作をサポートします。 削除操作は、MCP サーバーを通じて公開されません。
+
++++条件
+
+**ツール：** `list_target_criteria`、`get_target_criteria`、`list_target_criteria_by_type`、`get_target_criteria_by_type`、`create_target_criteria`、`update_target_criteria`
+
+基準とは、事前に決められた訪問者の行動セットにもとづいて、推奨する項目を決定するルールです。 条件は、次の9つのタイプのファミリにグループ化されます：`category`、`custom`、`item`、`cart`、`popularity`、`profileattribute`、`recent`、`sequence`、`userhistory`。
+
+| パラメーター | タイプ | 必須 | 説明 |
+|---|---|---|---|
+| `criteria_id` | 整数 | 取得/更新の場合 | 基準の一意のID |
+| `criteria_type` | string | タイプされた操作の場合 | 9つの基準ファミリーの1つ |
+| `limit` / `offset` | 整数 | × | Pagination |
+| `name` | string | はい（作成） | 条件の一意の名前 |
+| `criteriaTitle` | string | × | デザインで使用されているタイトルを`$criteria.title`経由で表示 |
+| `description` | string | × | 基準の説明 |
+| `key` | string | はい（作成/更新、ほとんどのタイプ） | レコメンデーションキー（例：`CURRENT`、`LAST_VIEWED`、`LAST_PURCHASED`、`MOST_VIEWED`、`PROFILE_ATTRIBUTE`） |
+| `type` | string | はい（作成/更新、ほとんどのタイプ） | レコメンデーションロジック （例：`VIEWED_BOUGHT`、`BOUGHT_CF`、`VIEWED_CF`、`SITE_AFFINITY`、`SIMILARITY`） |
+| `configuration` | object | はい（作成/更新） | 包含ルール、属性の重み付け、価格フィルター、その他の家族固有の設定 |
+| `daysCount` | string | Varies | 過去に考慮した期間（例：`ONE_DAY` ～ `TWO_MONTHS`） |
+
+`list_target_criteria`と`get_target_criteria`は、ファミリー間の条件メタデータ （`id`、`name`、`criteriaTitle`、`criteriaGroup`）を最小限に抑えて返します。 `list_target_criteria_by_type` / `get_target_criteria_by_type` （または`create_target_criteria` / `update_target_criteria`）を`criteria_type`と共に使用して、完全なタイプ固有の設定を操作します。 フィールドの要件はファミリーごとに異なります。タイプごとの完全なスキーマについては、[!DNL Adobe] [Recommendations API Reference](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"}を参照してください。
+
+**戻り値：**&#x200B;条件オブジェクト、または`offset`、`limit`、`total`、`list`のページ区切りリスト。
+
+**プロンプトの例：** 「このアカウントで設定されたすべてのRecommendations条件を一覧表示し、使用中のアルゴリズムタイプを要約する」
+
++++
+
++++コレクション
+
+**ツール：** `list_target_collections`、`get_target_collection`、`create_target_collection`、`update_target_collection`
+
+コレクションは、条件やプロモーションで使用するために、一致するルールによってカタログエンティティをグループ化します。
+
+| パラメーター | タイプ | 必須 | 説明 |
+|---|---|---|---|
+| `collection_id` | 整数 | 取得/更新の場合 | コレクションの一意のID |
+| `limit` / `offset` | 整数 | × | Pagination |
+| `name` | string | ○ | コレクションの一意の名前（最大250文字） |
+| `description` | string | × | コレクションの説明（最大1000文字） |
+| `rules` | 配列 | はい | カタログ メンバーシップを決定する1 ～ 1000 ルール （`attribute` + オペレーター/オペランド） |
+
+**戻り値：** `id`、`name`、`description`、`rules`および最終変更されたメタデータを含むコレクション オブジェクト。
+
+**プロンプトの例：** 「自分が持っているコレクションと、フィルタリング対象のカタログ属性は何か？」
+
++++
+
++++デザイン
+
+**ツール：** `list_target_designs`、`get_target_design`、`create_target_design`、`update_target_design`
+
+デザインは、推奨されるエンティティのレンダリング方法を制御するVelocity テンプレートまたはHTML テンプレートです。
+
+| パラメーター | タイプ | 必須 | 説明 |
+|---|---|---|---|
+| `design_id` | 整数 | 取得/更新の場合 | デザインの一意のID |
+| `limit` / `offset` | 整数 | × | Pagination |
+| `includeScript` | ブール型 | いいえ | デザインのテンプレートコンテンツを含めるかどうか |
+| `name` | string | ○ | デザインの一意の名前（最大250文字） |
+| `script` | string | ○ | 少なくとも1つのエンティティオブジェクトを参照する速度テンプレート（最大65,000文字） |
+| `type` | string | × | スクリプトのコンテンツタイプ：`HTML`、`JSON`または`OTHER` （デフォルト） |
+
+**戻り値：** `id`、`name`、`script`および`type`を含むデザインオブジェクト。
+
+**プロンプトの例：** 「Recommendations用に設定したデザインとコレクションは何ですか？」
+
++++
+
++++プロモーション
+
+**ツール：** `list_target_promotions`、`get_target_promotion`、`create_target_promotion`、`update_target_promotion`
+
+プロモーションでは、基準やバックアップのレコメンデーションよりも特定のエンティティをレコメンデーションの結果に強制的に優先します。
+
+| パラメーター | タイプ | 必須 | 説明 |
+|---|---|---|---|
+| `promotion_id` | 整数 | 取得/更新の場合 | プロモーションの一意のID |
+| `limit` / `offset` | 整数 | × | Pagination |
+| `name` | string | ○ | プロモーションの一意の名前（最大250文字） |
+| `type` | string | ○ | 現在、`EXTERNAL`のみがサポートされています |
+| `key` | string | × | プロモーションキー：`CURRENT`、`LAST_VIEWED`、`LAST_PURCHASED`、`MOST_VIEWED`または`PROFILE_ATTRIBUTE` |
+| `attribute` | string | × | `key`が`PROFILE_ATTRIBUTE`の場合に適用されるプロファイル属性名 |
+| `schedule` | object | × | プロモーションが適用される開始時間/終了時間ウィンドウ |
+| `order` | object | × | 昇格されたエンティティの構成の順序 |
+| `configuration` | object | × | プロモートされたアイテムのコレクション参照（`rules`が空の場合に使用） |
+| `rules` | 配列 | いいえ | 促進するエンティティを特定する包含ルール |
+
+**戻り値：** プロモーションオブジェクト。
+
+**プロンプトの例：** 「8月末までの「バックパッキングテント」コレクションを特徴とする外部プロモーションを作成します。」
+
++++
+
++++除外
+
+**ツール：** `list_target_exclusions`、`get_target_exclusion`、`create_target_exclusion`、`update_target_exclusion`
+
+除外は、レコメンデーション結果から一致するエンティティを削除します。 除外事項は、あらゆる基準とアクティビティにおいて、アカウント全体に適用されます。
+
+| パラメーター | タイプ | 必須 | 説明 |
+|---|---|---|---|
+| `exclusion_id` | 整数 | 取得/更新の場合 | 除外の一意のID |
+| `name` | string | ○ | 除外の一意の名前（最大250文字） |
+| `description` | string | × | 除外の説明（最大1000文字） |
+| `rule` | object | × | 除外するエンティティを識別する1つのルール （`attribute` + オペレーター/オペランド） |
+
+**次を返します：**&#x200B;除外オブジェクト。
+
+**プロンプトの例：** 「アカウント全体の除外は現在設定されていますか。また、何をフィルタリングしますか？」
+
++++
+
++++カタログ
+
+**ツール：** `get_target_entity`、`search_target_catalog`
+
+Recommendations製品/コンテンツカタログを検査するための読み取り専用ツール。 MCP サーバーを介してカタログエンティティを作成、更新、または削除するツールはありません。
+
+| パラメーター | タイプ | 必須 | 説明 |
+|---|---|---|---|
+| `catalog_entity_id` | string | はい（取得） | カタログエンティティ ID （SKUなど） |
+| `environment_id` | string | × | エンティティを検索する環境 |
+| `query` | object | はい（検索） | `meta` ブロック （必須：`environmentId`、オプション：`displayFields`）、および`query` ブロック （`simple`または`compound`）。単純なクエリでは、`queryFields`、`operator` （`eq`、`lt`、`gt`、`le`、`ge`、`contains`）、および`matchValue`が使用されます |
+
+**返品：** `get_target_entity`は、エンティティのカタログ属性を返します。 `search_target_catalog`は、`entities`配列の一致を返します。 `query`のフィールド名は、テナントに設定された実際のカタログ属性である必要があります。
+
+**プロンプトの例：** 「在庫が1000未満の商品のカタログを検索します。」
+
++++
+
 ## ツールの概要 {#tools-summary}
 
 | カテゴリ | カウント | ツール |
@@ -770,7 +905,8 @@ IDで特定のエンティティのすべてのリビジョンを取得します
 | リビジョン | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | テンプレート | 1 | `list_target_templates` |
-| **合計** | **38** | |
+| レコメンデーション | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **合計** | **62** | |
 
 ## 関連リソース {#tools-related}
 

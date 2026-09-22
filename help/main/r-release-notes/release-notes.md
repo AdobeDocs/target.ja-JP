@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target] リリースノート（最新）
 
@@ -103,6 +103,18 @@ ht-degree: 40%
 
 +++
 
+**[!DNL Adobe Target]MCP サーバー – Recommendations ツール （パブリック Beta）**
+
++++詳細を見る
+
+[!DNL Adobe Target] MCP サーバーはレコメンデーションツールを公開し、基準、コレクション、デザイン、プロモーション、および除外のリスト、検査、作成、更新を行い、AI アシスタントから製品カタログを直接検索できるようになりました。
+
+この機能を利用するには、**Target Premium**&#x200B;を持つRecommendations対応テナントが必要です。このテナントはプレミアム以外のアカウントでは利用できません。
+
+詳しくは、[MCP サーバーツールのリファレンス ](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
+
++++
+
 ## 知っておく必要がある時間的制約のある更新 {#time-sensitive}
 
 [!BADGE 重要]{type=Informative}
@@ -128,7 +140,7 @@ ht-degree: 40%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
