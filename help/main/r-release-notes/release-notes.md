@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
+source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 42%
+source-wordcount: '680'
+ht-degree: 40%
 ---
 # [!DNL Target] リリースノート（最新）
 
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.9.5 （2026年9月21日（PT））
+
+**[!UICONTROL ターゲットの分析]**
+
++++詳細を見る
+
+* **A4T レポートリンクが[!DNL Target] UI**&#x200B;で生成されません。 [!DNL A4T] アクティビティの場合、基礎となるレポートデータが[!DNL Target] UIと[!DNL Adobe Analytics] UIの両方に表示されていても、**[!UICONTROL レポート]** セクションでレポートリンクが生成されませんでした。 （TGT-56247）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.4 （2026年9月17日）
 
@@ -118,7 +128,7 @@ ht-degree: 42%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
