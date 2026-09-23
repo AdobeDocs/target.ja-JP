@@ -4,20 +4,12 @@ description: コンテンツの事前非表示で、アカウントレベルの�
 title: パーソナライズされた体験を実現するためのコンテンツの事前非表示
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
-hide: true
-source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
+source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
-
+source-wordcount: '596'
+ht-degree: 1%
 ---
-
 # パーソナライズされた体験を実現するためのコンテンツの事前非表示
-
->[!AVAILABILITY]
->
->パーソナライズされたコンテンツのコンテンツの事前非表示は、**ベータ**&#x200B;機能として利用できます。
 
 訪問者がページを読み込むと、デフォルトのコンテンツが簡単に表示され、次に[!DNL Adobe Target]からパーソナライズされたコンテンツに置き換えられます。 この表示スイッチは&#x200B;**フリッカー**&#x200B;と呼ばれることが多く、パーソナライゼーションプログラムの一般的なエクスペリエンスの問題です。
 
@@ -53,7 +45,7 @@ ht-degree: 3%
 
 1. 必要に応じて、**[!UICONTROL 事前非表示タイムアウト]**&#x200B;を秒単位で更新します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。 これにより、ちらつき管理設定がインスタンスに適用されます。
+1. 「**[!UICONTROL Save]**」をクリックします。 これにより、ちらつき管理設定がインスタンスに適用されます。
 
 1. 有効になったら、**[!UICONTROL ダウンロード]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。 実装の手順について詳しくは、「[SDKのコンテンツの事前非表示](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/prehide-sdk)」を参照してください。
 
