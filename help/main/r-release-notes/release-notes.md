@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
+source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 36%
+source-wordcount: '816'
+ht-degree: 34%
 ---
 # [!DNL Target] リリースノート（最新）
 
@@ -37,6 +37,27 @@ ht-degree: 36%
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
 ## [!DNL Target Standard/Premium] 26.9.5 （2026年9月21日（PT））
+
+### 機能
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツの事前非表示</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>コンテンツを事前に非表示にすることで、Adobe Targetのパーソナライゼーションで変更されるセクションのみを非表示にし、コンテンツの読み込み中によりスムーズなエクスペリエンスを提供できます。 これにより、ページ全体を非表示にすることなく、新しいアクティビティを開始する際の実装作業を最小限に抑えることができます。</p>
+<p>以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>詳しくは、<a href="../administrating-target/content-pre-hiding.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改善点
 
 **[!UICONTROL ターゲットの分析]**
 
@@ -111,7 +132,7 @@ ht-degree: 36%
 
 この機能を利用するには、**Target Premium**&#x200B;を持つRecommendations対応テナントが必要です。このテナントはプレミアム以外のアカウントでは利用できません。
 
-詳しくは、[MCP サーバーツールのリファレンス &#x200B;](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
+詳しくは、[MCP サーバーツールのリファレンス ](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
 
 +++
 
@@ -140,7 +161,7 @@ ht-degree: 36%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

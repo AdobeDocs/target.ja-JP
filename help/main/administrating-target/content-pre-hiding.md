@@ -4,20 +4,12 @@ description: コンテンツの事前非表示で、アカウントレベルの�
 title: パーソナライズされた体験を実現するためのコンテンツの事前非表示
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
-hide: true
-source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
+source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
-
+source-wordcount: '596'
+ht-degree: 1%
 ---
-
 # パーソナライズされた体験を実現するためのコンテンツの事前非表示
-
->[!AVAILABILITY]
->
->パーソナライズされたコンテンツのコンテンツの事前非表示は、**ベータ**&#x200B;機能として利用できます。
 
 訪問者がページを読み込むと、デフォルトのコンテンツが簡単に表示され、次に[!DNL Adobe Target]からパーソナライズされたコンテンツに置き換えられます。 この表示スイッチは&#x200B;**フリッカー**&#x200B;と呼ばれることが多く、パーソナライゼーションプログラムの一般的なエクスペリエンスの問題です。
 
@@ -31,7 +23,7 @@ ht-degree: 3%
 
 1. [!DNL Target]は、ライブ [!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer] アクティビティからルールセットを構築します。 ルールセットには、配信が変更される可能性のあるセレクターと地域が一覧表示されます。
 
-   [!UICONTROL &#x200B; フォームベースのComposer] アクティビティはサポートされていません。
+   [!UICONTROL  フォームベースのComposer] アクティビティはサポートされていません。
 
 1. ライブラリは、Adobe CDNからルールセットを取得し、パーソナライズされたコンテンツの読み込み中にのみ一致する要素を事前に非表示にします。
 
@@ -53,9 +45,9 @@ ht-degree: 3%
 
 1. 必要に応じて、**[!UICONTROL 事前非表示タイムアウト]**&#x200B;を秒単位で更新します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。 これにより、ちらつき管理設定がインスタンスに適用されます。
+1. 「**[!UICONTROL Save]**」をクリックします。 これにより、ちらつき管理設定がインスタンスに適用されます。
 
-1. 有効になったら、**[!UICONTROL ダウンロード]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。 実装の手順について詳しくは、「[SDKのコンテンツの事前非表示](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/prehide-sdk)」を参照してください。
+1. 有効になったら、**[!UICONTROL ダウンロード]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。 実装の手順について詳しくは、「[SDKのコンテンツの事前非表示](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)」を参照してください。
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -65,7 +57,7 @@ ht-degree: 3%
 
 インスタンスの事前非表示を有効にして、各アクティビティで&#x200B;**[!UICONTROL 目標と設定]**&#x200B;で使用するかどうかを選択します。 事前非表示を有効にしたアクティビティは、公開時にターゲットとなる動作に含まれます。
 
-次に、[!DNL Target]は、[!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL &#x200B; フォームベースのComposer]で作成されたライブアクティビティから軽量ルールセットを作成し、配信が変更できるセレクターと領域を説明します。
+次に、[!DNL Target]は、[!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL  フォームベースのComposer]で作成されたライブアクティビティから軽量ルールセットを作成し、配信が変更できるセレクターと領域を説明します。
 
 アクティビティを作成または編集する場合：
 
