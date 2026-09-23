@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target] リリースノート（最新）
 
@@ -100,6 +100,18 @@ ht-degree: 40%
 +++詳細を見る
 
 * **アクティビティ専用オーディエンスを含むアクティビティのコピーが保存に失敗しました**。 A/B アクティビティでアクティビティ専用（ローカル範囲）のオーディエンスルールとカスタムコードの変更を使用する場合、コピーをコピーして保存すると、「無効なオーディエンス ID」エラーが発生して失敗します。 （TGT-55785）
+
++++
+
+**[!DNL Adobe Target]MCP サーバー – Recommendations ツール （パブリック Beta）**
+
++++詳細を見る
+
+[!DNL Adobe Target] MCP サーバーはレコメンデーションツールを公開し、基準、コレクション、デザイン、プロモーション、および除外のリスト、検査、作成、更新を行い、AI アシスタントから製品カタログを直接検索できるようになりました。
+
+この機能を利用するには、**Target Premium**&#x200B;を持つRecommendations対応テナントが必要です。このテナントはプレミアム以外のアカウントでは利用できません。
+
+詳しくは、[MCP サーバーツールのリファレンス &#x200B;](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
 
 +++
 

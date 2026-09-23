@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1039'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Target] MCP サーバー {#target-mcp}
 
 [!DNL Adobe Target] MCP統合により、A/B テストおよびパーソナライゼーションアクティビティを、AI アシスタントから直接検査、分析、管理できます。 [!DNL Target]の実験データとパーソナライゼーションデータを平易な言語のワークフローに変換します。UIを操作したり、API呼び出しを記述したりすることなく、実験ポートフォリオの監査、パフォーマンスレポートの確認、オーディエンスとオファーの探索、アクティビティの作成、更新を行うことができます。
@@ -48,10 +46,10 @@ ht-degree: 0%
 * **アクティビティの探索** - A/BおよびXT アクティビティのリスト、検査、分析を行います。
 * **アクティビティの作成と更新** – 新しいA/B アクティビティとエクスペリエンスのターゲティングアクティビティの作成、設定の更新、トラフィックの分割の管理、バリエーションの追加または削除、アクティビティの状態の制御（アクティベート、一時停止、非アクティベート）。
 * **オーディエンスとオファーの検索と管理** - オーディエンス、HTML オファーおよびJSON オファーを一覧表示、検査、作成および更新します。
-<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
+* **レコメンデーションの管理** – 基準、コレクション、デザイン、プロモーション、除外のリスト、検査、作成、更新、および製品カタログの検索。 Target Premium使用権限が必要です。
 * **監査の実装** - at.js設定、応答トークン、エンティティごとのリビジョン履歴を確認します。
 
-[!DNL Adobe Target] MCP サーバーは、アクティビティの作成、レポート、オーディエンス管理、QA プレビューなど、10のカテゴリで41のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス &#x200B;](target-mcp-tools-reference.md)を参照してください。
+[!DNL Adobe Target] MCP サーバーは、アクティビティの作成とレポートからオーディエンス管理、QA プレビュー、レコメンデーション設定まで、11のカテゴリで62のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス &#x200B;](target-mcp-tools-reference.md)を参照してください。
 
 ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[&#x200B; ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
 
@@ -66,7 +64,7 @@ ht-degree: 0%
 
 +++MCP経由でアクセスできる[!DNL Adobe Target] オブジェクトは何ですか？
 
-アクティビティ（A/B、XT、AP）、オーディエンス、オファー、プロパティ、mbox、応答トークン、at.js設定、A4T レポート、およびエンティティのリビジョン履歴にアクセスして管理できます。 MCP サーバーは、読み取り操作と書き込み操作の両方をカバーする41 ツールを公開します。
+アクティビティ（A/B、XT、AP）、オーディエンス、オファー、プロパティ、mbox、応答トークン、at.js設定、A4T レポート、エンティティの変更履歴、およびRecommendations設定（条件、コレクション、デザイン、プロモーション、除外、カタログ検索）にアクセスして管理できます。 MCP サーバーは、読み取り操作と書き込み操作の両方をカバーする62のツールを公開します。 レコメンデーションツールにはTarget Premiumの使用権限が必要であり、プレミアム以外のアカウントでは使用できません。
 +++
 
 +++MCP サーバーはアクティビティを作成または変更できますか？
