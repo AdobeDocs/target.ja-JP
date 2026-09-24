@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
+source-git-commit: 4d083419d76b0287c3c254a0fc382abc7444cc75
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 34%
+source-wordcount: '874'
+ht-degree: 32%
 ---
 # [!DNL Target] リリースノート（最新）
 
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.9.6 （2026年9月24日）
+
+**[!UICONTROL Visual Experience Composer] （VEC）**
+
++++詳細を見る
+
+* **Visual Experience Composer**&#x200B;を介してSSO認証ページにアクセスする際の無限のリダイレクションループ。 Visual Experience Composerに読み込まれたページ URLがSSO/ログインリダイレクションフローを通過すると、Visual Experience Composerは無限のリダイレクトループに入り、意図したページに到達しませんでした。 （TGT-56233）
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.5 （2026年9月21日（PT））
 
