@@ -6,13 +6,18 @@ short-description: Webサイト、モバイルサイト、アプリ、ソーシ�
 title: Target とは？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
+TQID: 'https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -26,103 +31,103 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 2cecb1f8ae52fd6c47e543710bb14e00503c06ef
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 33%
+ht-degree: 71%
 ---
 # [!DNL Target]の概要
 
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
->title="日々のトラフィック"
->abstract="1日に何人のユーザーがテストに参加しているか。 1日のトラフィックがわからない場合は、上記の「トラフィックボリューム」を選択すると、計算機が他の入力を使用して解決します。"
+>title="毎日のトラフィック"
+>abstract="毎日、実験にエントリしているユーザーの数。 毎日のトラフィックがわからない場合は、上記の「トラフィックボリューム」を選択し、計算ツールで他の入力を使用して解決します。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
->title="テストの設定"
->abstract="これらのフィールドは、A/B テスト、期待される結果、およびその結果にどの程度自信を持って使用する必要があるかを定義します。 上記で選択した項目に関連付けられたフィールドは、自動的に解決されます。 残りの部分には、期待値を入力します。"
+>title="テストを設定するには："
+>abstract="これらのフィールドは、A/B テスト、期待される結果、結果に必要とされる確信度を定義します。 上記で選択した項目に関連付けられたフィールドは、自動的に解決されます。 残りの部分には、期待値を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
 >title="エクスペリエンス数"
->abstract="コントロールを含めた、実験のバリエーションの数。 A/B テストは2つのアームで構成されています。 5つのバリエーションとコントロールが6に等しい。 より多くの武器は、統計的な力を維持するために比例してより多くのトラフィックを必要とします。"
+>abstract="コントロールを含む、実験のバリアント数。 A/B テストは 2 つのアームがあります。 5 つのバリアントにコントロールを加えて、合計 6 つとなります。 統計的検出力を維持するには、アーム数が増えるにつれて、比例してより多くのトラフィックが必要になります。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_duration"
->title="A/B テストの所要時間"
->abstract="実験を行う日数です。 長い期間により、データを収集する時間が増え、より小さな効果を確実に検出できます。 期間が短い場合は、信頼性の高い結果を得るために、より大きな効果や毎日のトラフィックが必要になります。"
+>title="A/B テストの期間"
+>abstract="実験を行う日数。 実験期間を長くすると、データを収集する時間が増えるので、より小さい効果を確実に検出できます。 期間が短い場合、信頼できる結果を得るには、より大きい効果や、より多くの毎日のトラフィックが必要になります。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_minimum_detectable_effect"
->title="最小検出可能な効果"
->abstract="検出する価値のある最小の改善点、指標の最小の変化を示します。 これは、ベースラインに対する変化率ではなく、上昇率ポイントのサイズです。 たとえば、ベースラインが5%で、1%のポイントが向上した場合は、「1」と入力します。"
+>title="最小検出効果"
+>abstract="検出する価値のある最小の改善点、行動する指標の最小の変化。 これは、ベースラインに対する変化率ではなく、割合ポイント単位での上昇幅です。 例えば、ベースラインが 5％で、1％ポイントの上昇率が重要な場合は、1 を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_expected_improvement"
 >title="期待される改善"
->abstract="実験が生成すると期待される改善。"
+>abstract="実験を生成すると期待される改善。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
->title="平方偏差"
->abstract="指標の平均ではなく、値の広がり。 クリック率（主に0秒と1秒）のような指標はバリエーションが少なく、ユーザーあたりの売上高（少数の高支出、多くの低い）のような指標はバリエーションがはるかに多い可能性があります。 わからない場合は、デフォルト値の1のままにしておきます。"
+>title="分散"
+>abstract="指標の平均ではなく、指標の値の広がり。 クリック率のような指標（主に0 または 1）は分散が低いのに対し、ユーザーあたりの売上高のような指標（高額支出者が少数で、低額支出者が多数）は、はるかに分散が高くなることがあります。 わからない場合は、デフォルト値の 1 のままにしておきます。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="信頼性レベル"
->abstract="結果が単なるランダムな確率ではなく、統計的有意性のしきい値である必要がある自信。 95%の信頼度は、偽陽性の可能性が最大5%であることを意味します。 値を大きくすると誤検出は減りますが、より多くのデータが必要です。"
+>abstract="結果が単なるランダムな確率ではなく、その結果を真の結果とみなす必要がある、統計的有位差のしきい値となる確信度。 95％の信頼性レベルとは、偽陽性となる確率が最大で 5％であることを意味します。 値を高くすると偽陽性は減少しますが、より多くのデータが必要になります。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="統計的検出力"
->abstract="ある効果が本当に存在する場合の効果を検出する確率、実験の感度。 80%の電力は、実際の効果を検出する可能性が80%であることを意味します。 パワーが高いほど偽陰性は減少しますが、より多くのトラフィックまたは長いランタイムが必要です。"
+>abstract="効果が真に存在する場合にその効果を検出する確率、実験の感度。 80％の検出力とは、真の効果を検出する確率が 80％であることを意味します。 検出力を高くすると偽陰性は減少しますが、より多くのトラフィックやより長いランタイムが必要になります。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_traffic_mode"
 >title="トラフィックモード"
->abstract="ユーザーが実験に参加する方法。 継続：ユーザーは実験期間にわたって毎日エントリします。 結果が出るにつれて、トラフィックは自動的にパフォーマンスの高いバリエーションに移行します。"
+>abstract="ユーザーが実験にエントリする仕組み。 継続的：ユーザーは実験期間にわたって毎日エントリします。 結果が出るにつれて、トラフィックは自動的にパフォーマンスの高いバリアントにシフトします。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="指標タイプ"
->abstract="どのような指標を測定しているのか。 パーセンテージ：クリックやコンバージョンなどのバイナリ結果で、各ユーザーが何かを行うか行わないかのどちらかに使用します。 数値：収益やページビューなどの指標で、利用者ごとに値が大きく異なる場合に使用します。"
+>abstract="測定している指標の種類。 割合：クリック数やコンバージョン数など、各ユーザーが実行するかしないかというバイナリ結果に対して、これを使用します。 数値：売上高やページビュー数など、ユーザーごとに値が大きく異なる場合に対して、これを使用します。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_auto_daily_traffic"
->title="日々のトラフィック"
->abstract="1日に何人のユーザーがテストに参加しているか。 複数日間にわたる継続的な検証に使用できます。結果が出ると、トラフィックは自動的に優れたパフォーマンスを発揮するバリエーションに移行します。"
+>title="毎日のトラフィック"
+>abstract="毎日、実験にエントリしているユーザーの数。 数日間にわたって実行される継続的な実験に使用され、結果が出るにつれて、トラフィックは自動的にパフォーマンスの高いバリアントにシフトします。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_metric_rate"
->title="ベースライン指標レート"
->abstract="実験開始前の現在のパフォーマンス、コントロールアームの平均。 常に必須。 パーセンテージ指標の場合は、パーセンテージで入力します。訪問者の5%が「今すぐ購入」をクリックした場合は、5と入力します。 カウント指標には、生の10進数値を入力します。"
+>title="ベースライン指標率"
+>abstract="実験開始前の現在のパフォーマンス、コントロールアームの平均。 常に必須です。 割合指標の場合は、割合として入力します。訪問者の 5％が「今すぐ購入」をクリックした場合は、5 を入力します。 カウント指標の場合は、小数値をそのまま入力します。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
 >title="プライマリ指標"
->abstract="プライマリ指標は、レポート設定から自動的に取得されます。 変更するには、「目標と設定」で目標指標を変更します。"
+>abstract="プライマリ指標は、レポート設定から自動的に取得されます。 変更するには、目標と設定で目標指標を変更します。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_hypothesis"
 >title="仮説"
->abstract="仮説は、実験の期待される結果を説明する定義したステートメントです。 何をどこで変更するのかを説明し、変更したい指標とその方法を明記します。"
+>abstract="仮説は、実験の期待される結果を説明するために定義するステートメントです。 変更する内容と場所の説明と、変更する指標と方法の明記が含まれます。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="インサイト"
->abstract="実験のインサイトとは、実験データが統計的優位差を満たした際に AI が見つける学習です。"
+>abstract="実験インサイトとは、実験データが統計的優位差を満たした際に、AI が発見した学習内容です。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="オポチュニティ"
->abstract="実験の機会は、実験のスクリーンショットと結果で見つかったパターン AIに基づいてAIが提案した治療のアイデアです。"
+>abstract="実験機会は、実験のスクリーンショットや結果で AI が発見したパターンに基づいて AI が提案した処理のアイデアです。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="処理の詳細"
->abstract="処理の詳細には、ユーザーが処理の対象となる場合の処理の画像が表示されます。 これらの画像はすべての実験に使用できます。 一部の実験では、画像を確認するか、必要に応じて置き換えるよう求められることがあります。"
+>abstract="処理の詳細には、ユーザーが選定される場合に、どのような処理が行われるかを示す画像が表示されます。 すべての実験に対して、これらの画像を確認できます。 一部の実験では、画像の確認や、必要に応じて画像の置換が求められる場合があります。"
 
 [!DNL Adobe Experience Cloud]の一部である[!DNL Adobe Target]では、web、モバイルサイト、アプリ、ソーシャルメディアなどのデジタルチャネルをまたいで顧客体験をパーソナライズするための包括的なツールを提供しています。
 
@@ -136,7 +141,7 @@ ht-degree: 33%
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE &#x200B; プレミアム &#x200B;]{type=Positive}
+[!BADGE  プレミアム ]{type=Positive}
 
 [!DNL Target Premium]は、[!DNL Target Standard]にプレミアム機能を追加するためのライセンスを必要とする高度な製品です。 [!DNL Target] ガイドのすべての[!DNL Target Premium]記事には、各ページの上部または影響を受けるテキストの近くにある[!UICONTROL Premium] バッジが含まれています。 [!UICONTROL Premium] バッジはクリック可能で、このセクションにリンクしています。
 
@@ -152,7 +157,7 @@ APは完全に自動化され、最小限の人間の分析で継続的に学習
 
 ### [!UICONTROL 自動ターゲット]
 
-[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)は、高度な機械学習を使用して、パフォーマンスの高いマーケター定義エクスペリエンスを特定します。 そして、個々の顧客プロファイルや、類似のプロファイルを持つ以前の訪問者の行動にもとづいて、各訪問者に最もカスタマイズされた体験を提供します。 [!UICONTROL 自動ターゲット &#x200B;]は、コンテンツのパーソナライズとコンバージョンの促進に役立ちます。
+[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)は、高度な機械学習を使用して、パフォーマンスの高いマーケター定義エクスペリエンスを特定します。 そして、個々の顧客プロファイルや、類似のプロファイルを持つ以前の訪問者の行動にもとづいて、各訪問者に最もカスタマイズされた体験を提供します。 [!UICONTROL 自動ターゲット ]は、コンテンツのパーソナライズとコンバージョンの促進に役立ちます。
 
 ### レコメンデーション
 
@@ -174,18 +179,18 @@ APは完全に自動化され、最小限の人間の分析で継続的に学習
 
 ### オファーとしてのレコメンデーション
 
-[&#x200B; オファーとしてのレコメンデーション &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md)を使用すると、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内にレコメンデーションを含めることができます。
+[ オファーとしてのレコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md)を使用すると、[!UICONTROL A/B テスト ]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット ]、[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティ内にレコメンデーションを含めることができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
 * [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
-* [!UICONTROL 自動ターゲット &#x200B;]を使用して、個々のプロファイルに基づいて、カスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
+* [!UICONTROL 自動ターゲット ]を使用して、個々のプロファイルに基づいて、カスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
 
 ### Enterprise ユーザーの権限
 
-[エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)機能を使用すると、様々なプロジェクト（ [!DNL Adobe Admin Console for Enterprise] では「製品プロファイル」と呼ばれます）を作成できます。 [!UICONTROL &#x200B; エンタープライズ ユーザー権限]を使用すると、1人のユーザーに異なる権限を割り当て、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、顧客は、ユーザーに対して閲覧、編集、承認および公開のアクセスを制限することができます。 地域、環境（開発／ステージ／実稼動）、チャネル、その他のカスタム条件に基づいて、ユーザーを制限できます。
+[エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)機能を使用すると、様々なプロジェクト（ [!DNL Adobe Admin Console for Enterprise] では「製品プロファイル」と呼ばれます）を作成できます。 [!UICONTROL  エンタープライズ ユーザー権限]を使用すると、1人のユーザーに異なる権限を割り当て、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、顧客は、ユーザーに対して閲覧、編集、承認および公開のアクセスを制限することができます。 地域、環境（開発／ステージ／実稼動）、チャネル、その他のカスタム条件に基づいて、ユーザーを制限できます。
 
 ## Betaの機能 {#beta}
 
@@ -211,7 +216,7 @@ Betaの機能について説明する[!DNL Target] ガイドの記事には、�
 
 [Adobe Target ウェルカムキット](/help/main/c-intro/target-welcome-kit.md)
 
-## トレーニングビデオ：アクティビティタイプ （9:03） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：アクティビティタイプ （9:03） ![概要バッジ ](/help/main/assets/overview.png)
 
 次のビデオでは、[!DNL Target Standard/Premium] で使用できるアクティビティタイプと、サイトの目標を達成するため [!DNL Target] でおこなう 3 ステップのガイド付きワークフローを説明します。
 
@@ -219,6 +224,6 @@ Betaの機能について説明する[!DNL Target] ガイドの記事には、�
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 
