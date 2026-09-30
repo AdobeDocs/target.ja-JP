@@ -1,7 +1,7 @@
 ---
 keywords: mvt；多変量テスト；オファー；組み合わせ
-description: Adobe [!DNL Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 多変量テスト ] （MVT）に含めるオファーを作成する方法を説明します。
-title: '[!UICONTROL 多変量テスト ] （MVT）で組み合わせを作成するにはどうすればよいですか？'
+description: Adobe [!DNL Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 多変量テスト &#x200B;] （MVT）に含めるオファーを作成する方法を説明します。
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）で組み合わせを作成するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 TQID: 'https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU'
@@ -23,7 +23,7 @@ ht-degree: 55%
 ---
 # 組み合わせの作成
 
-[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 多変量テスト ] （MVT）に含めるオファーを作成します。
+[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 多変量テスト &#x200B;] （MVT）に含めるオファーを作成します。
 
 VEC を使用したオファーの作成および編集について詳しくは、[Visual Experience Composer オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 

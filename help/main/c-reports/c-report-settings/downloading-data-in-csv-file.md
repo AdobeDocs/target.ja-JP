@@ -33,12 +33,12 @@ CSV ファイル内のデータをダウンロードするには：
 
 1. 「**[!UICONTROL アクティビティ]**」をクリックしてから、希望するアクティビティをリストからクリックします。
 
-   アクティビティが多い場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL 指標タイプ ]、[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択して、リストをフィルタリングします。
+   アクティビティが多い場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL 指標タイプ &#x200B;]、[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択して、リストをフィルタリングします。
 
 1. 「**[!UICONTROL レポート]**」タブをクリックします。
-1. **[!UICONTROL ダウンロード]** （![ ダウンロードアイコン ](/help/main/assets/icons/Download.svg)）アイコンをクリックし、Excelやその他のツールで分析用にダウンロードするレポートタイプを選択します。
+1. **[!UICONTROL ダウンロード]** （![&#x200B; ダウンロードアイコン &#x200B;](/help/main/assets/icons/Download.svg)）アイコンをクリックし、Excelやその他のツールで分析用にダウンロードするレポートタイプを選択します。
 
-   * [!UICONTROL  レポートをCSVに書き出し]
+   * [!UICONTROL &#x200B; レポートをCSVに書き出し]
    * [!UICONTROL 注文の詳細を CSV に書き出す]
 
 ## [!UICONTROL レポートを CSV に書き出す] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -73,16 +73,16 @@ CSV ファイル内のデータをダウンロードするには：
 
 * エクスペリエンス
 
-  [!UICONTROL A/B テスト ]、[!UICONTROL  エクスペリエンスのターゲット設定] （XT）、[!UICONTROL 多変量テスト ] （MVT）アクティビティの[!UICONTROL 注文詳細] レポートでは、[!UICONTROL  エクスペリエンス ]列にエクスペリエンス `localId`が含まれています。 これは、オファートークン `$campaign.recipe.id` からの出力値です。
+  [!UICONTROL A/B テスト &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）、[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの[!UICONTROL 注文詳細] レポートでは、[!UICONTROL &#x200B; エクスペリエンス &#x200B;]列にエクスペリエンス `localId`が含まれています。 これは、オファートークン `$campaign.recipe.id` からの出力値です。
 
-  [!UICONTROL 自動パーソナライゼーション]（AP）アクティビティについては、[!UICONTROL エクスペリエンス]列はありません。 現在の[!UICONTROL  アルゴリズム名]列は、[!DNL Target]の他の場所で示されているように、「Control」と「Targeted」の用語に置き換えられました。
+  [!UICONTROL 自動パーソナライゼーション]（AP）アクティビティについては、[!UICONTROL エクスペリエンス]列はありません。 現在の[!UICONTROL &#x200B; アルゴリズム名]列は、[!DNL Target]の他の場所で示されているように、「Control」と「Targeted」の用語に置き換えられました。
 
   [!UICONTROL Recommendations] アクティビティに対する影響はありませんでした。
 
 >[!NOTE]
 >
 >* 注文レポートのデータには、デフォルト環境（ホストグループ）の 4 週間分のデータと、デフォルト以外のすべての環境の 2 週間分のデータが含まれます。
->* 「[!UICONTROL 増分カウントに設定され、ユーザーをアクティビティ ]に保持する収益指標は、同じ訪問者が行った最初の注文の詳細のみをログに記録します。 その後のすべての注文は、コンバージョン数を増やしますが、RPV/AOV/Salesに収益を追加することはなく、[!UICONTROL 注文詳細] レポートには含まれません。
+>* 「[!UICONTROL 増分カウントに設定され、ユーザーをアクティビティ &#x200B;]に保持する収益指標は、同じ訪問者が行った最初の注文の詳細のみをログに記録します。 その後のすべての注文は、コンバージョン数を増やしますが、RPV/AOV/Salesに収益を追加することはなく、[!UICONTROL 注文詳細] レポートには含まれません。
 
 ## ベストプラクティス
 
@@ -92,10 +92,10 @@ CSV ファイル内のデータをダウンロードするには：
 
 ## 注意事項 {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-次の情報は、[!UICONTROL  ダウンロード ] オプションに適用されます。
+次の情報は、[!UICONTROL &#x200B; ダウンロード &#x200B;] オプションに適用されます。
 
-* [!UICONTROL A/B テスト ]、[!UICONTROL Automated Personalization]、[!UICONTROL  エクスペリエンスのターゲット設定]および[!UICONTROL 多変量] アクティビティの両方のレポートをダウンロードできます。 [!UICONTROL Recommendations] アクティビティの[!UICONTROL 成功指標] レポートをダウンロードできません。
-* バージョン 15.7.1 （2015年7月）より前に作成された[!DNL Target]A/B テスト ]および[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティでは、[!UICONTROL  ダウンロード ] オプションは使用できません。[!UICONTROL 
+* [!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Automated Personalization]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]および[!UICONTROL 多変量] アクティビティの両方のレポートをダウンロードできます。 [!UICONTROL Recommendations] アクティビティの[!UICONTROL 成功指標] レポートをダウンロードできません。
+* バージョン 15.7.1 （2015年7月）より前に作成された[!DNL Target]A/B テスト および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティでは、[!UICONTROL &#x200B; ダウンロード &#x200B;] オプションは使用できません。
 * 関連データのないエクスペリエンスは、ダウンロードしたレポートに記録されません。
 * [!DNL Target] レポート UIで適用されたオーディエンスは、ダウンロードレポートに引き継ぎません。
 * アクティビティユーザーが.複数の指標を使用している場合、csv ファイル形式でダウンロード用に生成されたレポートに一貫性がありません。 ダウンロード可能なレポートは、レポート設定のみに基づいて生成され、使用される他の指標と同じ値を考慮します。 信頼できる唯一の情報源は常に [!DNL Target] UIに表示されるレポートです。

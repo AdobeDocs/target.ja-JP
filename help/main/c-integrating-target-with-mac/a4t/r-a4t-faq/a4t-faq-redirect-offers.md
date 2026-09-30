@@ -43,7 +43,7 @@ ht-degree: 50%
 
 +++
 
-## ![Adobe Experience Platform Web SDK バッジ ](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]は、A4Tのリダイレクト オファーをサポートしていますか？ {#platform}
+## ![Adobe Experience Platform Web SDK バッジ &#x200B;](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]は、A4Tのリダイレクト オファーをサポートしていますか？ {#platform}
 
 +++回答
 次のFAQでは、[!DNL Platform Web SDK]でのA4Tおよびリダイレクトオファーの使用に関する詳細情報を提供しています。
@@ -53,14 +53,14 @@ ht-degree: 50%
 ### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
 
 +++回答
-はい、Platform Web SDK経由のA4Tは[ リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)をサポートしています。
+はい、Platform Web SDK経由のA4Tは[&#x200B; リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)をサポートしています。
 
 +++
 
-### [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL  フォームベースのExperience Composer]はサポートされていますか？
+### [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL &#x200B; フォームベースのExperience Composer]はサポートされていますか？
 
 +++回答
-はい。組み込みのリダイレクトオファーを使用する場合は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[[!UICONTROL  フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)がサポートされます。
+はい。組み込みのリダイレクトオファーを使用する場合は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[[!UICONTROL &#x200B; フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)がサポートされます。
 
 +++
 

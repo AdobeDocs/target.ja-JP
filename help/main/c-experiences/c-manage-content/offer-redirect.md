@@ -34,15 +34,15 @@ ht-degree: 24%
 
 ブラウザーを新しいページにシームレスに誘導するリダイレクトオファーを作成する方法について説明します。
 
-ページ内でコンテンツの一部を変更するのではなく、まったく異なる 2 つのページをテストすることができます。 この場合、A/B テストはページ Aとページ Bを比較します。[!UICONTROL A/B テスト ] アクティビティを2つのエクスペリエンスで設定します。1つはデフォルトのページ Aを指し、もう1つはページ Bにリダイレクトします。このオファーは、訪問者を別のページにリダイレクトするように設定されています。
+ページ内でコンテンツの一部を変更するのではなく、まったく異なる 2 つのページをテストすることができます。 この場合、A/B テストはページ Aとページ Bを比較します。[!UICONTROL A/B テスト &#x200B;] アクティビティを2つのエクスペリエンスで設定します。1つはデフォルトのページ Aを指し、もう1つはページ Bにリダイレクトします。このオファーは、訪問者を別のページにリダイレクトするように設定されています。
 
 >[!NOTE]
 >
-> * リダイレクトオファーは、[!UICONTROL  オファー]/[!UICONTROL  コードオファー] ページまたは[Forms ベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)で作成できます。 [!UICONTROL Visual Experience Composer] （VEC）では、リダイレクト オファーを作成または適用できません。 コンテンツは[!DNL Target] リクエストの場所に挿入されるので、これらの場所はグローバル [!DNL Target] リクエストには適していない可能性が高くなります。
+> * リダイレクトオファーは、[!UICONTROL &#x200B; オファー]/[!UICONTROL &#x200B; コードオファー] ページまたは[Forms ベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)で作成できます。 [!UICONTROL Visual Experience Composer] （VEC）では、リダイレクト オファーを作成または適用できません。 コンテンツは[!DNL Target] リクエストの場所に挿入されるので、これらの場所はグローバル [!DNL Target] リクエストには適していない可能性が高くなります。
 >
 >* AJAX mbox （`mboxUpdate`）では、リダイレクトオファーを使用できません。
 >
->* [[!UICONTROL Analyticsをレポートソース ]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）として使用するアクティビティでのリダイレクトオファーの場合、実装は特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。 [ リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)を参照してください。
+>* [[!UICONTROL Analyticsをレポートソース &#x200B;]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）として使用するアクティビティでのリダイレクトオファーの場合、実装は特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。 [&#x200B; リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)を参照してください。
 >
 >* リダイレクトするエクスペリエンスの設定については、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を参照してください。
 
@@ -52,7 +52,7 @@ ht-degree: 24%
 >
 >ランディングページのリファラー値を渡す場合は、リダイレクトオファーではなくHTML オファーを使用します。
 
-## [!UICONTROL  コードオファー] ページからリダイレクトオファーを作成します
+## [!UICONTROL &#x200B; コードオファー] ページからリダイレクトオファーを作成します
 
 1. 「**[!UICONTROL オファー]**」をクリックしてから、「**[!UICONTROL コードオファー]**」タブを選択します。
 1. 「**[!UICONTROL オファーを作成]**」 > 「**[!UICONTROL オファーをリダイレクト]**」をクリックします。
@@ -60,7 +60,7 @@ ht-degree: 24%
 
    わかりやすい名前を付けると、後で [!UICONTROL アセット] ライブラリからオファーをすばやく見つけることができます。
 
-1. （条件付き）Target Premium アカウント [をお持ちの場合は、目的の[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)を選択します。](/help/main/c-intro/intro.md#premium)
+1. （条件付き）Target Premium アカウント [&#128279;](/help/main/c-intro/intro.md#premium)をお持ちの場合は、目的の[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)を選択します。
 
 1. リダイレクト先の一意のコンテンツまたは宛先のURLを指定します。 このURLは絶対URLでなければなりません。
 
@@ -84,10 +84,10 @@ ht-degree: 24%
 >
 >テストを開始する前に、実装コンサルタントに依頼してください。
 
-## [!UICONTROL  フォームベースのExperience Composer]を使用してリダイレクトオファーを作成します
+## [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用してリダイレクトオファーを作成します
 
-1. [ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL コンテンツ]** セクションを表示する場所を選択します。
-1. **[!UICONTROL コンテンツ]** ドロップダウンリストをクリックし、**[!UICONTROL リスト]** アイコン （![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、**[!UICONTROL リダイレクトオファーの変更]**&#x200B;をクリックします。
+1. [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを作成する際に、**[!UICONTROL コンテンツ]** セクションを表示する場所を選択します。
+1. **[!UICONTROL コンテンツ]** ドロップダウンリストをクリックし、**[!UICONTROL リスト]** アイコン （![&#x200B; リスト &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、**[!UICONTROL リダイレクトオファーの変更]**&#x200B;をクリックします。
 1. 「**[!UICONTROL オファーを作成]**」 > 「**[!UICONTROL オファーをリダイレクト]**」をクリックします。
 1. オファーのわかりやすい名前を入力します。
 
@@ -117,16 +117,16 @@ ht-degree: 24%
 
 ## アクティビティでのリダイレクトオファーの使用
 
-[[!UICONTROL  フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)を使用してリダイレクトオファーを適用します。 現在、[!UICONTROL Visual Experience Composer] （VEC）を使用してリダイレクト オファーを適用することはできません。
+[[!UICONTROL &#x200B; フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)を使用してリダイレクトオファーを適用します。 現在、[!UICONTROL Visual Experience Composer] （VEC）を使用してリダイレクト オファーを適用することはできません。
 
-[!DNL Adobe Target] [!UICONTROL  フォームベースのExperience Composer]は、[!UICONTROL Visual Experience Composer]が使用できないか使用できない場合に[!UICONTROL A/B テスト ]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスの作成に役立つ、視覚的でないエクスペリエンスおよびオファー作成インターフェイスです。 例えば、[!UICONTROL  フォームベースのExperience Composer]を使用して、リダイレクトオファーを使用するエクスペリエンスを作成できます。
+[!DNL Adobe Target] [!UICONTROL &#x200B; フォームベースのExperience Composer]は、[!UICONTROL Visual Experience Composer]が使用できないか使用できない場合に[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスの作成に役立つ、視覚的でないエクスペリエンスおよびオファー作成インターフェイスです。 例えば、[!UICONTROL &#x200B; フォームベースのExperience Composer]を使用して、リダイレクトオファーを使用するエクスペリエンスを作成できます。
 
-1. [!UICONTROL  フォームベースのExperience Composer]でアクティビティを作成または編集します。
+1. [!UICONTROL &#x200B; フォームベースのExperience Composer]でアクティビティを作成または編集します。
 
-   詳細な手順については、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
+   詳細な手順については、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
 
 1. 必要に応じて、目的の場所を指定し、オーディエンスの絞り込みを追加します。
 
-1. **[!UICONTROL コンテンツ]** ドロップダウンリストをクリックし、**[!UICONTROL リスト]** アイコン （![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、**[!UICONTROL リダイレクトオファーの変更]**&#x200B;をクリックします。
-1. 「[!UICONTROL  リダイレクトオファーを選択]」ダイアログボックスから目的のリダイレクトオファーを選択し、**[!UICONTROL 追加]**&#x200B;をクリックします。
+1. **[!UICONTROL コンテンツ]** ドロップダウンリストをクリックし、**[!UICONTROL リスト]** アイコン （![&#x200B; リスト &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから、**[!UICONTROL リダイレクトオファーの変更]**&#x200B;をクリックします。
+1. 「[!UICONTROL &#x200B; リダイレクトオファーを選択]」ダイアログボックスから目的のリダイレクトオファーを選択し、**[!UICONTROL 追加]**&#x200B;をクリックします。
 1. アクティビティの設定を終了します。

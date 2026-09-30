@@ -54,7 +54,7 @@ ht-degree: 76%
 
 [!DNL Analytics] をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて [!DNL Analytics] に基づいて行われます。
 
-計算指標を含むすべての[!DNL Analytics]指標は、[!DNL Target]および[!DNL Analytics]の[!UICONTROL  ターゲットアクティビティ ] レポートで利用できます（ただし、1つの例外を除く）。 [!UICONTROL 上昇率と信頼性]の計算指標はサポートされていません。 同様に、[!DNL Analytics] で利用可能な任意のセグメントも、両方のソリューションに適用できます。 アクティビティの開始後、またはアクティビティが完了した後でも、[!DNL Target] のレポートに指標やオーディエンスを適用できます。
+計算指標を含むすべての[!DNL Analytics]指標は、[!DNL Target]および[!DNL Analytics]の[!UICONTROL &#x200B; ターゲットアクティビティ &#x200B;] レポートで利用できます（ただし、1つの例外を除く）。 [!UICONTROL 上昇率と信頼性]の計算指標はサポートされていません。 同様に、[!DNL Analytics] で利用可能な任意のセグメントも、両方のソリューションに適用できます。 アクティビティの開始後、またはアクティビティが完了した後でも、[!DNL Target] のレポートに指標やオーディエンスを適用できます。
 
 顧客の指標や [!DNL Analytics] のビルトインの計算指標を含む、すべての指標を利用できます。
 
@@ -66,7 +66,7 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 * レポートソースはアクティビティごとに設定されます。 [!DNL Target] はレポートに使用するデータを引き続き収集するので、[!DNL Target] によって収集されたデータをアクティビティのベースにしたい場合は、[!DNL Target] のデータを利用できます。
 * どちらか 1 つのレポートソースを選びます。 両方のソースから 1 つのアクティビティのデータを収集することはできません。
 * A4T を使用する場合は、アクティビティに使用できる成功指標はすべて [!DNL Analytics] の指標です。 ただし、at.js を使用している場合は目標指標は mbox の呼び出しをベースにすることができます。 例えば、[!DNL Analytics] のクリック追跡コードを実装する代わりに、Target が備えているクリック追跡機能を A4T で使用できます。
-* [!DNL Target] UI で A4T アクティビティのレポートを表示すると、[!DNL Analytics] のデータが表示されます。 例えば、[!DNL Target]で[!UICONTROL 訪問者]指標を使用する場合、現在[!UICONTROL 参加者]と呼ばれている[!DNL Target] [!UICONTROL 訪問者]指標ではなく、[!DNL Analytics] [!UICONTROL 訪問者]指標を使用しています。 この違いは、基本的なトラフィック指標（[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL  ページビュー]）とコンバージョン指標にとって特に重要です。
+* [!DNL Target] UI で A4T アクティビティのレポートを表示すると、[!DNL Analytics] のデータが表示されます。 例えば、[!DNL Target]で[!UICONTROL 訪問者]指標を使用する場合、現在[!UICONTROL 参加者]と呼ばれている[!DNL Target] [!UICONTROL 訪問者]指標ではなく、[!DNL Analytics] [!UICONTROL 訪問者]指標を使用しています。 この違いは、基本的なトラフィック指標（[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL &#x200B; ページビュー]）とコンバージョン指標にとって特に重要です。
 * 既存の [!DNL Target] アクティビティは引き続き [!DNL Target] のデータ収集を使用するので、A4T を有効にしても影響を受けません。
 * A4T を使用する場合、使用できる mbox ベースの指標は 1 つだけです。
 * [!DNL Target] から [!DNL Analytics] へのサーバー間コールによって、アクティビティとエクスペリエンスの情報が [!DNL Analytics] に送られます。 この統合によって、[!DNL Target] または [!DNL Analytics] に追加のサーバーコールが生じることはありません。
@@ -100,15 +100,15 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 
 >[!NOTE]
 >
->「[!UICONTROL  アクティビティ ]」ページの上部にある「[!UICONTROL  レポートSource]」ドロップダウンリストを使用して、A4Tを使用するアクティビティのみを表示できます。
+>「[!UICONTROL &#x200B; アクティビティ &#x200B;]」ページの上部にある「[!UICONTROL &#x200B; レポートSource]」ドロップダウンリストを使用して、A4Tを使用するアクティビティのみを表示できます。
 
-レポートの右上にある適切なアイコンをクリックすると、レポートの[!UICONTROL  テーブルビュー]と[!UICONTROL  グラフビュー]を切り替えることができます。
+レポートの右上にある適切なアイコンをクリックすると、レポートの[!UICONTROL &#x200B; テーブルビュー]と[!UICONTROL &#x200B; グラフビュー]を切り替えることができます。
 
-次の図は、[!UICONTROL  レポート指標] ドロップダウンリストに使用可能な[!DNL Analytics]目標の指標が表示されているA4T レポートの[!UICONTROL  グラフ表示]を示しています。
+次の図は、[!UICONTROL &#x200B; レポート指標] ドロップダウンリストに使用可能な[!DNL Analytics]目標の指標が表示されているA4T レポートの[!UICONTROL &#x200B; グラフ表示]を示しています。
 
 ![a4t_report_graph1 画像](assets/a4t_report_graph1.png)
 
-次の図は、[!UICONTROL  オーディエンス ] ドロップダウンリストに使用可能な[!DNL Analytics] オーディエンスが表示されたA4T レポートの[!UICONTROL  グラフビュー]を示しています。
+次の図は、[!UICONTROL &#x200B; オーディエンス &#x200B;] ドロップダウンリストに使用可能な[!DNL Analytics] オーディエンスが表示されたA4T レポートの[!UICONTROL &#x200B; グラフビュー]を示しています。
 
 ![a4t_report_graph2 画像](assets/a4t_report_graph2.png)
 
@@ -126,7 +126,7 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 
 以下のビデオは、このトピックで説明する概念についてさらに詳しく説明しています。
 
-### Analytics for Adobe Target （A4T） （4:32） ![概要バッジ ](/help/main/assets/overview.png)
+### Analytics for Adobe Target （A4T） （4:32） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、最適化プログラムの分析を推進するために [!DNL Target] で [!DNL Analytics] をレポートソースとして使用する方法を説明します。
 
@@ -136,7 +136,7 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Adobe Target統合（A4T） （40:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Analytics / Adobe Target統合（A4T） （40:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオは、「[Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 

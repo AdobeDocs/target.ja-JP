@@ -35,15 +35,15 @@ ht-degree: 54%
 
 1. 必要に応じて、**[!UICONTROL Visual]**&#x200B;を選択します。
 
-   [!UICONTROL  フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VECおよび[!UICONTROL  フォームベースのExperience Composer]に加えて、[!DNL Target]は[!UICONTROL 単一ページアプリケーション ]VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
+   >VECおよび[!UICONTROL &#x200B; フォームベースのExperience Composer]に加えて、[!DNL Target]は[!UICONTROL 単一ページアプリケーション &#x200B;]VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-1. （条件付き） [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
+1. （条件付き） [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
 1. アクティビティ URLを指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
@@ -108,7 +108,7 @@ ht-degree: 54%
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [デザイン](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択します。
 
-   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。 [!DNL Target]には、事前に設定された複数のデザインが含まれています。 カスタムのデザインを作成することも可能です。 詳細については、[ デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)および[ デザインのカスタマイズ ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
+   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。 [!DNL Target]には、事前に設定された複数のデザインが含まれています。 カスタムのデザインを作成することも可能です。 詳細については、[&#x200B; デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)および[&#x200B; デザインのカスタマイズ &#x200B;](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
 
    ![デザインを選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -122,7 +122,7 @@ ht-degree: 54%
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
-   レコメンデーションにプロモーションを追加することもできます。 前面および背面のプロモーションの追加について詳しくは、[ プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
+   レコメンデーションにプロモーションを追加することもできます。 前面および背面のプロモーションの追加について詳しくは、[&#x200B; プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -185,12 +185,12 @@ ht-degree: 54%
    * キャンペーンの詳細情報の表示や非表示をおこないます。
    * デザインのコードを表示します。
 
-1. （オプション）「[!UICONTROL  レポート ]」ページを開き、[!DNL Recommendations] アクティビティのパフォーマンスを示すレポートを表示します。
+1. （オプション）「[!UICONTROL &#x200B; レポート &#x200B;]」ページを開き、[!DNL Recommendations] アクティビティのパフォーマンスを示すレポートを表示します。
 
-1. （オプション）発生する可能性のある[ アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示するには、[!UICONTROL 衝突] ページを開きます。
+1. （オプション）発生する可能性のある[&#x200B; アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示するには、[!UICONTROL 衝突] ページを開きます。
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
 
-## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

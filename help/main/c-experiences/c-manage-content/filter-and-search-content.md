@@ -31,16 +31,16 @@ ht-degree: 0%
 1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL コードオファー]**」をクリックします。
 1. **[!UICONTROL 検索先]** ボックスに目的のキーワードを入力します。
 
-   ドロップダウンを使用して、[!UICONTROL  オファー名]、[!UICONTROL AEM パス ]、または[!UICONTROL AEM タグ ]でフィルタリングできます。
+   ドロップダウンを使用して、[!UICONTROL &#x200B; オファー名]、[!UICONTROL AEM パス &#x200B;]、または[!UICONTROL AEM タグ &#x200B;]でフィルタリングできます。
 
-   [!UICONTROL  フィルターを表示] アイコン ![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)をクリックして、[!UICONTROL Type]、[!UICONTROL Source]、および[!UICONTROL AEM Type] オプションを使用してフィルターを実行し、検索をさらに絞り込むこともできます。
+   [!UICONTROL &#x200B; フィルターを表示] アイコン ![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)をクリックして、[!UICONTROL Type]、[!UICONTROL Source]、および[!UICONTROL AEM Type] オプションを使用してフィルターを実行し、検索をさらに絞り込むこともできます。
 
 ## キーワードによる画像オファーの検索 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL 画像オファー]**」をクリックします。
 
-1. （オプション） [!UICONTROL  カード表示]と[!UICONTROL  リスト表示]を切り替え、[!UICONTROL  カード表示] アイコン （![ カード表示アイコン ](/help/main/assets/icons/ViewCard.svg)）または[!UICONTROL  リスト表示] アイコン （![ リスト表示アイコン ](/help/main/assets/icons/ViewList.svg)）を[!UICONTROL  アセット ] ライブラリの右上隅でクリックします。
-1. 左上隅の「**[!UICONTROL コンテンツのみ]**」アイコン（![ コンテンツのみアイコン ](/help/main/assets/icons/RailLeft.svg)）をクリックして、検索ボックスを表示します。
+1. （オプション） [!UICONTROL &#x200B; カード表示]と[!UICONTROL &#x200B; リスト表示]を切り替え、[!UICONTROL &#x200B; カード表示] アイコン （![&#x200B; カード表示アイコン &#x200B;](/help/main/assets/icons/ViewCard.svg)）または[!UICONTROL &#x200B; リスト表示] アイコン （![&#x200B; リスト表示アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）を[!UICONTROL &#x200B; アセット &#x200B;] ライブラリの右上隅でクリックします。
+1. 左上隅の「**[!UICONTROL コンテンツのみ]**」アイコン（![&#x200B; コンテンツのみアイコン &#x200B;](/help/main/assets/icons/RailLeft.svg)）をクリックして、検索ボックスを表示します。
 1. 検索ボックスで、検索するアセットのキーワードを入力し、[!UICONTROL Enter]を押します。
 1. （条件付き）左側の&#x200B;**[!UICONTROL フィルターとオプション]** ペインを使用して、検索を絞り込みます。
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
    * **[!UICONTROL ファイルの種類]**:
      * [!UICONTROL 画像]
-     * [!UICONTROL  ドキュメント ]
-     * [!UICONTROL  マルチメディア ]
-     * [!UICONTROL  アーカイブ ]
+     * [!UICONTROL &#x200B; ドキュメント &#x200B;]
+     * [!UICONTROL &#x200B; マルチメディア &#x200B;]
+     * [!UICONTROL &#x200B; アーカイブ &#x200B;]
    * **[!UICONTROL ファイルサイズ]**：スライダーを使用して、目的のファイルサイズを選択します：[!UICONTROL 最小]、[!UICONTROL 小]、[!UICONTROL Medium]、[!UICONTROL 大]、または[!UICONTROL 最大]。
    * **[!UICONTROL 最終更新日]**: スライダーを使用して、期間を選択します：[!UICONTROL 最近]、[!UICONTROL 時間]、[!UICONTROL 日]、[!UICONTROL 週]、[!UICONTROL 月]、[!UICONTROL 年]、または[!UICONTROL すべてのAssets]。
    * **[!UICONTROL 承認ステータス]**: [!UICONTROL 承認済み]または[!UICONTROL 却下]

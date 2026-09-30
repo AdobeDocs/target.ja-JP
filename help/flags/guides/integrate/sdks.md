@@ -39,13 +39,13 @@ Web用のフラグ拡張機能は、Adobe Experience Platform Web SDKと統合�
 
 AndroidのFlags拡張機能は、Adobe Experience Platform Mobile SDKと統合されています。
 
-設定手順については、[Android拡張機能の統合ガイド ](../sdk-releases/android/android-extension-integration-guide.md)を参照してください。
+設定手順については、[Android拡張機能の統合ガイド &#x200B;](../sdk-releases/android/android-extension-integration-guide.md)を参照してください。
 
 ### iOS拡張機能 {#ios-extension}
 
 IOSのFlags拡張機能は、Adobe Experience Platform Mobile SDKと統合されています。
 
-設定手順については、[iOS拡張機能の統合ガイド ](../sdk-releases/ios/ios-extension-integration-guide.md)を参照してください。
+設定手順については、[iOS拡張機能の統合ガイド &#x200B;](../sdk-releases/ios/ios-extension-integration-guide.md)を参照してください。
 
 ## 詳細については、 {#see-also}
 

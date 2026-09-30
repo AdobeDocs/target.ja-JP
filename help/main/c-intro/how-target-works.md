@@ -70,18 +70,18 @@ JavaScript ライブラリ （[!DNL Adobe Experience Platform Web SDK]およびa
 Targetは、[!DNL Experience Platform Web SDK]またはat.jsを使用してWeb サイトと統合します。
 
 * **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：このクライアントサイドのJavaScript ライブラリを使用すると、[!DNL Adobe Experience Cloud]のお客様は[!DNL Experience Platform Edge Network]を通じて様々なサービスと対話できます。 [!DNL Adobe]様は、新しい[!DNL Target]のお客様が[!DNL Experience Platform Web SDK]を実装することを推奨しています。
-* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: [!DNL Target]用のこの実装ライブラリは、web実装のページ読み込み時間を改善し、シングルページアプリケーションのより優れたオプションを提供します。 頻繁に更新される新機能により、[!DNL Adobe]では、すべての[at.js ユーザーに最新バージョン ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}への更新を推奨しています。
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: [!DNL Target]用のこの実装ライブラリは、web実装のページ読み込み時間を改善し、シングルページアプリケーションのより優れたオプションを提供します。 頻繁に更新される新機能により、[!DNL Adobe]では、すべての[at.js ユーザーに最新バージョン &#x200B;](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}への更新を推奨しています。
 
 >[!NOTE]
 >
 >mbox.js ライブラリは、[!DNL Target]のレガシー実装であり、2021年3月31日をもってサポートされなくなりました。 [!UICONTROL Experience Platform Web SDK] （推奨）または最新バージョンのat.jsにアップグレードします。
 
-サイトのすべてのページで[!UICONTROL Experience Platform Web SDK]またはat.jsを参照してください。 例えば、次のいずれかのライブラリをグローバルヘッダーに追加します。 または、Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}の[ タグを使用して[!DNL Target]を実装します。
+サイトのすべてのページで[!UICONTROL Experience Platform Web SDK]またはat.jsを参照してください。 例えば、次のいずれかのライブラリをグローバルヘッダーに追加します。 または、Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}の タグを使用して[!DNL Target]を実装します。
 
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
 * [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
-* [ [!DNL Adobe Experience Platform]を使用して [!DNL Target] を実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [&#x200B; [!DNL Adobe Experience Platform]を使用して [!DNL Target] を実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 訪問者が[!DNL Target]用に最適化されたページをリクエストするたびに、リアルタイムのリクエストがターゲティングシステムに送信され、提供するコンテンツが決定されます。 このリクエストは、マーケターが管理するアクティビティとエクスペリエンスによって管理され、ページが読み込まれるたびに実行されます。 コンテンツはサイト訪問者一人ひとりをターゲットにして、レスポンス率、獲得率、売上を最大化します。 コンテンツをパーソナライズすることで、訪問者の反応やインタラクション、購買を促進できます。
 
@@ -108,9 +108,9 @@ Targetは、[!DNL Experience Platform Web SDK]またはat.jsを使用してWeb �
 
 詳しくは、[[!UICONTROL 自動割り当て]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。
 
-### [!UICONTROL 自動ターゲット ] （AT）
+### [!UICONTROL 自動ターゲット &#x200B;] （AT）
 
-[!UICONTROL 自動ターゲット ]は、高度な機械学習を活用して、複数の高性能なマーケター定義エクスペリエンスから選択します。 [!UICONTROL 自動ターゲット ]は、個々の顧客プロファイルと、類似プロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最もカスタマイズされたエクスペリエンスを提供します。 [!UICONTROL 自動ターゲット ]を使用して、コンテンツをパーソナライズし、コンバージョンを促進します。
+[!UICONTROL 自動ターゲット &#x200B;]は、高度な機械学習を活用して、複数の高性能なマーケター定義エクスペリエンスから選択します。 [!UICONTROL 自動ターゲット &#x200B;]は、個々の顧客プロファイルと、類似プロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最もカスタマイズされたエクスペリエンスを提供します。 [!UICONTROL 自動ターゲット &#x200B;]を使用して、コンテンツをパーソナライズし、コンバージョンを促進します。
 
 詳細については、[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
 
@@ -122,7 +122,7 @@ Targetは、[!DNL Experience Platform Web SDK]またはat.jsを使用してWeb �
 
 ### [!UICONTROL エクスペリエンスのターゲット設定]（XT）
 
-[!UICONTROL  エクスペリエンスのターゲット設定] （XT）は、マーケターが定義したルールと条件に基づいて、特定のオーディエンスにコンテンツを配信します。 地域ターゲティングを含め、特定のエクスペリエンスやコンテンツを特定のオーディエンスにターゲティングするルールを定義するのに役立ちます。 アクティビティでは、複数のルールを設定して、様々なコンテンツのバリエーションを様々なオーディエンスに配信できます。 訪問者がサイトを閲覧すると、XTはその訪問者を評価し、その訪問者が基準を満たしているかどうかを判断します。 その人が適格であれば、そのアクティビティに参加し、その人に合わせて設計されたエクスペリエンスを確認します。 単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
+[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）は、マーケターが定義したルールと条件に基づいて、特定のオーディエンスにコンテンツを配信します。 地域ターゲティングを含め、特定のエクスペリエンスやコンテンツを特定のオーディエンスにターゲティングするルールを定義するのに役立ちます。 アクティビティでは、複数のルールを設定して、様々なコンテンツのバリエーションを様々なオーディエンスに配信できます。 訪問者がサイトを閲覧すると、XTはその訪問者を評価し、その訪問者が基準を満たしているかどうかを判断します。 その人が適格であれば、そのアクティビティに参加し、その人に合わせて設計されたエクスペリエンスを確認します。 単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
 
 詳しくは、[エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)を参照してください。
 
@@ -258,7 +258,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 
   [!DNL Adobe]は、検索エンジンのガイドラインに完全に準拠するためのソリューションを積極的に探しています。 テスト用に個別のURLを必要とするクライアントの場合、[!DNL Adobe]は、規範的なタグを正しく実装することで、関連するリスクが軽減されると考えています。
 
-* **必要な期間のみ実験を実行する**: [!DNL Adobe]は、統計的有意性に到達するために必要な時間として「必要な期間」を定義します。 [!DNL Target]では、テストがこのポイントに達したタイミングを判断するためのベストプラクティスと[!DNL Adobe Target] [ サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)が提供されます。 [!DNL Adobe]は、勝つテストのハードコードされた実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
+* **必要な期間のみ実験を実行する**: [!DNL Adobe]は、統計的有意性に到達するために必要な時間として「必要な期間」を定義します。 [!DNL Target]では、テストがこのポイントに達したタイミングを判断するためのベストプラクティスと[!DNL Adobe Target] [&#x200B; サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)が提供されます。 [!DNL Adobe]は、勝つテストのハードコードされた実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
 
   [!DNL Target]を使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。 勝者テストが常に100%のユーザーに対して公開されている場合、このアプローチは、勝者テストをハードコーディングしながら一時的に使用できます。
 
@@ -291,7 +291,7 @@ Google は例として、「ユーザーに表示される組み合わせに関�
 * 訪問者プロファイルの作成または取得
 * プロファイル属性のログ記録またはプロファイルスクリプトの実行
 * [!DNL Adobe Audience Manager]（AAM）セグメントの検索（該当する場合）
-* [!UICONTROL Recommendations]、[!UICONTROL 自動ターゲット ]、[!UICONTROL Automated Personalization]、[!UICONTROL 自動割り当て] アクティビティのパーソナライズされたコンテンツのモデリングまたは配信にボットトラフィックを使用する
+* [!UICONTROL Recommendations]、[!UICONTROL 自動ターゲット &#x200B;]、[!UICONTROL Automated Personalization]、[!UICONTROL 自動割り当て] アクティビティのパーソナライズされたコンテンツのモデリングまたは配信にボットトラフィックを使用する
 * レポート用のアクティビティ訪問の記録
 * [!DNL Adobe Experience Cloud] プラットフォームに送信されたログデータ
 

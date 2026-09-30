@@ -20,7 +20,7 @@ FlagsはAdobe Experience Platform上に構築されています。 機能フラ�
 
 フラグコンソールの上部ナビゲーションバーにあるサンドボックススイッチャーを使用して、機能フラグを作成または変更する前に正しいサンドボックスを選択します。
 
-![ フラグコンソールのサンドボックススイッチャー](assets/sandbox-selection.png)
+![&#x200B; フラグコンソールのサンドボックススイッチャー](assets/sandbox-selection.png)
 
 ## 詳細については、 {#see-also}
 

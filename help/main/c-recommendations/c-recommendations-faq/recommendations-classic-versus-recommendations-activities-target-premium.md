@@ -51,16 +51,16 @@ ht-degree: 81%
 
 ## オファーとしてのレコメンデーション
 
-[!UICONTROL A/B テスト ] （[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット ]を含む）および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができます。
+[!UICONTROL A/B テスト &#x200B;] （[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット &#x200B;]を含む）および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
 * [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
-* [!UICONTROL 自動ターゲット ]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
+* [!UICONTROL 自動ターゲット &#x200B;]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト ]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
+開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
 
 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
@@ -79,7 +79,7 @@ ht-degree: 81%
 [!DNL Recommendations] のワークフローはシンプルになりました。 複雑なフォームに入力する代わりに、次のような視覚的なワークフローを実行します。
 
 1. 条件を選択します。
-1. 事前設定済みの[ デザイン ](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を選択します。
+1. 事前設定済みの[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を選択します。
 1. レコメンデーションの結果をプレビューします。
 
 ## プレビュー表示 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

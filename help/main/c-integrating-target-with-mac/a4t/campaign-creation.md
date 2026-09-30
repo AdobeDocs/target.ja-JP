@@ -39,11 +39,11 @@ ht-degree: 30%
    >
    >[!DNL Analytics]がレポートソースとして使用されている場合、アクティビティ名に「%」文字を含めることはできません。
    >
-   >A4T レポートを使用している別々の[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)の2つのアクティビティに対して、同じアクティビティ名を使用しないでください。
+   >A4T レポートを使用している別々の[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)の2つのアクティビティに対して、同じアクティビティ名を使用しないでください。
 
 1. アクティビティのタイプを選択して、アクティビティの設定を開始します。
 
-   [!UICONTROL 自動配分]または[!UICONTROL 自動ターゲット ] アクティビティを作成する場合は、[自動配分と自動ターゲット アクティビティのA4T サポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
+   [!UICONTROL 自動配分]または[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成する場合は、[自動配分と自動ターゲット アクティビティのA4T サポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
 
 1. アクティビティ作成フローの&#x200B;**[!UICONTROL Settings]**&#x200B;部分にアクセスしたら、**[!UICONTROL Adobe Analytics]**&#x200B;を選択し、会社を指定します。
 1. レポートスイートを選択します。
@@ -60,7 +60,7 @@ ht-degree: 30%
 
      [!DNL Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 期待するレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。
 
-   リストに1つ以上のレポートスイートが見つからない場合は、[ カスタマーケアにお問い合わせください](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+   リストに1つ以上のレポートスイートが見つからない場合は、[&#x200B; カスタマーケアにお問い合わせください](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
 1. トラッキングサーバーを指定します。
 

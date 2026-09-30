@@ -1,7 +1,7 @@
 ---
 keywords: mvt、多変量分析テスト、場所の貢献度レポート
 description: 各要素と各オファーのパフォーマンスを示すAdobe [!DNL Target] [!UICONTROL Experience Targeting] アクティビティの場所の貢献度レポートの使用方法について説明します。
-title: '[!UICONTROL 多変量テスト ]のアクティビティに[!UICONTROL 場所の貢献度] レポートを使用するにはどうすればよいですか？'
+title: '[!UICONTROL 多変量テスト &#x200B;]のアクティビティに[!UICONTROL 場所の貢献度] レポートを使用するにはどうすればよいですか？'
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 TQID: 'https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc'
@@ -33,7 +33,7 @@ ht-degree: 35%
 >
 >* オーディエンスと指標のピッカーは、[!DNL Analytics]がレポートソース（A4T）として使用されている場合にのみ使用できます。
 >
->* アクティビティが[!UICONTROL Analyticsをレポートソース ] （A4T）として使用するように設定されている場合でも、[!UICONTROL 場所の貢献度] レポートのデータが[!DNL Target] バックエンドから取得されます。
+>* アクティビティが[!UICONTROL Analyticsをレポートソース &#x200B;] （A4T）として使用するように設定されている場合でも、[!UICONTROL 場所の貢献度] レポートのデータが[!DNL Target] バックエンドから取得されます。
 >
 >* [!DNL Target] アカウントレベルで別のデフォルト環境が定義されている場合でも、[!UICONTROL 場所の貢献度] レポートのデータが「実稼動」環境に取得されます。
 

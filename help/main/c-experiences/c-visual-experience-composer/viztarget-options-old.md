@@ -31,13 +31,13 @@ ht-degree: 55%
 
 以下のオプションがあります。
 
-### [!UICONTROL  テキスト/HTML] {#edit-text-html}
+### [!UICONTROL &#x200B; テキスト/HTML] {#edit-text-html}
 
 要素の HTML コード（テキスト領域、ボタン、リンクのテキストなど）を変更します。
 
 HTML コードだけでなく、カスタム JavaScript を編集および挿入することもできます。
 
-[!UICONTROL A/B]および[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティのテキストとHTMLを編集する際に、いくつかのリッチテキストの書式設定オプションを利用できます。 フォントの選択、フォントスタイルの選択、テキストの整列方法の変更およびその他の標準的なテキスト書式オプションの設定が可能です。 HTML を変更する際に、HTML のコードビューとリッチ編集ビューを切り替えることができます。
+[!UICONTROL A/B]および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティのテキストとHTMLを編集する際に、いくつかのリッチテキストの書式設定オプションを利用できます。 フォントの選択、フォントスタイルの選択、テキストの整列方法の変更およびその他の標準的なテキスト書式オプションの設定が可能です。 HTML を変更する際に、HTML のコードビューとリッチ編集ビューを切り替えることができます。
 
 次の HTML5 タグをネストできます。
 
@@ -54,17 +54,17 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 **注意：**&#x200B;背景画像が設定されている要素に対しては、このオプションは利用できません。
 
-### [!UICONTROL  スタイル ] {#styles}
+### [!UICONTROL &#x200B; スタイル &#x200B;] {#styles}
 
-[!UICONTROL  スタイル ] パネルを使用して、選択した要素の既存のスタイルの値を表示または編集します。 その他のスタイルを追加することもできます。
+[!UICONTROL &#x200B; スタイル &#x200B;] パネルを使用して、選択した要素の既存のスタイルの値を表示または編集します。 その他のスタイルを追加することもできます。
 
-[!UICONTROL  スタイル ] パネルにアクセスするには、VEC内からページ要素をクリックし、**[!UICONTROL 編集]** > **[!UICONTROL スタイル]**&#x200B;をクリックします。
+[!UICONTROL &#x200B; スタイル &#x200B;] パネルにアクセスするには、VEC内からページ要素をクリックし、**[!UICONTROL 編集]** > **[!UICONTROL スタイル]**&#x200B;をクリックします。
 
-VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 このパネルには、編集または選択した要素に追加できるスタイルのリストが含まれています。 リアルタイム CSS エディターを使用すると、カスケーディングスタイルシート（CSS）を使用している場合や開発者からコードを受け取った場合に、変更を表示したりスタイルを追加したりできます。
+VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示されます。 このパネルには、編集または選択した要素に追加できるスタイルのリストが含まれています。 リアルタイム CSS エディターを使用すると、カスケーディングスタイルシート（CSS）を使用している場合や開発者からコードを受け取った場合に、変更を表示したりスタイルを追加したりできます。
 
 ![スタイルパネル](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-異なるスタイルを適用する場合は、セクションを変更した後、[!UICONTROL  スタイル ] パネルの右上隅に表示される[!UICONTROL 復帰] アイコンをクリックして、いつでも変更を元に戻すことができます。 [!UICONTROL 復帰] アイコンをクリックすると、現在のセクションのパネルのすべての変更が元に戻ります。
+異なるスタイルを適用する場合は、セクションを変更した後、[!UICONTROL &#x200B; スタイル &#x200B;] パネルの右上隅に表示される[!UICONTROL 復帰] アイコンをクリックして、いつでも変更を元に戻すことができます。 [!UICONTROL 復帰] アイコンをクリックすると、現在のセクションのパネルのすべての変更が元に戻ります。
 
 後述のように、各セクションを展開して、スタイルを編集または追加します。 変更を保存するには、パネルの上部にある[!UICONTROL 戻る] アイコンをクリックしてパネルのメイン表示に戻り、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
@@ -96,13 +96,13 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
 
   次のタイポグラフィスタイルを編集できます。
 
-  * [!UICONTROL  フォントサイズ ]
-  * [!UICONTROL  フォントの重み]
-  * [!UICONTROL  フォントスタイル ]
-  * [!UICONTROL  カラー] （カラーコードを指定するか、カラーピッカーを使用）
+  * [!UICONTROL &#x200B; フォントサイズ &#x200B;]
+  * [!UICONTROL &#x200B; フォントの重み]
+  * [!UICONTROL &#x200B; フォントスタイル &#x200B;]
+  * [!UICONTROL &#x200B; カラー] （カラーコードを指定するか、カラーピッカーを使用）
   * [!UICONTROL 単語の間隔]
   * [!UICONTROL 行の高さ]
-  * [!UICONTROL  テキストの整列]
+  * [!UICONTROL &#x200B; テキストの整列]
 
 * **[!UICONTROL マージン]**
 
@@ -115,7 +115,7 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
 
   余白は正と負の値をサポートします。
 
-  Targetは、rem、pc、emなどの他のサイズ単位もサポートしています。 これらのユニットについて詳しくは、[Web スタイルシート CSSのヒントとテクニック ](https://www.w3.org/Style/Examples/007/units.en.html)を参照してください。
+  Targetは、rem、pc、emなどの他のサイズ単位もサポートしています。 これらのユニットについて詳しくは、[Web スタイルシート CSSのヒントとテクニック &#x200B;](https://www.w3.org/Style/Examples/007/units.en.html)を参照してください。
 
 * **[!UICONTROL パディング]**
 
@@ -133,7 +133,7 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
 
   境界線ごとに（上、右、下、左）、次のスタイルを編集できます。
 
-  * [!UICONTROL 境界線スタイル ] （なし、非表示、点線、破線、実線、ダブル）
+  * [!UICONTROL 境界線スタイル &#x200B;] （なし、非表示、点線、破線、実線、ダブル）
   * [!UICONTROL 境界線の色] （カラーコードを指定するか、カラーピッカーを使用）
   * [!UICONTROL 境界線の幅] （スライダーをドラッグして境界線の幅を選択するか、幅をピクセル単位で指定します）
 
@@ -150,7 +150,7 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
   * [!UICONTROL 静的]
   * [!UICONTROL 相対]
   * [!UICONTROL 絶対]
-  * [!UICONTROL  スティッキー]
+  * [!UICONTROL &#x200B; スティッキー]
   * [!UICONTROL 修正済み]
 
   各位置のドロップダウンアイコンをクリックして、次のオプションから選択します。
@@ -175,14 +175,14 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
 
   各フィルターオプションのスライダーをドラッグするか、目的の割合（％）を指定します。
 
-  * [!UICONTROL  セピア ]
-  * [!UICONTROL  コントラスト ]
+  * [!UICONTROL &#x200B; セピア &#x200B;]
+  * [!UICONTROL &#x200B; コントラスト &#x200B;]
   * [!UICONTROL 明るさ]
   * [!UICONTROL GreyScale]
   * [!UICONTROL ぼかし]
   * [!UICONTROL 不透明度]
   * [!UICONTROL 反転]
-    *[!UICONTROL  Hue-rotate]
+    *[!UICONTROL &#x200B; Hue-rotate]
   * [!UICONTROL 彩度]
 
 * **[!UICONTROL CSS エディター]**
@@ -193,9 +193,9 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
 
   ![変更を反映した CSS エディター](/help/main/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-  前の図の[!UICONTROL  タイポグラフィ ]、[!UICONTROL  ボーダー]、[!UICONTROL  サイズ ]のオプションの横にある青い点に注意してください。 これらの点は、これらのセクションを変更したことを示します。 これらのセクションパネルを開くと、変更した特定のオプションの横に青いドットが表示されます。
+  前の図の[!UICONTROL &#x200B; タイポグラフィ &#x200B;]、[!UICONTROL &#x200B; ボーダー]、[!UICONTROL &#x200B; サイズ &#x200B;]のオプションの横にある青い点に注意してください。 これらの点は、これらのセクションを変更したことを示します。 これらのセクションパネルを開くと、変更した特定のオプションの横に青いドットが表示されます。
 
-  希望するスタイルが[!UICONTROL  スタイル ]でデフォルトで使用できない場合は、独自のコードを入力できます。
+  希望するスタイルが[!UICONTROL &#x200B; スタイル &#x200B;]でデフォルトで使用できない場合は、独自のコードを入力できます。
 
   CSS エディターには、現在のセッションの詳細のみが表示されます。 変更を保存してエディターを再度開いた場合、同じ要素を再度選択しても、前の変更に関する詳細はエディターには表示されません。
 
@@ -203,13 +203,13 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
   >
   >CSS エディターを使用して背景画像を適用できますが、ちらつきが生じる場合があります。 デプロイする前に変更をテストしてください。
 
-### [!UICONTROL CSS クラス ]
+### [!UICONTROL CSS クラス &#x200B;]
 
 要素で使用する事前定義 CSS クラスを指定します。 複数の要素が選択されている場合は、複数の CSS クラスをスペースで区切ります。
 
-[!UICONTROL A/B]、[!UICONTROL Automated Personalization]、[!UICONTROL 多変量テスト ]の各アクティビティで利用できます。
+[!UICONTROL A/B]、[!UICONTROL Automated Personalization]、[!UICONTROL 多変量テスト &#x200B;]の各アクティビティで利用できます。
 
-### [!UICONTROL  リンク ]
+### [!UICONTROL &#x200B; リンク &#x200B;]
 
 リンクの URL を変更します。
 
@@ -219,15 +219,15 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
 
 以下のオプションがあります。
 
-### [!UICONTROL  オファーの決定]
+### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された[ オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
-**注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト ]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL  エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
+**注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
-詳しくは、[ オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
+詳しくは、[&#x200B; オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
 
-### [!UICONTROL 画像]、[!UICONTROL HTML]、[!UICONTROL  テキスト ]
+### [!UICONTROL 画像]、[!UICONTROL HTML]、[!UICONTROL &#x200B; テキスト &#x200B;]
 
 既存のコンテンツの変更に加えて、ページに任意の種類の要素を追加します。 テキスト、コード、リストなどを追加して、テストにまったく異なるエクスペリエンスを作成できます。
 
@@ -243,7 +243,7 @@ VECの右側に[!UICONTROL  スタイル ] パネルが表示されます。 こ
 
 A/B テスト（自動配分および自動ターゲットなど）およびエクスペリエンスのターゲット設定（XT）アクティビティ内にレコメンデーションを含めます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
-### [!UICONTROL  エクスペリエンスフラグメント ]
+### [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]
 
 [!DNL Adobe Experience Manager]（AEM）[!DNL Target]で作成したエクスペリエンスフラグメントをアクティビティに挿入して、最適化やパーソナライゼーションを支援します。 詳細については、「[AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)」をご覧ください。
 
@@ -251,15 +251,15 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 以下のオプションがあります。
 
-### [!UICONTROL  オファーの決定]
+### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された[ オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
-**注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト ]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL  エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
+**注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
-詳しくは、[ オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
+詳しくは、[&#x200B; オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
 
-### [!UICONTROL 画像]、[!UICONTROL HTML]、[!UICONTROL  テキスト ]
+### [!UICONTROL 画像]、[!UICONTROL HTML]、[!UICONTROL &#x200B; テキスト &#x200B;]
 
 既存のコンテンツの変更に加えて、ページに任意の種類の要素を追加します。 テキスト、コード、リストなどを追加して、テストにまったく異なるエクスペリエンスを作成できます。
 
@@ -275,21 +275,21 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 A/B テスト（自動配分および自動ターゲットなど）およびエクスペリエンスのターゲット設定（XT）アクティビティ内にレコメンデーションを含めます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
-### [!UICONTROL  エクスペリエンスフラグメント ]
+### [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]
 
 [!DNL Adobe Experience Manager]（AEM）[!DNL Target]で作成したエクスペリエンスフラグメントをアクティビティに挿入して、最適化やパーソナライゼーションを支援します。 詳細については、「[AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)」をご覧ください。
 
-## [!UICONTROL  コンテンツを置換]
+## [!UICONTROL &#x200B; コンテンツを置換]
 
 以下のオプションがあります。
 
-### [!UICONTROL  オファーの決定]
+### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された[ オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
-**注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト ]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL  エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
+**注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
-詳しくは、[ オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
+詳しくは、[&#x200B; オファー決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)を参照してください。
 
 ### [!UICONTROL Image]
 
@@ -311,7 +311,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL HTML オファー]
 
-[!UICONTROL  コンテンツライブラリ ]から別のオファーを選択します。
+[!UICONTROL &#x200B; コンテンツライブラリ &#x200B;]から別のオファーを選択します。
 
 **注意：** HTML オファーは [!DNL Target] サーバーに格納されます。
 
@@ -321,11 +321,11 @@ HTML オファーは最大256 KBまで可能です。
 
 A/B テスト（自動配分および自動ターゲットなど）およびエクスペリエンスのターゲット設定（XT）アクティビティ内にレコメンデーションを含めます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
-### [!UICONTROL  エクスペリエンスフラグメント ]
+### [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]
 
 [!DNL Adobe Experience Manager]（AEM）[!DNL Target]で作成したエクスペリエンスフラグメントをアクティビティに挿入して、最適化やパーソナライゼーションを支援します。 詳細については、「[AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)」をご覧ください。
 
-## [!UICONTROL  レイアウト ]
+## [!UICONTROL &#x200B; レイアウト &#x200B;]
 
 以下のオプションがあります。
 
@@ -335,11 +335,11 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 **メモ**：再配置されたアイテムでは、クリック トラッキングは機能しません。
 
-現在、[!UICONTROL Rearrange]や[!UICONTROL Move]などの特定のVEC アクションでは、ソースと宛先の親エレメントの兄弟エレメントが完全に読み込まれていると仮定しています。 親DOM要素（ソースまたは宛先）の下で遅延読み込みが発生した場合、これらのVEC アクションは一貫性のない動作を引き起こす可能性があります。 私たちは、遅延読み込みDOM要素でVEC アクションを動作させるためのより信頼性の高いアプローチに取り組んでいます。 一時的な回避策として、これらのシナリオで[!UICONTROL  カスタムコード ]を使用して、エクスペリエンスをレンダリングできます。
+現在、[!UICONTROL Rearrange]や[!UICONTROL Move]などの特定のVEC アクションでは、ソースと宛先の親エレメントの兄弟エレメントが完全に読み込まれていると仮定しています。 親DOM要素（ソースまたは宛先）の下で遅延読み込みが発生した場合、これらのVEC アクションは一貫性のない動作を引き起こす可能性があります。 私たちは、遅延読み込みDOM要素でVEC アクションを動作させるためのより信頼性の高いアプローチに取り組んでいます。 一時的な回避策として、これらのシナリオで[!UICONTROL &#x200B; カスタムコード &#x200B;]を使用して、エクスペリエンスをレンダリングできます。
 
-### [!UICONTROL  サイズ変更]
+### [!UICONTROL &#x200B; サイズ変更]
 
-ページの要素のサイズを変更します。 [!UICONTROL  サイズ変更]を選択すると、要素の右下隅にハンドルが表示され、そのコーナーをドラッグしてサイズを変更できます。 Shift キーを押しながら操作すると、縦横比が維持されます。
+ページの要素のサイズを変更します。 [!UICONTROL &#x200B; サイズ変更]を選択すると、要素の右下隅にハンドルが表示され、そのコーナーをドラッグしてサイズを変更できます。 Shift キーを押しながら操作すると、縦横比が維持されます。
 
 **注意：**&#x200B;インライン要素はサイズ変更できません。
 
@@ -361,11 +361,11 @@ DOM要素の遅延読み込みによる[!UICONTROL Move]および[!UICONTROL Rea
 
 **注意：**「従来」の mbox（Target Classic キャンペーンで作成した mbox）内の項目は、このオプションを使用して削除することができません。
 
-## [!UICONTROL  セクションを展開]
+## [!UICONTROL &#x200B; セクションを展開]
 
 現在選択している要素に加えて、親要素を選択します。 親要素を選択しているときは、その要素のすべての子が自動的に選択されます。 選択の拡張は繰り返し実行できます。
 
-## [!UICONTROL  リンクに移動]
+## [!UICONTROL &#x200B; リンクに移動]
 
 リンク先を開きます。
 
@@ -379,11 +379,11 @@ DOM要素の遅延読み込みによる[!UICONTROL Move]および[!UICONTROL Rea
 
 ## カスタム要素のサポート {#custom}
 
-VECでは、[Web コンポーネント ](https://developer.mozilla.org/ja/docs/Web/Web_Components)をサポートしており、カスタム要素とカスタム要素の内部の要素でパーソナライズされたエクスペリエンスとオファーを作成およびテストできます。 この機能は、すべての[!DNL Target] アクティビティタイプに対してVECで使用できます。
+VECでは、[Web コンポーネント &#x200B;](https://developer.mozilla.org/ja/docs/Web/Web_Components)をサポートしており、カスタム要素とカスタム要素の内部の要素でパーソナライズされたエクスペリエンスとオファーを作成およびテストできます。 この機能は、すべての[!DNL Target] アクティビティタイプに対してVECで使用できます。
 
 >[!NOTE]
 >
->カスタム要素に対するVEC サポートは、[at.js バージョン ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} 2.7.0 （またはそれ以降） {target=_blank}でサポートされています。 web サイトに必要なバージョンがデプロイされていることを確認します。 [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用している場合は、必要なバージョンのat.jsもデプロイされている必要があります。 上記のVEC オプションは表示されず、サポートされていないバージョンのat.jsで使用できます。
+>カスタム要素に対するVEC サポートは、[at.js バージョン &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} 2.7.0 （またはそれ以降） {target=_blank}でサポートされています。 web サイトに必要なバージョンがデプロイされていることを確認します。 [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用している場合は、必要なバージョンのat.jsもデプロイされている必要があります。 上記のVEC オプションは表示されず、サポートされていないバージョンのat.jsで使用できます。
 >
 >カスタム要素に対するVEC サポートは、現在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}ではサポートされていません。
 
@@ -392,15 +392,15 @@ VECでは、[Web コンポーネント ](https://developer.mozilla.org/ja/docs/W
 次のアクションは、カスタム要素では使用できません。
 
 * [!UICONTROL Edit]
-  * [!UICONTROL  テキスト/HTML]
-  * [!UICONTROL  リンク ]
+  * [!UICONTROL &#x200B; テキスト/HTML]
+  * [!UICONTROL &#x200B; リンク &#x200B;]
   * [!UICONTROL Sourceを編集]
 
-* [!UICONTROL  コンテンツを置換]
+* [!UICONTROL &#x200B; コンテンツを置換]
 
 次のアクションは、カスタム要素の中では使用できません。
 
-* [!UICONTROL  レイアウト ]
+* [!UICONTROL &#x200B; レイアウト &#x200B;]
   * [!UICONTROL 並べ替え]
 
 ## DOM パスを使用したエレメントの移動 {#dom-path}

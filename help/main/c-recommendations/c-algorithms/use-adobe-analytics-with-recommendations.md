@@ -35,11 +35,11 @@ ht-degree: 80%
 
 [!DNL Analytics] を行動データソースとして使用すると、ユーザーの行動に関する豊富な情報のソースとして機能できます。 この情報には、[!DNL Analytics] とのみ共有されるサードパーティのソースやフィードからのデータが含まれる場合があります。
 
-[!DNL Recommendations]で[条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)していますが、使用するデータソースを選択できるラジオボタンが2つあります：[!UICONTROL mboxes]または[!UICONTROL Analytics]。 条件を作成するには、[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL 条件を作成] > [!UICONTROL 条件を作成]をクリックします。 詳しくは、 [条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
+[!DNL Recommendations]で[条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)していますが、使用するデータソースを選択できるラジオボタンが2つあります：[!UICONTROL mboxes]または[!UICONTROL Analytics]。 条件を作成するには、[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL 条件を作成] > [!UICONTROL 条件を作成]をクリックします。 詳しくは、 [条件の作成 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
 
 >[!NOTE]
 >
->これら 2 つのボタンがアカウントに表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
+>これら 2 つのボタンがアカウントに表示されない場合は、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
 
 ## [!DNL Target]の[!DNL Analytics] データの使用例
 

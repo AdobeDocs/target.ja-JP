@@ -1,7 +1,7 @@
 ---
 keywords: 多変量分析テスト;mvt;mvt プラン;多変量分析テストプラン
-description: '[!DNL Adobe Target]で[!UICONTROL 多変量テスト ]を計画して、テストを成功させる方法を説明します。'
-title: '[!UICONTROL 多変量テスト ]を計画するにはどうすればよいですか？'
+description: '[!DNL Adobe Target]で[!UICONTROL 多変量テスト &#x200B;]を計画して、テストを成功させる方法を説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;]を計画するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 TQID: 'https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA'
@@ -21,7 +21,7 @@ ht-degree: 62%
 ---
 # [!UICONTROL 多変量テストの計画]
 
-[!DNL Adobe Target]の[!UICONTROL 多変量テスト ] （MVT）アクティビティでは、テストを成功させるためにいくつかの計画が必要です。
+[!DNL Adobe Target]の[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティでは、テストを成功させるためにいくつかの計画が必要です。
 
 MVTでは、有益な結果を生成するのに十分なトラフィックが必要です。 テストを設定する前に、インプレッションおよびコンバージョンの数を含む、通常発生するトラフィック量を把握しておく必要があります。 このような情報があれば、サイトのトラフィックを上回る要件を満たすテストを設計する可能性を減らすことができます。
 
@@ -33,7 +33,7 @@ MVTでは、有益な結果を生成するのに十分なトラフィックが�
 
 最後に、テストを作成する前に、テストするコンテンツを作成する必要があります。 各オファーのコンテンツの差異を把握し、テストで使用する画像、テキストおよび HTML オファーを作成します。
 
-## トレーニングビデオ：多変量テストの作成（9:25） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：多変量テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] 3段階のガイド付きワークフローを使用して、多変量テストを計画および作成する方法を説明します。
 

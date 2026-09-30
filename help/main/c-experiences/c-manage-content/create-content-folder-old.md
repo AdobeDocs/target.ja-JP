@@ -28,7 +28,7 @@ Adobe Target オファーライブラリでフォルダーを作成して、コ�
 
 1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL コードオファー]**」をクリックします。
 
-   ![ コードオファータブ ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![&#x200B; コードオファータブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
 1. **[!UICONTROL 作成]** / **[!UICONTROL フォルダー]**&#x200B;をクリックします。
 
@@ -36,13 +36,13 @@ Adobe Target オファーライブラリでフォルダーを作成して、コ�
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-オファーとフォルダーで実行できるタスクについて詳しくは、[ アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
+オファーとフォルダーで実行できるタスクについて詳しくは、[&#x200B; アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
 
 ## 画像オファーフォルダー
 
 1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL 画像オファー]**」をクリックします。
 
-   ![画像オファータブ ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![画像オファータブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. **[!UICONTROL 作成]** / **[!UICONTROL フォルダー]**&#x200B;をクリックします。
 1. フォルダーの説明的な&#x200B;**[!UICONTROL タイトル]**&#x200B;を指定します。
@@ -58,8 +58,8 @@ Adobe Target オファーライブラリでフォルダーを作成して、コ�
 
 1. （オプション）「**[!UICONTROL リスト表示で並べ替え可能]**」チェックボックスを選択します。
 
-   ユーザーと他のユーザーが、[!UICONTROL  リスト表示]でのフォルダーの位置を並べ替えることができるように指定します。
+   ユーザーと他のユーザーが、[!UICONTROL &#x200B; リスト表示]でのフォルダーの位置を並べ替えることができるように指定します。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-オファーとフォルダーで実行できるタスクについて詳しくは、[ アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。
+オファーとフォルダーで実行できるタスクについて詳しくは、[&#x200B; アセットライブラリでのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md)を参照してください。

@@ -138,7 +138,7 @@ mbox パラメーターの配信APIを使用して、エスケープされたJSO
   }
 ```
 
-配信および保存エンティティ APIの使用について詳しくは、[Adobe Recommendations API ドキュメント ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+配信および保存エンティティ APIの使用について詳しくは、[Adobe Recommendations API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 ## 複数値の属性を持つ演算子の使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

@@ -56,7 +56,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->A4T の使用を開始する前に、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。 プロビジョニングをリクエストするには、[Marketing Cloud統合プロビジョニングフォーム ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}を使用します。
+>A4T の使用を開始する前に、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。 プロビジョニングをリクエストするには、[Marketing Cloud統合プロビジョニングフォーム &#x200B;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}を使用します。
 
 この A4T 統合では、A4T でリダイレクトオファーを使用するかどうかに応じて、次のバージョン以降のライブラリを実装する必要があります。
 
@@ -128,7 +128,7 @@ at.js、[!DNL Experience Cloud Visitor ID Service] および appMeasurement.js �
 
 ## 共有オーディエンス
 
-[Marketing Cloud統合プロビジョニングフォーム ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}に入力する際は、「[!UICONTROL  プロビジョニングを要求している機能]?」の下にある「[!UICONTROL Shared Audiences]」オプションに関する次の重要な情報に注意してください。
+[Marketing Cloud統合プロビジョニングフォーム &#x200B;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}に入力する際は、「[!UICONTROL &#x200B; プロビジョニングを要求している機能]?」の下にある「[!UICONTROL Shared Audiences]」オプションに関する次の重要な情報に注意してください。
 
 ![リクエストフォーム](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

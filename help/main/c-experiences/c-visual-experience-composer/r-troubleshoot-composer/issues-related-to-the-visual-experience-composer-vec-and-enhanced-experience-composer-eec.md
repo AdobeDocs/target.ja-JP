@@ -135,7 +135,7 @@ VEC内でリソースが読み込まれない原因となるヘッダーに対�
 ## ページ内の 1 つの要素を変更すると、複数の要素が変更されます。 （VEC と EEC） {#section_309188ACF34942989BE473F63C5710AF}
 
 +++詳細
-同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。 この方法は、HTMLの標準的なベストプラクティスです。 詳しくは、[ ページ変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。 この方法は、HTMLの標準的なベストプラクティスです。 詳しくは、[&#x200B; ページ変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 +++
 
@@ -157,10 +157,10 @@ VEC内でリソースが読み込まれない原因となるヘッダーに対�
 
 +++
 
-## [!UICONTROL  テキストを編集]/[!UICONTROL HTMLを編集]または[!UICONTROL  テキストを変更]/[!DNL Change HTML]した太字と斜体のテキストスタイルがページに表示されません。 これらのスタイル変更を適用すると、テキストが消えることがあります。 （VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
+## [!UICONTROL &#x200B; テキストを編集]/[!UICONTROL HTMLを編集]または[!UICONTROL &#x200B; テキストを変更]/[!DNL Change HTML]した太字と斜体のテキストスタイルがページに表示されません。 これらのスタイル変更を適用すると、テキストが消えることがあります。 （VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++詳細
-VECで&#x200B;**[!UICONTROL テキストを編集]/[!UICONTROL HTMLを編集]**&#x200B;して[!UICONTROL A/B テスト ]または[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティを行ったり、**[!UICONTROL テキストを変更]/[!UICONTROL HTMLを変更]**&#x200B;して[!UICONTROL Automated Personalization]または[!UICONTROL 多変量テスト ] アクティビティを行ってテキストを太字または斜体にしたりすると、そのスタイルがページ VEC ページに適用表示されないされる場合場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法がweb サイトのマークアップを妨げる可能性があるためです。
+VECで&#x200B;**[!UICONTROL テキストを編集]/[!UICONTROL HTMLを編集]**&#x200B;して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティを行ったり、**[!UICONTROL テキストを変更]/[!UICONTROL HTMLを変更]**&#x200B;して[!UICONTROL Automated Personalization]または[!UICONTROL 多変量テスト &#x200B;] アクティビティを行ってテキストを太字または斜体にしたりすると、そのスタイルがページ VEC ページに適用表示されないされる場合場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法がweb サイトのマークアップを妨げる可能性があるためです。
 
 この問題が発生した場合、次の手順に従ってください。
 

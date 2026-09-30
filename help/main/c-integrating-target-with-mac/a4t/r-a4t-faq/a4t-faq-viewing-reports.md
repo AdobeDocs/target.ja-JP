@@ -37,7 +37,7 @@ ht-degree: 71%
 +++回答
 [!DNL Analysis Workspace] を使用して、[!DNL Target] アクティビティとエクスペリエンスを分析できます。 この [Analytics for Target パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja)では、最大 3 つの成功指標に対する上昇率と信頼性を確認できます。 また、テーブルとビジュアライゼーションを使用して、より深く掘り下げることもできます。
 
-詳細な情報と例については、[!UICONTROL Adobe Experience League]が提供する[AnalyticsとTarget：分析に関するベストプラクティスのチュートリアル ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)を開いてください。
+詳細な情報と例については、[!UICONTROL Adobe Experience League]が提供する[AnalyticsとTarget：分析に関するベストプラクティスのチュートリアル &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)を開いてください。
 
 +++
 
@@ -69,7 +69,7 @@ ht-degree: 71%
 ## [!UICONTROL 目標指標]の設定中に[!UICONTROL 詳細設定]にアクセスできないのはなぜですか？
 
 +++回答
-レポートソース（A4T）として[!DNL Analytics]を使用するアクティビティの場合、目標指標は「[!UICONTROL  アクティビティの増分数とユーザーをアクティビティ ]」と「[!UICONTROL すべてのインプレッション ]」の設定を使用します。 これらの設定は、*変更できません*。
+レポートソース（A4T）として[!DNL Analytics]を使用するアクティビティの場合、目標指標は「[!UICONTROL &#x200B; アクティビティの増分数とユーザーをアクティビティ &#x200B;]」と「[!UICONTROL すべてのインプレッション &#x200B;]」の設定を使用します。 これらの設定は、*変更できません*。
 
 詳しくは、「目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？」 （[指標の定義 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)）を参照してください。
 
@@ -89,7 +89,7 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 次の点に留意してください。
 
 * 上記の指標は、ユーザーがアクティビティの対象となり、[!DNL Target] からコンテンツが返されたときにトリガーされます。 したがって、必ずしもそのユーザーがオファーを見たかどうかはわかりません。 [!DNL Target] によってオファーが配信されていても、アクティビティエクスペリエンスが折りたたまれて、見えない場所にある場合、ユーザーがページを展開してスクロールしなければ、実際にはオファーは見られていないことになります。
-* 同じアクティビティ内で同じページに複数のmbox呼び出しがない限り、[!UICONTROL  アクティビティインプレッション ] （[!DNL Target]で測定）と[!UICONTROL  インスタンス ] （[!DNL Analytics]で測定）は等しくなります。 この場合、[!UICONTROL アクティビティのインプレッション]は複数回カウントされますが、[!UICONTROL インスタンス]は 1 回しかカウントされません。
+* 同じアクティビティ内で同じページに複数のmbox呼び出しがない限り、[!UICONTROL &#x200B; アクティビティインプレッション &#x200B;] （[!DNL Target]で測定）と[!UICONTROL &#x200B; インスタンス &#x200B;] （[!DNL Analytics]で測定）は等しくなります。 この場合、[!UICONTROL アクティビティのインプレッション]は複数回カウントされますが、[!UICONTROL インスタンス]は 1 回しかカウントされません。
 
 詳しくは、*Adobe Target チュートリアル*&#x200B;の [Analysis Workspace での自動ターゲットアクティビティに関する A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja)を参照してください。
 
@@ -100,7 +100,7 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 +++回答
 [!DNL Reports & Analytics] では「アクティビティのインプレッション」と「アクティビティのコンバージョン」に同じタッチのアトリビューションモデルが適用されますが、[!DNL Analysis Workspace] では生の指標が表示されます。生の指標では、[!DNL Target] ディメンションの持続性により水増しが生じる場合があります。
 
-[!DNL Analysis Workspace]の正確な[!UICONTROL  アクティビティインプレッション ]および[!UICONTROL  アクティビティコンバージョン ]指標を評価するには、両方の指標に[!UICONTROL 同じタッチ ]のアトリビューションモデルが適用されていることを確認してください。 モデルは、列設定ギアをクリックして[!UICONTROL  デフォルト以外のアトリビューションモデル ]を有効にし、[!UICONTROL 同一タッチ ]を選択することで適用できます。 アトリビューションについて詳しくは、*Analytics ツールガイド*&#x200B;の [Attribution IQ の概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=ja)を参照してください。
+[!DNL Analysis Workspace]の正確な[!UICONTROL &#x200B; アクティビティインプレッション &#x200B;]および[!UICONTROL &#x200B; アクティビティコンバージョン &#x200B;]指標を評価するには、両方の指標に[!UICONTROL 同じタッチ &#x200B;]のアトリビューションモデルが適用されていることを確認してください。 モデルは、列設定ギアをクリックして[!UICONTROL &#x200B; デフォルト以外のアトリビューションモデル &#x200B;]を有効にし、[!UICONTROL 同一タッチ &#x200B;]を選択することで適用できます。 アトリビューションについて詳しくは、*Analytics ツールガイド*&#x200B;の [Attribution IQ の概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=ja)を参照してください。
 
 +++
 
@@ -177,14 +177,14 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 
 +++
 
-## [!DNL Analytics]と[!UICONTROL Analytics for Adobe Target] （A4T）で、[!UICONTROL  ユニーク訪問者]指標の数値が異なる理由を説明します。 {#section_0C3B648AB54041F9A2AA839D51791883}
+## [!DNL Analytics]と[!UICONTROL Analytics for Adobe Target] （A4T）で、[!UICONTROL &#x200B; ユニーク訪問者]指標の数値が異なる理由を説明します。 {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++回答
 A/B テストを実行すると、[Welchのt-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} （信頼指標）を使用してテストの勝者を選択します。その場合、仮定の1つは、固定時間範囲が存在することです。 このテストは、固定されたサンプルサイズを確認しない限り、統計的に有効ではありません。
 
-[!UICONTROL  ユニーク訪問者]指標が[!DNL Analytics]と[!DNL Target]で異なるのは、実際のテストよりも短い期間を調べている場合のみです。 サンプルサイズに達していない場合、テストの信頼性は低下します。 詳しくは、[Evan Miller の web サイト](https://www.evanmiller.org/index.html)の [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)（英語）を参照してください。
+[!UICONTROL &#x200B; ユニーク訪問者]指標が[!DNL Analytics]と[!DNL Target]で異なるのは、実際のテストよりも短い期間を調べている場合のみです。 サンプルサイズに達していない場合、テストの信頼性は低下します。 詳しくは、[Evan Miller の web サイト](https://www.evanmiller.org/index.html)の [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)（英語）を参照してください。
 
-[!UICONTROL  ユニーク訪問者]指標には、指定した期間内にサイトを訪問したテストに公開されたユーザーの数が表示されます。 そうした人々は、テストを構成する一部であり、カウントされる必要があります。 1 週間の間に対象となった人数のみを表示したい場合、アクティビティのインプレッションがある訪問者のセグメントを作成して、レポートに適用できます。
+[!UICONTROL &#x200B; ユニーク訪問者]指標には、指定した期間内にサイトを訪問したテストに公開されたユーザーの数が表示されます。 そうした人々は、テストを構成する一部であり、カウントされる必要があります。 1 週間の間に対象となった人数のみを表示したい場合、アクティビティのインプレッションがある訪問者のセグメントを作成して、レポートに適用できます。
 
 [!DNL Target]変数がセッションに保持される時間を短縮できますが、コンバージョンイベントが同じセッション内で発生する可能性が低いテストでは問題があります。
 
@@ -204,7 +204,7 @@ A/B テストを実行すると、[Welchのt-test](https://en.wikipedia.org/wiki
 ## A4T は仮想レポートスイートをサポートしていますか? {#virtual}
 
 +++回答
-仮想レポートスイートは[!UICONTROL  レポートスイート ] リストに含まれていませんが、[!DNL Analytics]の仮想レポートスイートにリンクされているレポートスイートと共有されているA4T データは、そのデータにアクセスできます。 仮想レポートスイートから作成されたオーディエンスは、[!DNL Target] に戻って共有することはできません。
+仮想レポートスイートは[!UICONTROL &#x200B; レポートスイート &#x200B;] リストに含まれていませんが、[!DNL Analytics]の仮想レポートスイートにリンクされているレポートスイートと共有されているA4T データは、そのデータにアクセスできます。 仮想レポートスイートから作成されたオーディエンスは、[!DNL Target] に戻って共有することはできません。
 
 +++
 
@@ -217,7 +217,7 @@ A/B テストを実行すると、[Welchのt-test](https://en.wikipedia.org/wiki
 
 +++
 
-## A4Tを使用する[!UICONTROL 自動ターゲット ] アクティビティでは、[!DNL Analytics]での訪問とコンバージョンクレジットの割り当てはどのようにカウントされますか？
+## A4Tを使用する[!UICONTROL 自動ターゲット &#x200B;] アクティビティでは、[!DNL Analytics]での訪問とコンバージョンクレジットの割り当てはどのようにカウントされますか？
 
 +++回答
 訪問者が A4T アクティビティの対象となったり、コンテンツを表示したり、コンバージョンを行うと、[!DNL Target] はイベントデータを [!DNL Analytics] に送信します。 このイベントデータにより、[!DNL Analytics] は、ページ上でコンバージョンイベントや他のクリックストリームイベントが発生した要因が、どの [!DNL Target] アクティビティやエクスペリエンスにあるのかを判定することができます。
@@ -226,12 +226,12 @@ A/B テストを実行すると、[Welchのt-test](https://en.wikipedia.org/wiki
 
 * 通常のベストプラクティスは、アクティビティの開始日をレポート期間の起点とすることです。
 * レポート期間外にコンバージョンが発生した場合、そのコンバージョンは [!DNL Analytics] に表示されません。
-* [!UICONTROL 自動ターゲット ] アクティビティのトラフィックの「ターゲット設定」部分で、訪問者は、あるセッションから次のセッションまで、異なるエクスペリエンスが表示される場合があります。 例えば、訪問者のプロファイルやコンテキストが変更され、[!DNL Target] の機械学習アルゴリズムが、「新しいエクスペリエンスにしたほうが、その訪問者はコンバージョンする可能性が高い」と判断した場合などです。 訪問者がエクスペリエンスから次のエクスペリエンスに移動すると、訪問回数は、表示されるエクスペリエンスごとに増加します。 これは、通常の A/B テストのアクティビティとは異なる動作です。通常は、1 人の訪問者の複数の訪問をまたいでエクスペリエンスが追跡されます。
-* 1 人の訪問者の複数の訪問をまたいで複数のエクスペリエンスが表示される場合、コンバージョンは常に訪問者が最後に閲覧したエクスペリエンスに関連付けられます。 また、前述のように、訪問回数は、訪問者が閲覧したエクスペリエンスごとに増加します。 これにより、[!DNL Adobe Analytics]件のレポートで「[!UICONTROL  ターゲット設定]」ディメンションのエクスペリエンスを表示する際に、エクスペリエンスごとのコンバージョン率を人工的に低下させる可能性があります。
+* [!UICONTROL 自動ターゲット &#x200B;] アクティビティのトラフィックの「ターゲット設定」部分で、訪問者は、あるセッションから次のセッションまで、異なるエクスペリエンスが表示される場合があります。 例えば、訪問者のプロファイルやコンテキストが変更され、[!DNL Target] の機械学習アルゴリズムが、「新しいエクスペリエンスにしたほうが、その訪問者はコンバージョンする可能性が高い」と判断した場合などです。 訪問者がエクスペリエンスから次のエクスペリエンスに移動すると、訪問回数は、表示されるエクスペリエンスごとに増加します。 これは、通常の A/B テストのアクティビティとは異なる動作です。通常は、1 人の訪問者の複数の訪問をまたいでエクスペリエンスが追跡されます。
+* 1 人の訪問者の複数の訪問をまたいで複数のエクスペリエンスが表示される場合、コンバージョンは常に訪問者が最後に閲覧したエクスペリエンスに関連付けられます。 また、前述のように、訪問回数は、訪問者が閲覧したエクスペリエンスごとに増加します。 これにより、[!DNL Adobe Analytics]件のレポートで「[!UICONTROL &#x200B; ターゲット設定]」ディメンションのエクスペリエンスを表示する際に、エクスペリエンスごとのコンバージョン率を人工的に低下させる可能性があります。
 
 +++
 
-## Target] （A4T）に[!UICONTROL Analyticsを使用する場合、[!DNL Analysis Workspace]のアクティビティのインプレッションを追跡するにはどうすればよいですか？ {#activity-impressions}
+## Target （A4T）にAnalyticsを使用する場合、[!DNL Analysis Workspace]のアクティビティのインプレッションを追跡するにはどうすればよいですか？ {#activity-impressions}
 
 +++回答
 
@@ -239,7 +239,7 @@ A/B テストを実行すると、[Welchのt-test](https://en.wikipedia.org/wiki
 
 1. [!DNL Target] UIで、「**[!UICONTROL Analyticsで表示]**」をクリックします。
 1. **[!UICONTROL アクティビティのインプレッション]**&#x200B;列を[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} レポートに追加します。
-1. **[!UICONTROL アクティビティインプレッション]**&#x200B;列で、[!UICONTROL  ギア ] アイコンをクリックします。
+1. **[!UICONTROL アクティビティインプレッション]**&#x200B;列で、[!UICONTROL &#x200B; ギア &#x200B;] アイコンをクリックします。
 1. 「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」をクリックします。
 1. **[!UICONTROL 同じタッチモデル]** > **[!UICONTROL 適用]**&#x200B;を選択します。
 

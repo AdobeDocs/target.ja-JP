@@ -38,7 +38,7 @@ ht-degree: 47%
 
 サイトおよび本番前の環境を整理して、管理と個別レポートを容易にします。
 
-ホストは、管理を容易にするために環境にバンドルされます。 例えば、数十のホストを 2 つまたは 3 つの環境に分けることができます。 プリセット環境には、[!UICONTROL 実稼動]、[!UICONTROL  ステージング ]、[!UICONTROL 開発]が含まれます。 新しい環境を追加したり、希望に応じて環境の名前を変更したりすることができます。
+ホストは、管理を容易にするために環境にバンドルされます。 例えば、数十のホストを 2 つまたは 3 つの環境に分けることができます。 プリセット環境には、[!UICONTROL 実稼動]、[!UICONTROL &#x200B; ステージング &#x200B;]、[!UICONTROL 開発]が含まれます。 新しい環境を追加したり、希望に応じて環境の名前を変更したりすることができます。
 
 1つの環境（デフォルトの環境）には、事前に[!UICONTROL 実稼動環境]という名前が付けられています。 このデフォルトの環境は、名前を変更した場合でも削除できません。 [!DNL Target] では、この環境で、最終的な承認済みのアクティビティとテストを扱うことを前提としています。
 
@@ -54,7 +54,7 @@ ht-degree: 47%
 1. 環境を説明する名前を指定します。
 1. 目的の環境のアクティビティモード（「[!UICONTROL アクティブなアクティビティ]」または「[!UICONTROL アクティブおよび非アクティブなアクティビティ]」）を指定します。
 
-   [!UICONTROL  アクティブおよび非アクティブなアクティビティ ]を指定すると、この環境のホストにも非アクティブなアクティビティが表示されます。
+   [!UICONTROL &#x200B; アクティブおよび非アクティブなアクティビティ &#x200B;]を指定すると、この環境のホストにも非アクティブなアクティビティが表示されます。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -72,7 +72,7 @@ ht-degree: 47%
 >
 >[!DNL Recommendations] ユーザーは、ホストのホストグループを切り替える場合、行動データベースおよび製品データベースを再構築する必要があります。
 >
-> [!DNL Adobe Experience Platform]  データストリーム ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}で[ デフォルト環境を指定した場合、この設定は[!DNL Target]の設定を上書きします。
+> [!DNL Adobe Experience Platform]  データストリーム [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}で デフォルト環境を指定した場合、この設定は[!DNL Target]の設定を上書きします。
 
 ## 環境の名前の変更 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

@@ -26,7 +26,7 @@ ht-degree: 70%
 ---
 # システムステータスの更新と事前通知
 
-[!UICONTROL Adobe システムステータス ] ページとプロアクティブな通知を使用して、[!DNL Adobe]製品と[!DNL Adobe Experience Cloud]件の解決策のステータスを常に把握します。 アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
+[!UICONTROL Adobe システムステータス &#x200B;] ページとプロアクティブな通知を使用して、[!DNL Adobe]製品と[!DNL Adobe Experience Cloud]件の解決策のステータスを常に把握します。 アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
 
 ## システムステータスの更新
 
@@ -36,7 +36,7 @@ ht-degree: 70%
 >
 >製品内通知は、毎月の [!DNL Target] リリースの間、常に表示されますが、マイナーアップデートが発生した場合は、このページに記載されます。
 
-1. [[!UICONTROL  システムの状態]](https://status.adobe.com/ja){target=_blank}にアクセスします。
+1. [[!UICONTROL &#x200B; システムの状態]](https://status.adobe.com/ja){target=_blank}にアクセスします。
 
 1. [!DNL Target]を含む[!DNL Experience Cloud]個のソリューションのステータスを表示するには、「[!UICONTROL Experience Cloud]」タブをクリックします。
 
@@ -46,7 +46,7 @@ ht-degree: 70%
 
    上記の図では、[!DNL Adobe Advertising]、[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager] およびその他のソリューションが最近メンテナンスアップデートを完了しました。 その他のすべての製品およびソリューションは、通常どおり機能していました。 使用時に問題が発生した場合は、必ずこのページを確認 [!DNL Target] してください。
 
-1. （オプション）製品、地域または日付範囲別にリストをフィルタリングします。 [!UICONTROL  メジャー]、[!UICONTROL  マイナー]、[!UICONTROL 可能性]、または[!UICONTROL  メンテナンス ]のリンクをクリックして、結果をさらに絞り込みます。
+1. （オプション）製品、地域または日付範囲別にリストをフィルタリングします。 [!UICONTROL &#x200B; メジャー]、[!UICONTROL &#x200B; マイナー]、[!UICONTROL 可能性]、または[!UICONTROL &#x200B; メンテナンス &#x200B;]のリンクをクリックして、結果をさらに絞り込みます。
 
 ## 事前通知
 

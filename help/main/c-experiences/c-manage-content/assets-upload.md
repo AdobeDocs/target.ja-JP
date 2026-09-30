@@ -35,8 +35,8 @@ ht-degree: 0%
 
 ## 画像オファーまたはフォルダーの削除
 
-1. （条件付き） [!UICONTROL  カード表示]と[!UICONTROL  リスト表示]を切り替えるには、コンテンツライブラリの右上隅にある[!UICONTROL  カード表示] （![ カード表示アイコン ](/help/main/assets/icons/ViewCard.svg)）アイコンまたは[!UICONTROL  リスト表示] （![ リスト表示アイコン ](/help/main/assets/icons/ViewList.svg)）アイコンをクリックします。
+1. （条件付き） [!UICONTROL &#x200B; カード表示]と[!UICONTROL &#x200B; リスト表示]を切り替えるには、コンテンツライブラリの右上隅にある[!UICONTROL &#x200B; カード表示] （![&#x200B; カード表示アイコン &#x200B;](/help/main/assets/icons/ViewCard.svg)）アイコンまたは[!UICONTROL &#x200B; リスト表示] （![&#x200B; リスト表示アイコン &#x200B;](/help/main/assets/icons/ViewList.svg)）アイコンをクリックします。
 
-1. [!UICONTROL  カード表示]から、目的の画像オファーまたはフォルダーにカーソルを合わせ、**[!UICONTROL 選択]** アイコン （![選択アイコン ](/help/main/assets/icons/CheckmarkCircleOutline.svg)）をクリックし、**[!UICONTROL 削除]** アイコン （![削除アイコン ](/help/main/assets/icons/DeleteOutline.svg)）をクリックします。
+1. [!UICONTROL &#x200B; カード表示]から、目的の画像オファーまたはフォルダーにカーソルを合わせ、**[!UICONTROL 選択]** アイコン （![選択アイコン &#x200B;](/help/main/assets/icons/CheckmarkCircleOutline.svg)）をクリックし、**[!UICONTROL 削除]** アイコン （![削除アイコン &#x200B;](/help/main/assets/icons/DeleteOutline.svg)）をクリックします。
 
-1. [!UICONTROL  リストビュー]から、リストの左側にある画像サムネール画像をクリックして、目的の画像オファーまたはフォルダーを選択し、**[!UICONTROL 削除]** アイコン （![削除アイコン ](/help/main/assets/icons/DeleteOutline.svg)）をクリックします。
+1. [!UICONTROL &#x200B; リストビュー]から、リストの左側にある画像サムネール画像をクリックして、目的の画像オファーまたはフォルダーを選択し、**[!UICONTROL 削除]** アイコン （![削除アイコン &#x200B;](/help/main/assets/icons/DeleteOutline.svg)）をクリックします。

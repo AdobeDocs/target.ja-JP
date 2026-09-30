@@ -46,7 +46,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。 成功指標を定義していない場合、ドロップダウンリストに[!UICONTROL  キャンペーンエントリ ]と[!UICONTROL  コンバージョン ]の2つのオプションのみが表示されます。
+>[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。 成功指標を定義していない場合、ドロップダウンリストに[!UICONTROL &#x200B; キャンペーンエントリ &#x200B;]と[!UICONTROL &#x200B; コンバージョン &#x200B;]の2つのオプションのみが表示されます。
 
 
 ## 注意点
@@ -59,7 +59,7 @@ ht-degree: 43%
 
 ## レポートでのセグメント化の表示
 
-レポートでセグメント化を表示するには、アクティビティのレポートの[!UICONTROL  オーディエンス ] ドロップダウンリストから目的のオーディエンスを選択します。
+レポートでセグメント化を表示するには、アクティビティのレポートの[!UICONTROL &#x200B; オーディエンス &#x200B;] ドロップダウンリストから目的のオーディエンスを選択します。
 
 ![reporting_audience_dropdown image](assets/reporting_audience_dropdown.png)
 

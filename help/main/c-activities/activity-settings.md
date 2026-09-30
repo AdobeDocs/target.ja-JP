@@ -29,7 +29,7 @@ ht-degree: 79%
 ---
 # アクティビティの設定
 
-[!DNL Adobe Target]の[!UICONTROL  アクティビティ設定]を使用して、アクティビティの目的、優先度、期間を管理します。
+[!DNL Adobe Target]の[!UICONTROL &#x200B; アクティビティ設定]を使用して、アクティビティの目的、優先度、期間を管理します。
 
 1. アクティビティの目標に関するメモを入力します。
 
@@ -42,7 +42,7 @@ ht-degree: 79%
 
    このオプションが[!UICONTROL Administration] > [!UICONTROL Reporting] （デフォルト）で有効になっていない場合は、優先度をLow、Medium、Highに指定します。
 
-   きめ細かい優先度を有効にするには、[!UICONTROL 管理] > [!UICONTROL  レポート ]をクリックし、[!UICONTROL きめ細かい優先度を有効にする] オプションを「オン」の位置に切り替えます。
+   きめ細かい優先度を有効にするには、[!UICONTROL 管理] > [!UICONTROL &#x200B; レポート &#x200B;]をクリックし、[!UICONTROL きめ細かい優先度を有効にする] オプションを「オン」の位置に切り替えます。
 
    このオプションを有効にした場合は、0～999 の値を指定します。
 
@@ -71,7 +71,7 @@ ht-degree: 79%
 * [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [レコメンデーション](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## トレーニングビデオ：アクティビティ設定![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ設定![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 

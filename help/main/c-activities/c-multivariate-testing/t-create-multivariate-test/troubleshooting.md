@@ -1,7 +1,7 @@
 ---
 keywords: 多変量テスト；トラブルシューティング；トラブルシューティング；mvt
-description: '[!DNL Adobe Target]で[!UICONTROL 多変量テスト ] （MVT）アクティビティを使用する際に直面する可能性のある潜在的な課題と、推奨される解決策について説明します。'
-title: '[!UICONTROL 多変量テスト ]のトラブルシューティング方法を教えてください。'
+description: '[!DNL Adobe Target]で[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティを使用する際に直面する可能性のある潜在的な課題と、推奨される解決策について説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;]のトラブルシューティング方法を教えてください。'
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
 TQID: 'https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg'
@@ -21,9 +21,9 @@ workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 21%
 ---
-# [!UICONTROL 多変量テスト ] アクティビティのトラブルシューティング
+# [!UICONTROL 多変量テスト &#x200B;] アクティビティのトラブルシューティング
 
-この記事では、[!DNL Adobe Target]で[!UICONTROL 多変量テスト ] （MVT）を設計する際に発生する可能性のある問題を解決するための推奨事項について説明します。
+この記事では、[!DNL Adobe Target]で[!UICONTROL 多変量テスト &#x200B;] （MVT）を設計する際に発生する可能性のある問題を解決するための推奨事項について説明します。
 
 * アクティビティを編集する際に、[!DNL Analytics] ベースの指標を使用し、レポートスイートが読み込まれない（スピナー表示）場合は、指標を[!DNL Target]指標に切り替えてから、もう一度[!DNL Analytics] ベースの指標に切り替えます。 これで、レポートスイートがロードされるようになります。
 * 既に実行中のテストに変更を加えた場合は、テストとそのデータをリセットする可能性があります。

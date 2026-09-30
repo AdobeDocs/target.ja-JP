@@ -35,29 +35,29 @@ workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 30%
 ---
-# [!UICONTROL Personalization インサイト ] レポート
+# [!UICONTROL Personalization インサイト &#x200B;] レポート
 
-[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット ] （AT）アクティビティのユーザーは、次の2つの特殊なレポートを利用できます。[!UICONTROL 自動セグメント ]と[!UICONTROL 重要な属性] レポート。
+[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] （AT）アクティビティのユーザーは、次の2つの特殊なレポートを利用できます。[!UICONTROL 自動セグメント &#x200B;]と[!UICONTROL 重要な属性] レポート。
 
 ## 注意点
 
-[!UICONTROL Personalization インサイト ] レポートを使用する場合は、次の点を考慮してください。
+[!UICONTROL Personalization インサイト &#x200B;] レポートを使用する場合は、次の点を考慮してください。
 
 * AP アクティビティとAT アクティビティは、[[!DNL Target Premium] solution](/help/main/c-intro/intro.md#premium)の一部として利用できます。 これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
 
-* [!UICONTROL Personalization インサイト ] レポートは、次のように設定されたAPおよびAT アクティビティでのみ使用できます。
+* [!UICONTROL Personalization インサイト &#x200B;] レポートは、次のように設定されたAPおよびAT アクティビティでのみ使用できます。
 
-  * [!DNL Target]件のレポート > [!UICONTROL  コンバージョン ]
+  * [!DNL Target]件のレポート > [!UICONTROL &#x200B; コンバージョン &#x200B;]
 
     次に例を示します。
 
-    ![ ターゲットレポート > コンバージョン ](/help/main/c-reports/assets/conversion.png)
+    ![&#x200B; ターゲットレポート > コンバージョン &#x200B;](/help/main/c-reports/assets/conversion.png)
 
   * [!DNL Analytics] レポート > [!DNL Conversion]
 
     次に例を示します。
 
-    ![分析レポート > コンバージョン ](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    ![分析レポート > コンバージョン &#x200B;](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
   * [!DNL Analytics] レポート > [!UICONTROL Analytics指標を使用] > [!UICONTROL 訪問コンバージョン率を最大化]
 
@@ -67,19 +67,19 @@ ht-degree: 30%
 
 * アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 
-* [!UICONTROL Personalization インサイト ] レポートは、[!UICONTROL  レポート指標] ドロップダウンリストから[!UICONTROL プライマリ目標]が選択されている場合にのみ使用できます。
+* [!UICONTROL Personalization インサイト &#x200B;] レポートは、[!UICONTROL &#x200B; レポート指標] ドロップダウンリストから[!UICONTROL プライマリ目標]が選択されている場合にのみ使用できます。
 
-* [!UICONTROL Personalization インサイト ] レポートは、[ デフォルト環境](/help/main/administrating-target/hosts.md)でのみサポートされています。
+* [!UICONTROL Personalization インサイト &#x200B;] レポートは、[&#x200B; デフォルト環境](/help/main/administrating-target/hosts.md)でのみサポートされています。
 
-* [!UICONTROL Personalization インサイト ] レポートは、[!UICONTROL  ライブ ]状態で、少なくとも15日間アクティブ化されトラフィックを受信したアクティビティに対してのみ生成されます。
+* [!UICONTROL Personalization インサイト &#x200B;] レポートは、[!UICONTROL &#x200B; ライブ &#x200B;]状態で、少なくとも15日間アクティブ化されトラフィックを受信したアクティビティに対してのみ生成されます。
 
 ## Personalization インサイトレポートの概要 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-[!UICONTROL Personalization インサイト ] レポートの目的は、APおよびAT アクティビティの背後にある[!UICONTROL Target] パーソナライゼーションモデルが訪問者のトラフィックをどのようにパーソナライズするかについての詳細を提供することです。 [ ランダムフォレスト アルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)は、[!DNL Target]のパーソナライゼーションモデルの基本です。
+[!UICONTROL Personalization インサイト &#x200B;] レポートの目的は、APおよびAT アクティビティの背後にある[!UICONTROL Target] パーソナライゼーションモデルが訪問者のトラフィックをどのようにパーソナライズするかについての詳細を提供することです。 [&#x200B; ランダムフォレスト アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)は、[!DNL Target]のパーソナライゼーションモデルの基本です。
 
-[!UICONTROL Personalization インサイト ] レポートの目的は、[!DNL Target]のパーソナライゼーションモデルが、どの訪問者をコンテンツのどの部分に送るかを決定する方法を理解することであるため、[!UICONTROL Personalization インサイト ] レポートは、APまたはAT アクティビティが提供するすべてのトラフィックのサブセグメントのみを反映します。 具体的に言うと、これら 2 つのレポートは、パーソナライゼーションモデルを使用したすべてのトラフィックを反映します。 つまり、[!UICONTROL パーソナライゼーションインサイト]レポートでは、制御トラフィックや、勝者モデル全体で提供されるトラフィックは考慮されません。
+[!UICONTROL Personalization インサイト &#x200B;] レポートの目的は、[!DNL Target]のパーソナライゼーションモデルが、どの訪問者をコンテンツのどの部分に送るかを決定する方法を理解することであるため、[!UICONTROL Personalization インサイト &#x200B;] レポートは、APまたはAT アクティビティが提供するすべてのトラフィックのサブセグメントのみを反映します。 具体的に言うと、これら 2 つのレポートは、パーソナライゼーションモデルを使用したすべてのトラフィックを反映します。 つまり、[!UICONTROL パーソナライゼーションインサイト]レポートでは、制御トラフィックや、勝者モデル全体で提供されるトラフィックは考慮されません。
 
-2つの[!UICONTROL Personalization インサイト ] レポートを利用できます。
+2つの[!UICONTROL Personalization インサイト &#x200B;] レポートを利用できます。
 
 | レポート | 詳細 |
 |--- |--- |
@@ -91,7 +91,7 @@ ht-degree: 30%
 [!UICONTROL パーソナライゼーションインサイト]レポートで表される属性のうち、AP モデルまたは自動ターゲットモデルで使用されるものは、次の 2 種類です。
 
 * Target:**[!DNL Target]によって自動的に収集された**&#x200B;属性は、基本データセットを使用して、APおよびAT アクティビティでパーソナライゼーションアルゴリズムを構築し、Personalization インサイトに反映されます。 データ型、属性の例、および[!UICONTROL Personalization Insights]の命名規則については、[Target Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)のデータ収集を参照してください。 これらの属性は考慮されますが、個々のアクティビティのモデルでは、最終的なモデルでこれらの属性のすべてを使用しない場合があります。
-* **Targetに渡された属性：** 「[Target Personalization アルゴリズムのデータのアップロード ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)」を参照してください。
+* **Targetに渡された属性：** 「[Target Personalization アルゴリズムのデータのアップロード &#x200B;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)」を参照してください。
 
 [!DNL Target]は、APおよびAT アクティビティでパーソナライゼーション アルゴリズムを構築するために使用される基本データセットを強化するために、追加のデータを[!DNL Target]に渡すための多くの方法を提供します。
 
@@ -107,15 +107,15 @@ ht-degree: 30%
 
 ## よくある質問
 
-[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット ] [!UICONTROL  インサイト ] レポートに関するよくある質問の一覧。
+[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] [!UICONTROL &#x200B; インサイト &#x200B;] レポートに関するよくある質問の一覧。
 
-### [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット ] モデルのデータはどのくらいの期間保持されますか？
+### [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] モデルのデータはどのくらいの期間保持されますか？
 
-[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット ] モデルは、アクティビティのユーザー行動（ユーザープロファイル、インプレッションイベント、コンバージョンイベント）の過去45日間にトレーニングされます。
+[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] モデルは、アクティビティのユーザー行動（ユーザープロファイル、インプレッションイベント、コンバージョンイベント）の過去45日間にトレーニングされます。
 
-[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット ] モデルは、ユーザーの行動、トレーニングレコード、モデルの決定データを90日間保持し、[!UICONTROL  インサイト ] レポートを作成します。 90日が経過すると、トレーニング記録とモデル決定は破棄されます。 [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット ] モデルでは、レポート用に集計されたエクスペリエンス/オファーレベルのインプレッションおよびコンバージョンデータも2年間保持されます。 このデータは集計レベルのデータのみであり、個人レベルのプロファイルデータは含まれていません。
+[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] モデルは、ユーザーの行動、トレーニングレコード、モデルの決定データを90日間保持し、[!UICONTROL &#x200B; インサイト &#x200B;] レポートを作成します。 90日が経過すると、トレーニング記録とモデル決定は破棄されます。 [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] モデルでは、レポート用に集計されたエクスペリエンス/オファーレベルのインプレッションおよびコンバージョンデータも2年間保持されます。 このデータは集計レベルのデータのみであり、個人レベルのプロファイルデータは含まれていません。
 
-## トレーニングビデオ：Personalization インサイトレポートの使用![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Personalization インサイトレポートの使用![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 

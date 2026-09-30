@@ -47,20 +47,20 @@ ht-degree: 22%
 
 ## ターゲティングルールの設定
 
-1. ターゲットにするオファーを含む[Automated Personalization アクティビティ ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)を作成または編集します。
-1. [!UICONTROL Visual Experience Composer]でアクティビティのオファーを設定したら、**[!UICONTROL コンテンツの管理]** アイコン（![ コンテンツの管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします。
+1. ターゲットにするオファーを含む[Automated Personalization アクティビティ &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)を作成または編集します。
+1. [!UICONTROL Visual Experience Composer]でアクティビティのオファーを設定したら、**[!UICONTROL コンテンツの管理]** アイコン（![&#x200B; コンテンツの管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックします。
 
-   [!UICONTROL  コンテンツの管理] ダイアログボックスが表示されます。
+   [!UICONTROL &#x200B; コンテンツの管理] ダイアログボックスが表示されます。
 
 1. 「**[!UICONTROL オファー]**」タブをクリックします。
 
 1. 必要なオファーを選択し、そのオファーを表示する対象のオーディエンスを選択します。
 
-   1つのオファーのターゲティングを設定するには、目的のオファーの横にある詳細情報（![詳細情報アイコン ](/help/main/assets/icons/MoreSmallList.svg)）アイコンをクリックし、**[!UICONTROL ターゲットオーディエンス]**&#x200B;をクリックして、[!UICONTROL  オーディエンスを追加] ダイアログボックスを表示します。
+   1つのオファーのターゲティングを設定するには、目的のオファーの横にある詳細情報（![詳細情報アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）アイコンをクリックし、**[!UICONTROL ターゲットオーディエンス]**&#x200B;をクリックして、[!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスを表示します。
 
    複数のオファーのターゲティングを設定するには、目的のオファーのチェックボックスを選択し、リストの下部に表示される&#x200B;**[!UICONTROL ターゲットオーディエンス]** リンクをクリックします。
 
-1. [!UICONTROL  オーディエンスを追加] ダイアログボックスで、オファーに必要なオーディエンスを選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックして、[!UICONTROL  コンテンツを管理] ダイアログボックスに戻ります。
+1. [!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスで、オファーに必要なオーディエンスを選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックして、[!UICONTROL &#x200B; コンテンツを管理] ダイアログボックスに戻ります。
 
    >[!NOTE]
    >

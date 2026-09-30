@@ -120,7 +120,7 @@ mbox が製品ページにある場合は、製品 ID とカテゴリ ID の両�
 
 >[!NOTE]
 >
->[!UICONTROL  カテゴリ ] ページのカテゴリに基づいたレコメンデーションを表示するには、特定のレコメンデーションの表示に使用するmboxに渡すことができる`categoryId`は1つだけです。 `categoryId`の値は、[!UICONTROL 製品の詳細] ページで渡された`entity.categoryId`の値と完全に一致する必要があります。
+>[!UICONTROL &#x200B; カテゴリ &#x200B;] ページのカテゴリに基づいたレコメンデーションを表示するには、特定のレコメンデーションの表示に使用するmboxに渡すことができる`categoryId`は1つだけです。 `categoryId`の値は、[!UICONTROL 製品の詳細] ページで渡された`entity.categoryId`の値と完全に一致する必要があります。
 
 例：
 

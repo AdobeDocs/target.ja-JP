@@ -44,4 +44,4 @@ ht-degree: 40%
 
 1. [!UICONTROL 実装] ページにアクセスするには、**[!UICONTROL 管理]** > **[!UICONTROL 実装]**&#x200B;をクリックします。
 
-1. このページの設定に適用できる情報については、[ タグマネージャーなしでTargetを実装する](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank}を参照してください。
+1. このページの設定に適用できる情報については、[&#x200B; タグマネージャーなしでTargetを実装する](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank}を参照してください。

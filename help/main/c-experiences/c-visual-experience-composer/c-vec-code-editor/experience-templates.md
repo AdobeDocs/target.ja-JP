@@ -65,7 +65,7 @@ ht-degree: 60%
 
 ## ライトボックス {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-[ ライトボックスエクスペリエンステンプレート ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックスオーバーレイポップアップで、ホームページやランディングページ、またはその他の大量のエントリーページで一般的に使用されます。
+[&#x200B; ライトボックスエクスペリエンステンプレート &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックスオーバーレイポップアップで、ホームページやランディングページ、またはその他の大量のエントリーページで一般的に使用されます。
 
 ![exp-template-lightbox image](assets/exp-template-lightbox.png)
 

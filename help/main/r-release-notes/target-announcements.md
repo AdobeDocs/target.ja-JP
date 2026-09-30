@@ -170,7 +170,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   今回のセッションでは、下記の内容とともに、[!DNL Adobe Target] の新機能を活用してコンバージョン率を著しく上昇させる方法を説明します。
 
-  * [!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット ] アクティビティ内の拡張モデル制御
+  * [!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティ内の拡張モデル制御
   * [!DNL Adobe] の [!DNL Real-Time Customer Data Platform] からプロファイル属性および高価値セグメントを評価する機能のロック解除
   * ブランドが AI 搭載アルゴリズムを微調整することで、より速いスピードと意思決定を実現する方法
   * 1 対 1 のパーソナライゼーションを実現する他に類を見ないユースケース
@@ -193,7 +193,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   コースマップ：
 
-  * [!UICONTROL A/B テスト ]、[!UICONTROL Multivariate Testing] （MVT）、（XT）および自動テストとパーソナライゼーション
+  * [!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Multivariate Testing] （MVT）、（XT）および自動テストとパーソナライゼーション
   * アクティビティ設定のワークフロー手順
   * バッチエクスペリエンスのプリフェッチ、モバイルの常時稼動パーソナライゼーションの有効化
   * 顧客体験全体にわたるテストとターゲティングのライフサイクル指標
@@ -203,7 +203,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
 
-[!DNL Adobe Target] [!DNL] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。 最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
+[!DNL Adobe Target]  チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。 最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
 
 * [レコーディングリンク](https://video.tv.adobe.com/v/346970/){target=_blank}
 

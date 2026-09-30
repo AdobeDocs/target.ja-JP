@@ -1,7 +1,7 @@
 ---
 keywords: 概要
-description: '[!UICONTROL 多変量テスト ] （MVT）アクティビティの概要を表示すると、[!DNL Adobe Target]でのアクティビティの概要が視覚的に表示されます。'
-title: '[!UICONTROL 多変量テスト ] （MVT）アクティビティの概要を表示するにはどうすればよいですか？'
+description: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの概要を表示すると、[!DNL Adobe Target]でのアクティビティの概要が視覚的に表示されます。'
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの概要を表示するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
 TQID: 'https://experienceleague.adobe.com/qPe34s7dkRzaGLO-ZUhiTxu3Dz5NUpVk7nBRLQBz7ZM'
@@ -21,9 +21,9 @@ workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 30%
 ---
-# テストの概要（[!UICONTROL 多変量テスト ]）
+# テストの概要（[!UICONTROL 多変量テスト &#x200B;]）
 
-[!UICONTROL  ターゲティング ] ページには、[!DNL Adobe Target] [!UICONTROL 多変量テスト ]の概要が視覚的に表示されます。
+[!UICONTROL &#x200B; ターゲティング &#x200B;] ページには、[!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;]の概要が視覚的に表示されます。
 
 ![テスト概要ダイアログボックス](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 

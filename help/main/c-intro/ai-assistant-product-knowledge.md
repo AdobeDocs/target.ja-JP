@@ -57,7 +57,7 @@ ht-degree: 1%
 
 1. [!DNL Target]内から、UIの右上隅にある&#x200B;**[!DNL AI Assistant]アイコン**&#x200B;をクリックします。
 
-   ![AI アシスタント アイコン ](/help/main/c-intro/assets/ai-assistant-icon.png)
+   ![AI アシスタント アイコン &#x200B;](/help/main/c-intro/assets/ai-assistant-icon.png)
 
    [!DNL AI Assistant]が[!DNL Target] UIの右側のパネルに表示されます。
 
@@ -65,9 +65,9 @@ ht-degree: 1%
 
    例えば、「プロファイルスクリプトの設定方法」を参照してください。
 
-   ![回答を含むAI アシスタント ](/help/main/c-intro/assets/ai-assistant-answer.png)
+   ![回答を含むAI アシスタント &#x200B;](/help/main/c-intro/assets/ai-assistant-answer.png)
 
-1. 応答のソースを確認するには、「ソースを表示」アイコン（![ ソースを表示アイコン ](/help/main/assets/icons/Visibility.svg)）をクリックします。
+1. 応答のソースを確認するには、「ソースを表示」アイコン（![&#x200B; ソースを表示アイコン &#x200B;](/help/main/assets/icons/Visibility.svg)）をクリックします。
 
    >[!IMPORTANT]
    >
@@ -75,9 +75,9 @@ ht-degree: 1%
 
 1. （オプション） [!DNL AI Assistant]にフィードバックを提供します。
 
-   * 「上に親指」（![上に親指アイコン ](/help/main/assets/icons/ThumbUp.svg)）アイコンをクリックして、[!DNL AI Assistant]に応答が正しいことを伝えます。
-   * 下の親指（![下の親指アイコン ](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、[!DNL AI Assistant]に応答が正しくないことを伝えます。
-   * レポート結果（![ レポート結果アイコン ](/help/main/assets/icons/Flag.svg)）アイコンをクリックして、問題を[!DNL AI Assistant]に報告します。
+   * 「上に親指」（![上に親指アイコン &#x200B;](/help/main/assets/icons/ThumbUp.svg)）アイコンをクリックして、[!DNL AI Assistant]に応答が正しいことを伝えます。
+   * 下の親指（![下の親指アイコン &#x200B;](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、[!DNL AI Assistant]に応答が正しくないことを伝えます。
+   * レポート結果（![&#x200B; レポート結果アイコン &#x200B;](/help/main/assets/icons/Flag.svg)）アイコンをクリックして、問題を[!DNL AI Assistant]に報告します。
 
 ## トレーニングビデオ
 

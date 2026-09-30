@@ -27,7 +27,7 @@ ht-degree: 29%
 
 要素セレクターは、1つ以上の要素を識別できるCSS式です。
 
-CSS セレクターに関する基本的な情報は、*[!DNL Mozilla Developer Network]* （MDN）の[ セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) ドキュメントにあります。
+CSS セレクターに関する基本的な情報は、*[!DNL Mozilla Developer Network]* （MDN）の[&#x200B; セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) ドキュメントにあります。
 
 アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。 **[!UICONTROL 管理 / Visual Experience Composer]**&#x200B;をクリックし、任意のCSS セレクターを選択します。
 
@@ -37,7 +37,7 @@ CSS セレクターに関する基本的な情報は、*[!DNL Mozilla Developer 
 
 >[!NOTE]
 >
->エレメントクラスは、[!UICONTROL A/B テスト ]、[!UICONTROL Automated Personalization]、[!UICONTROL 多変量テスト ]のアクティビティでセレクターとして使用できます。
+>エレメントクラスは、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Automated Personalization]、[!UICONTROL 多変量テスト &#x200B;]のアクティビティでセレクターとして使用できます。
 
 CSS セレクターを使用するタイミングと一意の ID を使用するタイミングについて詳しくは、[Visual Experience Composer のベストプラクティスと制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を参照してください。
 

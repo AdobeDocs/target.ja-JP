@@ -176,11 +176,11 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 
 ## [!DNL Target] アクティビティが、クエリ文字列パラメーターを使用して URL を正しく処理することを確認します。 {#query-strings}
 
-[!UICONTROL  アクティビティ URL]は、アクティビティの訪問者を認定し、アクティビティエクスペリエンスをユーザーにレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
+[!UICONTROL &#x200B; アクティビティ URL]は、アクティビティの訪問者を認定し、アクティビティエクスペリエンスをユーザーにレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
 
 デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は[Visual Experience Composer設定](/help/main/administrating-target/visual-experience-composer-set-up.md)で指定されたページを開きます。 アクティビティ作成中に、別のページを指定することもできます。
 
-VECが開いた後に別のページを表示するには、**[!UICONTROL ギアアイコン]**&#x200B;を設定/**[!UICONTROL ページ配信]**&#x200B;を選択をクリックし、[!UICONTROL  アクティビティ URL] フィールドに目的のURLを指定します。
+VECが開いた後に別のページを表示するには、**[!UICONTROL ギアアイコン]**&#x200B;を設定/**[!UICONTROL ページ配信]**&#x200B;を選択をクリックし、[!UICONTROL &#x200B; アクティビティ URL] フィールドに目的のURLを指定します。
 
 ![ページ配信設定 UI の設定](assets/configure-page-delivery.png)
 
@@ -206,7 +206,7 @@ URL にクエリ文字列パラメーターが含まれている場合はどう�
 
 ### オプション 3：完全な URL をターゲットにせず、URL の特定の部分を利用する。
 
-このシナリオでは、URLは`https://shopping.mycart.com?type=Summers%20Offers`で、追加のテンプレートルールは[!UICONTROL type] > [!UICONTROL is （大文字と小文字が区別されます） ] > type=Summers%20Offersで[!UICONTROL  クエリ ]を指定し、OR演算子で区切ります。
+このシナリオでは、URLは`https://shopping.mycart.com?type=Summers%20Offers`で、追加のテンプレートルールは[!UICONTROL type] > [!UICONTROL is （大文字と小文字が区別されます） &#x200B;] > type=Summers%20Offersで[!UICONTROL &#x200B; クエリ &#x200B;]を指定し、OR演算子で区切ります。
 
 ![URL の特定の部分を活用するテンプレートルール](assets/option3.png)
 
@@ -227,7 +227,7 @@ adobe.target.trackEvent({
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### 拡張機能![ チュートリアルバッジ ](/help/main/assets/tutorial.png)を追加
+### 拡張機能![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)を追加
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

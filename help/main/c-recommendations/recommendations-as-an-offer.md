@@ -25,16 +25,16 @@ ht-degree: 60%
 ---
 # オファーとしてのレコメンデーション
 
-[!UICONTROL A/B テスト ] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット ]を含む）および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができるようになりました。
+[!UICONTROL A/B テスト &#x200B;] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット &#x200B;]を含む）および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができるようになりました。
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
 * [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
-* [!UICONTROL 自動ターゲット ]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
+* [!UICONTROL 自動ターゲット &#x200B;]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト ]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
+開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
 
 ## Recommendations をオファーとして A/B テストまたは XT アクティビティに追加する
 
@@ -44,7 +44,7 @@ ht-degree: 60%
    >
    >A/B テストの場合、パフォーマンスが最も高いレコメンデーションにトラフィックを自動的にプッシュする[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされたレコメンデーションエクスペリエンスに動的に割り当てる[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)オプションを選択できます。
 
-1. [ エクスペリエンス ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を作成する際に、オファーとしてレコメンデーションを追加する要素をクリックし、**[!UICONTROL コンテンツを置換]**&#x200B;をクリックしてから、**[!UICONTROL レコメンデーション]**&#x200B;を選択します。
+1. [&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を作成する際に、オファーとしてレコメンデーションを追加する要素をクリックし、**[!UICONTROL コンテンツを置換]**&#x200B;をクリックしてから、**[!UICONTROL レコメンデーション]**&#x200B;を選択します。
 
    ![Recommendations をオファーとして挿入](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
@@ -60,8 +60,8 @@ ht-degree: 60%
    * その他
 
 1. 目的の[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を選択し、[!UICONTROL 次へ]をクリックします。
-1. 目的の[ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択し、[!UICONTROL 次へ]をクリックします。
-1. [!UICONTROL  オプション ] ダイアログボックスで、次の項目を指定します。
+1. 目的の[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択し、[!UICONTROL 次へ]をクリックします。
+1. [!UICONTROL &#x200B; オプション &#x200B;] ダイアログボックスで、次の項目を指定します。
 
    * [コレクション](/help/main/c-recommendations/c-products/collections.md)を選択します。
    * 必要に応じて、[プロモーション - 前とプロモーション - 後](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)オプションを設定します。

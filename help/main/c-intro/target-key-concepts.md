@@ -69,7 +69,7 @@ Target には、複数のアクティビティタイプがあります。 次の
 | アクティビティタイプ | 説明 |
 |--- |--- |
 | [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md) | A/B テストでは、Web サイトのコンテンツの2つ以上のバージョンを比較し、事前に指定されたテスト期間中に、どのバージョンがコンバージョンを最も向上させるかを確認します。<br>**注：** A/B テスト アクティビティに[のレコメンデーションを含めることができるようになりました](/help/main/c-recommendations/recommendations-as-an-offer.md)。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
-| [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分は、2つ以上のエクスペリエンスの中から勝者を特定し、テストを実行して学習し続ける間に、勝者に自動的に多くのトラフィックを再配分してコンバージョンを増加させます。<br>**メモ：**&#x200B;自動配分アクティビティ ](/help/main/c-recommendations/recommendations-as-an-offer.md)に[のレコメンデーションを含めることができるようになりました。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
+| [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分は、2つ以上のエクスペリエンスの中から勝者を特定し、テストを実行して学習し続ける間に、勝者に自動的に多くのトラフィックを再配分してコンバージョンを増加させます。<br>**メモ：**&#x200B;自動配分アクティビティ [&#128279;](/help/main/c-recommendations/recommendations-as-an-offer.md)にのレコメンデーションを含めることができるようになりました。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
 | [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | 自動ターゲットでは、高度な機械学習を使用して、マーケターが定義したパフォーマンスの高い複数のエクスペリエンスを特定します。 自動ターゲットアクティビティは、コンテンツをパーソナライズしてコンバージョンを促進するために、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最もカスタマイズされたエクスペリエンスを提供します。<br>**注：**&#x200B;自動ターゲットアクティビティに[のレコメンデーションを含めることができるようになりました](/help/main/c-recommendations/recommendations-as-an-offer.md)。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
 | [Analytics データの使用](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)（A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。 このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
 | [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
@@ -148,7 +148,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### アクティビティの種類（9:03） ![概要バッジ ](/help/main/assets/overview.png)
+### アクティビティの種類（9:03） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。
 
@@ -158,7 +158,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Adobe Targetでのオーディエンスの使用（6:21） ![概要バッジ ](/help/main/assets/overview.png)
+### Adobe Targetでのオーディエンスの使用（6:21） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 

@@ -1,6 +1,6 @@
 ---
 keywords: アクティビティ url;url；別のurl
-description: '[!UICONTROL  アクティビティ URL]を設定してテストページを定義し、正確なテストデザインを確保する方法を説明します。'
+description: '[!UICONTROL &#x200B; アクティビティ URL]を設定してテストページを定義し、正確なテストデザインを確保する方法を説明します。'
 title: A/B アクティビティのアクティビティ URLは何ですか？
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b

@@ -145,7 +145,7 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![EEC_error イメージ ](assets/EEC_error.png)
+![EEC_error イメージ &#x200B;](assets/EEC_error.png)
 
 このエラーメッセージが表示される理由と、問題の解決方法は次のとおりです。
 
@@ -179,7 +179,7 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 
    ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
 
-1. Web サイトにTLS 1.0が表示されていることがわかったら、TargetのTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 現在の状況を解決するには（2018年9月12日まで有効） {target=_blank}、TLS バージョンとドメインを使用した設定については、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+1. Web サイトにTLS 1.0が表示されていることがわかったら、TargetのTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 現在の状況を解決するには（2018年9月12日まで有効） {target=_blank}、TLS バージョンとドメインを使用した設定については、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 +++
 

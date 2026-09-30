@@ -45,7 +45,7 @@ ht-degree: 23%
 
 変更要素を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-1. 「[ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
+1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で[!UICONTROL Configure] アイコン（![Configure icon](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL Page Delivery]**&#x200B;を選択します。
 
@@ -53,11 +53,11 @@ ht-degree: 23%
 
 1. ページの範囲を指定します。 ページの範囲は、次のいずれかの方法で指定します。
 
-   * [!UICONTROL URL] （[!DNL Target]がURLを評価する方法について詳しくは、[ ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
+   * [!UICONTROL URL] （[!DNL Target]がURLを評価する方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
    * [!UICONTROL ドメイン]
-   * [!UICONTROL  パス ]
-   * [!UICONTROL  ハッシュ （#） フラグメント ] （#記号に続くURLの部分をターゲットにする）
-   * [!UICONTROL  クエリ ]
+   * [!UICONTROL &#x200B; パス &#x200B;]
+   * [!UICONTROL &#x200B; ハッシュ （#） フラグメント &#x200B;] （#記号に続くURLの部分をターゲットにする）
+   * [!UICONTROL &#x200B; クエリ &#x200B;]
    * [!UICONTROL カスタム]
 
 1. 演算子を選択します。
@@ -66,7 +66,7 @@ ht-degree: 23%
 
    * [!UICONTROL Contains]
    * [!UICONTROL 次を含まない]
-   * [!UICONTROL は（大文字と小文字を区別） ]です
+   * [!UICONTROL は（大文字と小文字を区別） &#x200B;]です
    * [!UICONTROL は]ではありません
    * [!UICONTROL が]で始まります
    * [!UICONTROL が]で終了
@@ -101,9 +101,9 @@ ht-degree: 23%
 * グローバルバナー（COVID-19の発表など）を含めるには
 * グローバルな送料無料プロモーションを含めるには
 
-1. 「[ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
+1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
 
-1. エクスペリエンスが表示されるドメインを指定するには、[!UICONTROL Visual Experience Composer]で「[!UICONTROL 設定]」アイコン（![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**」を選択します。
+1. エクスペリエンスが表示されるドメインを指定するには、[!UICONTROL Visual Experience Composer]で「[!UICONTROL 設定]」アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**」を選択します。
 
 1. **[!UICONTROL ルールを追加]** > **[!UICONTROL ドメイン]**&#x200B;をクリックします。
 
