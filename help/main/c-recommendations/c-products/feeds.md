@@ -361,7 +361,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * フィードの目的の説明
 * フィードの値の説明
 
->[!VIDEO](https://video.tv.adobe.com/v/27695)
+>[!VIDEO](https://video.tv.adobe.com/v/33951?captions=jpn)
 
 ### フィードの作成（6:44） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
@@ -370,4 +370,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * フィードの設定
 * 使用するフィードのタイプの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/27696)
+>[!VIDEO](https://video.tv.adobe.com/v/33950?captions=jpn)

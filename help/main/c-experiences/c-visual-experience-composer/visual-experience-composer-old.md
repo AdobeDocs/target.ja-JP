@@ -128,7 +128,7 @@ VEC内のページの読み込みをキャンセルするには、ページの�
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
 
 ### 勤務時間：Visual Experience Composer ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 

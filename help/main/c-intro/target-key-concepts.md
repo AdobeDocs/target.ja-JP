@@ -156,7 +156,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
 
 ### Adobe Targetでのオーディエンスの使用（6:21） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
@@ -168,4 +168,4 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/29956?captions=jpn)
