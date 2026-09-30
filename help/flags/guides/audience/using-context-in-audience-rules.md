@@ -4,13 +4,14 @@ description: フラグの機能フラグと機能グループに対するオー�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 # オーディエンスルールでのコンテキストの使用 {#context-in-audience-rules}
 
 コンテキスト属性は、実行時にクライアントアプリケーションによって提供される値です。 動的なセッションレベルの情報（ユーザーのアクティブな言語、デバイスの種類、アプリケーションの状態など）にもとづいて、ユーザーをターゲティングできます。
@@ -30,7 +31,7 @@ ht-degree: 1%
 3. **Context**&#x200B;で、新しい条件を追加します。
 4. コンテキストの属性、演算子、値を選択します。
 
-必要なコンテキスト属性がリストに表示されない場合は、新しいコンテキスト属性を作成できます。[&#x200B; コンテキスト属性の作成](creating-your-context-attributes.md)を参照してください。
+必要なコンテキスト属性がリストに表示されない場合は、新しいコンテキスト属性を作成できます。[ コンテキスト属性の作成](creating-your-context-attributes.md)を参照してください。
 
 ## 詳しくは、 {#see-also}
 

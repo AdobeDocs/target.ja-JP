@@ -1,23 +1,28 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;アクティビティの設定
-description: Analytics for [!DNL Target]  （A4T）を使用する際のアクティビティ設定に関する質問への回答を見つけます。 A4T では、 [!DNL Target]  アクティビティに Analytics のレポート機能を使用できます。
+description: Analytics for [!DNL Target] （A4T）を使用する際のアクティビティ設定に関する質問への回答を検索します。 A4Tでは、[!DNL Target]件のアクティビティにAnalytics レポートを使用できます。
 title: A4Tのアクティビティ設定に関するFAQはどこで見つけることができますか？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
+TQID: 'https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 21%
-
+source-wordcount: '643'
+ht-degree: 20%
 ---
-
 # アクティビティの設定 - A4T FAQ
 
 このトピックには、アクティビティの設定と[!DNL Analytics]を[!DNL Target] （A4T）のレポートソースとして使用することについてよく寄せられる質問に対する回答が含まれています。
@@ -33,7 +38,7 @@ ht-degree: 21%
 
 +++回答
 
-A4T レポートを使用している別々の[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)の2つのアクティビティに対して、同じアクティビティ名を使用しないでください。
+A4T レポートを使用している別々の[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)の2つのアクティビティに対して、同じアクティビティ名を使用しないでください。
 
 これは[!DNL Target]をレポートソースとして使用する場合はサポートされますが、2つのアクティビティに同じアクティビティ名を使用することは、レポートソースとして[!UICONTROL Analytics for Target]を使用する場合はサポートされません。
 
@@ -42,7 +47,7 @@ A4T レポートを使用している別々の[&#x200B; ワークスペース &#
 ## 目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？
 
 +++回答
-レポートソース（A4T）として[!DNL Analytics]を使用するアクティビティの場合、目標指標は「[!UICONTROL &#x200B; アクティビティの増分数とユーザーをアクティビティ &#x200B;]」と「[!UICONTROL すべてのインプレッション &#x200B;]」の設定を使用します。 これらの設定は、*変更できません*。
+レポートソース（A4T）として[!DNL Analytics]を使用するアクティビティの場合、目標指標は「[!UICONTROL  アクティビティの増分数とユーザーをアクティビティ ]」と「[!UICONTROL すべてのインプレッション ]」の設定を使用します。 これらの設定は、*変更できません*。
 
 詳しくは、「目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？」 （[指標の定義 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)）を参照してください。
 
@@ -52,19 +57,19 @@ A4T レポートを使用している別々の[&#x200B; ワークスペース &#
 
 
 +++回答
-アクティビティが作成されると、[!DNL Target]は分類ファイルを[!DNL Analytics]に送信します。 [!DNL Analytics]はデータを取得および処理していますが、分類ファイルが更新されるまで、レポートにそれが表示されません。 このプロセスが完了するには24～72時間かかる場合があります。 72時間後にデータが表示されない場合は、[&#x200B; クライアントケアにお問い合わせください](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 または、アクティビティを起動したことがわかっている場合は、アクティビティを数日前に作成し、アクティビティの保存時に分類が送信されます。 こうすることで、開始時にレポートにデータが表示されます。 データが[!DNL Analytics]で処理されるまでに45 ～ 90分かかることに注意してください。
+アクティビティが作成されると、[!DNL Target]は分類ファイルを[!DNL Analytics]に送信します。 [!DNL Analytics]はデータを取得および処理していますが、分類ファイルが更新されるまで、レポートにそれが表示されません。 このプロセスが完了するには24～72時間かかる場合があります。 72時間後にデータが表示されない場合は、[ クライアントケアにお問い合わせください](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 または、アクティビティを起動したことがわかっている場合は、アクティビティを数日前に作成し、アクティビティの保存時に分類が送信されます。 こうすることで、開始時にレポートにデータが表示されます。 データが[!DNL Analytics]で処理されるまでに45 ～ 90分かかることに注意してください。
 
 +++
 
 ## アクティビティの作成時に、Analyticsをレポートソースとして選択できないのはなぜですか？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++回答
-[!UICONTROL &#x200B; レポート設定]のオプションは、[!UICONTROL 管理]で変更できます。
+[!UICONTROL  レポート設定]のオプションは、[!UICONTROL 管理]で変更できます。
 
 1. [!DNL Target]で、**[!UICONTROL 管理]**&#x200B;をクリックします。
 1. **[!UICONTROL レポートに使用する Experience Cloud ソリューション]**&#x200B;ドロップダウンリストで、「**[!UICONTROL アクティビティごとに選択]**」を選択します。
 
-![&#x200B; アクティビティごとの選択画像](assets/select-per-activity.png)
+![ アクティビティごとの選択画像](assets/select-per-activity.png)
 
 アクティビティを作成および編集する&#x200B;**[!UICONTROL 目標と設定]**&#x200B;画面で、**[!UICONTROL レポートソース]**&#x200B;ドロップダウンリストが有効になります。
 

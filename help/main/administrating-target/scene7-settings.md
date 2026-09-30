@@ -1,33 +1,41 @@
 ---
 keywords: scene7;dynamic media classic;デジタルアセット管理;アセット;dam;コンテンツライブラリ;画像の置き換え
-description: Adobe  [!DNL Target]  を Adobe Dynamic Media Classic（旧称 Scene7）と統合して、コンテンツライブラリでデジタルアセット管理（DAM）を実現する方法を説明します。
+description: Adobe [!DNL Target]をAdobe Dynamic Media Classic （旧Scene7）と統合して、コンテンツライブラリにデジタルアセット管理（DAM）を提供する方法について説明します。
 title: Dynamic Media Classic（Scene7）統合を設定するにはどうすればよいですか？
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-TQID: https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ
+TQID: 'https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 83%
-
+source-wordcount: '403'
+ht-degree: 78%
 ---
-
 # Dynamic Media Classic（旧称 Scene7）の設定
 
-[!DNL Adobe Target]を[!DNL Adobe Dynamic Media Classic] （旧[!DNL Scene7]）と統合して、[!UICONTROL &#x200B; コンテンツライブラリ &#x200B;]でデジタルアセット管理（DAM）を提供できます。
+[!DNL Adobe Target]を[!DNL Adobe Dynamic Media Classic] （旧[!DNL Scene7]）と統合して、[!UICONTROL  コンテンツライブラリ ]でデジタルアセット管理（DAM）を提供できます。
 
 {{permissions-update}}
 
@@ -43,7 +51,7 @@ ht-degree: 83%
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-この設定が設定されていない場合は、アクティビティ作成ワークフロー内の[!UICONTROL &#x200B; スワップ画像オファー] オプションは使用できません。 この設定を設定した後、画像オファーをスワップ/変更するオプションは、[Visual Experience Composer （VEC）とForm-Based Experience Composer &#x200B;](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)の両方で使用できます。 以降は、[!DNL Adobe Experience Cloud] からアップロードした画像を含んだ画像オファーを  [!DNL Target] アクティビティで利用できます。
+この設定が設定されていない場合は、アクティビティ作成ワークフロー内の[!UICONTROL  スワップ画像オファー] オプションは使用できません。 この設定を設定した後、画像オファーをスワップ/変更するオプションは、[Visual Experience Composer （VEC）とForm-Based Experience Composer ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)の両方で使用できます。 以降は、[!DNL Adobe Experience Cloud] からアップロードした画像を含んだ画像オファーを  [!DNL Target] アクティビティで利用できます。
 
 アクティビティの作成中に、オファーやカスタムコードで公開画像 URL を直接参照したい場合は、各自の Web サーバーに画像を展開し、コードで独自の URL を使用する必要があります。 [!DNL Experience Cloud] にアップロードされた画像の公開済み URL を取得して、直接使用したり、[!DNL Target] を使用するターゲティングワークフロー以外で使用したりすることはできません。 契約内容にあるように、この機能は許可されません。
 
@@ -55,12 +63,12 @@ ht-degree: 83%
 
 1. 以下の [!DNL Dynamic Media Classic] アカウント情報を指定します。
 
-   **地域：**&#x200B;[!DNL Dynamic Media] アカウントの地域は、北米、ヨーロッパ、アジアです。
+   **地域：**[!DNL Dynamic Media] アカウントの地域は、北米、ヨーロッパ、アジアです。
 
    **アドホックフォルダー：**&#x200B;ターゲットフォルダーの外部に存在し [!DNL Dynamic Media] に手動でアップロードされるコンテンツの場所。
 
-   **メールアドレス：**&#x200B;[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するメールアドレス
+   **メールアドレス：**[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するメールアドレス
 
-   **パスワード：**&#x200B;[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するパスワード
+   **パスワード：**[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するパスワード
 
 1. [**[!UICONTROL 送信]**] をクリックします。

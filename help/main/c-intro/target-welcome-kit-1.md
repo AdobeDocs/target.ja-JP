@@ -1,23 +1,31 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: Adobe Target で最適化とパーソナライゼーションのプログラムを開始しましょう。 Adobe  [!DNL Target] ウェルカムキットは出発点として最適です。
+description: Adobe Target で最適化とパーソナライゼーションのプログラムを開始しましょう。 Adobe [!DNL Target] ウェルカムキットは良い出発点です。
 title: Target を使い始めるにはどうすればよいですか。
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-TQID: https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44
+TQID: 'https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 91%
-
+source-wordcount: '381'
+ht-degree: 88%
 ---
-
 # 第 1 章：はじめに
 
 現在ほとんどの企業は、デジタルマーケティングのチャネルを最新化しています。 次に、自社ブランドを差別化する方法を探しています。グループから抜け出し、売上高やコンバージョン率数などの主要ビジネス指標を増やす方法を模索しています。 その方法の 1 つは、顧客に関する知識を活用して、顧客のデジタルエクスペリエンスを最適化およびパーソナライズし、Web サイト、モバイルサイト、モバイルアプリまたはその他のブランドのタッチポイントでの顧客の操作から最大限の結果を引き出すことです。 この最適化とパーソナライゼーションを、従来のデジタル接点から、キオスク、IoT （モノのインターネット） デバイス、コールセンターでのやり取り、Alexaのような音声アシスタントなどの顧客接点に拡張することもできます。 [!DNL Target] を使ってデジタルエクスペリエンスのテストとパーソナライズをおこなった企業は、驚異的な結果を実現しました。

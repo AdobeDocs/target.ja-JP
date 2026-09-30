@@ -4,13 +4,14 @@ description: 機能フラグの作成と管理を開始できるように、新�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 2%
-
+ht-degree: 5%
 ---
-
 # アプリケーションのオンボーディング {#onboard-your-application}
 
 新しいアプリケーションを追加するには、**管理者**&#x200B;の役割が必要です。 役割を確認または更新する必要がある場合は、管理者にお問い合わせください。

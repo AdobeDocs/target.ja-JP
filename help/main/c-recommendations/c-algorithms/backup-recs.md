@@ -1,25 +1,32 @@
 ---
 keywords: レコメンデーション;代替;予備
 description: Adobe [!DNL Target Recommendations]でバックアップの推奨事項を使用する方法について説明します。
-title: ' [!DNL Target Recommendations]でバックアップ レコメンデーションを使用するにはどうすればよいですか？'
+title: '[!DNL Target Recommendations]でバックアップ レコメンデーションを使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-TQID: https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0
+TQID: 'https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 533
+source-wordcount: '533'
 ht-degree: 72%
-
 ---
-
 # 代替レコメンデーションの使用
 
 [!DNL Adobe Target]でバックアップ推奨機能を使用する場合、十分な推奨項目を持たない推奨事項では、デフォルトのコンテンツは表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
@@ -28,7 +35,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->追加の情報は、「条件を作成[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」トピックの「 コンテンツ」セクションに含まれています。これには、[!UICONTROL 部分デザインレンダリング &#x200B;]および[!UICONTROL &#x200B; バックアップの推奨事項を表示] オプションを一緒にまたは個別に使用する場合に確認できる結果を説明するマトリックスが含まれます。
+>追加の情報は、「条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」トピックの「[ コンテンツ」セクションに含まれています。これには、[!UICONTROL 部分デザインレンダリング ]および[!UICONTROL  バックアップの推奨事項を表示] オプションを一緒にまたは個別に使用する場合に確認できる結果を説明するマトリックスが含まれます。
 
 バックアップのレコメンデーション機能は、アルゴリズムのデータが使用された後に、常にサイトで一番上に表示された項目を使用して、残りのスロットを埋めます。 例えば、テンプレートにレコメンデーション品目が 5 つ表示されるよう設定されていて、*購入の親和性*&#x200B;のアルゴリズムを使用しているとします。 ここで、5 つのスロットのうち 2 つ分のデータしかない場合は、代替レコメンデーション機能により、最多閲覧品目が残りの 3 つのスロットに挿入されます。
 
@@ -57,4 +64,4 @@ ht-degree: 72%
 
 代替レコメンデーションの使用については、初期セットアップ時に導入チームと話し合っていただくことになります。 導入後に代替レコメンデーション機能の設定を変更する場合は、アカウント担当者までお問い合わせください。
 
-部分デザインレンダリングを有効にする（[&#x200B; コンテンツ設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を参照）が有効になっておらず、テンプレートが表示されない場合は、代わりにバックアップの推奨事項またはデフォルトコンテンツが表示されます。
+部分デザインレンダリングを有効にする（[ コンテンツ設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を参照）が有効になっておらず、テンプレートが表示されない場合は、代わりにバックアップの推奨事項またはデフォルトコンテンツが表示されます。

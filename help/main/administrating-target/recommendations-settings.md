@@ -1,29 +1,35 @@
 ---
 keywords: レコメンデーションの実装；クライアントコード；認証トークン；業界垂直型；フィルターの互換性のないモード；デフォルトのホストグループ；サムネールベース；認証トークンの生成；認証トークン；
-description: ' [!DNL Adobe Target Recommendations]の設定の設定方法について説明します。'
+description: '[!DNL Adobe Target Recommendations]の設定の設定方法について説明します。'
 title: Recommendationsの設定を行うには、どうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-TQID: https://experienceleague.adobe.com/cv-jSXG4lc-kTUwbPj-EWgDa-PLNtdAHMWJDgzbGhYk
+TQID: 'https://experienceleague.adobe.com/cv-jSXG4lc-kTUwbPj-EWgDa-PLNtdAHMWJDgzbGhYk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 133
+source-wordcount: '133'
 ht-degree: 14%
-
 ---
-
 # [!DNL Recommendations]の設定
 
 [!DNL Adobe Target Recommendations]の設定の設定方法を説明します。
@@ -42,4 +48,4 @@ ht-degree: 14%
 * サムネールのベース URLを指定
 * カスタム属性キーの設定
 
-詳しくは、**[!DNL Adobe Target]開発者ガイド**&#x200B;の「[推奨事項の計画と実装](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank}」を参照してください。
+詳しくは、**[!DNL Adobe Target]開発者ガイド**&#x200B;の「[推奨事項の計画と実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}」を参照してください。

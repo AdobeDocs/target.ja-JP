@@ -4,13 +4,17 @@ description: Adobe TargetでのVisual Experience Composer （VEC）の使用方�
 title: Visual Experience Composer （VEC）の使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1382'
 ht-degree: 75%
-
 ---
-
 # Visual Experience Composer（VEC）
 
 [!DNL Adobe Target]での[!UICONTROL Visual Experience Composer] （VEC）の使用に関する情報。
@@ -70,7 +74,7 @@ VEC 内でページの読み込み中またはページの読み込みに失敗�
 * アクセスできなくなったページから既存のカスタムコードをコピーする
 * VEC 内でページが読み込まれないことはわかっているが、それでも簡単な編集を行いたい
 
-ページが読み込まれる間（または読み込みに失敗した後）、[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネル、[!UICONTROL 変更] パネル、およびエクスペリエンスの上部にある設定（オーバーレイ、変更、設定など）はすべてアクセス可能です。
+ページが読み込まれる間（または読み込みに失敗した後）、[!UICONTROL  エクスペリエンス ] パネル、[!UICONTROL 変更] パネル、およびエクスペリエンスの上部にある設定（オーバーレイ、変更、設定など）はすべてアクセス可能です。
 
 次の図は、ページの読み込み中にカスタムコードを挿入したり、その他のアクションを実行したりできることを示しています。
 
@@ -108,14 +112,14 @@ VEC内のページの読み込みをキャンセルするには、ページの�
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer （1/2） （7:17） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### Visual Experience Composer （1/2） （7:17） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/29948?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer （2/2） （7:29） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### Visual Experience Composer （2/2） （7:29） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
@@ -124,9 +128,9 @@ VEC内のページの読み込みをキャンセルするには、ページの�
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 勤務時間：Visual Experience Composer ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### 勤務時間：Visual Experience Composer ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオは、「[Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 

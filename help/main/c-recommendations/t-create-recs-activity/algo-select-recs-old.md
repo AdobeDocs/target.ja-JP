@@ -5,13 +5,20 @@ title: レコメンデーションアクティビティの基準を選択する�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 67%
-
 ---
-
 # 条件の選択
 
 [!DNL Adobe Target Recommendations] アクティビティで使用する[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を選択します。 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
@@ -32,10 +39,10 @@ ht-degree: 67%
 
    ![条件を選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/filters.png)
 
-   [!UICONTROL 業種タイプ &#x200B;] フィルター、[!UICONTROL &#x200B; ページ タイプ &#x200B;] フィルター、および[!UICONTROL 互換性] チェックボックスを使用して、条件のリストをフィルターできます。 これらのオプションは、目的の条件を探すのに役立ちます。
+   [!UICONTROL 業種タイプ ] フィルター、[!UICONTROL  ページ タイプ ] フィルター、および[!UICONTROL 互換性] チェックボックスを使用して、条件のリストをフィルターできます。 これらのオプションは、目的の条件を探すのに役立ちます。
 
    * **業種：**&#x200B;業種は、[!DNL Recommendations] 条件の分類に使用されます。 既定の業界の垂直方向を変更するには、**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**&#x200B;をクリックし、希望する既定の&#x200B;**[!UICONTROL Industry Vertical]**&#x200B;設定を選択します。
    * **ページタイプ：**&#x200B;ページタイプによって、レコメンデーションが分類しやすくなります。 それぞれのページタイプで選択できるビルトイン条件もあります。
    * **互換性：**&#x200B;選択されたページが必要なデータを渡す条件のみが表示されます。 すべてのページですべての条件が正しく実行されるわけではありません。 現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。 通常は、互換性のある条件のみを表示するようにします。 ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。 このオプションは、設定で無効にするか、有効にすることができます：**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**。
 
-1. 「**[!UICONTROL 次へ]**」をクリックして、[&#x200B; デザインを選択](/help/main/c-recommendations/c-design-overview/design-overview.md) ダイアログボックスを表示します。
+1. 「**[!UICONTROL 次へ]**」をクリックして、[ デザインを選択](/help/main/c-recommendations/c-design-overview/design-overview.md) ダイアログボックスを表示します。

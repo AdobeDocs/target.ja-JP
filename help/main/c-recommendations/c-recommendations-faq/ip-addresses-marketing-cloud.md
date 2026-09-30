@@ -1,22 +1,28 @@
 ---
 keywords: IP アドレス;IP アドレス;許可リスト;ファイアウォール;recs;フィード;サーバー;Adobe Experience Cloud;レコメンデーション
-description: ' [!DNL Target]  レコメンデーションのフィード処理サーバーで使用される IP アドレスのリストが表示されるので、アドビのサーバーから生じる IP アドレスを許可するようにファイアウォールを設定する際に役立ちます。'
+description: '[!DNL Target]件のRecommendations フィード処理サーバーで使用されているIP アドレスのリストを表示して、Adobe サーバーから送信されるIP アドレスを許可するようにファイアウォールを構成します。'
 title: レコメンデーションのフィード処理サーバーが使用する IP アドレス
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-TQID: https://experienceleague.adobe.com/-EhfjK6jTuHX33utQig-XYhf-nzkWlxb58VRmK9fLWo
+TQID: 'https://experienceleague.adobe.com/-EhfjK6jTuHX33utQig-XYhf-nzkWlxb58VRmK9fLWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 189
-ht-degree: 65%
-
+source-wordcount: '190'
+ht-degree: 52%
 ---
-
 # [!DNL Recommendations]個のフィード処理サーバーで使用されるIP アドレス
 
 [!DNL Adobe] サーバーからのIP アドレスを許可するようにファイアウォールを構成するために、[!DNL Adobe Target] [!DNL Recommendations] フィード処理サーバーで使用されるIP アドレスのリスト。

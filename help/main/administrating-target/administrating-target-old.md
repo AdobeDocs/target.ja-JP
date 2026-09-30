@@ -5,13 +5,20 @@ title: Target の管理方法について
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 47%
-
 ---
-
 # [!DNL Target] 管理の概要
 
 Visual Experience Composer （VEC）、レポート、Scene7設定、実装、ホスト、環境、応答トークン、ユーザーの設定設定など、[!DNL Adobe Target]の管理に役立つ情報です。

@@ -4,18 +4,21 @@ description: Adobe Targetの一般的なマーケターのユースケースを�
 title: Targetで使用できるエクスペリエンステンプレート？
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-TQID: https://experienceleague.adobe.com/0FXZ1swtrMyiz9mT8tvb9VIQxIIXsBrW0HelZ3sygm8
+TQID: 'https://experienceleague.adobe.com/0FXZ1swtrMyiz9mT8tvb9VIQxIIXsBrW0HelZ3sygm8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 60%
-
 ---
-
 # エクスペリエンステンプレート
 
 カスタムコードで使用する[!DNL Adobe Target] エクスペリエンステンプレートに関する情報。[!DNL Target] エクスペリエンステンプレートは、マーケターの一般的なユースケースを実行するために使用される、設定可能な入力を含む事前にコード化されたサンプルです。
@@ -62,7 +65,7 @@ ht-degree: 60%
 
 ## ライトボックス {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-[&#x200B; ライトボックスエクスペリエンステンプレート &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックスオーバーレイポップアップで、ホームページやランディングページ、またはその他の大量のエントリーページで一般的に使用されます。
+[ ライトボックスエクスペリエンステンプレート ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックスオーバーレイポップアップで、ホームページやランディングページ、またはその他の大量のエントリーページで一般的に使用されます。
 
 ![exp-template-lightbox image](assets/exp-template-lightbox.png)
 

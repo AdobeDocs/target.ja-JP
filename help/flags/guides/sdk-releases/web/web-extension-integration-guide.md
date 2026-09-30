@@ -3,13 +3,14 @@ title: Web統合ガイドのフラグ拡張機能
 description: Web アプリケーション用のAdobe Experience Platform Web SDK（Alloy）にFlags拡張機能を統合する方法について説明します。
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 8%
-
 ---
-
 # Web用フラグ拡張機能 {#web-extension-integration-guide}
 
 このガイドでは、Web アプリケーション用のAdobe Experience Platform Web SDK（Alloy）にFlags拡張機能を統合する方法について説明します。 フラグ拡張機能を使用すると、web エクスペリエンスの機能フラグ管理と制御されたロールアウトが可能になります。
@@ -169,7 +170,7 @@ const context = {
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`と`FeatureEvaluationContext`を渡します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 **機能が有効になっています** タグ条件を使用するか、初期化後にカスタムコードから`window._flagClient.isFeatureEnabled(...)`を呼び出します。
+`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`と`FeatureEvaluationContext`を渡します。 [評価コンテキスト ](#evaluation-context)を参照してください。 **機能が有効になっています** タグ条件を使用するか、初期化後にカスタムコードから`window._flagClient.isFeatureEnabled(...)`を呼び出します。
 
 **署名**
 
@@ -182,7 +183,7 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | string | フラグで評価する機能キー |
-| `context` | FeatureEvaluationContext | ID （必須）とオプションのターゲティング属性。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
+| `context` | FeatureEvaluationContext | ID （必須）とオプションのターゲティング属性。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
 
 ### 機能フラグデータ要素の作成 {#create-data-element}
 
@@ -251,7 +252,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | string | フラグで評価する機能キー |
-| `context` | FeatureEvaluationContext | ID （必須）とターゲティング属性。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
+| `context` | FeatureEvaluationContext | ID （必須）とターゲティング属性。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
 
 **応答**
 

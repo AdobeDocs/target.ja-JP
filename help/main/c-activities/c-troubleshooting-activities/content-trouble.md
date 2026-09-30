@@ -4,27 +4,36 @@ description: ページに期待した内容が表示されない場合は、問�
 title: コンテンツ配信のトラブルシューティング方法を教えてください。
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
+TQID: 'https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1689
+source-wordcount: '1689'
 ht-degree: 85%
-
 ---
-
 # コンテンツ配信のトラブルシューティング
 
 ページに意図するコンテンツが表示されない場合は、コンテンツ配信をデバッグするためにいくつかの手順をおこないます。
@@ -167,11 +176,11 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 
 ## [!DNL Target] アクティビティが、クエリ文字列パラメーターを使用して URL を正しく処理することを確認します。 {#query-strings}
 
-[!UICONTROL &#x200B; アクティビティ URL]は、アクティビティの訪問者を認定し、アクティビティエクスペリエンスをユーザーにレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
+[!UICONTROL  アクティビティ URL]は、アクティビティの訪問者を認定し、アクティビティエクスペリエンスをユーザーにレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
 
 デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は[Visual Experience Composer設定](/help/main/administrating-target/visual-experience-composer-set-up.md)で指定されたページを開きます。 アクティビティ作成中に、別のページを指定することもできます。
 
-VECが開いた後に別のページを表示するには、**[!UICONTROL ギアアイコン]**&#x200B;を設定/**[!UICONTROL ページ配信]**&#x200B;を選択をクリックし、[!UICONTROL &#x200B; アクティビティ URL] フィールドに目的のURLを指定します。
+VECが開いた後に別のページを表示するには、**[!UICONTROL ギアアイコン]**&#x200B;を設定/**[!UICONTROL ページ配信]**&#x200B;を選択をクリックし、[!UICONTROL  アクティビティ URL] フィールドに目的のURLを指定します。
 
 ![ページ配信設定 UI の設定](assets/configure-page-delivery.png)
 
@@ -197,7 +206,7 @@ URL にクエリ文字列パラメーターが含まれている場合はどう�
 
 ### オプション 3：完全な URL をターゲットにせず、URL の特定の部分を利用する。
 
-このシナリオでは、URLは`https://shopping.mycart.com?type=Summers%20Offers`で、追加のテンプレートルールは[!UICONTROL type] > [!UICONTROL is （大文字と小文字が区別されます） &#x200B;] > type=Summers%20Offersで[!UICONTROL &#x200B; クエリ &#x200B;]を指定し、OR演算子で区切ります。
+このシナリオでは、URLは`https://shopping.mycart.com?type=Summers%20Offers`で、追加のテンプレートルールは[!UICONTROL type] > [!UICONTROL is （大文字と小文字が区別されます） ] > type=Summers%20Offersで[!UICONTROL  クエリ ]を指定し、OR演算子で区切ります。
 
 ![URL の特定の部分を活用するテンプレートルール](assets/option3.png)
 
@@ -218,14 +227,14 @@ adobe.target.trackEvent({
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### 拡張機能![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)を追加
+### 拡張機能![ チュートリアルバッジ ](/help/main/assets/tutorial.png)を追加
 
->[!VIDEO](https://video.tv.adobe.com/v/34063?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Adobe Target の基本的なデバッグ ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34064?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34065?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

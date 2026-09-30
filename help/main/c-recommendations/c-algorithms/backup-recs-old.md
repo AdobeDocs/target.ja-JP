@@ -1,17 +1,24 @@
 ---
 keywords: レコメンデーション;代替;予備
-description: Adobe [!DNL Target] Recommendationsでバックアップの推奨事項を使用する方法について説明します。 十分な推奨項目がない推奨事項には、バックアップアルゴリズムの結果が表示されます。
+description: Adobe [!DNL Target]の推奨事項でバックアップの推奨事項を使用する方法について説明します。 十分な推奨項目がない推奨事項には、バックアップアルゴリズムの結果が表示されます。
 title: Recommendationsでバックアップのレコメンデーションを使用する方法を教えてください。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '552'
 ht-degree: 78%
-
 ---
-
 # 代替レコメンデーションの使用
 
 [!DNL Adobe Target]でバックアップの推奨機能を使用する場合、十分な推奨項目がない推奨事項では、デフォルトのコンテンツは表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
@@ -20,7 +27,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->追加の情報は、「条件を作成[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」トピックの「 コンテンツ」セクションに含まれています。これには、[!UICONTROL 部分デザインレンダリング &#x200B;]および[!UICONTROL &#x200B; バックアップの推奨事項を表示] オプションを一緒にまたは個別に使用する場合に確認できる結果を説明するマトリックスが含まれます。
+>追加の情報は、「条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」トピックの「[ コンテンツ」セクションに含まれています。これには、[!UICONTROL 部分デザインレンダリング ]および[!UICONTROL  バックアップの推奨事項を表示] オプションを一緒にまたは個別に使用する場合に確認できる結果を説明するマトリックスが含まれます。
 
 代替レコメンデーション機能では、アルゴリズムのデータが使用された後の残りのスロットに、常にそのサイトの最多閲覧品目が挿入されます。 例えば、テンプレートにレコメンデーション品目が 5 つ表示されるよう設定されていて、*購入の親和性*&#x200B;のアルゴリズムを使用しているとします。 ここで、5 つのスロットのうち 2 つ分のデータしかない場合は、代替レコメンデーション機能により、最多閲覧品目が残りの 3 つのスロットに挿入されます。
 
@@ -49,4 +56,4 @@ ht-degree: 78%
 
 代替レコメンデーションの使用については、初期セットアップ時に導入チームと話し合っていただくことになります。 導入後に代替レコメンデーション機能の設定を変更する場合は、アカウント担当者までお問い合わせください。
 
-部分デザインレンダリングを有効にする（[&#x200B; コンテンツ設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を参照）が有効になっておらず、テンプレートが表示されない場合は、代わりにバックアップの推奨事項またはデフォルトコンテンツが表示されます。
+部分デザインレンダリングを有効にする（[ コンテンツ設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を参照）が有効になっておらず、テンプレートが表示されない場合は、代わりにバックアップの推奨事項またはデフォルトコンテンツが表示されます。

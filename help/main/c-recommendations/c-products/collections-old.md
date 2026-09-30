@@ -1,17 +1,24 @@
 ---
 keywords: コレクション;ターゲティング
-description: ' [!DNL Target Recommendations]の製品またはアイテムのコレクションを使用する方法を説明します。'
+description: '[!DNL Target Recommendations]の製品またはアイテムのコレクションを使用する方法を説明します。'
 title: レコメンデーションアクティビティでコレクションを使用するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '898'
 ht-degree: 44%
-
 ---
-
 # コレクション
 
 コレクションは、レコメンデーションに使用できる商品または品目のセットです。 コレクションは、そのコレクションに含まれるアイテムが満たす必要がある条件を指定することによって定義されます。
@@ -32,7 +39,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->[!UICONTROL 最近閲覧したアイテム &#x200B;]のレコメンデーションキーを使用する場合、コレクションは適用されません。
+>[!UICONTROL 最近閲覧したアイテム ]のレコメンデーションキーを使用する場合、コレクションは適用されません。
 
 ## コレクションの作成 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,11 +49,11 @@ ht-degree: 44%
 
    ![コレクションリスト](assets/collections_list.png)
 
-   [!UICONTROL &#x200B; コレクション &#x200B;] ページには、既存のコレクションのリストが表示されます。 「[!UICONTROL &#x200B; コレクションを作成]」ボタンをクリックして、新しいコレクションを作成します。 また、目的のコレクションにカーソルを合わせて目的のアイコンをクリックすると、既存のコレクションを編集、コピー、削除することもできます。
+   [!UICONTROL  コレクション ] ページには、既存のコレクションのリストが表示されます。 「[!UICONTROL  コレクションを作成]」ボタンをクリックして、新しいコレクションを作成します。 また、目的のコレクションにカーソルを合わせて目的のアイコンをクリックすると、既存のコレクションを編集、コピー、削除することもできます。
 
-   ![&#x200B; アイコンにカーソルを合わせる：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   ![ アイコンにカーソルを合わせる：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL &#x200B; コレクション &#x200B;] リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   [!UICONTROL  コレクション ] リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 
@@ -64,15 +71,15 @@ ht-degree: 44%
 
    ルールを追加し、複数のパラメーターを使用して、コレクションを定義することができます。 複数のルールをAND演算子で結合します。 コレクションが適用されるには、指定したすべてのルールに合致する必要があります。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## 詳細検索を使用したコレクションの作成
 
-また、[&#x200B; カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ （[!UICONTROL Recommendations] > [!UICONTROL &#x200B; カタログ検索] > [!UICONTROL 高度な検索]）で高度な検索を使用してコレクションを作成することもできます。
+また、[ カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ （[!UICONTROL Recommendations] > [!UICONTROL  カタログ検索] > [!UICONTROL 高度な検索]）で高度な検索を使用してコレクションを作成することもできます。
 
-![別名で保存ダイアログ &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
+![別名で保存ダイアログ ](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-例えば、「id >次を含む」を使用して検索を作成した後、[!UICONTROL 別名で保存] > [!UICONTROL &#x200B; コレクション &#x200B;]をクリックできます。
+例えば、「id >次を含む」を使用して検索を作成した後、[!UICONTROL 別名で保存] > [!UICONTROL  コレクション ]をクリックできます。
 
 >[!IMPORTANT]
 >
@@ -82,7 +89,7 @@ ht-degree: 44%
 
 リスト内の目的のコレクションにカーソルを合わせ、編集、コピー、削除の適切なアイコンをクリックします。
 
-コレクションの![&#x200B; アイコンにカーソルを合わせる](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+コレクションの![ アイコンにカーソルを合わせる](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 
 既存のコレクションをコピーして重複したコレクションを作成し、それを変更できます。 これにより、より少ない労力で同様の除外を作成できます。
 
@@ -94,19 +101,19 @@ ht-degree: 44%
 
 1. **[!UICONTROL アクティビティ]**&#x200B;と[をクリックして、新しいRecommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
 
-1. 条件とデザインを選択すると、目的のコレクションを選択すると、[!UICONTROL &#x200B; オプション &#x200B;] ページが表示されます。
+1. 条件とデザインを選択すると、目的のコレクションを選択すると、[!UICONTROL  オプション ] ページが表示されます。
 
-   ![&#x200B; コレクションオプションを選択](/help/main/c-recommendations/c-products/assets/choose-collection.png)
+   ![ コレクションオプションを選択](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
 1. （条件付き）既存のコレクション設定を変更するには、**[!UICONTROL エクスペリエンス]** ページ（3部構成のガイド付きワークフローのステップ 2）で、レコメンデーションを配置した場所をクリックし、**[!UICONTROL コレクションを変更]**&#x200B;をクリックしてから、目的のコレクションを選択します。
 
-   ![&#x200B; コレクションの変更オプション &#x200B;](/help/main/c-recommendations/c-products/assets/change-collection.png)
+   ![ コレクションの変更オプション ](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
 * コレクションの作成
 * 除外の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/35311?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

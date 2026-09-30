@@ -1,21 +1,27 @@
 ---
 keywords: 複数値；属性；レコメンデーション；複数値；複数値；複数値
-description: 特殊な複数値の演算子を使用して [!DNL Target Recommendations] の複数値フィールドを操作する方法を説明します。
+description: 特殊な複数値の演算子を使用して、[!DNL Target Recommendations]の複数値フィールドを操作する方法を説明します。
 title: レコメンデーションで複数値の属性を使用できますか？
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-TQID: https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE
+TQID: 'https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 470
+source-wordcount: '471'
 ht-degree: 8%
-
 ---
-
 # 複数値の属性の扱い
 
 複数の値を持つフィールドを操作したい場合もあります。 次の例をご覧ください。
@@ -68,8 +74,8 @@ function targetPageParams() {
 
 複数値のエンティティ、プロファイルおよびmbox属性で使用できる演算子は次のとおりです。
 
-* [!UICONTROL はリスト &#x200B;]に含まれています
-* [!UICONTROL はリスト &#x200B;]に含まれていません
+* [!UICONTROL はリスト ]に含まれています
+* [!UICONTROL はリスト ]に含まれていません
 
 ## 包含ルールでの複数値の属性の操作
 

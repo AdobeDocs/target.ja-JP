@@ -1,28 +1,35 @@
 ---
 keywords: Analytics トラッキングサーバー;A4T;Analytics セグメント;レポートスイート;誤ったデータ;親なし;sdid;VisitorAPI.js;mboxMCSDID;ファントム;未指定
-description: Analytics for  [!DNL Target] （A4T）使用時の一般的な問題について説明します。
-title: Analytics と  [!DNL Target]  の統合（A4T）のトラブルシューティング方法
+description: '[!DNL Target] （A4T）にAnalyticsを使用する際に顧客が発生した一般的な問題について説明します。'
+title: Analyticsと[!DNL Target]統合（A4T）のトラブルシューティング方法
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+TQID: 'https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 965
-ht-degree: 89%
-
+source-wordcount: '966'
+ht-degree: 87%
 ---
-
 # Analytics と [!DNL Target] の統合（A4T）のトラブルシューティング
 
 このトピックでは、[!DNL Adobe Analytics] を [!DNL Adobe Target] のレポートソースとして使用する場合（A4T）に発生する一般的な問題について説明します。
@@ -55,11 +62,11 @@ ht-degree: 89%
 
 データの表示に使用する指標に応じて、レポートに「[!UICONTROL 未指定]」イベント行が表示される場合があります。
 
-通常、この行は、[!DNL Target]固有ではないレポート内の共通の指標（例：[!UICONTROL &#x200B; ページビュー]、[!UICONTROL 訪問]、[!UICONTROL &#x200B; ユニーク訪問者]など）を選択した場合に表示されます。 この場合、[!UICONTROL &#x200B; 「未指定」の]行には、[!DNL Target] アクティビティに関連付けられていない[!UICONTROL &#x200B; ページビュー]、[!UICONTROL 訪問]および[!UICONTROL &#x200B; ユニーク訪問者]がすべて含まれます。
+通常、この行は、[!DNL Target]固有ではないレポート内の共通の指標（例：[!UICONTROL  ページビュー]、[!UICONTROL 訪問]、[!UICONTROL  ユニーク訪問者]など）を選択した場合に表示されます。 この場合、[!UICONTROL  「未指定」の]行には、[!DNL Target] アクティビティに関連付けられていない[!UICONTROL  ページビュー]、[!UICONTROL 訪問]および[!UICONTROL  ユニーク訪問者]がすべて含まれます。
 
 その行には [!DNL Target] 関連情報（訪問者数、訪問数、インプレッション数など）が含まれることはありません。 詳しくは、*Analytics テクニカルノート*&#x200B;にある レポートにある[「未指定」、「なし」、「その他」、「不明」をご覧ください](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ja)。
 
-レポートで[!DNL Target]固有の指標を選択した場合、[!UICONTROL &#x200B; 「未指定」 &#x200B;]行は表示されません。 レポート全体がこの特性を持つことを回避する唯一の方法は、そのページから送信されるすべてのリクエストで、一般的でも必要でもない、[!DNL Target] 呼び出しを設定することです。
+レポートで[!DNL Target]固有の指標を選択した場合、[!UICONTROL  「未指定」 ]行は表示されません。 レポート全体がこの特性を持つことを回避する唯一の方法は、そのページから送信されるすべてのリクエストで、一般的でも必要でもない、[!DNL Target] 呼び出しを設定することです。
 
 ## 売上高指標の推定上昇率に正しいデータが表示されません。 {#section_35D766E5E4D347C39E15D08AA883FBB0}
 

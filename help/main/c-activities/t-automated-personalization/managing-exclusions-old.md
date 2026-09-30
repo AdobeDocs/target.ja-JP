@@ -1,18 +1,27 @@
 ---
 keywords: 重複排除；重複を許可；重複するオファーを除外；自動パーソナライゼーション；重複するオファーを許可しない；除外；デフォルトコンテンツ；除外グループ；
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）アクティビティの除外を管理します。 除外グループを作成し、重複するオファー、特定のエクスペリエンス、デフォルトコンテンツを除外します。'
+description: '[!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）アクティビティの除外を管理します。 除外グループを作成し、重複するオファー、特定のエクスペリエンス、デフォルトコンテンツを除外します。'
 title: '[!UICONTROL Automated Personalization] アクティビティの除外を管理するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 49%
-
 ---
-
 # 除外の管理
 
 除外グループを作成し、重複するオファーを除外し、特定のエクスペリエンスを除外し、[!UICONTROL Automated Personalization] （AP）アクティビティのデフォルトコンテンツを[!DNL Adobe Target]で除外することで、除外を管理します。
@@ -31,7 +40,7 @@ ht-degree: 49%
 
    ![コンテンツを管理リンク](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. [!UICONTROL &#x200B; コンテンツを管理] ダイアログボックスで、**[!UICONTROL 除外グループ]**&#x200B;をクリックします。
+1. [!UICONTROL  コンテンツを管理] ダイアログボックスで、**[!UICONTROL 除外グループ]**&#x200B;をクリックします。
 
    ![コンテンツを管理／除外グループダイアログボックス](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
@@ -49,7 +58,7 @@ ht-degree: 49%
 
    除外グループでは同じ場所から複数のオファーを選択できます。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 除外グループ内のオファーは、今後、同じエクスペリエンスから自動的に除外されます。
 
@@ -85,9 +94,9 @@ ht-degree: 49%
 
    ![エクスペリエンスの一括除外](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
-   このリストビューをフィルタリングして、[!UICONTROL &#x200B; ステータス &#x200B;] ドロップダウンリストをクリックすることで、除外されたアクティビティのみを表示したり、含まれたアクティビティのみを表示したりできます。
+   このリストビューをフィルタリングして、[!UICONTROL  ステータス ] ドロップダウンリストをクリックすることで、除外されたアクティビティのみを表示したり、含まれたアクティビティのみを表示したりできます。
 
-   エクスペリエンスがアクティビティから除外され、その[!UICONTROL &#x200B; ステータス &#x200B;]が[!UICONTROL 除外]として表示されるようになりました。
+   エクスペリエンスがアクティビティから除外され、その[!UICONTROL  ステータス ]が[!UICONTROL 除外]として表示されるようになりました。
 
    ![除外されたエクスペリエンス](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
@@ -100,7 +109,7 @@ AP アクティビティでテストするオファーに合わせてページ�
 **[!UICONTROL Visual Experience Composer] （VEC）を使用してデフォルトコンテンツを除外するには：**
 
 1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)に、置き換えるコンテンツを選択し、クリックして&#x200B;**[!UICONTROL テキストの変更/HTML]**、**[!UICONTROL 画像の変更]**、**[!UICONTROL 背景色の変更]**&#x200B;にアクセスします。
-1. ダイアログボックスで、新しいコンテンツを作成し、デフォルトコンテンツの右側にある&#x200B;**含める**&#x200B;のチェックを外します（または、[!UICONTROL &#x200B; コンテンツを選択]画面でデフォルトの画像/ビデオのチェックを外します）。
+1. ダイアログボックスで、新しいコンテンツを作成し、デフォルトコンテンツの右側にある&#x200B;**含める**&#x200B;のチェックを外します（または、[!UICONTROL  コンテンツを選択]画面でデフォルトの画像/ビデオのチェックを外します）。
 
    コンテンツまたはオファーのタイプに応じて、[!UICONTROL 含める] チェックボックスは少し異なる場所にあります。
 
@@ -118,14 +127,14 @@ AP アクティビティでテストするオファーに合わせてページ�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   [!UICONTROL コンテンツを管理]で、指定したオファーを基に作成されたエクスペリエンスを確認できます。 [!UICONTROL &#x200B; コンテンツを管理]では、除外した既定のオファーを使用してエクスペリエンスが作成されないことに注意してください。
+   [!UICONTROL コンテンツを管理]で、指定したオファーを基に作成されたエクスペリエンスを確認できます。 [!UICONTROL  コンテンツを管理]では、除外した既定のオファーを使用してエクスペリエンスが作成されないことに注意してください。
 
    ![exclude_content_vec_4 image](assets/exclude_content_vec_4.png)
 
 **フォームベースのExperience Composer [!UICONTROL を使用してデフォルトコンテンツを除外するには、]:**
 
 1. AP アクティビティを作成または編集しているときに、**[!UICONTROL コンテンツ]**&#x200B;で「**[!UICONTROL テキスト / HTML を変更]**」または「**[!UICONTROL 画像オファーを変更]**」をクリックします。
-1. ダイアログボックスで、新しいコンテンツを作成し、デフォルトコンテンツの右側にある&#x200B;**[!UICONTROL 含める]**&#x200B;のチェックを外します（または、[!UICONTROL &#x200B; コンテンツを選択]画面でデフォルトの画像/ビデオのチェックを外します）。
+1. ダイアログボックスで、新しいコンテンツを作成し、デフォルトコンテンツの右側にある&#x200B;**[!UICONTROL 含める]**&#x200B;のチェックを外します（または、[!UICONTROL  コンテンツを選択]画面でデフォルトの画像/ビデオのチェックを外します）。
 
    コンテンツまたはオファーのタイプに応じて、[!UICONTROL 含める] チェックボックスは少し異なる場所にあります。
 
@@ -139,6 +148,6 @@ AP アクティビティでテストするオファーに合わせてページ�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   [!UICONTROL コンテンツを管理]で、指定したオファーを基に作成されたエクスペリエンスを確認できます。 [!UICONTROL &#x200B; コンテンツを管理]では、除外した既定のオファーを使用してエクスペリエンスが作成されないことに注意してください。
+   [!UICONTROL コンテンツを管理]で、指定したオファーを基に作成されたエクスペリエンスを確認できます。 [!UICONTROL  コンテンツを管理]では、除外した既定のオファーを使用してエクスペリエンスが作成されないことに注意してください。
 
    ![exclude_content_form_3 image](assets/exclude_content_form_3.png)

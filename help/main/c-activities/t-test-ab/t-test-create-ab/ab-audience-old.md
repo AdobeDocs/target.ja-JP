@@ -1,16 +1,23 @@
 ---
 keywords: オーディエンス;オーディエンスの選択;オーディエンスの選択;セレクター
-description: オーディエンスは、Adobe [!DNL Target]  アクティビティに参加するサイト訪問者を決定します。
-title: A [!DNL Target] A/B アクティビティでオーディエンスを選択するにはどうすればよいですか？
+description: オーディエンスは、Adobe [!DNL Target] アクティビティに参加するサイト訪問者を決定します。
+title: '[!DNL Target] A/B アクティビティでオーディエンスを選択する方法を教えてください。'
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 68%
-
+source-wordcount: '440'
+ht-degree: 69%
 ---
-
 # オーディエンスの選択
 
 オーディエンスは、どのサイト訪問者が[!DNL Adobe Target] アクティビティに入力されるかを決定します。
@@ -19,7 +26,7 @@ ht-degree: 68%
 >
 >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
-1. [!UICONTROL &#x200B; オーディエンス &#x200B;] ボックスで、**[!UICONTROL 編集]** アイコン （垂直省略記号）をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックします。
+1. [!UICONTROL  オーディエンス ] ボックスで、**[!UICONTROL 編集]** アイコン （垂直省略記号）をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックします。
 
    ![「オーディエンスを置換」オプション](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
@@ -30,17 +37,17 @@ ht-degree: 68%
    * ライブラリからオーディエンスを選択します
    * [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
    * [新しいオーディエンスの作成](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [&#x200B; アクティビティのみのオーディエンスを作成](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
+   * [ アクティビティのみのオーディエンスを作成](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 
    特定のオーディエンスターゲティングを使用しないA/B テストの場合は、デフォルトの[!UICONTROL すべての訪問者]を選択します。
 
-   オーディエンスを編集またはコピーするには、[!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスで目的のオーディエンスにカーソルを合わせます（下図を参照）。
+   オーディエンスを編集またはコピーするには、[!UICONTROL  オーディエンスを追加] ダイアログボックスで目的のオーディエンスにカーソルを合わせます（下図を参照）。
 
    オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。 オーディエンスのコピーを作成して編集し、新しいオーディエンスとして保存できます。 このホバー機能は、他のタイプのアクティビティでも利用できます。
 
    ![オーディエンスにマウスポインターを置く](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-   オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。 [!UICONTROL &#x200B; カスタムパラメーター]で、mboxを選択し、目的のパラメーターを指定します。
+   オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。 [!UICONTROL  カスタムパラメーター]で、mboxを選択し、目的のパラメーターを指定します。
 
    >[!NOTE]
    >
@@ -58,7 +65,7 @@ ht-degree: 68%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Adobe Targetでのオーディエンスの使用（6:21） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+### Adobe Targetでのオーディエンスの使用（6:21） ![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 
@@ -68,9 +75,9 @@ ht-degree: 68%
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/29956?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### アクティビティワークフロー – ターゲティング （2:14） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### アクティビティワークフロー - ターゲティング（2:14）![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
 このビデオでは、オーディエンスのセットアップに関する情報が説明されています。
 

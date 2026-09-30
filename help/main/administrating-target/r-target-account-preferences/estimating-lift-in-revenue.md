@@ -5,29 +5,35 @@ title: 売上向上の見積もり？
 feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-TQID: https://experienceleague.adobe.com/eWWLgz5vRvlFKz5k52nASWHGRx4uzbxbPqcWD8sSzBE
+TQID: 'https://experienceleague.adobe.com/eWWLgz5vRvlFKz5k52nASWHGRx4uzbxbPqcWD8sSzBE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: '536'
 ht-degree: 84%
-
 ---
-
 # 売上高上昇の予測
 
 [!DNL Adobe Target]を使用して、すべてのユーザーが勝者エクスペリエンスを表示した場合に達成する収益向上を見積もります。
 
 >[!NOTE]
 >
->現時点では、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティの推定上昇率は利用できません。
+>現時点では、[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティの推定上昇率は利用できません。
 
 デフォルトでは、上昇予測機能はオフになっています。 この機能は、アカウントの環境設定で有効にすることができます。 この機能の有効化と無効化は、Experience Cloud の管理者ユーザーだけがおこなえます。 上昇予測機能が無効になっている場合、対応するフィールドはインターフェイスに表示されません。 この機能を無効にしても、独自の予測に使用したデータをはじめ、データを失うことはありません。 予測は、この機能が有効であるかどうかにかかわらず、収集したデータに基づいて計算されます。
 

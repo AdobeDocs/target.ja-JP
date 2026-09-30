@@ -4,19 +4,26 @@ description: 上昇率や信頼性などの主要指標に焦点を当てて、[
 title: '[!UICONTROL 自動割り当て] レポートの解釈を行う方法を教えてください。'
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-TQID: https://experienceleague.adobe.com/o4mFGMk-M5QUvJ57kYnfjMPvVZL8l6YegJQSJyHjAxc
+TQID: 'https://experienceleague.adobe.com/o4mFGMk-M5QUvJ57kYnfjMPvVZL8l6YegJQSJyHjAxc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: '1253'
 ht-degree: 45%
-
 ---
-
 # [!UICONTROL 自動割り当て] レポートを解釈
 
 [!UICONTROL Adobe Target]の[!UICONTROL 自動配分]A/B アクティビティの結果を、上昇率と信頼性を含む重要な指標を確認して解釈します。
@@ -33,7 +40,7 @@ ht-degree: 45%
 
 明確な勝者が宣言されると、[!DNL Target]には「勝者：エクスペリエンス *X*」バッジが表示されます。
 
-![勝者バッジ &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+![勝者バッジ ](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
@@ -41,7 +48,7 @@ ht-degree: 45%
 
 ## [!UICONTROL 自動配分]の統計的保証 {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
-A/B アクティビティの終了時に、[!UICONTROL 自動配分]は、決定された勝者の実効偽陽性率が5%であることを保証します。 これはその時点のみの 5 ％を意味し、決定された勝者が実際にアクティビティのすべてのエクスペリエンスの中で最高のエクスペリエンスというわけではありません。 [A/A テスト &#x200B;](/help/main/c-activities/t-test-ab/aa-testing.md) （同じエクスペリエンスを使用）の場合、[!DNL Target]は5%未満の確率でテストを終了します。 （同一のエクスペリエンスでの）A/A テストに対して期待される動作は無期限に実行されることであるので、勝者バッジは決して表示されません。
+A/B アクティビティの終了時に、[!UICONTROL 自動配分]は、決定された勝者の実効偽陽性率が5%であることを保証します。 これはその時点のみの 5 ％を意味し、決定された勝者が実際にアクティビティのすべてのエクスペリエンスの中で最高のエクスペリエンスというわけではありません。 [A/A テスト ](/help/main/c-activities/t-test-ab/aa-testing.md) （同じエクスペリエンスを使用）の場合、[!DNL Target]は5%未満の確率でテストを終了します。 （同一のエクスペリエンスでの）A/A テストに対して期待される動作は無期限に実行されることであるので、勝者バッジは決して表示されません。
 
 [!DNL Target]は、[!UICONTROL 自動配分]に対してp値ベースの信頼性を使用しません。
 
@@ -55,7 +62,7 @@ A/B アクティビティの終了時に、[!UICONTROL 自動配分]は、決定
 
 ## [!UICONTROL 自動配分] アクティビティでの上昇率と信頼性のレポートについて {#lift-confidence}
 
-[!UICONTROL 自動割り当て] アクティビティでは、最初のエクスペリエンス（デフォルトではエクスペリエンス A）は常に「[!UICONTROL &#x200B; レポート &#x200B;]」タブの「コントロール」エクスペリエンスとして定義されます。 このエクスペリエンスは、エクスペリエンスのパフォーマンスを決定するために使用されるモデリングでは真の統計的コントロールとして扱われませんが、レポート内の一部の図に対する参照またはベースラインとして扱われます。
+[!UICONTROL 自動割り当て] アクティビティでは、最初のエクスペリエンス（デフォルトではエクスペリエンス A）は常に「[!UICONTROL  レポート ]」タブの「コントロール」エクスペリエンスとして定義されます。 このエクスペリエンスは、エクスペリエンスのパフォーマンスを決定するために使用されるモデリングでは真の統計的コントロールとして扱われませんが、レポート内の一部の図に対する参照またはベースラインとして扱われます。
 
 「上昇率」の数値と各エクスペリエンスの 95％範囲は、常に定義された「コントロール」エクスペリエンスを参照して計算されます。 定義された「コントロール」エクスペリエンスには、それ自体を基準とした上昇率を設定できないので、このエクスペリエンスに対して空の「---」値がレポートされます。 A/B テストとは異なり、[!UICONTROL 自動配分] テストでは、エクスペリエンスが定義されたコントロールよりも悪いパフォーマンスを示した場合、負の上昇率はレポートされません。代わりに、「 – 」が表示されます。
 
@@ -79,12 +86,12 @@ A/B アクティビティの終了時に、[!UICONTROL 自動配分]は、決定
 
   [!UICONTROL 自動割り当て]は、特定のエクスペリエンスがアクティビティ内のすべてのエクスペリエンスで真の勝者になる可能性を示します。 勝者エクスペリエンス（勝者になる可能性が最も高い）のみが、ゼロ以外の信頼値を持ちます。 その他の人は敗者になる可能性が最も高く、0%を表示します。
 
-* [!UICONTROL 自動割り当て]は、勝者エクスペリエンスが60%の信頼性を集めた後にのみ、信頼性を示し始めます。 これらの信頼性レベルは通常、通常のA/B テストが完了するまでに要する時間の約半分の時間で表示されます（ただし、この時間枠は保証されません）。 通常のA/B テストを実行する時間を決定するには、[!DNL Adobe Target] [&#x200B; サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用します。プラグコントロールのコンバージョン率は、「ベースラインのコンバージョン率」、「上昇率」は「5%」、「信頼性」は「95%」です。 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。 これは、信頼がいつ現れるかについてのアイデアを提供します。
+* [!UICONTROL 自動割り当て]は、勝者エクスペリエンスが60%の信頼性を集めた後にのみ、信頼性を示し始めます。 これらの信頼性レベルは通常、通常のA/B テストが完了するまでに要する時間の約半分の時間で表示されます（ただし、この時間枠は保証されません）。 通常のA/B テストを実行する時間を決定するには、[!DNL Adobe Target] [ サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用します。プラグコントロールのコンバージョン率は、「ベースラインのコンバージョン率」、「上昇率」は「5%」、「信頼性」は「95%」です。 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。 これは、信頼がいつ現れるかについてのアイデアを提供します。
 
 * レポートがボード全体で 0％を表示している場合、アクティビティに入るのが早すぎた可能性があります。
 
-### [!UICONTROL Analyticsをレポートソース &#x200B;] （A4T）として使用する[!UICONTROL 自動配分] アクティビティで、「勝者なし」、「勝者」および「スター」バッジを使用できますか？
+### [!UICONTROL Analyticsをレポートソース ] （A4T）として使用する[!UICONTROL 自動配分] アクティビティで、「勝者なし」、「勝者」および「スター」バッジを使用できますか？
 
 現在、[!DNL Analysis Workspace]の[!UICONTROL A4T] パネルでは、「まだ勝者なし」および「勝者」バッジは使用できません。 これらのバッジは、同じレポートを [!DNL Target] で表示した場合にも利用できません。 A4Tを使用する[!UICONTROL 自動配分] アクティビティの[!DNL Target] レポートに表示される勝者「星」バッジは無視する必要があります。
 
-この制限と他の注意事項について詳しくは、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティ *の* A4T サポートの[自動配分](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)を参照してください。
+この制限と他の注意事項について詳しくは、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット ] アクティビティ *の* A4T サポートの[自動配分](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)を参照してください。

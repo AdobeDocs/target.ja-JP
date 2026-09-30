@@ -1,17 +1,24 @@
 ---
 keywords: カスタム条件作成;アルゴリズム;条件;レコメンデーション条件;csv;ftp;csv のアップロード
-description: Adobe [!DNL Target] RecommendationsでレコメンデーションをカスタマイズするためにCSV ファイルをアップロードする方法について説明します。
+description: Adobe [!DNL Target]の推奨事項で、推奨事項をカスタマイズするためにCSV ファイルをアップロードする方法について説明します。
 title: レコメンデーションにカスタム基準をアップロードするにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '736'
 ht-degree: 34%
-
 ---
-
 # カスタム条件のアップロード
 
 CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメンデーションをカスタマイズします。
@@ -38,13 +45,13 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
       >
       >上記の手順により、[!UICONTROL 新規条件の作成] ダイアログボックスの下部に「[!UICONTROL CSV]をアップロード」セクションが表示されます。
 
-1. （条件付き）「[&#x200B; コンテンツをバックアップ &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
+1. （条件付き）「[ コンテンツをバックアップ ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
 
-1. （条件付き）「[包含ルール &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
+1. （条件付き）「[包含ルール ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
 
 1. 「**[!UICONTROL CSVをアップロード]**」セクションで、CSV ファイルの&#x200B;**[!UICONTROL 場所]**&#x200B;を選択します。
 
-   ![CSV セクションをアップロード &#x200B;](assets/upload-csv.png)
+   ![CSV セクションをアップロード ](assets/upload-csv.png)
 
    アップロードを成功させるには、CSV ファイルが正しくフォーマットされている必要があります。 「**[!UICONTROL CSV テンプレートのダウンロード]**」をクリックして、正しくフォーマットされた CSV ファイルをダウンロードします。
 
@@ -53,7 +60,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
    * **FTP:** FTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL FTP]**&#x200B;を選択し、必要な情報を入力します。 FTPS プロトコルを使用してCSV ファイルを安全に転送するSSLを使用できます。
    * **URL:** CSV ファイルをURLからアップロードするには、**[!UICONTROL URL]**&#x200B;を選択し、フィード URLを入力します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## 注意点
 
@@ -67,7 +74,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 
   カスタム条件のアップロードと同期のステータスは、[!UICONTROL Recommendations] > [!UICONTROL Criteria] ページの各条件カードの下部に表示されます。 カスタム条件を編集する際に、[!UICONTROL 編集] ダイアログボックスにステータスを表示することもできます。
 
-* エラーのないアップロードのフローは、[!UICONTROL &#x200B; スケジュール済み] > [!UICONTROL &#x200B; フィードファイルのダウンロード &#x200B;] > [!UICONTROL &#x200B; インポート &#x200B;] > [!UICONTROL 成功]である必要があります。
+* エラーのないアップロードのフローは、[!UICONTROL  スケジュール済み] > [!UICONTROL  フィードファイルのダウンロード ] > [!UICONTROL  インポート ] > [!UICONTROL 成功]である必要があります。
 
 * [!DNL Target]がアップロードに問題が発生した場合に表示される可能性のあるエラーメッセージは次のとおりです。
 
@@ -80,7 +87,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
   | ディレクトリが見つかりません | サーバーに存在するディレクトリを指定します。 |
   | ファイルが見つかりません | サーバー上の指定したディレクトリに存在するファイルの名前を指定します。 |
 
-## トレーニングビデオ：Recommendationsで条件を作成する（12:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendationsで条件を作成する（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています（カスタム条件のアップロードの詳細は11:43から始まります）。
 
@@ -88,4 +95,4 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/35341?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

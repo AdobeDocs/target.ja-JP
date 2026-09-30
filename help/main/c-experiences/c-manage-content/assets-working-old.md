@@ -1,77 +1,84 @@
 ---
 keywords: コンテンツライブラリ;アセット;注釈;コピー;アセットの削除;アセットのダウンロード;コンテンツの編集;カードの共有;コンテンツプロパティの表示
-description: Adobe [!DNL Target]  オファーライブラリでコードと画像オファーを管理する方法について説明します。 オファーの詳細を表示する方法と、オファーを編集、コピー、移動または削除する方法について説明します。
+description: Adobe [!DNL Target] オファーライブラリでコードと画像オファーを管理する方法について説明します。 オファーの詳細を表示する方法と、オファーを編集、コピー、移動または削除する方法について説明します。
 title: オファーライブラリのコンテンツを操作する方法
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 31%
-
 ---
-
 # アセットライブラリでのコンテンツの操作
 
 [!DNL Adobe Target]のコンテンツライブラリでアセットに対して実行できるタスクに関する情報（注釈、コピー、削除、ダウンロード、編集、共有、プロパティの表示など）。
 
 1. **[!UICONTROL オファー]**/**[!UICONTROL コードオファー]**&#x200B;または&#x200B;**[!UICONTROL 画像オファー]**&#x200B;をクリックします。
 
-   ![&#x200B; コードオファーと画像オファーのタブ &#x200B;](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
+   ![ コードオファーと画像オファーのタブ ](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
 
    オファーライブラリの検索とスマートコレクションの作成について詳しくは、[コンテンツのフィルターと検索](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)を参照してください。
 
-1. （オプション） [!UICONTROL &#x200B; カードビュー]と[!UICONTROL &#x200B; リストビュー]を切り替え、[!UICONTROL &#x200B; カードビュー] アイコンまたはコンテンツライブラリの右上隅にある[!UICONTROL &#x200B; リストビュー] アイコンをクリックします。 [!UICONTROL 表示設定]を使用して、[!UICONTROL &#x200B; リストビュー]を表示する際に列をさらに設定することもできます。
+1. （オプション） [!UICONTROL  カードビュー]と[!UICONTROL  リストビュー]を切り替え、[!UICONTROL  カードビュー] アイコンまたはコンテンツライブラリの右上隅にある[!UICONTROL  リストビュー] アイコンをクリックします。 [!UICONTROL 表示設定]を使用して、[!UICONTROL  リストビュー]を表示する際に列をさらに設定することもできます。
 
-   次の図は、[!UICONTROL &#x200B; リストビュー]を表示する際に使用できるオプションを示しています。
+   次の図は、[!UICONTROL  リストビュー]を表示する際に使用できるオプションを示しています。
 
-   ![&#x200B; リスト表示オプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![ リスト表示オプション ](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. 次の節で説明するように、必要なアクションを実行します。
 
 ## コードオファーオプション
 
-[!UICONTROL &#x200B; コードオファー] ページを表示する際に、オファーまたはフォルダーにカーソルを合わせて適切なアイコンを選択すると、アイテムに対して次のアクションを実行できます。
+[!UICONTROL  コードオファー] ページを表示する際に、オファーまたはフォルダーにカーソルを合わせて適切なアイコンを選択すると、アイテムに対して次のアクションを実行できます。
 
-![&#x200B; コードオファータブにアイコンを置く](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
+![ コードオファータブにアイコンを置く](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **情報**: オファーの情報を表示します。
 * **編集**: フォルダーまたはオファーを編集します。
 * **コピー**: オファーをコピーします。 オファーをコピーして編集すると、同様の新しいオファーを簡単に作成できます。
-* **移動**：移動アイコンをクリックし、オファーまたはフォルダーを移動する場所に移動してから、**[!UICONTROL ドロップ]** アイコンをクリックします。 例えば、1つ以上のフォルダーを別のフォルダーに移動して、サブフォルダーを作成できます。 選択したオファーまたはフォルダーの選択を解除するには、[!UICONTROL 選択範囲をクリア &#x200B;]をクリックします。
+* **移動**：移動アイコンをクリックし、オファーまたはフォルダーを移動する場所に移動してから、**[!UICONTROL ドロップ]** アイコンをクリックします。 例えば、1つ以上のフォルダーを別のフォルダーに移動して、サブフォルダーを作成できます。 選択したオファーまたはフォルダーの選択を解除するには、[!UICONTROL 選択範囲をクリア ]をクリックします。
 * **削除**: オファーまたはフォルダーを削除します。 アイテムを削除する際の[考慮事項](#delete)を参照してください。
 
 ## 画像オファーオプション
 
 [!UICONTROL 画像オファー] ページを表示する際に、オファーまたはフォルダーにカーソルを合わせて適切なアイコンを選択すると、アイテムに対して次のアクションを実行できます。
 
-次の図は、[!UICONTROL &#x200B; カードビュー]を表示する際のホバーアイコンを示しています。
+次の図は、[!UICONTROL  カードビュー]を表示する際のホバーアイコンを示しています。
 
-![&#x200B; カード表示で「画像オファー」タブにアイコンを置く](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
+![ カード表示で「画像オファー」タブにアイコンを置く](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-次の図は、[!UICONTROL &#x200B; リスト表示]を表示する際のホバーアイコンを示しています。 アイコンを表示するには、リスト内の項目をクリックします。
+次の図は、[!UICONTROL  リスト表示]を表示する際のホバーアイコンを示しています。 アイコンを表示するには、リスト内の項目をクリックします。
 
-リスト表示![&#128279;](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)で「画像オファー」タブに アイコンを置きます
+リスト表示](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)で「画像オファー」タブに![ アイコンを置きます
 
 * **選択**：次の操作を実行する1つ以上のフォルダーを選択します。
 
-   * ダウンロード
-   * コピー
-   * 移動
-   * 削除（項目を削除する際の[考慮事項](#delete)を参照）。
+  * ダウンロード
+  * コピー
+  * 移動
+  * 削除（項目を削除する際の[考慮事項](#delete)を参照）。
 
   次のアクションを実行する1つ以上の画像オファーを選択します。
 
-   * 共有
-   * ダウンロード
-   * プロパティを表示
-   * 編集
-   * 注釈
-   * 移動
+  * 共有
+  * ダウンロード
+  * プロパティを表示
+  * 編集
+  * 注釈
+  * 移動
 
 * **ダウンロード**：画像オファーまたはフォルダーとその内容をダウンロードします。
 * **プロパティを表示**：項目のプロパティを表示します。 利用可能なすべての情報を表示するには、「[!UICONTROL 基本]」タブと「[!UICONTROL 詳細]」タブを必ずクリックしてください。 プロパティページの鉛筆アイコンをクリックして、プロパティを編集し、情報を追加します。 メタデータ情報、投稿状況およびライセンスデータを追加することができます。
-* **その他のアクション**: [!UICONTROL &#x200B; カード表示]で追加のオプションを表示します。
+* **その他のアクション**: [!UICONTROL  カード表示]で追加のオプションを表示します。
 * **編集**: フォルダーまたはオファーを編集します。
 * **注釈**: アセットにメモを追加します。 アセットをクリックして、注釈を付ける領域を選択し、注釈を入力します。
 * **コピー**: オファーをコピーします。 オファーをコピーして編集すると、同様の新しいオファーを簡単に作成できます。
@@ -82,11 +89,11 @@ ht-degree: 31%
 * 多数の画像を含むフォルダーを削除すると、UIが更新されて最終状態が表示されるまでに、バックグラウンドで実行されるプロセスに時間（数分）がかかる場合があります。 必要な時間は、画像サイズではなく、画像数の関数です。 適切な推定値は、2,000 画像に対し 10 分です。 その他の作業を続行し、数分後に最終状態をチェックして削除を確認することができます。
 * 画像オファーライブラリ内の空ではないフォルダを削除できます。 フォルダー内のすべての画像がどのアクティビティでも参照されていない場合、フォルダー全体とそのコンテンツが削除されます。 フォルダー内の一部の画像が何らかのアクティビティで参照されている場合、参照されていないすべての画像は削除されますが、参照画像とそれらの画像を含むフォルダは保持されます。
 
-## トレーニングビデオ：コンテンツリポジトリー![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：コンテンツリポジトリー![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。 (4:56)
 
-* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=ja)と Target コンテンツライブラリの間の接続
+* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 

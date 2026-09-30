@@ -1,16 +1,23 @@
 ---
 keywords: ターゲティング;エクスペリエンス;エクスペリエンスの追加;エクスペリエンス追加
-description: ' [!DNL Adobe Target]で[!UICONTROL Visual Experience Composer] （VEC）を使用する方法について説明します。'
-title: A [!DNL Target] A/B アクティビティにエクスペリエンスを追加するにはどうすればよいですか？
+description: '[!DNL Adobe Target]で[!UICONTROL Visual Experience Composer] （VEC）を使用する方法について説明します。'
+title: '[!DNL Target] A/B アクティビティにエクスペリエンスを追加するには、どうすればよいですか？'
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 41%
-
 ---
-
 # エクスペリエンスの追加
 
 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）は、ページ上のエクスペリエンスを追加および編集するための視覚的なインターフェイスを提供します。
@@ -41,7 +48,7 @@ ht-degree: 41%
 
 ## エクスペリエンス名を変更
 
-1. [!UICONTROL A/B テスト &#x200B;]または[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティのエクスペリエンスの&#x200B;**[!UICONTROL エクスペリエンス名を変更]** アイコンをクリックして、エクスペリエンスに新しい名前を付けます。
+1. [!UICONTROL A/B テスト ]または[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティのエクスペリエンスの&#x200B;**[!UICONTROL エクスペリエンス名を変更]** アイコンをクリックして、エクスペリエンスに新しい名前を付けます。
 
    ![エクスペリエンス名を変更](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,7 +69,7 @@ ht-degree: 41%
 
 ## URL にリダイレクト
 
-1. [!UICONTROL A/B テスト &#x200B;]または[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティで、エクスペリエンスの&#x200B;**[!UICONTROL 詳細]** アイコン（垂直省略記号）アイコンをクリックし、**[!UICONTROL URLにリダイレクト]**&#x200B;をクリックします。
+1. [!UICONTROL A/B テスト ]または[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティで、エクスペリエンスの&#x200B;**[!UICONTROL 詳細]** アイコン（垂直省略記号）アイコンをクリックし、**[!UICONTROL URLにリダイレクト]**&#x200B;をクリックします。
 
    詳しくは、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)を参照してください。
 
@@ -85,7 +92,7 @@ ht-degree: 41%
 
 ## エクスペリエンスの複製
 
-[!UICONTROL A/B テスト &#x200B;]でエクスペリエンスをコピーできるので、エクスペリエンスをゼロから再作成することなく、エクスペリエンスにマイナーな変更を加えることができます。
+[!UICONTROL A/B テスト ]でエクスペリエンスをコピーできるので、エクスペリエンスをゼロから再作成することなく、エクスペリエンスにマイナーな変更を加えることができます。
 
 1. **[!UICONTROL エクスペリエンス]** ページ（3段階のガイド付きワークフローの最初のステップ）で、垂直省略記号アイコン > **[!UICONTROL 重複]**&#x200B;をクリックします。
 
@@ -104,4 +111,4 @@ ht-degree: 41%
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/29948?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

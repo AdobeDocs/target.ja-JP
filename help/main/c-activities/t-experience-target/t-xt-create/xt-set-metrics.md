@@ -1,25 +1,32 @@
 ---
 keywords: エクスペリエンスのターゲット設定;xt;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
-description: '[!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]など、訪問が成功したかどうかを判断するために、 [!DNL Adobe Target] [!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] アクティビティで指標を指定する方法について説明します。'
-title: '[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティで目標の指標を設定するにはどうすればよいですか？'
+description: '[!DNL Adobe Target] [!UICONTROL  エクスペリエンスターゲティング ] アクティビティで指標を指定して、訪問が成功したタイミングを判断する方法（[!UICONTROL  コンバージョン ]、[!UICONTROL 収益]、[!UICONTROL  エンゲージメント ]など）について説明します。'
+title: '[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティで目標の指標を設定するにはどうすればよいですか？'
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
-TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
+TQID: 'https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 55%
-
+source-wordcount: '353'
+ht-degree: 57%
 ---
+# [!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティで指標を設定
 
-# [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティで指標を設定
-
-[!DNL Adobe Target] [!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] （XT）アクティビティで指標を使用して、訪問が成功したタイミングを判断します。
+[!DNL Adobe Target] [!UICONTROL  エクスペリエンスターゲティング ] （XT）アクティビティで指標を使用して、訪問が成功したタイミングを判断します。
 
 成功指標について詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
@@ -39,11 +46,11 @@ ht-degree: 55%
 
    使用可能な設定は、使用している成功指標によって異なります。
 
-   有効にした場合、「[!UICONTROL &#x200B; コンバージョンの見積もり値]」フィールド（[!UICONTROL &#x200B; ページスコア &#x200B;]指標では使用できません）は、目標の値を提供します。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 データタイプは通貨です。 このフィールドは、ユーザーが目標を満たすためにとるアクションを指定した後、順次表示されます。 詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
+   有効にした場合、「[!UICONTROL  コンバージョンの見積もり値]」フィールド（[!UICONTROL  ページスコア ]指標では使用できません）は、目標の値を提供します。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 データタイプは通貨です。 このフィールドは、ユーザーが目標を満たすためにとるアクションを指定した後、順次表示されます。 詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
 
    期待するデータを確実に入手するためには、成功指標を正しく設定することが重要です。
 
-   詳しくは [&#x200B; 、成功指標 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を参照してください。
+   詳しくは [ 、成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を参照してください。
 
 1. （オプション）さらに指標を追加します。
 1. 指標の設定が完了したら、**[!UICONTROL 続行]**&#x200B;をクリックします。
@@ -61,12 +68,12 @@ ht-degree: 55%
 | `-` | マイナス |
 | `@` | アットマーク |
 
-## トレーニングビデオ：アクティビティ指標（7:43） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ指標（7:43） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオでは、成功指標に関する作業について説明します。
 
 * 「目標」指標の理解
-* [!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]の指標を理解して構築する
+* [!UICONTROL コンバージョン]、[!UICONTROL 売上高]、[!UICONTROL エンゲージメント]の各指標の理解と作成
 * クリック追跡指標の構築
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

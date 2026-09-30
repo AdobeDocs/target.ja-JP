@@ -4,13 +4,20 @@ description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用�
 title: 同様のページに同じエクスペリエンスを含めることはできますか？
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 32%
-
 ---
-
 # 類似のページに同じエクスペリエンスを組み込む
 
 [!DNL Adobe Target]でページテンプレートを使用して、ページに構造を提供するか、ページに類似した要素が含まれている場合は、類似した構造化ページ要素またはドメイン全体でバリエーションをテストします。
@@ -30,7 +37,7 @@ ht-degree: 32%
 
 変更要素を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
+1. 「[ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で歯車アイコンをクリックし、**[!UICONTROL ページ配信]**&#x200B;を選択します。
 
@@ -40,7 +47,7 @@ ht-degree: 32%
 
 1. ページの範囲を指定します。 ページの範囲は、次のいずれかの方法で指定します。
 
-   * URL （TargetによるURLの評価方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
+   * URL （TargetによるURLの評価方法について詳しくは、[ ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください）。
    * ドメイン
    * パス
    * ハッシュ（#）フラグメント（#記号に続くURLの部分をターゲットにする）
@@ -88,7 +95,7 @@ ht-degree: 32%
 * グローバルバナー（COVID-19の発表など）を含めるには
 * グローバルな送料無料プロモーションを含めるには
 
-1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
+1. 「[ アクティビティ ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスが表示されるドメインを指定するには、Visual Experience Composerで歯車アイコンをクリックし、**[!UICONTROL ページ配信]**&#x200B;を選択します。
 
@@ -96,9 +103,9 @@ ht-degree: 32%
 
 1. **[!UICONTROL 評価者を選択]** ドロップダウンから、**[!UICONTROL 含む]**&#x200B;を選択し、ドメインを指定します。
 
-   ![&#x200B; ドメインに](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)が含まれています
+   ![ ドメインに](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)が含まれています
 
-## トレーニングビデオ：Visual Experience Composer （2/2） （7:29） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Visual Experience Composer （2/2） （7:29） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
@@ -107,4 +114,4 @@ ht-degree: 32%
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

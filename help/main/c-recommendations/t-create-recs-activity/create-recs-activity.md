@@ -1,25 +1,32 @@
 ---
 keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
-description: ' [!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して [!DNL Recommendations]  アクティビティを作成する方法を説明します。'
-title: ' [!DNL Recommendations]  アクティビティを作成するにはどうすればよいですか？'
+description: '[!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して[!DNL Recommendations] アクティビティを作成する方法を説明します。'
+title: '[!DNL Recommendations] アクティビティを作成するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: '1306'
 ht-degree: 54%
-
 ---
-
 # [!DNL Recommendations] アクティビティの作成
 
 [!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!DNL Recommendations] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
@@ -28,15 +35,15 @@ ht-degree: 54%
 
 1. 必要に応じて、**[!UICONTROL Visual]**&#x200B;を選択します。
 
-   [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   [!UICONTROL  フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VECおよび[!UICONTROL &#x200B; フォームベースのExperience Composer]に加えて、[!DNL Target]は[!UICONTROL 単一ページアプリケーション &#x200B;]VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
+   >VECおよび[!UICONTROL  フォームベースのExperience Composer]に加えて、[!DNL Target]は[!UICONTROL 単一ページアプリケーション ]VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-1. （条件付き） [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
+1. （条件付き） [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
 1. アクティビティ URLを指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
@@ -101,7 +108,7 @@ ht-degree: 54%
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [デザイン](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択します。
 
-   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。 [!DNL Target]には、事前に設定された複数のデザインが含まれています。 カスタムのデザインを作成することも可能です。 詳細については、[&#x200B; デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)および[&#x200B; デザインのカスタマイズ &#x200B;](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
+   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。 [!DNL Target]には、事前に設定された複数のデザインが含まれています。 カスタムのデザインを作成することも可能です。 詳細については、[ デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)および[ デザインのカスタマイズ ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
 
    ![デザインを選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -115,9 +122,9 @@ ht-degree: 54%
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
-   レコメンデーションにプロモーションを追加することもできます。 前面および背面のプロモーションの追加について詳しくは、[&#x200B; プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
+   レコメンデーションにプロモーションを追加することもできます。 前面および背面のプロモーションの追加について詳しくは、[ プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
    VEC 画面に、ページのレコメンデーションデザインが表示されます。
 
@@ -178,12 +185,12 @@ ht-degree: 54%
    * キャンペーンの詳細情報の表示や非表示をおこないます。
    * デザインのコードを表示します。
 
-1. （オプション）「[!UICONTROL &#x200B; レポート &#x200B;]」ページを開き、[!DNL Recommendations] アクティビティのパフォーマンスを示すレポートを表示します。
+1. （オプション）「[!UICONTROL  レポート ]」ページを開き、[!DNL Recommendations] アクティビティのパフォーマンスを示すレポートを表示します。
 
-1. （オプション）発生する可能性のある[&#x200B; アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示するには、[!UICONTROL 衝突] ページを開きます。
+1. （オプション）発生する可能性のある[ アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示するには、[!UICONTROL 衝突] ページを開きます。
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
 
-## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33952?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

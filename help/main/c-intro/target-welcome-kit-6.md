@@ -1,24 +1,33 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: 他のユーザーのミスから教訓を学んで、テストやパーソナライゼーション戦略の一環として Adobe  [!DNL Target] を使用する際に同じ間違いを犯さないようにします。
-title: ' [!DNL Target] を使用する際に犯しがちなミスにはどのようなものがありますか？また、そのようなミスを避けるにはどうすればよいですか？'
+description: テストおよびパーソナライゼーション戦略の一環としてAdobe [!DNL Target]を使用する場合に、同じ失敗を繰り返さないように、他のユーザーの失敗から学びます。
+title: '[!DNL Target]を使用する際によくある間違いとその回避方法を教えてください。'
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
+TQID: 'https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 400
-ht-degree: 89%
-
+source-wordcount: '402'
+ht-degree: 81%
 ---
-
 # 第 6 章：簡単に回避できる落とし穴
 
 最適化とパーソナライゼーションのプログラムを今始めることの利点は、しばらくの期間それらを実行してきたユーザーによって、犯しやすい間違いがすでに見つかっているということです。 これらの落とし穴を知ることで、簡単に回避したり、修正したりできます。
@@ -29,7 +38,7 @@ ht-degree: 89%
 
 | 落とし穴 | 解決策 |
 | --- | --- |
-| 統計的に有意な結果に達するのに十分なトラフィックがない。 | 事前に[!DNL Adobe Target] [&#x200B; サンプルサイズ計算ツール &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、テストを実行する必要がある期間を把握し、テストを完了するまで実行します。 |
+| 統計的に有意な結果に達するのに十分なトラフィックがない。 | 事前に[!DNL Adobe Target] [ サンプルサイズ計算ツール ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、テストを実行する必要がある期間を把握し、テストを完了するまで実行します。 |
 | 変更が小さすぎる、または目立たない。 | 画面から数フィート離れた位置に立ったときに見えるように、十分な量の変更を加えます。 |
 | アクティビティとビジネス目標の連携に失敗する。 | 優先順位付け手法に重点を置き、その方法を社内の関係者に伝えます。 |
 | テストのバックログがほとんどない、またはまったくない。 | 社内の関係者と協力し、ビジネスの主要目標に合致したテストを提出できるようにします。 |
@@ -37,7 +46,7 @@ ht-degree: 89%
 | 意思決定に役立たないアクティビティ成功指標データを選択する。 | すべての主要なテスト指標を文書化し、追加の指標を含めて、さらなるインサイトを得ます。 |
 | 結果に影響する可能性がある変更を、テスト中におこなう。 | 予定されているプロモーションやサイトの変更について、カレンダーを管理します。 競合を避けるため、[!DNL Target]アクティビティの開始を明確に伝えます。 |
 | アクティビティの開始に近いテストエクスペリエンスまたは条件を変更する。 | テストアクティビティプロセスの初期段階で、主な関係者に承認を依頼します。 |
-| 結果が統計的に有意な結果になる前にアクティビティを終了する。 | [!DNL Adobe Target] [&#x200B; サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、テスト期間を確認します。 |
+| 結果が統計的に有意な結果になる前にアクティビティを終了する。 | [!DNL Adobe Target] [ サンプルサイズ計算](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を使用して、テスト期間を確認します。 |
 | [!DNL Target]アクティビティから得られる結果がマイナスまたはフラットになる。 | アクティビティがテストに値することを確認します。 |
 | 勝者エクスペリエンスをハードコーディングしない。 | アクティビティデータを使用して値を示し、ハードコーディングに対する賛同を得ます。 |
 | 結果をテストチーム以外と共有していない。 | 昼食や学習を含むコミュニケーションを拡大、プログラムダッシュボードを開発し、関係者とのミーティングをスケジュールします。 |

@@ -1,17 +1,24 @@
 ---
 keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
-description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、 [!DNL Target]対応ページでRecommendations アクティビティを直接作成する方法を説明します。
+description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、[!DNL Target]対応ページでRecommendations アクティビティを直接作成する方法を説明します。
 title: Recommendations アクティビティを作成する方法を教えてください。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 61%
-
+source-wordcount: '1342'
+ht-degree: 60%
 ---
-
 # レコメンデーションアクティビティの作成
 
 Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上にレコメンデーションアクティビティを作成し、Target 内でページの一部を変更することができます。
@@ -30,7 +37,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前の図の[[!UICONTROL [職場を選択]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) オプションは、[Target Premium](/help/main/c-intro/intro.md)機能です。 このオプションが表示されない場合は、組織にTarget Standard ライセンスがあります。
+   >前の図の[!UICONTROL [職場を選択]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) オプションは、[Target Premium](/help/main/c-intro/intro.md)機能です。 このオプションが表示されない場合は、組織にTarget Standard ライセンスがあります。
 
 1. （条件付き）[Target Premium](/help/main/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
@@ -93,7 +100,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [デザイン](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択します。
 
-   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。 [!DNL Target]には、事前に設定された複数のデザインが含まれています。 カスタムのデザインを作成することも可能です。 詳細については、[&#x200B; デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)および[&#x200B; デザインのカスタマイズ &#x200B;](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
+   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。 [!DNL Target]には、事前に設定された複数のデザインが含まれています。 カスタムのデザインを作成することも可能です。 詳細については、[ デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)および[ デザインのカスタマイズ ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
 
    ![デザインを選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -107,9 +114,9 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
-   レコメンデーションにプロモーションを追加することもできます。 前面および背面のプロモーションの追加について詳しくは、[&#x200B; プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
+   レコメンデーションにプロモーションを追加することもできます。 前面および背面のプロモーションの追加について詳しくは、[ プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
    VEC 画面に、ページのレコメンデーションデザインが表示されます。
 
@@ -170,12 +177,12 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    * キャンペーンの詳細情報の表示や非表示をおこないます。
    * デザインのコードを表示します。
 
-1. （オプション）「[!UICONTROL &#x200B; レポート &#x200B;]」ページを開き、[!DNL Recommendations] アクティビティのパフォーマンスを示すレポートを表示します。
+1. （オプション）「[!UICONTROL  レポート ]」ページを開き、[!DNL Recommendations] アクティビティのパフォーマンスを示すレポートを表示します。
 
-1. （オプション）発生する可能性のある[&#x200B; アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示するには、[!UICONTROL 衝突] ページを開きます。
+1. （オプション）発生する可能性のある[ アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示するには、[!UICONTROL 衝突] ページを開きます。
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
 
-## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33952?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

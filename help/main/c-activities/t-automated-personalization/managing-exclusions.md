@@ -6,21 +6,30 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-TQID: https://experienceleague.adobe.com/ERpNwQPsIRBmU0vTZbGa-lYg30BYl-uJxA8UT0f6060
+TQID: 'https://experienceleague.adobe.com/ERpNwQPsIRBmU0vTZbGa-lYg30BYl-uJxA8UT0f6060'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 521
+source-wordcount: '521'
 ht-degree: 26%
-
 ---
-
 # 除外の管理
 
 除外をマスタリングすることで、[!UICONTROL Automated Personalization] （AP）戦略を制御します。 重複するオファーの作成、エクスペリエンスの組み合わせの改善、デフォルトのコンテンツの削除など、目標やオーディエンスの期待に沿って、よりクリーンで関連性の高いエクスペリエンスを提供するための除外機能を利用できます。
@@ -31,7 +40,7 @@ AP アクティビティの異なる場所で使用する場合、オファー�
 
 例えば、ページ上で 6 つのロケーションと 12 件のオファーがあるアクティビティがあるとします。 同じオファーがアクティビティ内の 1 つまたは複数のロケーションに配置される場合があります。 この機能を使用すると、同じアクティビティ内の異なる場所に重複するオファーを同時に表示しないようにできます。
 
-1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)、**[!UICONTROL 設定]** アイコン （![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL 重複オファーを許可]**&#x200B;をクリックして、必要に応じてこの機能のオンとオフを切り替えます。
+1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)、**[!UICONTROL 設定]** アイコン （![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL 重複オファーを許可]**&#x200B;をクリックして、必要に応じてこの機能のオンとオフを切り替えます。
 
 ## 特定のエクスペリエンスの除外 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -39,19 +48,19 @@ AP アクティビティから特定のオファーの組み合わせを除外�
 
 特定の組み合わせで連携しない場合や、テストしたエクスペリエンスの数を制限して、アクティビティのトラフィック要件を軽減する場合などがあります。
 
-1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)、**コンテンツの管理** アイコン（![&#x200B; コンテンツの管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックします。
+1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)、**コンテンツの管理** アイコン（![ コンテンツの管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします。
 
    [!UICONTROL エクスペリエンス]のリストに、すべてのコンテンツと場所のオプションの順列を基に作成された各エクスペリエンスが表示されます。
 
 1. 必要に応じてエクスペリエンスを除外します。
 
-   特定のエクスペリエンスを除外するには、[!UICONTROL **詳細アクション**] アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、[!UICONTROL **除外**]&#x200B;をクリックします。
+   特定のエクスペリエンスを除外するには、[!UICONTROL **詳細アクション**] アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、[!UICONTROL **除外**]&#x200B;をクリックします。
 
    または、関連するエクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックして、エクスペリエンスをバッチで除外することもできます。 1つ以上のエクスペリエンスがチェックされると、[!UICONTROL 除外] アイコンが表示されます。
 
    ![エクスペリエンスの一括除外](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   エクスペリエンスがアクティビティから除外され、その[!UICONTROL &#x200B; ステータス &#x200B;]が[!UICONTROL 除外]として表示されるようになりました。
+   エクスペリエンスがアクティビティから除外され、その[!UICONTROL  ステータス ]が[!UICONTROL 除外]として表示されるようになりました。
 
 ## デフォルトコンテンツを除外 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
@@ -63,10 +72,10 @@ AP アクティビティでテストするオファーに合わせてページ�
 
 1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)に、置き換えるコンテンツを選択し、クリックして&#x200B;**[!UICONTROL テキストの変更/HTML]**、**[!UICONTROL 画像オファーの変更]**、**[!UICONTROL 背景色の変更]**&#x200B;にアクセスします。 利用可能なオプションは、コンテンツの種類によって異なります。
 
-   ![&#x200B; オプションの変更](/help/main/c-activities/t-automated-personalization/assets/options.png)
+   ![ オプションの変更](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. 新しいコンテンツの制作。
 
-1. **[!UICONTROL 詳細アクション]** （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）アイコンをクリックし、**デフォルトのオファーを除外/デフォルトのオファーを含める**/ トグルをクリックして、デフォルトのオファーを除外または含めます。
+1. **[!UICONTROL 詳細アクション]** （![詳細アクション アイコン ](/help/main/assets/icons/Setting.svg)）アイコンをクリックし、**デフォルトのオファーを除外/デフォルトのオファーを含める**/ トグルをクリックして、デフォルトのオファーを除外または含めます。
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 

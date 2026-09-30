@@ -3,13 +3,14 @@ title: コンテキスト属性の作成
 description: フラグでコンテキスト属性とコンテキストグループを作成および整理して、オーディエンスの条件で使用できるようにする方法を説明します。
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
-
 ---
-
 # コンテキスト属性の作成 {#creating-your-context-attributes}
 
 コンテキスト属性は、ユーザー、セッション、アプリケーションコンテキスト（サブスクリプション層、アプリバージョン、地域など）を記述するカスタムデータフィールドです。 コンテキスト属性を使用して、機能フラグのオーディエンス基準を定義します。
@@ -52,7 +53,7 @@ ht-degree: 5%
 | フィールド | 説明 |
 | --- | --- |
 | **グループ名** | グループの一意の名前を入力します。 |
-| **&#x200B;**&#x200B;のサブグループを作成 | 階層を整理する親グループを選択します。 属性の作成中にグループを作成することもできます。 |
+| ****&#x200B;のサブグループを作成 | 階層を整理する親グループを選択します。 属性の作成中にグループを作成することもできます。 |
 
 ## コンテキスト属性の作成 {#create-attribute}
 

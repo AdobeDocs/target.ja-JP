@@ -4,28 +4,32 @@ description: Adobe TargetでのVisual Experience Composer （VEC）の使用方�
 title: Visual Experience Composer （VEC）の使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-TQID: https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs
+TQID: 'https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 47%
-
 ---
-
 # [!UICONTROL Visual Experience Composer] （VEC）
 
 [!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）は、コードを編集することなく、web サイトまたはモバイル web ページでパーソナライズされたエクスペリエンスを直接作成およびテストできるWYSIWYG エディターです。
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日（PT））リリースには、VECの更新バージョンが含まれています。 更新されたVECが以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composerの変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)を参照してください。 更新されたVECの様々なオプションの概要については、[Visual Experience Composerのオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+>[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日（PT））リリースには、VECの更新バージョンが含まれています。 更新されたVECが以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composerの変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)を参照してください。 更新されたVECの様々なオプションの概要については、[Visual Experience Composerのオプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
 VECでは、サイトコンテキストでパーソナライズされたエクスペリエンスとオファーを簡単に作成してテストできます。 Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。
 
@@ -43,7 +47,7 @@ VEC は [!DNL Target] の主要機能の 1 つです。 VEC を使用すると�
 
 ページ上の iframe 内のコンテンツは、VEC では変更できません。 iframe内のコンテンツを編集するには、iframe ドキュメントが[!DNL Target]対応であることを確認してから、そのiframe URLをVECに読み込みます。
 
-[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネルのタブを使用すると、異なるオーディエンスや異なるエクスペリエンスで表示されるページを表示できます。 各エクスペリエンスに名前を付けることができます。 例えば、ナビゲーションバー内のホームリンクの場所をテストする場合、ホームリンクが最初に表示されるエクスペリエンスに名前を付けることができます。 例えば、「ホームリンク」を使用すると、リスト内のエクスペリエンスを識別しやすくなります。
+[!UICONTROL  エクスペリエンス ] パネルのタブを使用すると、異なるオーディエンスや異なるエクスペリエンスで表示されるページを表示できます。 各エクスペリエンスに名前を付けることができます。 例えば、ナビゲーションバー内のホームリンクの場所をテストする場合、ホームリンクが最初に表示されるエクスペリエンスに名前を付けることができます。 例えば、「ホームリンク」を使用すると、リスト内のエクスペリエンスを識別しやすくなります。
 
 >[!NOTE]
 >
@@ -82,7 +86,7 @@ VEC 内でページの読み込み中またはページの読み込みに失敗�
 * アクセスできなくなったページから既存のカスタムコードをコピーする
 * VEC 内でページが読み込まれないことはわかっているが、それでも簡単な編集を行いたい
 
-ページの読み込み（または読み込みに失敗した後）は、[!UICONTROL &#x200B; エクスペリエンス &#x200B;] レール、[!UICONTROL &#x200B; コンポーネント &#x200B;] レール、[!UICONTROL 設定] オプションにアクセスできます。
+ページの読み込み（または読み込みに失敗した後）は、[!UICONTROL  エクスペリエンス ] レール、[!UICONTROL  コンポーネント ] レール、[!UICONTROL 設定] オプションにアクセスできます。
 
 ## VEC内のページの読み込みをキャンセル {#cancel-loading}
 
@@ -95,7 +99,7 @@ VEC 内でページの読み込みをキャンセルする理由には、次の�
 * カスタムコードを挿入または編集する
 * 正しくないページの URL を誤って入力した
 * VEC でページを読み込む前に JavaScript を有効または無効にする
-* [!UICONTROL &#x200B; ページ配信]条件にさらにテンプレートテストルールを追加する
+* [!UICONTROL  ページ配信]条件にさらにテンプレートテストルールを追加する
 * EECまたはiframe-only経由でページを読み込む際に、グローバルな[!UICONTROL Enhanced Experience Composer] （EEC）トグルを上書きする必要があります
 
 VECでページの読み込みをキャンセルした場合、ページの読み込みを待たずに、アクティビティ内のエクスペリエンスを切り替えることができます。 VEC内のページを再度表示するには、**[!UICONTROL 再読み込み]** ボタンをクリックする必要があります。

@@ -4,13 +4,14 @@ description: Adobe Targetのフラッグチームへのアクセスをリクエ�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 2%
-
 ---
-
 # 利用申請 {#request-access}
 
 フラグへのアクセスはチームレベルで管理されます。 フラグを使用するには、適切な役割を持つチームに追加する必要があります。
@@ -37,7 +38,7 @@ ht-degree: 2%
 
 ## アクセスが許可された後 {#after-access}
 
-リクエストが承認されたら、Adobe Target内からフラグを開き、アプリケーションが表示されていることを確認します。 次の手順については、[Adobe Targetのフラグへのアクセス &#x200B;](log-in-to-the-console.md)を参照してください。
+リクエストが承認されたら、Adobe Target内からフラグを開き、アプリケーションが表示されていることを確認します。 次の手順については、[Adobe Targetのフラグへのアクセス ](log-in-to-the-console.md)を参照してください。
 
 ## サポートが必要ですか？ {#need-help}
 

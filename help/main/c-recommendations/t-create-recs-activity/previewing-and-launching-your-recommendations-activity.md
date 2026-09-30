@@ -4,39 +4,47 @@ description: Adobe [!DNL Target] Recommendations アクティビティをプレ�
 title: Recommendations アクティビティをプレビューして起動するにはどうすればよいですか？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # レコメンデーションアクティビティのプレビューと起動
 
-[Recommendations オファー](/help/main/c-recommendations/recommendations-as-an-offer.md)を含む[!UICONTROL Recommendations]、[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL Experience Targeting] （XT） アクティビティを作成した後、アクティビティを起動する前に結果が利用可能であることを確認するために、推奨事項をプレビューする必要があります。 [!DNL Target Recommendations]では、レコメンデーションをプレビューする複数の方法が用意されています。
+[Recommendations オファー](/help/main/c-recommendations/recommendations-as-an-offer.md)を含む[!UICONTROL Recommendations]、[!UICONTROL A/B テスト ]または[!UICONTROL Experience Targeting] （XT） アクティビティを作成した後、アクティビティを起動する前に結果が利用可能であることを確認するために、推奨事項をプレビューする必要があります。 [!DNL Target Recommendations]では、レコメンデーションをプレビューする複数の方法が用意されています。
 
 ## Recommendations アルゴリズムのステータスの確認
 
 アクティビティの作成後、[!DNL Recommendations]はアルゴリズムを実行してレコメンデーションを生成します。 このアルゴリズムを実行するには数時間かかる場合があります。
 
-アルゴリズムの実行が完了したかどうかを、[!UICONTROL &#x200B; アクティビティ &#x200B;]概要ダイアグラムで確認できます。このダイアグラムには、条件ステータスが一覧表示されます。 次の図は、[!DNL Recommendations] アクティビティの[!UICONTROL 概要] ページのアクティビティ ダイアグラムのステータスを示しています。
+アルゴリズムの実行が完了したかどうかを、[!UICONTROL  アクティビティ ]概要ダイアグラムで確認できます。このダイアグラムには、条件ステータスが一覧表示されます。 次の図は、[!DNL Recommendations] アクティビティの[!UICONTROL 概要] ページのアクティビティ ダイアグラムのステータスを示しています。
 
-![Recommendations アクティビティの概要ページ &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![Recommendations アクティビティの概要ページ ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 ステータスの結果には、次の図が含まれます。
 
 * [!UICONTROL Results Ready]: アルゴリズムが結果を返したことを示します
 * [!UICONTROL Results Not Ready]: アルゴリズムの実行が完了していないことを示します。
-* [!UICONTROL &#x200B; フィード失敗]: カスタム条件フィード ファイルを取得できなかったことを示します。
+* [!UICONTROL  フィード失敗]: カスタム条件フィード ファイルを取得できなかったことを示します。
 
-![結果ダイアログボックス &#x200B;](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
+![結果ダイアログボックス ](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## アルゴリズムの実行にどのくらいの時間がかかるか？
 
@@ -62,7 +70,7 @@ mbox が行動データソースとして選択される場合、一旦作成さ
 
 ## QA リンクを使用したレコメンデーションのプレビュー
 
-アルゴリズムが結果を準備したら、[!DNL Adobe Target]の[QA リンク &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)機能を使用して、それらの結果をプレビューできます。 QA リンクは、[!UICONTROL &#x200B; アクティビティ &#x200B;]の概要ページの[!UICONTROL &#x200B; アクティビティの場所] セクションで利用できます。
+アルゴリズムが結果を準備したら、[!DNL Adobe Target]の[QA リンク ](/help/main/c-activities/c-activity-qa/activity-qa.md)機能を使用して、それらの結果をプレビューできます。 QA リンクは、[!UICONTROL  アクティビティ ]の概要ページの[!UICONTROL  アクティビティの場所] セクションで利用できます。
 
 >[!NOTE]
 >
@@ -76,7 +84,7 @@ QA リンクを使用すると、ページ上のレコメンデーションを�
 >
 >* ターゲット QA モードは「スティッキー」で、Cookieに保存されます。 QA モードを終了しない場合は、サイト全体でQAの結果が引き続き表示されます。 QA モードを終了するには、[bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)を使用します。
 >
->* QA モードでは、サイトを参照しても、プロファイルの[!UICONTROL 最近閲覧したアイテム &#x200B;]または[!UICONTROL 最近購入したアイテム &#x200B;]には影響しません。 この動作は、生産行動データの意図しない汚染を避けるために、設計によって行われます。 [!UICONTROL 最近閲覧したアイテム &#x200B;]または[!UICONTROL &#x200B; ユーザーベースのレコメンデーション &#x200B;]の条件の結果をプレビューするには、まずQA モード以外のサイトを参照し、同じセッションを使用してQA モードリンクを開きます。
+>* QA モードでは、サイトを参照しても、プロファイルの[!UICONTROL 最近閲覧したアイテム ]または[!UICONTROL 最近購入したアイテム ]には影響しません。 この動作は、生産行動データの意図しない汚染を避けるために、設計によって行われます。 [!UICONTROL 最近閲覧したアイテム ]または[!UICONTROL  ユーザーベースのレコメンデーション ]の条件の結果をプレビューするには、まずQA モード以外のサイトを参照し、同じセッションを使用してQA モードリンクを開きます。
 
 ## CSV ダウンロードを使用したレコメンデーションのプレビュー
 
@@ -86,15 +94,15 @@ QA リンクを使用すると、ページ上のレコメンデーションを�
 
 プレビューの結果をダウンロードするには、アクティビティの概要ページの右上隅にあるメニューアイコンをクリックし、**[!UICONTROL データのダウンロード]**&#x200B;をクリックします。
 
-![&#x200B; データオプションのダウンロード &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
+![ データオプションのダウンロード ](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
 CSV ファイルがダウンロードされます。 このタブを開くと、推奨項目が表示されます。
 
-![おすすめアイテムのCSV ファイル &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
+![おすすめアイテムのCSV ファイル ](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
 左から右へ推奨アイテムのリストです。この場合、最も頻繁に閲覧されます。 レコメンデーションは環境で区切られます。この場合、実稼動環境のみがレコメンデーションを持ちます。
 
-アスタリスク （*）が行の最初の値である場合、[&#x200B; バックアップ項目](/help/main/c-recommendations/c-algorithms/backup-recs.md)を示します。 設計のすべてのスロットをアルゴリズムの推奨項目（条件）で埋めることができない場合は、バックアップ項目が表示されます。
+アスタリスク （*）が行の最初の値である場合、[ バックアップ項目](/help/main/c-recommendations/c-algorithms/backup-recs.md)を示します。 設計のすべてのスロットをアルゴリズムの推奨項目（条件）で埋めることができない場合は、バックアップ項目が表示されます。
 
 「[!UICONTROL これを閲覧した人、閲覧した人]」など、キー値に基づくその他のアルゴリズムタイプの場合、キー値（つまり、「この」項目）は一番左の列に表示され、推奨項目（つまり、「その」項目）はRecommendation_X列に左から右に表示されます。
 
@@ -102,7 +110,7 @@ CSV ファイルがダウンロードされます。 このタブを開くと、
 
 >[!NOTE]
 >
->結果のダウンロードは、[!UICONTROL &#x200B; ユーザーベースのレコメンデーション &#x200B;] アルゴリズムを含むアクティビティでは利用できません。 [!UICONTROL 最近閲覧した項目]のレコメンデーションロジックを使用した条件では、結果のダウンロードは利用できません。
+>結果のダウンロードは、[!UICONTROL  ユーザーベースのレコメンデーション ] アルゴリズムを含むアクティビティでは利用できません。 [!UICONTROL 最近閲覧した項目]のレコメンデーションロジックを使用した条件では、結果のダウンロードは利用できません。
 
 ### 人気ベースおよびキーベースのアルゴリズム用のCSV ダウンロード形式 {#format}
 
@@ -110,19 +118,19 @@ CSV ダウンロードファイルは、バックエンド条件の実行後に�
 
 * **人気ベースのアルゴリズム（キーベース以外）の場合、ファイルには次のものが含まれます：**
 
-   * バックアップレコメンデーションの行に「*」（アスタリスク）を付ける
-   * アルゴリズム設定にもとづいてレコメンデーションを示す別の行
+  * バックアップレコメンデーションの行に「*」（アスタリスク）を付ける
+  * アルゴリズム設定にもとづいてレコメンデーションを示す別の行
 
 * **キーベースのアルゴリズムの場合、ファイルには次のものが含まれます：**
 
-   * 人気ベースのアルゴリズムに類似したバックアップ行
-   * キー値形式の複数行。最初のエントリはキーの製品IDで、その後に推奨候補を表すコンマ区切りの製品IDです
+  * 人気ベースのアルゴリズムに類似したバックアップ行
+  * キー値形式の複数行。最初のエントリはキーの製品IDで、その後に推奨候補を表すコンマ区切りの製品IDです
 
 ## Recommendations アクティビティのアクティブ化
 
-「[!UICONTROL &#x200B; アクティビティの概要]」タブで、「ステータス」ドロップダウン矢印をクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
+「[!UICONTROL  アクティビティの概要]」タブで、「ステータス」ドロップダウン矢印をクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
 
-お客様の[!UICONTROL Recommendations] アクティビティが現在[!UICONTROL 非アクティブ &#x200B;]状態にある場合、ドロップダウンリストには[!UICONTROL 非アクティブ &#x200B;]というラベルが付けられます。
+お客様の[!UICONTROL Recommendations] アクティビティが現在[!UICONTROL 非アクティブ ]状態にある場合、ドロップダウンリストには[!UICONTROL 非アクティブ ]というラベルが付けられます。
 
 数秒から数分後、ステータスが[!UICONTROL Live]に切り替わります。
 

@@ -1,16 +1,23 @@
 ---
 keywords: 複数値；属性；レコメンデーション；複数値；複数値；複数値
-description: Adobeの複数値フィールドを使用する方法を説明します [!DNL Target] 複数のアクターを含むムービーをレコメンデーションする場合など、特殊な複数値オペレーターを使用したレコメンデーション。
+description: Adobe [!DNL Target] Recommendationsの複数値フィールドを使用して作業する方法について説明します。例えば、複数のアクターを含むムービーをレコメンデーションする場合などに、特殊な複数値オペレーターを使用します。
 title: レコメンデーションで複数値の属性を使用できますか？
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 8%
-
 ---
-
 # 複数値の属性の扱い
 
 複数の値を持つフィールドを操作したい場合もあります。 次の例をご覧ください。
@@ -63,8 +70,8 @@ function targetPageParams() {
 
 複数値のエンティティ、プロファイルおよびmbox属性で使用できる演算子は次のとおりです。
 
-* [!UICONTROL はリスト &#x200B;]に含まれています
-* [!UICONTROL はリスト &#x200B;]に含まれていません
+* [!UICONTROL はリスト ]に含まれています
+* [!UICONTROL はリスト ]に含まれていません
 
 ## 包含ルールでの複数値の属性の操作
 

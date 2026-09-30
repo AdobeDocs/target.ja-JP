@@ -1,17 +1,24 @@
 ---
 keywords: エクスペリエンスのプレビュー;エクスペリエンスURL;URLの生成;エクスペリエンスのURLの表示
-description: Adobe [!DNL Target] Automated Personalization アクティビティのエクスペリエンスプレビューURLを使用して、アクティビティが公開される前にサイトでエクスペリエンスコンテンツを直接表示する方法を説明します。
+description: Adobe [!DNL Target] Automated Personalization アクティビティのエクスペリエンスのプレビューURLを使用して、アクティビティが公開される前にサイトでエクスペリエンスのコンテンツを直接表示する方法を説明します。
 title: Automated Personalization アクティビティでExperience Preview URLを使用するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 50%
-
 ---
-
 # エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューを行う
 
 [!DNL Target] [!UICONTROL Automated Personalization] アクティビティに対してエクスペリエンスプレビューURLを生成し、アクティビティがプレビューおよびQA目的で公開される前に、サイトでエクスペリエンスコンテンツを直接確認できます。 エクスペリエンスプレビューURLは、特定のエクスペリエンスを強制的に表示するためにターゲティングをバイパスします。
@@ -31,7 +38,7 @@ ht-degree: 50%
 1. URL を確認または指定します。
 
    * [!UICONTROL Visual Experience Composer] （VEC）を使用している場合、アクティビティに指定したデフォルト URLが自動的に入力され、アクティビティ内の各エクスペリエンスにリンクが生成されます。 必要であれば、この URL を変更して、他の URL を追加できます。
-   * [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用している場合、デフォルトのURLは自動的に入力されません。 以前にエクスペリエンスのプレビューURLを作成していない場合は、**新しいURLを追加**&#x200B;をクリックします。 プレビューを確認するすべての URL と、各 URL の名前を指定する必要があります。
+   * [!UICONTROL  フォームベースのExperience Composer]を使用している場合、デフォルトのURLは自動的に入力されません。 以前にエクスペリエンスのプレビューURLを作成していない場合は、**新しいURLを追加**&#x200B;をクリックします。 プレビューを確認するすべての URL と、各 URL の名前を指定する必要があります。
 
    複数の URL を追加できます。これは、複数ページのテストまたはテンプレートテストを実行しており、複数ページでアクティビティをプレビューする場合に便利です。
 
@@ -71,7 +78,7 @@ ht-degree: 50%
 
 * プレビューは、保存したすべてのアクティビティに対して、ページが変更されていない限り機能します。
 * アクティビティがアクティブか非アクティブかを問わず、エクスペリエンスのプレビューURLを使用できます。
-* [!UICONTROL &#x200B; ドラフト &#x200B;] ステータスのエクスペリエンスはプレビューできません。
+* [!UICONTROL  ドラフト ] ステータスのエクスペリエンスはプレビューできません。
 * レポートは、エクスペリエンスのプレビューURLを表示しても影響を受けません。
 
 **エクスペリエンスのプレビューURLのトラブルシューティング**

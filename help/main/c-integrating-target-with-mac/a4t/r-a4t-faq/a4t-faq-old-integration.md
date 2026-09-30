@@ -1,24 +1,28 @@
 ---
 keywords: faq；よくある質問；analytics for target;a4T;sitecatalyst;campaign>recipe;test&target；統合
-description: 従来のSiteCatalyst to Test&Target統合とAnalytics for [!DNL Target]  （A4T）の使用に関してよく寄せられる質問に対する回答を検索します。
+description: 従来のSiteCatalyst to Test&Target統合と[!DNL Target] （A4T）のAnalyticsの使用に関してよく寄せられる質問に対する回答を検索します。
 title: SiteCatalystとTest&Targetの統合に関するFAQはどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
-TQID: https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc
+TQID: 'https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '169'
 ht-degree: 39%
-
 ---
-
 # 以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ
 
 このトピックには、従来のSiteCatalystをTest&amp;Target統合に使用し、[!DNL Adobe Analytics]を[!DNL Adobe Target] （A4T）のレポートソースとして使用することについて頻繁に寄せられる質問に対する回答が含まれています。

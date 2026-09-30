@@ -1,29 +1,37 @@
 ---
 keywords: ターゲティング；visual experience composer；ホワイトリスト；ホワイトリスト；許可リスト;enhanced visual experience composer;vec;visual experience composerのトラブルシューティング；eec;enhanced experience composer;tls;tls 1.2
-description: 特定の条件下で [!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL Enhanced Experience Composer] （EEC）で発生することがある問題をトラブルシューティングする方法について説明します。
+description: '[!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL Enhanced Experience Composer] （EEC）で発生することがある問題のトラブルシューティング方法について説明します。'
 title: '[!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer]に関連する問題をトラブルシューティングするには、どうすればよいですか？'
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+TQID: 'https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1271
+source-wordcount: '1272'
 ht-degree: 31%
-
 ---
-
 # [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer]に関する問題のトラブルシューティング
 
 [!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL Enhanced Experience Composer] （EEC）で、特定の条件の下で表示の問題やその他の問題が発生することがあります。
@@ -127,7 +135,7 @@ VEC内でリソースが読み込まれない原因となるヘッダーに対�
 ## ページ内の 1 つの要素を変更すると、複数の要素が変更されます。 （VEC と EEC） {#section_309188ACF34942989BE473F63C5710AF}
 
 +++詳細
-同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。 この方法は、HTMLの標準的なベストプラクティスです。 詳しくは、[&#x200B; ページ変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。 この方法は、HTMLの標準的なベストプラクティスです。 詳しくは、[ ページ変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 +++
 
@@ -149,10 +157,10 @@ VEC内でリソースが読み込まれない原因となるヘッダーに対�
 
 +++
 
-## [!UICONTROL &#x200B; テキストを編集]/[!UICONTROL HTMLを編集]または[!UICONTROL &#x200B; テキストを変更]/[!DNL Change HTML]した太字と斜体のテキストスタイルがページに表示されません。 これらのスタイル変更を適用すると、テキストが消えることがあります。 （VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
+## [!UICONTROL  テキストを編集]/[!UICONTROL HTMLを編集]または[!UICONTROL  テキストを変更]/[!DNL Change HTML]した太字と斜体のテキストスタイルがページに表示されません。 これらのスタイル変更を適用すると、テキストが消えることがあります。 （VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++詳細
-VECで&#x200B;**[!UICONTROL テキストを編集]/[!UICONTROL HTMLを編集]**&#x200B;して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティを行ったり、**[!UICONTROL テキストを変更]/[!UICONTROL HTMLを変更]**&#x200B;して[!UICONTROL Automated Personalization]または[!UICONTROL 多変量テスト &#x200B;] アクティビティを行ってテキストを太字または斜体にしたりすると、そのスタイルがページ VEC ページに適用表示されないされる場合場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法がweb サイトのマークアップを妨げる可能性があるためです。
+VECで&#x200B;**[!UICONTROL テキストを編集]/[!UICONTROL HTMLを編集]**&#x200B;して[!UICONTROL A/B テスト ]または[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティを行ったり、**[!UICONTROL テキストを変更]/[!UICONTROL HTMLを変更]**&#x200B;して[!UICONTROL Automated Personalization]または[!UICONTROL 多変量テスト ] アクティビティを行ってテキストを太字または斜体にしたりすると、そのスタイルがページ VEC ページに適用表示されないされる場合場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法がweb サイトのマークアップを妨げる可能性があるためです。
 
 この問題が発生した場合、次の手順に従ってください。
 

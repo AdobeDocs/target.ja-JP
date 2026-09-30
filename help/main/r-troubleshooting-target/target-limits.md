@@ -1,32 +1,44 @@
 ---
 keywords: 文字制限;mbox パラメーター;バッチ配信 api;プロファイルパラメーター;制限;組み込みプロファイル;最大;制限;制約;文字;ベストプラクティス;orderid;orderTotal;mbox3rdPartyID;カテゴリ;categoryID;トラブルシューティング
-description: ' [!DNL Adobe Target]のアクティビティやその他の要素に影響を与える文字制限およびその他の制限のリストを表示します。'
-title: ' [!DNL Adobe Target]の様々な文字、サイズ、その他の制限は何ですか？'
+description: '[!DNL Adobe Target]のアクティビティやその他の要素に影響を与える文字制限およびその他の制限のリストを表示します。'
+title: '[!DNL Adobe Target]の様々な文字、サイズ、その他の制限は何ですか？'
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
+TQID: 'https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1772
+source-wordcount: '1772'
 ht-degree: 73%
-
 ---
-
 # 制限
 
 文字制限およびその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど） [!DNL Adobe Target]のアクティビティと他の要素に影響します。
@@ -81,17 +93,17 @@ ht-degree: 73%
 
   特定のユーザーセッションに対する同時 [!DNL Target] コンテンツ配信リクエストが 100 件を超える場合、そのユーザーセッションに対する以降の要求はすべてブロックされます。 複数のリクエストが、それらのいずれかに対する応答を受信する前に [!DNL Target] サーバーに送信された場合、それらは同時であると見なされます。 [!DNL Target] では、同じセッションに対する同時リクエストを順次処理します。
 
-   * **エラーの動作**
+  * **エラーの動作**
 
-      * 配信 API とバッチ mbox v2：
-         * エラーコード：HTTP 420 Too Many Requests
-         * エラーメッセージ：「同じセッション ID のリクエストが多すぎます」
+    * 配信 API とバッチ mbox v2：
+      * エラーコード：HTTP 420 Too Many Requests
+      * エラーメッセージ：「同じセッション ID のリクエストが多すぎます」
 
-      * 従来の mbox API：
-         * コメント「同じセッション ID を持つリクエストが多すぎます」を含むデフォルトコンテンツ
+    * 従来の mbox API：
+      * コメント「同じセッション ID を持つリクエストが多すぎます」を含むデフォルトコンテンツ
 
-      * at.js:
-         * 表示されるデフォルトコンテンツ
+    * at.js:
+      * 表示されるデフォルトコンテンツ
 
 * **制限**: [!DNL Target] コンテンツ配信バッチ mbox リクエストあたり50 mbox。
 
@@ -131,7 +143,7 @@ ht-degree: 73%
 
 * デザインで参照できるエンティティの最大数は、ハードコーディングでもループ経由でも 99 です。
 * 最高のパフォーマンスを得るには、カタログを環境あたり 100 万項目未満、すべての環境で 1000 万項目未満に制限することをお勧めします。
-* 上限は、環境あたり1000 万項目、全環境で 1 億項目です。 環境ごとに100万～1000万個のアイテムがある場合、[!UICONTROL &#x200B; カタログ検索] UIのパフォーマンスに影響が及びます。 [!DNL Target Recommendations]ただし、レコメンデーションの生成と配信は引き続き行われます。
+* 上限は、環境あたり1000 万項目、全環境で 1 億項目です。 環境ごとに100万～1000万個のアイテムがある場合、[!UICONTROL  カタログ検索] UIのパフォーマンスに影響が及びます。 [!DNL Target Recommendations]ただし、レコメンデーションの生成と配信は引き続き行われます。
 
 ### エンティティカスタム属性
 
@@ -139,8 +151,8 @@ ht-degree: 73%
 
 * **文字数制限**：最大の文字数は言語によって異なります。
 
-   * 15,000 文字（単一値、1 バイトおよび 2 バイト言語）
-   * 500 個の値、値あたり 100 文字（複数値）
+  * 15,000 文字（単一値、1 バイトおよび 2 バイト言語）
+  * 500 個の値、値あたり 100 文字（複数値）
 
   単一値のカスタムエンティティの属性の最大長は、15,000 文字（英語やその他のラテン文字のアルファベットなどの 1 バイトおよび 2 バイトの UTF-8 でエンコードされた言語の場合）、または 10,000 文字（中国語、日本語、韓国語などの 3 バイトの UTF-8 エンコード言語の場合）です。
 
@@ -170,7 +182,7 @@ ht-degree: 73%
 
 ### アクティビティあたりのエクスペリエンス
 
-* **制限**: [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL 多変量テスト &#x200B;] （MVT）、[!UICONTROL 自動ターゲット &#x200B;] アクティビティごとに2,000件のエクスペリエンス。
+* **制限**: [!UICONTROL  エクスペリエンスのターゲット設定] （XT）、[!UICONTROL A/B テスト ]、[!UICONTROL 多変量テスト ] （MVT）、[!UICONTROL 自動ターゲット ] アクティビティごとに2,000件のエクスペリエンス。
 
   Automated Personalization（AP）アクティビティあたり 30,000 個のエクスペリエンス。
 
@@ -212,9 +224,9 @@ ht-degree: 73%
 
   標準の mbox 呼び出しの場合：
 
-   * mbox パラメーター：mbox 1 個あたり 500 パラメーター。
-   * プロファイルパラメーター：mbox 1 個あたり、プロファイルパラメーター 500 個。
-   * その他のパラメーター（URL、参照URLなど）：各パラメーターの種類ごとにmboxごとに50。
+  * mbox パラメーター：mbox 1 個あたり 500 パラメーター。
+  * プロファイルパラメーター：mbox 1 個あたり、プロファイルパラメーター 500 個。
+  * その他のパラメーター（URL、参照URLなど）：各パラメーターの種類ごとにmboxごとに50。
 
   これらの制限は、Web ブラウザーの制約が原因で要求が短縮されない限り、適用されません。
 
@@ -228,25 +240,25 @@ ht-degree: 73%
 
   **mbox v2 をバッチ処理**：
 
-   * mbox パラメーター 100
-   * mbox パラメーター名の最大の長さは 128 です。
-   * mbox パラメーター値を null にすることはできません
-   * mbox パラメーター値 5000
-   * プロファイルパラメーター：50
-   * プロファイルパラメーター名の最大の長さは 128 です
-   * プロファイルパラメーター値を NULL にすることはできません
-   * プロファイルパラメーター値の最大の長さは 256 です
+  * mbox パラメーター 100
+  * mbox パラメーター名の最大の長さは 128 です。
+  * mbox パラメーター値を null にすることはできません
+  * mbox パラメーター値 5000
+  * プロファイルパラメーター：50
+  * プロファイルパラメーター名の最大の長さは 128 です
+  * プロファイルパラメーター値を NULL にすることはできません
+  * プロファイルパラメーター値の最大の長さは 256 です
 
   **配信 API エンドポイント**：
 
-   * mbox パラメーター 100
-   * mbox パラメーター名の最大の長さは 128 です。
-   * mbox パラメーター値を null にすることはできません
-   * mbox パラメーター値 5000
-   * プロファイルパラメーター：50
-   * プロファイルパラメーター名の最大の長さは 128 です
-   * プロファイルパラメーター値を NULL にすることはできません
-   * プロファイルパラメーター値の最大の長さは 256 です
+  * mbox パラメーター 100
+  * mbox パラメーター名の最大の長さは 128 です。
+  * mbox パラメーター値を null にすることはできません
+  * mbox パラメーター値 5000
+  * プロファイルパラメーター：50
+  * プロファイルパラメーター名の最大の長さは 128 です
+  * プロファイルパラメーター値を NULL にすることはできません
+  * プロファイルパラメーター値の最大の長さは 256 です
 
 ### mbox リクエスト URL
 

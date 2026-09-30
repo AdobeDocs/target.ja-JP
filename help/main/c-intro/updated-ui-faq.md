@@ -1,31 +1,43 @@
 ---
 keywords: target ユーザーインターフェイス；ユーザーインターフェイス；ui；よくある質問；faq
-description: 更新された [!DNL Target]t ユーザーインターフェイスに関する質問と回答。
-title: 更新された [!DNL Target] UIに関するFAQはどこにありますか？
+description: 更新された[!DNL Target]t ユーザーインターフェイスに関する質問と回答。
+title: 更新された[!DNL Target] UIに関するFAQはどこにありますか？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
+TQID: 'https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2013
-ht-degree: 9%
-
+source-wordcount: '2015'
+ht-degree: 16%
 ---
-
 # [!DNL Target]件のUI更新に関するFAQ
 
 2025年の新機能として、[!DNL Adobe Target]の再設計されたユーザーインターフェイスは、すべてのユーザーに対してよりクリーンで直感的なエクスペリエンスを提供します。 このFAQでは、ナビゲーションの変更、機能の配置、一時的なUI トグルの削除など、[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）の主要な更新について説明します。 マーケター、開発者、管理者のいずれであっても、スムーズな移行とスマートなワークフローを実現するためのガイドです。
@@ -47,8 +59,8 @@ ht-degree: 9%
 
 * **2025年6月30日**: [更新 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)が、UI バージョンの切り替えを有効にしたすべてのIMS組織のデフォルトエクスペリエンスになりました。
 
-   * 現在、従来のUIを表示しているお客様は、デフォルトで、ログイン時に更新されたUIを表示するようになりました。
-   * UI バージョンの切り替えは7月末まで利用でき、必要に応じて切り替えることができます。
+  * 現在、従来のUIを表示しているお客様は、デフォルトで、ログイン時に更新されたUIを表示するようになりました。
+  * UI バージョンの切り替えは7月末まで利用でき、必要に応じて切り替えることができます。
 
   >[!IMPORTANT]
   >
@@ -56,10 +68,10 @@ ht-degree: 9%
 
 * **2025年7月15日～7月30日**: UI バージョンの切り替えは、段階的に完全に無効になります。 影響を受けるIMS組織は、従来のUIに戻すことができなくなりました。
 
-   * 例外はケースバイケースでレビューされます。
-   * トグルの非推奨化に対する遅延は、ブロッカーの問題が解決される間、短期間（数日）のみ付与されます。
+  * 例外はケースバイケースでレビューされます。
+  * トグルの非推奨化に対する遅延は、ブロッカーの問題が解決される間、短期間（数日）のみ付与されます。
 
-ご不明な点がある場合や、この移行中に問題が発生すると予想される場合は、[Adobe カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)にお問い合わせください。
+ご不明な点がある場合や、この移行中に問題が発生すると予想される場合は、[Adobe カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)にお問い合わせください。
 
 ### UI の切替スイッチの動作の制限 {#limitations}
 
@@ -71,12 +83,12 @@ ht-degree: 9%
 
 ### 更新されたUIに関する詳細なリソース
 
-* [[!DNL Target] UI更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)：このFAQでは、ナビゲーションの変更、機能の場所、一時的なUI バージョンの廃止トグルなど、新しい[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
-* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL &#x200B; アクティビティ &#x200B;]、[!UICONTROL 推奨事項]、および[!UICONTROL Visual Experience Composer] （VEC）の[!DNL Target]の主要なUI変更の概要を提供します。
-* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL &#x200B; オファーライブラリ &#x200B;]の[!DNL Target]の主要なUI変更の概要を提供します。
-* [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
-* [[!UICONTROL Visual Experience Composer]の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日）では、更新された[!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
-* [[!UICONTROL Visual Experience Composer] オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新されたVEC UIとそのオプションについて説明します。
+* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+* [[!DNL Target Standard/Premium]  25.2.1（2025年2月17日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：[!DNL Target] の[!UICONTROL アクティビティ]、[!UICONTROL レコメンデーション]、[!UICONTROL Visual Experience Composer]（VEC）に関する主な UI の変更の概要について説明します。
+* [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!DNL Target] の[!UICONTROL オファーライブラリ] に関する主な UI の変更の概要について説明します。
+* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
+* [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
 +++
 
@@ -85,17 +97,17 @@ ht-degree: 9%
 +++詳細
 更新された[!DNL Target] UIについて詳しくは、次のリソースを参照してください。
 
-* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL &#x200B; オファーライブラリ &#x200B;]の[!DNL Target]の主要なUI変更の概要を提供します。
+* [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!DNL Target] の[!UICONTROL オファーライブラリ] に関する主な UI の変更の概要について説明します。
 
-* [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 
-* [[!UICONTROL Visual Experience Composer]の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日）では、更新された[!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
+* [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 
-* [[!UICONTROL Visual Experience Composer] オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新されたVEC UIとそのオプションについて説明します。
+* [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
 +++
 
-## 更新されたUIは、現在のすべての[!DNL Target]のお客様、[!UICONTROL 標準]および[!UICONTROL &#x200B; プレミアム &#x200B;]に対して使用できますか？
+## 更新されたUIは、現在のすべての[!DNL Target]のお客様、[!UICONTROL 標準]および[!UICONTROL  プレミアム ]に対して使用できますか？
 
 +++詳細
 更新されたUIは、[!DNL Target]のお客様、[!UICONTROL Standard]および[!UICONTROL Premium]すべてに使用できます。 アップグレードされたライセンスやSKUは必要ありません。
@@ -142,7 +154,7 @@ UI バージョン トグルの使用には、新しいアクティビティの�
 
 更新されたVECでは、この機能は前進および後退アクションによって合理化されます。 これらのコントロールは、重なり順に前後に移動することで、レイアウト内のエレメントの位置を水平方向と垂直方向の両方で調整します。
 
-**サイズ変更**: [!UICONTROL &#x200B; サイズ変更]機能は、[!UICONTROL &#x200B; サイズ &#x200B;] セクションの[!UICONTROL &#x200B; プロパティ &#x200B;] パネルにあります。 ユーザーは、要素の幅と高さを直接調整できます。 詳細設定には次のものが含まれます。
+**サイズ変更**: [!UICONTROL  サイズ変更]機能は、[!UICONTROL  サイズ ] セクションの[!UICONTROL  プロパティ ] パネルにあります。 ユーザーは、要素の幅と高さを直接調整できます。 詳細設定には次のものが含まれます。
 
 * 最小/最大幅および高さコントロール
 * オーバーフロー動作の設定。
@@ -150,21 +162,21 @@ UI バージョン トグルの使用には、新しいアクティビティの�
 
 これらのツールは、エレメントの寸法とレイアウト動作を正確に制御できます。
 
-**Move**: [!UICONTROL Move] オプションは、[!UICONTROL 位置] セクションの[!UICONTROL &#x200B; プロパティ &#x200B;] パネルにあります。 このオプションを使用すると、ユーザーは次のことが可能になります。
+**Move**: [!UICONTROL Move] オプションは、[!UICONTROL 位置] セクションの[!UICONTROL  プロパティ ] パネルにあります。 このオプションを使用すると、ユーザーは次のことが可能になります。
 
 * エレメントの位置を設定します（例：絶対、相対、固定）。
 * レイヤーのZ インデックスを定義する
 * ポジショニングタイプの選択
 
-更新された[!UICONTROL &#x200B; プロパティ &#x200B;] パネルは、カスタムのインラインスタイルもサポートしており、プリセットオプションがレイアウトのニーズを満たさない場合でも柔軟性を提供します。
+更新された[!UICONTROL  プロパティ ] パネルは、カスタムのインラインスタイルもサポートしており、プリセットオプションがレイアウトのニーズを満たさない場合でも柔軟性を提供します。
 
-**[!UICONTROL 非表示]**: [!UICONTROL 非表示]機能は[!UICONTROL &#x200B; プロパティ &#x200B;] パネルにあります。 要素を選択した後、[!UICONTROL 要素を非表示]をクリックして、削除せずに要素をビューから削除します。 これは、デザインまたはプレビュー中に表示を管理する場合に便利です。
+**[!UICONTROL 非表示]**: [!UICONTROL 非表示]機能は[!UICONTROL  プロパティ ] パネルにあります。 要素を選択した後、[!UICONTROL 要素を非表示]をクリックして、削除せずに要素をビューから削除します。 これは、デザインまたはプレビュー中に表示を管理する場合に便利です。
 
-**[!UICONTROL 削除]**: [!UICONTROL 削除]機能には、[!UICONTROL &#x200B; プロパティ &#x200B;] パネルからアクセスできます。 エレメントを選択した後、「エレメントを削除」をクリックしてページからエレメントを削除します。 このアクションは、レイアウトから要素を完全に削除します。
+**[!UICONTROL 削除]**: [!UICONTROL 削除]機能には、[!UICONTROL  プロパティ ] パネルからアクセスできます。 エレメントを選択した後、「エレメントを削除」をクリックしてページからエレメントを削除します。 このアクションは、レイアウトから要素を完全に削除します。
 
 +++
 
-## [!UICONTROL &#x200B; コンポーネント &#x200B;]、[!UICONTROL 変更]、[!UICONTROL &#x200B; プロパティ &#x200B;]のレールを折りたたんで、[!UICONTROL &#x200B; デザイン &#x200B;] パネルを拡大できますか？ {#collapse}
+## [!UICONTROL  コンポーネント ]、[!UICONTROL 変更]、[!UICONTROL  プロパティ ]のレールを折りたたんで、[!UICONTROL  デザイン ] パネルを拡大できますか？ {#collapse}
 
 +++詳細
 
@@ -172,26 +184,26 @@ UI バージョン トグルの使用には、新しいアクティビティの�
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; コンポーネントを表示] アイコン （![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル &#x200B;](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
+>[!UICONTROL  コンポーネントを表示] アイコン （![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
 
-**[!UICONTROL &#x200B; コンポーネント &#x200B;] レール**&#x200B;を折りたたむ
+**[!UICONTROL  コンポーネント ] レール**&#x200B;を折りたたむ
 
-[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルを折りたたんで[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスを拡大し、[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルを開いている間に、（![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）アイコンをクリックします。
+[!UICONTROL  コンポーネント ] パネルを折りたたんで[!UICONTROL  デザイン ] キャンバスを拡大し、[!UICONTROL  コンポーネント ] パネルを開いている間に、（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）アイコンをクリックします。
 
-**変更 パネル**&#x200B;を折りたたむ
+**変更] パネル**&#x200B;を折りたたむ[!UICONTROL 
 
-[!UICONTROL 変更] レールを折りたたんで[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスを拡大し、[!UICONTROL 変更] レールを開いている間に、[!UICONTROL 変更]を表示アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
+[!UICONTROL 変更] レールを折りたたんで[!UICONTROL  デザイン ] キャンバスを拡大し、[!UICONTROL 変更] レールを開いている間に、[!UICONTROL 変更]を表示アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
 
-**[!UICONTROL &#x200B; プロパティ &#x200B;] レール**&#x200B;を折りたたむ
+**[!UICONTROL  プロパティ ] レール**&#x200B;を折りたたむ
 
-[!UICONTROL &#x200B; プロパティ &#x200B;] レールを折りたたんで[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスを拡大するには、レールの右側にある[!UICONTROL &#x200B; プロパティの表示/非表示] アイコン （![&#x200B; プロパティ アイコン &#x200B;](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;] レールを折りたたむか表示します。
+[!UICONTROL  プロパティ ] レールを折りたたんで[!UICONTROL  デザイン ] キャンバスを拡大するには、レールの右側にある[!UICONTROL  プロパティの表示/非表示] アイコン （![ プロパティ アイコン ](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL  プロパティ ] レールを折りたたむか表示します。
 
 +++
 
-## [!UICONTROL &#x200B; ドラフトとして保存]および[!UICONTROL 同期]の状態は引き続き利用できますか？
+## [!UICONTROL  ドラフトとして保存]および[!UICONTROL 同期]の状態は引き続き利用できますか？
 
 +++詳細
-ユーザーインターフェイスの最新の更新により、[!UICONTROL &#x200B; ドラフトとして保存]および[!UICONTROL 同期]状態は使用できなくなります。 詳しくは、*[!UICONTROL アクティビティの概要]*&#x200B;の「[&#x200B; アクティビティリストにフィルターを適用する](/help/main/c-activities/activities.md#filters)」のステータスを参照してください。
+ユーザーインターフェイスの最新の更新により、[!UICONTROL  ドラフトとして保存]および[!UICONTROL 同期]状態は使用できなくなります。 詳しくは、*[!UICONTROL アクティビティの概要]*&#x200B;の「[ アクティビティリストにフィルターを適用する](/help/main/c-activities/activities.md#filters)」のステータスを参照してください。
 
 +++
 
@@ -205,14 +217,14 @@ UI バージョン トグルの使用には、新しいアクティビティの�
 ## レガシーでオファーを作成する場合と更新されたUIの違いは何ですか？ 追加の属性は必要ですか？
 
 +++詳細
-[!UICONTROL &#x200B; オファーライブラリ &#x200B;] UIでは、すべてのオファーに一貫した属性定義が必要です。 アクティビティのみの（アドホック）オファーを作成する場合、ユーザーはオファー名も指定する必要があります。 この情報は[!UICONTROL &#x200B; フォームベースのExperience Composer]に表示されるので、コードやコンテンツを確認せずにオファーを識別しやすくなります。
+[!UICONTROL  オファーライブラリ ] UIでは、すべてのオファーに一貫した属性定義が必要です。 アクティビティのみの（アドホック）オファーを作成する場合、ユーザーはオファー名も指定する必要があります。 この情報は[!UICONTROL  フォームベースのExperience Composer]に表示されるので、コードやコンテンツを確認せずにオファーを識別しやすくなります。
 
 +++
 
 ## 更新されたUIのオファープレビューリンクはどうなりましたか？
 
 +++詳細
-[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]のプレビューリンクは、選択したフラグメントに対応する情報アイコン（![情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）をクリックすると表示される[!UICONTROL &#x200B; クイック情報] ポップオーバーで利用できます。
+[!UICONTROL  エクスペリエンスフラグメント ]のプレビューリンクは、選択したフラグメントに対応する情報アイコン（![情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると表示される[!UICONTROL  クイック情報] ポップオーバーで利用できます。
 
 +++
 
@@ -231,16 +243,16 @@ UI バージョン トグルの使用には、新しいアクティビティの�
 許可リストに加えるできるIP アドレスについて詳しくは、次の記事を参照してください。
 
 * **Enhanced Experience Composer （EEC）**:「[EECは、パブリック IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)でアクセスできない内部QA URLを読み込むことはありません」の&#x200B;*Enhanced Experience Composerに関する問題のトラブルシューティング*
-* **[!UICONTROL Recommendations]**: Recommendations フィード処理サーバーで使用される[IP アドレス &#x200B;](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)を参照してください。
+* **[!UICONTROL Recommendations]**: Recommendations フィード処理サーバーで使用される[IP アドレス ](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)を参照してください。
 
 +++
 
 ## 新しいRecommendations UIで、環境がデフォルトでステージングにリセットされますか？
 
 +++詳細
-環境は、お客様が最後に使用した環境にデフォルトで設定されます。 環境を切り替えるには、[!UICONTROL &#x200B; カタログ検索] UIの右上隅にある[!UICONTROL 環境] セレクターを使用します。
+環境は、お客様が最後に使用した環境にデフォルトで設定されます。 環境を切り替えるには、[!UICONTROL  カタログ検索] UIの右上隅にある[!UICONTROL 環境] セレクターを使用します。
 
-![環境スイッチ &#x200B;](/help/main/c-intro/assets/environmnent.png)
+![環境スイッチ ](/help/main/c-intro/assets/environmnent.png)
 
 +++
 

@@ -1,32 +1,43 @@
 ---
 keywords: A4T;Analytics;Analytics for Target;Analytics レポートソース;Adobe Analytics For Target;atjs;at.js;Adobe Experience Platform Web SDK;Platform Web SDK;Platform SDK
-description: ' [!DNL Analytics]  for  [!DNL Target] （A4T）を使用して、 [!DNL Analytics] コンバージョン指標およびオーディエンスセグメントに基づいた悪てティビティを作成し、 [!DNL Analytics]  レポートを使用して結果を調べます。'
-title: ' [!DNL Analytics]  for  [!DNL Target] （A4T）とは'
+description: '[!DNL Analytics] for [!DNL Target] （A4T）を使用して、[!DNL Analytics]のコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成し、[!DNL Analytics]件のレポートを使用して結果を検証します。'
+title: '[!DNL Target] （A4T）の[!DNL Analytics]とは'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-TQID: https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8
+TQID: 'https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 78%
-
+source-wordcount: '1131'
+ht-degree: 76%
 ---
-
 # [!DNL Adobe Target]（A4T）のレポートソースとしての [!DNL Adobe Analytics]
 
 [!DNL Adobe Analytics for Target]（A4T）は、[!DNL Analytics] のコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できるクロスソリューション統合環境です。 A4T 統合では、[!DNL Analytics] レポートを使用して結果を確認できます。 [!DNL Analytics] をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて [!DNL Analytics] のデータ収集に基づいて行われます。
@@ -43,7 +54,7 @@ ht-degree: 78%
 
 [!DNL Analytics] をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて [!DNL Analytics] に基づいて行われます。
 
-計算指標を含むすべての[!DNL Analytics]指標は、[!DNL Target]および[!DNL Analytics]の[!UICONTROL &#x200B; ターゲットアクティビティ &#x200B;] レポートで利用できます（ただし、1つの例外を除く）。 [!UICONTROL 上昇率と信頼性]の計算指標はサポートされていません。 同様に、[!DNL Analytics] で利用可能な任意のセグメントも、両方のソリューションに適用できます。 アクティビティの開始後、またはアクティビティが完了した後でも、[!DNL Target] のレポートに指標やオーディエンスを適用できます。
+計算指標を含むすべての[!DNL Analytics]指標は、[!DNL Target]および[!DNL Analytics]の[!UICONTROL  ターゲットアクティビティ ] レポートで利用できます（ただし、1つの例外を除く）。 [!UICONTROL 上昇率と信頼性]の計算指標はサポートされていません。 同様に、[!DNL Analytics] で利用可能な任意のセグメントも、両方のソリューションに適用できます。 アクティビティの開始後、またはアクティビティが完了した後でも、[!DNL Target] のレポートに指標やオーディエンスを適用できます。
 
 顧客の指標や [!DNL Analytics] のビルトインの計算指標を含む、すべての指標を利用できます。
 
@@ -55,7 +66,7 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 * レポートソースはアクティビティごとに設定されます。 [!DNL Target] はレポートに使用するデータを引き続き収集するので、[!DNL Target] によって収集されたデータをアクティビティのベースにしたい場合は、[!DNL Target] のデータを利用できます。
 * どちらか 1 つのレポートソースを選びます。 両方のソースから 1 つのアクティビティのデータを収集することはできません。
 * A4T を使用する場合は、アクティビティに使用できる成功指標はすべて [!DNL Analytics] の指標です。 ただし、at.js を使用している場合は目標指標は mbox の呼び出しをベースにすることができます。 例えば、[!DNL Analytics] のクリック追跡コードを実装する代わりに、Target が備えているクリック追跡機能を A4T で使用できます。
-* [!DNL Target] UI で A4T アクティビティのレポートを表示すると、[!DNL Analytics] のデータが表示されます。 例えば、[!DNL Target]で[!UICONTROL 訪問者]指標を使用する場合、現在[!UICONTROL 参加者]と呼ばれている[!DNL Target] [!UICONTROL 訪問者]指標ではなく、[!DNL Analytics] [!UICONTROL 訪問者]指標を使用しています。 この違いは、基本的なトラフィック指標（[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL &#x200B; ページビュー]）とコンバージョン指標にとって特に重要です。
+* [!DNL Target] UI で A4T アクティビティのレポートを表示すると、[!DNL Analytics] のデータが表示されます。 例えば、[!DNL Target]で[!UICONTROL 訪問者]指標を使用する場合、現在[!UICONTROL 参加者]と呼ばれている[!DNL Target] [!UICONTROL 訪問者]指標ではなく、[!DNL Analytics] [!UICONTROL 訪問者]指標を使用しています。 この違いは、基本的なトラフィック指標（[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL  ページビュー]）とコンバージョン指標にとって特に重要です。
 * 既存の [!DNL Target] アクティビティは引き続き [!DNL Target] のデータ収集を使用するので、A4T を有効にしても影響を受けません。
 * A4T を使用する場合、使用できる mbox ベースの指標は 1 つだけです。
 * [!DNL Target] から [!DNL Analytics] へのサーバー間コールによって、アクティビティとエクスペリエンスの情報が [!DNL Analytics] に送られます。 この統合によって、[!DNL Target] または [!DNL Analytics] に追加のサーバーコールが生じることはありません。
@@ -89,15 +100,15 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 
 >[!NOTE]
 >
->「[!UICONTROL &#x200B; アクティビティ &#x200B;]」ページの上部にある「[!UICONTROL &#x200B; レポートSource]」ドロップダウンリストを使用して、A4Tを使用するアクティビティのみを表示できます。
+>「[!UICONTROL  アクティビティ ]」ページの上部にある「[!UICONTROL  レポートSource]」ドロップダウンリストを使用して、A4Tを使用するアクティビティのみを表示できます。
 
-レポートの右上にある適切なアイコンをクリックすると、レポートの[!UICONTROL &#x200B; テーブルビュー]と[!UICONTROL &#x200B; グラフビュー]を切り替えることができます。
+レポートの右上にある適切なアイコンをクリックすると、レポートの[!UICONTROL  テーブルビュー]と[!UICONTROL  グラフビュー]を切り替えることができます。
 
-次の図は、[!UICONTROL &#x200B; レポート指標] ドロップダウンリストに使用可能な[!DNL Analytics]目標の指標が表示されているA4T レポートの[!UICONTROL &#x200B; グラフ表示]を示しています。
+次の図は、[!UICONTROL  レポート指標] ドロップダウンリストに使用可能な[!DNL Analytics]目標の指標が表示されているA4T レポートの[!UICONTROL  グラフ表示]を示しています。
 
 ![a4t_report_graph1 画像](assets/a4t_report_graph1.png)
 
-次の図は、[!UICONTROL &#x200B; オーディエンス &#x200B;] ドロップダウンリストに使用可能な[!DNL Analytics] オーディエンスが表示されたA4T レポートの[!UICONTROL &#x200B; グラフビュー]を示しています。
+次の図は、[!UICONTROL  オーディエンス ] ドロップダウンリストに使用可能な[!DNL Analytics] オーディエンスが表示されたA4T レポートの[!UICONTROL  グラフビュー]を示しています。
 
 ![a4t_report_graph2 画像](assets/a4t_report_graph2.png)
 
@@ -115,7 +126,7 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 
 以下のビデオは、このトピックで説明する概念についてさらに詳しく説明しています。
 
-### Analytics for Adobe Target （A4T） （4:32） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+### Analytics for Adobe Target （A4T） （4:32） ![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、最適化プログラムの分析を推進するために [!DNL Target] で [!DNL Analytics] をレポートソースとして使用する方法を説明します。
 
@@ -123,9 +134,9 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 * A4T の仕組みの説明
 * A4T を使用する前に必要な前提条件の理解
 
->[!VIDEO](https://video.tv.adobe.com/v/3421727?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Adobe Target統合（A4T） （40:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### Analytics / Adobe Target統合（A4T） （40:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオは、「[Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 

@@ -1,18 +1,27 @@
 ---
 keywords: 自動パーソナライゼーション；オファー；ターゲット；オーディエンス；ターゲティングルール；ターゲティング
-description: ' [!DNL Adobe Target]の[!UICONTROL Automated Personalization] （AP）アクティビティを使用して、特定のオーディエンスに個別のオファーをターゲティングする方法について説明します。'
+description: '[!DNL Adobe Target]の[!UICONTROL Automated Personalization] （AP） アクティビティを使用して、特定のオーディエンスに個別のオファーをターゲティングする方法について説明します。'
 title: '[!UICONTROL Automated Personalization]のオファーをターゲットにするにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 30%
-
 ---
-
 # [!UICONTROL Automated Personalization]件のオファーをターゲット
 
 [!DNL Adobe Target] [!DNL Automated Personalization] （AP）アクティビティでは、特定のオーディエンスに対するオファーをターゲットにできます。
@@ -30,12 +39,12 @@ ht-degree: 30%
 
 ## ターゲティングルールの設定
 
-1. ターゲットにするオファーを含む[Automated Personalization アクティビティ &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)を作成します。
+1. ターゲットにするオファーを含む[Automated Personalization アクティビティ ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)を作成します。
 1. [!UICONTROL Visual Experience Composer]でアクティビティのオファーを設定したら、**[!UICONTROL コンテンツの管理]**&#x200B;をクリックします。
 
    ![コンテンツを管理](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   [!UICONTROL &#x200B; コンテンツの管理] ダイアログボックスが表示されます。
+   [!UICONTROL  コンテンツの管理] ダイアログボックスが表示されます。
 
 1. 「**[!UICONTROL オファー]**」タブをクリックします。
 
@@ -47,7 +56,7 @@ ht-degree: 30%
 
    複数のオファーのターゲティングを設定するには、目的のオファーのチェックボックスを選択し、リストの右上に表示される&#x200B;**[!UICONTROL ターゲティング]** アイコンをクリックします。
 
-1. [!UICONTROL &#x200B; オーディエンスを選択] ダイアログボックスで、オファーに必要なオーディエンスを選択し、**[!UICONTROL 完了]**&#x200B;をクリックして[!UICONTROL &#x200B; コンテンツを管理] ダイアログボックスに戻ります。
+1. [!UICONTROL  オーディエンスを選択] ダイアログボックスで、オファーに必要なオーディエンスを選択し、**[!UICONTROL 完了]**&#x200B;をクリックして[!UICONTROL  コンテンツを管理] ダイアログボックスに戻ります。
 
    >[!NOTE]
    >

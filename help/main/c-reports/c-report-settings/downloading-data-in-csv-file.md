@@ -1,25 +1,30 @@
 ---
 keywords: レポート、ダウンロードレポート、csv、success metrics、注文の詳細
-description: Adobe [!DNL Target]  アクティビティからCVS形式でデータをダウンロードして、Excel、Access、またはその他のデータ分析プログラムにすばやく読み込む方法について説明します。
+description: Adobe [!DNL Target] アクティビティからCVS形式でデータをダウンロードして、Excel、Access、またはその他のデータ分析プログラムにすばやく読み込む方法について説明します。
 title: CSV ファイルにレポートデータをダウンロードするにはどうすればよいですか？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-TQID: https://experienceleague.adobe.com/-1FEosKnw-h8hRoK-VTO9VZsi5vIghnMnZp-fUUXo2U
+TQID: 'https://experienceleague.adobe.com/-1FEosKnw-h8hRoK-VTO9VZsi5vIghnMnZp-fUUXo2U'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '738'
 ht-degree: 35%
-
 ---
-
 # CSV ファイル内のデータのダウンロード
 
 [!DNL Excel]、[!DNL Access]またはその他のデータ分析プログラムにすばやく読み込むために、.csv形式でデータをダウンロードします。
@@ -28,12 +33,12 @@ CSV ファイル内のデータをダウンロードするには：
 
 1. 「**[!UICONTROL アクティビティ]**」をクリックしてから、希望するアクティビティをリストからクリックします。
 
-   アクティビティが多い場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL 指標タイプ &#x200B;]、[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択して、リストをフィルタリングします。
+   アクティビティが多い場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL 指標タイプ ]、[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択して、リストをフィルタリングします。
 
 1. 「**[!UICONTROL レポート]**」タブをクリックします。
-1. **[!UICONTROL ダウンロード]** （![&#x200B; ダウンロードアイコン &#x200B;](/help/main/assets/icons/Download.svg)）アイコンをクリックし、Excelやその他のツールで分析用にダウンロードするレポートタイプを選択します。
+1. **[!UICONTROL ダウンロード]** （![ ダウンロードアイコン ](/help/main/assets/icons/Download.svg)）アイコンをクリックし、Excelやその他のツールで分析用にダウンロードするレポートタイプを選択します。
 
-   * [!UICONTROL &#x200B; レポートをCSVに書き出し]
+   * [!UICONTROL  レポートをCSVに書き出し]
    * [!UICONTROL 注文の詳細を CSV に書き出す]
 
 ## [!UICONTROL レポートを CSV に書き出す] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -68,16 +73,16 @@ CSV ファイル内のデータをダウンロードするには：
 
 * エクスペリエンス
 
-  [!UICONTROL A/B テスト &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）、[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの[!UICONTROL 注文詳細] レポートでは、[!UICONTROL &#x200B; エクスペリエンス &#x200B;]列にエクスペリエンス `localId`が含まれています。 これは、オファートークン `$campaign.recipe.id` からの出力値です。
+  [!UICONTROL A/B テスト ]、[!UICONTROL  エクスペリエンスのターゲット設定] （XT）、[!UICONTROL 多変量テスト ] （MVT）アクティビティの[!UICONTROL 注文詳細] レポートでは、[!UICONTROL  エクスペリエンス ]列にエクスペリエンス `localId`が含まれています。 これは、オファートークン `$campaign.recipe.id` からの出力値です。
 
-  [!UICONTROL 自動パーソナライゼーション]（AP）アクティビティについては、[!UICONTROL エクスペリエンス]列はありません。 現在の[!UICONTROL &#x200B; アルゴリズム名]列は、[!DNL Target]の他の場所で示されているように、「Control」と「Targeted」の用語に置き換えられました。
+  [!UICONTROL 自動パーソナライゼーション]（AP）アクティビティについては、[!UICONTROL エクスペリエンス]列はありません。 現在の[!UICONTROL  アルゴリズム名]列は、[!DNL Target]の他の場所で示されているように、「Control」と「Targeted」の用語に置き換えられました。
 
   [!UICONTROL Recommendations] アクティビティに対する影響はありませんでした。
 
 >[!NOTE]
 >
 >* 注文レポートのデータには、デフォルト環境（ホストグループ）の 4 週間分のデータと、デフォルト以外のすべての環境の 2 週間分のデータが含まれます。
->* 「[!UICONTROL 増分カウントに設定され、ユーザーをアクティビティ &#x200B;]に保持する収益指標は、同じ訪問者が行った最初の注文の詳細のみをログに記録します。 その後のすべての注文は、コンバージョン数を増やしますが、RPV/AOV/Salesに収益を追加することはなく、[!UICONTROL 注文詳細] レポートには含まれません。
+>* 「[!UICONTROL 増分カウントに設定され、ユーザーをアクティビティ ]に保持する収益指標は、同じ訪問者が行った最初の注文の詳細のみをログに記録します。 その後のすべての注文は、コンバージョン数を増やしますが、RPV/AOV/Salesに収益を追加することはなく、[!UICONTROL 注文詳細] レポートには含まれません。
 
 ## ベストプラクティス
 
@@ -87,10 +92,10 @@ CSV ファイル内のデータをダウンロードするには：
 
 ## 注意事項 {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-次の情報は、[!UICONTROL &#x200B; ダウンロード &#x200B;] オプションに適用されます。
+次の情報は、[!UICONTROL  ダウンロード ] オプションに適用されます。
 
-* [!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Automated Personalization]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]および[!UICONTROL 多変量] アクティビティの両方のレポートをダウンロードできます。 [!UICONTROL Recommendations] アクティビティの[!UICONTROL 成功指標] レポートをダウンロードできません。
-* バージョン 15.7.1 （2015年7月）より前に作成された[!DNL Target]A/B テスト および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティでは、[!UICONTROL &#x200B; ダウンロード &#x200B;] オプションは使用できません。
+* [!UICONTROL A/B テスト ]、[!UICONTROL Automated Personalization]、[!UICONTROL  エクスペリエンスのターゲット設定]および[!UICONTROL 多変量] アクティビティの両方のレポートをダウンロードできます。 [!UICONTROL Recommendations] アクティビティの[!UICONTROL 成功指標] レポートをダウンロードできません。
+* バージョン 15.7.1 （2015年7月）より前に作成された[!DNL Target]A/B テスト ]および[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティでは、[!UICONTROL  ダウンロード ] オプションは使用できません。[!UICONTROL 
 * 関連データのないエクスペリエンスは、ダウンロードしたレポートに記録されません。
 * [!DNL Target] レポート UIで適用されたオーディエンスは、ダウンロードレポートに引き継ぎません。
 * アクティビティユーザーが.複数の指標を使用している場合、csv ファイル形式でダウンロード用に生成されたレポートに一貫性がありません。 ダウンロード可能なレポートは、レポート設定のみに基づいて生成され、使用される他の指標と同じ値を考慮します。 信頼できる唯一の情報源は常に [!DNL Target] UIに表示されるレポートです。

@@ -1,28 +1,35 @@
 ---
 keywords: レポートソースとしてのAnalytics;a4t;A4T；要件
-description: Analytics for [!DNL Target]  （A4T）を使用して、Adobe [!DNL Target] でAdobe Analytics ベースのアクティビティを作成するために必要なユーザーアカウント要件を設定する方法について説明します。
+description: Analytics for [!DNL Target] （A4T）を使用して、Adobe [!DNL Target]でAdobe Analytics ベースのアクティビティを作成するために必要なユーザーアカウント要件を設定する方法について説明します。
 title: A4Tに必要なユーザー権限の要件はどれですか？
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-TQID: https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ
+TQID: 'https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '308'
 ht-degree: 36%
-
 ---
-
 # ユーザー権限の要件
 
 （A4T）で [!DNL Adobe Analytics]のベースとなるアクティビティ[!DNL Adobe Target] を作成するためのユーザーアカウント要件に関する情報です。
@@ -39,7 +46,7 @@ ht-degree: 36%
 
 あなたの[!DNL Analytics]および[!DNL Target]のユーザーアカウントは Adobe ID にリンクされている必要があります。
 
-詳しくは、[組織とアカウントリンク &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)を参照してください。
+詳しくは、[組織とアカウントリンク ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)を参照してください。
 
 ### Experience Cloud グループのメンバーシップを設定します。
 
@@ -59,9 +66,9 @@ ht-degree: 36%
 
    次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
 
-   ![Admin Console権限タブ &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Admin Console権限タブ ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. [!UICONTROL Web サービス アクセス &#x200B;] グループへのアクセスを構成します。
+1. [!UICONTROL Web サービス アクセス ] グループへのアクセスを構成します。
 
    [!DNL Target]のレポートソースとして[!DNL Analytics]を使用するには、[!DNL Analytics]の[!UICONTROL Web Services Access] グループへのアクセスが必要です。
 

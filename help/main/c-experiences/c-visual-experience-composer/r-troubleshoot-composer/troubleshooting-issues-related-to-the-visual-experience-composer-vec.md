@@ -4,26 +4,34 @@ description: '[!UICONTROL Visual Experience Composer] （VEC）の問題のト�
 title: '[!UICONTROL Visual Experience Composer]に関連する問題のトラブルシューティング方法を教えてください。'
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+TQID: 'https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL Visual Experience Composer]に関連する問題のトラブルシューティング
 
 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で、特定の条件の下で表示の問題が発生することがあります。
@@ -56,7 +64,7 @@ Web サイト（特にシングルページアプリ）で、あるページか�
 
 ![コンソールエラーメッセージ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-[!UICONTROL Visual Experience Composer]も[!UICONTROL Enhanced Experience Composer]も機能しない場合は、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）などのブラウザー拡張機能または応答ヘッダーの変更（Firefox）を使用して、サイトのX-Frames ヘッダーオプションを上書きし、iFramesに読み込めるようにして、VECを有効にします。 ブラウザー拡張機能を使用できない場合は、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。
+[!UICONTROL Visual Experience Composer]も[!UICONTROL Enhanced Experience Composer]も機能しない場合は、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）などのブラウザー拡張機能または応答ヘッダーの変更（Firefox）を使用して、サイトのX-Frames ヘッダーオプションを上書きし、iFramesに読み込めるようにして、VECを有効にします。 ブラウザー拡張機能を使用できない場合は、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。
 
 >[!NOTE]
 >
@@ -87,32 +95,32 @@ Web サイト（特にシングルページアプリ）で、あるページか�
    * ルール名
    * 変更ルール
 
-      * 「**[!UICONTROL Add（追加）]**」を「**[!UICONTROL Remove（削除）]**」に切り替えます。
-      * 「**[!UICONTROL Request（リクエスト）]**」を「**[!UICONTROL Response（応答）]**」に切り替えます。
-      * ヘッダー名として &quot;X-Frame-Options&quot; と入力します。
-      * 前述の手順を繰り返し、ヘッダー名に「x-frame-options」と入力します。
+     * 「**[!UICONTROL Add（追加）]**」を「**[!UICONTROL Remove（削除）]**」に切り替えます。
+     * 「**[!UICONTROL Request（リクエスト）]**」を「**[!UICONTROL Response（応答）]**」に切り替えます。
+     * ヘッダー名として &quot;X-Frame-Options&quot; と入力します。
+     * 前述の手順を繰り返し、ヘッダー名に「x-frame-options」と入力します。
 
-        >[!NOTE]
-        >
-        >[!DNL Requestly]を介して操作されるヘッダーでは、大文字と小文字が区別されます。
+       >[!NOTE]
+       >
+       >[!DNL Requestly]を介して操作されるヘッダーでは、大文字と小文字が区別されます。
 
-      * ソース URL の条件を「**[!UICONTROL Equals（等しい）]**」を「**[!UICONTROL Contains（含む）]**」に変更し、VEC で読み込もうとするアクティビティの URL を入力します。
+     * ソース URL の条件を「**[!UICONTROL Equals（等しい）]**」を「**[!UICONTROL Contains（含む）]**」に変更し、VEC で読み込もうとするアクティビティの URL を入力します。
 
      ![chrome_extension image](assets/chrome_extension.png)
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
    ![要求画像](assets/requestly.png)
 
    これで、[!UICONTROL Visual Experience Composer]を使用してページをすばやく読み込めるようになります。
 
-**Firefox:**&#x200B;で[!DNL Modify Response Headers]拡張機能を使用するには
+**Firefox]:**&#x200B;で[!DNL Modify Response Headers]拡張機能を使用するには[!UICONTROL 
 
 1. [!UICONTROL 応答ヘッダーを変更]を[!DNL Firefox]にインストールし、ブラウザーを再起動します。
 1. [!DNL Firefox]拡張機能から、「応答ヘッダーを変更」拡張機能を選択します。
 1. 「**[!UICONTROL 環境設定]**」をクリックします。
-1. 「[!UICONTROL &#x200B; アクション &#x200B;]」ドロップダウンから「**[!UICONTROL フィルター]**」を選択します。
-1. 「[!UICONTROL &#x200B; ヘッダー名]」フィールドに、**[!UICONTROL X-Frame-Options]**&#x200B;と入力します。
+1. 「[!UICONTROL  アクション ]」ドロップダウンから「**[!UICONTROL フィルター]**」を選択します。
+1. 「[!UICONTROL  ヘッダー名]」フィールドに、**[!UICONTROL X-Frame-Options]**&#x200B;と入力します。
 1. 手順 4 と 5 を繰り返して **[!UICONTROL x-frame-options]** によるフィルターを追加します。
 1. 「**[!UICONTROL 追加]**」をクリックします。
 1. 「**[!UICONTROL Start（開始）]**」をクリックします。
@@ -140,14 +148,14 @@ Web サイト（特にシングルページアプリ）で、あるページか�
 
 * Web ページのJavascriptがオーサリングライブラリに干渉していないことを確認します。 次の予約名を使用してファイルを使用またはインクルードしないでください。
 
-   * `target-vec-helper.js`
-   * `target-vec.js`
-   * `target.js`
-   * `admin.css`
-   * `sizzle.js`
-   * `mixContentCheck.html`
+  * `target-vec-helper.js`
+  * `target-vec.js`
+  * `target.js`
+  * `admin.css`
+  * `sizzle.js`
+  * `mixContentCheck.html`
 
-     さらに、これらのファイル内で定義された変数またはイベントを誤って上書きすると、VECで問題が発生する可能性があります。
+    さらに、これらのファイル内で定義された変数またはイベントを誤って上書きすると、VECで問題が発生する可能性があります。
 
 * ブラウザーが、セキュリティで保護されているサイトのセキュリティで保護されていないページをブロックしています。
 

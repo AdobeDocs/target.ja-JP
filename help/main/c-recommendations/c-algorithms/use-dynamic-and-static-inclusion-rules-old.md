@@ -1,18 +1,25 @@
 ---
 keywords: インクルージョンルール;包含条件;レコメンデーション;新しい条件の作成;プロモーション;動的フィルター;動的;空の値;フィルタールールの無視;静的フィルター;値でフィルター;エンティティ属性のマッチング;プロファイル属性のマッチング;パラメーターのマッチング;値でフィルター;静的フィルター
-description: 条件とプロモーションに関するAdobe [!DNL Target] Recommendationsで包含ルールを作成する方法について説明します。 より良い結果を得るには、より動的または静的なフィルタールールを追加します。
+description: 条件とプロモーションに関するAdobe [!DNL Target]の推奨事項で、包含ルールを作成する方法について説明します。 より良い結果を得るには、より動的または静的なフィルタールールを追加します。
 title: レコメンデーションで動的および静的インクルージョンルールを使用するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2112'
 ht-degree: 15%
-
 ---
-
 # 動的および静的インクルージョンルールの使用
 
 [!DNL Adobe Target]で基準とプロモーションの包含ルールを作成し、動的または静的フィルタールールを追加して、レコメンデーションの結果を向上させる方法について説明します。
@@ -29,13 +36,13 @@ ht-degree: 15%
 
 ## フィルタールールをプロモーションに追加する {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-[&#x200B; プロモーションの作成中](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)、**[!UICONTROL 属性によるプロモーション]**&#x200B;を選択し、**[!UICONTROL フィルタリングルールの追加]**&#x200B;をクリックします。
+[ プロモーションの作成中](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)、**[!UICONTROL 属性によるプロモーション]**&#x200B;を選択し、**[!UICONTROL フィルタリングルールの追加]**&#x200B;をクリックします。
 
 ![inclusion_options image](assets/inclusion_options.png)
 
 ## フィルターのタイプ {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-次の節では、条件とプロモーションの両方について、[!UICONTROL 動的フィルタリング &#x200B;]および[!UICONTROL 値によるフィルタリング &#x200B;]のフィルタリングオプションのタイプを示します。
+次の節では、条件とプロモーションの両方について、[!UICONTROL 動的フィルタリング ]および[!UICONTROL 値によるフィルタリング ]のフィルタリングオプションのタイプを示します。
 
 ### 動的フィルタリング
 
@@ -53,9 +60,9 @@ ht-degree: 15%
 
 | 動的フィルターオプション | 詳細 |
 | --- | --- |
-| [エンティティ属性のマッチング](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | 潜在的なレコメンデーション項目のプールを、ユーザーが操作した特定の項目と比較して、動的にフィルタリングします。<br>訪問者のお気に入りのブランドなど、訪問者にアピールする可能性が最も高いレコメンデーションを表示する場合は、[!UICONTROL &#x200B; エンティティ属性の一致]を使用します。 |
-| [プロファイル属性のマッチング](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | ユーザーのプロファイルの値に対して項目（エンティティ）を比較して、動的にフィルタリングします。<br> サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致する推奨事項を表示する場合は、[!UICONTROL &#x200B; プロファイル属性の一致]を使用します。 |
-| [パラメーターのマッチング](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | リクエスト（APIまたはmbox）の値に対してアイテム（エンティティ）を比較して、動的にフィルタリングします。<br> ページパラメーターや訪問者のパラメーター（デバイスのサイズや位置情報など）に一致するコンテンツをレコメンドするには、[!UICONTROL &#x200B; パラメーターマッチング &#x200B;]を使用します。 |
+| [エンティティ属性のマッチング](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | 潜在的なレコメンデーション項目のプールを、ユーザーが操作した特定の項目と比較して、動的にフィルタリングします。<br>訪問者のお気に入りのブランドなど、訪問者にアピールする可能性が最も高いレコメンデーションを表示する場合は、[!UICONTROL  エンティティ属性の一致]を使用します。 |
+| [プロファイル属性のマッチング](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | ユーザーのプロファイルの値に対して項目（エンティティ）を比較して、動的にフィルタリングします。<br> サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致する推奨事項を表示する場合は、[!UICONTROL  プロファイル属性の一致]を使用します。 |
+| [パラメーターのマッチング](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | リクエスト（APIまたはmbox）の値に対してアイテム（エンティティ）を比較して、動的にフィルタリングします。<br> ページパラメーターや訪問者のパラメーター（デバイスのサイズや位置情報など）に一致するコンテンツをレコメンドするには、[!UICONTROL  パラメーターマッチング ]を使用します。 |
 
 ### 値でフィルター
 
@@ -90,7 +97,7 @@ ht-degree: 15%
 
 ## エンティティ属性の一致、プロファイル属性の一致、およびパラメーターの一致によるフィルタリング時の空の値の処理 {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-終了条件とプロモーションについて、[!UICONTROL &#x200B; エンティティ属性の一致]、[!UICONTROL &#x200B; プロファイル属性の一致]、[!UICONTROL &#x200B; パラメーターの一致]でフィルタリングする場合、空の値を処理する複数のオプションを選択できます。
+終了条件とプロモーションについて、[!UICONTROL  エンティティ属性の一致]、[!UICONTROL  プロファイル属性の一致]、[!UICONTROL  パラメーターの一致]でフィルタリングする場合、空の値を処理する複数のオプションを選択できます。
 
 以前は、値が空の場合は何も結果が返されませんでした。 次の図のように、「*x* が空の場合」ドロップダウンリストを使用することで、条件に空の値があった場合に実行する処理を選択できます。
 
@@ -100,10 +107,10 @@ ht-degree: 15%
 
 | アクション | 利用できるマッチング | 詳細 |
 |--- |--- |--- |
-| [!UICONTROL このフィルタリングルールを無視] | [!UICONTROL &#x200B; プロファイル属性が一致]と[!UICONTROL &#x200B; パラメーターが一致]しました | このアクションは、[!UICONTROL &#x200B; プロファイル属性の一致]および[!UICONTROL &#x200B; パラメーターの一致]の既定値です。<br>このオプションは、ルールが無視されることを指定します。 例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
-| [!UICONTROL この条件の結果を表示しません]<br> （条件のみ） | [!UICONTROL &#x200B; エンティティ属性の一致]、[!UICONTROL &#x200B; プロファイル属性の一致]、および[!UICONTROL &#x200B; パラメーターの一致] | このアクションは、[!UICONTROL &#x200B; エンティティ属性の一致]の既定値です。<br>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
-| [!UICONTROL 商品を宣伝しない<br> （プロモーションのみ） &#x200B;] | [!UICONTROL &#x200B; エンティティ属性の一致]、[!UICONTROL &#x200B; プロファイル属性の一致]、および[!UICONTROL &#x200B; パラメーターの一致] | このアクションは、[!UICONTROL &#x200B; エンティティ属性の一致]の既定値です。<br>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
-| [!UICONTROL 静的な値を使用] | [!UICONTROL &#x200B; エンティティ属性の一致]、[!UICONTROL &#x200B; プロファイル属性の一致]、および[!UICONTROL &#x200B; パラメーターの一致] | 値が空だった場合に静的値を使用するよう設定できます。 |
+| [!UICONTROL このフィルタリングルールを無視] | [!UICONTROL  プロファイル属性が一致]と[!UICONTROL  パラメーターが一致]しました | このアクションは、[!UICONTROL  プロファイル属性の一致]および[!UICONTROL  パラメーターの一致]の既定値です。<br>このオプションは、ルールが無視されることを指定します。 例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
+| [!UICONTROL この条件の結果を表示しません]<br> （条件のみ） | [!UICONTROL  エンティティ属性の一致]、[!UICONTROL  プロファイル属性の一致]、および[!UICONTROL  パラメーターの一致] | このアクションは、[!UICONTROL  エンティティ属性の一致]の既定値です。<br>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
+| [!UICONTROL 商品を宣伝しない<br> （プロモーションのみ） ] | [!UICONTROL  エンティティ属性の一致]、[!UICONTROL  プロファイル属性の一致]、および[!UICONTROL  パラメーターの一致] | このアクションは、[!UICONTROL  エンティティ属性の一致]の既定値です。<br>このアクションは、このオプションを追加する前に[!DNL Target]が空の値を処理した方法です。この条件には結果は表示されません。 |
+| [!UICONTROL 静的な値を使用] | [!UICONTROL  エンティティ属性の一致]、[!UICONTROL  プロファイル属性の一致]、および[!UICONTROL  パラメーターの一致] | 値が空だった場合に静的値を使用するよう設定できます。 |
 
 ## 注意事項 {#caveats}
 

@@ -1,29 +1,37 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;リダイレクト;リダイレクトオファー;adobe-mc-sdid;adobe_mc_ref
-description: Analytics for [!DNL Target]  （A4T）を使用する際のリダイレクトオファーの使用に関する質問に対する回答を検索します。 A4T では、 [!DNL Target]  アクティビティに Analytics のレポート機能を使用できます。
+description: Analytics for [!DNL Target] （A4T）を使用する際のリダイレクトオファーの使用に関する質問に対する回答を検索します。 A4Tでは、[!DNL Target]件のアクティビティにAnalytics レポートを使用できます。
 title: A4Tでのリダイレクトオファーに関するFAQはどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
+TQID: 'https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1472
-ht-degree: 51%
-
+source-wordcount: '1473'
+ht-degree: 50%
 ---
-
 # リダイレクトオファー - A4T FAQ
 
 このトピックには、[!DNL Adobe Analytics]を[!DNL Adobe Target] （A4T）のレポートソースとして使用する場合に、リダイレクトオファーを使用する際に頻繁に寄せられる質問に対する回答が含まれています。
@@ -35,7 +43,7 @@ ht-degree: 51%
 
 +++
 
-## ![Adobe Experience Platform Web SDK バッジ &#x200B;](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]は、A4Tのリダイレクト オファーをサポートしていますか？ {#platform}
+## ![Adobe Experience Platform Web SDK バッジ ](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]は、A4Tのリダイレクト オファーをサポートしていますか？ {#platform}
 
 +++回答
 次のFAQでは、[!DNL Platform Web SDK]でのA4Tおよびリダイレクトオファーの使用に関する詳細情報を提供しています。
@@ -45,14 +53,14 @@ ht-degree: 51%
 ### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
 
 +++回答
-はい、Platform Web SDK経由のA4Tは[&#x200B; リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)をサポートしています。
+はい、Platform Web SDK経由のA4Tは[ リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)をサポートしています。
 
 +++
 
-### [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL &#x200B; フォームベースのExperience Composer]はサポートされていますか？
+### [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL  フォームベースのExperience Composer]はサポートされていますか？
 
 +++回答
-はい。組み込みのリダイレクトオファーを使用する場合は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[[!UICONTROL &#x200B; フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)がサポートされます。
+はい。組み込みのリダイレクトオファーを使用する場合は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[[!UICONTROL  フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)がサポートされます。
 
 +++
 

@@ -4,26 +4,34 @@ description: '[!UICONTROL Visual Experience Composer] （VEC）を使用する�
 title: '[!UICONTROL Visual Experience Composer]のベストプラクティスと制限事項は何ですか？'
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-TQID: https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs
+TQID: 'https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2552
+source-wordcount: '2552'
 ht-degree: 49%
-
 ---
-
 # [!UICONTROL Visual Experience Composer]のベストプラクティスと制限事項
 
 エクスペリエンスが意図したとおりに機能することを確認するには、[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）を使用する際のベストプラクティスに従ってください。 パフォーマンスを最大化し、一般的な問題を回避するための重要なヒントと制限事項を理解します。
@@ -35,7 +43,7 @@ VECを使用する際のベストプラクティスは次のとおりです。
 ### at.js参照をページの`<head>` セクションの上部に配置します。
 
 +++詳細を見る
-[!UICONTROL 訪問者API サービス &#x200B;]も使用する場合は、上記のat.jsに訪問者API スクリプトを配置します。
+[!UICONTROL 訪問者API サービス ]も使用する場合は、上記のat.jsに訪問者API スクリプトを配置します。
 
 +++
 
@@ -44,7 +52,7 @@ VECを使用する際のベストプラクティスは次のとおりです。
 +++詳細を見る
 [!UICONTROL Enhanced Experience Composer]をアカウントレベルで有効にするには、[!UICONTROL [!UICONTROL 管理] > [!UICONTROL Visual Experience Composer]]をクリックし、[!UICONTROL Enhanced Experience Composerを有効にする] スイッチをオンの位置に切り替えます。
 
-[!UICONTROL Visual Experience Composer]でアクティビティを作成する際に、アクティビティレベルで[!UICONTROL 拡張Experience Composer]を有効にするには、[!UICONTROL 設定/[!UICONTROL &#x200B; ページ配信]]をクリックし、[!UICONTROL 拡張Experience Composerを有効にする] スイッチをオンの位置に切り替えます。
+[!UICONTROL Visual Experience Composer]でアクティビティを作成する際に、アクティビティレベルで[!UICONTROL 拡張Experience Composer]を有効にするには、[!UICONTROL 設定/[!UICONTROL  ページ配信]]をクリックし、[!UICONTROL 拡張Experience Composerを有効にする] スイッチをオンの位置に切り替えます。
 
 +++
 
@@ -135,7 +143,7 @@ VECは、リンクを更新するプロキシサーバーを使用して、バ�
 
 つまり、テキストを持つ要素を追加し、別の操作でその要素を異なるテキストに編集した場合、コードエディターには、両方の操作が別々の要素として表示されます。 要素を編集した場合は、作成した元の要素を変更した新しい要素が作成され、その新しい要素に編集したテキストが設定されます。 その後、元の要素を削除すると、編集されたテキストは、編集された要素を見付けることができないので、表示されません。 2 つ目の要素は要素のリストには引き続き含まれていますが、変更元の要素が存在しなくなっているので、ページ上での効果がなくなります。
 
-[!UICONTROL Visual Experience Composer][&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)で使用されている要素セレクターを参照してください。
+[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)で使用されている[要素セレクターを参照してください。
 
 +++
 
@@ -315,7 +323,7 @@ VECを使用する場合は、次の制限事項を考慮してください。
 ### VEC互換性を[!DNL Chrome]拡張ポリシーの変更と処理しています。 {#ext}
 
 +++詳細
-Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}でV3 マニフェストポリシーが更新されたため、拡張機能はブラウザーによって解析される前に元のDOMを変更できなくなります。 その結果、iframe-busting実装などの特定のセキュリティスクリプトによって、VECでのページの読み込みがブロックされる場合があります。
+Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}で[V3 マニフェストポリシーが更新されたため、拡張機能はブラウザーによって解析される前に元のDOMを変更できなくなります。 その結果、iframe-busting実装などの特定のセキュリティスクリプトによって、VECでのページの読み込みがブロックされる場合があります。
 
 互換性を確保するために、ページが[!DNL Target] iframe内に読み込まれる場合、これらのスクリプトは条件付きで無効にする必要があります。 このプロセスは、VECの読み込み中に[!DNL Target]によって挿入される`window.adobeVecExtension` オブジェクトの存在を確認することで安全に実行できます。
 
@@ -345,14 +353,14 @@ CSS プロパティが後に続くコンテナの外側に要素を移動する�
 ### [!UICONTROL Button]要素を再配置に選択することはできません。
 
 +++詳細
-[!UICONTROL &#x200B; ボタン &#x200B;]要素は、再配置のために直接選択できません。 並べ替えを有効にするには、大きなコンテナ内にボタンを配置します。
+[!UICONTROL  ボタン ]要素は、再配置のために直接選択できません。 並べ替えを有効にするには、大きなコンテナ内にボタンを配置します。
 
 +++
 
 ### mbox ではオファーの置き換えのみを使用できる。
 
 +++詳細
-[!UICONTROL &#x200B; クラスを編集]や[!UICONTROL 並べ替え]などのアクションは、mbox内では許可されていません。
+[!UICONTROL  クラスを編集]や[!UICONTROL 並べ替え]などのアクションは、mbox内では許可されていません。
 
 +++
 
@@ -447,7 +455,7 @@ mbox 要素内で画像をスワップした後、mbox 要素のサイズに従�
 </a>
 ```
 
-「[!UICONTROL &#x200B; エレメントを挿入]」アクションを使用して、このdivを選択し、このダミーテキスト divの兄弟として画像を挿入します。
+「[!UICONTROL  エレメントを挿入]」アクションを使用して、このdivを選択し、このダミーテキスト divの兄弟として画像を挿入します。
 
 画像挿入後は、次のようになります。
 

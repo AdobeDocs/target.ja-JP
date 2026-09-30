@@ -1,16 +1,20 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;水増し;訪問;訪問者;部分的なヒット;親なし;親なし;部分ヒット
-description: Analytics for [!DNL Target]  （A4T）を使用する際に、訪問者の訪問数と訪問者数の増加に関する質問に対する回答を検索します。 「部分的なデータ」を最小化する方法について説明します。
+description: Analyticsを[!DNL Target] （A4T）に使用する際に、訪問者の訪問数と訪問者数の増加に関する質問に対する回答を検索します。 「部分的なデータ」を最小化する方法について説明します。
 title: A4Tを使用したインフレート訪問と訪問者数に関するFAQはどこで見つけることができますか？
 feature: Analytics for Target (A4T)
 exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 69%
-
 ---
-
 # 水増しされた訪問および訪問者のカウント - A4T FAQ
 
 このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合の水増しされた訪問および訪問者のカウントに関するよくある質問に対する回答が含まれています。

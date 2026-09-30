@@ -1,31 +1,35 @@
 ---
 keywords: レポート；統計的手法；統計計算；統計；平均；コンバージョン率；訪問者あたりの売上高；rpv；信頼区間；上昇率；ウェルチ t テスト；オフライン計算
-description: ' [!DNL Adobe Target]の[!UICONTROL A/B テスト &#x200B;]手動アクティビティで使用される統計計算について説明します。'
-title: '[!UICONTROL A/B テスト &#x200B;] アクティビティで使用される統計計算について学習するにはどうすればよいですか？'
+description: '[!DNL Adobe Target]の手動[!UICONTROL A/B テスト ] アクティビティで使用される統計計算について説明します。'
+title: '[!UICONTROL A/B テスト ] アクティビティで使用される統計計算について学習するにはどうすればよいですか？'
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+TQID: 'https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: '1506'
 ht-degree: 3%
-
 ---
-
 # A/Bn テストによる統計計算
 
 この記事では、[!DNL Adobe Target]の手動A/Bn テストで使用される詳細な統計計算について説明します。 定義は、**[!UICONTROL コンバージョン率]**、**[!UICONTROL コンバージョン率]**&#x200B;の信頼区間、**[!UICONTROL 上昇率]**、**[!UICONTROL 上昇率]**、**[!UICONTROL 信頼性]**&#x200B;および&#x200B;**[!UICONTROL ベイジアン]**&#x200B;の決定指標に対して提供されます。
 
 **[!UICONTROL A/B テスト]** （手動）アクティビティは、[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)のアクティビティごとに選択された2つの統計的手法をサポートしています。
 
-* [&#x200B; ウェルチのt テスト &#x200B;](#welchs-t-test)：固定標本サイズの仮説テストに基づいて&#x200B;**[!UICONTROL 信頼性]**&#x200B;の割合と信頼区間を報告する頻度論的手法です。 **[!UICONTROL 収益]**&#x200B;または&#x200B;**[!UICONTROL エンゲージメント]**&#x200B;の主な目標を持つアクティビティに使用されます。
+* [ ウェルチのt テスト ](#welchs-t-test)：固定標本サイズの仮説テストに基づいて&#x200B;**[!UICONTROL 信頼性]**&#x200B;の割合と信頼区間を報告する頻度論的手法です。 **[!UICONTROL 収益]**&#x200B;または&#x200B;**[!UICONTROL エンゲージメント]**&#x200B;の主な目標を持つアクティビティに使用されます。
 
-* [&#x200B; ベイジアン &#x200B;](#bayesian-statistics)：各エクスペリエンスの目標指標の事後分布から計算して、**[!UICONTROL ビートコントロールの可能性]**&#x200B;や信頼性の高い間隔などの確率として結果を報告します。 この設定は、主な目標指標が&#x200B;**[!UICONTROL コンバージョン]**&#x200B;のアクティビティでのみ使用できます。
+* [ ベイジアン ](#bayesian-statistics)：各エクスペリエンスの目標指標の事後分布から計算して、**[!UICONTROL ビートコントロールの可能性]**&#x200B;や信頼性の高い間隔などの確率として結果を報告します。 この設定は、主な目標指標が&#x200B;**[!UICONTROL コンバージョン]**&#x200B;のアクティビティでのみ使用できます。
 
 ## ウェルチのt検定
 
@@ -33,7 +37,7 @@ ht-degree: 3%
 
 次の節では、次の図で使用する計算について説明します。
 
-A/B テスト アクティビティの[!UICONTROL &#x200B; コンバージョン率]、[!UICONTROL 平均上昇率と信頼区間]、および[!UICONTROL 信頼性]を示す![Target レポート。](/help/main/c-reports/statistical-methodology/img/target_report.png)
+A/B テスト アクティビティの[!UICONTROL  コンバージョン率]、[!UICONTROL 平均上昇率と信頼区間]、および[!UICONTROL 信頼性]を示す![Target レポート。](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 #### 訪問者あたりのコンバージョン率と収益（RPV）キャンペーン
 
@@ -55,7 +59,7 @@ A/B テスト アクティビティの[!UICONTROL &#x200B; コンバージョン
   * **[!UICONTROL 訪問]**&#x200B;がカウント方法として使用される場合、各単位は、[!DNL Target] セッション中にエクスペリエンスの一意の参加者として定義された一意の訪問です（一意の`sessionId`）。 `sessionId`が変更されたとき、または訪問者がコンバージョンステップに達したとき、新しい訪問がカウントされます。
   * **[!UICONTROL アクティビティ インプレッション]**&#x200B;がカウント方法として使用される場合、各単位は、訪問者がアクティビティの任意のページを読み込むたびに定義される一意のインプレッションです。
 
-### 平均/[!UICONTROL &#x200B; コンバージョン率]の信頼区間
+### 平均]/[!UICONTROL  コンバージョン率]の[!UICONTROL 信頼区間
 
 コンバージョン率の信頼区間は、基礎データと一貫性のある可能なコンバージョン率の範囲として直感的に定義されます。
 
@@ -99,7 +103,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ### [!DNL Confidence Interval of Lift]
 
-**[!UICONTROL 平均上昇率と信頼区間]**&#x200B;列のボックスプロットグラフは、上昇率&#x200B;**の平均値と95%**&#x200B;信頼区間を表します。 ある非制御エクスペリエンスの信頼区間と制御エクスペリエンスの信頼区間に重複がある場合、ボックスプロットはグレーになります。 与えられたエクスペリエンスの信頼区間の範囲がコントロールエクスペリエンスの信頼区間の上下にある場合、ボクスプロットは緑または赤になります。
+**[!UICONTROL 平均上昇率と信頼区間]**&#x200B;列のボックスプロットグラフは、上昇率&#x200B;]**の平均値と95%**[!UICONTROL &#x200B;信頼区間を表します。 ある非制御エクスペリエンスの信頼区間と制御エクスペリエンスの信頼区間に重複がある場合、ボックスプロットはグレーになります。 与えられたエクスペリエンスの信頼区間の範囲がコントロールエクスペリエンスの信頼区間の上下にある場合、ボクスプロットは緑または赤になります。
 
 エクスペリエンス *ν*&#x200B;と制御エクスペリエンス *ν<sub>0</sub>*&#x200B;との間のリフトの標準エラーは、次のように定義されます。
 
@@ -161,7 +165,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 平均上昇率と信頼性の高い間隔を合わせることで、**[!UICONTROL ベイズ]** アクティビティにおけるパフォーマンスの向上とその不確実性を測定します。 「平均上昇率」は、処理とコントロール間の平均変化率です。一方、「信頼性の高い」区間は、指定された確率で真の上昇率が低下する範囲を定義します。
 
-### [!UICONTROL &#x200B; コントロールを打ち負かすチャンス &#x200B;]
+### [!UICONTROL  コントロールを打ち負かすチャンス ]
 
 <p style="text-align:center;"><img width="35%" src="img/bayesian_2.png"></p>
 

@@ -1,24 +1,32 @@
 ---
 keywords: 電子メール;ESP;電子メールサービスプロバイダー;rawbox;delivery API;ダウンロード専用テンプレート;電子メールテンプレート;バッチ処理;ビルド時の電子メール
-description: 電子メールを Adobe [!DNL Target Recommendations], including using the [!DNL Target] 配信 API、rawbox テンプレート、ダウンロード専用テンプレートと統合する方法について説明します。
+description: '[!DNL Target]配信API、rawbox テンプレート、およびダウンロード専用テンプレートの使用を含め、メールをAdobe [!DNL Target Recommendations]と統合する方法について説明します。'
 title: レコメンデーションとメールの統合方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-TQID: https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE
+TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1768
-ht-degree: 88%
-
+source-wordcount: '1772'
+ht-degree: 87%
 ---
-
 # [!DNL Recommendations]をメールと統合
 
 [!DNL Adobe Target] は、メールでのレコメンデーションの送信時パーソナライゼーションをサポートします。
@@ -93,7 +101,7 @@ rawbox は、mbox リクエストに似ていますが、メールサービス�
 
 >[!NOTE]
 >
->rawboxと[!DNL Target]を使用する場合は、[&#x200B; に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
+>rawboxと[!DNL Target]を使用する場合は、[ に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
 
 この方法を使用すれば、電子メールでのレコメンデーションのパフォーマンスを追跡し、それをレコメンデーションを使用した通常の方法でテストして、さらにサイトでの追跡を継続することが可能になります。
 
@@ -114,9 +122,9 @@ rawbox は、mbox リクエストに似ていますが、メールサービス�
 
 * メールアプリケーションは、そのテキストを検索し、エラーを処理できる必要があります。 電子メールプロバイダーには、この事例に対処する複数のオプションがあります。
 
-   * 即座に別のサーバー呼び出しを試す（推奨、試行をカウントする必要がある可能性があります）。
-   * 該当する電子メールを捨てて、次の電子メールに移る。
-   * 該当する電子メールをキューに入れて、最初の実行の最後に、失敗した電子メールをバッチとして再実行します。
+  * 即座に別のサーバー呼び出しを試す（推奨、試行をカウントする必要がある可能性があります）。
+  * 該当する電子メールを捨てて、次の電子メールに移る。
+  * 該当する電子メールをキューに入れて、最初の実行の最後に、失敗した電子メールをバッチとして再実行します。
 
 ### リクエスト URL の例
 

@@ -1,16 +1,23 @@
 ---
 keywords: コンテンツライブラリ；アセット；検索；フィルター
-description: Adobe [!DNL Target] Offers ライブラリでコードと画像オファーを検索する方法について説明します。
+description: Adobe [!DNL Target] オファーライブラリでコードと画像オファーを検索する方法について説明します。
 title: オファーライブラリでコンテンツを検索するにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '265'
 ht-degree: 12%
-
 ---
-
 # コンテンツの検索とフィルター
 
 [!DNL Adobe Target]の[!UICONTROL Offers] ライブラリで、キーワードでアセットを検索します。
@@ -26,21 +33,21 @@ ht-degree: 12%
 
 1. 「**[!UICONTROL オファー]**」 > 「**[!UICONTROL 画像オファー]**」をクリックします。
 
-1. （オプション） [!UICONTROL &#x200B; カードビュー]と[!UICONTROL &#x200B; リストビュー]を切り替え、[!UICONTROL &#x200B; カードビュー] アイコンまたはコンテンツライブラリの右上隅にある[!UICONTROL &#x200B; リストビュー] アイコンをクリックします。 [!UICONTROL 表示設定]を使用して、[!UICONTROL &#x200B; リストビュー]を表示する際に列をさらに設定することもできます。
+1. （オプション） [!UICONTROL  カードビュー]と[!UICONTROL  リストビュー]を切り替え、[!UICONTROL  カードビュー] アイコンまたはコンテンツライブラリの右上隅にある[!UICONTROL  リストビュー] アイコンをクリックします。 [!UICONTROL 表示設定]を使用して、[!UICONTROL  リストビュー]を表示する際に列をさらに設定することもできます。
 
-   次の図は、[!UICONTROL &#x200B; リストビュー]を表示する際に使用できるオプションを示しています。
+   次の図は、[!UICONTROL  リストビュー]を表示する際に使用できるオプションを示しています。
 
-   ![&#x200B; リスト表示オプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![ リスト表示オプション ](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. 左上隅の&#x200B;**[!UICONTROL コンテンツのみ]**&#x200B;アイコンをクリックして、検索ボックスを表示します。
 
-   ![&#x200B; コンテンツのみオプション &#x200B;](/help/main/c-experiences/c-manage-content/assets/content-only.png)
+   ![ コンテンツのみオプション ](/help/main/c-experiences/c-manage-content/assets/content-only.png)
 
 1. 検索ボックスに探しているアセットのキーワードを入力して、Enter キーを押します。
 
 1. （オプション）検索をさらに絞り込むには、**[!UICONTROL フィルターとオプション]** ペインを使用します。
 
-   ![&#x200B; フィルターとオプション ウィンドウ &#x200B;](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
+   ![ フィルターとオプション ウィンドウ ](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
 
    次の条件でフィルタリングできます。
 

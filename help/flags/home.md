@@ -5,13 +5,14 @@ badge: label="Beta" type="Informative"
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 1%
-
 ---
-
 # フラグ {#experience-rollouts-home}
 
 >[!AVAILABILITY]
@@ -36,11 +37,11 @@ Adobe Targetのフラグを利用すれば、製品チームは、新機能を�
 
 フラグから価値を得るには、次の3つのステップから始めます。
 
-1. **Adobe Target経由でフラグにアクセス** — フラグはAdobe Target内で利用できます。 [&#x200B; アクセスを要求](guides/console/request-access.md)し、Target インターフェイス内からフラグを開きます。
+1. **Adobe Target経由でフラグにアクセス** — フラグはAdobe Target内で利用できます。 [ アクセスを要求](guides/console/request-access.md)し、Target インターフェイス内からフラグを開きます。
 
 1. **フラグを作成して公開** — [最初の機能フラグを作成](guides/feature-flags/create-your-first-feature-flag.md) ガイドに従ってフラグを定義し、初期オーディエンスを設定し、環境に公開します。
 
-1. **アプリケーションとの統合** — AEP Web SDKまたはAEP Mobile SDKを使用してアプリケーションを接続し、実行時にフラグを取得して適用できるようにします。 アプリケーションの種類については、[統合ガイド &#x200B;](guides/integrate/sdks.md)から始めてください。
+1. **アプリケーションとの統合** — AEP Web SDKまたはAEP Mobile SDKを使用してアプリケーションを接続し、実行時にフラグを取得して適用できるようにします。 アプリケーションの種類については、[統合ガイド ](guides/integrate/sdks.md)から始めてください。
 
 最初のフラグが公開されたら、そのオーディエンスを絞り込み、段階的なロールアウトを設定し、保存から完全なロールアウトに昇格させることができます。
 

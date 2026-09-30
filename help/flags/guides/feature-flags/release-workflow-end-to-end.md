@@ -4,13 +4,14 @@ description: 機能フラグの定義から運用開始まで、フラグで調�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 2%
-
 ---
-
 # エンドツーエンドのリリースワークフロー {#release-workflow}
 
 このページでは、リリースマネージャーが管理する調整リリースに関するアクティビティの全順序について説明します。
@@ -35,7 +36,7 @@ ht-degree: 2%
 
 ## &#x200B;5. ロールアウトの展開と管理 {#expand}
 
-リリースの公開後、リリースマネージャーはオーディエンスルールを調整して、ロールアウトを徐々に展開し、問題を監視し、リリース状態コントロールを使用してライフサイクルを管理できます。 詳しくは、[&#x200B; リリースの状態](release-states.md)を参照してください。
+リリースの公開後、リリースマネージャーはオーディエンスルールを調整して、ロールアウトを徐々に展開し、問題を監視し、リリース状態コントロールを使用してライフサイクルを管理できます。 詳しくは、[ リリースの状態](release-states.md)を参照してください。
 
 ## キーポイント {#key-points}
 

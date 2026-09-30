@@ -4,19 +4,20 @@ description: フラグで新しいリリースをリクエストする方法と�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 3%
-
 ---
-
 # リリースをリクエスト {#request-a-release}
 
 ## 前提条件 {#prerequisites}
 
 * **リリースマネージャー**&#x200B;の役割があります
-* アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
+* アプリケーションがオンボーディングされました。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
 
 >[!TIP]
 >
@@ -41,7 +42,7 @@ ht-degree: 3%
 
 ## リリースの作成後 {#after}
 
-リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[&#x200B; リリースワークフローのエンドツーエンド &#x200B;](release-workflow-end-to-end.md)を参照してください。
+リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[ リリースワークフローのエンドツーエンド ](release-workflow-end-to-end.md)を参照してください。
 
 ## 詳細については、 {#see-also}
 

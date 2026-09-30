@@ -1,29 +1,36 @@
 ---
 keywords: AB;A/B;AB...n；エクスペリエンスの比較；ターゲティング；コンテンツの比較；自動ターゲット；自動割り当て
-description: Adobe [!DNL Target] のA/B テスト アクティビティの種類（手動、自動配分、自動ターゲット）について説明します。 自分に合ったものを選びましょう。
+description: Adobe [!DNL Target]のA/B テスト アクティビティの種類（手動、自動割り当て、自動ターゲット）について説明します。 自分に合ったものを選びましょう。
 title: Targetで使用できるA/B アクティビティのタイプ？
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
-
 ---
-
 # A/B テストの概要
 
-手動の[!UICONTROL A/B テスト &#x200B;] アクティビティでは、web サイトのコンテンツの2つ以上のバージョンを比較し、事前に指定されたテスト期間中に、どのバージョンがコンバージョンを最も向上させるかを確認します。
+手動の[!UICONTROL A/B テスト ] アクティビティでは、web サイトのコンテンツの2つ以上のバージョンを比較し、事前に指定されたテスト期間中に、どのバージョンがコンバージョンを最も向上させるかを確認します。
 
 >[!NOTE]
 >
->手動（デフォルト）の[!UICONTROL A/B テスト &#x200B;] アクティビティ（この節で説明）に加えて、[!DNL Target]には、[!UICONTROL A/B テスト &#x200B;] アクティビティの2つの追加タイプが用意されています（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット &#x200B;]）。 詳しくは、以下の「[A/B テストアクティビティの種類](#types)」を参照してください。
+>手動（デフォルト）の[!UICONTROL A/B テスト ] アクティビティ（この節で説明）に加えて、[!DNL Target]には、[!UICONTROL A/B テスト ] アクティビティの2つの追加タイプが用意されています（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット ]）。 詳しくは、以下の「[A/B テストアクティビティの種類](#types)」を参照してください。
 
-手動の[!UICONTROL A/B テスト &#x200B;] アクティビティ（「A/B...N テスト」とも呼ばれます）は、Web サイトのコンテンツの2つ以上のバージョンを比較し、どのバージョンがコンバージョン、売上、またはその他の指標を最も向上させるかを確認します。 A/B テストを使用して、ページに加えた変更をデフォルトのページデザインと比較することで、最も適した結果を生成するエクスペリエンスを決定できます。
+手動の[!UICONTROL A/B テスト ] アクティビティ（「A/B...N テスト」とも呼ばれます）は、Web サイトのコンテンツの2つ以上のバージョンを比較し、どのバージョンがコンバージョン、売上、またはその他の指標を最も向上させるかを確認します。 A/B テストを使用して、ページに加えた変更をデフォルトのページデザインと比較することで、最も適した結果を生成するエクスペリエンスを決定できます。
 
 手作業によるA/B テストは、成功指標や代替コンテンツの配信にもとづいて、ページのパフォーマンスを向上させる方法を明確に予測できる場合に役立ちます。
 
-手動A/B テストは、新しいレイアウトや、要素の処理が大幅に異なる可能性がある大規模な変更に適しています。 テスト デザインが個々のページ要素に簡単に分解されない場合は、[多変量テスト &#x200B;](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)の前にA/B テストを実行する必要があります。
+手動A/B テストは、新しいレイアウトや、要素の処理が大幅に異なる可能性がある大規模な変更に適しています。 テスト デザインが個々のページ要素に簡単に分解されない場合は、[多変量テスト ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)の前にA/B テストを実行する必要があります。
 
 A/B テストを設定することで、各エクスペリエンスを利用している訪問者の割合を特定できます。 例えば、コントロールエクスペリエンスと 2 つ目のエクスペリエンスの間でトラフィックを均等に分割することも、オーディエンスの 5％のみにリスクの高い新しいエクスペリエンスを表示してテストすることもできます。
 
@@ -31,34 +38,34 @@ A/B テストを設定することで、各エクスペリエンスを利用し�
 >
 >A/B テストのサンプルサイズの決定について詳しくは、[A/B テストの計画](/help/main/c-activities/t-test-ab/sample-size-determination.md)を参照してください。
 
-異なるエクスペリエンスの数が5を超え、2つ以上の場所にまたがる場合は、A/B テストを実行する前に[MVT テスト &#x200B;](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)を検討することをお勧めします。 多変量分析テストによって、コンバージョンが向上する可能性が最も高そうなページ領域を判定できます。 これらの領域は、マーケターが注力すべき場所です。 例えば、MVT テストによって、目標を満たすために最も重要な場所はコールトゥアクションであることがわかったとします。 目標を達成するのに最も役立つ場所とコンテンツを決定したら、A/B テストを実施して、結果をさらに絞り込むことができます。 例えば、2つの特定の画像を比較したり、call to actionの表現や色を比較したりします。 MVT テストの後に 1 つ以上の A/B テストをおこなうことで、目的の結果を得るための最良のコンテンツを判断できます。
+異なるエクスペリエンスの数が5を超え、2つ以上の場所にまたがる場合は、A/B テストを実行する前に[MVT テスト ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)を検討することをお勧めします。 多変量分析テストによって、コンバージョンが向上する可能性が最も高そうなページ領域を判定できます。 これらの領域は、マーケターが注力すべき場所です。 例えば、MVT テストによって、目標を満たすために最も重要な場所はコールトゥアクションであることがわかったとします。 目標を達成するのに最も役立つ場所とコンテンツを決定したら、A/B テストを実施して、結果をさらに絞り込むことができます。 例えば、2つの特定の画像を比較したり、call to actionの表現や色を比較したりします。 MVT テストの後に 1 つ以上の A/B テストをおこなうことで、目的の結果を得るための最良のコンテンツを判断できます。
 
 ## A/B テスト活動の種類 {#types}
 
-手動の[!UICONTROL A/B テスト &#x200B;] アクティビティ（この節で説明）に加えて、[!DNL Target]には、A/B テスト アクティビティの2種類の追加のタイプが用意されています（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット &#x200B;]）。
+手動の[!UICONTROL A/B テスト ] アクティビティ（この節で説明）に加えて、[!DNL Target]には、A/B テスト アクティビティの2種類の追加のタイプが用意されています（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット ]）。
 
 | アクティビティタイプ | 説明 |
 | --- | --- |
-| [!UICONTROL 手動A/B テスト &#x200B;] | 2つ以上のエクスペリエンスを比較し、事前に指定されたテスト期間を通じて、どのベストエクスペリエンスがコンバージョンを向上させるかを確認できます。<P>この節では、[!UICONTROL A/B テスト &#x200B;] アクティビティを手動で設定する方法について説明しますが、[!UICONTROL A/B テスト &#x200B;] アクティビティのその他の種類の手順は同様です。 |
+| [!UICONTROL 手動A/B テスト ] | 2つ以上のエクスペリエンスを比較し、事前に指定されたテスト期間を通じて、どのベストエクスペリエンスがコンバージョンを向上させるかを確認できます。<P>この節では、[!UICONTROL A/B テスト ] アクティビティを手動で設定する方法について説明しますが、[!UICONTROL A/B テスト ] アクティビティのその他の種類の手順は同様です。 |
 | [!UICONTROL 自動配分] | 2つ以上のエクスペリエンスの中から勝者を特定し、その勝者にトラフィックをリダイレクトして、テストの実行と学習に応じてコンバージョンを向上させます。<P>[!UICONTROL 自動配分] アクティビティを使用する利点について詳しくは、*の[自動配分](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)を参照してください。A/B テストを実行する時間*&#x200B;と[自動配分の概要](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| ![&#x200B; プレミアムバッジ &#x200B;](/help/main/assets/premium.png) [!UICONTROL 自動ターゲット &#x200B;] | 高度なマシンラーニング（機械学習）を利用して、パフォーマンスに優れたマーケター定義のエクスペリエンスを複数特定し、コンテンツをパーソナライズしてコンバージョンを促進できます。 訪問者には、個々の顧客プロファイルや類似する訪問者の過去の行動にもとづいて、最もカスタマイズされた体験が提供されます。<P>詳しくは、[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。 |
+| ![ プレミアムバッジ ](/help/main/assets/premium.png) [!UICONTROL 自動ターゲット ] | 高度なマシンラーニング（機械学習）を利用して、パフォーマンスに優れたマーケター定義のエクスペリエンスを複数特定し、コンテンツをパーソナライズしてコンバージョンを促進できます。 訪問者には、個々の顧客プロファイルや類似する訪問者の過去の行動にもとづいて、最もカスタマイズされた体験が提供されます。<P>詳しくは、[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。 |
 
-これらの[!UICONTROL A/B テスト &#x200B;] アクティビティのうち、お客様に適しているアクティビティについて詳しくは、インタラクティブな[Adobe Target アクティビティ ガイド PDF](/help/main/c-activities/target-activities-guide.md)を参照してください。
+これらの[!UICONTROL A/B テスト ] アクティビティのうち、お客様に適しているアクティビティについて詳しくは、インタラクティブな[Adobe Target アクティビティ ガイド PDF](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
-3種類の[!UICONTROL A/B テスト &#x200B;] アクティビティを作成する手順は似ています。 [!UICONTROL 自動配分]または[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成するには、[A/B テスト アクティビティの作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)から開始します。ただし、[!UICONTROL &#x200B; ターゲティング &#x200B;] ページにアクセスしたら、次に示すように、目的のトラフィック配分方法を選択します。
+3種類の[!UICONTROL A/B テスト ] アクティビティを作成する手順は似ています。 [!UICONTROL 自動配分]または[!UICONTROL 自動ターゲット ] アクティビティを作成するには、[A/B テスト アクティビティの作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)から開始します。ただし、[!UICONTROL  ターゲティング ] ページにアクセスしたら、次に示すように、目的のトラフィック配分方法を選択します。
 
 * [!UICONTROL 最適なエクスペリエンスに自動割り当て]
-* [!UICONTROL &#x200B; パーソナライズされたエクスペリエンスの自動ターゲティング &#x200B;]
+* [!UICONTROL  パーソナライズされたエクスペリエンスの自動ターゲティング ]
 
-![&#x200B; トラフィック配分メソッドの設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method.png)
+![トラフィック配分方法の設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method.png)
 
 ## A/B アクティビティにレコメンデーションを含める
 
-[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL 自動割り当て]、[!UICONTROL 自動ターゲット &#x200B;] アクティビティ（および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT） アクティビティ）内に推奨事項を含めることができます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
+[!UICONTROL A/B テスト ]、[!UICONTROL 自動割り当て]、[!UICONTROL 自動ターゲット ] アクティビティ（および[!UICONTROL  エクスペリエンスのターゲット設定] （XT） アクティビティ）内に推奨事項を含めることができます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
-この機能を使用するには、[Target Premium ライセンス &#x200B;](/help/main/c-intro/intro.md#premium)が必要です
+この機能を使用するには、[Target Premium ライセンス ](/help/main/c-intro/intro.md#premium)が必要です
 
-## トレーニングビデオ：アクティビティタイプ （9:03） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：アクティビティタイプ （9:03） ![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。
 
@@ -66,4 +73,4 @@ A/B テストを設定することで、各エクスペリエンスを利用し�
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

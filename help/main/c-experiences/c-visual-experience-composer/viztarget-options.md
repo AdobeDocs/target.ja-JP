@@ -1,25 +1,30 @@
 ---
 keywords: visual experience composer オプション；experience options;experience options;edit text;edit html;edit text/html;edit background color;insert element;edit link;visual experience composer link;edit css class;css class;swap offer;offer swap image;image swap;remove item;remove item;item;hide item;hide item;rearrange;move element;move;element move;element resize;element;resize;element;expand selection;navigate;link;navigate;undo;redo；元に戻す/やり直し；カスタム イベントのオファーwebの決定決定
-description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で使用できるオプションを確認します。'
+description: '[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で使用できるオプションを確認します。'
 title: '[!UICONTROL Visual Experience Composer] （VEC）オプションの使用方法を教えてください。'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
+TQID: 'https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 10%
-
+source-wordcount: '2271'
+ht-degree: 16%
 ---
-
 # [!UICONTROL Visual Experience Composer]のオプション
 
 [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された[!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、更新されたUIとそのオプションについて説明します。
@@ -38,65 +43,65 @@ VECは、既存のアクティビティを作成または編集するときに�
 
 ## VEC UIの概要
 
-次の節では、[!UICONTROL A/B テスト &#x200B;] アクティビティの更新されたVECで使用できるオプションについて説明します。 オプションは、アクティビティタイプによって異なります。
+次の節では、[!UICONTROL A/B テスト ] アクティビティの更新されたVECで使用できるオプションについて説明します。 オプションは、アクティビティタイプによって異なります。
 
-### [!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネル
+### [!UICONTROL  エクスペリエンス ] パネル
 
-[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネルがVECの左側のパネルに表示されます。
+[!UICONTROL  エクスペリエンス ] パネルがVECの左側のパネルに表示されます。
 
-![&#x200B; エクスペリエンス パネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![ エクスペリエンス パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネルを使用して、エクスペリエンスを表示、作成、名前変更、または削除できます。
+[!UICONTROL  エクスペリエンス ] パネルを使用して、エクスペリエンスを表示、作成、名前変更、または削除できます。
 
-[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネルでは、次のオプションを使用できます。
+[!UICONTROL  エクスペリエンス ] パネルでは、次のオプションを使用できます。
 
-* **エクスペリエンスを表示**：エクスペリエンスを表示するには、目的のエクスペリエンスをクリックして、[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスに表示します。
-* **エクスペリエンスを追加**: **[!UICONTROL 追加]** アイコン（![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 必要に応じて、新しいエクスペリエンスを設定します。
-* **エクスペリエンスの名前を変更**: **[!UICONTROL 名前を変更]** アイコン （![名前を変更アイコン &#x200B;](/help/main/assets/icons/Rename.svg)）をクリックして、[!UICONTROL 名前を変更] ダイアログボックスを表示します。 新しい名前を指定し、**[!UICONTROL 保存]**&#x200B;をクリックします。
-* **エクスペリエンスの複製、削除、またはリダイレクト**:「**[!UICONTROL その他のアクション]**」アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 複製]**、**[!UICONTROL 削除]**、または&#x200B;**[!UICONTROL URLにリダイレクト]**&#x200B;を選択します。
+* **エクスペリエンスを表示**：エクスペリエンスを表示するには、目的のエクスペリエンスをクリックして、[!UICONTROL  デザイン ] キャンバスに表示します。
+* **エクスペリエンスを追加**: **[!UICONTROL 追加]** アイコン（![追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 必要に応じて、新しいエクスペリエンスを設定します。
+* **エクスペリエンスの名前を変更**: **[!UICONTROL 名前を変更]** アイコン （![名前を変更アイコン ](/help/main/assets/icons/Rename.svg)）をクリックして、[!UICONTROL 名前を変更] ダイアログボックスを表示します。 新しい名前を指定し、**[!UICONTROL 保存]**&#x200B;をクリックします。
+* **エクスペリエンスの複製、削除、またはリダイレクト**:「**[!UICONTROL その他のアクション]**」アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 複製]**、**[!UICONTROL 削除]**、または&#x200B;**[!UICONTROL URLにリダイレクト]**&#x200B;を選択します。
 
 ### アクティビティ設定/設定 {#settings}
 
-[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスの上に表示されている[!UICONTROL 設定] アイコン （![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックして、アクティビティのプロパティメニューを表示します。
+[!UICONTROL  デザイン ] キャンバスの上に表示されている[!UICONTROL 設定] アイコン （![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックして、アクティビティのプロパティメニューを表示します。
 
-![&#x200B; アクティビティ設定オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
+![ アクティビティ設定オプション ](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
 以下のオプションがあります。
 
-* **[!UICONTROL プロパティ]**: アクティビティにプロパティを割り当てるか、アクティビティからプロパティを削除します。 [!UICONTROL &#x200B; プロパティ &#x200B;]は（[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)機能です。 詳しくは、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。
+* **[!UICONTROL プロパティ]**: アクティビティにプロパティを割り当てるか、アクティビティからプロパティを削除します。 [!UICONTROL  プロパティ ]は（[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)機能です。 詳しくは、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。
 * **[!UICONTROL ページ配信]**：サイト上の類似ページに同じエクスペリエンスを含めます。 ページテンプレートを使用して、ページに構造を提供したり、ページに類似した要素が含まれている場合は、類似の構造化ページ要素またはドメイン全体でバリエーションをテストします。 詳しくは、[類似ページに同じエクスペリエンスを含める](/help/main/c-experiences/c-visual-experience-composer/temtest.md)を参照してください。
-* **[!UICONTROL サイト環境設定]**: サイト環境設定を構成して、[!DNL Target]がCSS セレクターを生成する方法を指定します。 詳しくは、[Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)の&#x200B;_CSS セレクター_&#x200B;を参照してください。
-* **追加ページを追加**: アクティビティに追加ページを追加して、複数ページにわたるストーリーを作成できるマルチページアクティビティを作成します。各ページに固有のデザインを使用します。 詳しくは、[&#x200B; マルチページアクティビティ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)を参照してください。
+* **[!UICONTROL サイト環境設定]**: サイト環境設定を構成して、[!DNL Target]がCSS セレクターを生成する方法を指定します。 詳しくは、[Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)の&#x200B;_CSS セレクター_&#x200B;を参照してください。[!UICONTROL 
+* **追加ページを追加**: アクティビティに追加ページを追加して、複数ページにわたるストーリーを作成できるマルチページアクティビティを作成します。各ページに固有のデザインを使用します。 詳しくは、[ マルチページアクティビティ ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)を参照してください。
 * **単一のオーディエンス**: アクティビティに単一のオーディエンスを使用します。
-* **複数のオーディエンス**: アクティビティに複数のオーディエンスを割り当てます。 オーディエンスを追加アイコン（![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックし、リストから1つ以上のオーディエンスを選択します。 [!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスから[&#x200B; オーディエンスを組み合わせる](/help/main/c-target/combining-multiple-audiences.md)または[新しいオーディエンス &#x200B;](/help/main/c-target/c-audiences/create-audience.md)を作成することもできます。
+* **複数のオーディエンス**: アクティビティに複数のオーディエンスを割り当てます。 オーディエンスを追加アイコン（![追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックし、リストから1つ以上のオーディエンスを選択します。 [!UICONTROL  オーディエンスを追加] ダイアログボックスから[ オーディエンスを組み合わせる](/help/main/c-target/combining-multiple-audiences.md)または[新しいオーディエンス ](/help/main/c-target/c-audiences/create-audience.md)を作成することもできます。
 
-### [!UICONTROL &#x200B; デザイン &#x200B;]/[!UICONTROL 参照] モード
+### [!UICONTROL  デザイン ]/[!UICONTROL 参照] モード
 
-デザインキャンバスの上に表示される[!UICONTROL &#x200B; デザイン &#x200B;]/[!UICONTROL 参照] トグルを使用して、デザインと参照モードを切り替えます。
+デザインキャンバスの上に表示される[!UICONTROL  デザイン ]/[!UICONTROL 参照] トグルを使用して、デザインと参照モードを切り替えます。
 
-![&#x200B; デザインと参照の切り替え](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
+![ デザインと参照の切り替え](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-[!UICONTROL 参照] モードを使用して、サイトを移動し、更新するビューまたはページを選択します。 [!UICONTROL &#x200B; デザイン &#x200B;] モードに切り替えて、変更を追加または編集します。
+[!UICONTROL 参照] モードを使用して、サイトを移動し、更新するビューまたはページを選択します。 [!UICONTROL  デザイン ] モードに切り替えて、変更を追加または編集します。
 
 ### [!UICONTROL 取り消し]/[!UICONTROL やり直し]
 
-[!UICONTROL 取り消し] アイコン （![取り消しアイコン &#x200B;](/help/main/assets/icons/Undo.svg)）をクリックすると、変更を取り消すことができます。
+[!UICONTROL 取り消し] アイコン （![取り消しアイコン ](/help/main/assets/icons/Undo.svg)）をクリックすると、変更を取り消すことができます。
 
-VEC![&#128279;](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)の取り消しアイコン
+VEC](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)の![取り消しアイコン
 
 アクションをやり直すには、取り消し/[!UICONTROL やり直し] ボタングループを展開し、[!UICONTROL やり直し]を選択します。
 
-### [!UICONTROL &#x200B; コンポーネント &#x200B;] パネル
+### [!UICONTROL  コンポーネント ] パネル
 
-新しい[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルを使用して、web ページに多数のコンポーネントを追加し、必要に応じて編集できます。
+新しい[!UICONTROL  コンポーネント ] パネルを使用して、web ページに多数のコンポーネントを追加し、必要に応じて編集できます。
 
-![&#x200B; コンポーネントパネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![ コンポーネントパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルではなく、[!UICONTROL 変更] パネルがこの領域に表示されている場合は、**[!UICONTROL コンポーネントを表示]** アイコン （![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックします。 [!UICONTROL &#x200B; コンポーネントを表示] アイコン （![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル &#x200B;](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
+>[!UICONTROL  コンポーネント ] パネルではなく、[!UICONTROL 変更] パネルがこの領域に表示されている場合は、**[!UICONTROL コンポーネントを表示]** アイコン （![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。 [!UICONTROL  コンポーネントを表示] アイコン （![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
 >
->[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルを折りたたんで[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスを拡大し、[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルを開いている間に、（![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）アイコンをクリックします。
+>[!UICONTROL  コンポーネント ] パネルを折りたたんで[!UICONTROL  デザイン ] キャンバスを拡大し、[!UICONTROL  コンポーネント ] パネルを開いている間に、（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）アイコンをクリックします。
 
 エクスペリエンスに新しいコンポーネントを追加するには：
 
@@ -105,48 +110,48 @@ VEC![&#128279;](/help/main/c-experiences/c-visual-experience-composer/assets/und
    使用可能なコンポーネントは、ロジックコンテナにグループ化されます。
 
    * [!UICONTROL 基本]
-      * [!UICONTROL &#x200B; ディバイダー]
-      * [!UICONTROL HTML]
-      * [!UICONTROL Image]
+     * [!UICONTROL  ディバイダー]
+     * [!UICONTROL HTML]
+     * [!UICONTROL Image]
    * [!UICONTROL テキスト]
-      * [!UICONTROL 見出し]
-      * [!UICONTROL 文章]
-      * [!UICONTROL &#x200B; リンク &#x200B;]
+     * [!UICONTROL 見出し]
+     * [!UICONTROL 文章]
+     * [!UICONTROL  リンク ]
    * [!UICONTROL 動的]
-      * [[!UICONTROL 推奨事項]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL HTML オファー]](/help/main/c-experiences/c-manage-content/manage-content.md)
+     * [[!UICONTROL 推奨事項]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+     * [[!UICONTROL  エクスペリエンスフラグメント ]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+     * [[!UICONTROL HTML オファー]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
-1. [!UICONTROL &#x200B; デザイン &#x200B;] キャンバスの既存のページ要素の上にコンポーネントをドラッグします。
+1. [!UICONTROL  デザイン ] キャンバスの既存のページ要素の上にコンポーネントをドラッグします。
 1. 選択したエレメントを置き換えるか、選択したエレメントの後にの前にコンポーネントを挿入するかを選択します。
 
 ### [!UICONTROL 変更] パネル
 
-[!UICONTROL 変更] レールを開くには、[!UICONTROL &#x200B; コンポーネント &#x200B;] レールの[!UICONTROL 変更を表示] アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
+[!UICONTROL 変更] レールを開くには、[!UICONTROL  コンポーネント ] レールの[!UICONTROL 変更を表示] アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
 
-![変更パネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![変更パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; コンポーネントを表示] アイコン （![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル &#x200B;](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
+>[!UICONTROL  コンポーネントを表示] アイコン （![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
 >
->[!UICONTROL 変更] レールを折りたたんで[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスを拡大し、[!UICONTROL 変更] レールを開いている間に、[!UICONTROL 変更]を表示アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
+>[!UICONTROL 変更] レールを折りたたんで[!UICONTROL  デザイン ] キャンバスを拡大し、[!UICONTROL 変更] レールを開いている間に、[!UICONTROL 変更]を表示アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
 
 [!UICONTROL 変更] パネルには、[!UICONTROL Visual Experience Composer] （VEC）でページに加えられたすべての変更が表示され、追加の変更（CSS セレクター、Mbox、カスタムコードなど）を行うことができます。
 
-レールヘッダーの&#x200B;**[!UICONTROL 詳細オプション]** アイコン（![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックして、変更を追加するか、すべての変更を削除するか、無効なすべての変更を削除します。 「[!UICONTROL 選択]」をクリックして一括操作を実行します：[!UICONTROL すべてのページに適用]または[!UICONTROL 削除]。
+レールヘッダーの&#x200B;**[!UICONTROL 詳細オプション]** アイコン（![詳細アクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックして、変更を追加するか、すべての変更を削除するか、無効なすべての変更を削除します。 「[!UICONTROL 選択]」をクリックして一括操作を実行します：[!UICONTROL すべてのページに適用]または[!UICONTROL 削除]。
 
-各変更の横にある&#x200B;**[!UICONTROL 詳細オプション]** アイコン（![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックして、情報を表示したり、変更を削除したり、変更を他のビューに適用したりします。
+各変更の横にある&#x200B;**[!UICONTROL 詳細オプション]** アイコン（![詳細アクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックして、情報を表示したり、変更を削除したり、変更を他のビューに適用したりします。
 
-### [!UICONTROL &#x200B; デザイン &#x200B;] キャンバス
+### [!UICONTROL  デザイン ] キャンバス
 
-[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスでは、画面に合わせて表示するビューポート、[!UICONTROL &#x200B; デスクトップ &#x200B;]、[!UICONTROL &#x200B; タブレット &#x200B;]、[!UICONTROL &#x200B; モバイルランドスケープ &#x200B;]、[!UICONTROL &#x200B; モバイルポートレート &#x200B;]などを選択できます。 デフォルトでは、キャンバスは、[管理](/help/main/administrating-target/visual-experience-composer-set-up.md) セクションで定義されたビューポートと共に、ページを画面に合わせます。
+[!UICONTROL  デザイン ] キャンバスでは、画面に合わせて表示するビューポート、[!UICONTROL  デスクトップ ]、[!UICONTROL  タブレット ]、[!UICONTROL  モバイルランドスケープ ]、[!UICONTROL  モバイルポートレート ]などを選択できます。 デフォルトでは、キャンバスは、[管理](/help/main/administrating-target/visual-experience-composer-set-up.md) セクションで定義されたビューポートと共に、ページを画面に合わせます。
 
-![&#x200B; ビューポートオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
+![ ビューポートオプション ](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
-適切なアイコン（![&#x200B; ズームインアイコン &#x200B;](/help/main/assets/icons/ZoomIn.svg)または![&#x200B; ズームアウトアイコン &#x200B;](/help/main/assets/icons/ZoomOut.svg)）をクリックして、ズームインまたはズームアウトすることもできます。
+適切なアイコン（![ ズームインアイコン ](/help/main/assets/icons/ZoomIn.svg)または![ ズームアウトアイコン ](/help/main/assets/icons/ZoomOut.svg)）をクリックして、ズームインまたはズームアウトすることもできます。
 
-[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスでページ要素をクリックすると、その要素タイプで使用できるオプションがメニューに表示されます。 さらに、ページの下部に DOM パスが表示されるので、ページ構造を簡単にナビゲートできます。
+[!UICONTROL  デザイン ] キャンバスでページ要素をクリックすると、その要素タイプで使用できるオプションがメニューに表示されます。 さらに、ページの下部に DOM パスが表示されるので、ページ構造を簡単にナビゲートできます。
 
 様々な[!UICONTROL Visual Experience Composer] （VEC）アクションは、作業をより迅速かつ効率的にするために、適切なメニューオプションにグループ化されています。
 
@@ -154,49 +159,49 @@ VEC![&#128279;](/help/main/c-experiences/c-visual-experience-composer/assets/und
 
 >[!NOTE]
 >
->使用可能なオプションは、作成または編集するアクティビティタイプと要素によって異なります。 [!UICONTROL A/B テスト &#x200B;] アクティビティでの画像とオファーの編集について詳しくは、以下の[!UICONTROL &#x200B; デザイン &#x200B;] キャンバス [&#128279;](#design)を使用した要素の編集を参照してください。
+>使用可能なオプションは、作成または編集するアクティビティタイプと要素によって異なります。 [!UICONTROL A/B テスト ] アクティビティでの画像とオファーの編集について詳しくは、以下の[!UICONTROL  デザイン ] キャンバス ](#design)を使用した要素の[編集を参照してください。
 
-### [!UICONTROL &#x200B; プロパティ &#x200B;] パネル
+### [!UICONTROL  プロパティ ] パネル
 
-[!UICONTROL &#x200B; プロパティ &#x200B;] パネルでは、選択した要素がHTMLの要素であるか、レコメンデーションやオファーなど[!DNL Target]に固有のオブジェクトであるかを問わず、ページ上の選択した要素のプロパティを変更できます。
+[!UICONTROL  プロパティ ] パネルでは、選択した要素がHTMLの要素であるか、レコメンデーションやオファーなど[!DNL Target]に固有のオブジェクトであるかを問わず、ページ上の選択した要素のプロパティを変更できます。
 
-![&#x200B; プロパティ パネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+![ プロパティ パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
 パネルの上部にあるアイコンをクリックして、HTML コードを編集したり、エレメントを削除、複製、非表示にしたりできます。 変更が[!UICONTROL 変更] パネルに表示されます。
 
-右側のパネルの[!UICONTROL &#x200B; プロパティ &#x200B;] パネルは折りたたみ可能で、デザインキャンバスを非表示にしたり、デザインキャンバスを拡大したりできます。 パネルの右側にある[!UICONTROL &#x200B; プロパティ &#x200B;] アイコン（![&#x200B; プロパティアイコン &#x200B;](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;] パネルを折りたたんだり表示したりします。
+右側のパネルの[!UICONTROL  プロパティ ] パネルは折りたたみ可能で、デザインキャンバスを非表示にしたり、デザインキャンバスを拡大したりできます。 パネルの右側にある[!UICONTROL  プロパティ ] アイコン（![ プロパティアイコン ](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL  プロパティ ] パネルを折りたたんだり表示したりします。
 
-## [!UICONTROL &#x200B; デザイン &#x200B;] キャンバスを使用した要素の編集 {#design}
+## [!UICONTROL  デザイン ] キャンバスを使用した要素の編集 {#design}
 
-次のセクションでは、[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスで画像とテキストを編集する方法について説明します。 デザインキャンバス、コンポーネント、変更、プロパティのレールには、アクティビティのエクスペリエンスを簡単に作成するための強力なツールが用意されています。
+次のセクションでは、[!UICONTROL  デザイン ] キャンバスで画像とテキストを編集する方法について説明します。 デザインキャンバス、コンポーネント、変更、プロパティのレールには、アクティビティのエクスペリエンスを簡単に作成するための強力なツールが用意されています。
 
 ### 画像オプション
 
-[!UICONTROL A/B テスト &#x200B;] アクティビティで画像をクリックすると、VECは次の図のようになります。
+[!UICONTROL A/B テスト ] アクティビティで画像をクリックすると、VECは次の図のようになります。
 
 画像が選択された![VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
 
-左側の[!UICONTROL &#x200B; コンポーネント &#x200B;] フレームからコンポーネントを選択して、次の要素を挿入します。
+左側の[!UICONTROL  コンポーネント ] フレームからコンポーネントを選択して、次の要素を挿入します。
 
 * 基本（ディバイダ、HTML、画像）。
 * テキスト（見出し、段落、リンク）。
-* 動的（[Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md)、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、HTML オファー）。
+* 動的（[Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md)、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、HTML オファー）。
 
 画像の上部にあるメニューを使用すると、次の操作を実行できます。
 
-* リンク（![&#x200B; リンクを挿入アイコン &#x200B;](/help/main/assets/icons/Link.svg)）を挿入します。
-* 画像を変更します（![画像を選択アイコン &#x200B;](/help/main/assets/icons/Images.svg)）。
-* パーソナライゼーションを追加（![Personalizationを追加アイコン &#x200B;](/help/main/assets/icons/PersonalizationField.svg)）。
-* 画像を削除します（![削除アイコン &#x200B;](/help/main/assets/icons/Delete.svg)）。
+* リンク（![ リンクを挿入アイコン ](/help/main/assets/icons/Link.svg)）を挿入します。
+* 画像を変更します（![画像を選択アイコン ](/help/main/assets/icons/Images.svg)）。
+* パーソナライゼーションを追加（![Personalizationを追加アイコン ](/help/main/assets/icons/PersonalizationField.svg)）。
+* 画像を削除します（![削除アイコン ](/help/main/assets/icons/Delete.svg)）。
 
-右側の[!UICONTROL &#x200B; プロパティ &#x200B;] ペインでは、画像のプロパティをさらに設定できます。
+右側の[!UICONTROL  プロパティ ] ペインでは、画像のプロパティをさらに設定できます。
 
 フレームの上部にあるアイコンを使用すると、次のことが可能になります。
 
-* HTMLを編集します（![HTMLを挿入アイコン &#x200B;](/help/main/assets/icons/Code.svg)）。 詳しくは、以下の「[HTMLを編集](#html)」を参照してください。
-* 画像を複製します（![&#x200B; アイコンを複製](/help/main/assets/icons/Code.svg)）。
-* 画像を削除します（![削除アイコン &#x200B;](/help/main/assets/icons/Delete.svg)）。
-* 画像を非表示にします（![非表示アイコン &#x200B;](/help/main/assets/icons/VisibilityOff.svg)）。
+* HTMLを編集します（![HTMLを挿入アイコン ](/help/main/assets/icons/Code.svg)）。 詳しくは、以下の「[HTMLを編集](#html)」を参照してください。
+* 画像を複製します（![ アイコンを複製](/help/main/assets/icons/Code.svg)）。
+* 画像を削除します（![削除アイコン ](/help/main/assets/icons/Delete.svg)）。
+* 画像を非表示にします（![非表示アイコン ](/help/main/assets/icons/VisibilityOff.svg)）。
 
 右側のフレームのオプションを使用すると、次のことが可能になります。
 
@@ -211,38 +216,38 @@ VEC![&#128279;](/help/main/c-experiences/c-visual-experience-composer/assets/und
 
 ### テキストオプション
 
-[!UICONTROL A/B テスト &#x200B;] アクティビティでテキストをクリックすると、VECは次の図のようになります。
+[!UICONTROL A/B テスト ] アクティビティでテキストをクリックすると、VECは次の図のようになります。
 
 テキストが選択された![VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-text.png)
 
-左側の[!UICONTROL &#x200B; コンポーネント &#x200B;] フレームからコンポーネントを選択して、次の要素を挿入します。
+左側の[!UICONTROL  コンポーネント ] フレームからコンポーネントを選択して、次の要素を挿入します。
 
 * 基本（ディバイダ、HTML、画像）。
 * テキスト（見出し、段落、リンク）。
-* 動的（[Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md)、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、HTML オファー）。
+* 動的（[Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md)、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、HTML オファー）。
 
-[!UICONTROL 変更を表示] アイコン（![変更を表示アイコン &#x200B;](/help/main/assets/icons/History.svg)）をクリックして、エクスペリエンスに変更を表示します。
+[!UICONTROL 変更を表示] アイコン（![変更を表示アイコン ](/help/main/assets/icons/History.svg)）をクリックして、エクスペリエンスに変更を表示します。
 
 テキスト要素の上部にあるメニューを使用すると、次の操作を実行できます。
 
 * テキストのプロパティ（見出しレベル、段落、ブロック引用符、またはモノスペース）を設定する
-* テキストの色を選択（![&#x200B; テキストの色アイコン &#x200B;](/help/main/assets/icons/TextColor.svg)）
-* テキストの属性（太字、斜体、下線、取り消し線）を設定します（![&#x200B; テキスト属性を選択アイコン &#x200B;](/help/main/assets/icons/Text.svg)）。
-* テキストの整列（左、中央、右、均等配置）を設定します（![&#x200B; テキスト整列アイコン &#x200B;](/help/main/assets/icons/TextAlignCenter.svg)）。
-* リンク（![&#x200B; リンクを挿入アイコン &#x200B;](/help/main/assets/icons/Link.svg)）を挿入します。
-* コンテンツをHTML オファー、[&#x200B; エクスペリエンスフラグメント &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)または[Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md)に置き換えます。
-* HTMLを編集します（![HTMLを挿入アイコン &#x200B;](/help/main/assets/icons/Code.svg)）。
-* パーソナライゼーションを追加（![Personalizationを追加アイコン &#x200B;](/help/main/assets/icons/PersonalizationField.svg)）。
-* 画像を削除します（![削除アイコン &#x200B;](/help/main/assets/icons/Delete.svg)）。
+* テキストの色を選択（![ テキストの色アイコン ](/help/main/assets/icons/TextColor.svg)）
+* テキストの属性（太字、斜体、下線、取り消し線）を設定します（![ テキスト属性を選択アイコン ](/help/main/assets/icons/Text.svg)）。
+* テキストの整列（左、中央、右、均等配置）を設定します（![ テキスト整列アイコン ](/help/main/assets/icons/TextAlignCenter.svg)）。
+* リンク（![ リンクを挿入アイコン ](/help/main/assets/icons/Link.svg)）を挿入します。
+* コンテンツをHTML オファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)または[Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md)に置き換えます。
+* HTMLを編集します（![HTMLを挿入アイコン ](/help/main/assets/icons/Code.svg)）。
+* パーソナライゼーションを追加（![Personalizationを追加アイコン ](/help/main/assets/icons/PersonalizationField.svg)）。
+* 画像を削除します（![削除アイコン ](/help/main/assets/icons/Delete.svg)）。
 
-右側の[!UICONTROL &#x200B; プロパティ &#x200B;] パネルでは、テキストのプロパティをさらに設定できます。
+右側の[!UICONTROL  プロパティ ] パネルでは、テキストのプロパティをさらに設定できます。
 
 フレームの上部にあるアイコンを使用すると、次のことが可能になります。
 
-* HTMLを編集します（![HTMLを挿入アイコン &#x200B;](/help/main/assets/icons/Code.svg)）。 詳しくは、以下の「[HTMLを編集](#html)」を参照してください。
-* テキストを複製します（![&#x200B; アイコンを複製](/help/main/assets/icons/Code.svg)）。
-* テキストを削除します（![&#x200B; アイコンを削除](/help/main/assets/icons/Delete.svg)）。
-* テキストを非表示にします（![非表示アイコン &#x200B;](/help/main/assets/icons/VisibilityOff.svg)）。
+* HTMLを編集します（![HTMLを挿入アイコン ](/help/main/assets/icons/Code.svg)）。 詳しくは、以下の「[HTMLを編集](#html)」を参照してください。
+* テキストを複製します（![ アイコンを複製](/help/main/assets/icons/Code.svg)）。
+* テキストを削除します（![ アイコンを削除](/help/main/assets/icons/Delete.svg)）。
+* テキストを非表示にします（![非表示アイコン ](/help/main/assets/icons/VisibilityOff.svg)）。
 
 右側のフレームのオプションを使用すると、次のことが可能になります。
 
@@ -261,7 +266,7 @@ VEC![&#128279;](/help/main/c-experiences/c-visual-experience-composer/assets/und
 
 HTML コードだけでなく、カスタム JavaScript を編集および挿入することもできます。
 
-[!UICONTROL A/B]および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティのテキストとHTMLを編集する際に、いくつかのリッチテキストの書式設定オプションを利用できます。 フォントの選択、フォントスタイルの選択、テキストの整列方法の変更およびその他の標準的なテキスト書式オプションの設定が可能です。 HTMLを変更する場合は、コードビューとHTMLのリッチエディティングビューを切り替えることができます。
+[!UICONTROL A/B]および[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティのテキストとHTMLを編集する際に、いくつかのリッチテキストの書式設定オプションを利用できます。 フォントの選択、フォントスタイルの選択、テキストの整列方法の変更およびその他の標準的なテキスト書式オプションの設定が可能です。 HTMLを変更する場合は、コードビューとHTMLのリッチエディティングビューを切り替えることができます。
 
 次の HTML5 タグをネストできます。
 
@@ -278,7 +283,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 ![DOM パス](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path-refresh.png)
 
-DOM パスが表示されない場合は、[!UICONTROL DOMを表示] アイコン（![DOMを表示アイコン &#x200B;](/help/main/assets/icons/LayersBringToFront.svg)）をクリックします。
+DOM パスが表示されない場合は、[!UICONTROL DOMを表示] アイコン（![DOMを表示アイコン ](/help/main/assets/icons/LayersBringToFront.svg)）をクリックします。
 
 DOM パスを使用すると、選択した要素に関する情報（タイプ、ID、クラス）をすばやく確認したり、DOM パスを上下に移動して目的の要素を選択したりできます。
 
@@ -292,17 +297,17 @@ DOM パス機能は、[クリックの追跡](/help/main/c-activities/r-success-
 
 ## 更新された UI に関する詳細情報
 
-* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL &#x200B; アクティビティ &#x200B;]、[!UICONTROL 推奨事項]、および[!UICONTROL Visual Experience Composer] （VEC）の[!DNL Target]の主要なUI変更の概要を提供します。
+* [[!DNL Target Standard/Premium]  25.2.1（2025年2月17日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：[!DNL Target] の[!UICONTROL アクティビティ]、[!UICONTROL レコメンデーション]、[!UICONTROL Visual Experience Composer]（VEC）に関する主な UI の変更の概要について説明します。
 
-* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL &#x200B; オファーライブラリ &#x200B;]の[!DNL Target]の主要なUI変更の概要を提供します。
+* [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!DNL Target] の[!UICONTROL オファーライブラリ] に関する主な UI の変更の概要について説明します。
 
-* [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 
-* [[!UICONTROL Visual Experience Composer]の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日）では、更新された[!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
+* [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 
-* [[!UICONTROL Visual Experience Composer] オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新されたVEC UIとそのオプションについて説明します。
+* [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
-* [[!DNL Target] UI更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)：このFAQでは、ナビゲーションの変更、機能の場所、一時的なUI バージョンの廃止トグルなど、新しい[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
 
 <!--
 ## [!UICONTROL Edit]
@@ -499,7 +504,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -531,7 +536,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -563,7 +568,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -653,7 +658,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -663,7 +668,7 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 >
 >VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
->VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}.
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 

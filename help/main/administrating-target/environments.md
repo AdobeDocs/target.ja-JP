@@ -1,36 +1,44 @@
 ---
 keywords: 環境；トラブルシューティング；ベストプラクティス；ubox；リダイレクト；リダイレクト；ホワイトリスト；ブラックリスト；ヘルプブロックリストに加える
-description: Adobe [!DNL Target] の環境を使用して、サイトとプリプロダクション環境を整理し、管理を容易にし、レポートを分離する方法を説明します。
+description: Adobe [!DNL Target]の環境を使用してサイトとプリプロダクション環境を整理し、管理とレポートの分離を容易にする方法について説明します。
 title: 環境とその使用方法を教えてください。
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-TQID: https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0
+TQID: 'https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '710'
 ht-degree: 47%
-
 ---
-
 # 環境
 
 サイトおよび本番前の環境を整理して、管理と個別レポートを容易にします。
 
-ホストは、管理を容易にするために環境にバンドルされます。 例えば、数十のホストを 2 つまたは 3 つの環境に分けることができます。 プリセット環境には、[!UICONTROL 実稼動]、[!UICONTROL &#x200B; ステージング &#x200B;]、[!UICONTROL 開発]が含まれます。 新しい環境を追加したり、希望に応じて環境の名前を変更したりすることができます。
+ホストは、管理を容易にするために環境にバンドルされます。 例えば、数十のホストを 2 つまたは 3 つの環境に分けることができます。 プリセット環境には、[!UICONTROL 実稼動]、[!UICONTROL  ステージング ]、[!UICONTROL 開発]が含まれます。 新しい環境を追加したり、希望に応じて環境の名前を変更したりすることができます。
 
 1つの環境（デフォルトの環境）には、事前に[!UICONTROL 実稼動環境]という名前が付けられています。 このデフォルトの環境は、名前を変更した場合でも削除できません。 [!DNL Target] では、この環境で、最終的な承認済みのアクティビティとテストを扱うことを前提としています。
 
@@ -46,9 +54,9 @@ ht-degree: 47%
 1. 環境を説明する名前を指定します。
 1. 目的の環境のアクティビティモード（「[!UICONTROL アクティブなアクティビティ]」または「[!UICONTROL アクティブおよび非アクティブなアクティビティ]」）を指定します。
 
-   [!UICONTROL &#x200B; アクティブおよび非アクティブなアクティビティ &#x200B;]を指定すると、この環境のホストにも非アクティブなアクティビティが表示されます。
+   [!UICONTROL  アクティブおよび非アクティブなアクティビティ ]を指定すると、この環境のホストにも非アクティブなアクティビティが表示されます。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## レポート用のデフォルト環境の設定 {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
@@ -64,7 +72,7 @@ ht-degree: 47%
 >
 >[!DNL Recommendations] ユーザーは、ホストのホストグループを切り替える場合、行動データベースおよび製品データベースを再構築する必要があります。
 >
-> [!DNL Adobe Experience Platform]  データストリーム [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja#target){target=_blank}で デフォルト環境を指定した場合、この設定は[!DNL Target]の設定を上書きします。
+> [!DNL Adobe Experience Platform]  データストリーム ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}で[ デフォルト環境を指定した場合、この設定は[!DNL Target]の設定を上書きします。
 
 ## 環境の名前の変更 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

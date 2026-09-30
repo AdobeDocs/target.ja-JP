@@ -4,22 +4,27 @@ description: 特定の条件下でVisual Experience Composer （VEC）とEnhance
 title: Visual Experience Composerと拡張Experience Composerのトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
-TQID: https://experienceleague.adobe.com/Dlh0ovXPkgDgeMvcWi2GChACuDmYWKuFRH7Kx4VPrYw
+TQID: 'https://experienceleague.adobe.com/Dlh0ovXPkgDgeMvcWi2GChACuDmYWKuFRH7Kx4VPrYw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '250'
 ht-degree: 66%
-
 ---
-
 # Visual Experience Composer と拡張 Experience Composer のトラブルシューティング
 
 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL Enhanced Experience Composer] （EEC）で、特定の条件で表示の問題が発生することがあります。
@@ -28,7 +33,7 @@ VEC は [!DNL Adobe Target] の主要機能の 1 つです。 マーケティン
 
 EEC は VEC の拡張機能で、まだ Target 実装に含まれていない iframe バスティングサイトまたはページのエクスペリエンスの編集を支援します。 VEC でページを開こうとすると問題が発生する場合は、EEC を試してください。
 
-VECとEECについて詳しくは、[&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
+VECとEECについて詳しくは、[ エクスペリエンス ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
 
 VEC と EEC の両方に影響する問題と、これら 2 つのコンポーザーのうち 1 つのみに影響する問題があることに注意してください。 詳しくは、該当するページを参照してください。
 

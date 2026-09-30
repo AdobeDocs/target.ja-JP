@@ -4,28 +4,37 @@ description: 一部のweb サイトが[!UICONTROL Visual Experience Composer] �
 title: '[!UICONTROL Visual Editing Helper]拡張機能の使用方法を教えてください。'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
+TQID: 'https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 57%
-
 ---
-
-# [!UICONTROL &#x200B; ビジュアル編集ヘルパー]拡張機能
+# [!UICONTROL  ビジュアル編集ヘルパー]拡張機能
 
 [!DNL Google Chrome]の[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能を使用すると、[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）内でWeb サイトを確実に読み込み、Web エクスペリエンスをすばやく作成してQAできます。
 
@@ -42,7 +51,7 @@ ht-degree: 57%
 * この機能は、冗長なクリーンアップを防ぐためにタブ履歴を追跡し、タブのクローズ時に履歴をクリアするので、タブが再度開かれたときにクリーンアップが正しく動作します。
 * 一貫した動作を保証するために、包括的な単体テストが追加されました。
 
-![VECの新しいオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
+![VECの新しいオプション ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## VEC で一部の web サイトを確実に開くことができない理由
 
@@ -59,16 +68,16 @@ ht-degree: 57%
 
   [拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) を使用すると、拡張機能では at.js は挿入されませんが、SameSite Cookie 機能は引き続き存在します。 Web ページに at.js を挿入するには、EEC をオフにします。
 
-* [&#x200B; モバイルビューポート &#x200B;](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL Enhanced Experience Composer] （EEC）がなくてもサポートされます。
+* [ モバイルビューポート ](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL Enhanced Experience Composer] （EEC）がなくてもサポートされます。
 * [!DNL Target]が初めてのお客様は、自社の IT 開発者がまだ Web サイトに[!DNL Target]を実装していない場合でも、拡張機能を使用して[!DNL Target]を試すことができます。
 * 複数のお客様の Web サイトおよび[!DNL Target]アカウントにサービスを提供するパートナーは、サードパーティツールで複数のルールを管理するのではなく、VEC 読み込みをサポートする 1 つのシンプルなメカニズムを利用できるようになりました。
 
 ## [!UICONTROL Visual Editing Helper] ブラウザー拡張機能を取得してインストールします
 
-1. Chrome Web Store[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}の[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能に移動します。
+1. Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}の[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能に移動します。
 1. **[!UICONTROL Chromeに追加]** > **[!UICONTROL 拡張機能を追加]**&#x200B;をクリックします。
 1. [!DNL Target] で VEC を開きます。
-1. 拡張機能を使用するには、VEC モードまたはQA モードで、Chrome ブラウザーのツールバーにある[!UICONTROL Visual Editing Helper] ブラウザー拡張機能アイコン（![Visual Editing Extension アイコン &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）をクリックします。
+1. 拡張機能を使用するには、VEC モードまたはQA モードで、Chrome ブラウザーのツールバーにある[!UICONTROL Visual Editing Helper] ブラウザー拡張機能アイコン（![Visual Editing Extension アイコン ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）をクリックします。
 
    [!UICONTROL Visual Editing Helper]は、Web サイトが[!UICONTROL Target] VECで開かれたときに、オーサリングを強化するために自動的に有効になります。 この拡張機能には、条件付き設定はありません。 この拡張機能では、SameSite Cookie の設定を含むすべての設定を自動的に処理します。
 
@@ -80,8 +89,8 @@ ht-degree: 57%
 * [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)でこの拡張機能を使用して at.js を挿入する場合は、別の Chrome タブを開く必要があります。 この Chrome タブは、アクティビティを作成したのと同じ [!DNL Adobe Experience Cloud] 組織に対して認証されている必要があります。
 * 次のメッセージにより、さらに情報が提供されます。
 
-   * 読み込みに失敗したVECを使用してweb サイトを読み込もうとすると、[!UICONTROL Visual Editing Helper] ブラウザー拡張機能をインストールすることを示唆するメッセージが表示されます。
-   * at.js または alloy.js が web サイトにまだ実装されていない場合、この拡張機能のインストールを勧めるメッセージが VEC に表示されます。
+  * 読み込みに失敗したVECを使用してweb サイトを読み込もうとすると、[!UICONTROL Visual Editing Helper] ブラウザー拡張機能をインストールすることを示唆するメッセージが表示されます。
+  * at.js または alloy.js が web サイトにまだ実装されていない場合、この拡張機能のインストールを勧めるメッセージが VEC に表示されます。
 * 新しい拡張機能を使用してから[古い拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に戻り、[!DNL Target] が web サイトの読み込みに失敗した場合は、すべてのブラウザー データを消去し、新しい拡張機能を無効にします。
 
 ## よくある質問

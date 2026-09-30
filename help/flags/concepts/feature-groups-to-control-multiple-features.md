@@ -4,16 +4,17 @@ description: フラグの機能グループを使用して、アプリケーシ�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 # 複数の機能を制御する機能グループ {#feature-groups}
 
-[機能フラグ &#x200B;](what-is-a-feature-flag.md)は、1つの機能を制御します。 複数の関連する機能フラグを一緒に管理し、同じオーディエンスに確実に届ける必要がある場合は、**機能グループ**&#x200B;を使用します。
+[機能フラグ ](what-is-a-feature-flag.md)は、1つの機能を制御します。 複数の関連する機能フラグを一緒に管理し、同じオーディエンスに確実に届ける必要がある場合は、**機能グループ**&#x200B;を使用します。
 
 ## 機能グループの役割 {#what-it-does}
 

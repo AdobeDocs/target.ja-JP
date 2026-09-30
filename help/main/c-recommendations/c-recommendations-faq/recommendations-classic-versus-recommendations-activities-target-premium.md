@@ -1,28 +1,38 @@
 ---
 keywords: Recommendations;レコメンデーションアルゴリズム;Recommendations アクティビティ;Recommendations Classic
-description: ' [!DNL Target] Premium の従来のレコメンデーション Classic アクティビティとレコメンデーションアクティビティの違いを理解するのに役立つ情報を確認します。'
-title: ' [!DNL Target] Premium の従来のレコメンデーション Classic とレコメンデーションの違い'
+description: '[!DNL Target] Premiumの従来のRecommendations Classic アクティビティとRecommendations アクティビティの違いを理解するために、情報を確認してください。'
+title: '[!DNL Target] PremiumのRecommendations ClassicとRecommendationsの違いは何ですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
+TQID: 'https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 85%
-
+source-wordcount: '694'
+ht-degree: 81%
 ---
-
 # Recommendations Classicと[!DNL Target] PremiumのRecommendations アクティビティの比較
 
 レコメンデーション Classic と Target Premium のレコメンデーションアクティビティのどちらを使用するかを選択する際に役立つ情報です。
@@ -41,16 +51,16 @@ ht-degree: 85%
 
 ## オファーとしてのレコメンデーション
 
-[!UICONTROL A/B テスト &#x200B;] （[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット &#x200B;]を含む）および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができます。
+[!UICONTROL A/B テスト ] （[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット ]を含む）および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
 * [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
-* [!UICONTROL 自動ターゲット &#x200B;]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
+* [!UICONTROL 自動ターゲット ]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
+開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト ]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
 
 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
@@ -69,7 +79,7 @@ ht-degree: 85%
 [!DNL Recommendations] のワークフローはシンプルになりました。 複雑なフォームに入力する代わりに、次のような視覚的なワークフローを実行します。
 
 1. 条件を選択します。
-1. 事前設定済みの[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を選択します。
+1. 事前設定済みの[ デザイン ](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を選択します。
 1. レコメンデーションの結果をプレビューします。
 
 ## プレビュー表示 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

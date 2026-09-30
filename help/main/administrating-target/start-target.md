@@ -1,26 +1,32 @@
 ---
 keywords: 管理;承認者の役割;承認者
-description: この記事には、管理者が  [!DNL Adobe Experience Cloud] ーザーへの招待メールを受信した後に実行す  [!DNL Adobe Target]  最初の手順が含まれています。
-title: ' [!DNL Target] の管理を開始するにはどうすればよいですか？'
+description: '[!DNL Adobe Target]管理者が[!DNL Adobe Experience Cloud]への招待メールを受信した後に実行する必要がある最初のタスクを実行します。'
+title: '[!DNL Target]の管理を開始するには、どこから始めればよいですか？'
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+TQID: 'https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 57%
-
+source-wordcount: '474'
+ht-degree: 53%
 ---
-
 # 管理者の最初の手順
 
 この記事には、 [!DNL Adobe Target] 管理者が [!DNL Adobe Experience Cloud] への招待メールを受信した後に実行する最初の手順が含まれています。
@@ -29,13 +35,13 @@ ht-degree: 57%
 
 [!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。 次に、システム管理者は、1つ以上の役割に特化した製品プロファイル（ユーザーのグループ）にあなたを追加する必要があります。 これらのタスクは両方とも[Adobe Admin Console](https://adminconsole.adobe.com)で実行されます。
 
-詳しくは、[&#x200B; ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
+詳しくは、[ ユーザーグループの管理](https://helpx.adobe.com/enterprise/using/users.html)を参照してください。
 
 ステム管理者がこれらの手順を実行すると、招待メールが届きます。
 
 ## 招待の受諾 {#task_24FE66659E634B24AB61DB8497772E17}
 
-[!DNL Adobe Experience Cloud]への参加の招待を受け取ったら、招待を受け取り、ログインして、[!UICONTROL &#x200B; エンドユーザー使用許諾契約] （EULA）に同意します。
+[!DNL Adobe Experience Cloud]への参加の招待を受け取ったら、招待を受け取り、ログインして、[!UICONTROL  エンドユーザー使用許諾契約] （EULA）に同意します。
 
 1. [!DNL Adobe Experience Cloud] への招待を受諾します。
 1. Adobe ID をまだ持っていない場合は、作成するよう求められます。
@@ -69,8 +75,8 @@ ht-degree: 57%
 
 ## [!UICONTROL 管理]設定の編集に必要な権限 {#admin-permissions}
 
-**2025年4月22日以前**: [!DNL Adobe Admin Console]の[!UICONTROL 承認者]権限を持つユーザーは、[!DNL Target]の役割に関係なく、[!DNL Target]の[[!UICONTROL 管理] ページ &#x200B;](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
+**2025年4月22日以前**: [!DNL Adobe Admin Console]の[!UICONTROL 承認者]権限を持つユーザーは、[!DNL Target]の役割に関係なく、[!DNL Target]の[[!UICONTROL 管理] ページ ](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
 
-**2025年4月22日（PT）**: [!UICONTROL 製品]および[!UICONTROL &#x200B; ソリューション &#x200B;]の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL 管理]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できます。 この権限を持たないユーザーは、[!UICONTROL 管理] セクションへの読み取り専用アクセス権を持ちます。
+**2025年4月22日（PT）**: [!UICONTROL 製品]および[!UICONTROL  ソリューション ]の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL 管理]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できます。 この権限を持たないユーザーは、[!UICONTROL 管理] セクションへの読み取り専用アクセス権を持ちます。
 
 この更新により、[!DNL Target] インスタンス設定の組織管理が強化され、様々なテストやパーソナライゼーションチームにわたるアクティビティの配信に影響を与える可能性のある、誤った更新を防ぐことができます。

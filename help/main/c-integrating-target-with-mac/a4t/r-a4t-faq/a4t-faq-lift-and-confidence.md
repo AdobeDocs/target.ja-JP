@@ -1,23 +1,28 @@
 ---
 keywords: FAQ;よくある質問;Analytics for Target;A4T;上昇率;アドホック;Report Builder;信頼性
-description: Analytics for [!DNL Target]  （A4T）を使用する際の上昇率と信頼性に関する質問に対する回答を見つけます。 A4T では、 [!DNL Target]  アクティビティに Analytics のレポート機能を使用できます。
+description: '[!DNL Target] （A4T）にAnalyticsを使用する際の上昇率と信頼性に関する質問に対する回答を検索します。 A4Tでは、[!DNL Target]件のアクティビティにAnalytics レポートを使用できます。'
 title: A4Tの上昇率と信頼性に関する情報はどこで入手できますか？
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-TQID: https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY
+TQID: 'https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Optimization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 26%
-
+source-wordcount: '549'
+ht-degree: 25%
 ---
-
 # 上昇率と信頼性 - A4T FAQ
 
 このトピックには、[!DNL Adobe Analytics]を[!DNL Adobe Target] （A4T）のレポートソースとして使用する場合に、上昇率と信頼性に関してよく寄せられる質問に対する回答が含まれています。

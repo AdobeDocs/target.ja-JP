@@ -1,22 +1,28 @@
 ---
 keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
-description: オープンソースの [!DNL Velocity]  デザイン言語を使用して、 [!DNL Target] Recommendationsでレコメンデーションデザインをカスタマイズする方法について説明します。
+description: オープンソースの[!DNL Velocity] デザイン言語を使用して、[!DNL Target] Recommendationsでレコメンデーションデザインをカスタマイズする方法を説明します。
 title: Velocity を使用してデザインをカスタマイズする方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
+TQID: 'https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: '1091'
 ht-degree: 62%
-
 ---
-
 # [!DNL Velocity]を使用したデザインのカスタマイズ
 
 オープンソースの[!DNL Velocity] デザイン言語を使用して、[!DNL Adobe Target Recommendations]でレコメンデーションデザインをカスタマイズします。
@@ -245,7 +251,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## テンプレートサイズのカスタマイズと空白値の確認 {#default}
 
-[!DNL Velocity] スクリプトを使用してエンティティ表示の動的なサイズを制御すると、次のテンプレートは、一致するエンティティが[!DNL Recommendations]から返されない場合に空のHTML要素を作成しないように、1対多の結果を含みます。 このスクリプトは、バックアップの推奨事項が意味がなく、[!UICONTROL 部分テンプレートレンダリング &#x200B;]が有効になっているシナリオに最適です。
+[!DNL Velocity] スクリプトを使用してエンティティ表示の動的なサイズを制御すると、次のテンプレートは、一致するエンティティが[!DNL Recommendations]から返されない場合に空のHTML要素を作成しないように、1対多の結果を含みます。 このスクリプトは、バックアップの推奨事項が意味がなく、[!UICONTROL 部分テンプレートレンダリング ]が有効になっているシナリオに最適です。
 
 以下の HTML スニペットは、4x2 デフォルトデザインの既存の HTML 部分を置き換えます（ここでは、簡潔にするために CSS は含まれません）。
 

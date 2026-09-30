@@ -3,13 +3,14 @@ title: IOS統合ガイドのフラグ拡張機能
 description: Flags拡張機能をiOS上のAdobe Experience Platform Mobile SDKと統合する方法について説明します。
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 5%
-
+source-wordcount: '1046'
+ht-degree: 6%
 ---
-
 # IOSのフラグ拡張機能 {#ios-extension-integration-guide}
 
 このガイドでは、iOS上のAdobe Experience Platform Mobile SDKにFlags拡張機能を統合する方法について説明します。
@@ -51,7 +52,7 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
    | アプリケーション ID | フラグ内のアプリケーションの一意のID |
 
 1. **保存**&#x200B;を選択します。
-1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+1. [公開プロセス ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
 ### 環境ファイル IDの取得 {#environment-file-id}
 
@@ -291,7 +292,7 @@ AEPIdentityMap *identityMap = [[AEPIdentityMap alloc] init];
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`、`FeatureEvaluationContext` （オプションのターゲット属性）、および完了クロージャを渡します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。
+`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`、`FeatureEvaluationContext` （オプションのターゲット属性）、および完了クロージャを渡します。 [評価コンテキスト ](#evaluation-context)を参照してください。
 
 **署名**
 
@@ -318,7 +319,7 @@ static func isFeatureEnabled(
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | 文字列 | フラグで評価する機能キー |
-| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
+| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
 | `completion` | `(Bool) -> Void` | 機能が有効になっている場合は`true`で呼び出され、それ以外の場合は`false`です。 |
 
 **例**
@@ -385,7 +386,7 @@ static func getFeature(
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | 文字列 | フラグで評価する機能キー |
-| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
+| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
 | `completion` | `(FeatureEvaluationResult?) -> Void` | 評価された機能ペイロードで呼び出されます。機能が見つからない場合は`nil`。 |
 
 **応答**

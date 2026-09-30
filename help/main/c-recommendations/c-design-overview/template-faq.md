@@ -1,22 +1,28 @@
 ---
 keywords: recommendations;よくある質問;faq
-description: 'デザインに関するよくある質問（FAQ）とその回答。 [!DNL Target Recommendations] '
-title: ' [!DNL Target Recommendations]のデザインに関する質問に対する回答はどこで入手できますか？'
+description: '[!DNL Target Recommendations]のデザインに関するよくある質問（FAQ）とその回答。'
+title: '[!DNL Target Recommendations]のデザインに関する質問に対する回答はどこで入手できますか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-TQID: https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY
+TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 472
+source-wordcount: '473'
 ht-degree: 83%
-
 ---
-
 # デザイン FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] デザインに関するよくある質問（FAQ）のリストです。

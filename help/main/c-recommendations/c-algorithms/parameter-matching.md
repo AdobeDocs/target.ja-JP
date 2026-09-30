@@ -1,22 +1,28 @@
 ---
 keywords: 包含ルール；包含基準；レコメンデーション；プロモーション；動的フィルタリング；動的；パラメータマッチング
-description: Adobe [!DNL Target] Recommendationsで、アイテム（エンティティ）とリクエスト（APIまたはmbox）の値を比較して動的にフィルタリングする方法について説明します。
+description: Adobe [!DNL Target]のRecommendationsで、アイテム（エンティティ）をリクエスト（APIまたはmbox）の値と比較して動的にフィルタリングする方法について説明します。
 title: Recommendations アクティビティでパラメーターの一致をフィルタリングするにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-TQID: https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g
+TQID: 'https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '351'
 ht-degree: 15%
-
 ---
-
 # [!UICONTROL パラメーターのマッチング]
 
 アイテム（エンティティ）をリクエスト（APIまたはmbox）の値と比較して、動的にフィルタリングします。
@@ -37,7 +43,7 @@ ht-degree: 15%
 
 ## パラメーターの一致の例
 
-[!UICONTROL &#x200B; パラメーターマッチング &#x200B;]を使用すると、次の例のように、ページパラメーターや訪問者のパラメーター（デバイスのサイズや位置情報など）に一致するコンテンツをレコメンドできます。
+[!UICONTROL  パラメーターマッチング ]を使用すると、次の例のように、ページパラメーターや訪問者のパラメーター（デバイスのサイズや位置情報など）に一致するコンテンツをレコメンドできます。
 
 [!DNL Recommendations]は、[!DNL Target]呼び出しで送信されたパラメーター値と一致する可能性があります。 この場合、[!DNL Target]は、[!DNL Target]呼び出しで送信された画面の高さと幅のパラメーターに基づいて、訪問者がモバイルデバイスを使用していることを検出し、モバイルデバイスである項目のみを推奨します。
 
@@ -47,4 +53,4 @@ ht-degree: 15%
 
 訪問者が閲覧しているページに、モバイルデバイス商品が表示されます。
 
-![&#x200B; モバイルデバイス製品](/help/main/c-recommendations/c-algorithms/assets/phones.png)
+![ モバイルデバイス製品](/help/main/c-recommendations/c-algorithms/assets/phones.png)

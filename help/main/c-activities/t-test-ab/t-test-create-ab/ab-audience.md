@@ -1,28 +1,34 @@
 ---
 keywords: オーディエンス;オーディエンスの選択;オーディエンスの選択;セレクター
-description: オーディエンス条件に基づいて、Adobe [!DNL Target]  アクティビティに参加するサイト訪問者を定義します。
-title: A [!DNL Target] A/B アクティビティでオーディエンスを選択するにはどうすればよいですか？
+description: オーディエンス条件に基づいて、Adobe [!DNL Target] アクティビティに参加するサイト訪問者を定義します。
+title: '[!DNL Target] A/B アクティビティでオーディエンスを選択する方法を教えてください。'
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-TQID: https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs
+TQID: 'https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 575
+source-wordcount: '577'
 ht-degree: 10%
-
 ---
-
 # オーディエンスの選択
 
 オーディエンスは、どの適格な訪問者を[!DNL Adobe Target] アクティビティに入力するかを決定します。
 
-アクティビティを作成する[の3つの部分で構成されるガイド付きワークフローの[!UICONTROL &#x200B; ターゲティング &#x200B;] ステップには、オーディエンスとそのトラフィック率の割り当て、トラフィック配分方法の選択、アクティビティの各エクスペリエンスのトラフィック配分の指定の手順を示すフロー図が表示されます。](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+アクティビティを作成する[の3つの部分で構成されるガイド付きワークフローの[!UICONTROL  ターゲティング ] ステップには、オーディエンスとそのトラフィック率の割り当て、トラフィック配分方法の選択、アクティビティの各エクスペリエンスのトラフィック配分の指定の手順を示すフロー図が表示されます。](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 
 ![A/B テストのターゲティング手順](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
@@ -38,20 +44,20 @@ ht-degree: 10%
 
    右側のフレームが表示され、オーディエンスを追加または削除し、アクティビティの訪問者パーセンテージを割り当てることができます。
 
-1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL 置換] アイコン** （![置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
+1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL 置換] アイコン** （![置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
 
-1. [!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスで、[目的のオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックします。
+1. [!UICONTROL  オーディエンスを追加] ダイアログボックスで、[目的のオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックします。
 
-   デフォルトでは、すべての訪問者がオーディエンスです。 ただし、オーディエンスを変更することができます。 オーディエンスは、[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]から選択するか、アクティビティのみのオーディエンスを作成できます。 [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]には、以前に定義されたオーディエンスが含まれています。これには、[!DNL Target]の一部として事前に構築された一般的なオーディエンスも含まれます。
+   デフォルトでは、すべての訪問者がオーディエンスです。 ただし、オーディエンスを変更することができます。 オーディエンスは、[!UICONTROL  オーディエンスライブラリ ]から選択するか、アクティビティのみのオーディエンスを作成できます。 [!UICONTROL  オーディエンスライブラリ ]には、以前に定義されたオーディエンスが含まれています。これには、[!DNL Target]の一部として事前に構築された一般的なオーディエンスも含まれます。
 
 1. （条件付き）複数のオーディエンスを組み合わせるオーディエンスを作成するには、**オーディエンスを組み合わせる**&#x200B;から[をクリックします](/help/main/c-target/combining-multiple-audiences.md)。
 
-1. （条件付き）まだ[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]にない新しいオーディエンスを作成するには、**オーディエンスの作成**&#x200B;をクリックし、オーディエンスを定義してから、**[!UICONTROL 完了]**&#x200B;をクリックします。
+1. （条件付き）まだ[!UICONTROL  オーディエンスライブラリ ]にない新しいオーディエンスを作成するには、**オーディエンスの作成**&#x200B;をクリックし、オーディエンスを定義してから、**[!UICONTROL 完了]**&#x200B;をクリックします。
 
    [create-audience ワークフロー](/help/main/c-target/c-audiences/audiences.md)中に、次のオプションから選択できます。
 
-   * **[!UICONTROL オーディエンスライブラリ]**: [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に保存されるオンデマンドオーディエンスを作成し、他のアクティビティで再利用できます。
-   * **[!UICONTROL このアクティビティのみ]**: [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に保存されていない[&#x200B; アクティビティ固有のオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md)を作成し、現在のアクティビティでのみ使用できます。
+   * **[!UICONTROL オーディエンスライブラリ]**: [!UICONTROL  オーディエンスライブラリ ]に保存されるオンデマンドオーディエンスを作成し、他のアクティビティで再利用できます。
+   * **[!UICONTROL このアクティビティのみ]**: [!UICONTROL  オーディエンスライブラリ ]に保存されていない[ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md)を作成し、現在のアクティビティでのみ使用できます。
 
 1. 右側のペインで「**[!UICONTROL 訪問者の割合]**」をクリックし、アクティビティに含める対象となる訪問者の割合を指定します。
 
@@ -63,12 +69,12 @@ ht-degree: 10%
 
 ## オーディエンス情報の表示
 
-1. [!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスで、オーディエンスの横にある&#x200B;**[!UICONTROL 情報]** アイコン （![情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）をクリックして、そのオーディエンスのソースと属性を含む詳細を表示します。
+1. [!UICONTROL  オーディエンスを追加] ダイアログボックスで、オーディエンスの横にある&#x200B;**[!UICONTROL 情報]** アイコン （![情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックして、そのオーディエンスのソースと属性を含む詳細を表示します。
 
 1. 「**[!UICONTROL 詳細を表示]**」をクリックして、オーディエンスに関する詳細を表示します。 詳細には、オーディエンスの属性、オーディエンスの説明、ワークスペース、タイプ、ソース、およびこのオーディエンスを参照するアクティビティのリストが含まれます。 アクティビティ名、ステータス、ワークスペース、オーディエンスが最後に変更された日時や変更者など、各オーディエンスに関する情報を確認できます。
 
 ## オーディエンスの編集またはコピー
 
-オーディエンスを編集またはコピーするには、[!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスで、目的のオーディエンスの横にある[!UICONTROL 詳細アクション &#x200B;] アイコン（![詳細アクション アイコン &#x200B;](/help/main/assets/icons/More.svg)）をクリックし、[!UICONTROL 編集]または[!UICONTROL &#x200B; コピー]をクリックします。
+オーディエンスを編集またはコピーするには、[!UICONTROL  オーディエンスを追加] ダイアログボックスで、目的のオーディエンスの横にある[!UICONTROL 詳細アクション ] アイコン（![詳細アクション アイコン ](/help/main/assets/icons/More.svg)）をクリックし、[!UICONTROL 編集]または[!UICONTROL  コピー]をクリックします。
 
 オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。 オーディエンスのコピーを作成して編集し、新しいオーディエンスとして保存できます。

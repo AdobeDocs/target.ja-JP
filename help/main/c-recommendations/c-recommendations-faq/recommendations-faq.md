@@ -1,36 +1,43 @@
 ---
 keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
-description: ' [!DNL Target Recommendations]  アクティビティに関するよくある質問と回答の一覧を表示します。'
-title: ' [!DNL Recommendations]に関する質問と回答はどこにありますか？'
+description: '[!DNL Target Recommendations]件のアクティビティに関するよくある質問と回答の一覧を表示します。'
+title: '[!DNL Recommendations]に関する質問と回答はどこにありますか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3578
+source-wordcount: '3579'
 ht-degree: 81%
-
 ---
-
 # レコメンデーション FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] アクティビティに関するよくある質問（FAQ）のリストです。
 
 ## APIで作成された[!DNL Recommendations] オブジェクトは、[!DNL Target] UIに表示されますか？
 
-はい、API経由で作成された[!UICONTROL Recommendations] オブジェクト （[!UICONTROL 条件]、[!UICONTROL &#x200B; デザイン &#x200B;]、[!UICONTROL &#x200B; コレクション &#x200B;]、および[!UICONTROL 除外]）はUIで利用でき、APIまたは[!DNL Target] UIで編集できます。
+はい、API経由で作成された[!UICONTROL Recommendations] オブジェクト （[!UICONTROL 条件]、[!UICONTROL  デザイン ]、[!UICONTROL  コレクション ]、および[!UICONTROL 除外]）はUIで利用でき、APIまたは[!DNL Target] UIで編集できます。
 
 ## [!DNL Target] APIを使用して[!DNL Target]件のUI作成ビジュアルオファーを管理できますか？
 
-いいえ。 [!DNL Target] UIで作成されたビジュアルオファーを含む[!DNL Recommendations] アクティビティは、[!DNL Target] APIを使用して管理できません。 これらのアクティビティは[!UICONTROL &#x200B; アクティビティ &#x200B;] リストに表示されますが、（GET/PUTを使用して）読み取りまたは更新することはできません。
+いいえ。 [!DNL Target] UIで作成されたビジュアルオファーを含む[!DNL Recommendations] アクティビティは、[!DNL Target] APIを使用して管理できません。 これらのアクティビティは[!UICONTROL  アクティビティ ] リストに表示されますが、（GET/PUTを使用して）読み取りまたは更新することはできません。
 
-## 数値を持つカスタム属性を検索すると、[!UICONTROL &#x200B; カタログ検索]で正しい結果が表示されないのはなぜですか？
+## 数値を持つカスタム属性を検索すると、[!UICONTROL  カタログ検索]で正しい結果が表示されないのはなぜですか？
 
 数値を使用してカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型とみなされます。
 
@@ -73,9 +80,9 @@ ht-degree: 81%
 * プロモーション設定の変更は、オンサイトに反映されるまでに最大 5 時間かかる場合があります。
 * 他の条件設定に対する変更は、次のアルゴリズムが実行されるまで反映されない場合があります。
 
-   * 一部の条件設定（例えば、「動的インクルージョンルールの追加」）は、即座に反映されます。
-   * その他の条件設定（動的インクルージョンルールの削除、ルックバックウィンドウの変更など）は、次のアルゴリズムが実行されるまで組み込めません。
-   * これらの変更によってアルゴリズムの実行がトリガーされますが、完了するまでに最大 24 時間かかる場合があります。 アルゴリズムも 12〜24 時間ごとにスケジュールどおりに実行されます。
+  * 一部の条件設定（例えば、「動的インクルージョンルールの追加」）は、即座に反映されます。
+  * その他の条件設定（動的インクルージョンルールの削除、ルックバックウィンドウの変更など）は、次のアルゴリズムが実行されるまで組み込めません。
+  * これらの変更によってアルゴリズムの実行がトリガーされますが、完了するまでに最大 24 時間かかる場合があります。 アルゴリズムも 12〜24 時間ごとにスケジュールどおりに実行されます。
 
 ## ユーザーの行動（製品Aのクリックや製品Bの購入など）が、ユーザーが受け取るレコメンデーション *その*&#x200B;に反映されるまでにどのくらいの時間がかかりますか？
 
@@ -121,7 +128,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 [!UICONTROL 互換性のない条件をフィルター]設定が有効になっていない場合、[!DNL Target]はアルゴリズムピッカーのアルゴリズムをフィルタリングせず、すべてのアルゴリズムが表示されます。
 
-[!UICONTROL &#x200B; フィルター互換性のない条件]設定が有効になっている場合、VEC アクティビティでは、[!DNL Target]は選択した場所からentityIdとカテゴリ IDを読み取り、`currentItem|currentCategory`に基づいてアルゴリズムを表示します（それぞれの値がその場所に存在する場合）。 そのためデフォルトでは、選択した場所で互換性のあるアルゴリズムのみがアルゴリズムピッカーに表示されます。
+[!UICONTROL  フィルター互換性のない条件]設定が有効になっている場合、VEC アクティビティでは、[!DNL Target]は選択した場所からentityIdとカテゴリ IDを読み取り、`currentItem|currentCategory`に基づいてアルゴリズムを表示します（それぞれの値がその場所に存在する場合）。 そのためデフォルトでは、選択した場所で互換性のあるアルゴリズムのみがアルゴリズムピッカーに表示されます。
 
 [!UICONTROL 非互換の条件をフィルター]設定が有効になっている場合でも、条件の選択時に「[!UICONTROL 互換性あり]」チェックボックスをオフにすると、互換性のないアルゴリズムを表示できます。
 
@@ -204,11 +211,11 @@ mbox パラメーターに基づいてレコメンデーションの条件、プ
 
 ## フィードのアップロードに使用する CSV ファイルのサイズ上限を教えてください。 {#section_20F1AF4839A447B9889B246D6E873538}
 
-フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。 ただし、ベストプラクティスとして、アドビでは、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。 ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。 カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。 必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)で確認できます。
+フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。 ただし、ベストプラクティスとして、アドビでは、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。 ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。 カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。 必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)で確認できます。
 
-## [!DNL Recommendations] アクティビティで[!UICONTROL &#x200B; データのダウンロード &#x200B;] アクションが失敗するのはなぜですか？ {#download-data-error}
+## [!DNL Recommendations] アクティビティで[!UICONTROL  データのダウンロード ] アクションが失敗するのはなぜですか？ {#download-data-error}
 
-[!DNL Recommendations] アクティビティの[!UICONTROL &#x200B; アクティビティの概要] ページで&#x200B;**[!UICONTROL データのダウンロード]**&#x200B;をクリックすると、[!DNL Target] ユーザーインターフェイスにエラー`Error while fetching recommendation data file.`が表示される場合があります
+[!DNL Recommendations] アクティビティの[!UICONTROL  アクティビティの概要] ページで&#x200B;**[!UICONTROL データのダウンロード]**&#x200B;をクリックすると、[!DNL Target] ユーザーインターフェイスにエラー`Error while fetching recommendation data file.`が表示される場合があります
 
 これは通常、アクティビティに非常に大きな結果セットがある場合に発生します。生成されたCSVが、1回のダウンロードでユーザーインターフェイスから返すことができる応答サイズを超えています。 レコメンデーションデータ自体は維持されますが、ブラウザー内のダウンロードパスのみがそのサイズのファイルを配信できません。
 

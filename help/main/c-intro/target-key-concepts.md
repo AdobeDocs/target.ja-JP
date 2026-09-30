@@ -4,35 +4,54 @@ description: Adobe Target の基本を学ぶ。 この記事では、Target、Ta
 title: Target の使い方
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+TQID: 'https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2
+    internal-label: Analytics data
   - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
   - id: c2923fce-066f-4e68-bc28-ac56b57ccb5c
+    internal-label: Custom segments
   - id: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817
+    internal-label: Reusable audiences
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
   - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
+    internal-label: Multivariate test
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: '1540'
 ht-degree: 84%
-
 ---
-
 # Target の主要概念
 
 [!DNL Adobe Target] の機能を理解するのに役立つ重要な概念に関する情報。
@@ -50,7 +69,7 @@ Target には、複数のアクティビティタイプがあります。 次の
 | アクティビティタイプ | 説明 |
 |--- |--- |
 | [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md) | A/B テストでは、Web サイトのコンテンツの2つ以上のバージョンを比較し、事前に指定されたテスト期間中に、どのバージョンがコンバージョンを最も向上させるかを確認します。<br>**注：** A/B テスト アクティビティに[のレコメンデーションを含めることができるようになりました](/help/main/c-recommendations/recommendations-as-an-offer.md)。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
-| [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分は、2つ以上のエクスペリエンスの中から勝者を特定し、テストを実行して学習し続ける間に、勝者に自動的に多くのトラフィックを再配分してコンバージョンを増加させます。<br>**メモ：**&#x200B;自動配分アクティビティ [&#128279;](/help/main/c-recommendations/recommendations-as-an-offer.md)にのレコメンデーションを含めることができるようになりました。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
+| [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分は、2つ以上のエクスペリエンスの中から勝者を特定し、テストを実行して学習し続ける間に、勝者に自動的に多くのトラフィックを再配分してコンバージョンを増加させます。<br>**メモ：**&#x200B;自動配分アクティビティ ](/help/main/c-recommendations/recommendations-as-an-offer.md)に[のレコメンデーションを含めることができるようになりました。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
 | [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | 自動ターゲットでは、高度な機械学習を使用して、マーケターが定義したパフォーマンスの高い複数のエクスペリエンスを特定します。 自動ターゲットアクティビティは、コンテンツをパーソナライズしてコンバージョンを促進するために、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最もカスタマイズされたエクスペリエンスを提供します。<br>**注：**&#x200B;自動ターゲットアクティビティに[のレコメンデーションを含めることができるようになりました](/help/main/c-recommendations/recommendations-as-an-offer.md)。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
 | [Analytics データの使用](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)（A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。 このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
 | [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
@@ -129,7 +148,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### アクティビティの種類（9:03） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+### アクティビティの種類（9:03） ![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。
 
@@ -137,9 +156,9 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Adobe Targetでのオーディエンスの使用（6:21） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+### Adobe Targetでのオーディエンスの使用（6:21） ![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 
@@ -149,4 +168,4 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/29956?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

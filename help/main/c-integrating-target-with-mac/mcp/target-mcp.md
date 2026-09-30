@@ -8,7 +8,23 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -49,9 +65,9 @@ ht-degree: 0%
 * **レコメンデーションの管理** – 基準、コレクション、デザイン、プロモーション、除外のリスト、検査、作成、更新、および製品カタログの検索。 Target Premium使用権限が必要です。
 * **監査の実装** - at.js設定、応答トークン、エンティティごとのリビジョン履歴を確認します。
 
-[!DNL Adobe Target] MCP サーバーは、アクティビティの作成とレポートからオーディエンス管理、QA プレビュー、レコメンデーション設定まで、11のカテゴリで62のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス &#x200B;](target-mcp-tools-reference.md)を参照してください。
+[!DNL Adobe Target] MCP サーバーは、アクティビティの作成とレポートからオーディエンス管理、QA プレビュー、レコメンデーション設定まで、11のカテゴリで62のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス ](target-mcp-tools-reference.md)を参照してください。
 
-ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[&#x200B; ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
+ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[ ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
 
 前提条件、クライアント固有の設定、トラブルシューティングなど、[!DNL Adobe Target] MCP サーバーをAI アシスタントに接続するには、[開始](target-mcp-get-started.md)を参照してください。
 
@@ -79,7 +95,7 @@ ht-degree: 0%
 
 +++[!DNL Adobe Target] データはMCP クライアントプロバイダーに送信されますか？
 
-プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Target] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。 Adobeのデータ処理は、[Adobe プライバシーポリシー](https://www.adobe.com/privacy.html)および[&#x200B; データ保護条件](https://www.adobe.com/go/dpt-ww)に準拠しています。
+プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Target] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。 Adobeのデータ処理は、[Adobe プライバシーポリシー](https://www.adobe.com/privacy.html)および[ データ保護条件](https://www.adobe.com/go/dpt-ww)に準拠しています。
 +++
 
 +++書き込み操作によって、ライブアクティビティに意図しない変更が生じる可能性がありますか？
