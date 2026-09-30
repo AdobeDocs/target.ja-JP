@@ -129,7 +129,7 @@ ht-degree: 79%
 
 ## グローバル mbox
 
-* [グローバル mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [グローバル mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ja)
 
 ## ホスト／環境
 
@@ -146,7 +146,7 @@ ht-degree: 79%
 
 ### グローバル mbox
 
-* [グローバル mbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [グローバル mbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ja)
 
 ### at.js
 
@@ -157,7 +157,7 @@ ht-degree: 79%
 
 ## モバイルアプリ
 
-* [モバイルアプリ用 Target に関する FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [モバイルアプリ用 Target に関する FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=ja)
 
 ## レポート
 
@@ -166,7 +166,7 @@ ht-degree: 79%
 
 ## 検索エンジン最適化（SEO）
 
-* [検索エンジン最適化（SEO）対応テスト](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [検索エンジン最適化（SEO）対応テスト](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja)
 
 ## セキュリティ
 

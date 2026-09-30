@@ -221,7 +221,7 @@ VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示さ
 
 ### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
 **注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -253,7 +253,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
 **注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -285,7 +285,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
 **注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -375,7 +375,7 @@ DOM要素の遅延読み込みによる[!UICONTROL Move]および[!UICONTROL Rea
 
 ## 注意点 {#considerations}
 
-* オファーに HTML コンテンツが含まれる場合、詳しくは、[at.js の仕組み](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} の「at.js による HTML コンテンツを使用したオファーのレンダリング方法」を参照してください。
+* オファーに HTML コンテンツが含まれる場合、詳しくは、[at.js の仕組み](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} の「at.js による HTML コンテンツを使用したオファーのレンダリング方法」を参照してください。
 
 ## カスタム要素のサポート {#custom}
 

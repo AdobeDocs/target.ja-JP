@@ -53,7 +53,7 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
    | アプリケーション ID | フラグ内のアプリケーションの一意のID |
 
 1. **保存**&#x200B;を選択します。
-1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
 ### 環境ファイル IDの取得 {#environment-file-id}
 
