@@ -4,13 +4,14 @@ description: 一連の機能フラグに対して複数のバリエーション�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
-
 ---
-
 # 機能フラグによるA/B テスト {#a-b-testing}
 
 フラグのA/B テストは、**機能グループ**&#x200B;を使用して実行されます。 1つの機能グループに複数のバリエーションを設定すると、1つの機能の異なるバージョンをオーディエンスの異なるサブセットに提供し、結果を比較できます。

@@ -4,13 +4,14 @@ description: Customer Journey Analyticsを使用して機能フラグおよび�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
-
 ---
-
 # 機能フラグレポート用にCJAを設定する {#set-up-cja-reporting}
 
 FlagsとAdobe Customer Journey Analytics（CJA）の統合により、機能フラグのバリエーションのビジネスへの影響を測定するための統合方法が提供されます。 CJAの成功指標をいつでもレポートにフラグを付けることができ、[実験パネル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation)などのCustomer Journey Analyticsの機能を活用して、実験のパフォーマンスを評価し、機能のバリエーションが顧客の行動にどのように影響するかを理解することができます。

@@ -5,30 +5,41 @@ title: ホストおよびその使用方法について
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+TQID: 'https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
-workflow-type: ht
-source-wordcount: 1095
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+workflow-type: tm+mt
+source-wordcount: '1095'
 ht-degree: 100%
-
 ---
-
 # ホスト
 
 サイトと本番前の環境を整理して、[!DNL Adobe Target] での管理と環境別レポートを容易にします。
@@ -50,8 +61,8 @@ ht-degree: 100%
 * 1 つ以上の [!DNL Target] リクエストがホストに存在する必要があります。
 * ホスト上のページには、以下が含まれている必要があります。
 
-   * 正しい mbox.js の参照
-   * [!DNL Target] リクエストまたは自動生成されたグローバル [!DNL Target] リクエスト
+  * 正しい mbox.js の参照
+  * [!DNL Target] リクエストまたは自動生成されたグローバル [!DNL Target] リクエスト
 
 * [!DNL Target] リクエストのあるページはブラウザーで表示する必要があります。
 

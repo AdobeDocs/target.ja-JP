@@ -4,23 +4,29 @@ description: 指標、オーディエンス、日付範囲など、Adobe Target�
 title: レポート設定の設定方法を教えてください。
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
+TQID: 'https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1932
+source-wordcount: '1932'
 ht-degree: 47%
-
 ---
-
 # レポート設定
 
 [!DNL Adobe Target]でレポートに表示する要素を設定するのに役立つ情報です。 レポート設定は保存して後で使用できます。
@@ -169,7 +175,7 @@ ht-degree: 47%
 
 **[!UICONTROL 更新]** （![更新アイコン &#x200B;](/help/main/assets/icons/Refresh.svg)）アイコンをクリックすると、ページ全体、設定、日付範囲を更新せずにレポートのテーブルとグラフビューを更新できます。
 
-## その他のオプション {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## その他のオプション... {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 **[!UICONTROL 詳細オプション]** アイコン （![詳細オプションアイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックして、[!UICONTROL 新規保存]および[!UICONTROL 削除] オプションにアクセスします。
 

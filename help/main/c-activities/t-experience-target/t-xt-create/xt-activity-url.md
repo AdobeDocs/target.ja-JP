@@ -1,21 +1,27 @@
 ---
 keywords: エクスペリエンスのターゲット設定；xt；アクティビティ url;url
-description: テストで使用され、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティが [!DNL Adobe Target]を使用して設計されたときに開くページを決定する[!UICONTROL &#x200B; アクティビティ URL]を指定する方法を説明します。
+description: テストで使用され、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティが[!DNL Adobe Target]を使用して設計されたときに開くページを決定する[!UICONTROL &#x200B; アクティビティ URL]を指定する方法を説明します。
 title: '[!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] （XT）アクティビティの[!UICONTROL &#x200B; アクティビティ URL]とは何ですか？'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+TQID: 'https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 35%
-
 ---
-
 # [!UICONTROL Experience Targeting] （XT） アクティビティのアクティビティ URL
 
 [!UICONTROL &#x200B; アクティビティ URL]は、[!DNL Adobe Target] [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT） アクティビティで使用されるページを決定します。 これは、アクティビティの設計時に[!UICONTROL Visual Experience Composer] （VEC）または[!UICONTROL &#x200B; フォームベース Experience Composer]で開くページです。

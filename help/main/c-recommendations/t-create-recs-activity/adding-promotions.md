@@ -5,18 +5,24 @@ title: レコメンデーションデザインにプロモーションを追加�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-TQID: https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E
+TQID: 'https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '710'
 ht-degree: 44%
-
 ---
-
 # プロモーションの追加
 
 プロモーションされたアイテムを追加し、[!DNL Adobe Target Recommendations] デザインでの配置を制御します。 静的なプロモーションおよび動的なプロモーションを追加できます。
@@ -83,6 +89,6 @@ ht-degree: 44%
    | [!UICONTROL 属性によるプロモーション &#x200B;] | `entity.value` （降順） | ランダム化なし | ○ |
    | [!UICONTROL &#x200B; コレクションのプロモーション &#x200B;] | `entity.value` （降順） | ランダム化なし | × |
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 プロモーションはアクティビティのすべてのエクスペリエンスに適用されます。

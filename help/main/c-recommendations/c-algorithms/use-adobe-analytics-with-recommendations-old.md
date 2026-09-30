@@ -1,17 +1,24 @@
 ---
 keywords: 行動データソース；analytics;recommendations；条件；製品変数
-description: ' [!DNL Adobe Analytics]  を行動データソースとして使用し、から表示ベースや購入ベースの行動データを使用する方法を説明します  [!DNL Analytics] in [!DNL Target Recommendations]。'
-title: ' [!DNL Adobe Analytics]  [!DNL Target Recommendations]の使用方法'
+description: '[!DNL Adobe Analytics]を行動データソースとして使用して、[!DNL Target Recommendations]の[!DNL Analytics]からビューベースおよび/または購入ベースの行動データを使用する方法について説明します。'
+title: '[!DNL Adobe Analytics]を[!DNL Target Recommendations]と共に使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 88%
-
+source-wordcount: '829'
+ht-degree: 85%
 ---
-
 # [!DNL Adobe Analytics] での[!DNL Recommendations] の使用
 
 [!DNL Adobe Analytics] を行動データのソースとして使用すると、[!DNL Adobe Target] の [!DNL Recommendations] アクティビティにおいて [!DNL Analytics] のビューや購入ベースの行動データを使用できるようになります。 この機能は、[!DNL Target Recommendations] の設定が新しく、使用する履歴データを[!DNL Analytics]が多く所有している場合に特に便利です。
@@ -84,7 +91,7 @@ product 変数の設定方法について詳しくは、『 [Adobe Analyticsの�
 
    ![Mapping section](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## よくある質問
 

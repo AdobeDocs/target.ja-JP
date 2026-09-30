@@ -1,17 +1,24 @@
 ---
 keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
-description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、 [!DNL Target]対応ページでRecommendations アクティビティを直接作成する方法を説明します。
+description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、[!DNL Target]対応ページでRecommendations アクティビティを直接作成する方法を説明します。
 title: Recommendations アクティビティを作成する方法を教えてください。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 61%
-
+source-wordcount: '1342'
+ht-degree: 60%
 ---
-
 # レコメンデーションアクティビティの作成
 
 Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上にレコメンデーションアクティビティを作成し、Target 内でページの一部を変更することができます。
@@ -109,7 +116,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    レコメンデーションにプロモーションを追加することもできます。 前面および背面のプロモーションの追加について詳しくは、[&#x200B; プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
    VEC 画面に、ページのレコメンデーションデザインが表示されます。
 

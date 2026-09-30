@@ -5,13 +5,20 @@ title: Recommendations アクティビティをプレビューして起動する
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1445'
 ht-degree: 14%
-
 ---
-
 # レコメンデーションアクティビティのプレビューと起動
 
 [Recommendations オファー](/help/main/c-recommendations/recommendations-as-an-offer.md)を含む[!UICONTROL Recommendations]、[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL Experience Targeting] （XT） アクティビティを作成した後、アクティビティを起動する前に結果が利用可能であることを確認するために、推奨事項をプレビューする必要があります。 [!DNL Target Recommendations]では、レコメンデーションをプレビューする複数の方法が用意されています。
@@ -26,8 +33,8 @@ ht-degree: 14%
 
 ステータスの結果には、次の図が含まれます。
 
-* [!UICONTROL Results Ready]: アルゴリズムが結果を返したことを示します
-* [!UICONTROL Results Not Ready]: アルゴリズムの実行が完了していないことを示します。
+* [!UICONTROL Results Ready]&#x200B;: アルゴリズムが結果を返したことを示します
+* [!UICONTROL Results Not Ready]&#x200B;: アルゴリズムの実行が完了していないことを示します。
 * [!UICONTROL &#x200B; フィード失敗]: カスタム条件フィード ファイルを取得できなかったことを示します。
 
 ![結果ダイアログボックス &#x200B;](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)

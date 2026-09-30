@@ -1,22 +1,26 @@
 ---
 keywords: mvt、多変量分析テスト、場所の貢献度レポート
-description: 各要素と各オファーのパフォーマンスを示すAdobe [!DNL Target] [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティの場所の貢献度レポートの使用方法について説明します。
+description: 各要素と各オファーのパフォーマンスを示すAdobe [!DNL Target] [!UICONTROL Experience Targeting] アクティビティの場所の貢献度レポートの使用方法について説明します。
 title: '[!UICONTROL 多変量テスト &#x200B;]のアクティビティに[!UICONTROL 場所の貢献度] レポートを使用するにはどうすればよいですか？'
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
+TQID: 'https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 32%
-
+source-wordcount: '285'
+ht-degree: 35%
 ---
-
 # [!UICONTROL 場所の貢献度] レポート （MVT）
 
 [!UICONTROL 場所の貢献度] レポートには、各要素と各オファーのパフォーマンスが表示されます。
@@ -41,6 +45,6 @@ ht-degree: 32%
 
 ## トレーニングビデオ: MVTテストの作成
 
-このビデオでは、[!DNL Target] 3段階のガイド付きワークフローを使用して多変量テストを作成する方法を示します。 場所の貢献度レポートは、8:45から説明します。
+このビデオでは、[!DNL Target] 3段階のガイド付きワークフローを使用して多変量テストを作成する方法を示します。 場所の貢献度レポートについては、8:45 から説明しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)

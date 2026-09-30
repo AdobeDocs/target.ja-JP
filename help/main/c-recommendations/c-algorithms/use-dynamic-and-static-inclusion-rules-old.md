@@ -1,18 +1,25 @@
 ---
 keywords: インクルージョンルール;包含条件;レコメンデーション;新しい条件の作成;プロモーション;動的フィルター;動的;空の値;フィルタールールの無視;静的フィルター;値でフィルター;エンティティ属性のマッチング;プロファイル属性のマッチング;パラメーターのマッチング;値でフィルター;静的フィルター
-description: 条件とプロモーションに関するAdobe [!DNL Target] Recommendationsで包含ルールを作成する方法について説明します。 より良い結果を得るには、より動的または静的なフィルタールールを追加します。
+description: 条件とプロモーションに関するAdobe [!DNL Target]の推奨事項で、包含ルールを作成する方法について説明します。 より良い結果を得るには、より動的または静的なフィルタールールを追加します。
 title: レコメンデーションで動的および静的インクルージョンルールを使用するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2112'
 ht-degree: 15%
-
 ---
-
 # 動的および静的インクルージョンルールの使用
 
 [!DNL Adobe Target]で基準とプロモーションの包含ルールを作成し、動的または静的フィルタールールを追加して、レコメンデーションの結果を向上させる方法について説明します。

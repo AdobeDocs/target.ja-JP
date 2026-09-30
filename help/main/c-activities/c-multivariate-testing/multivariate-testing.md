@@ -1,24 +1,28 @@
 ---
 keywords: 多変量分析テスト；mvt；完全実施要因；mvtまたはa/b；多変量a/b；トラフィック見積もり；mvtを使用するタイミング；mvt;mvtに関する考慮事項；多変量；部分実施要因；部分実施要因；完全実施要因
-description: ' [!DNL Adobe Target] の[!UICONTROL 多変量テスト &#x200B;] （MVT）を使用して、ページ上の要素のオファーの組み合わせを比較し、どの組み合わせが最も効果的かを判断する方法を説明します。'
+description: '[!DNL Adobe Target]の[!UICONTROL 多変量テスト &#x200B;] （MVT）を使用して、ページ上の要素のオファーの組み合わせを比較し、どの組み合わせが最も効果的かを判断する方法を説明します。'
 title: '[!UICONTROL 多変量テスト &#x200B;]とは何ですか？'
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1473
-ht-degree: 46%
-
+source-wordcount: '1477'
+ht-degree: 47%
 ---
-
 # [!UICONTROL 多変量テスト &#x200B;]の概要
 
 [!DNL Adobe Target]の[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティは、ページ上の要素のオファーの組み合わせを比較し、特定のオーディエンスに対してどの組み合わせが最も効果的かを判断します。 [!UICONTROL 多変量テスト &#x200B;] アクティビティは、アクティビティの成功に最も影響を与える要素を特定するのにも役立ちます。
@@ -100,7 +104,7 @@ Targetの[Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-cr
 
 ### アクティビティの種類（9:03） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
-この概要ビデオでは、[!DNL Target]で使用可能なアクティビティの種類について説明します。 多変量テストについては、4:20から説明します。
+この概要ビデオでは、[!DNL Target]で使用可能なアクティビティの種類について説明します。 多変量分析テストに関する説明は 4:20 から始まります。
 
 * [!DNL Adobe Target] に含まれるアクティビティタイプの説明
 * 目標達成に適したアクティビティタイプの選択

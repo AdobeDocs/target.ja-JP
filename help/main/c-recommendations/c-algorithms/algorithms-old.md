@@ -1,17 +1,24 @@
 ---
 keywords: レコメンデーション；レコメンデーションアクティビティ；基準；アルゴリズム；レコメンデーションキー；カスタムキー；業界縦組み；小売；e コマース；リードジェネレーション；b2b；金融サービス；メディア；公開
 description: Adobe [!DNL Target] [!DNL Recommendations]で条件を使用する方法について説明します。
-title: ' [!DNL Target] Recommendationsで条件を使用するにはどうすればよいですか？'
+title: '[!DNL Target]件のレコメンデーションで条件を使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 25%
-
 ---
-
 # 条件
 
 [!DNL Adobe Target] [!DNL Recommendations]の条件は、事前に決められた訪問者の行動セットに基づいて、推奨する製品またはコンテンツを決定するルールです。 条件は、人気の傾向、訪問者の現在および過去の行動、類似の商品およびコンテンツに基づかせることができます。 複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。

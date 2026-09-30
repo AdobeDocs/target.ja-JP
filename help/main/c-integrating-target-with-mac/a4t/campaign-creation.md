@@ -1,24 +1,28 @@
 ---
 keywords: a4t;A4T;Target のレポートソースとしての Analytics
-description: Adobe Analyticsをレポートソース（A4T）として使用するAdobe [!DNL Target] でアクティビティを設定する方法について説明します。
+description: Adobe Analyticsをレポートソース （A4T）として使用するAdobe [!DNL Target]でアクティビティを設定する方法について説明します。
 title: A4Tを使用するアクティビティを作成するにはどうすればよいですか？
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
-TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
+TQID: 'https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '663'
 ht-degree: 30%
-
 ---
-
 # Analytics をレポートソースとして使用するアクティビティの作成
 
 [!DNL Adobe Analytics]をレポートソース （A4T）として使用するように、[!DNL Adobe Target]のアクティビティを設定できます。
@@ -79,7 +83,7 @@ ht-degree: 30%
    >
    >レポートソースとして[!DNL Analytics]を設定した後にアクティビティを設定する場合、レポート用のオーディエンスを設定するオプションはありません。 [!DNL Analytics] セグメントは、[!DNL Target] アクティビティ レポートで利用できます。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## A4T アクティビティおよび自動配分アクティビティと自動ターゲットアクティビティ
 

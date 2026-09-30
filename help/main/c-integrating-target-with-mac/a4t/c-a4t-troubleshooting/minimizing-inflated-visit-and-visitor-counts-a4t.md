@@ -1,16 +1,20 @@
 ---
 keywords: 部分的なデータ;部分的なデータ;A4T;矛盾;Analytics for Target;親なし;仮想レポートスイート;ファントム;トラブルシューティング;関連付けなし;水増し;未指定
-description: Analytics for  [!DNL Target] （A4T）の使用時に訪問と訪問者のカウントの水増しの影響を最小限に抑える方法を説明します。 「部分的なデータ」の概要と、それを減らす方法について説明します。
+description: Analytics for [!DNL Target] （A4t）を使用する際に、膨張した訪問数と訪問者数の影響を最小限に抑える方法について説明します。 「部分的なデータ」の概要と、それを減らす方法について説明します。
 title: A4T で訪問と訪問者のカウントの水増しを最小限に抑えるにはどうすればよいですか？
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 97%
-
+ht-degree: 96%
 ---
-
 # A4T での訪問と訪問者のカウントの水増しを最小限に抑える
 
 [!DNL Adobe Analytics] を [!DNL Adobe Target]（A4T）のレポートソースとして使用している場合に、水増しされた訪問と訪問者カウントの影響を最小限に抑える方法について説明します。

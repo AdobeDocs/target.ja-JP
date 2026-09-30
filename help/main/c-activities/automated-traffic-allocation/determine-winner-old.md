@@ -1,16 +1,23 @@
 ---
 keywords: 自動トラフィック配分;ターゲティング;勝者;統計的保証;信頼性;勝者の決定;上昇率;信頼性;デフォルト;デフォルトエクスペリエンス;自動配分;自動配分
-description: 上昇率と信頼性を含む重要な指標を調べることで、Adobe [!DNL Target] の[!UICONTROL 自動配分]A/B アクティビティの結果を解釈する方法を説明します。
+description: 上昇率と信頼性を含む重要な指標を調べることで、Adobe [!DNL Target]の[!UICONTROL 自動配分] A/B アクティビティの結果を解釈する方法を説明します。
 title: '[!UICONTROL 自動割り当て] レポートの解釈を行う方法を教えてください。'
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1258'
 ht-degree: 47%
-
 ---
-
 # 自動配分レポートの解釈
 
 [!UICONTROL Adobe Target]の[!UICONTROL 自動配分]A/B アクティビティの結果を、上昇率と信頼性を含む重要な指標を確認して解釈します。

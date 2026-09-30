@@ -1,16 +1,23 @@
 ---
 keywords: リダイレクトオファー;リダイレクトオファーの作成;HTML オファーの追加;リダイレクト時にすべての URL パラメーターを渡す;リダイレクト時に mboxSessionId を渡す (リダイレクト先が別のドメインの場合にのみ必要)
-description: ブラウザーが新しいページにリダイレクトするように、Adobe [!DNL Target] でリダイレクトオファーを作成する方法を説明します。
+description: ブラウザーが新しいページにリダイレクトするように、Adobe [!DNL Target]でリダイレクトオファーを作成する方法を説明します。
 title: リダイレクトオファーを作成するにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1211'
 ht-degree: 44%
-
 ---
-
 # リダイレクトオファーの作成
 
 [!DNL Adobe Target]のオファーをリダイレクトすると、ブラウザーは新しいページにリダイレクトされます。
@@ -63,7 +70,7 @@ ht-degree: 44%
 
      1st パーティおよび3rd パーティのCookie設定を使用する場合、ドメインを渡す際にmbox セッション IDを渡す必要はありません。 この値はサードパーティ Cookie に保持されているため、URL に含める必要がないからです。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
@@ -103,7 +110,7 @@ ht-degree: 44%
 
      1st パーティおよび3rd パーティのCookie設定を使用する場合、ドメインを渡す際にmbox セッション IDを渡す必要はありません。 この値はサードパーティ Cookie に保持されているため、URL に含める必要がないからです。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >

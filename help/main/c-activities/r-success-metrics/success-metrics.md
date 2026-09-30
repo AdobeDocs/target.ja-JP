@@ -4,26 +4,38 @@ description: アクティビティの成功を判断するのに役立つ成功�
 title: 成功指標とは
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
+TQID: 'https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1502
+source-wordcount: '1502'
 ht-degree: 40%
-
 ---
-
 # [!UICONTROL 成功指標]
 
 [!DNL Adobe Target]の成功指標は、アクティビティのパフォーマンスを測定するのに役立つ主要な指標です。 これらの指標には、コンバージョン、訪問者あたりの売上、顧客エンゲージメントなどの重要なビジネス成果が反映されており、特定の体験やオファーの影響を評価することができます。

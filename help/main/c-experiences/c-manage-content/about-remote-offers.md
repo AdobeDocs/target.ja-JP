@@ -1,23 +1,31 @@
 ---
 keywords: リモートオファー；キャッシュされたコンテンツ；動的コンテンツ；url タイプ
-description: ' [!DNL Target] のリモートオファーを活用して、CMSまたはその他のシステムから外部コンテンツをホストする方法について説明します。'
+description: '[!DNL Target]のリモートオファーを活用して、CMSやその他のシステムから外部コンテンツをホストする方法について説明します。'
 title: リモートオファーの作成方法
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+TQID: 'https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1146'
 ht-degree: 24%
-
 ---
-
 # リモートオファーを作成
 
 [!DNL Adobe Target]以外のコンテンツをホストするためにリモートオファーを使用し、[!DNL Target]がこのコンテンツを参照してユーザーのWeb サイトに配信できるようにします。 このコンテンツは、使いやすさやセキュリティ上の理由から、CMS （コンテンツ管理システム）や他のシステムに格納できます。
@@ -41,14 +49,14 @@ ht-degree: 24%
 
 * リモートオファーは、次の場所でサポートされています。
 
-   * A/B アクティビティ
-   * エクスペリエンスのターゲット設定（XT）アクティビティ
-   * フォームベースワークフロー
+  * A/B アクティビティ
+  * エクスペリエンスのターゲット設定（XT）アクティビティ
+  * フォームベースワークフロー
 
 * 次の場所では、リモートオファーはサポートされていません。
 
-   * [&#x200B; プレミアム機能](/help/main/c-intro/intro.md#premium) （Automated Personalization （AP）、自動ターゲット、およびレコメンデーション）
-   * Multivariate Testing（MVT）は、リモートオファーをサポートしていないVECに依存しているため、
+  * [&#x200B; プレミアム機能](/help/main/c-intro/intro.md#premium) （Automated Personalization （AP）、自動ターゲット、およびレコメンデーション）
+  * Multivariate Testing（MVT）は、リモートオファーをサポートしていないVECに依存しているため、
 
 * オファーが[!DNL Target] リクエストと同じドメインに存在する場合、[!UICONTROL Cached] オプションを使用すると、オファーの場所を説明する際に相対URLを使用できます。
 

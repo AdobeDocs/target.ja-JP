@@ -1,22 +1,26 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: 「 [!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;]」アクティビティを成功させるために十分なトラフィックがあるかどうかを確認できるトラフィック見積もり機能の使用方法について説明します。
+description: '[!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;] アクティビティを成功させるために十分なトラフィックがあるかどうかを知らせるトラフィック見積もり機能の使用方法について説明します。'
 title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティに必要なトラフィックの量'
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-TQID: https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM
+TQID: 'https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '531'
 ht-degree: 19%
-
 ---
-
 # 成功した[!UICONTROL 多変量テスト &#x200B;] アクティビティに必要なトラフィックの見積もり
 
 多変量分析テストでは複数のエクスペリエンスを比較するので、有意な結果を得るためにはどの程度のトラフィックが必要かを把握しておくことが重要です。 [!UICONTROL &#x200B; トラフィック見積もり]では、ページとテスト中のエクスペリエンスの数に関する統計を使用して、テストを成功させるために必要なトラフィック量とテスト期間を見積もります。

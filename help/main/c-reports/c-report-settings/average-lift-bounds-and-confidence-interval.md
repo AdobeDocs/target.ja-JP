@@ -1,16 +1,20 @@
 ---
 keywords: Target、レポート、レポート設定、environment、上昇率、上昇率バインド、平方偏差、confidence、control
-description: データポイントとビジュアライゼーション表現を含むAdobe [!DNL Target]  レポートを解釈して、アクティビティの上昇範囲と信頼性レベルを把握する方法を説明します。
+description: データポイントとビジュアライゼーション表現を含むAdobe [!DNL Target] レポートを解釈して、アクティビティの上昇範囲と信頼性レベルを把握する方法について説明します。
 title: 平均上昇率、上昇率の境界および信頼区間を表示する方法を教えてください。
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '914'
 ht-degree: 59%
-
 ---
-
 # 平均上昇率、上昇率範囲および信頼区間
 
 レポートには、より正確に勝者を決定するのに役立つ、[!DNL Adobe Target] アクティビティに関連付けられている上昇制限と信頼性レベルを理解するのに役立つ、いくつかのデータポイントと視覚化レベルが含まれています。

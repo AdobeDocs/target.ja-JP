@@ -1,22 +1,28 @@
 ---
 keywords: カスタム条件作成;アルゴリズム;条件;レコメンデーション条件;csv;ftp;csv のアップロード
-description: Adobe [!DNL Target] RecommendationsでレコメンデーションをカスタマイズするためにCSV ファイルをアップロードする方法について説明します。
-title: ' [!DNL Recommendations]でカスタム条件をアップロードするにはどうすればよいですか？'
+description: Adobe [!DNL Target]の推奨事項で、推奨事項をカスタマイズするためにCSV ファイルをアップロードする方法について説明します。
+title: '[!DNL Recommendations]でカスタム条件をアップロードするにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-TQID: https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50
+TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 696
+source-wordcount: '697'
 ht-degree: 35%
-
 ---
-
 # カスタム条件のアップロード
 
 CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメンデーションをカスタマイズします。

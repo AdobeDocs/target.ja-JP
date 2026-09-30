@@ -1,16 +1,23 @@
 ---
 keywords: 優先度;エクスペリエンス作成;優先度;エクスペリエンス;オーディエンス;エクスペリエンス;エクスペリエンスの切り替え;visual experience composer
-description: プロファイルの進化に合わせて [!DNL Adobe Target] [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティでエクスペリエンスを切り替える方法について説明します。
+description: '[!DNL Adobe Target] [!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] （XT）アクティビティで、プロファイルの進化に合わせてエクスペリエンスを切り替える方法について説明します。'
 title: 訪問者は、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティでエクスペリエンスを切り替えることができますか？
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '742'
 ht-degree: 40%
-
 ---
-
 # [!UICONTROL &#x200B; エクスペリエンスのターゲット設定]でのエクスペリエンスの切り替え
 
 [!UICONTROL &#x200B; エクスペリエンスのターゲット設定]を使用すると、プロファイルの進化に合わせて表示されるエクスペリエンス訪問者を制御できます。

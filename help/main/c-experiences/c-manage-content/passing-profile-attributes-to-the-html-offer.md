@@ -1,24 +1,31 @@
 ---
 keywords: 動的データ、アセット、データ、オファー、パーソナライズオファー、パーソナルオファー、トークン置換
-description: ' [!DNL Adobe Target]のオファーに動的データを渡す方法について説明します。'
+description: '[!DNL Adobe Target]のオファーに動的データを渡す方法について説明します。'
 title: 動的データをオファーに渡すにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-TQID: https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y
+TQID: 'https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 538
+source-wordcount: '547'
 ht-degree: 55%
-
 ---
-
 # 動的データをオファーに渡す
 
 [!DNL Adobe Target] プロファイルに保存されている訪問者情報を動的に表示できます。 同様に、アクティビティの名前（アクティビティ名やエクスペリエンス名など）を使用し、訪問者の関心、過去の行動、プロファイル全体に基づいてパーソナライズされたコンテンツを動的に返す単一オファーを作成することもできます。
@@ -26,7 +33,7 @@ ht-degree: 55%
 ## ビジネスケース
 
 * 割引オファーを昇格して、最後に購入した製品を「再入力」または「補充」することができます。 カタログ内のアイテムごとに個別のオファーを作成する代わりに、動的テキストを使用してオファーを作成し、プロファイルから「最後に購入した製品」を読み取り、オファーにリンクを表示できます。
-* 訪問者が、`keyword=world` `cup` を含むランディングページに到達します。 この場合、「*ワールドカップ*」という用語をオファーに表示します。
+* 訪問者が、`keyword=world`&#x200B;`cup` を含むランディングページに到達します。 この場合、「*ワールドカップ*」という用語をオファーに表示します。
 * （1）訪問者のカートに最後に追加された商品（Nike Air Max 1000台）、（2）訪問者の色設定（黒）、（3）訪問者のお気に入りの靴ではないカテゴリー（パーカー）などの情報で、レコメンデーションラベルをパーソナライズします。 例:「クールな『黒』『パーカー』で、あなたの『Nike Air Max 1000』をコーディネートしましょう！」
 
 ## 技術的利点

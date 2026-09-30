@@ -1,22 +1,29 @@
 ---
 keywords: システム更新;トラブルシューティング;メンテナンス;システムステータス;更新ステータス
-description: ' [!DNL Adobe Target]  のステータスを表示すると、発生する可能性のある問題がシステムの更新によるものなのか、定期メンテナンスによるものかを判断するのに役立ちます。'
-title: ' [!DNL Target]  やその他の  [!DNL Adobe]  製品のステータスはどこで確認できますか？'
+description: '[!DNL Adobe Target]の状態を表示して、発生する可能性のある問題がシステムの更新または定期的なメンテナンスによるものかどうかを判断します。'
+title: '[!DNL Target]およびその他[!DNL Adobe]製品のステータスはどこで確認できますか？'
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-TQID: https://experienceleague.adobe.com/FVxxay-rE3sqbBriUJcqsXsc4WkzsGPQHha0G0Fxt2A
+TQID: 'https://experienceleague.adobe.com/FVxxay-rE3sqbBriUJcqsXsc4WkzsGPQHha0G0Fxt2A'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 79%
-
+source-wordcount: '322'
+ht-degree: 70%
 ---
-
 # システムステータスの更新と事前通知
 
 [!UICONTROL Adobe システムステータス &#x200B;] ページとプロアクティブな通知を使用して、[!DNL Adobe]製品と[!DNL Adobe Experience Cloud]件の解決策のステータスを常に把握します。 アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。

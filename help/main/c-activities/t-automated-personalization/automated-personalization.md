@@ -1,34 +1,48 @@
 ---
 keywords: 自動パーソナライゼーション；アプリ；オーディエンス；アンサンブル；ランダムフォレスト；マルチアームドバンディット；トンプソンサンプリング；マシンラーニング；機械学習
-description: 高度な機械学習を使用して、各訪問者に対する様々なオファーのバリエーションを一致させる [!DNL Adobe Target] の[!UICONTROL Automated Personalization] （AP）アクティビティの使用方法について説明します。
+description: 高度な機械学習を使用して、各訪問者に対する様々なオファーのバリエーションを一致させる[!DNL Adobe Target]の[!UICONTROL Automated Personalization] （AP）アクティビティの使用方法について説明します。
 title: '[!UICONTROL Automated Personalization] （AP）アクティビティとは何ですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-TQID: https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ
+TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1053'
 ht-degree: 37%
-
 ---
-
 # [!UICONTROL Automated Personalization]（AP）
 
 [!UICONTROL Automated Personalization] （AP）のアクティビティは、[!DNL Adobe Target]でオファーまたはメッセージを組み合わせ、高度な機械学習を使用して、個々の顧客プロファイルに基づいて各訪問者に対する異なるオファーのバリエーションを一致させ、コンテンツをパーソナライズし、向上を促進します。
@@ -41,7 +55,7 @@ ht-degree: 37%
 
 [!UICONTROL Automated Personalization]と[!UICONTROL 自動ターゲット &#x200B;]の違いについて詳しくは、[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)を参照してください。
 
-マーケターはサイトに1つのファイルを実装し、任意のコンテンツをポイントしてクリックし、[!UICONTROL Visual Experience Composer] （VEC）を使用して、その領域の追加のコンテンツオプションを視覚的に作成および選択できます。 その後は、アルゴリズムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断し、パーソナライズしたエクスペリエンスを提供します。 [!UICONTROL Automated Personalization]は訪問者の行動の変化に適応できるため、終了日を設定せずに実行して、継続的なリフトとパーソナライズを提供できます。 このモードは「常時オン」と呼ばれることもあります。 テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという、標準的な A/B アクティビティの結果を実装する標準的な演算順序を踏まなくても、最適化による改善を具現化できます。
+マーケターはサイトに1つのファイルを実装し、任意のコンテンツをポイントしてクリックし、[!UICONTROL Visual Experience Composer] （VEC）を使用して、その領域の追加のコンテンツオプションを視覚的に作成および選択できます。 その後は、アルゴリズムが各個人訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断し、パーソナライズしたエクスペリエンスを提供します。 [!UICONTROL Automated Personalization]は訪問者の行動の変化に適応できるため、終了日を設定せずに実行して、継続的なリフトとパーソナライズを提供できます。 このモードは「常時オン」と呼ばれることもあります。 テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという、標準的な A/B アクティビティの結果を実装する標準的な演算順序を踏まなくても、最適化による改善を具現化できます。
 
 次の用語は、[!UICONTROL Automated Personalization]について説明する際に役立ちます。
 
@@ -93,7 +107,7 @@ CRM情報や顧客解約傾向スコアなどのオフラインデータは、�
 
 ## トレーニングビデオ：アクティビティのタイプ
 
-このビデオでは、[!DNL Target] で利用できるアクティビティのタイプについて説明しています。 [!UICONTROL Automated Personalization]については、5:55から話し合います。
+このビデオでは、[!DNL Target] で利用できるアクティビティのタイプについて説明しています。 [!UICONTROL Automated Personalization]については、5:55以降に説明します。
 
 * [!DNL Adobe Target] に含まれるアクティビティタイプの説明
 * 目標達成に適したアクティビティタイプの選択

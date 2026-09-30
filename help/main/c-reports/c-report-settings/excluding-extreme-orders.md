@@ -1,21 +1,24 @@
 ---
 keywords: Target、レポート、レポート設定、極端な注文、極端な値
-description: Adobe [!DNL Target] のレポートに影響を与える際に極端な値を除外する方法を説明します。これにより、いくつかの通常と異なる注文がアクティビティの結果に影響を与えることはありません。
+description: Adobe [!DNL Target]でレポートに影響を与える際に極端な値を除外する方法を説明します。これにより、いくつかの通常と異なる注文がアクティビティの結果に影響を与えることはありません。
 title: レポートで極端な値を除外するにはどうすればよいですか？
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-TQID: https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI
+TQID: 'https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '333'
 ht-degree: 62%
-
 ---
-
 # 極端な値の除外
 
 極端な値を[!DNL Adobe Target]のレポートに影響を与えるのを除外できるので、いくつかの通常と異なる注文がアクティビティの結果に影響を与えることはありません。 稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。

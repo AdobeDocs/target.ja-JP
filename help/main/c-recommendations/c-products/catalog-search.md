@@ -1,23 +1,30 @@
 ---
 keywords: カタログ検索；カタログ；検索；除外；コレクション；フィルター；推奨事項
-description: ' [!DNL Recommendations] [!UICONTROL &#x200B; カタログ検索]を使用して、商品やコンテンツを検索したり、カタログからアイテムを削除したりする方法を説明します。'
-title: ' [!DNL Recommendations] [!UICONTROL &#x200B; カタログ検索]を使用するにはどうすればよいですか？'
+description: '[!DNL Recommendations] [!UICONTROL &#x200B; カタログ検索]を使用して、商品またはコンテンツを検索する方法、カタログからアイテムを削除する方法などについて説明します。'
+title: '[!DNL Recommendations] [!UICONTROL &#x200B; カタログ検索]を使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
+TQID: 'https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 552
+source-wordcount: '554'
 ht-degree: 24%
-
 ---
-
 # [!UICONTROL カタログ検索]
 
 [!DNL Adobe Recommendations]の[!UICONTROL &#x200B; カタログ検索] ページは、カタログ内の商品またはコンテンツを検索するのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 さらに、環境の変更、ファセットのフィルタリング、テーブルの列の変更、新しい検索ファセットの追加などを行うことができます。

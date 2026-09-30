@@ -4,27 +4,36 @@ description: 一部のweb サイトが[!UICONTROL Visual Experience Composer] �
 title: '[!UICONTROL Visual Experience Composer] （VEC） ヘルパー拡張機能の使用方法を教えてください。'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-TQID: https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q
+TQID: 'https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: '1111'
 ht-degree: 51%
-
 ---
-
 # [!UICONTROL Visual Experience Composer] ヘルパー拡張機能
 
 [!DNL Google Chrome]の[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC） ヘルパーブラウザー拡張機能を使用すると、VEC内でWeb サイトを確実に読み込んで、Web エクスペリエンスを迅速に作成およびQAできます。
@@ -100,6 +109,6 @@ Chrome用VEC Helper ブラウザー拡張機能は、お客様が[!DNL Target] [
 * 拡張機能を使用して [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で at.js を挿入する場合は、別の Chrome タブを開く必要があります。 この Chrome タブは、アクティビティを作成したのと同じ[!DNL Adobe Experience Cloud]組織に対して認証される必要があります。
 * 次のメッセージにより、さらに情報が提供されます。
 
-   * VEC を使用した Web サイトの読み込みに失敗した場合、VEC ヘルパーブラウザー拡張機能のインストールを勧めるメッセージが表示されます。
-   * at.js が Web サイトにまだ実装されていない場合、拡張機能のインストールを勧めるメッセージが VEC に表示されます。
-   * 拡張機能を有効にして読み込みを実行している場合は、拡張機能により at.js ライブラリが挿入（必要に応じて）されるか、または VEC 内で Web サイトが確実に開かれることを示すメッセージが表示されます。
+  * VEC を使用した Web サイトの読み込みに失敗した場合、VEC ヘルパーブラウザー拡張機能のインストールを勧めるメッセージが表示されます。
+  * at.js が Web サイトにまだ実装されていない場合、拡張機能のインストールを勧めるメッセージが VEC に表示されます。
+  * 拡張機能を有効にして読み込みを実行している場合は、拡張機能により at.js ライブラリが挿入（必要に応じて）されるか、または VEC 内で Web サイトが確実に開かれることを示すメッセージが表示されます。

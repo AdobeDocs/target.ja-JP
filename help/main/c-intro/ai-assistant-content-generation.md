@@ -1,26 +1,34 @@
 ---
 keywords: ai アシスタント；ai アシスタント；コンテンツ生成；コンテンツアクセラレーター；コンテンツ生成；コンテンツ生成
-description: ' [!DNL AI Assistant]で魅力的なコンテンツを生成する方法について説明します。'
-title: ' [!DNL AI Assistant] in [!DNL Target] を使用して魅力的なコンテンツを生成するにはどうすればよいですか？'
+description: '[!DNL AI Assistant]で魅力的なコンテンツを生成する方法について説明します。'
+title: '[!DNL Target]の[!DNL AI Assistant]を使用して魅力的なコンテンツを生成するにはどうすればよいですか？'
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip="[!DNL Adobe Target]のBeta機能について。"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+TQID: 'https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 825
-ht-degree: 2%
-
+source-wordcount: '835'
+ht-degree: 1%
 ---
-
 # [!DNL Adobe Target]の[!DNL AI Assistant]をコンテンツ生成に使用
 
 [!DNL AI Assistant]さんと[!DNL Adobe Target]のエンゲージメントとコンバージョンを促進します。 生成AIを活用して、オーディエンスの共感を呼び、アクティビティやコンテンツを向上させる、パーソナライズされたインパクトの大きいテキストを作成します。

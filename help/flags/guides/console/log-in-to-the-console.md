@@ -4,13 +4,14 @@ description: Adobe Target内からアクセスをリクエストしてフラグ�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 2%
-
 ---
-
 # Adobe Targetのアクセスフラグ {#log-in}
 
 Flagsを使い始めるには、アクセスをリクエストし、Adobe Target内からFlagsを開きます。

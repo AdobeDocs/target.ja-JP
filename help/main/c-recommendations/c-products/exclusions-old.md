@@ -4,13 +4,20 @@ description: Adobe [!DNL Target] Recommendationsで除外を作成して、商�
 title: レコメンデーションアクティビティで除外を使用するにはどうすればよいですか？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 32%
-
+source-wordcount: '630'
+ht-degree: 31%
 ---
-
 # 除外
 
 [!DNL Adobe Target Recommendations]に除外を作成して、製品またはコンテンツが訪問者に推奨されないようにします。 除外とは、訪問者に推奨すべきではない製品やコンテンツのサブセットのことです。
@@ -51,7 +58,7 @@ ht-degree: 32%
 
    ルールリストでパラメーターを選択して、オペレーターを選択してから、1 つ以上の値を入力して製品を特定します。 複数の値はコンマで区切ります。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## 詳細検索を使用した除外の作成
 

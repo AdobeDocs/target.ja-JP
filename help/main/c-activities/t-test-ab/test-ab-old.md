@@ -1,16 +1,23 @@
 ---
 keywords: AB;A/B;AB...n；エクスペリエンスの比較；ターゲティング；コンテンツの比較；自動ターゲット；自動割り当て
-description: Adobe [!DNL Target] のA/B テスト アクティビティの種類（手動、自動配分、自動ターゲット）について説明します。 自分に合ったものを選びましょう。
+description: Adobe [!DNL Target]のA/B テスト アクティビティの種類（手動、自動割り当て、自動ターゲット）について説明します。 自分に合ったものを選びましょう。
 title: Targetで使用できるA/B アクティビティのタイプ？
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
-
 ---
-
 # A/B テストの概要
 
 手動の[!UICONTROL A/B テスト &#x200B;] アクティビティでは、web サイトのコンテンツの2つ以上のバージョンを比較し、事前に指定されたテスト期間中に、どのバージョンがコンバージョンを最も向上させるかを確認します。
@@ -50,7 +57,7 @@ A/B テストを設定することで、各エクスペリエンスを利用し�
 * [!UICONTROL 最適なエクスペリエンスに自動割り当て]
 * [!UICONTROL &#x200B; パーソナライズされたエクスペリエンスの自動ターゲティング &#x200B;]
 
-![&#x200B; トラフィック配分メソッドの設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method.png)
+![トラフィック配分方法の設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method.png)
 
 ## A/B アクティビティにレコメンデーションを含める
 

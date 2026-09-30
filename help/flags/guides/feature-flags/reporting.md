@@ -4,13 +4,14 @@ description: Customer Journey Analyticsを使用して、フラグで機能フ�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
-
 ---
-
 # レポート {#reporting}
 
 フラグは、**Customer Journey Analytics（CJA）**&#x200B;を通じてレポートを配信します。 すべての機能フラグと機能グループの詳細ページには、**レポート**&#x200B;のタブがあります。 ページに直接埋め込まれた、特定のフラグまたはグループのスコープを指定したCJA レポートを表示できます。

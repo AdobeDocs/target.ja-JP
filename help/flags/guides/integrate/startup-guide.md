@@ -4,13 +4,14 @@ description: アクセスのリクエストから最初の機能フラグの作�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
-
 ---
-
 # スタートアップガイド {#startup-guide}
 
 フラグをアプリケーションに統合するには、次の手順に従います。

@@ -6,22 +6,30 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-TQID: https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok
+TQID: 'https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 22%
-
 ---
-
 # [!UICONTROL Automated Personalization]件のオファーをターゲット
 
 [!DNL Adobe Target] [!DNL Automated Personalization] （AP）アクティビティでは、特定のオーディエンスに対するオファーをターゲットにできます。

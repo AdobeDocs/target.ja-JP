@@ -4,18 +4,24 @@ description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して�
 title: A/B アクティビティにエクスペリエンスを追加するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
+TQID: 'https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 30%
-
 ---
-
 # エクスペリエンスの追加
 
 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）は、ページ上のエクスペリエンスを追加および編集するための視覚的なインターフェイスを提供します。
@@ -69,7 +75,7 @@ ht-degree: 30%
 
 1. （条件付き）現在のクエリパラメーターを含める&#x200B;**[!UICONTROL チェックボックスをオンにします。]**
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## エクスペリエンスの複製
 

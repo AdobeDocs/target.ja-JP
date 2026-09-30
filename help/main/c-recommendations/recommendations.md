@@ -1,27 +1,36 @@
 ---
 keywords: レコメンデーション;レコメンデーションの条件;レコメンデーション アルゴリズム;レコメンデーションアクティビティ;条件;レコメンデーションのターゲティング:recs
-description: Adobe [!DNL Target]  のレコメンデーションアクティビティについて説明します。これらのアクティビティでは、以前のユーザーアクティビティやその他のアルゴリズムに基づいて、顧客が興味を持つ可能性のあるコンテンツを自動的に表示します。
-title: ' [!DNL Target]  レコメンデーションとは'
+description: 以前のユーザーアクティビティやその他のアルゴリズムに基づいて、顧客が関心を持つ可能性のあるコンテンツを自動的に表示する、Adobe [!DNL Target]のRecommendations アクティビティについて説明します。
+title: '[!DNL Target]のおすすめとは？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-TQID: https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA
+TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 96%
-
+source-wordcount: '869'
+ht-degree: 93%
 ---
-
 # レコメンデーション
 
 [!DNL Adobe Target Recommendations] のアクティビティは、以前のユーザーアクティビティ、環境設定、またはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。 [!DNL Target Recommendations] は、訪問者が知らなかったであろう関連項目へと訪問者を誘導できます。 [!DNL Recommendations] は、適切なタイミング、適切な場所で訪問者に関連コンテンツを提供できます。
@@ -74,7 +83,7 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 
 ## トレーニングビデオ：アクティビティタイプ ![概要バッジ](/help/main/assets/overview.png)
 
-このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。 [!DNL Recommendations]は7:20から議論されています。
+このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。 [!DNL Recommendations]は7:20から議論されます。
 
 * [!DNL Adobe Target] に含まれるアクティビティタイプの説明
 * 目標達成に適したアクティビティタイプの選択

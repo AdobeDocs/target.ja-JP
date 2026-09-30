@@ -1,17 +1,24 @@
 ---
 keywords: インクルージョンルール;インクルージョン条件;レコメンデーション;プロモーション;動的;動的フィルター;静的;静的フィルター
-description: Adobe  [!DNL Target] レコメンデーションのインクルージョンルールを使用して、1 つ以上の静的値を手動で入力し、フィルタリングする方法を説明します。
+description: Adobe [!DNL Target]の推奨事項の包含ルールを使用して、1つ以上の静的値を手動で入力してフィルタリングする方法について説明します。
 title: レコメンデーションのアクティビティで静的値を使用してフィルタリングする方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 99%
-
+source-wordcount: '251'
+ht-degree: 92%
 ---
-
 # 静的フィルター
 
 [!DNL Adobe Target] [!DNL Recommendations] のインクルージョンルールを使用して、1 つ以上の静的値を手動で入力し、フィルタリングします。

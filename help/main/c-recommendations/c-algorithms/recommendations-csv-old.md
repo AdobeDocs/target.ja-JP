@@ -1,17 +1,24 @@
 ---
 keywords: カスタム条件作成;アルゴリズム;条件;レコメンデーション条件;csv;ftp;csv のアップロード
-description: Adobe [!DNL Target] RecommendationsでレコメンデーションをカスタマイズするためにCSV ファイルをアップロードする方法について説明します。
+description: Adobe [!DNL Target]の推奨事項で、推奨事項をカスタマイズするためにCSV ファイルをアップロードする方法について説明します。
 title: レコメンデーションにカスタム基準をアップロードするにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '736'
 ht-degree: 34%
-
 ---
-
 # カスタム条件のアップロード
 
 CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメンデーションをカスタマイズします。
@@ -53,7 +60,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
    * **FTP:** FTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL FTP]**&#x200B;を選択し、必要な情報を入力します。 FTPS プロトコルを使用してCSV ファイルを安全に転送するSSLを使用できます。
    * **URL:** CSV ファイルをURLからアップロードするには、**[!UICONTROL URL]**&#x200B;を選択し、フィード URLを入力します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## 注意点
 

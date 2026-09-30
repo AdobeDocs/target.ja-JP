@@ -1,15 +1,22 @@
 ---
 keywords: experience cloud debugger;mbox trace
-description: Adobe Experience Cloud Debugger を使用した Adobe  [!DNL Target]  のデバッグ。
-title: Experience Cloud Debugger を使用した  [!DNL Target]  のデバッグ
+description: Adobe Experience Cloud Debuggerを使用してAdobe [!DNL Target]をデバッグします。
+title: Experience Cloud Debugger を使用した [!DNL Target] のデバッグ
 feature: Troubleshooting
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 80%
-
+source-wordcount: '81'
+ht-degree: 70%
 ---
-
 
 # Experience Cloud Debugger を使用した [!DNL Target] のデバッグ
 

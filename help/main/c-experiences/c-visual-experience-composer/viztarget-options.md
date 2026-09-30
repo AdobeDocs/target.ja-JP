@@ -1,25 +1,30 @@
 ---
 keywords: visual experience composer オプション；experience options;experience options;edit text;edit html;edit text/html;edit background color;insert element;edit link;visual experience composer link;edit css class;css class;swap offer;offer swap image;image swap;remove item;remove item;item;hide item;hide item;rearrange;move element;move;element move;element resize;element;resize;element;expand selection;navigate;link;navigate;undo;redo；元に戻す/やり直し；カスタム イベントのオファーwebの決定決定
-description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で使用できるオプションを確認します。'
+description: '[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で使用できるオプションを確認します。'
 title: '[!UICONTROL Visual Experience Composer] （VEC）オプションの使用方法を教えてください。'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
+TQID: 'https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 10%
-
+source-wordcount: '2271'
+ht-degree: 16%
 ---
-
 # [!UICONTROL Visual Experience Composer]のオプション
 
 [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された[!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、更新されたUIとそのオプションについて説明します。
@@ -105,17 +110,17 @@ VEC![&#128279;](/help/main/c-experiences/c-visual-experience-composer/assets/und
    使用可能なコンポーネントは、ロジックコンテナにグループ化されます。
 
    * [!UICONTROL 基本]
-      * [!UICONTROL &#x200B; ディバイダー]
-      * [!UICONTROL HTML]
-      * [!UICONTROL Image]
+     * [!UICONTROL &#x200B; ディバイダー]
+     * [!UICONTROL HTML]
+     * [!UICONTROL Image]
    * [!UICONTROL テキスト]
-      * [!UICONTROL 見出し]
-      * [!UICONTROL 文章]
-      * [!UICONTROL &#x200B; リンク &#x200B;]
+     * [!UICONTROL 見出し]
+     * [!UICONTROL 文章]
+     * [!UICONTROL &#x200B; リンク &#x200B;]
    * [!UICONTROL 動的]
-      * [[!UICONTROL 推奨事項]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL HTML オファー]](/help/main/c-experiences/c-manage-content/manage-content.md)
+     * [[!UICONTROL 推奨事項]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+     * [[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+     * [[!UICONTROL HTML オファー]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
 1. [!UICONTROL &#x200B; デザイン &#x200B;] キャンバスの既存のページ要素の上にコンポーネントをドラッグします。
 1. 選択したエレメントを置き換えるか、選択したエレメントの後にの前にコンポーネントを挿入するかを選択します。
@@ -292,17 +297,17 @@ DOM パス機能は、[クリックの追跡](/help/main/c-activities/r-success-
 
 ## 更新された UI に関する詳細情報
 
-* [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL &#x200B; アクティビティ &#x200B;]、[!UICONTROL 推奨事項]、および[!UICONTROL Visual Experience Composer] （VEC）の[!DNL Target]の主要なUI変更の概要を提供します。
+* [[!DNL Target Standard/Premium]  25.2.1（2025年2月17日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：[!DNL Target] の[!UICONTROL アクティビティ]、[!UICONTROL レコメンデーション]、[!UICONTROL Visual Experience Composer]（VEC）に関する主な UI の変更の概要について説明します。
 
-* [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）リリースノート &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL &#x200B; オファーライブラリ &#x200B;]の[!DNL Target]の主要なUI変更の概要を提供します。
+* [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!DNL Target] の[!UICONTROL オファーライブラリ] に関する主な UI の変更の概要について説明します。
 
 * [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 
-* [[!UICONTROL Visual Experience Composer]の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日）では、更新された[!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
+* [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 
-* [[!UICONTROL Visual Experience Composer] オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新されたVEC UIとそのオプションについて説明します。
+* [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
-* [[!DNL Target] UI更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)：このFAQでは、ナビゲーションの変更、機能の場所、一時的なUI バージョンの廃止トグルなど、新しい[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
 
 <!--
 ## [!UICONTROL Edit]

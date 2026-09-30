@@ -1,22 +1,26 @@
 ---
 keywords: レスポンシブ;モバイルビューポート;ビューポート;デバイス;モバイル;レスポンシブ web デザイン;rwd
-description: モバイルビューポートを使用すると、様々な画面サイズでの  [!DNL Target]  アクティビティの表示を変更できます。 一般的な各種デバイスでのビューポートのサイズと解像度について説明します。
+description: モバイルビューポートを使用すると、様々なサイズのScreensでAdobe [!DNL Target] アクティビティがどのように表示されるかを確認できます。 一般的な各種デバイスでのビューポートのサイズと解像度について説明します。
 title: レスポンシブなエクスペリエンスを実現するためにモバイルビューポートを使用する方法
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+TQID: 'https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 93%
-
+source-wordcount: '1382'
+ht-degree: 92%
 ---
-
 # レスポンシブエクスペリエンスのためのモバイルビューポート
 
 モバイルビューポートを使用すると、様々な画面サイズで [!DNL Adobe Target] のアクティビティをプレビューできます。
@@ -132,7 +136,7 @@ ht-degree: 93%
 
    [拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を使用してオペレーティングシステムを選択する場合、[!DNL Target] は、ページを表示する際にデバイスをエミュレートします。 例えば、レスポンシブサイトで Android のルックアンドフィールが iOS と異なる場合、[!DNL Target] はその動作を模倣します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
@@ -184,6 +188,6 @@ ht-degree: 93%
 
 ### Adobe Target のアカウント環境設定![概要バッジ](/help/main/assets/overview.png)
 
-このビデオには、ビデオの4:40から始まるモバイルビューポートの設定に関する情報が含まれています。
+このビデオでは、ビデオの4:40から始まるモバイルビューポートの設定に関する情報を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

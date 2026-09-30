@@ -1,26 +1,35 @@
 ---
 keywords: アクティビティ設定;A/B 目標と設定;レポート設定;目標指標;成功指標;従属成功指標;詳細設定;主な目標;追加の指標;目的;優先度;期間;レポートソリューション;目標;レポートのためのオーディエンス;指標を増分する前にどの成功指標に達するべきか;この目的指標にユーザーが達した後はどうなるか;メモ
 description: '[!UICONTROL 目標と設定] ページを使用してA/B アクティビティ目標を定義する方法を説明します。'
-title: A [!DNL Target] A/B アクティビティで目標と設定を指定するにはどうすればよいですか？
+title: '[!DNL Target] A/B アクティビティで目標と設定を指定する方法を教えてください。'
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
+TQID: 'https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d0846dd933f267d990069a95532a8643bb4bf792
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1546
+source-wordcount: '1547'
 ht-degree: 29%
-
 ---
-
 # 目標と設定
 
 [!DNL Adobe Target]の[!UICONTROL 目標と設定] ページでは、アクティビティの目標に関する情報を指定します。
@@ -43,7 +52,7 @@ ht-degree: 29%
 
 | 設定 | 説明 |
 |--- |--- |
-| [!UICONTROL &#x200B; レポート Source] | 次の場所から収集するソリューション データを指定します。<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Analytics]</li><li>[!DNL Adobe Customer Journey Analytics]</li></ul>[&#x200B; アカウント設定](/help/main/administrating-target/reporting.md)でレポートソースが指定されている場合、指定されたソースが使用され、この設定は表示されません。<P>アクティビティが公開された後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。<P>**Adobe Analytics**: レポートソリューションと各ソリューションの利点の違いについては、[Adobe Analytics as the Reporting Source for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)を参照してください。 [!DNL Analytics]を[!DNL Target]のレポートソースとして選択する場合、[!DNL Analytics] レポートスイートを選択して[!DNL Target] アクティビティデータを受信します。<P>レポートソースを指定するには、まずアカウントが関連付けられている[!DNL Analytics]社の中から選択し、アクティビティに適したレポートスイートを選択します。 [!DNL Adobe Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 期待するレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。 レポートスイートがまだリストにない場合は、カスタマーケアにお問い合わせください。<P><P>**Adobe Customer Journey Analytics**: [!DNL Customer Journey Analytics]でサポートされているアクティビティタイプ、サンドボックスおよびデータビューの選択、目標指標、レポート設定については、 [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを参照してください。 |
+| [!UICONTROL &#x200B; レポート Source] | 次の場所から収集するソリューション データを指定します。<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Analytics]</li><li>[!DNL Adobe Customer Journey Analytics]</li></ul>[&#x200B; アカウント設定](/help/main/administrating-target/reporting.md)でレポートソースが指定されている場合、指定されたソースが使用され、この設定は表示されません。<P>アクティビティが公開された後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。<P>**Adobe Analytics**: レポートソリューションと各ソリューションの利点の違いについては、[Adobe Analytics as the Reporting Source for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)を参照してください。 [!DNL Analytics]を[!DNL Target]のレポートソースとして選択する場合、[!DNL Analytics] レポートスイートを選択して[!DNL Target] アクティビティデータを受信します。<P>レポートソースを指定するには、まずアカウントが関連付けられている[!DNL Analytics]社の中から選択し、アクティビティに適したレポートスイートを選択します。 [!DNL Adobe Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 期待するレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。 レポートスイートがまだリストにない場合は、カスタマーケアにお問い合わせください。<P><P>**Adobe Customer Journey Analytics**: [!DNL Customer Journey Analytics]でサポートされているアクティビティタイプ、サンドボックスおよびデータビューの選択、目標指標、レポート設定については、 [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを参照してください。 |
 | [!UICONTROL 目標指標] | 目標達成の基準となる、訪問者の行動を選択します。 例えば、[!UICONTROL &#x200B; コンバージョン &#x200B;]指標を選択し、成功が達成されたときに決定するパラメーターを設定します。 指標の設定について詳しくは、[指標の設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)を参照してください。<P>注意：レポート ソリューションが[!DNL Analytics]に設定されている場合、使用可能な目標指標は[!UICONTROL &#x200B; コンバージョン &#x200B;]のみです。 目標として[!DNL Analytics]指標を選択できません。 成功指標を選択したら、セレクターが表示されます。 このセレクターを使用して、成功指標の具体的な内容を選択します。<P>有効にした場合、「[!UICONTROL &#x200B; コンバージョンの見積もり値]」フィールド（[!UICONTROL &#x200B; ページスコア &#x200B;]指標では使用できません）は、目標の値を提供しますが、他の指標の値は提供しません。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。 このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。 すべての収益指標（[!UICONTROL 訪問者あたりの売上高]、[!UICONTROL 平均注文額]、[!UICONTROL 総売上高]、および[!UICONTROL 注文数]）に対して、見積もりは[!UICONTROL 訪問者あたりの売上高]を使用します。 データタイプは通貨です。<P>アクティビティの目標に到達した後、訪問者は、その訪問者がより優先度の高いアクティビティに適格でない限り、アクティビティコンテンツを引き続き表示します。 訪問者が再度目標を達成した場合は、追加のコンバージョンとしてカウントされます。 これは、アクティビティが再度表示された場合に訪問者を新規としてカウントする[!DNL Target Classic]のデフォルトの動作とは異なります。 |
 | [!UICONTROL 追加指標] | 追加の成功指標を作成します。 この設定は、レポートソリューションが[!DNL Analytics]に設定されている場合は使用できません。 この場合、[!DNL Analytics] レポートスイートに定義された指標が適用されます。 |
 | [!UICONTROL &#x200B; レポート用オーディエンス &#x200B;] | デフォルトでは、資格を満たすすべての訪問者の結果がレポートに表示されます。 レポートオーディエンスを追加して、特定のオーディエンスに関する情報のみを表示できます。 この設定は、レポートソリューションとして[!DNL Analytics]を選択した場合は使用できません。 [!DNL Analytics] レポートスイートに定義されたオーディエンスが適用されます。 |

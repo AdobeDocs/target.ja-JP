@@ -1,25 +1,30 @@
 ---
 keywords: analytics for target;a4t；レポートソースとしてのanalytics;analytics
-description: Analytics for [!DNL Target]  （A4T）の使用方法を説明します。 A4Tは、Analytics指標とオーディエンスセグメントを使用する [!DNL Target]  アクティビティのAnalytics レポートへのアクセスを提供します。
+description: '[!DNL Target] （A4T）のAnalyticsの使用方法を説明します。 A4Tは、Analytics指標とオーディエンスセグメントを使用する[!DNL Target] アクティビティのAnalytics レポートへのアクセスを提供します。'
 title: A4Tでレポートを使用するにはどうすればよいですか？
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
+TQID: 'https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1316
+source-wordcount: '1317'
 ht-degree: 41%
-
 ---
-
 # A4T レポート
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target] （A4T）のレポートソースとして使用すると、[!DNL Target] アクティビティの[!DNL Analytics]件のレポートにアクセスできます。

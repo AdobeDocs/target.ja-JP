@@ -4,18 +4,24 @@ description: '[!UICONTROL Offers] ライブラリでコードと画像オファ�
 title: オファーライブラリでコンテンツを検索するにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+TQID: 'https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: '281'
 ht-degree: 0%
-
 ---
-
 # コンテンツの検索とフィルター
 
 [!DNL Adobe Target]の[!UICONTROL Offers] ライブラリで、キーワードでアセットを検索します。
@@ -41,10 +47,10 @@ ht-degree: 0%
    次の条件でフィルタリングできます。
 
    * **[!UICONTROL ファイルの種類]**:
-      * [!UICONTROL 画像]
-      * [!UICONTROL &#x200B; ドキュメント &#x200B;]
-      * [!UICONTROL &#x200B; マルチメディア &#x200B;]
-      * [!UICONTROL &#x200B; アーカイブ &#x200B;]
+     * [!UICONTROL 画像]
+     * [!UICONTROL &#x200B; ドキュメント &#x200B;]
+     * [!UICONTROL &#x200B; マルチメディア &#x200B;]
+     * [!UICONTROL &#x200B; アーカイブ &#x200B;]
    * **[!UICONTROL ファイルサイズ]**：スライダーを使用して、目的のファイルサイズを選択します：[!UICONTROL 最小]、[!UICONTROL 小]、[!UICONTROL Medium]、[!UICONTROL 大]、または[!UICONTROL 最大]。
    * **[!UICONTROL 最終更新日]**: スライダーを使用して、期間を選択します：[!UICONTROL 最近]、[!UICONTROL 時間]、[!UICONTROL 日]、[!UICONTROL 週]、[!UICONTROL 月]、[!UICONTROL 年]、または[!UICONTROL すべてのAssets]。
    * **[!UICONTROL 承認ステータス]**: [!UICONTROL 承認済み]または[!UICONTROL 却下]

@@ -3,13 +3,14 @@ title: ルールセットの作成と使用
 description: フラグで再利用可能なオーディエンスコンテキスト条件のルールセットを作成し、それをフィーチャーフラグおよびフィーチャーグループにインポートする方法について説明します。
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 1%
-
 ---
-
 # ルールセットの作成と使用 {#creating-and-using-rule-sets}
 
 ルールセットは、オーディエンスのコンテキスト条件の再利用可能なコレクションです。 複数の機能フラグまたは機能グループに同じオーディエンスが必要な場合は、ルールセットを作成します。 その後、各機能のオーディエンス条件を再作成する代わりに、ルールセットを読み込むことができます。

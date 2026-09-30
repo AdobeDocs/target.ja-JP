@@ -1,34 +1,47 @@
 ---
 keywords: レコメンデーション
-description: Analytics for  [!DNL Target] （A4T）の実装要件と、この統合を実装する前に考慮すべき事項について学びます。
+description: '[!DNL Target] （A4T）のAnalyticsの実装要件と、この統合を実装する前に考慮すべき事項について説明します。'
 title: A4T を実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-TQID: https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k
+TQID: 'https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1034
-ht-degree: 85%
-
+source-wordcount: '1034'
+ht-degree: 84%
 ---
-
 # at.js を使用して Analytics for Target（A4T）を実装する前に
 
 [!DNL Adobe Target]（A4T）のレポートソースとして [!DNL Adobe Analytics] を有効にすると、データ収集プロセスでいくつかの変更が発生します。

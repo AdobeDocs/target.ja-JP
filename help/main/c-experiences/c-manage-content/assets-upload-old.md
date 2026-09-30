@@ -4,13 +4,20 @@ description: Adobe Targetで画像オファーとして使用する画像をア�
 title: オファーライブラリにコンテンツをアップロードするにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 17%
-
 ---
-
 # コンテンツのアップロード
 
 [!DNL Adobe Target]の[!UICONTROL 画像オファー] リストに画像をアップロードして、アクティビティで画像オファーとして使用できます。 また、アクティビティで画像オファーが不要になった場合は、画像オファーを削除することもできます。

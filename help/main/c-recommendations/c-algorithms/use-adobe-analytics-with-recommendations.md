@@ -1,26 +1,34 @@
 ---
 keywords: 行動データソース；analytics;recommendations；条件；製品変数
-description: ' [!DNL Target Recommendations]の行動データソースとして [!DNL Adobe Analytics] を使用する方法を説明します。'
-title: ' [!DNL Adobe Analytics]  [!DNL Target Recommendations]の使用方法'
+description: '[!DNL Adobe Analytics]を[!DNL Target Recommendations]の行動データソースとして使用する方法を説明します。'
+title: '[!DNL Adobe Analytics]を[!DNL Target Recommendations]と共に使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs
+TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 804
-ht-degree: 81%
-
+source-wordcount: '806'
+ht-degree: 80%
 ---
-
 # [!DNL Adobe Analytics] での[!DNL Recommendations] の使用
 
 [!DNL Adobe Analytics]を行動データソースとして使用すると、顧客は[!DNL Adobe Target Recommendations]のアクティビティで[!DNL Analytics]のビューベースおよび購入ベースの行動データを使用できます。 この機能は、[!DNL Target Recommendations]の設定が新しく、[!DNL Analytics]に使用する履歴データが多い場合に特に役立ちます。
@@ -85,7 +93,7 @@ product 変数の設定方法について詳しくは、『 [Adobe Analyticsの�
 
 1. 「**[!UICONTROL 次へ]**」をクリックして&#x200B;**[!UICONTROL マッピング]**&#x200B;設定に進み、フィールド列ヘッダーを適切な[!UICONTROL 推奨事項] フィールド名にマッピングします。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## よくある質問
 

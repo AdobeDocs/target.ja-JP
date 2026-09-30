@@ -4,13 +4,14 @@ description: フラグの機能グループに対してパーセンテージ ベ
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 3%
-
 ---
-
 # 機能グループを設定し {#gradual-rollout-feature-group}
 
 機能グループのロールアウト率は、**基本詳細** タブで設定されています。 ロールアウトの進行状況に応じて、この値を上下に調整できます。

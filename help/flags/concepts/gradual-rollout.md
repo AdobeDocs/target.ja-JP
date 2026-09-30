@@ -4,13 +4,14 @@ description: フラグの段階的なロールアウトによって、リアル�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # 段階的な展開 {#gradual-rollout}
 
 段階的に導入すれば、あらゆるユーザーが一度に利用できるようにするのではなく、新機能を段階的に本番環境に導入できます。 このアプローチによってリスクを軽減し、バックエンドの負荷を管理して、フルリリース前に厳格なフィードバックループを構築することができます。

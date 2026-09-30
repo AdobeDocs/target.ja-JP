@@ -1,17 +1,24 @@
 ---
 keywords: レコメンデーション;代替;予備
-description: Adobe [!DNL Target] Recommendationsでバックアップの推奨事項を使用する方法について説明します。 十分な推奨項目がない推奨事項には、バックアップアルゴリズムの結果が表示されます。
+description: Adobe [!DNL Target]の推奨事項でバックアップの推奨事項を使用する方法について説明します。 十分な推奨項目がない推奨事項には、バックアップアルゴリズムの結果が表示されます。
 title: Recommendationsでバックアップのレコメンデーションを使用する方法を教えてください。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '552'
 ht-degree: 78%
-
 ---
-
 # 代替レコメンデーションの使用
 
 [!DNL Adobe Target]でバックアップの推奨機能を使用する場合、十分な推奨項目がない推奨事項では、デフォルトのコンテンツは表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。

@@ -1,26 +1,33 @@
 ---
 keywords: ランダム フォレスト；決定ツリー；ap;Automated Personalization
-description: ' [!DNL Adobe Target] が[!UICONTROL Automated Personalization] （AP）と[!UICONTROL 自動ターゲット &#x200B;]の両方のアクティビティでランダム フォレスト アルゴリズムを使用する方法について説明します。'
-title: ' [!DNL Target]  ランダムフォレスト アルゴリズムの使用方法を教えてください。'
+description: '[!DNL Adobe Target]が[!UICONTROL Automated Personalization] （AP）と[!UICONTROL 自動ターゲット &#x200B;]の両方のアクティビティでランダム フォレスト アルゴリズムを使用する方法について説明します。'
+title: '[!DNL Target]はランダム フォレスト アルゴリズムをどのように使用しますか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
+TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1458
-ht-degree: 43%
-
+source-wordcount: '1460'
+ht-degree: 45%
 ---
-
 # ランダムフォレストアルゴリズム
 
-（AP）と[!DNL Auto-Target]の両方のアクティビティで使用される主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストなどのアンサンブル手法では、複数の学習アルゴリズムを使用して、任意の構成学習アルゴリズムから得られるよりも優れた予測性能を得ることができます。 [!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;]のランダムフォレスト アルゴリズムは、トレーニング中に多数の決定木を作成することによって動作する分類または回帰メソッドです。
+（AP）と[!DNL Auto-Target]の両方のアクティビティで使用される主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、構成要素となるどの学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを発揮します。 [!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;]のランダムフォレスト アルゴリズムは、トレーニング中に多数の決定木を作成することによって動作する分類または回帰メソッドです。
 
 統計学の観点から見ると、結果の予測に使用される単一の回帰モデルが思い浮かぶかもしれません。 データサイエンスの最新の調査では、同一のデータセットから複数のモデルが構築され、効果的に組み合わせられる「アンサンブル手法」の方が、単一のモデルだけで予測する場合よりも結果が優れていることが示されています。
 

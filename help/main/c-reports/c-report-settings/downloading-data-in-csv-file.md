@@ -1,25 +1,30 @@
 ---
 keywords: レポート、ダウンロードレポート、csv、success metrics、注文の詳細
-description: Adobe [!DNL Target]  アクティビティからCVS形式でデータをダウンロードして、Excel、Access、またはその他のデータ分析プログラムにすばやく読み込む方法について説明します。
+description: Adobe [!DNL Target] アクティビティからCVS形式でデータをダウンロードして、Excel、Access、またはその他のデータ分析プログラムにすばやく読み込む方法について説明します。
 title: CSV ファイルにレポートデータをダウンロードするにはどうすればよいですか？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-TQID: https://experienceleague.adobe.com/-1FEosKnw-h8hRoK-VTO9VZsi5vIghnMnZp-fUUXo2U
+TQID: 'https://experienceleague.adobe.com/-1FEosKnw-h8hRoK-VTO9VZsi5vIghnMnZp-fUUXo2U'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '738'
 ht-degree: 35%
-
 ---
-
 # CSV ファイル内のデータのダウンロード
 
 [!DNL Excel]、[!DNL Access]またはその他のデータ分析プログラムにすばやく読み込むために、.csv形式でデータをダウンロードします。

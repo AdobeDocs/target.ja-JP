@@ -1,22 +1,26 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;指標;指標の定義
-description: 指標の定義と [!DNL Target]  （A4T）のAnalyticsの使用に関する質問への回答を検索します。 A4Tを使用すると、Analytics レポートをAdobe [!DNL Target]  アクティビティで使用できます。
+description: '[!DNL Target] （A4T）の指標の定義とAnalyticsの使用に関する質問に対する回答を検索します。 A4Tでは、Analytics レポートをAdobe [!DNL Target]のアクティビティと共に使用できます。'
 title: A4Tを使用した指標定義に関する情報はどこで入手できますか？
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
-TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
+TQID: 'https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 367
+source-wordcount: '368'
 ht-degree: 44%
-
 ---
-
 # 指標の定義 - A4T FAQ
 
 このトピックには、指標の定義に関してよく寄せられる質問に対する回答と、[!DNL Adobe Analytics]を[!DNL Adobe Target] （A4T）のレポートソースとして使用する回答が含まれています。

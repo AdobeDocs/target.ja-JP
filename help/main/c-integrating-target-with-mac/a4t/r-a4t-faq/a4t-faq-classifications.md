@@ -4,21 +4,25 @@ description: 分類とTarget  （A4T）のAnalyticsの使用に関する質問�
 title: A4Tでの分類に関する情報はどこで入手できますか？
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-TQID: https://experienceleague.adobe.com/-BIklVbPaO9QGmnjN0eQdbLFXGA7c2sR-3s6OUli8BM
+TQID: 'https://experienceleague.adobe.com/-BIklVbPaO9QGmnjN0eQdbLFXGA7c2sR-3s6OUli8BM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: '336'
 ht-degree: 25%
-
 ---
-
 # 分類 - A4T FAQ
 
 このトピックには、分類に関してよく寄せられる質問に対する回答と、[!DNL Analytics]を[!DNL Target] （A4T）のレポートソースとして使用する回答が含まれています。

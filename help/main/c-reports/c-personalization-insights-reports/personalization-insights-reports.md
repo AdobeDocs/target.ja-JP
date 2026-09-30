@@ -5,27 +5,36 @@ title: Personalization インサイトレポートの使用方法を教えてく
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-TQID: https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI
+TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1023
+source-wordcount: '1023'
 ht-degree: 30%
-
 ---
-
 # [!UICONTROL Personalization インサイト &#x200B;] レポート
 
 [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] （AT）アクティビティのユーザーは、次の2つの特殊なレポートを利用できます。[!UICONTROL 自動セグメント &#x200B;]と[!UICONTROL 重要な属性] レポート。
@@ -38,23 +47,23 @@ ht-degree: 30%
 
 * [!UICONTROL Personalization インサイト &#x200B;] レポートは、次のように設定されたAPおよびAT アクティビティでのみ使用できます。
 
-   * [!DNL Target]件のレポート > [!UICONTROL &#x200B; コンバージョン &#x200B;]
+  * [!DNL Target]件のレポート > [!UICONTROL &#x200B; コンバージョン &#x200B;]
 
-     次に例を示します。
+    次に例を示します。
 
-     ![&#x200B; ターゲットレポート > コンバージョン &#x200B;](/help/main/c-reports/assets/conversion.png)
+    ![&#x200B; ターゲットレポート > コンバージョン &#x200B;](/help/main/c-reports/assets/conversion.png)
 
-   * [!DNL Analytics] レポート > [!DNL Conversion]
+  * [!DNL Analytics] レポート > [!DNL Conversion]
 
-     次に例を示します。
+    次に例を示します。
 
-     ![分析レポート > コンバージョン &#x200B;](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    ![分析レポート > コンバージョン &#x200B;](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
-   * [!DNL Analytics] レポート > [!UICONTROL Analytics指標を使用] > [!UICONTROL 訪問コンバージョン率を最大化]
+  * [!DNL Analytics] レポート > [!UICONTROL Analytics指標を使用] > [!UICONTROL 訪問コンバージョン率を最大化]
 
-     次に例を示します。
+    次に例を示します。
 
-     ![Analytics指標を使用する/訪問コンバージョン率を最大化](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+    ![Analytics指標を使用する/訪問コンバージョン率を最大化](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 

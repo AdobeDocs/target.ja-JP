@@ -1,28 +1,39 @@
 ---
 keywords: エクスペリエンス;コントロール;Automated Personalization;自動ターゲット
-description: ' [!DNL Adobe Target]で[!UICONTROL Automated Personalization] （AP）または[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択する方法について説明します。'
+description: '[!DNL Adobe Target]で[!UICONTROL Automated Personalization] （AP）または[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択する方法について説明します。'
 title: '[!UICONTROL Automated Personalization] アクティビティで特定のエクスペリエンスをコントロールとして使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-TQID: https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA
+TQID: 'https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '840'
 ht-degree: 38%
-
 ---
-
 # [!UICONTROL Automated Personalization]または[!UICONTROL 自動ターゲット &#x200B;] アクティビティのコントロールを選択します
 
 [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP）または[[!UICONTROL 自動ターゲット &#x200B;]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティを作成する際に、コントロールとして使用するランダムに提供されたエクスペリエンスまたは特定のエクスペリエンスを選択できます。
@@ -66,6 +77,6 @@ ht-degree: 38%
 * エクスペリエンスをコントロールとして選択すると、すべてのコントロールトラフィックは 1 つのエクスペリエンスまたはオファーのセットに向かうので、（コントロールトラフィック量がアクティビティのエクスペリエンスやオファーの数だけ分割されるランダムに比べて）通常、それほどトラフィックをコントロールに流す必要はありません。 10％が開始するのに適しています。
 * 特定のエクスペリエンスをコントロールとして含むライブアクティビティに対して以下のいずれかをおこなう場合、コントロールは、（以前選択していた特定のエクスペリエンスではなく）ランダムに提供されるエクスペリエンスに自動的にリセットされます。
 
-   * エクスペリエンスを削除する
-   * 場所またはオファーを削除（[!UICONTROL Automated Personalization]のみ）
-   * 重複するオファーを削除するか、除外グループ（[!UICONTROL Automated Personalization]のみ）を使用して、エクスペリエンスを手動で除外します
+  * エクスペリエンスを削除する
+  * 場所またはオファーを削除（[!UICONTROL Automated Personalization]のみ）
+  * 重複するオファーを削除するか、除外グループ（[!UICONTROL Automated Personalization]のみ）を使用して、エクスペリエンスを手動で除外します

@@ -5,18 +5,24 @@ title: レコメンデーションを他のアクティビティタイプでオ�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-TQID: https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4
+TQID: 'https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '571'
 ht-degree: 60%
-
 ---
-
 # オファーとしてのレコメンデーション
 
 [!UICONTROL A/B テスト &#x200B;] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット &#x200B;]を含む）および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができるようになりました。
@@ -60,7 +66,7 @@ ht-degree: 60%
    * [コレクション](/help/main/c-recommendations/c-products/collections.md)を選択します。
    * 必要に応じて、[プロモーション - 前とプロモーション - 後](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)オプションを設定します。
 
-1. 「[!UICONTROL 保存]」をクリックします。
+1. 「[!UICONTROL Save]」をクリックします。
 1. 3 ステップのガイドによるワークフローを使用して、A/B テストまたは XT アクティビティの設定を完了します。
 
 ## レコメンデーションオファーの設定の編集

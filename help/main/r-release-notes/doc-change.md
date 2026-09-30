@@ -1,34 +1,49 @@
 ---
 keywords: target ドキュメントの変更ログ；ドキュメントの更新；新しいトピック；編集；更新；更新；変更
-description: ' [!DNL Target]  ドキュメントへの重要な追加や変更について、常に最新の情報を把握します。'
-title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
+description: '[!DNL Target] ドキュメントの重要な追加と変更について、常に最新の状態を保ちます。'
+title: '[!DNL Target]のドキュメントの更新はどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
+TQID: 'https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+    internal-label: Privacy
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2647
-ht-degree: 33%
-
+source-wordcount: '2648'
+ht-degree: 32%
 ---
-
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
@@ -146,7 +161,7 @@ ht-degree: 33%
 | 6 月 26 日 | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 25.6.4 リリースに関するプレリリースノートを追加しました。 |
 | 6月20日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.6.3 リリースに関するリリースノートを追加しました。 |
 | 6月19日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 25.6.3 リリースに関するプレリリースノートを追加しました。 |
-| 6月16日（PT） |  [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [!DNL Target]  レポート | 新しいセクションを追加しました：[!DNL Customer Journey Analytics]でアクティビティレポートを作成および表示します。 |
+| 6月16日（PT） |  [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [!DNL Target]  レポート | 新しいセクションを追加しました：[!DNL Customer Journey Analytics]でアクティビティレポートを作成および表示します。 |
 |  | [Adobe Target cookie](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/target){target=_blank} | `sessionId`に中括弧（{}）を含めることができないことを追加するようにテキストを更新しました。<P>テキストが読み込まれるようになりました：セッション IDは、スペース、疑問符（?）を除いて、任意の印刷可能な文字列にできます。 ）、中括弧（{ }）、またはスラッシュ（/）。 長さは1 ～ 128文字にする必要があります。 |
 |  | [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | `sessionId`に中括弧（{}）を含めることができないことを追加するようにテキストを更新しました。<P> テキストが読み込まれるようになりました：セッション IDは、スペース、疑問符（?）を除いて、任意の印刷可能な文字列にできます。 ）、中括弧（{ }）、またはスラッシュ（/）。 長さは1 ～ 128文字にする必要があります。 |
 | 6月12日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.6.2 リリースに関するリリースノートを追加しました。 |

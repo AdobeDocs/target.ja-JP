@@ -1,21 +1,27 @@
 ---
 keywords: 自動トラフィック配分；ターゲティング；自動配分；自動配分
-description: ' [!DNL Adobe Target] の[!UICONTROL 自動割り当て] アクティビティが、2つ以上のエクスペリエンスの中から勝者を特定し、その勝者に対してより多くのトラフィックを自動的に再割り当てする方法について説明します。'
+description: '[!DNL Adobe Target]の[!UICONTROL 自動割り当て] アクティビティが、2つ以上のエクスペリエンスの中から勝者を特定し、その勝者に対してより多くのトラフィックを自動的に再割り当てする方法について説明します。'
 title: '[!UICONTROL 自動割り当て] アクティビティは、より迅速な結果と高い収益を得ることができますか？'
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
-TQID: https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk
+TQID: 'https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '561'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL 自動割り当て]を使用すると、手動テストよりも迅速なテスト結果と高い収益が得られます
 
 手作業のA/B アクティビティでは、アクティビティが完了するまでオーディエンス全体に優れたエクスペリエンスを提供できないため、コンバージョンが失われる可能性があります。 トラフィックの配分は、いくつかのエクスペリエンスが他のエクスペリエンスよりも優れていることを認識した後も固定されたままになり、勝者に対して行動を起こすには、アクティビティ全体を実行する必要があります。

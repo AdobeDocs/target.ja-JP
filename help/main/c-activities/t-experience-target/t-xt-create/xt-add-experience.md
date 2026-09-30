@@ -1,23 +1,29 @@
 ---
 keywords: エクスペリエンスの作成;エクスペリエンス作成;優先度;オーディエンス;エクスペリエンス;Visual Experience Composer
-description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Experience Targeting] （XT）アクティビティでページ上のエクスペリエンスを作成および編集する方法について説明します。'
+description: '[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Experience Targeting] （XT）アクティビティでページ上のエクスペリエンスを作成および編集する方法について説明します。'
 title: '[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティでエクスペリエンスを作成するにはどうすればよいですか？'
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+TQID: 'https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '978'
 ht-degree: 21%
-
 ---
-
 # [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティでのエクスペリエンスの作成
 
 [!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）は、[!UICONTROL Experience Targeting] （XT）アクティビティでページ上のエクスペリエンスを編集するためのビジュアルインターフェイスを提供します。
@@ -107,9 +113,9 @@ ht-degree: 21%
 
 >[!VIDEO](https://video.tv.adobe.com/v/38305?captions=jpn)
 
-### アクティビティ タイプ （9:03）
+### アクティビティの種類（9:03）
 
-このビデオでは、[!DNL Target] で利用できるアクティビティのタイプについて説明しています。 [!UICONTROL &#x200B; エクスペリエンスのターゲット設定]については、5:15から説明します。
+このビデオでは、[!DNL Target] で利用できるアクティビティのタイプについて説明しています。 [!UICONTROL &#x200B; エクスペリエンスのターゲット設定]については、5:15以降に説明します。
 
 * [!DNL Adobe Target] に含まれるアクティビティタイプの説明
 * 目標達成に適したアクティビティタイプの選択
@@ -124,4 +130,4 @@ ht-degree: 21%
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/29948?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

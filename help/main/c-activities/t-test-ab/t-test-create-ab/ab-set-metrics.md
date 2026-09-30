@@ -4,21 +4,28 @@ description: '[!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL
 title: A/B アクティビティで目標指標を設定するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-TQID: https://experienceleague.adobe.com/WE27AidwrwYLn-ZlnpxKNfOG2jT07iPYztdrovRl0Qk
+TQID: 'https://experienceleague.adobe.com/WE27AidwrwYLn-ZlnpxKNfOG2jT07iPYztdrovRl0Qk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 305
+source-wordcount: '305'
 ht-degree: 58%
-
 ---
-
 # 指標の設定
 
 [!DNL Adobe Target]のA/B アクティビティで指標を使用して、訪問が成功したタイミングを判断します。

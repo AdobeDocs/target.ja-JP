@@ -1,27 +1,37 @@
 ---
 keywords: target ユーザーインターフェイス；ユーザーインターフェイス；ui；お知らせ；イベント；通知
-description: ユーザーインターフェイスを理解し、詳細な情報へのリンクを見つけて、 [!DNL Target]を最大限に活用することができます。
-title: ' [!DNL Target] UI の使用方法'
+description: ユーザーインターフェイスを理解し、[!DNL Target]を最大限に活用するための詳細な情報へのリンクを見つけましょう。
+title: '[!DNL Target] UIの使用方法を教えてください。'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+TQID: 'https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1442
+source-wordcount: '1443'
 ht-degree: 25%
-
 ---
-
 # [!DNL Target] UI について
 
 ユーザーインターフェイスは、[!DNL Adobe Target] を最大限に活用できるよう、論理的かつユーザーにわかりやすい形式で配置されています。 次の概要は、[!DNL Target]について理解するのに役立ち、より詳細な情報と手順ごとの説明を示すリンクを提供します。
@@ -92,9 +102,9 @@ ht-degree: 25%
 
   通知は、次のサンプルのようにフォーマットされています。
 
-   * `Activity {target.activity.name} has been activated`
+  * `Activity {target.activity.name} has been activated`
 
-   * `Activity {target.activity.name} has been deactivated`
+  * `Activity {target.activity.name} has been deactivated`
 
 * **プロファイルスクリプト**: プロファイルスクリプトが手動または[!DNL Target]によってアクティブ化または非アクティブ化されたときの通知。
 
@@ -102,8 +112,8 @@ ht-degree: 25%
 
   通知は、次のサンプルのようにフォーマットされています。
 
-   * `Profile Script {target.profileScript.name} has been activated`
-   * `Profile Script {target.profileScript.name} has been deactivated`
+  * `Profile Script {target.profileScript.name} has been activated`
+  * `Profile Script {target.profileScript.name} has been deactivated`
 
 * **おすすめフィード**: [!DNL Recommendations] フィードが手動または[!DNL Target]によってアクティブ化または非アクティブ化されたときの通知。 [!DNL Recommendations] フィードが失敗した場合も、通知が送信されます。
 
@@ -111,10 +121,10 @@ ht-degree: 25%
 
   通知は、次のサンプルのようにフォーマットされています。
 
-   * `Feed  {target.feed.name} has been activated`
-   * `Feed {target.feed.name} has been deactivated`
-   * `Feed {target.feed.name} has failed`
-   * `Feed {target.feed.name} has failed to import from source`
+  * `Feed  {target.feed.name} has been activated`
+  * `Feed {target.feed.name} has been deactivated`
+  * `Feed {target.feed.name} has failed`
+  * `Feed {target.feed.name} has failed to import from source`
 
 個々の通知を読み取り済みとしてマークするには、目的の通知の上にカーソルを置き、[!UICONTROL 読み取り済みとしてマーク &#x200B;] （![読み取りアイコンとしてマーク &#x200B;](/help/main/assets/icons/CheckmarkCircle.svg)）アイコンをクリックします。 パネルの下部にある「[!UICONTROL 既読としてマーク &#x200B;]」または「[!UICONTROL すべてを表示]」をクリックすると、すべての通知を既読としてマークしたり、すべての通知を表示したりできます。
 

@@ -1,22 +1,29 @@
 ---
 keywords: 除外
-description: ' [!DNL Target Recommendations] で除外を作成して、製品またはコンテンツが訪問者に推奨されないようにする方法を説明します。'
+description: '[!DNL Target Recommendations]で除外を作成して、製品またはコンテンツが訪問者に推奨されないようにする方法を説明します。'
 title: '[!UICONTROL Recommendations]のアクティビティで除外を使用するにはどうすればよいですか？'
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+TQID: 'https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '529'
 ht-degree: 13%
-
 ---
-
 # 除外
 
 [!DNL Adobe Target Recommendations]に除外を作成して、製品またはコンテンツが訪問者に推奨されないようにします。 除外とは、訪問者に推奨すべきではない製品やコンテンツのサブセットのことです。

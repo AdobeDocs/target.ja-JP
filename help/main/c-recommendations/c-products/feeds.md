@@ -1,25 +1,32 @@
 ---
 keywords: レコメンデーションフィード；SAINT;ftp;csv；分類；analytics分類
-description: フィードがCSV ファイル、 [!DNL Google Product Search]  フィード形式、 [!DNL Analytics] 製品分類を使用して [!DNL Adobe Target] [!DNL Recommendations]にエンティティを読み込む方法について説明します。
-title: ' [!DNL Target Recommendations]で[!UICONTROL &#x200B; フィード &#x200B;]を使用するにはどうすればよいですか？'
+description: フィードが、CSV ファイル、[!DNL Google Product Search] フィード形式、[!DNL Analytics]製品の分類を使用して[!DNL Adobe Target] [!DNL Recommendations]にエンティティを読み込む方法について説明します。
+title: '[!DNL Target Recommendations]で[!UICONTROL &#x200B; フィード &#x200B;]を使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
+TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2725
-ht-degree: 36%
-
+source-wordcount: '2734'
+ht-degree: 37%
 ---
-
 # フィード
 
 フィードを使用して、[!DNL Adobe Target] [!DNL Recommendations]に読み込まれたエンティティを取得します。 エンティティは、CSV ファイル、[!DNL Google Product Search] フィード形式、[!DNL Adobe Analytics]製品の分類を使用して送信できます。
@@ -252,10 +259,10 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
      サポートされる FTP サーバー設定：
 
-      * FTP および FTPS は、パッシブ FTP を使用するように設定する必要があります。
-      * FTPSの場合は、明示的なFTPS接続を受け入れるようにサーバーを設定します。
-      * SFTP はサポートされていません。
-      * 接続を開始するポートを手動で指定できます（例：`ftp://ftp.yoursite.com:2121`）。 ポートを指定しない場合、デフォルト FTP または FTPS ポートが使用されます。
+     * FTP および FTPS は、パッシブ FTP を使用するように設定する必要があります。
+     * FTPSの場合は、明示的なFTPS接続を受け入れるようにサーバーを設定します。
+     * SFTP はサポートされていません。
+     * 接続を開始するポートを手動で指定できます（例：`ftp://ftp.yoursite.com:2121`）。 ポートを指定しない場合、デフォルト FTP または FTPS ポートが使用されます。
 
    * **URL**: [!UICONTROL URL]を選択した場合は、URLを指定します。
 
@@ -280,7 +287,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
    デフォルトでは、フィードはすべてのホストグループに所属しています。 これで、このフィードの品目はどの環境でも利用できるようになります。 詳しくは、[ホスト](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 フィードを作成または編集すると、フィードはすぐに実行されます。 フィードは、設定したパラメーターに従って更新されます。 情報が公開されるまでに時間がかかります。 まず、フィードの同期が実行され、処理をおこなってインデックスが構築された上で、発行されて使用可能になります。 現在のステータスは、[!UICONTROL &#x200B; フィード &#x200B;] リストの[&#x200B; フィード ステータス &#x200B;](/help/main/c-recommendations/c-products/feeds.md#status)に表示されます。 処理が終了する前に [!DNL Target] を閉じても構いません。処理は継続されます。
 
@@ -331,15 +338,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 **例 1:**
 
-* 初日：午前9:00 （太平洋標準時）の毎日のフィード処理。
-* 2日目：午後3時で、フィードは昨日の午前9時から実行されていません。:30:00
+* 初日：午前9時（太平洋標準時）から毎日の給餌プロセス。
+* 2 日目：午後 3:30 時点で、昨日の午前 9:00 以降、フィードが実行されていません。
 
 インデックスは約 6.5 時間前に実行されているはずだったので、ステータスは黄色になります。 6.5 時間 +24 はフィード期間の 127％です。
 
 **例 2:**
 
-* 1月1日：PSTの午前9:00時に月次フィード処理を行います。
-* 2月3日：午前10時:00で、フィードが1か月、1日、1時間前に実行されていません。
+* 1月1日：PSTの午前9時に毎月のフィード処理。
+* 2月3日午前10時で、フィードは1か月、1日、1時間前に実行されていません。
 
 インデックスは約 1 日と 1 時間前に実行されているはずだったので、ステータスは黄色になります。 これは、わずか（31+（1/25））/30 = 1.03％の頻度設定にもかかわらず、1 日の遅延の最大値を上回ります。
 
@@ -347,7 +354,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Recommendations （3:01）のフィードについて![概要バッジ &#x200B;](/help/main/assets/overview.png)
+### Recommendationsのフィードについて（3:01） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 

@@ -1,28 +1,36 @@
 ---
 keywords: クリック追跡;クリックの追跡;クリック;AppMeasurement
-description: ' [!DNL Adobe Target]  を使用して任意の要素に対するクリックを成功指標として追跡する方法を説明します。'
+description: '[!DNL Adobe Target]で、任意の要素のクリックを成功指標として追跡する方法を説明します。'
 title: クリックの追跡とは
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+TQID: 'https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
-workflow-type: ht
-source-wordcount: 942
-ht-degree: 100%
-
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 98%
 ---
-
 # クリックの追跡
 
-[!DNL Adobe Target] では、任意の要素のクリックを成功指標として追跡できます。クリックの追跡とは、web ページやエクスペリエンス内の要素のクリック数を中心に、ユーザーのインタラクションを監視および記録するプロセスです。これは、A/B テスト、多変量テスト、パーソナライゼーションアクティビティにおいて、エンゲージメントとパフォーマンスを測定するための重要な要素です。
+[!DNL Adobe Target] では、任意の要素のクリックを成功指標として追跡できます。 クリックの追跡とは、web ページやエクスペリエンス内の要素のクリック数を中心に、ユーザーのインタラクションをモニタリングおよび記録するプロセスです。 これは、A/B テスト、多変量テスト、パーソナライゼーションアクティビティにおいて、エンゲージメントとパフォーマンスを測定するための重要な要素です。
 
 >[!NOTE]
 >
@@ -49,7 +57,7 @@ ht-degree: 100%
 
 ![選択された要素パネル](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-[!UICONTROL Tracked Components] パネルで要素をクリックすると、いくつかのアクションを適用できます。以下の表で、要素で実行できる各操作を説明します。
+[!UICONTROL Tracked Components] パネルで要素をクリックすると、いくつかのアクションを適用できます。 以下の表で、要素で実行できる各操作を説明します。
 
 | アクション | 説明 |
 | --- | --- |
@@ -111,7 +119,7 @@ ht-degree: 100%
 
 * 複数のアクティビティで、同じセレクターのクリック追跡指標を定義できます。 その場合、訪問者がそのアクティビティの 1 つに該当し、そのセレクターをクリックすると、クリック追跡指標は、その訪問者が該当するすべての関連アクティビティについて増加します。
 
-* [!UICONTROL Automated Personalization]（AP）およびシングルページアプリケーション（SPA）上の自動ターゲットアクティビティの場合、特定の [!DNL Target] ビューに属するクリックの追跡用の要素を選択できます。ビューについて詳しくは、[Adobe Target ビューとシングルページアプリケーション](/help/main/c-experiences/spa-visual-experience-composer.md)を参照してください。
+* [!UICONTROL Automated Personalization]（AP）およびシングルページアプリケーション（SPA）上の自動ターゲットアクティビティの場合、特定の [!DNL Target] ビューに属するクリックの追跡用の要素を選択できます。 ビューについて詳しくは、[Adobe Target ビューとシングルページアプリケーション](/help/main/c-experiences/spa-visual-experience-composer.md)を参照してください。
 
 ## トレーニングビデオ {#section_36607204DAE146E3B8E2C609D244EDB1}
 

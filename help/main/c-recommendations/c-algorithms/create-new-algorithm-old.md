@@ -5,13 +5,20 @@ title: レコメンデーションで基準を作成するにはどうすれば�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2934'
 ht-degree: 49%
-
 ---
-
 # 条件の作成
 
 [!UICONTROL Adobe Target] [!UICONTROL Recommendations]の条件によって、[!UICONTROL Recommendations] アクティビティの内容が制御されます。 アクティビティに最適なレコメンデーションを表示するために、条件を作成します。 これらの基準では、訪問者のアクションを使用して、表示するコンテンツや商品を決定します。
@@ -68,7 +75,7 @@ ht-degree: 49%
 
    業種とページタイプをともに使用して、保存した条件を分類し、他の [!DNL Recommendations] アクティビティで簡単に再利用できるようにします。
 
-## [!UICONTROL Recommendations アルゴリズム &#x200B;] {#rec-algo}
+## [!UICONTROL レコメンデーションアルゴリズム] {#rec-algo}
 
 1. **[!UICONTROL アルゴリズムタイプ]**&#x200B;と&#x200B;**[!UICONTROL アルゴリズム]**&#x200B;を選択します。
 

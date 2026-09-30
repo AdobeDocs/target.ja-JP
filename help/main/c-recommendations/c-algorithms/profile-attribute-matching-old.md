@@ -1,17 +1,24 @@
 ---
 keywords: 包含ルール；包含基準；レコメンデーション；プロモーション；動的フィルタリング；動的；プロファイル属性の一致
-description: Adobe [!DNL Target] Recommendationsで、項目（エンティティ）とユーザープロファイルの値を比較して動的にフィルタリングする方法について説明します。
+description: ユーザーのプロファイル内の値と項目（エンティティ）を比較して、Adobe [!DNL Target]のRecommendationsで動的にフィルタリングする方法について説明します。
 title: Recommendations アクティビティでプロファイル属性の一致をフィルタリングするにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '504'
 ht-degree: 10%
-
 ---
-
 # プロファイル属性のマッチング
 
 ユーザーのプロファイル内の値に対して項目（エンティティ）を比較することにより、[!DNL Adobe Target] [!DNL Recommendations]で動的にフィルタリングします。

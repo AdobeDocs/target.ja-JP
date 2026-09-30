@@ -1,17 +1,24 @@
 ---
 keywords: 自動パーソナライゼーション；アプリ
-description: '[!UICONTROL Visual Experience Composer]を使用して [!DNL Adobe Target] で[!UICONTROL Automated Personalization] （AP） アクティビティを作成する方法について説明します。'
+description: '[!UICONTROL Visual Experience Composer]を使用して[!DNL Adobe Target]で[!UICONTROL Automated Personalization] （AP） アクティビティを作成する方法について説明します。'
 title: '[!UICONTROL Automated Personalization] アクティビティを作成するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1927'
-ht-degree: 32%
-
+source-wordcount: '1928'
+ht-degree: 33%
 ---
-
 # [!UICONTROL Automated Personalization] アクティビティの作成
 
 [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Adobe Target]で[!UICONTROL Automated Personalization] （AP） アクティビティを作成します。
@@ -121,7 +128,7 @@ ht-degree: 32%
    ![トラフィック配分目標ドロップダウンリスト](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
    * **[!UICONTROL Personalization アルゴリズムの評価（50/50） &#x200B;]:** アルゴリズムのテストを目標としている場合は、コントロールとターゲット アルゴリズムの間の訪問者の割合を50/50%に設定します。 この配分により、上昇率を最も正確に推定できます。 「ランダムエクスペリエンス」をコントロールとして使用する場合にお勧めします。
-   * **[!UICONTROL Personalization トラフィックの最大化（90/10） &#x200B;]:**&#x200B;目標が「常時稼動」アクティビティの作成である場合は、訪問者の10%をコントロールに入れます。 このオプションにより、アルゴリズムが継続的に学習するのに十分なデータが確保されます。 ここでのトレードオフは、より多くのトラフィックをパーソナライズする見返りとして、正確な上昇率を把握する精度が低くなることです。 特定のエクスペリエンスをコントロールとして使用する場合、このオプションは目標に関係なく推奨されるトラフィック分割です。
+   * **[!UICONTROL Personalization トラフィックの最大化（90/10） &#x200B;]:**&#x200B;目標が「常時稼動」アクティビティの作成である場合は、訪問者の10%をコントロールに入れます。 このオプションにより、アルゴリズムが継続的に学習するのに十分なデータが確保されます。 この場合は、トラフィックの大部分をパーソナライズ対象にする代わりに、推定上昇率の精度が落ちるというデメリットがあります。 特定のエクスペリエンスをコントロールとして使用する場合、このオプションは目標に関係なく推奨されるトラフィック分割です。
    * **[!UICONTROL カスタム割り当て]:**&#x200B;必要に応じて、手動で割合を分割します。
 
 1. （条件付き）「[!UICONTROL &#x200B; コントロール &#x200B;]」ドロップダウンリストから、[&#x200B; コントロールとして使用する特定のエクスペリエンスを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)するか、[!UICONTROL &#x200B; ランダムなエクスペリエンスを選択]します。

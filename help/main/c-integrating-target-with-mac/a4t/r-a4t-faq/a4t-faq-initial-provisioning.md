@@ -1,25 +1,30 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;プロビジョニング;プロビジョニング;adobe Experience Cloud
-description: Analytics for  [!DNL Target]  （A4T）のプロビジョニングに関してよく寄せられる質問に対する回答を検索します。この質問では、 [!DNL Target]  アクティビティにAnalytics レポートを使用できます。
+description: '[!DNL Target]のアクティビティにAnalytics レポートを使用できる[!DNL Target] （A4T）のAnalyticsのプロビジョニングに関してよく寄せられる質問に対する回答を見つけます。'
 title: A4T初期プロビジョニングに関する情報はどこで入手できますか？
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-TQID: https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw
+TQID: 'https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '477'
 ht-degree: 61%
-
 ---
-
 # 初期プロビジョニング - A4T FAQ
 
 このトピックには、[!DNL Adobe Target] （A4T）のレポートソースとして[!DNL Adobe Analytics]をプロビジョニングすることについてよく寄せられる質問に対する回答が含まれています。

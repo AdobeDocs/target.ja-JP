@@ -5,31 +5,41 @@ title: '[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-TQID: https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k
+TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1062
-ht-degree: 19%
-
+source-wordcount: '1062'
+ht-degree: 20%
 ---
-
 # [!UICONTROL 自動ターゲット &#x200B;] アクティビティの作成
 
 [!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL 自動ターゲット &#x200B;] [!UICONTROL A/B テスト &#x200B;] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
 
 >[!NOTE]
 >
->[!UICONTROL 自動ターゲット &#x200B;]は、[!DNL Target Premium] ソリューションの一部として利用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。 このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md) を参照してください。
+>[!UICONTROL 自動ターゲット]は、この [!DNL Target Premium] ソリューションの一部として使用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。 このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md) を参照してください。
 
 [!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成するには：
 
@@ -119,7 +129,7 @@ ht-degree: 19%
 
 1. 「**[!UICONTROL トラフィック配分]**」コントロールをクリックし、右側のペインで目的のトラフィック配分方法を選択します。 このシナリオでは、**[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]**&#x200B;をクリックします。
 
-   ![&#x200B; トラフィック配分メソッドの設定](/help/main/c-activities/assets/auto-target.png)
+   ![トラフィック配分方法の設定](/help/main/c-activities/assets/auto-target.png)
 
    次のトラフィック割り当て方法を使用できます。
 

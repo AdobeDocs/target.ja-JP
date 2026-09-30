@@ -1,16 +1,23 @@
 ---
 keywords: ターゲティング;成功;コンバージョン指標;ページスコア指標;ページビュー指標;売上高指標;サイト滞在時間指標;推定値;詳細設定;成功指標;詳細設定;依存関係;依存;カウントを増分、アクティビティでユーザーを保持;カウントを増分、ユーザーをリリース、再エントリを許可;カウントを増分、ユーザーをリリース、再エントリを許可しない;
-description: アクティビティの成功を判断するのに役立つ、Adobe  [!DNL Target]  の成功指標について学びます。 成功指標には、コンバージョン、売上高、ページビュー数、カスタムスコア、サイト滞在時間が含まれます。
+description: アクティビティの成功を判断するのに役立つAdobe [!DNL Target]の成功指標について説明します。 成功指標には、コンバージョン、売上高、ページビュー数、カスタムスコア、サイト滞在時間が含まれます。
 title: 成功指標とは
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 77%
-
+source-wordcount: '1279'
+ht-degree: 76%
 ---
-
 # 成功指標
 
 [!DNL Adobe Target] の成功指標は、アクティビティの成功の測定に使用されるパラメーターです。 成功指標には、[!DNL Target] アクティビティの特定のエクスペリエンスやオファーの成功を判定できる、主要なビジネス指標が含まれます。

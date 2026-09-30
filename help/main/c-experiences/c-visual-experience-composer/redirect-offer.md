@@ -1,26 +1,31 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 同じページにコンテンツを表示するのではなく、別のページに訪問者を送信する場合に、Adobe [!DNL Target] で「URLにリダイレクト」オプションを使用する方法を説明します。
+description: 同じページにコンテンツを表示するのではなく、別のページに訪問者を送信する場合に、Adobe [!DNL Target]で「URLにリダイレクト」オプションを使用する方法を説明します。
 title: ページを別のURLにリダイレクトできますか？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-TQID: https://experienceleague.adobe.com/8Bh5z7SRWw3QqKQMHZck01GKVBtMufwLbw9JxLsSACU
+TQID: 'https://experienceleague.adobe.com/8Bh5z7SRWw3QqKQMHZck01GKVBtMufwLbw9JxLsSACU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: '486'
 ht-degree: 80%
-
 ---
-
 # URL にリダイレクト
 
 同じページにコンテンツを表示するのではなく、別のページに訪問者を送信する場合は、[!DNL Adobe Target]の「[!UICONTROL URLにリダイレクト &#x200B;]」オプションを使用します。

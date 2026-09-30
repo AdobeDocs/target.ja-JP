@@ -1,24 +1,28 @@
 ---
 keywords: ターゲティング；分析；トラッキングサーバー；ターゲット用の分析；a4t
-description: レポートソース（A4T）として [!DNL Adobe Analytics] を使用するように [!DNL Adobe Target] でアクティビティを設定する方法について説明します。
-title: ' [!DNL Target]で [!DNL Analytics]  データを使用するにはどうすればよいですか？'
+description: '[!DNL Adobe Analytics]をレポートソース （A4T）として使用するように[!DNL Adobe Target]でアクティビティを設定する方法について説明します。'
+title: '[!DNL Target]で[!DNL Analytics] データを使用するにはどうすればよいですか？'
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-TQID: https://experienceleague.adobe.com/x38YsYI4a6-92oOr6Fs3RfKrJHbSaLNj0cki5CInPPg
+TQID: 'https://experienceleague.adobe.com/x38YsYI4a6-92oOr6Fs3RfKrJHbSaLNj0cki5CInPPg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '495'
 ht-degree: 19%
-
 ---
-
 # [!DNL Adobe Analytics] データを使用しています
 
 [!DNL Adobe Analytics]をレポートソース （A4T）として使用するように、[!DNL Adobe Target]のアクティビティを設定できます。

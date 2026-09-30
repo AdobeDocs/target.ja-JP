@@ -1,22 +1,28 @@
 ---
 keywords: レコメンデーションデザイン;デザインの作成;デザインのコピー
-description: デフォルトデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成して、 [!DNL Target Recommendations]  デザインを作成する方法を説明します。
+description: デフォルトデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成して、[!DNL Target Recommendations] デザインを作成する方法について説明します。
 title: レコメンデーションでデザインを作成するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1065
+source-wordcount: '1067'
 ht-degree: 27%
-
 ---
-
 # デザインの作成
 
 デザインによって、レコメンデーションがページに表示される方法が定義されます。
@@ -318,7 +324,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：レコメンデーションでカスタムデザインを作成（3:20） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 

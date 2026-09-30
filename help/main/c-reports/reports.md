@@ -1,25 +1,32 @@
 ---
 keywords: レポート；ブロック ip アドレス；ブロック訪問者のip アドレス；レポートのダウンロード；csv；レポート
-description: ' [!DNL Adobe Target]のレポート機能を使いこなしてアクティビティを最適化し、意思決定を強化してROIを向上させます。'
+description: '[!DNL Adobe Target]のレポート機能を使いこなしてアクティビティを最適化し、意思決定を強化してROIを向上させます。'
 title: レポートを表示するにはどうすればよいですか？
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-TQID: https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI
+TQID: 'https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: '948'
 ht-degree: 25%
-
 ---
-
 # レポート
 
 レポートでは、データに基づいた意思決定に役立つ、[!DNL Adobe Target] アクティビティの進捗状況と結果に関する情報が提供されます。 レポートデータは、アクティビティを終了するタイミングを決定し、勝者となるエクスペリエンスやオファーを示し、次のアクションを決定するために必要なインサイトや学びを提供するのに役立ちます。
@@ -83,7 +90,7 @@ ht-degree: 25%
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md)（AP） | AP アクティビティに関する2つの[!UICONTROL Automated Personalization概要] レポートに関する情報：[!UICONTROL &#x200B; アクティビティレベル &#x200B;] レポートと[!UICONTROL &#x200B; オファーレベル &#x200B;] レポート。 詳細については、[Automated Personalizationの概要レポート &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md)を参照してください。<br>ATおよびAP アクティビティに関する2つの[!UICONTROL Personalization インサイト &#x200B;] レポートに関する情報：[!UICONTROL 自動セグメント &#x200B;] レポートと[!UICONTROL 重要な属性] レポート。 詳しくは、「[パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)」を参照してください。 |
 | [[!UICONTROL 多変量分析テスト]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) （MVT） | MVT アクティビティの2つのレポートに関する情報：[!UICONTROL Experience Performance] レポートと[!UICONTROL Location Contribution] レポート。 詳しくは、[Experience Performance Report](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) （MVT）および[Location Contribution Report](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) （MVT）を参照してください。 |
 | [[!DNL Adobe Analytics] Adobe Target用Reporting Sourceとして](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T） | [!DNL Target] （A4T）のレポートソースとして[!DNL Adobe Analytics]を使用する方法について説明します。 A4T では、[!DNL Target] アクティビティの [!DNL Analytics] レポートにアクセスできます。 詳しくは、「[Analytics for Target（A4T）レポート](/help/main/c-reports/analytics-for-target-a4t-reporting.md)」を参照してください。 |
-|  [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [!DNL Target]  レポート | [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/customer-journey-analytics){target=_blank}と[!DNL Target]の間の統合に関する情報で、最適化プログラムに強力な分析ツールと時間節約ツールを提供します。 |
+|  [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [!DNL Target]  レポート | [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/customer-journey-analytics){target=_blank}と[!DNL Target]の間の統合に関する情報で、最適化プログラムに強力な分析ツールと時間節約ツールを提供します。 |
 
 ## 指定されたIP アドレスからのレポート データをブロック
 

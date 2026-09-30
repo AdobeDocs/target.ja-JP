@@ -1,27 +1,34 @@
 ---
 keywords: レポート；レポート；レポート；experience cloud ソリューション；タイムゾーン；タイムゾーン；通貨；IPの除外；収益の推定上昇率；収益の上昇率；収益の増加；きめ細かい優先順位；きめ細かい設定
-description: ' [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] をレポートソースとして使用し、デフォルトのタイムゾーンと通貨形式を指定し、レポートから除外するIP アドレスを追加します。'
-title: ' [!DNL Target]でレポートを設定するにはどうすればよいですか？'
+description: '[!DNL Target]、[!DNL Adobe Analytics]または[!DNL Adobe Customer Journey Analytics]をレポートソースとして使用し、デフォルトのタイムゾーンと通貨形式を指定し、レポートから除外するIP アドレスを追加します。'
+title: '[!DNL Target]でレポートを設定するにはどうすればよいですか？'
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
+TQID: 'https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '825'
 ht-degree: 21%
-
 ---
-
 # [!DNL Target]でのレポートの設定
 
 [!DNL Target] アカウント全体に適用される[!DNL Adobe Target] レポートで使用する一般設定を構成します。

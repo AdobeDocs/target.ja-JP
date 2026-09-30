@@ -4,13 +4,14 @@ description: フラグの機能フラグと機能グループの違いと、そ�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 4%
-
 ---
-
 # 機能と機能グループ {#features-feature-groups}
 
 フラグには、機能のロールアウトを管理するための2つのアーティファクトが用意されています。 適切なCMSを選定するには、導入範囲と機能の数によって異なります。

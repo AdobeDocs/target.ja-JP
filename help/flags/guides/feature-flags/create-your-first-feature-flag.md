@@ -4,13 +4,14 @@ description: フラグで機能フラグを作成し、オーディエンスを�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 2%
-
+ht-degree: 4%
 ---
-
 # 最初の機能フラグを作成 {#create-feature-flag}
 
 ## 前提条件 {#prerequisites}

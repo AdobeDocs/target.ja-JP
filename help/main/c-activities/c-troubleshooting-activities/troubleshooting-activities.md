@@ -1,23 +1,28 @@
 ---
 keywords: target のトラブルシューティング;target トラブルシューティング;デフォルトコンテンツ;テストが実行されない;アクティビティが実行されない;ターゲティングが動作しない;以前のエクスペリエンスが表示される;アクティビティを作成できない;アクティビティを作成できない;アクティビティの作成;ページ構造の変更;ページ構造の修正;エラーメッセージ;プロファイルスクリプト削除エラー;ajax が動作しない
-description: Adobe  [!DNL Target] アクティビティがサイトに表示されない場合は、トラブルシューティングの提案を調べます。
+description: Adobe [!DNL Target] アクティビティがサイトに表示されない場合のトラブルシューティングの提案を見つけます。
 title: アクティビティのトラブルシューティング方法
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
+TQID: 'https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 43%
-
+source-wordcount: '867'
+ht-degree: 41%
 ---
-
 # アクティビティのトラブルシューティング
 
 サイトに [!DNL Adobe Target] アクティビティが表示されない場合は、ここに示すトラブルシューティングの提案が解決に役立ちます。

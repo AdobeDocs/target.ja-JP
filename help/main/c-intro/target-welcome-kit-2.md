@@ -4,36 +4,56 @@ description: Adobe Target を俯瞰的に見る。 利用可能なアクティ�
 title: Target の概要はどこで確認できますか？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+TQID: 'https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f599e456-545c-47e5-8e50-b7dfe3579517
+    internal-label: Governance and control
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: a94ced60-8199-4549-b453-ede2acb4101e
+    internal-label: Hybrid implementation
   - id: b06652e6-189f-46a9-90c5-677f6d9cc699
+    internal-label: Adobe Admin Console for Enterprise
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2606
+source-wordcount: '2606'
 ht-degree: 72%
-
 ---
-
 # 第 2 章：Adobe [!DNL Target] の概要
 
 [!DNL Adobe Target] を使い始める前に、ソリューションの概要を理解しておくと役に立つでしょう。 この章では、ソリューションの主な機能、使用できるブランドのタッチポイント、実装オプション、重要なユーザーインターフェイス機能とワークフロー、ガバナンス機能、および全体的な[!DNL Adobe Experience Cloud]でのソリューションの役割について説明します。 [!DNL Adobe Target Premium] 機能として特に記載がない限り、この章で説明する項目は [!DNL Adobe Target Premium] と [!DNL Adobe Target Standard] の両方で利用できます。 詳細情報は、[Adobe Target の概要](/help/main/c-intro/intro.md)を参照してください。
@@ -50,7 +70,7 @@ ht-degree: 72%
 
 | アクティビティタイプ | 詳細 |
 | --- | --- |
-| A/B テスト | Web サイト上の複数のエクスペリエンスやオファーのバリエーション、または他のデジタル顧客のタッチポイントを比較して、事前に指定したテスト期間中に主要ビジネス指標を最も改善するバリエーションを調べます。 A/B テストは、新しい Web ページレイアウト、サイトナビゲーションに対するアプローチの違い、コピー、画像、誘い文句（CTA：コールトゥアクション）ボタンなどのデジタルエクスペリエンスの個々の要素の扱いが大幅に異なるなど、変更が大きい場合に適しています。 [詳細情報](/help/main/c-activities/t-test-ab/test-ab.md) |
+| A/B テスト | Web サイト上の複数のエクスペリエンスやオファーのバリエーション、または他のデジタル顧客のタッチポイントを比較して、事前に指定したテスト期間中に主要ビジネス指標を最も改善するバリエーションを調べます。 A/B テストは、新しい web ページレイアウト、サイトナビゲーションに対するアプローチの違い、コピー、画像、誘い文句（CTA：コールトゥアクション）ボタンなどのデジタルエクスペリエンスの個々の要素の扱いが大幅に異なるなど、変更が大きい場合に適しています。 [詳細情報](/help/main/c-activities/t-test-ab/test-ab.md) |
 | 自動配分 | 2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やしてコンバージョンを促進します。その間もテストによる学習は続けられます。 [!DNL Adobe Adobe AI] を活用した人工知能を使用します。 [詳細情報](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) |
 | 自動ターゲット<br>（Premium） | [!DNL Target]のAdobe AIを活用して、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に対する複数のエクスペリエンスの最適なエクスペリエンスを判断して配信します。 自動ターゲットでは、大規模にパーソナライズ機能を実行できます。 [詳細情報](/help/main/c-activities/auto-target/auto-target-to-optimize.md) |
 | Automated Personalization<br>（Premium） | [!DNL Adobe Adobe AI] を活用した高度な機械学習アルゴリズムと自動化機能を使用して、オファーでの画像、コピー、その他の要素の様々な組み合わせを確認し、訪問者あたりのコンバージョンや売上高の増加など、ビジネス目標を最も達成できる最適な組み合わせを各訪問者に提供します。 [詳細情報](/help/main/c-activities/t-automated-personalization/automated-personalization.md) |

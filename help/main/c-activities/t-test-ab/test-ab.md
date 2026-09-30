@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n；エクスペリエンスの比較；ターゲティング；コンテンツの比較；自動ターゲット；自動割り当て
-description: ' [!DNL Target] ～[!UICONTROL 手動]、[!UICONTROL 自動割り当て]、[!UICONTROL 自動ターゲット &#x200B;]のA/B テスト アクティビティを確認します。'
-title: ' [!DNL Target]で利用可能なA/B テスト アクティビティを確認します。'
+description: '[!DNL Target] - [!UICONTROL 手動]、[!UICONTROL 自動割り当て]、[!UICONTROL 自動ターゲット &#x200B;]のA/B テスト アクティビティを確認します。'
+title: '[!DNL Target]で利用可能なA/B テスト アクティビティを確認します。'
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-TQID: https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg
+TQID: 'https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '757'
 ht-degree: 19%
-
 ---
-
 # A/B テストの概要
 
 手動の[!UICONTROL A/B テスト &#x200B;] アクティビティ（「A/B...N テスト」とも呼ばれます）は、Web サイトのコンテンツの2つ以上のバージョンを比較し、どのバージョンがコンバージョン、売上、またはその他の指標を最も向上させるかを確認します。 A/B テストを使用して、ページに加えた変更をデフォルトのページデザインと比較することで、最も適した結果を生成するエクスペリエンスを決定できます。
@@ -58,7 +66,7 @@ A/B テストを設定することで、各エクスペリエンスを利用し�
    * [!UICONTROL 最適なエクスペリエンスに自動割り当て]
    * [!UICONTROL &#x200B; パーソナライズされたエクスペリエンスの自動ターゲット &#x200B;]
 
-   ![&#x200B; トラフィック配分メソッドの設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![トラフィック配分方法の設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
 ## A/B アクティビティにレコメンデーションを含める
 

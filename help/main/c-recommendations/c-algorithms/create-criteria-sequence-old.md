@@ -1,17 +1,24 @@
 ---
 keywords: 条件シーケンス；複数の条件；アルゴリズム；条件；推奨事項の条件；シーケンス；返されるアイテム数の制限；スロットレベル制御；スロット
-description: Adobe [!DNL Target] Recommendations アクティビティに表示される項目をより効果的に制御するために、最大5つの条件のシーケンスを設定する方法を説明します。
+description: Adobe [!DNL Target] Recommendations アクティビティに表示される項目をより効果的に制御するために、最大5つの条件のシーケンスを設定する方法について説明します。
 title: レコメンデーションで基準シーケンスを作成するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '868'
 ht-degree: 32%
-
 ---
-
 # 条件のシーケンスの作成
 
 最大 5 つの条件のシーケンスを使用して、[!UICONTROL Recommendations] アクティビティで表示される項目をより詳細に制御します。 返されるアイテムの数を制限することもできます（「スロットレベル制御」と呼ばれることもあります）。
@@ -81,7 +88,7 @@ ht-degree: 32%
 
 1. [&#x200B; コンテンツのバックアップ オプション &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を有効にします。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
    条件のシーケンスが条件リストに表示されます。
 

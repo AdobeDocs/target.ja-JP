@@ -1,24 +1,31 @@
 ---
 keywords: 自動ターゲティングの作成；A/B テスト；自動ターゲティングアクティビティ；新しいA/B アクティビティ；自動ターゲティング；パーソナライズされたエクスペリエンスの自動ターゲティング；パーソナライズされた；最適化
-description: ' [!DNL Adobe Target] の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 自動ターゲット &#x200B;] A/B テスト アクティビティを作成する方法を説明します。'
+description: '[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 自動ターゲット &#x200B;] A/B テスト アクティビティを作成する方法を説明します。'
 title: '[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '904'
 ht-degree: 41%
-
 ---
-
 # [!UICONTROL 自動ターゲット &#x200B;] アクティビティの作成
 
 [!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL 自動ターゲット &#x200B;] [!UICONTROL A/B テスト &#x200B;] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
 
 >[!NOTE]
 >
->[!UICONTROL 自動ターゲット &#x200B;]は、[!DNL Target Premium] ソリューションの一部として利用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。 このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md) を参照してください。
+>[!UICONTROL 自動ターゲット]は、この [!DNL Target Premium] ソリューションの一部として使用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。 このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md) を参照してください。
 
 [!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成するには：
 
@@ -113,7 +120,7 @@ ht-degree: 41%
 
 アクティビティを作成すると、「[!UICONTROL 概要]」タブに、アクティビティに関する情報（アクティビティの図を含む）が表示されます。
 
-## トレーニング ビデオ：A/B テストの作成（8:36）
+## トレーニングビデオ：A/B テストの作成（8:36）
 
 このビデオでは、[!DNL Target] で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。
 

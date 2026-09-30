@@ -1,17 +1,21 @@
 ---
 keywords: 自動パーソナライゼーション；オファー；レポート；グループ；レポートグループ；アプリ
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] アクティビティでオファーレポートグループを使用する方法について説明します。'
+description: '[!DNL Adobe Target] [!UICONTROL Automated Personalization] アクティビティでオファーレポートグループを使用する方法について説明します。'
 title: '[!UICONTROL Automated Personalization] アクティビティでオファーレポートグループを使用できますか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '891'
 ht-degree: 27%
-
 ---
-
 # [!UICONTROL Automated Personalization]のオファーレポートグループ
 
 [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP）アクティビティでのレポートグループの使用に関する情報。

@@ -1,17 +1,24 @@
 ---
 keywords: レコメンデーションデザイン;デザインの作成;デザインのコピー
-description: デフォルトデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成して、Adobe [!DNL Target] Recommendations デザインを作成する方法を説明します。
+description: デフォルトデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成して、Adobe [!DNL Target] Recommendations デザインを作成する方法について説明します。
 title: レコメンデーションでデザインを作成するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1063'
 ht-degree: 28%
-
 ---
-
 # デザインの作成
 
 デザインによって、レコメンデーションがページに表示される方法が定義されます。
@@ -67,7 +74,7 @@ ht-degree: 28%
    >
    >デザインで参照できるエンティティの最大数は、ハードコーディングの場合もループの場合も 99 です。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ### カスタムデザインの作成
 
@@ -83,7 +90,7 @@ ht-degree: 28%
 
    詳しくは、上記の手順4の情報を参照してください。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## デザインの編集、コピー、削除
 
@@ -320,7 +327,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：Recommendations （3:20）でカスタムデザインを作成する![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：レコメンデーションでカスタムデザインを作成（3:20） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 

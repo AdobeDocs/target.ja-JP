@@ -1,23 +1,28 @@
 ---
 keywords: 多変量分析;mvt;指標;指標の設定;目標指標;アクティビティ設定;成功指標;コンバージョン;売上高;エンゲージメント
-description: '[!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]など、訪問が成功したかどうかを判断するために、 [!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;] アクティビティで指標を指定する方法について説明します。'
+description: '[!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;] アクティビティで指標を指定して、訪問が成功したかどうかを判断する方法（[!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]など）について説明します。'
 title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティで目標の指標を設定するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-TQID: https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw
+TQID: 'https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 59%
-
+source-wordcount: '355'
+ht-degree: 61%
 ---
-
 # [!UICONTROL 多変量テスト &#x200B;] アクティビティの指標を設定
 
 [!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;]で指標を使用して、訪問が成功したかどうかを判断します。
@@ -68,7 +73,7 @@ ht-degree: 59%
 このビデオでは、成功指標に関する作業について説明します。
 
 * 「目標」指標の理解
-* [!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]の指標を理解して構築する
+* [!UICONTROL コンバージョン]、[!UICONTROL 売上高]、[!UICONTROL エンゲージメント]の各指標の理解と作成
 * クリック追跡指標の構築
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

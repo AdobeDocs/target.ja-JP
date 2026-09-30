@@ -1,24 +1,31 @@
 ---
 keywords: フォームベースの experience composer; フォームベースのコンポーザー; 調整
-description: Adobe [!DNL Target]  フォームベースのExperience Composerを使用して、視覚的ではないエクスペリエンスを作成する方法を説明します。 VECが使用できない場合、または使用できない場合は、このコンポーザーを使用します。
+description: Adobe [!DNL Target] フォームベースのExperience Composerを使用して、視覚的ではないエクスペリエンスを作成する方法を説明します。 VECが使用できない場合、または使用できない場合は、このコンポーザーを使用します。
 title: フォームベースのExperience Composerの使用方法を教えてください。
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
+TQID: 'https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c3941678-bb9e-4bea-bdba-ce89c7d01eba
+    internal-label: Activity tools
+subfeature_v2:
+  - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
+    internal-label: Form based Experience Composer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 988
+source-wordcount: '989'
 ht-degree: 35%
-
 ---
-
 # フォームベースの Experience Composer
 
 [!DNL Adobe Target] [!UICONTROL &#x200B; フォームベースのExperience Composer]は、[!UICONTROL Visual Experience Composer] （VEC）が使用できないか、使用できない場合に[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]および[!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスの作成に役立つ、非ビジュアル エクスペリエンスおよびオファー作成インターフェイスです。 たとえば、フォームベースのAdobe Experience Composerを使用して、電子メール、キオスク端末、音声アシスタントで配信するエクスペリエンスやオファーを作成することができます。
@@ -112,7 +119,7 @@ ht-degree: 35%
    1. [!UICONTROL Create] > [!UICONTROL HTML Offer]をクリックします。
    1. オファー名を入力します。
    1. 「コード」ボックスに HTML コードを入力するか貼り付けます。
-   1. 「[!UICONTROL 保存]」をクリックします。
+   1. 「[!UICONTROL Save]」をクリックします。
 
    **JSON オファーの作成：**
 
@@ -120,7 +127,7 @@ ht-degree: 35%
    1. [!UICONTROL 作成]／[!UICONTROL JSON オファー]をクリックします。
    1. オファー名を入力します。
    1. 「コード」ボックスに JSON コードを入力するか貼り付けます。
-   1. 「[!UICONTROL 保存]」をクリックします。
+   1. 「[!UICONTROL Save]」をクリックします。
 
    **推奨事項を追加：**
 

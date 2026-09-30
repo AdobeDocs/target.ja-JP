@@ -4,13 +4,14 @@ description: フラグの機能フラグにパーセンテージ ベースの段
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%
-
 ---
-
 # 徐々にロールアウトする機能を設定する {#gradual-rollout-feature}
 
 機能フラグのパーセンテージのロールアウトは、**基本詳細** タブで設定されます。 ロールアウトの進行状況に応じて、この値を上下に調整できます。

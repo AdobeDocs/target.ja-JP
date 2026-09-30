@@ -1,26 +1,35 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: Adobe  [!DNL Target]  で初めてのアクティビティに着手して、投資の ROI を獲得しましょう。
+description: Adobe [!DNL Target]での最初のアクティビティを開始して、投資に対するROIを取得しましょう。
 title: Target で初めてアクティビティを作成する必要があります。 何から始めればよいでしょうか。
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+TQID: 'https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1742
-ht-degree: 70%
-
+source-wordcount: '1743'
+ht-degree: 69%
 ---
-
 # 第 7 章：初めての [!DNL Target] アクティビティの作成と実行
 
 [!DNL Target]で最初のアクティビティを開始する準備ができましたか？ 良。 Web サイト、モバイルサイト、またはモバイルアプリのアクティビティについて、それほど複雑ではありませんが、迅速なROIを提供し、[!DNL Target]を使用してテストやパーソナライズを行う可能性を高めることができます。 組織とその組織が何に重点を置いているかに応じて、最初のアクティビティで 3 つのルートのうち 1 つの使用を検討しているとします。

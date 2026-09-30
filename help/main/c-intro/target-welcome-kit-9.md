@@ -4,26 +4,36 @@ description: あなたは Adobe Target で初めてのアクティビティを�
 title: Target をより効果的に使用するための追加リソースはどこで見つけられますか？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
+TQID: 'https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: '701'
 ht-degree: 79%
-
 ---
-
 # 第 9 章：次の手順とリソース
 
 最初のアクティビティの実行の基本について説明しました。 アクティビティにより、[!DNL Adobe Target] を使って最適化やパーソナライズをおこなうことで、ビジネスの収益に影響を与える素晴らしい可能性がおわかりいただけたことでしょう。 これはスタートに過ぎません。 2つ目のアクティビティで何を重視するか考えましょう？ 実行するアクティビティの優先順位付けされたリストを作成することを検討します。 アクティビティごとのアクティビティが、顧客体験をどのように向上させ、ビジネスの成功を促進するのかをすばやく確認できるため、驚かれることでしょう。
@@ -48,8 +58,8 @@ ht-degree: 79%
 * **ウェビナーシリーズ**：Adobe Target の基本。 Adobe Target ユーザーに対する最適化の基本を検討する、カスタマーサクセスウェビナーシリーズにご参加ください。 [「Target の基本」ウェビナーシリーズ](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)を参照してください。
 * **Adobe のサポートの Offie Hour**：「Office Hours」は、Adobe のヘルプチームが率いるイニシアチブです。 これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。 [Adobe のサポートの営業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)を参照してください。
 * **Adobe Summit**：デジタルマーケター向けの、年間最大のプロフェッショナルなイベントに参加しましょう。
-   * [Adobe Summit](https://summit.adobe.com/na/)（北米）
-   * [Adobe Summit](https://summit-emea.adobe.com/emea/)（ヨーロッパ、中東、アフリカ）
+  * [Adobe Summit](https://summit.adobe.com/na/)（北米）
+  * [Adobe Summit](https://summit-emea.adobe.com/emea/)（ヨーロッパ、中東、アフリカ）
 
 ## その他のリソース
 

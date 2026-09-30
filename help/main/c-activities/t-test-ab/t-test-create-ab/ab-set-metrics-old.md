@@ -1,16 +1,23 @@
 ---
 keywords: A/B;アクティビティ指標;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
-description: '[!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]など、訪問が成功したかどうかを判断するために [!DNL Adobe Target] A/B アクティビティで指標を指定する方法について説明します。'
+description: '[!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]など、訪問が成功したかどうかを判断するために、[!DNL Adobe Target]A/B アクティビティで指標を指定する方法について説明します。'
 title: A/B アクティビティで目標指標を設定するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '345'
 ht-degree: 60%
-
 ---
-
 # 指標の設定
 
 [!DNL Adobe Target]のA/B アクティビティで指標を使用して、訪問が成功したタイミングを判断します。

@@ -4,20 +4,28 @@ description: Adobe [!DNL Target] Recommendations アクティビティをプレ�
 title: Recommendations アクティビティをプレビューして起動するにはどうすればよいですか？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # レコメンデーションアクティビティのプレビューと起動
 
 [Recommendations オファー](/help/main/c-recommendations/recommendations-as-an-offer.md)を含む[!UICONTROL Recommendations]、[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL Experience Targeting] （XT） アクティビティを作成した後、アクティビティを起動する前に結果が利用可能であることを確認するために、推奨事項をプレビューする必要があります。 [!DNL Target Recommendations]では、レコメンデーションをプレビューする複数の方法が用意されています。
@@ -32,8 +40,8 @@ ht-degree: 13%
 
 ステータスの結果には、次の図が含まれます。
 
-* [!UICONTROL Results Ready]: アルゴリズムが結果を返したことを示します
-* [!UICONTROL Results Not Ready]: アルゴリズムの実行が完了していないことを示します。
+* [!UICONTROL Results Ready]&#x200B;: アルゴリズムが結果を返したことを示します
+* [!UICONTROL Results Not Ready]&#x200B;: アルゴリズムの実行が完了していないことを示します。
 * [!UICONTROL &#x200B; フィード失敗]: カスタム条件フィード ファイルを取得できなかったことを示します。
 
 ![結果ダイアログボックス &#x200B;](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
@@ -110,13 +118,13 @@ CSV ダウンロードファイルは、バックエンド条件の実行後に�
 
 * **人気ベースのアルゴリズム（キーベース以外）の場合、ファイルには次のものが含まれます：**
 
-   * バックアップレコメンデーションの行に「*」（アスタリスク）を付ける
-   * アルゴリズム設定にもとづいてレコメンデーションを示す別の行
+  * バックアップレコメンデーションの行に「*」（アスタリスク）を付ける
+  * アルゴリズム設定にもとづいてレコメンデーションを示す別の行
 
 * **キーベースのアルゴリズムの場合、ファイルには次のものが含まれます：**
 
-   * 人気ベースのアルゴリズムに類似したバックアップ行
-   * キー値形式の複数行。最初のエントリはキーの製品IDで、その後に推奨候補を表すコンマ区切りの製品IDです
+  * 人気ベースのアルゴリズムに類似したバックアップ行
+  * キー値形式の複数行。最初のエントリはキーの製品IDで、その後に推奨候補を表すコンマ区切りの製品IDです
 
 ## Recommendations アクティビティのアクティブ化
 

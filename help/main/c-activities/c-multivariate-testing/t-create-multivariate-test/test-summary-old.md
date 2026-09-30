@@ -1,16 +1,20 @@
 ---
 keywords: 概要
-description: '[!UICONTROL 多変量テスト &#x200B;] （MVT） アクティビティの概要を表示すると、 [!DNL Adobe Target]のアクティビティの概要が視覚的に表示されます。'
+description: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの概要を表示すると、[!DNL Adobe Target]でのアクティビティの概要が視覚的に表示されます。'
 title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの概要を表示するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 43%
-
 ---
-
 # テストの概要（[!UICONTROL 多変量テスト &#x200B;]）
 
 テスト概要では、[!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;]の概要が視覚的に表示されます。

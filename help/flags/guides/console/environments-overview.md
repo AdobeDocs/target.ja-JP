@@ -4,13 +4,14 @@ description: Flagsで作業する際に正しいAdobe Experience Platform サン
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 7%
-
 ---
-
 # 環境の概要 {#environments-overview}
 
 FlagsはAdobe Experience Platform上に構築されています。 機能フラグを使用する前に、他のAdobe Experience Platform アプリケーションと同様に、現在の環境に対応するサンドボックスを選択します。

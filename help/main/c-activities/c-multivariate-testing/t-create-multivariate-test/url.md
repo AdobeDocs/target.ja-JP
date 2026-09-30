@@ -1,21 +1,24 @@
 ---
 keywords: 多変量テスト；アクティビティ URL
-description: '[!UICONTROL 多変量テスト &#x200B;] アクティビティが [!DNL Adobe Target]を使用して設計されたときに開く、テストで使用されるページを決定するアクティビティ URLを指定する方法を説明します。'
+description: テストで使用され、[!UICONTROL 多変量テスト &#x200B;] アクティビティが[!DNL Adobe Target]を使用して設計されたときに開くページを決定するアクティビティ URLを指定する方法を説明します。
 title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティのアクティビティ URLは何ですか？'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
+TQID: 'https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 38%
-
 ---
-
 # アクティビティ URL
 
 アクティビティ URLにより、[!UICONTROL 多変量テスト &#x200B;] （MVT）で使用され、[!DNL Adobe Target]でテストが設計されたときに開くページが決まります。

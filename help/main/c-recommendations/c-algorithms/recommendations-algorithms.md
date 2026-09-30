@@ -1,30 +1,41 @@
 ---
 keywords: レコメンデーションアルゴリズム;モデルトレーニング;モデルサービング;コンテンツ配信;項目ベース;ユーザーベース;人気度ベース;買い物かごベース;カスタム条件
-description: モデルのトレーニングやモデルの提供など  [!DNL Target Recommendations] で使用するアルゴリズムについて説明します。
+description: モデルのトレーニングとモデルの提供など、[!DNL Target Recommendations]で使用されるアルゴリズムについて説明します。
 title: Target のレコメンデーションアルゴリズムの背後にあるサイエンスについて
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+TQID: 'https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3045
+source-wordcount: '3045'
 ht-degree: 83%
-
 ---
-
 # Target のレコメンデーションアルゴリズムの背後にある科学
 
 モデルのトレーニングのロジックや数学的な詳細、およびモデルの提供プロセスなど、[!DNL Adobe Target Recommendations] で使用されるアルゴリズムの詳細な説明。
@@ -157,7 +168,7 @@ ht-degree: 83%
 
 * **サービングのモデル**：検索用に1つのキーを指定し、続いてビジネスルールを適用するサービングのレコメンデーションを行う従来のアルゴリズムとは異なり、[!UICONTROL お客様に推奨]およびカートベースのアルゴリズムでは、より複雑なランタイムプロセスが採用されています。
 
-  * **複数キーの取得と結合**：買い物かごベースのレコメンデーションの場合は、買い物かごで渡された最大 10 個の項目が取得用のキーと見なされ、それぞれからのレコメンデーションが等しく重み付けられます。 [!UICONTROL お客様に推奨]の場合、最後の5つのユニークな閲覧済みアイテムと最後の5つのユニークな購入済みアイテムが取得の鍵と見なされ、購入済みアイテムから生じるレコメンデーションは、閲覧済みアイテムから生じるレコメンデーションの2倍の重みが付けられます。 レコメンデーションを結合する際に、レコメンデーションの複数の個別リストに項目が表示される場合、その重み付けされた類似性スコアが追加されます。 このステージのレコメンデーションの最後のリストは、重み付けを変更したレコメンデーションの結合リストで、降順にランク付けされます。
+  * **複数キーの取得と結合**：買い物かごベースのレコメンデーションの場合は、買い物かごで渡された最大 10 個の項目が取得用のキーと見なされ、それぞれからのレコメンデーションが等しく重み付けられます。 [!UICONTROL お客様に推奨]の場合、最後の5つのユニークな閲覧済みアイテムと最後の5つのユニークな購入済みアイテムが取得の鍵と見なされ、購入済みアイテムから生じるレコメンデーションは、閲覧済みアイテムから生じるレコメンデーションの2倍の重みが付けられます。 レコメンデーションを結合する際に、レコメンデーションの複数の個別リストに項目が表示される場合、その重み付けされた類似性スコアが追加されます。 このステージのレコメンデーションの最後のリストは、重み付けを変更したレコメンデーションの結合リストで、降順にランキングされます。
   * **フィルタリング**：次に、以前に表示した項目や購入した項目の削除などのフィルタリングルールのほか、他の動的なビジネスルールが適用されます。
 
 次の画像に、これらのプロセスを示します。ここでは、訪問者が項目 A を表示し、項目 B を購入しています。個々のレコメンデーションは、各項目ラベルの下に表示されるオフラインの類似性スコアを使用して取得されます。 取得後、レコメンデーションは重み付けされた類似性スコアの合計と結合されます。 最後に、以前に表示および購入した項目を除外する必要があると顧客が指定したシナリオでは、フィルタリングステップにより、レコメンデーションのリストから項目 A と項目 B が削除されます。
@@ -171,13 +182,13 @@ ht-degree: 83%
 * [!UICONTROL &#x200B; サイト全体で最も閲覧された]
 * [!UICONTROL &#x200B; カテゴリー別に最も閲覧された]
 * [!UICONTROL 項目属性]で最も閲覧された項目
-* [!UICONTROL &#x200B; プロファイル属性]で最も閲覧されたユーザー
+* [!UICONTROL プロファイル属性別で最も多く閲覧された]
 * サイト全体で[!UICONTROL &#x200B; トップ セラー]
 * [!UICONTROL &#x200B; カテゴリー別のトップセラー]
 * [!UICONTROL 項目属性]別の上位セラー
 * プロファイル属性による トップセラー
 
-[!DNL Target] は、最も表示された項目と、web サイト全体で、または項目属性またはカテゴリ別に分類された売れ筋上位の項目の両方に対して、人気度ベースのアルゴリズムを提供します。 人気度ベースのアルゴリズムでは、特定の期間内に項目が表示または購入されたセッション数に基づいて項目がランク付けされます。
+[!DNL Target] は、最も表示された項目と、web サイト全体で、または項目属性またはカテゴリ別に分類された売れ筋上位の項目の両方に対して、人気度ベースのアルゴリズムを提供します。 人気度ベースのアルゴリズムでは、特定の期間内に項目が表示または購入されたセッション数に基づいて項目がランキングされます。
 
 これらのアルゴリズムはすべて、アイテムが表示および購入されたセッションの合計数が時間単位と日単位の両方で記録される、集計された行動データを組み合わせたものです。 次に、個々のアルゴリズムは、顧客が設定したルックバックウィンドウで最も多く閲覧された項目や最も購入された項目を見つけます。
 

@@ -1,17 +1,24 @@
 ---
 keywords: コレクション;ターゲティング
-description: ' [!DNL Target Recommendations]の製品またはアイテムのコレクションを使用する方法を説明します。'
+description: '[!DNL Target Recommendations]の製品またはアイテムのコレクションを使用する方法を説明します。'
 title: レコメンデーションアクティビティでコレクションを使用するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '898'
 ht-degree: 44%
-
 ---
-
 # コレクション
 
 コレクションは、レコメンデーションに使用できる商品または品目のセットです。 コレクションは、そのコレクションに含まれるアイテムが満たす必要がある条件を指定することによって定義されます。
@@ -64,7 +71,7 @@ ht-degree: 44%
 
    ルールを追加し、複数のパラメーターを使用して、コレクションを定義することができます。 複数のルールをAND演算子で結合します。 コレクションが適用されるには、指定したすべてのルールに合致する必要があります。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## 詳細検索を使用したコレクションの作成
 

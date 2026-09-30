@@ -1,27 +1,36 @@
 ---
 keywords: 条件；アルゴリズム；業界縦組み；ページタイプ；レコメンデーションキー；レコメンデーションロジック；データ範囲；ルックバックウィンドウ；動作データソース；部分的デザイン；バックアップレコメンデーション；包含ルール；属性の重み付け；現在のカテゴリ；カスタム属性；最後に購入した項目；最後に閲覧した項目；最も閲覧した項目；お気に入りカテゴリ；人気度；最近閲覧した項目；最終閲覧；最も閲覧；お気に入入り；最近閲覧
-description: 'アクティビティのコンテンツを制御する条件を作成して、アクティビティに最も適した推奨事項を表示する方法を説明します。 [!DNL Recommendations] '
-title: ' [!DNL Recommendations]で[!UICONTROL 条件]を作成するにはどうすればよいですか？'
+description: '[!DNL Recommendations] アクティビティのコンテンツを制御する条件を作成して、アクティビティに最も適した推奨事項を表示する方法を説明します。'
+title: '[!DNL Recommendations]で[!UICONTROL 条件]を作成するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2984
+source-wordcount: '2985'
 ht-degree: 45%
-
 ---
-
 # 条件の作成
 
 [!UICONTROL Adobe Target] [!UICONTROL Recommendations]の条件によって、[!UICONTROL Recommendations] アクティビティの内容が制御されます。 アクティビティに最適なレコメンデーションを表示するために、条件を作成します。 これらの基準では、訪問者のアクションを使用して、表示するコンテンツや商品を決定します。
@@ -88,7 +97,7 @@ ht-degree: 45%
    | アルゴリズムタイプ | 使用するタイミング/使用可能なアルゴリズム |
    | --- | --- |
    | [!UICONTROL &#x200B; カートベース &#x200B;] | ユーザーのカートの内容に基づいてレコメンデーションを行います。 <ul><li>[!UICONTROL これらを閲覧したユーザーは、]も閲覧しました </li><li>[!UICONTROL これらを閲覧したユーザーも購入しました]</li><li>[!UICONTROL これらを購入した人、また購入した人]</li></ul> |
-   | [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>[!UICONTROL &#x200B; プロファイル属性]で最も閲覧されたユーザー</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>プロファイル属性による トップセラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
+   | [!UICONTROL 人気度ベース &#x200B;] | サイト全体でのアイテムの人気度や、ユーザーが好むカテゴリーや最も閲覧されたカテゴリー、ブランド、ジャンルなどの中でのアイテムの人気度にもとづいて、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL &#x200B; サイト全体で最も閲覧された]</li><li>[!UICONTROL &#x200B; カテゴリー別に最も閲覧された]</li><li>[!UICONTROL 項目属性]で最も閲覧された項目</li><li>[!UICONTROL プロファイル属性別で最も多く閲覧された]</li><li>サイト全体で[!UICONTROL &#x200B; トップ セラー]</li><li>[!UICONTROL &#x200B; カテゴリー別のトップセラー]</li><li>[!UICONTROL 項目属性]別の上位セラー</li><li>プロファイル属性による トップセラー</li><li>分析指標[!UICONTROL 上位]</li></ul> |
    | [!UICONTROL &#x200B; アイテムベース &#x200B;] | 利用者が現在閲覧している項目や最近閲覧した項目と類似する項目を見つけることで、レコメンデーションを行うことができます。 <ul><li>[!UICONTROL これを閲覧したユーザー、これを閲覧したユーザー]</li><li>[!UICONTROL これを閲覧したユーザーが購入しました]</li><li>[!UICONTROL これを購入した人、購入した人]</li><li>[!UICONTROL 類似の属性を持つアイテム &#x200B;]</li></ul> |
    | [!UICONTROL &#x200B; ユーザーベース &#x200B;] | 利用者の行動にもとづいてレコメンデーションする：<ul><li>[!UICONTROL 最近表示された項目]</li><li>[!UICONTROL あなたにおすすめ]</li></ul> |
    | [!UICONTROL &#x200B; カスタム条件] | アップロードしたカスタムファイルにもとづいて、レコメンデーションを作成できます。<ul><li>カスタムアルゴリズム</li></ul> |

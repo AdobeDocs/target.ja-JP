@@ -1,16 +1,23 @@
 ---
 keywords: リモートオファー；リモートオファー選択マトリックス；キャッシュされたコンテンツ；動的コンテンツ；url タイプ
-description: Adobe [!DNL Target] でリモートオファーを使用して、外部コンテンツ（CMSまたはその他のシステムのコンテンツ）をホストする方法を説明します。 リモートオファーを利用する理由。
+description: Adobe [!DNL Target]でリモートオファーを使用して、外部コンテンツ（CMSまたはその他のシステムのコンテンツ）をホストする方法を説明します。 リモートオファーを利用する理由。
 title: リモートオファーの作成方法
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1106'
 ht-degree: 38%
-
 ---
-
 # リモートオファーを作成
 
 リモートオファーを使用すると、[!DNL Adobe Target] 外にあり、[!DNL Target] が参照してユーザーのウェブサイトに提供するコンテンツをホスティングすることができます。 このコンテンツは、使いやすさやセキュリティ上の理由から、コンテンツ管理（CMS）システムやその他のシステムに保存されている場合があります。
@@ -64,7 +71,7 @@ ht-degree: 38%
 
 1. リモートオファーのリモート URLを指定します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## フォームベースのExperience Composerを使用したリモートオファーの作成
 
@@ -90,7 +97,7 @@ ht-degree: 38%
 
 1. リモートオファーのリモート URLを指定します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## リダイレクト URL タイプ：キャッシュまたは動的 {#url-type}
 

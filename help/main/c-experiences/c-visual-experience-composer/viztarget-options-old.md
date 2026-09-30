@@ -1,16 +1,20 @@
 ---
 keywords: visual experience composer オプション；experience options;experience options;edit text;edit html;edit text/html;edit background color;insert element;edit link;visual experience composer link;edit css class;css class;swap offer;offer swap image;image swap;remove item;remove item;item;hide item;hide item;rearrange;move element;move;element move;element resize;element;resize;element;expand selection;navigate;link;navigate;undo;redo；元に戻す/やり直し；カスタム イベントのオファーwebの決定決定
-description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で使用できるオプションを確認します。'
+description: '[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で使用できるオプションを確認します。'
 title: '[!UICONTROL Visual Experience Composer] （VEC）オプションの使用方法を教えてください。'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # Visual Experience Composer のオプション
 
 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）でページ要素をクリックすると、その要素タイプで使用できるオプションがメニューに表示されます。 さらに、ページの下部に DOM パスが表示されるので、ページ構造を簡単にナビゲートできます。
@@ -74,15 +78,15 @@ VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示さ
 
   背景色および画像を変更します。
 
-   * 色（カラーコードを指定するか、カラーピッカーを使用）
-   * 画像（イメージピッカーから画像を選択）
-   * 画像ソース（外部 URL を指定）
-   * 添付ファイル
-      * 上部のドロップダウンリストをクリックして、スクロール、固定またはローカルを選択
-      * 下部のドロップダウンリストをクリックして、繰り返し、繰り返し X、繰り返し Y、繰り返しなし、スペースまたはラウンドを選択
-   * クリップ
-      * 上部のドロップダウンリストをクリックして、境界線ボックス、パディングボックス、コンテンツボックスまたはテキストを選択
-      * 下部のドロップダウンリストをクリックして、自動音声または音声を選択
+  * 色（カラーコードを指定するか、カラーピッカーを使用）
+  * 画像（イメージピッカーから画像を選択）
+  * 画像ソース（外部 URL を指定）
+  * 添付ファイル
+    * 上部のドロップダウンリストをクリックして、スクロール、固定またはローカルを選択
+    * 下部のドロップダウンリストをクリックして、繰り返し、繰り返し X、繰り返し Y、繰り返しなし、スペースまたはラウンドを選択
+  * クリップ
+    * 上部のドロップダウンリストをクリックして、境界線ボックス、パディングボックス、コンテンツボックスまたはテキストを選択
+    * 下部のドロップダウンリストをクリックして、自動音声または音声を選択
 
 * **[!UICONTROL タイポグラフィ]**
 
@@ -92,13 +96,13 @@ VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示さ
 
   次のタイポグラフィスタイルを編集できます。
 
-   * [!UICONTROL &#x200B; フォントサイズ &#x200B;]
-   * [!UICONTROL &#x200B; フォントの重み]
-   * [!UICONTROL &#x200B; フォントスタイル &#x200B;]
-   * [!UICONTROL &#x200B; カラー] （カラーコードを指定するか、カラーピッカーを使用）
-   * [!UICONTROL 単語の間隔]
-   * [!UICONTROL 行の高さ]
-   * [!UICONTROL &#x200B; テキストの整列]
+  * [!UICONTROL &#x200B; フォントサイズ &#x200B;]
+  * [!UICONTROL &#x200B; フォントの重み]
+  * [!UICONTROL &#x200B; フォントスタイル &#x200B;]
+  * [!UICONTROL &#x200B; カラー] （カラーコードを指定するか、カラーピッカーを使用）
+  * [!UICONTROL 単語の間隔]
+  * [!UICONTROL 行の高さ]
+  * [!UICONTROL &#x200B; テキストの整列]
 
 * **[!UICONTROL マージン]**
 
@@ -106,8 +110,8 @@ VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示さ
 
   各余白のドロップダウンアイコンをクリックして、次のオプションから選択します。
 
-   * [!UICONTROL 自動]
-   * [!UICONTROL 値] （スライダーをドラッグしてマージンを設定するか、各マージンのピクセル数を指定します）
+  * [!UICONTROL 自動]
+  * [!UICONTROL 値] （スライダーをドラッグしてマージンを設定するか、各マージンのピクセル数を指定します）
 
   余白は正と負の値をサポートします。
 
@@ -129,9 +133,9 @@ VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示さ
 
   境界線ごとに（上、右、下、左）、次のスタイルを編集できます。
 
-   * [!UICONTROL 境界線スタイル &#x200B;] （なし、非表示、点線、破線、実線、ダブル）
-   * [!UICONTROL 境界線の色] （カラーコードを指定するか、カラーピッカーを使用）
-   * [!UICONTROL 境界線の幅] （スライダーをドラッグして境界線の幅を選択するか、幅をピクセル単位で指定します）
+  * [!UICONTROL 境界線スタイル &#x200B;] （なし、非表示、点線、破線、実線、ダブル）
+  * [!UICONTROL 境界線の色] （カラーコードを指定するか、カラーピッカーを使用）
+  * [!UICONTROL 境界線の幅] （スライダーをドラッグして境界線の幅を選択するか、幅をピクセル単位で指定します）
 
   境界線は 0 以上の幅に対応します。
 
@@ -143,16 +147,16 @@ VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示さ
 
   「[!UICONTROL 静的]」ドロップダウンリストをクリックして、次の位置オプションから選択します。
 
-   * [!UICONTROL 静的]
-   * [!UICONTROL 相対]
-   * [!UICONTROL 絶対]
-   * [!UICONTROL &#x200B; スティッキー]
-   * [!UICONTROL 修正済み]
+  * [!UICONTROL 静的]
+  * [!UICONTROL 相対]
+  * [!UICONTROL 絶対]
+  * [!UICONTROL &#x200B; スティッキー]
+  * [!UICONTROL 修正済み]
 
   各位置のドロップダウンアイコンをクリックして、次のオプションから選択します。
 
-   * [!UICONTROL 自動]
-   * [!UICONTROL 値] （スライダーをドラッグして要素を配置するか、要素を移動するピクセル数を指定します）
+  * [!UICONTROL 自動]
+  * [!UICONTROL 値] （スライダーをドラッグして要素を配置するか、要素を移動するピクセル数を指定します）
 
   位置は正と負の値をサポートします。
 
@@ -164,22 +168,22 @@ VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示さ
 
   [!UICONTROL 幅]と[!UICONTROL 高さ]の横にあるドロップダウンアイコンをクリックして、次のオプションから選択します。
 
-   * [!UICONTROL 自動]
-   * [!UICONTROL 値] （スライダーをドラッグして要素のサイズを変更するか、ディメンションごとにピクセル数を指定します）
+  * [!UICONTROL 自動]
+  * [!UICONTROL 値] （スライダーをドラッグして要素のサイズを変更するか、ディメンションごとにピクセル数を指定します）
 
 * **[!UICONTROL フィルター]**
 
   各フィルターオプションのスライダーをドラッグするか、目的の割合（％）を指定します。
 
-   * [!UICONTROL &#x200B; セピア &#x200B;]
-   * [!UICONTROL &#x200B; コントラスト &#x200B;]
-   * [!UICONTROL 明るさ]
-   * [!UICONTROL GreyScale]
-   * [!UICONTROL ぼかし]
-   * [!UICONTROL 不透明度]
-   * [!UICONTROL 反転]
-*[!UICONTROL &#x200B; Hue-rotate]
-   * [!UICONTROL 彩度]
+  * [!UICONTROL &#x200B; セピア &#x200B;]
+  * [!UICONTROL &#x200B; コントラスト &#x200B;]
+  * [!UICONTROL 明るさ]
+  * [!UICONTROL GreyScale]
+  * [!UICONTROL ぼかし]
+  * [!UICONTROL 不透明度]
+  * [!UICONTROL 反転]
+    *[!UICONTROL &#x200B; Hue-rotate]
+  * [!UICONTROL 彩度]
 
 * **[!UICONTROL CSS エディター]**
 
@@ -217,7 +221,7 @@ VECの右側に[!UICONTROL &#x200B; スタイル &#x200B;] パネルが表示さ
 
 ### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
 **注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -249,7 +253,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
 **注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -281,7 +285,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL &#x200B; オファーの決定]
 
- [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
+ [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank}で作成された オファーを追加して、オファー決定機能を使用して顧客に最適なオファーとエクスペリエンスを提示します。
 
 **注意：**&#x200B;このオプションは、[手動[!UICONTROL A/B テスト &#x200B;]](/help/main/c-activities/t-test-ab/test-ab.md#types)または[[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) （XT）アクティビティのみを編集または作成する場合にのみ使用できます。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -388,16 +392,16 @@ VECでは、[Web コンポーネント &#x200B;](https://developer.mozilla.org/j
 次のアクションは、カスタム要素では使用できません。
 
 * [!UICONTROL Edit]
-   * [!UICONTROL &#x200B; テキスト/HTML]
-   * [!UICONTROL &#x200B; リンク &#x200B;]
-   * [!UICONTROL Sourceを編集]
+  * [!UICONTROL &#x200B; テキスト/HTML]
+  * [!UICONTROL &#x200B; リンク &#x200B;]
+  * [!UICONTROL Sourceを編集]
 
 * [!UICONTROL &#x200B; コンテンツを置換]
 
 次のアクションは、カスタム要素の中では使用できません。
 
 * [!UICONTROL &#x200B; レイアウト &#x200B;]
-   * [!UICONTROL 並べ替え]
+  * [!UICONTROL 並べ替え]
 
 ## DOM パスを使用したエレメントの移動 {#dom-path}
 

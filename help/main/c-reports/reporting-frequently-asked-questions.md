@@ -1,30 +1,39 @@
 ---
 keywords: トラブルシューティング；指標の不一致；FAQ；レポート；新規訪問者；新規訪問者；再訪問者；再訪問者；再訪問者；再訪問；新規訪問
-description: Adobe [!DNL Target]  レポートに関するよくある質問と回答の一覧をご覧ください。
-title: ' [!DNL Target]  レポートに関する質問への回答はどこで見つけることができますか？'
+description: Adobe [!DNL Target]のレポートに関するよくある質問と回答の一覧を確認します。
+title: '[!DNL Target] レポートに関する質問に対する回答はどこで見つけることができますか？'
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
+TQID: 'https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 24%
-
+source-wordcount: '1393'
+ht-degree: 23%
 ---
-
 # レポートの FAQ
 
 [!DNL Adobe Target] のレポートに関するよくある質問のリストです。
@@ -32,8 +41,8 @@ ht-degree: 24%
 ## 新規訪問者指標と再訪問者指標はどのようにカウントされますか。 {#methodology}
 
 新規訪問者の初回訪問は、訪問者がサイト上でアクティブである限り続きます。
-ユーザーが30分以上非アクティブな場合、セッションはリセットされます。セッションをリセットすると、この訪問者は次回の訪問時に再訪問者になるか、非アクティブ状態が30分後に再びアクティブになります。
-訪問者が1日29分ごとにサイト内を移動する場合、この訪問者はその日の新規訪問者としてカウントされます。訪問者が30分のしきい値を超えなかったため、セッションはリセットされませんでした。
+ユーザーが30分以上非アクティブな場合、セッションはリセットされます。 セッションをリセットすると、この訪問者は次回の訪問時に再訪問者になるか、非アクティブ状態が30分後に再びアクティブになります。
+訪問者が1日29分ごとにサイト内を移動する場合、この訪問者はその日の新規訪問者としてカウントされます。 訪問者が30分のしきい値を超えなかったため、セッションはリセットされませんでした。
 
 次の情報では、新規訪問者と再訪問者のカウント方法について詳しく説明します。 また、これらの2つのセグメントの合計が常に総訪問者数に達しない理由を説明する例も含まれています。
 
@@ -110,7 +119,7 @@ XT アクティビティには、常にコントロールエクスペリエン�
 
    開発環境を選択していると、レポートのデータが使用できない場合があります。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 環境について詳しくは、[ホスト](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
 
@@ -123,7 +132,7 @@ XT アクティビティには、常にコントロールエクスペリエン�
 
 1. 「**[!UICONTROL コントロール]**」ドロップダウンリストから、トラフィックを受信するエクスペリエンスを選択します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
@@ -139,6 +148,6 @@ XT アクティビティには、常にコントロールエクスペリエン�
 * A/B テストとMVT テストのベストプラクティスは、トラフィックの分岐を均等にすることです。 テスト中にエクスペリエンス間のトラフィック分布（90/10から50/50など）を変更すると、エクスペリエンス間で訪問者が不均等になる可能性があります。 トラフィックが少ないエクスペリエンスは「キャッチアップ」しない可能性があります。
 * 上記のベストプラクティスに従っていて、トラフィックの分割が時間の経過とともに正規化されない場合は、次の点を確認する必要があります。
 
-   * 最新のat.js ライブラリを使用していますか？ 現在のバージョンと関連するリリースノートについて詳しくは、[at.js バージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
+  * 最新のat.js ライブラリを使用していますか？ 現在のバージョンと関連するリリースノートについて詳しくは、[at.js バージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
 
-   * リダイレクトテストですか？ ページでタグを実行するタイミングが正しくないと、特に[!DNL Analytics]を[!DNL Target] アクティビティのデータソースとして使用する場合、トラフィックの分割が不均等になる可能性があります。 Analytics for Target （A4T）を使用したリダイレクトアクティビティでのトラフィック分布の不均等を修正する方法について詳しくは、[&#x200B; リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)を参照してください。
+  * リダイレクトテストですか？ ページでタグを実行するタイミングが正しくないと、特に[!DNL Analytics]を[!DNL Target] アクティビティのデータソースとして使用する場合、トラフィックの分割が不均等になる可能性があります。 Analytics for Target （A4T）を使用したリダイレクトアクティビティでのトラフィック分布の不均等を修正する方法について詳しくは、[&#x200B; リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)を参照してください。

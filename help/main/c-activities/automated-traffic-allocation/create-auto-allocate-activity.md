@@ -4,23 +4,32 @@ description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して[!
 title: '[!UICONTROL 自動配分] アクティビティを作成するにはどうすればよいですか？'
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-TQID: https://experienceleague.adobe.com/dInypDH72qyoj5UygbEt-BWpq1gZkbxJiSXSheNPO54
+TQID: 'https://experienceleague.adobe.com/dInypDH72qyoj5UygbEt-BWpq1gZkbxJiSXSheNPO54'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a2afe9f1acd1758f1c9e0f8442eafd54037bb3f4
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: '1074'
 ht-degree: 14%
-
 ---
-
 # [!UICONTROL 自動割り当て] アクティビティの作成
 
 [!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL 自動割り当て] [!UICONTROL A/B テスト &#x200B;] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
@@ -135,7 +144,7 @@ ht-degree: 14%
    >
    >このアクティビティで[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4Tの自動配分および自動ターゲットアクティビティのサポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)に関する重要な情報を参照してください。
    >
-   >このアクティビティで [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを使用する場合は、[このページ &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source)を参照してください。
+   >このアクティビティで [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを使用する場合は、[このページ &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source)を参照してください。
 
 1. **[!UICONTROL 保存して閉じる]**&#x200B;または&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックします。
 

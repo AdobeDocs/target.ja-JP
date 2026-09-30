@@ -4,18 +4,24 @@ description: '[!UICONTROL Offers] ライブラリを使用して、コードと�
 title: コードと画像オファーを管理するにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-TQID: https://experienceleague.adobe.com/A8ZLHW-FrWHGPJR7P-mhl2pO6SPoDc--LWpFEjtQzBY
+TQID: 'https://experienceleague.adobe.com/A8ZLHW-FrWHGPJR7P-mhl2pO6SPoDc--LWpFEjtQzBY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 8%
-
 ---
-
 # オファー
 
 [!DNL Adobe Target]の[!UICONTROL Offers] ライブラリを使用して、コードと画像オファーを効率的に管理する方法について説明します。

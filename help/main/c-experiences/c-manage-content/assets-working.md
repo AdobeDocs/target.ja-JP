@@ -4,19 +4,26 @@ description: コードと画像のオファーを[!UICONTROL Offers] ライブ�
 title: '[!UICONTROL &#x200B; オファー] ライブラリのコンテンツ管理を確認する'
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+TQID: 'https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 11%
-
 ---
-
 # [!UICONTROL Asset] ライブラリでのコンテンツの操作
 
 [!UICONTROL Adobe Target] [!UICONTROL &#x200B; コンテンツライブラリ &#x200B;]のアセットに対して実行できるタスクについて説明します。 タスクには、注釈、コピー、削除、ダウンロード、編集、共有、プロパティの表示などがあります。
@@ -50,21 +57,21 @@ ht-degree: 11%
 
 * **フォルダー**：次の操作を実行する1つ以上のフォルダーを選択します。
 
-   * ダウンロード：フォルダーとその内容をダウンロードします。
-   * コピー：フォルダーとその内容をコピーします。
-   * 移動：「**[!UICONTROL 移動]**」アイコンをクリックします。フォルダーの名前を変更するか、フォルダーの名前を変更します。「**[!UICONTROL 移動先を選択]**」をクリックして、フォルダーを移動する場所を選択してから、**[!UICONTROL 移動]**」をクリックします。
-   * 削除（項目を削除する際の[考慮事項](#delete)を参照）。
+  * ダウンロード：フォルダーとその内容をダウンロードします。
+  * コピー：フォルダーとその内容をコピーします。
+  * 移動：「**[!UICONTROL 移動]**」アイコンをクリックします。フォルダーの名前を変更するか、フォルダーの名前を変更します。「**[!UICONTROL 移動先を選択]**」をクリックして、フォルダーを移動する場所を選択してから、**[!UICONTROL 移動]**」をクリックします。
+  * 削除（項目を削除する際の[考慮事項](#delete)を参照）。
 
 * **オファー**：次のアクションを実行する1つ以上の画像オファーを選択します。
 
-   * [!UICONTROL 共有]：組織内のユーザーまたはグループに画像オファーを共有します。
-   * [!UICONTROL &#x200B; ダウンロード &#x200B;]：画像オファーまたはフォルダーとその内容をダウンロードします。
-   * [!UICONTROL &#x200B; プロパティを表示]：項目のプロパティを表示します。 利用可能なすべての情報を表示するには、「[!UICONTROL 基本]」タブと「[!UICONTROL 詳細]」タブを必ずクリックしてください。 プロパティを編集して、より多くの情報を追加できます。 メタデータ情報、投稿状況およびライセンスデータを追加することができます。
-   * [!UICONTROL 編集]: フォルダーまたはオファーを編集します。 &#x200B;
-   * [!UICONTROL 注釈]: アセットにメモを追加します。 アセットをクリックして、注釈を付ける領域を選択し、注釈を入力します。
-   * [!UICONTROL &#x200B; コピー]: オファーをコピーします。 オファーをコピーして編集すると、同様の新しいオファーを簡単に作成できます。
-   * [!UICONTROL Move]: [!UICONTROL Move] アイコンをクリックし、オファーまたはフォルダーを移動する場所に移動してから、**[!UICONTROL Move]**&#x200B;をクリックします。 例えば、1つ以上のフォルダーを別のフォルダーに移動して、サブフォルダーを作成できます。
-   * [!UICONTROL 削除]: オファーを削除します。 詳しくは、以下の「[項目を削除する際の考慮事項](#delete)」を参照してください。
+  * [!UICONTROL 共有]：組織内のユーザーまたはグループに画像オファーを共有します。
+  * [!UICONTROL &#x200B; ダウンロード &#x200B;]：画像オファーまたはフォルダーとその内容をダウンロードします。
+  * [!UICONTROL &#x200B; プロパティを表示]：項目のプロパティを表示します。 利用可能なすべての情報を表示するには、「[!UICONTROL 基本]」タブと「[!UICONTROL 詳細]」タブを必ずクリックしてください。 プロパティを編集して、より多くの情報を追加できます。 メタデータ情報、投稿状況およびライセンスデータを追加することができます。
+  * [!UICONTROL 編集]&#x200B;: フォルダーまたはオファーを編集します。
+  * [!UICONTROL 注釈]: アセットにメモを追加します。 アセットをクリックして、注釈を付ける領域を選択し、注釈を入力します。
+  * [!UICONTROL &#x200B; コピー]: オファーをコピーします。 オファーをコピーして編集すると、同様の新しいオファーを簡単に作成できます。
+  * [!UICONTROL Move]: [!UICONTROL Move] アイコンをクリックし、オファーまたはフォルダーを移動する場所に移動してから、**[!UICONTROL Move]**&#x200B;をクリックします。 例えば、1つ以上のフォルダーを別のフォルダーに移動して、サブフォルダーを作成できます。
+  * [!UICONTROL 削除]: オファーを削除します。 詳しくは、以下の「[項目を削除する際の考慮事項](#delete)」を参照してください。
 
 ## アイテムを削除する際の考慮事項 {#delete}
 

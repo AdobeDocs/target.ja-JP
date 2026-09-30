@@ -1,16 +1,23 @@
 ---
 keywords: A/B テストの作成、A/B アクティビティの作成、新しいA/B アクティビティ、A/b テストの作成
-description: Adobe [!DNL Target] のVisual Experience Composer （VEC）を使用して、A/B テスト アクティビティをa [!DNL Target]対応ページで直接作成する方法について説明します。
+description: Adobe [!DNL Target]のVisual Experience Composer （VEC）を使用して、[!DNL Target]対応ページでA/B テスト アクティビティを直接作成する方法について説明します。
 title: A/B テストの作成方法？
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 36%
-
 ---
-
 # A/B テストの作成
 
 [!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!UICONTROL A/B テスト &#x200B;] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。

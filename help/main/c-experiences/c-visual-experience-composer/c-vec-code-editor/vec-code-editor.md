@@ -1,22 +1,26 @@
 ---
 keywords: css セレクター;カスタムコード;コードエディター;モバイル Web エクスペリエンスエディター
-description: Adobe [!DNL Target] の変更パネルを使用して、ページの変更を表示し、その他の変更（CSS セレクター、Mbox、およびカスタムコード）を追加する方法を説明します。
+description: Adobe [!DNL Target]の変更パネルを使用して、ページの変更を表示し、その他の変更（CSS セレクター、Mbox、およびカスタムコード）を追加する方法を説明します。
 title: ページに変更を加えることはできますか？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
+TQID: 'https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2263
+source-wordcount: '2264'
 ht-degree: 81%
-
 ---
-
 # 変更
 
 [!DNL Adobe Target]の[!UICONTROL 変更] ページに関する情報。ページの変更を表示し、追加の変更（CSS セレクター、Mbox、およびカスタムコード）を追加できます。

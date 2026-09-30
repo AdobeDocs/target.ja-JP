@@ -1,33 +1,47 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: テストおよびパーソナライゼーションに関する取り組みの一環として Adobe  [!DNL Target]  を使用することに関して、エキスパートからのヒントを参考にすることができます。
+description: テストとパーソナライゼーションの取り組みの一環としてAdobe [!DNL Target]を使用する方法について、アドビの専門家パネルでヒントをご確認ください。
 title: Target を使用する際のヒントとテクニックはどこで見つけることができますか？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+TQID: 'https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Audience segmentation
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 73%
-
+source-wordcount: '2961'
+ht-degree: 72%
 ---
-
 # 第 4 章：Target の使用に関するヒント
 
 多くの[!DNL Target] ユーザーとの作業に基づいて、[!DNL Target] ソリューションからより多くの価値を得られる方法を確認しました。 この章に含まれている多くのヒントでこれらを要約しました。 これらのアイデアをすぐに活用する準備は整っていないかもしれませんが、このリストを手元に置いておいてください。 ソリューションの経験が豊富で、プログラムが成熟すればするほど、これらのヒントが[!DNL Target]でより多くのことを達成するのにどのように役立つかがわかります。
@@ -168,8 +182,8 @@ Web サイト上の複数のページをまたいで発生するカスタマー�
 
 QA パラメーターを使用するようアクティビティを設定する利点の 1 つは、チームの全員とリンクを共有できることです。 より多くの人がアクティビティを認識できるようにし、テストのバリエーションをヒットしたときに、サイトが適切に機能していないと思い込まないようにします。
 
-テストの終了後、キャンペーンの開始、テスト結果、特に学んだ教訓を伝えることで、テスト結果に対する認知度と関心を高めることができます。その結果を組織内の全員と共有することで、仮説の再テストを回避し、全員に何が効果的かを教育し、自分で見つけた結果にもとづいて、何が機能するのかに関する自分のアイデアに根本的に挑戦することができます。毎回使用するテンプレートを作成して、調査結果と主な知見を共有することをお勧めします。
-次に、これらの学習内容を累積的に把握する共有可能なブックまたはMicrosoft PowerPoint デッキの作成を検討します。
+テストが完了したら、キャンペーンの開始や、テスト結果、特に学んだ教訓を伝えることで、テスト結果に対する認識と感心を深めることができます。 その結果を組織内の全員と共有することで、仮説の再テストを回避し、全員に何が効果的かを教育し、自分で見つけた結果にもとづいて、何が機能するのかに関する自分のアイデアに根本的に挑戦することができます。 毎回使用するテンプレートを作成して、調査結果と主な知見を共有することをお勧めします。
+次に、これらの学習内容を累積的に取り込む共有可能なブックまたは Microsoft PowerPoint デッキを作成することを検討します。
 
 ## ヒント 20：モバイル機能を利用して、より革新的なモバイルアクティビティを作成する。
 

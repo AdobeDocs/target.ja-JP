@@ -4,13 +4,14 @@ description: フラグの機能フラグによって、機能の可用性を制�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # 機能を有効または無効にする機能フラグ {#feature-flags}
 
 機能フラグを使用すると、コードを再デプロイすることなく、実行時にアプリケーション機能をオンまたはオフにできます。 また、コードのデプロイメントを機能の可用性から切り離します。新しいコードは、フラグの背後にある本番環境にデプロイでき、準備ができたときにのみオンにすることができます。

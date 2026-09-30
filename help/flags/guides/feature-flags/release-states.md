@@ -4,13 +4,14 @@ description: 各ステートの意味や許可されるトランジションな�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 3%
-
 ---
-
 # リリース状態 {#release-states}
 
 リリースマネージャーは、コンソールナビゲーションバーからリリースの状態を直接更新できます。 状態は、リリースが公開されているか、テストに限定されているか、完全にロールアウトされているか、クローズされているかを制御します。

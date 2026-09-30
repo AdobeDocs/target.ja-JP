@@ -4,20 +4,23 @@ description: Adobe Targetでアクティビティを正しく設定すること�
 title: アクティビティの競合を回避するにはどうすればよいですか？
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-TQID: https://experienceleague.adobe.com/R6cwp4KnoYPO9Wxr47HswtBX6jKPJ0i-UGdtA1ZHawU
+TQID: 'https://experienceleague.adobe.com/R6cwp4KnoYPO9Wxr47HswtBX6jKPJ0i-UGdtA1ZHawU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 49%
-
 ---
-
 # アクティビティの衝突
 
 [!DNL Adobe Target]の[!UICONTROL &#x200B; アクティビティの概要] ページの[!UICONTROL 衝突] タブには、サイト上のアクティビティの衝突が一覧表示されます。

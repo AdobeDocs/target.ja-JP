@@ -5,18 +5,24 @@ title: A/B アクティビティのアクティビティ URLは何ですか？
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
 reason: republish
-TQID: https://experienceleague.adobe.com/arQWsSfBKYtrayq9AI8ejU1T-Uor-oL5j2Sp2JKKXZE
+TQID: 'https://experienceleague.adobe.com/arQWsSfBKYtrayq9AI8ejU1T-Uor-oL5j2Sp2JKKXZE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 305
+source-wordcount: '305'
 ht-degree: 38%
-
 ---
-
 # アクティビティ URL
 
 アクティビティ URLは、テストで使用され、[!DNL Adobe Target]を使用してテストを設計するときに開くページを決定します。

@@ -8,7 +8,23 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '3804'
 ht-degree: 14%
