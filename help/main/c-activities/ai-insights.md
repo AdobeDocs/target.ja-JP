@@ -4,10 +4,10 @@ description: Experimentation AcceleratorのAIが生成したインサイトと�
 title: アクティビティ概要のAI インサイト
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 643b30757e9212388dcb6921580f86feb0704338
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 18%
 ---
 # AI インサイト
 
@@ -20,6 +20,11 @@ ht-degree: 16%
 **[!UICONTROL アクティビティの概要]**&#x200B;の&#x200B;**[!UICONTROL AI インサイト]** メニューでは、インサイトと最適化の機会にアクセスできます。 このタブは、実験の学習内容を確認したり、処理を比較したり、コンバージョン率を向上させる可能性のある変更を特定したりするために使用します。
 
 ## AI インサイトと機会の設定
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="インサイト"
+>abstract="実験インサイトとは、実験データが統計的優位差を満たした際に、AI が発見した学習内容です。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -69,10 +74,10 @@ AIが生成したインサイトと機会にアクセスする前に、まず、
 
 設定が完了すると、アクティビティは商談を生成する準備が整います。 実験が統計的検証に十分なデータを持ち、必要な実験の詳細が確認されると、インサイトが利用可能になります。
 
-## インサイト
+## インサイト {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="インサイト"
 >abstract="実験インサイトとは、実験データが統計的優位差を満たした際に、AI が発見した学習内容です。"
 
