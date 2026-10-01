@@ -4,10 +4,10 @@ description: Experimentation AcceleratorのAIが生成したインサイトと�
 title: アクティビティ概要のAI インサイト
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # AI インサイト
 
@@ -24,7 +24,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="インサイト"
->abstract="実験インサイトとは、実験データが統計的優位差を満たした際に、AI が発見した学習内容です。"
+>abstract="インサイト：AIが生成した分析結果で、実験が統計的有意性に達したときに利用できます。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ AIが生成したインサイトと機会にアクセスする前に、まず、
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="インサイト"
->abstract="実験インサイトとは、実験データが統計的優位差を満たした際に、AI が発見した学習内容です。"
+>abstract="実験インサイトとは、実験が統計的有意性に達したときに利用できる、AIが生成した学習内容です。"
 
 実験インサイトは、この実験から得られたAIが生成した学習です。 これらのインサイトは、実験が統計的有意性に達し、その成功に貢献した要因に関するコンテキストを提供すると利用できます。 勝者エクスペリエンスに存在する、コントロールとは異なり結果に影響を与える可能性の高い主要な属性を強調表示します。
 
