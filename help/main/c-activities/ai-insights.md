@@ -4,10 +4,10 @@ description: Experimentation AcceleratorのAIが生成したインサイトと�
 title: アクティビティ概要のAI インサイト
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 31%
 ---
 # AI インサイト
 
@@ -40,6 +40,26 @@ ht-degree: 18%
 >id="target_ai_insights_treatment_details"
 >title="顧客体験の詳細"
 >abstract="エクスペリエンスの詳細には、利用者がエクスペリエンスに適格であると判断した場合のエクスペリエンスの画像が表示されます。 すべての実験に対して、これらの画像を確認できます。 一部の実験では、画像の確認や、必要に応じて画像の置換が求められる場合があります。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="プライマリ指標"
+>abstract="プライマリ指標は、レポート設定から自動的に取得されます。 変更するには、目標と設定で目標指標を変更します。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="仮説"
+>abstract="仮説は、実験の期待される結果を説明するために定義するステートメントです。 変更する内容と場所の説明と、変更する指標と方法の明記が含まれます。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="オポチュニティ"
+>abstract="実験機会は、実験のスクリーンショットや結果で AI が発見したパターンに基づいて AI が提案した処理のアイデアです。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="処理の詳細"
+>abstract="処理の詳細には、ユーザーが選定される場合に、どのような処理が行われるかを示す画像が表示されます。 すべての実験に対して、これらの画像を確認できます。 一部の実験では、画像の確認や、必要に応じて画像の置換が求められる場合があります。"
 
 AIが生成したインサイトと機会にアクセスする前に、まず、主要な指標、仮説、エクスペリエンスのスクリーンショットを確認して、アクティビティを設定する必要があります。
 
