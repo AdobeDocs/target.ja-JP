@@ -393,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | ○ |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | ○ |
-| [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | ○ |
+| [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja){target=_blank} | ○ |
 | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | ○ |
 
 ## サポートされる機能 {#supported-features}
@@ -416,7 +416,7 @@ VECの3部構成のガイド付きアクティビティ作成ワークフロー�
 
 ![ページ配信オプションダイアログボックス](/help/main/c-experiences/assets/page-delivery.png)
 
-例えば、上記の[!UICONTROL &#x200B; ページ配信]設定で定義されているように、訪問者が`https://www.adobe.com/products`を含む任意のURLにアクセスした`https://www.adobe.com` *または*&#x200B;に直接訪問すると、Target アクティビティが修飾され、実行されます。 これは、ページとのすべてのやり取りでページを再読み込みする複数ページアプリケーションに対して完全に機能します。at.js が、ユーザーが移動する URL に対して適合するアクティビティを取得します。
+例えば、上記の[!UICONTROL &#x200B; ページ配信]設定で定義されているように、訪問者が`https://www.adobe.com/jp/products`を含む任意のURLにアクセスした`https://www.adobe.com` *または*&#x200B;に直接訪問すると、Target アクティビティが修飾され、実行されます。 これは、ページとのすべてのやり取りでページを再読み込みする複数ページアプリケーションに対して完全に機能します。at.js が、ユーザーが移動する URL に対して適合するアクティビティを取得します。
 
 ただし、SPAの動作は異なるため、[!UICONTROL &#x200B; ページ配信]の設定は、すべてのアクションをSPA VEC アクティビティで定義されているとおりにビューに適用できるように設定する必要があります。
 
