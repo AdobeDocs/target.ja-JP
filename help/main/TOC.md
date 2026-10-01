@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1327'
 ht-degree: 83%
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [AI アシスタントを有効にする](/help/main/c-intro/enabling-ai-assistant.md)
     + [AI アシスタントを使用して製品知識を獲得し](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[&#x200B; コンテンツ生成にAI アシスタントを使用](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Adobe Adobe Targetの共同作業スキル](c-intro/coworker-skills.md)
   + Adobe Target ウェルカムキット {#welcome}
     + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)
     + [第 1 章：はじめに](/help/main/c-intro/target-welcome-kit-1.md)
@@ -123,6 +124,7 @@ ht-degree: 83%
 + アクティビティ {#activities}
   + [アクティビティの概要](c-activities/activities.md)
   + [インサイトダッシュボード](c-activities/insights-dashboard.md)
+  + [サンプルサイズ計算ツール](c-activities/sample-size-calculator.md)
   + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
   + A/B テスト {#abtest}
     + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +196,7 @@ ht-degree: 83%
     + [クリックの追跡](c-activities/r-success-metrics/click-tracking.md)
     + [スコアキャプチャ](c-activities/r-success-metrics/capture-score.md)
   + [アクティビティの変更ログ](c-activities/change-log.md)
+  + [AI インサイト](c-activities/ai-insights.md)
   + アクティビティのトラブルシューティング {#troubleshoot-activities}
     + [アクティビティのトラブルシューティングの概要](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [コンテンツ配信のトラブルシューティング](c-activities/c-troubleshooting-activities/content-trouble.md)

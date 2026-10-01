@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # [!DNL Target] リリースノート（最新）
 
@@ -40,7 +40,56 @@ ht-degree: 30%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
+## [!DNL Target Standard/Premium] 26.9.8 （2026年9月30日）
+
+### 機能
+
+<table>
+<thead>
+<tr>
+<th><strong>サンプルサイズ計算ツール</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>サンプルサイズ計算ツールは、必要なトラフィックやテスト時間、エクスペリエンス数、検出できる最小効果などを推定することで、テストを開始する前にテストを計画するのに役立ちます。 アクティビティメニューから使用でき、入力を使用して、テストに必要なリソースとランタイムを判断するのに役立ちます。</p>
+<p>サンプルサイズ計算機能は現在、ベータ版の機能として利用できます。</p>
+<p>詳しくは、<a href="../c-activities/sample-size-calculator.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI インサイト</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI インサイトは、AIが生成した実験の学習と、手動トラフィック割り当てによるA/B テストアクティビティの最適化機会を提供します。 実験が統計的有意性に達すると、インサイトはそのパフォーマンスに貢献した可能性が高い勝者エクスペリエンスの属性を強調表示します。 推奨される機会には、新しい体験のアイデア、仮説、実装ガイダンスなどが含まれ、コンバージョン率の向上に役立ちます。</p>
+<p>AI インサイト機能は現在、ベータ機能として利用できます。</p>
+<p>詳しくは、<a href="../c-activities/ai-insights.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改善点
+
+**[!UICONTROL 管理]**
+
++++ 詳細を見る
+
+* **ユーザーにAI権限を付与できません**。 製品管理者とシステム管理者のアクセス権を持つユーザーは、AI権限を他のユーザーに付与できませんでした。 AI権限を有効にしようとすると、組織でAIが有効になっている場合でも`Unauthorized` エラーが発生しました。 （TGT-56261）
+
++++
+
 ## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
+
 
 **[!UICONTROL レコメンデーション]**
 
