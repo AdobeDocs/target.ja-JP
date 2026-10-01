@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 28%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # [!DNL Target] リリースノート（最新）
 
@@ -40,7 +40,7 @@ ht-degree: 28%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
+## [!DNL Target Standard/Premium] 26.9.8 （2026年9月30日）
 
 ### 機能
 
@@ -80,6 +80,15 @@ ht-degree: 28%
 
 ### 改善点
 
+**[!UICONTROL 管理]**
+
++++ 詳細を見る
+
+* **ユーザーにAI権限を付与できません**。 製品管理者とシステム管理者のアクセス権を持つユーザーは、AI権限を他のユーザーに付与できませんでした。 AI権限を有効にしようとすると、組織でAIが有効になっている場合でも`Unauthorized` エラーが発生しました。 （TGT-56261）
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
 
 
 **[!UICONTROL レコメンデーション]**
@@ -197,7 +206,7 @@ ht-degree: 28%
 
 この機能を利用するには、**Target Premium**&#x200B;を持つRecommendations対応テナントが必要です。このテナントはプレミアム以外のアカウントでは利用できません。
 
-詳しくは、[MCP サーバーツールのリファレンス &#x200B;](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
+詳しくは、[MCP サーバーツールのリファレンス ](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
 
 +++
 
@@ -226,7 +235,7 @@ ht-degree: 28%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

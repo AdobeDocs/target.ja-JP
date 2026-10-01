@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
+source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
 workflow-type: tm+mt
-source-wordcount: '3949'
+source-wordcount: '3955'
 ht-degree: 60%
 ---
 # シングルページアプリケーション（SPA）Visual Experience Composer
@@ -90,128 +90,134 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 ここまで Adobe Target ビューの内容について説明しました。Target ではこのビューの概念を活用することで、マーケターが SPA での A/B テストや XT テストを VEC を通じて実行できるようにしています。 これには開発者による 1 回限りの設定が必要です。 設定する手順を見てみましょう。
 
-1. at.js 2.x をインストールします。
++++ at.js 2.x をインストールします。
 
-   まず、at.js 2.xをインストールします。 このバージョンのat.jsは、SPAを念頭に置いて開発されました。 at.js の以前のバージョンでは、Adobe Target ビューと SPA VEC はサポートされていません。
+まず、at.js 2.xをインストールします。 このバージョンのat.jsは、SPAを念頭に置いて開発されました。 at.js の以前のバージョンでは、Adobe Target ビューと SPA VEC はサポートされていません。
 
-   ![実装の詳細ダイアログボックス](/help/main/c-experiences/assets/imp-200.png)
+![実装の詳細ダイアログボックス](/help/main/c-experiences/assets/imp-200.png)
 
-   at.js 2.xは、[!UICONTROL 管理/実装]にあるAdobe Target UIからダウンロードできます。 at.js 2.x は、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ja){target=_blank} のタグを使用してデプロイすることもできます。 ただし、Adobe Target の拡張機能は現在最新ではなく、サポートされていません。
+at.js 2.xは、[!UICONTROL 管理/実装]にあるAdobe Target UIからダウンロードできます。 at.js 2.x は、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ja){target=_blank} のタグを使用してデプロイすることもできます。 ただし、Adobe Target の拡張機能は現在最新ではなく、サポートされていません。
 
-1. at.js 2.xの最新の関数[triggerView （） &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}をサイトに実装します。
++++
 
-   A/BまたはXT テストを実行するSPAのビューを定義したら、パラメーターとして渡されたビューでat.js 2.xの`triggerView()`関数を実装します。 これにより、マーケターは VEC を使用し、定義されたビューに対して A/B テストと XT テストを設計して実行できます。 これらのビューに対して `triggerView()` 関数が定義されていない場合、VEC はビューを検出しません。そのため、マーケターは VEC を使用して A/B テストや XT テストを設計して実行できません。
++++ at.js 2.xの最新関数を実装する
 
-   **`adobe.target.triggerView(viewName, options)`**
+at.js 2.xの最新関数[triggerView （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}をサイトに実装します。
 
-   | パラメーター | タイプ | 必須？ | 検証 | 説明 |
-   | --- | --- | --- | --- | --- |
-   | viewName | 文字列 | ○ | &#x200B;1. 末尾にスペースがありません。<br>2。 空にすることはできません。<br>3。 ビュー名は、すべてのページに対して一意である必要があります。<br>4。 **警告**： ビュー名の先頭または末尾を「`/`」にしないでください。 これは、顧客は URL パスから表示名を一般的に抽出するためです。 私たちにとって、「ホーム」と「`/home`」は異なります。<br>5。 **警告**： `{page: true}` オプションを使用して同じビューを連続してトリガーしないでください。 | ビューを表す文字列型として任意の名前を渡します。 このビュー名は、マーケターがアクションを作成し、A/BおよびXT アクティビティを実行するために、VECの[!UICONTROL 変更] パネルに表示されます。 |
-   | options | オブジェクト | × |  |  |
-   | options > page | ブール値 | × |  | **TRUE**： ページのデフォルト値は true です。 `page=true`の場合、インプレッション数を増やすための通知がEdge サーバーに送信されます。<br>**FALSE**: `page=false`の場合、インプレッション数を増やすための通知は送信されません。 オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
+A/BまたはXT テストを実行するSPAのビューを定義したら、パラメーターとして渡されたビューでat.js 2.xの`triggerView()`関数を実装します。 これにより、マーケターは VEC を使用し、定義されたビューに対して A/B テストと XT テストを設計して実行できます。 これらのビューに対して `triggerView()` 関数が定義されていない場合、VEC はビューを検出しません。そのため、マーケターは VEC を使用して A/B テストや XT テストを設計して実行できません。
 
-   次に、架空のe コマース SPAに対してReactで`triggerView()`関数を呼び出す方法について、いくつかのユースケースを紹介します。
+**`adobe.target.triggerView(viewName, options)`**
 
-   **リンク： [ホームサイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+| パラメーター | タイプ | 必須？ | 検証 | 説明 |
+| --- | --- | --- | --- | --- |
+| viewName | 文字列 | ○ | &#x200B;1. 末尾にスペースがありません。<br>2。 空にすることはできません。<br>3。 ビュー名は、すべてのページに対して一意である必要があります。<br>4。 **警告**： ビュー名の先頭または末尾を「`/`」にしないでください。 これは、顧客は URL パスから表示名を一般的に抽出するためです。 私たちにとって、「ホーム」と「`/home`」は異なります。<br>5。 **警告**： `{page: true}` オプションを使用して同じビューを連続してトリガーしないでください。 | ビューを表す文字列型として任意の名前を渡します。 このビュー名は、マーケターがアクションを作成し、A/BおよびXT アクティビティを実行するために、VECの[!UICONTROL 変更] パネルに表示されます。 |
+| options | オブジェクト | × |  |  |
+| options > page | ブール値 | × |  | **TRUE**： ページのデフォルト値は true です。 `page=true`の場合、インプレッション数を増やすための通知がEdge サーバーに送信されます。<br>**FALSE**: `page=false`の場合、インプレッション数を増やすための通知は送信されません。 オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
 
-   ![home-react-1](/help/main/c-experiences/assets/react1.png)
+次に、架空のe コマース SPAに対してReactで`triggerView()`関数を呼び出す方法について、いくつかのユースケースを紹介します。
 
-   マーケターがホームサイト全体で A/B テストを実行したい場合、URL から取り出せるビューに「home」と名前を付けることができます。
+**リンク： [ホームサイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
-   ```javascript
-   function targetView() {
-     var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
-   
-     viewName = viewName || 'home'; // view name cannot be empty
-   
-     // Sanitize viewName to get rid of any trailing symbols derived from URL
-     if (viewName.startsWith('#') || viewName.startsWith('/')) {
-       viewName = viewName.substr(1);
-     }
-   
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   // react router v4
-   const history = syncHistoryWithStore(createBrowserHistory(), store);
-   history.listen(targetView);
-   
-   // react router v3
-   <Router history={hashHistory} onUpdate={targetView} >
-   ```
+![home-react-1](/help/main/c-experiences/assets/react1.png)
 
-   **リンク： [製品サイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+マーケターがホームサイト全体で A/B テストを実行したい場合、URL から取り出せるビューに「home」と名前を付けることができます。
 
-   では、もう少し複雑な例を見てみましょう。 マーケターが「さらに読み込む」ボタンをクリックした後、価格ラベルの色を赤に変更して、2行目の商品をパーソナライズしたいとします。
+```javascript
+function targetView() {
+  var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
 
-   ![React 製品](/help/main/c-experiences/assets/react4.png)
+  viewName = viewName || 'home'; // view name cannot be empty
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Products extends Component {
-     render() {
-       return (
-         <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
-       );
-     }
-   
-     handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component's state
-       this.setState({page: page});
-       targetView('PRODUCTS-PAGE-' + page);
-     }
-   }
-   ```
+  // Sanitize viewName to get rid of any trailing symbols derived from URL
+  if (viewName.startsWith('#') || viewName.startsWith('/')) {
+    viewName = viewName.substr(1);
+  }
 
-   **リンク： [チェックアウト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
 
-   ![React チェックアウト](/help/main/c-experiences/assets/react6.png)
+// react router v4
+const history = syncHistoryWithStore(createBrowserHistory(), store);
+history.listen(targetView);
 
-   マーケターが選択された配送設定に応じてサイト上のコンテンツをパーソナライズする場合、配送設定ごとにビューを作成できます。 例えば、通常配送を選択した場合、ビューに「Normal Delivery」と名前を付けることができます。 速達配送を選択した場合には、ビューを「Express Delivery」という名前にすることができます。
+// react router v3
+<Router history={hashHistory} onUpdate={targetView} >
+```
 
-   マーケターは、A/B テストを実行して、どちらの配送オプションでもボタンの色を青のままにするのに対して、速達が選択されたときに色を青から赤に変更することでコンバージョンを上昇させることができるかどうかを確認したいと思うようになるかもしれません。
+**リンク： [製品サイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Checkout extends Component {
-     render() {
-       return (
-         <div onChange={this.onDeliveryPreferenceChanged}>
-           <label>
-             <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
-             <span> Normal Delivery (7-10 business days)</span>
-           </label>
-   
-           <label>
-             <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
-             <span> Express Delivery* (2-3 business days)</span>
-           </label>
-         </div>
-       );
-     }
-     onDeliveryPreferenceChanged(evt) {
-       var selectedPreferenceValue = evt.target.value;
-       targetView(selectedPreferenceValue);
-     }
-   }
-   ```
+では、もう少し複雑な例を見てみましょう。 マーケターが「さらに読み込む」ボタンをクリックした後、価格ラベルの色を赤に変更して、2行目の商品をパーソナライズしたいとします。
 
-1. VEC 経由で A/B アクティビティまたは XT アクティビティを起動します。
+![React 製品](/help/main/c-experiences/assets/react4.png)
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Products extends Component {
+  render() {
+    return (
+      <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
+    );
+  }
+
+  handleLoadMoreClicked() {
+    var page = this.state.page + 1; // assuming page number is derived from component's state
+    this.setState({page: page});
+    targetView('PRODUCTS-PAGE-' + page);
+  }
+}
+```
+
+**リンク： [チェックアウト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+
+![React チェックアウト](/help/main/c-experiences/assets/react6.png)
+
+マーケターが選択された配送設定に応じてサイト上のコンテンツをパーソナライズする場合、配送設定ごとにビューを作成できます。 例えば、通常配送を選択した場合、ビューに「Normal Delivery」と名前を付けることができます。 速達配送を選択した場合には、ビューを「Express Delivery」という名前にすることができます。
+
+マーケターは、A/B テストを実行して、どちらの配送オプションでもボタンの色を青のままにするのに対して、速達が選択されたときに色を青から赤に変更することでコンバージョンを上昇させることができるかどうかを確認したいと思うようになるかもしれません。
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Checkout extends Component {
+  render() {
+    return (
+      <div onChange={this.onDeliveryPreferenceChanged}>
+        <label>
+          <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
+          <span> Normal Delivery (7-10 business days)</span>
+        </label>
+
+        <label>
+          <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
+          <span> Express Delivery* (2-3 business days)</span>
+        </label>
+      </div>
+    );
+  }
+  onDeliveryPreferenceChanged(evt) {
+    var selectedPreferenceValue = evt.target.value;
+    targetView(selectedPreferenceValue);
+  }
+}
+```
+
++++
+
++++ VEC 経由で A/B アクティビティまたは XT アクティビティを起動します。
 
 SPA で、`adobe.target.triggerView()` にビュー名をパラメーターとして指定して実装した場合、VEC でそれらのビューを検出でき、ユーザーがアクションを作成して A/B アクティビティや XT アクティビティを修正できるようになります。
 
@@ -238,7 +244,7 @@ VEC が SPA で適切に動作できるように、VEC の[変更](/help/main/c-
 | 情報 | アクションの詳細を表示します。 |
 | 編集 | アクションのプロパティを直接編集できます。 |
 | 複製 | アクションを、[!UICONTROL 変更] パネルに存在する1つ以上のビュー、またはVECで参照して移動した1つ以上のビューに複製します。 アクションは、[!UICONTROL 変更] パネルに必ずしも存在する必要はありません。<br>**注意**: クローン操作が行われた後、[!UICONTROL 参照]を介してVECのビューに移動し、クローン操作が有効な操作であったかどうかを確認する必要があります。 アクションがビューに適用できない場合、エラーが表示されます。 |
-| 移動 | 変更パネルに既に存在するページの読み込みイベントまたはその他のビューにアクションを移動します。<br>[!UICONTROL &#x200B; ページ読み込みイベント &#x200B;] - ページ読み込みイベントに対応するすべてのアクションは、web アプリケーションの最初のページ読み込み時に適用されます。<br>**注意**：移動操作を行ったら、参照を使用して VEC のビューに移動し、移動が有効な操作かどうかを確認します。 アクションがビューに適用できない場合、エラーが表示されます。 |
+| 移動 | 変更パネルに既に存在するページの読み込みイベントまたはその他のビューにアクションを移動します。<br>[!UICONTROL  ページ読み込みイベント ] - ページ読み込みイベントに対応するすべてのアクションは、web アプリケーションの最初のページ読み込み時に適用されます。<br>**注意**：移動操作を行ったら、参照を使用して VEC のビューに移動し、移動が有効な操作かどうかを確認します。 アクションがビューに適用できない場合、エラーが表示されます。 |
 | 削除 | アクションを削除します。 |
 
 >[!NOTE]
@@ -284,6 +290,8 @@ PRODUCTS-PAGE-2 ビューを作成した上記の例を参照しましょう。 
 >[!NOTE]
 >
 >「チェックアウト時に速達配送を選択」ビューは、「速達配送」のラジオボタンをクリックするまで、変更パネルには表示されません。 これは、`triggerView()` 関数がトリガーされるのは、「速達配送」のラジオボタンが選択され、変更パネルに表示されるビューがあることを VEC が認識したときのみであるためです。
+
++++
 
 ## at.js および SPA の詳細
 
@@ -377,7 +385,7 @@ adobe.target.getOffers({
 
 **at.js 2.x をインストールして `triggerView()` をサイトに実装した場合、SPA VEC は自動ターゲットをサポートしませんが、自動ターゲット A/B アクティビティはどのように実行すればよいですか。**
 
-自動ターゲット A/B アクティビティを使用する場合は、ページの読み込みイベントで実行されるすべてのアクションを VEC で移動できます。 各アクションにカーソルを合わせ、[!UICONTROL &#x200B; ページ読み込みイベントに移動] ボタンをクリックします。 その後、次の手順で、トラフィック配分方法に対応する自動ターゲットを選択できます。
+自動ターゲット A/B アクティビティを使用する場合は、ページの読み込みイベントで実行されるすべてのアクションを VEC で移動できます。 各アクションにカーソルを合わせ、[!UICONTROL  ページ読み込みイベントに移動] ボタンをクリックします。 その後、次の手順で、トラフィック配分方法に対応する自動ターゲットを選択できます。
 
 ## サポートされる統合
 
@@ -385,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | ○ |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | ○ |
-| [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja){target=_blank} | ○ |
+| [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | ○ |
 | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | ○ |
 
 ## サポートされる機能 {#supported-features}
@@ -402,15 +410,15 @@ adobe.target.getOffers({
 
 ## SPA VEC のページ配信設定 {#page-delivery-settings}
 
-[!UICONTROL &#x200B; ページ配信]設定を使用すると、Target アクティビティがオーディエンスに対して適格で実行されるタイミングを決定するルールを設定できます。
+[!UICONTROL  ページ配信]設定を使用すると、Target アクティビティがオーディエンスに対して適格で実行されるタイミングを決定するルールを設定できます。
 
-VECの3部構成のガイド付きアクティビティ作成ワークフロー内から[!UICONTROL &#x200B; ページ配信] オプションにアクセスするには、**[!UICONTROL エクスペリエンス]** ステップで、**[!UICONTROL 設定]** （歯車アイコン） > **[!UICONTROL ページ配信]**&#x200B;をクリックします。
+VECの3部構成のガイド付きアクティビティ作成ワークフロー内から[!UICONTROL  ページ配信] オプションにアクセスするには、**[!UICONTROL エクスペリエンス]** ステップで、**[!UICONTROL 設定]** （歯車アイコン） > **[!UICONTROL ページ配信]**&#x200B;をクリックします。
 
 ![ページ配信オプションダイアログボックス](/help/main/c-experiences/assets/page-delivery.png)
 
-例えば、上記の[!UICONTROL &#x200B; ページ配信]設定で定義されているように、訪問者が`https://www.adobe.com/jp/products`を含む任意のURLにアクセスした`https://www.adobe.com` *または*&#x200B;に直接訪問すると、Target アクティビティが修飾され、実行されます。 これは、ページとのすべてのやり取りでページを再読み込みする複数ページアプリケーションに対して完全に機能します。at.js が、ユーザーが移動する URL に対して適合するアクティビティを取得します。
+例えば、上記の[!UICONTROL  ページ配信]設定で定義されているように、訪問者が`https://www.adobe.com/products`を含む任意のURLにアクセスした`https://www.adobe.com` *または*&#x200B;に直接訪問すると、Target アクティビティが修飾され、実行されます。 これは、ページとのすべてのやり取りでページを再読み込みする複数ページアプリケーションに対して完全に機能します。at.js が、ユーザーが移動する URL に対して適合するアクティビティを取得します。
 
-ただし、SPAの動作は異なるため、[!UICONTROL &#x200B; ページ配信]の設定は、すべてのアクションをSPA VEC アクティビティで定義されているとおりにビューに適用できるように設定する必要があります。
+ただし、SPAの動作は異なるため、[!UICONTROL  ページ配信]の設定は、すべてのアクションをSPA VEC アクティビティで定義されているとおりにビューに適用できるように設定する必要があります。
 
 ### 使用例
 
@@ -423,7 +431,7 @@ VECの3部構成のガイド付きアクティビティ作成ワークフロー�
 * URL [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)の下にあるホームビューの背景色を変更しました。
 * URL [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)の下にある製品ビューのボタンの色を変更しました。
 
-上記の例を念頭に置いて、at.js 2.*x*&#x200B;のSPAに[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)のみを含めるように[!UICONTROL &#x200B; ページ配信]設定を設定するとどうなりますか？
+上記の例を念頭に置いて、at.js 2.*x*&#x200B;のSPAに[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)のみを含めるように[!UICONTROL  ページ配信]設定を設定するとどうなりますか？
 
 ![ページ配信ダイアログボックス](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -460,15 +468,15 @@ VECの3部構成のガイド付きアクティビティ作成ワークフロー�
 
 これにより、訪問者が SPA のどこに到達し、ホームまたはページビューのどちらに移動しても、適用されたアクションが表示されます。
 
-これで、SPA VECのビューにアクションを追加するたびに、次のポップアップメッセージが表示され、[!UICONTROL &#x200B; ページ配信] ルールについて考えるように促されます。
+これで、SPA VECのビューにアクションを追加するたびに、次のポップアップメッセージが表示され、[!UICONTROL  ページ配信] ルールについて考えるように促されます。
 
 ![ページ配信設定メッセージ](/help/main/c-experiences/assets/pop-up-message.png)
 
-このメッセージは、作成する新しい各アクティビティ用のビューに最初のアクションを追加すると表示されます。 このメッセージは、組織内の全員が、これらの[!UICONTROL &#x200B; ページ配信] ルールを正しく適用する方法を確実に学習するのに役立ちます。
+このメッセージは、作成する新しい各アクティビティ用のビューに最初のアクションを追加すると表示されます。 このメッセージは、組織内の全員が、これらの[!UICONTROL  ページ配信] ルールを正しく適用する方法を確実に学習するのに役立ちます。
 
 ## トレーニングビデオ：Adobe Target での SPA VEC の使用
 
->[!VIDEO](https://video.tv.adobe.com/v/35062?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 詳しくは、[Adobe Target でのシングルページアプリケーション Visual Experience Composer（SPA VEC）の使用](https://helpx.adobe.com/jp/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)を参照してください。
 
