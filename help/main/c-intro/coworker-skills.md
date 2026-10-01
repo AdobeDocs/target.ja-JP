@@ -25,7 +25,7 @@ Adobe Targetの実務担当者は、共同作業に必要なスキルを磨き�
 [!DNL Adobe Target]個のMCP ツールと共同作業者は別々に文書化され、異なる機能を提供します。
 
 * [Target MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)は、サポートされているアクティビティの種類、パラメーター、権限、読み取りまたは書き込みスコープなど、直接MCP サーバーによって公開される個々のツールを文書化します。
-* [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences)は、機能を組み合わせて追加のワークフローを適用できる、個別の自然言語オーケストレーションレイヤーを提供します。
+* [Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences)は、機能を組み合わせて追加のワークフローを適用できる、個別の自然言語オーケストレーションレイヤーを提供します。
 
 次の表は、関連する機能の大まかな比較です。
 
