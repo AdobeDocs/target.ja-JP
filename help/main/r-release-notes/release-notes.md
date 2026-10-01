@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # [!DNL Target] リリースノート（最新）
 
@@ -41,6 +41,46 @@ ht-degree: 30%
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
 ## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
+
+### 機能
+
+<table>
+<thead>
+<tr>
+<th><strong>サンプルサイズ計算ツール</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>サンプルサイズ計算ツールは、必要なトラフィックやテスト時間、エクスペリエンス数、検出できる最小効果などを推定することで、テストを開始する前にテストを計画するのに役立ちます。 アクティビティメニューから使用でき、入力を使用して、テストに必要なリソースとランタイムを判断するのに役立ちます。</p>
+<p>サンプルサイズ計算機能は現在、ベータ版の機能として利用できます。</p>
+<p>詳しくは、<a href="../c-activities/sample-size-calculator.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI インサイト</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI インサイトは、AIが生成した実験の学習と、手動トラフィック割り当てによるA/B テストアクティビティの最適化機会を提供します。 実験が統計的有意性に達すると、インサイトはそのパフォーマンスに貢献した可能性が高い勝者エクスペリエンスの属性を強調表示します。 推奨される機会には、新しい体験のアイデア、仮説、実装ガイダンスなどが含まれ、コンバージョン率の向上に役立ちます。</p>
+<p>AI インサイト機能は現在、ベータ機能として利用できます。</p>
+<p>詳しくは、<a href="../c-activities/ai-insights.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改善点
+
+
 
 **[!UICONTROL レコメンデーション]**
 
@@ -157,7 +197,7 @@ ht-degree: 30%
 
 この機能を利用するには、**Target Premium**&#x200B;を持つRecommendations対応テナントが必要です。このテナントはプレミアム以外のアカウントでは利用できません。
 
-詳しくは、[MCP サーバーツールのリファレンス &#x200B;](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
+詳しくは、[MCP サーバーツールのリファレンス ](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
 
 +++
 
@@ -186,7 +226,7 @@ ht-degree: 30%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

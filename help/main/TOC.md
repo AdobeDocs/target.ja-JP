@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: d56bda63de533f7a1d0fb4f7297242a58064403f
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1322'
 ht-degree: 83%
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 83%
 
 + [Adobe Target Business Practitioner Guide Home](target-home.md)
 + Target リリースノート {#release-notes}
-  + {hide-from-toc}[Targetのお知らせとイベント &#x200B;](/help/main/r-release-notes/target-announcements.md)
+  + {hide-from-toc}[Targetのお知らせとイベント ](/help/main/r-release-notes/target-announcements.md)
   + [Target リリースノート（最新）](r-release-notes/release-notes.md)
   + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
   + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
@@ -30,7 +30,7 @@ ht-degree: 83%
     + [AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)
     + [AI アシスタントを有効にする](/help/main/c-intro/enabling-ai-assistant.md)
     + [AI アシスタントを使用して製品知識を獲得し](/help/main/c-intro/ai-assistant-product-knowledge.md)
-    + {hide-from-toc}[&#x200B; コンテンツ生成にAI アシスタントを使用](/help/main/c-intro/ai-assistant-content-generation.md)
+    + {hide-from-toc}[ コンテンツ生成にAI アシスタントを使用](/help/main/c-intro/ai-assistant-content-generation.md)
   + Adobe Target ウェルカムキット {#welcome}
     + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)
     + [第 1 章：はじめに](/help/main/c-intro/target-welcome-kit-1.md)
@@ -107,8 +107,8 @@ ht-degree: 83%
     + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
     + {hide-from-toc}[統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizerのユースケース {#use-cases}
-      + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル &#x200B;](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[Adobe Journey OptimizerでのA/B テストによる コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル ](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+      + Adobe Journey OptimizerでのA/B テストによる{hide-from-toc}[ コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
   + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
@@ -123,6 +123,7 @@ ht-degree: 83%
 + アクティビティ {#activities}
   + [アクティビティの概要](c-activities/activities.md)
   + [インサイトダッシュボード](c-activities/insights-dashboard.md)
+  + [サンプルサイズ計算ツール](c-activities/sample-size-calculator.md)
   + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
   + A/B テスト {#abtest}
     + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +195,7 @@ ht-degree: 83%
     + [クリックの追跡](c-activities/r-success-metrics/click-tracking.md)
     + [スコアキャプチャ](c-activities/r-success-metrics/capture-score.md)
   + [アクティビティの変更ログ](c-activities/change-log.md)
+  + [AI インサイト](c-activities/ai-insights.md)
   + アクティビティのトラブルシューティング {#troubleshoot-activities}
     + [アクティビティのトラブルシューティングの概要](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [コンテンツ配信のトラブルシューティング](c-activities/c-troubleshooting-activities/content-trouble.md)
@@ -345,4 +347,4 @@ ht-degree: 83%
   + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
   + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)
