@@ -157,7 +157,7 @@ Adobe AnalyticsまたはCustomer Journey Analytics データに依存するA/B �
 
    * **[!UICONTROL 分散]**：指標の値の広がり方。 一般的に、クリック率の変動は小さく、ユーザーあたりの売上ははるかに高くなります。 わからない場合は、デフォルト値を1のままにします。
 
-     **[!UICONTROL 分散]**&#x200B;の計算方法については、[Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)を参照してください
+     **[!UICONTROL 分散]**&#x200B;の計算方法については、[Analytics ドキュメント ](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)を参照してください
 
      ![](assets/calculator-cja-analytics-2.png)
 
