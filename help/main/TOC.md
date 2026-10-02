@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
+source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 83%
+source-wordcount: '1304'
+ht-degree: 84%
 ---
 
 # Adobe Target ビジネス実践者ガイド {#using}
@@ -26,11 +26,6 @@ ht-degree: 83%
   + [Target の主要概念](c-intro/target-key-concepts.md)
   + [Target の UI について](/help/main/c-intro/understand-the-target-ui.md)
   + [Target UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)
-  + Adobe Target AI アシスタント {#assistant-ai}
-    + [AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)
-    + [AI アシスタントを有効にする](/help/main/c-intro/enabling-ai-assistant.md)
-    + [AI アシスタントを使用して製品知識を獲得し](/help/main/c-intro/ai-assistant-product-knowledge.md)
-    + {hide-from-toc}[&#x200B; コンテンツ生成にAI アシスタントを使用](/help/main/c-intro/ai-assistant-content-generation.md)
   + [Adobe Adobe Targetの共同作業スキル](c-intro/coworker-skills.md)
   + Adobe Target ウェルカムキット {#welcome}
     + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)

@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '727'
 ht-degree: 31%
 ---
 # [!DNL Adobe Target]業務担当者ガイド
@@ -62,13 +62,13 @@ UIは明瞭性と効率性を考慮して設計されており、[!DNL Target]�
 
 [![詳細情報のアイコン &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
->[!TAB AI アシスタント ]
+>[!TAB AI共同作業者]
 
-**[!DNL Adobe Experience Platform]**&#x200B;で[!DNL AI Assistant]に会う
+**[!DNL Adobe Experience Platform]**&#x200B;で[!DNL Coworker]に会う
 
-[!DNL AI Assistant]は[!DNL Adobe Experience Cloud]を操作するためのスマート ガイドです。 [!DNL Target]や[!DNL AI Assistant]などの製品で利用できるため、主要な概念や機能をインターフェイスから素早く理解できます。
+[!DNL Coworker]は[!DNL Adobe Experience Cloud]を操作するためのスマート ガイドです。 [!DNL Target]や[!DNL Coworker]などの製品で利用できるため、主要な概念や機能をインターフェイスから素早く理解できます。
 
-[![詳細情報のアイコン &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
+[![詳細情報のアイコン &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/coworker-skills.md)
 
 >[!TAB  ターゲットリソース ]
 
@@ -96,7 +96,7 @@ UIは明瞭性と効率性を考慮して設計されており、[!DNL Target]�
 - [[!DNL Target]  リリースノート &#x200B;](r-release-notes/release-notes.md)：現在のリリースに関する情報、既知の問題[!DNL Target]に影響する情報、このドキュメントに対する重要な変更のリスト、過去のリリースノートのアーカイブが含まれます。
 - [はじめに [!DNL Target]](c-intro/intro.md): [!DNL Target]のコアコンセプトについて説明します。
 - [&#x200B; [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target]に慣れるのに役立ち、より詳細な情報と手順ごとの説明を示すリンクが提供されます。
-- A[!DNL dobe Experience Platform]の[[!UICONTROL AI アシスタント &#x200B;]の概要](/help/main/c-intro/ai-assistant.md):[!DNL AI Assistant]は、[!DNL Adobe Target]の概念を操作して理解するために使用できるユーザーインターフェイス機能です。
+- [Adobe Targetの共同作業スキル &#x200B;](/help/main/c-intro/coworker-skills.md): アクティビティとオーディエンスの探索、テストの作成、パフォーマンスの分析、および[!DNL Adobe Target]のレコメンデーションのトラブルシューティングに関する共同作業スキルについて説明します。
 - [!DNL Target]を[!DNL Adobe Experience Cloud]と統合：[!DNL Target]をTarget [&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）、[[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md)および[[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md)のAnalyticsを含む他の[!DNL Experience Cloud] ソリューションと統合する方法について説明します。
 - [[!DNL Adobe Target]  チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja): [!DNL Target]を最大限に活用するためのチュートリアルとビデオを提供します。
 - [&#x200B; トラブルシューティング  [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md)：このガイドに含まれるトラブルシューティング情報へのリンクを提供します。これには、文字の制限およびその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）に関する情報が含まれ、[!DNL Target]のアクティビティやその他の要素に影響します。

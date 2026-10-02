@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '72534'
+source-wordcount: '72418'
 ht-degree: 55%
 ---
 # 以前のリリースのリリースノート
@@ -2085,15 +2085,17 @@ Adobe Targetには新しいインサイトダッシュボードが追加され�
 * オーディエンス期間が無効な場合にユーザーに警告するエラーメッセージを追加しました。 （TGT52522）
 * 様々なタイプの重複したオーディエンスをサポートするようにアクティビティ構造を更新しました。 （TGT-51200）
 
-### [!DNL Adobe Target] [!DNL AI Assistant] リリース（2025年5月16日（PT））
+<!--
+### [!DNL Adobe Target] [!DNL AI Assistant] release (May 16, 2025)
 
-[!DNL Adobe Target] での [!DNL AI Assistant] のローンチを発表できることを嬉しく思います。 この強力なユーザーインターフェイス機能は、[!DNL Target] の概念を簡単にナビゲートして理解できるように設計されています。 [!DNL Target] を含む [!DNL Adobe Experience Cloud] の複数の製品で使用可能な [!DNL AI Assistant] は、ユーザーのエクスペリエンスに革命をもたらします。
+We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe Target]! This powerful user interface feature is designed to help you navigate and understand [!DNL Target] concepts with ease. Available across multiple products in [!DNL Adobe Experience Cloud], including [!DNL Target], [!DNL AI Assistant] is here to revolutionize your experience.
 
-[!UICONTROL Target]の[!DNL AI Assistant]は、[!DNL Experience Platform]個のアプリケーションとサービスでワークフローを高速化するために使用できる会話型のツールです。 [!DNL AI Assistant] を使用すると、全体的な生産性を向上させ、製品に関する知識をより深く理解できます
+[!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-[!DNL Target] では、[!DNL AI Assistant] の最初のフェーズで、[!DNL Experience League] ドキュメントに基づいた貴重な製品に関する知識が提供されます。 プロファイルスクリプトの設定、エラーのトラブルシューティング、AEP Web SDK へのアップグレードの検討など、あらゆる場面で [!DNL AI Assistant] が役に立ちます。
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
-詳しくは、[Adobe Experience Platform AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)を参照してください。
+For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
+-->
 
 ### [!DNL Target Standard/Premium] 25.5.2（2025年5月8日（PT））
 
@@ -2882,12 +2884,12 @@ at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* [User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=ja){target=_blank} のサポートを追加しました。
+* [ユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=ja){target=_blank}のサポートを追加しました。
 * [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティで[!UICONTROL &#x200B; オファー決定]をレンダリングする際に、断続的にタイムアウトが発生する問題を修正しました。 （TNT-44611）
 
 ### at.js バージョン 2.9.0（2022年5月27日（PT））
 
-* [User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=ja){target=_blank} のサポートを追加しました。
+* [ユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=ja){target=_blank}のサポートを追加しました。
 * 同じページ上の複数の mbox リクエストが異なるインプレッション ID を持っていたバグを修正しました。
 
 ### [!DNL Target Standard/Premium] 22.5.1（時差リリース、2022年5月11～13日（PT））
@@ -5752,7 +5754,7 @@ at.js を実装する際には、以下のことに注意してください。
  <tbody> 
   <tr> 
    <td colname="col1"> ユーザーインターフェイスの改良 </td> 
-   <td colname="col2"> <p>アクティビティリストとオーディエンスリストのデザインが改良され、検索／並べ替え機能が追加されました。 今後のリリースでは、インターフェイスがさらに変更されます。 </p> <p><a href="/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">アクティビティ</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>アクティビティリストとオーディエンスリストのデザインが改良され、検索／並べ替え機能が追加されました。 今後のリリースでは、ユーザーインターフェイスがさらに変更されます。 </p> <p><a href="/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">アクティビティ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> "スーパー" オーディエンス </td> 

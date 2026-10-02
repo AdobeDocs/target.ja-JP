@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 25%
+source-wordcount: '1442'
+ht-degree: 24%
 ---
 # [!DNL Target] UI について
 
@@ -62,11 +62,11 @@ ht-degree: 25%
 
 フィードバックの説明を入力し、該当するファイルまたはスクリーンショット、および必要に応じて追加の詳細を含め、**[!UICONTROL 送信]**&#x200B;をクリックします。
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-（条件付き）組織から[!DNL AI Assistant]を使用する権限が付与されている場合は、[!DNL AI Assistant] アイコンをクリックします。
+（条件付き）組織から[!DNL Coworker]を使用する権限が付与されている場合は、[!DNL Coworker] アイコンをクリックします。
 
-詳しくは、[Adobe Experience Platform AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)を参照してください。
+詳しくは、「[Adobe Targetの共同作業スキル &#x200B;](/help/main/c-intro/coworker-skills.md)」を参照してください。
 
 ### ヘルプ
 
