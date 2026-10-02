@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 25%
+source-wordcount: '1442'
+ht-degree: 24%
 ---
 # [!DNL Target] UI について
 
@@ -54,43 +54,43 @@ ht-degree: 25%
 
 ![組織ドロップダウンリスト](/help/main/c-intro/assets/organizations.png)
 
-### [!UICONTROL Beta フィードバック &#x200B;]
+### [!UICONTROL Beta フィードバック ]
 
-（条件付き）公式の[!DNL Target] Beta プログラムに参加している場合は、[!UICONTROL Beta フィードバック &#x200B;] アイコンが表示される場合があります。
+（条件付き）公式の[!DNL Target] Beta プログラムに参加している場合は、[!UICONTROL Beta フィードバック ] アイコンが表示される場合があります。
 
-![Betaのフィードバックアイコン &#x200B;](/help/main/c-intro/assets/beta-feedback.png)
+![Betaのフィードバックアイコン ](/help/main/c-intro/assets/beta-feedback.png)
 
 フィードバックの説明を入力し、該当するファイルまたはスクリーンショット、および必要に応じて追加の詳細を含め、**[!UICONTROL 送信]**&#x200B;をクリックします。
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-（条件付き）組織から[!DNL AI Assistant]を使用する権限が付与されている場合は、[!DNL AI Assistant] アイコンをクリックします。
+（条件付き）組織から[!DNL Coworker]を使用する権限が付与されている場合は、[!DNL Coworker] アイコンをクリックします。
 
-詳しくは、[Adobe Experience Platform AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)を参照してください。
+詳しくは、「[Adobe Targetの共同作業スキル ](/help/main/c-intro/coworker-skills.md)」を参照してください。
 
 ### ヘルプ
 
-[!UICONTROL &#x200B; ヘルプ &#x200B;] アイコン （![&#x200B; ヘルプアイコン &#x200B;](/help/main/assets/icons/HelpOutline.svg)）をクリックすると、[!DNL Target]をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。 サポートチケットの作成、サポート電話番号の検索、Twitterでの質問、または[!DNL Target]に関するフィードバックの提供を行って、[!DNL Target] チームがどのように作業しているかを知らせることができます。
+[!UICONTROL  ヘルプ ] アイコン （![ ヘルプアイコン ](/help/main/assets/icons/HelpOutline.svg)）をクリックすると、[!DNL Target]をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。 サポートチケットの作成、サポート電話番号の検索、Twitterでの質問、または[!DNL Target]に関するフィードバックの提供を行って、[!DNL Target] チームがどのように作業しているかを知らせることができます。
 
 ![ヘルプ](/help/main/c-intro/assets/help.png)
 
 ### リクエスト、通知、通知 {#notifications-announcements}
 
-[!UICONTROL &#x200B; リクエスト &#x200B;]、[!UICONTROL 通知]および[!UICONTROL お知らせ] パネルを使用すると、すべての[!DNL Adobe Target]に関する最新情報を入手できます。 プロアクティブな通知により、[!DNL Adobe Experience Cloud]個のソリューションと[!DNL Target]個のイベントのステータスを常に把握できます。 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
+[!UICONTROL  リクエスト ]、[!UICONTROL 通知]および[!UICONTROL お知らせ] パネルを使用すると、すべての[!DNL Adobe Target]に関する最新情報を入手できます。 プロアクティブな通知により、[!DNL Adobe Experience Cloud]個のソリューションと[!DNL Target]個のイベントのステータスを常に把握できます。 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
 
-ヘッダーの[!UICONTROL 通知] アイコン （![通知アイコン &#x200B;](/help/main/assets/icons/Bell.svg)）をクリックして、通知を表示します。
+ヘッダーの[!UICONTROL 通知] アイコン （![通知アイコン ](/help/main/assets/icons/Bell.svg)）をクリックして、通知を表示します。
 
-パネルには、[!UICONTROL &#x200B; リクエスト &#x200B;]、[!UICONTROL 通知]、[!UICONTROL 通知]のタブが含まれています。
+パネルには、[!UICONTROL  リクエスト ]、[!UICONTROL 通知]、[!UICONTROL 通知]のタブが含まれています。
 
-![&#x200B; 通知 &#x200B;](assets/notifications.png)
+![ 通知 ](assets/notifications.png)
 
 以下の節では、各タブに関する情報と、通知と通知の設定方法について説明します。
 
-#### [!UICONTROL &#x200B; リクエスト &#x200B;]
+#### [!UICONTROL  リクエスト ]
 
-[!UICONTROL &#x200B; リクエスト &#x200B;] パネルで、[!DNL Adobe]製品とソリューション、同僚のユーザーとの共同作業、その他の関連する更新情報に関する重要な情報を受け取ります。
+[!UICONTROL  リクエスト ] パネルで、[!DNL Adobe]製品とソリューション、同僚のユーザーとの共同作業、その他の関連する更新情報に関する重要な情報を受け取ります。
 
-誰かがオブジェクトを承認またはオブジェクトへのアクセスを許可するリクエストを送信すると、そのリクエストは[!UICONTROL &#x200B; リクエスト &#x200B;] パネルに表示されます。
+誰かがオブジェクトを承認またはオブジェクトへのアクセスを許可するリクエストを送信すると、そのリクエストは[!UICONTROL  リクエスト ] パネルに表示されます。
 
 #### 通知 {#notifications}
 
@@ -126,9 +126,9 @@ ht-degree: 25%
   * `Feed {target.feed.name} has failed`
   * `Feed {target.feed.name} has failed to import from source`
 
-個々の通知を読み取り済みとしてマークするには、目的の通知の上にカーソルを置き、[!UICONTROL 読み取り済みとしてマーク &#x200B;] （![読み取りアイコンとしてマーク &#x200B;](/help/main/assets/icons/CheckmarkCircle.svg)）アイコンをクリックします。 パネルの下部にある「[!UICONTROL 既読としてマーク &#x200B;]」または「[!UICONTROL すべてを表示]」をクリックすると、すべての通知を既読としてマークしたり、すべての通知を表示したりできます。
+個々の通知を読み取り済みとしてマークするには、目的の通知の上にカーソルを置き、[!UICONTROL 読み取り済みとしてマーク ] （![読み取りアイコンとしてマーク ](/help/main/assets/icons/CheckmarkCircle.svg)）アイコンをクリックします。 パネルの下部にある「[!UICONTROL 既読としてマーク ]」または「[!UICONTROL すべてを表示]」をクリックすると、すべての通知を既読としてマークしたり、すべての通知を表示したりできます。
 
-[!UICONTROL 一時停止] （![一時停止アイコン &#x200B;](/help/main/assets/icons/Clock.svg)）アイコンをクリックして、通知にカーソルを合わせると、再度通知するようにリマインダーを設定することもできます。 その後、通知を受け取るタイミングを5分、15分、1時間、または明日から選択できます。
+[!UICONTROL 一時停止] （![一時停止アイコン ](/help/main/assets/icons/Clock.svg)）アイコンをクリックして、通知にカーソルを合わせると、再度通知するようにリマインダーを設定することもできます。 その後、通知を受け取るタイミングを5分、15分、1時間、または明日から選択できます。
 
 #### 発表
 
@@ -140,10 +140,10 @@ ht-degree: 25%
 
 通知設定を編集するには：
 
-1. [!UICONTROL 環境設定を編集] （![環境設定を編集アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）アイコンをクリックし、左側のパネルの&#x200B;**[!UICONTROL 通知]**&#x200B;をクリックします。
+1. [!UICONTROL 環境設定を編集] （![環境設定を編集アイコン ](/help/main/assets/icons/Setting.svg)）アイコンをクリックし、左側のパネルの&#x200B;**[!UICONTROL 通知]**&#x200B;をクリックします。
 1. **[!UICONTROL Target]**&#x200B;で、通知する方法を選択します。
 
-   * [!UICONTROL &#x200B; アプリ内]
+   * [!UICONTROL  アプリ内]
    * [!UICONTROL Email]
    * [!DNL Slack]
 
@@ -151,7 +151,7 @@ ht-degree: 25%
 
    >[!NOTE]
    >
-   >[!DNL Target]に適用される通知カテゴリは、「[!UICONTROL 新しいリリース &#x200B;]」と「[!UICONTROL &#x200B; コンテンツの更新]」のみです。 その他のカテゴリは、他の[!DNL Adobe] ソリューションに適用されます。
+   >[!DNL Target]に適用される通知カテゴリは、「[!UICONTROL 新しいリリース ]」と「[!UICONTROL  コンテンツの更新]」のみです。 その他のカテゴリは、他の[!DNL Adobe] ソリューションに適用されます。
 
 1. ブラウザーにアラートを表示する通知を選択します。
 
@@ -160,9 +160,9 @@ ht-degree: 25%
 1. 通知メールの受信頻度を選択します。
 
    * [!UICONTROL 電子メールを送信しない]
-   * [!UICONTROL &#x200B; インスタント通知]
-   * [!UICONTROL 毎日ダイジェスト &#x200B;]
-   * [!UICONTROL 毎週ダイジェスト &#x200B;]
+   * [!UICONTROL  インスタント通知]
+   * [!UICONTROL 毎日ダイジェスト ]
+   * [!UICONTROL 毎週ダイジェスト ]
 
 1. ワークスペースのSlack通知を設定します。
 
@@ -184,23 +184,23 @@ ht-degree: 25%
 
 [!DNL Target]を開いたときの既定のビューは、**[!UICONTROL アクティビティ]** リストです。 このページからアクティビティを作成し、既存のアクティビティを管理できます。
 
-[!DNL Target]で使用可能なアクティビティタイプについて詳しくは、[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)を参照し、[!UICONTROL &#x200B; アクティビティ &#x200B;] リストのユーザーインターフェイスについて詳しく確認してください。
+[!DNL Target]で使用可能なアクティビティタイプについて詳しくは、[ アクティビティ ](/help/main/c-activities/activities.md)を参照し、[!UICONTROL  アクティビティ ] リストのユーザーインターフェイスについて詳しく確認してください。
 
 ## オーディエンス
 
-「**[!UICONTROL オーディエンス]**」タブをクリックして、[!UICONTROL &#x200B; オーディエンス &#x200B;] リストを表示し、オーディエンスを作成して既存のオーディエンスを管理できます。
+「**[!UICONTROL オーディエンス]**」タブをクリックして、[!UICONTROL  オーディエンス ] リストを表示し、オーディエンスを作成して既存のオーディエンスを管理できます。
 
-オーディエンスは、ターゲットを絞ったアクティビティを表示する、類似のアクティビティ参加者のグループです。 オーディエンスとは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特徴を持つ人々のグループのことです。 [!UICONTROL &#x200B; オーディエンス &#x200B;]機能を使用すると、特定のオーディエンスに対して異なるコンテンツやエクスペリエンスをターゲットにすることができ、適切なメッセージを適切なオーディエンスにタイミングよく表示して、デジタルマーケティングを最適化できます。 訪問者がターゲットオーディエンスに当てはまる場合は、[!DNL Target] により、アクティビティ作成時に定義された条件に基づいて、そのユーザーに表示するエクスペリエンスが決定されます。
+オーディエンスは、ターゲットを絞ったアクティビティを表示する、類似のアクティビティ参加者のグループです。 オーディエンスとは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特徴を持つ人々のグループのことです。 [!UICONTROL  オーディエンス ]機能を使用すると、特定のオーディエンスに対して異なるコンテンツやエクスペリエンスをターゲットにすることができ、適切なメッセージを適切なオーディエンスにタイミングよく表示して、デジタルマーケティングを最適化できます。 訪問者がターゲットオーディエンスに当てはまる場合は、[!DNL Target] により、アクティビティ作成時に定義された条件に基づいて、そのユーザーに表示するエクスペリエンスが決定されます。
 
-[!DNL Target]のオーディエンスタイプについて詳しくは、[&#x200B; オーディエンスの作成](/help/main/c-target/c-audiences/create-audience.md)を参照し、[!UICONTROL &#x200B; オーディエンス &#x200B;] リストのユーザーインターフェイスについて詳しく説明します。
+[!DNL Target]のオーディエンスタイプについて詳しくは、[ オーディエンスの作成](/help/main/c-target/c-audiences/create-audience.md)を参照し、[!UICONTROL  オーディエンス ] リストのユーザーインターフェイスについて詳しく説明します。
 
 ## オファー
 
-「**[!UICONTROL オファー]**」タブをクリックして、[!UICONTROL &#x200B; オファー] リストを表示し、エクスペリエンスやオファーを作成したり、既存のエクスペリエンスやオファーを管理したりできます。
+「**[!UICONTROL オファー]**」タブをクリックして、[!UICONTROL  オファー] リストを表示し、エクスペリエンスやオファーを作成したり、既存のエクスペリエンスやオファーを管理したりできます。
 
 エクスペリエンスは、オファー、画像、テキスト、ボタン、ビデオ、ページ上のこれらの様々な要素の組み合わせ、Web ページ全体、購入ファネルやその他のページの論理的シーケンスを形成するページのセットである可能性があります。 また、音声アシスタント応答、カスタマーサービスのスクリプト、自動販売機のパーソナライズされたフレーバーであることもあります。 [!DNL Target] アクティビティのエクスペリエンスをテストまたはパーソナライズします。
 
-[!DNL Target]のオファータイプについて詳しくは、[&#x200B; オファー](/help/main/c-experiences/c-manage-content/manage-content.md)を参照し、[!UICONTROL &#x200B; オファー] リストのユーザーインターフェイスについて詳しく確認してください。
+[!DNL Target]のオファータイプについて詳しくは、[ オファー](/help/main/c-experiences/c-manage-content/manage-content.md)を参照し、[!UICONTROL  オファー] リストのユーザーインターフェイスについて詳しく確認してください。
 
 ## レコメンデーション
 
