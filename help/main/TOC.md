@@ -13,7 +13,7 @@ ht-degree: 84%
 
 + [Adobe Target Business Practitioner Guide Home](target-home.md)
 + Target リリースノート {#release-notes}
-  + {hide-from-toc}[Targetのお知らせとイベント ](/help/main/r-release-notes/target-announcements.md)
+  + {hide-from-toc}[Targetのお知らせとイベント &#x200B;](/help/main/r-release-notes/target-announcements.md)
   + [Target リリースノート（最新）](r-release-notes/release-notes.md)
   + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
   + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
@@ -103,8 +103,8 @@ ht-degree: 84%
     + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
     + {hide-from-toc}[統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizerのユースケース {#use-cases}
-      + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル ](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + Adobe Journey OptimizerでのA/B テストによる{hide-from-toc}[ コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル &#x200B;](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+      + {hide-from-toc}[Adobe Journey OptimizerでのA/B テストによる コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
   + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
@@ -343,4 +343,4 @@ ht-degree: 84%
   + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
   + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
