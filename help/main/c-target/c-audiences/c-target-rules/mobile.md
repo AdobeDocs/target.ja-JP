@@ -1,27 +1,31 @@
 ---
 keywords: ターゲティング;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
-description: ターゲットモバイルデバイスに [!DNL Adobe Target] でオーディエンスを作成する方法について説明します。
+description: ターゲットモバイルデバイスに[!DNL Adobe Target]でオーディエンスを作成する方法を説明します。
 title: モバイルオプションに基づいて訪問者をターゲティングできますか？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # モバイル
 
 モバイルデバイス、デバイスの種類、デバイスベンダー、画面サイズなどのパラメーターにもとづいて、ターゲットモバイルデバイスに[!DNL Adobe Target]でオーディエンスを作成します。
@@ -89,6 +93,14 @@ IOS 12.2 （以降）のアップデートは、以下のモデルの識別に�
 ### Safari 14.0.2以降を実行しているデバイスをターゲットにする
 
 MacOSでSafari バージョン 14.0.2 （またはそれ以降）を実行しているデバイスにモバイルルールを使用する場合、AppleのユーザーエージェントとDeviceAtlasに関する既知の問題により、[!DNL Target]はMacおよびiPad デバイスでSafariを誤って識別します。 この問題は将来対処されるだろう。
+
+### ユーザーエージェントを上書きするカスタムスクリプト {#custom-scripts-overwrite-user-agent}
+
+モバイルデバイスターゲティングはUser-Agent文字列に依存しているため、[!DNL Target]が読み込まれる前に`navigator.userAgent`を変更するページ上のカスタムスクリプトは、デバイスターゲティングが失敗する可能性があります。
+
+Web サイトに、必要な特定のイベントではなく、すべてのイベントをリッスンするカスタムスクリプトがある場合、[!DNL Web SDK] イベントを誤ってインターセプトし、`navigator.userAgent`を上書きする可能性があります。 その結果、[!DNL Target]は訪問者の実際のデバイスではなく誤ったデバイス情報を受け取り、期待されるエクスペリエンスは配信されません。
+
+モバイルデバイスのターゲティングが期待どおりに動作しない場合は、ページ上のカスタムスクリプトまたはイベントリスナーが`navigator.userAgent`を変更しているかどうかを確認し、それらのリスナーをできるだけ絞り込んで、[!DNL Target]またはWeb SDK イベントを誤って傍受しないようにします。
 
 ## トレーニングビデオ: オーディエンスの作成
 
