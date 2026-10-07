@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '72418'
+source-wordcount: '72456'
 ht-degree: 55%
 ---
 # 以前のリリースのリリースノート
@@ -112,11 +112,11 @@ ht-degree: 55%
 
 ## [!DNL Target Standard/Premium] 26.8.3 （2026年8月13日）
 
-**アクティビティとオーディエンス**
+**アクティビティ、オファー、オーディエンス**
 
 +++詳細を見る
 
-* **API/MCPで作成されたアクティビティとオーディエンスに対する編集が有効になりました。** [!DNL Adobe Target]管理APIと[!DNL Target] MCPを介して作成されたアクティビティとオーディエンスを、[!DNL Target] UIで編集できるようになりました。
+* **API/MCPで作成されたアクティビティ、オファー、オーディエンスに対する編集が有効になりました。** [!DNL Adobe Target]管理APIと[!DNL Target] MCPを介して作成されたアクティビティ、オファー、オーディエンスを、[!DNL Target] UIで編集できるようになりました。 APIで作成されたアクティビティをUIで編集すると、UIで変更されたものとして扱われます。 [!UICONTROL &#x200B; コピー]や[!UICONTROL 削除]など、以前に制限されていたアクションが、自分の権限とアクティビティステータスに応じて使用できるようになります。 （TGT-55116）
 
 +++
 

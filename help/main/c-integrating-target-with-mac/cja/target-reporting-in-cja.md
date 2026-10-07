@@ -1,34 +1,45 @@
 ---
 keywords: customer journey analytics;customer journey analytics for target;customer journey analytics レポートソース；customer journey analytics as the レポートソース for target;cjaのtarget レポート；Customer Journey Analyticsのtarget レポート
-description: ' [!DNL Adobe Customer Journey Analytics] の [!DNL Target]  レポートを使用して、 [!DNL Customer Journey Analytics]  コンバージョン指標とオーディエンスセグメントに基づくアクティビティを作成し、 [!DNL Customer Journey Analytics]  レポートを使用して結果を検証します。'
-title: ' [!DNL Adobe Customer Journey Analytics]の [!DNL Target]  レポートとは'
+description: '[!DNL Adobe Customer Journey Analytics]の[!DNL Target] レポートを使用して、[!DNL Customer Journey Analytics]個のコンバージョン指標とオーディエンスセグメントに基づくアクティビティを作成し、[!DNL Customer Journey Analytics]個のレポートを使用して結果を調べます。'
+title: '[!DNL Adobe Customer Journey Analytics]の[!DNL Target]のレポートとは何ですか？'
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 TQID: https://experienceleague.adobe.com/bEwtqdwOsXyDbBUdxZKMl3I3LLTgxdxURvXjrfco-WI
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5b60a40e83437c535ccb3a7e7800493619fc62c8
+    internal-label: Administration
+source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
 workflow-type: tm+mt
-source-wordcount: 1754
+source-wordcount: '1826'
 ht-degree: 24%
-
 ---
-
 # [!DNL Adobe Customer Journey Analytics]の[!DNL Target]件のレポート
 
 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/customer-journey-analytics){target=_blank} と [!DNL Target] を統合すれば、最適化プログラムに適した強力な分析機能と時間節約ツールを利用できます。
@@ -55,7 +66,7 @@ ht-degree: 24%
 * [!DNL Customer Journey Analytics]をレポートソースとして使用して[!DNL Target] アクティビティを設定するには、[!DNL Adobe Experience Platform]の役割に参加してください。 詳しくは、*データアーキテクトおよびエンジニアチュートリアルの*&#x200B;権限の設定&#x200B;*の[役割の追加 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}を参照してください。*
 * 設定に応じて、アクティビティごとまたは組織レベルでレポートを変更できます。 詳しくは、*Target でのレポートの設定*&#x200B;で[レポートクラウドソリューション](/help/main/administrating-target/reporting.md#solution)を参照してください。
 * どちらか 1 つのレポートソースを選びます。 1 つのアクティビティのデータを複数のレポートソースに収集することはできません。
-* レポートソースとして[!DNL Customer Journey Analytics]を設定すると、レポート用のサンドボックスとデータビューを指定するように求められます。 設定中は、アクセス権のあるサンドボックスとデータビューのみが表示されます。
+* [!DNL Customer Journey Analytics] をレポートソースとして設定すると、レポート用のサンドボックスを指定するよう求められます。 手動トラフィック分割または[!UICONTROL 自動配分]を使用するA/B アクティビティの場合は、[!DNL Target]でデータビューと[!DNL Customer Journey Analytics]指標を選択することもできます。 これらの選択オプションは、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定]、[!UICONTROL 多変量テスト &#x200B;]、または[!UICONTROL 推奨事項]のアクティビティでは使用できません。 設定中は、アクセス権のあるサンドボックスとデータビューのみが表示されます。
 * 既存の[!DNL Target] アクティビティは引き続き[!DNL Target] データ収集を使用し、この統合を有効にしても影響を受けません。
 * この統合を使用するには、優先される実装方法は、[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ja/docs/experience-platform){target=_blank}および[!DNL Target]を[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}を通じて実装することです。
 
@@ -73,15 +84,15 @@ ht-degree: 24%
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}または[at.js](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript ライブラリを使用する場合、次のアクティビティタイプがサポートされます。
 
-| アクティビティのタイプ | 対応? |
-|--- |--- |
-| [手動トラフィック分割を使用した A/B アクティビティ](/help/main/c-activities/t-test-ab/test-ab.md) | ○ |
-| [自動配分を使用した A/B アクティビティ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ○ |
-| [自動ターゲットを使用した A/B アクティビティ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | × |
-| [エクスペリエンスのターゲット設定（XT）](/help/main/c-activities/t-experience-target/experience-target.md) | ○ |
-| [多変量分析テスト（MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | ○ |
-| [Automated Personalization（AP）アクティビティ](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | × |
-| [レコメンデーションアクティビティ](/help/main/c-recommendations/recommendations.md) | ○ |
+| アクティビティのタイプ | 対応? | データビューはサポートされていますか？ |
+|--- |--- |--- |
+| [手動トラフィック分割を使用した A/B アクティビティ](/help/main/c-activities/t-test-ab/test-ab.md) | ○ | ○ |
+| [自動配分を使用した A/B アクティビティ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ○ | ○ |
+| [自動ターゲットを使用した A/B アクティビティ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | × | × |
+| [エクスペリエンスのターゲット設定（XT）](/help/main/c-activities/t-experience-target/experience-target.md) | ○ | × |
+| [多変量分析テスト（MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | ○ | × |
+| [Automated Personalization（AP）アクティビティ](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | × | × |
+| [レコメンデーションアクティビティ](/help/main/c-recommendations/recommendations.md) | ○ | × |
 
 [!UICONTROL 自動ターゲット &#x200B;]および[!UICONTROL Automated Personalization] アクティビティは、レポートソースとして[!DNL Customer Journey Analytics]をまだサポートしていません。
 
@@ -107,7 +118,7 @@ ht-degree: 24%
 
    ![サンドボックスオプションを選択](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. **[!UICONTROL データビュー]**&#x200B;を選択します。 データビューは、[!DNL Customer Journey Analytics] レポート用の[!DNL Analytics] レポートスイートのように機能します。 アクセス権のある選択したサンドボックス内のデータビューのみが表示されます。
+1. 手動トラフィック分割または[!UICONTROL 自動配分]を使用するA/B アクティビティの場合は、**[!UICONTROL データビュー]**&#x200B;を選択します。 データビューは、[!DNL Customer Journey Analytics] レポート用の[!DNL Analytics] レポートスイートのように機能します。 アクセス権のある選択したサンドボックス内のデータビューのみが表示されます。
 
    ➡️ [&#x200B; データビューの詳細については、Adobe Customer Journey Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views)を参照してください
 
@@ -115,7 +126,7 @@ ht-degree: 24%
 
    * **[!UICONTROL コンバージョン]**：目標が達成されたことを示すためにオーディエンスが実行する必要があるアクションを選択します。 [成功指標の詳細](/help/main/c-activities/r-success-metrics/success-metrics.md)。
 
-   * **[!UICONTROL Customer Journey Analytics指標を使用]**：選択したデータビューから[!DNL Customer Journey Analytics]指標または計算指標を選択します。 この指標は最適化基準として機能します。 モデルは[!DNL Customer Journey Analytics]個のデータで実行され、[!DNL Customer Journey Analytics]個のレポートに使用されるのと同じ頻度でパフォーマンスデータを更新します。
+   * **[!UICONTROL Customer Journey Analytics指標を使用]**：手動でトラフィックを分割するA/B アクティビティまたは[!UICONTROL 自動割り当て]でのみ使用できます。 選択したデータビューから[!DNL Customer Journey Analytics]指標または計算指標を選択します。 この指標は最適化基準として機能します。 モデルは[!DNL Customer Journey Analytics]個のデータで実行され、[!DNL Customer Journey Analytics]個のレポートに使用されるのと同じ頻度でパフォーマンスデータを更新します。
 
    ![目標指標で Customer Journey Analytics 指標オプションを使用](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
