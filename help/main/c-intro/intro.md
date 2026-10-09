@@ -46,7 +46,7 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
->title="テストを設定するには："
+>title="テストを設定"
 >abstract="これらのフィールドは、A/B テスト、期待される結果、結果に必要とされる確信度を定義します。 上記で選択した項目に関連付けられたフィールドは、自動的に解決されます。 残りの部分には、期待値を入力します。"
 
 >[!CONTEXTUALHELP]
