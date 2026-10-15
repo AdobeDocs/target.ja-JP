@@ -35,8 +35,8 @@ ht-degree: 77%
 エクスペリエンスを手動でレンダリングする際の最も一般的なシナリオは次のとおりです。
 
 * JSON オファーの使用
-* [[!UICONTROL  フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)で作成されたアクティビティでのカスタム決定範囲の使用
-* グローバルな`__view__` スコープを使用する[!UICONTROL  フォームベースのExperience Composer]を使用して作成されたアクティビティの取得時に`renderDecisions: true`を使用しない
+* [[!UICONTROL &#x200B; フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)で作成されたアクティビティでのカスタム決定範囲の使用
+* グローバルな`__view__` スコープを使用する[!UICONTROL &#x200B; フォームベースのExperience Composer]を使用して作成されたアクティビティの取得時に`renderDecisions: true`を使用しない
 
 通知が&#x200B;*データ収集*&#x200B;ガイドの[パーソナライズされたコンテンツのレンダリング](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank}に記載されているとおりに実装されていない場合、[!DNL Target] および [Analytics for Target レポート](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）でレポートデータが欠落している可能性があります。 特定のシナリオでは、レポートデータが取得されないので、トラフィック分割が正しく行われない可能性があります。 または、他のシナリオで、同じイベントが繰り返しレポートされる可能性もあります。
 
@@ -51,7 +51,7 @@ ht-degree: 77%
   単一の呼び出しアプローチを引き続き使用すると、[!DNL Analytics] レポートに次のような予期しない変更が表示される可能性があります。
 
   * バウンス数の減少。
-  * A4Tと[!UICONTROL  ページビュー]のヒットが結合されていないため、[!DNL Analytics]個のeVarとイベントを使用してA4T レポートの特定の分類と相関関係を実行することが困難です。
+  * A4Tと[!UICONTROL &#x200B; ページビュー]のヒットが結合されていないため、[!DNL Analytics]個のeVarとイベントを使用してA4T レポートの特定の分類と相関関係を実行することが困難です。
 
 * **分割呼び出し（ページ上部イベントとページ下部イベントとも呼ばれます）。**
 
@@ -61,7 +61,7 @@ ht-degree: 77%
 
 ### at.js バージョン 2.11.6（2024年9月29日（PT））
 
-* [!UICONTROL Visual Experience Composer] （VEC）または[!UICONTROL  フォームベース Experience Composer]内のリダイレクトオファーで[!DNL Target]が正しく動作しない問題を修正しました。
+* [!UICONTROL Visual Experience Composer] （VEC）または[!UICONTROL &#x200B; フォームベース Experience Composer]内のリダイレクトオファーで[!DNL Target]が正しく動作しない問題を修正しました。
 
 at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [at.js のバージョンの詳細](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}を参照してください。
 
@@ -82,11 +82,11 @@ at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#
 
 [!DNL Adobe] では、お客様ができるだけ早く新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)に移行することをお勧めします。
 
-### [!UICONTROL  ブラウザー]のオーディエンス属性の`Browser:iPad`と`Browser:iPhone`の更新（2024年4月30日）
+### [!UICONTROL &#x200B; ブラウザー]のオーディエンス属性の`Browser:iPad`と`Browser:iPhone`の更新（2024年4月30日）
 
 | アップデート | 詳細 |
 |--- |--- |
-| [!UICONTROL  ブラウザー:iPad]と[!UICONTROL  ブラウザー:iPhone]が、オーディエンスの作成時に使用される[ ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)で更新されました。 | [!DNL Adobe Target] を使用すると、ページを訪問した際に特定の[ブラウザーやブラウザーオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md)を使用する訪問者など、[いくつかのカテゴリ属性のいずれかをターゲットに設定](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)できます。<P>[!DNL Target] Standard／Premium 24.3.1（2024年3月4～6日（PT））以降、`Browser:iPad` や `Browser:iPhone` などのターゲット UI を使用して作成されたビルトインのオーディエンスは、`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`、`profile.mobile.isTablet` を使用して [!DNL iPad] と [!DNL iPhone] に対して適切なターゲティングを実行するように更新されます。<P>このアップデートでは、お客様側でのアクションは必要ありません。<p><B>重要</b>：お客様がプロファイルスクリプト（および JavaScript セグメント）で [!DNL iPad] と [!DNL iPhone] を適切にターゲティングを実行するには、**2024年4月30日（PT）**&#x200B;までにお客様が手動で変更を行う必要があります。 手動で変更する必要がある代替設定の例については、[!UICONTROL  ブラウザー]のオーディエンス属性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)の[更新 [!DNL iPad] および [!DNL iPhone] を参照してください。 |
+| [!UICONTROL &#x200B; ブラウザー:iPad]と[!UICONTROL &#x200B; ブラウザー:iPhone]が、オーディエンスの作成時に使用される[&#x200B; ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)で更新されました。 | [!DNL Adobe Target] を使用すると、ページを訪問した際に特定の[ブラウザーやブラウザーオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md)を使用する訪問者など、[いくつかのカテゴリ属性のいずれかをターゲットに設定](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)できます。<P>[!DNL Target] Standard／Premium 24.3.1（2024年3月4～6日（PT））以降、`Browser:iPad` や `Browser:iPhone` などのターゲット UI を使用して作成されたビルトインのオーディエンスは、`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`、`profile.mobile.isTablet` を使用して [!DNL iPad] と [!DNL iPhone] に対して適切なターゲティングを実行するように更新されます。<P>このアップデートでは、お客様側でのアクションは必要ありません。<p><B>重要</b>：お客様がプロファイルスクリプト（および JavaScript セグメント）で [!DNL iPad] と [!DNL iPhone] を適切にターゲティングを実行するには、**2024年4月30日（PT）**&#x200B;までにお客様が手動で変更を行う必要があります。 手動で変更する必要がある代替設定の例については、[!UICONTROL &#x200B; ブラウザー]のオーディエンス属性[&#128279;](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)の更新 [!DNL iPad] および [!DNL iPhone] を参照してください。 |
 
 ### [!UICONTROL Visual Editing Helper]拡張機能（2024年3月14日）
 
@@ -108,9 +108,9 @@ at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 収益目標の指標を持つTarget] （A4T）アクティビティの[!UICONTROL Analyticsでは、列名として「収益」が表示されず、収益指標がレポートに（$）形式で表示されませんでした。 これは、表面上の問題で、既に修正されています。 （TGT-46995）
+* 収益目標の指標を持つTarget （A4T）アクティビティのAnalyticsでは、列名として「収益」が表示されず、収益指標がレポートに（$）形式で表示されませんでした。 これは、表面上の問題で、既に修正されています。 （TGT-46995）
 * レポートの日付間隔が正しく機能しない問題を修正しました。 （TGT-47396）
-* 顧客が[!UICONTROL 詳細アクション ] アイコンを使用してアクティビティをアクティブ化または非アクティブ化した後、誤ったステータスが[!UICONTROL すべてのアクティビティ ] ページに表示される問題を修正しました。 （TGT-47367）
+* 顧客が[!UICONTROL 詳細アクション &#x200B;] アイコンを使用してアクティビティをアクティブ化または非アクティブ化した後、誤ったステータスが[!UICONTROL すべてのアクティビティ &#x200B;] ページに表示される問題を修正しました。 （TGT-47367）
 * 1人の顧客に対して[!UICONTROL 重要属性] レポートが表示されない問題を修正しました。 （TGT-47272）
 * 1 人のお客様が「認証が必要」を有効にしようとした際に「無効なペイロード」メッセージが表示される問題を修正しました。 （TGT-47195）
 * [!DNL Target] UI の多数のローカライズされた文字列を更新しました。
