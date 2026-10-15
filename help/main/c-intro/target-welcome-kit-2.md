@@ -95,7 +95,7 @@ ht-degree: 72%
 
 | 実装タイプ | 詳細 |
 | --- | --- |
-| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。 ブラウザーは、表示するエクスペリエンスを決定して表示します。 クライアントサイドでは、WYSIWYG エディター、**[!UICONTROL Visual Experience Composer]** （VEC）、または非ビジュアルインターフェイスである&#x200B;**[!UICONTROL フォームベースのExperience Composer]**&#x200B;を使用して、テストおよびパーソナライズされたエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} |
+| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。 ブラウザーは、表示するエクスペリエンスを決定して表示します。 クライアントサイドでは、WYSIWYG エディター、**[!UICONTROL Visual Experience Composer]** （VEC）、または非ビジュアルインターフェイスである&#x200B;**[!UICONTROL フォームベースのExperience Composer]**&#x200B;を使用して、テストおよびパーソナライズされたエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} |
 | サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。 エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。 サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} |
 | ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。 例えば、クライアントサイドの実装を使用してホームページのヒーローバナー内のオファーで A/B テストを実行したり、サーバーサイドの実装を使用してクライアントブラウザーに表示する内部検索結果やスマートカーダッシュボードに表示するエクスペリエンス、音声アシスタントから配信する音声応答を決定したりできます。 |
 
@@ -113,23 +113,23 @@ ht-degree: 72%
 
 ## アクティビティ作成ツール
 
-[!DNL Target]では、テストおよびパーソナライゼーションアクティビティを設定するための主な3つの方法として、[!UICONTROL Visual Experience Composer] （VEC）、[!UICONTROL &#x200B; フォームベースのExperience Composer]、[!UICONTROL &#x200B; シングルページアプリケーション （SPA） Visual Experience Composer]があります。 どちらも、エクスペリエンスの定義、オーディエンスの選択と定義、アクティビティの結果を測定するプライマリとセカンダリの成功指標の選択という3つのステップでアクティビティの設定プロセスをガイドします。
+[!DNL Target]では、テストおよびパーソナライゼーションアクティビティを設定するための主な3つの方法として、[!UICONTROL Visual Experience Composer] （VEC）、[!UICONTROL  フォームベースのExperience Composer]、[!UICONTROL  シングルページアプリケーション （SPA） Visual Experience Composer]があります。 どちらも、エクスペリエンスの定義、オーディエンスの選択と定義、アクティビティの結果を測定するプライマリとセカンダリの成功指標の選択という3つのステップでアクティビティの設定プロセスをガイドします。
 
 | ツール | 詳細 |
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] （VEC） | サイトコンテキストでパーソナライズされたエクスペリエンスおよびオファーを簡単に作成およびテストできる、WYSIWYG ユーザーインターフェイスです。 Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。 [詳細情報](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
 | [!UICONTROL フォームベースの Experience Composer] | Visual Experience Composerが使用できない場合や使用が実用的でない場合に、A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、Recommendations アクティビティで使用するエクスペリエンスを作成する際に役立つ、視覚的でないエクスペリエンスおよびオファー作成インターフェイス。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。 [詳細情報](/help/main/c-experiences/form-experience-composer.md) |
-| [!UICONTROL &#x200B; シングルページアプリケーション （SPA） Visual Experience Composer] | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。 VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティを作成することが可能です。 [詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
+| [!UICONTROL  シングルページアプリケーション （SPA） Visual Experience Composer] | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。 VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティを作成することが可能です。 [詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
 
 ## ガバナンスと管理
 
 適切な人に適切な役割と [!DNL Target] への役割に応じたアクセスレベルと権限を提供するために、管理コンソールがあります。 [!UICONTROL Target Premium]のユーザーに対して、より詳細なガバナンスと制御を提供します
-[!UICONTROL &#x200B; エンタープライズ権限]を持つ。
+[!UICONTROL  エンタープライズ権限]を持つ。
 
 | ツール | 詳細 |
 | --- | --- |
 | [!UICONTROL Adobe Admin Console for Enterprise] | Adobe Target にユーザーを追加し、Adobe Admin Console から権限を割り当てます。 [詳細情報](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) |
-| [!UICONTROL &#x200B; エンタープライズ権限]s<br> （プレミアム） | 管理する企業全体の [!DNL Target] へのユーザーアクセスの正式な手段。 [!DNL Target] にユーザーを追加し、その役割に基づいて権限を割り当て、異なる部署、世界規模での所在地、チャネルおよび他の論理グループに基づいて、チーム用にワークスペースを作成します。 ユーザーに監視者、編集者、発行者、承認者の役割を割り当てることができます。 [詳細情報](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) |
+| [!UICONTROL  エンタープライズ権限]s<br> （プレミアム） | 管理する企業全体の [!DNL Target] へのユーザーアクセスの正式な手段。 [!DNL Target] にユーザーを追加し、その役割に基づいて権限を割り当て、異なる部署、世界規模での所在地、チャネルおよび他の論理グループに基づいて、チーム用にワークスペースを作成します。 ユーザーに監視者、編集者、発行者、承認者の役割を割り当てることができます。 [詳細情報](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) |
 
 ## 統合
 
