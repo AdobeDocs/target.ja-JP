@@ -30,7 +30,7 @@ ht-degree: 77%
 >
 >2025年2月3日（PT）までに実装レビューを完了して問題を解決できない場合は、1 回限りの 6 か月間の延長をリクエストできます。 リクエストは、2025年1月31日（PT）までに送信する必要があります。 アドビがリクエストをレビューし、決定します。
 
-手動の提案レンダリングの場合にこの最適化のメリットを活用するには、[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} をレビューして、エクスペリエンスを手動でレンダリングした後や、`applyPropositions` メソッド（またはヘルパーとしての対応する [!DNL Launch] アクション）を使用してエクスペリエンスをレンダリングした際に、通知が送信されるようにします。
+手動の提案レンダリングの場合にこの最適化のメリットを活用するには、[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} をレビューして、エクスペリエンスを手動でレンダリングした後や、`applyPropositions` メソッド（またはヘルパーとしての対応する [!DNL Launch] アクション）を使用してエクスペリエンスをレンダリングした際に、通知が送信されるようにします。
 
 エクスペリエンスを手動でレンダリングする際の最も一般的なシナリオは次のとおりです。
 
