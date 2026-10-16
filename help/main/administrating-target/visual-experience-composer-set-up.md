@@ -56,7 +56,7 @@ ht-degree: 47%
 
 一般設定を[!UICONTROL Visual Experience Composer]に指定できます。
 
-![一般設定セクション ](/help/main/administrating-target/assets/general-settings.png)
+![一般設定セクション &#x200B;](/help/main/administrating-target/assets/general-settings.png)
 
 以下の設定を使用できます。
 
@@ -96,7 +96,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 エクスペリエンスのプレビュー時に、使用するデバイスを追加できます。 各デバイスにはオーディエンスが関連付けられています。
 
-![ モバイルビューポート設定セクション ](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![&#x200B; モバイルビューポート設定セクション &#x200B;](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
 「**[!UICONTROL 追加]**」をクリックし、モバイルビューポートの記述的な名前を指定し、幅と高さを指定し、目的のオペレーティングシステムを選択してから、「[!UICONTROL 保存]」をクリックします。
 
@@ -106,7 +106,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 [!DNL Target]で CSS セレクターを生成する方法を指定します。
 
-![CSS セレクターセクション ](/help/main/administrating-target/assets/css-selectors.png)
+![CSS セレクターセクション &#x200B;](/help/main/administrating-target/assets/css-selectors.png)
 
 これらのオプションを使用すると、[!DNL Target]に対してサイトの構造を指定して、コンテンツ配信により適した CSS セレクターを生成できます。 デフォルトで、[!DNL Target]はページ上の要素 ID に基づいてセレクターを生成します。 サイトで使用されている ID が少ない場合、または同じページ上に重複する ID が存在する場合は、クラスを使用することをお勧めします。
 
@@ -130,7 +130,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 >
 >アクティビティごとに設定を上書きすることは、[!UICONTROL Automated Personalization]および[!UICONTROL Multivariate Testing]のアクティビティでは使用できません。  セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
 
-## トレーニングビデオ：アカウント環境設定（7:33） ![概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：アカウント環境設定（7:33） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 このビデオでは、アカウント設定に関する情報を説明します。
 
@@ -138,6 +138,6 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL  セットアップ ]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
+>[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
