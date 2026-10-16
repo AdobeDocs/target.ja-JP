@@ -8,28 +8,38 @@ exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '733'
 ht-degree: 47%
-
 ---
-
 # [!UICONTROL Visual Experience Composer]の設定
 
 一般設定、モバイルビューポート設定、CSS セレクターを指定して、[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）を設定します。
@@ -46,7 +56,7 @@ ht-degree: 47%
 
 一般設定を[!UICONTROL Visual Experience Composer]に指定できます。
 
-![一般設定セクション &#x200B;](/help/main/administrating-target/assets/general-settings.png)
+![一般設定セクション ](/help/main/administrating-target/assets/general-settings.png)
 
 以下の設定を使用できます。
 
@@ -57,6 +67,8 @@ ht-degree: 47%
 ### 拡張された Experience Composer を有効にする {#eec}
 
 iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。 一部のサイトは、拡張バージョンと互換性がない場合があります。 元の[!UICONTROL Visual Experience Composer]に戻すには、このオプションの選択を解除します。 サイトでのアクティビティの配信はこの選択の影響を受けません。
+
+[!UICONTROL Enhanced Experience Composer]は、[!DNL Safari]ではサポートされていません。
 
 詳しくは、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
@@ -84,7 +96,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 エクスペリエンスのプレビュー時に、使用するデバイスを追加できます。 各デバイスにはオーディエンスが関連付けられています。
 
-![&#x200B; モバイルビューポート設定セクション &#x200B;](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![ モバイルビューポート設定セクション ](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
 「**[!UICONTROL 追加]**」をクリックし、モバイルビューポートの記述的な名前を指定し、幅と高さを指定し、目的のオペレーティングシステムを選択してから、「[!UICONTROL 保存]」をクリックします。
 
@@ -94,7 +106,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 [!DNL Target]で CSS セレクターを生成する方法を指定します。
 
-![CSS セレクターセクション &#x200B;](/help/main/administrating-target/assets/css-selectors.png)
+![CSS セレクターセクション ](/help/main/administrating-target/assets/css-selectors.png)
 
 これらのオプションを使用すると、[!DNL Target]に対してサイトの構造を指定して、コンテンツ配信により適した CSS セレクターを生成できます。 デフォルトで、[!DNL Target]はページ上の要素 ID に基づいてセレクターを生成します。 サイトで使用されている ID が少ない場合、または同じページ上に重複する ID が存在する場合は、クラスを使用することをお勧めします。
 
@@ -118,7 +130,7 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 >
 >アクティビティごとに設定を上書きすることは、[!UICONTROL Automated Personalization]および[!UICONTROL Multivariate Testing]のアクティビティでは使用できません。  セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
 
-## トレーニングビデオ：アカウント環境設定（7:33） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：アカウント環境設定（7:33） ![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、アカウント設定に関する情報を説明します。
 
@@ -126,6 +138,6 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
+>[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL  セットアップ ]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

@@ -18,96 +18,101 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 47%
+source-wordcount: '889'
+ht-degree: 0%
 ---
 # [!UICONTROL Visual Experience Composer] （VEC）
 
-[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）は、コードを編集することなく、web サイトまたはモバイル web ページでパーソナライズされたエクスペリエンスを直接作成およびテストできるWYSIWYG エディターです。
+[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）は、コードを編集せずにweb サイトやモバイル web ページでパーソナライズされたエクスペリエンスを直接作成およびテストするためのWYSIWYG エディターです。
 
->[!NOTE]
->
->[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日（PT））リリースには、VECの更新バージョンが含まれています。 更新されたVECが以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composerの変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)を参照してください。 更新されたVECの様々なオプションの概要については、[Visual Experience Composerのオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+要素のドラッグ&amp;ドロップ、コンテンツの入れ替え、ページレイアウトの変更などにより、[!DNL Target] アクティビティのエクスペリエンスとオファーを作成します。 このコンポーザーには、HTMLとJavaScriptを編集するためのオプションも用意されています。
 
-VECでは、サイトコンテキストでパーソナライズされたエクスペリエンスとオファーを簡単に作成してテストできます。 Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。
+## ブラウザーの要件 {#browser-requirements}
 
-VEC は [!DNL Target] の主要機能の 1 つです。 VEC を使用すると、マーケターやデザイナーが視覚的なインターフェイスを使用してコンテンツを作成および変更できます。 コードを直接編集することなく、多くのデザインの選択肢を作成できます。 コンポーザーで利用可能な編集オプションを使用すれば、HTML および JavaScript の編集も可能です。
+[!DNL Safari]は[!DNL Adobe Target] インターフェイスでサポートされています。 [!DNL Safari]でフォームベースのアクティビティを作成し、VECと[!UICONTROL Enhanced Experience Composer] （EEC）を除くすべての機能を使用できます。 [!DNL Safari]でVisual Experience Composerを開くと、オーバーレイで[!DNL Google Chrome]に切り替えてエクスペリエンスを編集するように求められます。
 
-[!DNL Target] **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]** タブで、デフォルトの[!UICONTROL Visual Experience Composer] URLを入力できます。
+[!DNL Firefox]などのブラウザーは、安全なサイト内の安全でないページなど、混在コンテンツを含むページがVECに表示されるのをブロックする場合があります。 ページが表示されない場合は、ブラウザーのアドレスバーのURLの横にあるアイコンをクリックし、**[!UICONTROL このページの保護を無効にする]**&#x200B;をクリックします。 この問題は、サイト訪問者に対するページの表示方法には影響しません。
 
-この URL は、VEC を開いたときに、どこから開始するかを決定します。 デフォルトのURLを入力しない場合は、エディターを開いたときに空白のページから開始し、URLを指定できます。
+## VECを開く {#open-the-vec}
+
+VECでデフォルトで開くページを設定するには、「[!DNL Target] **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**」タブにデフォルトの[!UICONTROL Visual Experience Composer] URLを入力します。
+
+デフォルトのURLを設定しない場合、VECが開き、URLを指定できる空白のページが表示されます。
 
 ![ハイライトされた VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
->[!NOTE]
->
->[!DNL Firefox]などの特定のブラウザーでは、ページに混在コンテンツが含まれている場合（例えば、安全なサイト内の安全でないページなど）、VECでのページの表示がブロックされる場合があります。 ページが表示されない場合は、ブラウザーのアドレスバーのURLの横にあるアイコンをクリックし、**[!UICONTROL このページの保護を無効にする]**&#x200B;をクリックします。 この問題は、サイト訪問者へのページ表示に影響しません。
+## エクスペリエンスを編集 {#edit-experiences}
 
-ページ上の iframe 内のコンテンツは、VEC では変更できません。 iframe内のコンテンツを編集するには、iframe ドキュメントが[!DNL Target]対応であることを確認してから、そのiframe URLをVECに読み込みます。
+### エクスペリエンスの表示と命名 {#view-and-name-experiences}
 
-[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネルのタブを使用すると、異なるオーディエンスや異なるエクスペリエンスで表示されるページを表示できます。 各エクスペリエンスに名前を付けることができます。 例えば、ナビゲーションバー内のホームリンクの場所をテストする場合、ホームリンクが最初に表示されるエクスペリエンスに名前を付けることができます。 例えば、「ホームリンク」を使用すると、リスト内のエクスペリエンスを識別しやすくなります。
+[!UICONTROL  エクスペリエンス ] パネルのタブを使用して、様々なオーディエンスや異なるエクスペリエンスでページがどのように表示されるかを確認します。 各エクスペリエンスにわかりやすい名前を付けて、リスト内で容易に識別できるようにします。
 
->[!NOTE]
->
->ページの構造を変更すると、そのページで作成されたアクティビティで使用されている場所に影響を与え、エクスペリエンス編集で問題が発生する場合があります。 VEC以外で場所が変更された場合、[!DNL Target]はコンテンツが変更された場所を見つけられない可能性があります。
+例えば、ナビゲーションバーでホームリンクの位置をテストする場合は、最初に表示されるエクスペリエンスに「最初にホームリンク」という名前を付けます。
 
-マウスポインターがページの周囲を移動すると、カーソルに従って状況依存型のボックスがページ上の要素をハイライトします。
+![ エクスペリエンスパネルでエクスペリエンスの名前を変更](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
 
-<!--
-Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+### 要素の選択と変更 {#select-and-modify-elements}
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
--->
+ページ上にカーソルを移動して、コンテクストを考慮するボックスで個々の要素をハイライト表示します。
 
-ハイライト表示された要素をクリックすると、その要素タイプで使用可能なオプションのメニューが表示されます。 例えば、画像をクリックし、**[!UICONTROL 画像を変更]**&#x200B;を選択して、画像を別の画像に変更できます。 または、ボタンをクリックしてテキストの色を変更します。
+ハイライト表示された要素をクリックすると、その要素タイプの編集オプションが表示されます。 例えば、画像を選択し、**[!UICONTROL 画像ソースを変更]**&#x200B;をクリックして置換するか、ボタンを選択してテキストの色を変更します。
 
-また、「**[!UICONTROL 参照]**」をクリックし、プライマリページから使用できる買い物ページや買い物かごなどのページに移動して、そのページの変更をテストすることもできます。 さらに、フライアウトメニューやミニカートなど、マウスポインターを置いたときに使用できるページ要素にアクセスすることもできます。 ページの閲覧が完了したら、**[!UICONTROL デザイン]**&#x200B;をクリックしてエクスペリエンスを編集します。 例えば、買い物かごのドロップダウンや画像のカルーセルのデザインを変更したい場合があります。
+![選択した要素のオプションの編集](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
 
->[!NOTE]
->
->ホバー状態がJavaScriptに依存している場合は、**[!UICONTROL JavaScriptを無効にする]**&#x200B;が選択されていないことを確認してください。 JavaScript の要素を編集するには JavaScript が有効になっている必要があります。
+ページに埋め込まれたiframe内のコンテンツは編集できません。 そのコンテンツを編集するには、iframe ドキュメントが[!DNL Target]対応であることを確認してから、iframe URLをVECに直接読み込みます。
 
-VEC で利用可能なオプションについて詳しくは、[Visual Experience Composer オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)を参照してください。
+VEC以外のページ構造の変更は、アクティビティで使用される場所に影響を与える可能性があります。 これらの場所が変更された場合、[!DNL Target]は変更した要素を見つけられない可能性があり、エクスペリエンスの編集時に問題が発生する可能性があります。
 
-ページの読み込み中（またはページの読み込みに失敗した後）に、ページでいくつかの変更を実行したり、VEC でページの読み込みをキャンセルしたりできます。 詳しくは、次を参照してください。
+### 参照とデザイン {#browse-and-design}
 
-* [ページの読み込み中またはページの読み込みに失敗した後にページを編集する](#loading)
-* [VEC内のページの読み込みをキャンセル](#cancel-loading)
+「**[!UICONTROL 参照]**」をクリックして、現在のページからアクセス可能なページ（配送ページやショッピングカートなど）に移動し、そこで変更をテストします。
 
-## ページの読み込み中またはページの読み込みに失敗した後にページを編集する {#loading}
+![VEC](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)での参照モード
 
-VEC でページが読み込まれる前や、ページを読み込めなかった場合（例えば、カスタムコードが動作しなくなった場合など）には、様々なアクションを実行できます。
+参照モードでは、フライアウトメニューやミニカートなど、カーソルを合わせて表示される要素にもアクセスできます。 編集するページまたは要素に到達したら、**[!UICONTROL デザイン]**&#x200B;をクリックしてエクスペリエンスを編集します。
 
-VEC 内でページの読み込み中またはページの読み込みに失敗した後に、ページにアクセスしたり、ページを編集したりする理由：
+ホバー状態がJavaScriptに依存している場合は、**[!UICONTROL JavaScriptを無効にする]**&#x200B;が選択されていないことを確認してください。 JavaScriptに依存する要素を編集するには、Adobe Targetを有効にする必要があります。
 
-* カスタムコードを追加したり、エクスペリエンスの名前を変更したりするなど、ページに簡単な変更を行う
+使用可能な編集オプションについて詳しくは、[Visual Experience Composerのオプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)を参照してください。
+
+## ページ読み込みを管理 {#manage-page-loading}
+
+ページの読み込み中や読み込みに失敗した後も、一部の編集オプションを利用できます。 ページの読み込みをキャンセルして、待たずにこれらのオプションにアクセスすることもできます。
+
+### ページの読み込み中またはページの読み込みに失敗した後にページを編集する {#loading}
+
+ページの読み込みがVECで完了する前や、カスタムコードが機能しなくなったため、ページの読み込みに失敗した後に、いくつかの変更を行うことができます。
+
+使用可能な編集オプションを使用して、次の操作を行います。
+
+* カスタムコードの追加やエクスペリエンスの名前の変更など、簡単な変更を行います
 * アクセスできなくなったページから既存のカスタムコードをコピーする
-* VEC 内でページが読み込まれないことはわかっているが、それでも簡単な編集を行いたい
+* VECで読み込めないページを簡単に編集する
 
-ページの読み込み（または読み込みに失敗した後）は、[!UICONTROL &#x200B; エクスペリエンス &#x200B;] レール、[!UICONTROL &#x200B; コンポーネント &#x200B;] レール、[!UICONTROL 設定] オプションにアクセスできます。
+ページの読み込み中または読み込みに失敗した後も、[!UICONTROL  エクスペリエンス ] パネル、[!UICONTROL  コンポーネント ] パネル、[!UICONTROL 設定] オプションにアクセスできます。
 
-## VEC内のページの読み込みをキャンセル {#cancel-loading}
+### VEC内のページの読み込みをキャンセル {#cancel-loading}
 
-ページの読み込みを待たずに VEC 内でページの読み込みをキャンセルして、アクティビティの編集のロックを解除できます。 この機能によって時間を節約し、VEC 内でページの読み込みを待たずに、簡単な編集やカスタムコードの挿入をより効率的に行うことができます。
+VECでのページ読み込みをキャンセルして、ページの読み込みが完了するのを待たずにアクティビティを編集します。
 
-VEC 内でページの読み込みをキャンセルする理由には、次のようなものがあります。
+ページ読み込みのキャンセルは、次のような場合に便利です。
 
-* 既存の変更に軽微な編集を行う
-* 1 つ以上の既存の変更を削除する
-* カスタムコードを挿入または編集する
-* 正しくないページの URL を誤って入力した
-* VEC でページを読み込む前に JavaScript を有効または無効にする
-* [!UICONTROL &#x200B; ページ配信]条件にさらにテンプレートテストルールを追加する
-* EECまたはiframe-only経由でページを読み込む際に、グローバルな[!UICONTROL Enhanced Experience Composer] （EEC）トグルを上書きする必要があります
+* 既存の修正を微調整する
+* 1つ以上の既存の修正を削除
+* カスタムコードの挿入または編集
+* 誤って入力されたページ URLの修正
+* VECにページを読み込む前に、JavaScriptを有効または無効にします
+* [!UICONTROL  ページ配信]条件にテンプレートテストルールを追加
+* EEC経由またはiframe専用モードでページを読み込む際に、グローバルな[!UICONTROL Enhanced Experience Composer] （EEC）トグルを上書きする
 
-VECでページの読み込みをキャンセルした場合、ページの読み込みを待たずに、アクティビティ内のエクスペリエンスを切り替えることができます。 VEC内のページを再度表示するには、**[!UICONTROL 再読み込み]** ボタンをクリックする必要があります。
+ページの読み込みをキャンセルした後、ページの読み込みを待たずに、アクティビティ内のエクスペリエンスを切り替えることができます。 **[!UICONTROL 再読み込み]**&#x200B;をクリックして、ページをVECに再度表示します。
 
 >[!IMPORTANT]
 >
->VEC 内での読み込みをキャンセルすることを選択してカスタムコードを作成したり、変更を行ったりする場合は、コーディングまたは変更が正しく行われていることを確認する必要があります。 適切な QA を実行して、カスタムコードの作成やその他の修正が期待どおりに行われていることを確認してください。
+>ページの読み込みをキャンセルした後にカスタムコードを編集したり、その他の変更を加えたりする場合は、品質保証（QA）テストを実行して、変更が期待どおりに配信されていることを確認します。
 
-VEC内のページの読み込みをキャンセルするには、ページの読み込み中に「**[!UICONTROL 読み込みをキャンセル]**」ボタンをクリックします。 現在の編集セッション中、このアクティビティのページは VEC に読み込まれません。
+ページの読み込みを停止するには、ページの読み込み中に&#x200B;**[!UICONTROL 読み込みをキャンセル]**&#x200B;をクリックします。 ページを再ロードしない限り、現在の編集セッション中も、このアクティビティのページはアンロードされたままになります。
 
-現在のアクティビティでエクスペリエンスの管理を続行したり、新しい変更を追加したりするには、**[!UICONTROL 再読み込み]** ボタンをクリックする必要があります。
+「**[!UICONTROL 再読み込み]**」をクリックして、現在のアクティビティでのエクスペリエンスの管理を再開するか、新しい変更を追加します。
