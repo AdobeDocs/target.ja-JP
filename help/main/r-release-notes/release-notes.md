@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '643'
+ht-degree: 42%
 ---
 # [!DNL Target] リリースノート（最新）
 
@@ -40,13 +40,48 @@ ht-degree: 58%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
+## [!DNL Target Standard/Premium] 26.10.2 （2026年10月15日（PT））
+
+**[!UICONTROL アクティビティ]**
+
++++詳細を見る
+
+* **アクティビティの概要**&#x200B;に表示される目標設定が正しくありません。 アクティビティの&#x200B;**[!UICONTROL 概要]** ページに表示されている目標設定が正しくない問題を修正しました。 例えば、`https://`がページ URLに追加され、実際の目標設定が正しいにもかかわらず、**[!UICONTROL URL contains]**&#x200B;条件が表示されませんでした。 （TGT-56326）
+
++++
+
+**[!UICONTROL レコメンデーション]**
+
++++詳細を見る
+
+* **ライブアクティビティでプロモーションが更新された後に表示されるバックアップの推奨事項**。 ライブ [!DNL Recommendations] アクティビティでプロモーションを編集すると、定義が変更されていなくても[!DNL Target]が新しいプロモーションとレコメンデーションユニットを作成する問題を修正しました。 （TGT-56369）
+
++++
+
+**[!UICONTROL レポート]**
+
++++詳細を見る
+
+* **レポートプリセットは2週間後に削除されました**。 アクティビティ用に保存されたレポートプリセットが、約2週間後に自動的に削除される問題を修正しました。 （TGT-56374）
+
++++
+
+**[!UICONTROL Visual Experience Composer] （VEC）**
+
++++詳細を見る
+
+* **Safariのサポートが[!DNL Adobe Target]**&#x200B;に追加されました。 [!DNL Target]は[!DNL Safari] ブラウザーでサポートされるようになりました。 Visual Experience Composerと[!DNL Enhanced Experience Composer]は、[!DNL Safari]ではサポートされていません。 その結果、[!DNL VEC]にオーバーレイが表示され、エディターを使用するには[!DNL Chrome]に切り替える必要があることをユーザーに通知できるようになりました。 （TGT-55853）
+
++++
+
+
 ## [!DNL Target Standard/Premium] 26.10.1 （2026年10月13日（PT））
 
 **[!UICONTROL ターゲットの分析]**
 
 +++詳細を見る
 
-* **A4T レポートが「エラーが発生しました」エラーで失敗します**。 新しく追加されたレポートスイートを使用する[!DNL A4T] アクティビティで、結果ではなく[!DNL Target] レポートに「エラーが発生しました」エラーが表示される問題を修正しました。 Analytics **で**&#x200B;表示をクリックすると、[!DNL Analytics for Target]分類情報が欠落している「互換性のないレポートスイート」メッセージも表示されました。 （TGT-56389）
+* **A4T レポートが「エラーが発生しました」エラーで失敗します**。 新しく追加されたレポートスイートを使用する[!DNL A4T] アクティビティで、結果ではなく[!DNL Target] レポートに「エラーが発生しました」エラーが表示される問題を修正しました。 Analytics ]**で**[!UICONTROL &#x200B;表示をクリックすると、[!DNL Analytics for Target]分類情報が欠落している「互換性のないレポートスイート」メッセージも表示されました。 （TGT-56389）
 
 +++
 
@@ -83,7 +118,7 @@ ht-degree: 58%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
