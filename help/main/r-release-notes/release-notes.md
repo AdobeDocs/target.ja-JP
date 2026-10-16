@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
+source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 26%
+source-wordcount: '462'
+ht-degree: 58%
 ---
 # [!DNL Target] リリースノート（最新）
 
@@ -40,173 +40,21 @@ ht-degree: 26%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] 26.9.8 （2026年9月30日）
-
-### 機能
-
-<table>
-<thead>
-<tr>
-<th><strong>サンプルサイズ計算ツール</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>サンプルサイズ計算ツールは、必要なトラフィックやテスト時間、エクスペリエンス数、検出できる最小効果などを推定することで、テストを開始する前にテストを計画するのに役立ちます。 アクティビティメニューから使用でき、入力を使用して、テストに必要なリソースとランタイムを判断するのに役立ちます。</p>
-<p>サンプルサイズ計算機能は現在、ベータ版の機能として利用できます。</p>
-<p>詳しくは、<a href="../c-activities/sample-size-calculator.md">詳細ドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>AI インサイト</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI インサイトは、AIが生成した実験の学習と、手動トラフィック割り当てによるA/B テストアクティビティの最適化機会を提供します。 実験が統計的有意性に達すると、インサイトはそのパフォーマンスに貢献した可能性が高い勝者エクスペリエンスの属性を強調表示します。 推奨される機会には、新しい体験のアイデア、仮説、実装ガイダンスなどが含まれ、コンバージョン率の向上に役立ちます。</p>
-<p>AI インサイト機能は現在、ベータ機能として利用できます。</p>
-<p>詳しくは、<a href="../c-activities/ai-insights.md">詳細ドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 改善点
-
-**[!UICONTROL 管理]**
-
-+++ 詳細を見る
-
-* **ユーザーにAI権限を付与できません**。 製品管理者とシステム管理者のアクセス権を持つユーザーは、AI権限を他のユーザーに付与できませんでした。 AI権限を有効にしようとすると、組織でAIが有効になっている場合でも`Unauthorized` エラーが発生しました。 （TGT-56261）
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
-
-
-**[!UICONTROL レコメンデーション]**
-
-+++ 詳細を見る
-
-* Visual Experience Composer **で** 「無効なユーザー入力」エラーが発生しました。 Visual Experience ComposerでRecommendations アクティビティを編集する際に、アクティビティを保存して閉じようとすると、「無効なユーザー入力」エラーが表示されます。
-
-+++
-
-
-## [!DNL Target Standard/Premium] 26.9.6 （2026年9月24日）
-
-**[!UICONTROL Visual Experience Composer] （VEC）**
-
-+++詳細を見る
-
-* **Visual Experience Composer**&#x200B;を介してSSO認証ページにアクセスする際の無限のリダイレクションループ。 Visual Experience Composerに読み込まれたページ URLがSSO/ログインリダイレクションフローを通過すると、Visual Experience Composerは無限のリダイレクトループに入り、意図したページに到達しませんでした。 （TGT-56233）
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.5 （2026年9月21日（PT））
-
-### 機能
-
-<table>
-<thead>
-<tr>
-<th><strong>コンテンツの事前非表示</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>コンテンツを事前に非表示にすることで、Adobe Targetのパーソナライゼーションで変更されるセクションのみを非表示にし、コンテンツの読み込み中によりスムーズなエクスペリエンスを提供できます。 これにより、ページ全体を非表示にすることなく、新しいアクティビティを開始する際の実装作業を最小限に抑えることができます。</p>
-<p>以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>詳しくは、<a href="../administrating-target/content-pre-hiding.md">詳細ドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 改善点
+## [!DNL Target Standard/Premium] 26.10.1 （2026年10月13日（PT））
 
 **[!UICONTROL ターゲットの分析]**
 
 +++詳細を見る
 
-* **A4T レポートリンクが[!DNL Target] UI**&#x200B;で生成されません。 [!DNL A4T] アクティビティの場合、基礎となるレポートデータが[!DNL Target] UIと[!DNL Adobe Analytics] UIの両方に表示されていても、**[!UICONTROL レポート]** セクションでレポートリンクが生成されませんでした。 （TGT-56247）
+* **A4T レポートが「エラーが発生しました」エラーで失敗します**。 新しく追加されたレポートスイートを使用する[!DNL A4T] アクティビティで、結果ではなく[!DNL Target] レポートに「エラーが発生しました」エラーが表示される問題を修正しました。 Analytics **で**&#x200B;表示をクリックすると、[!DNL Analytics for Target]分類情報が欠落している「互換性のないレポートスイート」メッセージも表示されました。 （TGT-56389）
 
 +++
-
-## [!DNL Target Standard/Premium] 26.9.4 （2026年9月17日）
 
 **[!UICONTROL Visual Experience Composer] （VEC）**
 
 +++詳細を見る
 
-* **[!UICONTROL 最も上のページ要素**&#x200B;の[!DNL Experience Fragments]に対して]の前に挿入コントロールにアクセスできません。 Visual Experience Composerで、ページの一番上の要素を選択すると、ページが上にスクロールされ、**[!UICONTROL 前に挿入]** コントロールが選択できない表示可能なビューポートの上にレンダリングされます。 （TGT-55829）
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.3 （2026年9月16日（PT））
-
-**[!UICONTROL レポート]**
-
-+++詳細を見る
-
-* **一部の[!DNL A4T Auto-Target] レポートで[!UICONTROL 上昇率]と[!UICONTROL 信頼性]の値がありません**。 **[!UICONTROL 訪問コンバージョン率を最大化]**&#x200B;の最適化目標を使用する[!DNL A4T Auto-Target] アクティビティの場合、デフォルトの&#x200B;**[!UICONTROL マイプライマリ指標]** レポート指標が正しく解決されず、**[!UICONTROL 上昇率]**&#x200B;と&#x200B;**[!UICONTROL 信頼性]**&#x200B;が空白のままになります。 （TGT-56137）
-
-+++
-
-**[!UICONTROL ターゲットの分析]**
-
-+++詳細を見る
-
-* **[!UICONTROL レポート Source] フィールドは、[!DNL Analytics] アクセスのないライブアクティビティに対して読み取り専用になりました**。 以前は、ライブアクティビティの所有者が[!DNL Adobe Analytics]にアクセスできなかった場合、**[!UICONTROL レポートSource]** フィールドとその関連フィールドは編集可能なままでした。 （TGT-56089）
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.2 （2026年9月8日）
-
-
-**[!UICONTROL レコメンデーション]**
-
-+++詳細を見る
-
-* **[!DNL New]ユーザーインターフェイスがフィード URLを誤ってエンコードしています**。 新しい[!DNL Target] インターフェイスのURLからレコメンデーションフィードを作成する際に、フィード URLが正しくエンコードされなかったため、フィードの作成が不明なエラーで失敗しました。 （TGT-56084）
-
-+++
-
-**[!UICONTROL レポート]**
-
-+++詳細を見る
-
-* **自動セグメントレポートで、属性値が一貫して表示されない**。 自動セグメントのレポートでは、[!DNL Automated Personalization]および[!DNL Auto-Target] アクティビティの属性値と範囲が一貫して表示されません。 一部の自動セグメントでは、関連付けられた値や範囲ではなく、属性名のみが表示されていました。 （TGT-55855）
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.1 （2026年9月1日）
-
-**[!UICONTROL オーディエンス]**
-
-+++詳細を見る
-
-* **アクティビティ専用オーディエンスを含むアクティビティのコピーが保存に失敗しました**。 A/B アクティビティでアクティビティ専用（ローカル範囲）のオーディエンスルールとカスタムコードの変更を使用する場合、コピーをコピーして保存すると、「無効なオーディエンス ID」エラーが発生して失敗します。 （TGT-55785）
-
-+++
-
-**[!DNL Adobe Target]MCP サーバー – Recommendations ツール （パブリック Beta）**
-
-+++詳細を見る
-
-[!DNL Adobe Target] MCP サーバーはレコメンデーションツールを公開し、基準、コレクション、デザイン、プロモーション、および除外のリスト、検査、作成、更新を行い、AI アシスタントから製品カタログを直接検索できるようになりました。
-
-この機能を利用するには、**Target Premium**&#x200B;を持つRecommendations対応テナントが必要です。このテナントはプレミアム以外のアカウントでは利用できません。
-
-詳しくは、[MCP サーバーツールのリファレンス &#x200B;](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)を参照してください。
+* mbox **を通じて配信された[!DNL Experience Fragments]のオファー名の代わりに** Raw HTMLが表示されます。 [!DNL Experience Fragment]がmboxを通じて配信されたときに、**[!UICONTROL 変更]** パネルにオファー名ではなく生のHTML/コードが表示される問題を修正しました。 （TGT-56241）
 
 +++
 

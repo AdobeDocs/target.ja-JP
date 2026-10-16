@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1307'
 ht-degree: 84%
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 84%
   + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
   + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
   + [ドキュメントの変更点](r-release-notes/doc-change.md)
-  + [以前のリリースのリリースノート](r-release-notes/release-notes-for-previous-releases.md)
+  + 以前のリリースのリリースノート {#previous-rn}
+    + [2026](r-release-notes/release-notes-for-previous-releases.md)
+    + [2025](r-release-notes/release-notes-for-previous-releases-2025.md)
+    + [2024](r-release-notes/release-notes-for-previous-releases-2024.md)
 + はじめに {#introduction}
   + [Target の概要](c-intro/intro.md)
   + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
