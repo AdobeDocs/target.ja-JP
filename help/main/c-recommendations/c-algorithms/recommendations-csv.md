@@ -1,5 +1,5 @@
 ---
-keywords: カスタム条件作成;アルゴリズム;条件;レコメンデーション条件;csv;ftp;csv のアップロード
+keywords: カスタム条件の作成；アルゴリズム；条件；推奨事項の条件；csv;ftp;sftp;csvのアップロード
 description: Adobe [!DNL Target]の推奨事項で、推奨事項をカスタマイズするためにCSV ファイルをアップロードする方法について説明します。
 title: '[!DNL Recommendations]でカスタム条件をアップロードするにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 35%
+source-wordcount: '762'
+ht-degree: 29%
 ---
 # カスタム条件のアップロード
 
@@ -57,9 +57,13 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 
    アップロードを成功させるには、CSV ファイルが正しくフォーマットされている必要があります。 「**[!UICONTROL CSV テンプレートのダウンロード]**」をクリックして、正しくフォーマットされた CSV ファイルをダウンロードします。
 
-   次の 2 つの場所のオプションがあります。
+   3つの場所オプションがあります。
 
    * **FTP:** FTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL FTP]**&#x200B;を選択し、必要な情報を入力します。 FTPS プロトコルを使用してCSV ファイルを安全に転送するSSLを使用できます。
+
+   * **SFTP:** SFTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL SFTP]**&#x200B;を選択し、ホスト名またはIP アドレス、ポート（デフォルト 22）、ユーザー名、パスワードおよび/またはSSH秘密鍵、ディレクトリ、ファイル名を入力します。 詳しくは、[&#x200B; サポートされているSFTP サーバー設定](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)を参照してください。
+
+     SFTPでは、カスタム条件のCSV形式は変更されません。 `# Key,Recommendation_1,...`形式を使用します。異なるフィードの種類の形式を使用すると、読み込みが失敗します。
 
    * **URL:** CSV ファイルをURLからアップロードするには、**[!UICONTROL URL]**&#x200B;を選択し、フィード URLを入力します。
 

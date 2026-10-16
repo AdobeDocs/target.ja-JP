@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
+source-wordcount: '2913'
 ht-degree: 51%
 ---
 # Target の最適化とパーソナライゼーションに関する FAQ
@@ -95,6 +95,8 @@ ht-degree: 51%
 
 +++詳細を見る
 詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja){target=_blank}」のマトリックスを参照してください。 [!DNL Target Standard/Premium] インターフェイスのサポートと、デスクトップ/デバイスでのエンドユーザーブラウザーのサポートという2つの側面があります。
+
+[!DNL Safari]は[!DNL Target] インターフェイスでサポートされています。 [!DNL Safari]でフォームベースのアクティビティを作成し、[!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL Enhanced Experience Composer] （EEC）を除くすべての機能を使用できます。これらは[!DNL Safari]ではサポートされていません。 VECまたはEECでエクスペリエンスを編集するには、[!DNL Google Chrome]を使用します。
 
 +++
 

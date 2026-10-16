@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
+source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 24%
+source-wordcount: '1877'
+ht-degree: 23%
 ---
 # [!DNL Adobe Customer Journey Analytics]の[!DNL Target]件のレポート
 
@@ -120,6 +120,8 @@ ht-degree: 24%
 
 1. 手動トラフィック分割または[!UICONTROL 自動配分]を使用するA/B アクティビティの場合は、**[!UICONTROL データビュー]**&#x200B;を選択します。 データビューは、[!DNL Customer Journey Analytics] レポート用の[!DNL Analytics] レポートスイートのように機能します。 アクセス権のある選択したサンドボックス内のデータビューのみが表示されます。
 
+   データ ビューは、[!UICONTROL 自動配分]活動に必要です。 手動でトラフィックを分割するA/B アクティビティの場合はオプションです。
+
    ➡️ [&#x200B; データビューの詳細については、Adobe Customer Journey Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views)を参照してください
 
 1. 目標指標を指定します。 次のいずれかのオプションを選択します。
@@ -127,6 +129,8 @@ ht-degree: 24%
    * **[!UICONTROL コンバージョン]**：目標が達成されたことを示すためにオーディエンスが実行する必要があるアクションを選択します。 [成功指標の詳細](/help/main/c-activities/r-success-metrics/success-metrics.md)。
 
    * **[!UICONTROL Customer Journey Analytics指標を使用]**：手動でトラフィックを分割するA/B アクティビティまたは[!UICONTROL 自動割り当て]でのみ使用できます。 選択したデータビューから[!DNL Customer Journey Analytics]指標または計算指標を選択します。 この指標は最適化基準として機能します。 モデルは[!DNL Customer Journey Analytics]個のデータで実行され、[!DNL Customer Journey Analytics]個のレポートに使用されるのと同じ頻度でパフォーマンスデータを更新します。
+
+     [!UICONTROL 自動割り当て]活動には指標が必要です。 手動でトラフィックを分割するA/B アクティビティの場合はオプションです。 指標を選択する場合は、データビューも選択する必要があります。
 
    ![目標指標で Customer Journey Analytics 指標オプションを使用](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

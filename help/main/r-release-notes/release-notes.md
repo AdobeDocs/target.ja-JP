@@ -29,16 +29,51 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '645'
+ht-degree: 42%
 ---
 # [!DNL Target] リリースノート（最新）
 
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.10.2 （2026年10月15日（PT））
+
+**[!UICONTROL アクティビティ]**
+
++++詳細を見る
+
+* **アクティビティの概要**&#x200B;に表示される目標設定が正しくありません。 アクティビティの&#x200B;**[!UICONTROL 概要]** ページに表示されている目標設定が正しくない問題を修正しました。 例えば、`https://`がページ URLに追加され、実際の目標設定が正しいにもかかわらず、**[!UICONTROL URL contains]**&#x200B;条件が表示されませんでした。 （TGT-56326）
+
++++
+
+**[!UICONTROL レコメンデーション]**
+
++++詳細を見る
+
+* **ライブアクティビティでプロモーションが更新された後に表示されるバックアップの推奨事項**。 ライブ [!DNL Recommendations] アクティビティでプロモーションを編集すると、定義が変更されていなくても[!DNL Target]が新しいプロモーションとレコメンデーションユニットを作成する問題を修正しました。 （TGT-56369）
+
++++
+
+**[!UICONTROL レポート]**
+
++++詳細を見る
+
+* **レポートプリセットは2週間後に削除されました**。 アクティビティ用に保存されたレポートプリセットが、約2週間後に自動的に削除される問題を修正しました。 （TGT-56374）
+
++++
+
+**[!UICONTROL Visual Experience Composer] （VEC）**
+
++++詳細を見る
+
+* **Safariのサポートが[!DNL Adobe Target]**&#x200B;に追加されました。 [!DNL Target]は[!DNL Safari] ブラウザーでサポートされるようになりました。 Visual Experience Composerと[!DNL Enhanced Experience Composer]は、[!DNL Safari]ではサポートされていません。 その結果、[!DNL VEC]にオーバーレイが表示され、エディターを使用するには[!DNL Chrome]に切り替える必要があることをユーザーに通知できるようになりました。 （TGT-55853）
+  [詳細情報](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.1 （2026年10月13日（PT））
 
