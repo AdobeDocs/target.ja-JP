@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 45%
+source-wordcount: '1288'
+ht-degree: 43%
 ---
 # [!UICONTROL 自動割り当て] レポートを解釈
 
@@ -41,6 +41,8 @@ ht-degree: 45%
 明確な勝者が宣言されると、[!DNL Target]には「勝者：エクスペリエンス *X*」バッジが表示されます。
 
 ![勝者バッジ &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+勝者バッジは、[!UICONTROL &#x200B; アクティビティ &#x200B;] リストのアクティビティの情報ポップアップにも表示されるので、[!UICONTROL 自動配分] アクティビティのステータスを開かずに確認できます。
 
 >[!NOTE]
 >
@@ -92,6 +94,6 @@ A/B アクティビティの終了時に、[!UICONTROL 自動配分]は、決定
 
 ### [!UICONTROL Analyticsをレポートソース &#x200B;] （A4T）として使用する[!UICONTROL 自動配分] アクティビティで、「勝者なし」、「勝者」および「スター」バッジを使用できますか？
 
-現在、[!DNL Analysis Workspace]の[!UICONTROL A4T] パネルでは、「まだ勝者なし」および「勝者」バッジは使用できません。 これらのバッジは、同じレポートを [!DNL Target] で表示した場合にも利用できません。 A4Tを使用する[!UICONTROL 自動配分] アクティビティの[!DNL Target] レポートに表示される勝者「星」バッジは無視する必要があります。
+「[!UICONTROL &#x200B; アクティビティ &#x200B;]」リストのアクティビティ情報ポップアップに、「まだ勝者なし」と「勝者」のバッジが表示されます。 これらは、[!DNL Analysis Workspace]の[!UICONTROL A4T] パネルや、[!DNL Target]の同じレポートを表示する際には表示されません。 A4T [!UICONTROL 自動配分] アクティビティの[!DNL Target] レポートに勝者「星」バッジが表示されている場合は、無視します。
 
 この制限と他の注意事項について詳しくは、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティ *の* A4T サポートの[自動配分](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)を参照してください。
