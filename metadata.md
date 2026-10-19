@@ -4,20 +4,19 @@ product: target
 solution: Target
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: "Target"
 usetq: true
 audience: end-user
 type: Documentation
-git-repo: https://github.com/AdobeDocs/target.ja-JP
-landing-page-breadcrumb-title: Target 
+git-repo: https://github.com/AdobeDocs/target.en
+landing-page-breadcrumb-title: Target
 landing-page-name: target
 index: true
 source-git-commit: cac3544bffe455ed042306ffa93033d149e432cf
 workflow-type: tm+mt
-source-wordcount: 124
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # 内部使用のためのメタデータ
 
