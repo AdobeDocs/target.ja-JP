@@ -45,7 +45,7 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   >[!DNL Target]は、URL プロトコル （[!DNL https]と[!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com`]と[!DNL `https://wwww.adobe.com`]は両方とも一致します。
+   >[!DNL Target]は、URL プロトコル （[!DNL https]と[!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com/jp`]と[!DNL `https://wwww.adobe.com`]は両方とも一致します。
 
    指定されたURLを持つページがVECで開きます。
 

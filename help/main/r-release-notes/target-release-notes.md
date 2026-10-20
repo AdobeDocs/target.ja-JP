@@ -54,4 +54,4 @@ ht-degree: 65%
 
 [!DNL Target] およびその他の [!DNL Adobe Experience Cloud] ソリューションの今後の製品強化に関する事前通知を受信するには、[!DNL Adobe Priority Product Update] に新規登録します。
 
-[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
+[https://www.adobe.com/jp/subscription/priority-product-update.html](https://www.adobe.com/jp/subscription/priority-product-update.html)

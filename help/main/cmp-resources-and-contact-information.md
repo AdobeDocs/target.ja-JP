@@ -134,7 +134,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 今後の製品の機能強化に関する事前通知をご希望の方は、Adobe Priority Product Update にご登録ください。
 
-[Adobe優先度製品アップデート](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe優先度製品アップデート](https://www.adobe.com/jp/subscription/priority-product-update.html)
 
 ### サービス、利用可能な機能、課金 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -149,7 +149,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 * © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[利用規約](https://www.adobe.com/legal/terms.html)
+[利用規約](https://www.adobe.com/jp/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. 商標記号（®、™など） Adobeの商標を示します。
 

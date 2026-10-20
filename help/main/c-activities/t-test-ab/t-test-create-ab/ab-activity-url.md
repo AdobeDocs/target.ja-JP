@@ -31,7 +31,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com`]と[!DNL `https://www.adobe.com`]は両方とも一致します。
+>[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com/jp`]と[!DNL `https://www.adobe.com/jp`]は両方とも一致します。
 
 ## 異なる URL の指定
 
