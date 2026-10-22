@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 25%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # [!DNL Adobe Target] の仕組み
 
@@ -236,13 +236,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 
 [!DNL Adobe Target] はテストのための検索エンジンガイドラインに従っています。
 
-詳しくは、次の Google のリソースを参照してください。
-
-* [ウェブテストが Google 検索に与える影響](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [実験とクローキング](https://support.google.com/analytics/answer/12979939?hl)
-
-
-ガイドラインは[Google ウェブマスター向け公式ブログ](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)の投稿として公表されています。 この投稿は2012年までさかのぼりますが、この件に関する[!DNL Google]の最新の声明は残っており、ガイドラインは依然として関連しています。
+詳しくは、[Google ドキュメント &#x200B;](https://developers.google.com/search/docs/crawling-indexing/website-testing)を参照してください。
 
 * **クローキングなし**: クローキングでは、ボットを特定して別のコンテンツを入力することにより、1つのコンテンツのセットをユーザーに表示し、別のセットを検索エンジンボットに表示します。
 
@@ -266,13 +260,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 
   また、テストするページのアクセシビリティも考慮してください。 そのページが検索エンジンからアクセスできず、オーガニック検索でのランク付けを意図していなかった場合、これらの考慮事項は適用されません。 例えば、メールキャンペーン専用のランディングページがあります。
 
-Google によると、これらのガイドラインに従えば、「テストがサイトの検索結果に及ぼす影響はほとんどあるいはまったくない。」とのことです。
-
-これらのガイドラインに加えて、Google はまた、Content Experiments ツールのドキュメンテーションでもう 1 つのガイドラインを提供しています。
-
-* 「バリエーションの各ページは、元来のページ内容の主旨を保持する必要があります。 こういったバリエーションは、元来の内容に対しユーザーが持つ全般的イメージを変えてはいけません。」
-
-Google は例として、「ユーザーに表示される組み合わせに関連しないキーワードでサイトの元来のページが読み込まれる場合、そのサイトを Google のインデックスから外すことがあります」と記述しています。
+Googleでは、テスト内のバリエーションは、多くの場合、検索結果のスニペットやページのランキングにほとんど影響を与えません。
 
 [!UICONTROL Adobe]は、テストのバリエーション内の元のコンテンツの意味を意図せずに変更するのは難しいと感じています。 ただし、[!UICONTROL Adobe]では、ページ上のキーワードテーマを認識し、それらのテーマを維持することをお勧めします。 ページ内容を変更、特に関連のあるキーワードを追加したり削除したりすると、オーガニック検索でのその URL のランキングが変わってしまう場合があります。 [!DNL Adobe] では、テストプロセスの一環として、SEO パートナーに協力を仰ぐことをお勧めします。
 
