@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # パーソナライズされた体験を実現するためのコンテンツの事前非表示
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 インスタンスの事前非表示を有効にして、各アクティビティで&#x200B;**[!UICONTROL 目標と設定]**&#x200B;で使用するかどうかを選択します。 事前非表示を有効にしたアクティビティは、公開時にターゲットとなる動作に含まれます。
 
-次に、[!DNL Target]は、[!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL &#x200B; フォームベースのComposer]で作成されたライブアクティビティから軽量ルールセットを作成し、配信が変更できるセレクターと領域を説明します。
+次に、[!DNL Target]は、[!UICONTROL Visual Experience Composer] （VEC）で作成されたライブアクティビティから軽量ルールセットを作成し、配信が変更できるセレクターと領域を説明します。
 
 アクティビティを作成または編集する場合：
 
