@@ -32,7 +32,7 @@ ht-degree: 1%
 
 1. [!DNL Target]は、ライブ [!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer] アクティビティからルールセットを構築します。 ルールセットには、配信が変更される可能性のあるセレクターと地域が一覧表示されます。
 
-   [!UICONTROL  フォームベースのComposer] アクティビティはサポートされていません。
+   [!UICONTROL &#x200B; フォームベースのComposer] アクティビティはサポートされていません。
 
 1. ライブラリは、Adobe CDNからルールセットを取得し、パーソナライズされたコンテンツの読み込み中にのみ一致する要素を事前に非表示にします。
 
