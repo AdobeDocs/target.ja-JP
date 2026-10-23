@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # パーソナライズされた体験を実現するためのコンテンツの事前非表示
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 1. [!DNL Target]は、ライブ [!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer] アクティビティからルールセットを構築します。 ルールセットには、配信が変更される可能性のあるセレクターと地域が一覧表示されます。
 
-   [!UICONTROL &#x200B; フォームベースのComposer] アクティビティはサポートされていません。
+   [!UICONTROL  フォームベースのComposer] アクティビティはサポートされていません。
 
 1. ライブラリは、Adobe CDNからルールセットを取得し、パーソナライズされたコンテンツの読み込み中にのみ一致する要素を事前に非表示にします。
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL Save]**」をクリックします。 これにより、ちらつき管理設定がインスタンスに適用されます。
 
-1. 有効になったら、**[!UICONTROL ダウンロード]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。 実装の手順について詳しくは、「[SDKのコンテンツの事前非表示](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/prehide-sdk)」を参照してください。
+1. 有効になったら、**[!UICONTROL ダウンロード]**&#x200B;をクリックし、ページ `<head>`にファイルを追加して、[!DNL at.js]または[!DNL Web SDK]の前に読み込みます。 実装の手順について詳しくは、「[SDKのコンテンツの事前非表示](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)」を参照してください。
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 インスタンスの事前非表示を有効にして、各アクティビティで&#x200B;**[!UICONTROL 目標と設定]**&#x200B;で使用するかどうかを選択します。 事前非表示を有効にしたアクティビティは、公開時にターゲットとなる動作に含まれます。
 
-次に、[!DNL Target]は、[!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL &#x200B; フォームベースのComposer]で作成されたライブアクティビティから軽量ルールセットを作成し、配信が変更できるセレクターと領域を説明します。
+次に、[!DNL Target]は、[!UICONTROL Visual Experience Composer] （VEC）で作成されたライブアクティビティから軽量ルールセットを作成し、配信が変更できるセレクターと領域を説明します。
 
 アクティビティを作成または編集する場合：
 
