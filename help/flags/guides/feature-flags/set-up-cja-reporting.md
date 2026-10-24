@@ -50,10 +50,10 @@ Customer Journey Analyticsとフラグの統合を使用する前に、次の点
 接続を既に設定している場合は、既存の接続を使用して、以下の手順3にスキップできます。 この接続により、Customer Journey Analyticsはレポート用にデータセットからデータを取得できるようになります。
 
 1. Customer Journey Analyticsの&#x200B;**Connections** ページで、**新しい接続を作成**&#x200B;を選択します。
-1. 正しい情報を使用して[接続とデータ設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)を構成します。
+1. 正しい情報を使用して[接続とデータ設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/overview)を構成します。
 1. データストリームの設定時に使用したExD イベントデータセットを追加します。
 1. コンバージョンイベントとして使用するデータセットを追加し、**次へ**&#x200B;を選択します。
-1. **データセットを追加** ダイアログで、選択したデータセット [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings)ごとに設定を設定します。
+1. **データセットを追加** ダイアログで、選択したデータセット [&#128279;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings)ごとに設定を設定します。
 
 ![&#x200B; データセットが追加される前にデータセットを追加ダイアログ &#x200B;](assets/cja-connection-new-add-datasets-empty.png)
 
@@ -65,7 +65,7 @@ ID マップ設定を表示する![&#x200B; データセット設定ダイアロ
 
 Customer Journey Analyticsでデータビューを設定する。 データビューにより、接続からのデータが適切に使用できるようになります。
 
-1. データビューを設定し、上記で作成した接続をポイントしていることを確認します。 詳しくは、*Adobe Customer Journey Analytics ガイド*&#x200B;の「[&#x200B; データビューの作成または編集](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」を参照してください。
+1. データビューを設定し、上記で作成した接続をポイントしていることを確認します。 詳しくは、*Adobe Customer Journey Analytics ガイド*&#x200B;の「[&#x200B; データビューの作成または編集](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview)」を参照してください。
 1. **データ管理** > **データビュー**&#x200B;に移動します。
 1. 「**新しいデータビューを作成**」を選択し、フラグ「CJA」接続を選択します。
 1. データビュー名と安定した外部IDを入力します。
@@ -94,7 +94,7 @@ Customer Journey Analyticsでデータビューを設定する。 データビ�
 
 1. `commerce.purchases.value`などの必須コンバージョンフィールドを指標の下に追加します。
 1. **購入金額**&#x200B;など、指標に明確な名前を付けます。
-1. アトリビューションを有効にし、分析に必要なモデル（ラストタッチ、ファーストタッチ、パーティシペーション、または同じタッチ）を選択します。 アトリビューションモデル、コンテナ、ルックバックウィンドウについて詳しくは、[&#x200B; アトリビューションコンポーネント &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/attribution/models)を参照してください。
+1. アトリビューションを有効にし、分析に必要なモデル（ラストタッチ、ファーストタッチ、パーティシペーション、または同じタッチ）を選択します。 アトリビューションモデル、コンテナ、ルックバックウィンドウについて詳しくは、[&#x200B; アトリビューションコンポーネント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/attribution/models)を参照してください。
 1. 実験戦略に一致するコンテナとルックバックウィンドウを選択します。 訪問またはセッションに応じたルックバックを持つ人物コンテナは一般的な出発点ですが、ユースケースに合わせて検証してください。
 1. データビューを保存します。
 
