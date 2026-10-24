@@ -53,7 +53,7 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
    | アプリケーション ID | フラグ内のアプリケーションの一意のID |
 
 1. **保存**&#x200B;を選択します。
-1. [公開プロセス ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
 ### 環境ファイル IDの取得 {#environment-file-id}
 
@@ -312,7 +312,7 @@ Identity.updateIdentities(identityMap);
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`、`FeatureEvaluationContext` （オプションのターゲット属性）、およびコールバックを渡します。 [評価コンテキスト ](#evaluation-context)を参照してください。
+`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`、`FeatureEvaluationContext` （オプションのターゲット属性）、およびコールバックを渡します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。
 
 **署名**
 
@@ -340,7 +340,7 @@ Flag.isFeatureEnabled(
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | 文字列 | フラグで評価する機能キー |
-| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
+| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 | `callback` | AdobeCallback&lt;Boolean> | 機能が有効になっている場合は`true`で呼び出され、それ以外の場合は`false`です。 `AdobeCallbackWithError<Boolean>`を渡して`fail(...)`を処理することもできます。 |
 
 **例**
@@ -418,7 +418,7 @@ Flag.getFeature(
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | 文字列 | フラグで評価する機能キー |
-| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
+| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 | `callback` | AdobeCallback&lt;FeatureEvaluationResult> | 評価された機能ペイロードで呼び出されます。機能が見つからない場合は`null`になる可能性があります。 `AdobeCallbackWithError<FeatureEvaluationResult>`を渡して`fail(...)`を処理することもできます。 |
 
 **応答**
