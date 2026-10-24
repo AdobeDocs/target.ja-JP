@@ -3057,7 +3057,7 @@ at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#
 
 ### Python SDK 1.0.0（2021年6月16日）
 
-デバイス上の判定機能を備えた新しい [!DNL Adobe Target] Python SDK が利用可能になりました。 今回の最新の追加により、サーバー側 SDK の [!DNL Target] スイートが強化されます。 これらの SDK は、選択した言語で [!DNL Target] と統合し、価値を生み出すまでの時間を短縮するのに役立ちます。 サーバー側の統合は、市場がファーストパーティのデータが価値のある cookie のない世界に移行していることから、人気のある選択肢になりつつあります。 Target SDK は、市場で最も人気のあるプログラミング言語（Python、Java、JavaScript、C#/.Net）で利用できます。
+デバイス上の判定機能を備えた新しい [!DNL Adobe Target] Python SDK が利用可能になりました。 今回の最新の追加により、サーバー側 SDK の [!DNL Target] スイートが強化されます。 これらの SDK は、選択した言語で [!DNL Target] と統合し、価値を生み出すまでの時間を短縮するのに役立ちます。 サーバー側の統合は、市場がファーストパーティデータが価値のある cookie のない世界に移行していることから、人気のある選択肢になりつつあります。 Target SDK は、市場で最も人気のあるプログラミング言語（Python、Java、JavaScript、C#/.Net）で利用できます。
 
 詳しくは、[Adobe Target 開発者ガイド](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}の [Python SDK ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html?lang=ja){target=_blank}を参照してください。
 
