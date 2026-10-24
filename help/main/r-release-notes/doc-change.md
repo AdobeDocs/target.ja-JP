@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c358f8940302be125c1f7ddab4f695846c46580b
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 32%
+source-wordcount: '2623'
+ht-degree: 33%
 ---
 # ドキュメントの変更点
 
@@ -67,7 +67,6 @@ ht-degree: 32%
 |  | [MCP サーバー [!DNL Adobe Target] の使用を開始する](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | 新しい記事。 前提条件、クライアント設定、トラブルシューティングなど、[!DNL Adobe Target] MCP サーバーをAI アシスタントに接続する方法について説明します。 |
 |  | [[!DNL Adobe Target] MCP サーバー – ユースケースとウォークスルー](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | 新しい記事。 [!DNL Adobe Target] MCP サーバーの一般的なユースケースとステップバイステップのプロンプトのウォークスルーを確認します。 |
 |  | [[!DNL Adobe Target] MCP サーバーツール リファレンス &#x200B;](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | 新しい記事。 [!DNL Adobe Target] MCP サーバーによって公開されたすべての読み取り専用ツールのパラメーター参照を完了します。 |
-|  | [MCP サーバー [!DNL Adobe Target] をセルフホストします](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | 新しい記事。 Python、Docker、またはローカル開発環境を使用して、[!DNL Adobe Target] MCP サーバーの独自のインスタンスを実行する方法について説明します。 |
 | 5月7日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 26.5.1 リリースのリリースノートを追加しました。 |
 
 ### [!DNL Target Standard/Premium] 26.1.1 （2026年1月18日）
