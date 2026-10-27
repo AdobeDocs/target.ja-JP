@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
+source-git-commit: ea519da13a7a2e5dad0ea5303980347489b824df
 workflow-type: tm+mt
-source-wordcount: '1877'
-ht-degree: 23%
+source-wordcount: '1935'
+ht-degree: 22%
 ---
 # [!DNL Adobe Customer Journey Analytics]の[!DNL Target]件のレポート
 
@@ -198,21 +198,23 @@ ht-degree: 23%
 
 ## [!DNL Customer Journey Analytics]でのアクティビティレポートの作成と表示
 
+>[!BEGINSHADEBOX]
+
+この統合は、Target （A4T）のAdobe Analyticsと同じではありません。
+
+* [!DNL Target]/[!DNL Customer Journey Analytics]統合には、A4Tのような事前定義済みのレポートは含まれていません。 アクティビティレポートは[!DNL Customer Journey Analytics]に組み込む必要があります。
+
+* アクティビティの目標指標として[!UICONTROL CJA指標]を使用する場合、このオプションを使用すると、特定の成功指標を定義する必要がある場合に柔軟に対応できます。 [!UICONTROL 実験] パネルの設定時に、成功指標が選択されます。 上昇率と信頼度は、選択したCJA指標から計算されます。
+
+>[!ENDSHADEBOX]
+
 アクティビティがライブになり、接続とデータビューの設定が完了すると、レポート データは[!DNL Customer Journey Analytics]で使用できるようになります。 [!DNL Target]のアクティビティの「**[!UICONTROL レポート]**」タブから、**[!UICONTROL Customer Journey Analyticsで表示]**&#x200B;を使用して、分析用に[!DNL Customer Journey Analytics]を開きます。 現在、このリンクをクリックすると、[!DNL Customer Journey Analytics] ホーム ランディングページに移動します。
 
 ![CJA レポート リンク &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
->[!NOTE]
->
->この統合は、Target （A4T）のAdobe Analyticsと同じではありません。
->
->* [!DNL Target]/[!DNL Customer Journey Analytics]統合には、A4Tのような事前定義済みのレポートは含まれていません。 アクティビティレポートは[!DNL Customer Journey Analytics]に組み込む必要があります。
->
->* アクティビティの目標指標として[!UICONTROL CJA指標]を使用する場合、このオプションを使用すると、特定の成功指標を定義する必要がある場合に柔軟に対応できます。 [!UICONTROL 実験] パネルの設定時に、成功指標が選択されます。 上昇率と信頼度は、選択したCJA指標から計算されます。
-
 1. [!DNL Customer Journey Analytics]で、実験パネルを作成し、**[!UICONTROL 実験]** ドロップダウンメニューからアクティビティを選択します。
 
-   詳しくは、*[!DNL Customer Journey Analytics]* ガイドの&#x200B;*実験パネル*&#x200B;の下の[実験パネル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}を参照してください。
+   詳しくは、[実験パネル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}のドキュメントを参照してください。
 
    Customer Journey Analyticsの![実験パネル &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
@@ -225,3 +227,5 @@ ht-degree: 23%
    [!UICONTROL 実験] パネルは、実験のパフォーマンスをより深く理解するのに役立つ豊富なデータとビジュアライゼーションのセットを返します。 詳しくは、*[!DNL Customer Journey Analytics]* ガイドの&#x200B;*実験パネル*&#x200B;の[[!UICONTROL &#x200B; パネル出力]](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}を参照してください。
 
    ![実験](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
+
+[!UICONTROL 実験] パネルに、成功指標[!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 上昇率]、[!UICONTROL 信頼性]の列に0が表示されている場合、成功指標が[!DNL Target] アクティビティと同じイベントで発生しない可能性があります。 [永続性](#set-up-data-views)が[!DNL Target] ディメンションに対して有効になっているかどうか、およびユースケースに適しているかどうかを確認します。 詳しくは、[永続性](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}を参照してください。
