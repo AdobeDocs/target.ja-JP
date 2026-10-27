@@ -275,7 +275,7 @@ ht-degree: 16%
 
 +++詳細を見る
 
-* **Target固有のWeb SDK ドキュメントページをAdobe Target リポジトリに移動しました。** Web SDK ドキュメントの再構築の一環として、[!DNL Target]固有のコンテンツが一般的なWeb SDK ドキュメントから[!DNL Adobe Target] [開発者ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}に移行されました。 この変更により、コンテンツの見つけやすさが向上し、適切な製品チームがソリューション固有のガイダンスを維持できるようになります。 （TGT-53374）
+* **Target固有のWeb SDK ドキュメントページをAdobe Target リポジトリに移動しました。** Web SDK ドキュメントの再構築の一環として、[!DNL Target]固有のコンテンツが一般的なWeb SDK ドキュメントから[!DNL Adobe Target] [開発者ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}に移行されました。 この変更により、コンテンツの見つけやすさが向上し、適切な製品チームがソリューション固有のガイダンスを維持できるようになります。 （TGT-53374）
 
 +++
 
@@ -356,7 +356,7 @@ ht-degree: 16%
 * 同じデータストリーム IDを異なる接続に使用できるのは、異なるサンドボックスで設定されている場合のみです。
 * このルールは、「なし」が選択されている場合を含め、すべてのデータストリーム選択に適用されます。
 
-このアップデートにより、設定の一貫性が確保され、マルチサンドボックス環境での競合を防ぐことができます。 詳しくは、*Adobe Target Destinations* ガイドの[Experience Platform connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}を参照してください。
+このアップデートにより、設定の一貫性が確保され、マルチサンドボックス環境での競合を防ぐことができます。 詳しくは、*Adobe Target Destinations* ガイドの[Experience Platform connection](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}を参照してください。
 
 ### [!DNL Target Standard/Premium] 25.9.1 （2025年9月5日）
 
