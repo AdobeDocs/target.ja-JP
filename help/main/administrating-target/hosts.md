@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 100%
+source-wordcount: '1097'
+ht-degree: 97%
 ---
 # ホスト
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ホストは、[!DNL Target] リクエストが行われる任意のドメインです。 Web サイトでは、通常、[!DNL Target] リクエストを送信する URL の `location.hostname` プロパティです。
 
-デフォルトでは、[!DNL Target] は、[!DNL Target] リクエストを行ったり [!DNL Target] レスポンスを受信できるホストを制限しません。 新しいホストがリクエストを行うと、そのホストは自動的に機能します。 このプロセスにより、不明なドメインや予期できないドメインでのテストも可能になります。 このデフォルトの動作を上書きする場合は、許可リストまたはブロックリストを設定して、[!DNL Target] で機能するホストを制限することができます。
+デフォルトでは、[!DNL Target] は、[!DNL Target] リクエストを行ったり [!DNL Target] レスポンスを受信できるホストを制限しません。 新しいホストがリクエストを行うと、そのホストは自動的に機能します。 このプロセスにより、予期できない未知のドメインに対するテストも可能になります。 このデフォルトの動作を上書きする場合は、許可リストまたはブロックリストを設定して、[!DNL Target] で機能するホストを制限することができます。
 
 {{permissions-update}}
 
@@ -146,7 +146,7 @@ ht-degree: 100%
 
 * ブラウザーで[!UICONTROL ホスト]ページを再読み込みします。
 * at.js の参照を含め、[!DNL Target] リクエストが正しいことを確認します。
-* そのホストでいずれかの [!DNL Target] リクエストを参照します。 ホスト上にあるどの [!DNL Target] リクエストも、これまでブラウザーでレンダリングされたことがなかった可能性があります。
+* そのホストでいずれかの [!DNL Target] リクエストを参照します。 ホスト上の[!DNL Target] リクエストがブラウザーでレンダリングされなかった可能性があります。
 
 **ランダムなドメインまたは不明なドメインが[!UICONTROL ホスト]リストに表示される。**
 

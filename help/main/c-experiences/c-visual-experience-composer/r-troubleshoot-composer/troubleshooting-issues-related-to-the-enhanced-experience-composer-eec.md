@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 36%
+source-wordcount: '514'
+ht-degree: 30%
 ---
 # [!UICONTROL Enhanced Experience Composer]に関する問題のトラブルシューティング
 
 特定の条件下で、[!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で表示の問題が発生することがあります。
 
-## EEC で、公開 IP ではアクセスできない内部 QA 用 URL が読み込まれません。 {#section_D29E96911D5C401889B5EACE267F13CF}
+## EECは、パブリック IPでアクセスできない内部QA URLを読み込みません。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++詳細
@@ -145,7 +145,7 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![EEC_error イメージ &#x200B;](assets/EEC_error.png)
+![EEC_error イメージ ](assets/EEC_error.png)
 
 このエラーメッセージが表示される理由と、問題の解決方法は次のとおりです。
 
@@ -155,11 +155,11 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 
 * **問題：** IP アドレスは許可リストに加えるされていますが、Web サイトではTLS バージョン 1.2はサポートされていません。 [!DNL Target]は現在、1.2のデフォルト設定を使用しています。 [!DNL Target] 18.4.1 （2018年4月25日）より前のデフォルト設定では、TLS 1.0がサポートされていました。 詳しくは、[TLS（トランスポートレイヤーセキュリティ）暗号化の変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。
 
-  **解決策：**&#x200B;次の質問を参照してください（TLS 1.2を使用するサイトの安全なページで[!UICONTROL Enhanced Visual Experience Composer]が読み込まれません）。
+  **解決策：**&#x200B;次の質問を参照してください（[!UICONTROL Enhanced Visual Experience Composer]は、TLS 1.2を使用するサイトの安全なページでは読み込まれません）。
 
 +++
 
-## TLS 1.0 を使用しているサイトのセキュリティで保護されているページで、EEC が読み込まれません。 （EEC のみ） {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## EECは、TLS 1.0を使用するサイト上の安全なページでは読み込まれません。 （EEC のみ） {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++詳細
 上記のエラーメッセージが「サイトの安全なページで[!UICONTROL Enhanced Visual Experience Composer]が読み込まれない」に表示される場合があります。 上記のIP アドレスが許可リストに加えるされていても、web サイトでTLS バージョン 1.2がサポートされていない場合。 [!DNL Target]は現在、1.2のデフォルト設定を使用しています。 [!DNL Target] 18.4.1 （2018年4月25日）より前のデフォルト設定では、TLS 1.0がサポートされていました。 詳しくは、[TLS（トランスポートレイヤーセキュリティ）暗号化の変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。
@@ -179,7 +179,7 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 
    ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
 
-1. Web サイトにTLS 1.0が表示されていることがわかったら、TargetのTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 現在の状況を解決するには（2018年9月12日まで有効） {target=_blank}、TLS バージョンとドメインを使用した設定については、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+1. Web サイトにTLS 1.0が表示されていることがわかったら、TargetのTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 現在の状況を解決するには（2018年9月12日まで有効） {target=_blank}、TLS バージョンとドメインを使用した設定については、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 +++
 

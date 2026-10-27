@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 29%
 ---
 # [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer]に関する問題のトラブルシューティング
 
@@ -57,7 +57,7 @@ ht-degree: 31%
 
 **Chrome 80 （2020年8月）**:2020年8月に導入された変更により、Chrome 80以降のブラウザー版を使用しているすべてのユーザー：
 
-* アクティビティの編集中に&#x200B;*not*&#x200B;さんが[!DNL Target] ライブラリをダウンロードできます（これらのライブラリがサイトにまだ存在しない場合）。 これは、ダウンロードコールが顧客ドメインから保護された[!DNL Adobe] ドメインに向けて行われ、未認証として拒否されるためです。
+* アクティビティの編集中に、*not*&#x200B;は[!DNL Target] ライブラリをダウンロードできます（これらのライブラリがサイト上にない場合）。 これは、ダウンロードコールが顧客ドメインから保護された[!DNL Adobe] ドメインに向けて行われ、未認証として拒否されるためです。
 
 * EECは、`adobemc.com domain`でCookieにSameSite属性を設定できないため、すべてのユーザーに対して&#x200B;*not*&#x200B;機能を提供します。 この属性がないと、ブラウザーはこれらのCookieを拒否し、EECが失敗します。
 
@@ -135,11 +135,11 @@ VEC内でリソースが読み込まれない原因となるヘッダーに対�
 ## ページ内の 1 つの要素を変更すると、複数の要素が変更されます。 （VEC と EEC） {#section_309188ACF34942989BE473F63C5710AF}
 
 +++詳細
-同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。 この方法は、HTMLの標準的なベストプラクティスです。 詳しくは、[&#x200B; ページ変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。 この方法は、HTMLの標準的なベストプラクティスです。 詳しくは、[ ページ変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 +++
 
-## iFrame バスティングのサイトのエクスペリエンスを編集できない。 （VEC と EEC） {#section_9FE266B964314F2EB75604B4D7047200}
+## iFrame破壊サイトのエクスペリエンスを編集できない。 （VEC と EEC） {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++詳細
 この問題は、[!UICONTROL Enhanced Experience Composer] （EEC）を有効にすることで対処できます。 **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、[!UICONTROL 拡張Experience Composer]を有効にするチェックボックスを選択します。 EECでは、[!DNL Adobe]管理のプロキシを使用して、編集用にページを読み込みます。 このプロキシでは、iFrameを使用しないサイトでの編集が可能であり、まだ[!DNL Adobe Target] コードを追加していないサイトやページでの編集が可能です。 コードが追加されるまで、サイトにアクティビティは配信されません。 一部のサイトはEEC経由で読み込まれない場合があります。この場合、このオプションをオフにすると、iFrame経由でEECを読み込むことができます。
@@ -150,17 +150,17 @@ VEC内でリソースが読み込まれない原因となるヘッダーに対�
 
 +++
 
-## mbox/[!DNL Target]の実装がまだ完了していないページでテストを設定する。 （VEC と EEC） {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## mbox/[!DNL Target]の実装がまだ完了していないページに対してテストを設定する。 （VEC と EEC） {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++詳細
-上記の「iFrame バスティングのサイトのエクスペリエンスを編集できない」を参照してください。
+上記の「iFrame バーストサイトのエクスペリエンスを編集できない」を参照してください。
 
 +++
 
-## [!UICONTROL &#x200B; テキストを編集]/[!UICONTROL HTMLを編集]または[!UICONTROL &#x200B; テキストを変更]/[!DNL Change HTML]した太字と斜体のテキストスタイルがページに表示されません。 これらのスタイル変更を適用すると、テキストが消えることがあります。 （VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
+## [!UICONTROL  テキストを編集]/[!UICONTROL HTMLを編集]または[!UICONTROL  テキストを変更]/[!DNL Change HTML]した太字と斜体のテキストスタイルがページに表示されません。 これらのスタイル変更を適用すると、テキストが消えることがあります。 （VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++詳細
-VECで&#x200B;**[!UICONTROL テキストを編集]/[!UICONTROL HTMLを編集]**&#x200B;して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティを行ったり、**[!UICONTROL テキストを変更]/[!UICONTROL HTMLを変更]**&#x200B;して[!UICONTROL Automated Personalization]または[!UICONTROL 多変量テスト &#x200B;] アクティビティを行ってテキストを太字または斜体にしたりすると、そのスタイルがページ VEC ページに適用表示されないされる場合場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法がweb サイトのマークアップを妨げる可能性があるためです。
+VECで&#x200B;**[!UICONTROL テキストを編集]/[!UICONTROL HTMLを編集]**&#x200B;して[!UICONTROL A/B テスト ]または[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティを行ったり、**[!UICONTROL テキストを変更]/[!UICONTROL HTMLを変更]**&#x200B;して[!UICONTROL Automated Personalization]または[!UICONTROL 多変量テスト ] アクティビティを行ってテキストを太字または斜体にしたりすると、そのスタイルがページ VEC ページに適用表示されないされる場合場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法がweb サイトのマークアップを妨げる可能性があるためです。
 
 この問題が発生した場合、次の手順に従ってください。
 

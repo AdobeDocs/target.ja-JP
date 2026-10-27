@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # Visual Experience Composer（VEC）
 
@@ -33,7 +33,7 @@ Target **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]** タ
 >
 >Firefox のような特定のブラウザーでは、ページに混合コンテンツ（セキュアサイト上の非セキュアなページなど）が含まれていると、VEC でページの表示ができない場合があります。 ページが表示されない場合は、ブラウザーのアドレスバーのURLの横にあるアイコンをクリックし、**[!UICONTROL このページの保護を無効にする]**&#x200B;をクリックします。 この問題は、サイト訪問者へのページ表示に影響しません。
 
-ページ上の iframe 内のコンテンツは、VEC では変更できません。 iframe 内のコンテンツを編集するには、iframe ドキュメントで Target が有効になっていることを確認して、VEC でその iframe URL を読み込みます。
+ページ上のiframe内のコンテンツは、VECで変更できません。 iframe 内のコンテンツを編集するには、iframe ドキュメントで Target が有効になっていることを確認して、VEC でその iframe URL を読み込みます。
 
 ページ上部にあるドロップダウンメニューを使用して、異なるオーディエンスに表示されるページ、または異なるエクスペリエンスで表示されるページを確認できます。 2 つ目のドロップダウンリストでは、各エクスペリエンスの名前を指定できます。 例えば、ナビゲーションバーのホームリンクの場所をテストする場合は、ホームリンクが最初に表示されるエクスペリエンスに「ホームリンク」のような名前を付けて、リスト内でエクスペリエンスを識別しやすくすることができます。
 
@@ -74,7 +74,7 @@ VEC 内でページの読み込み中またはページの読み込みに失敗�
 * アクセスできなくなったページから既存のカスタムコードをコピーする
 * VEC 内でページが読み込まれないことはわかっているが、それでも簡単な編集を行いたい
 
-ページが読み込まれる間（または読み込みに失敗した後）、[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネル、[!UICONTROL 変更] パネル、およびエクスペリエンスの上部にある設定（オーバーレイ、変更、設定など）はすべてアクセス可能です。
+ページが読み込まれる間（または読み込みに失敗した後）、[!UICONTROL  エクスペリエンス ] パネル、[!UICONTROL 変更] パネル、およびエクスペリエンスの上部にある設定（オーバーレイ、変更、設定など）はすべてアクセス可能です。
 
 次の図は、ページの読み込み中にカスタムコードを挿入したり、その他のアクションを実行したりできることを示しています。
 
@@ -112,14 +112,14 @@ VEC内のページの読み込みをキャンセルするには、ページの�
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer （1/2） （7:17） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### Visual Experience Composer （1/2） （7:17） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer （2/2） （7:29） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### Visual Experience Composer （2/2） （7:29） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
@@ -128,9 +128,9 @@ VEC内のページの読み込みをキャンセルするには、ページの�
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 勤務時間：Visual Experience Composer ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### 勤務時間：Visual Experience Composer ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオは、「[Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 

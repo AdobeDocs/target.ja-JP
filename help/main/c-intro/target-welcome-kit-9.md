@@ -1,6 +1,6 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: あなたは Adobe Target で初めてのアクティビティを作成しました。 次の手順 この記事では、その他のリソース、トレーニングチュートリアル、ハウツービデオへのリンクを参照できます。
+description: Adobe Targetで最初のアクティビティを作成しました。 次の手順 この記事では、その他のリソース、トレーニングチュートリアル、ハウツービデオへのリンクを参照できます。
 title: Target をより効果的に使用するための追加リソースはどこで見つけられますか？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
@@ -29,16 +29,16 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 77%
 ---
 # 第 9 章：次の手順とリソース
 
-最初のアクティビティの実行の基本について説明しました。 アクティビティにより、[!DNL Adobe Target] を使って最適化やパーソナライズをおこなうことで、ビジネスの収益に影響を与える素晴らしい可能性がおわかりいただけたことでしょう。 これはスタートに過ぎません。 2つ目のアクティビティで何を重視するか考えましょう？ 実行するアクティビティの優先順位付けされたリストを作成することを検討します。 アクティビティごとのアクティビティが、顧客体験をどのように向上させ、ビジネスの成功を促進するのかをすばやく確認できるため、驚かれることでしょう。
+最初のアクティビティの実行の基本について説明しました。 アクティビティにより、[!DNL Adobe Target] を使って最適化やパーソナライズをおこなうことで、ビジネスの収益に影響を与える素晴らしい可能性がおわかりいただけたことでしょう。 これはスタートに過ぎません。 2回目の活動で何を重視するかを考える時が来ました。 実行するアクティビティの優先順位付けされたリストを作成することを検討します。 アクティビティ別のアクティビティがどれだけ早く顧客体験を向上させ、ビジネスの成功を促進するか、驚くことでしょう。
 
-テストや、パーソナライゼーション、および [!DNL Target] の使い方を学ぶには、いろいろな方法があります。 以下のリソースのリストを確認し、その知識の構築を開始します。 ウェビナーを視聴、Adobe Target のブログを読み、Adobe Summit に出席、Adobe Target のオンラインコミュニティに積極的に参加しましょう。 この場を借りて、プログラムの立ち上げと成功をサポートできることを忘れないでください。 いつでもご連絡ください。
+テストや、パーソナライゼーション、および [!DNL Target] の使い方を学ぶには、いろいろな方法があります。 以下のリソースのリストを確認し、その知識の構築を開始します。 ウェビナーを視聴、Adobe Target のブログを読み、Adobe Summit に出席、Adobe Target のオンラインコミュニティに積極的に参加しましょう。 私たちは常にあなたのプログラムを立ち上げ、成功への道に置くお手伝いをするためにここにいることを忘れないでください。 いつでもご連絡ください。
 
 [!DNL Target]を使用して最適化とパーソナライゼーションに関する詳細な知識を得るのに役立つ貴重な情報のリストをまとめました。
 
@@ -54,7 +54,7 @@ ht-degree: 79%
 
 * **Adobe Target チュートリアル**：基本を学んだり、スキルを磨きます。 [Adobe Target チュートリアルのページ](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja)を参照してください。
 * **Adobe Target オンデマンドトレーニング**：ご利用いただける様々な Target コースをご覧ください。 [Adobe のトレーニングとチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)のページを参照してください。
-* **Adobe Target ビデオ：**&#x200B;[!DNL Target] のビデオを視聴して、 成功事例やソリューションの機能をご覧ください。 [Adobe Target Standard および Premium のトレーニングビデオ](/help/main/c-intro/target-standard-premium-training-videos.md)を参照してください
+* **Adobe Target ビデオ：**[!DNL Target] のビデオを視聴して、 成功事例やソリューションの機能をご覧ください。 [Adobe Target Standard および Premium のトレーニングビデオ](/help/main/c-intro/target-standard-premium-training-videos.md)を参照してください
 * **ウェビナーシリーズ**：Adobe Target の基本。 Adobe Target ユーザーに対する最適化の基本を検討する、カスタマーサクセスウェビナーシリーズにご参加ください。 [「Target の基本」ウェビナーシリーズ](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)を参照してください。
 * **Adobe のサポートの Offie Hour**：「Office Hours」は、Adobe のヘルプチームが率いるイニシアチブです。 これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。 [Adobe のサポートの営業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)を参照してください。
 * **Adobe Summit**：デジタルマーケター向けの、年間最大のプロフェッショナルなイベントに参加しましょう。
@@ -65,6 +65,6 @@ ht-degree: 79%
 
 * **Adobe Target ホームページ**：[!DNL Adobe Target] のホームページ。当社の能力について学び、最新の成功事例をこちらでご覧ください。 [Adobe Target](https://www.adobe.com/jp/marketing/target.html) を参照してください。
 * **ブログ**：[Target のブログ](https://blog.adobe.com/en/topics/target)に従って、最新のニュース、ヒント、成功事例を常に参照してください。
-* **Experience League**：エクスペリエンスのビジネスを開始し、Target コミュニティとつながり、探している答えを見つけるために必要なガイド、イベント、トレーニングを見つけます。 [Adobe Experience League のホームページ](https://experienceleague.adobe.com/ja?lang=ja#home)を参照してください。
+* **Experience League**：エクスペリエンスのビジネスを開始し、Target コミュニティとつながり、探している答えを見つけるために必要なガイド、イベント、トレーニングを見つけます。 [Adobe Experience League のホームページ](https://experienceleague.adobe.com/?lang=ja#home)を参照してください。
 * **Adobe Target 認定制度**：新しい Adobe Target 試験で Adobe Certified expert のステータスを獲得します。 ここで試験のスケジュールを設定、またはトレーニングコースを受けます。 [トレーニングと資格認定](/help/main/c-intro/training-and-certification.md)を参照してください。
 * **Adobe Target のリリースノート**：各 [!DNL Target Standard] および [!DNL Target Premium] リリースの機能、拡張機能および修正点に関する情報です。 また、該当する場合は、Target API、SDK、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。 [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md)を参照してください。

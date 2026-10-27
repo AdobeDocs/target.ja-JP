@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 28%
+source-wordcount: '1065'
+ht-degree: 27%
 ---
 # デザインの作成
 
@@ -34,11 +34,11 @@ ht-degree: 28%
 
 次の図は、デフォルトの1 x 4 デザインを示しています。
 
-![1 x 4 デフォルトデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![1 x 4 デフォルトデザイン ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 次の図は、カスタムデザインを示しています。
 
-![&#x200B; カスタムデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![ カスタムデザイン ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 アクティビティ作成プロセス中に、Visual Experience Composer （VEC）内またはアクティビティ作成以外のデザインライブラリからデザインを作成できます。 次のセクションでは、ライブラリからデザインを作成することを前提としていますが、手順は似ています。
 
@@ -50,13 +50,13 @@ ht-degree: 28%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
-   ![&#x200B; デザインライブラリ &#x200B;](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
+   ![ デザインライブラリ ](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. 作成するデザインのカードにマウスを合わせ、**[!UICONTROL コピー]** アイコンをクリックします。
 
    ![Card_CopyDesign image](assets/Card_CopyDesign.png)
 
-   「[!UICONTROL &#x200B; デザインを作成]」ダイアログボックスが表示されます。
+   「[!UICONTROL  デザインを作成]」ダイアログボックスが表示されます。
 
    ![createDesign画像](assets/createDesign.png)
 
@@ -68,7 +68,7 @@ ht-degree: 28%
 
    レコメンデーションデザインは、オープンソースの[!DNL Velocity] デザイン言語を使用します。 [!DNL Velocity]に関する情報は、[https://velocity.apache.org](https://velocity.apache.org)および[で見つけることができます。 [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)を使用してデザインをカスタマイズします。
 
-   デザインは HTML または HTML 以外にすることができます。 デフォルトでは、HTML デザインは`<div>` タグでラップされ、Web環境でのクリックトラッキングが可能になります。 HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。 HTML以外のコードを使用するには、[!UICONTROL HTML デザイン &#x200B;]のトグルを「オフ」にスライドさせます。
+   デザインは HTML または HTML 以外にすることができます。 デフォルトでは、HTML デザインは`<div>` タグでラップされ、Web環境でのクリックトラッキングが可能になります。 HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。 HTML以外のコードを使用するには、[!UICONTROL HTML デザイン ]のトグルを「オフ」にスライドさせます。
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ ht-degree: 28%
 
 1. 「**[!UICONTROL デザインを作成]**」をクリックします。
 
-   新しいカスタムデザインを既存のデザインに基にする場合は、目的のデザインにマウスを合わせ、[!UICONTROL &#x200B; コピー] アイコンをクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
+   新しいカスタムデザインを既存のデザインに基にする場合は、目的のデザインにマウスを合わせ、[!UICONTROL  コピー] アイコンをクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
 
 1. **[!UICONTROL コンテンツ名]**&#x200B;とオプションのプレビュー画像を追加します。
 
@@ -98,7 +98,7 @@ ht-degree: 28%
 
 [!UICONTROL Design] ライブラリで目的のデザインにカーソルを合わせ、適切なアイコン（「編集」、「コピー」、「削除」など）をクリックします。
 
-デザインの![&#x200B; アイコンにカーソルを合わせる](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+デザインの![ アイコンにカーソルを合わせる](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
 既存のデザインをコピーして複製したデザインを作成し、変更することができます。 このプロセスにより、より少ない労力で同様のデザインを作成できます。
 
@@ -173,7 +173,7 @@ ht-degree: 28%
    | `[YOUR_CLIENT_CODE]` | Target クライアントコード（/help/target/products.html#recsSettings/Recommendations API トークン/クライアントコードで利用可能）。 |
    | `[YOUR_MBOX_NAME]` | フォームベースのレコメンデーションの「場所」セクション（この場合はSample_Recs_Response）で選択した名前。 |
    | `[ENTITY_ID` | カタログ内の項目の `entity.id` です。 |
-   | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定時にプロパティ（Enterprise 権限の一部）を選択した場合は追加します。 |
+   | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定中にプロパティ（エンタープライズ権限の一部）を選択した場合に追加します。 |
 
 アルゴリズムを実行して結果が得られたら、応答は次のようになります。
 
@@ -327,11 +327,11 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## トレーニングビデオ：レコメンデーションでカスタムデザインを作成（3:20） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：レコメンデーションでカスタムデザインを作成（3:20） ![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
 * カスタムデザインの作成
 * デザインで表示変数を参照する方法について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/35340?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

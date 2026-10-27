@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '878'
 ht-degree: 22%
 ---
 # [!UICONTROL Automated Personalization]のオファーレポートグループ
@@ -47,9 +47,9 @@ ht-degree: 22%
 
 ## レポートグループの設定
 
-1. AP アクティビティの&#x200B;**[!UICONTROL エクスペリエンス]** ページで、**[!UICONTROL コンテンツの管理]** アイコン （![&#x200B; コンテンツの管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックします
+1. AP アクティビティの&#x200B;**[!UICONTROL エクスペリエンス]** ページで、**[!UICONTROL コンテンツの管理]** アイコン （![ コンテンツの管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします
 1. **[!UICONTROL Manage Content]** ダイアログボックス上部の「[!UICONTROL Offers]」タブをクリックします。
-1. （条件付き）目的のオファーの[!UICONTROL 詳細アクション &#x200B;] アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL レポートグループ]**&#x200B;をクリックして、レポートグループに特定のエクスペリエンスを追加します。
+1. （条件付き）目的のオファーの[!UICONTROL 詳細アクション ] アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL レポートグループ]**&#x200B;をクリックして、レポートグループに特定のエクスペリエンスを追加します。
 
 1. （条件付き）関連するエクスペリエンスのチェックボックスを選択し、ダイアログボックスの下部にある&#x200B;**[!UICONTROL レポートグループ]**&#x200B;をクリックして、レポートグループにエクスペリエンスを一括含めます。
 
@@ -71,18 +71,18 @@ ht-degree: 22%
 
   例えば、アクティビティに複数の場所と複数のオファーがあり、重複している場合があります。 訪問者が異なる場所でこれらのオファーを複数見た場合、[!DNL Target]はこれらのオファーのデータのみを記録します。 後で同じ訪問者がオファーをクリックした場合、[!DNL Target]はその組み合わせからのイベントのみを記録します（すべての組み合わせについては記録しません）。
 
-  同様に、クリックが別の場所から来て、指標に存在するがオファーが表示されない場合、このイベントはアクティビティの下に記録されますが、オファーと場所の組み合わせについては記録されません。 その結果、このオファーはオファーレポートグループに表示されません。
+  同様に、クリックが指標に存在するがオファーを表示しない別の場所から発生した場合、このイベントはアクティビティの下に記録されますが、オファーと場所の組み合わせについては記録されません。 その結果、このオファーはオファーレポートグループに表示されません。
 
   この動作は、オファーを提供したmboxではなく、別のmboxからクリックされる可能性があるためです。 このため、指標はアクティビティに関連付けられますが、オファーには関連付けられません。
 
 ## レポートグループでのオファーの表示
 
-1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的の[!UICONTROL Automated Personalization] アクティビティをクリックし、「**[!UICONTROL レポート]**」タブをクリックして[&#x200B; オファーレベル &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md) レポートを表示します。
+1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的の[!UICONTROL Automated Personalization] アクティビティをクリックし、「**[!UICONTROL レポート]**」タブをクリックして[ オファーレベル ](/help/main/c-reports/personalization-reports/reports-ap.md) レポートを表示します。
 
-   アクティビティが多い場合は、「[!UICONTROL &#x200B; フィルターを表示] （funnel）」アイコンをクリックし、「[!UICONTROL Automated Personalization]」チェックボックスを選択して、リストをフィルタリングして[!UICONTROL Automated Personalization] アクティビティのみを表示します。
+   アクティビティが多い場合は、「[!UICONTROL  フィルターを表示] （funnel）」アイコンをクリックし、「[!UICONTROL Automated Personalization]」チェックボックスを選択して、リストをフィルタリングして[!UICONTROL Automated Personalization] アクティビティのみを表示します。
 
 1. テーブルの&#x200B;**[!UICONTROL コントロール]**&#x200B;または&#x200B;**[!UICONTROL ターゲット設定]**&#x200B;をクリックすると、レポートグループ内のグループ化されていないオファーとオファーが表示されます。
 
-   ![&#x200B; オファーグループ：コントロールとターゲット設定](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+   ![ オファーグループ：コントロールとターゲット設定](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
-[!UICONTROL Automated Personalization] レポート（[!UICONTROL &#x200B; オファーレベル &#x200B;] レポートを含む）の使用方法について詳しくは、[Automated Personalization概要レポート &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md)を参照してください。
+[!UICONTROL Automated Personalization] レポート（[!UICONTROL  オファーレベル ] レポートを含む）の使用方法について詳しくは、[Automated Personalization概要レポート ](/help/main/c-reports/personalization-reports/reports-ap.md)を参照してください。

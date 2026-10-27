@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 92%
+source-wordcount: '1384'
+ht-degree: 89%
 ---
 # レスポンシブエクスペリエンスのためのモバイルビューポート
 
@@ -91,7 +91,7 @@ ht-degree: 92%
 | Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
 | Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
 
-特定のデバイスを使用するユーザーにアクティビティを配信するには、アクティビティ図でそのデバイスに最適なオーディエンスを選択します。 Mobile Web Composer を使用して、そのデバイスのアクティビティのページを編集します。 すべてのデバイスで適切に表示されるように、デジタルエクスペリエンス全体でアクティビティを実行する場合は、ターゲティングを適用しないでください。 代わりに、モバイルビューポートを使用して、各画面サイズでアクティビティをプレビューします。
+特定のデバイスを使用するユーザーにアクティビティを配信するには、アクティビティ図でそのデバイスに最適なオーディエンスを選択します。 Mobile Web Composer を使用して、そのデバイスのアクティビティのページを編集します。 デジタルエクスペリエンス全体でアクティビティを実行して、すべてのデバイスで適切に表示されるようにするには、ターゲティングを適用しないでください。 代わりに、モバイルビューポートを使用して、各画面サイズでアクティビティをプレビューします。
 
 レスポンシブサイトは通常、サイトは、特定の画面サイズのデバイスでアクセスすると、異なるビューで開くようにデザインされています。 新しいビューをトリガーするこれらの画面サイズは、CSS ブレークポイントとも呼ばれます。 CSS ブレークポイントとは、デバイスの幅に応じて web サイトのコンテンツを訪問者に対して最適なレイアウトで表示するためのポイントを指します。 CSS ブレークポイントは、[メディアクエリ](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)とも呼ばれます。
 
@@ -173,7 +173,7 @@ ht-degree: 92%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer （2/2） （7:29） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+### Visual Experience Composer （2/2） （7:29） ![概要バッジ ](/help/main/assets/overview.png)
 
 以下のデモビデオには、Visual Experience Composer を使用したモバイルビューポートとの連携に関する情報が含まれています。
 
@@ -184,7 +184,7 @@ ht-degree: 92%
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target のアカウント環境設定![概要バッジ](/help/main/assets/overview.png)
 

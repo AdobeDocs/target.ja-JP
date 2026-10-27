@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 30%
+source-wordcount: '666'
+ht-degree: 26%
 ---
 # Analytics をレポートソースとして使用するアクティビティの作成
 
@@ -39,11 +39,11 @@ ht-degree: 30%
    >
    >[!DNL Analytics]がレポートソースとして使用されている場合、アクティビティ名に「%」文字を含めることはできません。
    >
-   >A4T レポートを使用している別々の[&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)の2つのアクティビティに対して、同じアクティビティ名を使用しないでください。
+   >A4T レポートを使用している別々の[ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)の2つのアクティビティに対して、同じアクティビティ名を使用しないでください。
 
 1. アクティビティのタイプを選択して、アクティビティの設定を開始します。
 
-   [!UICONTROL 自動配分]または[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成する場合は、[自動配分と自動ターゲット アクティビティのA4T サポート &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
+   [!UICONTROL 自動配分]または[!UICONTROL 自動ターゲット ] アクティビティを作成する場合は、[自動配分と自動ターゲット アクティビティのA4T サポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
 
 1. アクティビティ作成フローの&#x200B;**[!UICONTROL Settings]**&#x200B;部分にアクセスしたら、**[!UICONTROL Adobe Analytics]**&#x200B;を選択し、会社を指定します。
 1. レポートスイートを選択します。
@@ -56,11 +56,11 @@ ht-degree: 30%
 
      お客様の[!DNL Analytics]社をご確認ください。 お客様の[!DNL Adobe Experience Cloud] アカウントが複数の[!DNL Analytics]企業に関連付けられている場合は、[!DNL Target]からログアウトし、適切な企業下の[!DNL Analytics]にログインしてください。 次に[!DNL Target]に戻り、レポートスイートが読み込まれます。
 
-   * 対象のレポートスイートが表示されません。
+   * 期待したレポートスイートが表示されません。
 
      [!DNL Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 期待するレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。
 
-   リストに1つ以上のレポートスイートが見つからない場合は、[&#x200B; カスタマーケアにお問い合わせください](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+   リストに1つ以上のレポートスイートが見つからない場合は、[ カスタマーケアにお問い合わせください](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
 1. トラッキングサーバーを指定します。
 
@@ -75,7 +75,7 @@ ht-degree: 30%
    >
    >[!DNL Analytics] データのみに依存するのではなく、[!DNL Analytics]にカスタム Target ベースの指標を送信できます。 例えば、通常は[!DNL Analytics]によって追跡されないページのクリックを監視できます。 このカスタム指標は、[!DNL Target] サーバーから自動的に[!DNL Analytics]に送信され、[!DNL Analytics]の指標セレクターに「[!DNL Target] コンバージョン」指標として表示されます。 [!DNL Analytics]指標を使用することを選択した場合、[!DNL Target] コンバージョン指標は空です。
 
-   目標を設定した場合でも、テスト結果を評価する際に他の指標を使用することは可能です。 ただし、この目標は、アクティビティにおいて向上させたいものを明確にする役割を果たします。
+   目標を設定しても、テスト結果を評価する際に別の指標を使用できないわけではありません。 ただし、この目標は、アクティビティにおいて向上させたいものを明確にする役割を果たします。
 
    訪問者は、目標を達成した後もアクティビティ内にとどまります。 訪問者には引き続きアクティビティコンテンツが表示されますが、新たなアクティビティエントリとしてはカウントされません。
 

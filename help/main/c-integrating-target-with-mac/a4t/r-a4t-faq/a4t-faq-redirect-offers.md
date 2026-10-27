@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 50%
+source-wordcount: '1475'
+ht-degree: 46%
 ---
 # リダイレクトオファー - A4T FAQ
 
@@ -43,7 +43,7 @@ ht-degree: 50%
 
 +++
 
-## ![Adobe Experience Platform Web SDK バッジ &#x200B;](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]は、A4Tのリダイレクト オファーをサポートしていますか？ {#platform}
+## ![Adobe Experience Platform Web SDK バッジ ](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]は、A4Tのリダイレクト オファーをサポートしていますか？ {#platform}
 
 +++回答
 次のFAQでは、[!DNL Platform Web SDK]でのA4Tおよびリダイレクトオファーの使用に関する詳細情報を提供しています。
@@ -53,14 +53,14 @@ ht-degree: 50%
 ### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
 
 +++回答
-はい、Platform Web SDK経由のA4Tは[&#x200B; リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)をサポートしています。
+はい、Platform Web SDK経由のA4Tは[ リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md)をサポートしています。
 
 +++
 
-### [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL &#x200B; フォームベースのExperience Composer]はサポートされていますか？
+### [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL  フォームベースのExperience Composer]はサポートされていますか？
 
 +++回答
-はい。組み込みのリダイレクトオファーを使用する場合は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[[!UICONTROL &#x200B; フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)がサポートされます。
+はい。組み込みのリダイレクトオファーを使用する場合は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[[!UICONTROL  フォームベースのExperience Composer]](/help/main/c-experiences/form-experience-composer.md)がサポートされます。
 
 +++
 
@@ -145,14 +145,14 @@ IT チームと協力して、これらのパラメーター（`adobe_mc_sdid`�
 
 +++
 
-## A4T でリダイレクトアクティビティを使用しておらず、URL に追加されるこれらの追加のパラメーターが必要ない場合、どうすればよいですか？ {#section_9E608D75FF9349FE96C65FEDD7539F45}
+## リダイレクトアクティビティでA4Tを使用しておらず、これらの追加パラメーターをURLに追加したくない場合はどうなりますか？ {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 +++回答
 次の場合は、カスタムコード化されたリダイレクトを使用します。
 
 * リダイレクトアクティビティでA4Tを使用していません
 * 訪問者ID サービスが実装されています
-* これらのパラメーターがURLに自動的に追加されないようにするには
+* これらのパラメーターをURLに自動的に追加しないようにします
 
 しかし、ベストプラクティスとして、リファラー情報を `adobe_mc_ref` に正しくレポートするために、URL の [!DNL Analytics] パラメーターを保持することもできます。
 
@@ -163,7 +163,7 @@ IT チームと協力して、これらのパラメーター（`adobe_mc_sdid`�
 +++回答
 A4T とリダイレクトオファーを使用する場合、Target によって `adobe_mc_ref` パラメーターと `adobe_mc_sdid` パラメーターが URL に追加されます。 これらの値は既に URL エンコードされています。 ほとんどの場合は、すべてが期待どおりに動作します。しかし、お客様によっては、クエリ文字列パラメーターを再度エンコードしようとするロードバランサーまたは Web サーバーが配置されている場合があります。
 
-訪問者 API は、`adobe_mc_sdid` 値をデコードしようとしたときにこの二重エンコードが原因で SDID 値を抽出できないので、新しい SDID を生成します。 このプロセスにより、TargetおよびAnalyticsに誤ったSDID値が送信され、Analytics レポートでリダイレクトの分割が不均等になります。
+Visitor APIが`adobe_mc_sdid`値をデコードしようとすると、このダブルエンコーディングが発生するため、SDID値を抽出できず、新しいSDIDを生成できません。 このプロセスにより、TargetおよびAnalyticsに誤ったSDID値が送信され、Analytics レポートでリダイレクトの分割が不均等になります。
 
 Adobeでは、`adobe_mc_ref`と`adobe_mc_sdid`を許可リストに加えるして、これらの値が何らかの形で変換されないようにするために、IT チームと話し合うことをお勧めします。
 
@@ -183,7 +183,7 @@ Adobeでは、`adobe_mc_ref`と`adobe_mc_sdid`を許可リストに加えるし�
 ## カスタム／HTML リダイレクトオファーを使用することはできますか？ {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++回答
-いいえ。[!DNL Analytics] をレポートソースとして使用するアクティビティでは（A4T）、ビルトインのリダイレクトオファーを使用する必要があります。 [!DNL Target] からは、HTML オファーは不明瞭です。[!DNL Target] は、リダイレクトをインスタンス化する JavaScript を含む HTML の特定部分を認識することができません。
+いいえ。[!DNL Analytics] をレポートソースとして使用するアクティビティでは（A4T）、ビルトインのリダイレクトオファーを使用する必要があります。 [!DNL Target]の観点から、HTML オファーは不透明です。[!DNL Target]は、HTMLの特定の部分にリダイレクトをインスタンス化するJavaScriptが含まれていることを知ることはできません。
 
 +++
 

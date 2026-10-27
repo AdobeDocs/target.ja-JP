@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 23%
+source-wordcount: '834'
+ht-degree: 19%
 ---
 # 条件のシーケンスの作成
 
@@ -33,7 +33,7 @@ ht-degree: 23%
 
 条件のシーケンスを作成するには、まずシーケンスに含める条件を作成する必要があります。 詳しくは、[条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
 
-1 つの条件ではデザインを埋めるのに十分な結果が返されない場合、汎用的なバックアップレコメンデーションを使用する代わりに、条件のシーケンスを使用することで、ターゲットのレコメンデーションを追加で提供できます。 通常、基準シーケンスは、より具体的なターゲティング（結果が少ない場合がある）から、より一般的なターゲティング（通常はより多くの結果が返される）に移行します。
+基準シーケンスを使用すると、基準がデザインを満たすのに十分な結果を返さない場合に、より汎用的なバックアップの推奨事項を使用する代わりに、追加のターゲットを絞った推奨事項を提供できます。 通常、基準シーケンスは、より具体的なターゲティング（結果が少ない場合がある）から、より一般的なターゲティング（通常はより多くの結果が返される）に移行します。
 
 次の例に示すように、条件シーケンスはページの種類によって異なる場合があります。
 
@@ -76,13 +76,13 @@ ht-degree: 23%
 
      レコメンデーショントレイは、サイト上では次のようになります。
 
-     ![おすすめ商品レコメンデーショントレイ &#x200B;](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
+     ![おすすめ商品レコメンデーショントレイ ](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
 
    * **ユースケース 2**：代替アイテムと補完的アイテムの両方を組み合わせたい。 1つの条件を設定して、表示/表示アルゴリズムを使用し、推奨される項目を現在の項目のカテゴリに制限する動的フィルターを使用します。 2つ目の条件を設定して、閲覧済み/購入済みアルゴリズムを使用し、現在のアイテムのカテゴリに一致しない推奨アイテムのみを含むダイナミックフィルターを使用します。 最後に、両方の条件をシーケンスに追加し、最初の条件を2つのスロットに制限します。
 
 1. 引き続き、シーケンスに条件を追加します。 1 つのシーケンスに最大 5 つの条件を追加できます。
 
-1. [&#x200B; コンテンツのバックアップ オプション &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を有効にします。
+1. [ コンテンツのバックアップ オプション ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)を有効にします。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 

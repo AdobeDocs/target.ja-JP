@@ -18,35 +18,35 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 3%
 ---
 # プロファイル属性のマッチング
 
 ユーザーのプロファイル内の値に対して項目（エンティティ）を比較することにより、[!DNL Adobe Target Recommendations]で動的にフィルタリングします。
 
-サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致する推奨事項を表示する場合は、[!UICONTROL &#x200B; プロファイル属性の一致]を使用します。
+サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致する推奨事項を表示する場合は、[!UICONTROL  プロファイル属性の一致]を使用します。
 
 >[!NOTE]
 >
->条件とプロモーションに含めるルール [&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成して使用する プロセスは、ユースケースと例と同様に類似しています。
+>条件とプロモーションに含めるルール ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成して使用する[ プロセスは、ユースケースと例と同様に類似しています。
 
-次のシナリオは、[!UICONTROL &#x200B; プロファイル属性の一致]の使用方法を示しています。
+次のシナリオは、[!UICONTROL  プロファイル属性の一致]の使用方法を示しています。
 
 * 眼鏡を販売する会社が、訪問者が好むフレームの色を「クルミ」として保存します。 特定の訪問者に対しては、色が「クルミ」に一致する眼鏡フレームのみを返すようにレコメンデーションが設定されています。
 * プロファイルパラメーターは、企業のweb サイトを移動する際の訪問者の服のサイズ（小、Medium、大など）に対して定義できます。 レコメンデーションは、プロファイルパラメーターに一致するように設定でき、ユーザーが好む服のサイズに限定した商品を返します。
 
 ## プロファイル属性の一致の例 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL &#x200B; プロファイル属性の一致]を使用すると、以下の例のように、訪問者のプロファイルの属性に一致する項目のみをレコメンドできます。
+[!UICONTROL  プロファイル属性の一致]を使用すると、以下の例のように、訪問者のプロファイルの属性に一致する項目のみをレコメンドできます。
 
 ### 利用者が好むブランドの商品を勧める
 
-例えば、[!UICONTROL &#x200B; プロファイル属性一致] オプションを使用して、ブランドが`profile.favoritebrand`に保存されている値またはテキストと等しい場合にのみアイテムをレコメンドするルールを作成できます。 このようなルールでは、訪問者が特定のブランドのショーツを使用している場合、そのユーザーのお気に入りのブランド（訪問者のプロファイルに`profile.favoritebrand`に保存されている値）に一致するレコメンデーションのみが表示されます。
+例えば、[!UICONTROL  プロファイル属性一致] オプションを使用して、ブランドが`profile.favoritebrand`に保存されている値またはテキストと等しい場合にのみアイテムをレコメンドするルールを作成できます。 このようなルールでは、訪問者が特定のブランドのショーツを使用している場合、そのユーザーのお気に入りのブランド（訪問者のプロファイルに`profile.favoritebrand`に保存されている値）に一致するレコメンデーションのみが表示されます。
 
-![お気に入りのブランド &#x200B;](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
+![お気に入りのブランド ](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
 ```
 Profile Attribute Matching
@@ -55,11 +55,11 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### 求職者と求人のマッチング
 
-例えば、求職者に求人を割り当てようとしているとします。 求職者と同じ都市にある求人のみを推薦する必要があります。
+例えば、求職者に求人を一致させようとしているとします。 求職者と同じ都市にある求人のみを推薦する必要があります。
 
 インクルージョンルールを使用すると、次の例のように、訪問者のプロファイルからジョブリストへの求職者の場所を一致させることができます。
 
-![&#x200B; ユーザーの市区町村](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
+![ ユーザーの市区町村](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
 ```
 Profile Attribute Matching
@@ -78,8 +78,8 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 web サイトでより多くの小規模なファンを表示することに基づくレコメンデーション：
 
-![&#x200B; スモールファンのレコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
+![ スモールファンのレコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
 web サイトでより多くのファンを表示することにもとづくレコメンデーション：
 
-![大規模なファンのレコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)
+![大規模なファンのレコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

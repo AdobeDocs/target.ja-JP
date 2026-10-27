@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 29%
+source-wordcount: '764'
+ht-degree: 27%
 ---
 # カスタム条件のアップロード
 
@@ -49,9 +49,9 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
    >
    >上記の手順により、[!UICONTROL 条件を作成] ダイアログボックスの下部に「[!UICONTROL CSV]をアップロード」セクションが表示されます。
 
-1. （条件付き）「[&#x200B; コンテンツをバックアップ &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
+1. （条件付き）「[ コンテンツをバックアップ ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
 
-1. （条件付き）「[包含ルール &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
+1. （条件付き）「[包含ルール ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
 
 1. 「**[!UICONTROL CSVをアップロード]**」セクションで、CSV ファイルの&#x200B;**[!UICONTROL 場所]**&#x200B;を選択します。
 
@@ -61,7 +61,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 
    * **FTP:** FTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL FTP]**&#x200B;を選択し、必要な情報を入力します。 FTPS プロトコルを使用してCSV ファイルを安全に転送するSSLを使用できます。
 
-   * **SFTP:** SFTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL SFTP]**&#x200B;を選択し、ホスト名またはIP アドレス、ポート（デフォルト 22）、ユーザー名、パスワードおよび/またはSSH秘密鍵、ディレクトリ、ファイル名を入力します。 詳しくは、[&#x200B; サポートされているSFTP サーバー設定](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)を参照してください。
+   * **SFTP:** SFTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL SFTP]**&#x200B;を選択し、ホスト名またはIP アドレス、ポート（デフォルト 22）、ユーザー名、パスワードおよび/またはSSH秘密鍵、ディレクトリ、ファイル名を入力します。 詳しくは、[ サポートされているSFTP サーバー設定](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)を参照してください。
 
      SFTPでは、カスタム条件のCSV形式は変更されません。 `# Key,Recommendation_1,...`形式を使用します。異なるフィードの種類の形式を使用すると、読み込みが失敗します。
 
@@ -73,15 +73,15 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 
 * カスタム条件エンティティ（行）は、最大 1,000 のレコメンデーション品目（列）を含むことができます。
 
-* カスタム条件の更新は、デフォルトでは「累積的」です。 既存のキーと値のペアが、CSV アップロードファイルで指定した新しいキーと値のペアで上書きされます。 CSV アップロードで指定されたキーを持たない既存のキーと値のペアは、引き続き配信でき、CSV ファイルの一部として最後にアップロードされてから31日以内に期限切れになります。
+* カスタム条件の更新は、デフォルトでは「累積的」です。 既存のキーと値のペアが、CSV アップロードファイルで指定した新しいキーと値のペアで上書きされます。 CSV アップロードで指定されたキーを持たない既存のキーと値のペアは、引き続き配信に使用でき、CSV ファイルの一部として最後にアップロードされてから31日以内に期限切れになります。
 
-  クライアントケアに連絡して、次回の CSV アップロードに含まれていない既存の結果を破棄できるようにします。 この設定が有効になっている場合、カスタム CSV フィード ファイルに存在するキーのみが配信できます。 この設定は、すべてのカスタム条件に適用されます。
+  次のCSV アップロードに含まれていない既存の結果を破棄する設定を有効にするには、クライアントケアにお問い合わせください。 この設定が有効になっている場合、カスタム CSV フィード ファイルに存在するキーのみが配信できます。 この設定は、すべてのカスタム条件に適用されます。
 
 * カスタム条件フィードは 24 時間ごとに更新されます。
 
   カスタム条件のアップロードと同期のステータスは、[!UICONTROL Recommendations] > [!UICONTROL Criteria] ページで各条件について確認できます。 カスタム条件を編集する際に、[!UICONTROL 編集] ダイアログボックスにステータスを表示することもできます。
 
-* エラーのないアップロードのフローは、[!UICONTROL &#x200B; スケジュール済み] > [!UICONTROL &#x200B; フィードファイルのダウンロード &#x200B;] > [!UICONTROL &#x200B; インポート &#x200B;] > [!UICONTROL 成功]である必要があります。
+* エラーのないアップロードのフローは、[!UICONTROL  スケジュール済み] > [!UICONTROL  フィードファイルのダウンロード ] > [!UICONTROL  インポート ] > [!UICONTROL 成功]である必要があります。
 
 * [!DNL Target]がアップロードに問題が発生した場合に表示される可能性のあるエラーメッセージは次のとおりです。
 

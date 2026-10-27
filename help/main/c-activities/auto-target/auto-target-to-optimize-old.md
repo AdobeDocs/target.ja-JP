@@ -1,6 +1,6 @@
 ---
 keywords: 自動ターゲット;ターゲティング;トラフィック配分;よくある質問;faq;トラブルシューティング
-description: '[!DNL Target]の[!UICONTROL 自動ターゲット &#x200B;] アクティビティが、顧客プロファイルと類似する訪問者の行動に基づいて、各訪問者に最もカスタマイズされたエクスペリエンスを提供する方法を説明します。'
+description: '[!DNL Target]の[!UICONTROL 自動ターゲット ] アクティビティが、顧客プロファイルと類似する訪問者の行動に基づいて、各訪問者に最もカスタマイズされたエクスペリエンスを提供する方法を説明します。'
 title: '[!UICONTROL 自動ターゲット]アクティビティとは'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Auto-Target
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 96%
+source-wordcount: '2104'
+ht-degree: 92%
 ---
 # [!UICONTROL 自動ターゲット]の概要
 
@@ -80,8 +80,8 @@ A/B アクティビティフロー内で「[!UICONTROL 自動ターゲット]」
 | 用語 | 詳細 |
 |--- |--- |
 | [ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 自動ターゲット]と [!UICONTROL Automated Personalization] の両方で使用される [!DNL Target] の主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、構成要素となるどの学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを発揮します。 [!UICONTROL Automated Personalization] アクティビティと[!UICONTROL 自動ターゲット]アクティビティのランダムフォレストアルゴリズムは、トレーニング時に多数の決定ツリーを作成することで機能する分類または回帰手法です。 |
-| [&#x200B; [!DNL Target] のパーソナライゼーションアルゴリズムのデータのアップロード](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 自動ターゲット]と [!UICONTROL Automated Personalization] モデルのデータを入力する方法は複数あります。 |
-| [&#x200B; [!DNL Target] のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target] のパーソナライゼーションアルゴリズムは様々なデータを自動収集します。 |
+| [ [!DNL Target] のパーソナライゼーションアルゴリズムのデータのアップロード](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 自動ターゲット]と [!UICONTROL Automated Personalization] モデルのデータを入力する方法は複数あります。 |
+| [ [!DNL Target] のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target] のパーソナライゼーションアルゴリズムは様々なデータを自動収集します。 |
 
 ## トラフィック配分の決定 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -101,7 +101,7 @@ A/B アクティビティフロー内で「[!UICONTROL 自動ターゲット]」
 | **パーソナライゼーショントラフィックを最大化 (90/10)**：「常時稼動」のアクティビティを作成することが目標の場合は、10％の訪問者をコントロールに配分して、アルゴリズムによる学習の長期的な継続に十分なデータを確保します。 この場合は、トラフィックの大部分をパーソナライズ対象にする代わりに、推定上昇率の精度が落ちるというデメリットがあります。 これは、目標にかかわらず、特定のエクスペリエンスをコントロールとして使用する場合のお勧めのトラフィック分割です。 | 最適な配分はコントロールエクスペリエンスに 10％から 30％、パーソナライズされたエクスペリエンスに 70％から 90％ | <ul><li>パーソナライズされたエクスペリエンスを提供する訪問者数を最大化できます。</li><li>上昇率を最大化できます。</li><li>アクティビティの上昇率の精度が落ちます。</li></ul> |
 | **カスタム配分** | 配分の割合を手動で調節します。 | <ul><li>想定どおりの結果が得られない場合もあります。 目安がわからない場合は、上述のいずれかのオプションを使用することをお勧めします。</li></ul> |
 
-[!UICONTROL &#x200B; コントロール &#x200B;]の割合を調整するには、[!UICONTROL 配分]列のアイコンをクリックします。 コントロールグループの割合を 10％未満にすることはできません。
+[!UICONTROL  コントロール ]の割合を調整するには、[!UICONTROL 配分]列のアイコンをクリックします。 コントロールグループの割合を 10％未満にすることはできません。
 
 ![自動ターゲットのトラフィックの配分を変更](/help/main/c-activities/assets/auto-target-control.png)
 
@@ -121,13 +121,13 @@ A/B アクティビティフロー内で「[!UICONTROL 自動ターゲット]」
 
 * アルゴリズムが訪問者のコンバージョン傾向（またはコンバージョンによる推定売上高）を予測して、最適なエクスペリエンスを提供します。
 * 訪問者は、既存のセッションの終了時に新しいエクスペリエンスの対象になります（訪問者がコントロールグループに属している場合を除きます。その場合は、最初の訪問で訪問者に割り当てられたエクスペリエンスが、その後の訪問でもそのまま提供されます）。
-* セッション内では、ビジュアルの一貫性を保つために、予測は変わりません。
+* セッション内では、視覚的な一貫性を維持するために、予測は変更されません。
 
 ### 訪問者の行動の変化にアルゴリズムが対応します。
 
 * マルチアームバンディットでは、モデルは常にトラフィックのごく一部を「消費」して、アクティビティ学習の全期間を通じて学習を継続し、それまでに学習したトレンドの乱用を防止します。
 * 基盤となるモデルは、最新の訪問者行動データを使用して 24 時間ごとに再構築され、変化する訪問者の好みを [!DNL Target] が常に利用できるようになっています。
-* 個人の勝者エクスペリエンスをアルゴリズムで特定できなかった場合は、パフォーマンスが全体として最も高いエクスペリエンスを表示する方式に自動的に切り替わりますが、パーソナライズされた勝者の特定は続行されます。 最もパフォーマンスが高いエクスペリエンスは、[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling)によって割り出されます。
+* アルゴリズムが個人の勝者エクスペリエンスを判断できない場合は、パーソナライズされた勝者を探し続けながら、全体的に最もパフォーマンスの高いエクスペリエンスを自動的に表示します。 最もパフォーマンスが高いエクスペリエンスは、[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling)によって割り出されます。
 
 ### 単一の目標指標に合わせて、アルゴリズムが絶えず最適化されます。
 
@@ -139,7 +139,7 @@ A/B アクティビティフロー内で「[!UICONTROL 自動ターゲット]」
 
 ### [!DNL Target] では、[!DNL Adobe Experience Cloud] のすべての共有オーディエンスを自動的に使用して、パーソナライゼーションモデルを構築します。
 
-* オーディエンスをモデルに追加するために、特別な作業を行う必要はありません。 [!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)」を参照してください。
+* モデルにオーディエンスを追加するために特別なことをする必要はありません。 [!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)」を参照してください。
 
 ### マーケターは、オフラインデータや傾向スコアなどのカスタムデータをアップロードして、パーソナライゼーションモデルを構築することができます。
 
@@ -151,7 +151,7 @@ A/B アクティビティフロー内で「[!UICONTROL 自動ターゲット]」
 
 モデルの作成に必要な&#x200B;*エクスペリエンスごと*&#x200B;のトラフィック量は、[!UICONTROL 自動ターゲット]と [!UICONTROL Automated Personalization] で違いはありませんが、エクスペリエンスの数は、通常は[!UICONTROL 自動ターゲット]アクティビティよりも [!UICONTROL Automated Personalization] アクティビティの方が多くなります。
 
-例えば、2 つの場所でそれぞれ 2 つのオファーを作成した [!UICONTROL Automated Personalization] アクティビティがあるとすると、このアクティビティには合計 4 つ（2 x 2 = 4）のエクスペリエンスが含まれます（除外なし）。 [!UICONTROL 自動ターゲット]を使用すると、エクスペリエンス 1 に場所 1 のオファー 1 と場所 2 のオファー 2 を含め、エクスペリエンス 2 に場所 1 のオファー 1 と場所 2 のオファー 2 を含めることができます。 [!UICONTROL 自動ターゲット]では、1 つのエクスペリエンスに複数の変更を適用することができるので、アクティビティ内のエクスペリエンスの数を減らすことができます。
+例えば、[!UICONTROL 自動Personalization] アクティビティで、2つの場所を持つ2つのオファーを作成した場合、アクティビティに含まれる合計エクスペリエンスは4つ（2 = 4）になります（除外なし）。 [!UICONTROL 自動ターゲット]を使用すると、エクスペリエンス 1 に場所 1 のオファー 1 と場所 2 のオファー 2 を含め、エクスペリエンス 2 に場所 1 のオファー 1 と場所 2 のオファー 2 を含めることができます。 [!UICONTROL 自動ターゲット]では、1 つのエクスペリエンスに複数の変更を適用することができるので、アクティビティ内のエクスペリエンスの数を減らすことができます。
 
 [!UICONTROL 自動ターゲット]では、トラフィック要件を理解するために簡単な経験則を使用できます。
 
@@ -173,12 +173,12 @@ A/B アクティビティフロー内で「[!UICONTROL 自動ターゲット]」
 
 ## トレーニングビデオ: 自動ターゲットアクティビティについて
 
-このビデオでは、[!UICONTROL 自動ターゲット &#x200B;]のA/B アクティビティを設定する方法を説明します。
+このビデオでは、[!UICONTROL 自動ターゲット ]のA/B アクティビティを設定する方法を説明します。
 
 このトレーニングでは、以下の内容について学習します。
 
-* [!UICONTROL 自動ターゲット &#x200B;] テストの定義
-* [!UICONTROL 自動ターゲット &#x200B;]と[!UICONTROL Automated Personalization]を比較して比較します
-* [!UICONTROL 自動ターゲット &#x200B;] アクティビティの作成
+* [!UICONTROL 自動ターゲット ] テストの定義
+* [!UICONTROL 自動ターゲット ]と[!UICONTROL Automated Personalization]を比較して比較します
+* [!UICONTROL 自動ターゲット ] アクティビティの作成
 
 >[!VIDEO](https://video.tv.adobe.com/v/18558)

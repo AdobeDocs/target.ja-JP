@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 17%
 ---
 # [!DNL Analytics] トラッキングサーバーの使用
@@ -46,13 +46,13 @@ ht-degree: 17%
 
 1. アクティビティを作成しているページから、[!DNL Adobe Experience Platform Debugger]を開きます。
 
-   デバッガーをインストールしていない場合は、[Adobe Experience Platform Debuggerの概要](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ja)を参照してください。
+   デバッガーをインストールしていない場合は、[Adobe Experience Platform Debuggerの概要](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)を参照してください。
 
 1. 左側のナビゲーションメニューで「**[!UICONTROL Analytics]**」をクリックします。
 
    ![Screen_DebuggerTrackServ画像](assets/Screen_DebuggerTrackServ.png)
 
-   [!DNL Analytics] トラッキングサーバーは、デバッガーの[!UICONTROL &#x200B; ホスト名] セクションにあります。
+   [!DNL Analytics] トラッキングサーバーは、デバッガーの[!UICONTROL  ホスト名] セクションにあります。
 
    * **ファーストパーティ追跡サーバー**：要求のホスト名が使用中のドメインと一致する場合、それはファーストパーティ追跡サーバーです。 例えば、`adobe.com`を使用している場合、`adobe.com`は1st パーティトラッキングサーバーです。
    * **サードパーティ追跡サーバー**: サードパーティ追跡サーバーは通常`[company].sc.omtrdc.net`です。会社は会社名ですが、常に`sc.omtrdc.net`で終わります。
@@ -64,7 +64,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
+   >「[!UICONTROL  トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
 
 ## ブラウザーの開発者ツールを使用して[!DNL Analytics]追跡サーバーを取得します
 
@@ -72,7 +72,7 @@ ht-degree: 17%
 
 1. アクティビティを作成するページで、ブラウザーのデベロッパーツールを開きます（Google Chromeで、右上隅の3つの縦長の省略記号をクリックして、その他のツール/デベロッパーツール）。
 
-   ![Chrome開発者向けツール &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Chrome開発者向けツール ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. 「**[!UICONTROL ネットワーク]**」タブをクリックします。
 
@@ -92,4 +92,4 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
+   >「[!UICONTROL  トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。

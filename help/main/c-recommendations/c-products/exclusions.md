@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '530'
 ht-degree: 13%
 ---
 # 除外
@@ -36,7 +36,7 @@ ht-degree: 13%
 * 秋と冬のカタログは、オンラインで表示する必要がある唯一のカタログです。 夏のカタログの商品は購入できなくなりました。
 * ほとんどのページやスクリーン（アダルト製品、NC-17映画など）で推奨するのが不適切な可能性があるアイテム。
 * 不完全なメタデータフィールド（サムネール、価格、その他の重要なメタデータが含まれていない）を持つ製品。
-* 推奨すべきでない商品（SKUがシステム内に存在し、購入可能な商品ではない可能性がある）。 あるいは、実際に何かを注文することなく購入をシミュレートすることは、QA チームにとって偽のSKUかもしれません）。
+* 推奨すべきではない商品（SKUがシステム内に存在し、購入可能な商品ではない可能性がある）。 あるいは、実際に何かを注文することなく購入をシミュレートすることは、QA チームにとって偽のSKUかもしれません）。
 
 >[!IMPORTANT]
 >
@@ -48,9 +48,9 @@ ht-degree: 13%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;をクリックして、既存の除外のリストを表示します。
 
-   [!UICONTROL Exclusions] リストビューで各除外について報告された「項目数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法について詳しくは、*Adobe Target開発者ガイド*&#x200B;の[計画と実装 [!DNL Recommendations]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/recommendations){target=_blank}を参照してください。
+   [!UICONTROL Exclusions] リストビューで各除外について報告された「項目数」は、設定されたデフォルトのRecommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法について詳しくは、*Adobe Target開発者ガイド*&#x200B;の[計画と実装 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}を参照してください。
 
-1. （条件付き）除外を作成（または更新）する際に、**[!UICONTROL フィルターを表示]** アイコン （![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックし、**[!UICONTROL 環境]** ドロップダウンリストから目的の[環境](/help/main/administrating-target/environments.md)を選択して、その環境の除外の内容をプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）除外を作成（または更新）する際に、**[!UICONTROL フィルターを表示]** アイコン （![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックし、**[!UICONTROL 環境]** ドロップダウンリストから目的の[環境](/help/main/administrating-target/environments.md)を選択して、その環境の除外の内容をプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. 「**[!UICONTROL 除外を作成]**」をクリックします。
 
@@ -58,7 +58,7 @@ ht-degree: 13%
 
 1. ルールビルダーを使用して除外を作成します。
 
-   [!UICONTROL &#x200B; ルール &#x200B;] リストでパラメーターを選択し、演算子を選択してから、1つ以上の値を入力して製品を識別します。 複数の値はコンマで区切ります。
+   [!UICONTROL  ルール ] リストでパラメーターを選択し、演算子を選択してから、1つ以上の値を入力して製品を識別します。 複数の値はコンマで区切ります。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -78,17 +78,17 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 除外の編集、コピー、削除
 
-リスト内の目的の除外の横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL &#x200B; コピー]、または[!UICONTROL 削除]）をクリックします。
+リスト内の目的の除外の横にあるその他のアクション アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL  コピー]、または[!UICONTROL 削除]）をクリックします。
 
 既存の除外をコピーして重複した除外を作成し、変更することができます。 このオプションを使用すると、より少ない労力で同様の除外を作成できます。
 
 除外は、アカウント全体で使用できます。 除外を削除する前に、この注意事項を考慮してください。 削除された除外は復元できません。
 
-## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
 * コレクションの作成
 * 除外の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/35311?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

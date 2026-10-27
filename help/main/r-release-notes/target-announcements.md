@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 96%
+source-wordcount: '2202'
+ht-degree: 95%
 ---
 # [!DNL Adobe Target] のお知らせとイベント
 
@@ -64,7 +64,7 @@ ht-degree: 96%
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=ja){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -74,7 +74,7 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ja){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
@@ -101,7 +101,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   パーソナライゼーションの成熟度の中核となるのは、人工知能と機械学習です。 [!DNL Adobe Target] では、これらのテクノロジーを活用してユーザーの行動を理解し、好みを予測し、コンテンツを動的に調整します。 AI と ML の機能を活用して、ブランドが静的な A/B テストやルールベースのパーソナライゼーションを超えて、動的でコンテキストに応じた関連性の高いエクスペリエンスを提供する方法について説明します。
 
-  [録音を聴きます。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ja){target=_blank}
+  [録音を聴きます。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高パフォーマンスのレコメンデーション**
 
@@ -170,7 +170,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   今回のセッションでは、下記の内容とともに、[!DNL Adobe Target] の新機能を活用してコンバージョン率を著しく上昇させる方法を説明します。
 
-  * [!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティ内の拡張モデル制御
+  * [!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット ] アクティビティ内の拡張モデル制御
   * [!DNL Adobe] の [!DNL Real-Time Customer Data Platform] からプロファイル属性および高価値セグメントを評価する機能のロック解除
   * ブランドが AI 搭載アルゴリズムを微調整することで、より速いスピードと意思決定を実現する方法
   * 1 対 1 のパーソナライゼーションを実現する他に類を見ないユースケース
@@ -193,7 +193,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   コースマップ：
 
-  * [!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Multivariate Testing] （MVT）、（XT）および自動テストとパーソナライゼーション
+  * [!UICONTROL A/B テスト ]、[!UICONTROL Multivariate Testing] （MVT）、（XT）および自動テストとパーソナライゼーション
   * アクティビティ設定のワークフロー手順
   * バッチエクスペリエンスのプリフェッチ、モバイルの常時稼動パーソナライゼーションの有効化
   * 顧客体験全体にわたるテストとターゲティングのライフサイクル指標
@@ -203,7 +203,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
 
-[!DNL Adobe Target]  チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。 最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
+[!DNL Adobe Target] [!DNL] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。 最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
 
 * [レコーディングリンク](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -317,7 +317,7 @@ Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューシ
 
   +++詳細
 
-  マーケター、製品所有者、開発者はこれまで以上に、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを求められています。 データが分断された複数のサイロと、複雑な実装では、これを実現することはできません。
+  マーケター、製品所有者、開発者はこれまで以上に、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを求められています。 データの分断化や複雑な実装を伴う複数のツールでは、データ収集が困難になります。
 
   この録画ウェビナーでは、Adobe Target の製品エキスパートが、遅延なしでローカルで実行する重要なエクスペリエンス最適化に関するオンライン判定の動きが、新しいユースケースにどのように影響し、お客様のサイトパフォーマンスを向上させるかを説明します。
 

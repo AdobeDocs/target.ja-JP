@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # コンテンツ配信のトラブルシューティング
 
@@ -138,7 +138,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 ## レコメンデーションにトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SiteCatalyst: purchase`* 呼び出しは、購入アルゴリズムトラフィックデータには使用できません。 代わりに、*`orderConfirmPage`* 呼び出しを使用します。
+*`SiteCatalyst: purchase`*&#x200B;呼び出しは、購入アルゴリズムのトラフィックデータに使用できません。 代わりに、*`orderConfirmPage`* 呼び出しを使用します。
 
 ## アクティビティの優先度を確認 {#section_3D0DD07240F0465BAF655D0804100AED}
 
@@ -176,11 +176,11 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 
 ## [!DNL Target] アクティビティが、クエリ文字列パラメーターを使用して URL を正しく処理することを確認します。 {#query-strings}
 
-[!UICONTROL &#x200B; アクティビティ URL]は、アクティビティの訪問者を認定し、アクティビティエクスペリエンスをユーザーにレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
+[!UICONTROL  アクティビティ URL]は、アクティビティの訪問者を認定し、アクティビティエクスペリエンスをユーザーにレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
 
 デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は[Visual Experience Composer設定](/help/main/administrating-target/visual-experience-composer-set-up.md)で指定されたページを開きます。 アクティビティ作成中に、別のページを指定することもできます。
 
-VECが開いた後に別のページを表示するには、**[!UICONTROL ギアアイコン]**&#x200B;を設定/**[!UICONTROL ページ配信]**&#x200B;を選択をクリックし、[!UICONTROL &#x200B; アクティビティ URL] フィールドに目的のURLを指定します。
+VECが開いた後に別のページを表示するには、**[!UICONTROL ギアアイコン]**&#x200B;を設定/**[!UICONTROL ページ配信]**&#x200B;を選択をクリックし、[!UICONTROL  アクティビティ URL] フィールドに目的のURLを指定します。
 
 ![ページ配信設定 UI の設定](assets/configure-page-delivery.png)
 
@@ -206,7 +206,7 @@ URL にクエリ文字列パラメーターが含まれている場合はどう�
 
 ### オプション 3：完全な URL をターゲットにせず、URL の特定の部分を利用する。
 
-このシナリオでは、URLは`https://shopping.mycart.com?type=Summers%20Offers`で、追加のテンプレートルールは[!UICONTROL type] > [!UICONTROL is （大文字と小文字が区別されます） &#x200B;] > type=Summers%20Offersで[!UICONTROL &#x200B; クエリ &#x200B;]を指定し、OR演算子で区切ります。
+このシナリオでは、URLは`https://shopping.mycart.com?type=Summers%20Offers`で、追加のテンプレートルールは[!UICONTROL type] > [!UICONTROL is （大文字と小文字が区別されます） ] > type=Summers%20Offersで[!UICONTROL  クエリ ]を指定し、OR演算子で区切ります。
 
 ![URL の特定の部分を活用するテンプレートルール](assets/option3.png)
 
@@ -227,14 +227,14 @@ adobe.target.trackEvent({
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### 拡張機能![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)を追加
+### 拡張機能![ チュートリアルバッジ ](/help/main/assets/tutorial.png)を追加
 
->[!VIDEO](https://video.tv.adobe.com/v/34063?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Adobe Target の基本的なデバッグ ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34064?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34065?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

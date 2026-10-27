@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: 891742a5-242d-5099-966a-ca76c17cd2d2
     internal-label: Analytics for Target (A4T)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 90%
 ---
 # A4T での訪問と訪問者のカウントの水増しを最小限に抑える
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 部分的なデータが生じる原因として特定されているものは次のとおりです。
 
 * **レポートスイート ID（実装）の不一致：**&#x200B;アクティビティの設定中に指定されたレポートスイートが、テストが配信されるページのレポートスイートと一致していません。 データは [!DNL Analytics] サーバー上では調整できないので、部分的なデータのように見えます。
-* **低速のページ：**&#x200B;[!DNL Target] 呼び出しはページの上部、[!DNL Analytics] 呼び出しは通常、ページの下部にあります。 ページの読み込みに時間がかかると、[!DNL Target] 呼び出しが実行されてから [!DNL Analytics] 呼び出しの前に訪問者がページを離れる可能性が高くなります。 ページの速度低下は、接続速度が頻繁に低下するモバイル web サイトでは特に問題になります。
+* **低速のページ：**[!DNL Target] 呼び出しはページの上部、[!DNL Analytics] 呼び出しは通常、ページの下部にあります。 ページの読み込みに時間がかかると、[!DNL Target] 呼び出しが実行されてから [!DNL Analytics] 呼び出しの前に訪問者がページを離れる可能性が高くなります。 ページの速度低下は、接続速度が頻繁に低下するモバイル web サイトでは特に問題になります。
 * **ページエラー：** JavaScript エラーまたは各タッチポイントが起動しない他のシナリオ（Experience Cloud ID サービス、Target、Analytics）がある場合、部分的なデータ結果。
 * **[!DNL Target] アクティビティのリダイレクトオファー：** A4T を使用してアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。 詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) を参照してください。
 * **古いバージョンのライブラリ：** データをできる限り効率的に送信するために、昨年、JavaScript ライブラリ（[!DNL appMeasurement.js]、`at.js`、および `visitorAPI.js`）にいくつかの改善を加えました。 導入に必要な条件について詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)を参照してください。
@@ -73,7 +73,7 @@ ht-degree: 96%
 
 ほとんどの状況では、[!DNL Target] ヒットが各ウェブページの [!DNL Analytics] ヒットで結び付けられます。 [!DNL Target] および [!DNL Analytics] 呼び出し両方と同じページの [!DNL Analytics] 呼び出しに [!DNL Experience Cloud ID]（MCID） に一貫した SDID がある場合、この関連付けが発生します。 大概、[!DNL Target] にも MCID がありますが、訪問者 ID が戻る前に [!DNL Target] への呼び出しが発生した場合でも、このヒットは SDID により関連付けられます。 また、[!DNL Target] を呼び出した後、[!DNL Analytics] を呼び出すまで、ユーザーが同じページにとどまる必要もあります。 このシナリオは理想的です。
 
-**部分的なデータヒット：** ユーザーは、呼び出しを [!DNL Analytics] 送信するまでに十分な長さのページにとどまり、適切なMCIDが [!DNL Target] あることがあります。 このシナリオは、部分的なデータヒットとなります（[!DNL Analytics] ページビューのないヒット）。 ユーザーがサイトを再訪し、[!DNL Analytics] コードのあるページを表示すると、再訪問者として適切にカウントされます。 ページに [!DNL Analytics] コードしかない場合、これらのヒットは失われてしまいます。 このヒットのデータは、一定の指標（訪問数）を水増しし、他の指標（1 訪問あたりのページビュー数、1 訪問あたりの時間など）を下げてしまうため、そういったデータを望まないクライアントもいます。 また、ページビューのないヒットも含まれます。 ただし、このデータを保持する正当な理由もあります。
+**部分的なデータ ヒット：** ユーザーが[!DNL Analytics]呼び出しを送信するのに十分な長さでページに残っていないことがありますが、[!DNL Target]には適切なMCIDがあります。 このシナリオは、部分的なデータヒットとなります（[!DNL Analytics] ページビューのないヒット）。 ユーザーがサイトを再訪し、[!DNL Analytics] コードのあるページを表示すると、再訪問者として適切にカウントされます。 ページに [!DNL Analytics] コードしかない場合、これらのヒットは失われてしまいます。 一部のクライアントは、特定の指標（訪問）を高めたり、他の指標（訪問あたりのページビュー数、訪問あたりの時間など）を低くしたりするため、これらのヒットに関するデータを望んでいません。 また、ページビューのないヒットも含まれます。 ただし、このデータを保持する正当な理由もあります。
 
 部分的なデータヒットを最小限に抑えるには、ページの読み込みを高速化したり、ライブラリの最新バージョンに更新したり、それらのヒットを除外した[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja)を作成したりします。 この手順の詳細については、*Analytics コンポーネントガイド*&#x200B;の[仮想レポートスイートの作成](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja)を参照してください。
 
@@ -94,7 +94,7 @@ ht-degree: 96%
 * および
 * 離脱リンクインスタンス：存在しない
 
-**親なしヒット：** Analytics が呼び出される前にユーザーがページを離れてしまい、Target が適切な MCID を受け取らないこともありえます。 これらのヒットは、Adobe が「親なし」ヒットと呼ぶものです。 これらのヒットは、ほとんど戻ってくることのない顧客を表し、訪問数と訪問者数を不適切に水増しします。
+**孤立したヒット：** ユーザーがAnalytics呼び出しに十分な時間ページに残らず、Targetが適切なMCIDを取得しなかったことが少ない状況です。 これらのヒットは、Adobe が「親なし」ヒットと呼ぶものです。 これらのヒットは、ほとんど戻ってくることのない顧客を表し、訪問数と訪問者数を不適切に水増しします。
 
 こういった「親なし」ヒットを最小限に抑えるには、上で説明しているように、こうしたヒットを除外する[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja)を作成することができます。
 

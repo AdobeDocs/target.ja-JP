@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # [!UICONTROL Visual Experience Composer]に関連する問題のトラブルシューティング
 
@@ -47,14 +47,14 @@ Web サイト（特にシングルページアプリ）で、あるページか�
 
 +++
 
-## EEC でページが開かないか、読み込みに時間がかかります。 VEC でアクティビティやエクスペリエンスの読み込みに時間がかかります。 （VEC のみ） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## ページがEECで開かない、または読み込みが遅い。 VEC でアクティビティやエクスペリエンスの読み込みに時間がかかります。 （VEC のみ） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++詳細
 [!UICONTROL Target] エクスペリエンスコンポーザーのページのパフォーマンスに影響を与える問題がいくつかあります。 よくある問題として以下のようなものがあります。
 
 * ページに mbox がない。
 * サイトでプロキシブロックを使用している。これにより、どちらのエクスペリエンスコンポーザーでもページを開くことが許可されません。
-* サイトがサイト自体を iFrame で開くことを許可していない。
+* あなたのサイトではiFrameでサイトを開くことができません。
 
 [!UICONTROL Enhanced Experience Composer]で問題が発生した場合は、[!UICONTROL Enhanced Experience Composer]をオフにして、代わりに[!UICONTROL Visual Experience Composer]を使用してください。
 
@@ -64,7 +64,7 @@ Web サイト（特にシングルページアプリ）で、あるページか�
 
 ![コンソールエラーメッセージ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-[!UICONTROL Visual Experience Composer]も[!UICONTROL Enhanced Experience Composer]も機能しない場合は、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）などのブラウザー拡張機能または応答ヘッダーの変更（Firefox）を使用して、サイトのX-Frames ヘッダーオプションを上書きし、iFramesに読み込めるようにして、VECを有効にします。 ブラウザー拡張機能を使用できない場合は、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。
+[!UICONTROL Visual Experience Composer]も[!UICONTROL Enhanced Experience Composer]も機能しない場合は、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）などのブラウザー拡張機能または応答ヘッダーの変更（Firefox）を使用して、サイトのX-Frames ヘッダーオプションを上書きし、iFramesに読み込めるようにして、VECを有効にします。 ブラウザー拡張機能を使用できない場合は、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。
 
 >[!NOTE]
 >
@@ -114,13 +114,13 @@ Web サイト（特にシングルページアプリ）で、あるページか�
 
    これで、[!UICONTROL Visual Experience Composer]を使用してページをすばやく読み込めるようになります。
 
-**Firefox:**&#x200B;で[!DNL Modify Response Headers]拡張機能を使用するには
+**Firefox]:**&#x200B;で[!DNL Modify Response Headers]拡張機能を使用するには[!UICONTROL 
 
 1. [!UICONTROL 応答ヘッダーを変更]を[!DNL Firefox]にインストールし、ブラウザーを再起動します。
 1. [!DNL Firefox]拡張機能から、「応答ヘッダーを変更」拡張機能を選択します。
 1. 「**[!UICONTROL 環境設定]**」をクリックします。
-1. 「[!UICONTROL &#x200B; アクション &#x200B;]」ドロップダウンから「**[!UICONTROL フィルター]**」を選択します。
-1. 「[!UICONTROL &#x200B; ヘッダー名]」フィールドに、**[!UICONTROL X-Frame-Options]**&#x200B;と入力します。
+1. 「[!UICONTROL  アクション ]」ドロップダウンから「**[!UICONTROL フィルター]**」を選択します。
+1. 「[!UICONTROL  ヘッダー名]」フィールドに、**[!UICONTROL X-Frame-Options]**&#x200B;と入力します。
 1. 手順 4 と 5 を繰り返して **[!UICONTROL x-frame-options]** によるフィルターを追加します。
 1. 「**[!UICONTROL 追加]**」をクリックします。
 1. 「**[!UICONTROL Start（開始）]**」をクリックします。

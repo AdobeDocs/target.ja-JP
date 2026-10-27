@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 55%
 ---
 # 動的データをオファーに渡す
@@ -33,7 +33,7 @@ ht-degree: 55%
 ## ビジネスケース
 
 * 割引オファーを昇格して、最後に購入した製品を「再入力」または「補充」することができます。 カタログ内のアイテムごとに個別のオファーを作成する代わりに、動的テキストを使用してオファーを作成し、プロファイルから「最後に購入した製品」を読み取り、オファーにリンクを表示できます。
-* 訪問者が、`keyword=world`&#x200B;`cup` を含むランディングページに到達します。 この場合、「*ワールドカップ*」という用語をオファーに表示します。
+* 訪問者が、`keyword=world``cup` を含むランディングページに到達します。 この場合、「*ワールドカップ*」という用語をオファーに表示します。
 * （1）訪問者のカートに最後に追加された商品（Nike Air Max 1000台）、（2）訪問者の色設定（黒）、（3）訪問者のお気に入りの靴ではないカテゴリー（パーカー）などの情報で、レコメンデーションラベルをパーソナライズします。 例:「クールな『黒』『パーカー』で、あなたの『Nike Air Max 1000』をコーディネートしましょう！」
 
 ## 技術的利点
@@ -62,7 +62,7 @@ ht-degree: 55%
 
 デバッグ目的でコンソールに `${campaign.name}`、`${campaign.id}`、`${campaign.recipe.name}`、`${campaign.recipe.id}`、`${offer.name}`、`${offer.id}`、`${campaign.name}` などの情報を記録します。
 
-[!DNL Recommendations]件のデザインについては、[&#x200B; デザインの概要](/help/main/c-recommendations/c-design-overview/design-overview.md)の追加例を参照してください。
+[!DNL Recommendations]件のデザインについては、[ デザインの概要](/help/main/c-recommendations/c-design-overview/design-overview.md)の追加例を参照してください。
 
 ## 実装
 
@@ -84,7 +84,7 @@ mboxに渡されるプロファイルパラメーターの場合は、次の構�
 
 `${user.testAttribute default="All Items!"}`
 
-`testAttribute`が存在しないか空白の場合、「すべてのアイテム！」を選択します。 書き出されています。 空白の属性値が有効で、デフォルト値を表示する代わりに空白の属性値を書き出す必要がある場合は、次の構文を使用できます。
+`testAttribute`が存在しないか空白の場合、「すべての項目！」を選択します。 書き出されています。 空白の属性値が有効で、デフォルト値を表示する代わりに空白の属性値を書き出す必要がある場合は、次の構文を使用できます。
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 

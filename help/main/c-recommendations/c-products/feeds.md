@@ -1,7 +1,7 @@
 ---
 keywords: レコメンデーションフィード；SAINT;ftp;sftp;csv;classifications;analytics classifications
 description: フィードが、CSV ファイル、[!DNL Google Product Search] フィード形式、[!DNL Analytics]製品の分類を使用して[!DNL Adobe Target] [!DNL Recommendations]にエンティティを読み込む方法について説明します。
-title: '[!DNL Target Recommendations]で[!UICONTROL &#x200B; フィード &#x200B;]を使用するにはどうすればよいですか？'
+title: '[!DNL Target Recommendations]で[!UICONTROL  フィード ]を使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 31%
+source-wordcount: '2792'
+ht-degree: 30%
 ---
 # フィード
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 ## フィードの概要 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-フィードを使用すると、[&#x200B; エンティティ &#x200B;](/help/main/c-recommendations/c-products/products.md)を渡したり、ページ上で利用できない情報や、ページから直接送信できない情報でmbox データを拡張したりできます。 たとえば、マージン、売上原価（COGS）などがあります。
+フィードを使用すると、[ エンティティ ](/help/main/c-recommendations/c-products/products.md)を渡したり、ページ上で利用できない情報や、ページから直接送信できない情報でmbox データを拡張したりできます。 たとえば、マージン、売上原価（COGS）などがあります。
 
 フィードでは、製品ID、カテゴリ、名前、メッセージ、その他の属性など、詳細な項目情報を[!DNL Recommendations]に渡すこともできます。
 
@@ -48,9 +48,9 @@ ht-degree: 31%
 
 アイテムの説明は、フィードまたはmboxを使用して[!DNL Target]に渡すことができます。 [!DNL Target]がエンティティフィードとmboxの両方を使用してデータを収集すると、最新のデータが優先されます。 通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。 まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
 
-[!UICONTROL &#x200B; フィード &#x200B;] リスト （**[!UICONTROL Recommendations]** > **[!UICONTROL フィード]**）には、作成したフィードに関する情報が表示されます。
+[!UICONTROL  フィード ] リスト （**[!UICONTROL Recommendations]** > **[!UICONTROL フィード]**）には、作成したフィードに関する情報が表示されます。
 
-[!UICONTROL &#x200B; フィード &#x200B;] ページには、次の列が含まれています。
+[!UICONTROL  フィード ] ページには、次の列が含まれています。
 
 * **名前**：作成中に指定されたフィードの名前。 フィードの名前を編集するには、フィード自体を編集する必要があります。 新しい名前でフィードを保存すると、フィードが更新されます。
 * **ステータス**：フィードの現在の[ステータス](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
@@ -59,11 +59,11 @@ ht-degree: 31%
 * **スケジュール**: フィードの更新スケジュールを表示します：[!UICONTROL 毎日]、[!UICONTROL 毎週]、[!DNL Every 2 Weeks]、または[!UICONTROL なし]。
 * **最終更新日**：フィードが最後に更新された日時とフィードを更新した人物の名前を表示します。
 
-[!UICONTROL 表をカスタマイズ &#x200B;] アイコン （![表をカスタマイズ アイコン &#x200B;](/help/main/assets/icons/ColumnSetting.svg)）をクリックして、表示する列を選択または選択解除します。
+[!UICONTROL 表をカスタマイズ ] アイコン （![表をカスタマイズ アイコン ](/help/main/assets/icons/ColumnSetting.svg)）をクリックして、表示する列を選択または選択解除します。
 
-[!UICONTROL 情報] アイコン （![情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、最後のアップロード日とフィードのURLを表示するカードが表示されます。
+[!UICONTROL 情報] アイコン （![情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、最後のアップロード日とフィードのURLを表示するカードが表示されます。
 
-[!UICONTROL 詳細アクション &#x200B;] アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックして、次のアクションにアクセスします。[!UICONTROL 無効化]、[!DNL Edit]、[!UICONTROL &#x200B; コピー]、[!UICONTROL 削除]。
+[!UICONTROL 詳細アクション ] アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックして、次のアクションにアクセスします。[!UICONTROL 無効化]、[!DNL Edit]、[!UICONTROL  コピー]、[!UICONTROL 削除]。
 
 >[!IMPORTANT]
 >
@@ -108,7 +108,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->既存の値を空白の値で上書きできません。 別の値を渡して、既存の値を上書きします。 販売価格の場合、一般的な解決策は、実際の「NULL」または他のメッセージを渡すことです。 次に、テンプレートルールを記述して、その値の品目を除外します。
+>既存の値を空白の値で上書きすることはできません。 別の値を渡して、既存の値を上書きします。 販売価格の場合、一般的な解決策は、実際の「NULL」または他のメッセージを渡すことです。 次に、テンプレートルールを記述して、その値の品目を除外します。
 
 商品のエンティティが正常にアップロードされてから約 2 時間後に、この商品が管理者インターフェイスで使用できるようになります。
 
@@ -134,7 +134,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >データを[!DNL Google]に送信する必要はありません。 ファイルが定義済みの[!DNL Google]属性名を使用している場合は、独自のデータを読み込み、更新をスケジュールできます。
 
-[!DNL Recommendations]は、[!DNL Google] フィード仕様に従い、Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)によって定義された属性を使用する.xml、.txt、および.tsv ファイルを受け入れます。 フィードのURLまたはFTPの場所を指定して、[!DNL Recommendations] サーバーがファイルを取得し、カタログを構築できるようにします。
+[!DNL Recommendations]は、[!DNL Google] フィード仕様に従い、Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)によって定義された[属性を使用する.xml、.txt、および.tsv ファイルを受け入れます。 フィードのURLまたはFTPの場所を指定して、[!DNL Recommendations] サーバーがファイルを取得し、カタログを構築できるようにします。
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]製品の分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]製品分類は、推奨事項に使用できる唯一の分類です。 この分類ファイルについて詳しくは、*分析コンポーネント* ガイドの[分類について](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja)を参照してください。 レコメンデーションに必要なすべての情報が現在の実装で使用できるわけではないので、分類ファイルに追加する場合は、このユーザーガイドに従ってください。
+[!DNL Adobe Analytics]製品分類は、推奨事項に使用できる唯一の分類です。 この分類ファイルについて詳しくは、*分析コンポーネント* ガイドの[分類について](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)を参照してください。 レコメンデーションに必要なすべての情報が現在の実装で使用できるわけではないので、分類ファイルに追加する場合は、このユーザーガイドに従ってください。
 
 >[!IMPORTANT]
 >
@@ -233,7 +233,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 > その際は次の点にご注意ください。
 >
 >* エンティティ属性を更新すると、最大で 24 時間の遅延が生じます。
->* [!DNL Target]は[!UICONTROL 製品分類]のみをサポートしています。 [!DNL Analytics]製品SKUは、[!DNL Recommendations] `entity.id`と同じレベルにマッピングする必要があります。 カスタム [!DNL Analytics]分類は、[!UICONTROL Adobe Consulting サービス &#x200B;]を使用して設計できます。 ご質問がある場合は、アカウントマネージャーにお問い合わせください。
+>* [!DNL Target]は[!UICONTROL 製品分類]のみをサポートしています。 [!DNL Analytics]製品SKUは、[!DNL Recommendations] `entity.id`と同じレベルにマッピングする必要があります。 カスタム [!DNL Analytics]分類は、[!UICONTROL Adobe Consulting サービス ]を使用して設計できます。 ご質問がある場合は、アカウントマネージャーにお問い合わせください。
 
 ## フィードの作成 {#steps}
 
@@ -245,10 +245,10 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 1. **[!UICONTROL Sourceの種類]**&#x200B;を選択します。
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Google製品フィード &#x200B;]
+   * [!UICONTROL Google製品フィード ]
    * [!UICONTROL Analytics分類]
 
-   [!UICONTROL CSV]および[!UICONTROL Google Product Feed] フィードの種類について詳しくは、[&#x200B; フィードの概要](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)を参照してください。 また、[&#x200B; モデル CSV ガイドをダウンロード &#x200B;](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)して、フィードを正しくフォーマットできます。
+   [!UICONTROL CSV]および[!UICONTROL Google Product Feed] フィードの種類について詳しくは、[ フィードの概要](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)を参照してください。 また、[ モデル CSV ガイドをダウンロード ](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)して、フィードを正しくフォーマットできます。
 
 1. （条件付き） **[!UICONTROL CSV]**&#x200B;または&#x200B;**[!UICONTROL Google Product Feed]**&#x200B;を選択した場合は、フィードにアクセスできる場所を指定します。
 
@@ -281,7 +281,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. （条件付き） **[!UICONTROL Analytics Classifications]**&#x200B;を選択した場合は、ドロップダウンリストからレポートスイートを選択します。
 
-1. **[!UICONTROL 次へ]**&#x200B;矢印をクリックして、[!UICONTROL &#x200B; スケジュール &#x200B;] オプションを表示します。
+1. **[!UICONTROL 次へ]**&#x200B;矢印をクリックして、[!UICONTROL  スケジュール ] オプションを表示します。
 
 1. 更新オプションを選択します。
 
@@ -294,7 +294,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
    このオプションは、ブラウザーで使用されるタイムゾーンに基づいています。 別のタイムゾーンの時間を使用したい場合、タイムゾーンに応じて時間を計算する必要があります。
 
-1. **[!UICONTROL 次]**&#x200B;矢印をクリックして[!UICONTROL &#x200B; マッピング &#x200B;] オプションを表示し、データを[!DNL Target]定義にマッピングする方法を指定します。
+1. **[!UICONTROL 次]**&#x200B;矢印をクリックして[!UICONTROL  マッピング ] オプションを表示し、データを[!DNL Target]定義にマッピングする方法を指定します。
 
 1. （オプション）フィードを環境（ホストグループ）に所属させたい場合、ホストグループを選択します。
 
@@ -302,7 +302,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-フィードを作成または編集すると、すぐに実行され、設定に従って更新されます。 フィードは、データが使用可能になる前に同期、処理、およびインデックスを作成する必要があります。 進捗状況については、[!UICONTROL &#x200B; フィード &#x200B;] リストの[&#x200B; フィードのステータス &#x200B;](/help/main/c-recommendations/c-products/feeds.md#status)を確認してください。 [!DNL Target]を閉じても、処理は続行されます。
+フィードを作成または編集すると、すぐに実行され、設定に従って更新されます。 フィードは、データが使用可能になる前に同期、処理、およびインデックスを作成する必要があります。 進捗状況については、[!UICONTROL  フィード ] リストの[ フィードのステータス ](/help/main/c-recommendations/c-products/feeds.md#status)を確認してください。 [!DNL Target]を閉じても、処理は続行されます。
 
 索引付け時には、製品とフィードのヘッダーが個々の値の前に表示されるため、索引付けが完了する前に製品を検索し、コレクション、除外、デザイン、アクティビティを作成できます。
 
@@ -320,15 +320,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 |--- |--- |
 | [!UICONTROL 同期中] | フィード設定の詳細は[!DNL Target]に保存されています。 |
 | [!UICONTROL 同期失敗] | フィード設定の詳細を[!DNL Target]に保存できませんでした。 再試行する。 |
-| [!UICONTROL &#x200B; フィード実行なし] | フィードを作成しましたが、スケジュールされていません（頻度は「なし」に設定されています）。 |
+| [!UICONTROL  フィード実行なし] | フィードを作成しましたが、スケジュールされていません（頻度は「なし」に設定されています）。 |
 | *スケジュールされた日時* | フィードは実行されていませんが、特定の日時に実行するようスケジュールされています。 |
-| [!UICONTROL &#x200B; ダウンロード待ち] | [!DNL Target]はフィード ファイルのダウンロードを準備しています。 |
-| [!UICONTROL &#x200B; フィードファイルのダウンロード &#x200B;] | [!DNL Target]がフィード ファイルをダウンロードしています。 |
+| [!UICONTROL  ダウンロード待ち] | [!DNL Target]はフィード ファイルのダウンロードを準備しています。 |
+| [!UICONTROL  フィードファイルのダウンロード ] | [!DNL Target]がフィード ファイルをダウンロードしています。 |
 | [!UICONTROL 項目の読み込み] | [!DNL Target]はフィード ファイルから項目を読み込んでいます。 |
-| フィードを正常に読み込みました：*時間* | [!DNL Target]は、フィード ファイルをコンテンツ配信システムに読み込みました。 コンテンツ配信システムでアイテム属性が変更され、近日中に配信レコメンデーションに反映される予定です。 予想される変更が表示されない場合は、もう一度試して、推奨事項を含むページを更新します。<br> メモ：<ul><li>アイテムの属性に対する変更により、アイテムがレコメンデーションから除外された場合、除外はすぐに反映されます。 アイテムが新しく追加された場合、または属性に変更を加えた結果、アイテムが&#x200B;*もはや* レコメンデーションから除外されなくなった場合、次のアルゴリズムの更新（24時間以内に発生）まで反映されません。</li><li>このステータスが表示されている場合、更新が[!UICONTROL &#x200B; カタログ検索] UIにまだ反映されていない可能性があります。 [!UICONTROL &#x200B; カタログ検索]には、検索可能なカタログが最後に更新された日時を示す別のステータスが一覧表示されます。</li></ul> |
-| 部分的な読み込みに失敗しました | 以前は、すべての行がアップロードされなかったときでも、フィードは成功としてマークされていました。 したがって、フィードが正常に表示されたときに、すべての行がアップロードされたという誤った印象を与えます。<P>ここでは、フィードの部分的なインポートが発生する可能性がある理由を示します。<ul><li>実稼動環境用のフィードファイル（100行など）をアップロードしました。</li><li>フィードは、それらの行のうち80行を実行してアップロードし、誤った書式設定、フィールドが文字を超えているなどの理由で20行をドロップしました。</li><li>フィードはUIで成功とマークされ、100行がすべてアップロードされたという印象を与えます。</li><li>これらの20の製品のいくつかをアクティビティの配信に期待していますが、実行されていません。</li><li> 該当する製品の製品詳細を含むフィードをアップロードしたので、この時点で戸惑います。 Entity APIを介してクエリを実行すると、バックエンドに表示されません。これは、バックエンドにないことを示します。</li></ul>この混乱を取り除くために、メッセージはフィードで何が起こったのかを正確に伝えるために改善されます。 成功としてマークするのではなく、部分的な読み込みに失敗としてマークされるようになりました。 |
-| [!UICONTROL &#x200B; インデックスを作成できませんでした] | インデックス操作が失敗しました。 再試行する。 |
-| [!UICONTROL &#x200B; サーバーが見つかりません] | FTP、SFTP、またはURLの場所が無効であるか、その他の方法でアクセスできません。 |
+| フィードを正常に読み込みました：*時間* | [!DNL Target]は、フィード ファイルをコンテンツ配信システムに読み込みました。 コンテンツ配信システムでアイテム属性が変更され、近日中に配信レコメンデーションに反映される予定です。 予想される変更が表示されない場合は、もう一度試して、推奨事項を含むページを更新します。<br> メモ：<ul><li>アイテムの属性に対する変更により、アイテムがレコメンデーションから除外された場合、除外はすぐに反映されます。 アイテムが新しく追加された場合、または属性に変更を加えた結果、アイテムが&#x200B;*もはや* レコメンデーションから除外されなくなった場合、次のアルゴリズムの更新（24時間以内に発生）まで反映されません。</li><li>このステータスが表示されている場合、更新が[!UICONTROL  カタログ検索] UIにまだ反映されていない可能性があります。 [!UICONTROL  カタログ検索]には、検索可能なカタログが最後に更新された日時を示す別のステータスが一覧表示されます。</li></ul> |
+| 部分的な読み込みに失敗しました | 以前は、すべての行がアップロードされなかったときでも、フィードは成功としてマークされていました。 したがって、フィードが正常に表示されたときに、すべての行がアップロードされたという誤った印象を与えます。<P>ここでは、フィードの部分的なインポートが発生する可能性がある理由を示します。<ul><li>実稼動環境用のフィードファイル（100行など）をアップロードしました。</li><li>フィードは、それらの行のうち80行を実行してアップロードし、誤った書式設定、フィールドが文字を超えているなどの理由で20行をドロップしました。</li><li>フィードはUIで成功とマークされ、100行がすべてアップロードされたという印象を与えます。</li><li>これらの20の製品のいくつかをアクティビティの配信に期待していますが、実行されていません。</li><li> 該当する製品の製品詳細を含むフィードをアップロードしたので、この時点で戸惑います。 Entity APIを使用してクエリを実行すると、バックエンドに表示されません。これは、バックエンドにないことを示します。</li></ul>この混乱を取り除くために、メッセージはフィードで何が起こったのかを正確に伝えるために改善されます。 成功としてマークするのではなく、部分的な読み込みに失敗としてマークされるようになりました。 |
+| [!UICONTROL  インデックスを作成できませんでした] | インデックス操作が失敗しました。 再試行する。 |
+| [!UICONTROL  サーバーが見つかりません] | FTP、SFTP、またはURLの場所が無効であるか、その他の方法でアクセスできません。 |
 
 フィードを更新するには（例えば、フィード構成やフィードファイルを変更する場合など）、フィードを開き、必要な変更をおこなってから、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -343,7 +343,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | ステータスのインジケーター | 説明 |
 |--- |--- |
 | 緑のステータスインジケーター | フィードのインデックス作成が正常に完了すると、緑の点でフィードが成功状態にあることを示します。 |
-| 黄色のステータスインジケーター | フィードまたはフィードインデックスで、フィードの頻度の 25％の遅れが生じると、黄色い点のステータスインジケーターが表示されます。 例えば、1 日 1 回実行されるフィードのセットで、予定されている時間を 6 時間過ぎてもインデックスが完了していない場合は、黄色い点が表示されます。 注意：フィードのステータスが「索引キュー待ち」になると、新しく更新された値が配信および条件処理で使用できるようになります。 |
+| 黄色のステータスインジケーター | フィードまたはフィードインデックスで、フィードの頻度の 25％の遅れが生じると、黄色い点のステータスインジケーターが表示されます。 例えば、インデックスがスケジュールされた時間から6時間経過しても完了しない場合、フィードが毎日実行されるように設定された場合、黄色のドットが表示されます。 注意：フィードのステータスが「索引キュー待ち」になると、新しく更新された値が配信および条件処理で使用できるようになります。 |
 | 白のステータスインジケーター | フィードのスケジュールが設定されていない場合は、白の点でフィードがまだ実行されていないことを示します。 |
 | 赤のステータスインジケーター | フィードでデータをサーバーにアップロードできない場合は、赤いステータスインジケーターが表示されます。 |
 
@@ -352,7 +352,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 **例 1:**
 
 * 初日：午前9時（太平洋標準時）から毎日の給餌プロセス。
-* 2 日目：午後 3:30 時点で、昨日の午前 9:00 以降、フィードが実行されていません。
+* 2日目：午後3時30分で、フィードは昨日の午前9時から実行されていません。
 
 インデックスは約 6.5 時間前に実行されているはずだったので、ステータスは黄色になります。 6.5 時間 +24 はフィード期間の 127％です。
 
@@ -367,20 +367,20 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Recommendationsのフィードについて（3:01） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+### Recommendationsのフィードについて（3:01） ![概要バッジ ](/help/main/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
 * フィードの目的の説明
 * フィードの値の説明
 
->[!VIDEO](https://video.tv.adobe.com/v/33951?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### フィードの作成（6:44） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### フィードの作成（6:44） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
 * フィードの設定
 * 使用するフィードのタイプの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/33950?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

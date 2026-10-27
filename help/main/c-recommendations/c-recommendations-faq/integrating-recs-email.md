@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 87%
+source-wordcount: '1774'
+ht-degree: 84%
 ---
 # [!DNL Recommendations]をメールと統合
 
@@ -97,15 +97,15 @@ curl -X POST \
 
 ## オプション 2：rawbox メールテンプレートの使用 {#rawbox}
 
-rawbox は、mbox リクエストに似ていますが、メールサービスプロバイダー（ESP）などの非 web 環境用です。 rawbox リクエストで使用する [!DNL Adobe Experience Platform Web SDK] または [!DNL at.js] がないため、リクエストを手動で作成する必要があります。 以下の例では、メールで rawbox リクエストを処理する方法を説明しています。
+rawbox は、mbox リクエストに似ていますが、メールサービスプロバイダー（ESP）などの非 web 環境用です。 rawbox リクエストで使用する[!DNL Adobe Experience Platform Web SDK]または[!DNL at.js]がないため、リクエストを手動で作成する必要があります。 以下の例では、メールで rawbox リクエストを処理する方法を説明しています。
 
 >[!NOTE]
 >
->rawboxと[!DNL Target]を使用する場合は、[&#x200B; に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
+>rawboxと[!DNL Target]を使用する場合は、[ に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
 
 この方法を使用すれば、電子メールでのレコメンデーションのパフォーマンスを追跡し、それをレコメンデーションを使用した通常の方法でテストして、さらにサイトでの追跡を継続することが可能になります。
 
-[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) オプションを使用して、[!DNL Recommendations] アクティビティを [!DNL Target] で設定します。 場所には、ESP から来る rawbox リクエストで使用することにした mbox の名前を選択します。 電子メールに使用したいルックアンドフィールを持つデザインを選択します。 電子メールの構築時に、ESP は、生成中の各電子メールの各 rawbox に対して、[!DNL Target] サーバーを呼び出します。 ESP には、メールを送信する際に、返された HTML を電子メールに含める手段が必要です。
+[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) オプションを使用して、[!DNL Recommendations] アクティビティを [!DNL Target] で設定します。 場所については、ESPからのrawbox リクエストで使用するmboxの名前を選択します。 電子メールに使用したいルックアンドフィールを持つデザインを選択します。 電子メールの構築時に、ESP は、生成中の各電子メールの各 rawbox に対して、[!DNL Target] サーバーを呼び出します。 ESP には、メールを送信する際に、返された HTML を電子メールに含める手段が必要です。
 
 使用するメールシステムは、次のシナリオに対応できる必要があります。
 
@@ -162,7 +162,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | 応答 | 説明 |
 |--- |--- |
-| //ERROR: | コンテンツを返すことができない場合にロードバランサーによって生成されます。 |
+| //ERROR: | コンテンツを返すことができない場合にロードバランサーによって生成 |
 | 成功 | `mboxNoRedirect` パラメーターが「true」に設定され、サーバーはレコメンデーションを返しません（つまり、mbox に合致しないか、サーバーキャッシュが初期化されません）。 |
 | bad request | `mbox` パラメーターがありません。<ul><li>`mboxDefault` または `mboxNoRedirect` パラメーターが指定されていません。</li><li>`mboxTrace` リクエストパラメーターは指定されていますが、`mboxNoRedirect` は指定されていません。</li><li>`mboxTarget`mbox 名が `-clicked` サフィックスで終わる場合、パラメーターは指定されません。</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | リクエストに合致するものが存在しない場合に `mboxDefault` が指定されておらず、`mboxNoRedirect` パラメーターが指定されていません。 |

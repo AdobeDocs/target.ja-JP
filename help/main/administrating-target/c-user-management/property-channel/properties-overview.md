@@ -9,30 +9,42 @@ exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 55%
-
+source-wordcount: '1513'
+ht-degree: 54%
 ---
-
 # Enterprise 権限の設定
 
 ユーザーを[!DNL Target]実装に追加するために必要なタスクに関する情報。ワークスペース、ユーザーグループ、およびプロパティを作成し、`at_property` パラメーターを含めるように[!DNL Target]実装を更新し、役割と権限を指定します。
@@ -65,7 +77,7 @@ ht-degree: 55%
 
 ## 手順 1. ユーザーの追加（オプション） {#section_A92AF0F921B743FEB9E9033433BD816A}
 
-新しい[!UICONTROL &#x200B; プロパティ &#x200B;]機能の使用を開始する場合、すべてのユーザー管理を[!DNL Adobe Admin Console for Enterprise]で実行する必要があります。 ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
+新しい[!UICONTROL  プロパティ ]機能の使用を開始する場合、すべてのユーザー管理を[!DNL Adobe Admin Console for Enterprise]で実行する必要があります。 ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
 1. [Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)で、ページの上部にある「**[!UICONTROL ユーザー]**」タブをクリックし、「**[!UICONTROL ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
@@ -92,19 +104,19 @@ ht-degree: 55%
 
    * **新規ワークスペース（製品プロファイル）：**&#x200B;次の手順を実行することで、新しい権限機能の利用を開始できます。
 
-      * [!DNL Admin Console for Enterprise] での新しいワークスペースの作成。
-      * Target プロパティのワークスペースへの割り当て。
+     * [!DNL Admin Console for Enterprise] での新しいワークスペースの作成。
+     * Target プロパティのワークスペースへの割り当て。
 
    これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。 ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つことができます。
 
-1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
 
 ### ワークスペース IDの取得 {#workspace-id}
 
-[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} の Enterprise 権限を活用するには、ワークスペース IDを渡す必要があります。
+[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}のエンタープライズ権限を活用するには、ワークスペース IDを渡す必要があります。
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com)で、「[!UICONTROL 製品]」タブをクリックし、左側のメニューの製品をクリックしてPLC （ワークスペース）リストを表示します。
 1. 目的のPLC（ワークスペース）をクリックし、次に示す URL で「プロファイル」 ID を探します。
@@ -116,7 +128,7 @@ ht-degree: 55%
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。 新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
 1. Admin Consoleで、ページの上部にある「**[!UICONTROL ユーザー]**」タブ/「**[!UICONTROL ユーザーグループ]**」をクリックして、新しいユーザーグループを作成するか、既存のグループを編集します。
-1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 ## 手順 4. プロパティを作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -126,7 +138,7 @@ ht-degree: 55%
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
-1. [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;]のリストを表示します。
+1. [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL  プロパティ ]のリストを表示します。
 1. 「**プロパティを作成**」をクリックします。
 
    以下のフィールドを設定します。
@@ -151,9 +163,9 @@ ht-degree: 55%
 
    または
 
-   [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;]のリストを表示します。
+   [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL  プロパティ ]のリストを表示します。
 
-   1. 目的のプロパティを表示するには、[!UICONTROL 最終更新日]列にマウスポインターを置き、[!UICONTROL &#x200B; コード &#x200B;] アイコン （![&#x200B; コードアイコン &#x200B;](/help/main/assets/icons/Code.svg)）をクリックします。
+   1. 目的のプロパティを表示するには、[!UICONTROL 最終更新日]列にマウスポインターを置き、[!UICONTROL  コード ] アイコン （![ コードアイコン ](/help/main/assets/icons/Code.svg)）をクリックします。
 
       ![プロパティホバーコード](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -165,7 +177,7 @@ ht-degree: 55%
 
    * **[!DNL Adobe Experience Platform]:**&#x200B;内のタグの「カスタムパラメーター」経由
 
-     詳しくは、*タグの概要* ドキュメントの[Mbox パラメーターの追加](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ja#add-mbox-params)を参照してください。
+     詳しくは、*タグの概要* ドキュメントの[Mbox パラメーターの追加](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params)を参照してください。
 
    * **targetPageParamsAll （）関数を使用：** at.js参照の上の`<head>` タグに次のコードを配置します。
 
@@ -193,7 +205,7 @@ ht-degree: 55%
 
 1. 「**[!UICONTROL ユーザー]**」をクリックします。
 
-   「[!UICONTROL &#x200B; ユーザー]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
+   「[!UICONTROL  ユーザー]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
 
    ![設定ユーザー](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
@@ -216,30 +228,30 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は一般的に正しいですが、オプションは少し異なる場所にある場合があります。 更新されたビデオは間もなく投稿される予定です。
+>[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL  セットアップ ]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は一般的に正しいですが、オプションは少し異なる場所にある場合があります。 更新されたビデオは間もなく投稿される予定です。
 
-### Adobe Target Workspacesの設定方法（6:55） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### Adobe Target Workspacesの設定方法（6:55） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオでは、ワークスペースの作成方法を説明します。
 
 * Adobe Target のインターフェイスから Adobe Admin Console にアクセスします（3 つの方法）
 * Adobe Admin Console でワークスペースを設定します
 
-   * ユーザーをワークスペースに追加します
-   * プロパティをワークスペースに追加します
+  * ユーザーをワークスペースに追加します
+  * プロパティをワークスペースに追加します
 
 * デフォルトのワークスペースの概要を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3421733?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### Adobe Targetでプロパティを作成する方法（3:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### Adobe Targetでプロパティを作成する方法（3:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 * [!DNL Adobe Target] インターフェイス内でプロパティを作成する方法
 * プロパティトークンを生成してプロパティの実装に含める方法
 * 次の 3 つの実装方法について説明します。
 
-   * Web
-   * モバイルアプリ
-   * 電子メール、セットトップボックス、またはAPI呼び出し
+  * Web
+  * モバイルアプリ
+  * 電子メール、セットトップボックス、またはAPI呼び出し
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

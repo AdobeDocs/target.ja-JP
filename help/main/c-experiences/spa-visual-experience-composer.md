@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 60%
+source-wordcount: '3960'
+ht-degree: 59%
 ---
 # シングルページアプリケーション（SPA）Visual Experience Composer
 
@@ -102,7 +102,7 @@ at.js 2.xは、[!UICONTROL 管理/実装]にあるAdobe Target UIからダウン
 
 +++ at.js 2.xの最新関数を実装する
 
-at.js 2.xの最新関数[triggerView （） &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}をサイトに実装します。
+at.js 2.xの最新関数[triggerView （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}をサイトに実装します。
 
 A/BまたはXT テストを実行するSPAのビューを定義したら、パラメーターとして渡されたビューでat.js 2.xの`triggerView()`関数を実装します。 これにより、マーケターは VEC を使用し、定義されたビューに対して A/B テストと XT テストを設計して実行できます。 これらのビューに対して `triggerView()` 関数が定義されていない場合、VEC はビューを検出しません。そのため、マーケターは VEC を使用して A/B テストや XT テストを設計して実行できません。
 
@@ -244,7 +244,7 @@ VEC が SPA で適切に動作できるように、VEC の[変更](/help/main/c-
 | 情報 | アクションの詳細を表示します。 |
 | 編集 | アクションのプロパティを直接編集できます。 |
 | 複製 | アクションを、[!UICONTROL 変更] パネルに存在する1つ以上のビュー、またはVECで参照して移動した1つ以上のビューに複製します。 アクションは、[!UICONTROL 変更] パネルに必ずしも存在する必要はありません。<br>**注意**: クローン操作が行われた後、[!UICONTROL 参照]を介してVECのビューに移動し、クローン操作が有効な操作であったかどうかを確認する必要があります。 アクションがビューに適用できない場合、エラーが表示されます。 |
-| 移動 | 変更パネルに既に存在するページの読み込みイベントまたはその他のビューにアクションを移動します。<br>[!UICONTROL &#x200B; ページ読み込みイベント &#x200B;] - ページ読み込みイベントに対応するすべてのアクションは、web アプリケーションの最初のページ読み込み時に適用されます。<br>**注意**：移動操作を行ったら、参照を使用して VEC のビューに移動し、移動が有効な操作かどうかを確認します。 アクションがビューに適用できない場合、エラーが表示されます。 |
+| 移動 | 変更パネルに既に存在するページの読み込みイベントまたはその他のビューにアクションを移動します。<br>[!UICONTROL  ページ読み込みイベント ] - ページ読み込みイベントに対応するすべてのアクションは、web アプリケーションの最初のページ読み込み時に適用されます。<br>**注意**：移動操作を行ったら、参照を使用して VEC のビューに移動し、移動が有効な操作かどうかを確認します。 アクションがビューに適用できない場合、エラーが表示されます。 |
 | 削除 | アクションを削除します。 |
 
 >[!NOTE]
@@ -383,9 +383,9 @@ adobe.target.getOffers({
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | × |
 | [レコメンデーション](/help/main/c-recommendations/recommendations.md) | × |
 
-**at.js 2.x をインストールして `triggerView()` をサイトに実装した場合、SPA VEC は自動ターゲットをサポートしませんが、自動ターゲット A/B アクティビティはどのように実行すればよいですか。**
+**at.js 2.xをインストールして`triggerView()`をサイトに実装した場合、SPA VECが自動ターゲットをサポートしていないため、自動ターゲット A/B アクティビティを実行するにはどうすればよいですか？**
 
-自動ターゲット A/B アクティビティを使用する場合は、ページの読み込みイベントで実行されるすべてのアクションを VEC で移動できます。 各アクションにカーソルを合わせ、[!UICONTROL &#x200B; ページ読み込みイベントに移動] ボタンをクリックします。 その後、次の手順で、トラフィック配分方法に対応する自動ターゲットを選択できます。
+自動ターゲット A/B アクティビティを使用する場合は、ページの読み込みイベントで実行されるすべてのアクションを VEC で移動できます。 各アクションにカーソルを合わせ、[!UICONTROL  ページ読み込みイベントに移動] ボタンをクリックします。 その後、次の手順で、トラフィック配分方法に対応する自動ターゲットを選択できます。
 
 ## サポートされる統合
 
@@ -393,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | ○ |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | ○ |
-| [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja){target=_blank} | ○ |
+| [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | ○ |
 | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | ○ |
 
 ## サポートされる機能 {#supported-features}
@@ -410,15 +410,15 @@ adobe.target.getOffers({
 
 ## SPA VEC のページ配信設定 {#page-delivery-settings}
 
-[!UICONTROL &#x200B; ページ配信]設定を使用すると、Target アクティビティがオーディエンスに対して適格で実行されるタイミングを決定するルールを設定できます。
+[!UICONTROL  ページ配信]設定を使用すると、Target アクティビティがオーディエンスに対して適格で実行されるタイミングを決定するルールを設定できます。
 
-VECの3部構成のガイド付きアクティビティ作成ワークフロー内から[!UICONTROL &#x200B; ページ配信] オプションにアクセスするには、**[!UICONTROL エクスペリエンス]** ステップで、**[!UICONTROL 設定]** （歯車アイコン） > **[!UICONTROL ページ配信]**&#x200B;をクリックします。
+VECの3部構成のガイド付きアクティビティ作成ワークフロー内から[!UICONTROL  ページ配信] オプションにアクセスするには、**[!UICONTROL エクスペリエンス]** ステップで、**[!UICONTROL 設定]** （歯車アイコン） > **[!UICONTROL ページ配信]**&#x200B;をクリックします。
 
 ![ページ配信オプションダイアログボックス](/help/main/c-experiences/assets/page-delivery.png)
 
-例えば、上記の[!UICONTROL &#x200B; ページ配信]設定で定義されているように、訪問者が`https://www.adobe.com/jp/products`を含む任意のURLにアクセスした`https://www.adobe.com/jp` *または*&#x200B;に直接訪問すると、Target アクティビティが修飾され、実行されます。 これは、ページとのすべてのやり取りでページを再読み込みする複数ページアプリケーションに対して完全に機能します。at.js が、ユーザーが移動する URL に対して適合するアクティビティを取得します。
+例えば、上記の[!UICONTROL  ページ配信]設定で定義されているように、訪問者が`https://www.adobe.com/products`を含む任意のURLにアクセスした`https://www.adobe.com` *または*&#x200B;に直接訪問すると、Target アクティビティが修飾され、実行されます。 これは、ページとのすべてのやり取りでページを再読み込みする複数ページアプリケーションに対して完全に機能します。at.js が、ユーザーが移動する URL に対して適合するアクティビティを取得します。
 
-ただし、SPAの動作は異なるため、[!UICONTROL &#x200B; ページ配信]の設定は、すべてのアクションをSPA VEC アクティビティで定義されているとおりにビューに適用できるように設定する必要があります。
+ただし、SPAの動作は異なるため、[!UICONTROL  ページ配信]の設定は、すべてのアクションをSPA VEC アクティビティで定義されているとおりにビューに適用できるように設定する必要があります。
 
 ### 使用例
 
@@ -431,7 +431,7 @@ VECの3部構成のガイド付きアクティビティ作成ワークフロー�
 * URL [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)の下にあるホームビューの背景色を変更しました。
 * URL [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)の下にある製品ビューのボタンの色を変更しました。
 
-上記の例を念頭に置いて、at.js 2.*x*&#x200B;のSPAに[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)のみを含めるように[!UICONTROL &#x200B; ページ配信]設定を設定するとどうなりますか？
+上記の例を念頭に置いて、at.js 2.*x*&#x200B;のSPAに[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)のみを含めるように[!UICONTROL  ページ配信]設定を設定するとどうなりますか？
 
 ![ページ配信ダイアログボックス](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -460,7 +460,7 @@ VECの3部構成のガイド付きアクティビティ作成ワークフロー�
 
 ### ベストプラクティス
 
-ユーザーは SPA の任意の URL に到達したり他のページに移動したりする可能性があるので、管理するユーザージャーニーは非常に難しくなる可能性があります。 このため、SPA 全体を含むことができるように、ベース URL を含むページ配信ルールを指定することが最適です。 これにより、A/B テストやエクスペリエンスターゲティング（XT）アクティビティを表示するページに移動するために、ユーザーが辿る可能性のあるさまざまなジャーニーやパスを考慮する必要がなくなります。
+ユーザーは SPA の任意の URL に到達したり他のページに移動したりする可能性があるので、管理するユーザージャーニーは非常に難しくなる可能性があります。 このため、SPA 全体を含むことができるように、ベース URL を含むページ配信ルールを指定することが最適です。 これにより、ユーザーがA/B テストまたはエクスペリエンスターゲティング（XT）アクティビティを表示するページにアクセスするために必要な様々なジャーニーやパスをすべて考える必要がなくなります。
 
 例えば、上記で直面した問題を解決するために、以下のようにページ配信設定にベース URL を指定できます。
 
@@ -468,15 +468,15 @@ VECの3部構成のガイド付きアクティビティ作成ワークフロー�
 
 これにより、訪問者が SPA のどこに到達し、ホームまたはページビューのどちらに移動しても、適用されたアクションが表示されます。
 
-これで、SPA VECのビューにアクションを追加するたびに、次のポップアップメッセージが表示され、[!UICONTROL &#x200B; ページ配信] ルールについて考えるように促されます。
+これで、SPA VECのビューにアクションを追加するたびに、次のポップアップメッセージが表示され、[!UICONTROL  ページ配信] ルールについて考えるように促されます。
 
 ![ページ配信設定メッセージ](/help/main/c-experiences/assets/pop-up-message.png)
 
-このメッセージは、作成する新しい各アクティビティ用のビューに最初のアクションを追加すると表示されます。 このメッセージは、組織内の全員が、これらの[!UICONTROL &#x200B; ページ配信] ルールを正しく適用する方法を確実に学習するのに役立ちます。
+このメッセージは、作成する新しい各アクティビティ用のビューに最初のアクションを追加すると表示されます。 このメッセージは、組織内の全員が、これらの[!UICONTROL  ページ配信] ルールを正しく適用する方法を確実に学習するのに役立ちます。
 
 ## トレーニングビデオ：Adobe Target での SPA VEC の使用
 
->[!VIDEO](https://video.tv.adobe.com/v/35062?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 詳しくは、[Adobe Target でのシングルページアプリケーション Visual Experience Composer（SPA VEC）の使用](https://helpx.adobe.com/jp/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)を参照してください。
 

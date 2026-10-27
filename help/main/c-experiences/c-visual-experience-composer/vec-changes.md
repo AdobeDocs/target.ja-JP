@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 15%
+source-wordcount: '995'
+ht-degree: 13%
 ---
 # [!UICONTROL Visual Experience Composer]の変更
 
@@ -35,91 +35,91 @@ VECは、既存のアクティビティを作成または編集するときに�
 
 以下の節では、更新されたVECの主な変更点を以前のバージョンと比較して説明します。
 
-### [!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネル
+### [!UICONTROL  エクスペリエンス ] パネル
 
-以前のバージョンと同様に、[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネルはVECの左側に残ります。 [!UICONTROL &#x200B; エクスペリエンス &#x200B;] レールを折りたたむことはできません。
+以前のバージョンと同様に、[!UICONTROL  エクスペリエンス ] パネルはVECの左側に残ります。 [!UICONTROL  エクスペリエンス ] レールを折りたたむことはできません。
 
-![&#x200B; エクスペリエンス パネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![ エクスペリエンス パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL 追加]** アイコン （![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 [!UICONTROL 詳細アクション &#x200B;] アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックして、エクスペリエンスを複製、削除、またはリダイレクトします。
+[!UICONTROL  エクスペリエンス ] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL 追加]** アイコン （![追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 [!UICONTROL 詳細アクション ] アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックして、エクスペリエンスを複製、削除、またはリダイレクトします。
 
-### [!UICONTROL &#x200B; コンポーネント &#x200B;] パネル （新規）
+### [!UICONTROL  コンポーネント ] パネル （新規）
 
-新しい[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルを使用して、web ページに多数のコンポーネントを追加し、必要に応じて編集できます。
+新しい[!UICONTROL  コンポーネント ] パネルを使用して、web ページに多数のコンポーネントを追加し、必要に応じて編集できます。
 
-![&#x200B; コンポーネントパネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![ コンポーネントパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-新しいコンポーネントを追加するには、[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルから目的のコンポーネントを選択し、ページ内の既存の要素にカーソルを合わせ、選択した要素の後にの前にコンポーネントを挿入することを選択します。
+新しいコンポーネントを追加するには、[!UICONTROL  コンポーネント ] パネルから目的のコンポーネントを選択し、ページ内の既存の要素にカーソルを合わせ、選択した要素の後にの前にコンポーネントを挿入することを選択します。
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルではなく、[!UICONTROL 変更] パネルがこの領域に表示されている場合は、**[!UICONTROL コンポーネントを表示]** アイコン （![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックします。 [!UICONTROL &#x200B; コンポーネントを表示] アイコン （![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル &#x200B;](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
+>[!UICONTROL  コンポーネント ] パネルではなく、[!UICONTROL 変更] パネルがこの領域に表示されている場合は、**[!UICONTROL コンポーネントを表示]** アイコン （![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。 [!UICONTROL  コンポーネントを表示] アイコン （![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
 >
->[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルを折りたたんで[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスを拡大し、[!UICONTROL &#x200B; コンポーネント &#x200B;] パネルを開いている間に、（![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）アイコンをクリックします。
+>[!UICONTROL  コンポーネント ] パネルを折りたたんで[!UICONTROL  デザイン ] キャンバスを拡大し、[!UICONTROL  コンポーネント ] パネルを開いている間に、（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）アイコンをクリックします。
 
 ### [!UICONTROL 変更] パネル
 
-[!UICONTROL 変更] レールを開くには、[!UICONTROL &#x200B; コンポーネント &#x200B;] レールの[!UICONTROL 変更を表示] アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。 [!UICONTROL 変更] パネルが、編集キャンバスの右側から左側に位置を変更しました。
+[!UICONTROL 変更] レールを開くには、[!UICONTROL  コンポーネント ] レールの[!UICONTROL 変更を表示] アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。 [!UICONTROL 変更] パネルが、編集キャンバスの右側から左側に位置を変更しました。
 
-![変更パネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![変更パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; コンポーネントを表示] アイコン （![&#x200B; コンポーネントを表示アイコン &#x200B;](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル &#x200B;](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
+>[!UICONTROL  コンポーネントを表示] アイコン （![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と[!UICONTROL 変更を表示] アイコン （![変更を表示パネル ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示するための切り替えスイッチとして機能します。
 >
->[!UICONTROL 変更] レールを折りたたんで[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスを拡大し、[!UICONTROL 変更] レールを開いている間に、[!UICONTROL 変更]を表示アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
+>[!UICONTROL 変更] レールを折りたたんで[!UICONTROL  デザイン ] キャンバスを拡大し、[!UICONTROL 変更] レールを開いている間に、[!UICONTROL 変更]を表示アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
 
 [!UICONTROL 変更] パネルには、VECでページに加えられたすべての変更が表示され、追加の変更（CSS セレクター、Mbox、カスタムコードなど）を行うことができます。
 
-[!UICONTROL 詳細オプション &#x200B;] アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックして、変更を追加するか、すべての変更を削除するか、無効なすべての変更を削除します。 「[!UICONTROL 選択]」をクリックして一括操作を実行します：[!UICONTROL すべてのページに適用]または[!UICONTROL 削除]。
+[!UICONTROL 詳細オプション ] アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックして、変更を追加するか、すべての変更を削除するか、無効なすべての変更を削除します。 「[!UICONTROL 選択]」をクリックして一括操作を実行します：[!UICONTROL すべてのページに適用]または[!UICONTROL 削除]。
 
 [!UICONTROL 変更] レールを再度表示するには、[!UICONTROL 変更] レールの[!UICONTROL 変更を非表示] アイコン （![変更を表示](/help/main/assets/icons/History.svg)）をクリックします。
 
-### [!UICONTROL &#x200B; プロパティ &#x200B;] パネル （新規）
+### [!UICONTROL  プロパティ ] パネル （新規）
 
-[!UICONTROL &#x200B; プロパティ &#x200B;] パネルでは、選択した要素がHTMLの要素であるか、レコメンデーションやオファーなど[!DNL Target]に固有のオブジェクトであるかを問わず、ページ上の選択した要素のプロパティを変更できます。
+[!UICONTROL  プロパティ ] パネルでは、選択した要素がHTMLの要素であるか、レコメンデーションやオファーなど[!DNL Target]に固有のオブジェクトであるかを問わず、ページ上の選択した要素のプロパティを変更できます。
 
-![&#x200B; プロパティ パネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+![ プロパティ パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
 パネルの上部にあるアイコンをクリックして、HTML コードを編集したり、エレメントを削除、複製、非表示にしたりできます。 変更が[!UICONTROL 変更] パネルに表示されます。
 
-![&#x200B; プロパティアイコン &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
+![ プロパティアイコン ](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
 
-[!UICONTROL &#x200B; プロパティ &#x200B;] レールは、右側のレールで折りたたむことができます。 パネルの右側にある[!UICONTROL &#x200B; プロパティ &#x200B;] アイコン（![&#x200B; プロパティアイコン &#x200B;](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;] パネルを折りたたんだり表示したりします。
+[!UICONTROL  プロパティ ] レールは、右側のレールで折りたたむことができます。 パネルの右側にある[!UICONTROL  プロパティ ] アイコン（![ プロパティアイコン ](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL  プロパティ ] パネルを折りたたんだり表示したりします。
 
 ### アクティビティ設定/設定
 
-デザインキャンバスの上に表示されている[!UICONTROL 設定] アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックして、アクティビティプロパティメニューを表示します。
+デザインキャンバスの上に表示されている[!UICONTROL 設定] アイコン（![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックして、アクティビティプロパティメニューを表示します。
 
-![&#x200B; アクティビティ設定オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
+![ アクティビティ設定オプション ](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-様々なオプションを使用すると、プロパティの割り当て、ページ配信ルールの編集、サイトの環境設定の指定、追加ページの追加、複数ページまたは複数のオーディエンスアクティビティの有効化または無効化を行うことができます。 割り当て[!UICONTROL &#x200B; プロパティ &#x200B;]は[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)機能です。
+様々なオプションを使用すると、プロパティの割り当て、ページ配信ルールの編集、サイトの環境設定の指定、追加ページの追加、複数ページまたは複数のオーディエンスアクティビティの有効化または無効化を行うことができます。 割り当て[!UICONTROL  プロパティ ]は[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)機能です。
 
 位置と機能は、以前のVEC UIと似ています。
 
-### [!UICONTROL &#x200B; デザイン &#x200B;]/[!UICONTROL 参照] モード
+### [!UICONTROL  デザイン ]/[!UICONTROL 参照] モード
 
-[!UICONTROL &#x200B; プロパティ &#x200B;] パネルの上に表示される[!UICONTROL &#x200B; デザイン &#x200B;]/[!UICONTROL 参照]の切り替えスイッチを使用して、デザイン モードと参照モードを切り替えます。
+[!UICONTROL  プロパティ ] パネルの上に表示される[!UICONTROL  デザイン ]/[!UICONTROL 参照]の切り替えスイッチを使用して、デザイン モードと参照モードを切り替えます。
 
-![&#x200B; デザインと参照の切り替え](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
+![ デザインと参照の切り替え](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-[!UICONTROL 参照] モードを使用して、サイトを移動し、更新するビューまたはページを選択します。 [!UICONTROL &#x200B; デザイン &#x200B;] モードに切り替えて、変更を追加または編集します。
+[!UICONTROL 参照] モードを使用して、サイトを移動し、更新するビューまたはページを選択します。 [!UICONTROL  デザイン ] モードに切り替えて、変更を追加または編集します。
 
 ### [!UICONTROL 取り消し]/[!UICONTROL やり直し]
 
-[!UICONTROL 取り消し] アイコン （![取り消しアイコン &#x200B;](/help/main/assets/icons/Undo.svg)）をクリックすると、変更を取り消すことができます。
+[!UICONTROL 取り消し] アイコン （![取り消しアイコン ](/help/main/assets/icons/Undo.svg)）をクリックすると、変更を取り消すことができます。
 
-VEC![&#128279;](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)の取り消しアイコン
+VEC](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)の![取り消しアイコン
 
 アクションをやり直すには、取り消し/[!UICONTROL やり直し] ボタングループを展開し、[!UICONTROL やり直し]を選択します。
 
-### [!UICONTROL &#x200B; デザイン &#x200B;] キャンバス
+### [!UICONTROL  デザイン ] キャンバス
 
-[!UICONTROL &#x200B; デザイン &#x200B;] キャンバスでは、画面に合わせて表示するビューポート、[!UICONTROL &#x200B; デスクトップ &#x200B;]、[!UICONTROL &#x200B; タブレット &#x200B;]、[!UICONTROL &#x200B; モバイルランドスケープ &#x200B;]、[!UICONTROL &#x200B; モバイルポートレート &#x200B;]などを選択できます。
+[!UICONTROL  デザイン ] キャンバスでは、画面に合わせて表示するビューポート、[!UICONTROL  デスクトップ ]、[!UICONTROL  タブレット ]、[!UICONTROL  モバイルランドスケープ ]、[!UICONTROL  モバイルポートレート ]などを選択できます。
 
-![&#x200B; ビューポートオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
+![ ビューポートオプション ](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
-更新されたVECでは、適切なアイコン（![&#x200B; ズームインアイコン &#x200B;](/help/main/assets/icons/ZoomIn.svg)または![&#x200B; ズームアウトアイコン &#x200B;](/help/main/assets/icons/ZoomOut.svg)）をクリックしてズームインまたはズームアウトすることもできます。
+更新されたVECでは、適切なアイコン（![ ズームインアイコン ](/help/main/assets/icons/ZoomIn.svg)または![ ズームアウトアイコン ](/help/main/assets/icons/ZoomOut.svg)）をクリックしてズームインまたはズームアウトすることもできます。
 
 ## UIの変更を示すビジュアルイラスト
 
@@ -135,10 +135,10 @@ VEC![&#128279;](/help/main/c-experiences/c-visual-experience-composer/assets/und
 
 * [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!DNL Target] の[!UICONTROL オファーライブラリ] に関する主な UI の変更の概要について説明します。
 
-* [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 
 * [[!UICONTROL Visual Experience Composer]の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2025年2月17日（PT））では、更新された[!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 
 * [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
-* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。 マーケター、開発者、管理者のいずれであっても、このFAQは、スムーズに移行し、更新されたUIを最大限に活用するのに役立ちます。

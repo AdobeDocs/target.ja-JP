@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Web experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 97%
+source-wordcount: '2528'
+ht-degree: 95%
 ---
 # 用語集
 
@@ -231,7 +231,7 @@ Target Standard のアクティビティを視覚的に表したもの。
 
 **フォームベースの Experience Composer**
 
-Visual Experience Composer が使用できない、または使用が実用的でない場合に、A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、レコメンデーションアクティビティで使用するエクスペリエンスを作成するのに便利な、非視覚的なエクスペリエンスおよびオファー作成インターフェイスです。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。
+A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、およびビジュアルエクスペリエンスコンポーザーが使用できない場合や使用が実用的でない場合にRecommendations アクティビティで使用するエクスペリエンスの作成に役立つ、非ビジュアルエクスペリエンスおよびオファー作成インターフェイス。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 

@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 34%
+source-wordcount: '738'
+ht-degree: 31%
 ---
 # カスタム条件のアップロード
 
@@ -45,13 +45,13 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
       >
       >上記の手順により、[!UICONTROL 新規条件の作成] ダイアログボックスの下部に「[!UICONTROL CSV]をアップロード」セクションが表示されます。
 
-1. （条件付き）「[&#x200B; コンテンツをバックアップ &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
+1. （条件付き）「[ コンテンツをバックアップ ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
 
-1. （条件付き）「[包含ルール &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
+1. （条件付き）「[包含ルール ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
 
 1. 「**[!UICONTROL CSVをアップロード]**」セクションで、CSV ファイルの&#x200B;**[!UICONTROL 場所]**&#x200B;を選択します。
 
-   ![CSV セクションをアップロード &#x200B;](assets/upload-csv.png)
+   ![CSV セクションをアップロード ](assets/upload-csv.png)
 
    アップロードを成功させるには、CSV ファイルが正しくフォーマットされている必要があります。 「**[!UICONTROL CSV テンプレートのダウンロード]**」をクリックして、正しくフォーマットされた CSV ファイルをダウンロードします。
 
@@ -66,15 +66,15 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 
 * カスタム条件エンティティ（行）は、最大 1,000 のレコメンデーション品目（列）を含むことができます。
 
-* カスタム条件の更新は、デフォルトでは「累積的」です。 既存のキーと値のペアが、CSV アップロードファイルで指定した新しいキーと値のペアで上書きされます。 CSV アップロードで指定されたキーを持たない既存のキーと値のペアは、引き続き配信でき、CSV ファイルの一部として最後にアップロードされてから31日以内に期限切れになります。
+* カスタム条件の更新は、デフォルトでは「累積的」です。 既存のキーと値のペアが、CSV アップロードファイルで指定した新しいキーと値のペアで上書きされます。 CSV アップロードで指定されたキーを持たない既存のキーと値のペアは、引き続き配信に使用でき、CSV ファイルの一部として最後にアップロードされてから31日以内に期限切れになります。
 
-  クライアントケアに連絡して、次回の CSV アップロードに含まれていない既存の結果を破棄できるようにします。 この設定が有効になっている場合、カスタム CSV フィード ファイルに存在するキーのみが配信できます。 この設定は、すべてのカスタム条件に適用されます。
+  次のCSV アップロードに含まれていない既存の結果を破棄する設定を有効にするには、クライアントケアにお問い合わせください。 この設定が有効になっている場合、カスタム CSV フィード ファイルに存在するキーのみが配信できます。 この設定は、すべてのカスタム条件に適用されます。
 
 * カスタム条件フィードは 24 時間ごとに更新されます。
 
   カスタム条件のアップロードと同期のステータスは、[!UICONTROL Recommendations] > [!UICONTROL Criteria] ページの各条件カードの下部に表示されます。 カスタム条件を編集する際に、[!UICONTROL 編集] ダイアログボックスにステータスを表示することもできます。
 
-* エラーのないアップロードのフローは、[!UICONTROL &#x200B; スケジュール済み] > [!UICONTROL &#x200B; フィードファイルのダウンロード &#x200B;] > [!UICONTROL &#x200B; インポート &#x200B;] > [!UICONTROL 成功]である必要があります。
+* エラーのないアップロードのフローは、[!UICONTROL  スケジュール済み] > [!UICONTROL  フィードファイルのダウンロード ] > [!UICONTROL  インポート ] > [!UICONTROL 成功]である必要があります。
 
 * [!DNL Target]がアップロードに問題が発生した場合に表示される可能性のあるエラーメッセージは次のとおりです。
 
@@ -87,7 +87,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
   | ディレクトリが見つかりません | サーバーに存在するディレクトリを指定します。 |
   | ファイルが見つかりません | サーバー上の指定したディレクトリに存在するファイルの名前を指定します。 |
 
-## トレーニングビデオ：Recommendationsで条件を作成する（12:33） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendationsで条件を作成する（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています（カスタム条件のアップロードの詳細は11:43から始まります）。
 
@@ -95,4 +95,4 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/35341?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
