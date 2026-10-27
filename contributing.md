@@ -52,4 +52,4 @@ submitting a pull request!
 
 ## セキュリティの問題
 
-セキュリティ上の問題は、この問題トラッカーで報告しないでください。 代わりに、[ セキュリティのエキスパートに問題を報告してください](https://helpx.adobe.com/security/alertus.html)
+セキュリティ上の問題は、この問題トラッカーで報告しないでください。 代わりに、[&#x200B; セキュリティのエキスパートに問題を報告してください](https://helpx.adobe.com/security/alertus.html)

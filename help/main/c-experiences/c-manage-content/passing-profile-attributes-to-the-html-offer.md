@@ -33,7 +33,7 @@ ht-degree: 55%
 ## ビジネスケース
 
 * 割引オファーを昇格して、最後に購入した製品を「再入力」または「補充」することができます。 カタログ内のアイテムごとに個別のオファーを作成する代わりに、動的テキストを使用してオファーを作成し、プロファイルから「最後に購入した製品」を読み取り、オファーにリンクを表示できます。
-* 訪問者が、`keyword=world``cup` を含むランディングページに到達します。 この場合、「*ワールドカップ*」という用語をオファーに表示します。
+* 訪問者が、`keyword=world`&#x200B;`cup` を含むランディングページに到達します。 この場合、「*ワールドカップ*」という用語をオファーに表示します。
 * （1）訪問者のカートに最後に追加された商品（Nike Air Max 1000台）、（2）訪問者の色設定（黒）、（3）訪問者のお気に入りの靴ではないカテゴリー（パーカー）などの情報で、レコメンデーションラベルをパーソナライズします。 例:「クールな『黒』『パーカー』で、あなたの『Nike Air Max 1000』をコーディネートしましょう！」
 
 ## 技術的利点
@@ -62,7 +62,7 @@ ht-degree: 55%
 
 デバッグ目的でコンソールに `${campaign.name}`、`${campaign.id}`、`${campaign.recipe.name}`、`${campaign.recipe.id}`、`${offer.name}`、`${offer.id}`、`${campaign.name}` などの情報を記録します。
 
-[!DNL Recommendations]件のデザインについては、[ デザインの概要](/help/main/c-recommendations/c-design-overview/design-overview.md)の追加例を参照してください。
+[!DNL Recommendations]件のデザインについては、[&#x200B; デザインの概要](/help/main/c-recommendations/c-design-overview/design-overview.md)の追加例を参照してください。
 
 ## 実装
 

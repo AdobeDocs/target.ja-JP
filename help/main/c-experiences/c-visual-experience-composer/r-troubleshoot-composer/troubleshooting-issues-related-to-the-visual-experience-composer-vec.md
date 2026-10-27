@@ -64,7 +64,7 @@ Web サイト（特にシングルページアプリ）で、あるページか�
 
 ![コンソールエラーメッセージ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-[!UICONTROL Visual Experience Composer]も[!UICONTROL Enhanced Experience Composer]も機能しない場合は、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）などのブラウザー拡張機能または応答ヘッダーの変更（Firefox）を使用して、サイトのX-Frames ヘッダーオプションを上書きし、iFramesに読み込めるようにして、VECを有効にします。 ブラウザー拡張機能を使用できない場合は、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。
+[!UICONTROL Visual Experience Composer]も[!UICONTROL Enhanced Experience Composer]も機能しない場合は、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）などのブラウザー拡張機能または応答ヘッダーの変更（Firefox）を使用して、サイトのX-Frames ヘッダーオプションを上書きし、iFramesに読み込めるようにして、VECを有効にします。 ブラウザー拡張機能を使用できない場合は、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。
 
 >[!NOTE]
 >
@@ -114,13 +114,13 @@ Web サイト（特にシングルページアプリ）で、あるページか�
 
    これで、[!UICONTROL Visual Experience Composer]を使用してページをすばやく読み込めるようになります。
 
-**Firefox]:**&#x200B;で[!DNL Modify Response Headers]拡張機能を使用するには[!UICONTROL 
+**Firefox:**&#x200B;で[!DNL Modify Response Headers]拡張機能を使用するには
 
 1. [!UICONTROL 応答ヘッダーを変更]を[!DNL Firefox]にインストールし、ブラウザーを再起動します。
 1. [!DNL Firefox]拡張機能から、「応答ヘッダーを変更」拡張機能を選択します。
 1. 「**[!UICONTROL 環境設定]**」をクリックします。
-1. 「[!UICONTROL  アクション ]」ドロップダウンから「**[!UICONTROL フィルター]**」を選択します。
-1. 「[!UICONTROL  ヘッダー名]」フィールドに、**[!UICONTROL X-Frame-Options]**&#x200B;と入力します。
+1. 「[!UICONTROL &#x200B; アクション &#x200B;]」ドロップダウンから「**[!UICONTROL フィルター]**」を選択します。
+1. 「[!UICONTROL &#x200B; ヘッダー名]」フィールドに、**[!UICONTROL X-Frame-Options]**&#x200B;と入力します。
 1. 手順 4 と 5 を繰り返して **[!UICONTROL x-frame-options]** によるフィルターを追加します。
 1. 「**[!UICONTROL 追加]**」をクリックします。
 1. 「**[!UICONTROL Start（開始）]**」をクリックします。

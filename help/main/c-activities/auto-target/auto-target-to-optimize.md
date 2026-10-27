@@ -106,8 +106,8 @@ A/B アクティビティフロー内で「[!UICONTROL 自動ターゲット]」
 | 用語 | 詳細 |
 |--- |--- |
 | [ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 自動ターゲット]と [!UICONTROL Automated Personalization] の両方で使用される [!DNL Target] の主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、構成要素となるどの学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを発揮します。 [!UICONTROL Automated Personalization] アクティビティと[!UICONTROL 自動ターゲット]アクティビティのランダムフォレストアルゴリズムは、トレーニング時に多数の決定ツリーを作成することで機能する分類または回帰手法です。 |
-| [ [!DNL Target] のパーソナライゼーションアルゴリズムのデータのアップロード](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 自動ターゲット]と [!UICONTROL Automated Personalization] モデルのデータを入力する方法は複数あります。 |
-| [ [!DNL Target] のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target] のパーソナライゼーションアルゴリズムは様々なデータを自動収集します。 |
+| [&#x200B; [!DNL Target] のパーソナライゼーションアルゴリズムのデータのアップロード](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 自動ターゲット]と [!UICONTROL Automated Personalization] モデルのデータを入力する方法は複数あります。 |
+| [&#x200B; [!DNL Target] のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target] のパーソナライゼーションアルゴリズムは様々なデータを自動収集します。 |
 
 ## トラフィック配分の決定 {#section_AB3656F71D2D4C67A55A24B38092958F}
 

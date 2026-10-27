@@ -74,7 +74,7 @@ VEC 内でページの読み込み中またはページの読み込みに失敗�
 * アクセスできなくなったページから既存のカスタムコードをコピーする
 * VEC 内でページが読み込まれないことはわかっているが、それでも簡単な編集を行いたい
 
-ページが読み込まれる間（または読み込みに失敗した後）、[!UICONTROL  エクスペリエンス ] パネル、[!UICONTROL 変更] パネル、およびエクスペリエンスの上部にある設定（オーバーレイ、変更、設定など）はすべてアクセス可能です。
+ページが読み込まれる間（または読み込みに失敗した後）、[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネル、[!UICONTROL 変更] パネル、およびエクスペリエンスの上部にある設定（オーバーレイ、変更、設定など）はすべてアクセス可能です。
 
 次の図は、ページの読み込み中にカスタムコードを挿入したり、その他のアクションを実行したりできることを示しています。
 
@@ -112,14 +112,14 @@ VEC内のページの読み込みをキャンセルするには、ページの�
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer （1/2） （7:17） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Visual Experience Composer （1/2） （7:17） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer （2/2） （7:29） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Visual Experience Composer （2/2） （7:29） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
@@ -130,7 +130,7 @@ VEC内のページの読み込みをキャンセルするには、ページの�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 勤務時間：Visual Experience Composer ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### 勤務時間：Visual Experience Composer ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオは、「[Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 

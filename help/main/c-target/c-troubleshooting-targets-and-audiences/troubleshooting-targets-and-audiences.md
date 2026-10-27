@@ -37,9 +37,9 @@ Targetでは、アクティビティの作成時にオーディエンス URL タ
 
 ### オーディエンス URL ターゲティング
 
-アクティビティの作成中にオーディエンス URL ターゲティングを適用するには、**[!UICONTROL エクスペリエンス]** ページ（3段階のガイド付きワークフローの1つ）で、**[!UICONTROL 設定]** アイコン（![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**&#x200B;をクリックしてから、目的のURLを指定します。
+アクティビティの作成中にオーディエンス URL ターゲティングを適用するには、**[!UICONTROL エクスペリエンス]** ページ（3段階のガイド付きワークフローの1つ）で、**[!UICONTROL 設定]** アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**&#x200B;をクリックしてから、目的のURLを指定します。
 
-![ ページ配信URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![&#x200B; ページ配信URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
 オーディエンス URL ターゲティングでは、URLが完全に一致する必要があります。 URLが一致する場合、Targetはそれ以上のロジックを考慮しません。 上記のURLでは、アクティビティが`www.example.com`に対して実行されるように設定されている場合、オーディエンス URL ターゲティングはクエリに依存しないため、URLは次のURLと一致します。
 
@@ -49,13 +49,13 @@ Targetでは、アクティビティの作成時にオーディエンス URL タ
 
 URLでのオーディエンスターゲティング以外に、クエリに含めることができる特定の値を指定することもできます。
 
-[!UICONTROL  テンプレートルール ]を介して追加されたオーディエンス URL ターゲティングとURL ターゲティングは、URL ターゲティングとして評価されます（以下のURL ターゲティングを参照）。
+[!UICONTROL &#x200B; テンプレートルール &#x200B;]を介して追加されたオーディエンス URL ターゲティングとURL ターゲティングは、URL ターゲティングとして評価されます（以下のURL ターゲティングを参照）。
 
 ### URL ターゲティング {#url-targeting}
 
-URL ターゲティングを適用するには、オーディエンスの作成中に「**[!UICONTROL サイトページ]**」をクリックし、[!UICONTROL  オーディエンスの作成] ペインにドロップし、**[!UICONTROL サイトページ]**」をクリックし、最初のドロップダウンリスト（[!UICONTROL 現在ページ ]、[!UICONTROL 前ページ ]、または[!UICONTROL  ランディングページ ]）からオプションを選択し、2番目のドロップダウンリストから[!UICONTROL URL]を選択して、目的URLを指定を指定指定します。
+URL ターゲティングを適用するには、オーディエンスの作成中に「**[!UICONTROL サイトページ]**」をクリックし、[!UICONTROL &#x200B; オーディエンスの作成] ペインにドロップし、**[!UICONTROL サイトページ]**」をクリックし、最初のドロップダウンリスト（[!UICONTROL 現在ページ &#x200B;]、[!UICONTROL 前ページ &#x200B;]、または[!UICONTROL &#x200B; ランディングページ &#x200B;]）からオプションを選択し、2番目のドロップダウンリストから[!UICONTROL URL]を選択して、目的URLを指定を指定指定します。
 
-![ サイトページ >現在のページ > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![&#x200B; サイトページ >現在のページ > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL ターゲティングは、URLを評価する一連のルールに変換します。
 

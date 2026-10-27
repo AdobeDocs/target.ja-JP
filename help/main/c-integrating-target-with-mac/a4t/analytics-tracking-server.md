@@ -52,7 +52,7 @@ ht-degree: 17%
 
    ![Screen_DebuggerTrackServ画像](assets/Screen_DebuggerTrackServ.png)
 
-   [!DNL Analytics] トラッキングサーバーは、デバッガーの[!UICONTROL  ホスト名] セクションにあります。
+   [!DNL Analytics] トラッキングサーバーは、デバッガーの[!UICONTROL &#x200B; ホスト名] セクションにあります。
 
    * **ファーストパーティ追跡サーバー**：要求のホスト名が使用中のドメインと一致する場合、それはファーストパーティ追跡サーバーです。 例えば、`adobe.com`を使用している場合、`adobe.com`は1st パーティトラッキングサーバーです。
    * **サードパーティ追跡サーバー**: サードパーティ追跡サーバーは通常`[company].sc.omtrdc.net`です。会社は会社名ですが、常に`sc.omtrdc.net`で終わります。
@@ -64,7 +64,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >「[!UICONTROL  トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
+   >「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
 
 ## ブラウザーの開発者ツールを使用して[!DNL Analytics]追跡サーバーを取得します
 
@@ -72,7 +72,7 @@ ht-degree: 17%
 
 1. アクティビティを作成するページで、ブラウザーのデベロッパーツールを開きます（Google Chromeで、右上隅の3つの縦長の省略記号をクリックして、その他のツール/デベロッパーツール）。
 
-   ![Chrome開発者向けツール ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Chrome開発者向けツール &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. 「**[!UICONTROL ネットワーク]**」タブをクリックします。
 
@@ -92,4 +92,4 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >「[!UICONTROL  トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。
+   >「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドを使用するには、アクティビティの「[!UICONTROL Analytics」をレポートSource]として選択します。

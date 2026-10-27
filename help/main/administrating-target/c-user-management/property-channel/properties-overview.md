@@ -77,7 +77,7 @@ ht-degree: 54%
 
 ## 手順 1. ユーザーの追加（オプション） {#section_A92AF0F921B743FEB9E9033433BD816A}
 
-新しい[!UICONTROL  プロパティ ]機能の使用を開始する場合、すべてのユーザー管理を[!DNL Adobe Admin Console for Enterprise]で実行する必要があります。 ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
+新しい[!UICONTROL &#x200B; プロパティ &#x200B;]機能の使用を開始する場合、すべてのユーザー管理を[!DNL Adobe Admin Console for Enterprise]で実行する必要があります。 ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
 1. [Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)で、ページの上部にある「**[!UICONTROL ユーザー]**」タブをクリックし、「**[!UICONTROL ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
@@ -138,7 +138,7 @@ ht-degree: 54%
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
-1. [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL  プロパティ ]のリストを表示します。
+1. [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;]のリストを表示します。
 1. 「**プロパティを作成**」をクリックします。
 
    以下のフィールドを設定します。
@@ -163,9 +163,9 @@ ht-degree: 54%
 
    または
 
-   [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL  プロパティ ]のリストを表示します。
+   [!DNL Target]で、**[!UICONTROL 管理]** > **[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL &#x200B; プロパティ &#x200B;]のリストを表示します。
 
-   1. 目的のプロパティを表示するには、[!UICONTROL 最終更新日]列にマウスポインターを置き、[!UICONTROL  コード ] アイコン （![ コードアイコン ](/help/main/assets/icons/Code.svg)）をクリックします。
+   1. 目的のプロパティを表示するには、[!UICONTROL 最終更新日]列にマウスポインターを置き、[!UICONTROL &#x200B; コード &#x200B;] アイコン （![&#x200B; コードアイコン &#x200B;](/help/main/assets/icons/Code.svg)）をクリックします。
 
       ![プロパティホバーコード](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -205,7 +205,7 @@ ht-degree: 54%
 
 1. 「**[!UICONTROL ユーザー]**」をクリックします。
 
-   「[!UICONTROL  ユーザー]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
+   「[!UICONTROL &#x200B; ユーザー]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
 
    ![設定ユーザー](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
@@ -228,9 +228,9 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL  セットアップ ]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は一般的に正しいですが、オプションは少し異なる場所にある場合があります。 更新されたビデオは間もなく投稿される予定です。
+>[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は一般的に正しいですが、オプションは少し異なる場所にある場合があります。 更新されたビデオは間もなく投稿される予定です。
 
-### Adobe Target Workspacesの設定方法（6:55） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Adobe Target Workspacesの設定方法（6:55） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、ワークスペースの作成方法を説明します。
 
@@ -244,7 +244,7 @@ ht-degree: 54%
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### Adobe Targetでプロパティを作成する方法（3:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+### Adobe Targetでプロパティを作成する方法（3:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 * [!DNL Adobe Target] インターフェイス内でプロパティを作成する方法
 * プロパティトークンを生成してプロパティの実装に含める方法
