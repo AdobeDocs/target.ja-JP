@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 30%
+source-wordcount: '666'
+ht-degree: 26%
 ---
 # Analytics をレポートソースとして使用するアクティビティの作成
 
@@ -56,7 +56,7 @@ ht-degree: 30%
 
      お客様の[!DNL Analytics]社をご確認ください。 お客様の[!DNL Adobe Experience Cloud] アカウントが複数の[!DNL Analytics]企業に関連付けられている場合は、[!DNL Target]からログアウトし、適切な企業下の[!DNL Analytics]にログインしてください。 次に[!DNL Target]に戻り、レポートスイートが読み込まれます。
 
-   * 対象のレポートスイートが表示されません。
+   * 期待したレポートスイートが表示されません。
 
      [!DNL Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 期待するレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。
 
@@ -75,7 +75,7 @@ ht-degree: 30%
    >
    >[!DNL Analytics] データのみに依存するのではなく、[!DNL Analytics]にカスタム Target ベースの指標を送信できます。 例えば、通常は[!DNL Analytics]によって追跡されないページのクリックを監視できます。 このカスタム指標は、[!DNL Target] サーバーから自動的に[!DNL Analytics]に送信され、[!DNL Analytics]の指標セレクターに「[!DNL Target] コンバージョン」指標として表示されます。 [!DNL Analytics]指標を使用することを選択した場合、[!DNL Target] コンバージョン指標は空です。
 
-   目標を設定した場合でも、テスト結果を評価する際に他の指標を使用することは可能です。 ただし、この目標は、アクティビティにおいて向上させたいものを明確にする役割を果たします。
+   目標を設定しても、テスト結果を評価する際に別の指標を使用できないわけではありません。 ただし、この目標は、アクティビティにおいて向上させたいものを明確にする役割を果たします。
 
    訪問者は、目標を達成した後もアクティビティ内にとどまります。 訪問者には引き続きアクティビティコンテンツが表示されますが、新たなアクティビティエントリとしてはカウントされません。
 

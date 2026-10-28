@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 49%
+source-wordcount: '2560'
+ht-degree: 45%
 ---
 # [!UICONTROL Visual Experience Composer]のベストプラクティスと制限事項
 
@@ -61,7 +61,7 @@ VECを使用する際のベストプラクティスは次のとおりです。
 +++詳細を見る
 [!UICONTROL Enhanced Experience Composer]の読み込み中に問題が発生した場合は、次のIP アドレスを許可リストに加えるして解決できます。 これらのIP アドレスは、[!UICONTROL Enhanced Experience Composer] プロキシに使用される[!DNL Adobe] サーバー用です。 これらは、アクティビティの編集にのみ必要です。 サイトへの訪問者は、これらのIP アドレスを許可リストに加えるする必要はありません。
 
-詳しくは、[拡張Experience Composer *に関する問題のトラブルシューティングに関する記事の* パブリック IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)でアクセスできない内部QA URLをEECが読み込むことはありません。
+詳しくは、[拡張Experience Composer *に関する問題のトラブルシューティングに関する記事の* パブリック IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)でアクセスできない内部QA URLがEECによって読み込まれませんを参照してください。
 
 +++
 
@@ -79,7 +79,7 @@ body 要素内に直接配置されるあらゆる要素に一意の ID が必�
 +++詳細
 [!DNL Visual Experience Composer]でCSS クラスを編集する場合は、記述的なクラス名を使用して、クラスを識別しやすくすることが役立ちます。 これにより、確実に正しい CSS クラスを編集して、ページを期待どおりに表示させることができます。
 
-要素を隠すまたは削除する際に、`!important` CSS プロパティを使用しない。
+要素を非表示または削除する場合は、`!important` CSS プロパティを使用しないでください。
 
 `!important` CSS プロパティが存在する場合、配信中に`target.js`が行った変更は、サイトのCSS ルールによって上書きされます。
 
@@ -124,7 +124,7 @@ OR
 
 +++
 
-### Web サイト内で base タグを使用して URL とリンクを解決してはならない。
+### URLとリンクを解決するために、web サイトで基本タグを使用しないでください。
 
 +++詳細
 VECは、リンクを更新するプロキシサーバーを使用して、バックグラウンドでweb サイトを操作します。 base タグを追加すると、このプロキシサーバーが使用する URL が、ブラウザーによって再度解決され、壊れているように表示されます。
@@ -141,7 +141,7 @@ VECは、リンクを更新するプロキシサーバーを使用して、バ�
 
 変更するたびに、VECに新しい要素が作成されます。 2 つ目の操作では、要素 1 を変更しているので、要素 1 を削除すると、2 つ目の操作で変更する対象となる要素がなくなるので、変更が動作しなくなります。
 
-つまり、テキストを持つ要素を追加し、別の操作でその要素を異なるテキストに編集した場合、コードエディターには、両方の操作が別々の要素として表示されます。 要素を編集した場合は、作成した元の要素を変更した新しい要素が作成され、その新しい要素に編集したテキストが設定されます。 その後、元の要素を削除すると、編集されたテキストは、編集された要素を見付けることができないので、表示されません。 2 つ目の要素は要素のリストには引き続き含まれていますが、変更元の要素が存在しなくなっているので、ページ上での効果がなくなります。
+つまり、テキストを持つ要素を追加し、別の操作でその要素を異なるテキストに編集した場合、コードエディターには、両方の操作が別々の要素として表示されます。 要素を編集した場合は、作成した元の要素を変更した新しい要素が作成され、その新しい要素に編集したテキストが設定されます。 その後、元のエレメントを削除すると、編集したテキストは編集したエレメントを見つけることができず、表示されません。 2 つ目の要素は要素のリストには引き続き含まれていますが、変更元の要素が存在しなくなっているので、ページ上での効果がなくなります。
 
 [!UICONTROL Visual Experience Composer]&#x200B;[&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)で使用されている要素セレクターを参照してください。
 
@@ -188,7 +188,7 @@ VECは、リンクを更新するプロキシサーバーを使用して、バ�
 
 +++
 
-### Web サイト内で base タグを使用して URL やリンクを解決してはならない。
+### URLとリンクを解決するために、web サイトで基本タグを使用しないでください。
 
 +++詳細
 [!UICONTROL Enhanced Experience Composer]を使用すると、すべてのリンク URLを更新してプロキシで動作させるプロキシサーバーによって、Web サイトが舞台裏で操作されます。 基本タグを追加すると、これらのURLはすべてブラウザーで解決されるため、破損しているように見えます。
@@ -265,7 +265,7 @@ Web サイトでiframe バスティング機能をオフにし、ダミーペー
 ### [!UICONTROL Move]機能はz インデックスをサポートしていません。
 
 +++詳細
-z- インデックス機能がないので、移動後の要素を別の要素の上に移動することはできません。 詳しくは、[制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)を参照してください。
+z-index機能がないため、移動された要素を別の要素の上に移動することはできません。 詳しくは、[制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)を参照してください。
 
 +++
 

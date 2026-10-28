@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 16%
 ---
 # [!DNL Adobe Analytics] データを使用しています
 
@@ -35,7 +35,7 @@ ht-degree: 19%
 >
 >[!DNL Adobe Analytics] オプションは、[!DNL Adobe Experience Cloud] アカウントを[!DNL Analytics]と[!DNL Target]の両方にリンクしている場合に、[!DNL Target]と[!DNL Analytics]の統合がアカウントに設定されていない場合でも使用できます。
 
-[!DNL Analytics]を[!DNL Target]のレポートソースとして選択する場合、[!DNL Analytics] レポートスイートを選択して[!DNL Target] アクティビティデータを受信します。 レポートソースを指定するには、まずアカウントが関連付けられている[!DNL Analytics]社の中から選択し、アクティビティに適したレポートスイートを選択します。 [!DNL Adobe Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 期待するレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。 レポートスイートがまだリストにない場合は、カスタマーケアにお問い合わせください。
+[!DNL Analytics]を[!DNL Target]のレポートソースとして選択する場合、[!DNL Analytics] レポートスイートを選択して[!DNL Target] アクティビティデータを受信します。 レポートソースを指定するには、まずアカウントが関連付けられている[!DNL Analytics]社の中から選択し、アクティビティに適したレポートスイートを選択します。 [!DNL Adobe Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 想定しているレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。 レポートスイートがまだリストにない場合は、カスタマーケアにお問い合わせください。
 
 [!UICONTROL Analytics for Target] （A4T）では、結果を正しく報告するためにトラッキングサーバーが必要です。 デフォルトのトラッキングサーバーが「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合は、このフィールドに正しいトラッキングサーバーを含めるようにしてください。 詳しくは、[Analytics トラッキングサーバーの使用](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照してください。
 
@@ -47,6 +47,6 @@ ht-degree: 19%
 
 各アクティビティの目標として使用する成功指標を選択する必要があります。 アクティビティの目標は、アクティビティの成功を示すコンバージョンアクティビティです。 ベストプラクティスは、必ず何らかの意味で向上が図れる目標を設定してからテストを実行することです。 [!DNL Analytics]指標セレクターで使用できる任意の[!DNL Analytics]指標を選択できます。
 
-目標を設定した場合でも、テスト結果を評価する際に他の指標を使用することは可能です。 ただ、この目標は、テストにおいて向上させたいものを明確にする役割を果たします。
+目標を設定しても、テスト結果を評価する際に別の指標を使用できないわけではありません。 ただ、この目標は、テストにおいて向上させたいものを明確にする役割を果たします。
 
 訪問者が目標を達成すると、その訪問者はアクティビティに含まれなくなります。 訪問者がアクティビティを完了した後にアクティビティに再エントリした場合、その訪問者は新規訪問者としてカウントされます。

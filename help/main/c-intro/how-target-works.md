@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2289'
 ht-degree: 20%
 ---
 # [!DNL Adobe Target] の仕組み

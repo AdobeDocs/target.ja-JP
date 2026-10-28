@@ -9,30 +9,42 @@ exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 55%
-
+source-wordcount: '1513'
+ht-degree: 54%
 ---
-
 # Enterprise 権限の設定
 
 ユーザーを[!DNL Target]実装に追加するために必要なタスクに関する情報。ワークスペース、ユーザーグループ、およびプロパティを作成し、`at_property` パラメーターを含めるように[!DNL Target]実装を更新し、役割と権限を指定します。
@@ -92,8 +104,8 @@ ht-degree: 55%
 
    * **新規ワークスペース（製品プロファイル）：**&#x200B;次の手順を実行することで、新しい権限機能の利用を開始できます。
 
-      * [!DNL Admin Console for Enterprise] での新しいワークスペースの作成。
-      * Target プロパティのワークスペースへの割り当て。
+     * [!DNL Admin Console for Enterprise] での新しいワークスペースの作成。
+     * Target プロパティのワークスペースへの割り当て。
 
    これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。 ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つことができます。
 
@@ -104,7 +116,7 @@ ht-degree: 55%
 
 ### ワークスペース IDの取得 {#workspace-id}
 
-[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} の Enterprise 権限を活用するには、ワークスペース IDを渡す必要があります。
+[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}のエンタープライズ権限を活用するには、ワークスペース IDを渡す必要があります。
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com)で、「[!UICONTROL 製品]」タブをクリックし、左側のメニューの製品をクリックしてPLC （ワークスペース）リストを表示します。
 1. 目的のPLC（ワークスペース）をクリックし、次に示す URL で「プロファイル」 ID を探します。
@@ -225,8 +237,8 @@ ht-degree: 55%
 * Adobe Target のインターフェイスから Adobe Admin Console にアクセスします（3 つの方法）
 * Adobe Admin Console でワークスペースを設定します
 
-   * ユーザーをワークスペースに追加します
-   * プロパティをワークスペースに追加します
+  * ユーザーをワークスペースに追加します
+  * プロパティをワークスペースに追加します
 
 * デフォルトのワークスペースの概要を説明します
 
@@ -238,8 +250,8 @@ ht-degree: 55%
 * プロパティトークンを生成してプロパティの実装に含める方法
 * 次の 3 つの実装方法について説明します。
 
-   * Web
-   * モバイルアプリ
-   * 電子メール、セットトップボックス、またはAPI呼び出し
+  * Web
+  * モバイルアプリ
+  * 電子メール、セットトップボックス、またはAPI呼び出し
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

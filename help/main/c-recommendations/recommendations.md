@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 93%
+source-wordcount: '872'
+ht-degree: 90%
 ---
 # レコメンデーション
 
@@ -66,7 +66,7 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 
 ## キーワード
 
-[!DNL Recommendations]を使い始める前に、この節で使用する用語の一部を理解しておくと役に立ちます。 これらの用語をまだ十分に理解していない方であっても、[!DNL Recommendations] アクティビティを設定しながら慣れることができます。
+[!DNL Recommendations]を使い始める前に、この節で使用する用語の一部を理解しておくと役に立ちます。 これらの用語をまだ完全に理解していない場合は、[!DNL Recommendations] アクティビティを設定するにつれて、これらの用語に慣れ親しむことができます。
 
 | 用語 | 定義 |
 | --- | --- |

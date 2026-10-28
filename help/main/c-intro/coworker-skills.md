@@ -6,9 +6,9 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 2%
 ---
 
@@ -207,7 +207,7 @@ Adobe Targetの実務担当者は、共同作業に必要なスキルを磨き�
 
 *プロンプト例：*
 
-* 「なぜおすすめの情報が表示されないのですか？」
+* 「なぜ私の推薦状が現れないのですか？」
 * 「このRecommendations アクティビティのフィードとカタログ設定を診断します。」
 * 「配信または設定の問題がレコメンデーションに影響を与えていますか？」
 

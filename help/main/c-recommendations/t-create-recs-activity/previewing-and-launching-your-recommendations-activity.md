@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1539'
 ht-degree: 13%
 ---
 # レコメンデーションアクティビティのプレビューと起動
@@ -82,7 +82,7 @@ QA リンクを使用すると、ページ上のレコメンデーションを�
 
 >[!NOTE]
 >
->* ターゲット QA モードは「スティッキー」で、Cookieに保存されます。 QA モードを終了しない場合は、サイト全体でQAの結果が引き続き表示されます。 QA モードを終了するには、[bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)を使用します。
+>* ターゲット QA モードは「スティッキー」で、Cookieに保存されます。 QA モードを終了しない場合は、サイト全体でQAの結果が表示され続けます。 QA モードを終了するには、[bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)を使用します。
 >
 >* QA モードでは、サイトを参照しても、プロファイルの[!UICONTROL 最近閲覧したアイテム &#x200B;]または[!UICONTROL 最近購入したアイテム &#x200B;]には影響しません。 この動作は、生産行動データの意図しない汚染を避けるために、設計によって行われます。 [!UICONTROL 最近閲覧したアイテム &#x200B;]または[!UICONTROL &#x200B; ユーザーベースのレコメンデーション &#x200B;]の条件の結果をプレビューするには、まずQA モード以外のサイトを参照し、同じセッションを使用してQA モードリンクを開きます。
 

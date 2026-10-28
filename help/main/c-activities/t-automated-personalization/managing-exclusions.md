@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 26%
 ---
 # 除外の管理
@@ -46,7 +46,7 @@ AP アクティビティの異なる場所で使用する場合、オファー�
 
 AP アクティビティから特定のオファーの組み合わせを除外する場合は、特定のエクスペリエンスを除外します。
 
-特定の組み合わせで連携しない場合や、テストしたエクスペリエンスの数を制限して、アクティビティのトラフィック要件を軽減する場合などがあります。
+特定の組み合わせが連携しない場合や、テストしたエクスペリエンスの数が制限されて、アクティビティのトラフィック要件が減少する場合があります。
 
 1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)、**コンテンツの管理** アイコン（![&#x200B; コンテンツの管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックします。
 

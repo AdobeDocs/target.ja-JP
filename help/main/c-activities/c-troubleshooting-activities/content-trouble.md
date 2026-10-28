@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # コンテンツ配信のトラブルシューティング
 
@@ -138,7 +138,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 ## レコメンデーションにトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SiteCatalyst: purchase`* 呼び出しは、購入アルゴリズムトラフィックデータには使用できません。 代わりに、*`orderConfirmPage`* 呼び出しを使用します。
+*`SiteCatalyst: purchase`*&#x200B;呼び出しは、購入アルゴリズムのトラフィックデータに使用できません。 代わりに、*`orderConfirmPage`* 呼び出しを使用します。
 
 ## アクティビティの優先度を確認 {#section_3D0DD07240F0465BAF655D0804100AED}
 

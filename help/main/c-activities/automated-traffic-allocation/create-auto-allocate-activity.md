@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 14%
+source-wordcount: '1075'
+ht-degree: 12%
 ---
 # [!UICONTROL 自動割り当て] アクティビティの作成
 
@@ -90,7 +90,7 @@ ht-degree: 14%
 
 1. ページ上の要素を変更して、新しいエクスペリエンスを作成します。
 
-   [!UICONTROL Visual Experience Composer]には、新しいアクティビティを作成した後、左側に2つのタブ（[!UICONTROL Experience A]および[!UICONTROL Experience B]）が表示されます。[!UICONTROL Experience A]は、コントロール エクスペリエンスです。 対象は[!UICONTROL &#x200B; エクスペリエンス B] タブで、必要に応じて変更できます。 [!UICONTROL &#x200B; エクスペリエンス B]は、テストに追加できる代替エクスペリエンスです。 [!UICONTROL &#x200B; エクスペリエンス &#x200B;] ペインの上部にある[!UICONTROL 追加] アイコン （![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックすると、テストに複数のエクスペリエンスを追加できます。 デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
+   [!UICONTROL Visual Experience Composer]には、新しいアクティビティを作成した後、左側に2つのタブ（[!UICONTROL Experience A]および[!UICONTROL Experience B]）が表示されます。[!UICONTROL Experience A]は、コントロール エクスペリエンスです。 対象は[!UICONTROL &#x200B; エクスペリエンス B] タブで、必要に応じて変更できます。 [!UICONTROL &#x200B; エクスペリエンス B]は、テストに追加できる代替エクスペリエンスです。 [!UICONTROL &#x200B; エクスペリエンス &#x200B;] ペインの上部にある[!UICONTROL 追加] アイコン （![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックすると、テストに複数のエクスペリエンスを追加できます。 デフォルトのサイトエクスペリエンスをオプションとして含めない場合は、アクティビティからエクスペリエンス Aを削除することもできます。
 
    [!UICONTROL Visual Experience Composer]でのエクスペリエンスの追加と変更について詳しくは、[&#x200B; エクスペリエンスの追加](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)を参照してください。 [!UICONTROL &#x200B; エクスペリエンス B]を変更するには、手順2から始めます。
 

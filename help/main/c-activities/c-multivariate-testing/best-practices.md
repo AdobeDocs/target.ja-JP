@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # [!UICONTROL 多変量テスト &#x200B;]のベストプラクティス
 
@@ -34,7 +34,7 @@ ht-degree: 55%
 
 ## 作成 {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* テストに必要となる以上の組み合わせを組み込まないでください。
+* テストに必要な以上の組み合わせを含めないでください。
 
   テストする組み合わせの数が増えると、期待に添った結果を実現するために必要なトラフィック量および時間が大幅に増加します。 例えば、それぞれ 3 つのオファーが組み込まれた場所が 3 つある場合、27 の組み合わせ（3 x 3 x 3）になります。 3 つの場所があり、そのうちの 2 つの場所に 3 つのオファーが、1 つの場所に 2 つのオファーが組み込まれている場合、組み合わせは 18（3 x 3 x 2）になります。 場所やオファーの数が増えると、組み合わせの数は大きく増加します。
 

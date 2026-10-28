@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '530'
 ht-degree: 13%
 ---
 # 除外
@@ -36,7 +36,7 @@ ht-degree: 13%
 * 秋と冬のカタログは、オンラインで表示する必要がある唯一のカタログです。 夏のカタログの商品は購入できなくなりました。
 * ほとんどのページやスクリーン（アダルト製品、NC-17映画など）で推奨するのが不適切な可能性があるアイテム。
 * 不完全なメタデータフィールド（サムネール、価格、その他の重要なメタデータが含まれていない）を持つ製品。
-* 推奨すべきでない商品（SKUがシステム内に存在し、購入可能な商品ではない可能性がある）。 あるいは、実際に何かを注文することなく購入をシミュレートすることは、QA チームにとって偽のSKUかもしれません）。
+* 推奨すべきではない商品（SKUがシステム内に存在し、購入可能な商品ではない可能性がある）。 あるいは、実際に何かを注文することなく購入をシミュレートすることは、QA チームにとって偽のSKUかもしれません）。
 
 >[!IMPORTANT]
 >

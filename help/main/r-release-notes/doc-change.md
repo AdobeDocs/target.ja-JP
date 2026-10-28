@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c358f8940302be125c1f7ddab4f695846c46580b
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 33%
+source-wordcount: '2624'
+ht-degree: 32%
 ---
 # ドキュメントの変更点
 
@@ -164,7 +164,7 @@ ht-degree: 33%
 |  | [Adobe Target cookie](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/target){target=_blank} | `sessionId`に中括弧（{}）を含めることができないことを追加するようにテキストを更新しました。<P>テキストが読み込まれるようになりました：セッション IDは、スペース、疑問符（?）を除いて、任意の印刷可能な文字列にできます。 ）、中括弧（{ }）、またはスラッシュ（/）。 長さは1 ～ 128文字にする必要があります。 |
 |  | [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | `sessionId`に中括弧（{}）を含めることができないことを追加するようにテキストを更新しました。<P> テキストが読み込まれるようになりました：セッション IDは、スペース、疑問符（?）を除いて、任意の印刷可能な文字列にできます。 ）、中括弧（{ }）、またはスラッシュ（/）。 長さは1 ～ 128文字にする必要があります。 |
 | 6月12日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.6.2 リリースに関するリリースノートを追加しました。 |
-|  | [[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md) | 新しい記事。<P>このFAQでは、ナビゲーションの変更、機能の場所、一時的なUI バージョンの廃止トグルなど、新しい[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）に関する一般的な質問に対応しています。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。 |
+|  | [[!DNL Target] UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md) | 新しい記事。<P>このFAQでは、ナビゲーションの変更、機能の場所、一時的なUI バージョンの廃止トグルなど、新しい[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）に関する一般的な質問に対応しています。 マーケター、開発者、管理者のいずれであっても、このFAQは、スムーズに移行し、更新されたUIを最大限に活用するのに役立ちます。 |
 | 6月6日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.6.1 リリースに関するリリースノートを追加しました。 |
 
 ### [!DNL Target Standard/Premium] 25.5.1（2025年5月5日（PT））

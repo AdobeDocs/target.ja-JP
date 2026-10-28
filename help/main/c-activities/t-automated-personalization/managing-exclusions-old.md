@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1010'
 ht-degree: 49%
 ---
 # 除外の管理
@@ -76,7 +76,7 @@ ht-degree: 49%
 
 特定のオファーの組み合わせを[!UICONTROL Automated Personalization] アクティビティから除外する場合は、特定のエクスペリエンスを除外します。
 
-特定の組み合わせで連携しない場合や、テストしたエクスペリエンスの数を制限して、アクティビティのトラフィック要件を軽減する場合などがあります。
+特定の組み合わせが連携しない場合や、テストしたエクスペリエンスの数が制限されて、アクティビティのトラフィック要件が減少する場合があります。
 
 1. [AP アクティビティの作成または編集](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)時に、ヘッダーバーの「**コンテンツを管理**」をクリックします。
 

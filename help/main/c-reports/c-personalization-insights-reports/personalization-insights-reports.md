@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 30%
+source-wordcount: '1024'
+ht-degree: 29%
 ---
 # [!UICONTROL Personalization インサイト &#x200B;] レポート
 
@@ -97,7 +97,7 @@ ht-degree: 30%
 
 | データタイプ | 説明 | データタイプの命名規則 |
 |--- |--- |--- |
-| プロファイル属性（プロファイルスクリプト、プロファイル更新 API、ページ内プロファイル属性など） | Target のユーザープロファイルに追加したすべての情報。<br>この情報は、プロファイルスクリプトや、プロファイル更新 API を使用してアップロードされた情報、「profile」という接頭辞が付いた in-mbox プロファイルパラメーターから取得できます。 | `Custom - Profile - [parameter name]` |
+| プロファイル属性（プロファイルスクリプト、プロファイル更新 API、ページ内プロファイル属性など） | Targetのユーザープロファイルに含めることにした情報。<br>この情報は、プロファイルスクリプトや、プロファイル更新 API を使用してアップロードされた情報、「profile」という接頭辞が付いた in-mbox プロファイルパラメーターから取得できます。 | `Custom - Profile - [parameter name]` |
 | ページパラメーター（「mbox パラメーター」とも呼ばれます） | ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。 | `Custom - Mbox Parameter - [parameter name]` |
 | 顧客属性 | 顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。 アップロード後は、データを Adobe Analytics と Adobe Target で利用できます。 | `Custom - Customer Attributes - [parameter name]` |
 | 共有オーディエンス（Adobe Audience Manager または Adobe Analytics） | Adobe Audience Manager または Adobe Analytics で作成され、Target と共有されているオーディエンス。 | `Custom - Experience Cloud Segment - [segment name]` |

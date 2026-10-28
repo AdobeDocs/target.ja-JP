@@ -21,14 +21,14 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '990'
 ht-degree: 35%
 ---
 # フォームベースの Experience Composer
 
-[!DNL Adobe Target] [!UICONTROL &#x200B; フォームベースのExperience Composer]は、[!UICONTROL Visual Experience Composer] （VEC）が使用できないか、使用できない場合に[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]および[!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスの作成に役立つ、非ビジュアル エクスペリエンスおよびオファー作成インターフェイスです。 たとえば、フォームベースのAdobe Experience Composerを使用して、電子メール、キオスク端末、音声アシスタントで配信するエクスペリエンスやオファーを作成することができます。
+[!DNL Adobe Target] [!UICONTROL &#x200B; フォームベースのExperience Composer]は、[!UICONTROL Visual Experience Composer] （VEC）が利用できないか、使用できない場合に[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]および[!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスの作成に役立つ、非ビジュアル エクスペリエンスおよびオファー作成インターフェイスです。 たとえば、フォームベースのAdobe Experience Composerを使用して、電子メール、キオスク端末、音声アシスタントで配信するエクスペリエンスやオファーを作成することができます。
 
 [!UICONTROL Recommendations] アクティビティを作成している場合、エクスペリエンスはありません。 条件およびデザインを選択します。 複数の基準またはデザインを選択した場合、[!UICONTROL Target]はエクスペリエンスを自動的に生成します。
 

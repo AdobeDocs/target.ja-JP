@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 61%
+source-wordcount: '479'
+ht-degree: 57%
 ---
 # 初期プロビジョニング - A4T FAQ
 
@@ -62,14 +62,14 @@ AnalyticsとTargetにアクセスできる1つ以上のExperience Cloud グル�
 
 +++
 
-## Target に Analytics オプションが表示されないのはなぜですか？ {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## TargetにAnalytics オプションが表示されないのはなぜですか？ {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++回答
 前述の「レポートスイートが読み込まれないのはなぜですか？」を参照 上。 この問題の根本原因は同じです。
 
 +++
 
-## Analytics で A4T レポートが表示されないのはなぜですか？ {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## AnalyticsでA4T レポートが表示されないのはなぜですか？ {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++回答
 前述の「レポートスイートが読み込まれないのはなぜですか？」を参照 してください。 この問題の根本原因は同じです。

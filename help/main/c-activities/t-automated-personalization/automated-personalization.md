@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 37%
+source-wordcount: '1054'
+ht-degree: 35%
 ---
 # [!UICONTROL Automated Personalization]（AP）
 
@@ -81,7 +81,7 @@ Random Forestは主要なマシンラーニングアプローチです。 デー
 
 * マルチアームバンディットは、モデルがアクティビティのライフタイムを通じて学習を継続し、以前に学習したトレンドの過度な悪用を防ぐために、常に小さなトラフィックを「費やす」ことを保証します。
 * 基になるモデルは、最新の訪問者行動データを使用して24時間ごとに再構築され、[!DNL Target]が常に変化する訪問者の環境設定を使用していることを確認します。
-* アルゴリズムによって個々の訪問者の勝者エクスペリエンスを特定できなかった場合は、総合的なパフォーマンスが最も高いエクスペリエンスを表示する方式に自動的に切り替わります。その間もパーソナライズされた勝者の特定は続行されます。 最もパフォーマンスが高いエクスペリエンスは、[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling)によって割り出されます。
+* アルゴリズムが個々の訪問者の勝者エクスペリエンスを判断できない場合は、自動的に全体的に最もパフォーマンスの高いエクスペリエンスを表示しながら、パーソナライズされた勝者を探します。 最もパフォーマンスが高いエクスペリエンスは、[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling)によって割り出されます。
 
 ## このモデルは、単一の目標指標を継続的に最適化します
 
@@ -93,7 +93,7 @@ Random Forestは主要なマシンラーニングアプローチです。 デー
 
 ## [!DNL Target]は、すべての[!DNL Adobe Experience Cloud]共有オーディエンスを自動的に使用してパーソナライゼーションモデルを構築します
 
-* モデルにオーディエンスを追加するために特別な何もする必要はありません。 [!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)」を参照してください。
+* モデルにオーディエンスを追加するために特定の操作を行う必要はありません。 [!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)」を参照してください。
 
 ## マーケターは、オフラインデータ、傾向スコア、その他のカスタムデータをアップロードして、パーソナライゼーションモデルを構築できます
 

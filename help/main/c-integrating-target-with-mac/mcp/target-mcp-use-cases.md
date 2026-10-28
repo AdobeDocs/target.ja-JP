@@ -24,9 +24,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '896'
 ht-degree: 0%
 ---
 # [!DNL Adobe Target] MCP サーバー – ユースケースとウォークスルー {#target-mcp-use-cases}
@@ -56,7 +56,7 @@ ht-degree: 0%
 | **収益分析** | 「AT4821 アクティビティの注文と収益レポートを取得し、どのエクスペリエンスが訪問者あたりの売上が最も多いかを要約します。」 |
 | **A4T レポート** | 「チェックアウト最適化テスト用のA4T レポートを取得し、Analytics側のコンバージョンデータを要約します。」 |
 | **アクティビティのインサイト** | 「私の「サマーセールバナー」テストのインサイトを得てください。パフォーマンスはどのような感じで、異常はありますか？」 |
-| **オーディエンス管理** | 「モバイルユーザーをターゲットとしているすべてのオーディエンスをリストアップし、そのオーディエンスが関連するアクティビティを表示します。」 |
+| **オーディエンス管理** | 「モバイルユーザーをターゲットとしているすべてのオーディエンスをリストアップし、そのユーザーがどのアクティビティに関連しているかを表示します。」 |
 | **QAとプレビュー** | 「アクティビティ 12345のQA プレビューURLを生成して、アクティブ化する前にすべてのバリエーションを確認できるようにします。」 |
 <!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **実装監査** | 「at.jsのどのバージョンが設定され、現在アクティブな応答トークンは何ですか？」 |

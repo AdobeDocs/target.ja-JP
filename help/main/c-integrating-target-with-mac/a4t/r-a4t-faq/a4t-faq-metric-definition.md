@@ -16,16 +16,16 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 44%
 ---
 # 指標の定義 - A4T FAQ
 
 このトピックには、指標の定義に関してよく寄せられる質問に対する回答と、[!DNL Adobe Analytics]を[!DNL Adobe Target] （A4T）のレポートソースとして使用する回答が含まれています。
 
-## アクティビティメンバーシップの期限切れとは何ですか？ 訪問者がアクティビティにエントリしてから、アクティビティでアクションがカウントされるまでにどのくらいの時間が経過しても、再び表示されないのですか？ {#section_41B4958F33534E4B96DEE0C981227A79}
+## アクティビティメンバーシップの期限切れとは何ですか？ 訪問者がアクティビティにエントリしてから、アクティビティが再度表示されない場合、そのアクティビティでアクションがカウントされるまでにどのくらいの時間がかかりますか？ {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++回答
 アクティビティのデフォルトの有効期限は、訪問者のアクティビティでの最後のインタラクションの後、90 日です。 この設定は、必要に応じてClientCareで調整できます。 この設定は、すべてのアクティビティでグローバルなので、1 つの事例のために調整することはしないでください。

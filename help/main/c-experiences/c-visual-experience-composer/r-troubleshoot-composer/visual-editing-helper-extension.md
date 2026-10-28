@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 57%
+source-wordcount: '838'
+ht-degree: 56%
 ---
 # [!UICONTROL &#x200B; ビジュアル編集ヘルパー]拡張機能
 
@@ -79,7 +79,7 @@ ht-degree: 57%
 1. [!DNL Target] で VEC を開きます。
 1. 拡張機能を使用するには、VEC モードまたはQA モードで、Chrome ブラウザーのツールバーにある[!UICONTROL Visual Editing Helper] ブラウザー拡張機能アイコン（![Visual Editing Extension アイコン &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）をクリックします。
 
-   [!UICONTROL Visual Editing Helper]は、Web サイトが[!UICONTROL Target] VECで開かれたときに、オーサリングを強化するために自動的に有効になります。 この拡張機能には、条件付き設定はありません。 この拡張機能では、SameSite Cookie の設定を含むすべての設定を自動的に処理します。
+   [!UICONTROL Visual Editing Helper]は、Web サイトが[!UICONTROL Target] VECで開かれたときに、オーサリングを強化するために自動的に有効になります。 拡張機能には条件設定がありません。 この拡張機能では、SameSite Cookie の設定を含むすべての設定を自動的に処理します。
 
    `SameSite=None` 属性に関するブラウザーの修正について詳しくは、「Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？」の節を参照してください。 [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。
 

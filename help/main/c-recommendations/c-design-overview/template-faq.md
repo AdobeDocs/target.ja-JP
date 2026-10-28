@@ -18,18 +18,18 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 83%
+source-wordcount: '476'
+ht-degree: 72%
 ---
 # デザイン FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] デザインに関するよくある質問（FAQ）のリストです。
 
-## 推奨品目の価格で小数点の右側に値が表示されません。 どうすれば表示できますか？
+## お勧めの商品の価格に、両方の値が小数点の右に表示されない。 どうすれば表示できますか？
 
-デフォルトでは、デザインテンプレートで返される数値（`entity.value` など）には、小数点の後の末尾のゼロは表示されません。 例えば、品目が $35.00 の場合、`entity.value` は 35 に等しくなり、$35.00 ではなく、35 のみがページに表示されます。
+デフォルトでは、デザインテンプレートで返される数値（`entity.value`など）には、小数点の後に末尾のゼロは表示されません。 例えば、品目が $35.00 の場合、`entity.value` は 35 に等しくなり、$35.00 ではなく、35 のみがページに表示されます。
 
 この問題に対処するには、次の 2 つの選択肢があります。
 
@@ -41,9 +41,9 @@ ht-degree: 83%
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## カテゴリがデザインに表示されないのはなぜですか？ `$entity1.categoryId`を使用しています。 {#section_073309B8051049C7953D396A93EA0713}
+## なぜ、デザインにカテゴリが表示されないのか？ `$entity1.categoryId`を使用しています。 {#section_073309B8051049C7953D396A93EA0713}
 
-カテゴリ ID は、デザインには表示できません。 複数のカテゴリを保存できるため、どのカテゴリを表示すればよいかわかりません。
+カテゴリ IDをデザインに表示できません。 複数のカテゴリを保存できるため、どのカテゴリを表示すればよいかわかりません。
 
 ## すぐに更新されるようにするには、どのようにデザインを変更する必要がありますか？ {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 

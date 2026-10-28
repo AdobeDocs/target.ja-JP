@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 41%
+source-wordcount: '905'
+ht-degree: 39%
 ---
 # [!UICONTROL 自動ターゲット &#x200B;] アクティビティの作成
 
@@ -70,7 +70,7 @@ ht-degree: 41%
 
 1. ページ上の要素を変更することで、あらゆるエクスペリエンスを作成できます。
 
-   アクティビティを作成すると、[!UICONTROL Visual Experience Composer]には、左側にエクスペリエンス Aとエクスペリエンス Bの2つのタブが表示されます。エクスペリエンス Aはコントロール エクスペリエンスです。 エクスペリエンス B タブに注目し、必要に応じて変更できます。 エクスペリエンス Bは、テストに追加できる代替エクスペリエンスです。 テストには複数のエクスペリエンスを追加できます。 デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
+   アクティビティを作成すると、[!UICONTROL Visual Experience Composer]には、左側にエクスペリエンス Aとエクスペリエンス Bの2つのタブが表示されます。エクスペリエンス Aはコントロール エクスペリエンスです。 エクスペリエンス B タブに注目し、必要に応じて変更できます。 エクスペリエンス Bは、テストに追加できる代替エクスペリエンスです。 テストには複数のエクスペリエンスを追加できます。 デフォルトのサイトエクスペリエンスをオプションとして含めない場合は、アクティビティからエクスペリエンス Aを削除することもできます。
 
    [!UICONTROL Visual Experience Composer]でのエクスペリエンスの追加と変更について詳しくは、[&#x200B; エクスペリエンスの追加](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
 

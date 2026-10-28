@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 51%
+source-wordcount: '2918'
+ht-degree: 49%
 ---
 # Target の最適化とパーソナライゼーションに関する FAQ
 
@@ -359,7 +359,7 @@ CSS セレクターは Sizzle セレクターです。 このセクションで�
 
 +++
 
-**特定のURLを持っていない[!UICONTROL Visual Experience Composer] （VEC）内のログインページを通り過ぎたり、その中に埋め込まれたページに移動したりできないのはなぜですか？**
+**特定のURLを持たない[!UICONTROL Visual Experience Composer] （VEC）内のログインページを通過したり、その中に埋め込まれたページに移動したりできないのはなぜですか？**
 
 +++詳細を見る
 [!UICONTROL 構成]および[!UICONTROL 参照]の機能を使用すれば、目的のページに移動してエクスペリエンスを作成できます。
@@ -395,7 +395,7 @@ CSS セレクターは Sizzle セレクターです。 このセクションで�
 **QA プロセスでコンテンツ配信がおこなわれないのはなぜですか？**
 
 +++詳細を見る
-お客様のサイトの要素に動的 ID、重複する ID または動的クラスが含まれている可能性があります。 アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。 [CSS セクター](/help/main/administrating-target/visual-experience-composer-set-up.md#css)を参照してください。
+動的ID、重複ID、または要素に対する動的クラスがサイトに含まれている可能性があります。 アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。 [CSS セクター](/help/main/administrating-target/visual-experience-composer-set-up.md#css)を参照してください。
 
 +++
 
@@ -440,7 +440,7 @@ CSS セレクターは Sizzle セレクターです。 このセクションで�
 **アクティビティの実行前にオーディエンスを定義できません。 [!DNL Target]のアクティビティでのオーディエンスのレポートのこの側面には制限があります。 このプロセスを簡単にするために何ができますか？**
 
 +++詳細を見る
-そのためにあるのが [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)です。 [!DNL Adobe Analytics]がある場合は、ソースを[!DNL Analytics]として選択するだけで、この制限がなくなります。 あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
+そのためにあるのが [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)です。 [!DNL Adobe Analytics]がある場合は、ソースを[!DNL Analytics]として選択するだけで、この制限がなくなります。 任意の時点で任意のオーディエンスに対して分析を実行できるようになり、レポート作成オーディエンスを事前に定義する必要がなくなります。
 
 +++
 

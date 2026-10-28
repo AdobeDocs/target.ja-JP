@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 55%
 ---
 # 動的データをオファーに渡す
@@ -84,7 +84,7 @@ mboxに渡されるプロファイルパラメーターの場合は、次の構�
 
 `${user.testAttribute default="All Items!"}`
 
-`testAttribute`が存在しないか空白の場合、「すべてのアイテム！」を選択します。 書き出されています。 空白の属性値が有効で、デフォルト値を表示する代わりに空白の属性値を書き出す必要がある場合は、次の構文を使用できます。
+`testAttribute`が存在しないか空白の場合、「すべての項目！」を選択します。 書き出されています。 空白の属性値が有効で、デフォルト値を表示する代わりに空白の属性値を書き出す必要がある場合は、次の構文を使用できます。
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 

@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 60%
+source-wordcount: '3960'
+ht-degree: 59%
 ---
 # シングルページアプリケーション（SPA）Visual Experience Composer
 
@@ -383,7 +383,7 @@ adobe.target.getOffers({
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | × |
 | [レコメンデーション](/help/main/c-recommendations/recommendations.md) | × |
 
-**at.js 2.x をインストールして `triggerView()` をサイトに実装した場合、SPA VEC は自動ターゲットをサポートしませんが、自動ターゲット A/B アクティビティはどのように実行すればよいですか。**
+**at.js 2.xをインストールして`triggerView()`をサイトに実装した場合、SPA VECが自動ターゲットをサポートしていないため、自動ターゲット A/B アクティビティを実行するにはどうすればよいですか？**
 
 自動ターゲット A/B アクティビティを使用する場合は、ページの読み込みイベントで実行されるすべてのアクションを VEC で移動できます。 各アクションにカーソルを合わせ、[!UICONTROL &#x200B; ページ読み込みイベントに移動] ボタンをクリックします。 その後、次の手順で、トラフィック配分方法に対応する自動ターゲットを選択できます。
 
@@ -460,7 +460,7 @@ VECの3部構成のガイド付きアクティビティ作成ワークフロー�
 
 ### ベストプラクティス
 
-ユーザーは SPA の任意の URL に到達したり他のページに移動したりする可能性があるので、管理するユーザージャーニーは非常に難しくなる可能性があります。 このため、SPA 全体を含むことができるように、ベース URL を含むページ配信ルールを指定することが最適です。 これにより、A/B テストやエクスペリエンスターゲティング（XT）アクティビティを表示するページに移動するために、ユーザーが辿る可能性のあるさまざまなジャーニーやパスを考慮する必要がなくなります。
+ユーザーは SPA の任意の URL に到達したり他のページに移動したりする可能性があるので、管理するユーザージャーニーは非常に難しくなる可能性があります。 このため、SPA 全体を含むことができるように、ベース URL を含むページ配信ルールを指定することが最適です。 これにより、ユーザーがA/B テストまたはエクスペリエンスターゲティング（XT）アクティビティを表示するページにアクセスするために必要な様々なジャーニーやパスをすべて考える必要がなくなります。
 
 例えば、上記で直面した問題を解決するために、以下のようにページ配信設定にベース URL を指定できます。
 

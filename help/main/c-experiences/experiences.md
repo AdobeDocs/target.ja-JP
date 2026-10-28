@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 79%
+source-wordcount: '390'
+ht-degree: 70%
 ---
 # エクスペリエンスとオファー
 
@@ -41,5 +41,5 @@ Target では、次の Experience Composer を利用できます。
 | タイプ | 詳細 |
 | --- | --- |
 | [Visual Experience Composer（VEC）](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | VEC は Adobe Target の主要機能の 1 つです。 マーケターやデザイナーが視覚的なインターフェイスを使用して、コンテンツを作成および変更できるエディターです。 コードを直接編集することなく、多くのデザインの選択肢を作成できます。 コンポーザーで利用可能な編集オプションを使用すれば、HTML および JavaScript の編集も可能です。 |
-| [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | フォームベースの Experience Composer は、非視覚的なエクスペリエンス作成機能を提供します。 この機能を使用すると、Visual Experience Composer では動作しない電子メール、キオスク、その他の場所に Target Standard の A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization およびレコメンデーションアクティビティを配信できます。 |
+| [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | フォームベースの Experience Composer は、非視覚的なエクスペリエンス作成機能を提供します。 この機能を使用すると、Target Standard A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、およびRecommendations アクティビティを、電子メール、キオスクなど、Visual Experience Composerで動作しない場所で配信できます。 |
 | [シングルページアプリケーション（SPA）Visual Experience Composer（VEC）](/help/main/c-experiences/spa-visual-experience-composer.md) | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。 VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティを作成することが可能です。 |

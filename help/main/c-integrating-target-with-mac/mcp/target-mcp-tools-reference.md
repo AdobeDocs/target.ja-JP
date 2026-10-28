@@ -24,9 +24,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3805'
 ht-degree: 14%
 ---
 # [!DNL Adobe Target] MCP サーバーツール リファレンス {#target-mcp-tools-reference}

@@ -1,27 +1,32 @@
 ---
 keywords: プロファイルスクリプト;プロファイルスクリプト属性;プロファイルスクリプトのベストプラクティス;デバッグ;デバッグ;スクリプト;プロファイルスクリプト;属性;属性;パラメーター
-description: 訪問者のプロファイルに保存され、Adobe [!DNL Target]  アクティビティで使用できる情報を提供する、訪問者固有の属性について説明します。
+description: 訪問者のプロファイルに保存されている訪問者固有の属性について説明し、Adobe [!DNL Target] アクティビティで使用できる情報を提供します。
 title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 88%
-
+source-wordcount: '2523'
+ht-degree: 86%
 ---
-
 # プロファイル属性
 
 [!DNL Adobe Target] のプロファイル属性は、訪問者に固有のパラメーターです。 プロファイル属性は訪問者のプロファイルに保存され、アクティビティで使用可能な訪問者に関する情報を提供します。
@@ -45,7 +50,7 @@ ht-degree: 88%
    | パラメータータイプ | 説明 |
    |--- |--- |
    | mbox | mbox を作成するときに、ページコードを介して直接渡されます。 *ターゲット開発者ガイド*&#x200B;の「[&#x200B; グローバル Mboxにパラメーターを渡す](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank}」を参照してください。<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。 50を超えるプロファイル属性を[!DNL Target]に渡す必要がある場合は、[!UICONTROL Profile Update API] メソッドを使用して渡します。 詳しくは、*Target開発者ガイド*&#x200B;の「[&#x200B; プロファイルの更新](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank}」を参照してください。 |
-   | プロファイル | JavaScript コードスニペットにより直接定義されます。 これらのスニペットは、現在の合計数（顧客の支出合計額など）を保存することができ、mbox リクエストごとに実行されます。 以下の&#x200B;*プロファイルスクリプト属性*&#x200B;を参照してください。 |
+   | プロファイル | JavaScript コードスニペットにより直接定義されます。 これらのスニペットは、現在の合計数（消費者の支出合計額など）を保存することができ、mbox リクエストごとに実行されます。 以下の&#x200B;*プロファイルスクリプト属性*&#x200B;を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -89,7 +94,7 @@ if (mbox.name == 'Track_Interest') {
 * パラメーターと値は、大文字と小文字を区別します。 アクティビティやテストの実行中に受け取るパラメーターおよび値の大文字と小文字を一致させてください。
 * その他の JavaScript 構文については、後述の「スクリプトプロファイルパラメーターに関する JavaScript リファレンス」を参照してください。
 * スクリプトを無効にした後も、パラメーターはプロファイルに残ります。 ユーザーのプロファイルに、アクティビティのオーディエンスで使用されているパラメーターが含まれている場合、そのユーザーはそのアクティビティに適格となります。
-* アクティビティで使用されている間はプロファイルスクリプトを削除できません。
+* プロファイルスクリプトは、アクティビティで使用されている間は削除できません。
 * あるプロファイルスクリプトの結果を別のプロファイルスクリプトで使用する、依存プロファイルスクリプトを作成することは推奨しません。 プロファイルスクリプトの実行順序は保証されません。
 
 ## プロファイルスクリプト情報カードの表示 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -149,11 +154,11 @@ if (mbox.name == 'Track_Interest') {
 
   ベストプラクティスは次のとおりです。
 
-   * プロファイルスクリプトをできるだけ小さく、簡単にします。
-   * 正規表現を使用しないか、単純な正規表現のみを使用します。 単純な式でも、評価には多くの命令を受けることができます。
-   * 再帰を避けます。
-   * プロファイルスクリプトを [!DNL Target] に追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべての mbox リクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mbox リクエストの実行に時間がかかり、トラフィックとコンバージョンに影響が及ぶ可能性があります。
-   * プロファイルスクリプトが複雑になりすぎた場合は、代わりに、[レスポンストークン](/help/main/administrating-target/response-tokens.md)の使用を検討します。
+  * プロファイルスクリプトをできるだけ小さく、簡単にします。
+  * 正規表現を使用しないか、単純な正規表現のみを使用します。 単純な式でも、評価には多くの命令を受けることができます。
+  * 再帰を避けます。
+  * プロファイルスクリプトを [!DNL Target] に追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべての mbox リクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mbox リクエストの実行に時間がかかり、トラフィックとコンバージョンに影響が及ぶ可能性があります。
+  * プロファイルスクリプトが複雑になりすぎた場合は、代わりに、[レスポンストークン](/help/main/administrating-target/response-tokens.md)の使用を検討します。
 
 * 詳細は、JS Rhino エンジンのドキュメントを参照してください。
 
@@ -267,7 +272,7 @@ else if (mbox.param("adobeQA"))
 | `user.get('<par_name>')` | 現在の訪問者に設定された「`user.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。 |
 | `user.categoryAffinity` | 最適なカテゴリーの名前が返されます。 |
 | `user.categoryAffinities` | 最適なカテゴリーを持つ配列が返されます。 |
-| `user.isFirstSession` | 訪問者の最初のセッションの場合は true が返されます。 |
+| `user.isFirstSession` | 訪問者の最初のセッションである場合はtrueを返します。 |
 | `user.browser` | HTTP ヘッダーにユーザーエージェントが返されます。 例えば、Safari ユーザーのみを対象とするターゲット式を作成できます（`if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }`）。 |
 
 ### 共通演算子

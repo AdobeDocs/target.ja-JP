@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 5%
 ---
 # エンティティ属性のマッチング
@@ -67,7 +67,7 @@ ht-degree: 5%
 
 ### より高価な商品へのアップセル
 
-例えば、アパレル企業が、retailerの高価格帯の商品を購入するように促したい場合、 「等しい」演算子と「次の値の間にある」演算子を使用すると、同じカテゴリと同じブランドの高価な項目を宣伝できます。 例えば、靴のretailerは、次のサンプルのように、ランニングシューズを見ている訪問者にアップセルするために、より高価なランニングシューズを宣伝できます。
+例えば、アパレル企業が、retailerのユーザーに高価格の商品を検討するように促したい場合、より収益性の高い商品を検討します。 「等しい」演算子と「次の値の間にある」演算子を使用すると、同じカテゴリと同じブランドの高価な項目を宣伝できます。 例えば、靴のretailerは、次のサンプルのように、ランニングシューズを見ている訪問者にアップセルするために、より高価なランニングシューズを宣伝できます。
 
 ![&#x200B; アップセル &#x200B;](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 

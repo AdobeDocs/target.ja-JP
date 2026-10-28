@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # Visual Experience Composer（VEC）
 
@@ -33,7 +33,7 @@ Target **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]** タ
 >
 >Firefox のような特定のブラウザーでは、ページに混合コンテンツ（セキュアサイト上の非セキュアなページなど）が含まれていると、VEC でページの表示ができない場合があります。 ページが表示されない場合は、ブラウザーのアドレスバーのURLの横にあるアイコンをクリックし、**[!UICONTROL このページの保護を無効にする]**&#x200B;をクリックします。 この問題は、サイト訪問者へのページ表示に影響しません。
 
-ページ上の iframe 内のコンテンツは、VEC では変更できません。 iframe 内のコンテンツを編集するには、iframe ドキュメントで Target が有効になっていることを確認して、VEC でその iframe URL を読み込みます。
+ページ上のiframe内のコンテンツは、VECで変更できません。 iframe 内のコンテンツを編集するには、iframe ドキュメントで Target が有効になっていることを確認して、VEC でその iframe URL を読み込みます。
 
 ページ上部にあるドロップダウンメニューを使用して、異なるオーディエンスに表示されるページ、または異なるエクスペリエンスで表示されるページを確認できます。 2 つ目のドロップダウンリストでは、各エクスペリエンスの名前を指定できます。 例えば、ナビゲーションバーのホームリンクの場所をテストする場合は、ホームリンクが最初に表示されるエクスペリエンスに「ホームリンク」のような名前を付けて、リスト内でエクスペリエンスを識別しやすくすることができます。
 

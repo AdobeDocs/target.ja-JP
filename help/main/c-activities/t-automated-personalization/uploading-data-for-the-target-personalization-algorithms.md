@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '326'
 ht-degree: 18%
 ---
 # [!DNL Target] パーソナライゼーションアルゴリズムのデータのアップロード
@@ -55,7 +55,7 @@ ht-degree: 18%
 
 * [!DNL Target]個のパーソナライゼーションアルゴリズムで利用できる高品質なデータが多ければ多いほど、[!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティで生成されるモデルの品質が向上します。
 * 同じ目的を果たす複数のプロファイルスクリプトまたは属性の使用を制限します。
-* セッション IDなどの一意のIDは、必要に応じて渡さないでください。
-* 重複したデータを送信しないように、[!DNL Target]が自動的に収集するデータ （[TargetのPersonalization アルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)）を確認します。 例えば、[!DNL Target]はIP アドレスを使用して、訪問者の郵便番号を決定します。 この情報を別個の変数として渡す必要はありません。
+* 必要のない場合は、セッション IDなどの一意のIDを渡さないでください。
+* 重複したデータを送信しないように、[!DNL Target]が自動的に収集するデータ（TargetのPersonalization Algorithmsの[&#x200B; データ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)）を確認します。 例えば、[!DNL Target]はIP アドレスを使用して、訪問者の郵便番号を決定します。 この情報を別個の変数として渡す必要はありません。
 * 同じ属性または変数に複数の値を渡さないでください。 複数の変数が連結されている場合、[!DNL Target]個のパーソナライゼーションアルゴリズムは、各文字列を一意の値として扱い、パーソナライゼーション用の情報の値を減らします。
 * 覚えやすくて意味のある命名規則を使用して、[Personalization インサイトレポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)をより理解しやすくします。

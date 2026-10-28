@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 51%
 ---
 # [!UICONTROL Visual Experience Composer] ヘルパー拡張機能
@@ -58,7 +58,7 @@ SW は、web ページによってインストールされているドメイン�
 
 SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IMG、AJAXリクエストなどの静的リソース、コンテンツおよび応答ヘッダーをキャッシュできます。これには、SAMEORIGIN、CSP（Content-Security-Policy）、Set-Cookie など、X-Frame-Options のような [Target VEC ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)が削除しようとするものを含みます。
 
-残念ながら、web リクエストをインターセプトするChrome拡張APIは、SWによってインターセプトされ処理されたリクエストを受け取りません。 したがって、Web ページのリクエストがSWによってキャッシュから提供された場合、X-Frame-Options ヘッダーまたはCSP ヘッダーもキャッシュされたため、Web ページがVEC内で読み込まれないため、拡張機能はヘッダーとCookieを修正できません。
+残念ながら、web リクエストをインターセプトするChrome拡張APIは、SWによってインターセプトされ処理されたリクエストを受け取りません。 したがって、Web ページのリクエストがSWによってキャッシュから提供された場合、この拡張機能はヘッダーとCookieを修正できません。これは、キャッシュされたX-Frame-OptionsまたはCSP ヘッダーが原因で、Web ページがVEC内で読み込まれないためです。
 
 回避策として、Chrome Developer Tools/Application タブでService Workerを無効にし、Service Worker セクションの「Bypass for network」チェックボックスを有効にすることができます。
 

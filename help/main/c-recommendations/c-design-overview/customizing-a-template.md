@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 62%
+source-wordcount: '1095'
+ht-degree: 57%
 ---
 # [!DNL Velocity]を使用したデザインのカスタマイズ
 
@@ -257,7 +257,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 * 5 番目のエンティティが存在する場合、スクリプトは div 終了タグを挿入し、`<div class="at-table-row">` で新しい行を開始します。
 * 4x2 の場合、表示される最大の結果は 8 ですが、これは `$count <=8` を変更することで、より小さい、または大きいリスト用にカスタマイズできます。
-* このロジックは、複数の行にあるエンティティのバランスを取らないことに注意してください。 例えば、表示するエンティティが 5 個または 6 個ある場合、動的に上に 3 個、下に 2 個（または上に 3 個、下に 3 個）にはなりません。 上の行に 4 項目表示してから 2 番目の行が開始します。
+* ロジックによって複数の行のエンティティのバランスが取れないことに注意してください。 例えば、表示するエンティティが5個または6個ある場合、上の3個と下の2個（または上の3個と下の3個）は動的には表示されません。 上の行に 4 項目表示してから 2 番目の行が開始します。
 
 ```
 <div class="at-table">

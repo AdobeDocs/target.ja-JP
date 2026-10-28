@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 31%
+source-wordcount: '728'
+ht-degree: 28%
 ---
 # [!DNL Adobe Target]業務担当者ガイド
 
@@ -58,7 +58,7 @@ UIは明瞭性と効率性を考慮して設計されており、[!DNL Target]�
 
 *[!DNL *Targe]t UIの更新に関するFAQ**
 
-このFAQでは、ナビゲーションの変更、機能の場所、一時的なUI バージョンの廃止トグルなど、新しい[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）に関する一般的な質問に対応しています。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+このFAQでは、ナビゲーションの変更、機能の場所、一時的なUI バージョンの廃止トグルなど、新しい[!DNL Target] UIと[!UICONTROL Visual Experience Composer] （VEC）に関する一般的な質問に対応しています。 マーケター、開発者、管理者のいずれであっても、このFAQは、スムーズに移行し、更新されたUIを最大限に活用するのに役立ちます。
 
 [![詳細情報のアイコン &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 

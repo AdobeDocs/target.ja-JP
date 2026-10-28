@@ -24,14 +24,14 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 36%
+source-wordcount: '766'
+ht-degree: 35%
 ---
 # [!UICONTROL Automated Personalization]のトラブルシューティング
 
-アクティビティで不測の問題が生じることもあります。 [!UICONTROL Automated Personalization] （AP）の使用中に直面する可能性のある課題と、推奨される解決策をいくつか紹介します。
+時には活動が期待通りに進まないこともある。 [!UICONTROL Automated Personalization] （AP）の使用中に直面する可能性のある課題と、推奨される解決策をいくつか紹介します。
 
 ## [!UICONTROL Automated Personalization] アクティビティでモデルの構築に時間がかかりすぎています。 {#section_20028B204DBB4D77A324BA193434AEE2}
 
@@ -48,7 +48,7 @@ ht-degree: 36%
 
 +++
 
-## 自分の[!UICONTROL Automated Personalization] アクティビティで上昇率が生成されませんでした。 {#section_8900BC8968474438B8092F7A94C0C6CF}
+## [!UICONTROL Automated Personalization]のアクティビティで上昇率が生成されませんでした。 {#section_8900BC8968474438B8092F7A94C0C6CF}
 
 +++詳細を見る
 

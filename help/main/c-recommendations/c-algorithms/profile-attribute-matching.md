@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 3%
 ---
 # プロファイル属性のマッチング
@@ -55,7 +55,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### 求職者と求人のマッチング
 
-例えば、求職者に求人を割り当てようとしているとします。 求職者と同じ都市にある求人のみを推薦する必要があります。
+例えば、求職者に求人を一致させようとしているとします。 求職者と同じ都市にある求人のみを推薦する必要があります。
 
 インクルージョンルールを使用すると、次の例のように、訪問者のプロファイルからジョブリストへの求職者の場所を一致させることができます。
 

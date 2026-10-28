@@ -1,28 +1,30 @@
 ---
 keywords: ajo;adobe journey optimizer;adobe journey optimizer targetとの統合；レコメンデーション；ターゲットレコメンデーション；統合
-description: ' [!DNL Adobe Target Recommendations] を [!DNL Adobe Journey Optimizer]と統合します。'
-title: ' [!DNL Adobe Journey Optimizer]を使用するカスタマージャーニーで [!DNL Target Recommendations] を使用するにはどうすればよいですか？'
+description: '[!DNL Adobe Target Recommendations]を[!DNL Adobe Journey Optimizer]と統合します。'
+title: '[!DNL Adobe Journey Optimizer]を使用してカスタマージャーニーで[!DNL Target Recommendations]を使用するにはどうすればよいですか？'
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip="[!DNL Adobe Target]のBeta機能について。"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
 TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer journeys
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '647'
 ht-degree: 5%
-
 ---
-
 # [!DNL Adobe Target Recommendations]と[!DNL Adobe Journey Optimizer]の統合
 
 この記事では、[!DNL Adobe Target Recommendations]を[!DNL Adobe Journey Optimizer]と統合するためのユースケースとガイダンスを提供し、連続性のある、コンテキストに沿った、パーソナライズされた顧客体験を提供できるようにします。

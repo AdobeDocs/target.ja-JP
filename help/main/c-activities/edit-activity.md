@@ -16,14 +16,14 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1050'
 ht-degree: 21%
 ---
 # アクティビティの編集
 
-[!DNL Adobe Target]で既存のアクティビティを編集する方法について説明します。 この記事では、アクティビティを変更するために[!DNL Target] インターフェイスで使用できるさまざまな方法について説明します。 エクスペリエンスの更新、ターゲティングルールの調整、目標の設定など、[!DNL Target]を使用すると、アクティベーションの前に変更を安全に保存できます。
+[!DNL Adobe Target]で既存のアクティビティを編集する方法について説明します。 この記事では、アクティビティを変更するために[!DNL Target] インターフェイスで使用できるさまざまな方法について説明します。 エクスペリエンスの更新、ターゲティングルールの調整、目標の設定のいずれを行う場合でも、[!DNL Target]を使用すると、変更をアクティベーションする前に安全に保存できます。
 
 [!DNL Target]には、既存のアクティビティを編集できるUIの様々な場所が用意されています。 プロセスは、選択する方法によって異なります。
 

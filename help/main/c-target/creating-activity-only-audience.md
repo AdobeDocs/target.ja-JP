@@ -1,24 +1,26 @@
 ---
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、アクティビティのみ、activity- only、アドホック
-description: 1回限りの使用に使用するアクティビティのみのオーディエンスをAdobe [!DNL Target] で作成する方法を説明します。
+description: Adobe [!DNL Target]で、1回限りの使用に対応するアクティビティのみのオーディエンスを作成する方法について説明します。
 title: 1回だけ使用するオーディエンスを作成できますか？
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '479'
 ht-degree: 27%
-
 ---
-
 # アクティビティのみのオーディエンスの作成
 
 アクティビティの作成中に、[!DNL Adobe Target]の3段階のガイド付きワークフロー内からアクティビティのみのオーディエンスを作成します。 これらのアドホックオーディエンスは、同じアクティビティ内の他の場所で使用できますが、他のアクティビティで使用するために[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に保存されません。
@@ -59,5 +61,5 @@ ht-degree: 27%
 
   除外ルールを使用するには、次の代替手段を使用できます。
 
-   * [&#x200B; アクティビティのみのオーディエンスの代わりに、ライブラリオーディエンス &#x200B;](/help/main/c-target/c-audiences/create-audience.md)を作成して使用します。
-   * [複数の](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) （最大20）ライブラリオーディエンスをアクティビティのみのオーディエンスに組み合わせます。 オーディエンスを組み合わせる場合、組み合わせたオーディエンスがアクティビティのみのオーディエンスとして保存されている場合でも、個々のライブラリオーディエンスのルールを含める/除外することができます。
+  * [&#x200B; アクティビティのみのオーディエンスの代わりに、ライブラリオーディエンス &#x200B;](/help/main/c-target/c-audiences/create-audience.md)を作成して使用します。
+  * [複数の](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) （最大20）ライブラリオーディエンスをアクティビティのみのオーディエンスに組み合わせます。 オーディエンスを組み合わせる場合、組み合わせたオーディエンスがアクティビティのみのオーディエンスとして保存されている場合でも、個々のライブラリオーディエンスのルールを含める/除外することができます。

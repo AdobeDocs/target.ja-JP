@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # [!UICONTROL Visual Experience Composer]に関連する問題のトラブルシューティング
 
@@ -47,14 +47,14 @@ Web サイト（特にシングルページアプリ）で、あるページか�
 
 +++
 
-## EEC でページが開かないか、読み込みに時間がかかります。 VEC でアクティビティやエクスペリエンスの読み込みに時間がかかります。 （VEC のみ） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## ページがEECで開かない、または読み込みが遅い。 VEC でアクティビティやエクスペリエンスの読み込みに時間がかかります。 （VEC のみ） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++詳細
 [!UICONTROL Target] エクスペリエンスコンポーザーのページのパフォーマンスに影響を与える問題がいくつかあります。 よくある問題として以下のようなものがあります。
 
 * ページに mbox がない。
 * サイトでプロキシブロックを使用している。これにより、どちらのエクスペリエンスコンポーザーでもページを開くことが許可されません。
-* サイトがサイト自体を iFrame で開くことを許可していない。
+* あなたのサイトではiFrameでサイトを開くことができません。
 
 [!UICONTROL Enhanced Experience Composer]で問題が発生した場合は、[!UICONTROL Enhanced Experience Composer]をオフにして、代わりに[!UICONTROL Visual Experience Composer]を使用してください。
 

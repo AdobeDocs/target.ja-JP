@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # モバイル
 
@@ -36,7 +36,7 @@ ht-degree: 33%
 
 デバイス検出は、ユーザーエージェント文字列を分析することで実行されます。 Apple などの一部のデバイス製造業者は、UA に十分な情報を提供しないことで、この機能を無効にしています。
 
-例えば、Apple デバイスは、デバイスモデル専用のトークンを UA で共有しません。 その結果、iPhone モデル（iPhone 12 Pro、iPhone 12、iPhone 11 Pro Maxなど）を簡単なキーワードベースの方法で検出できなくなります。
+例えば、Apple デバイスは、UAでデバイスモデル固有のトークンを共有しません。 その結果、iPhone モデル（iPhone 12 Pro、iPhone 12、iPhone 11 Pro Maxなど）を簡単なキーワードベースの方法で検出できなくなります。
 
 この問題を解決するために、[!DNL Target]は次のパラメーターを使用して、iPhoneやその他のApple デバイスを正確に検出するための追加データを収集します。
 

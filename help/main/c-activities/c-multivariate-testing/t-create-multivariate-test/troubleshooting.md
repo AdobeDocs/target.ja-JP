@@ -16,16 +16,16 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 21%
 ---
 # [!UICONTROL 多変量テスト &#x200B;] アクティビティのトラブルシューティング
 
 この記事では、[!DNL Adobe Target]で[!UICONTROL 多変量テスト &#x200B;] （MVT）を設計する際に発生する可能性のある問題を解決するための推奨事項について説明します。
 
-* アクティビティを編集する際に、[!DNL Analytics] ベースの指標を使用し、レポートスイートが読み込まれない（スピナー表示）場合は、指標を[!DNL Target]指標に切り替えてから、もう一度[!DNL Analytics] ベースの指標に切り替えます。 これで、レポートスイートがロードされるようになります。
+* アクティビティを編集する際に、[!DNL Analytics] ベースの指標を使用し、レポートスイートが読み込まれない（スピナー表示）場合、指標を[!DNL Target]指標に切り替えてから、もう一度[!DNL Analytics] ベースの指標に切り替えます。 これで、レポートスイートがロードされるようになります。
 * 既に実行中のテストに変更を加えた場合は、テストとそのデータをリセットする可能性があります。
 
   [!DNL Target]では、ライブアクティビティを編集できます。 処理中のアクティビティを編集すると、テストがリセットされ、レポートが変更の一部を認識しない場合があります。
