@@ -8,20 +8,31 @@ exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 925
