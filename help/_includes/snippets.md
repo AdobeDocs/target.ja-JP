@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 90%
+source-wordcount: '267'
+ht-degree: 83%
 ---
 # スニペット
 
@@ -36,4 +36,7 @@ ht-degree: 90%
 >
 >* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。 マーケター、開発者、管理者のいずれであっても、このFAQは、スムーズに移行し、更新されたUIを最大限に活用するのに役立ちます。
 
+## アクティビティ名ルール {#activity-name-rules}
+
+アクティビティ名の先頭に`=`、`+`、`-`、または`@`を指定することはできません。 アクティビティ名に次の文字シーケンスを含めることはできません：`;=`、`;+`、`;-`、`;@`、`,=`、`,+`、`,-`、`,@`、`["`、または`"]`。
 
