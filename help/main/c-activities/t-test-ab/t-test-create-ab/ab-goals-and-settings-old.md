@@ -85,7 +85,7 @@ ht-degree: 39%
 * レポートフィルター作成とレポートのためのオーディエンス追加
 * アクティビティのメモの入力
 
-(https://video.tv.adobe.com/v/17381?captions=jpn
+(https://video.tv.adobe.com/v/3507944?captions=jpn
 
 ### A/B テスト作成（8:36）![チュートリアルバッジ](/help/main/assets/tutorial.png)
 

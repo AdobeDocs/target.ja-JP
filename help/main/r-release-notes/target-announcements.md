@@ -76,7 +76,7 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 
 If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ja){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=ja){target=_blank}."
 
 +++
 -->
@@ -107,7 +107,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   レコメンデーションアルゴリズムでビジネスに変革をもたらし、エンゲージメントと収益を促進する方法について説明します。 パーソナライズされた製品の提案からコンテンツのレコメンデーションまで、ジャーニーを通じてユーザーをシームレスにガイドする機能は、ビジネスの大幅な成長を実現することに直接貢献します。
 
-  [録音を聴く。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [録音を聴く。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=ja#M3685){target=_blank}
 
 * **AI を活用したパーソナライゼーションの実現**
 

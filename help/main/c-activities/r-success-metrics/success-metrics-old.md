@@ -128,4 +128,4 @@ ht-degree: 74%
 * コンバージョン、売上高、エンゲージメントの各指標の理解と作成
 * クリック追跡指標の構築
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507816?captions=jpn)

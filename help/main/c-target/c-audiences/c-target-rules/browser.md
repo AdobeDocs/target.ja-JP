@@ -143,7 +143,7 @@ ht-degree: 35%
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507771?captions=jpn)
 
 ## [!UICONTROL &#x200B; ブラウザー]のオーディエンス属性の[!DNL iPad]と[!DNL iPhone]の更新（2024年4月30日） {#updates}
 

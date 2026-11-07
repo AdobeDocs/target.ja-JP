@@ -301,4 +301,4 @@ else if (mbox.param("adobeQA"))
 * 利用可能なオプションにアクセスするための利用可能なトークンメニューの使用
 * プロファイルスクリプトの有効化と無効化
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507908?captions=jpn)

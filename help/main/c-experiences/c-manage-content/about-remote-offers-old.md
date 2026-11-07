@@ -171,4 +171,4 @@ ht-degree: 38%
 * フォームベースの Experience Composer と Visual Experience Composer のどちらを使用するかの理解
 * 場所のターゲット設定の調整
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507881?captions=jpn)

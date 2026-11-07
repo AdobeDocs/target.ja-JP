@@ -75,4 +75,4 @@ ISP、ドメイン名、接続速度などのネットワークの詳細に基�
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507771?captions=jpn)
