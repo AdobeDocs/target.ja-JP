@@ -190,4 +190,4 @@ ht-degree: 89%
 
 このビデオでは、ビデオの4:40から始まるモバイルビューポートの設定に関する情報を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507626?captions=jpn)

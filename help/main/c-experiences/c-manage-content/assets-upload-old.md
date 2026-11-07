@@ -50,4 +50,4 @@ ht-degree: 17%
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/3507953?captions=jpn)

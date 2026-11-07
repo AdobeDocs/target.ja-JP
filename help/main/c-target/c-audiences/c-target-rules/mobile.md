@@ -109,4 +109,4 @@ Web サイトに、必要な特定のイベントではなく、すべてのイ�
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507771?captions=jpn)
