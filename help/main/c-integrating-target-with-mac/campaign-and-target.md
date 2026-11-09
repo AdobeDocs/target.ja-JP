@@ -84,4 +84,4 @@ ht-degree: 35%
 
 ## ビデオ：[!DNL Target]と[!DNL Campaign]の統合
 
->[!VIDEO](https://video.tv.adobe.com/v/35149)
+>[!VIDEO](https://video.tv.adobe.com/v/3508007?captions=jpn)
