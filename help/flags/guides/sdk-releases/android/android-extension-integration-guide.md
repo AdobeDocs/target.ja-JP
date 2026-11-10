@@ -7,10 +7,10 @@ exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 6%
+source-wordcount: '1379'
+ht-degree: 4%
 ---
 # Androidのフラグ拡張機能 {#android-extension-integration-guide}
 
@@ -21,9 +21,11 @@ ht-degree: 6%
 フラグ拡張機能を実装する前に、次のことを確認してください。
 
 * [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)で設定されたモバイルプロパティ
-* Flags拡張機能がインストールされ、モバイルプロパティに設定されている
+* モバイルプロパティにインストールおよび設定されたAdobe Flags拡張機能
 * Adobe Experience Cloud組織ID
-* 最小SDK:API 21 （Android 5.0 Lollipop）
+* 露出の分析を受け取るように、モバイルプロパティで設定されたEdge Network データストリーム
+* Android API 21 （Android 5.0 Lollipop）以降
+* Mobile Core 3.6.0以降（`sdk-bom` 3.17.0以降に含まれる）
 
 ## 拡張機能の依存関係 {#extension-dependencies}
 
@@ -31,10 +33,10 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
 
 | 拡張子 | 説明 | 必須 |
 |---|---|---|
-| モバイルコア | 設定やイベント処理などのコア機能を提供 | はい |
-| ライフサイクル | Mobile SDKのアプリケーションライフサイクルおよびセッションデータを収集します | はい |
-| Edge Network | Adobe Experience Platform Edge Networkとの通信が可能 | はい |
-| Edge Identity | Edge Network拡張機能を使用する場合に、モバイルアプリからのID管理を有効にします | はい |
+| [&#x200B; モバイルコア &#x200B;](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | 設定、イベント処理、SDKの初期化を提供 | はい |
+| [ライフサイクル](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | アプリが前景または背景に移動する際のレポート | はい |
+| [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Adobe Experience Platformに露出分析を送信します | はい |
+| Edge Network[&#128279;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)のID | ユーザーをバリアントに割り当てるために使用するIDを提供します | はい |
 
 これらの拡張機能がデータ収集モバイルプロパティにインストールされ、アプリの依存関係に含まれていることを確認します。
 
@@ -43,137 +45,104 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
 ### 拡張機能のインストール {#install-extension}
 
 1. [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)にログインします。
-1. 「**タグ**」タブを選択し、モバイルプロパティを選択します。
-1. **拡張機能** > **カタログ**&#x200B;に移動します。
-1. **フラグ拡張機能**&#x200B;を検索し、**インストール**&#x200B;を選択します。
+
+1. 「**[!UICONTROL タグ]**」メニューを選択し、モバイルプロパティを選択します。
+
+1. **[!UICONTROL 拡張機能]** > **[!UICONTROL カタログ]**&#x200B;に移動します。
+
+1. **[!DNL Adobe Flags]**&#x200B;を検索し、**[!UICONTROL インストール]**&#x200B;を選択します。
+
+   ![](../assets/extension-install.png)
+
 1. 拡張機能の設定を行います。
 
-   | 設定 | 説明 |
-   |---|---|
-   | アプリケーション ID | フラグ内のアプリケーションの一意のID |
+   * **[!UICONTROL Sandbox]**: フラグ設定を含むAdobe Experience Platform サンドボックス。
+   * **[!UICONTROL アプリケーション ID]**: フラグ内のアプリケーションの識別子。
 
-1. **保存**&#x200B;を選択します。
+1. **[!UICONTROL 保存]**&#x200B;を選択します。
+
 1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
 ### 環境ファイル IDの取得 {#environment-file-id}
 
-1. モバイルプロパティで、**環境**&#x200B;に移動します。
-1. 環境の&#x200B;**Install**&#x200B;列の下にあるボックスアイコンを選択します。
-1. **モバイルインストール手順** ダイアログで、**環境ファイル ID**&#x200B;をコピーします。
+1. モバイルプロパティで、**[!UICONTROL 環境]**&#x200B;に移動します。
+
+1. 選択した環境の&#x200B;**[!UICONTROL Install]**&#x200B;列でボックスアイコンを選択します。
+
+   ![](../assets/extension-install-2.png)
+
+1. **[!UICONTROL モバイルインストール手順]** ダイアログで、**[!UICONTROL 環境ファイル ID]**&#x200B;をコピーします。
+
+   ![](../assets/extension-install-3.png)
 
 ## アプリにフラグ拡張機能を追加 {#add-to-app}
 
 ### 依存関係を追加 {#add-dependencies}
 
-Mobile SDKの依存関係をプロジェクトに追加します。 Flags拡張機能には、Mobile Coreと以下に示すEdge関連の拡張機能が必要です。
+>[!IMPORTANT]
+>
+>Flags拡張機能は、Mobile SDK BOMの一部ではありません。 `<latest-version>`をMaven Centralの最新バージョンに置き換えます。 バージョンがなければ、Gradleは依存関係を解決できません。
+>
+></br>
+>実稼動アプリケーションの場合、Adobeでは、「3.+」などの動的バージョンではなく、明示的なバージョン番号を使用することをお勧めします。 詳しくは、[Gradle依存関係の管理] （https://docs.gradle.org/current/userguide/dependency_management.html）を参照してください。
 
-#### BOMでのGradleの使用（推奨） {#gradle-bom}
+アプリの`build.gradle.kts` （Kotlin）または`build.gradle` （Groovy）ファイルに次の依存関係を追加します。
 
-アプリの`build.gradle.kts` ファイルに次の依存関係を追加します。
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 dependencies {
-    // Adobe Experience Platform Mobile SDK BOM
-    implementation(platform("com.adobe.marketing.mobile:sdkbom:3.+"))
+    // Adobe Experience Platform Mobile SDK BOM (3.17.0 or later)
+    implementation(platform("com.adobe.marketing.mobile:sdk-bom:3.+"))
 
-    // Required extensions
+    // Required extensions (versions managed by the BOM)
     implementation("com.adobe.marketing.mobile:core")
     implementation("com.adobe.marketing.mobile:lifecycle")
     implementation("com.adobe.marketing.mobile:edge")
     implementation("com.adobe.marketing.mobile:edgeidentity")
+
+    // Flags extension (not managed by the BOM; specify the version)
+    implementation("com.adobe.marketing.mobile:flags:<latest-version>")
 }
 ```
 
-#### Gradleの使用（Groovy） {#gradle-groovy}
+>[!TAB Groovy]
 
 ```groovy
 dependencies {
-    // Adobe Experience Platform Mobile SDK BOM
-    implementation platform('com.adobe.marketing.mobile:sdkbom:3.+')
+    // Adobe Experience Platform Mobile SDK BOM (3.17.0 or later)
+    implementation platform('com.adobe.marketing.mobile:sdk-bom:3.+')
 
-    // Required extensions
+    // Required extensions (versions managed by the BOM)
     implementation 'com.adobe.marketing.mobile:core'
     implementation 'com.adobe.marketing.mobile:lifecycle'
     implementation 'com.adobe.marketing.mobile:edge'
     implementation 'com.adobe.marketing.mobile:edgeidentity'
+
+    // Flags extension (not managed by the BOM; specify the version)
+    implementation 'com.adobe.marketing.mobile:flags:<latest-version>'
 }
 ```
 
->[!IMPORTANT]
->
->実稼動アプリケーションの場合は、動的バージョンではなく明示的なバージョン番号を使用することをお勧めします。 詳しくは、[Gradle依存関係の管理](https://docs.gradle.org/current/userguide/dependency_management.html)を参照してください。
-
-### フラグの依存関係を追加 {#add-flags-dependency}
-
-#### ホストされたMaven リポジトリの使用（推奨） {#hosted-maven}
-
-Flags Maven リポジトリを`settings.gradle.kts`の`repositories` ブロックに追加します。
-
-```kotlin
-maven {
-    url = uri("<HTTPS Flags Maven repository URL>")
-}
-```
-
-Groovy `settings.gradle` ファイル：
-
-```groovy
-maven {
-    url = uri('<HTTPS Flags Maven repository URL>')
-}
-```
-
-`<HTTPS Flags Maven repository URL>`を、フラグ拡張機能に指定されたセキュアなリポジトリ URLに置き換えます。
-
-次に、バージョン管理されたフラグの依存関係をアプリの`build.gradle.kts`に追加します。
-
-```kotlin
-implementation("com.adobe.marketing.mobile:flags:<version>")
-```
-
-Groovy `build.gradle` ファイル：
-
-```groovy
-implementation 'com.adobe.marketing.mobile:flags:<version>'
-```
-
-`<version>`を、リリースに提供されたFlags拡張機能のバージョンと完全に置き換えます。
-
-#### フラグ配布パッケージの使用 {#distribution-package}
-
-Flags拡張機能の配布パッケージには、次のものが含まれます。
-
-* `flags-3.x.aar`
-* `flags-3.x.module`
-* `flags-3.x.pom`
-
-次のいずれかの方法を使用して、この拡張機能をAndroid プロジェクトで使用できるようにします。
-
-* 配布パッケージからすべてのファイルをローカルまたはプライベートのMaven リポジトリに公開し、そのリポジトリを使用するようにプロジェクトを設定します。
-* プロジェクトに`flags-3.x.aar`を直接追加し、`flags-3.x.pom`で指定された推移的依存関係を宣言します。
-
-### 権限の追加 {#add-permissions}
-
-次の権限を`AndroidManifest.xml` ファイルに追加します。
-
-```xml
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-```
+>[!ENDTABS]
 
 ### SDKの初期化 {#initialize-sdk}
 
-フラグ拡張機能APIを呼び出す前に、`Application` クラスでMobile SDKを初期化します。 モバイルプロパティの環境ファイル IDを`MobileCore.initialize`で使用すると、アプリはデータ収集で公開したフラグ設定を取得します。
-
-#### MobileCore.initializeの使用 {#mobile-core-initialize}
-
-Android BOM バージョン 3.8.0以降で使用可能なこのAPIは、Data Collection環境ファイルを使用してSDKを初期化します。
-
 >[!IMPORTANT]
 >
->実稼動アプリの場合は、`LoggingMode.ERROR`のみを使用します。リリースビルドで`DEBUG`または`VERBOSE`を使用しないでください。
+>実稼動アプリの場合は、`LoggingMode.ERROR`のみを使用してください。 リリースビルドで`DEBUG`または`VERBOSE`を使用しないでください。
 
-**Kotlin**
+フラグ拡張機能APIを呼び出す前に、`Application` クラスでMobile SDKを初期化します。 モバイルプロパティから環境ファイル IDを使用して、アプリがデータ収集で公開したフラグ設定を取得します。
+
+`MobileCore.initialize`は、Flags拡張機能を含め、Gradle依存関係に含まれるすべてのAdobe拡張機能を登録します。
+
+`MobileCore.initialize`を使用する場合は、`MobileCore.registerExtensions`、`MobileCore.lifecycleStart`、または`MobileCore.lifecyclePause`も呼び出さないでください。 これらはあなたのために取り扱われます。
+
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 import android.app.Application
@@ -185,7 +154,6 @@ class MainApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        // Production: use LoggingMode.ERROR only. Do not use DEBUG or VERBOSE in release builds.
         MobileCore.setLogLevel(LoggingMode.ERROR)
 
         // Initialize with your Environment File ID from Data Collection
@@ -194,7 +162,7 @@ class MainApplication : Application() {
 }
 ```
 
-**Java**
+>[!TAB Java]
 
 ```java
 import android.app.Application;
@@ -207,14 +175,15 @@ public class MainApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        // Production: use LoggingMode.ERROR only. Do not use DEBUG or VERBOSE in release builds.
         MobileCore.setLogLevel(LoggingMode.ERROR);
 
         // Initialize with your Environment File ID from Data Collection
-        MobileCore.initialize(this, "YOUR_ENVIRONMENT_FILE_ID", null);
+        MobileCore.initialize(this, "YOUR_ENVIRONMENT_FILE_ID");
     }
 }
 ```
+
+>[!ENDTABS]
 
 ### アプリケーションクラスを登録 {#register-application}
 
@@ -227,30 +196,58 @@ public class MainApplication extends Application {
 </application>
 ```
 
+### 拡張機能を手動で登録する場合 {#register-manually}
+
+アプリで`MobileCore.initialize`を使用できず、`MobileCore.registerExtensions`に拡張機能を登録する場合は、`Flag.EXTENSION`をリストに追加してください。 従来の`com.adobe.marketing.mobile.Identity`ではなく、Edge Network クラス `com.adobe.marketing.mobile.edge.identity.Identity`のIDを使用してください。
+
+```kotlin
+import com.adobe.marketing.mobile.Edge
+import com.adobe.marketing.mobile.Lifecycle
+import com.adobe.marketing.mobile.MobileCore
+import com.adobe.marketing.mobile.edge.identity.Identity
+import com.adobe.marketing.mobile.flags.Flag
+
+MobileCore.setApplication(this)
+MobileCore.configureWithAppID("YOUR_ENVIRONMENT_FILE_ID")
+MobileCore.registerExtensions(
+    listOf(Lifecycle.EXTENSION, Identity.EXTENSION, Edge.EXTENSION, Flag.EXTENSION)
+) { }
+```
+
+この設定では、ライフサイクルは自動的に追跡されません。 すべてのアクティビティの`onResume`の`MobileCore.lifecycleStart(null)`と、その`onPause`の`MobileCore.lifecyclePause()`を呼び出します。 これらの呼び出しがなければ、アプリがバックグラウンド中でも拡張機能はフラグを更新し続け、露出の分析は後で送信されます。
+
 ## 評価コンテキスト {#evaluation-context}
 
-`FeatureEvaluationContext` クラスには、ターゲティング属性が含まれています（フラグルールの照合に使用）。
+`FeatureEvaluationContext`には、フラグルールが使用するターゲティング属性が保持されます。 IDを渡しません。拡張機能は、評価のたびにIdentity for Edge NetworkからIDを読み取ります。 [&#x200B; カスタム ID](#custom-identity)を参照してください。
 
 | メソッド | 必須 | 説明 |
 |---|---|---|
-| `withAttributes(map)` | × | `Map<String, List<String>>`. キーは、フラグルールで使用されるコンテキスト属性名です（例：`locale`、`platform`、`appVersion`、`deviceType`）。 値は、現在のユーザー/セッションのキーの候補属性値のリストです（例：`["en_US"]`または`["phone"]`）。 |
+| `withAttributes(map)` | × | `Map<String, List<String>>`. 各キーは、フラグルールで使用される属性名（`locale`や`appVersion`など）です。 各値は、現在のユーザーの値のリストです（例：`["en_US"]`）。 |
 
-**Kotlin**
+* すべての評価にはコンテキストが必要です。 属性がない場合は、`FeatureEvaluationContext.builder().build()`を渡します。
+* ビルダーごとに1回まで`withAttributes`を呼び出します。
+* 構築されたコンテキストは変更できないので、評価間で再利用できます。
+
+### 使用方法 {#evaluation-context-usage}
+
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 import com.adobe.marketing.mobile.flags.FeatureEvaluationContext
 
-val attrs = mapOf(
-    "locale" to listOf("en_US"),
-    "platform" to listOf("ANDROID")
-)
-
 val ctx = FeatureEvaluationContext.builder()
-    .withAttributes(attrs)
+    .withAttributes(
+        mapOf(
+            "locale" to listOf("en_US"),
+            "platform" to listOf("ANDROID")
+        )
+    )
     .build()
 ```
 
-**Java**
+>[!TAB Java]
 
 ```java
 import com.adobe.marketing.mobile.flags.FeatureEvaluationContext;
@@ -268,17 +265,38 @@ FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
         .build();
 ```
 
-### カスタム ID {#custom-identity}
+>[!ENDTABS]
 
-Flags拡張機能は、ID解決にIdentity for Edge Network拡張機能を使用します。 機能フラグをカスタム ID （CRM IDやロイヤルティ IDなど）でコホートできるため、バリエーションの分割と分析を、アプリケーションにとって重要なIDに結び付けることができます。
+### ターゲティング属性の例 {#sample-attributes}
+
+| 属性 | 説明 | 値の例 |
+|---|---|---|
+| `locale` | ユーザーのロケール | `["en_US"]`, `["fr_FR"]` |
+| `platform` | プラットフォーム | `["ANDROID"]` |
+| `appVersion` | アプリバージョン | `["3.0.0"]` |
+| `deviceType` | デバイスタイプ | `["phone"]`, `["tablet"]` |
+
+属性名と値は、フラグルールで使用される名前と値と一致する必要があります。
+
+## カスタム ID {#custom-identity}
+
+Flags拡張機能は、ID解決に[Edge Network拡張機能](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)のIDを使用します。 機能フラグは、CRM IDやロイヤルティ IDなどのカスタム IDでコホートできるため、バリエーションの分割と分析を、アプリケーションにとって重要なIDに結び付けることができます。
 
 機能フラグの作成時に、フラグ UIでカスタム ID名前空間を選択する必要があります。 そのIDに対してフラグを評価するには、一致する名前空間を使用して、デバイス上のEdge ID `identityMap`に同じIDが存在する必要があります。 Edge Network `updateIdentities` APIのIDを実行時に指定します。
 
-#### ID マップへのカスタム IDの追加 {#add-identity}
+### ID マップにカスタム IDを追加する {#add-identity}
 
-機能フラグで設定された同じ名前空間の下にIDを追加します。
+フラグを評価する前に、機能フラグで設定された同じ名前空間の下にIDを追加します。
 
-**Kotlin**
+IDを追加する場合は、次の点に注意してください。
+
+* 名前空間は、大文字と小文字を含めて正確に一致する必要があります。
+* 名前空間に複数のIDがある場合は、プライマリとしてマークされたIDが使用されます。 それ以外の場合は、最初のものが使用されます。
+* フラグが評価されたときにIDが見つからない場合、ユーザーはアプリの起動時に毎回変更される一時的なIDで割り当てられます。 次に、ユーザーのバリエーションをアプリのローンチ間で変更できます。 IDを使用するフラグを評価する前に、必ずIDを設定してください。
+
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 import com.adobe.marketing.mobile.edge.identity.AuthenticatedState
@@ -294,7 +312,7 @@ identityMap.addItem(
 Identity.updateIdentities(identityMap)
 ```
 
-**Java**
+>[!TAB Java]
 
 ```java
 import com.adobe.marketing.mobile.edge.identity.AuthenticatedState;
@@ -302,21 +320,40 @@ import com.adobe.marketing.mobile.edge.identity.Identity;
 import com.adobe.marketing.mobile.edge.identity.IdentityItem;
 import com.adobe.marketing.mobile.edge.identity.IdentityMap;
 
-final IdentityItem item = new IdentityItem("1111", AuthenticatedState.AUTHENTICATED, true);
-final IdentityMap identityMap = new IdentityMap();
-identityMap.addItem(item, "userCRMId"); // must match the namespace configured on the feature flag
+IdentityMap identityMap = new IdentityMap();
+identityMap.addItem(
+        new IdentityItem("1111", AuthenticatedState.AUTHENTICATED, true),
+        "userCRMId"); // must match the namespace configured on the feature flag
 Identity.updateIdentities(identityMap);
 ```
 
+>[!ENDTABS]
+
 ## API リファレンス {#api-reference}
+
+### コールバックとエラー処理 {#callbacks-errors}
+
+次のルールは`isFeatureEnabled`と`getFeature`に適用されます：
+
+* 常にデフォルトのエクスペリエンスを提供する： `AdobeCallbackWithError`を渡し、`fail`でデフォルトのエクスペリエンスを表示します。 プレーン `AdobeCallback`では、エラーが発生したときに呼び出されることはありません。
+
+* 拡張機能は、アプリの起動時にフラグ定義をプリロードします。 その後、フラグはデバイス上で評価されます。
+
+* その他のエラー：`fail`は次の場合に`AdobeError.UNEXPECTED_ERROR`で呼び出されます：
+
+  * 機能キーが空です，
+  * 公開された設定にフラグ設定またはExperience Cloud組織IDが見つからない、または
+  * アプリの起動時にフラグ定義をダウンロードできませんでした（デバイスがオフラインだったなど）。 拡張機能は、次の設定の更新時（通常は次のアプリ起動時）に再試行します。
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`、`FeatureEvaluationContext` （オプションのターゲット属性）、およびコールバックを渡します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。
+現在のユーザーに対して機能が有効になっているかどうかを返します。
 
 **署名**
 
-*Kotlin*
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 Flag.isFeatureEnabled(
@@ -326,7 +363,7 @@ Flag.isFeatureEnabled(
 )
 ```
 
-*Java*
+>[!TAB Java]
 
 ```java
 Flag.isFeatureEnabled(
@@ -335,66 +372,85 @@ Flag.isFeatureEnabled(
     AdobeCallback<Boolean> callback);
 ```
 
+>[!ENDTABS]
+
 **パラメーター**
 
 | パラメーター | タイプ | 説明 |
 |---|---|---|
-| `featureKey` | 文字列 | フラグで評価する機能キー |
-| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
-| `callback` | AdobeCallback&lt;Boolean> | 機能が有効になっている場合は`true`で呼び出され、それ以外の場合は`false`です。 `AdobeCallbackWithError<Boolean>`を渡して`fail(...)`を処理することもできます。 |
+| `featureKey` | 文字列 | 評価する機能のキー |
+| `evaluationContext` | FeatureEvaluationContext | ターゲティング属性： `FeatureEvaluationContext.builder().build()`がない場合は使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
+| `callback` | AdobeCallback&lt;Boolean> | この機能がユーザーに対して有効になっている場合、`true`で呼び出されます。 機能が見つからない場合、ターゲティングルールが一致しない場合、またはユーザーがコントロールグループ内にある場合に、`false`で呼び出されます。 `AdobeCallbackWithError<Boolean>`を渡してエラーも受信します。 |
 
 **例**
 
-*Kotlin*
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
-import com.adobe.marketing.mobile.AdobeCallback
+import com.adobe.marketing.mobile.AdobeCallbackWithError
+import com.adobe.marketing.mobile.AdobeError
 import com.adobe.marketing.mobile.flags.Flag
 
 Flag.isFeatureEnabled(
-    "new-flag",
+    "new-checkout",
     ctx,
-    object : AdobeCallback<Boolean> {
+    object : AdobeCallbackWithError<Boolean> {
         override fun call(isEnabled: Boolean?) {
-            if (isEnabled == true) {
-                // run the feature-specific behavior
-            } else {
-                // fall back to the default behavior
+            runOnUiThread {
+                if (isEnabled == true) showNewCheckout() else showDefaultCheckout()
             }
+        }
+
+        override fun fail(error: AdobeError?) {
+            runOnUiThread { showDefaultCheckout() }
         }
     }
 )
 ```
 
-*Java*
+>[!TAB Java]
 
 ```java
-import com.adobe.marketing.mobile.AdobeCallback;
+import com.adobe.marketing.mobile.AdobeCallbackWithError;
+import com.adobe.marketing.mobile.AdobeError;
 import com.adobe.marketing.mobile.flags.Flag;
 
 Flag.isFeatureEnabled(
-    "new-flag",
+    "new-checkout",
     ctx,
-    new AdobeCallback<Boolean>() {
+    new AdobeCallbackWithError<Boolean>() {
         @Override
         public void call(Boolean isEnabled) {
-            if (Boolean.TRUE.equals(isEnabled)) {
-                // run the feature-specific behavior
-            } else {
-                // fall back to the default behavior
-            }
+            runOnUiThread(() -> {
+                if (Boolean.TRUE.equals(isEnabled)) {
+                    showNewCheckout();
+                } else {
+                    showDefaultCheckout();
+                }
+            });
+        }
+
+        @Override
+        public void fail(AdobeError error) {
+            runOnUiThread(() -> showDefaultCheckout());
         }
     }
 );
 ```
 
+>[!ENDTABS]
+
 ### getFeature {#get-feature}
 
-`getFeature`は、指定されたコンテキストの評価済み機能ペイロードを返します。 このAPIは、有効/無効を超える必要があり、機能のメタデータまたは値が必要な場合に使用します。
+現在のユーザーの評価済み機能（メタデータを含む）を返します。 このAPIは、有効または無効を超える必要がある場合に使用します。
 
 **署名**
 
-*Kotlin*
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 Flag.getFeature(
@@ -404,7 +460,7 @@ Flag.getFeature(
 )
 ```
 
-*Java*
+>[!TAB Java]
 
 ```java
 Flag.getFeature(
@@ -413,13 +469,17 @@ Flag.getFeature(
     AdobeCallback<FeatureEvaluationResult> callback);
 ```
 
+>[!ENDTABS]
+
 **パラメーター**
 
 | パラメーター | タイプ | 説明 |
 |---|---|---|
-| `featureKey` | 文字列 | フラグで評価する機能キー |
-| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
-| `callback` | AdobeCallback&lt;FeatureEvaluationResult> | 評価された機能ペイロードで呼び出されます。機能が見つからない場合は`null`になる可能性があります。 `AdobeCallbackWithError<FeatureEvaluationResult>`を渡して`fail(...)`を処理することもできます。 |
+| `featureKey` | 文字列 | 評価する機能のキー |
+| `evaluationContext` | FeatureEvaluationContext | ターゲティング属性： `FeatureEvaluationContext.builder().build()`がない場合は使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
+| `callback` | AdobeCallback&lt;FeatureEvaluationResult> | 評価済み機能で呼び出されるか、機能がユーザーに提供されない場合は`null`で呼び出されます。キーが不明であるか、ターゲティング条件が満たされていないか、ユーザーがコントロール コホート内にあります。 `null`は正常な結果であり、エラーではありません。 コントロールコホートのエクスポージャーは、引き続きAnalyticsに報告されます。 `AdobeCallbackWithError<FeatureEvaluationResult>`を渡して、タイムアウトなどの実際のエラーの`fail(...)`を受け取ります。 |
+
+`null`の結果を「機能オフ」として扱い、デフォルトのエクスペリエンスを表示します。 `fail`が呼び出されたときのデフォルトのエクスペリエンスも表示します。これは、タイムアウトなどの実際のエラーでのみ発生します。
 
 **応答**
 
@@ -427,72 +487,87 @@ Flag.getFeature(
 
 | フィールド | タイプ | 説明 |
 |---|---|---|
-| `id` | 整数 | 数値特徴識別子 |
+| `id` | 整数 | 機能ID |
 | `key` | 文字列 | 機能キー |
-| `featureGroupKey` | 文字列？ | 機能グループキー（使用可能な場合） |
-| `meta` | 文字列？ | 利用可能な場合、メタデータをJSON文字列として機能する |
-| `analyticsParam` | AnalyticsParam? | 評価済み機能の分析の詳細 |
+| `featureGroupKey` | 文字列？ | 機能がグループに属している場合は、機能グループキー |
+| `meta` | 文字列？ | 機能に設定されたメタデータ （プレーンテキスト、または設定されていない場合は`null`）。 JSONを保存した場合は、アプリ内の文字列を解析します。 |
+| `analyticsParam` | AnalyticsParam? | 評価の分析の詳細 |
 
 *AnalyticsParam*
 
 | フィールド | タイプ | 説明 |
 |---|---|---|
-| `featureGroupId` | 整数 | 数値フィーチャ グループ ID |
-| `featureId` | 整数 | 数値特徴識別子 |
-| `variantId` | 文字列？ | バリアント ID |
+| `featureGroupId` | 整数 | 機能グループ ID |
+| `featureId` | 整数 | 機能ID |
+| `variantId` | 文字列？ | ユーザーが割り当てられたバリアントのID |
 
 **例**
 
-*Kotlin*
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
-import com.adobe.marketing.mobile.AdobeCallback
+import com.adobe.marketing.mobile.AdobeCallbackWithError
+import com.adobe.marketing.mobile.AdobeError
 import com.adobe.marketing.mobile.flags.FeatureEvaluationResult
 import com.adobe.marketing.mobile.flags.Flag
 
 Flag.getFeature(
-    "new-flag",
+    "new-checkout",
     ctx,
-    object : AdobeCallback<FeatureEvaluationResult> {
+    object : AdobeCallbackWithError<FeatureEvaluationResult> {
         override fun call(feature: FeatureEvaluationResult?) {
             val meta = feature?.meta
-            if (!meta.isNullOrEmpty()) {
-                // Feature metadata is available: use it to drive the feature behavior
-            } else {
-                // No metadata available: fall back to the default behavior
+            runOnUiThread {
+                if (!meta.isNullOrEmpty()) applyExperience(meta) else showDefaultExperience()
             }
+        }
+
+        override fun fail(error: AdobeError?) {
+            runOnUiThread { showDefaultExperience() }
         }
     }
 )
 ```
 
-*Java*
+>[!TAB Java]
 
 ```java
-import com.adobe.marketing.mobile.AdobeCallback;
+import com.adobe.marketing.mobile.AdobeCallbackWithError;
+import com.adobe.marketing.mobile.AdobeError;
 import com.adobe.marketing.mobile.flags.FeatureEvaluationResult;
 import com.adobe.marketing.mobile.flags.Flag;
 
 Flag.getFeature(
-    "new-flag",
+    "new-checkout",
     ctx,
-    new AdobeCallback<FeatureEvaluationResult>() {
+    new AdobeCallbackWithError<FeatureEvaluationResult>() {
         @Override
         public void call(FeatureEvaluationResult feature) {
-            String meta = feature != null ? feature.getMeta() : null;
-            if (meta != null && !meta.isEmpty()) {
-                // Feature metadata is available: use it to drive the feature behavior
-            } else {
-                // No metadata available: fall back to the default behavior
-            }
+            final String meta = feature != null ? feature.getMeta() : null;
+            runOnUiThread(() -> {
+                if (meta != null && !meta.isEmpty()) {
+                    applyExperience(meta);
+                } else {
+                    showDefaultExperience();
+                }
+            });
+        }
+
+        @Override
+        public void fail(AdobeError error) {
+            runOnUiThread(() -> showDefaultExperience());
         }
     }
 );
 ```
 
+>[!ENDTABS]
+
 ### extensionVersion {#extension-version}
 
-Flags拡張機能のバージョン文字列を返します。
+Flags拡張機能のバージョンを返します。
 
 **構文**
 
@@ -518,13 +593,12 @@ String version = Flag.extensionVersion();
 
 | API | 返品 |
 |---|---|
-| `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext`には、ルールのターゲット属性が含まれています。 [機能評価](#is-feature-enabled)を参照してください。 | コールバックを使用したブーリアン |
-| `getFeature(featureKey, evaluationContext, callback)`. 指定されたコンテキストの評価された機能ペイロードを返します。 [getFeature](#get-feature)を参照してください。 | コールバックによるFeatureEvaluationResult |
+| `isFeatureEnabled(featureKey, evaluationContext, callback)`. [isFeatureEnabled](#is-feature-enabled)を参照してください。 | コールバックを使用したブーリアン |
+| `getFeature(featureKey, evaluationContext, callback)`. [getFeature](#get-feature)を参照してください。 | コールバックによるFeatureEvaluationResult |
 | `extensionVersion()` | 文字列 |
 
-## 詳細については、 {#see-also}
+## デバッグ {#debugging}
 
-* [モバイルアプリケーション](../../integrate/mobile-applications.md)
-* [SDK](../../integrate/sdks.md)
+デバッグするには、デバッグビルドで`MobileCore.setLogLevel(LoggingMode.DEBUG)`を設定し、`Flags`でLogcatをフィルタリングします。 `com.adobe.marketing.mobile.flags.FlagExtension`のMobileCoreから`Discovered extension` メッセージが表示されます。
 
-<!-- -->
+

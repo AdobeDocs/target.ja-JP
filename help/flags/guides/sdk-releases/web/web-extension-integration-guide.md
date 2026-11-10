@@ -6,10 +6,10 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 8%
+source-wordcount: '1229'
+ht-degree: 7%
 ---
 # Web用フラグ拡張機能 {#web-extension-integration-guide}
 
@@ -45,28 +45,30 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
 
 ### 拡張機能のインストール {#install-extension}
 
-1. Adobe IDの資格情報を使用して[experience.adobe.com](https://experience.adobe.com)にログインします。
-1. **データ収集** > **タグ**&#x200B;に移動します。
-1. 目的のタグプロパティを選択します。
-1. **拡張機能** > **カタログ**&#x200B;に移動します。
-1. **フラグ**&#x200B;を検索し、拡張カードを選択します。
-1. **インストール**&#x200B;を選択します。
+1. [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)にログインします。
 
-### 拡張機能の設定 {#configure-settings}
+1. 「**[!UICONTROL タグ]**」タブを選択し、モバイルプロパティを選択します。
 
-Flags拡張機能をインストールすると、設定ページに移動します。 以下の設定を指定します。
+1. **[!UICONTROL 拡張機能]** > **[!UICONTROL カタログ]**&#x200B;に移動します。
 
-| 設定 | 説明 | 必須 |
-|---|---|---|
-| クライアント ID | フラグ内のアプリケーションの一意のID。 | はい |
+1. **[!DNL Adobe Flags]**&#x200B;を検索し、**[!UICONTROL インストール]**&#x200B;を選択します。
 
-### 保存して公開 {#save-publish}
+   ![](../assets/extension-install.png)
 
-1. 拡張機能の設定を保存するには、**保存**&#x200B;を選択します。
-1. 公開フローに従って、変更をデプロイします。
+1. 拡張機能の設定を行います。
+
+* クライアント ID: フラグ内のアプリケーションの一意のID。
+
+1. **[!UICONTROL 保存]**&#x200B;を選択します。
+
+1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+
    1. 拡張機能をライブラリに追加します。
+
    1. 開発環境に合わせて構築。
-   1. Adobe Experience Platform Debuggerによる検証。
+
+   1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ja)で検証します。
+
    1. ステージングと制作へのプロモーション。
 
 ## Web サイトへのタグ埋め込みコードの追加 {#embed-code}
@@ -76,17 +78,28 @@ Flags拡張機能をインストールすると、設定ページに移動しま
 ### 埋め込みコードをコピー {#copy-embed-code}
 
 1. データ収集で、web プロパティに移動します。
-1. 左側のナビゲーションで「**環境**」を選択します。
-1. ターゲット環境（開発、ステージング、実稼動）の行で、**インストール**&#x200B;列の下にあるボックスアイコンを選択します。
-1. **Web インストール手順** ダイアログでは、タグはデフォルトで非同期埋め込みコードになります。
-1. 埋め込みコードをクリップボードにコピーするには、**コピー** アイコンを選択します。
-1. モーダルを閉じるには、**閉じる**&#x200B;を選択します。
+
+1. **[!UICONTROL 環境]** メニューにアクセスします。
+
+1. 選択した環境の&#x200B;**[!UICONTROL Install]**&#x200B;列でボックスアイコンを選択します。
+
+   ![](../assets/extension-install-2.png)
+
+1. **[!UICONTROL Web インストール手順]** ダイアログでは、タグはデフォルトで非同期埋め込みコードになります。
+
+1. 埋め込みコードをクリップボードにコピーするには、**[!UICONTROL コピー]** アイコンを選択します。
+
+   >[!NOTE]
+   >
+   >各環境には一意の埋め込みコード URLがあります。 詳しくは、[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ja) ドキュメントを参照してください。
+
+   ![](../assets/extension-install-4.png)
+
+### 埋め込みコードの実装 {#implement-embed-code}
 
 >[!NOTE]
 >
->各環境には一意の埋め込みコード URLがあります。 詳しくは、「環境」を参照してください。
-
-### 埋め込みコードの実装 {#implement-embed-code}
+>`src` URLを、環境ページの実際の埋め込みコードに置き換えます。 URLには、会社識別子、プロパティ識別子、および環境識別子（例：`launch-EN123456789abcdef.min.js`）が含まれています。
 
 HTML ページの`<head>`要素に埋め込みコードを追加します。 埋め込みコードは、タグライブラリに依存する他のスクリプトの前に配置する必要があります。
 
@@ -97,17 +110,13 @@ HTML ページの`<head>`要素に埋め込みコードを追加します。 埋
   <title>My Website</title>
 
   <!-- Adobe Experience Platform Tags embed code -->
-  <script src="https://assets.adobedtm.com/yourcompany/your-property/launchENxxxxxxxxxxx.min.js" async></script>
+  <script src="https://assets.adobedtm.com/your-company/your-property/launch-ENxxxxxxxxxxx.min.js" async></script>
 </head>
 <body>
   <!-- Your page content -->
 </body>
 </html>
 ```
-
->[!NOTE]
->
->`src` URLを、環境ページの実際の埋め込みコードに置き換えます。 URLには、会社識別子、プロパティ識別子、および環境識別子（例：`launch-EN123456789abcdef.min.js`）が含まれています。
 
 ### タグコンポーネントを使用したフラグの評価 {#tags-components}
 
@@ -168,7 +177,7 @@ const context = {
 
 ## API リファレンス {#api-reference}
 
-### isFeatureEnabled {#is-feature-enabled}
+### 機能の評価 {#is-feature-enabled}
 
 `isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`と`FeatureEvaluationContext`を渡します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 **機能が有効になっています** タグ条件を使用するか、初期化後にカスタムコードから`window._flagClient.isFeatureEnabled(...)`を呼び出します。
 
@@ -185,40 +194,35 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | `featureKey` | string | フラグで評価する機能キー |
 | `context` | FeatureEvaluationContext | ID （必須）とオプションのターゲティング属性。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 
-### 機能フラグデータ要素の作成 {#create-data-element}
+## 機能フラグデータ要素の作成 {#create-data-element}
 
 ルールまたはカスタムコードで`%Data Element Name%`として利用可能なフラグ値が必要な場合は、データ要素を使用します。
 
-**手順**
+1. プロパティで、**[!UICONTROL データ要素]** メニューにアクセスし、**[!UICONTROL データ要素を追加]**&#x200B;を選択します。
 
-1. プロパティで、**データ要素**&#x200B;に移動し、**データ要素を追加**&#x200B;を選択します。
+   ![](../assets/extension-install-5.png)
+
 1. **データ要素を作成**&#x200B;画面で、タグフィールドを設定します。
 
-   | フィールド | 値 |
-   |---|---|
-   | 名前 | わかりやすい名前（例：`checkout flag`） |
-   | 拡張子 | フラグ |
-   | データ要素タイプ | 機能フラグ |
+   * **[!UICONTROL 名前]**：わかりやすい名前（例：`checkout flag`）
+   * **[!UICONTROL 拡張機能]**: フラグ
+   * **[!UICONTROL データ要素タイプ]**：機能フラグ
 
 1. **フラグ**&#x200B;拡張フィールドを設定します。
 
-   | フィールド | 必須 | 説明 |
-   |---|---|---|
-   | 機能キー | はい | 一意のフラグキー（例：`checkout_flag`） |
-   | 戻り値の型 | はい | **Boolean （true/false）** – 有効/無効、または&#x200B;**機能オブジェクト （詳細）** — `meta`を含む完全なペイロード |
+   * **[!UICONTROL 機能キー]**：一意のフラグキー（例：`checkout_flag`）、必須。
+   * **[!UICONTROL Return Type]**: **ブール値（true/false）** – 有効/無効、または&#x200B;**機能オブジェクト（詳細）** – 完全なペイロード （必須：`meta`を含む）。
+
+     | 戻り値タイプ | 次に解決する |
+     |---|---|
+     | ブール値（true／false） | 有効な場合は`true`、それ以外の場合は`false` |
+     | 機能オブジェクト（詳細） | フラグが有効で、コンテキストがそのオーディエンスと一致する場合、機能ペイロードを評価しました。フラグが無効になっている場合、見つからない場合、またはコンテキストが一致しない場合、`null` |
 
 1. **保存**&#x200B;を選択します。
 
-**タイプを返す**
-
-| 戻り値タイプ | 次に解決する |
-|---|---|
-| ブール値（true／false） | 有効な場合は`true`、それ以外の場合は`false` |
-| 機能オブジェクト（詳細） | 完全に評価された機能ペイロード。ルールを満たさない場合は`null` |
-
 ### データ要素の使用 {#use-data-element}
 
-ルール内 – 名前で参照（例：`%Test Flag%`）。
+ルールでは、名前で参照します（例：`%Test Flag%`）。
 
 カスタムコードでは、`_satellite.getVar`を使用します。 ランタイム属性を使用して、フラット属性マップを2番目の引数として渡して評価します。
 
@@ -227,7 +231,15 @@ var isEnabled = _satellite.getVar('Test Flag', {
   locale: ['en-US'],
   platform: ['web']
 });
+```
 
+**カスタムコード**
+
+```javascript
+var isEnabled = _satellite.getVar('Test Flag', {
+  locale: ['en-US'],
+  platform: ['web']
+});
 if (isEnabled) {
   // your custom code
 } else {
@@ -239,7 +251,7 @@ if (isEnabled) {
 
 `getFeature`は、有効/無効を超えるメタデータが必要な場合に、評価された機能ペイロードを返します。
 
-**機能フラグ** データ要素を&#x200B;**戻り型：機能オブジェクト（詳細）**、[機能フラグデータ要素の作成](#create-data-element)を参照、または`flagClientReady`の解決後にカスタムコードから`window._flagClient.getFeature(...)`を呼び出して使用します。
+**機能フラグ** データ要素を&#x200B;**戻り型：機能オブジェクト（詳細）**&#x200B;で使用するか、[機能フラグデータ要素の作成](#create-data-element)を参照するか、`flagClientReady`の解決後にカスタムコードから`window._flagClient.getFeature(...)`を呼び出します。
 
 **署名**
 
@@ -255,6 +267,8 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | `context` | FeatureEvaluationContext | ID （必須）とターゲティング属性。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 
 **応答**
+
+`getFeature`は、フラグが有効になっていて、指定されたコンテキストがフラグオーディエンス条件に一致する場合にのみフラグを評価します。 その場合は結果オブジェクトを返し、それ以外の場合は`null`を返します。
 
 *FeatureResult*
 
@@ -272,7 +286,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | 数値 | 数値フィーチャ グループ ID |
 | `featureId` | 数値 | 数値特徴識別子 |
-| `variantId` | 数値\| null | バリアント ID （`0` コントロール用） |
+| `variantId` | 数値\| null | バリアント ID （ユーザーがコントロール グループ内にある場合は`0`） |
 
 **コントロール グループの動作**
 
@@ -284,8 +298,14 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 
 **例**
 
+*タグ データ要素*
+
+ルール内のデータ要素（例：`%Test Feature%`）を参照し、`_satellite.getVar`を介して取得します。
+
+*カスタムコード*
+
 ```javascript
-var feature = _flagClient.getFeature('new-testflag', {
+var feature = _flagClient.getFeature('new-test-flag', {
   identityNamespace: 'ECID',
   identityId: visitorEcid,
   attributes: {
@@ -339,6 +359,8 @@ console.log(`Flags extension version: ${version}`);
 | コンテキスト内にIDがありません | 評価でエラーがスローされます。`identityNamespace`と`identityId`の両方を指定してください |
 | 機能が見つかりません | `getFeature`さんが`null`を返し、`isFeatureEnabled`さんが`false`を返します |
 
+**例**
+
 ```javascript
 try {
   const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
@@ -354,6 +376,8 @@ try {
 ### 一貫したIDを提供 {#consistent-identity}
 
 複数の評価で同じID名前空間とIDを使用し、パーセンテージのロールアウトで一貫したグループ化を実現します。
+
+**例**
 
 ```javascript
 const context = {
@@ -373,7 +397,7 @@ const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
 機能が見つからなかったり、評価が失敗したりすると、常にフォールバック動作を提供します。
 
 ```javascript
-const feature = _flagClient.getFeature('new-testflag', context);
+const feature = _flagClient.getFeature('new-test-flag', context);
 
 if (feature && feature.meta) {
   // your custom code
@@ -399,4 +423,3 @@ window.flagClientReady.then(function () {
 * [機能フラグと機能グループのオーディエンス](../../audience/audience-in-feature-flags-and-feature-groups.md)
 * [レポート](../../feature-flags/reporting.md)
 
-<!-- -->

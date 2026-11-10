@@ -6,313 +6,372 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 6%
+source-wordcount: '1313'
+ht-degree: 3%
 ---
 # IOSのフラグ拡張機能 {#ios-extension-integration-guide}
 
-このガイドでは、iOS上のAdobe Experience Platform Mobile SDKにFlags拡張機能を統合する方法について説明します。
+このガイドでは、iOS上のAdobe Experience Platform Mobile SDKにFlags拡張機能を統合する方法について説明します。 ソースコードは、[aepsdk-flags-ios](https://github.com/adobe/aepsdk-flags-ios) リポジトリで入手できます。
 
 ## 前提条件 {#prerequisites}
 
-フラグ拡張機能を実装する前に、次のことを確認してください。
+まず、次の項目を確認してください。
 
-* [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)で設定されたモバイルプロパティ
-* Flags拡張機能がインストールされ、モバイルプロパティに設定されている
-* Adobe Experience Cloud組織ID
-* 最小デプロイメントターゲット：iOS 12.0
+* iOS 12.0以降、およびSwift 5.7以降
+* [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)のモバイルプロパティ
+* 次の拡張機能がモバイルプロパティにインストールされ、設定されています。
 
-## 拡張機能の依存関係 {#extension-dependencies}
+  | 拡張子 | 説明 | SDKの最小バージョン |
+  |---|---|---|
+  | [&#x200B; モバイルコア &#x200B;](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | 設定とイベント処理 | AEPCore 5.8.0 |
+  | [ライフサイクル](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | アプリケーションライフサイクルデータ | AEPCoreと同じ |
+  | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Adobe Experience Platform Edge Networkとの連携。 データストリームが必要です。 | AEPEdge 5.0.2 |
+  | Edge Network[&#128279;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)のID | Edge NetworkのID管理 | AEPEdgeIdentity 5.0.0 |
+  | [&#x200B; フラグ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/flags/home) | 機能フラグの評価 | [&#x200B; インストール &#x200B;](#installation)を参照 |
 
-Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要です。
-
-| 拡張子 | 説明 | 必須 |
-|---|---|---|
-| モバイルコア | 設定やイベント処理などのコア機能を提供 | はい |
-| ライフサイクル | Mobile SDKのアプリケーションライフサイクルおよびセッションデータを収集します | はい |
-| Edge Network | Adobe Experience Platform Edge Networkとの通信が可能 | はい |
-| Edge Identity | Edge Network拡張機能を使用する場合に、モバイルアプリからのID管理を有効にします | はい |
-
-これらの拡張機能がデータ収集モバイルプロパティにインストールされ、アプリの依存関係に含まれていることを確認します。
-
-## データ収集でのフラグ拡張機能の設定 {#configure}
+## データ収集でのフラグの設定 {#configure}
 
 ### 拡張機能のインストール {#install-extension}
 
 1. [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)にログインします。
-1. 「**タグ**」タブを選択し、モバイルプロパティを選択します。
-1. **拡張機能** > **カタログ**&#x200B;に移動します。
-1. **フラグ拡張機能**&#x200B;を検索し、**インストール**&#x200B;を選択します。
+
+1. 「**[!UICONTROL タグ]**」メニューを選択し、モバイルプロパティを選択します。
+
+1. **[!UICONTROL 拡張機能]** > **[!UICONTROL カタログ]**&#x200B;に移動します。
+
+1. **[!DNL Adobe Flags]**&#x200B;を検索し、**[!UICONTROL インストール]**&#x200B;を選択します。
+
+   ![](../assets/extension-install.png)
+
 1. 拡張機能の設定を行います。
 
-   | 設定 | 説明 |
-   |---|---|
-   | アプリケーション ID | フラグ内のアプリケーションの一意のID |
+   * **[!UICONTROL Sandbox]**: フラグ設定を含むAdobe Experience Platform サンドボックス。
+   * **[!UICONTROL アプリケーション ID]**: フラグ内のアプリケーションの識別子。
 
-1. **保存**&#x200B;を選択します。
+1. **[!UICONTROL 保存]**&#x200B;を選択します。
+
 1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
 ### 環境ファイル IDの取得 {#environment-file-id}
 
-1. モバイルプロパティで、**環境**&#x200B;に移動します。
-1. 環境の&#x200B;**Install**&#x200B;列の下にあるボックスアイコンを選択します。
-1. **モバイルインストール手順** ダイアログで、**環境ファイル ID**&#x200B;をコピーします。
+1. モバイルプロパティで、**[!UICONTROL 環境]**&#x200B;に移動します。
 
-## アプリにフラグ拡張機能を追加 {#add-to-app}
+1. 選択した環境の&#x200B;**[!UICONTROL Install]**&#x200B;列でボックスアイコンを選択します。
 
-### 依存関係を追加 {#add-dependencies}
+   ![](../assets/extension-install-2.png)
 
-Mobile SDKの依存関係をプロジェクトに追加します。 Flags拡張機能には、Mobile Coreと以下に示すEdge関連の拡張機能が必要です。
+1. **[!UICONTROL モバイルインストール手順]** ダイアログで、**[!UICONTROL 環境ファイル ID]**&#x200B;をコピーします。
 
-#### Swift パッケージマネージャーの使用 {#swift-package-manager}
+   ![](../assets/extension-install-3.png)
 
-Xcodeで、**ファイル**/**パッケージを追加**&#x200B;を選択し、次のAdobe Experience Platform Mobile SDK パッケージ URLを追加します。
+## インストール {#installation}
 
-| パッケージ | URL |
-|---|---|
-| AEPCore | `https://github.com/adobe/aepsdk-core-ios.git` |
-| AEPEdge | `https://github.com/adobe/aepsdk-edge-ios.git` |
-| AEPEdgeIdentity | `https://github.com/adobe/aepsdk-edgeidentity-ios.git` |
+Swift パッケージマネージャーまたはXCFrameworkを使用して拡張機能を追加します。 アプリターゲットごとに1つのメソッドを使用します。
 
-プロンプトが表示されたら、次のライブラリを選択してターゲットに追加します。
+### Swift パッケージマネージャー {#swift-package-manager}
 
-* `AEPCore`, `AEPLifecycle` （`aepsdk-core-ios`から）
-* `AEPEdge` （`aepsdk-edge-ios`から）
-* `AEPEdgeIdentity` （`aepsdk-edgeidentity-ios`から）
+Xcodeの場合：
 
-AEPCore 5.8.0以降を使用します。
+1. 「**ファイル**」 > 「**パッケージ依存関係を追加**」を選択します。
 
->[!NOTE]
->
->Xcodeでパッケージを追加する際に、各パッケージの依存関係ルールを選択します（例：**次のメジャーバージョン**&#x200B;まで）。これにより、次のメジャーバージョンを除外しながら、新しいマイナーリリースとパッチリリースが自動的に取得されます。 最新のリリース済みバージョンについては、GitHubの各拡張機能のリリースページを確認してください。
+1. パッケージ URLを入力してください：`https://github.com/adobe/aepsdk-flags-ios.git`
 
-### Flags パッケージを追加する {#add-flags-package}
+1. バージョンルールの場合、**正確なバージョン**&#x200B;を選択し、[&#x200B; リリースページ &#x200B;](https://github.com/adobe/aepsdk-flags-ios/releases)から最新バージョンを入力します。
 
-アプリターゲットに対しては、Swift パッケージまたはXCFramework統合方法のいずれかを使用します。両方を使用しないでください。
+1. `AEPFlags` ライブラリをアプリターゲットに追加します。
 
-#### Package.swift ファイルのないXcode プロジェクトの場合 {#xcode-project}
+1. 拡張機能が依存するAdobe パッケージを追加し、そのライブラリをアプリターゲットに追加します。
 
-1. Xcodeで、**ファイル**/**パッケージを追加**&#x200B;を選択します。
-1. 「**ローカルを追加**」を選択します。
-1. `Package.swift`を含む指定された`Packages/AEPFlags` ディレクトリを選択します。
-1. アプリケーションターゲットに`AEPFlags` ライブラリを追加します。
+   * `https://github.com/adobe/aepsdk-core-ios.git`: `AEPCore`、`AEPLifecycle`、`AEPServices`
+   * `https://github.com/adobe/aepsdk-edge-ios.git`: `AEPEdge`
+   * `https://github.com/adobe/aepsdk-edgeidentity-ios.git`: `AEPEdgeIdentity`
 
-Xcodeはプロジェクト内のローカルパッケージ参照を保存するので、アプリケーションに独自の`Package.swift` ファイルは必要ありません。
-
-#### Package.swift ファイルを含むプロジェクトの場合 {#package-swift-project}
-
-既存のマニフェストで、アプリケーションターゲットの依存関係に`AEPFlags`を追加し、指定されたマニフェストのURLとチェックサムを使用してバイナリターゲットを追加します。
+プロジェクトで`Package.swift` ファイルを使用している場合は、代わりにそこに依存関係を追加します。 `<latest-version>`をリリースページの最新バージョンに置き換えます。
 
 ```swift
+dependencies: [
+    .package(url: "https://github.com/adobe/aepsdk-flags-ios.git", exact: "<latest-version>"),
+    .package(url: "https://github.com/adobe/aepsdk-core-ios.git", .upToNextMajor(from: "5.8.0")),
+    .package(url: "https://github.com/adobe/aepsdk-edge-ios.git", .upToNextMajor(from: "5.0.2")),
+    .package(url: "https://github.com/adobe/aepsdk-edgeidentity-ios.git", .upToNextMajor(from: "5.0.0"))
+],
 targets: [
     .target(
-        name: "YourApp",
+        name: "YourTarget",
         dependencies: [
-            "AEPFlags"
+            .product(name: "AEPFlags", package: "aepsdk-flags-ios"),
+            .product(name: "AEPCore", package: "aepsdk-core-ios"),
+            .product(name: "AEPLifecycle", package: "aepsdk-core-ios"),
+            .product(name: "AEPServices", package: "aepsdk-core-ios"),
+            .product(name: "AEPEdge", package: "aepsdk-edge-ios"),
+            .product(name: "AEPEdgeIdentity", package: "aepsdk-edgeidentity-ios")
         ]
-    ),
-    .binaryTarget(
-        name: "AEPFlags",
-        url: "<AEPFlags binary URL>",
-        checksum: "<AEPFlags binary checksum>"
     )
 ]
 ```
 
-Swift Package Managerは、ローカル Xcode、CI、およびアーカイブ ビルドのバイナリ ターゲットを解決します。
+### XCFramework {#xcframework}
 
-#### XCFrameworkを直接追加する {#xcframework}
+1. [&#x200B; リリースページ &#x200B;](https://github.com/adobe/aepsdk-flags-ios/releases)から、`AEPFlags-<version>.xcframework.zip`をダウンロードして解凍します。
 
-または、指定された`AEPFlags.xcframework`をXcode プロジェクトナビゲーターにドラッグして、アプリケーションターゲットに追加します。 **General** > **Frameworks, Libraries, and Embedded Content**&#x200B;で、フレームワークを&#x200B;**Embed &amp; Sign**&#x200B;に設定します。
+1. 各リポジトリのリリースページから、拡張機能が依存するXCFrameworksをダウンロードします。
 
-### SDKの初期化 {#initialize-sdk}
+   * [aepsdk-core-ios リリース &#x200B;](https://github.com/adobe/aepsdk-core-ios/releases): `AEPCore`、`AEPServices`、`AEPLifecycle`および`AEPRulesEngine`
+   * [aepsdk-edge-ios リリース &#x200B;](https://github.com/adobe/aepsdk-edge-ios/releases): `AEPEdge`
+   * [aepsdk-edgeidentity-ios リリース &#x200B;](https://github.com/adobe/aepsdk-edgeidentity-ios/releases): `AEPEdgeIdentity`
 
-フラグ APIを呼び出す前に、`AppDelegate`にMobile SDK拡張機能を登録してください。 ID、Edge、およびライフサイクルの後に`Flag`を登録し、モバイルプロパティのEnvironment File IDを使用してSDKを設定します。
+1. Xcodeで、アプリターゲットを選択し、**一般** > **フレームワーク、ライブラリ、および埋め込みコンテンツ**&#x200B;を開きます。
 
-#### 拡張機能の登録と設定 {#register-configure}
+1. `AEPFlags.xcframework`とすべての依存XCFrameworksを追加します。
 
->[!IMPORTANT]
->
->実稼動アプリの場合は、`.error` ログレベルのみを使用します。リリースビルドで`.debug`または`.trace`を使用しないでください。
+1. 各フレームワークを&#x200B;**Embed &amp; Sign**&#x200B;に設定します。
 
-**Swift**
+## SDKの初期化 {#initialize-sdk}
+
+Flags拡張機能を登録し、モバイルプロパティからEnvironment File IDを使用してSDKを初期化します。 `MobileCore.initialize`はフラグ拡張機能を登録しません。最初に登録してください。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-// AppDelegate.swift
 import AEPCore
-import AEPLifecycle
-import AEPEdge
-import AEPEdgeIdentity
 import AEPFlags
 import UIKit
 
-final class AppDelegate: NSObject, UIApplicationDelegate {
-
-    func application(_: UIApplication,
-                      didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
-        // Production: use .error only. Do not use .debug or .trace in release builds.
-        MobileCore.setLogLevel(.error)
-
-        MobileCore.registerExtensions([
-            Identity.self,
-            Edge.self,
-            Lifecycle.self,
-            Flag.self
-        ]) {
-            MobileCore.configureWith(appId: "YOUR_ENVIRONMENT_FILE_ID")
-            MobileCore.lifecycleStart(additionalContextData: nil)
-        }
-
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        MobileCore.registerExtensions([Flag.self])
+        MobileCore.initialize(appId: "<your-environment-file-id>")
         return true
     }
 }
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
-// AppDelegate.m
-#import "AppDelegate.h"
 @import AEPCore;
-@import AEPLifecycle;
+@import AEPFlags;
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [AEPMobileCore registerExtensions:@[AEPMobileFlag.class] completion:nil];
+    [AEPMobileCore initializeWithAppId:@"<your-environment-file-id>" completion:nil];
+    return YES;
+}
+```
+
+>[!ENDTABS]
+
+### 拡張機能を手動で登録 {#register-manually}
+
+拡張機能を登録する場合は、それらをすべて登録します。 アプリがフォアグラウンドに入ったときに`MobileCore.lifecycleStart`を呼び出し、バックグラウンドに入ったときに`MobileCore.lifecyclePause`を呼び出します。
+
+アプリでシーンを使用する場合は、代わりに`sceneWillEnterForeground(_:)`と`sceneDidEnterBackground(_:)`でこれらの呼び出しを行います。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
+
+```swift
+import AEPCore
+import AEPEdge
+import AEPEdgeIdentity
+import AEPFlags
+import AEPLifecycle
+import UIKit
+
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        MobileCore.registerExtensions([
+            Lifecycle.self,
+            Edge.self,
+            AEPEdgeIdentity.Identity.self,
+            Flag.self
+        ]) {
+            MobileCore.configureWith(appId: "<your-environment-file-id>")
+            DispatchQueue.main.async {
+                if application.applicationState != .background {
+                    MobileCore.lifecycleStart(additionalContextData: nil)
+                }
+            }
+        }
+        return true
+    }
+
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        MobileCore.lifecycleStart(additionalContextData: nil)
+    }
+
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        MobileCore.lifecyclePause()
+    }
+}
+```
+
+>[!TAB Objective-C]
+
+```objc
+@import AEPCore;
 @import AEPEdge;
 @import AEPEdgeIdentity;
 @import AEPFlags;
+@import AEPLifecycle;
 
-@implementation AppDelegate
-
-- (BOOL)application:(UIApplication *)application
-    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    // Production: use AEPLogLevelError only. Do not use Debug or Trace in release builds.
-    [AEPMobileCore setLogLevel:AEPLogLevelError];
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [AEPMobileCore registerExtensions:@[
-        AEPMobileEdgeIdentity.class,
-        AEPMobileEdge.class,
         AEPMobileLifecycle.class,
+        AEPMobileEdge.class,
+        AEPMobileEdgeIdentity.class,
         AEPMobileFlag.class
     ] completion:^{
-        [AEPMobileCore configureWithAppId:@"YOUR_ENVIRONMENT_FILE_ID"];
-        [AEPMobileCore lifecycleStart:nil];
+        [AEPMobileCore configureWithAppId:@"<your-environment-file-id>"];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (application.applicationState != UIApplicationStateBackground) {
+                [AEPMobileCore lifecycleStart:nil];
+            }
+        });
     }];
-
     return YES;
 }
 
-@end
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    [AEPMobileCore lifecycleStart:nil];
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    [AEPMobileCore lifecyclePause];
+}
 ```
+
+>[!ENDTABS]
 
 ## 評価コンテキスト {#evaluation-context}
 
-`FeatureEvaluationContext`にはターゲティング属性が含まれています（フラグルールの照合に使用）。
+すべての評価呼び出しには`FeatureEvaluationContext`が必要です。 フラグのターゲティングルールが使用する属性を保持します。
 
 | パラメーター | 必須 | 説明 |
 |---|---|---|
-| `attributes` | × | `[String: [String]]`. キーは、フラグルールで使用されるコンテキスト属性名です（例：`locale`、`platform`、`appVersion`、`deviceType`）。 値は、現在のユーザー/セッションのキーの候補属性値のリストです（例：`["en_US"]`または`["phone"]`）。 |
+| `attributes` | × | `[String: [String]]`. 各キーは、フラグターゲティングルールで使用される属性名です。 各値は、現在のユーザーの値のリストです。 |
 
-**Swift**
+* フラグで定義したターゲティングルールに一致する属性名と値を使用します。
+* ビルダーごとに1回まで`withAttributes`を呼び出します。 2回目の呼び出しはアプリを終了します。
+* 属性なしで評価するには、`withAttributes`を呼び出さずに`build()`を呼び出します。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 import AEPFlags
 
-let attrs: [String: [String]] = [
-    "locale": ["en_US"],
-    "platform": ["IOS"],
-    "appVersion": ["3.0.0"]
-]
-
-let ctx = FeatureEvaluationContext.builder()
-    .withAttributes(attrs)
+let context = FeatureEvaluationContext.builder()
+    .withAttributes([
+        "locale": ["en_US"],
+        "appVersion": ["3.0.0"]
+    ])
     .build()
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
 @import AEPFlags;
 
-NSDictionary<NSString *, NSArray<NSString *> *> *attrs = @{
-    @"locale": @[@"en_US"],
-    @"platform": @[@"IOS"],
-    @"appVersion": @[@"3.0.0"]
-};
-
-AEPFeatureEvaluationContextBuilder *builder = [AEPFeatureEvaluationContext builder];
-AEPFeatureEvaluationContext *ctx = [[builder withAttributes:attrs] build];
+AEPFeatureEvaluationContext *context = [[[AEPFeatureEvaluationContext builder]
+    withAttributes:@{
+        @"locale": @[@"en_US"],
+        @"appVersion": @[@"3.0.0"]
+    }]
+    build];
 ```
 
-### ターゲティング属性の例 {#sample-attributes}
+>[!ENDTABS]
 
-| 属性 | 説明 | 値の例 |
-|---|---|---|
-| `locale` | ユーザーのロケール/言語 | `["en_US"]`, `["fr_FR"]` |
-| `platform` | プラットフォーム識別子 | `["IOS"]` |
-| `appVersion` | アプリケーションバージョン | `["3.0.0"]` |
-| `deviceType` | デバイスタイプ | `["phone"]`, `["tablet"]` |
-
-### カスタム ID {#custom-identity}
+## カスタム ID {#custom-identity}
 
 Flags拡張機能は、ID解決にIdentity for Edge Network拡張機能を使用します。 機能フラグをカスタム ID （CRM IDやロイヤルティ IDなど）でコホートできるため、バリエーションの分割と分析を、アプリケーションにとって重要なIDに結び付けることができます。
 
 機能フラグの作成時に、フラグ UIでカスタム ID名前空間を選択する必要があります。 そのIDに対してフラグを評価するには、一致する名前空間を使用して、デバイス上のEdge ID `identityMap`に同じIDが存在する必要があります。 Edge Network `updateIdentities` APIのIDを実行時に指定します。
 
-#### ID マップへのカスタム IDの追加 {#add-identity}
+### ID マップへのカスタム IDの追加 {#add-identity}
 
 機能フラグで設定された同じ名前空間の下にIDを追加します。
 
-**Swift**
+次の動作に注意してください。
+
+* 名前空間は、大文字と小文字を含め、フラグに設定されている名前空間と正確に一致する必要があります。
+* 名前空間に複数のIDがある場合は、プライマリとしてマークされたものが使用されます。 プライマリとしてマークされていない場合は、最初のものを使用します。
+* IDが見つからない場合、呼び出しは失敗しません。 ユーザーは、現在のアプリセッションに対してのみランダムにバリアントに割り当てられ、アプリの再起動後に別のバリアントに割り当てることができます。 IDを使用するフラグを評価する前に、IDを設定します。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 import AEPEdgeIdentity
 
 let identityMap = IdentityMap()
-identityMap.add(item: IdentityItem(id: "1111", authenticatedState: .authenticated, primary: true),
-                 withNamespace: "userCRMId") // must match the namespace configured on the feature flag
+identityMap.add(
+    item: IdentityItem(id: "1111", authenticatedState: .authenticated, primary: true),
+    withNamespace: "userCRMId" // must match the namespace configured on the feature flag
+)
 Identity.updateIdentities(with: identityMap)
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
 @import AEPEdgeIdentity;
 
-AEPIdentityItem *item = [[AEPIdentityItem alloc]
-    initWithId:@"1111"
-    authenticatedState:AEPAuthenticatedStateAuthenticated
-    primary:YES];
+AEPIdentityItem *item = [[AEPIdentityItem alloc] initWithId:@"1111"
+                                         authenticatedState:AEPAuthenticatedStateAuthenticated
+                                                    primary:YES];
 AEPIdentityMap *identityMap = [[AEPIdentityMap alloc] init];
 [identityMap addItem:item withNamespace:@"userCRMId"]; // must match the namespace configured on the feature flag
 [AEPMobileEdgeIdentity updateIdentities:identityMap];
 ```
 
+>[!ENDTABS]
+
+
 ## API リファレンス {#api-reference}
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled`は、指定されたコンテキストに対してフラグ機能がオンかオフかを返します。 `featureKey`、`FeatureEvaluationContext` （オプションのターゲット属性）、および完了クロージャを渡します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。
+現在のユーザーに対して機能が有効になっているかどうかを確認します。 機能が存在し、ユーザーがターゲティングルールと一致し、ユーザーがコントロールグループに属していない場合、結果は`true`になります。 それ以外の場合、結果は`false`です。
 
-**署名**
+>[!BEGINTABS]
 
-*Swift*
+>[!TAB Swift]
 
 ```swift
 static func isFeatureEnabled(
     _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
-    completion: @escaping (Bool) -> Void
+    completion: @escaping (Bool) -> Void,
+    errorCallback: ((AEPError) -> Void)?
 )
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
 + (void)isFeatureEnabled:(NSString *)featureKey
        evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-               completion:(void (^)(BOOL))completion;
+              completion:(void (^)(BOOL))completion
+           errorCallback:(void (^ _Nullable)(enum AEPError))errorCallback;
 ```
+
+>[!ENDTABS]
 
 **パラメーター**
 
@@ -321,65 +380,91 @@ static func isFeatureEnabled(
 | `featureKey` | 文字列 | フラグで評価する機能キー |
 | `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 | `completion` | `(Bool) -> Void` | 機能が有効になっている場合は`true`で呼び出され、それ以外の場合は`false`です。 |
+| `errorCallback` | `((AEPError) -> Void)?` | オプション。 空のキー、設定の欠落、評価の失敗、タイムアウトなど、実際のエラーに対してのみ呼び出されます。 |
 
 **例**
 
-*Swift*
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-import AEPFlags
-
-Flag.isFeatureEnabled(
-    "new-flag",
-    evaluationContext: ctx
-) { isEnabled in
-    if isEnabled {
-        // Feature is enabled: run the feature-specific behavior
-    } else {
-        // Feature is disabled: fall back to the default behavior
+Flag.isFeatureEnabled("new-flag", evaluationContext: context) { isEnabled in
+    DispatchQueue.main.async {
+        if isEnabled {
+            // Run the feature-specific behavior
+        } else {
+            // Run the default behavior
+        }
+    }
+} errorCallback: { _ in
+    DispatchQueue.main.async {
+        // Run the default behavior
     }
 }
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
-@import AEPFlags;
-
 [AEPMobileFlag isFeatureEnabled:@"new-flag"
-              evaluationContext:ctx
-                      completion:^(BOOL isEnabled) {
-    if (isEnabled) {
-        // Feature is enabled: run the feature-specific behavior
-    } else {
-        // Feature is disabled: fall back to the default behavior
-    }
+              evaluationContext:context
+                     completion:^(BOOL isEnabled) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (isEnabled) {
+            // Run the feature-specific behavior
+        } else {
+            // Run the default behavior
+        }
+    });
+} errorCallback:^(enum AEPError error) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // Run the default behavior
+    });
 }];
 ```
 
+>[!ENDTABS]
+
 ### getFeature {#get-feature}
 
-`getFeature`は、指定されたコンテキストの評価済み機能ペイロードを返します。 このAPIは、有効/無効を超える必要があり、機能のメタデータまたは値が必要な場合に使用します。
+>[!IMPORTANT]
+>
+>以前のバージョンでは、機能が提供されなかった場合、`AEPError.unexpected`を含むエラーコールバックが呼び出されていました。 アプリがそのエラーを「機能が見つかりません」と扱った場合は、代わりに`nil`を完了処理してください。
 
-**署名**
+現在のユーザーの機能の詳細（メタデータとユーザーが割り当てられているバリアントなど）を返します。 有効または無効を超える必要がある場合に使用します。
 
-*Swift*
+補完は、機能がユーザーに提供されたときにのみ結果として呼び出されます。 機能が提供されない場合、完了は`nil`で呼び出されます。 これは通常の結果であり、エラーではなく、エラーコールバックは呼び出されません。 次の場合、完了は`nil`で呼び出されます。
+
+* このキーを持つ機能はありません。
+* ユーザーがターゲティングルールと一致しません。
+* ユーザーはコントロール グループに属しています。
+
+エラーコールバックは、何か問題が発生した場合にのみ`AEPError.unexpected` （または別の`AEPError`）で呼び出されます。機能キーが空であるか、必要な設定値が欠落しているか、評価が失敗しているか、応答を読み取ることができないか、リクエストがタイムアウトします。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 static func getFeature(
     _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
-    completion: @escaping (FeatureEvaluationResult?) -> Void
+    completion: @escaping (FeatureEvaluationResult?) -> Void,
+    errorCallback: ((AEPError) -> Void)?
 )
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
 + (void)getFeature:(NSString *)featureKey
  evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-        completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion;
+        completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion
+     errorCallback:(void (^ _Nullable)(enum AEPError))errorCallback;
 ```
+
+>[!ENDTABS]
 
 **パラメーター**
 
@@ -387,7 +472,8 @@ static func getFeature(
 |---|---|---|
 | `featureKey` | 文字列 | フラグで評価する機能キー |
 | `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
-| `completion` | `(FeatureEvaluationResult?) -> Void` | 評価された機能ペイロードで呼び出されます。機能が見つからない場合は`nil`。 |
+| `completion` | `(FeatureEvaluationResult?) -> Void` | 評価された機能ペイロードで呼び出されます。 機能がユーザーに提供されない場合（不明なキー、ターゲティングが一致しない、またはコントロール グループ）に`nil`で呼び出されます。 `nil`はエラーではありません。 |
+| `errorCallback` | `((AEPError) -> Void)?` | オプション。 空のキー、設定の欠落、評価の失敗、タイムアウトなど、実際のエラーに対してのみ呼び出されます。 機能が提供されない場合は呼び出されません。 |
 
 **応答**
 
@@ -395,75 +481,60 @@ static func getFeature(
 
 | フィールド | タイプ | 説明 |
 |---|---|---|
-| `id` | 整数 | 数値特徴識別子 |
+| `id` | 整数 | 機能ID |
 | `key` | 文字列 | 機能キー |
-| `featureGroupKey` | 文字列？ | 機能グループキー（使用可能な場合） |
-| `meta` | 文字列？ | 不透明な機能メタデータ（使用可能な場合） |
-| `analyticsParam` | AnalyticsParam? | 評価済み機能の分析の詳細 |
-
-*AnalyticsParam*
-
-| フィールド | タイプ | 説明 |
-|---|---|---|
-| `featureGroupId` | 整数 | 数値フィーチャ グループ ID |
-| `featureId` | 整数 | 数値特徴識別子 |
-| `variantId` | 文字列？ | バリアント ID |
+| `featureGroupKey` | 文字列？ | フィーチャを含むフィーチャ グループのキー |
+| `meta` | 文字列？ | 機能に設定されたメタデータをテキストとして指定します。 メタデータがJSONの場合は、アプリでデコードします。 |
+| `analyticsParam` | AnalyticsParam? | 機能とユーザーのバリエーションの識別子 |
 
 **例**
 
-*Swift*
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-import AEPFlags
-
-Flag.getFeature(
-    "new-flag",
-    evaluationContext: ctx
-) { feature in
-    guard let meta = feature?.meta, !meta.isEmpty else {
-        // No metadata available: fall back to the default behavior
-        return
+Flag.getFeature("new-flag", evaluationContext: context) { feature in
+    DispatchQueue.main.async {
+        guard let meta = feature?.meta, !meta.isEmpty else {
+            // The feature is not served to this user (feature is nil), or it has no metadata.
+            // Run the default behavior
+            return
+        }
+        // Use the metadata to drive the feature behavior
     }
-    // Feature metadata is available: use it to drive the feature behavior
+} errorCallback: { _ in
+    DispatchQueue.main.async {
+        // A genuine failure occurred. Run the default behavior
+    }
 }
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
-@import AEPFlags;
-
 [AEPMobileFlag getFeature:@"new-flag"
-        evaluationContext:ctx
-                completion:^(AEPFeatureEvaluationResult * _Nullable feature) {
-    NSString *meta = feature.meta;
-    if (meta.length > 0) {
-        // Feature metadata is available: use it to drive the feature behavior
-    } else {
-        // No metadata available: fall back to the default behavior
-    }
+        evaluationContext:context
+               completion:^(AEPFeatureEvaluationResult * _Nullable feature) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (feature.meta.length > 0) {
+            // Use the metadata to drive the feature behavior
+        } else {
+            // Run the default behavior
+        }
+    });
+} errorCallback:^(enum AEPError error) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // Run the default behavior
+    });
 }];
 ```
 
+>[!ENDTABS]
+
 ### extensionVersion {#extension-version}
 
-Flags拡張機能のバージョン文字列を返します。
-
-**構文**
-
-*Swift*
-
-```swift
-static var extensionVersion: String
-```
-
-*Objective-C*
-
-```objc
-+ (nonnull NSString *)flagExtensionVersion;
-```
-
-**例**
+Flags拡張機能のバージョンを返します。
 
 *Swift*
 
@@ -481,14 +552,6 @@ NSString *version = [AEPMobileFlag flagExtensionVersion];
 
 | API | 返品 |
 |---|---|
-| `isFeatureEnabled(_:evaluationContext:completion:)`. `FeatureEvaluationContext`には、ルールのターゲット属性が含まれています。 [isFeatureEnabled](#is-feature-enabled)を参照してください。 | 完了閉鎖を介した排便 |
-| `getFeature(_:evaluationContext:completion:)`. 指定されたコンテキストの評価された機能ペイロードを返します。 [getFeature](#get-feature)を参照してください。 | FeatureEvaluationResult? クロージャを使用 |
+| `isFeatureEnabled(_:evaluationContext:completion:errorCallback:)` | 完了を通してブールする |
+| `getFeature(_:evaluationContext:completion:errorCallback:)` | FeatureEvaluationResult? 完了するまで |
 | `extensionVersion` | 文字列 |
-
-## 詳細については、 {#see-also}
-
-* [モバイルアプリケーション](../../integrate/mobile-applications.md)
-* [SDK](../../integrate/sdks.md)
-* [Android拡張機能の統合ガイド](../android/android-extension-integration-guide.md)
-
-<!-- -->
