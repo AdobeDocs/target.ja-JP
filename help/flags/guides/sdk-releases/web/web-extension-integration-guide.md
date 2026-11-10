@@ -61,13 +61,13 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
 
 1. **[!UICONTROL 保存]**&#x200B;を選択します。
 
-1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
    1. 拡張機能をライブラリに追加します。
 
    1. 開発環境に合わせて構築。
 
-   1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)で検証します。
+   1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ja)で検証します。
 
    1. ステージングと制作へのプロモーション。
 

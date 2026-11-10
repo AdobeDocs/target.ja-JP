@@ -29,7 +29,7 @@ ht-degree: 3%
   | [ライフサイクル](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | アプリケーションライフサイクルデータ | AEPCoreと同じ |
   | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Adobe Experience Platform Edge Networkとの連携。 データストリームが必要です。 | AEPEdge 5.0.2 |
   | Edge Network[&#128279;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)のID | Edge NetworkのID管理 | AEPEdgeIdentity 5.0.0 |
-  | [&#x200B; フラグ &#x200B;](https://experienceleague.adobe.com/en/docs/target/flags/home) | 機能フラグの評価 | [&#x200B; インストール &#x200B;](#installation)を参照 |
+  | [&#x200B; フラグ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/flags/home) | 機能フラグの評価 | [&#x200B; インストール &#x200B;](#installation)を参照 |
 
 ## データ収集でのフラグの設定 {#configure}
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 保存]**&#x200B;を選択します。
 
-1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
 ### 環境ファイル IDの取得 {#environment-file-id}
 
