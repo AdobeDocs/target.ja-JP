@@ -33,10 +33,10 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
 
 | 拡張子 | 説明 | 必須 |
 |---|---|---|
-| [ モバイルコア ](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | 設定、イベント処理、SDKの初期化を提供 | はい |
+| [&#x200B; モバイルコア &#x200B;](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | 設定、イベント処理、SDKの初期化を提供 | はい |
 | [ライフサイクル](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | アプリが前景または背景に移動する際のレポート | はい |
 | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Adobe Experience Platformに露出分析を送信します | はい |
-| Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)の[ID | ユーザーをバリアントに割り当てるために使用するIDを提供します | はい |
+| Edge Network[&#128279;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)のID | ユーザーをバリアントに割り当てるために使用するIDを提供します | はい |
 
 これらの拡張機能がデータ収集モバイルプロパティにインストールされ、アプリの依存関係に含まれていることを確認します。
 
@@ -61,7 +61,7 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
 
 1. **[!UICONTROL 保存]**&#x200B;を選択します。
 
-1. [公開プロセス ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
 ### 環境ファイル IDの取得 {#environment-file-id}
 
@@ -84,7 +84,7 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
 >Flags拡張機能は、Mobile SDK BOMの一部ではありません。 `<latest-version>`をMaven Centralの最新バージョンに置き換えます。 バージョンがなければ、Gradleは依存関係を解決できません。
 >
 ></br>
-実稼動アプリケーションの場合、Adobeでは、「3.+」などの動的バージョンではなく、明示的なバージョン番号を使用することをお勧めします。 詳しくは、[Gradle依存関係の管理] （https://docs.gradle.org/current/userguide/dependency_management.html）を参照してください。
+>実稼動アプリケーションの場合、Adobeでは、「3.+」などの動的バージョンではなく、明示的なバージョン番号を使用することをお勧めします。 詳しくは、[Gradle依存関係の管理] （https://docs.gradle.org/current/userguide/dependency_management.html）を参照してください。
 
 アプリの`build.gradle.kts` （Kotlin）または`build.gradle` （Groovy）ファイルに次の依存関係を追加します。
 
@@ -218,7 +218,7 @@ MobileCore.registerExtensions(
 
 ## 評価コンテキスト {#evaluation-context}
 
-`FeatureEvaluationContext`には、フラグルールが使用するターゲティング属性が保持されます。 IDを渡しません。拡張機能は、評価のたびにIdentity for Edge NetworkからIDを読み取ります。 [ カスタム ID](#custom-identity)を参照してください。
+`FeatureEvaluationContext`には、フラグルールが使用するターゲティング属性が保持されます。 IDを渡しません。拡張機能は、評価のたびにIdentity for Edge NetworkからIDを読み取ります。 [&#x200B; カスタム ID](#custom-identity)を参照してください。
 
 | メソッド | 必須 | 説明 |
 |---|---|---|
@@ -379,7 +379,7 @@ Flag.isFeatureEnabled(
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | 文字列 | 評価する機能のキー |
-| `evaluationContext` | FeatureEvaluationContext | ターゲティング属性： `FeatureEvaluationContext.builder().build()`がない場合は使用します。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
+| `evaluationContext` | FeatureEvaluationContext | ターゲティング属性： `FeatureEvaluationContext.builder().build()`がない場合は使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 | `callback` | AdobeCallback&lt;Boolean> | この機能がユーザーに対して有効になっている場合、`true`で呼び出されます。 機能が見つからない場合、ターゲティングルールが一致しない場合、またはユーザーがコントロールグループ内にある場合に、`false`で呼び出されます。 `AdobeCallbackWithError<Boolean>`を渡してエラーも受信します。 |
 
 **例**
@@ -476,7 +476,7 @@ Flag.getFeature(
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | 文字列 | 評価する機能のキー |
-| `evaluationContext` | FeatureEvaluationContext | ターゲティング属性： `FeatureEvaluationContext.builder().build()`がない場合は使用します。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
+| `evaluationContext` | FeatureEvaluationContext | ターゲティング属性： `FeatureEvaluationContext.builder().build()`がない場合は使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 | `callback` | AdobeCallback&lt;FeatureEvaluationResult> | 評価済み機能で呼び出されるか、機能がユーザーに提供されない場合は`null`で呼び出されます。キーが不明であるか、ターゲティング条件が満たされていないか、ユーザーがコントロール コホート内にあります。 `null`は正常な結果であり、エラーではありません。 コントロールコホートのエクスポージャーは、引き続きAnalyticsに報告されます。 `AdobeCallbackWithError<FeatureEvaluationResult>`を渡して、タイムアウトなどの実際のエラーの`fail(...)`を受け取ります。 |
 
 `null`の結果を「機能オフ」として扱い、デフォルトのエクスペリエンスを表示します。 `fail`が呼び出されたときのデフォルトのエクスペリエンスも表示します。これは、タイムアウトなどの実際のエラーでのみ発生します。

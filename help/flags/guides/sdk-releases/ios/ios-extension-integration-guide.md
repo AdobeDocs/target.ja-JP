@@ -25,11 +25,11 @@ ht-degree: 3%
 
   | 拡張子 | 説明 | SDKの最小バージョン |
   |---|---|---|
-  | [ モバイルコア ](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | 設定とイベント処理 | AEPCore 5.8.0 |
+  | [&#x200B; モバイルコア &#x200B;](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | 設定とイベント処理 | AEPCore 5.8.0 |
   | [ライフサイクル](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | アプリケーションライフサイクルデータ | AEPCoreと同じ |
   | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Adobe Experience Platform Edge Networkとの連携。 データストリームが必要です。 | AEPEdge 5.0.2 |
-  | Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)の[ID | Edge NetworkのID管理 | AEPEdgeIdentity 5.0.0 |
-  | [ フラグ ](https://experienceleague.adobe.com/en/docs/target/flags/home) | 機能フラグの評価 | [ インストール ](#installation)を参照 |
+  | Edge Network[&#128279;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)のID | Edge NetworkのID管理 | AEPEdgeIdentity 5.0.0 |
+  | [&#x200B; フラグ &#x200B;](https://experienceleague.adobe.com/en/docs/target/flags/home) | 機能フラグの評価 | [&#x200B; インストール &#x200B;](#installation)を参照 |
 
 ## データ収集でのフラグの設定 {#configure}
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 保存]**&#x200B;を選択します。
 
-1. [公開プロセス ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
 ### 環境ファイル IDの取得 {#environment-file-id}
 
@@ -78,7 +78,7 @@ Xcodeの場合：
 
 1. パッケージ URLを入力してください：`https://github.com/adobe/aepsdk-flags-ios.git`
 
-1. バージョンルールの場合、**正確なバージョン**&#x200B;を選択し、[ リリースページ ](https://github.com/adobe/aepsdk-flags-ios/releases)から最新バージョンを入力します。
+1. バージョンルールの場合、**正確なバージョン**&#x200B;を選択し、[&#x200B; リリースページ &#x200B;](https://github.com/adobe/aepsdk-flags-ios/releases)から最新バージョンを入力します。
 
 1. `AEPFlags` ライブラリをアプリターゲットに追加します。
 
@@ -114,13 +114,13 @@ targets: [
 
 ### XCFramework {#xcframework}
 
-1. [ リリースページ ](https://github.com/adobe/aepsdk-flags-ios/releases)から、`AEPFlags-<version>.xcframework.zip`をダウンロードして解凍します。
+1. [&#x200B; リリースページ &#x200B;](https://github.com/adobe/aepsdk-flags-ios/releases)から、`AEPFlags-<version>.xcframework.zip`をダウンロードして解凍します。
 
 1. 各リポジトリのリリースページから、拡張機能が依存するXCFrameworksをダウンロードします。
 
-   * [aepsdk-core-ios リリース ](https://github.com/adobe/aepsdk-core-ios/releases): `AEPCore`、`AEPServices`、`AEPLifecycle`および`AEPRulesEngine`
-   * [aepsdk-edge-ios リリース ](https://github.com/adobe/aepsdk-edge-ios/releases): `AEPEdge`
-   * [aepsdk-edgeidentity-ios リリース ](https://github.com/adobe/aepsdk-edgeidentity-ios/releases): `AEPEdgeIdentity`
+   * [aepsdk-core-ios リリース &#x200B;](https://github.com/adobe/aepsdk-core-ios/releases): `AEPCore`、`AEPServices`、`AEPLifecycle`および`AEPRulesEngine`
+   * [aepsdk-edge-ios リリース &#x200B;](https://github.com/adobe/aepsdk-edge-ios/releases): `AEPEdge`
+   * [aepsdk-edgeidentity-ios リリース &#x200B;](https://github.com/adobe/aepsdk-edgeidentity-ios/releases): `AEPEdgeIdentity`
 
 1. Xcodeで、アプリターゲットを選択し、**一般** > **フレームワーク、ライブラリ、および埋め込みコンテンツ**&#x200B;を開きます。
 
@@ -378,7 +378,7 @@ static func isFeatureEnabled(
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | 文字列 | フラグで評価する機能キー |
-| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
+| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 | `completion` | `(Bool) -> Void` | 機能が有効になっている場合は`true`で呼び出され、それ以外の場合は`false`です。 |
 | `errorCallback` | `((AEPError) -> Void)?` | オプション。 空のキー、設定の欠落、評価の失敗、タイムアウトなど、実際のエラーに対してのみ呼び出されます。 |
 
@@ -471,7 +471,7 @@ static func getFeature(
 | パラメーター | タイプ | 説明 |
 |---|---|---|
 | `featureKey` | 文字列 | フラグで評価する機能キー |
-| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト ](#evaluation-context)を参照してください。 |
+| `evaluationContext` | FeatureEvaluationContext | 必要に応じてターゲティング属性を含めます。空のコンテキストには`FeatureEvaluationContext.builder().build()`を使用します。 [評価コンテキスト &#x200B;](#evaluation-context)を参照してください。 |
 | `completion` | `(FeatureEvaluationResult?) -> Void` | 評価された機能ペイロードで呼び出されます。 機能がユーザーに提供されない場合（不明なキー、ターゲティングが一致しない、またはコントロール グループ）に`nil`で呼び出されます。 `nil`はエラーではありません。 |
 | `errorCallback` | `((AEPError) -> Void)?` | オプション。 空のキー、設定の欠落、評価の失敗、タイムアウトなど、実際のエラーに対してのみ呼び出されます。 機能が提供されない場合は呼び出されません。 |
 
