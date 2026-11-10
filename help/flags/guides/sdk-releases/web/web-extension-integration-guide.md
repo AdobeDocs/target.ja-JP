@@ -6,9 +6,9 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1241'
 ht-degree: 7%
 ---
 # Web用フラグ拡張機能 {#web-extension-integration-guide}
@@ -55,21 +55,25 @@ Flags拡張機能には、次のAdobe Experience Platform拡張機能が必要�
 
    ![](../assets/extension-install.png)
 
-1. 拡張機能の設定を行います。
+#### 拡張機能の設定 {#configure-extension-settings}
 
-* クライアント ID: フラグ内のアプリケーションの一意のID。
+Flags拡張機能をインストールすると、設定ページに移動します。 以下の設定を指定します。
 
-1. **[!UICONTROL 保存]**&#x200B;を選択します。
+| 設定 | 説明 | 必須 |
+|---|---|---|
+| クライアント ID | フラグ内のアプリケーションの一意のID。 | はい |
 
-1. [公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
+#### 拡張機能を公開 {#publish-extension}
 
-   1. 拡張機能をライブラリに追加します。
+[公開プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/overview)に従って、設定を更新します。
 
-   1. 開発環境に合わせて構築。
+1. 拡張機能をライブラリに追加します。
 
-   1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ja)で検証します。
+1. 開発環境に合わせて構築。
 
-   1. ステージングと制作へのプロモーション。
+1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ja)で検証します。
+
+1. ステージングと制作へのプロモーション。
 
 ## Web サイトへのタグ埋め込みコードの追加 {#embed-code}
 
@@ -275,10 +279,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | フィールド | タイプ | 説明 |
 |---|---|---|
 | `id` | 数値 | 数値特徴識別子。 機能レベルのコントロール センチネルの`-1`。 |
-| `key` | 文字列\| null | 機能キー。 機能レベルのコントロール センチネルの`null`。 |
-| `featureGroupKey` | 文字列\| null | 機能グループキー（使用可能な場合） |
-| `meta` | 文字列\| null | 機能メタデータ（利用可能な場合） |
-| `analyticsParam` | AnalyticsParam \| null | 評価済み機能の分析の詳細 |
+| `key` | `string \| null` | 機能キー。 機能レベルのコントロール センチネルの`null`。 |
+| `featureGroupKey` | `string \| null` | 機能グループキー（使用可能な場合） |
+| `meta` | `string \| null` | 機能メタデータ（利用可能な場合） |
+| `analyticsParam` | `AnalyticsParam \| null` | 評価済み機能の分析の詳細 |
 
 *AnalyticsParam*
 
@@ -286,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | 数値 | 数値フィーチャ グループ ID |
 | `featureId` | 数値 | 数値特徴識別子 |
-| `variantId` | 数値\| null | バリアント ID （ユーザーがコントロール グループ内にある場合は`0`） |
+| `variantId` | `number \| null` | バリアント ID （ユーザーがコントロール グループ内にある場合は`0`） |
 
 **コントロール グループの動作**
 
