@@ -141,4 +141,4 @@ ht-degree: 32%
 
 * [!DNL Target Standard]でのアカウント設定に関する説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507626?captions=jpn)
