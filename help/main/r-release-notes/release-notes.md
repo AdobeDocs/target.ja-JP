@@ -46,7 +46,7 @@ ht-degree: 39%
 
 +++詳細を見る
 
-* アクティビティ リスト **に**[!DNL Coworker]&#x200B;個のエントリ ポイントが追加されました。 組織が[!DNL Coworker]へのアクセス権を持っている場合、[!UICONTROL  アクティビティ ] リストには、各アクティビティに「**[!UICONTROL ライブテストを確認]**」ボタンと「**[!UICONTROL 同僚に質問]**」メニューが含まれるようになりました。 これらのツールを使用すると、[!DNL Coworker]がライブ アクティビティをレビューしたり、特定のアクティビティに関する質問に回答したりできます。 （TGT-56536）
+* アクティビティ リスト **に**&#x200B;[!DNL Coworker]&#x200B;個のエントリ ポイントが追加されました。 組織が[!DNL Coworker]へのアクセス権を持っている場合、[!UICONTROL &#x200B; アクティビティ &#x200B;] リストには、各アクティビティに「**[!UICONTROL ライブテストを確認]**」ボタンと「**[!UICONTROL 同僚に質問]**」メニューが含まれるようになりました。 これらのツールを使用すると、[!DNL Coworker]がライブ アクティビティをレビューしたり、特定のアクティビティに関する質問に回答したりできます。 （TGT-56536）
   [詳細情報](../c-activities/activities.md#coworker)
 +++
 
@@ -92,7 +92,7 @@ ht-degree: 39%
 
 +++詳細を見る
 
-* **A4T レポートが「エラーが発生しました」エラーで失敗します**。 新しく追加されたレポートスイートを使用する[!DNL A4T] アクティビティで、結果ではなく[!DNL Target] レポートに「エラーが発生しました」エラーが表示される問題を修正しました。 Analytics ]**で**[!UICONTROL &#x200B;表示をクリックすると、[!DNL Analytics for Target]分類情報が欠落している「互換性のないレポートスイート」メッセージも表示されました。 （TGT-56389）
+* **A4T レポートが「エラーが発生しました」エラーで失敗します**。 新しく追加されたレポートスイートを使用する[!DNL A4T] アクティビティで、結果ではなく[!DNL Target] レポートに「エラーが発生しました」エラーが表示される問題を修正しました。 Analytics **で**&#x200B;表示をクリックすると、[!DNL Analytics for Target]分類情報が欠落している「互換性のないレポートスイート」メッセージも表示されました。 （TGT-56389）
 
 +++
 
@@ -129,7 +129,7 @@ ht-degree: 39%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
