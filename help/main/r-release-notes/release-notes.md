@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
+source-git-commit: b608d181c660201f2c373ec8a1ac6e95be1be96c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 42%
+source-wordcount: '703'
+ht-degree: 39%
 ---
 # [!DNL Target] リリースノート（最新）
 
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.11.1 （2026年11月12日）
+
+**[!UICONTROL アクティビティ]**
+
++++詳細を見る
+
+* アクティビティ リスト **に**[!DNL Coworker]&#x200B;個のエントリ ポイントが追加されました。 組織が[!DNL Coworker]へのアクセス権を持っている場合、[!UICONTROL  アクティビティ ] リストには、各アクティビティに「**[!UICONTROL ライブテストを確認]**」ボタンと「**[!UICONTROL 同僚に質問]**」メニューが含まれるようになりました。 これらのツールを使用すると、[!DNL Coworker]がライブ アクティビティをレビューしたり、特定のアクティビティに関する質問に回答したりできます。 （TGT-56536）
+  [詳細情報](../c-activities/activities.md#coworker)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.2 （2026年10月15日（PT））
 
@@ -81,7 +92,7 @@ ht-degree: 42%
 
 +++詳細を見る
 
-* **A4T レポートが「エラーが発生しました」エラーで失敗します**。 新しく追加されたレポートスイートを使用する[!DNL A4T] アクティビティで、結果ではなく[!DNL Target] レポートに「エラーが発生しました」エラーが表示される問題を修正しました。 Analytics **で**&#x200B;表示をクリックすると、[!DNL Analytics for Target]分類情報が欠落している「互換性のないレポートスイート」メッセージも表示されました。 （TGT-56389）
+* **A4T レポートが「エラーが発生しました」エラーで失敗します**。 新しく追加されたレポートスイートを使用する[!DNL A4T] アクティビティで、結果ではなく[!DNL Target] レポートに「エラーが発生しました」エラーが表示される問題を修正しました。 Analytics ]**で**[!UICONTROL &#x200B;表示をクリックすると、[!DNL Analytics for Target]分類情報が欠落している「互換性のないレポートスイート」メッセージも表示されました。 （TGT-56389）
 
 +++
 
@@ -118,7 +129,7 @@ ht-degree: 42%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -126,5 +137,5 @@ ht-degree: 42%
 
 | リソース | 詳細 |
 |--- |--- |
-| [Adobe 優先製品のアップデート](https://www.adobe.com/jp/subscription/priority-product-update.html){target=_blank} | [!DNL Target] およびその他の [!DNL Adobe Experience Cloud] ソリューションに対する今後の製品の機能強化に関する事前通知を受信します。 |
+| [Adobe 優先製品のアップデート](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | [!DNL Target] およびその他の [!DNL Adobe Experience Cloud] ソリューションに対する今後の製品の機能強化に関する事前通知を受信します。 |
 | [Target リリースノート - プレリリース](/help/main/r-release-notes/target-release-notes.md){target=_blank} | プレリリース情報など、当月の Target リリースに関する情報です。 |
