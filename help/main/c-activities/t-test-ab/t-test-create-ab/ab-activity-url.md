@@ -39,9 +39,9 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->[!DNL Target]は、URL プロトコル （[!DNL https]と[!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com`]と[!DNL `https://www.adobe.com`]は両方とも一致します。
+>[!DNL Target]は、URL プロトコル （[!DNL https]と[!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com/jp`]と[!DNL `https://www.adobe.com/jp`]は両方とも一致します。
 
-[!DNL Target] [at.js JavaScript ライブラリまたは [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}を含まないサイトのURLを指定した場合、ページ要素を選択することはできません。
+[!DNL Target] [at.js JavaScript ライブラリまたは [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja){target=_blank}を含まないサイトのURLを指定した場合、ページ要素を選択することはできません。
 
 ## 別のページを表示 {#different-page}
 

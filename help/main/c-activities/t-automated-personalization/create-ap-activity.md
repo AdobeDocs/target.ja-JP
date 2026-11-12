@@ -86,7 +86,7 @@ ht-degree: 20%
 
 1. 「**[!UICONTROL アクティビティ URLを入力]**」ボックスに、[&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定します。 アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。 必要に応じて、デフォルトから別のURLに変更できます。
 
-   [!DNL Target]はURL プロトコル （[!DNL https]と[!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com`]と[!DNL `https://www.adobe.com`]は両方とも一致します。
+   [!DNL Target]はURL プロトコル （[!DNL https]と[!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com/jp`]と[!DNL `https://www.adobe.com/jp`]は両方とも一致します。
 
 1. 次に、**[!UICONTROL 作成]**&#x200B;をクリックします。 指定されたURLを持つページがVECで開きます。
 

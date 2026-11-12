@@ -42,7 +42,7 @@ ht-degree: 13%
 
 [!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。 また、管理者は、1つ以上の役割に特化した製品プロファイル（ユーザーグループ）にユーザーを追加する必要があります。 両方のタスクは[Adobe Admin Console](https://adminconsole.adobe.com)で実行されます。
 
-ステップバイステップのガイダンスについては、[Adobe Enterprise ドキュメントのユーザーと製品プロファイルの管理方法](https://helpx.adobe.com/enterprise/using/users.html)を参照してください。
+ステップバイステップのガイダンスについては、[Adobe Enterprise ドキュメントのユーザーと製品プロファイルの管理方法](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
 管理者がこれらの手順を完了すると、招待メールが届きます。
 
