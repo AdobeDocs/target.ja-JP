@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
+source-git-commit: b608d181c660201f2c373ec8a1ac6e95be1be96c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 42%
+source-wordcount: '703'
+ht-degree: 39%
 ---
 # [!DNL Target] リリースノート（最新）
 
 [!DNL Adobe Target]の最新の機能、機能強化、および修正について説明します。 このリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、および該当する場合はその他のプラットフォームコンポーネントのアップデートについても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 26.11.1 （2026年11月12日）
+
+**[!UICONTROL アクティビティ]**
+
++++詳細を見る
+
+* アクティビティ リスト **に**&#x200B;[!DNL Coworker]&#x200B;個のエントリ ポイントが追加されました。 組織が[!DNL Coworker]へのアクセス権を持っている場合、[!UICONTROL &#x200B; アクティビティ &#x200B;] リストには、各アクティビティに「**[!UICONTROL ライブテストを確認]**」ボタンと「**[!UICONTROL 同僚に質問]**」メニューが含まれるようになりました。 これらのツールを使用すると、[!DNL Coworker]がライブ アクティビティをレビューしたり、特定のアクティビティに関する質問に回答したりできます。 （TGT-56536）
+  [詳細情報](../c-activities/activities.md#coworker)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.2 （2026年10月15日（PT））
 

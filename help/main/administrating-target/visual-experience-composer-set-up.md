@@ -35,72 +35,79 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 47%
+source-wordcount: '777'
+ht-degree: 32%
 ---
-# [!UICONTROL Visual Experience Composer]の設定
+# Visual Experience Composer （VEC）の設定
 
-一般設定、モバイルビューポート設定、CSS セレクターを指定して、[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）を設定します。
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）のアカウント全体のデフォルトを設定するには、**[!UICONTROL 管理]**&#x200B;の下にある&#x200B;**[!UICONTROL Visual Experience Composer]** タブを使用します。 これらの設定は、作成者がVECでエクスペリエンスを作成またはプレビューするたびに適用されます。
 
-[!UICONTROL Visual Experience Composer]設定ページにアクセスするには、**[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]をクリックします。**
+**設定の概要**
 
-{{permissions-update}}
+1. [一般設定](#general-settings)：デフォルト URL、拡張Experience Composer、混在コンテンツ、エクスペリエンススナップショット。
+1. [&#x200B; モバイルビューポート設定](#mobile-viewport-configuration)：レスポンシブエクスペリエンス用デバイスのプレビュー（[Target Premium](/help/main/c-intro/intro.md#premium)のみ）。
+1. [CSS セレクター](#css): Targetがコンテンツ配信用のセレクターを生成する方法。
+
+設定ページを開くには、**[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
 
 >[!NOTE]
 >
 >このページの設定は、[!DNL Target] アカウント全体に適用されます。
 
-## 一般的な設定
+## 一般設定 {#general-settings}
 
-一般設定を[!UICONTROL Visual Experience Composer]に指定できます。
+**[!UICONTROL 一般設定]** セクションで、VECを開いたときに使用されるデフォルトを設定します。
 
 ![一般設定セクション &#x200B;](/help/main/administrating-target/assets/general-settings.png)
 
 以下の設定を使用できます。
 
-### デフォルトの URL
+* **既定のURL**
 
-[!UICONTROL Visual Experience Composer] で使用されるデフォルトの URL を設定します。 これは、新しいアクティビティのそれぞれに対してエクスペリエンスをセットアップするときに必ず使用される、ホームページのようなデフォルトのページです。 デフォルトの URL を設定しない場合は、各アクティビティを作成するたびに URL を入力する必要があります。
+  [!UICONTROL Visual Experience Composer] で使用されるデフォルトの URL を設定します。 これは、新しいアクティビティのそれぞれに対してエクスペリエンスをセットアップするときに必ず使用される、ホームページのようなデフォルトのページです。 デフォルトの URL を設定しない場合は、各アクティビティを作成するたびに URL を入力する必要があります。
 
-### 拡張された Experience Composer を有効にする {#eec}
+* **拡張Experience Composerを有効にする**
 
-iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。 一部のサイトは、拡張バージョンと互換性がない場合があります。 元の[!UICONTROL Visual Experience Composer]に戻すには、このオプションの選択を解除します。 サイトでのアクティビティの配信はこの選択の影響を受けません。
+  iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。 一部のサイトは、拡張バージョンと互換性がない場合があります。 元の[!UICONTROL Visual Experience Composer]に戻すには、このオプションの選択を解除します。 サイトでのアクティビティの配信はこの選択の影響を受けません。
 
-[!UICONTROL Enhanced Experience Composer]は、[!DNL Safari]ではサポートされていません。
+  [!UICONTROL Enhanced Experience Composer]は、[!DNL Safari]ではサポートされていません。
 
-詳しくは、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
+  詳しくは、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-[!UICONTROL Enhanced Experience Composer]をアクティビティレベルで有効にすることもできます。
+  [!UICONTROL Enhanced Experience Composer]をアクティビティレベルで有効にすることもできます。 [&#x200B; アクティビティレベルで拡張Experience Composerを有効にする方法について説明します](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)。
 
-### 混在コンテンツの読み込み
+* **混在コンテンツの読み込み**
 
-[!UICONTROL Enhanced Experience Composer] （EEC）を使用してweb サイトを開く際に、混在コンテンツを有効にします。 このオプションを有効にすると、[!DNL Target] プロキシサーバーを介して静的リソースを読み込む際のオーバーヘッドを回避できます。
+  [!UICONTROL Enhanced Experience Composer] （EEC）を使用してweb サイトを開く際に、混在コンテンツを有効にします。 このオプションを有効にすると、[!DNL Target] プロキシサーバーを介して静的リソースを読み込む際のオーバーヘッドを回避できます。
 
-このオプションは、次のような場合に役立ちます。
+  このオプションは、次のような場合に役立ちます。
 
-* コンテンツセキュリティポリシー（CSP）ヘッダーでは、EECが有効になっているプロキシサーバーを使用せずに、混在コンテンツを読み込むことができます。
-* HTTP web サイトでは、EECでの読み込み時間が増加します。JavaScriptや画像などのプロキシ経由で読み込みに時間がかかります。
+  * コンテンツセキュリティポリシー（CSP）ヘッダーでは、EECが有効になっているプロキシサーバーを使用せずに、混在コンテンツを読み込むことができます。
+  * HTTP web サイトでは、EECでの読み込み時間が増加します。JavaScriptや画像などのプロキシ経由で読み込みに時間がかかります。
 
-### アクティビティフロー図でエクスペリエンススナップショットを生成する
+* **アクティビティフロー図でエクスペリエンススナップショットを生成**
 
-エクスペリエンススナップショットを有効にすると、アクティビティワークフローダイアグラムでエクスペリエンスのサムネールが生成されます。 スナップショットを無効にすると、一部のユーザーでパフォーマンスが向上する場合があります。
+  エクスペリエンススナップショットを有効にすると、アクティビティワークフローダイアグラムでエクスペリエンスのサムネールが生成されます。 スナップショットを無効にすると、一部のユーザーでパフォーマンスが向上する場合があります。
 
-## モバイルビューポート設定
+## モバイルビューポート設定 {#mobile-viewport-configuration}
 
 >[!NOTE]
 >
->[!UICONTROL Mobile Viewport Configuration]の設定は[Target Premium](/help/main/c-intro/intro.md#premium)機能です。
+>**[!UICONTROL Mobile Viewport Configuration]**&#x200B;の設定は[Target Premium](/help/main/c-intro/intro.md#premium)機能です。
 
-
-エクスペリエンスのプレビュー時に、使用するデバイスを追加できます。 各デバイスにはオーディエンスが関連付けられています。
+エクスペリエンスをプレビューする際に使用するデバイスを追加します。 各デバイスにはオーディエンスが関連付けられています。
 
 ![&#x200B; モバイルビューポート設定セクション &#x200B;](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-「**[!UICONTROL 追加]**」をクリックし、モバイルビューポートの記述的な名前を指定し、幅と高さを指定し、目的のオペレーティングシステムを選択してから、「[!UICONTROL 保存]」をクリックします。
+モバイルビューポートを追加するには、次の手順を実行します。
 
-モバイルビューポートの追加方法に関する情報については、[モバイルビューポート設定](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)を参照してください。
+1. 「**[!UICONTROL Add]**」をクリックします。
+1. モバイルビューポートのわかりやすい名前を指定し、幅と高さを指定して、目的のオペレーティングシステムを選択します。
+1. 「**[!UICONTROL Save]**」をクリックします。
+
+プレビューとオーディエンスの詳細については、[&#x200B; レスポンシブエクスペリエンスにモバイルビューポートを使用する方法](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)を参照してください。
 
 ## CSS セレクター {#css}
 
@@ -112,32 +119,26 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 次のオプションのいずれかまたは両方を選択できます。
 
-### 要素 ID を使用
+* **要素IDを使用**
 
-複数の要素で同じ ID を使用する場合、またはページの読み込みで要素 ID が変更される場合は、このオプションの選択を解除します。
+  複数の要素で同じ ID を使用する場合、またはページの読み込みで要素 ID が変更される場合は、このオプションの選択を解除します。
 
-### 要素クラスを使用
+* **要素クラスを使用**
 
-デフォルトで、[!DNL Target]は要素 ID のみを使用します。 ただし、ページが[!DNL Adobe Experience Manager]で構築されたページなど、要素を識別するためにクラスを使用するように設計されている場合は、[!UICONTROL 要素クラスを使用]も選択する必要があります。
+  デフォルトで、[!DNL Target]は要素 ID のみを使用します。 ただし、ページが[!DNL Adobe Experience Manager]で構築されたページなど、要素を識別するためにクラスを使用するように設計されている場合は、**[!UICONTROL 要素クラスを使用]**&#x200B;も選択する必要があります。 セレクターの精度は、通常、IDを使用する場合は最も高く、クラスを使用する場合は低く、どちらのオプションも選択しない場合は最も低くなります。 VECでページをテストして、セレクターが正しいことを確認します。
 
->[!NOTE]
->
->精度を確保するためにすべてが行われましたが、クラスを使用するとエラーが発生する可能性があることに注意してください。 いずれのオプションも選択しない場合も、正確性が低下します。 正確性は、ID > クラス > オプション指定なしの順番です。 必ずページをテストして、セレクターが正しいことを確認してください。
-
-アクティビティごとに、この設定を上書きできます（[!UICONTROL 設定]歯車アイコンをクリックしてから、[!UICONTROL CSS セレクター]を選択します）。 この機能は、別々の設定をおこなう複数のサイトがある場合に特に役立ちます。
-
->[!NOTE]
->
->アクティビティごとに設定を上書きすることは、[!UICONTROL Automated Personalization]および[!UICONTROL Multivariate Testing]のアクティビティでは使用できません。  セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
+  アクティビティごとに、この設定を上書きするには、**[!UICONTROL 設定]**&#x200B;歯車アイコンをクリックし、同じアカウントのサイトが異なる設定になっている場合に便利な&#x200B;**[!UICONTROL CSS セレクター]**&#x200B;を選択します。 アクティビティごとのオーバーライドは、**[!UICONTROL Automated Personalization]**&#x200B;または&#x200B;**[!UICONTROL Multivariate Testing]** アクティビティでは使用できません。 セレクターの動作とトラブルシューティングについては、[Visual Experience Composerで使用される要素セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
 
 ## トレーニングビデオ：アカウント環境設定（7:33） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+
+>[!BEGINSHADEBOX]
+
+[!DNL Target] **[!UICONTROL 管理]** メニューUI （旧称&#x200B;**[!UICONTROL セットアップ]**）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
+
+>[!ENDSHADEBOX]
 
 このビデオでは、アカウント設定に関する情報を説明します。
 
 * [!DNL Target Standard]でのアカウント設定に関する説明
-
->[!NOTE]
->
->[!DNL Target] [!UICONTROL 管理] メニューUI （旧称[!UICONTROL &#x200B; セットアップ &#x200B;]）は、パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上を目的として再設計されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507626?captions=jpn)

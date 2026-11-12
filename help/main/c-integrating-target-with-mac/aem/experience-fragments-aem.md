@@ -1,7 +1,7 @@
 ---
 keywords: エクスペリエンス;json;AEM, Adobe Experience Manager;Adobe Target へのエクスポート;エクスペリエンスフラグメント;フラグメント;XF
-description: ' [!DNL Adobe Target]  アクティビティで [!DNL Adobe Experience Manager] [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を使用する方法について説明します。'
-title: ' [!DNL Adobe Experience Manager]  （AEM） [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]の使用方法を教えてください。'
+description: '[!DNL Adobe Target]のアクティビティで[!DNL Adobe Experience Manager] [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を使用する方法について説明します。'
+title: '[!DNL Adobe Experience Manager] （AEM） [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]の使用方法を教えてください。'
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
-source-wordcount: 1446
+source-wordcount: '1449'
 ht-degree: 32%
-
 ---
-
 # AEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]
 
 [!DNL Target]件のアクティビティで[!DNL Adobe Experience Manager] （AEM）で作成された[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;] （XF）を使用して、最適化とパーソナライゼーションを支援します。
@@ -40,16 +38,16 @@ ht-degree: 32%
 * この機能を使用するには、[!DNL Adobe Experience Manager]（AEM）の顧客である必要があります。 詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
 * [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、次のアクティビティタイプで使用できます。
 
-   * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL 自動ターゲット]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization]（AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL エクスペリエンスのターゲット設定]（XT）](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL 自動ターゲット]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization]（AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL エクスペリエンスのターゲット設定]（XT）](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、次のアクティビティタイプでは使用できません。
 
-   * [[!UICONTROL 多変量分析テスト] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL レコメンデーション]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL 多変量分析テスト] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL レコメンデーション]](/help/main/c-recommendations/recommendations.md)
 
 * [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）と[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用して、[!DNL Target]のアクティビティで[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を使用できます。
 
@@ -152,8 +150,8 @@ AEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]お
    * **A/B テスト：** [A/B テストの作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **自動配分：** [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **自動ターゲット：** [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalizationアクティビティ（AP）：**&#x200B;[Automated Personalizationアクティビティの作成](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **エクスペリエンスターゲット設定（XT）：** [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Automated Personalizationアクティビティ（AP）：**&#x200B;[Automated Personalizationアクティビティの作成](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **エクスペリエンスターゲット設定（XT）：** [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
    * **A/B テストまたは XT アクティビティのRecommendations：** [オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    [!DNL Target]でJSONとして書き出された[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]は、VECを使用して作成されたアクティビティでは使用できません。VEC ベースのアクティビティでは、HTML [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]のみがサポートされます。 JSON [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を使用する場合は、[&#x200B; フォームベースのエクスペリエンスコンポーザー](/help/main/c-experiences/form-experience-composer.md)を使用して作成したアクティビティでそれらを使用します。

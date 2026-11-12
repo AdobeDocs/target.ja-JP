@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e62cab5f2a4ac7d18bdb6847784a06b37513624a
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 3%
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 この記事では、[!DNL Adobe Target]の手動A/Bn テストで使用される詳細な統計計算について説明します。 定義は、**[!UICONTROL コンバージョン率]**、**[!UICONTROL コンバージョン率]**&#x200B;の信頼区間、**[!UICONTROL 上昇率]**、**[!UICONTROL 上昇率]**、**[!UICONTROL 信頼性]**&#x200B;および&#x200B;**[!UICONTROL ベイジアン]**&#x200B;の決定指標に対して提供されます。
 
-**[!UICONTROL A/B テスト]** （手動）アクティビティは、[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)のアクティビティごとに選択された2つの統計的手法をサポートしています。
+**[!UICONTROL A/B テスト]** （手動）アクティビティは、[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology)のアクティビティごとに選択された2つの統計的手法をサポートしています。
 
 * [&#x200B; ウェルチのt テスト &#x200B;](#welchs-t-test)：固定標本サイズの仮説テストに基づいて&#x200B;**[!UICONTROL 信頼性]**&#x200B;の割合と信頼区間を報告する頻度論的手法です。 **[!UICONTROL 収益]**&#x200B;または&#x200B;**[!UICONTROL エンゲージメント]**&#x200B;の主な目標を持つアクティビティに使用されます。
 
@@ -157,7 +157,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 **[!UICONTROL ベイズ]**&#x200B;手法では、マーケターは過去の実験とコントロール バリアントの結果に基づいて仮説をフィードすることもできます。
 
-**[!UICONTROL ベイズ]**&#x200B;手法は、主な目標指標が&#x200B;**[!UICONTROL コンバージョン]**&#x200B;のアクティビティでのみ使用できます。主な目標が&#x200B;**[!UICONTROL 収益]**&#x200B;または&#x200B;**[!UICONTROL エンゲージメント]**&#x200B;のアクティビティでは、常に&#x200B;**[!UICONTROL ウェルチのt-test]**&#x200B;を使用します。 方法論の選択について詳しくは、[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)を参照してください。
+**[!UICONTROL ベイズ]**&#x200B;手法は、主な目標指標が&#x200B;**[!UICONTROL コンバージョン]**&#x200B;のアクティビティでのみ使用できます。主な目標が&#x200B;**[!UICONTROL 収益]**&#x200B;または&#x200B;**[!UICONTROL エンゲージメント]**&#x200B;のアクティビティでは、常に&#x200B;**[!UICONTROL ウェルチのt-test]**&#x200B;を使用します。 方法論の選択について詳しくは、[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology)を参照してください。
 
 ### 平均上昇率と信頼区間
 

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
@@ -94,7 +94,7 @@ ht-degree: 44%
 
 ## [!UICONTROL レポート指標] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-「**[!UICONTROL レポート指標]**」ドロップダウンリストをクリックして、グラフやグラフに表示する別の[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)または複数の指標を選択します。
+「**[!UICONTROL レポート指標]**」ドロップダウンリストをクリックして、グラフやグラフに表示する別の[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)または複数の指標を選択します。
 
 デフォルトでは、アクティビティの作成時に、成功指標の設定で主要指標が決定されています。 その設定を変更し、アクティビティを再保存すると、レポートの主要指標が更新されます。
 

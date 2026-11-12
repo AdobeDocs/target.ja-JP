@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 43%
@@ -29,7 +29,7 @@ ht-degree: 43%
 
 エクスペリエンスのプレビューURLを使用して、別のQA アクティビティを作成することなく、チームメンバーとエクスペリエンスを共有したり、ブラウザーや環境全体でQA エクスペリエンスを作成したりできます。 この機能は、サイトが複雑な場合や、セキュリティポリシーによりシミュレーターでサイトを表示できない場合に特に有用です。
 
-1. [Automated Personalization アクティビティ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)を作成するか、アクティビティをクリックして開きます。
+1. [Automated Personalization アクティビティ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)を作成するか、アクティビティをクリックして開きます。
 
    エクスペリエンスをプレビューする場合は、アクティビティのステータスがアクティブである必要はありません。
 

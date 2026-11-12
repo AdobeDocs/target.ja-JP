@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 94%
@@ -59,7 +59,7 @@ ht-degree: 94%
 ## [!UICONTROL A/B テスト]や [!UICONTROL Automated Personalization] アクティビティに対して[!UICONTROL 自動配分]をいつ使用するか {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * アクティビティを最初から最適化して、なるべく早く勝者エクスペリエンスを特定したい場合に、**[!UICONTROL 自動配分]**&#x200B;を使用します。 パフォーマンスの高いエクスペリエンスをより頻繁に提供することで、アクティビティ全体のパフォーマンスを向上させます。
-* サイトを最適化する前にすべてのエクスペリエンスのパフォーマンスを特徴付ける場合は、標準の **[A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**&#x200B;を使用します。 [!UICONTROL 自動配分]が、パフォーマンスが最上位のエクスペリエンスを見つけてもパフォーマンスが低いエクスペリエンス間の差別化を保証しないのに対して、A/B テストは、すべてのエクスペリエンスをランク付けするのに役立ちます。
+* サイトを最適化する前にすべてのエクスペリエンスのパフォーマンスを特徴付ける場合は、標準の **[A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)**&#x200B;を使用します。 [!UICONTROL 自動配分]が、パフォーマンスが最上位のエクスペリエンスを見つけてもパフォーマンスが低いエクスペリエンス間の差別化を保証しないのに対して、A/B テストは、すべてのエクスペリエンスをランク付けするのに役立ちます。
 * 個々のプロファイル属性に基づいて予測を行う機械学習モデルのように、複雑な最適化アルゴリズムが必要な場合は、[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) を使用します。 [!UICONTROL 自動割り当て]は、（標準のA/B テストと同様に）エクスペリエンスの集計動作を確認し、訪問者を区別しません。
 
 ## [!UICONTROL 自動配分]の主なメリット {#section_0913BF06F73C4794862561388BBDDFF0}

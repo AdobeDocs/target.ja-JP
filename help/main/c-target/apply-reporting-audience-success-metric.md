@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 43%
@@ -46,7 +46,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。 成功指標を定義していない場合、ドロップダウンリストに[!UICONTROL &#x200B; キャンペーンエントリ &#x200B;]と[!UICONTROL &#x200B; コンバージョン &#x200B;]の2つのオプションのみが表示されます。
+>[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)は、アクティビティに設定した場合にのみ使用できます。 成功指標を定義していない場合、ドロップダウンリストに[!UICONTROL &#x200B; キャンペーンエントリ &#x200B;]と[!UICONTROL &#x200B; コンバージョン &#x200B;]の2つのオプションのみが表示されます。
 
 
 ## 注意点
