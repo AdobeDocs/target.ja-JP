@@ -1,7 +1,7 @@
 ---
 keywords: エクスペリエンスの作成;エクスペリエンス作成;優先度;オーディエンス;エクスペリエンス;Visual Experience Composer
 description: '[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Experience Targeting] （XT）アクティビティでページ上のエクスペリエンスを作成および編集する方法について説明します。'
-title: '[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティでエクスペリエンスを作成するにはどうすればよいですか？'
+title: '[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティでエクスペリエンスを作成するにはどうすればよいですか？'
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 TQID: 'https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ'
@@ -24,7 +24,7 @@ workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 16%
 ---
-# [!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティでのエクスペリエンスの作成 {#xt-add-experience}
+# [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティでのエクスペリエンスの作成 {#xt-add-experience}
 
 >[!BEGINSHADEBOX]
 
@@ -40,7 +40,7 @@ ht-degree: 16%
 
 ## ターゲットを絞ったエクスペリエンスの構築 {#create-experiences}
 
-[ エクスペリエンスのターゲット設定&#x200B;]**アクティビティ ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)を作成すると、3つの部分からなるガイド付きワークフロー（**[!UICONTROL  エクスペリエンス ]**）の手順1では、デフォルトの**[!UICONTROL  エクスペリエンス A ]**と**[!UICONTROL &#x200B;すべての訪問者&#x200B;]**オーディエンスが表示されます。**[!UICONTROL 
+[ エクスペリエンスのターゲット設定&#x200B;]&#x200B;**アクティビティ (/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)を作成すると、3つの部分からなるガイド付きワークフロー（**&#x200B;[!UICONTROL &#x200B; エクスペリエンス &#x200B;]&#x200B;**）の手順1では、デフォルトの**&#x200B;[!UICONTROL &#x200B; エクスペリエンス A &#x200B;]&#x200B;**と**&#x200B;[!UICONTROL &#x200B;すべての訪問者&#x200B;]&#x200B;**オーディエンスが表示されます。**
 
 ![すべての訪問者オーディエンス](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
@@ -52,7 +52,7 @@ ht-degree: 16%
    >
    >デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。 JavaScriptを無効にして、VECを使用してこれらの要素を変更できます。
 
-1. 追加のエクスペリエンスを作成するには、**[!UICONTROL 追加]** （![追加ボタン ](/help/main/assets/icons/Add.svg)）をクリックします。
+1. 追加のエクスペリエンスを作成するには、**[!UICONTROL 追加]** （![追加ボタン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックします。
 
    「**[!UICONTROL オーディエンスを追加]**」ダイアログボックスが表示されます。 エクスペリエンスをオーディエンスにターゲットするには、エクスペリエンスを追加する前にオーディエンスを選択します。
 
@@ -90,7 +90,7 @@ ht-degree: 16%
 
 **[!UICONTROL エクスペリエンスのターゲット設定]** アクティビティの作成または編集中に、オーディエンスとエクスペリエンスのペアをドラッグ&amp;ドロップして、目的の順序で並べ替えることができます。 訪問者は、上位のエクスペリエンスから順番に条件を満たしているかどうかが評価されます。 **[!UICONTROL エクスペリエンスのターゲット設定]**&#x200B;は、注文が重要であると仮定します。 訪問者が最初のオーディエンスとエクスペリエンスのペアに該当した場合、最初のエクスペリエンスが配信されます。
 
-ペアを並べ替えるには、並べ替えアイコン（![並べ替えアイコン ](/help/main/assets/icons/Reorder.svg)）をクリックして、右側に&#x200B;**[!UICONTROL エクスペリエンス]**&#x200B;列を表示し、必要に応じてエクスペリエンスを並べ替えます。
+ペアを並べ替えるには、並べ替えアイコン（![並べ替えアイコン &#x200B;](/help/main/assets/icons/Reorder.svg)）をクリックして、右側に&#x200B;**[!UICONTROL エクスペリエンス]**&#x200B;列を表示し、必要に応じてエクスペリエンスを並べ替えます。
 
 +++ 例：相互排他的でないオーディエンス
 
@@ -111,9 +111,9 @@ ht-degree: 16%
 必要に応じて、次のオプションから選択します。
 
 * **[!UICONTROL 名前を変更]**: **[!UICONTROL 名前]** フィールドに目的の名前を入力します。
-* **[!UICONTROL 編集]**：編集アイコン（![編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、必要な変更を加えます。
-* **[!UICONTROL 重複]**: **[!UICONTROL エクスペリエンスのターゲット設定]** アクティビティ内のエクスペリエンスをコピーして、エクスペリエンス全体を再作成しなくても、エクスペリエンスにマイナーな変更を加えることができます。 **[!UICONTROL 複製]** アイコン （![複製アイコン ](/help/main/assets/icons/Duplicate.svg)）をクリックし、必要に応じてエクスペリエンスを編集します。
-* **[!UICONTROL 削除]**: **[!UICONTROL 削除]** アイコン （![削除アイコン ](/help/main/assets/icons/Delete.svg)）をクリックし、削除を確認します。
+* **[!UICONTROL 編集]**：編集アイコン（![編集アイコン &#x200B;](/help/main/assets/icons/Edit.svg)）をクリックし、必要な変更を加えます。
+* **[!UICONTROL 重複]**: **[!UICONTROL エクスペリエンスのターゲット設定]** アクティビティ内のエクスペリエンスをコピーして、エクスペリエンス全体を再作成しなくても、エクスペリエンスにマイナーな変更を加えることができます。 **[!UICONTROL 複製]** アイコン （![複製アイコン &#x200B;](/help/main/assets/icons/Duplicate.svg)）をクリックし、必要に応じてエクスペリエンスを編集します。
+* **[!UICONTROL 削除]**: **[!UICONTROL 削除]** アイコン （![削除アイコン &#x200B;](/help/main/assets/icons/Delete.svg)）をクリックし、削除を確認します。
 
 ## トレーニングビデオ：Visual Experience Composerの使用
 

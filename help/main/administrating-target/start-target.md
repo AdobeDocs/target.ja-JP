@@ -36,7 +36,7 @@ ht-degree: 13%
 1. [Targetに招待される](#task_3E0817630774431983FAA3D2CB2E75BD): システム管理者が[!DNL Adobe Admin Console]にあなたを追加します。
 1. [招待に同意する](#task_24FE66659E634B24AB61DB8497772E17): [!DNL Experience Cloud]にログインし、[!DNL Target] アカウントをリンクします。
 1. [承認者の役割を自分に割り当てる](#task_15CAA437A71444E2932B333D5E66A3C7)：ライセンスの種類に対するアクセスと権限を確認します。
-1. [ ユーザー管理](/help/main/administrating-target/c-user-management/user-management.md): ユーザーを追加し、[!DNL Target Standard]または[!DNL Target Premium]の役割を割り当てます。
+1. [&#x200B; ユーザー管理](/help/main/administrating-target/c-user-management/user-management.md): ユーザーを追加し、[!DNL Target Standard]または[!DNL Target Premium]の役割を割り当てます。
 
 ## [!DNL Target] に招待される {#task_3E0817630774431983FAA3D2CB2E75BD}
 
@@ -48,7 +48,7 @@ ht-degree: 13%
 
 ## 招待の受諾 {#task_24FE66659E634B24AB61DB8497772E17}
 
-[!DNL Adobe Experience Cloud]への参加の招待を受け取ったら、それを受け取り、サインインして、[!UICONTROL  エンドユーザー使用許諾契約] （EULA）に同意します。
+[!DNL Adobe Experience Cloud]への参加の招待を受け取ったら、それを受け取り、サインインして、[!UICONTROL &#x200B; エンドユーザー使用許諾契約] （EULA）に同意します。
 
 招待を承認し、[!DNL Target]を[!DNL Experience Cloud] アカウントにリンクするには、次の手順を実行します。
 
@@ -84,12 +84,12 @@ ht-degree: 13%
 * お客様の組織が[Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) ライセンスを持っている場合は、[役割と権限を指定する方法について](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)の&#x200B;*Users*&#x200B;を参照してください。
 * お客様の組織が [Target Premium](/help/main/c-intro/intro.md#premium) ライセンスを所有している場合、*エンタープライズ権限の設定*&#x200B;の[手順 6：役割および権限の指定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)を参照してください。
 
-次に、[!DNL Target Standard]または[!DNL Target Premium]のユーザーを設定できます。 概要と、ライセンスの正しいワークフローへのリンクについては、[ ユーザー管理](/help/main/administrating-target/c-user-management/user-management.md)を参照してください。
+次に、[!DNL Target Standard]または[!DNL Target Premium]のユーザーを設定できます。 概要と、ライセンスの正しいワークフローへのリンクについては、[&#x200B; ユーザー管理](/help/main/administrating-target/c-user-management/user-management.md)を参照してください。
 
 ## [!UICONTROL 管理]設定の編集に必要な権限 {#admin-permissions}
 
 **2025年4月22日より前**: [!DNL Adobe Admin Console]の[!UICONTROL 承認者]権限を持つユーザーは、[!DNL Target]の役割に関係なく、[!DNL Target]の[[!UICONTROL 管理]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
 
-**2025年4月22日（PT）**: [!UICONTROL 製品]および[!UICONTROL  ソリューション ]の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL 管理]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できます。 この権限を持たないユーザーは、[!UICONTROL 管理] セクションに読み取り専用でアクセスできます。
+**2025年4月22日（PT）**: [!UICONTROL 製品]および[!UICONTROL &#x200B; ソリューション &#x200B;]の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL 管理]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できます。 この権限を持たないユーザーは、[!UICONTROL 管理] セクションに読み取り専用でアクセスできます。
 
 この変更により、[!DNL Target] インスタンス設定に対する組織の制御が向上し、テスト チームとパーソナライゼーション チーム間のアクティビティ配信に影響を与える可能性のある偶発的な更新を防ぐことができます。

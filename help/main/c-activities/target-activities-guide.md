@@ -47,7 +47,7 @@ ht-degree: 61%
 >
 >最適なエクスペリエンスを実現するには、インタラクティブな [Adobe Target アクティビティガイド PDF](/help/main/assets/activities_guide_82817.pdf) をダウンロードしてください。他の人と共有することもできます。
 >
->この記事には、[**[!UICONTROL Recommendations ]**アクティビティ ](/help/main/c-recommendations/recommendations.md)に関する情報は含まれていません。 ただし、**[!UICONTROL  A/B テスト ]**、**[!UICONTROL &#x200B;自動割り当て&#x200B;]**、**[!UICONTROL &#x200B;自動ターゲット ]**、**[!UICONTROL  エクスペリエンスのターゲット設定&#x200B;]**（XT）アクティビティ内に推奨事項を含めることができます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。
+>この記事には、[**[!UICONTROL Recommendations &#x200B;]**&#x200B;アクティビティ &#x200B;](/help/main/c-recommendations/recommendations.md)に関する情報は含まれていません。 ただし、**[!UICONTROL &#x200B; A/B テスト &#x200B;]**、**[!UICONTROL &#x200B;自動割り当て&#x200B;]**、**[!UICONTROL &#x200B;自動ターゲット &#x200B;]**、**[!UICONTROL &#x200B; エクスペリエンスのターゲット設定&#x200B;]**（XT）アクティビティ内に推奨事項を含めることができます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。
 
 ## 各アクティビティの機能 {#section_4ECAACC68723402EB3649033190E1BBC}
 

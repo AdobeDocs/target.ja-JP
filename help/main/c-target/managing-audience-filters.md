@@ -49,7 +49,7 @@ ht-degree: 59%
 * **最初に2 ～ 4人のオーディエンスを作成します。** トラフィックソースのような、基本情報に重点を置きます。
 * **必要に応じてオーディエンス名を変更します。** データに影響を与えることなくオーディエンスの名前を変更して、アクティビティがアクティブであっても、収集される結果に対してオーディエンス名をより意味のあるものにすることができます。
 * **正確な値を入力してください。** オーディエンスフィルターの値では、大文字と小文字が区別されます。 例えば、市区町村をフィルタリングするオーディエンスを使用する場合、「Vienna」と「vienna」、「wien」と「Wien」のような、入力で想定されるスペルおよび大文字と小文字の組み合わせを含めるには、「OR」条件を使用します。
-* [!UICONTROL  オーディエンス ] リストから作成された&#x200B;**オーディエンスは再利用可能です。** アクティビティの一部として作成されたオーディエンスは再利用できません。
+* [!UICONTROL &#x200B; オーディエンス &#x200B;] リストから作成された&#x200B;**オーディエンスは再利用可能です。** アクティビティの一部として作成されたオーディエンスは再利用できません。
 
 オーディエンスの設定およびレポートに関する情報について詳しくは、以下の節を参照してください。
 
@@ -58,5 +58,5 @@ ht-degree: 59%
 | 適切なアクティビティまたはテストを作成する。 | [アクティビティとテスト](/help/main/c-intro/target-key-concepts.md) |
 | 必要に応じて、オーディエンスを作成する。 | [オーディエンスの作成](/help/main/c-target/c-audiences/create-audience.md) |
 | 必要に応じて、複数のオーディエンスを組み合わせる。 | [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md) |
-| アクティビティの目標と設定ページにオーディエンスを適用する。 | A/B テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br> エクスペリエンスのターゲット設定：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多変量テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>推奨事項：[推奨事項アクティビティ設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br> アクティビティ設定：[ アクティビティ設定](/help/main/c-activities/activity-settings.md) |
+| アクティビティの目標と設定ページにオーディエンスを適用する。 | A/B テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br> エクスペリエンスのターゲット設定：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多変量テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>推奨事項：[推奨事項アクティビティ設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br> アクティビティ設定：[&#x200B; アクティビティ設定](/help/main/c-activities/activity-settings.md) |
 | オーディエンスフィルターに関する情報をレポートに表示する。 | [レポート設定](/help/main/c-reports/c-report-settings/report-settings.md) |

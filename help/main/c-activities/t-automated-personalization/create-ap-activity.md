@@ -78,19 +78,19 @@ ht-degree: 20%
 
      >[!NOTE]
      >
-     >VECおよび&#x200B;**[!UICONTROL フォームベースのExperience Composer]**&#x200B;に加えて、[!DNL Target]では&#x200B;**[!UICONTROL シングルページアプリケーション VEC]**&#x200B;を提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。 VECに関するトラブルシューティング情報については、[Visual Experience Composerのトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
+     >VECおよび&#x200B;**[!UICONTROL フォームベースのExperience Composer]**&#x200B;に加えて、[!DNL Target]では&#x200B;**[!UICONTROL シングルページアプリケーション VEC]**&#x200B;を提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。 VECに関するトラブルシューティング情報については、[Visual Experience Composerのトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
      ![](../assets/ap-activities-3.png)
 
-1. （条件付き） [ ワークスペースを選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （条件付き） [&#x200B; ワークスペースを選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 「**[!UICONTROL アクティビティ URLを入力]**」ボックスに、[ アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定します。 アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。 必要に応じて、デフォルトから別のURLに変更できます。
+1. 「**[!UICONTROL アクティビティ URLを入力]**」ボックスに、[&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)を指定します。 アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。 必要に応じて、デフォルトから別のURLに変更できます。
 
    [!DNL Target]はURL プロトコル （[!DNL https]と[!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com`]と[!DNL `https://www.adobe.com`]は両方とも一致します。
 
 1. 次に、**[!UICONTROL 作成]**&#x200B;をクリックします。 指定されたURLを持つページがVECで開きます。
 
-1. アクティビティに名前を付けるには、**[!UICONTROL 編集]** アイコン （![編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
+1. アクティビティに名前を付けるには、**[!UICONTROL 編集]** アイコン （![編集アイコン &#x200B;](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
    {{activity-name-rules}}
 
@@ -100,14 +100,14 @@ ht-degree: 20%
 
 アルゴリズムが組み合わせることができるコンテンツを設定し、望ましくないエクスペリエンスを除外します。
 
-1. [Visual Experience Composer オプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)で説明されているように、ページ要素を変更します。
+1. [Visual Experience Composer オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)で説明されているように、ページ要素を変更します。
 
    * 複数の画像をすばやくプレビューするには、アセットマネージャーから一度に複数の画像を選択します。 次に、アクティビティ用に設定された各画像を含むページを表示できます。
    * オファーのテキストを変更するには、ページ上でテキスト要素を直接編集します。
 
    エレメントを編集すると、変更したことを示すバーがそのエレメントに表示されます。
 
-1. 「**[!UICONTROL コンテンツを管理]**」アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
+1. 「**[!UICONTROL コンテンツを管理]**」アイコン（![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
 
    「**[!UICONTROL コンテンツを管理]**」ダイアログボックスが開き、2つのタブ（**[!UICONTROL エクスペリエンス]**&#x200B;と&#x200B;**[!UICONTROL オファー]**）が表示されます。
 
@@ -123,7 +123,7 @@ ht-degree: 20%
 
 1. （条件付き）「**[!UICONTROL オファー]**」タブをクリックして、アクティビティ内のオファーを管理します。
 
-   * レポート用のオファーを整理するには、コンテンツの一部を選択してレポートグループに割り当てます。 詳しくは、[Automated Personalizationのオファーレポートグループ ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)を参照してください。
+   * レポート用のオファーを整理するには、コンテンツの一部を選択してレポートグループに割り当てます。 詳しくは、[Automated Personalizationのオファーレポートグループ &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)を参照してください。
    * オファーを表示するユーザーを制限するには、ターゲティングを使用して、特定の訪問者にそのオファーを表示させるようにします。
 
 <!--
@@ -146,15 +146,15 @@ ht-degree: 20%
 
 1. **[!UICONTROL Visual Experience Composer]**&#x200B;の上部にある&#x200B;**[!UICONTROL ターゲティング]**&#x200B;をクリックして、3段階のガイド付きワークフローの次のステップに移動します。
 
-   ![AP テストのターゲット設定ステップ ](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+   ![AP テストのターゲット設定ステップ &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-1. （条件付き）「**[!UICONTROL すべての訪問者]**」コントロールをクリックして[ アクティビティ用に別のオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、その訪問者の割合を設定します。
+1. （条件付き）「**[!UICONTROL すべての訪問者]**」コントロールをクリックして[&#x200B; アクティビティ用に別のオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、その訪問者の割合を設定します。
 
    **[!UICONTROL すべての訪問者]** オーディエンスがデフォルトとして設定されます。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。 例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
 
 1. 「**[!UICONTROL トラフィック配分]**」コントロールをクリックし、次のいずれかのオプションを選択します。
 
-   ![ トラフィック配分の目標オプション ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
+   ![&#x200B; トラフィック配分の目標オプション &#x200B;](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    +++トラフィック配分の目標オプション
 
@@ -166,7 +166,7 @@ ht-degree: 20%
 
    +++
 
-1. （条件付き）「**[!UICONTROL コントロール]**」ドロップダウンリストから、[ コントロールとして使用する特定のエクスペリエンスを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)するか、**[!UICONTROL ランダムなエクスペリエンス]**&#x200B;を選択します。
+1. （条件付き）「**[!UICONTROL コントロール]**」ドロップダウンリストから、[&#x200B; コントロールとして使用する特定のエクスペリエンスを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)するか、**[!UICONTROL ランダムなエクスペリエンス]**&#x200B;を選択します。
 
    コントロールエクスペリエンスは、自動テストによってどれだけの上昇率を実現するかを判断するための比較となります。 **[!UICONTROL Automated Personalization]**&#x200B;は、コントロール グループに対するパフォーマンスを常に測定します。 少なくとも訪問者の 10％はコントロールグループに配分することをお勧めします。
 

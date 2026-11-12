@@ -47,7 +47,7 @@ ht-degree: 32%
 **設定の概要**
 
 1. [一般設定](#general-settings)：デフォルト URL、拡張Experience Composer、混在コンテンツ、エクスペリエンススナップショット。
-1. [ モバイルビューポート設定](#mobile-viewport-configuration)：レスポンシブエクスペリエンス用デバイスのプレビュー（[Target Premium](/help/main/c-intro/intro.md#premium)のみ）。
+1. [&#x200B; モバイルビューポート設定](#mobile-viewport-configuration)：レスポンシブエクスペリエンス用デバイスのプレビュー（[Target Premium](/help/main/c-intro/intro.md#premium)のみ）。
 1. [CSS セレクター](#css): Targetがコンテンツ配信用のセレクターを生成する方法。
 
 設定ページを開くには、**[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
@@ -60,7 +60,7 @@ ht-degree: 32%
 
 **[!UICONTROL 一般設定]** セクションで、VECを開いたときに使用されるデフォルトを設定します。
 
-![一般設定セクション ](/help/main/administrating-target/assets/general-settings.png)
+![一般設定セクション &#x200B;](/help/main/administrating-target/assets/general-settings.png)
 
 以下の設定を使用できます。
 
@@ -76,7 +76,7 @@ ht-degree: 32%
 
   詳しくは、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-  [!UICONTROL Enhanced Experience Composer]をアクティビティレベルで有効にすることもできます。 [ アクティビティレベルで拡張Experience Composerを有効にする方法について説明します](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)。
+  [!UICONTROL Enhanced Experience Composer]をアクティビティレベルで有効にすることもできます。 [&#x200B; アクティビティレベルで拡張Experience Composerを有効にする方法について説明します](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)。
 
 * **混在コンテンツの読み込み**
 
@@ -99,7 +99,7 @@ ht-degree: 32%
 
 エクスペリエンスをプレビューする際に使用するデバイスを追加します。 各デバイスにはオーディエンスが関連付けられています。
 
-![ モバイルビューポート設定セクション ](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![&#x200B; モバイルビューポート設定セクション &#x200B;](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
 モバイルビューポートを追加するには、次の手順を実行します。
 
@@ -107,13 +107,13 @@ ht-degree: 32%
 1. モバイルビューポートのわかりやすい名前を指定し、幅と高さを指定して、目的のオペレーティングシステムを選択します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-プレビューとオーディエンスの詳細については、[ レスポンシブエクスペリエンスにモバイルビューポートを使用する方法](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)を参照してください。
+プレビューとオーディエンスの詳細については、[&#x200B; レスポンシブエクスペリエンスにモバイルビューポートを使用する方法](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)を参照してください。
 
 ## CSS セレクター {#css}
 
 [!DNL Target]で CSS セレクターを生成する方法を指定します。
 
-![CSS セレクターセクション ](/help/main/administrating-target/assets/css-selectors.png)
+![CSS セレクターセクション &#x200B;](/help/main/administrating-target/assets/css-selectors.png)
 
 これらのオプションを使用すると、[!DNL Target]に対してサイトの構造を指定して、コンテンツ配信により適した CSS セレクターを生成できます。 デフォルトで、[!DNL Target]はページ上の要素 ID に基づいてセレクターを生成します。 サイトで使用されている ID が少ない場合、または同じページ上に重複する ID が存在する場合は、クラスを使用することをお勧めします。
 
@@ -129,7 +129,7 @@ ht-degree: 32%
 
   アクティビティごとに、この設定を上書きするには、**[!UICONTROL 設定]**&#x200B;歯車アイコンをクリックし、同じアカウントのサイトが異なる設定になっている場合に便利な&#x200B;**[!UICONTROL CSS セレクター]**&#x200B;を選択します。 アクティビティごとのオーバーライドは、**[!UICONTROL Automated Personalization]**&#x200B;または&#x200B;**[!UICONTROL Multivariate Testing]** アクティビティでは使用できません。 セレクターの動作とトラブルシューティングについては、[Visual Experience Composerで使用される要素セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
 
-## トレーニングビデオ：アカウント環境設定（7:33） ![概要バッジ ](/help/main/assets/overview.png)
+## トレーニングビデオ：アカウント環境設定（7:33） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 >[!BEGINSHADEBOX]
 

@@ -42,13 +42,13 @@ ht-degree: 24%
 
 使用可能な設定は、レポートソースとしてTargetまたは[Analyticsを使用するかどうかに応じて異なります](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
 
-[!UICONTROL  エクスペリエンスのターゲット設定] （XT）および[!UICONTROL 多変量テスト ] （MVT）アクティビティにも同じ設定が適用されます。ただし、[統計的手法](#section_statistical-methodology)はA/B アクティビティでのみ使用できます。
+[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）および[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティにも同じ設定が適用されます。ただし、[統計的手法](#section_statistical-methodology)はA/B アクティビティでのみ使用できます。
 
-* [ アクティビティ設定](#section_DCBDC354261F420EBD4B43EA34947BAC)：目的、優先度、期間
-* [ レポート設定](#section_13119392051044FBA6387D9B3B1C43CF)：レポートソース、目標指標、追加指標、オーディエンス
+* [&#x200B; アクティビティ設定](#section_DCBDC354261F420EBD4B43EA34947BAC)：目的、優先度、期間
+* [&#x200B; レポート設定](#section_13119392051044FBA6387D9B3B1C43CF)：レポートソース、目標指標、追加指標、オーディエンス
 * [詳細設定](#section_E2FE441AFB324E498793ABB025ED9974)：依存関係と、訪問者が目標に到達した後の処理
 * [統計的手法](#section_statistical-methodology)：結果の分析方法
-* [その他のメタデータ ](#section_2E8917BEFB954480A4206B9E9E917F80)：メモ
+* [その他のメタデータ &#x200B;](#section_2E8917BEFB954480A4206B9E9E917F80)：メモ
 
 ## [!UICONTROL アクティビティの設定] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -110,10 +110,10 @@ ht-degree: 24%
 
   +++ レポートソースとしてのCustomer Journey Analyticsの詳細
 
-  サポートされているアクティビティタイプ、[!DNL Customer Journey Analytics]でのサンドボックスおよびデータビューの選択、目標指標、レポート設定については、 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[[!DNL Target]  レポートを参照してください。
+  サポートされているアクティビティタイプ、[!DNL Customer Journey Analytics]でのサンドボックスおよびデータビューの選択、目標指標、レポート設定については、 [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを参照してください。
   +++
 
-[ アカウント設定](/help/main/administrating-target/reporting.md)でレポートソースが指定されている場合、指定されたソースが使用され、この設定は表示されません。
+[&#x200B; アカウント設定](/help/main/administrating-target/reporting.md)でレポートソースが指定されている場合、指定されたソースが使用され、この設定は表示されません。
 
 アクティビティが公開された後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。
 
@@ -154,7 +154,7 @@ ht-degree: 24%
 
 **[!UICONTROL 目標と設定]** ページの&#x200B;**[!UICONTROL 詳細設定]** セクションでは、詳細オプションを設定できます。
 
-詳細設定を指定するには、**[!UICONTROL プライマリ目標]** セクションの&#x200B;**[!UICONTROL 詳細]** アイコン （![詳細アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 詳細設定]**&#x200B;をクリックします。
+詳細設定を指定するには、**[!UICONTROL プライマリ目標]** セクションの&#x200B;**[!UICONTROL 詳細]** アイコン （![詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 詳細設定]**&#x200B;をクリックします。
 
 ![](../../assets/goals-ab-3.png)
 
@@ -206,11 +206,11 @@ ht-degree: 24%
 
 この選択により、このアクティビティの&#x200B;**[!UICONTROL コンバージョン]**&#x200B;目標指標に使用される統計フレームワーク、結果指標、決定条件が決まります。
 
-* **[!UICONTROL ベイズ ]:** データの到達時に信念を更新し、継続的な監視とサンプルサイズの縮小をサポートする確率ベースの意思決定。 結果は、あるバリアントが別のバリアントよりも優れている確率、例えば「バリアント Bがコントロールに勝つ確率92%」として表されます。
+* **[!UICONTROL ベイズ &#x200B;]:** データの到達時に信念を更新し、継続的な監視とサンプルサイズの縮小をサポートする確率ベースの意思決定。 結果は、あるバリアントが別のバリアントよりも優れている確率、例えば「バリアント Bがコントロールに勝つ確率92%」として表されます。
   * 小規模なサンプルサイズ、継続的なモニタリング、確率を好む関係者、過去のテストから適用すべき事前知識がある場合に最適です。
   * 厳格な規制やコンプライアンスの承認が必要な場合や、従来のp値が必要な場合は理想的ではありません。
   * レポートには、**[!UICONTROL ビートコントロールの可能性]**&#x200B;と、フリークエンティストの&#x200B;**[!UICONTROL 信頼度]**&#x200B;列の代わりに信頼できる間隔が表示されます。
-* **[!UICONTROL ウェルチのt テスト （フリークエンティスト） ]:**&#x200B;既存の従来の仮説テスト手法です。 p値を使用し、固定サンプルサイズが必要です。 レポートには、**[!UICONTROL 信頼性]**&#x200B;の割合と信頼区間が表示されます。
+* **[!UICONTROL ウェルチのt テスト （フリークエンティスト） &#x200B;]:**&#x200B;既存の従来の仮説テスト手法です。 p値を使用し、固定サンプルサイズが必要です。 レポートには、**[!UICONTROL 信頼性]**&#x200B;の割合と信頼区間が表示されます。
 
 この設定は、主な目標指標が&#x200B;**[!UICONTROL コンバージョン]**&#x200B;のアクティビティでのみ使用できます。 **[!UICONTROL 収益]**&#x200B;または&#x200B;**[!UICONTROL エンゲージメント]**&#x200B;の主な目標を持つアクティビティでは、常に&#x200B;**[!UICONTROL ウェルチのt テスト]**&#x200B;を使用します。
 

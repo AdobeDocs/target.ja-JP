@@ -1,7 +1,7 @@
 ---
 keywords: エクスペリエンスのターゲット設定；xt；作成
 description: '[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Experience Targeting] （XT）アクティビティを作成する方法を説明します。'
-title: '[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティを作成するにはどうすればよいですか？'
+title: '[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティを作成するにはどうすればよいですか？'
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 TQID: 'https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo'
@@ -28,7 +28,7 @@ workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 32%
 ---
-# [!UICONTROL  エクスペリエンスのターゲット設定] （XT） アクティビティの作成 {#create-xt-activity}
+# [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT） アクティビティの作成 {#create-xt-activity}
 
 >[!BEGINSHADEBOX]
 
@@ -40,7 +40,7 @@ ht-degree: 32%
 
 **[!UICONTROL エクスペリエンスのターゲット設定]** （XT）は、マーケターが定義した一連のルールと条件に基づいて、特定のオーディエンスにコンテンツを配信します。 これは、[地域ターゲット設定](/help/main/c-target/c-audiences/c-target-rules/geo.md)など、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲットとするルールを定義するのに役立ちます。 アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。
 
-**[!UICONTROL エクスペリエンスのターゲット設定]**、ユースケース シナリオ、およびトレーニング ビデオについて詳しくは、[ エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md)を参照してください。
+**[!UICONTROL エクスペリエンスのターゲット設定]**、ユースケース シナリオ、およびトレーニング ビデオについて詳しくは、[&#x200B; エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md)を参照してください。
 
 1. **[!UICONTROL アクティビティ]** リストから、**[!UICONTROL アクティビティの作成]** > **[!UICONTROL エクスペリエンスのターゲット設定]**&#x200B;をクリックします。
 
@@ -55,21 +55,21 @@ ht-degree: 32%
 1. 「**[!UICONTROL エクスペリエンスのターゲット設定アクティビティを作成]**」ダイアログから、Experience Composerを選択します。
 
    * **[!UICONTROL ビジュアル]**。
-   * **[!UICONTROL フォームベースのExperience Composer]**&#x200B;について詳しくは、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
+   * **[!UICONTROL フォームベースのExperience Composer]**&#x200B;について詳しくは、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を参照してください。
 
    >[!NOTE]
    >
    >VECおよび&#x200B;**[!UICONTROL フォームベースのExperience Composer]**&#x200B;に加えて、[!DNL Target]はシングルページアプリケーション VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
-   >VECに関するトラブルシューティング情報については、[Visual Experience Composerのトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
+   >VECに関するトラブルシューティング情報については、[Visual Experience Composerのトラブルシューティング &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-1. （条件付き）お客様が[!DNL Target Premium]のお客様の場合、[ ワークスペースを選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （条件付き）お客様が[!DNL Target Premium]のお客様の場合、[&#x200B; ワークスペースを選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. [ アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url)を指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。 VEC が開き、URL で指定したページが表示されます。
+1. [&#x200B; アクティビティ URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url)を指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。 VEC が開き、URL で指定したページが表示されます。
 
    アカウントに[デフォルトの URL が設定されている](/help/main/administrating-target/visual-experience-composer-set-up.md)場合は、その URL がデフォルトで表示されます。 必要に応じて、デフォルトの URL を別の URL に変更できます。
 
-1. アクティビティに名前を付けるには、**[!UICONTROL 編集]** アイコン （![編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
+1. アクティビティに名前を付けるには、**[!UICONTROL 編集]** アイコン （![編集アイコン &#x200B;](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
    {{activity-name-rules}}
 

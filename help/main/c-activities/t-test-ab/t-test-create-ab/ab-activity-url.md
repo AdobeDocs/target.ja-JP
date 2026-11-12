@@ -1,6 +1,6 @@
 ---
 keywords: アクティビティ url;url；別のurl
-description: A/B、エクスペリエンスのターゲット設定、または多変量テスト アクティビティで[!UICONTROL  アクティビティ URL]を設定して、テスト ページを定義し、正確なテスト デザインを確保する方法を説明します。
+description: A/B、エクスペリエンスのターゲット設定、または多変量テスト アクティビティで[!UICONTROL &#x200B; アクティビティ URL]を設定して、テスト ページを定義し、正確なテスト デザインを確保する方法を説明します。
 title: A/B、エクスペリエンスのターゲット設定、または多変量テストアクティビティのアクティビティ URLは何ですか？
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
@@ -31,7 +31,7 @@ ht-degree: 25%
 
 >[!ENDSHADEBOX]
 
-[!UICONTROL  アクティビティ URL]によって、アクティビティで使用されるページが決まります。 これは、[!UICONTROL Visual Experience Composer] （VEC）または[!UICONTROL  フォームベースのExperience Composer]で開くページで、[!DNL Adobe Target]でアクティビティが設計されている場合に表示されます。
+[!UICONTROL &#x200B; アクティビティ URL]によって、アクティビティで使用されるページが決まります。 これは、[!UICONTROL Visual Experience Composer] （VEC）または[!UICONTROL &#x200B; フォームベースのExperience Composer]で開くページで、[!DNL Adobe Target]でアクティビティが設計されている場合に表示されます。
 
 ## アクティビティ URLを指定 {#specify-url}
 
@@ -45,7 +45,7 @@ ht-degree: 25%
 
 ## 別のページを表示 {#different-page}
 
-デフォルトでは、VECまたは[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)は、[Visual Experience Composer設定](/help/main/administrating-target/visual-experience-composer-set-up.md)で指定されたページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
+デフォルトでは、VECまたは[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)は、[Visual Experience Composer設定](/help/main/administrating-target/visual-experience-composer-set-up.md)で指定されたページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
 
 VECが開いた後に別のページを表示するには：
 

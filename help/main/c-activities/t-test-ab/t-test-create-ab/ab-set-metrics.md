@@ -1,6 +1,6 @@
 ---
 keywords: A/B;アクティビティ指標;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
-description: A/B テスト、エクスペリエンスのターゲット設定、または多変量テスト アクティビティで指標を設定して、訪問の成功を判断する方法（[!UICONTROL  コンバージョン ]、[!UICONTROL 収益]、[!UICONTROL  エンゲージメント ]など）を説明します。
+description: A/B テスト、エクスペリエンスのターゲット設定、または多変量テスト アクティビティで指標を設定して、訪問の成功を判断する方法（[!UICONTROL &#x200B; コンバージョン &#x200B;]、[!UICONTROL 収益]、[!UICONTROL &#x200B; エンゲージメント &#x200B;]など）を説明します。
 title: A/B アクティビティで目標指標を設定するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
@@ -34,11 +34,11 @@ ht-degree: 27%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Target]A/B、[!UICONTROL  エクスペリエンスターゲティング ] （XT）、[!UICONTROL 多変量テスト ] （MVT）アクティビティの指標を使用して、訪問が成功したタイミングを判断します。 成功指標について詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)を参照してください。
+[!DNL Adobe Target]A/B、[!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] （XT）、[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティの指標を使用して、訪問が成功したタイミングを判断します。 成功指標について詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)を参照してください。
 
 >[!NOTE]
 >
->このページは、[!DNL Adobe Target]がレポートソースである場合に適用されます。 その他のレポートソースについては、 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) and [[!DNL Target]  レポートのレポートソースとして[[!DNL Adobe Analytics] を参照してください。
+>このページは、[!DNL Adobe Target]がレポートソースである場合に適用されます。 その他のレポートソースについては、 [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の [!DNL Target]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) and [!DNL Target]  レポートのレポートソースとして[!DNL Adobe Analytics] を参照してください。
 
 ## 指標の設定 {#set-a-metric}
 

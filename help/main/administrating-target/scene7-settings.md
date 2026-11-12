@@ -35,28 +35,28 @@ ht-degree: 5%
 ---
 # Dynamic Media Classicの設定（Scene7）
 
-**[!UICONTROL 管理]**&#x200B;の「**[!UICONTROL Scene7設定]**」タブを使用して、[!DNL Adobe Target]を[!DNL Adobe Dynamic Media Classic] （旧[!DNL Scene7]）に接続します。 この統合により、デジタルアセット管理（DAM）が[!UICONTROL  コンテンツライブラリ ]に取り込まれ、アクティビティで画像スワップのワークフローが有効になります。
+**[!UICONTROL 管理]**&#x200B;の「**[!UICONTROL Scene7設定]**」タブを使用して、[!DNL Adobe Target]を[!DNL Adobe Dynamic Media Classic] （旧[!DNL Scene7]）に接続します。 この統合により、デジタルアセット管理（DAM）が[!UICONTROL &#x200B; コンテンツライブラリ &#x200B;]に取り込まれ、アクティビティで画像スワップのワークフローが有効になります。
 
 このタブが他の管理タスクとどのように適合するかについては、[Targetの管理方法を参照してください。](/help/main/administrating-target/administrating-target.md) インターフェイスで&#x200B;**[!UICONTROL 管理]**&#x200B;を見つけるには、[UI](/help/main/c-intro/understand-the-target-ui.md)の理解を参照してください。 [!DNL Target] 
 
 **概要**
 
 1. [統合によって可能になること](#what-it-enables)：画像のオファー、スワップ画像、対象アセット。
-1. [ アカウントと資格情報](#account-and-credentials)：既存の[!DNL Dynamic Media] アカウントとサポートされているアカウントタイプ。
-1. [使用ガイドライン ](#usage-guidelines):URL、配信、およびサポートされていない機能。
+1. [&#x200B; アカウントと資格情報](#account-and-credentials)：既存の[!DNL Dynamic Media] アカウントとサポートされているアカウントタイプ。
+1. [使用ガイドライン &#x200B;](#usage-guidelines):URL、配信、およびサポートされていない機能。
 1. [Target](#configure-scene7)でScene7を設定：ログインと地域の設定。
 
 {{permissions-update}}
 
 ## 統合によって可能になること {#what-it-enables}
 
-**[!UICONTROL Scene7設定]**&#x200B;を設定すると、作成者は[!DNL Target]のアクティビティで[!DNL Adobe Experience Cloud] アセットフォルダーにアップロードされた画像を使用できます。 **[!UICONTROL Swap Image offer]** オプションは、[Visual Experience Composerおよびフォームベース Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を含むアクティビティワークフローに表示されます。 VECでのスワップ動作については、[Visual Experience Composerのオプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+**[!UICONTROL Scene7設定]**&#x200B;を設定すると、作成者は[!DNL Target]のアクティビティで[!DNL Adobe Experience Cloud] アセットフォルダーにアップロードされた画像を使用できます。 **[!UICONTROL Swap Image offer]** オプションは、[Visual Experience Composerおよびフォームベース Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を含むアクティビティワークフローに表示されます。 VECでのスワップ動作については、[Visual Experience Composerのオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
 この設定が設定されていない場合、**[!UICONTROL スワップ画像オファー]**&#x200B;はアクティビティの作成中に使用できません。
 
 統合は、Experience Cloud アセットフォルダーからアクティビティの一部であるアセットを配信します。 **not**&#x200B;は、[!DNL Dynamic Media Classic]のすべてのアセットを[!DNL Target]のアクティビティで使用するために公開します。
 
-設定後、[!UICONTROL Offers] ライブラリで画像オファーを管理します。 [ コンテンツの管理](/help/main/c-experiences/c-manage-content/manage-content.md)を参照してください。
+設定後、[!UICONTROL Offers] ライブラリで画像オファーを管理します。 [&#x200B; コンテンツの管理](/help/main/c-experiences/c-manage-content/manage-content.md)を参照してください。
 
 ## アカウントと認証情報 {#account-and-credentials}
 
@@ -86,6 +86,6 @@ Adobeは、新規[!DNL Target]のお客様または新規ユーザーに対し�
    | **電子メールアドレス** | [!DNL Dynamic Media Classic] （[!DNL Scene7]）へのログインに使用された電子メールアドレス。 |
    | **パスワード** | [!DNL Dynamic Media Classic] （[!DNL Scene7]）へのログインに使用するパスワード。 |
 
-   ![Scene7設定フィールド ](/help/main/administrating-target/assets/scene7-1.png)
+   ![Scene7設定フィールド &#x200B;](/help/main/administrating-target/assets/scene7-1.png)
 
 1. [**[!UICONTROL 送信]**] をクリックします。

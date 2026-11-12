@@ -80,7 +80,7 @@ ht-degree: 87%
 
 セレクターへの DOM パスが既にわかっている場合は、パネルの上部にある「**[!UICONTROL コンポーネントを追加]**」アイコンをクリックして、手動で追加できます。
 
-![ コンポーネントアイコンを追加](/help/main/c-activities/r-success-metrics/assets/add-element.png)
+![&#x200B; コンポーネントアイコンを追加](/help/main/c-activities/r-success-metrics/assets/add-element.png)
 
 ## 注意点 {#considerations}
 
