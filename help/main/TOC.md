@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1293'
 ht-degree: 84%
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 84%
 
 + [Adobe Target Business Practitioner Guide Home](target-home.md)
 + Target リリースノート {#release-notes}
-  + {hide-from-toc}[Targetのお知らせとイベント &#x200B;](/help/main/r-release-notes/target-announcements.md)
+  + {hide-from-toc}[Targetのお知らせとイベント ](/help/main/r-release-notes/target-announcements.md)
   + [Target リリースノート（最新）](r-release-notes/release-notes.md)
   + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
   + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
@@ -106,8 +106,8 @@ ht-degree: 84%
     + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
     + {hide-from-toc}[統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizerのユースケース {#use-cases}
-      + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル &#x200B;](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[Adobe Journey OptimizerでのA/B テストによる コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル ](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+      + Adobe Journey OptimizerでのA/B テストによる{hide-from-toc}[ コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
   + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
@@ -166,24 +166,18 @@ ht-degree: 84%
     + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
     + エクスペリエンスのターゲット設定アクティビティの作成 {#create-targeting}
       + [アクティビティの作成](c-activities/t-experience-target/t-xt-create/xt-create.md)
-      + [アクティビティ URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
       + [エクスペリエンスの作成](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
       + [エクスペリエンスのターゲット設定でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-      + [目標と設定](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
-      + [指標の設定](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
   + 多変量分析テスト {#multivariate-test}
     + [多変量分析テストの概要](c-activities/c-multivariate-testing/multivariate-testing.md)
     + [多変量分析テストのベストプラクティス](c-activities/c-multivariate-testing/best-practices.md)
     + [多変量分析テストの計画](c-activities/c-multivariate-testing/plan-mvt.md)
     + 多変量分析テストの作成 {#create-mvt}
       + [テストの作成](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-      + [アクティビティ URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
       + [組み合わせの作成](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
       + [多変量分析テストのエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [テストを成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [テスト概要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-      + [目標と設定](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
-      + [指標の設定](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
       + [多変量分析テストのトラブルシューティング](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
   + [レコメンデーションアクティビティ](c-activities/recommendations-activity.md)
   + [アクティビティの編集](c-activities/edit-activity.md)
@@ -346,4 +340,4 @@ ht-degree: 84%
   + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
   + [Adobe Target API の概要](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)

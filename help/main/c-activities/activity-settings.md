@@ -22,14 +22,14 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
 ---
 # アクティビティの設定
 
-[!DNL Adobe Target]の[!UICONTROL &#x200B; アクティビティ設定]を使用して、アクティビティの目的、優先度、期間を管理します。
+[!DNL Adobe Target]の[!UICONTROL  アクティビティ設定]を使用して、アクティビティの目的、優先度、期間を管理します。
 
 1. アクティビティの目標に関するメモを入力します。
 
@@ -42,7 +42,7 @@ ht-degree: 79%
 
    このオプションが[!UICONTROL Administration] > [!UICONTROL Reporting] （デフォルト）で有効になっていない場合は、優先度をLow、Medium、Highに指定します。
 
-   きめ細かい優先度を有効にするには、[!UICONTROL 管理] > [!UICONTROL &#x200B; レポート &#x200B;]をクリックし、[!UICONTROL きめ細かい優先度を有効にする] オプションを「オン」の位置に切り替えます。
+   きめ細かい優先度を有効にするには、[!UICONTROL 管理] > [!UICONTROL  レポート ]をクリックし、[!UICONTROL きめ細かい優先度を有効にする] オプションを「オン」の位置に切り替えます。
 
    このオプションを有効にした場合は、0～999 の値を指定します。
 
@@ -65,13 +65,13 @@ ht-degree: 79%
 
 [!UICONTROL 目標と設定]ページには、作成するアクティビティのタイプに基づいて異なる追加の設定が含まれています。 これらの設定について詳しくは、アクティビティのタイプを参照してください。
 
-* [A/B テスト](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [A/B テスト](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [エクスペリエンスのターゲット設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
+* [多変量分析テスト](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [レコメンデーション](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## トレーニングビデオ：アクティビティ設定![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ設定![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 
@@ -81,4 +81,4 @@ ht-degree: 79%
 * レポートフィルター作成とレポートのためのオーディエンス追加
 * アクティビティのメモの入力
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3507944?captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

@@ -1,6 +1,6 @@
 ---
 keywords: ターゲティング；オーディエンスフィルター；オーディエンス；フィルター
-description: ' [!DNL Adobe Target] のオーディエンスフィルターを使用して、特性を共有する訪問者のデータを表示する方法を説明します。'
+description: '[!DNL Adobe Target]のオーディエンスフィルターを使用して、特性を共有する訪問者のデータを表示する方法を説明します。'
 title: レポートにオーディエンスフィルターを使用できますか？
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '479'
 ht-degree: 59%
-
 ---
-
 # レポート用のオーディエンスフィルター
 
 [!DNL Adobe Target]のオーディエンスフィルター（またはオーディエンス）は、特定の特徴または特徴のセットを共有する訪問者のグループです。
@@ -51,7 +49,7 @@ ht-degree: 59%
 * **最初に2 ～ 4人のオーディエンスを作成します。** トラフィックソースのような、基本情報に重点を置きます。
 * **必要に応じてオーディエンス名を変更します。** データに影響を与えることなくオーディエンスの名前を変更して、アクティビティがアクティブであっても、収集される結果に対してオーディエンス名をより意味のあるものにすることができます。
 * **正確な値を入力してください。** オーディエンスフィルターの値では、大文字と小文字が区別されます。 例えば、市区町村をフィルタリングするオーディエンスを使用する場合、「Vienna」と「vienna」、「wien」と「Wien」のような、入力で想定されるスペルおよび大文字と小文字の組み合わせを含めるには、「OR」条件を使用します。
-* [!UICONTROL &#x200B; オーディエンス &#x200B;] リストから作成された&#x200B;**オーディエンスは再利用可能です。** アクティビティの一部として作成されたオーディエンスは再利用できません。
+* [!UICONTROL  オーディエンス ] リストから作成された&#x200B;**オーディエンスは再利用可能です。** アクティビティの一部として作成されたオーディエンスは再利用できません。
 
 オーディエンスの設定およびレポートに関する情報について詳しくは、以下の節を参照してください。
 
@@ -60,5 +58,5 @@ ht-degree: 59%
 | 適切なアクティビティまたはテストを作成する。 | [アクティビティとテスト](/help/main/c-intro/target-key-concepts.md) |
 | 必要に応じて、オーディエンスを作成する。 | [オーディエンスの作成](/help/main/c-target/c-audiences/create-audience.md) |
 | 必要に応じて、複数のオーディエンスを組み合わせる。 | [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md) |
-| アクティビティの目標と設定ページにオーディエンスを適用する。 | A/B テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br> エクスペリエンスのターゲット設定：[目標と設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多変量テスト：[目標と設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>推奨事項：[推奨事項アクティビティ設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br> アクティビティ設定：[&#x200B; アクティビティ設定](/help/main/c-activities/activity-settings.md) |
+| アクティビティの目標と設定ページにオーディエンスを適用する。 | A/B テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br> エクスペリエンスのターゲット設定：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多変量テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>推奨事項：[推奨事項アクティビティ設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br> アクティビティ設定：[ アクティビティ設定](/help/main/c-activities/activity-settings.md) |
 | オーディエンスフィルターに関する情報をレポートに表示する。 | [レポート設定](/help/main/c-reports/c-report-settings/report-settings.md) |

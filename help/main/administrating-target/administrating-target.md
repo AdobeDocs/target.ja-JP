@@ -30,27 +30,29 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 47%
+source-wordcount: '238'
+ht-degree: 18%
 ---
 # [!DNL Target] 管理の概要
 
-Visual Experience Composer （VEC）、レポート、Scene7の設定、実装、ホスト、環境、許可リストに加えるURL、応答トークン、ユーザー、および[!DNL Recommendations]の設定など、[!DNL Adobe Target]の管理に役立つ情報です。
+**[!UICONTROL 管理]**&#x200B;を使用して、[!UICONTROL Visual Experience Composer] （VEC）、レポート、配信インフラストラクチャ、アクセス制御、および[!DNL Recommendations]のアカウント全体のデフォルトを設定します。
 
-{{permissions-update}}
+初めて[!DNL Target]を設定する場合は、[管理者の最初の手順](/help/main/administrating-target/start-target.md)から開始してください。 更新されたインターフェイスで&#x200B;**[!UICONTROL 管理]**&#x200B;を見つける方法については、[UI](/help/main/c-intro/understand-the-target-ui.md)について参照してください。 [!DNL Target] 
 
-[!UICONTROL 管理] メニュー項目にアクセスするには、上部メニューバーの&#x200B;**[!UICONTROL 管理]**&#x200B;をクリックし、左側の目的のタブをクリックします。
+管理ページを開くには、上部のメニューバーの&#x200B;**[!UICONTROL 管理]**&#x200B;をクリックし、左側に沿ったタブをクリックします。
 
-* [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
-* [レポート](/help/main/administrating-target/reporting.md)
-* [Scene7 設定](/help/main/administrating-target/scene7-settings.md)
-* [実装](/help/main/c-implementing-target/implementing-target.md)
-* [プロパティ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
-* [ホスト](/help/main/administrating-target/hosts.md)
-* [環境](/help/main/administrating-target/environments.md)
-* [許可リストに加えるURL](/help/main/administrating-target/allowlisted-urls.md)
-* [レスポンストークン](/help/main/administrating-target/response-tokens.md)
-* [ユーザー](/help/main/administrating-target/c-user-management/user-management.md)
-* [レコメンデーション](/help/main/administrating-target/recommendations-settings.md)
+| 「管理」タブ | 説明 |
+| --- | --- |
+| [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md) | VECでエクスペリエンスを構築する際に使用するデフォルトのページ URLとオプションを設定します。 |
+| [レポート](/help/main/administrating-target/reporting.md) | 組織のレポートソリューション、タイムゾーン、通貨、その他のレポートのデフォルトを選択します。 [収益の上昇率の見積もり](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)も参照してください。 |
+| [Scene7設定](/help/main/administrating-target/scene7-settings.md) | オファーとエクスペリエンスの画像配信用に[!DNL Dynamic Media] （Scene7）を接続します。 |
+| [実装](/help/main/administrating-target/implementation.md) | 「**[!UICONTROL 管理]**」ページでグローバルな実装設定を確認します。 完全な実装ガイダンスについては、[Targetの実装](/help/main/c-implementing-target/implementing-target.md)を参照してください。 |
+| [ホスト](/help/main/administrating-target/hosts.md) | [!DNL Target]がリクエストを受信するサイトとプリプロダクション環境を整理します。 |
+| [環境](/help/main/administrating-target/environments.md) | ホストを実稼動環境、ステージング環境、開発環境などの環境にグループ化します。 |
+| [許可リストに加えるURL](/help/main/administrating-target/allowlisted-urls.md) | リモートオファーと関連する検証の信頼できるURL パターンを管理します。 |
+| [レスポンストークン](/help/main/administrating-target/response-tokens.md) | デバッグと統合のために、[!DNL Target]件の応答にプロファイルとアクティビティのデータを含めます。 |
+| [プロパティ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | ワークスペースを作成し、エンタープライズの役割を割り当てます（[Target Premium](/help/main/c-intro/intro.md#premium)のみ）。 |
+| [ユーザー](/help/main/administrating-target/c-user-management/user-management.md) | ユーザーを追加し、[!DNL Target]個の役割と権限を割り当てます。 |
+| [レコメンデーション](/help/main/administrating-target/recommendations-settings.md) | [!DNL Recommendations] アクティビティの既定の設定を構成します。 |

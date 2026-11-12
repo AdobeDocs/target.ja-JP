@@ -1,7 +1,7 @@
 ---
 keywords: Mvt;多変量分析テスト;多変量分析テスト作成;多変量分析テストの作成;mvt 作成;mvt 作成;mvt の方法;多変量分析テスト方法
-description: '[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 多変量テスト &#x200B;] （MVT）を作成する方法を説明します。'
-title: '[!UICONTROL 多変量テスト &#x200B;]を作成するにはどうすればよいですか？'
+description: '[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 多変量テスト ] （MVT）を作成する方法を説明します。'
+title: '[!UICONTROL 多変量テスト ]を作成するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 TQID: 'https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA'
@@ -16,64 +16,59 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 23%
+source-wordcount: '907'
+ht-degree: 16%
 ---
-# 多変量分析テストの作成
+# 多変量分析テストの作成 {#create-mvt}
 
-[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用すると、[!UICONTROL 多変量テスト &#x200B;]を簡単に作成し、[!DNL Target]内のページの一部を変更できます。
+>[!BEGINSHADEBOX]
+
+**このページ：** **[!UICONTROL Visual Experience Composer]** （VEC）で&#x200B;**[!UICONTROL 多変量テスト]** （MVT）を作成する方法を説明します。 アクティビティの作成、エクスペリエンスの構築とレビュー、ターゲティングの設定、目標と設定の設定をおこないます。
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]の&#x200B;**[!UICONTROL Visual Experience Composer]** （VEC）を使用すると、**[!UICONTROL 多変量テスト]**&#x200B;を簡単に作成し、[!DNL Target]内のページの一部を変更できます。
 
 [!DNL Target]のポイント&amp;クリック エディターを使用すると、任意の場所を選択して複数のオファーを追加できます。
 
-[!UICONTROL 多変量テスト &#x200B;] （MVT）は、ページファースト レポートを受け取ります。 つまり、テストは特定の URL に対して実行され、そのページに対して設計されたエクスペリエンスが表示されます。
+**[!UICONTROL 多変量テスト]** （MVT）は、ページファースト レポートを受け取ります。 つまり、テストは特定の URL に対して実行され、そのページに対して設計されたエクスペリエンスが表示されます。
+
+次の手順に従って、**[!UICONTROL 多変量テスト]** （MVT）を作成します。
+
+1. [アクティビティの作成](#create-activity)
+1. [エクスペリエンスの構築とレビュー](#build-experiences)
+1. [ターゲティングの設定](#set-targeting)
+1. [目標と設定の設定](#configure-goals-and-settings)
+
+## アクティビティの作成 {#create-activity}
+
+アクティビティタイプと配信タイプを選択し、テストするページを指定して、アクティビティに名前を付けます。
 
 1. 「**[!UICONTROL アクティビティを作成]**」 > 「**[!UICONTROL 多変量テスト]**」をクリックします。
 
-   >[!NOTE]
-   >
-   >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。 ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
+   [!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。 ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
-1. （条件付き）配信タイプを選択：[!UICONTROL Web]、[!UICONTROL Mobile]、[!UICONTROL Email]、または[!UICONTROL Other/API]。
+   ![](../../assets/create-mvt-1.png)
 
-1. （条件付き）お客様が[Target Premium](/help/main/c-intro/intro.md#premium)のお客様の場合は、[&#x200B; ワークスペースを選択してください](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. 配信タイプを選択します：**[!UICONTROL Web]**、**[!UICONTROL Mobile]**、**[!UICONTROL Email]**、または&#x200B;**[!UICONTROL Other/API]**。
 
-1. [&#x200B; テストするページのURL &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)を指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
+1. （条件付き）お客様が[Target Premium](/help/main/c-intro/intro.md#premium)のお客様の場合は、[ ワークスペースを選択してください](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-   >[!NOTE]
-   >
-   >最初に、HTTPまたはHTTPSを含む完全なURLを使用します。
+1. [ テストするページのURL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url)を指定します。 最初に、HTTPまたはHTTPSを含む完全なURLを使用します。
 
-   ブラウザーで混合コンテンツを有効にするように求めるメッセージが表示された場合は、メッセージの指示に従います。 ブラウザーで混合コンテンツを有効にした後、再度手順 1 から開始します。
+1. 次に、**[!UICONTROL 作成]**&#x200B;をクリックします。 **[!UICONTROL Visual Experience Composer]**&#x200B;が開きます。
 
-   [!UICONTROL Visual Experience Composer]が開きます。
+1. アクティビティに名前を付けるには、**[!UICONTROL 編集]** アイコン （![編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-1. アクティビティに名前を付けるには、「[!UICONTROL 名称未設定のアクティビティ &#x200B;]」の横にある&#x200B;**[!UICONTROL 編集]** アイコン （![編集アイコン &#x200B;](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
+   {{activity-name-rules}}
 
-   アクティビティ名の先頭に次の文字を使用することはできません：
+   ![](../../assets/create-mvt-2.png)
 
-   | 文字 | 説明 |
-   |--- |--- |
-   | `=` | イコール |
-   | `+` | プラス |
-   | `-` | マイナス |
-   | `@` | アットマーク |
+## エクスペリエンスの構築とレビュー {#build-experiences}
 
-   アクティビティ名に次の文字シーケンスを含めることはできません。
-
-   | 文字シーケンス | 説明 |
-   |--- |--- |
-   | ;= | セミコロン、次に等しい |
-   | ;+ | セミコロン、プラス |
-   | ;- | セミコロン、マイナス |
-   | ;@ | セミコロン、記号 |
-   | ,= | コンマ、次に等しい |
-   | ,+ | コンマ、プラス |
-   | ,- | コンマ、マイナス |
-   | ,@ | コンマ、記号 |
-   | `[`&quot; | 角括弧を開く、二重引用符 |
-   | &quot;`]` | 二重引用符、角括弧を閉じる |
+各場所にオファーを追加し、結果のエクスペリエンスをプレビューして、テストプランが実現可能であることを確認します。
 
 1. [それぞれの場所でオファーを作成します](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
@@ -85,57 +80,74 @@ ht-degree: 23%
 
 1. **[!UICONTROL プレビュー]**&#x200B;をクリックして[体験をプレビュー](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)します。
 
-1. **[!UICONTROL エクスペリエンスを表示]** アイコン（![&#x200B; エクスペリエンスを表示アイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックすると、左側のフレームにすべてのエクスペリエンスのリストが表示されます。
-
-1. リスト内の特定のエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
-
-1. （条件付き）アクティビティから1つ以上のエクスペリエンスを除外するには、**[!UICONTROL コンテンツを管理]** アイコン （![&#x200B; エクスペリエンスを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL &#x200B; エクスペリエンスを管理] ダイアログボックスを表示します。
-
-1. （条件付き）エクスペリエンスを管理 ダイアログボックスで、除外するエクスペリエンスの横にある&#x200B;**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。
-
-   矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
-
-1. （条件付き）複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックします。
+1. 「**[!UICONTROL エクスペリエンスを表示]**」アイコン（![ エクスペリエンスアイコン ](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレーム内のすべてのエクスペリエンスのリストを表示し、リスト内の特定のエクスペリエンスをクリックしてそのエクスペリエンスを表示します。
 
 1. [トラフィック見積もりを使用](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)して、テスト計画の実行可能性をテストします。
 
-1. 「**[!UICONTROL 次へ]**」をクリックして、[!UICONTROL &#x200B; ターゲティング &#x200B;] ページに進みます。
+### エクスペリエンスを除外（オプション） {#exclude-experiences}
 
-   他の[!DNL Target] アクティビティタイプを使用している場合、**ターゲティング**&#x200B;手順は見慣れています。 ここで、オーディエンスを選択し、各エクスペリエンスを表示する訪問者の割合を指定できます。
+矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
+
+1. **[!UICONTROL コンテンツの管理]** アイコン （![ エクスペリエンスの管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、**[!UICONTROL エクスペリエンスの管理]** ダイアログボックスを表示します。
+
+1. 1つのエクスペリエンスを除外するには、そのエクスペリエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。
+
+1. 複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックします。
+
+## ターゲティングの設定 {#set-targeting}
+
+テストに参加する訪問者を選択し、テストの概要を確認します。
+
+1. 「**[!UICONTROL 次へ]**」をクリックして、**[!UICONTROL ターゲティング]** ページにアクセスします。
 
    フロー図では、オーディエンスとそのトラフィック率の割り当て、トラフィック配分方法の選択、アクティビティの各エクスペリエンスのトラフィック配分の指定の手順を順を追って説明します。
 
 1. （条件付き）アクティビティの別のオーディエンスを選択するには、**[!UICONTROL すべての訪問者]** コントロールをクリックします。
 
-   [!UICONTROL すべての訪問者] オーディエンスがデフォルトとして設定されます。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。
+   **[!UICONTROL すべての訪問者]** オーディエンスがデフォルトとして設定されます。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。 例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
+
+   +++ 別のオーディエンスを選択する手順
 
    右側のフレームが表示され、オーディエンスを追加または削除し、アクティビティの訪問者パーセンテージを割り当てることができます。
 
-   1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL 置換] アイコン** （![置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
-   1. [!UICONTROL &#x200B; オーディエンスを追加] ダイアログボックスで、[目的のオーディエンス &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックします。
+   1. オーディエンスを変更するには、右側のフレームの&#x200B;**[!UICONTROL 置換]** アイコン（![置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. **[!UICONTROL オーディエンスを追加]** ダイアログボックスで、[目的のオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)を選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックします。
 
-      「**オーディエンスを結合**」をクリックして、[複数のオーディエンスを結合するオーディエンスを作成できます](/help/main/c-target/combining-multiple-audiences.md)。
+      複数のオーディエンスを組み合わせたオーディエンスを作成するには、**[!UICONTROL オーディエンスを組み合わせる]**&#x200B;をクリックします。 詳しくは、[複数のオーディエンスを組み合わせる](/help/main/c-target/combining-multiple-audiences.md)を参照してください。
 
-      まだ[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]にない新しいオーディエンスを作成する必要がある場合は、**オーディエンスの作成**&#x200B;をクリックします。 [create-audience ワークフロー](/help/main/c-target/c-audiences/audiences.md)中に、次のオプションから選択できます。
+      まだ&#x200B;**[!UICONTROL オーディエンスライブラリ]**&#x200B;にない新しいオーディエンスを作成するには、**[!UICONTROL オーディエンスの作成]**&#x200B;をクリックします。 [create-audience ワークフロー](/help/main/c-target/c-audiences/audiences.md)で、次のいずれかのオプションを選択します。
 
-      * **[!UICONTROL オーディエンスライブラリ]**: [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に保存されるオンデマンドオーディエンスを作成し、他のアクティビティで再利用できます。
-      * **[!UICONTROL このアクティビティのみ]**: [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に保存されていない[&#x200B; アクティビティ固有のオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md)を作成し、現在のアクティビティでのみ使用できます。
+      * **[!UICONTROL オーディエンスライブラリ]**: **[!UICONTROL オーディエンスライブラリ]**&#x200B;に保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
+      * **[!UICONTROL このアクティビティのみ]**: **[!UICONTROL オーディエンスライブラリ]**&#x200B;に保存されていない[ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md)を作成し、現在のアクティビティでのみ使用できます。
 
    1. 右側のフレームで「**[!UICONTROL 訪問者の割合]**」をクリックし、アクティビティに参加する対象となる訪問者の割合を選択します。
 
-   例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
+   +++
 
-1. [&#x200B; テストの概要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)を確認し、必要な変更を加えたら、**[!UICONTROL 次へ]**&#x200B;をクリックします。
+1. [ テストの概要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)を確認し、必要な変更を加えたら、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
-1. [テストの目標と設定を指定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)します。
+## 目標と設定の設定 {#configure-goals-and-settings}
+
+**[!UICONTROL 目標と設定]** ページで、[!DNL Target]にテストの測定方法を指示します。 使用可能な設定は、レポートソースとして[!DNL Target]または[!DNL Analytics]を使用するかどうかに応じて異なります。
+
+1. ページのセクションを確認し、必要なものを設定します。 「[目標と設定」ページで設定した内容](#goals-settings-overview)を参照してください。
+
+
+   | セクション | 設定するもの |
+   |---|---|
+   | **[!UICONTROL アクティビティの設定]** | オプションの目的、**[!UICONTROL 優先度]** （複数のアクティビティが場所とオーディエンスを共有する場合に使用）、および&#x200B;**[!UICONTROL 期間]** （開始日と終了日）です。 |
+   | **[!UICONTROL レポート設定]** | レポートソース、目標指標（例：**[!UICONTROL コンバージョン]**&#x200B;指標）、追加指標、レポート用オーディエンス。 目標指標の詳細設定も、ここで使用できます。 |
+   | **[!UICONTROL その他のメタデータ]** | 自分または他のチームメンバーに役立つアクティビティに関するメモ。 |
 
 1. 「**[!UICONTROL 保存して閉じる]**」をクリックして、アクティビティを作成します。
 
-## トレーニングビデオ：多変量テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+各オプションについて詳しくは、[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)を参照してください。
+
+## トレーニングビデオ：多変量テストの作成（9:25） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] 3段階のガイド付きワークフローを使用して、多変量テストを計画および作成する方法を説明します。
 
 * 多変量分析テストの定義と設計
 * 多変量分析テストの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

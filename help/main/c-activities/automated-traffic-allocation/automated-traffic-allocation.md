@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 94%
@@ -59,7 +59,7 @@ ht-degree: 94%
 ## [!UICONTROL A/B テスト]や [!UICONTROL Automated Personalization] アクティビティに対して[!UICONTROL 自動配分]をいつ使用するか {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * アクティビティを最初から最適化して、なるべく早く勝者エクスペリエンスを特定したい場合に、**[!UICONTROL 自動配分]**&#x200B;を使用します。 パフォーマンスの高いエクスペリエンスをより頻繁に提供することで、アクティビティ全体のパフォーマンスを向上させます。
-* サイトを最適化する前にすべてのエクスペリエンスのパフォーマンスを特徴付ける場合は、標準の **[A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**&#x200B;を使用します。 [!UICONTROL 自動配分]が、パフォーマンスが最上位のエクスペリエンスを見つけてもパフォーマンスが低いエクスペリエンス間の差別化を保証しないのに対して、A/B テストは、すべてのエクスペリエンスをランク付けするのに役立ちます。
+* サイトを最適化する前にすべてのエクスペリエンスのパフォーマンスを特徴付ける場合は、標準の **[A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)**&#x200B;を使用します。 [!UICONTROL 自動配分]が、パフォーマンスが最上位のエクスペリエンスを見つけてもパフォーマンスが低いエクスペリエンス間の差別化を保証しないのに対して、A/B テストは、すべてのエクスペリエンスをランク付けするのに役立ちます。
 * 個々のプロファイル属性に基づいて予測を行う機械学習モデルのように、複雑な最適化アルゴリズムが必要な場合は、[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) を使用します。 [!UICONTROL 自動割り当て]は、（標準のA/B テストと同様に）エクスペリエンスの集計動作を確認し、訪問者を区別しません。
 
 ## [!UICONTROL 自動配分]の主なメリット {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -72,7 +72,7 @@ ht-degree: 94%
 
 [!UICONTROL 自動配分]の重要な用語を次に示します。
 
-**マルチアームバンディット：**&#x200B;[マルチアームバンディット](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}は、調査学習とその学習の活用のバランスを最適化するためのアプローチです。
+**マルチアームバンディット：**[マルチアームバンディット](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}は、調査学習とその学習の活用のバランスを最適化するためのアプローチです。
 
 ## アルゴリズムの仕組み {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -104,7 +104,7 @@ ht-degree: 94%
 >
 >アクティビティに 2 つのエクスペリエンスしかない場合は、[!DNL Target] が 75％の信頼性で勝者となるエクスペリエンスを特定するまでは、両方が均等のトラフィックを得ます。 この時点で、トラフィックの 3 分の 2 が勝者に、3 分の 1 が敗者に配分されます。 その後、エクスペリエンスが 95％の信頼性に達したら、トラフィックの 90％が勝者に、10％が敗者に配分されます。 [!DNL Target] は、最終的に偽陽性が発生するのを防ぐため（つまり、調査を続行するため）、ある程度のトラフィックを常に「敗者」エクスペリエンスにも送信します。
 
-[!UICONTROL 自動配分]アクティビティを有効にすると、次の操作が Target UI から行えなくなります。
+[!UICONTROL 自動配分]アクティビティを有効にすると、次の操作が Tar[!DNL]get UI から行えなくなります。
 
 * 「トラフィック配分」モードから「手動」への切り替え
 * 目標指標タイプの変更
@@ -258,7 +258,7 @@ ht-degree: 94%
 * トラフィック配分方法の選択
 * 様々なエクスペリエンスへのトラフィック配分
 
->[!VIDEO](https://video.tv.adobe.com/v/3507590?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### A/B テスト作成（8:36）![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ ht-degree: 94%
 * [!DNL Adobe Target] での A/B アクティビティの作成
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
->[!VIDEO](https://video.tv.adobe.com/v/29958?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

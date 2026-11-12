@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 43%
@@ -29,7 +29,7 @@ ht-degree: 43%
 
 エクスペリエンスのプレビューURLを使用して、別のQA アクティビティを作成することなく、チームメンバーとエクスペリエンスを共有したり、ブラウザーや環境全体でQA エクスペリエンスを作成したりできます。 この機能は、サイトが複雑な場合や、セキュリティポリシーによりシミュレーターでサイトを表示できない場合に特に有用です。
 
-1. [Automated Personalization アクティビティ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)を作成するか、アクティビティをクリックして開きます。
+1. [Automated Personalization アクティビティ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)を作成するか、アクティビティをクリックして開きます。
 
    エクスペリエンスをプレビューする場合は、アクティビティのステータスがアクティブである必要はありません。
 
@@ -38,7 +38,7 @@ ht-degree: 43%
 1. URL を確認または指定します。
 
    * [!UICONTROL Visual Experience Composer] （VEC）を使用している場合、アクティビティに指定したデフォルト URLが自動的に入力され、アクティビティ内の各エクスペリエンスにリンクが生成されます。 必要であれば、この URL を変更して、他の URL を追加できます。
-   * [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用している場合、デフォルトのURLは自動的に入力されません。 以前にエクスペリエンスのプレビューURLを作成していない場合は、**新しいURLを追加**&#x200B;をクリックします。 プレビューを確認するすべての URL と、各 URL の名前を指定する必要があります。
+   * [!UICONTROL  フォームベースのExperience Composer]を使用している場合、デフォルトのURLは自動的に入力されません。 以前にエクスペリエンスのプレビューURLを作成していない場合は、**新しいURLを追加**&#x200B;をクリックします。 プレビューを確認するすべての URL と、各 URL の名前を指定する必要があります。
 
    複数の URL を追加できます。これは、複数ページのテストまたはテンプレートテストを実行しており、複数ページでアクティビティをプレビューする場合に便利です。
 
@@ -78,7 +78,7 @@ ht-degree: 43%
 
 * ページが変更されていない限り、保存されたアクティビティのプレビュー機能を使用できます。
 * アクティビティがアクティブか非アクティブかを問わず、エクスペリエンスのプレビューURLを使用できます。
-* [!UICONTROL &#x200B; ドラフト &#x200B;] ステータスのエクスペリエンスはプレビューできません。
+* [!UICONTROL  ドラフト ] ステータスのエクスペリエンスはプレビューできません。
 * レポートは、エクスペリエンスのプレビューURLを表示しても影響を受けません。
 
 **エクスペリエンスのプレビューURLのトラブルシューティング**
