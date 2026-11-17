@@ -297,7 +297,7 @@ A/B アクティビティの3段階のガイド付きワークフローを使用
 * トラフィック配分方法の選択
 * 様々なエクスペリエンスへのトラフィック配分
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507590?captions=jpn)
 
 ### A/B テスト作成（8:36）![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
@@ -306,4 +306,4 @@ A/B アクティビティの3段階のガイド付きワークフローを使用
 * [!DNL Adobe Target] での A/B アクティビティの作成
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/29958?captions=jpn)
