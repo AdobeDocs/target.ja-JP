@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -117,7 +117,7 @@ ht-degree: 68%
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE &#x200B; プレミアム &#x200B;]{type=Positive}
+[!BADGE  プレミアム ]{type=Positive}
 
 [!DNL Target Premium]は、[!DNL Target Standard]にプレミアム機能を追加するためのライセンスを必要とする高度な製品です。 [!DNL Target] ガイドのすべての[!DNL Target Premium]記事には、各ページの上部または影響を受けるテキストの近くにある[!UICONTROL Premium] バッジが含まれています。 [!UICONTROL Premium] バッジはクリック可能で、このセクションにリンクしています。
 
@@ -125,7 +125,7 @@ ht-degree: 68%
 
 ### [!UICONTROL Automated Personalization]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) （AP）は、高度なマシンラーニングアルゴリズムを使用して、パーソナライズされたエクスペリエンスを提供し、デジタルインタラクションのコンバージョン率を向上させます。
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) （AP）は、高度なマシンラーニングアルゴリズムを使用して、パーソナライズされたエクスペリエンスを提供し、デジタルインタラクションのコンバージョン率を向上させます。
 
 APは訪問者のアクティビティを記録し、プロファイルを構築して、類似する訪問者にコンテンツをターゲットにします。 APは、個人や人口向けのコンテンツへの反応を追跡し、高度なモデリングを使用して、訪問者について知られているあらゆる情報に基づいて各訪問者を自動的にターゲティングします。
 
@@ -133,7 +133,7 @@ APは完全に自動化され、最小限の人間の分析で継続的に学習
 
 ### [!UICONTROL 自動ターゲット]
 
-[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)は、高度な機械学習を使用して、パフォーマンスの高いマーケター定義エクスペリエンスを特定します。 そして、個々の顧客プロファイルや、類似のプロファイルを持つ以前の訪問者の行動にもとづいて、各訪問者に最もカスタマイズされた体験を提供します。 [!UICONTROL 自動ターゲット &#x200B;]は、コンテンツのパーソナライズとコンバージョンの促進に役立ちます。
+[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)は、高度な機械学習を使用して、パフォーマンスの高いマーケター定義エクスペリエンスを特定します。 そして、個々の顧客プロファイルや、類似のプロファイルを持つ以前の訪問者の行動にもとづいて、各訪問者に最もカスタマイズされた体験を提供します。 [!UICONTROL 自動ターゲット ]は、コンテンツのパーソナライズとコンバージョンの促進に役立ちます。
 
 ### レコメンデーション
 
@@ -155,18 +155,18 @@ APは完全に自動化され、最小限の人間の分析で継続的に学習
 
 ### オファーとしてのレコメンデーション
 
-[&#x200B; オファーとしてのレコメンデーション &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md)を使用すると、[!UICONTROL A/B テスト &#x200B;]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット &#x200B;]、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内にレコメンデーションを含めることができます。
+[ オファーとしてのレコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md)を使用すると、[!UICONTROL A/B テスト ]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット ]、[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティ内にレコメンデーションを含めることができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
 * [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
-* [!UICONTROL 自動ターゲット &#x200B;]を使用して、個々のプロファイルに基づいて、カスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
+* [!UICONTROL 自動ターゲット ]を使用して、個々のプロファイルに基づいて、カスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
 
 ### Enterprise ユーザーの権限
 
-[エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)機能を使用すると、様々なプロジェクト（ [!DNL Adobe Admin Console for Enterprise] では「製品プロファイル」と呼ばれます）を作成できます。 [!UICONTROL &#x200B; エンタープライズ ユーザー権限]を使用すると、1人のユーザーに異なる権限を割り当て、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、顧客は、ユーザーに対して閲覧、編集、承認および公開のアクセスを制限することができます。 地域、環境（開発／ステージ／実稼動）、チャネル、その他のカスタム条件に基づいて、ユーザーを制限できます。
+[エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)機能を使用すると、様々なプロジェクト（ [!DNL Adobe Admin Console for Enterprise] では「製品プロファイル」と呼ばれます）を作成できます。 [!UICONTROL  エンタープライズ ユーザー権限]を使用すると、1人のユーザーに異なる権限を割り当て、各プロジェクトに対するユーザーのアクセス権を決定できます。 これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。 各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。 その結果、顧客は、ユーザーに対して閲覧、編集、承認および公開のアクセスを制限することができます。 地域、環境（開発／ステージ／実稼動）、チャネル、その他のカスタム条件に基づいて、ユーザーを制限できます。
 
 ## Betaの機能 {#beta}
 
@@ -192,7 +192,7 @@ Betaの機能について説明する[!DNL Target] ガイドの記事には、�
 
 [Adobe Target ウェルカムキット](/help/main/c-intro/target-welcome-kit.md)
 
-## トレーニングビデオ：アクティビティタイプ （9:03） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+## トレーニングビデオ：アクティビティタイプ （9:03） ![概要バッジ ](/help/main/assets/overview.png)
 
 次のビデオでは、[!DNL Target Standard/Premium] で使用できるアクティビティタイプと、サイトの目標を達成するため [!DNL Target] でおこなう 3 ステップのガイド付きワークフローを説明します。
 
@@ -200,6 +200,6 @@ Betaの機能について説明する[!DNL Target] ガイドの記事には、�
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

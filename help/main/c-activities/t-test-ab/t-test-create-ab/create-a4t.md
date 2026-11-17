@@ -18,35 +18,45 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 4876228feee28031373f7e0abe62a66b05b15274
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 16%
+source-wordcount: '448'
+ht-degree: 0%
 ---
-# [!DNL Adobe Analytics] データを使用しています
+# [!DNL Adobe Analytics] データを使用しています {#create-a4t}
 
-[!DNL Adobe Analytics]をレポートソース （A4T）として使用するように、[!DNL Adobe Target]のアクティビティを設定できます。
+>[!BEGINSHADEBOX]
 
-[!DNL Analytics]を[!DNL Target]のデータソースとして設定する方法について詳しくは、[Adobe Analytics as the Reporting Source for Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)を参照してください。
+**このページ：**&#x200B;では、[!DNL Adobe Analytics]をレポートソース （A4T）として使用するようにアクティビティを設定する方法、開始する前に準備する方法、アクティビティの目標を選択する方法について説明します。
 
-[!DNL Analytics]をレポートソースとして使用するアクティビティを設定する前に、訪問者あたりの売上高（RPV）の向上やショッピングカートのクリック数の増加など、アクティビティの目標を設定します。 アクティビティの最終的な成功指標を選択します。 [!DNL Analytics]でいつでも追加の指標を選択できますが、このテストが影響を与えると思われる特定の指標を指定する必要があります。
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->[!DNL Adobe Analytics] オプションは、[!DNL Adobe Experience Cloud] アカウントを[!DNL Analytics]と[!DNL Target]の両方にリンクしている場合に、[!DNL Target]と[!DNL Analytics]の統合がアカウントに設定されていない場合でも使用できます。
+Analytics for Target （A4T）は、[!DNL Adobe Target] アクティビティの結果を[!DNL Adobe Analytics]のデータと指標で測定します。 A4Tを使用するには、[!DNL Analytics]がレポートソースになるようにアクティビティを設定します。 [!DNL Analytics]を[!DNL Target]のデータソースとして設定する方法について詳しくは、[Adobe Analytics as the Reporting Source for Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)を参照してください。
 
-[!DNL Analytics]を[!DNL Target]のレポートソースとして選択する場合、[!DNL Analytics] レポートスイートを選択して[!DNL Target] アクティビティデータを受信します。 レポートソースを指定するには、まずアカウントが関連付けられている[!DNL Analytics]社の中から選択し、アクティビティに適したレポートスイートを選択します。 [!DNL Adobe Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 想定しているレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。 レポートスイートがまだリストにない場合は、カスタマーケアにお問い合わせください。
-
-[!UICONTROL Analytics for Target] （A4T）では、結果を正しく報告するためにトラッキングサーバーが必要です。 デフォルトのトラッキングサーバーが「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合は、このフィールドに正しいトラッキングサーバーを含めるようにしてください。 詳しくは、[Analytics トラッキングサーバーの使用](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照してください。
+## 始める前に {#before-you-begin}
 
 >[!NOTE]
 >
->アクティビティのレポートソースとして[!DNL Adobe Analytics]を使用する場合、at.js バージョン 0.9.1以降を使用している場合、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。 at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。 アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
+>**[!UICONTROL Adobe Analytics]** オプションは、[!DNL Target]と[!DNL Analytics]の間の統合がアカウントに設定されていない場合でも、[!DNL Adobe Experience Cloud] アカウントが[!DNL Analytics]と[!DNL Target]の両方にリンクされている場合に使用できます。
 
-レポートソースとして[!DNL Analytics]を設定した後にアクティビティを設定する場合、レポート用のオーディエンスを設定するオプションはありません。 [!DNL Analytics] セグメントは、[!DNL Target] [!UICONTROL &#x200B; アクティビティ &#x200B;] レポートで利用できます。
+アクティビティを作成する前に、訪問者あたりの売上高（RPV）の向上やショッピングカートへのクリック数の増加など、目標を設定します。 そして、この目標を測定する最終的な成功指標を選択します。 追加の指標はいつでも[!DNL Analytics]で選択できますが、このテストが影響を与えると予想される指標を1つ指定する必要があります。
 
-各アクティビティの目標として使用する成功指標を選択する必要があります。 アクティビティの目標は、アクティビティの成功を示すコンバージョンアクティビティです。 ベストプラクティスは、必ず何らかの意味で向上が図れる目標を設定してからテストを実行することです。 [!DNL Analytics]指標セレクターで使用できる任意の[!DNL Analytics]指標を選択できます。
+## レポートソースとして「Analytics」を選択します {#select-reporting-source}
 
-目標を設定しても、テスト結果を評価する際に別の指標を使用できないわけではありません。 ただ、この目標は、テストにおいて向上させたいものを明確にする役割を果たします。
+>[!NOTE]
+>
+>at.js バージョン 0.9.1以降を使用する場合、[!DNL Adobe Analytics]をレポートソースとして使用するアクティビティを作成する際に、トラッキングサーバーを指定する必要はありません。 at.js ライブラリは、トラッキングサーバーの値を自動的に[!DNL Target]に送信します。 **[!UICONTROL 目標と設定]** ページの&#x200B;**[!UICONTROL トラッキングサーバー]** フィールドは空のままにできます。
 
-訪問者が目標を達成すると、その訪問者はアクティビティに含まれなくなります。 訪問者がアクティビティを完了した後にアクティビティに再エントリした場合、その訪問者は新規訪問者としてカウントされます。
+レポートソースは、アクティビティの&#x200B;**[!UICONTROL 目標と設定]** ページで選択されます。 このページでは、[!DNL Target] アクティビティデータを受け取る[!DNL Analytics]会社とレポートスイートを選択し、トラッキングサーバーを確認します。
+
+➡️手順、レポートスイートの要件、トラッキングサーバーの詳細については、[ レポート Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source)を参照してください。
+
+[!DNL Analytics]がレポートソースの場合、アクティビティには、レポート用のオーディエンスを設定するオプションはありません。 [!DNL Analytics] セグメントは、代わりに[!DNL Target] **[!UICONTROL アクティビティ]** レポートで利用できます。
+
+## アクティビティの目標の設定 {#set-goal}
+
+各アクティビティには、目標としての成功指標が必要です。 目標は、成功を示すコンバージョン活動です。 [!DNL Analytics]指標セレクターで使用できる指標はすべて使用できます。 特定の方法で改善することを目標とせずにテストを実行することは決してベストプラクティスです。
+
+目標を設定しても、他の指標を使用してテスト結果を評価することは妨げられません。 ただし、この目標は、テストで改善したい1つのものを特定します。
+
+訪問者が目標を達成すると、その訪問者はアクティビティに含まれなくなります。 訪問者がアクティビティを完了した後に再エントリすると、その訪問者は新規訪問者としてカウントされます。

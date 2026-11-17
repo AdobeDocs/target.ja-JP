@@ -20,27 +20,37 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 16%
+source-wordcount: '275'
+ht-degree: 13%
 ---
-# [!UICONTROL Visual Experience Composer] （VEC）の[!UICONTROL Automated Personalization] アクティビティのエクスペリエンスをプレビューします
+# [!UICONTROL Visual Experience Composer] （VEC）の[!UICONTROL Automated Personalization] アクティビティのエクスペリエンスをプレビューします {#preview-ap-experiences}
 
-[!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）アクティビティは、ページ上の複数のオファーを比較するため、各エクスペリエンスでページをプレビューすると便利です。
+>[!BEGINSHADEBOX]
 
-1. [!UICONTROL Visual Experience Composer] （VEC）から、**[!UICONTROL プレビュー]**&#x200B;をクリックします。
+**このページ：**&#x200B;では、**[!UICONTROL Visual Experience Composer]**&#x200B;で&#x200B;**[!UICONTROL Automated Personalization]** アクティビティの各エクスペリエンスをプレビューする方法と、エクスペリエンスを除外または含める方法について説明します。
 
-1. **[!UICONTROL エクスペリエンスを表示]** アイコン（![&#x200B; エクスペリエンスを表示アイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックすると、左側のフレームにすべてのエクスペリエンスのリストが表示されます。
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] **[!UICONTROL Automated Personalization]** （AP）アクティビティは、ページ上の複数のオファーを比較するので、各エクスペリエンスでページをプレビューすると便利です。 プレビューには、各エクスペリエンスのオファーの組み合わせが表示されるので、オファーを保持するか除外するかを決定できます。
+
+1. **[!UICONTROL Visual Experience Composer]** （VEC）で、**[!UICONTROL プレビュー]**&#x200B;をクリックします。
+
+   ![ プレビューアイコンを表示](../assets/ap_preview_1.png)
+
+1. **[!UICONTROL エクスペリエンスを表示]** アイコン（![ エクスペリエンスを表示アイコン ](/help/main/assets/icons/WebPages.svg)）をクリックすると、左側のフレームにすべてのエクスペリエンスのリストが表示されます。
+
+   ![ エクスペリエンスアイコンを表示](../assets/ap_preview_2.png)
 
 1. リスト内の特定のエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
 
-1. （条件付き）アクティビティから1つ以上のエクスペリエンスを除外するには、**[!UICONTROL コンテンツを管理]** アイコン （![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL &#x200B; コンテンツを管理] ダイアログボックスを表示します。
+1. （オプション）エクスペリエンスを除外または含めるには、**[!UICONTROL コンテンツを管理]** アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、**[!UICONTROL コンテンツを管理]** ダイアログボックスを表示します。
 
-1. （条件付き）コンテンツを管理&#x200B; ダイアログボックスで、除外するエクスペリエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。
+   ![ エクスペリエンスアイコンを表示](../assets/ap_preview_3.png)
 
-   矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
+1. 矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。 次のいずれかの操作を行います。
 
-1. （条件付き）複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックします。
-
-1. （条件付き）除外された複数のエクスペリエンスを含めるには、目的のエクスペリエンスのチェックボックスを選択し、**[!UICONTROL 含める]**&#x200B;をクリックします。
+   * 1つのエクスペリエンスを除外するには、エクスペリエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。
+   * 複数のエクスペリエンスを除外するには、エクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックします。
+   * 除外された複数のエクスペリエンスを含めるには、エクスペリエンスのチェックボックスを選択し、**[!UICONTROL 含める]**&#x200B;をクリックします。
