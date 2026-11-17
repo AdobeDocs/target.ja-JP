@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1392'
 ht-degree: 23%
 ---
 # レポートの FAQ
@@ -136,7 +136,7 @@ XT アクティビティには、常にコントロールエクスペリエン�
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] （AP）アクティビティを更新し、コントロールエクスペリエンスをトラフィックを受け取るエクスペリエンスに変更する方法について詳しくは、[Automated Personalizationまたは自動ターゲットアクティビティのコントロールを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。
+>[!UICONTROL Automated Personalization] （AP）アクティビティを更新し、制御エクスペリエンスをトラフィックを受け取るエクスペリエンスに変更する方法について詳しくは、[制御エクスペリエンスの選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。
 
 
 ## A/BまたはMVT アクティビティで、エクスペリエンス間のトラフィックが不均等なのはなぜですか？ {#uneven}

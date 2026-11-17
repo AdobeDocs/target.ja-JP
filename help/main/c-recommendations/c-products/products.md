@@ -18,12 +18,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 78%
+source-wordcount: '126'
+ht-degree: 75%
 ---
-# エンティティ
+# エンティティの基本を学ぶ
 
 エンティティとは、レコメンデーションする項目を指します。 製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。
 

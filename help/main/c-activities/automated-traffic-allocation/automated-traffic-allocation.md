@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '3660'
+source-wordcount: '3662'
 ht-degree: 44%
 ---
-# [!UICONTROL 自動配分]の概要 {#auto-allocate-overview}
+# [!UICONTROL 自動割り当て]を開始 {#auto-allocate-overview}
 
 >[!BEGINSHADEBOX]
 

@@ -17,12 +17,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 23%
+source-wordcount: '204'
+ht-degree: 22%
 ---
-# デザインの概要
+# デザインを始める
 
 [!DNL Adobe Target Recommendations]のデザインは、ページ上でのレコメンデーションの表示方法を定義します。 デザインは、訪問者のエンゲージメント、コンバージョン、収益を向上させるために、レコメンデーションのレイアウトとフォーマットを定義します。
 

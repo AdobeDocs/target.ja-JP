@@ -1,6 +1,6 @@
 ---
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、ターゲティングオーディエンス、レポートオーディエンス、レポートオーディエンス、セグメント、カスタムプロファイルパラメーター、オーディエンス定義、オーディエンスリスト
-description: ' [!DNL Adobe Target]でのオーディエンスの使用方法を説明します。'
+description: '[!DNL Adobe Target]でのオーディエンスの使用方法を説明します。'
 title: オーディエンスリストはどのように使用すればよいですか？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# オーディエンスの作成
+# オーディエンスの作成を開始する
 
 ターゲットを絞ったアクティビティでコンテンツとエクスペリエンスを見るユーザーは、[!DNL Adobe Target]のオーディエンスによって決まります。
 

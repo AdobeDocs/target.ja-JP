@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1937'
 ht-degree: 44%
 ---
-# レポート設定
+# レポート設定を開始
 
 [!DNL Adobe Target]でレポートに表示する要素を設定するのに役立つ情報です。 レポート設定は保存して後で使用できます。
 

@@ -16,14 +16,20 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 53%
+source-wordcount: '347'
+ht-degree: 29%
 ---
-# 組み合わせの作成
+# 組み合わせの作成 {#create-combinations}
 
-[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL 多変量テスト &#x200B;] （MVT）に含めるオファーを作成します。
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、**[!UICONTROL 多変量テスト]**&#x200B;の組み合わせを構成する画像とHTML オファーを作成する方法について説明します。
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL 多変量テスト]** （MVT）では、すべての場所に複数のオファーが含まれ、場所のオファーの組み合わせごとに1つのエクスペリエンスが提供されます。 [!DNL Adobe Target]の&#x200B;**[!UICONTROL Visual Experience Composer]** （VEC）を使用して、テストに含めるオファーを作成します。
 
 VEC を使用したオファーの作成および編集について詳しくは、[Visual Experience Composer オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
@@ -33,36 +39,38 @@ VEC を使用したオファーの作成および編集について詳しくは�
 >
 >また、[DOM パス](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を使用して要素をナビゲートすることもできます。
 
-## 画像オファー {#section_A48333211DB149ED926AE467D0032914}
+## 画像オファー {#image-offers}
 
-一箇所で複数の画像オファーをテストし、どの画像が最も効果的かを判断します。
+複数の画像オファーを特定の場所でテストして、どの画像が最も効果が高いかを判断します。
 
 1. ページ上の画像をクリックし、**[!UICONTROL 画像オファーの変更]**&#x200B;を選択します。
 
-1. [!UICONTROL 画像オファー] ダイアログボックスで、テストに含めるすべての画像を選択し、**[!UICONTROL 追加]**&#x200B;をクリックします。
+   ![画像オファーメニューの変更](../assets/multivariate-1.png)
+
+1. **[!UICONTROL 画像オファー]** ダイアログボックスで、テストに含めるすべての画像を選択し、**[!UICONTROL 追加]**&#x200B;をクリックします。
+
+   ![画像オファーメニューの変更](../assets/multivariate-3.png)
 
 各画像は、その場所での別々のエクスペリエンスになります。
 
-## HTML オファー {#section_DF016101AFA9412C9B99862C23DE77B1}
+## HTML オファー {#html-offers}
 
 複数の HTML オファーを特定の場所でテストして、どのオファーが最も効果が高いかを判断します。
 
 1. ページ上のHTML オファーをクリックし、**[!UICONTROL HTML オファーの変更]**&#x200B;をクリックします。
 
-1. **[!UICONTROL オファーの作成]**&#x200B;をクリックし、**[!UICONTROL HTML オファー]**&#x200B;をクリックしてオファーに名前を付け、HTML オファーのコードを入力または貼り付け、**[!UICONTROL 作成]**&#x200B;をクリックします。
+   ![HTML オファーメニューの変更](../assets/multivariate-2.png)
 
-   追加で組み込む HTML オファーに対して同じ手順を繰り返します。
+1. HTML オファーを選択し、「**[!UICONTROL オファーを作成]**」、「**[!UICONTROL HTML オファー]**」の順にクリックします。
+
+   ![HTML オファーメニューの変更](../assets/multivariate-4.png)
+
+1. オファーに名前を付け、HTML オファーのコードを入力または貼り付け、**[!UICONTROL 作成]**&#x200B;をクリックします。
+
+   追加のHTML オファーを含める場合は、この手順を繰り返します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 各 HTML オファーは、その場所での別々のエクスペリエンスになります。
 
-## ベストプラクティス {#section_2E98C23D2F1A460FA732A31799CE6291}
-
-* テストに必要な以上の場所を含めないでください。 テストに組み込むエクスペリエンスの数が増えると、期待に添った結果を実現するために必要なトラフィック量および時間が大幅に増加します。 例えば、それぞれ 3 つのオファーが組み込まれたページ要素がある場合は、9 つの組み合わせ（3 x 3）になります。 3 つの要素があり、そのうちの 2 つの要素に 3 つのオファーが、1 つの要素に 2 つのオファーが組み込まれている場合は、組み合わせは 18（3 x 3 x 2）になります。 要素やオファーの数が増えると、組み合わせの数は大きく増加します。
-* 多変量テストを作成する場合、分析にオフラインレポートを使用する必要があるという警告を確認した場合、テストから10%以上のエクスペリエンスを除外できます。
-* 望ましくないコンテンツの組み合わせを避けるためにプレビュー機能を利用します。 例えば、同じ商品やサービスに対して異なる割引率を提供する 2 つの画像がある場合が考えられます。 同じページにこれらの両方の画像を表示しても意味がなく、訪問者を混乱させるだけです。
-* [トラフィック見積もり](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)を使用して、ページで予想されるトラフィック量に合ったテストをおこないます。 Traffic Estimatorでテスト設定に緑色の光が当てられていることを確認して、目的の結果を得ることができます。
-* テストする要素を 3 つ以上選択します。 3 つ未満の場合は、一連の A/B テストを実行します。
-* 各要素の選択肢は、互いに大きく異なるべきです。
-* 各要素に、同じ数の代替オプションを指定することをお勧めします（必須ではありません）。
+含める組み合わせの数と、テストを開始する前にそれらを確認する方法に関する推奨事項については、[多変量テストのベストプラクティス &#x200B;](/help/main/c-activities/c-multivariate-testing/best-practices.md#create)を参照してください。

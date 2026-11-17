@@ -1,7 +1,7 @@
 ---
 keywords: AEM;Experience Manager;Adobe Experience Manager;統合;統合
 description: Target と Experience Managerの統合の使用方法を説明します。
-title: ' [!DNL Target]  を Adobe Experience Manager（AEM）の統合方法を教えてください。'
+title: '[!DNL Target]をAdobe Experience Manager （AEM）と統合するにはどうすればよいですか？'
 feature: Integrations
 exl-id: bff6d9da-8b1e-4458-8d5c-0a34e570e15a
 TQID: https://experienceleague.adobe.com/vrDZA-CUa0UB0Xk8NOcTBfXidSXCNlJm8dlvxmMkSaE
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 63
-ht-degree: 61%
-
+source-wordcount: '67'
+ht-degree: 41%
 ---
-
-# [!DNL Target] と [!DNL Adobe Experience Manager]（AEM）の統合
+# [!DNL Target]とAEMの連携を開始する
 
 [!DNL Adobe Target]/[!DNL Adobe Experience Manager] （AEM）統合では、現在、[!DNL Target]のアクティビティで[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;] （XF）と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;] （CF）をAEMで作成し、最適化とパーソナライゼーションに役立てることができます。
 

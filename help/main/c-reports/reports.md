@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '951'
 ht-degree: 25%
 ---
-# レポート
+# レポートの基本を学ぶ
 
 レポートでは、データに基づいた意思決定に役立つ、[!DNL Adobe Target] アクティビティの進捗状況と結果に関する情報が提供されます。 レポートデータは、アクティビティを終了するタイミングを決定し、勝者となるエクスペリエンスやオファーを示し、次のアクションを決定するために必要なインサイトや学びを提供するのに役立ちます。
 

@@ -16,23 +16,29 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 9%
 ---
-# テストの概要（[!UICONTROL 多変量テスト &#x200B;]）
+# テストの概要（[!UICONTROL 多変量テスト &#x200B;]） {#mvt-test-summary}
 
-[!UICONTROL &#x200B; ターゲティング &#x200B;] ページには、[!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;]の概要が視覚的に表示されます。
+>[!BEGINSHADEBOX]
+
+**このページ：** **[!UICONTROL 多変量テスト]**&#x200B;のテスト概要を確認して、続行する前に設定を確認できます。
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL ターゲティング]** ページには、[!DNL Adobe Target] **[!UICONTROL 多変量テスト]**&#x200B;の概要が視覚的に表示されます。 この概要を確認すると、目標と設定を設定する前に、テストの設定を確認できます。
 
 ![テスト概要ダイアログボックス](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 テスト概要には、次の項目が表示されます。
 
-* テスト名
-* URL
-* オーディエンス：オーディエンスをクリックして、使用可能なオーディエンスのリストから別のオーディエンスを選択します。
-* アルゴリズム：使用可能なアルゴリズムは[!UICONTROL 完全実施要因]のみです。 アルゴリズム名は、使用されているアルゴリズムについての情報を提供する目的でのみ表示されています。
+* テスト名。
+* URLです。
+* オーディエンス： オーディエンスをクリックして、使用可能なオーディエンスのリストから別のオーディエンスを選択します。
+* アルゴリズム： 使用可能なアルゴリズムは&#x200B;**[!UICONTROL 完全実施要因]**&#x200B;のみです。 アルゴリズム名は情報用に提供されるので、使用されているアルゴリズムを認識できます。
 * 組み込まれているエクスペリエンスおよび除外されているエクスペリエンスの数
 
-テスト設定に問題がなければ、**[!UICONTROL 次へ]**&#x200B;をクリックします。 [!UICONTROL 目標と設定] ページが開きます。
+テスト設定に問題がなければ、**[!UICONTROL 次へ]**&#x200B;をクリックします。 **[!UICONTROL 目標と設定]** ページが開きます。

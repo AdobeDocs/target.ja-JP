@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 16%
 ---
 # 多変量分析テストの作成 {#create-mvt}
@@ -34,6 +34,8 @@ ht-degree: 16%
 [!DNL Target]のポイント&amp;クリック エディターを使用すると、任意の場所を選択して複数のオファーを追加できます。
 
 **[!UICONTROL 多変量テスト]** （MVT）は、ページファースト レポートを受け取ります。 つまり、テストは特定の URL に対して実行され、そのページに対して設計されたエクスペリエンスが表示されます。
+
+テストを作成する前に、[計画の推奨事項](/help/main/c-activities/c-multivariate-testing/best-practices.md#plan)を確認して、トラフィックをチェックし、テストする要素を選択し、コンテンツを準備します。
 
 次の手順に従って、**[!UICONTROL 多変量テスト]** （MVT）を作成します。
 
@@ -70,7 +72,7 @@ ht-degree: 16%
 
 各場所にオファーを追加し、結果のエクスペリエンスをプレビューして、テストプランが実現可能であることを確認します。
 
-1. [それぞれの場所でオファーを作成します](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
+1. [それぞれの場所でオファーを作成します](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#create-combinations)。
 
    以下の種類のオファーを追加できます。
 
@@ -82,7 +84,7 @@ ht-degree: 16%
 
 1. 「**[!UICONTROL エクスペリエンスを表示]**」アイコン（![&#x200B; エクスペリエンスアイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレーム内のすべてのエクスペリエンスのリストを表示し、リスト内の特定のエクスペリエンスをクリックしてそのエクスペリエンスを表示します。
 
-1. [トラフィック見積もりを使用](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)して、テスト計画の実行可能性をテストします。
+1. [トラフィック見積もりを使用](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#use-traffic-estimator)して、テスト計画の実行可能性をテストします。
 
 ### エクスペリエンスを除外（オプション） {#exclude-experiences}
 
@@ -124,7 +126,7 @@ ht-degree: 16%
 
    +++
 
-1. [&#x200B; テストの概要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)を確認し、必要な変更を加えたら、**[!UICONTROL 次へ]**&#x200B;をクリックします。
+1. [&#x200B; テストの概要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary)を確認し、必要な変更を加えたら、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
 ## 目標と設定の設定 {#configure-goals-and-settings}
 

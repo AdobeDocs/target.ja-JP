@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 29%
 ---
-# [!UICONTROL Personalization インサイト &#x200B;] レポート
+# [!UICONTROL Personalization インサイト &#x200B;] レポートの基本を学ぶ
 
 [!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] （AT）アクティビティのユーザーは、次の2つの特殊なレポートを利用できます。[!UICONTROL 自動セグメント &#x200B;]と[!UICONTROL 重要な属性] レポート。
 

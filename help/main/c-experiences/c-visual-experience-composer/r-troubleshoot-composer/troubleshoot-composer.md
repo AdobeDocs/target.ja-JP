@@ -20,12 +20,12 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 66%
+source-wordcount: '253'
+ht-degree: 61%
 ---
-# Visual Experience Composer と拡張 Experience Composer のトラブルシューティング
+# [!UICONTROL Visual Experience Composer]と[!UICONTROL 拡張Experience Composer]のトラブルシューティングを開始します
 
 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL Enhanced Experience Composer] （EEC）で、特定の条件で表示の問題が発生することがあります。
 

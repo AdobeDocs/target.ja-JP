@@ -1,7 +1,7 @@
 ---
 keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
-description: ' [!DNL Adobe Admin Console]  を使用して、 [!DNL Adobe Target Standard] でユーザーとその権限と権限を管理する方法を説明します。'
-title: ユーザーを追加し、 [!DNL Target Standard]  アカウントの権限を管理する方法？
+description: '[!DNL Adobe Admin Console]を使用して、[!DNL Adobe Target Standard]のユーザーとその権限および権限を管理する方法について説明します。'
+title: '[!DNL Target Standard] アカウントのユーザーを追加して権限を管理するにはどうすればよいですか？'
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
@@ -33,14 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 60%
-
+source-wordcount: '930'
+ht-degree: 57%
 ---
-
-# ユーザー
+# ユーザーの基本を学ぶ
 
 [!DNL Target Standard] アカウントの [!DNL Adobe Admin Console] でユーザーを追加し、その権限を管理します。
 
@@ -133,8 +131,8 @@ ht-degree: 60%
 
 * Adobe Target インターフェイスから Adobe Admin Console へのアクセス（3 つの方法）
 * Adobe Admin Console でのワークスペースの設定
-   * ユーザーをワークスペースに追加します
-   * プロパティをワークスペースに追加します
+  * ユーザーをワークスペースに追加します
+  * プロパティをワークスペースに追加します
 * デフォルトのワークスペースの概要を説明します
 
 >[!NOTE]

@@ -1,9 +1,9 @@
 ---
 keywords: 実装;実装する
-description: 基本的な概念を理解し、 [!DNL Target] の仕組みとインフラストラクチャとの統合方法を理解し、訪問者のトラッキング方法を理解します。
+description: 基本的な概念を理解し、[!DNL Target]がどのように機能し、インフラストラクチャと統合するかを理解し、訪問者がどのように追跡されるかを理解します。
 landing-page-description: Adobe Targetを使用する前に、サイトに実装する必要があります。
 short-description: Adobe Targetを使用する前に、サイトに実装する必要があります。
-title: ' [!DNL Target]を実装するにはどうすればよいですか？'
+title: '[!DNL Target]を実装するにはどうすればよいですか？'
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 11%
-
+source-wordcount: '213'
+ht-degree: 10%
 ---
-
-# Target の実装
+# [!DNL Target]の実装を開始
 
 [!DNL Adobe Target]を使用する前に、サイトに実装する必要があります。
 

@@ -17,12 +17,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 8%
+source-wordcount: '977'
+ht-degree: 7%
 ---
-# オファー
+# オファーの概要
 
 [!DNL Adobe Target]の[!UICONTROL Offers] ライブラリを使用して、コードと画像オファーを効率的に管理する方法について説明します。
 

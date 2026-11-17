@@ -21,12 +21,12 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 19%
 ---
-# A/B テストの概要 {#test-ab}
+# A/B テストを始める {#test-ab}
 
 >[!BEGINSHADEBOX]
 

@@ -1,6 +1,6 @@
 ---
 keywords: ターゲティング；オーディエンス
-description: ' [!DNL Adobe Target] のオーディエンスを使用して、特定のオーディエンスに対して異なるコンテンツやエクスペリエンスをターゲティングし、web マーケティング活動を最適化する方法について説明します。'
+description: '[!DNL Adobe Target]のオーディエンスを使用して、特定のオーディエンスに異なるコンテンツやエクスペリエンスをターゲティングし、web マーケティング活動を最適化する方法について説明します。'
 title: '[!UICONTROL Audiences]を使用して、特定のセグメントに別のコンテンツをターゲティングするにはどうすればよいですか？'
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
@@ -16,14 +16,12 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '321'
 ht-degree: 38%
-
 ---
-
-# オーディエンス
+# オーディエンスの基本を学ぶ
 
 [!DNL Adobe Target]のオーディエンスを使用して、特定のオーディエンスに対する様々なコンテンツやエクスペリエンスのターゲティングを行い、適切なメッセージを的確なオーディエンスにタイミングよく表示することで、web マーケティングを最適化します。
 

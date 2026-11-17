@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 36%
+source-wordcount: '412'
+ht-degree: 35%
 ---
-# AEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]および[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]の概要
+# AEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]の使用を開始する
 
 [!DNL Target]件のアクティビティで[!DNL Adobe Experience Manager] （AEM）で作成された[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;] （XF）と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;] （CF）を使用して、最適化とパーソナライゼーションを支援します。
 

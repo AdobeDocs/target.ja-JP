@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -124,13 +124,13 @@ Targetは、[!DNL Experience Platform Web SDK]またはat.jsを使用してWeb �
 
 [!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）は、マーケターが定義したルールと条件に基づいて、特定のオーディエンスにコンテンツを配信します。 地域ターゲティングを含め、特定のエクスペリエンスやコンテンツを特定のオーディエンスにターゲティングするルールを定義するのに役立ちます。 アクティビティでは、複数のルールを設定して、様々なコンテンツのバリエーションを様々なオーディエンスに配信できます。 訪問者がサイトを閲覧すると、XTはその訪問者を評価し、その訪問者が基準を満たしているかどうかを判断します。 その人が適格であれば、そのアクティビティに参加し、その人に合わせて設計されたエクスペリエンスを確認します。 単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
 
-詳しくは、[エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)を参照してください。
+詳しくは、[エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt)を参照してください。
 
 ### [!UICONTROL 多変量分析テスト] （MVT）
 
 [!UICONTROL Multivariate Testing] （MVT）は、ページ要素のオファーの組み合わせを比較して、特定のオーディエンスに対してどの組み合わせが最も効果的かを判断します。 MVT は、アクティビティの成功に最も影響を与える要素を特定するのに役立ちます。
 
-詳しくは、[多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)を参照してください。
+詳しくは、[多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt)を参照してください。
 
 ### [!UICONTROL レコメンデーション]
 

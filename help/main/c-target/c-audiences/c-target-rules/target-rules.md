@@ -14,14 +14,12 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 50%
-
+source-wordcount: '388'
+ht-degree: 49%
 ---
-
-# オーディエンスのカテゴリ
+# オーディエンス向けのカテゴリの基本を学ぶ
 
 [!DNL Adobe Target]を使用して、複数のカテゴリ属性のいずれかをターゲットにできます。 各属性のターゲティングルール（またはグループ）を作成するには、目的の属性をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 

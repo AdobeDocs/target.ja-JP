@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 4c4ef48f9849069a6a525d167bc42c933fd0b156
+source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 84%
+source-wordcount: '1339'
+ht-degree: 72%
 ---
 
 # Adobe Target ビジネス実践者ガイド {#using}
@@ -16,7 +16,7 @@ ht-degree: 84%
   + {hide-from-toc}[Targetのお知らせとイベント &#x200B;](/help/main/r-release-notes/target-announcements.md)
   + [Target リリースノート（最新）](r-release-notes/release-notes.md)
   + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
-  + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
+  + [Adobe Targetのドキュメントを読む](/help/main/r-release-notes/target-documentation.md)
   + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
   + [ドキュメントの変更点](r-release-notes/doc-change.md)
   + 以前のリリースのリリースノート {#previous-rn}
@@ -31,7 +31,7 @@ ht-degree: 84%
   + [Target UIの更新に関するFAQ](/help/main/c-intro/updated-ui-faq.md)
   + [Adobe Adobe Targetの共同作業スキル](c-intro/coworker-skills.md)
   + Adobe Target ウェルカムキット {#welcome}
-    + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)
+    + [Target ウェルカムキットの基本を学ぶ](/help/main/c-intro/target-welcome-kit.md)
     + [第 1 章：はじめに](/help/main/c-intro/target-welcome-kit-1.md)
     + [第 2 章： Target の概要](/help/main/c-intro/target-welcome-kit-2.md)
     + [第 3 章：テストとパーソナライゼーションのアイデアを開発する](/help/main/c-intro/target-welcome-kit-3.md)
@@ -47,7 +47,7 @@ ht-degree: 84%
   + [Target Standard および Premium のトレーニングビデオ](c-intro/target-standard-premium-training-videos.md)
   + [Target の最適化とパーソナライゼーションに関する FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target の管理 {#administer}
-  + [Target の管理：概要](administrating-target/administrating-target.md)
+  + [Targetの管理を開始する](administrating-target/administrating-target.md)
   + [管理者の最初の手順](administrating-target/start-target.md)
   + [Visual Experience Composer の設定](/help/main/administrating-target/visual-experience-composer-set-up.md)
   + レポート {#reporting}
@@ -63,7 +63,7 @@ ht-degree: 84%
   + ユーザーの管理 {#manage-users}
     + [ユーザー管理](administrating-target/c-user-management/user-management.md)
     + ユーザー {#users}
-      + [ユーザーの概要](administrating-target/c-user-management/c-user-management/user-management.md)
+      + [ユーザーの基本を学ぶ](administrating-target/c-user-management/c-user-management/user-management.md)
       + [ユーザー管理のトラブルシューティング](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
     + Enterprise ユーザーの権限 {#enterprise}
       + [Enterprise ユーザーの権限](administrating-target/c-user-management/property-channel/property-channel.md)
@@ -71,7 +71,7 @@ ht-degree: 84%
       + [ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
   + [レコメンデーション](/help/main/administrating-target/recommendations-settings.md)
 + Target の実装 {#implement-target}
-  + [Target の実装の概要](c-implementing-target/implementing-target.md)
+  + [Targetの実装を開始する](c-implementing-target/implementing-target.md)
 + Adobe Target MCP サーバー {#mcp}
   + [概要](c-integrating-target-with-mac/mcp/target-mcp.md)
   + [基本を学ぶ](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
@@ -79,7 +79,7 @@ ht-degree: 84%
   + [MCP サーバーツールリファレンス](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + Adobe TargetとAdobe Experience Cloudの統合 {#integrate}
   + Target （A4T）のレポートソースとしてのAdobe Analytics {#a4t}
-    + [A4T の概要](c-integrating-target-with-mac/a4t/a4t.md)
+    + [A4Tの基本を学ぶ](c-integrating-target-with-mac/a4t/a4t.md)
     + [実装する前に](c-integrating-target-with-mac/a4t/before-implement.md)
     + [Analytics for Target の実装](c-integrating-target-with-mac/a4t/a4timplementation.md)
     + [ユーザー権限の要件](c-integrating-target-with-mac/a4t/account-reqs.md)
@@ -111,7 +111,7 @@ ht-degree: 84%
       + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
   + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
-    + [Adobe TargetとAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+    + [Adobe TargetとAEMの連携の詳細](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
     + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
       + [AEM エクスペリエンスフラグメントとコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
       + [AEM エクスペリエンスフラグメント](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
@@ -125,7 +125,7 @@ ht-degree: 84%
   + [サンプルサイズ計算ツール](c-activities/sample-size-calculator.md)
   + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
   + A/B テスト {#abtest}
-    + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
+    + [A/B テストを始める](c-activities/t-test-ab/test-ab.md)
     + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
     + [A/B テストの一般的な 10 の落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
     + [A/A テスト](/help/main/c-activities/t-test-ab/aa-testing.md)
@@ -139,17 +139,17 @@ ht-degree: 84%
       + [指標の設定](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
       + [A/B テストの複数のエクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
   + 自動配分 {#auto-allocate}
-    + [自動配分の概要](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+    + [自動割り当ての概要](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
     + [自動配分アクティビティの作成](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
     + [自動配分レポートの解釈](c-activities/automated-traffic-allocation/determine-winner.md)
     + [自動配分が手動テストよりも優れている方法](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
   + 自動ターゲット {#auto-target}
-    + [自動ターゲットの概要](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+    + [自動ターゲットの基本を学ぶ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     + [自動ターゲットアクティビティの作成](/help/main/c-activities/auto-target/create-auto-target.md)
     + [自動ターゲットに関する FAQ とトラブルシューティング](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
     + [レポートと自動ターゲット](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
   + Automated Personalization {#automated-personalization}
-    + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
+    + [Automated Personalizationの導入方法](c-activities/t-automated-personalization/automated-personalization.md)
     + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
     + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
     + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
@@ -159,26 +159,23 @@ ht-degree: 84%
     + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
     + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
     + [Automated Personalization のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-    + [Automated Personalization アクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
+    + [コントロールエクスペリエンスの選択](c-activities/t-automated-personalization/experience-as-control.md)
     + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
     + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
   + エクスペリエンスのターゲット設定 {#experience-targeting}
-    + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
-    + エクスペリエンスのターゲット設定アクティビティの作成 {#create-targeting}
-      + [アクティビティの作成](c-activities/t-experience-target/t-xt-create/xt-create.md)
-      + [エクスペリエンスの作成](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-      + [エクスペリエンスのターゲット設定でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+    + [エクスペリエンスのターゲット設定を開始](c-activities/t-experience-target/experience-target.md)
+    + [アクティビティの作成](c-activities/t-experience-target/t-xt-create/xt-create.md)
+    + [エクスペリエンスの作成](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+    + [エクスペリエンスのターゲット設定でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
   + 多変量分析テスト {#multivariate-test}
-    + [多変量分析テストの概要](c-activities/c-multivariate-testing/multivariate-testing.md)
+    + [多変量テストを始める](c-activities/c-multivariate-testing/multivariate-testing.md)
     + [多変量分析テストのベストプラクティス](c-activities/c-multivariate-testing/best-practices.md)
-    + [多変量分析テストの計画](c-activities/c-multivariate-testing/plan-mvt.md)
     + 多変量分析テストの作成 {#create-mvt}
       + [テストの作成](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
       + [組み合わせの作成](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
       + [多変量分析テストのエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [テストを成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [テスト概要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-      + [多変量分析テストのトラブルシューティング](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
   + [レコメンデーションアクティビティ](c-activities/recommendations-activity.md)
   + [アクティビティの編集](c-activities/edit-activity.md)
   + [優先度](c-activities/priority.md)
@@ -190,19 +187,19 @@ ht-degree: 84%
   + [アクティビティの変更ログ](c-activities/change-log.md)
   + [AI インサイト](c-activities/ai-insights.md)
   + アクティビティのトラブルシューティング {#troubleshoot-activities}
-    + [アクティビティのトラブルシューティングの概要](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
+    + [トラブルシューティングの基本を学ぶ](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [コンテンツ配信のトラブルシューティング](c-activities/c-troubleshooting-activities/content-trouble.md)
   + アクティビティ QA {#activity-qa}
-    + [アクティビティ QA の概要](c-activities/c-activity-qa/activity-qa.md)
+    + [アクティビティ QAの概要](c-activities/c-activity-qa/activity-qa.md)
     + [アクティビティ QA ブックマークレット](c-activities/c-activity-qa/activity-qa-bookmark.md)
     + [アクティビティ QA とサーバー側配信の使用](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + オーディエンス {#audiences}
-  + [オーディエンスの概要](c-target/target.md)
+  + [オーディエンスの基本を学ぶ](c-target/target.md)
   + オーディエンスの作成 {#create-audiences}
-    + [オーディエンス作成の概要](c-target/c-audiences/audiences.md)
+    + [オーディエンスの作成を開始する](c-target/c-audiences/audiences.md)
     + [Target でのオーディエンスの構築](c-target/c-audiences/create-audience.md)
     + オーディエンスのカテゴリ {#categories-audiences}
-      + [オーディエンスのカテゴリの概要の](c-target/c-audiences/c-target-rules/target-rules.md)
+      + [オーディエンス向けのカテゴリの基本を学ぶ](c-target/c-audiences/c-target-rules/target-rules.md)
       + [ブラウザー](c-target/c-audiences/c-target-rules/browser.md)
       + [カスタムパラメーター](c-target/c-audiences/c-target-rules/custom-parameters.md)
       + [地域](c-target/c-audiences/c-target-rules/geo.md)
@@ -231,22 +228,22 @@ ht-degree: 84%
   + ターゲットとオーディエンスに関する FAQ {#faq-audiences}
     + [ターゲットとオーディエンスに関する FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + エクスペリエンスとオファー {#experiences}
-  + [エクスペリエンスとオファーの概要](c-experiences/experiences.md)
+  + [エクスペリエンスとオファーの活用](c-experiences/experiences.md)
   + Visual Experience Composer（VEC） {#vec}
-    + [Visual Experience Composer の概要](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+    + [Visual Experience Composerの基本を学ぶ](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
     + [Visual Experience Composer のオプション](c-experiences/c-visual-experience-composer/viztarget-options.md)
     + [Visual Experience Composerの変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
     + [類似のページに同じエクスペリエンスを組み込む](c-experiences/c-visual-experience-composer/temtest.md)
     + [複数ページアクティビティ](c-experiences/c-visual-experience-composer/multipage-activity.md)
     + [アクティビティの衝突](c-experiences/c-visual-experience-composer/activity-collisions.md)
     + 変更 {#modifications}
-      + [変更の概要](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+      + [修正を始める](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
       + [エクスペリエンステンプレート](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
     + [Visual Experience Composer で使用される要素セレクター](c-experiences/c-visual-experience-composer/vec-selectors.md)
     + [レスポンシブエクスペリエンスのためのモバイルビューポート](c-experiences/c-visual-experience-composer/mobile-viewports.md)
     + [Visual Experience Composer のベストプラクティスと制限事項](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
     + Visual Experience Composer のトラブルシューティング {#troubleshoot-composer}
-      + [Visual Experience Composer のトラブルシューティングの概要](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+      + [Visual Experience Composerのトラブルシューティングを開始する](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
       + [Visual Experience Composer と拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
       + [Visual Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
       + [拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
@@ -270,9 +267,9 @@ ht-degree: 84%
     + [動的データをオファーに渡す](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
     + [AEM エクスペリエンスフラグメントとコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
 + レポート {#reports}
-  + [レポートの概要](c-reports/reports.md)
+  + [レポートの基本を学ぶ](c-reports/reports.md)
   + レポート設定 {#settings}
-    + [レポートの設定の概要](c-reports/c-report-settings/report-settings.md)
+    + [レポート設定を開始](c-reports/c-report-settings/report-settings.md)
     + [レポートでの複数の指標の表示](c-reports/c-report-settings/view-multiple-metrics.md)
     + [極端な値の除外](c-reports/c-report-settings/excluding-extreme-orders.md)
     + [CSV ファイル内のデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
@@ -282,7 +279,7 @@ ht-degree: 84%
     + [自動ターゲット概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
     + [Automated Personalization 概要レポート](/help/main/c-reports/personalization-reports/reports-ap.md)
   + Personalization Insights レポート {#insights}
-    + [パーソナライゼーションインサイトレポートの概要](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+    + [Personalization インサイトレポートの概要](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
     + [自動セグメントレポート](c-reports/c-personalization-insights-reports/automated-segments-report.md)
     + [重要な属性レポート](c-reports/c-personalization-insights-reports/important-attributes-report.md)
   + 多変量テストレポート {#multivariate-test-reports}
@@ -291,11 +288,11 @@ ht-degree: 84%
   + [Analytics for Target（A4T）レポート](c-reports/analytics-for-target-a4t-reporting.md)
   + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
 + レコメンデーション {#recommendations}
-  + [レコメンデーションの概要](c-recommendations/recommendations.md)
+  + [レコメンデーションを始める](c-recommendations/recommendations.md)
   + [レコメンデーションの概要](c-recommendations/introduction-to-recommendations.md)
   + [レコメンデーションの計画と実装](c-recommendations/plan-implement.md)
   + エンティティ {#entities}
-    + [エンティティの概要](c-recommendations/c-products/products.md)
+    + [エンティティの基本を学ぶ](c-recommendations/c-products/products.md)
     + [エンティティの属性](c-recommendations/c-products/entity-attributes.md)
     + [カスタムエンティティの属性](c-recommendations/c-products/custom-entity-attributes.md)
     + [フィード](c-recommendations/c-products/feeds.md)
@@ -303,7 +300,7 @@ ht-degree: 84%
     + [コレクション](c-recommendations/c-products/collections.md)
     + [除外](c-recommendations/c-products/exclusions.md)
   + 条件 {#criteria}
-    + [条件の概要](c-recommendations/c-algorithms/algorithms.md)
+    + [条件の基本を学ぶ](c-recommendations/c-algorithms/algorithms.md)
     + [条件の作成](c-recommendations/c-algorithms/create-new-algorithm.md)
     + [条件のシーケンスの作成](c-recommendations/c-algorithms/create-criteria-sequence.md)
     + [レコメンデーションキーに基づくレコメンデーションの設定](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
@@ -319,7 +316,7 @@ ht-degree: 84%
     + [複数値の属性の扱い](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
     + [Adobe Analytics をレコメンデーションと併用する](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
   + デザイン {#recommendations-design}
-    + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
+    + [デザインを始める](c-recommendations/c-design-overview/design-overview.md)
     + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
     + [デザイン FAQ](c-recommendations/c-design-overview/template-faq.md)
     + [Velocity を使用したデザインのカスタマイズ](c-recommendations/c-design-overview/customizing-a-template.md)
@@ -339,5 +336,5 @@ ht-degree: 84%
   + [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)
   + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
-  + [Adobe Target API の概要](/help/main/api/api-overview.md)
+  + [Adobe Target SDKとAPIの基本を学ぶ](/help/main/api/api-overview.md)
 + [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)

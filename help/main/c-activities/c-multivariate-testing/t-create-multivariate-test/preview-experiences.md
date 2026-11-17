@@ -16,28 +16,34 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 8%
+source-wordcount: '280'
+ht-degree: 6%
 ---
-# [!UICONTROL 多変量テストのエクスペリエンスをプレビュー]
+# [!UICONTROL 多変量テストのエクスペリエンスをプレビュー] {#preview-mvt-experiences}
 
-[!DNL Adobe Target]の[!UICONTROL 多変量テスト &#x200B;]は、ページ上の複数のエクスペリエンスを比較するため、各エクスペリエンスでページをプレビューすると便利です。
+>[!BEGINSHADEBOX]
 
-1. **[!UICONTROL プレビュー]**&#x200B;をクリックし、**[!UICONTROL エクスペリエンスを表示]** アイコン （![&#x200B; エクスペリエンスを表示アイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
+**このページ：** **[!UICONTROL Visual Experience Composer]**&#x200B;で&#x200B;**[!UICONTROL 多変量テスト]**&#x200B;の各エクスペリエンスをプレビューする方法と、エクスペリエンスを除外または含める方法について説明します。
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]の&#x200B;**[!UICONTROL 多変量テスト]** （MVT）は、ページ上の複数のエクスペリエンスを比較するので、各エクスペリエンスでページをプレビューすると便利です。 プレビューには、各エクスペリエンスのオファーの組み合わせが表示されます。これにより、テストが公開される前にエクスペリエンスを除外するかどうかを決定できます。
+
+1. **[!UICONTROL Visual Experience Composer]** （VEC）で、**[!UICONTROL プレビュー]**&#x200B;をクリックし、**[!UICONTROL エクスペリエンスを表示]** アイコン（![&#x200B; エクスペリエンスを表示アイコン &#x200B;](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
+
+   ![画像オファーメニューの変更](../assets/multivariate-5.png)
 
 1. リスト内の特定のエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
 
-1. （条件付き）アクティビティから1つ以上のエクスペリエンスを除外するには、**[!UICONTROL コンテンツを管理]** アイコン （![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL &#x200B; コンテンツを管理] ダイアログボックスを表示します。
+1. （オプション）エクスペリエンスを除外または含めるには、**[!UICONTROL コンテンツを管理]** アイコン（![&#x200B; コンテンツを管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックして、**[!UICONTROL コンテンツを管理]** ダイアログボックスを表示します。
 
-1. （条件付き）コンテンツを管理&#x200B; ダイアログボックスで、除外するエクスペリエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。
+1. 矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。 次のいずれかの操作を行います。
 
-   矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
-
-1. （条件付き）複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックします。
-
-1. （条件付き）除外された複数のエクスペリエンスを含めるには、目的のエクスペリエンスのチェックボックスを選択し、**[!UICONTROL 含める]**&#x200B;をクリックします。
+   * 1つのエクスペリエンスを除外するには、エクスペリエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。
+   * 複数のエクスペリエンスを除外するには、エクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックします。
+   * 除外された複数のエクスペリエンスを含めるには、エクスペリエンスのチェックボックスを選択し、**[!UICONTROL 含める]**&#x200B;をクリックします。
 
 >[!NOTE]
 >

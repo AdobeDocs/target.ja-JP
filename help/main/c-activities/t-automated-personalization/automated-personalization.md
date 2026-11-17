@@ -38,12 +38,12 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 25%
+source-wordcount: '908'
+ht-degree: 24%
 ---
-# [!UICONTROL Automated Personalization]（AP） {#automated-personalization-overview}
+# [!UICONTROL Automated Personalization]の基本を学ぶ {#automated-personalization-overview}
 
 >[!BEGINSHADEBOX]
 

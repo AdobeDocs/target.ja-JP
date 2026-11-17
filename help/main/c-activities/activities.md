@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ea1d97ca126f3b022a3cf42ad68163bbdb7f4378
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '2760'
-ht-degree: 23%
+source-wordcount: '2762'
+ht-degree: 22%
 ---
 # アクティビティの概要 {#activities-overview}
 
