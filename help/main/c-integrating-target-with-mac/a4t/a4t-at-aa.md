@@ -49,7 +49,7 @@ A4T統合では、次のことが可能になります。
 * [自動割り当て](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) マルチアームドバンディット機能を使用して、トラフィックを勝者エクスペリエンスに誘導します。
 * [自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アンサンブルマシンラーニングアルゴリズムを使用して、各訪問者に最適なエクスペリエンスを選択します。 [!UICONTROL 自動ターゲット &#x200B;]は、各ユーザーのプロファイル、行動、コンテキストに基づいて最適なエクスペリエンスを選択します。また、[!DNL Adobe Analytics]の目標指標と[!DNL Adobe Analytics]の豊富なレポートおよび分析機能を使用します。
 
-A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用する[A4Tが実装されていることを確認してください](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 `analyticsLogging = client_side`を使用する場合は、`sessionId`の値を[!DNL Analytics]にも渡す必要があります。 詳しくは、*Adobe Target開発者ガイド*&#x200B;の「[Analytics for Target （A4T） レポート &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}」を参照してください。
+A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用する[A4Tが実装されていることを確認してください](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 `analyticsLogging = client_side`を使用する場合は、`sessionId`の値を[!DNL Analytics]にも渡す必要があります。 詳しくは、*Adobe Target開発者ガイド*&#x200B;の「[Analytics for Target （A4T） レポート &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=ja){target=_blank}」を参照してください。
 
 開始するには
 
@@ -161,7 +161,7 @@ A/B テストおよびエクスペリエンスのターゲット設定アクテ�
 
 * [!DNL Analytics]を[!UICONTROL 自動ターゲット &#x200B;] アクティビティのデータソースとして使用する場合、セッションは6時間が経過した後に終了します。 6時間後に発生したコンバージョンはカウントされません。
 
-詳しくは、*分析ツールガイド*&#x200B;の「[&#x200B; アトリビューションモデルとルックバックウィンドウ &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)」を参照してください。
+詳しくは、*分析ツールガイド*&#x200B;の「[&#x200B; アトリビューションモデルとルックバックウィンドウ &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja)」を参照してください。
 
 ## チュートリアル
 
