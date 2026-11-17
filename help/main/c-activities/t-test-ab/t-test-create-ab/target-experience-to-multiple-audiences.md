@@ -58,9 +58,9 @@ ht-degree: 8%
 
 1. エクスペリエンスを選択し、**[!UICONTROL 設定]**/**[!UICONTROL 複数のオーディエンス]**&#x200B;をクリックします。
 
-1. **[!UICONTROL エクスペリエンスオーディエンス]** ペインで、**[!UICONTROL オーディエンスを追加]** アイコン （![追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
+1. **[!UICONTROL エクスペリエンスオーディエンス]** ペインで、**[!UICONTROL オーディエンスを追加]** アイコン （![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
 
-   オーディエンスがまだ存在しない場合は、[ オーディエンスを作成し](/help/main/c-target/c-audiences/create-audience.md)設定します。
+   オーディエンスがまだ存在しない場合は、[&#x200B; オーディエンスを作成し](/help/main/c-target/c-audiences/create-audience.md)設定します。
 
 1. 続けてアクティビティを設定します。
 

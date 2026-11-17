@@ -48,7 +48,7 @@ ht-degree: 2%
 
    **[!UICONTROL すべての訪問者]**&#x200B;がデフォルトのオーディエンスです。 特定のオーディエンスターゲティングを使用しないA/B テストの場合は、デフォルトを維持します。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。
 
-1. **[!UICONTROL 置換] アイコン** （![置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+1. **[!UICONTROL 置換] アイコン** （![置換アイコン &#x200B;](/help/main/assets/icons/Retweet.svg)）をクリックします。
 
    ![](../../assets/audience_activity.png)
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
    ![](../../assets/audience_activity_2.png)
 
-1. オーディエンスの横にある&#x200B;**[!UICONTROL 情報]** アイコン （![情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックして、そのオーディエンスのソースと属性を含む詳細を表示します。
+1. オーディエンスの横にある&#x200B;**[!UICONTROL 情報]** アイコン （![情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）をクリックして、そのオーディエンスのソースと属性を含む詳細を表示します。
 
    ![](../../assets/audience_activity_3.png)
 
@@ -73,11 +73,11 @@ ht-degree: 2%
    [create-audience ワークフロー](/help/main/c-target/c-audiences/audiences.md)中に、次のオプションから選択できます。
 
    * **[!UICONTROL オーディエンスライブラリ]**: **[!UICONTROL オーディエンスライブラリ]**&#x200B;に保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
-   * **[!UICONTROL このアクティビティのみ]**: **[!UICONTROL オーディエンスライブラリ]**&#x200B;に保存されていない[ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md)を作成し、現在のアクティビティでのみ使用できます。
+   * **[!UICONTROL このアクティビティのみ]**: **[!UICONTROL オーディエンスライブラリ]**&#x200B;に保存されていない[&#x200B; アクティビティ固有のオーディエンス &#x200B;](/help/main/c-target/creating-activity-only-audience.md)を作成し、現在のアクティビティでのみ使用できます。
 
    +++
 
-1. オーディエンスを編集またはコピーするには、目的のオーディエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/More.svg)）をクリックします。
+1. オーディエンスを編集またはコピーするには、目的のオーディエンスの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/More.svg)）をクリックします。
 
 1. オーディエンスを選択したら、「**[!UICONTROL オーディエンスを割り当て]**」をクリックします。
 

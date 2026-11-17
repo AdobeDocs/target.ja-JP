@@ -57,7 +57,7 @@ ht-degree: 40%
 >
 >* **[!UICONTROL Analytics for Target]**（A4T）は、**[!UICONTROL 自動ターゲット]**&#x200B;アクティビティをサポートします。 詳しくは、[A4T での自動割り当ておよび自動ターゲットアクティビティのサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
 
-3段階のガイド付きワークフローを使用してA/B アクティビティ ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)を[作成する場合、**[!UICONTROL ターゲティング]** ページで&#x200B;**[!UICONTROL 自動ターゲティング]** オプションを選択します（ステップ 2）。 手順については、[自動ターゲットアクティビティの作成](/help/main/c-activities/auto-target/create-auto-target.md)を参照してください。
+3段階のガイド付きワークフローを使用してA/B アクティビティ [&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)を作成する場合、**[!UICONTROL ターゲティング]** ページで&#x200B;**[!UICONTROL 自動ターゲティング]** オプションを選択します（ステップ 2）。 手順については、[自動ターゲットアクティビティの作成](/help/main/c-activities/auto-target/create-auto-target.md)を参照してください。
 
 ![トラフィック配分方法の設定](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
@@ -95,15 +95,15 @@ A/B アクティビティフロー内のこのオプションでは、マシン�
 | [ランダムフォレスト](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | ランダムフォレストは、有力な機械学習アプローチです。 データサイエンス用語では、訪問者と訪問属性に基づいて多くの決定木を構築することで機能するアンサンブル分類または回帰方法です。 [!DNL Target] 内部では、ランダムフォレストを使用して、コンバージョンの可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを特定の訪問者ごとに決定します。 |
 | [トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | トンプソンサンプリングの目的は、全体的に最良の（パーソナライズされていない）エクスペリエンスを最小限の「コスト」で特定することです。 Thompson Samplingは、2つのエクスペリエンス間に統計的な違いがない場合でも、常に勝者を選びます。 |
 
-## [!UICONTROL 自動ターゲット ]の仕組み {#section_77240E2DEB7D4CD89F52BE0A85E20136}
+## [!UICONTROL 自動ターゲット &#x200B;]の仕組み {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
 次のページでは、**[!UICONTROL 自動ターゲット]**&#x200B;と&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;の基礎となるデータとアルゴリズムについて説明します。
 
 | トピック | 詳細 |
 |--- |--- |
 | [ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | **[!UICONTROL 自動ターゲット]**&#x200B;と&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;の両方で使用される[!DNL Target]の主なパーソナライゼーションアルゴリズムは、ランダムフォレストです。 ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、構成要素となるどの学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを発揮します。 **[!UICONTROL Automated Personalization]**&#x200B;および&#x200B;**[!UICONTROL 自動ターゲット]** アクティビティのランダムフォレスト アルゴリズムは、学習時に多数の決定木を作成することによって動作する分類または回帰方式です。 |
-| [Personalization アルゴリズム ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)のデータをアップロード中 [!DNL Target]  | **[!UICONTROL 自動ターゲット]**&#x200B;と **[!UICONTROL Automated Personalization]** モデルのデータを入力する方法は複数あります。 |
-| [Personalization アルゴリズム ](/help/main/c-activities/t-automated-personalization/ap-data.md)のデータ収集 [!DNL Target]  | [!DNL Target]のパーソナライゼーションアルゴリズムは、様々なデータを自動的に収集します。 |
+| [Personalization アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)のデータをアップロード中 [!DNL Target]  | **[!UICONTROL 自動ターゲット]**&#x200B;と **[!UICONTROL Automated Personalization]** モデルのデータを入力する方法は複数あります。 |
+| [Personalization アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/ap-data.md)のデータ収集 [!DNL Target]  | [!DNL Target]のパーソナライゼーションアルゴリズムは、様々なデータを自動的に収集します。 |
 
 ## トラフィック配分の決定 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -127,20 +127,20 @@ A/B アクティビティフロー内のこのオプションでは、マシン�
 
 **[!UICONTROL コントロール]**&#x200B;の割合を調整するには、**[!UICONTROL トラフィック配分]**&#x200B;パネルの「**[!UICONTROL エクスペリエンス]**」をクリックし、必要に応じて割合を調整します。 コントロールグループの割合を 10％未満にすることはできません。
 
-[ コントロール ](/help/main/c-activities/t-automated-personalization/experience-as-control.md)として使用する特定のエクスペリエンスを選択するか、**[!UICONTROL ランダムエクスペリエンス]** オプションを使用できます。
+[&#x200B; コントロール &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md)として使用する特定のエクスペリエンスを選択するか、**[!UICONTROL ランダムエクスペリエンス]** オプションを使用できます。
 
-## [!UICONTROL 自動ターゲット ]と[!UICONTROL Automated Personalization]の比較 {#compare-at-ap}
+## [!UICONTROL 自動ターゲット &#x200B;]と[!UICONTROL Automated Personalization]の比較 {#compare-at-ap}
 
 **[!UICONTROL 自動ターゲット]**&#x200B;と&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;は、同じアルゴリズムとデータを共有していますが、エクスペリエンスの構築方法とモデルに必要なトラフィックの量が異なります。
 
 ### 2つのアクティビティタイプの共通点 {#section_2A601F482F9A44E38D4B694668711319}
 
 * **各訪問に対する最適化。** このアルゴリズムは、最適なエクスペリエンスを提供するための訪問者のコンバージョン傾向（またはコンバージョンからの推定収益）を予測します。 訪問者は、既存のセッションの終了時に新しいエクスペリエンスの対象となります。 例外は、コントロールグループの訪問者で、初回訪問時に割り当てられたエクスペリエンスを保持します。 セッション内では、視覚的な一貫性を維持するために、予測は変更されません。
-* **訪問者の行動の変化への適応。** マルチアームドバンディットは、アクティビティの全期間を通じて学習を続け、以前に学習したトレンドの過度な悪用を防ぐために、常に小さなトラフィックを「費やす」ことになります。 最新の訪問者行動データを使用して、24時間ごとに基本モデルを再構築します。 アルゴリズムが個人に対する勝者エクスペリエンスを判断できない場合は、[ トンプソンサンプリング ](https://en.wikipedia.org/wiki/Thompson_sampling)を使用して見つかった全体的に最もパフォーマンスの高いエクスペリエンスを表示し、パーソナライズされた勝者を引き続き探します。
+* **訪問者の行動の変化への適応。** マルチアームドバンディットは、アクティビティの全期間を通じて学習を続け、以前に学習したトレンドの過度な悪用を防ぐために、常に小さなトラフィックを「費やす」ことになります。 最新の訪問者行動データを使用して、24時間ごとに基本モデルを再構築します。 アルゴリズムが個人に対する勝者エクスペリエンスを判断できない場合は、[&#x200B; トンプソンサンプリング &#x200B;](https://en.wikipedia.org/wiki/Thompson_sampling)を使用して見つかった全体的に最もパフォーマンスの高いエクスペリエンスを表示し、パーソナライズされた勝者を引き続き探します。
 * **単一の目標指標。** アルゴリズムは、コンバージョンベースまたは収益ベースの指標（具体的には、**[!UICONTROL 訪問あたりの収益]**）を使用して、1つの指標に対して継続的に最適化します。
 * **自動データ収集。** [!DNL Target] では、訪問者に関する情報を自動的に収集して、パーソナライゼーションモデルを構築します。 使用されるパラメーターについて詳しくは、[Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。
 * **共有オーディエンス。** [!DNL Target] では、[!DNL Adobe Experience Cloud] のすべての共有オーディエンスを自動的に使用して、パーソナライゼーションモデルを構築します。 モデルにオーディエンスを追加するために特別なことをする必要はありません。 [!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)」を参照してください。
-* **カスタムデータ。** マーケターは、オフラインデータや傾向スコアなどのカスタムデータをアップロードして、パーソナライゼーションモデルを構築することができます。 自動ターゲットおよびAutomated Personalization](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)のデータのアップロードについて詳しくは、[を参照してください。
+* **カスタムデータ。** マーケターは、オフラインデータや傾向スコアなどのカスタムデータをアップロードして、パーソナライゼーションモデルを構築することができます。 自動ターゲットおよびAutomated Personalization[&#128279;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)のデータのアップロードについて詳しくは、を参照してください。
 
 ### 2つのアクティビティタイプの違い {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -149,7 +149,7 @@ A/B アクティビティフロー内のこのオプションでは、マシン�
 | | [!UICONTROL 自動ターゲット] | [!UICONTROL Automated Personalization] |
 |---|---|---|
 | **エクスペリエンス定義** | 複数の変更を含めることができるエクスペリエンス全体を定義します。 | 個々のオファーが自動的に組み合わされて、エクスペリエンスが形成されます。 |
-| **[!UICONTROL Visual Experience Composer]の機能** | **[!UICONTROL 自動ターゲット]**&#x200B;はA/B アクティビティワークフローに組み込まれているため、より成熟した本格的なVECからメリットが得られます。 [QA リンク ](/help/main/c-activities/c-activity-qa/activity-qa.md)を使用することもできます。 | カスタムコードエディター、複数のエクスペリエンスオーディエンスなどの機能はサポートされていません。 |
+| **[!UICONTROL Visual Experience Composer]の機能** | **[!UICONTROL 自動ターゲット]**&#x200B;はA/B アクティビティワークフローに組み込まれているため、より成熟した本格的なVECからメリットが得られます。 [QA リンク &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)を使用することもできます。 | カスタムコードエディター、複数のエクスペリエンスオーディエンスなどの機能はサポートされていません。 |
 | **ページの構造的な変更** | より適切な。 例えば、ホームページ上の要素を並べ替えることができます。 | あまり適切でない。 |
 | **エクスペリエンス数** | 1つのエクスペリエンスに複数の変更が含まれる場合があるため、通常は少なくなります。 | エクスペリエンスは、オファーと場所を組み合わせたものであるため、通常はもっと重要です。 |
 | **モデルの構築に必要なトラフィック** | 頻繁に合計より少ない。 | より多い頻度で合計。 |
@@ -158,13 +158,13 @@ A/B アクティビティフロー内のこのオプションでは、マシン�
 
 例えば、**[!UICONTROL Automated Personalization]** アクティビティで、1か所につき2つのオファーと2か所の場所で、アクティビティには合計4つの（2 × 2 = 4）エクスペリエンスがあります（除外なし）。 **[!UICONTROL 自動ターゲット]**&#x200B;では、エクスペリエンス 1を場所1にオファー1を、場所2にオファー2を含めるように設定し、エクスペリエンス 2を場所1にオファー2を、場所2にオファー1を含めるように設定できます。 **[!UICONTROL 自動ターゲット]**&#x200B;では、1つのエクスペリエンス内で複数の変更が可能なので、アクティビティ内のエクスペリエンスの合計数を減らすことができます。
 
-### [!UICONTROL 自動ターゲット ]のトラフィック要件 {#traffic-requirements}
+### [!UICONTROL 自動ターゲット &#x200B;]のトラフィック要件 {#traffic-requirements}
 
 次の経験則は、トラフィック要件を理解するのに役立ちます。
 
-* **[!UICONTROL  コンバージョン ]が成功指標の場合：** 1,000回の訪問と、1日あたりのエクスペリエンスあたりのコンバージョン数が少なくとも50回です。 さらに、アクティビティには7,000件以上の訪問と350件のコンバージョンが必要です。
-* **1訪問あたりの売上高]が成功指標である場合：** 1,000回の訪問と、1日あたりのエクスペリエンスあたりのコンバージョン数が少なくとも50回である場合。 [!UICONTROL さらに、アクティビティには、エクスペリエンスごとに少なくとも1,000回のコンバージョンが必要です。 **[!UICONTROL 訪問あたりの収益]**&#x200B;は、通常、モデルを構築するためにより多くのデータを必要とします。これは、訪問の収益の分散がコンバージョン率よりも高くなることが原因です。
+* **[!UICONTROL &#x200B; コンバージョン &#x200B;]が成功指標の場合：** 1,000回の訪問と、1日あたりのエクスペリエンスあたりのコンバージョン数が少なくとも50回です。 さらに、アクティビティには7,000件以上の訪問と350件のコンバージョンが必要です。
+* **1訪問あたりの売上高が成功指標である場合：** 1,000回の訪問と、1日あたりのエクスペリエンスあたりのコンバージョン数が少なくとも50回である場合。 さらに、アクティビティには、エクスペリエンスごとに少なくとも1,000回のコンバージョンが必要です。 **[!UICONTROL 訪問あたりの収益]**&#x200B;は、通常、モデルを構築するためにより多くのデータを必要とします。これは、訪問の収益の分散がコンバージョン率よりも高くなることが原因です。
 
 **[!UICONTROL 自動ターゲット]**&#x200B;は、広範なオンライン テスト フレームワークも提供します。 マルチアームドバンディットは、[!DNL Adobe]人のデータサイエンティストと研究者が現実世界の状況における継続的な改善の利点を理解できるようにする、より大規模なオンラインテストフレームワークの一部です。 将来的には、このテストベッドにより、[!DNL Adobe]はデータに精通した顧客に機械学習プラットフォームを開くことができるようになり、顧客は独自のモデルを取り込んで[!DNL Target] モデルを拡張できるようになります。
 
-レポートについて詳しくは、[ レポートと自動ターゲット ](/help/main/c-activities/auto-target/reporting-and-auto-target.md)を参照してください。
+レポートについて詳しくは、[&#x200B; レポートと自動ターゲット &#x200B;](/help/main/c-activities/auto-target/reporting-and-auto-target.md)を参照してください。

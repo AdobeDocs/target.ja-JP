@@ -1,7 +1,7 @@
 ---
 keywords: 自動ターゲティング；ターゲティング；トラフィック配分；よくある質問；faq；トラブルシューティング；トラブルシューティング；レポート；レポート；自動ターゲティング概要レポート；概要レポート；自動セグメント；重要な属性
-description: '[!DNL Target]の[!UICONTROL 自動ターゲット ] アクティビティレポートの解釈方法について説明します。'
-title: '[!UICONTROL 自動ターゲット ] レポートを解釈するにはどうすればよいですか？'
+description: '[!DNL Target]の[!UICONTROL 自動ターゲット &#x200B;] アクティビティレポートの解釈方法について説明します。'
+title: '[!UICONTROL 自動ターゲット &#x200B;] レポートを解釈するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
@@ -47,4 +47,4 @@ ht-degree: 14%
 | [自動セグメントレポート](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | **[!UICONTROL 自動セグメント]** レポートは、**[!UICONTROL 自動ターゲット]** アクティビティのオファーとエクスペリエンスに対して、異なる訪問者がどのように異なる反応を示すかを示します。 [!DNL Target]のパーソナライゼーションモデルで定義された自動セグメントが、アクティビティ内のオファーとエクスペリエンスにどのように反応したかを示します。 |
 | [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | **[!UICONTROL 重要な属性]** レポートは、異なるアクティビティにおいて、モデルがパーソナライズを決定する際に、異なる属性が多かれ少なかれ重要であることを示しています。 モデルに影響を与えた上位の属性と、その相対的な重要度が表示されます。 |
 
-一般的なレポートの情報については、[ レポート ](/help/main/c-reports/reports.md)を参照してください。
+一般的なレポートの情報については、[&#x200B; レポート &#x200B;](/help/main/c-reports/reports.md)を参照してください。

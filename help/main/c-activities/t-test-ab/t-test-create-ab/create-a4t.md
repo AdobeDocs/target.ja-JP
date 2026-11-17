@@ -49,7 +49,7 @@ Analytics for Target （A4T）は、[!DNL Adobe Target] アクティビティの
 
 レポートソースは、アクティビティの&#x200B;**[!UICONTROL 目標と設定]** ページで選択されます。 このページでは、[!DNL Target] アクティビティデータを受け取る[!DNL Analytics]会社とレポートスイートを選択し、トラッキングサーバーを確認します。
 
-➡️手順、レポートスイートの要件、トラッキングサーバーの詳細については、[ レポート Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source)を参照してください。
+➡️手順、レポートスイートの要件、トラッキングサーバーの詳細については、[&#x200B; レポート Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source)を参照してください。
 
 [!DNL Analytics]がレポートソースの場合、アクティビティには、レポート用のオーディエンスを設定するオプションはありません。 [!DNL Analytics] セグメントは、代わりに[!DNL Target] **[!UICONTROL アクティビティ]** レポートで利用できます。
 

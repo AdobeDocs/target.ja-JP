@@ -49,13 +49,13 @@ ht-degree: 11%
 
 **[!UICONTROL Automated Personalization]** アクティビティを構築する際、**[!UICONTROL Traffic Estimator]**&#x200B;を使用すると、パーソナライズされたモデルを準備するのに十分なトラフィックがあるかどうかを確認できます。 アクティビティを開始する前にこのチェックを実行すると、パーソナライズされたコンテンツを配信するのに十分な訪問者にリーチできないテストを回避できます。また、トラフィックが十分でない場合に、オファーの組み合わせ数やアクティビティの期間を調整する方法を表示します。
 
-1. **[!UICONTROL Automated Personalization]** アクティビティから、**[!UICONTROL Visual Experience Composer]の&#x200B;**[!UICONTROL Experiences]** ページにアクセスします。
+1. **[!UICONTROL Automated Personalization]** アクティビティから、**[!UICONTROL Visual Experience Composer]の&#x200B;**&#x200B;[!UICONTROL Experiences]** ページにアクセスします。
 
-1. 「**[!UICONTROL トラフィック]**」アイコン（![ トラフィック見積もりアイコン ](/help/main/assets/icons/Gauge2.svg)）をクリックします。
+1. 「**[!UICONTROL トラフィック]**」アイコン（![&#x200B; トラフィック見積もりアイコン &#x200B;](/help/main/assets/icons/Gauge2.svg)）をクリックします。
 
    **[!UICONTROL Traffic Estimator]**&#x200B;が開きます。 ウィンドウを終了するには、もう一度アイコンをクリックします。
 
-   ![Traffic Estimator ユーザーインターフェイス ](assets/ap-est.png)
+   ![Traffic Estimator ユーザーインターフェイス &#x200B;](assets/ap-est.png)
 
 1. 一般的なコンバージョン率（またはこのアクティビティから期待されるコンバージョン率）、1日あたりの推定アクティビティインプレッション数、およびテスト期間を指定します。
 
@@ -78,7 +78,7 @@ ht-degree: 11%
 
 1. 十分なトラフィックがない場合は、次のオプションを検討してください。
 
-   * **[!UICONTROL Automated Personalization]**&#x200B;ではなく[**[!UICONTROL 自動ターゲット ]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを使用して、1つのエクスペリエンスのバリエーションで複数のオファーの変更を含むエクスペリエンスを作成します。
+   * **[!UICONTROL Automated Personalization]**&#x200B;ではなく[**[!UICONTROL 自動ターゲット &#x200B;]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを使用して、1つのエクスペリエンスのバリエーションで複数のオファーの変更を含むエクスペリエンスを作成します。
    * **[!UICONTROL Automated Personalization]** アクティビティ内のオファーの組み合わせ数を減らします。
    * アクティビティの実行期間を長くします。
 
@@ -86,4 +86,4 @@ ht-degree: 11%
 
    トラフィックが十分な場合は、**[!UICONTROL トラフィック]** アイコンに緑色のチェックが表示されます。 トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
 
-   十分なトラフィック メッセージを示す![ トラフィック見積もり](assets/ap-est-yes.png)
+   十分なトラフィック メッセージを示す![&#x200B; トラフィック見積もり](assets/ap-est-yes.png)
