@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
+source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 49%
@@ -119,7 +119,7 @@ ht-degree: 49%
 **時間枠が小さく、テスト中に目標に合わせて最適化できる場合に、アクティビティを実行するにはどうすればよいですか？**
 
 +++詳細を見る
-[&#x200B; レポートを参照して、勝者エクスペリエンスを決定してください](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9)。
+[&#x200B; レポートを参照して、勝者エクスペリエンスを決定してください](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports)。
 
 +++
 
@@ -264,7 +264,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 **訪問者数が比較的少ない場合でも、アクティビティを開始できますか？**
 
 +++詳細を見る
-Target 3部構成のガイド付きワークフロー（ターゲティングページ） [&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)の ステップ 2で使用可能な割り当て率コントロールを使用して、アクティビティの設定方法を決定します。
+Target 3部構成のガイド付きワークフロー（ターゲティングページ） [&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience)の ステップ 2で使用可能な割り当て率コントロールを使用して、アクティビティの設定方法を決定します。
 
 +++
 
@@ -339,7 +339,7 @@ Target 3部構成のガイド付きワークフロー（ターゲティングペ
 **一律割引とパーセンテージ割引など、2 種類のエクスペリエンスをテストしたいのですが、エクスペリエンスのターゲットを適切に設定する必要があります（違う国のユーザーには違うロケールのテキストや通貨を表示するなど）。 これはどうすれば設定できますか？**
 
 +++詳細を見る
-その場合、[複数のエクスペリエンスバージョン機能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)を使用すると簡単に設定できます。 このようなテストでは、配信に関する細かな違いに注意してください。
+その場合、[複数のエクスペリエンスバージョン機能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case)を使用すると簡単に設定できます。 このようなテストでは、配信に関する細かな違いに注意してください。
 
 +++
 

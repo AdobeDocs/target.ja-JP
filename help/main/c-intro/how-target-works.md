@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -106,7 +106,7 @@ Targetは、[!DNL Experience Platform Web SDK]またはat.jsを使用してWeb �
 
 [!UICONTROL 自動割り当て]は、2つ以上のオプションの中から勝者エクスペリエンスを特定します。 そして、より多くのトラフィックが勝者に自動的に再配分され、テストの実行と学習を続けることでコンバージョンが増加します。
 
-詳しくは、[[!UICONTROL 自動割り当て]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。
+詳しくは、[[!UICONTROL 自動割り当て]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)を参照してください。
 
 ### [!UICONTROL 自動ターゲット &#x200B;] （AT）
 
@@ -118,7 +118,7 @@ Targetは、[!DNL Experience Platform Web SDK]またはat.jsを使用してWeb �
 
 [!UICONTROL Automated Personalization] （AP）は、オファーまたはメッセージを組み合わせ、高度な機械学習を使用して、各訪問者に対して異なるバリエーションを一致させます。 APは、個々の顧客プロファイルにもとづいてコンテンツをパーソナライズし、売上を向上させます。
 
-詳しくは、[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)を参照してください。
+詳しくは、[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)を参照してください。
 
 ### [!UICONTROL エクスペリエンスのターゲット設定]（XT）
 

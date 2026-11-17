@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 79%
@@ -65,7 +65,7 @@ ht-degree: 79%
 
 ### 自動配分
 
-* [自動配分の概要](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [自動配分の概要](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#faq)
 
 ### 自動ターゲット
 

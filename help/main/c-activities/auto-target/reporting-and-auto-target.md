@@ -26,21 +26,25 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 90943644c64269a8f34b79cf1b6dac35ffd57bb2
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 21%
+source-wordcount: '247'
+ht-degree: 14%
 ---
-# レポートと[!UICONTROL 自動ターゲット]
+# レポートと[!UICONTROL 自動ターゲット] {#reporting-and-auto-target}
 
-[!UICONTROL 自動セグメント &#x200B;]と[!UICONTROL 重要な属性] レポートを含む、[!DNL Adobe Target]の[!UICONTROL 自動ターゲット概要] レポートの解釈方法に関する情報。
+>[!BEGINSHADEBOX]
 
-各レポートについて詳しくは、次のトピックを参照してください。
+**このページ：**&#x200B;どのレポートが&#x200B;**[!UICONTROL 自動ターゲット]** アクティビティの結果の解釈に役立つかを説明します。
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]には、**[!UICONTROL 自動ターゲット]** アクティビティの結果を解釈するための3つのレポートが用意されています。**[!UICONTROL 自動ターゲットの概要]** レポート、**[!UICONTROL 自動セグメント]** レポート、**[!UICONTROL 重要な属性]** レポートです。 各レポートについて詳しくは、次のトピックを参照してください。
 
 | レポート | 詳細 |
 | --- | --- |
-| [自動ターゲット概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | [!UICONTROL 自動ターゲットサマリー] レポートでは、レポート指標をテーブルビューまたはグラフビューで表示できます。<P>このレポートでは、[!UICONTROL 訪問]、[!UICONTROL &#x200B; コンバージョン率]、[!UICONTROL 平均上昇率と信頼区間]、[!UICONTROL 信頼度]の指標を確認できます。 |
-| [自動セグメントレポート](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | [!UICONTROL 自動セグメント &#x200B;] レポートは、[!UICONTROL 自動ターゲット &#x200B;] アクティビティのオファー/エクスペリエンスに対して、異なる訪問者がどのように異なる反応を示すかを示します。 このレポートでは、[!DNL Target]のパーソナライゼーションモデルによって定義されたさまざまな自動セグメントが、アクティビティ内のオファー/エクスペリエンスに対してどのように応答したかを示します。 |
-| [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | [!UICONTROL 重要な属性] レポートは、異なるアクティビティにおいて、モデルがパーソナライズを決定する際に、異なる属性が多かれ少なかれ重要であることを示しています。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。 |
+| [自動ターゲット概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | **[!UICONTROL 自動ターゲットサマリー]** レポートでは、レポート指標をテーブルビューまたはグラフビューで表示できます。<P>このレポートでは、**[!UICONTROL 訪問]**、**[!UICONTROL コンバージョン率]**、**[!UICONTROL 平均上昇率と信頼区間]**、**[!UICONTROL 信頼度]**&#x200B;の指標を確認できます。 |
+| [自動セグメントレポート](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | **[!UICONTROL 自動セグメント]** レポートは、**[!UICONTROL 自動ターゲット]** アクティビティのオファーとエクスペリエンスに対して、異なる訪問者がどのように異なる反応を示すかを示します。 [!DNL Target]のパーソナライゼーションモデルで定義された自動セグメントが、アクティビティ内のオファーとエクスペリエンスにどのように反応したかを示します。 |
+| [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | **[!UICONTROL 重要な属性]** レポートは、異なるアクティビティにおいて、モデルがパーソナライズを決定する際に、異なる属性が多かれ少なかれ重要であることを示しています。 モデルに影響を与えた上位の属性と、その相対的な重要度が表示されます。 |
 
 一般的なレポートの情報については、[&#x200B; レポート &#x200B;](/help/main/c-reports/reports.md)を参照してください。

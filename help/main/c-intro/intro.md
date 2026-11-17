@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -125,7 +125,7 @@ ht-degree: 68%
 
 ### [!UICONTROL Automated Personalization]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) （AP）は、高度なマシンラーニングアルゴリズムを使用して、パーソナライズされたエクスペリエンスを提供し、デジタルインタラクションのコンバージョン率を向上させます。
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) （AP）は、高度なマシンラーニングアルゴリズムを使用して、パーソナライズされたエクスペリエンスを提供し、デジタルインタラクションのコンバージョン率を向上させます。
 
 APは訪問者のアクティビティを記録し、プロファイルを構築して、類似する訪問者にコンテンツをターゲットにします。 APは、個人や人口向けのコンテンツへの反応を追跡し、高度なモデリングを使用して、訪問者について知られているあらゆる情報に基づいて各訪問者を自動的にターゲティングします。
 

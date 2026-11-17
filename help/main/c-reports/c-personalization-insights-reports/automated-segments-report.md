@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 56%
@@ -58,7 +58,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 ## セグメントの自動作成レポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL アクティビティ]**&#x200B;をクリックし、リストから目的の[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)または[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをクリックします。
+1. **[!UICONTROL アクティビティ]**&#x200B;をクリックし、リストから目的の[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)または[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをクリックします。
 
    アクティビティが多い場合は、フィルター（![&#x200B; フィルターアイコン &#x200B;](/help/main/assets/icons/Filter.svg)）アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL 指標タイプ &#x200B;]、[!UICONTROL Activity Source] ドロップダウンリストからオプションを選択して、リストをフィルタリングします。
 

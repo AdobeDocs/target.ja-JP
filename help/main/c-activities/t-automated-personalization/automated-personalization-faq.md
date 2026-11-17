@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 23%
@@ -74,7 +74,7 @@ ht-degree: 23%
     * 選択した場所は、成功指標には影響しません。
     * 最適化の目標がコンバージョン funnel内にあまりにも遠いため、選択したオファーの影響を受けません。
 
-* [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)を使用して、パーソナライゼーションモデルが[!UICONTROL Automated Personalization] アクティビティで構築されるまでにかかる時間を把握できるようにします。
+* [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator)を使用して、パーソナライゼーションモデルが[!UICONTROL Automated Personalization] アクティビティで構築されるまでにかかる時間を把握できるようにします。
 * 目標をもとに、コントロールとターゲットを設定し、アクティビティを開始する前に割り当てを決定します。
 
   アクティビティの目標と選択したコントロールのタイプに基づいて、考慮すべき3つのシナリオがあります。
@@ -162,7 +162,7 @@ ht-degree: 23%
 
 +++詳細を見る
 
-通常、モデルがアクティビティを構築するのにかかる時間は、選択したアクティビティの場所へのトラフィックとアクティビティの成功指標によって異なります。 [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)を使用して、モデルがアクティビティを構築するのにかかる予想期間を決定します。
+通常、モデルがアクティビティを構築するのにかかる時間は、選択したアクティビティの場所へのトラフィックとアクティビティの成功指標によって異なります。 [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator)を使用して、モデルがアクティビティを構築するのにかかる予想期間を決定します。
 
 +++
 

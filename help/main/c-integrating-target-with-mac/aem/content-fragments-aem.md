@@ -1,7 +1,7 @@
 ---
 keywords: エクスペリエンス;json;AEM;Adobe Experience Manager;Adobe Target への書き出し;コンテンツフラグメント;フラグメント;CF;cf;ヘッドレス;パーソナライゼーション;実験
-description: ' [!DNL Adobe Target]  アクティビティで [!DNL Adobe Experience Manager] [!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用する方法について説明します。'
-title: ' [!DNL Adobe Experience Manager]  （AEM） [!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]の使用方法を教えてください。'
+description: '[!DNL Adobe Target]のアクティビティで[!DNL Adobe Experience Manager] [!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用する方法について説明します。'
+title: '[!DNL Adobe Experience Manager] （AEM） [!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]の使用方法を教えてください。'
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '777'
 ht-degree: 20%
-
 ---
-
 # AEM [!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]
 
 [!DNL Target]件のアクティビティで[!DNL Adobe Experience Manager] （AEM）で作成された[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;] （CF）を使用して、ヘッドレスのパーソナライゼーションと実験を支援します。
@@ -40,16 +38,16 @@ ht-degree: 20%
 * この機能を使用するには、[!DNL Adobe Experience Manager as a Cloud Service] の顧客である必要があります。 詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
 * [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、次のアクティビティタイプで使用できます。
 
-   * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL 自動ターゲット]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization]（AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL エクスペリエンスのターゲット設定]（XT）](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL 自動ターゲット]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization]（AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL エクスペリエンスのターゲット設定]（XT）](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、次のアクティビティタイプでは使用できません。
 
-   * [[!UICONTROL 多変量分析テスト] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL レコメンデーション]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL 多変量分析テスト] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL レコメンデーション]](/help/main/c-recommendations/recommendations.md)
 
 * [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)のみを使用して、[!DNL Target]のアクティビティで[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用できます。 [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target] アクティビティで&#x200B;*コンテンツフラグメント*&#x200B;が[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用できません。
 
@@ -87,7 +85,7 @@ AEM [!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]および[!U
 >
 >[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]で人工知能、機械学習、レコメンデーションを使用：
 >
->* [!DNL Target]のAIおよびML機能を完全に使用するには、[!UICONTROL A/B テスト &#x200B;] アクティビティの作成中に[自動割り当て](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)または[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を選択できます。
+>* [!DNL Target]のAIおよびML機能を完全に使用するには、[!UICONTROL A/B テスト &#x200B;] アクティビティの作成中に[自動割り当て](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)または[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を選択できます。
 >
 >* [!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、[!DNL Recommendations]のアクティビティではサポートされていません。 ただし、レコメンデーションに[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]を使用するには、[!UICONTROL A/B テスト &#x200B;] アクティビティ（[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット &#x200B;]を含む）または[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティを作成し、[&#x200B; レコメンデーションをオファー](/help/main/c-recommendations/recommendations-as-an-offer.md)として含めることができます。
 

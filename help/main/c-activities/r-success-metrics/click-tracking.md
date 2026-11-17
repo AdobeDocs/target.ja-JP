@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6c83bb52aabc3441ee9c8caf02988dc5c227d837
+source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 87%
+source-wordcount: '1004'
+ht-degree: 73%
 ---
 # クリックの追跡 {#click-tracking}
 
@@ -42,15 +42,15 @@ ht-degree: 87%
 >
 >クリックの追跡は、グローバル [!DNL Target] リクエストがフォームベースのアクティビティの場所として使用される場合はサポートされません。
 
-* [クリックの追跡のセットアップ](#section_5540C5A533114E57BAE022A600B02E72)
-* [選択された要素パネル](#selected-elements)
-* [考慮事項](#considerations)：要素の選択、クリック数のカウント方法、Analyticsとat.js、および制限
-
 ## クリックの追跡のセットアップ {#section_5540C5A533114E57BAE022A600B02E72}
+
+クリック数の追跡は、コンバージョン成功指標の一種です。 選択したページ要素に対してアクティビティ参加者がクリックした回数をカウントするので、訪問者がそれらの要素にどのようにエンゲージしているかを測定できます。 リンク、ボタン、画像など、ページのあらゆる要素を追跡できます。
 
 1. アクティビティの&#x200B;**[!UICONTROL 目標と設定]** ページで目標を設定する際に、**[!UICONTROL コンバージョン]**&#x200B;成功指標を選択します。
 
 1. アクションについて、「**[!UICONTROL 要素をクリック]**」を選択し、「**[!UICONTROL 要素を選択]**」をクリックします。
+
+   ![要素が選択されました](../assets/click-tracking-1.png)
 
    **[!UICONTROL Visual Experience Composer]**（VEC）でページが開きます。
 
@@ -60,15 +60,19 @@ ht-degree: 87%
 
 1. 画面上部の「**[!UICONTROL 完了]**」をクリックして、選択内容を保存します。
 
+   **[!UICONTROL 目標と設定]** ページの目標指標には、選択した要素の数が表示されます。 その上にマウスポインターを置くと、要素が表示されます。
+
+   ![要素が選択されました](../assets/click-tracking-2.png)
+
 選択した要素をアクティビティ参加者がクリックすると、そのクリックはコンバージョンとしてカウントされます。
 
 ## 選択された要素パネル {#selected-elements}
 
 **[!UICONTROL A/B テスト]**、**[!UICONTROL エクスペリエンスのターゲット設定]**（XT）、**[!UICONTROL Automated Personalization]**（AP）、**[!UICONTROL 多変量分析テスト]**（MVT）アクティビティの場合、**[!UICONTROL 選択された要素]**&#x200B;パネルには、左側のクリックの追跡用に選択した要素が一覧表示されます。
 
-![選択された要素パネル](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
+![選択された要素パネル](../assets/click-tracking-3.png)
 
-**[!UICONTROL Tracked Components]** パネルで要素をクリックすると、いくつかのアクションを適用できます。 以下の表で、要素で実行できる各操作を説明します。
+**[!UICONTROL 選択した要素]** パネルで要素をクリックすると、いくつかのアクションを適用できます。 以下の表で、要素で実行できる各操作を説明します。
 
 | アクション | 説明 |
 | --- | --- |
@@ -80,19 +84,17 @@ ht-degree: 87%
 
 セレクターへの DOM パスが既にわかっている場合は、パネルの上部にある「**[!UICONTROL コンポーネントを追加]**」アイコンをクリックして、手動で追加できます。
 
-![&#x200B; コンポーネントアイコンを追加](/help/main/c-activities/r-success-metrics/assets/add-element.png)
+![&#x200B; コンポーネントアイコンを追加](../assets/click-tracking-4.png)
 
 ## 注意点 {#considerations}
 
-クリックトラッキングを設定する際には、次の点を考慮してください。
-
 ### 要素を選択
 
-* DOM パス機能は、クリックの追跡を設定するときに使用できます。 ページで要素をクリックすると、VEC オプションメニューが表示されます。 また、対応する DOM パスがページの下部に表示されます。 DOM パスを使用すると、選択した要素に関する情報（タイプ、ID、クラス）をすばやく確認したり、DOM パスを上下に移動して目的の要素を選択したりできます。
+* エレメントをクリックすると、VEC オプションメニューが表示され、エレメントのDOM パスがページの下部に表示されます。 DOM パスを使用して、要素（タイプ、ID、およびクラス）に関する情報を表示し、パスを上下に移動して、目的の要素を選択します。
 
-  アクティビティ作成ワークフローのステップ 1 でエクスペリエンスを作成するときと同様に、ページ下部の DOM パスセレクターで要素を選択できます。 DOM パスから要素を選択すると、VEC 内の対応する要素が「選択済み」と表示されます。 選択した要素の選択を解除するには、DOM パスセレクターの要素を再度クリックするか、VEC 内の「選択済み」ボックスをクリックします。
+  DOM パスで選択した要素は、VECで&#x200B;**[!UICONTROL Selected]**&#x200B;と表示されます。 選択を解除するには、DOM パスで再度クリックするか、VECの&#x200B;**[!UICONTROL Selected]** ボックスをクリックします。
 
-  ![DOM パス セレクター](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+  ![DOM パス セレクター](../assets/click-tracking-5.png)
 
   詳しくは、*Visual Experience Composer のオプション*&#x200B;の [DOM パスを使用した要素のナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。
 
@@ -100,10 +102,6 @@ ht-degree: 87%
 * 追跡する要素のレベルを選択していることを確認してください。 例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。 各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。 ページ上の複数の要素をクリックして 1 つの項目をカウントするには、CSS 要素セレクターを編集して複数の要素と一致させます。
 * **[!UICONTROL Automated Personalization]**（AP）およびシングルページアプリケーション（SPA）上の自動ターゲットアクティビティの場合、特定の [!DNL Target] ビューに属するクリックの追跡用の要素を選択できます。 ビューについて詳しくは、[Adobe Target ビューとシングルページアプリケーション](/help/main/c-experiences/spa-visual-experience-composer.md)を参照してください。
-
-**[!UICONTROL 完了]**&#x200B;をクリックすると、選択した要素の数が&#x200B;**[!UICONTROL 目標と設定]** ページの目標指標に表示されます。 その上にマウスポインターを置くと、選択した要素が表示されます。
-
-![要素が選択されました](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ### クリック数のカウント方法
 

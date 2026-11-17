@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
+source-git-commit: 4c4ef48f9849069a6a525d167bc42c933fd0b156
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1285'
 ht-degree: 84%
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 84%
     + [自動配分の概要](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
     + [自動配分アクティビティの作成](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
     + [自動配分レポートの解釈](c-activities/automated-traffic-allocation/determine-winner.md)
-    + [自動配分を使用すると、手動テストよりも迅速にテスト結果を入手し、売上高を増やすことができます](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+    + [自動配分が手動テストよりも優れている方法](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
   + 自動ターゲット {#auto-target}
     + [自動ターゲットの概要](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     + [自動ターゲットアクティビティの作成](/help/main/c-activities/auto-target/create-auto-target.md)

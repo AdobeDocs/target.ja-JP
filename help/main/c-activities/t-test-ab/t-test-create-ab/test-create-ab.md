@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 10%
@@ -143,7 +143,7 @@ ht-degree: 10%
    | メソッド | 機能 |
    |---|---|
    | **[!UICONTROL 手動（既定）]** | 各エクスペリエンスを表示する参加者の割合を指定します。 この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。 全エクスペリエンスの合計が 100％になるようにします。 |
-   | **[!UICONTROL 最適なエクスペリエンスに自動割り当て]** | 多くのアクティビティ参加者は、パフォーマンスの高いエクスペリエンスに自動的に誘導されます。 一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。 詳しくは、[**[!UICONTROL 自動割り当て&#x200B;]**&#x200B;の概要](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。 |
+   | **[!UICONTROL 最適なエクスペリエンスに自動割り当て]** | 多くのアクティビティ参加者は、パフォーマンスの高いエクスペリエンスに自動的に誘導されます。 一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。 詳しくは、[**[!UICONTROL 自動割り当て&#x200B;]**&#x200B;の概要](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)を参照してください。 |
    | **[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]** | [!DNL Target]は、高度な機械学習を使用して、コンテンツをパーソナライズし、コンバージョンを促進します。複数の効果的なマーケター定義エクスペリエンスを特定し、個々の顧客プロファイルと類似する訪問者の過去の行動に基づいて、訪問者に最もカスタマイズされたエクスペリエンスを提供します。 詳しくは、[自動ターゲットの概要](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。 |
 
    +++

@@ -32,22 +32,28 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 52%
+source-wordcount: '2038'
+ht-degree: 50%
 ---
-# [!DNL Target]個の機械学習アルゴリズムで使用されるデータ
+# [!DNL Target]個の機械学習アルゴリズムで使用されるデータ {#ap-data}
 
-[!DNL Adobe Target]は、様々なデータを自動的に収集して使用し、[!UICONTROL Automated Personalization] （AP）および[!UICONTROL 自動ターゲット &#x200B;] （AT）アクティビティでパーソナライゼーションアルゴリズムを構築します。 訪問者が[!UICONTROL Automated Personalization]または[!UICONTROL 自動ターゲット &#x200B;] アクティビティにエントリすると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムが学習する訪問者データ）のセットに渡されます。
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、[!DNL Target]がデフォルトで収集するデータと、**[!UICONTROL Automated Personalization]**&#x200B;および&#x200B;**[!UICONTROL 自動ターゲット]** アクティビティのパーソナライゼーションモデルを構築するために提供できるカスタムデータについて説明します。
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]は、様々なデータを自動的に収集して使用し、**[!UICONTROL Automated Personalization]** （AP）および&#x200B;**[!UICONTROL 自動ターゲット]** （AT）アクティビティでパーソナライゼーションアルゴリズムを構築します。 訪問者が&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;または&#x200B;**[!UICONTROL 自動ターゲット]** アクティビティにエントリすると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムが学習する訪問者データ）のセットに渡されます。
 
 [!DNL Target] パーソナライゼーション アルゴリズムについて詳しくは、[&#x200B; ランダム フォレスト アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
 
 ## 既定の[!DNL Target]属性カテゴリ
 
-次の表は、[!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティによって収集されたデータをデフォルトで示しています。ただし、[!DNL Target]またはその他の[!DNL Adobe] ソリューションは含まれていません。 このテーブルには、[Personalization インサイトレポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)でこれらの属性を示すために使用される命名規則も含まれています。 入力データセットはいつでも増やすことができます。 追加のデータをアップロードする方法について詳しくは、 [!DNL Target]  パーソナライゼーションアルゴリズム [&#128279;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)の データのアップロードを参照してください。
+次の表は、**[!UICONTROL Automated Personalization]**&#x200B;および&#x200B;**[!UICONTROL 自動ターゲット]** アクティビティによって収集されたデータをデフォルトで示しています。ただし、[!DNL Target]またはその他の[!DNL Adobe] ソリューションは含まれていません。 このテーブルには、[Personalization インサイトレポート &#x200B;](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)でこれらの属性を示すために使用される命名規則も含まれています。 入力データセットはいつでも増やすことができます。 追加のデータをアップロードする方法について詳しくは、 [!DNL Target]  パーソナライゼーションアルゴリズム [&#128279;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)の データのアップロードを参照してください。
 
-| データカテゴリ | システム接頭辞 | 説明 | [!UICONTROL &#x200B; インサイト &#x200B;] レポートの表示名 |
+| データカテゴリ | システム接頭辞 | 説明 | **[!UICONTROL インサイト]** レポートの表示名 |
 | --- | --- | --- | --- |
 | 環境パラメーター | ENV | オペレーティングシステム、ブラウザー、時間帯など、ユーザーの環境に関する情報。 | ブラウザー – [属性名]<br> オペレーティングシステム - [値] |
 | 地域 | 地域 | IP ルックアップを介して取得されたユーザーの地理情報。 | 地域 – [地理属性] |
@@ -57,9 +63,9 @@ ht-degree: 52%
 
 ## カスタム [!DNL Target]属性カテゴリ
 
-次の表は、[!UICONTROL Automated Personalization]および[!UICONTROL 自動ターゲット &#x200B;] アクティビティによって収集されたお客様が提供したデータを示しています。 このデータは、お客様が提供した場合にのみ収集されます。 特定の属性名とサンプル値は、システム設定に固有です。
+次の表は、**[!UICONTROL Automated Personalization]**&#x200B;および&#x200B;**[!UICONTROL 自動ターゲット]** アクティビティによって収集されたお客様が提供したデータを示しています。 このデータは、お客様が提供した場合にのみ収集されます。 特定の属性名とサンプル値は、システム設定に固有です。
 
-| データカテゴリ | システム接頭辞 | 説明 | [!UICONTROL &#x200B; インサイト &#x200B;] レポートの表示名 |
+| データカテゴリ | システム接頭辞 | 説明 | **[!UICONTROL インサイト]** レポートの表示名 |
 | --- | --- | --- | --- |
 | ページのパラメーター | ボックス | カスタムページパラメーター（「mbox パラメーター」）が[!DNL Target]への呼び出しに渡されました。 | カスタム - Mbox パラメーター – [ パラメーター名] |
 | [!DNL Target] プロファイル | PRO | カスタムプロファイル属性は、APIまたはページパラメーターと[!DNL Target] プロファイルスクリプトを使用して、[!DNL Target] プロファイルに直接アップロードされます。 | カスタム – 訪問者プロファイル - [属性名] |
@@ -67,12 +73,11 @@ ht-degree: 52%
 | URL パラメーター | URL | URLと、現在表示されているページのURL パラメーター。 | カスタム - URL パラメーター – [URL パラメーター] |
 | 参照 URL | REF | 参照URLと、参照URLのURL パラメーター。 | カスタム - [参照URL パラメーター] - [ パラメーター値] |
 | [!DNL Adobe Experience Cloud]個の共有オーディエンス | AAM | 他の[!DNL Adobe Experience Cloud] ソリューション （[!DNL Adobe Audience Manager]および[!DNL Adobe Analytics]など、[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target=_blank}経由）から[!DNL Target]と共有されたすべてのオーディエンス。 | カスタム - Experience Cloud オーディエンス - [ オーディエンス名] |
-| [!DNL Adobe Experience Platform Real-time CDP]人のオーディエンス | UPS | [!UICONTROL 宛先]を介して[!DNL Target]と共有されたPlatform Real-Time CDP オーディエンス。 |  |
-
+| [!DNL Adobe Experience Platform Real-time CDP]人のオーディエンス | UPS | **[!UICONTROL 宛先]**&#x200B;を介して[!DNL Target]と共有されたPlatform Real-Time CDP オーディエンス。 |  |
 
 ## [!DNL Target]個の機械学習アルゴリズムの機能をブロック中
 
-[!DNL Target]個のマシンラーニングアルゴリズムから機能をブロックして、[!UICONTROL Automated Personalization]または[!UICONTROL 自動ターゲット &#x200B;]のモデルまたはアクティビティで使用できないようにすることができます。
+[!DNL Target]個のマシンラーニングアルゴリズムから機能をブロックして、**[!UICONTROL Automated Personalization]**&#x200B;または&#x200B;**[!UICONTROL 自動ターゲット]**&#x200B;のモデルまたはアクティビティで使用できないようにすることができます。
 
 詳しくは、*[!DNL Adobe Target]開発者ガイド*&#x200B;の「[&#x200B; モデル API （ブロックリストへの登録）の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank}」を参照してください。
 
@@ -105,10 +110,10 @@ ht-degree: 52%
 | Browser - Timezone | 訪問者がアクティビティにアクセスしたときのタイムゾーン。 | Pacific Time<br>Eastern Time<br>GMT | ENV_BrowserTimezoneOffsetMinutes |
 | Browser - Type | 訪問者がアクティビティへのアクセスに使用したブラウザーのタイプ。 | [!DNL Chrome]<br>[!DNL Firefox]<br>[!DNL Internet Explorer]<br>[!DNL Safari]<br>その他 | ENV_Browser |
 | Browser - Weekday/Weekend | 訪問者がアクティビティにアクセスしたときの作業ステータス（週末、勤務時間、平日の自由時間）。 | 土曜日と日曜日は週末です<br>月曜日から金曜日の0900 - 1800は作業時間です<br>1800年以降の月曜日から金曜日の0900までは平日の自由時間です | ENV_UserHourType |
-| Browser - Window Height (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザーウィンドウの高さ（ピクセル単位）。 | 1、2、3など， | ENV_BrowserHeight |
-| Browser - Window Width (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザーウィンドウの幅（ピクセル単位）。 | 1、2、3など， | ENV_BrowserWidth |
-| デバイス – 画面の高さ（px） | 訪問者がアクティビティへのアクセスに使用したデバイスの画面の高さ。 | 1、2、3など， | ENV_ScreenHeight |
-| デバイス – スクリーン幅（px） | 訪問者がアクティビティへのアクセスに使用したデバイスの画面の幅。 | 1、2、3など， | ENV_ScreenWidth |
+| Browser - Window Height (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザーウィンドウの高さ（ピクセル単位）。 | 1、2、3など。 | ENV_BrowserHeight |
+| Browser - Window Width (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザーウィンドウの幅（ピクセル単位）。 | 1、2、3など。 | ENV_BrowserWidth |
+| デバイス – 画面の高さ（px） | 訪問者がアクティビティへのアクセスに使用したデバイスの画面の高さ。 | 1、2、3など。 | ENV_ScreenHeight |
+| デバイス – スクリーン幅（px） | 訪問者がアクティビティへのアクセスに使用したデバイスの画面の幅。 | 1、2、3など。 | ENV_ScreenWidth |
 | オペレーティングシステム | 訪問者がアクティビティへのアクセスに使用したデバイスのオペレーティングシステム。 | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br>検索ボット <br>不明なOS | ENV_OperatingSystem |
 | Operating System - Version | 訪問者がアクティビティへのアクセスに使用したオペレーティングシステムのバージョン。 | [!DNL Windows] 10<br>[!DNL Mac OS] 10 | ENV_OperatingSystemVersion |
 | トラフィックソース - 参照元ランディングページ URL | サイトにアクセスした際に訪問者が見た最初のページ。 | `https://www.adobe.com/ecloud.html` | ENV_Referrer |
@@ -135,7 +140,7 @@ ht-degree: 52%
 | --- | --- | --- | --- |
 | Visitor Profile - Activity Lifetime Order Value | 特定のアクティビティに対するすべての訪問／セッションのすべての注文の値の合計を指定します。 | ダブル | SES_CUMULATIVE_ORDER_VALUE |
 | Visitor Profile - Activity Lifetime Time on Site | 訪問者のサイトでの合計滞在時間を指定します（現在のセッションを除く）。セッションの有効期限が切れると更新されます。 | ダブル、ミリ秒 | SES_TOTAL_TIME |
-| Visitor Profile -Average Page Views per Visit during Activity | セッションあたりの平均ページビュー数を指定します（現在のセッションを除く）。 | ダブル | SES_REQUESTS_PER_SESSION |
+| 訪問者プロファイル – アクティビティ中の1訪問あたりの平均ページビュー数 | セッションあたりの平均ページビュー数を指定します（現在のセッションを除く）。 | ダブル | SES_REQUESTS_PER_SESSION |
 | Visitor Profile - Average Time per Visit | 訪問／セッションあたりの平均滞在時間を指定します。 これには現在のセッションは含まれません。 | ダブル、ミリ秒 | SES_TIME_PER_SESSION |
 | Visitor Profile - First Visit | ユーザーが[!DNL Target]と最初にやり取りした訪問の時刻を指定します。 | ダブル、ミリ秒 | SES_PROFILE_CREATION_TIME |
 | Visitor Profile - Hours since Last Visit | このアクティビティへの最後の訪問からの経過時間を指定します。 | Double （整数のみ） 1、2、3など。 | SES_HOURS_SINCE_LAST_VISIT |
@@ -147,7 +152,7 @@ ht-degree: 52%
 | Visitor Profile - Start of Most Recent Visit | [!DNL Target]との最後の訪問/セッションが開始された時刻を指定します。 この属性は、セッションの有効期限が切れると更新されます。<br>これが訪問者の最初のセッションである場合、結果は`LAST_SESSION_START = 0.`になります | ダブル、ミリ秒 | SES_LAST_SESSION_START |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | 以前のセッションとユーザーがアクティビティに入ってスナップショットが実行されたときの間の期間を指定します。 | ダブル、ミリ秒 | SES_RECENCY |
 | Visitor Profile - Time in Visit Before Enter Activity | [!DNL Target]との最後のインタラクションと、現在の訪問が開始されたときの違いを指定します。 この属性は、ユーザーがアクティビティに入ってスナップショットが実行されるまでの訪問／セッション期間と考えることができます。<br>負の値は、セッションの開始と前回の更新時間が同じ[!DNL Target]呼び出しによってトリガーされたときに発生します。 負の値は 0（ゼロ）とみなす必要があります。 | ダブル、ミリ秒 | SES_SESSION_TIME |
-| 訪問者プロファイル - 合計訪問回数 | 訪問／セッションの合計数を指定します。 現在の訪問／セッションは含まれません。 | Double （整数のみ） 1、2、3など。 | SES_TOTAL_SESSIONS |
+| 訪問者プロファイル – 合計訪問数 | 訪問／セッションの合計数を指定します。 現在の訪問／セッションは含まれません。 | Double （整数のみ） 1、2、3など。 | SES_TOTAL_SESSIONS |
 | Visitor Profile - Total Visits to Activity | 特定のアクティビティへの訪問数を指定します。 以前の訪問がない場合、0（ゼロ）を返します。 | Double （整数のみ） 1、2、3など。 | SES_PREVIOUS_VISIT_COUNT |
 | 訪問者プロファイル - コンバージョンを伴うアクティビティへの総訪問数 | 訪問中に少なくとも 1 つのコンバージョンがある場合の、特定のアクティビティへの訪問／セッションの数を指定します。 | ダブル | SES_CUMULATIVE_SUCCESSES |
 | 訪問者プロファイル - コンバージョンに至らなかったアクティビティへの訪問 | 特定のアクティビティに対するコンバージョンがない訪問／セッションの数。 この値は、コンバージョンの後に 0 にリセットされます。または、コンバージョンが発生しなかった場合、-1 になります。 | Double （整数のみ） 1、2、3など。 | SES_SUCCESS_RECENCY |

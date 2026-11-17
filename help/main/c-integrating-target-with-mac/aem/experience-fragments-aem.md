@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -126,7 +126,7 @@ AEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]お
 >
 >[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]で人工知能、機械学習、レコメンデーションを使用：
 >
->* [!DNL Target] の AI 機能と ML 機能を最大限に活用するには、アクティビティの作成時、[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)または[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を選択してください。
+>* [!DNL Target] の AI 機能と ML 機能を最大限に活用するには、アクティビティの作成時、[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)または[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を選択してください。
 >
 >* [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]は、[!DNL Recommendations] アクティビティではサポートされていません。 ただし、レコメンデーションに[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を使用するには、[!UICONTROL A/B テスト &#x200B;] アクティビティ（[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット &#x200B;]を含む）または[!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] （XT）アクティビティを作成し、[&#x200B; レコメンデーションをオファー](/help/main/c-recommendations/recommendations-as-an-offer.md)として含めることができます。
 
@@ -148,7 +148,7 @@ AEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]お
    各タイプのアクティビティを設定する方法について詳しくは、次のトピックを参照してください。
 
    * **A/B テスト：** [A/B テストの作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **自動配分：** [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **自動配分：** [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)
    * **自動ターゲット：** [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **Automated Personalizationアクティビティ（AP）：**&#x200B;[Automated Personalizationアクティビティの作成](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
    * **エクスペリエンスターゲット設定（XT）：** [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
