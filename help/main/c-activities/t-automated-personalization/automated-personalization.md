@@ -59,7 +59,7 @@ ht-degree: 24%
 
 マーケターはサイトに1つのファイルを実装し、任意のコンテンツをポイントしてクリックし、**[!UICONTROL Visual Experience Composer]** （VEC）を使用して、その領域の追加のコンテンツオプションを視覚的に作成できます。 次に、アルゴリズムは、システムがその訪問者に関して保持しているあらゆる行動データにもとづいて、各訪問者に配信するコンテンツを自動的に決定します。
 
-**[!UICONTROL Automated Personalization]**&#x200B;は訪問者の行動の変化に適応するので、終了日を設定せずに実行して、継続的なリフトとパーソナライズを提供できます。 このモードは「常時オン」と呼ばれることもあります。 マーケターは、リフトを認識する前にテストを実行して結果を分析し、勝者を配信する必要はありません。 **[!UICONTROL Automated Personalization]**&#x200B;は、テストの検出フェーズや、多様な訪問者をターゲットにする場合にも役立ちます。 **[!UICONTROL 自動ターゲット]**&#x200B;との違いについて詳しくは、[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)を参照してください。
+**[!UICONTROL Automated Personalization]**&#x200B;は訪問者の行動の変化に適応するので、終了日を設定せずに実行して、継続的なリフトとパーソナライズを提供できます。 このモードは「常時オン」と呼ばれることもあります。 マーケターは、リフトを認識する前にテストを実行して結果を分析し、勝者を配信する必要はありません。 **[!UICONTROL Automated Personalization]**&#x200B;は、テストの検出フェーズや、多様な訪問者をターゲットにする場合にも役立ちます。 **[!UICONTROL 自動ターゲット]**&#x200B;との違いについて詳しくは、[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)を参照してください。
 
 次の用語は、**[!UICONTROL Automated Personalization]**&#x200B;について説明する際に役立ちます。
 
@@ -75,15 +75,15 @@ ht-degree: 24%
 
 たとえば、Chromeを利用し、ゴールドロイヤルティの会員で、火曜日にサイトにアクセスした訪問者は、エクスペリエンス Aでコンバージョンする可能性が高くなります。ニューヨークの訪問者は、エクスペリエンス Bでコンバージョンする可能性が高くなります。
 
-[!DNL Target]のランダム フォレストについて詳しくは、[ ランダム フォレスト アルゴリズム ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
+[!DNL Target]のランダム フォレストについて詳しくは、[&#x200B; ランダム フォレスト アルゴリズム &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
 
 | 縦横 | 動作の仕組み |
 |---|---|
 | **各訪問に対する最適化** | このアルゴリズムは、訪問者がコンバージョンに至る可能性（またはコンバージョンによる推定売上）を予測し、最適なエクスペリエンスを提供するのに役立ちます。 訪問者がコントロールグループに属していない場合、訪問者は既存のセッションの終了時に新しいエクスペリエンスの対象となります。 コントロールグループの訪問者は、初回訪問と同じエクスペリエンスを見ます。 エクスペリエンスは、視覚的な一貫性を維持するために、セッション内で変更されません。 |
-| **訪問者行動の変化への適応** | マルチアームドバンディットは、アクティビティの全期間を通じて学習を継続し、以前に学習したトレンドの過度な悪用を防ぐために、常にわずかなトラフィックを費やします。 最新の訪問者行動データを使用して、24時間ごとに基本モデルを再構築します。 アルゴリズムが個々の訪問者の勝者エクスペリエンスを判断できない場合は、[ トンプソンサンプリング ](https://en.wikipedia.org/wiki/Thompson_sampling)を使用して見つかった全体的に最もパフォーマンスの高いエクスペリエンスを表示しますが、引き続きパーソナライズされた勝者を探します。 |
+| **訪問者行動の変化への適応** | マルチアームドバンディットは、アクティビティの全期間を通じて学習を継続し、以前に学習したトレンドの過度な悪用を防ぐために、常にわずかなトラフィックを費やします。 最新の訪問者行動データを使用して、24時間ごとに基本モデルを再構築します。 アルゴリズムが個々の訪問者の勝者エクスペリエンスを判断できない場合は、[&#x200B; トンプソンサンプリング &#x200B;](https://en.wikipedia.org/wiki/Thompson_sampling)を使用して見つかった全体的に最もパフォーマンスの高いエクスペリエンスを表示しますが、引き続きパーソナライズされた勝者を探します。 |
 | **目標指標** | このモデルは、コンバージョンベースまたは収益ベースの単一の目標指標を継続的に最適化します（具体的には、**[!UICONTROL 訪問あたりの収益]**）。 |
 | **データとオーディエンス** | [!DNL Target] では、訪問者に関する情報を自動的に収集して、パーソナライゼーションモデルを構築します。 **[!UICONTROL 自動ターゲット]**&#x200B;および&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;で使用される属性について詳しくは、[Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。 [!DNL Target]は、[!DNL Adobe Experience Cloud]の共有オーディエンスをすべて自動的に使用するので、モデルにオーディエンスを追加するために特定の操作を行う必要はありません。 詳しくは、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)を参照してください。 |
-| **カスタムデータ** | マーケターは、CRM情報や顧客解約傾向スコアなどのオフラインデータやその他のカスタムデータをアップロードして、パーソナライゼーションモデルを構築することができます。 データは、[mbox パラメーター](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}、[ プロファイルパラメーター](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}、または[ サーバーサイド APIを使用して、プロファイルの更新](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}に入力できます。 |
+| **カスタムデータ** | マーケターは、CRM情報や顧客解約傾向スコアなどのオフラインデータやその他のカスタムデータをアップロードして、パーソナライゼーションモデルを構築することができます。 データは、[mbox パラメーター](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}、[&#x200B; プロファイルパラメーター](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}、または[&#x200B; サーバーサイド APIを使用して、プロファイルの更新](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}に入力できます。 |
 
 ## トレーニングビデオ：アクティビティのタイプ {#training-video}
 

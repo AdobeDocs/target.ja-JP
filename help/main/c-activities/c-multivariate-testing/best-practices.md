@@ -1,7 +1,7 @@
 ---
 keywords: mvt;多変量分析テスト;多変量分析テストのベストプラクティス;mvtベストプラクティス;mvtの組み合わせ;mvt レポート
-description: '[!DNL Adobe Target]で[!UICONTROL 多変量テスト ] アクティビティを作成および実行する際に発生する可能性のあるパフォーマンスの改善方法、問題の回避、既知の問題の修正方法について説明します。'
-title: '[!UICONTROL 多変量テスト ] アクティビティのベストプラクティスは何ですか？'
+description: '[!DNL Adobe Target]で[!UICONTROL 多変量テスト &#x200B;] アクティビティを作成および実行する際に発生する可能性のあるパフォーマンスの改善方法、問題の回避、既知の問題の修正方法について説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;] アクティビティのベストプラクティスは何ですか？'
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
@@ -19,7 +19,7 @@ workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 30%
 ---
-# [!UICONTROL 多変量テスト ]のベストプラクティス {#mvt-best-practices}
+# [!UICONTROL 多変量テスト &#x200B;]のベストプラクティス {#mvt-best-practices}
 
 >[!BEGINSHADEBOX]
 
@@ -85,7 +85,7 @@ ht-degree: 30%
 
 * **ロケーション貢献度レポート [を頻繁に使用して、各ロケーションとオファーのパフォーマンスを監視します。](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)**
 
-* **エクスペリエンス パフォーマンス レポート ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)では、[!UICONTROL  ベスト 5]および[!UICONTROL  ベスト 5] フィルターを使用して表示されたデータに基づいて意思決定を行います。**[
+* **エクスペリエンス パフォーマンス レポート [&#128279;](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)では、[!UICONTROL &#x200B; ベスト 5]および[!UICONTROL &#x200B; ベスト 5] フィルターを使用して表示されたデータに基づいて意思決定を行います。**
 
   **[!UICONTROL All]** フィルターは、目的の情報を抽出することを困難にし、すべてのエクスペリエンスをグラフに表示できるわけではありません。 最高レベルまたは最悪レベルの5以外の特定のエクスペリエンスを調べる場合は、**[!UICONTROL すべて]** フィルターを使用します。
 

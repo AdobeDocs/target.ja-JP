@@ -38,7 +38,7 @@ ht-degree: 10%
 
 {{permissions-update}}
 
-[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}には、[!DNL Target]を実装する前に知っておく必要がある情報が含まれています。
+[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}には、[!DNL Target]を実装する前に知っておく必要がある情報が含まれています。
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
@@ -49,11 +49,11 @@ ht-degree: 10%
 * **モバイルアプリ**: [!DNL Adobe Experience Platform Mobile] SDKを使用した実装に役立つ情報。
 * **電子メール**：電子メールに[!DNL Target]を実装するのに役立つ情報。
 
-詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}を参照してください。
+詳しくは、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}を参照してください。
 
 >[!NOTE]
 >
->このガイドの「*Targetの実装*」セクション（*Adobe Target実務担当者ガイド*）に含まれていた情報はすべて、[開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}に含まれるようになりました。
+>このガイドの「*Targetの実装*」セクション（*Adobe Target実務担当者ガイド*）に含まれていた情報はすべて、[開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}に含まれるようになりました。
 
 
 

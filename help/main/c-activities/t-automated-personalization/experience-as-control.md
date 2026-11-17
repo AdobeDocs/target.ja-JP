@@ -1,6 +1,6 @@
 ---
 keywords: エクスペリエンス;コントロール;Automated Personalization;自動ターゲット
-description: '[!DNL Adobe Target]で[!UICONTROL Automated Personalization] （AP）または[!UICONTROL 自動ターゲット ] アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択する方法について説明します。'
+description: '[!DNL Adobe Target]で[!UICONTROL Automated Personalization] （AP）または[!UICONTROL 自動ターゲット &#x200B;] アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択する方法について説明します。'
 title: '[!UICONTROL Automated Personalization] アクティビティで特定のエクスペリエンスをコントロールとして使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization, Auto-Target
@@ -42,7 +42,7 @@ ht-degree: 6%
 
 >[!ENDSHADEBOX]
 
-[**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) （AP）または[**[!UICONTROL 自動ターゲット ]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティの作成中に、ランダムに提供されたエクスペリエンスまたは特定のエクスペリエンスをコントロールとして使用できます。 コントロールトラフィックは、アクティビティで設定されたトラフィック割り当て率に基づいて関連するエクスペリエンスにルーティングされるので、パーソナライズされたトラフィックのパフォーマンスレポートをコントロールトラフィックと比較して評価できます。
+[**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) （AP）または[**[!UICONTROL 自動ターゲット &#x200B;]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティの作成中に、ランダムに提供されたエクスペリエンスまたは特定のエクスペリエンスをコントロールとして使用できます。 コントロールトラフィックは、アクティビティで設定されたトラフィック割り当て率に基づいて関連するエクスペリエンスにルーティングされるので、パーソナライズされたトラフィックのパフォーマンスレポートをコントロールトラフィックと比較して評価できます。
 
 手動の&#x200B;**[!UICONTROL A/B テスト]**&#x200B;では、制御として表示されるレポートを変更でき、制御が何であれ、トラフィックはすべてのエクスペリエンスにランダムに提供されるので、そのエクスペリエンスから上昇率が計算されます。 **[!UICONTROL Automated Personalization]**&#x200B;および&#x200B;**[!UICONTROL 自動ターゲット]** アクティビティでは、制御は訪問者のトラフィックの提供方法に影響を与えるので、慎重に選択してください。
 
@@ -79,17 +79,17 @@ ht-degree: 6%
 
 コントロールとして特定のエクスペリエンスを指定すると、パーソナライズされたトラフィックは、アクティビティのレポートで現在のデフォルトのエクスペリエンスなど、比較する既知のエクスペリエンスになります。
 
-1. [**[!UICONTROL Automated Personalization ]**アクティビティ ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)または[**[!UICONTROL 自動ターゲット]** アクティビティ ](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)を作成または編集する際に、必要に応じてエクスペリエンスを設定します。
+1. [**[!UICONTROL Automated Personalization &#x200B;]**&#x200B;アクティビティ &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)または[**[!UICONTROL 自動ターゲット]** アクティビティ &#x200B;](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)を作成または編集する際に、必要に応じてエクスペリエンスを設定します。
 
 1. **[!UICONTROL ターゲティング]** ページ（3部構成のガイド付きワークフローのステップ 2）で、コントロールエクスペリエンスをクリックすると、右側のペインに&#x200B;**[!UICONTROL コントロール]** オプションが表示されます。
 
-   ![ コントロールパネル ](/help/main/c-activities/t-automated-personalization/assets/control.png)
+   ![&#x200B; コントロールパネル &#x200B;](/help/main/c-activities/t-automated-personalization/assets/control.png)
 
 1. **[!UICONTROL コントロール]** ドロップダウンリストから、**[!UICONTROL ランダムエクスペリエンス]**&#x200B;を選択するか、コントロールとして使用するエクスペリエンスを選択します。
 
 1. 「**[!UICONTROL トラフィック配分]**」コントロールをクリックし、コントロールエクスペリエンスおよびその他のエクスペリエンスのトラフィック配分を指定します。
 
-   ![ トラフィック配分レール ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
+   ![&#x200B; トラフィック配分レール &#x200B;](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    特定のエクスペリエンスコントロールの場合、10％～ 30％をお勧めします。
 

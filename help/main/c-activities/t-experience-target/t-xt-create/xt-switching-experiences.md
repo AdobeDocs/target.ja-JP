@@ -1,7 +1,7 @@
 ---
 keywords: 優先度;エクスペリエンス作成;優先度;エクスペリエンス;オーディエンス;エクスペリエンス;エクスペリエンスの切り替え;visual experience composer
-description: '[!DNL Adobe Target] [!UICONTROL  エクスペリエンスターゲティング ] （XT）アクティビティで、プロファイルの進化に合わせてエクスペリエンスを切り替える方法について説明します。'
-title: 訪問者は、[!UICONTROL  エクスペリエンスのターゲット設定] アクティビティでエクスペリエンスを切り替えることができますか？
+description: '[!DNL Adobe Target] [!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] （XT）アクティビティで、プロファイルの進化に合わせてエクスペリエンスを切り替える方法について説明します。'
+title: 訪問者は、[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティでエクスペリエンスを切り替えることができますか？
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 TQID: 'https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU'
@@ -24,7 +24,7 @@ workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 20%
 ---
-# [!UICONTROL  エクスペリエンスのターゲット設定]でのエクスペリエンスの切り替え {#switching-experiences}
+# [!UICONTROL &#x200B; エクスペリエンスのターゲット設定]でのエクスペリエンスの切り替え {#switching-experiences}
 
 >[!BEGINSHADEBOX]
 
@@ -38,7 +38,7 @@ ht-degree: 20%
 |--- |--- |
 | 地理的な位置 | 訪問者が出張または旅行により、異なる地理的位置から Web サイトまたはモバイルアプリを表示します。 |
 | 顧客ステータス | 訪問者は、アカウントを作成したり、商品を購入する前に、見込み客と見なされる可能性があります。 |
-| カテゴリ親和性 | [!DNL Target]の[ カテゴリー親和性](/help/main/c-target/c-visitor-profile/category-affinity.md)機能は、訪問者が表示するカテゴリーを自動的にキャプチャし、ターゲティング目的で各カテゴリーの訪問者の親和性を計算します。 例えば、特定のテーマに関する記事をweb サイトで複数閲覧した訪問者には、そのテーマに関連するコンテンツが表示されます。 |
+| カテゴリ親和性 | [!DNL Target]の[&#x200B; カテゴリー親和性](/help/main/c-target/c-visitor-profile/category-affinity.md)機能は、訪問者が表示するカテゴリーを自動的にキャプチャし、ターゲティング目的で各カテゴリーの訪問者の親和性を計算します。 例えば、特定のテーマに関する記事をweb サイトで複数閲覧した訪問者には、そのテーマに関連するコンテンツが表示されます。 |
 | 曜日 | 週末の取り組みとして、訪問者に映画、食事またはその他の娯楽に関するコンテンツを表示できます。 |
 
 [!DNL Target]でこれらの機能を使用するには、**[!UICONTROL エクスペリエンスのターゲット設定]** アクティビティで作業する際に、次の情報を理解することが重要です。

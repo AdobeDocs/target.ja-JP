@@ -1,7 +1,7 @@
 ---
 keywords: Traffic Estimator;Traffic Estimator;Estimator;Traffic;Confidence；統計的パワー；リフト；bonferroni；コンバージョン率；1日あたりの訪問者；期間
-description: '[!DNL Adobe Target] [!UICONTROL 多変量テスト ] アクティビティを成功させるために十分なトラフィックがあるかどうかを知らせるトラフィック見積もり機能の使用方法について説明します。'
-title: '[!UICONTROL 多変量テスト ] （MVT）アクティビティに必要なトラフィックの量'
+description: '[!DNL Adobe Target] [!UICONTROL 多変量テスト &#x200B;] アクティビティを成功させるために十分なトラフィックがあるかどうかを知らせるトラフィック見積もり機能の使用方法について説明します。'
+title: '[!UICONTROL 多変量テスト &#x200B;] （MVT）アクティビティに必要なトラフィックの量'
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 TQID: 'https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM'
@@ -21,7 +21,7 @@ workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 8%
 ---
-# 成功した[!UICONTROL 多変量テスト ] アクティビティに必要なトラフィックの見積もり {#traffic-estimator}
+# 成功した[!UICONTROL 多変量テスト &#x200B;] アクティビティに必要なトラフィックの見積もり {#traffic-estimator}
 
 >[!BEGINSHADEBOX]
 
@@ -43,11 +43,11 @@ ht-degree: 8%
 
 **[!UICONTROL 多変量テスト]**&#x200B;をデザインする際、**[!UICONTROL トラフィック見積もり]**&#x200B;を使用すると、テストするエクスペリエンスの数に対して、ページへのトラフィックが十分かどうかを確認できます。 テストを開始する前にこのチェックを実行すると、意味のある結果を生成するのに十分な訪問者に到達できないテストを回避できます。また、トラフィックが十分でない場合の組み合わせ数またはテストの期間を調整する方法を示します。
 
-1. **[!UICONTROL 多変量]** アクティビティの&#x200B;**[!UICONTROL Visual Experience Composer]**&#x200B;の&#x200B;**[!UICONTROL エクスペリエンス]** ページで、ページの左上隅にある&#x200B;**[!UICONTROL トラフィック]** アイコン （![ トラフィック見積もりアイコン ](/help/main/assets/icons/Gauge2.svg)）をクリックします。
+1. **[!UICONTROL 多変量]** アクティビティの&#x200B;**[!UICONTROL Visual Experience Composer]**&#x200B;の&#x200B;**[!UICONTROL エクスペリエンス]** ページで、ページの左上隅にある&#x200B;**[!UICONTROL トラフィック]** アイコン （![&#x200B; トラフィック見積もりアイコン &#x200B;](/help/main/assets/icons/Gauge2.svg)）をクリックします。
 
    **[!UICONTROL Traffic Estimator]**&#x200B;が開きます。 非表示にするには、もう一度アイコンをクリックします。
 
-   ![Traffic Estimator ユーザーインターフェイス ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
+   ![Traffic Estimator ユーザーインターフェイス &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
    **[!UICONTROL Traffic Estimator]**&#x200B;の上部付近で、入力した値が計算され、結果が表示されます。
 

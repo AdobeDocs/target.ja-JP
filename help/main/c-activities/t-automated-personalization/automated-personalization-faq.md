@@ -50,7 +50,7 @@ ht-degree: 13%
 +++ [!UICONTROL Automated Personalization] アクティビティを設定するためのベストプラクティスを教えてください。
 
 * エクスペリエンスの合計数だけでなく、*アクティビティの形状* （場所×オファーの数）に細心の注意を払います。 場所とオファーのデカルト的な組み合わせは、生のエクスペリエンス数よりもオーサリング時間のパフォーマンスに影響します。 最適なパフォーマンスと管理性を得るには、「**[!UICONTROL Automated Personalization]**&#x200B;および&#x200B;**[!UICONTROL 自動ターゲット]** アクティビティを、1か所あたり4～6件のオファーを含む4～6か所に制限します。詳しくは、「Automated Personalizationの制限事項を教えてください」の質問を参照してください。 このセクションでは。 大きな設定はお勧めせず、**[!UICONTROL Visual Experience Composer]**&#x200B;での読み込みや編集が遅くなる可能性があります。
-* トラフィックの少ないページをパーソナライズしたり、パーソナライズ中のエクスペリエンスに構造的な変更を加えたりするには、**[!UICONTROL Automated Personalization]**&#x200B;ではなく[**[!UICONTROL 自動ターゲット ]**アクティビティ ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を使用することを検討してください。
+* トラフィックの少ないページをパーソナライズしたり、パーソナライズ中のエクスペリエンスに構造的な変更を加えたりするには、**[!UICONTROL Automated Personalization]**&#x200B;ではなく[**[!UICONTROL 自動ターゲット &#x200B;]**&#x200B;アクティビティ &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を使用することを検討してください。
 * **[!UICONTROL Automated Personalization]** アクティビティで使用するオファーと場所の間で&#x200B;**[!UICONTROL A/B テスト]** アクティビティを実行して、場所と場所が最適化目標に影響を与えていることを確認することを検討してください。 **[!UICONTROL A/B テスト]** アクティビティが有意な違いを示さない場合、**[!UICONTROL Automated Personalization]**&#x200B;も上昇率を生成できない可能性があります。
 
   A/B...N テストで、エクスペリエンス間に統計的に有意な差が見られない場合、次の状況のうち1つ以上が原因であると考えられます。
@@ -69,7 +69,7 @@ ht-degree: 13%
   | **[!UICONTROL 特定のエクスペリエンス]**&#x200B;をコントロールとして使用し、どちらかの目標を設定します | 10%から30% | このオプションを使用して、特定のマーケター主導のエクスペリエンスをパーソナライゼーションモデルと比較します。 コントロールとして1つのエクスペリエンスのみを選択すると、そのトラフィックがアクティビティ内のすべてのオファーまたはエクスペリエンスに分散するわけではありません。 |
 
 * ターゲティングルールは、モデルが最適化する能力を妨げる可能性があるため、できるだけ控えめに使用します。 詳しくは、[Target のAutomated Personalizationオファー](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)を参照してください。
-* レポートグループは&#x200B;**[!UICONTROL Automated Personalization]** アクティビティの成功を制限できるので、特定の条件でのみ使用できます。 詳しくは、[Automated Personalizationのオファーレポートグループ ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)を参照してください。
+* レポートグループは&#x200B;**[!UICONTROL Automated Personalization]** アクティビティの成功を制限できるので、特定の条件でのみ使用できます。 詳しくは、[Automated Personalizationのオファーレポートグループ &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)を参照してください。
 
   * 次のすべての条件を満たす場合にのみ、レポートグループを使用します。
 
@@ -98,11 +98,11 @@ ht-degree: 13%
 
 +++ [!UICONTROL Automated Personalization] アクティビティでコントロールとして使用する特定のエクスペリエンスを指定できますか？
 
-[**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) （AP）または[**[!UICONTROL 自動ターゲット ]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティの作成中に、コントロールとして使用する特定のエクスペリエンスを選択できます。
+[**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) （AP）または[**[!UICONTROL 自動ターゲット &#x200B;]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （AT）アクティビティの作成中に、コントロールとして使用する特定のエクスペリエンスを選択できます。
 
 この機能を使用すると、アクティビティで設定されたトラフィック割り当て率に基づいて、制御トラフィック全体をそのエクスペリエンスにルーティングできます。 その後、パーソナライズされたトラフィックのパフォーマンスレポートを、その1つのエクスペリエンスに対する制御トラフィックと評価できます。
 
-詳しくは、[ コントロールエクスペリエンスの選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。
+詳しくは、[&#x200B; コントロールエクスペリエンスの選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。
 
 +++
 
@@ -116,7 +116,7 @@ ht-degree: 13%
 
 +++ アクティビティのトラフィックを[!UICONTROL Automated Personalization]がどのように割り当てますか？
 
-**[!UICONTROL Automated Personalization]**&#x200B;は、最新の[ ランダムフォレスト ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) モデルに基づいて、最も高い予測成功指標を持つエクスペリエンスに訪問者をルーティングします。 この予測は、訪問者の具体的な情報と訪問コンテキストに基づいています。
+**[!UICONTROL Automated Personalization]**&#x200B;は、最新の[&#x200B; ランダムフォレスト &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) モデルに基づいて、最も高い予測成功指標を持つエクスペリエンスに訪問者をルーティングします。 この予測は、訪問者の具体的な情報と訪問コンテキストに基づいています。
 
 例えば、**[!UICONTROL Automated Personalization]** アクティビティに、それぞれ2つのオファーを含む2つの場所があるとします。 1 つ目の場所では、特定の訪問者に対するオファー A の推定コンバージョン率が 3％、オファー B の推定コンバージョン率が 1％です。 2 つ目の場所では、同一の訪問者に対するオファー C の推定コンバージョン率が 2％、オファー D の推定コンバージョン率が 5％です。 したがって、**[!UICONTROL Automated Personalization]**&#x200B;は、この訪問者にオファーAとオファーDのエクスペリエンスを提供します。
 
@@ -140,7 +140,7 @@ ht-degree: 13%
 
 +++ [!UICONTROL Automated Personalization] アクティビティでモデルを構築するのに必要な時間を短縮するにはどうすればよいですか？
 
-アクティビティの設定を確認して、モデルの構築スピードを向上させる変更を確認します。 たとえば、RPVの成功指標を「コンバージョン」に変更したり、セールスfunnelのアクティビティエクスペリエンスに近い成功指標を選択したり、アクティビティからエクスペリエンスを削除したり、トラフィックの高いページを使用したりできます。 詳しくは、[Automated Personalizationのトラブルシューティング ](/help/main/c-activities/t-automated-personalization/ap-trouble.md)を参照してください。
+アクティビティの設定を確認して、モデルの構築スピードを向上させる変更を確認します。 たとえば、RPVの成功指標を「コンバージョン」に変更したり、セールスfunnelのアクティビティエクスペリエンスに近い成功指標を選択したり、アクティビティからエクスペリエンスを削除したり、トラフィックの高いページを使用したりできます。 詳しくは、[Automated Personalizationのトラブルシューティング &#x200B;](/help/main/c-activities/t-automated-personalization/ap-trouble.md)を参照してください。
 
 +++
 
@@ -167,7 +167,7 @@ ht-degree: 13%
 * 上昇率を検出するために、アクティビティに十分なトラフィックと統計的検出力が必要です。
 * パーソナライゼーションアルゴリズムが適切に機能する必要があります。
 
-アクションの最善の方法は、まず、シンプルでパーソナライズされていない&#x200B;**[!UICONTROL A/B テスト]** アクティビティを使用して、アクティビティのエクスペリエンスを構成するコンテンツと場所が、全体的な応答率に真に違いをもたらすことを確認することです。 完全な手順については、[Automated Personalizationのトラブルシューティング ](/help/main/c-activities/t-automated-personalization/ap-trouble.md)を参照してください。
+アクションの最善の方法は、まず、シンプルでパーソナライズされていない&#x200B;**[!UICONTROL A/B テスト]** アクティビティを使用して、アクティビティのエクスペリエンスを構成するコンテンツと場所が、全体的な応答率に真に違いをもたらすことを確認することです。 完全な手順については、[Automated Personalizationのトラブルシューティング &#x200B;](/help/main/c-activities/t-automated-personalization/ap-trouble.md)を参照してください。
 
 +++
 
@@ -193,7 +193,7 @@ ht-degree: 13%
 
 +++
 
-+++ [!UICONTROL Automated Personalization] アクティビティの実行中に「[!UICONTROL  レポート データをリセット ]」オプションを使用できますか？
++++ [!UICONTROL Automated Personalization] アクティビティの実行中に「[!UICONTROL &#x200B; レポート データをリセット &#x200B;]」オプションを使用できますか？
 
 [!DNL Adobe]は、**[!UICONTROL Automated Personalization]** アクティビティに&#x200B;**[!UICONTROL レポート データのリセット]** オプションを使用することを推奨しません。 表示されているレポートデータは削除されますが、このオプションを使用しても、**[!UICONTROL Automated Personalization]** モデルからすべてのトレーニングレコードが削除されるわけではありません。 「**[!UICONTROL レポートデータをリセット]**」オプションを使用する代わりに、新しいアクティビティを作成し、元のアクティビティを無効にします。 このガイダンスは、**[!UICONTROL 自動配分]**&#x200B;および&#x200B;**[!UICONTROL 自動ターゲット]**&#x200B;活動にも適用されます。
 
