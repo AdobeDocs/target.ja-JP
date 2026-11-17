@@ -27,16 +27,16 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '186'
 ht-degree: 3%
 ---
-# Adobe [!DNL Target] SDKとAPI
+# [!DNL Adobe Target] SDKとAPIの基本を学ぶ
 
 [!DNL Adobe Target]を使用する前に、サイトに実装する必要があります。
 
-[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}には、[!DNL Target]を実装する前に知っておく必要がある情報が含まれています。
+[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}には、[!DNL Target]を実装する前に知っておく必要がある情報が含まれています。
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
@@ -53,4 +53,4 @@ ht-degree: 3%
 * レポート用API:
 * Recommendation API。
 
-詳しくは、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}の[Target APIの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=ja){target=_blank}を参照してください。
+詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}の[Target APIの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank}を参照してください。

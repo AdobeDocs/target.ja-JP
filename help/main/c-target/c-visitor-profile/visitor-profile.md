@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 118
-ht-degree: 36%
-
+source-wordcount: '121'
+ht-degree: 33%
 ---
-
-# 訪問者プロファイル
+# 訪問者プロファイルの概要
 
 [!DNL Adobe Target]の訪問者プロファイルには、訪問者がページやその他の最適化されたコンテンツの場所をどのように使用しているかに関する情報が含まれています。
 
@@ -40,6 +38,6 @@ ht-degree: 36%
 - [訪問者プロファイルの有効期間](visitor-profile-lifetime.md)
 - [プロファイル属性](profile-parameters.md)
 - [カテゴリ親和性](category-affinity.md)
-- [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+- [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [mbox3rdPartyID のリアルタイムプロファイル同期](3rd-party-id.md)
 - [プロファイルと変数の用語集](variables-profiles-parameters-methods.md)

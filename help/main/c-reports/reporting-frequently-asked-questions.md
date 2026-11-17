@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1392'
 ht-degree: 23%
 ---
 # レポートの FAQ
@@ -84,9 +84,9 @@ ht-degree: 23%
 
 一部の訪問者は、「増分数とユーザーのアクティビティを維持」として設定されたコンバージョン指標をヒットしました。 これらのユーザーの一部がコンバージョン指標を複数回実行した場合、コンバージョン指標は増加しません。 しかし、その設定では、一部のユーザーはコンバージョン指標を押してからホームページに戻り、アクティビティに再度移動して新しい訪問を記録する場合があります。
 
-## [!UICONTROL &#x200B; エクスペリエンスターゲティング &#x200B;] （XT）レポートにコントロールエクスペリエンスの指標が含まれているのはなぜですか？
+## [!UICONTROL  エクスペリエンスターゲティング ] （XT）レポートにコントロールエクスペリエンスの指標が含まれているのはなぜですか？
 
-XT アクティビティには、常にコントロールエクスペリエンスがある必要があります。 かなり一般的なシナリオである[!UICONTROL A/B テスト &#x200B;] アクティビティと同様の方法でXT アクティビティを使用している場合は、コントロールエクスペリエンスデータが役立ちます。 レポートで有用でないとわかった場合、コントロールエクスペリエンスデータを無視できます。
+XT アクティビティには、常にコントロールエクスペリエンスがある必要があります。 かなり一般的なシナリオである[!UICONTROL A/B テスト ] アクティビティと同様の方法でXT アクティビティを使用している場合は、コントロールエクスペリエンスデータが役立ちます。 レポートで有用でないとわかった場合、コントロールエクスペリエンスデータを無視できます。
 
 ## [!DNL Target]の訪問回数が他の[!DNL Adobe Experience Cloud] ソリューションよりも少ないのはなぜですか？ {#section_7E626FDB417E41B8B58BBF30FB207409}
 
@@ -136,7 +136,7 @@ XT アクティビティには、常にコントロールエクスペリエン�
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] （AP）アクティビティを更新し、コントロールエクスペリエンスをトラフィックを受け取るエクスペリエンスに変更する方法について詳しくは、[Automated Personalizationまたは自動ターゲットアクティビティのコントロールを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。
+>[!UICONTROL Automated Personalization] （AP）アクティビティを更新し、制御エクスペリエンスをトラフィックを受け取るエクスペリエンスに変更する方法について詳しくは、[制御エクスペリエンスの選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。
 
 
 ## A/BまたはMVT アクティビティで、エクスペリエンス間のトラフィックが不均等なのはなぜですか？ {#uneven}
@@ -150,4 +150,4 @@ XT アクティビティには、常にコントロールエクスペリエン�
 
   * 最新のat.js ライブラリを使用していますか？ 現在のバージョンと関連するリリースノートについて詳しくは、[at.js バージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
 
-  * リダイレクトテストですか？ ページでタグを実行するタイミングが正しくないと、特に[!DNL Analytics]を[!DNL Target] アクティビティのデータソースとして使用する場合、トラフィックの分割が不均等になる可能性があります。 Analytics for Target （A4T）を使用したリダイレクトアクティビティでのトラフィック分布の不均等を修正する方法について詳しくは、[&#x200B; リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)を参照してください。
+  * リダイレクトテストですか？ ページでタグを実行するタイミングが正しくないと、特に[!DNL Analytics]を[!DNL Target] アクティビティのデータソースとして使用する場合、トラフィックの分割が不均等になる可能性があります。 Analytics for Target （A4T）を使用したリダイレクトアクティビティでのトラフィック分布の不均等を修正する方法について詳しくは、[ リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)を参照してください。

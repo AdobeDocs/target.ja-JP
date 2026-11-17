@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 18%
+source-wordcount: '240'
+ht-degree: 17%
 ---
-# [!DNL Target] 管理の概要
+# [!DNL Target]の管理を開始します
 
 **[!UICONTROL 管理]**&#x200B;を使用して、[!UICONTROL Visual Experience Composer] （VEC）、レポート、配信インフラストラクチャ、アクセス制御、および[!DNL Recommendations]のアカウント全体のデフォルトを設定します。
 

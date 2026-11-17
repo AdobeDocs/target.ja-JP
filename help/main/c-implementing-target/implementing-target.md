@@ -1,9 +1,9 @@
 ---
 keywords: 実装;実装する
-description: 基本的な概念を理解し、 [!DNL Target] の仕組みとインフラストラクチャとの統合方法を理解し、訪問者のトラッキング方法を理解します。
+description: 基本的な概念を理解し、[!DNL Target]がどのように機能し、インフラストラクチャと統合するかを理解し、訪問者がどのように追跡されるかを理解します。
 landing-page-description: Adobe Targetを使用する前に、サイトに実装する必要があります。
 short-description: Adobe Targetを使用する前に、サイトに実装する必要があります。
-title: ' [!DNL Target]を実装するにはどうすればよいですか？'
+title: '[!DNL Target]を実装するにはどうすればよいですか？'
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
@@ -27,20 +27,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 11%
-
+source-wordcount: '213'
+ht-degree: 10%
 ---
-
-# Target の実装
+# [!DNL Target]の実装を開始
 
 [!DNL Adobe Target]を使用する前に、サイトに実装する必要があります。
 
 {{permissions-update}}
 
-[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}には、[!DNL Target]を実装する前に知っておく必要がある情報が含まれています。
+[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}には、[!DNL Target]を実装する前に知っておく必要がある情報が含まれています。
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
@@ -51,11 +49,11 @@ ht-degree: 11%
 * **モバイルアプリ**: [!DNL Adobe Experience Platform Mobile] SDKを使用した実装に役立つ情報。
 * **電子メール**：電子メールに[!DNL Target]を実装するのに役立つ情報。
 
-詳しくは、[Adobe Target開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}を参照してください。
+詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}を参照してください。
 
 >[!NOTE]
 >
->このガイドの「*Targetの実装*」セクション（*Adobe Target実務担当者ガイド*）に含まれていた情報はすべて、[開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}に含まれるようになりました。
+>このガイドの「*Targetの実装*」セクション（*Adobe Target実務担当者ガイド*）に含まれていた情報はすべて、[開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}に含まれるようになりました。
 
 
 

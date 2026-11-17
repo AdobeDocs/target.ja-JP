@@ -18,12 +18,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '892'
 ht-degree: 0%
 ---
-# [!UICONTROL Visual Experience Composer] （VEC）
+# [!UICONTROL Visual Experience Composer]を使い始める
 
 [!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）は、コードを編集せずにweb サイトやモバイル web ページでパーソナライズされたエクスペリエンスを直接作成およびテストするためのWYSIWYG エディターです。
 
@@ -47,11 +47,11 @@ VECでデフォルトで開くページを設定するには、「[!DNL Target] 
 
 ### エクスペリエンスの表示と命名 {#view-and-name-experiences}
 
-[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネルのタブを使用して、様々なオーディエンスや異なるエクスペリエンスでページがどのように表示されるかを確認します。 各エクスペリエンスにわかりやすい名前を付けて、リスト内で容易に識別できるようにします。
+[!UICONTROL  エクスペリエンス ] パネルのタブを使用して、様々なオーディエンスや異なるエクスペリエンスでページがどのように表示されるかを確認します。 各エクスペリエンスにわかりやすい名前を付けて、リスト内で容易に識別できるようにします。
 
 例えば、ナビゲーションバーでホームリンクの位置をテストする場合は、最初に表示されるエクスペリエンスに「最初にホームリンク」という名前を付けます。
 
-![&#x200B; エクスペリエンスパネルでエクスペリエンスの名前を変更](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
+![ エクスペリエンスパネルでエクスペリエンスの名前を変更](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
 
 ### 要素の選択と変更 {#select-and-modify-elements}
 
@@ -75,7 +75,7 @@ VEC以外のページ構造の変更は、アクティビティで使用され�
 
 ホバー状態がJavaScriptに依存している場合は、**[!UICONTROL JavaScriptを無効にする]**&#x200B;が選択されていないことを確認してください。 JavaScriptに依存する要素を編集するには、Adobe Targetを有効にする必要があります。
 
-使用可能な編集オプションについて詳しくは、[Visual Experience Composerのオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)を参照してください。
+使用可能な編集オプションについて詳しくは、[Visual Experience Composerのオプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)を参照してください。
 
 ## ページ読み込みを管理 {#manage-page-loading}
 
@@ -91,7 +91,7 @@ VEC以外のページ構造の変更は、アクティビティで使用され�
 * アクセスできなくなったページから既存のカスタムコードをコピーする
 * VECで読み込めないページを簡単に編集する
 
-ページの読み込み中または読み込みに失敗した後も、[!UICONTROL &#x200B; エクスペリエンス &#x200B;] パネル、[!UICONTROL &#x200B; コンポーネント &#x200B;] パネル、[!UICONTROL 設定] オプションにアクセスできます。
+ページの読み込み中または読み込みに失敗した後も、[!UICONTROL  エクスペリエンス ] パネル、[!UICONTROL  コンポーネント ] パネル、[!UICONTROL 設定] オプションにアクセスできます。
 
 ### VEC内のページの読み込みをキャンセル {#cancel-loading}
 
@@ -104,7 +104,7 @@ VECでのページ読み込みをキャンセルして、ページの読み込�
 * カスタムコードの挿入または編集
 * 誤って入力されたページ URLの修正
 * VECにページを読み込む前に、JavaScriptを有効または無効にします
-* [!UICONTROL &#x200B; ページ配信]条件にテンプレートテストルールを追加
+* [!UICONTROL  ページ配信]条件にテンプレートテストルールを追加
 * EEC経由またはiframe専用モードでページを読み込む際に、グローバルな[!UICONTROL Enhanced Experience Composer] （EEC）トグルを上書きする
 
 ページの読み込みをキャンセルした後、ページの読み込みを待たずに、アクティビティ内のエクスペリエンスを切り替えることができます。 **[!UICONTROL 再読み込み]**&#x200B;をクリックして、ページをVECに再度表示します。

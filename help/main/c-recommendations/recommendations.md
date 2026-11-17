@@ -26,12 +26,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '875'
 ht-degree: 90%
 ---
-# レコメンデーション
+# レコメンデーションを始める
 
 [!DNL Adobe Target Recommendations] のアクティビティは、以前のユーザーアクティビティ、環境設定、またはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。 [!DNL Target Recommendations] は、訪問者が知らなかったであろう関連項目へと訪問者を誘導できます。 [!DNL Recommendations] は、適切なタイミング、適切な場所で訪問者に関連コンテンツを提供できます。
 
@@ -73,7 +73,7 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 | アクティビティ | [!DNL Target] のアクティビティを使用すると、特定のオーディエンス対してコンテンツをパーソナライズし、ページのデザインをテストできます。 [!DNL Recommendations] は、 [!DNL Target] で利用できる多数のアクティビティタイプの 1 つにすぎません。 詳しくは、[Target のアクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。 |
 | エンティティ | エンティティとは、レコメンデーションする項目を指します。 製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。 詳しくは、[エンティティ](/help/main/c-recommendations/c-products/products.md)を参照してください。 |
 | フィード | フィードは、[!DNL Recommendations] にエンティティを読み込むために使用されます。 エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。 詳しくは、[フィード](/help/main/c-recommendations/c-products/feeds.md)を参照してください。 |
-| カタログ | カタログは、製品セット（エンティティ）全体を表します。 カタログには多数のコレクションを含めることができます。これにより、商品を論理的なグループにまとめて整理できます。 |
+| カタログ | カタログは、製品セット（エンティティ）全体を表します。 カタログには多数のコレクションを含めることができます。これにより、商品を論理的なバケットにまとめて整理できます。 |
 | コレクション | コレクションは、1 つの製品カテゴリなど、類似した項目や関連項目のセットを指します。 しかし、どのような品目でも、ビジネス上で適切なカテゴリグループ分けすることができます。例えば、ある価格帯や色の製品、ある地域で特に興味がもたれそうな品目などです。 詳しくは、[コレクション](/help/main/c-recommendations/c-products/collections.md) を参照してください。 |
 | 条件 | 条件は、事前に決められた訪問者の行動に基づいて、どの製品を推奨するかを決定するルールです。<br>条件の例としては、次のようなものがあります。 <ul><li>これを購入した人が他に購入したもの</li><li>これを閲覧した人が他に閲覧したもの</li><li>類似の属性を持つ品目</li><li>最後に購入された品目</li><li>お気に入りのカテゴリ</li></ul>  詳しくは、[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を参照してください。 |
 | デザイン | デザインは、[!DNL Recommendations] アクティビティでのレコメンデーションの外観（行、列、テーブル、グリッドなど）を定義します。 この記事の上部の図は、4 x 1 のデザインを示しています。 詳しくは、[デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md)を参照してください。 |
@@ -89,7 +89,7 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

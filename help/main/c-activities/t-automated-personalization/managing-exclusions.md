@@ -25,57 +25,67 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 26%
+source-wordcount: '506'
+ht-degree: 7%
 ---
-# 除外の管理
+# 除外の管理 {#manage-exclusions}
 
-除外をマスタリングすることで、[!UICONTROL Automated Personalization] （AP）戦略を制御します。 重複するオファーの作成、エクスペリエンスの組み合わせの改善、デフォルトのコンテンツの削除など、目標やオーディエンスの期待に沿って、よりクリーンで関連性の高いエクスペリエンスを提供するための除外機能を利用できます。
+>[!BEGINSHADEBOX]
 
-## 重複するオファーを許可または禁止 {#concept_4EF78013F80E48EFA024AE0274C9F037}
+**このページ：**&#x200B;で、**[!UICONTROL Automated Personalization]**&#x200B;のアクティビティで、オファーの重複を防止し、特定のエクスペリエンスを除外し、デフォルトコンテンツを除外する方法を説明します。
+
+>[!ENDSHADEBOX]
+
+除外は、**[!UICONTROL Automated Personalization]** （AP）アクティビティが提供するオファーとエクスペリエンスを制御します。 これにより、同じオファーが2回表示されるのを防ぎ、連携しないオファーの組み合わせを削除し、デフォルトのコンテンツを削除します。これにより、目標やオーディエンスに合わせて、よりクリーンで関連性の高いエクスペリエンスを提供するためのアクティビティを構築できます。
+
+## 重複するオファーを許可または禁止 {#allow-duplicate-offers}
+
+<a id="concept_4EF78013F80E48EFA024AE0274C9F037"></a>
 
 AP アクティビティの異なる場所で使用する場合、オファーライブラリのオファーが重複するのを防ぎます。
 
-例えば、ページ上で 6 つのロケーションと 12 件のオファーがあるアクティビティがあるとします。 同じオファーがアクティビティ内の 1 つまたは複数のロケーションに配置される場合があります。 この機能を使用すると、同じアクティビティ内の異なる場所に重複するオファーを同時に表示しないようにできます。
+アクティビティには、例えば、12件のオファーを含むページ上の6つの場所を含めることができるため、同じオファーを複数の場所に配置できます。 重複するオファーを許可しないと、同じアクティビティ内の異なる場所に同じオファーが同時に表示されなくなります。
 
-1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)、**[!UICONTROL 設定]** アイコン （![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL 重複オファーを許可]**&#x200B;をクリックして、必要に応じてこの機能のオンとオフを切り替えます。
+1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)、**[!UICONTROL 設定]** アイコン （![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックします。
 
-## 特定のエクスペリエンスの除外 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+1. 「**[!UICONTROL オファーの重複を許可]**」をクリックして、必要に応じてこの機能のオンとオフを切り替えます。
 
-AP アクティビティから特定のオファーの組み合わせを除外する場合は、特定のエクスペリエンスを除外します。
+   ![ アイコンの設定](../assets/exclusion-1.png)
 
-特定の組み合わせが連携しない場合や、テストしたエクスペリエンスの数が制限されて、アクティビティのトラフィック要件が減少する場合があります。
+## 特定のエクスペリエンスの除外 {#exclude-experiences}
 
-1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)、**コンテンツの管理** アイコン（![&#x200B; コンテンツの管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックします。
+<a id="task_C17D36EF58AF4908B17A3D84CA6DE85A"></a>
 
-   [!UICONTROL エクスペリエンス]のリストに、すべてのコンテンツと場所のオプションの順列を基に作成された各エクスペリエンスが表示されます。
+特定のエクスペリエンスを除外して、AP アクティビティから特定のオファーの組み合わせを削除します。 一部の組み合わせが連携しない場合や、アクティビティのトラフィック要件を軽減するために、テストするエクスペリエンスの数を制限する場合があります。
 
-1. 必要に応じてエクスペリエンスを除外します。
+1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)、**[!UICONTROL コンテンツの管理]** アイコン（![ コンテンツの管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします。
 
-   特定のエクスペリエンスを除外するには、[!UICONTROL **詳細アクション**] アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、[!UICONTROL **除外**]&#x200B;をクリックします。
+   **[!UICONTROL エクスペリエンス]**&#x200B;のリストに、すべてのコンテンツと場所のオプションの順列を基に作成された各エクスペリエンスが表示されます。
 
-   または、関連するエクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックして、エクスペリエンスをバッチで除外することもできます。 1つ以上のエクスペリエンスがチェックされると、[!UICONTROL 除外] アイコンが表示されます。
+1. テストしないエクスペリエンスは除外します。
+
+   * 1つのエクスペリエンスを除外するには、**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 除外]**&#x200B;をクリックします。
+   * 複数のエクスペリエンスを一度に除外するには、各エクスペリエンスのチェックボックスを選択し、**[!UICONTROL 除外]**&#x200B;をクリックします。 1つ以上のエクスペリエンスを選択すると、**[!UICONTROL 除外]** アイコンが表示されます。
 
    ![エクスペリエンスの一括除外](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   エクスペリエンスがアクティビティから除外され、その[!UICONTROL &#x200B; ステータス &#x200B;]が[!UICONTROL 除外]として表示されるようになりました。
+   エクスペリエンスはアクティビティから除外され、その&#x200B;**[!UICONTROL ステータス]**&#x200B;は&#x200B;**[!UICONTROL 除外]**&#x200B;と表示されるようになりました。
 
-## デフォルトコンテンツを除外 {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## デフォルトコンテンツを除外 {#exclude-default-content}
 
-AP アクティビティの一部として、デフォルトのコンテンツを含めたくない場合があります。 この方法を使用すると、アクティビティの一部として、1つの場所に1つのオファー（デフォルトのコンテンツとは異なる）のみを設定できます。
+<a id="task_DCB4528989DF4C05A3A4729E5891D18F"></a>
 
-AP アクティビティでテストするオファーに合わせてページの他の部分のデザインを変更したい場合は、デフォルトのコンテンツを除外する方法が効果的です。 例えば、テスト対象のオファーのカラーパレットを一致させたい場合は、ページの背景色を変更し、デフォルトの背景色を除外します。
+AP アクティビティに含めない場合は、デフォルトコンテンツを除外します。これにより、デフォルトコンテンツとは異なるオファーが1つだけ場所に含まれるようになります。 このアプローチでは、テストするオファーに合わせて、ページの残りの部分のルック&amp;フィールも変更できます。 例えば、オファーのカラーパレットを一致させるために、ページの背景色を変更し、デフォルトの背景色を除外することができます。
 
-**[!UICONTROL Visual Experience Composer] （VEC）を使用してデフォルトコンテンツを除外するには：**
+1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)に、置き換えるコンテンツを選択し、**[!UICONTROL テキストの変更/HTML]**、**[!UICONTROL 画像オファーの変更]**、**[!UICONTROL 背景色の変更]**&#x200B;をクリックします。 利用可能なオプションは、コンテンツの種類によって異なります。
 
-1. [AP アクティビティの作成または編集中](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)に、置き換えるコンテンツを選択し、クリックして&#x200B;**[!UICONTROL テキストの変更/HTML]**、**[!UICONTROL 画像オファーの変更]**、**[!UICONTROL 背景色の変更]**&#x200B;にアクセスします。 利用可能なオプションは、コンテンツの種類によって異なります。
+   ![ オプションの変更](../assets/exclusion-1.png)
 
-   ![&#x200B; オプションの変更](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. 新しいコンテンツの制作。
 
-1. **[!UICONTROL 詳細アクション]** （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）アイコンをクリックし、**デフォルトのオファーを除外/デフォルトのオファーを含める**/ トグルをクリックして、デフォルトのオファーを除外または含めます。
+1. 「**[!UICONTROL その他のアクション]**」アイコン（![その他のアクション アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、「**デフォルトのオファーを除外/デフォルトのオファーを含める**」トグルをクリックして、デフォルトのオファーを除外または含めます。
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 

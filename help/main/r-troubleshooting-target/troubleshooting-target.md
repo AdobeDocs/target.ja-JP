@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 79%
@@ -82,7 +82,7 @@ ht-degree: 79%
 ### 多変量分析テスト（MVT）
 
 * [多変量分析テストのベストプラクティス](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [多変量分析テストのトラブルシューティング](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [多変量分析テストのトラブルシューティング](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [テストを成功させるために必要なトラフィックの見積もり](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### レコメンデーション
@@ -129,7 +129,7 @@ ht-degree: 79%
 
 ## グローバル mbox
 
-* [グローバル mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ja)
+* [グローバル mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## ホスト／環境
 
@@ -146,7 +146,7 @@ ht-degree: 79%
 
 ### グローバル mbox
 
-* [グローバル mbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ja)
+* [グローバル mbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
@@ -157,7 +157,7 @@ ht-degree: 79%
 
 ## モバイルアプリ
 
-* [モバイルアプリ用 Target に関する FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=ja)
+* [モバイルアプリ用 Target に関する FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## レポート
 
@@ -166,7 +166,7 @@ ht-degree: 79%
 
 ## 検索エンジン最適化（SEO）
 
-* [検索エンジン最適化（SEO）対応テスト](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja)
+* [検索エンジン最適化（SEO）対応テスト](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## セキュリティ
 
