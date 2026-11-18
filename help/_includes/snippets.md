@@ -1,8 +1,8 @@
 ---
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 83%
+source-wordcount: '323'
+ht-degree: 68%
 ---
 # スニペット
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 >
 >* [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!DNL Target] の[!UICONTROL オファーライブラリ] に関する主な UI の変更の概要について説明します。
 >
->* [&#x200B; [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+>* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 >
 >* [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 >
@@ -40,3 +40,6 @@ ht-degree: 83%
 
 アクティビティ名の先頭に`=`、`+`、`-`、または`@`を指定することはできません。 アクティビティ名に次の文字シーケンスを含めることはできません：`;=`、`;+`、`;-`、`;@`、`,=`、`,+`、`,-`、`,@`、`["`、または`"]`。
 
+## アクティビティへの訪問者マッチング {#visitor-matching}
+
+既に&#x200B;**[!UICONTROL A/B テスト]**&#x200B;または&#x200B;**[!UICONTROL 多変量テスト]**&#x200B;のアクティビティに参加している訪問者は、コンバージョンするまで、そのアクティビティと一致します。 以前に&#x200B;**[!UICONTROL エクスペリエンスのターゲット設定]** アクティビティを行った訪問者は、その訪問者に再度一致させる必要があります。 訪問者がオーディエンスのルールを満たした場合、そのアクティビティと特定のエクスペリエンスに分類されます。

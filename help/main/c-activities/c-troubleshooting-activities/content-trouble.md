@@ -29,28 +29,32 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22dff18ca8369805557788d62c4eaf09f9764494
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 84%
+source-wordcount: '1677'
+ht-degree: 55%
 ---
-# コンテンツ配信のトラブルシューティング
+# コンテンツ配信のトラブルシューティング {#content-trouble}
 
-ページに意図するコンテンツが表示されない場合は、コンテンツ配信をデバッグするためにいくつかの手順をおこないます。
+>[!BEGINSHADEBOX]
 
-* アクティビティやキャンペーンコードを慎重に確認します。 タイポやその他のエラーがあると、意図するコンテンツが表示されない場合があります。
-* [!DNL Target] リクエストのトラブルシューティングには、mboxTrace や mboxDebug を使用します。
-* Adobe Experience Cloud デバッガーは mboxDebug と同じ情報を入手できる使いやすいツールです。このツールを使用して [!DNL Target] リクエストのトラブルシューティングができます。
+**このページで：** ページに期待されるコンテンツが表示されない場合に[!DNL Adobe Target]でコンテンツ配信をデバッグする方法を説明します。
 
-mboxDebug は、ページで [!DNL Target] を設定して、Target リクエストが実行され Cookie が設定されたことを確認する場合に特に便利です。 ただし、mboxDebug は、コンテンツ配信のデバッグに役立つ詳細までは調べません。 ページにアクティビティが表示されない場合や、意図していないコンテンツが表示される場合は、mboxTrace を使用してページの調査とデバッグを詳細におこないます。
+>[!ENDSHADEBOX]
 
-## デバッグツールで使用するための認証トークンの取得 {#section_BED130298E794D1FA229DB7C3358BA54}
+ページに予想されるコンテンツが表示されない場合、原因は、アクティビティコードのエラー、見つからないか配置されていない[!DNL Target] リクエスト、または別のアクティビティとの競合である可能性があります。 タイプミスやその他のエラーにより、予想されるコンテンツが表示されない可能性があるため、アクティビティやキャンペーンコードを注意深く確認してください。 次に、mboxTrace、mboxDebug、またはAdobe Experience Cloud Debuggerを使用して、[!DNL Target] リクエストを調べます。
 
-mboxTrace と mboxDebug は、外部パーティにキャンペーンデータとプロファイルデータを公開するので、認証トークンが必要です。 認証トークンは、[!DNL Target] UI で取得できます。 トークンは 6 時間有効です。
+**mboxDebug**&#x200B;は、ページに[!DNL Target]を設定する際に特に便利です。[!DNL Target] リクエストが実行され、Cookieが設定されていることを確認します。 ただし、コンテンツ配信をデバッグする際に役立つ詳細には入りません。 ページにアクティビティが表示されない場合や、意図していないコンテンツが表示される場合は、mboxTrace を使用してページの調査とデバッグを詳細におこないます。
+
+## デバッグツール {#debugging-tools}
+
+### 認証トークンの取得 {#section_BED130298E794D1FA229DB7C3358BA54}
+
+mboxTraceとmboxDebugは、キャンペーンデータとプロファイルデータを外部の関係者に公開できるため、認証トークンが必要です。 認証トークンは、[!DNL Target] UI で取得できます。 トークンは 6 時間有効です。
 
 認証トークンを生成するには、次のいずれかのユーザー権限が必要です。
 
-* 少なくとも[!UICONTROL 編集者]の権限（または[!UICONTROL 承認者]）
+* 少なくとも&#x200B;**[!UICONTROL 編集者]**&#x200B;の権限（または&#x200B;**[!UICONTROL 承認者]**）
 
   [!DNL Target Standard]ユーザーの詳細については、*ユーザー*&#x200B;の[役割と権限の指定](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)を参照してください。 [!DNL Target Premium]ユーザーの詳細については、[エンタープライズ権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)を参照してください。
 
@@ -62,7 +66,7 @@ mboxTrace と mboxDebug は、外部パーティにキャンペーンデータ�
 
 認証トークンを取得するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]** / **[!UICONTROL 実装]**&#x200B;をクリックします。
+1. **[!UICONTROL 管理]** > **[!UICONTROL 実装]**&#x200B;にアクセスします。
 1. 「デバッガーツール」セクションで、「**[!UICONTROL 新しい認証トークンを生成]**」をクリックします。
 
    ![新しい認証トークンの生成](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
@@ -71,7 +75,7 @@ mboxTrace と mboxDebug は、外部パーティにキャンペーンデータ�
 
    ![認証トークン](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
-## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
+### mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
 mboxTrace を使用すると、[!DNL Target] 応答に付属する追跡情報を受信できます。 トレース情報は、[!DNL Target] 呼び出し（コンバージョンやインプレッションなど）の結果と、この特定の結果の発生理由を判断するのに役立つことがある追加データ（キャンペーンで選択肢となった使用可能な分岐のセットなど）を反映します。 この情報を使用してコンテンツ配信をデバッグします。
 
@@ -110,107 +114,132 @@ mboxTrace を使用すると、[!DNL Target] 応答に付属する追跡情報�
 
 サイトの通常の機能や外見は、mboxTrace の影響を受けません。 訪問者には、通常のレコメンデーションデザインが表示されます。
 
-## mboxDebug {#mboxdebug}
+### mboxDebug {#mboxdebug}
 
 mboxDebug を使用するには、URL の末尾に mboxDebug パラメーターを追加します。 [!DNL Target] 応答に関連する URL パラメーターについての情報を次の表に示します。
 
->[!NOTE]
->
->mboxDebug パラメーターによっては、使用するのに認証を必要とするものと、認証を必要としないものがあります。
+一部のmboxDebug パラメーターは、認証の有無に関わらず使用できます。
 
 | URL パラメーター | 目的 |
 |--- |--- |
 | `mboxDebug=1` | デバッガー<br>Target リクエストが定義された任意の URL にこのパラメーターを追加すると、ポップアップウィンドウが開き、有用なデバッグ詳細情報が表示されます。 Cookie 情報、PCID およびセッション ID の値が記述され、 URL がすべて表示されます。 Targe リクエストの URL をクリックすると、その [!DNL Target] リクエストに対する応答を表示できます。 詳しくは、[mbox_debug.pdf](/help/main/assets/mbox_debug.pdf) を参照してください。 |
 | `mboxDisable=1` | ページ上の mbox を無効化 |
-| `mboxOverride.browserIp=<Insert IP address>` | 地域ターゲティングのテスト<br>地域ターゲティングをこの URL パラメーターでテストします。 この属性の値に IP アドレスを入力すると、Test&amp;Target のジオターゲティングがこの IP アドレスを評価し、キャンペーン内のジオターゲティングまたはセグメント化セットに一致させます。 |
+| `mboxOverride.browserIp=<Insert IP address>` | 地域ターゲティングのテスト<br>地域ターゲティングをこの URL パラメーターでテストします。 この属性の値としてIP アドレスを入力すると、[!DNL Target] ジオターゲティングはそのIP アドレスをキャンペーンで設定されているジオターゲティングまたはセグメント化と一致するように評価します。 |
 
 >[!NOTE]
 >
 >URLフラグメントがクエリ文字列パラメーターの後にあることを確認します。 最初の `#` の後はすべてフラグメント識別子となり、デバッグパラメーターが正しく機能しません。
 
-## Adobe Experience Cloud デバッガー {#section_A2798ED3A431409690A4BE08A1BFCF17}
+### Adobe Experience Cloud デバッガー {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。 ライブラリ設定をすばやく表示し、リクエストを検証してカスタムパラメーターが正しく渡されたことを確認し、コンソールのログを有効にして、Target のすべてのリクエストを無効にすることができます。 Experience Cloud への認証を行うと、強力な MboxTrace ツールを使用して、アクティビティ、オーディエンス選定、訪問者プロファイルを調査できます。
+Adobe Experience Cloud Debuggerは、[!DNL Target]の実装を理解するのに役立ちます。 ライブラリ設定を表示し、カスタムパラメーターが正しく渡されていることを確認し、コンソールのログ記録をオンにして、すべての[!DNL Target]要求を無効にすることができます。 Experience Cloudに認証した後は、mboxTraceを使用して、アクティビティとオーディエンスの条件だけでなく、訪問者プロファイルを調べることができます。
 
-詳しくは、以下のトレーニングビデオを参照してください。
+詳しくは、このページの最後にある[ トレーニングビデオ ](#training-videos)および[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}を使用したat.jsのデバッグを参照してください。
 
-詳しくは、[Adobe Experience Cloud Debugger を使用した at.js のデバッグ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}を参照してください。
+## 一般的な問題 {#common-problems}
 
-## レコメンデーションにトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
++++ レコメンデーションにトップセラーが表示されない
 
 *`SiteCatalyst: purchase`*&#x200B;呼び出しは、購入アルゴリズムのトラフィックデータに使用できません。 代わりに、*`orderConfirmPage`* 呼び出しを使用します。
 
-## アクティビティの優先度を確認 {#section_3D0DD07240F0465BAF655D0804100AED}
++++
 
-[!DNL Target Standard/Premium] で作成されたフォームベースのアクティビティは、優先度が同じで、同じ [!DNL Target] リクエスト使用している [!DNL Target Classic] UI で作成されたアクティビティと競合する場合があります。
+</br>
 
-## Internet Explorer 8 でカスタムコードが期待どおりの結果を返さない {#section_FAC3651F19144D12A37A3E4F14C06945}
++++ フォームベースのアクティビティとTarget Classic アクティビティの競合
 
-Target は、IE 8 をサポートしていません。
+[!DNL Target Standard/Premium] で作成されたフォームベースのアクティビティは、優先度が同じで、同じ [!DNL Target] リクエスト使用している [!DNL Target Classic] UI で作成されたアクティビティと競合する場合があります。 詳しくは、[ アクティビティの優先度](/help/main/c-activities/priority.md)を参照してください。
 
-## Target の Cookie が設定されない {#section_77AFEB541C0B495EB67E29A4475DF960}
++++
 
-サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。 詳しくは、[targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ja){target=_blank} を参照してください。
+</br>
 
-## 要素が Adobe Experience Manager パーソナライゼーションにも含まれていると、Target のコンテンツがちらつく、または表示されない。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
++++ [!DNL Target] Cookieが設定されません
 
-DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーションのターゲティングと Target アクティビティの両方に含まれていると、Target コンテンツがちらついたり表示されなかったりする場合があります。
+サイトに[!DNL us.domain.com]などのサブドメインがありますが、[!DNL domain.com]に[!DNL Target] Cookieを設定する必要がある場合（[!DNL us.domain.com]ではなく）は、`cookieDomain`設定を上書きする必要があります。 詳しくは、[targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ja){target=_blank} を参照してください。
 
-この状況を改善するには、Target が実行されているページで AEM パーソナライゼーションを無効にします。
++++
 
-## URL が無効なのでリダイレクトおよびリモートオファーを配信できない {#section_7D09043B687F43B39DAEDF17D00375AC}
+</br>
+
++++ 要素がAdobe Experience Manager パーソナライゼーションの一部でもある場合、コンテンツのちらつきが表示されるか、表示されません
+
+DOM要素がAdobe Experience Manager（AEM）のパーソナライゼーションターゲティングおよび[!DNL Target] アクティビティの一部である場合、[!DNL Target]のコンテンツが表示されないことがあります。
+
+この問題を解決するには、[!DNL Target]が実行中のページでAEM パーソナライゼーションを無効にすることができます。
+
++++
+
+</br>
+
++++ 無効なURLが原因で、リダイレクトとリモートのオファーを配信できない
 
 リダイレクトまたはリモートオファーで無効な URL が使用されていると、配信できない可能性があります。
 
-リダイレクトオファーの場合、 [!DNL Target] の応答には `/* invalid redirect offer URL */` を含めることができます
+* リダイレクトオファーの場合、[!DNL Target]応答に`/* invalid redirect offer URL */`を含めることができます。
+* リモートオファーの場合、[!DNL Target]応答に`/* invalid remote offer URL */`を含めることができます。
 
-または
+ブラウザーまたはmboxTraceを使用して、[!DNL Target]応答を確認できます。 有効な URL について詳しくは、[https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) を参照してください。
 
-リモートオファーの場合、[!DNL Target] の応答には `/* invalid remote offer URL */` を含めることができます
++++
 
-[!DNL Target] 応答をブラウザーまたは mboxTrace で確認できます。 有効な URL について詳しくは、[https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) を参照してください。
+</br>
 
-## [!DNL Target] リクエストがサイトで実行されません。
++++ [!DNL Target]件のリクエストが自分のサイトで実行されていません
 
-無効な doctype を使用している場合、at.js は Target mbox を実行しません。 a.js には HTML5 の doctype が必要です。
+無効なdoctypeを使用している場合、at.jsは[!DNL Target] リクエストを実行しません。 a.js には HTML5 の doctype が必要です。
 
-## [!DNL Target] アクティビティが、クエリ文字列パラメーターを使用して URL を正しく処理することを確認します。 {#query-strings}
++++
 
-[!UICONTROL &#x200B; アクティビティ URL]は、アクティビティの訪問者を認定し、アクティビティエクスペリエンスをユーザーにレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
+## URLにクエリ文字列パラメーターを含むアクティビティ {#query-strings}
+
+**[!UICONTROL アクティビティ URL]**&#x200B;は、アクティビティの訪問者を認定し、アクティビティエクスペリエンスをユーザーにレンダリングするページを決定します。 アクティビティの作成中にプロンプトが表示された場合、特にクエリ文字列パラメーターを含む URL の場合、完全な URL を入力してもコンテンツがそのサイトページに配信されるとは限りません。
 
 デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は[Visual Experience Composer設定](/help/main/administrating-target/visual-experience-composer-set-up.md)で指定されたページを開きます。 アクティビティ作成中に、別のページを指定することもできます。
 
-VECが開いた後に別のページを表示するには、**[!UICONTROL ギアアイコン]**&#x200B;を設定/**[!UICONTROL ページ配信]**&#x200B;を選択をクリックし、[!UICONTROL &#x200B; アクティビティ URL] フィールドに目的のURLを指定します。
+VECが開いた後に別のページを表示するには、**[!UICONTROL ギアアイコン]**&#x200B;を設定/**[!UICONTROL ページ配信]**&#x200B;を選択をクリックし、**[!UICONTROL アクティビティ URL]** フィールドに目的のURLを指定します。
 
 ![ページ配信設定 UI の設定](assets/configure-page-delivery.png)
 
-URL にクエリ文字列パラメーターが含まれている場合はどうなりますか？ そのパラメーターが機能して、パーソナライズされたコンテンツが表示されますか？ このシナリオでは、ターゲットオーディエンスに関係なく、ベース URL に加えて、テンプレートルールを含めてクエリパラメーターを定義できます。
+URLにクエリ文字列パラメーターが含まれている場合、ページがアクティビティに適格でない場合や、パーソナライズされたコンテンツが表示されない場合があります。 ターゲットオーディエンスに関係なく、ベース URLに加えてテンプレートルールを含めて、クエリパラメーターを定義できます。
 
 追加のテンプレートルールを含めるには、次のオプションを使用できます。
 
-### オプション 1: URLをレプリケートし、「contains」オプションを使用してテンプレートルールに保持します。
+* **オプション 1:** URLを複製し、「contains」オプションを使用してテンプレートルールに保持します
 
-このオプションを使用すると、その URL がアクティビティに適格であることは保証できますが、ベース URL を含む URL にレコードが追加されることで、レポートデータに影響を与える可能性があるコーナーケースが伴うことに注意が必要です。
+  +++ テンプレートルール設定の表示
 
-このシナリオでは、URL は `https://shopping.mycart.com?type=Summers%20Offers` であり、追加のテンプレートルールには同じ URL が含まれ（contains）、OR 演算子で区切られます。
+  このオプションを使用すると、その URL がアクティビティに適格であることは保証できますが、ベース URL を含む URL にレコードが追加されることで、レポートデータに影響を与える可能性があるコーナーケースが伴うことに注意が必要です。
 
-![テンプレートルールに URL を複製](assets/option1.png)
+  このシナリオでは、URL は `https://shopping.mycart.com?type=Summers%20Offers` であり、追加のテンプレートルールには同じ URL が含まれ（contains）、OR 演算子で区切られます。
 
-### オプション 2：クエリ文字列のみを使用して、URLの「contains」条件を制限します。
+  ![テンプレートルールに URL を複製](assets/option1.png)
 
-前のオプションで説明したコーナーケースはこのオプションでも当てはまりますが、ここでは、条件付き設定はクエリ文字列にのみに限られます。
+  +++
 
-このシナリオでは、URL は `https://shopping.mycart.com?type=Summers%20Offers` であり、追加のテンプレートルールにはクエリ文字列のみが含まれ（contains）、OR 演算子で区切られます。
+* **オプション 2:** URLの「contains」条件をクエリ文字列のみで制限する
 
-![テンプレートルールにクエリ文字列のみを含める](assets/option2.png)
+  +++ テンプレートルール設定の表示
 
-### オプション 3：完全な URL をターゲットにせず、URL の特定の部分を利用する。
+  前のオプションで説明したコーナーケースはこのオプションでも当てはまりますが、ここでは、条件付き設定はクエリ文字列にのみに限られます。
 
-このシナリオでは、URLは`https://shopping.mycart.com?type=Summers%20Offers`で、追加のテンプレートルールは[!UICONTROL type] > [!UICONTROL is （大文字と小文字が区別されます） &#x200B;] > type=Summers%20Offersで[!UICONTROL &#x200B; クエリ &#x200B;]を指定し、OR演算子で区切ります。
+  このシナリオでは、URL は `https://shopping.mycart.com?type=Summers%20Offers` であり、追加のテンプレートルールにはクエリ文字列のみが含まれ（contains）、OR 演算子で区切られます。
 
-![URL の特定の部分を活用するテンプレートルール](assets/option3.png)
+  ![テンプレートルールにクエリ文字列のみを含める](assets/option2.png)
 
-## [!DNL Target] プロファイル属性値の二重引用符のエスケープが期待どおりに機能しません。 {#escape}
+  +++
+
+* **オプション 3:**&#x200B;完全なURLをターゲットにするのではなく、URLの特定の部分を活用します
+
+  +++ テンプレートルール設定の表示
+
+  このシナリオでは、URLは`https://shopping.mycart.com?type=Summers%20Offers`で、追加のテンプレートルールは&#x200B;**[!UICONTROL type]** > **[!UICONTROL is （大文字と小文字が区別されます）]** > type=Summers%20Offersで&#x200B;**[!UICONTROL クエリ]**&#x200B;を指定し、OR演算子で区切ります。
+
+  ![URL の特定の部分を活用するテンプレートルール](assets/option3.png)
+
+  +++
+
+## プロファイル属性値の二重引用符のエスケープ {#escape}
 
 [!DNL Target] プロファイル属性に二重引用符を含む値を送信する場合は、次に示すように、二重引用符をエスケープする必要があります。
 
@@ -223,18 +252,18 @@ adobe.target.trackEvent({
 });
 ```
 
-## トレーニングビデオ
+## トレーニングビデオ {#training-videos}
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### 拡張機能![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)を追加
+### 拡張機能![ チュートリアルバッジ ](/help/main/assets/tutorial.png)を追加
 
->[!VIDEO](https://video.tv.adobe.com/v/34063?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Adobe Target の基本的なデバッグ ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34064?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/34065?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

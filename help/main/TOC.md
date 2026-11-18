@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 72%
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 72%
 
 + [Adobe Target Business Practitioner Guide Home](target-home.md)
 + Target リリースノート {#release-notes}
-  + {hide-from-toc}[Targetのお知らせとイベント &#x200B;](/help/main/r-release-notes/target-announcements.md)
+  + {hide-from-toc}[Targetのお知らせとイベント ](/help/main/r-release-notes/target-announcements.md)
   + [Target リリースノート（最新）](r-release-notes/release-notes.md)
   + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
   + [Adobe Targetのドキュメントを読む](/help/main/r-release-notes/target-documentation.md)
@@ -106,8 +106,8 @@ ht-degree: 72%
     + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
     + {hide-from-toc}[統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizerのユースケース {#use-cases}
-      + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル &#x200B;](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[Adobe Journey OptimizerでのA/B テストによる コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + {hide-from-toc}[Adobe Journey Optimizerの最も重要な最適化ユースケース - webおよびコードベースのチャネル ](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+      + Adobe Journey OptimizerでのA/B テストによる{hide-from-toc}[ コンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[web ページにコンポーネントを追加または非表示にする](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
   + Adobe TargetとAdobe Experience Managerの統合（AEM） {#aem}
@@ -124,6 +124,8 @@ ht-degree: 72%
   + [インサイトダッシュボード](c-activities/insights-dashboard.md)
   + [サンプルサイズ計算ツール](c-activities/sample-size-calculator.md)
   + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
+  + [アクティビティの編集](c-activities/edit-activity.md)
+  + [優先度](c-activities/priority.md)
   + A/B テスト {#abtest}
     + [A/B テストを始める](c-activities/t-test-ab/test-ab.md)
     + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
@@ -176,10 +178,6 @@ ht-degree: 72%
       + [多変量分析テストのエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [テストを成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [テスト概要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-  + [レコメンデーションアクティビティ](c-activities/recommendations-activity.md)
-  + [アクティビティの編集](c-activities/edit-activity.md)
-  + [優先度](c-activities/priority.md)
-  + [アクティビティの設定](c-activities/activity-settings.md)
   + 成功指標 {#success-metrics}
     + [成功指標](c-activities/r-success-metrics/success-metrics.md)
     + [クリックの追跡](c-activities/r-success-metrics/click-tracking.md)
@@ -337,4 +335,4 @@ ht-degree: 72%
   + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
   + [Adobe Target SDKとAPIの基本を学ぶ](/help/main/api/api-overview.md)
-+ [リソースおよび連絡先情報 &#x200B;](cmp-resources-and-contact-information.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)
