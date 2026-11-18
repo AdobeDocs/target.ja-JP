@@ -18,28 +18,35 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 10%
 ---
-# アクティビティの変更ログ
+# アクティビティの変更ログ {#change-log}
 
-[!DNL Adobe Target] [!UICONTROL 変更ログ &#x200B;]には、変更された内容、変更を加えたユーザー、変更が発生した日時など、アクティビティのアクションが記録されます。 [!UICONTROL &#x200B; ログの変更] ページは、リアルタイムのインサイト用に入力されます。
+>[!BEGINSHADEBOX]
 
-[!UICONTROL Change Log] ページにアクセスするには：
+**このページ：** アクティビティに対して実行されたアクション、実行したユーザー、およびいつ実行したかを表示する方法を説明します。
 
-1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックします。
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] **[!UICONTROL 変更ログ]**&#x200B;には、変更された内容、変更を加えたユーザー、変更が発生した日時など、アクティビティに対して実行されたアクションが記録されます。 アクティビティの履歴が明確になり、リアルタイムのインサイト用に&#x200B;**[!UICONTROL 変更ログ]** ページが入力されます。
+
+**[!UICONTROL Change Log]** ページにアクセスするには：
+
+1. 「**[!UICONTROL アクティビティ]**」をクリックし、リスト内のアクティビティをクリックします。
 1. 左側のパネルで「**[!UICONTROL Change Log]**」をクリックします。
 
-実行されたアクション、アクションが実行された日付、アクションを実行したユーザーは、アクティビティが作成、更新、アクティブ化、または非アクティブ化されるたびに一覧表示されます。 アクティビティで使用したカスタムターゲットとオファーに関する変更も一覧表示されます。
+   このページには、実行されたアクション、アクションの日付、およびアクティビティが作成、更新、アクティブ化、非アクティブ化されるたびに実行したユーザーが一覧表示されます。 アクティビティで使用したカスタムターゲットとオファーに関する変更も一覧表示されます。
 
-ステータスの変更を確認するには、ページを更新します。 [!UICONTROL 日付]列ヘッダーをクリックして、昇順または降順で実行されたアクションを一覧表示することもできます。
+   ![&#x200B; ログメニューの変更](assets/change_logs.png)
+
+1. アクションを昇順または降順で一覧表示するには、**[!UICONTROL 日付]**&#x200B;列ヘッダーをクリックします。
+
+1. ステータスの変更を確認するには、ページを更新します。
 
 ## Target監査ログ API
 
 * [リビジョン：最終作成者の名前と変更後のタイムスタンプで監査ログを取得します](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [アクティビティの変更ログのリスト](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
-
-
-

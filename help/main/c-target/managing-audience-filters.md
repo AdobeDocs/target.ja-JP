@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 59%
@@ -58,5 +58,5 @@ ht-degree: 59%
 | 適切なアクティビティまたはテストを作成する。 | [アクティビティとテスト](/help/main/c-intro/target-key-concepts.md) |
 | 必要に応じて、オーディエンスを作成する。 | [オーディエンスの作成](/help/main/c-target/c-audiences/create-audience.md) |
 | 必要に応じて、複数のオーディエンスを組み合わせる。 | [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md) |
-| アクティビティの目標と設定ページにオーディエンスを適用する。 | A/B テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br> エクスペリエンスのターゲット設定：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多変量テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>推奨事項：[推奨事項アクティビティ設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br> アクティビティ設定：[&#x200B; アクティビティ設定](/help/main/c-activities/activity-settings.md) |
+| アクティビティの目標と設定ページにオーディエンスを適用する。 | A/B テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br> エクスペリエンスのターゲット設定：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多変量テスト：[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>推奨事項：[推奨事項アクティビティ設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br> アクティビティ設定：[&#x200B; アクティビティ設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) |
 | オーディエンスフィルターに関する情報をレポートに表示する。 | [レポート設定](/help/main/c-reports/c-report-settings/report-settings.md) |

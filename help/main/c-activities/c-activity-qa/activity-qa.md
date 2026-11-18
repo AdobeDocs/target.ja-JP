@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 27%
@@ -64,7 +64,7 @@ ht-degree: 27%
 
      「オフ」にした場合は、以下の点を考慮します。
 
-     * テスト中のアクティビティと他のライブアクティビティの間に衝突がある場合、[通常の優先ルール &#x200B;](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)が適用されます。 衝突のため、QAを行おうとしているアクティビティが表示されない可能性があります。
+     * テスト中のアクティビティと他のライブアクティビティの間に衝突がある場合、[通常の優先ルール &#x200B;](/help/main/c-activities/priority.md#priority)が適用されます。 衝突のため、QAを行おうとしているアクティビティが表示されない可能性があります。
      * 指標は表示されたアクティビティについて増分しますが、それは QA レポートの環境内のみです。
 
 1. 「**[!UICONTROL 完了]**」をクリックして変更を保存します。

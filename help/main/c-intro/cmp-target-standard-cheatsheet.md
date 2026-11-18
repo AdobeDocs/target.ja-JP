@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 49%
@@ -194,14 +194,14 @@ ht-degree: 49%
 **[!UICONTROL &#x200B; ターゲティング &#x200B;] ステップのみを変更し、3段階のガイド付きワークフロー全体を編集しないようにすることはできますか？**
 
 +++詳細を見る
-[!UICONTROL &#x200B; アクティビティの概要] ページ [&#128279;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)から目的の手順を直接入力し、[!UICONTROL 保存して閉じる] オプションを使用して、その手順から終了すると、簡単に実行できます。
+[!UICONTROL &#x200B; アクティビティの概要] ページ [&#128279;](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C)から目的の手順を直接入力し、[!UICONTROL 保存して閉じる] オプションを使用して、その手順から終了すると、簡単に実行できます。
 
 +++
 
 **特定のステップに留まってアクティビティ（オファーのテキストやカスタムコードなど）を編集しながら、別のタブで QA を実行することはできますか？**
 
 +++詳細を見る
-可能です。 [手順](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)を終了することなく、[!UICONTROL 保存] オプションを使用して段階的な変更を行うことができます。
+可能です。 [手順](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174)を終了することなく、[!UICONTROL 保存] オプションを使用して段階的な変更を行うことができます。
 
 +++
 
@@ -378,7 +378,7 @@ CSS セレクターは Sizzle セレクターです。 このセクションで�
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
 +++詳細を見る
-[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
+[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
 
 +++
 
@@ -402,7 +402,7 @@ CSS セレクターは Sizzle セレクターです。 このセクションで�
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
 +++詳細を見る
-[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
+[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
 
 +++
 

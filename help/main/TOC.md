@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 72%
 ---
 
@@ -124,6 +124,8 @@ ht-degree: 72%
   + [インサイトダッシュボード](c-activities/insights-dashboard.md)
   + [サンプルサイズ計算ツール](c-activities/sample-size-calculator.md)
   + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
+  + [アクティビティの編集](c-activities/edit-activity.md)
+  + [優先度](c-activities/priority.md)
   + A/B テスト {#abtest}
     + [A/B テストを始める](c-activities/t-test-ab/test-ab.md)
     + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
@@ -176,10 +178,6 @@ ht-degree: 72%
       + [多変量分析テストのエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [テストを成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [テスト概要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-  + [レコメンデーションアクティビティ](c-activities/recommendations-activity.md)
-  + [アクティビティの編集](c-activities/edit-activity.md)
-  + [優先度](c-activities/priority.md)
-  + [アクティビティの設定](c-activities/activity-settings.md)
   + 成功指標 {#success-metrics}
     + [成功指標](c-activities/r-success-metrics/success-metrics.md)
     + [クリックの追跡](c-activities/r-success-metrics/click-tracking.md)
