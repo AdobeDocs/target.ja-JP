@@ -134,7 +134,7 @@ mboxDebug を使用するには、URL の末尾に mboxDebug パラメーター�
 
 Adobe Experience Cloud Debuggerは、[!DNL Target]の実装を理解するのに役立ちます。 ライブラリ設定を表示し、カスタムパラメーターが正しく渡されていることを確認し、コンソールのログ記録をオンにして、すべての[!DNL Target]要求を無効にすることができます。 Experience Cloudに認証した後は、mboxTraceを使用して、アクティビティとオーディエンスの条件だけでなく、訪問者プロファイルを調べることができます。
 
-詳しくは、このページの最後にある[ トレーニングビデオ ](#training-videos)および[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}を使用したat.jsのデバッグを参照してください。
+詳しくは、このページの最後にある[&#x200B; トレーニングビデオ &#x200B;](#training-videos)および[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}を使用したat.jsのデバッグを参照してください。
 
 ## 一般的な問題 {#common-problems}
 
@@ -148,7 +148,7 @@ Adobe Experience Cloud Debuggerは、[!DNL Target]の実装を理解するのに
 
 +++ フォームベースのアクティビティとTarget Classic アクティビティの競合
 
-[!DNL Target Standard/Premium] で作成されたフォームベースのアクティビティは、優先度が同じで、同じ [!DNL Target] リクエスト使用している [!DNL Target Classic] UI で作成されたアクティビティと競合する場合があります。 詳しくは、[ アクティビティの優先度](/help/main/c-activities/priority.md)を参照してください。
+[!DNL Target Standard/Premium] で作成されたフォームベースのアクティビティは、優先度が同じで、同じ [!DNL Target] リクエスト使用している [!DNL Target Classic] UI で作成されたアクティビティと競合する場合があります。 詳しくは、[&#x200B; アクティビティの優先度](/help/main/c-activities/priority.md)を参照してください。
 
 +++
 
@@ -256,7 +256,7 @@ adobe.target.trackEvent({
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### 拡張機能![ チュートリアルバッジ ](/help/main/assets/tutorial.png)を追加
+### 拡張機能![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)を追加
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

@@ -107,7 +107,7 @@ ht-degree: 7%
 
 * アクティビティを再構築します。
 
-ページの変更が[!DNL Target]のコンテンツ表示機能にどのような影響を与えるかについて詳しくは、[ ページの変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)を参照してください。
+ページの変更が[!DNL Target]のコンテンツ表示機能にどのような影響を与えるかについて詳しくは、[&#x200B; ページの変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)を参照してください。
 
 +++
 
@@ -124,7 +124,7 @@ ht-degree: 7%
 * IDを使用して、テストされる各要素を一意に識別するようにページコードを更新します。
 * 前述のように、クラスまたは兄弟を動的に変更するのをやめます。
 
-ページの変更が[!DNL Target]のコンテンツ表示機能にどのような影響を与えるかについて詳しくは、[ ページの変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)を参照してください。
+ページの変更が[!DNL Target]のコンテンツ表示機能にどのような影響を与えるかについて詳しくは、[&#x200B; ページの変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)を参照してください。
 
 +++
 
@@ -171,7 +171,7 @@ ht-degree: 7%
 
 </br>
 
-+++ [!DNL Target] APIを使用してアクティビティをアクティブ化しましたが、アクティビティは[!DNL Target] UIで[!UICONTROL 非アクティブ ]のステータスを示します
++++ [!DNL Target] APIを使用してアクティビティをアクティブ化しましたが、アクティビティは[!DNL Target] UIで[!UICONTROL 非アクティブ &#x200B;]のステータスを示します
 
 [!DNL Target] APIを使用してUI外でアクティビティをアクティブ化するなど、特定のアクションを実行する場合、更新がUIに反映されるまでに最大10分かかる場合があります。
 
