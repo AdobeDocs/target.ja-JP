@@ -39,8 +39,8 @@ ht-degree: 7%
 
 エンティティに関する情報は、次のような方法で[!DNL Recommendations]に渡すことができます。
 
-* ページから[ エンティティ属性](/help/main/c-recommendations/c-products/entity-attributes.md)が送信され、mboxまたは`targetPageParams`を使用しています。
-* CSV ファイル、[!DNL Google Product Search] フィード形式、[!DNL Adobe Analytics]製品分類を使用できる[ フィード ](/help/main/c-recommendations/c-products/feeds.md)を使用します。
+* ページから[&#x200B; エンティティ属性](/help/main/c-recommendations/c-products/entity-attributes.md)が送信され、mboxまたは`targetPageParams`を使用しています。
+* CSV ファイル、[!DNL Google Product Search] フィード形式、[!DNL Adobe Analytics]製品分類を使用できる[&#x200B; フィード &#x200B;](/help/main/c-recommendations/c-products/feeds.md)を使用します。
 * すべて実現できます。
 
 [!DNL Target]がフィードとmboxの両方からアイテムのデータを収集する場合、最新のデータが使用されます。
@@ -51,8 +51,8 @@ ht-degree: 7%
 
 以下のページを使用して、エンティティを操作します。
 
-* [ エンティティ属性](/help/main/c-recommendations/c-products/entity-attributes.md)および[ カスタムエンティティ属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md): [!DNL Recommendations]に渡す製品またはコンテンツ情報を定義します。
-* [ フィード ](/help/main/c-recommendations/c-products/feeds.md): エンティティまたはコンテンツの情報をレコメンデーションに取り込みます。
-* [ カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md): カタログ内のアイテムを検索します。
-* [ コレクション ](/help/main/c-recommendations/c-products/collections.md): コレクションを設定します。 [!DNL Recommendations] アクティビティの作成時に、各エクスペリエンスのコレクションが選択されます。
+* [&#x200B; エンティティ属性](/help/main/c-recommendations/c-products/entity-attributes.md)および[&#x200B; カスタムエンティティ属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md): [!DNL Recommendations]に渡す製品またはコンテンツ情報を定義します。
+* [&#x200B; フィード &#x200B;](/help/main/c-recommendations/c-products/feeds.md): エンティティまたはコンテンツの情報をレコメンデーションに取り込みます。
+* [&#x200B; カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md): カタログ内のアイテムを検索します。
+* [&#x200B; コレクション &#x200B;](/help/main/c-recommendations/c-products/collections.md): コレクションを設定します。 [!DNL Recommendations] アクティビティの作成時に、各エクスペリエンスのコレクションが選択されます。
 * [除外](/help/main/c-recommendations/c-products/exclusions.md)：特定の項目がレコメンデーションに表示されないようにします。 除外は、アカウント内のすべてのアクティビティに適用されます。

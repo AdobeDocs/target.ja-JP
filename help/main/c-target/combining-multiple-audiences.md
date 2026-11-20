@@ -43,13 +43,13 @@ AND演算子およびOR演算子を使用して、最大20個のオーディエ�
 
 3 ステップのガイドによるワークフローを実行する際に、アクティビティの [!UICONTROL Target] ページで結合オーディエンスをアドホックに作成できます。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md)の作成中、**[!UICONTROL ターゲティング]** ページで、3つの垂直省略記号をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックします。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)の作成中、**[!UICONTROL ターゲティング]** ページで、3つの垂直省略記号をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックします。
 
    ![ステップの結果](assets/edit_audience.png)
 
 1. **[!UICONTROL オーディエンスを選択]**&#x200B;ページで、結合オーディエンスの構成要素として使用するオーディエンスの横にあるチェックボックスをオンにします。
 
-   「[!UICONTROL  オーディエンスを検索]」ボックスを使用して、目的のオーディエンスを絞り込みます。
+   「[!UICONTROL &#x200B; オーディエンスを検索]」ボックスを使用して、目的のオーディエンスを絞り込みます。
 
    ![ステップの結果](assets/combine_multiple_audiences1.png)
 
@@ -93,7 +93,7 @@ AND演算子およびOR演算子を使用して、最大20個のオーディエ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、指標のターゲティングで使用する結合オーディエンスをアドホックに作成できます。 例えば、結合オーディエンスによるコンバージョンに基づいてターゲティングを作成するには、以下の手順に従います。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md)の編集または作成中に、**[!UICONTROL 目標と設定]** ページで、成功指標として&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして&#x200B;**[!UICONTROL Mboxを表示]**&#x200B;を選択します。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)の編集または作成中に、**[!UICONTROL 目標と設定]** ページで、成功指標として&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして&#x200B;**[!UICONTROL Mboxを表示]**&#x200B;を選択します。
 1. 目的の mbox を「**[!UICONTROL mbox を検索]**」フィールドで選択します。
 
    ![combine_multiple_audiences4画像](assets/combine_multiple_audiences4.png)
@@ -109,7 +109,7 @@ AND演算子およびOR演算子を使用して、最大20個のオーディエ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、レポートで使用する結合オーディエンスをアドホックに作成できます。
 
-1. [ アクティビティ ](/help/main/c-activities/activities.md)の編集または作成中に、**[!UICONTROL 目標と設定]** ページで、[!UICONTROL  レポート用オーディエンス ]の下にある&#x200B;**[!UICONTROL オーディエンスを追加]** アイコンをクリックして、[!UICONTROL  オーディエンスを選択] ページを表示します。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)の編集または作成中に、**[!UICONTROL 目標と設定]** ページで、[!UICONTROL &#x200B; レポート用オーディエンス &#x200B;]の下にある&#x200B;**[!UICONTROL オーディエンスを追加]** アイコンをクリックして、[!UICONTROL &#x200B; オーディエンスを選択] ページを表示します。
 
    ![combine_multiple_audiences6画像](assets/combine_multiple_audiences6.png)
 

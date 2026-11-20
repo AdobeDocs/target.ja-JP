@@ -1,6 +1,6 @@
 ---
 keywords: ランダム フォレスト；決定ツリー；ap;Automated Personalization
-description: '[!DNL Adobe Target]が[!UICONTROL Automated Personalization] （AP）と[!UICONTROL 自動ターゲット ]の両方のアクティビティでランダム フォレスト アルゴリズムを使用する方法について説明します。'
+description: '[!DNL Adobe Target]が[!UICONTROL Automated Personalization] （AP）と[!UICONTROL 自動ターゲット &#x200B;]の両方のアクティビティでランダム フォレスト アルゴリズムを使用する方法について説明します。'
 title: '[!DNL Target]はランダム フォレスト アルゴリズムをどのように使用しますか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
@@ -70,7 +70,7 @@ ht-degree: 7%
 
 [!DNL Target]は、自動的に収集するデータと、ユーザーから提供されたカスタム データを使用して、パーソナライゼーション アルゴリズムを構築します。 次の図は、**[!UICONTROL 自動ターゲット]**&#x200B;および&#x200B;**[!UICONTROL Automated Personalization]** アクティビティ用のモデルの構築方法をまとめたものです。
 
-![ ランダム フォレスト モデルの構築方法を要約するフロー](assets/random_forest_flow.png){width="850" zoomable="yes"}
+![&#x200B; ランダム フォレスト モデルの構築方法を要約するフロー](assets/random_forest_flow.png){width="850" zoomable="yes"}
 
 1. [!DNL Target]は、エクスペリエンスやオファーをランダムに提供しながら、訪問者に関するデータを収集します。
 1. [!DNL Target]がクリティカルマスのデータに当たった後、[!DNL Target]は機能工学を実行します。

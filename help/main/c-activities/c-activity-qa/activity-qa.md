@@ -48,7 +48,7 @@ ht-degree: 12%
 * **オプションのオーディエンスターゲティング：** ターゲティング条件をテストするか、無視して、オーディエンスの条件を満たさずにエクスペリエンスの外観を確認します。
 * **個別のQA レポート：**&#x200B;指標が期待どおりに増加することを確認してください。 QA レポートデータは、実稼動レポートとは別に保持されます（A4T以外のレポートの場合）。
 * **他のアクティビティを使用したプレビュー：**&#x200B;配信条件を満たす単独または他のライブアクティビティ（ページ/[!DNL Target] リクエスト/オーディエンス）を使用して、エクスペリエンスをプレビューします。
-* **完全なユーザージャーニー：** QA リンクを使用して一度サイトにアクセスしてから、**[!UICONTROL アクティビティ QA]**&#x200B;でサイト全体を参照します。 セッションを終了するか、[QA ターゲットブックマークレット ](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)を使用して強制的に退出するまで、**[!UICONTROL アクティビティ QA]**&#x200B;に留まります。 この機能は、複数のweb ページにまたがるアクティビティがある場合に便利です。
+* **完全なユーザージャーニー：** QA リンクを使用して一度サイトにアクセスしてから、**[!UICONTROL アクティビティ QA]**&#x200B;でサイト全体を参照します。 セッションを終了するか、[QA ターゲットブックマークレット &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)を使用して強制的に退出するまで、**[!UICONTROL アクティビティ QA]**&#x200B;に留まります。 この機能は、複数のweb ページにまたがるアクティビティがある場合に便利です。
 
   >[!NOTE]
   >
@@ -60,19 +60,19 @@ ht-degree: 12%
 
 1. アクティビティの&#x200B;**[!UICONTROL 概要]** ページで、**[!UICONTROL アクティビティ QA]**&#x200B;をクリックします。
 
-   概要ページ ](../assets/activity-qa.png)の「アクティビティの場所」セクションの「![ アクティビティ QA」ボタン
+   概要ページ ![&#128279;](../assets/activity-qa.png)の「アクティビティの場所」セクションの「 アクティビティ QA」ボタン
 
 1. **[!UICONTROL オーディエンスルールを一致させてエクスペリエンスを表示する]**&#x200B;を設定し、テスターがオーディエンスに適格かどうかを選択します。 オーディエンスマッチングが機能することを確認するにはオンにし、アクティビティのルックアンドフィールを確認するにはオフにします。
 
    * **オン：** テスターは、エクスペリエンスを表示するには、ターゲティング要件を満たす必要があります。 エクスペリエンスのターゲット設定（XT）アクティビティの場合、単一のアクティビティ URLが提供され、表示されるエクスペリエンスは、対象となるターゲティングルールによって異なります。
    * **オフ：** リンクには、資格があるかどうかに関係なく、エクスペリエンスが表示されます。 QA中にいつでも2つの設定を切り替えることができます。
 
-   ![2つの設定と各エクスペリエンスのQA URLを含むアクティビティ QA ウィンドウ ](../assets/activity-qa-1.png)
+   ![2つの設定と各エクスペリエンスのQA URLを含むアクティビティ QA ウィンドウ &#x200B;](../assets/activity-qa-1.png)
 
 1. **[!UICONTROL 他のすべてのアクティビティのデフォルトコンテンツを表示]**&#x200B;に設定して、他のライブアクティビティをページに表示するかどうかを選択します。
 
    * **オン：** デフォルトコンテンツは、その他のすべてのアクティビティに表示されます。 プレビューは、同じページ/[!DNL Target] リクエストの他のライブアクティビティを考慮せずに、独立して表示されます。
-   * **オフ：** テスト中のアクティビティと他のライブアクティビティの間に衝突がある場合、[通常の優先ルール ](/help/main/c-activities/priority.md#priority)が適用されるため、QAするアクティビティが表示されない可能性があります。 指標は表示されたアクティビティについて増分しますが、それは QA レポートの環境内のみです。
+   * **オフ：** テスト中のアクティビティと他のライブアクティビティの間に衝突がある場合、[通常の優先ルール &#x200B;](/help/main/c-activities/priority.md#priority)が適用されるため、QAするアクティビティが表示されない可能性があります。 指標は表示されたアクティビティについて増分しますが、それは QA レポートの環境内のみです。
 
 1. 「**[!UICONTROL 完了]**」をクリックして変更を保存します。
 
@@ -88,7 +88,7 @@ ht-degree: 12%
 
 1. アクティビティリンク URLから生成されたレポートを表示するには、アクティビティの&#x200B;**[!UICONTROL レポート]** ページにアクセスし、**[!UICONTROL 設定]** アイコン （![icon_gear image](assets/icon_gear.png)）をクリックし、**[!UICONTROL 環境]** ドロップダウンリストから&#x200B;**[!UICONTROL QA モードトラフィック]**&#x200B;を選択します。
 
-   レポート設定の環境リストの![QA モードトラフィックオプション ](../assets/activity-qa-2.png)
+   レポート設定の環境リストの![QA モードトラフィックオプション &#x200B;](../assets/activity-qa-2.png)
 
 ## アクティビティ QA モードを終了
 
@@ -100,7 +100,7 @@ ht-degree: 12%
 
 ### at.js 1.*x*
 
-サイトにat.js 1.*x*&#x200B;がデプロイされている場合、[Target QA ブックマークレット ](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)を使用することに加えて、`at_preview_token` パラメーターが空の値に設定されたサイト上のページを手動で読み込むことができます。 次に例を示します。
+サイトにat.js 1.*x*&#x200B;がデプロイされている場合、[Target QA ブックマークレット &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)を使用することに加えて、`at_preview_token` パラメーターが空の値に設定されたサイト上のページを手動で読み込むことができます。 次に例を示します。
 
 `https://www.mysite.com/?at_preview_token=`
 
@@ -122,7 +122,7 @@ ht-degree: 12%
 
 +++ レポートソースとしての分析（A4T）
 
-**[!UICONTROL アクティビティ QA]**&#x200B;のURLは、[Analyticsをレポートソース ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）とするアクティビティで利用できます。 アクティビティ QA ]**を使用してQAを実行する際に生成されたヒットは、アクティビティが公開された後でも、アクティビティデータがフローする同じレポートスイートに送信されます。**[!UICONTROL 
+**[!UICONTROL アクティビティ QA]**&#x200B;のURLは、[Analyticsをレポートソース &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）とするアクティビティで利用できます。 アクティビティ QA **を使用してQAを実行する際に生成されたヒットは、アクティビティが公開された後でも、アクティビティデータがフローする同じレポートスイートに送信されます。**
 
 +++
 
@@ -148,7 +148,7 @@ ht-degree: 12%
 
 +++ 「URLは」条件を持つアクティビティ
 
-フォームベースのコンポーザー](/help/main/c-experiences/form-experience-composer.md)でアクティビティを作成する際に「URLが」を指定した場合、またはVisual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)で[ ページ配信オプションを指定した場合、**[!UICONTROL Activity QA]**&#x200B;はURL パラメーターを追加するため、QA URLは機能しません。 [この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
+フォームベースのコンポーザー[&#128279;](/help/main/c-experiences/form-experience-composer.md)でアクティビティを作成する際に「URLが」を指定した場合、またはVisual Experience Composer[&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)で ページ配信オプションを指定した場合、**[!UICONTROL Activity QA]**&#x200B;はURL パラメーターを追加するため、QA URLは機能しません。 この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
 
 +++
 
@@ -200,7 +200,7 @@ at.js 1.*x*&#x200B;をお持ちの場合、Safariまたはサードパーティ 
 
 +++
 
-## Target JavaScript ライブラリ [!UICONTROL QA モード ]の互換性 {#compatibility}
+## Target JavaScript ライブラリ [!UICONTROL QA モード &#x200B;]の互換性 {#compatibility}
 
 [!DNL Target]は次のJavaScript ライブラリをサポートしています：
 

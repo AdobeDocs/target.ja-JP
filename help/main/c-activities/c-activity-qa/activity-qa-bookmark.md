@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!ENDSHADEBOX]
 
-Web サイトを[QA モード ](/help/main/c-activities/c-activity-qa/activity-qa.md)で閲覧した後、QA モードは[!DNL Target] セッションが期限切れになるまでページ間で保持されます。 ブックマークレットは、JavaScriptを実行するブラウザーのブックマークです。 [!DNL Target] QA ブックレットでは、[!DNL Target]が強制的にQA モードから解放されるため、セッションの有効期限が切れるまで待つ必要はありません。 サイトにデプロイされたat.js バージョンと一致するバージョンを使用します。
+Web サイトを[QA モード &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)で閲覧した後、QA モードは[!DNL Target] セッションが期限切れになるまでページ間で保持されます。 ブックマークレットは、JavaScriptを実行するブラウザーのブックマークです。 [!DNL Target] QA ブックレットでは、[!DNL Target]が強制的にQA モードから解放されるため、セッションの有効期限が切れるまで待つ必要はありません。 サイトにデプロイされたat.js バージョンと一致するバージョンを使用します。
 
 >[!NOTE]
 >

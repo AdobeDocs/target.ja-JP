@@ -108,7 +108,7 @@ mbox が製品ページにある場合は、製品 ID とカテゴリ ID の両�
 | `entity.inventory` | 単一の値のみ。 整数値または long 値が必要です。 | 品目の在庫レベルを表示します。 [entity.inventory](#entity-inventory)を参照してください。 | `'entity.inventory=1'` |
 | `entity.value` | 単一の値のみ。 | 品目の価格や価値を定義します。 10進数形式（例：15.99）のみがサポートされます。 コンマ形式（15,99）はサポートされていません。 | `'entity.value=15.99'` |
 | `entity.margin` | 単一の値のみ。 | その品目の利益幅またはその他の価値。 | `'entity.margin=1.00'` |
-| `entity.`*custom* | 複数値（JSON配列）。 | 項目に関する追加情報を提供するカスタム変数。 [ エンティティを参照してください。*カスタム*](#entity-custom)。 | `'entity.secondary=Rockies'` |
+| `entity.`*custom* | 複数値（JSON配列）。 | 項目に関する追加情報を提供するカスタム変数。 [&#x200B; エンティティを参照してください。*カスタム*](#entity-custom)。 | `'entity.secondary=Rockies'` |
 | `entity.event.detailsOnly` | 単一の値のみ。 | mbox呼び出しがアルゴリズムの行動データカウンターを増分するのを防ぎます。 [entity.event.detailsOnly](#entity-event-details-only)を参照してください。 | `'entity.event.detailsOnly=true'` |
 
 ### entity.id {#entity-id}
@@ -170,7 +170,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。 �
 
 例：`'entity.secondary=["band1",&nbsp;"band2"]'`
 
-複数値のカスタムエンティティの属性には、有効な JSON 配列が必要です。 正しい構文情報については、[ カスタムエンティティ属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md)を参照してください。
+複数値のカスタムエンティティの属性には、有効な JSON 配列が必要です。 正しい構文情報については、[&#x200B; カスタムエンティティ属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md)を参照してください。
 
 ### entity.event.detailsOnly {#entity-event-details-only}
 
