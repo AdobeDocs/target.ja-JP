@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 22%
@@ -31,7 +31,7 @@ ht-degree: 22%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Target]は、使用している[!DNL Target] インターフェイスと、どのアクティビティ作成関数（[**[!UICONTROL Visual Experience Composer （VEC） &#x200B;]**](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)または[&#x200B; フォームベース Experience Composer](/help/main/c-experiences/form-experience-composer.md)）に応じて、ページに配信するアクティビティまたはアクティビティを決定します。 次の表は、3つのケースをまとめたもので、以下の節で詳しく説明します。
+[!DNL Adobe Target]は、使用している[!DNL Target] インターフェイスと、どのアクティビティ作成関数（[**[!UICONTROL Visual Experience Composer （VEC） ]**](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)または[ フォームベース Experience Composer](/help/main/c-experiences/form-experience-composer.md)）に応じて、ページに配信するアクティビティまたはアクティビティを決定します。 次の表は、3つのケースをまとめたもので、以下の節で詳しく説明します。
 
 | シナリオ | を提供できる活動 | 返されたコンテンツ |
 |---|---|---|
@@ -39,7 +39,7 @@ ht-degree: 22%
 | **[!UICONTROL フォームベースのExperience Composer]**&#x200B;および&#x200B;**[!UICONTROL Visual Experience Composer]** | その他 | フォームベースのアクティビティの優先順位が最も高い場合は、そのコンテンツと、一致するすべてのVEC アクティビティのコンテンツが優先されます。 VEC アクティビティの優先順位が最も高い場合は、一致するすべてのVEC アクティビティのコンテンツのみが優先されます。 |
 | **[!UICONTROL グローバル以外の[!DNL Target]要求を含むフォームベースのExperience Composer]** | 1回あたりの通話 | 最も優先度の高いマッチングアクティビティのコンテンツ。 |
 
-## VEC、またはグローバルリクエストを含む[!UICONTROL &#x200B; フォームベースのExperience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## VEC、またはグローバルリクエストを含む[!UICONTROL  フォームベースのExperience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 自社でVECを独占的に使用している場合、同じ呼び出しに対して複数のアクティビティのコンテンツを返すことができます。 アクティビティは、次の決定フローを使用して配信されます。
 
@@ -50,7 +50,7 @@ ht-degree: 22%
    {{visitor-matching}}
 
 1. 訪問者が一致するすべてのアクティビティとエクスペリエンスのコンテンツがページに返されるので、同じ呼び出しに対して複数のアクティビティのコンテンツを配信できます。
-1. [!DNL Target]は、各アクティビティのコンテンツが参照する[CSS セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)を比較します。 アクティビティが異なるセレクターを参照する場合、すべてのコンテンツが表示されます。
+1. [!DNL Target]は、各アクティビティのコンテンツが参照する[CSS セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)を比較します。 アクティビティが異なるセレクターを参照する場合、すべてのコンテンツが表示されます。
 1. セレクターが重複している場合、または重複している場合は、最も優先度の高いアクティビティのコンテンツが表示されます。
 
    >[!IMPORTANT]
@@ -60,7 +60,7 @@ ht-degree: 22%
 1. 複数のアクティビティが優先度レベルを共有する場合は、タイブレークが適用されます。 いずれかのアクティビティにオーディエンスターゲティングがある場合は、そのアクティビティが表示されます。 すべてのアクティビティにターゲティングが設定されている場合、最初に承認されたアクティビティが表示されます。
 1. ページ上で実行されるすべてのアクティビティの結果がカウントされ、レポートに反映されます。
 
-## [!UICONTROL &#x200B; フォームベースのExperience Composer]およびVEC {#section_4620253E1CE942DD830724C7822B175F}
+## [!UICONTROL  フォームベースのExperience Composer]およびVEC {#section_4620253E1CE942DD830724C7822B175F}
 
 お客様の会社が[!UICONTROL Form-Based Experience Composer] *および* VECを使用している場合は、複数の[!UICONTROL Form-Based Experience Composer]およびVEC アクティビティのコンテンツを配信できます。 以前は、フォームベースのワークフローから配信できるアクティビティは 1 つのみでした。 配信できるフォームベースのアクティビティ数に制限がなくなりました。
 
@@ -72,7 +72,7 @@ ht-degree: 22%
 
    {{visitor-matching}}
 
-1. [!DNL Target]は、一致するアクティビティのうち、最も優先度が高いものを確認し、そのアクティビティが[!UICONTROL &#x200B; フォームベースのExperience Composer]またはVECで作成されたかどうかを確認します。
+1. [!DNL Target]は、一致するアクティビティのうち、最も優先度が高いものを確認し、そのアクティビティが[!UICONTROL  フォームベースのExperience Composer]またはVECで作成されたかどうかを確認します。
 1. フォームベースのアクティビティの優先順位が最も高い場合、そのコンテンツは、一致するすべてのVEC アクティビティのコンテンツとともに返されます。
 1. VEC アクティビティの優先度が最も高い場合、一致するすべてのVEC アクティビティのコンテンツが返されますが、フォームベースのアクティビティコンテンツは返されません。
 1. ページ上で実行されるすべてのアクティビティの結果がカウントされ、レポートに反映されます。
@@ -83,7 +83,7 @@ ht-degree: 22%
 
 ターゲットアクティビティの双方が同じ優先度の場合、最後に表示されたアクティビティが表示されます。 このページに初めて訪問する訪問者の場合は、最後にアクティブ化されたアクティビティが表示されます。
 
-## [!UICONTROL &#x200B; グローバル以外のリクエストを含むフォームベースのExperience Composer] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!UICONTROL  グローバル以外のリクエストを含むフォームベースのExperience Composer] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 会社がフォームベースのコンポーザーでグローバル [!DNL Target] リクエスト以外の[!DNL Target] リクエストを使用する場合、呼び出しごとに1つのアクティビティのコンテンツのみを返すことができます。 アクティビティの配信は、次の決定フローを使用して決定されます。
 
@@ -100,7 +100,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->設定に応じて、優先度の値が変わります。 **[!UICONTROL Low]**、**[!UICONTROL Medium]**&#x200B;または&#x200B;**[!UICONTROL High]**&#x200B;の従来の設定を使用するか、0 ～ 999の細かい優先度を有効にできます。 詳しくは、[&#x200B; アクティビティ設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)を参照してください。
+>設定に応じて、優先度の値が変わります。 **[!UICONTROL Low]**、**[!UICONTROL Medium]**&#x200B;または&#x200B;**[!UICONTROL High]**&#x200B;の従来の設定を使用するか、0 ～ 999の細かい優先度を有効にできます。 詳しくは、[ アクティビティ設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)を参照してください。
 
 **2つのアクティビティでは、異なるセレクター**&#x200B;に対して[!UICONTROL Visual Experience Composer]で作成されたオファーのみを使用します
 
@@ -126,4 +126,4 @@ ht-degree: 22%
 * レポートフィルター作成とレポートのためのオーディエンス追加
 * アクティビティのメモの入力
 
->[!VIDEO](https://video.tv.adobe.com/v/3507944?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

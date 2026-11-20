@@ -17,7 +17,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 25%
@@ -30,13 +30,13 @@ ht-degree: 25%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** （VEC）は、ページ上のエクスペリエンスを追加および編集するための視覚的なインターフェイスを提供します。 エクスペリエンスについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
+[!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** （VEC）は、ページ上のエクスペリエンスを追加および編集するための視覚的なインターフェイスを提供します。 エクスペリエンスについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md)を参照してください。
 
 ## エクスペリエンスの追加とデザイン {#add-experience}
 
 エクスペリエンスを追加し、そのエクスペリエンスのページを変更するには：
 
-1. VECの&#x200B;**[!UICONTROL エクスペリエンス]** ページで、**[!UICONTROL エクスペリエンス]** ペインの上部にある&#x200B;**[!UICONTROL 追加]** アイコン （![追加アイコン &#x200B;](/help/main/assets/icons/Add.svg)）をクリックします。
+1. VECの&#x200B;**[!UICONTROL エクスペリエンス]** ページで、**[!UICONTROL エクスペリエンス]** ペインの上部にある&#x200B;**[!UICONTROL 追加]** アイコン （![追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。
 
    新しいアクティビティを作成すると、VECは左側にエクスペリエンス Aとエクスペリエンス Bの2つのタブを表示します。エクスペリエンス Aはコントロール エクスペリエンスです。 テストには複数のエクスペリエンスを追加できます。
 
@@ -56,7 +56,7 @@ ht-degree: 25%
 
 エクスペリエンスに新しい名前を付けるには：
 
-1. エクスペリエンスの横にある「**[!UICONTROL エクスペリエンス名を変更]**」アイコン（![&#x200B; アイコン名を変更](/help/main/assets/icons/Rename.svg)）をクリックします。
+1. エクスペリエンスの横にある「**[!UICONTROL エクスペリエンス名を変更]**」アイコン（![ アイコン名を変更](/help/main/assets/icons/Rename.svg)）をクリックします。
 
 1. 新しい名前を指定し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
@@ -75,9 +75,9 @@ ht-degree: 25%
 
 ## エクスペリエンスをURLにリダイレクトする {#redirect-to-url}
 
-エクスペリエンスの訪問者を別のURLに送信するには、[URLへのリダイレクト &#x200B;](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)も参照してください。
+エクスペリエンスの訪問者を別のURLに送信するには、[URLへのリダイレクト ](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)も参照してください。
 
-1. **[!UICONTROL エクスペリエンス]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL 詳細]** アイコン （![詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL URLにリダイレクト]**&#x200B;をクリックします。
+1. **[!UICONTROL エクスペリエンス]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL 詳細]** アイコン （![詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL URLにリダイレクト]**&#x200B;をクリックします。
 
 1. エクスペリエンスをリダイレクトするURLを指定します。
 
@@ -87,8 +87,8 @@ ht-degree: 25%
 
 ## エクスペリエンスの複製 {#duplicate-experience}
 
-A/B テストでエクスペリエンスをコピーして、エクスペリエンスを再作成することなく、エクスペリエンスに微調整を加えることができます。 **[!UICONTROL エクスペリエンス]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL 詳細]** アイコン （![詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 複製]**&#x200B;をクリックします。
+A/B テストでエクスペリエンスをコピーして、エクスペリエンスを再作成することなく、エクスペリエンスに微調整を加えることができます。 **[!UICONTROL エクスペリエンス]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL 詳細]** アイコン （![詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 複製]**&#x200B;をクリックします。
 
 ## エクスペリエンスを削除する {#delete-experience}
 
-**[!UICONTROL エクスペリエンス]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL 詳細]** アイコン （![詳細アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 削除]**&#x200B;をクリックしてから、**[!UICONTROL 削除]**&#x200B;をクリックしてアクションを確認します。
+**[!UICONTROL エクスペリエンス]** ペインで、エクスペリエンスの横にある&#x200B;**[!UICONTROL 詳細]** アイコン （![詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 削除]**&#x200B;をクリックしてから、**[!UICONTROL 削除]**&#x200B;をクリックしてアクションを確認します。

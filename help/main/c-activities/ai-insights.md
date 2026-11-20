@@ -4,12 +4,18 @@ description: Experimentation AcceleratorのAIが生成したインサイトと�
 title: アクティビティ概要のAI インサイト
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# AI インサイト
+# AI インサイト {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**このページで：** [!DNL Adobe Target] **[!UICONTROL アクティビティの概要]**&#x200B;の&#x200B;**[!UICONTROL AI インサイト]** メニューを使用して、実験の学習内容を確認し、処理を比較し、最適化の機会を特定する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

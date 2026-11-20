@@ -1,6 +1,6 @@
 ---
 keywords: ランダム フォレスト；決定ツリー；ap;Automated Personalization
-description: '[!DNL Adobe Target]が[!UICONTROL Automated Personalization] （AP）と[!UICONTROL 自動ターゲット &#x200B;]の両方のアクティビティでランダム フォレスト アルゴリズムを使用する方法について説明します。'
+description: '[!DNL Adobe Target]が[!UICONTROL Automated Personalization] （AP）と[!UICONTROL 自動ターゲット ]の両方のアクティビティでランダム フォレスト アルゴリズムを使用する方法について説明します。'
 title: '[!DNL Target]はランダム フォレスト アルゴリズムをどのように使用しますか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 8%
+source-wordcount: '1312'
+ht-degree: 7%
 ---
 # ランダムフォレストアルゴリズム {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ ht-degree: 8%
 
 ## 決定木はランダムフォレストでどのように使用されますか？ {#section_536C105EF9F540C096D60450CAC6F627}
 
-デシジョンツリーは効果的な統計ツールになりますが、 デメリットもあります。 最も重要なのは、個々のツリーが最初のツリーの構築に使用されなかった将来のデータを不十分に予測できるように、データを「オーバーフィット」できることです。 これは、統計学習における[バイアス／バリアンストレードオフ](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)と呼ばれる問題です。
+決定木は有用な統計的ツールです。 デメリットもあります。 最も重要なのは、個々のツリーが最初のツリーの構築に使用されなかった将来のデータを不十分に予測できるように、データを「オーバーフィット」できることです。 これは、統計学習における[バイアス／バリアンストレードオフ](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)と呼ばれる問題です。
 
 ランダムな森林がこの課題を克服するのに役立ちます。 ランダムフォレストとは、同じデータセットに対して少し異なるビルドを行い、個々のツリーよりも優れたモデルを生成するために一緒に「投票」する数百もの決定木のコレクションです。 ツリーは、代わりに訪問レコードのサブセットをランダムに選択し（バギングと呼ばれます）、属性のサブセットをランダムに選択することで構築されます。これにより、フォレストは少し異なる決定木で構成されます。 この方法は、木に小さなバリエーションを導入します。 この制御された量の分散を追加すると、アルゴリズムの予測精度が向上します。
 
@@ -70,7 +70,7 @@ ht-degree: 8%
 
 [!DNL Target]は、自動的に収集するデータと、ユーザーから提供されたカスタム データを使用して、パーソナライゼーション アルゴリズムを構築します。 次の図は、**[!UICONTROL 自動ターゲット]**&#x200B;および&#x200B;**[!UICONTROL Automated Personalization]** アクティビティ用のモデルの構築方法をまとめたものです。
 
-![&#x200B; ランダム フォレスト モデルの構築方法を要約するフロー](assets/random_forest_flow.png){width="850" zoomable="yes"}
+![ ランダム フォレスト モデルの構築方法を要約するフロー](assets/random_forest_flow.png){width="850" zoomable="yes"}
 
 1. [!DNL Target]は、エクスペリエンスやオファーをランダムに提供しながら、訪問者に関するデータを収集します。
 1. [!DNL Target]がクリティカルマスのデータに当たった後、[!DNL Target]は機能工学を実行します。

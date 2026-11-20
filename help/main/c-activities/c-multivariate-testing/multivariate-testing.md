@@ -1,7 +1,7 @@
 ---
 keywords: 多変量分析テスト；mvt；完全実施要因；mvtまたはa/b；多変量a/b；トラフィック見積もり；mvtを使用するタイミング；mvt;mvtに関する考慮事項；多変量；部分実施要因；部分実施要因；完全実施要因
-description: '[!DNL Adobe Target]の[!UICONTROL 多変量テスト &#x200B;] （MVT）を使用して、ページ上の要素のオファーの組み合わせを比較し、どの組み合わせが最も効果的かを判断する方法を説明します。'
-title: '[!UICONTROL 多変量テスト &#x200B;]とは何ですか？'
+description: '[!DNL Adobe Target]の[!UICONTROL 多変量テスト ] （MVT）を使用して、ページ上の要素のオファーの組み合わせを比較し、どの組み合わせが最も効果的かを判断する方法を説明します。'
+title: '[!UICONTROL 多変量テスト ]とは何ですか？'
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
@@ -18,12 +18,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 26%
 ---
-# [!UICONTROL 多変量テスト &#x200B;]を開始する {#get-started-mvt}
+# [!UICONTROL 多変量テスト ]を開始する {#get-started-mvt}
 
 >[!BEGINSHADEBOX]
 
@@ -59,7 +59,7 @@ ht-degree: 26%
 | 要素 | MVT テストでテストされるコンテンツバリエーションを含むDOM要素。 *場所*&#x200B;も参照してください。 |
 | 場所 | ページ上の特定のコンテンツ領域。多くの場合、単一の DOM 要素に含まれています。 MVT の方法論においては、場所は「*因子*」と呼ばれることもあります。 全因子多変量分析テストでは、場所におけるすべての可能なオファーの組み合わせが比較されます。 |
 
-## [!UICONTROL 多変量テスト &#x200B;]とA/Bの使用例 {#when-to-use-mvt}
+## [!UICONTROL 多変量テスト ]とA/Bの使用例 {#when-to-use-mvt}
 
 次の表は、**[!UICONTROL 多変量テスト]**、A/B テスト、またはその両方を同時に使用してページを最適化するタイミングを示しています。
 
@@ -69,11 +69,11 @@ ht-degree: 26%
 | ページのレイアウトとコンテンツの両方を最適化できます。 | ページレイアウトを最適化するにはA/B テストを実施し、その後、MVT テストを実施して、ページの各要素で最適なコンテンツを特定します。 | A/B テストは、レイアウトに関する重要なフィードバックを提供でき、MVT テストは、ページデザインの要素内のコンテンツをテストするのに優れています。 複数のコンテンツオプションをテストする前に、レイアウトでA/B テストを実行することで、最適なレイアウトと最も効果的なコンテンツを決定できます。 |
 | 異なるエクスペリエンスの数が5を超え、2つ以上の要素にまたがる。 | MVT テストを使用してどの要素が最も重要かを判断し、その後その要素に絞って A/B テストを実行します。 | MVT テストによって、コンバージョンが向上する可能性が最も高そうなページ領域を判定できます。 マーケティング担当者は、これらの要素に重点を置いてテストをおこなうことができます。 例えば、MVT テストによって、目標を達成するための最も重要な要素がコールトゥアクションであることがわかります。 その後、A/B テストを実行して、2つの特定の画像を比較したり、call to actionの表現や色を比較したりするなど、結果をさらに絞り込むことができます。 1つ以上のA/B テストを使用してMVT テストを実行することで、必要な結果に最適なコンテンツを決定できます。 |
 
-含める要素の数やテストの計画方法など、その他の考慮事項については、[多変量テストのベストプラクティス &#x200B;](/help/main/c-activities/c-multivariate-testing/best-practices.md)を参照してください。
+含める要素の数やテストの計画方法など、その他の考慮事項については、[多変量テストのベストプラクティス ](/help/main/c-activities/c-multivariate-testing/best-practices.md)を参照してください。
 
 ## 部分的階乗テスト {#partial-factorial}
 
-[!DNL Target] では、全因子多変量分析テストがビルトインアクティビティオプションとして用意されています。 統計では、「実験の設計」は、どの要因が結果に影響を与えるかを決定するために、多くのアプローチ、または設計を提供します。 そのようなアプローチの1つが、部分的要因テスト用の[Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods)です。 田口手法では、マーケターがテストする必要のあるエクスペリエンスの順列数を減らし、多変量テストのトラフィック要件を減らす一連の仮定を作成できるようにします。 このアプローチは、[&#x200B; オフラインスプレッドシート &#x200B;](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)を使用して[!DNL Target]に適用できます。
+[!DNL Target] では、全因子多変量分析テストがビルトインアクティビティオプションとして用意されています。 統計では、「実験の設計」は、どの要因が結果に影響を与えるかを決定するために、多くのアプローチ、または設計を提供します。 そのようなアプローチの1つが、部分的要因テスト用の[Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods)です。 田口手法では、マーケターがテストする必要のあるエクスペリエンスの順列数を減らし、多変量テストのトラフィック要件を減らす一連の仮定を作成できるようにします。 このアプローチは、[ オフラインスプレッドシート ](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)を使用して[!DNL Target]に適用できます。
 
 チームが他の実験デザインのアプローチを使用している場合は、スプレッドシートをカスタム実験デザインの参照実装として使用できます。
 
@@ -89,7 +89,7 @@ ht-degree: 26%
 
 次のビデオには、このページで説明されている概念に関する詳細情報が含まれています。
 
-### アクティビティの種類（9:03） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
+### アクティビティの種類（9:03） ![概要バッジ ](/help/main/assets/overview.png)
 
 この概要ビデオでは、[!DNL Target]で使用可能なアクティビティの種類について説明します。 多変量分析テストに関する説明は 4:20 から始まります。 このビデオでは、次の方法を学びます。
 
@@ -97,13 +97,13 @@ ht-degree: 26%
 * 目標を達成するために適切なアクティビティタイプを選択します。
 * すべてのアクティビティタイプに適用される3段階のガイド付きワークフローについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 多変量テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+### 多変量テストの作成（9:25） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] 3段階のガイド付きワークフローを使用して、多変量テストを理解、計画、作成する方法を説明します。 このビデオでは、次の方法を学びます。
 
 * 多変量テストの定義と設計。
 * 多変量テストの作成。
 
->[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

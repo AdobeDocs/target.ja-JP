@@ -1,6 +1,6 @@
 ---
 keywords: アクティビティ；アクティビティ；インサイトダッシュボード
-description: '[!UICONTROL Adobe Target ダッシュボード &#x200B;]では、組織の[!DNL Target]の利用状況の概要、導入、アクティビティ数、実験の使用状況を一目で把握できます。'
+description: '[!UICONTROL Adobe Target ダッシュボード ]では、組織の[!DNL Target]の利用状況の概要、導入、アクティビティ数、実験の使用状況を一目で把握できます。'
 title: Adobe Target インサイトダッシュボード
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 * アクティビティは、ライフサイクルに応じて複数の指標でカウントできます（例：公開と完了）。
 * ダッシュボードは、パフォーマンスの結果ではなく、利用と導入に焦点を当てます。
 
-詳細な結果、上昇率、または統計的なパフォーマンスについては、[!DNL Adobe Target]内の[個別のアクティビティレポート &#x200B;](../c-reports/reports.md)を参照してください。
+詳細な結果、上昇率、または統計的なパフォーマンスについては、[!DNL Adobe Target]内の[個別のアクティビティレポート ](../c-reports/reports.md)を参照してください。
 
 ![](assets/insights-1.png)
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 ## 指標
 
-ダッシュボードは、指標を4つの補完的なビューに整理し、それぞれ[!DNL Target]の使用状況に関する異なる質問に答えます。[KPI](#kpis)は、アクティビティ数の概要を一目で確認できます。[&#x200B; アクティビティタイプの内訳](#activity-type-breakdown)は、最も頼りにしている機能を示し、[A/B テスト指標](#ab-testing-metrics)は実験の使用状況を詳細に把握できます。[&#128279;](#activities-over-time)選択した時間範囲の範囲範囲の範囲範囲ををを選択範囲ををで選択選択選択選択選択をします。
+ダッシュボードは、指標を4つの補完的なビューに整理し、それぞれ[!DNL Target]の使用状況に関する異なる質問に答えます。[KPI](#kpis)は、アクティビティ数の概要を一目で確認できます。[ アクティビティタイプの内訳](#activity-type-breakdown)は、最も頼りにしている機能を示し、[A/B テスト指標](#ab-testing-metrics)は実験の使用状況を詳細に把握できます。](#activities-over-time)選択した時間範囲の範囲範囲の範囲範囲ををを選択範囲ををで選択選択選択選択選択をします。[
 
 ### KPI
 
@@ -120,5 +120,5 @@ ht-degree: 1%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL 時間を超えるアクティビティ]** グラフは、選択した時間範囲で作成、変更、公開されたアクティビティの数を追跡し、実験プログラムの傾向、スパイク、またはサイレントピリオドを簡単に検出できます。
+**[!UICONTROL 時間を超えるアクティビティ]**&#x200B;のグラフは、選択した時間範囲で作成、変更、公開されたアクティビティの数を追跡するため、実験プログラムの傾向、スパイク、またはサイレントピリオドを特定できます。
 

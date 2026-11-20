@@ -1,6 +1,6 @@
 ---
 keywords: オーディエンス、オーディエンスルール、結合、オーディエンス、exclusion、除外の追加、exclude、結合オーディエンス、アドホックオーディエンス、アドホックオーディエンス
-description: 複数のオーディエンス（Adobe Experience Cloud オーディエンスと [!DNL Target]  オーディエンスを含む）を組み合わせて、特定のオーディエンスを作成する方法を説明します。
+description: 複数のオーディエンス（Adobe Experience Cloud オーディエンスと[!DNL Target]人のオーディエンスを含む）を組み合わせて、特定のオーディエンスを作成する方法を説明します。
 title: 複数のオーディエンスを組み合わせて新しいオーディエンスを作成できますか？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
@@ -16,20 +16,18 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: '965'
 ht-degree: 58%
-
 ---
-
 # 複数のオーディエンスの結合
 
 複数のオーディエンス（[!DNL Adobe Experience Cloud]、[!DNL Adobe Experience Platform]、[!DNL Target]のオーディエンスを含む）を即座に組み合わせて、高度なオーディエンスを作成します。 また、除外ルールを作成して、ルールからオーディエンスを除外できます。
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform] ソースは、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}を使用しているすべての[!DNL Target]のお客様が利用できます。 [!DNL Adobe Experience Platform]から利用可能なオーディエンスは、そのまま使用することも、このトピックで説明しているように、既存のオーディエンスと組み合わせることもできます。
+>[!DNL Adobe Experience Platform] ソースは、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}を使用しているすべての[!DNL Target]のお客様が利用できます。 [!DNL Adobe Experience Platform]から利用可能なオーディエンスは、そのまま使用することも、このトピックで説明しているように、既存のオーディエンスと組み合わせることもできます。
 >
 >詳しくは、[Adobe Experience Platformのオーディエンスの使用](/help/main/c-target/c-audiences/audiences.md#aep)を参照してください。
 
@@ -45,13 +43,13 @@ AND演算子およびOR演算子を使用して、最大20個のオーディエ�
 
 3 ステップのガイドによるワークフローを実行する際に、アクティビティの [!UICONTROL Target] ページで結合オーディエンスをアドホックに作成できます。
 
-1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の作成中、**[!UICONTROL ターゲティング]** ページで、3つの垂直省略記号をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックします。
+1. [ アクティビティ ](/help/main/c-activities/activities.md)の作成中、**[!UICONTROL ターゲティング]** ページで、3つの垂直省略記号をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックします。
 
    ![ステップの結果](assets/edit_audience.png)
 
 1. **[!UICONTROL オーディエンスを選択]**&#x200B;ページで、結合オーディエンスの構成要素として使用するオーディエンスの横にあるチェックボックスをオンにします。
 
-   「[!UICONTROL &#x200B; オーディエンスを検索]」ボックスを使用して、目的のオーディエンスを絞り込みます。
+   「[!UICONTROL  オーディエンスを検索]」ボックスを使用して、目的のオーディエンスを絞り込みます。
 
    ![ステップの結果](assets/combine_multiple_audiences1.png)
 
@@ -95,7 +93,7 @@ AND演算子およびOR演算子を使用して、最大20個のオーディエ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、指標のターゲティングで使用する結合オーディエンスをアドホックに作成できます。 例えば、結合オーディエンスによるコンバージョンに基づいてターゲティングを作成するには、以下の手順に従います。
 
-1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集または作成中に、**[!UICONTROL 目標と設定]** ページで、成功指標として&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして&#x200B;**[!UICONTROL Mboxを表示]**&#x200B;を選択します。
+1. [ アクティビティ ](/help/main/c-activities/activities.md)の編集または作成中に、**[!UICONTROL 目標と設定]** ページで、成功指標として&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして&#x200B;**[!UICONTROL Mboxを表示]**&#x200B;を選択します。
 1. 目的の mbox を「**[!UICONTROL mbox を検索]**」フィールドで選択します。
 
    ![combine_multiple_audiences4画像](assets/combine_multiple_audiences4.png)
@@ -111,7 +109,7 @@ AND演算子およびOR演算子を使用して、最大20個のオーディエ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、レポートで使用する結合オーディエンスをアドホックに作成できます。
 
-1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集または作成中に、**[!UICONTROL 目標と設定]** ページで、[!UICONTROL &#x200B; レポート用オーディエンス &#x200B;]の下にある&#x200B;**[!UICONTROL オーディエンスを追加]** アイコンをクリックして、[!UICONTROL &#x200B; オーディエンスを選択] ページを表示します。
+1. [ アクティビティ ](/help/main/c-activities/activities.md)の編集または作成中に、**[!UICONTROL 目標と設定]** ページで、[!UICONTROL  レポート用オーディエンス ]の下にある&#x200B;**[!UICONTROL オーディエンスを追加]** アイコンをクリックして、[!UICONTROL  オーディエンスを選択] ページを表示します。
 
    ![combine_multiple_audiences6画像](assets/combine_multiple_audiences6.png)
 

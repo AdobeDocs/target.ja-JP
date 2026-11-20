@@ -18,19 +18,41 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 5ed511322cc9f04c349471f8ad84a17526d4925f
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 75%
+source-wordcount: '288'
+ht-degree: 7%
 ---
-# エンティティの基本を学ぶ
+# エンティティの基本を学ぶ {#get-started-entities}
 
-エンティティとは、レコメンデーションする項目を指します。 製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。
+>[!BEGINSHADEBOX]
 
-Recommendations は、コレクションから設定した条件に応じて品目を表示します。
+**このページで：** [!DNL Adobe Target Recommendations]のエンティティとその管理場所について説明します。
 
-エンティティを使用して、以下の操作を実行します。
+>[!ENDSHADEBOX]
 
-* コレクションの設定
-* エンティティやコンテンツの情報をレコメンデーションに格納するフィードの使用
-* ある品目がレコメンデーションに表示されることを防止する除外の設定
+エンティティは、[!DNL Recommendations]が推奨できる項目です。 エンティティには、製品、コンテンツ（記事、スライドショー、画像、映画、TV番組など）、求人情報、レストランなどがあります。
+
+[!DNL Recommendations]は、設定した条件に従って、コレクションのアイテムを表示します。
+
+## エンティティがレコメンデーションにリーチする方法
+
+エンティティに関する情報は、次のような方法で[!DNL Recommendations]に渡すことができます。
+
+* ページから[ エンティティ属性](/help/main/c-recommendations/c-products/entity-attributes.md)が送信され、mboxまたは`targetPageParams`を使用しています。
+* CSV ファイル、[!DNL Google Product Search] フィード形式、[!DNL Adobe Analytics]製品分類を使用できる[ フィード ](/help/main/c-recommendations/c-products/feeds.md)を使用します。
+* すべて実現できます。
+
+[!DNL Target]がフィードとmboxの両方からアイテムのデータを収集する場合、最新のデータが使用されます。
+
+アップロードされたエンティティとエンティティ属性値は、61日後に有効期限が切れます。 少なくとも60日ごとに1回は、各項目を再度送信してください。 それ以外の場合、[!DNL Target]はアイテムが関連性がなくなったと見なし、カタログから削除します。
+
+## エンティティの管理
+
+以下のページを使用して、エンティティを操作します。
+
+* [ エンティティ属性](/help/main/c-recommendations/c-products/entity-attributes.md)および[ カスタムエンティティ属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md): [!DNL Recommendations]に渡す製品またはコンテンツ情報を定義します。
+* [ フィード ](/help/main/c-recommendations/c-products/feeds.md): エンティティまたはコンテンツの情報をレコメンデーションに取り込みます。
+* [ カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md): カタログ内のアイテムを検索します。
+* [ コレクション ](/help/main/c-recommendations/c-products/collections.md): コレクションを設定します。 [!DNL Recommendations] アクティビティの作成時に、各エクスペリエンスのコレクションが選択されます。
+* [除外](/help/main/c-recommendations/c-products/exclusions.md)：特定の項目がレコメンデーションに表示されないようにします。 除外は、アカウント内のすべてのアクティビティに適用されます。

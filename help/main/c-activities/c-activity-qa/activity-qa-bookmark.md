@@ -14,24 +14,28 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 94%
+source-wordcount: '356'
+ht-degree: 13%
 ---
-# アクティビティ QA ブックマークレット
+# アクティビティ QA ブックマークレット {#activity-qa-bookmarklet}
 
-[!DNL Target] QA ブックマークレットを使用して、[!DNL Target] を強制的に QA モードからリリースするために役立つ情報です。
+>[!BEGINSHADEBOX]
+
+**このページ：** [!DNL Target] QA ブックマークレットを使用して&#x200B;**[!UICONTROL Activity QA]** モードを終了し、サイトを一般的な訪問者として表示する方法を説明します。
+
+>[!ENDSHADEBOX]
+
+Web サイトを[QA モード ](/help/main/c-activities/c-activity-qa/activity-qa.md)で閲覧した後、QA モードは[!DNL Target] セッションが期限切れになるまでページ間で保持されます。 ブックマークレットは、JavaScriptを実行するブラウザーのブックマークです。 [!DNL Target] QA ブックレットでは、[!DNL Target]が強制的にQA モードから解放されるため、セッションの有効期限が切れるまで待つ必要はありません。 サイトにデプロイされたat.js バージョンと一致するバージョンを使用します。
 
 >[!NOTE]
 >
->ブックマークレットを作成するプロセスは、ブラウザーのタイプとバージョンによって異なります。 ブラウザーのヘルプを参照するか、インターネットで特定の方向に検索してください。
+>ブックマークレットを作成するプロセスは、ブラウザーのタイプとバージョンによって異なります。 ブラウザの助けを借りるか、インターネット上で特定の方向を検索してください。
 
 ## at.js 1.*x* アクティビティ QA ブックマークレット
 
-[QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)はスティッキーなので、QA モードで web サイトを閲覧した後は、[!DNL Target] セッションの有効期限が切れるか、[!DNL Target] で QA モードを終了することで、通常の訪問者のようにサイトを表示できるようになります。 QA [!DNL Target] ブックマークレットを使用すると、QA モードから強制的に離脱できます。
-
-[!DNL Target] QA ブックマークレットを使用するには、次の JavaScript コードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
+[!DNL Target] QA ブックマークレットを使用するには、次のJavaScript コードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
 
 ```javascript
 javascript:(
@@ -50,17 +54,15 @@ javascript:(
 )();
 ```
 
-また、`at_preview_token` パラメーターに空の値を指定してサイトのページを読み込むことで、手動で強制的に QA モードを終了することもできます。
-
-例：
+また、`at_preview_token` パラメーターが空の値に設定されたサイト上のページを読み込むことで、手動でQA モードを強制的に解除することもできます。 次に例を示します。
 
 `https://www.mysite.com/?at_preview_token=`
 
 ## at.js 2.*x* アクティビティ QA ブックマークレット
 
-at.js 1.*x* とは異なり、at.js 2.*x* はサードパーティ cookie をサポートしておらず、QA モードはファーストパーティドメインの場合のみスティッキーです（at.js によって設定されたファーストパーティ cookie を使用）。 そのため、at.js 2.*x* では、QA モードセッションはクライアントサイドでのみ管理され、QA モード Cookie は Target に送信されません。
+at.js 1.*x*&#x200B;とは対照的に、at.js 2.*x*&#x200B;はサードパーティ Cookieをサポートしていません。 QA モードは、at.jsによって設定されたファーストパーティ Cookieを使用して、ファーストパーティドメインに対してのみ保持されます。 その結果、QA モード セッションはクライアント側でのみ管理され、QA モード Cookieは[!DNL Target]に送信されません。
 
-[!DNL Target] QA ブックマークレットを使用するには、次の JavaScript コードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
+[!DNL Target] QA ブックマークレットを使用するには、次のJavaScript コードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
 
 ```javascript
 javascript:(
@@ -80,4 +82,8 @@ javascript:(
 
 ## アクティビティ QA ブックマークレットの使用
 
-ブラウザーのツールバーのブックマークレットをクリックします。
+at.jsのバージョンに一致するブックマークレットをブラウザーに追加したら、QA モードを終了するときにいつでも使用できます。
+
+1. QA モードでサイトの任意のページを開きます。
+1. ブラウザーのブックマークツールバーにあるブックマークレットをクリックします。
+1. サイトのページを読み込みます。 [!DNL Target]はQA モードからセッションを解放し、サイトは一般的な訪問者と同じように表示されます。

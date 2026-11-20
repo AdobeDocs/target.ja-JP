@@ -16,7 +16,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 14%
@@ -29,28 +29,28 @@ ht-degree: 14%
 
 >[!ENDSHADEBOX]
 
-既存のアクティビティは、[!DNL Adobe Target] インターフェイスの複数の場所から編集できるため、エクスペリエンス、ターゲティングルール、目標の変更では、アクティビティを再作成する必要はありません。 手順は、選択した方法によって異なります。 **[!UICONTROL ドラフトとして保存]**&#x200B;機能は使用できなくなりました。 詳細については、[&#x200B; アクティビティ リストにフィルターを適用](/help/main/c-activities/activities.md#filters)の下の&#x200B;**[!UICONTROL ステータス]**&#x200B;を参照してください。
+既存のアクティビティは、[!DNL Adobe Target] インターフェイスの複数の場所から編集できるため、エクスペリエンス、ターゲティングルール、目標の変更では、アクティビティを再作成する必要はありません。 手順は、選択した方法によって異なります。 **[!UICONTROL ドラフトとして保存]**&#x200B;機能は使用できなくなりました。 詳細については、[ アクティビティ リストにフィルターを適用](/help/main/c-activities/activities.md#filters)の下の&#x200B;**[!UICONTROL ステータス]**&#x200B;を参照してください。
 
-## [!UICONTROL その他のアクション &#x200B;] アイコンから編集 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## [!UICONTROL その他のアクション ] アイコンから編集 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 3つの手順でガイド付きワークフローを進めて、アクティビティを編集するには、次の手順に従います。
 
-1. **[!UICONTROL アクティビティ]** ページで、アクティビティの横にある&#x200B;**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 編集]**&#x200B;をクリックします。
+1. **[!UICONTROL アクティビティ]** ページで、アクティビティの横にある&#x200B;**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL 編集]**&#x200B;をクリックします。
 
    [!DNL Target]は&#x200B;**[!UICONTROL Visual Experience Composer]** （VEC）でアクティビティを開き、ワークフローの最初のステップである&#x200B;**[!UICONTROL Experiences]** ページを表示します。
 
-   ![その他のアクション アイコン &#x200B;](assets/edit-activity-1.png)
+   ![その他のアクション アイコン ](assets/edit-activity-1.png)
 
-1. [VEC オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を使用してアクティビティを編集します。
+1. [VEC オプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を使用してアクティビティを編集します。
 
 1. 「**[!UICONTROL 次へ]**」をクリックして次の手順に進み、必要な編集をおこないます。
 
 1. **[!UICONTROL 目標と設定]** ページで、次のいずれかのオプションを使用して変更を保存します。
 
    * **[!UICONTROL 保存して閉じる]:**&#x200B;変更を保存し、アクティビティの&#x200B;**[!UICONTROL 概要]** ページを表示します。
-   * **[!UICONTROL 保存]:** **[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存し、VECに残り、引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。 保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
+   * **[!UICONTROL 保存]:** **[!UICONTROL その他のアクション]** アイコン （![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存し、VECに残り、引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。 保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
 
-     ![その他のアクション アイコン &#x200B;](assets/edit-activity-2.png)
+     ![その他のアクション アイコン ](assets/edit-activity-2.png)
 
 ## アクティビティ名から編集 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
@@ -62,7 +62,7 @@ ht-degree: 14%
    * **[!UICONTROL ターゲティングを編集]:** **[!UICONTROL ターゲティング]** ページを開きます（ワークフローの2番目の手順）。
    * **[!UICONTROL 目標と設定]:** **[!UICONTROL 目標と設定]** ページを開きます（ワークフローの3番目のステップ）。
 
-     ![&#x200B; アクティビティ メニューの編集](assets/edit-activity-3.png)
+     ![ アクティビティ メニューの編集](assets/edit-activity-3.png)
 
 1. 変更を加えてから、前の節で説明したように、**[!UICONTROL 保存して閉じる]**&#x200B;または&#x200B;**[!UICONTROL 保存]**&#x200B;でアクティビティを保存します。
 
@@ -76,9 +76,9 @@ ht-degree: 14%
 
 多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。 複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
-ワークスペースとエンタープライズユーザー権限機能について詳しくは、[&#x200B; エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)を参照してください。
+ワークスペースとエンタープライズユーザー権限機能について詳しくは、[ エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。
 
-環境で&#x200B;**[!UICONTROL エンタープライズユーザー権限]**&#x200B;を有効にしている場合、アクティビティを同じワークスペースまたは別のワークスペースにコピーできます。 現時点では、アクティビティを別のワークスペースに移すことはできません。 アクティビティを別のワークスペースにコピーするには、**[!UICONTROL アクティビティ]** ページから、コピーするアクティビティの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL コピー]**&#x200B;をクリックします。
+環境で&#x200B;**[!UICONTROL エンタープライズユーザー権限]**&#x200B;を有効にしている場合、アクティビティを同じワークスペースまたは別のワークスペースにコピーできます。 現時点では、アクティビティを別のワークスペースに移すことはできません。 アクティビティを別のワークスペースにコピーするには、**[!UICONTROL アクティビティ]** ページから、コピーするアクティビティの横にある&#x200B;**[!UICONTROL その他のアクション]** アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、**[!UICONTROL コピー]**&#x200B;をクリックします。
 
 ワークスペースでコピー／編集機能を使用する際の重要なポイントは次のとおりです。
 
@@ -88,7 +88,7 @@ ht-degree: 14%
 
     * **[!UICONTROL フォームベースのExperience Composer]**&#x200B;では、警告がユーザーインターフェイス内に直接表示され、すぐに確認できます。
 
-      ![&#x200B; フォームベースのワークスペースに関する警告](/help/main/c-activities/assets/form-based-warning.png)
+      ![ フォームベースのワークスペースに関する警告](/help/main/c-activities/assets/form-based-warning.png)
 
     * VECでは、**[!UICONTROL Configure]** > **[!UICONTROL Properties]**&#x200B;をクリックすると、警告が表示されます。
 
@@ -108,7 +108,7 @@ ht-degree: 14%
 
     これらの非ターゲットオーディエンスとオファーを手動で置き換えることで、コピーされたアクティビティで有効でアクセス可能なエンティティのみが使用され、編集または配信中のエラーを防ぐことができます。
 
-    ![警告メッセージ &#x200B;](/help/main/c-activities/assets/copy.png)
+    ![警告メッセージ ](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

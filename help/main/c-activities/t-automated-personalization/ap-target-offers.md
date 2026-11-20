@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 12%
@@ -57,28 +57,28 @@ ht-degree: 12%
 
 オーディエンスのターゲティングルールにより、訪問者が各オファーを確認できるようにし、顧客セグメントに対するオファーの予約など、特定のビジネスニーズに対応できるようにします。 すべてのルールは、パーソナライゼーションモデルの選択肢を絞り込むため、ルールは、それらを必要とするオファーにのみ適用されます。
 
-1. ターゲットにするオファーを含む[Automated Personalization アクティビティ &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)を作成または編集します。
+1. ターゲットにするオファーを含む[Automated Personalization アクティビティ ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)を作成または編集します。
 
    場所は 50 か所を設定でき、場所ごとに最大 250 個のオファーを設定できます。
 
-1. **[!UICONTROL Visual Experience Composer]**&#x200B;でアクティビティのオファーを設定したら、**[!UICONTROL コンテンツの管理]** アイコン（![&#x200B; コンテンツの管理アイコン &#x200B;](/help/main/assets/icons/Experience.svg)）をクリックします。 **[!UICONTROL コンテンツの管理]** ダイアログボックスが表示されます。
+1. **[!UICONTROL Visual Experience Composer]**&#x200B;でアクティビティのオファーを設定したら、**[!UICONTROL コンテンツの管理]** アイコン（![ コンテンツの管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします。 **[!UICONTROL コンテンツの管理]** ダイアログボックスが表示されます。
 
-   ![&#x200B; コンテンツの管理アイコン &#x200B;](../assets/ap-offers-1.png)
+   ![ コンテンツの管理アイコン ](../assets/ap-offers-1.png)
 
 1. 「**[!UICONTROL オファー]**」タブをクリックします。
 
 1. ターゲットにするオファーを選択し、そのオファーを受け取る対象となるオーディエンスを選択します。
 
-   * 1つのオファーのターゲティングを設定するには、オファーの横にある詳細情報（![詳細情報アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）アイコンをクリックし、**[!UICONTROL ターゲットオーディエンス]**&#x200B;をクリックして、**[!UICONTROL オーディエンスを追加]** ダイアログボックスを表示します。
+   * 1つのオファーのターゲティングを設定するには、オファーの横にある詳細情報（![詳細情報アイコン ](/help/main/assets/icons/MoreSmallList.svg)）アイコンをクリックし、**[!UICONTROL ターゲットオーディエンス]**&#x200B;をクリックして、**[!UICONTROL オーディエンスを追加]** ダイアログボックスを表示します。
    * 複数のオファーのターゲティングを設定するには、オファーのチェックボックスを選択し、リストの下部に表示される&#x200B;**[!UICONTROL ターゲットオーディエンス]** リンクをクリックします。
 
-   ![&#x200B; コンテンツの管理アイコン &#x200B;](../assets/ap-offers-2.png)
+   ![ コンテンツの管理アイコン ](../assets/ap-offers-2.png)
 
 1. **[!UICONTROL オーディエンスを追加]** ダイアログボックスで、オファーのオーディエンスを選択し、**[!UICONTROL オーディエンスを割り当て]**&#x200B;をクリックして、**[!UICONTROL コンテンツを管理]** ダイアログボックスに戻ります。
 
    >[!NOTE]
    >
-   >新しいオーディエンスを作成する代わりに、複数のオーディエンスを既存のオーディエンスと組み合わせて、オンデマンドで組み合わせたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
+   >新しいオーディエンスを作成する代わりに、複数のオーディエンスを既存のオーディエンスと組み合わせて、オンデマンドで組み合わせたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md)を参照してください。
 
 1. 「**[!UICONTROL Done]**」をクリックします。
 

@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 6e92e2e42c88d0802335f14e388ea24af239fa51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 61%
@@ -47,7 +47,7 @@ ht-degree: 61%
 >
 >最適なエクスペリエンスを実現するには、インタラクティブな [Adobe Target アクティビティガイド PDF](/help/main/assets/activities_guide_82817.pdf) をダウンロードしてください。他の人と共有することもできます。
 >
->この記事には、[**[!UICONTROL Recommendations &#x200B;]**&#x200B;アクティビティ &#x200B;](/help/main/c-recommendations/recommendations.md)に関する情報は含まれていません。 ただし、**[!UICONTROL &#x200B; A/B テスト &#x200B;]**、**[!UICONTROL &#x200B;自動割り当て&#x200B;]**、**[!UICONTROL &#x200B;自動ターゲット &#x200B;]**、**[!UICONTROL &#x200B; エクスペリエンスのターゲット設定&#x200B;]**（XT）アクティビティ内に推奨事項を含めることができます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。
+>この記事には、[**[!UICONTROL Recommendations ]**アクティビティ ](/help/main/c-recommendations/recommendations.md)に関する情報は含まれていません。 ただし、**[!UICONTROL  A/B テスト ]**、**[!UICONTROL &#x200B;自動割り当て&#x200B;]**、**[!UICONTROL &#x200B;自動ターゲット ]**、**[!UICONTROL  エクスペリエンスのターゲット設定&#x200B;]**（XT）アクティビティ内に推奨事項を含めることができます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。 この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。
 
 ## 各アクティビティの機能 {#section_4ECAACC68723402EB3649033190E1BBC}
 
@@ -101,5 +101,5 @@ ht-degree: 61%
 | **[!UICONTROL 自動配分]** | **[!UICONTROL 自動割り当て]**&#x200B;は、一般的なA/B テストのコストを削減します。これは、手動のA/B テストよりも全体的なコンバージョン率が高いためです。 **[!UICONTROL 自動割り当て]**&#x200B;により、パフォーマンスが最も高いエクスペリエンスに多くのトラフィックがプッシュされるため、コンバージョン率が高くなります。つまり、テスト期間の終了よりも早く、その勝者エクスペリエンスのメリットを実現できます（ピークを確認できます）。 | **[!UICONTROL 自動割り当て]**&#x200B;は、勝者を識別しますが、敗者を区別しません。 各エクスペリエンスのパフォーマンスを把握したい場合は、A/B テストの方が適しています。<P>**[!UICONTROL 自動割り当て]**&#x200B;機能は、「増分数とユーザーのアクティビティの維持」という1つの高度な指標設定でのみ機能します。 リピートコンバージョンをカウントしたくない場合は、A/B テストを使用することをお勧めします。 |
 | **[!UICONTROL 自動ターゲット]** | **[!UICONTROL 自動ターゲット]**&#x200B;では、機械学習は、マルチページ体験を含むあらゆる種類の体験に適用されます。 **[!UICONTROL 自動ターゲット]** アクティビティを使用すると、使い慣れたA/B テストワークフローを使用しながら&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;の値を取得することもできます。 | **[!UICONTROL 自動ターゲット]**&#x200B;では、オファーのコンテンツを頻繁または頻繁に変更する場合、アルゴリズムは変更のたびに十分な時間を必要とし、学習した内容を活用して、そのコンテンツを適切な訪問者に配信します。 |
 | **[!UICONTROL Automated Personalization]**（AP） | **[!UICONTROL Automated Personalization]**&#x200B;を使用すると、すべてのオファーを1か所に集めることができ、アルゴリズムによってオファーの最適な組み合わせが決定されます。 個々のエクスペリエンスを指定したり作成したりする必要はありません。 **[!UICONTROL Automated Personalization]**&#x200B;は、**[!UICONTROL 自動ターゲット]**&#x200B;と同じマシンラーニングアルゴリズムを使用します。 | 複数のオファーを組み合わせる場合は、組み合わせ爆発が発生するので、膨大な量のトラフィックが必要になります。 **[!UICONTROL Automated Personalization]** アルゴリズムは多くの要素を考慮するため、最も多くのトラフィックを必要とします。<P>**[!UICONTROL Automated Personalization]**&#x200B;は、[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）でレポートを使用できません。 |
-| **[!UICONTROL Multivariate Testing]** （MVT） | **[!UICONTROL Multivariate Testing]**&#x200B;では、複数の要素を同時にテストできます。 | **[!UICONTROL 多変量テスト]**&#x200B;は時間がかかり、複数の変数が存在するため、必ずしも自信を持って勝者エクスペリエンスを生成できるわけではありません。<P>多くの場合、テストの完了に必要なトラフィック量を確保することが課題になります。 **[!UICONTROL 多変量テスト]**&#x200B;のすべての実験は完全に因数分解であるため、一度に変更する要素が多すぎると、テストが必要な組み合わせがすぐに多くなる可能性があります。<P>トラフィックがかなり多いサイトであっても、25 を超える組み合わせを含むテストは、妥当な時間内での完了が困難になる場合があります。 |
+| **[!UICONTROL Multivariate Testing]** （MVT） | **[!UICONTROL Multivariate Testing]**&#x200B;では、複数の要素を同時にテストできます。 | **[!UICONTROL 多変量テスト]**&#x200B;は時間がかかり、複数の変数が存在するため、必ずしも自信を持って勝者エクスペリエンスを生成できるわけではありません。<P>多くの場合、テストの完了に必要なトラフィック量を確保することが課題になります。 **[!UICONTROL 多変量テスト]**&#x200B;のすべての実験は完全に因果関係を持つため、一度に変更する要素が多すぎると、テストが必要な組み合わせがすぐに多くなる可能性があります。<P>トラフィックがかなり多いサイトであっても、25 を超える組み合わせを含むテストは、妥当な時間内での完了が困難になる場合があります。 |
 | **[!UICONTROL エクスペリエンスのターゲット設定]**（XT） | **[!UICONTROL エクスペリエンスのターゲット設定]**&#x200B;を使用すると、アクティビティの結果から導き出されたインサイトに素早く対応できます。<P>例えば、チャレンジャーがコントロールを上回らなかったA/B テストを実行したが、結果が示す場合、特定のセグメントの訪問者がコントロールを使用した場合よりも4倍多くコンバージョンしたことが判明した場合、**[!UICONTROL エクスペリエンスのターゲット設定]**&#x200B;を使用して、チャレンジャーのエクスペリエンスを特定のセグメントに誘導できます。 | **[!UICONTROL エクスペリエンスのターゲット設定]**&#x200B;では、複数のオーディエンスにわたるエクスペリエンスの割合の分割を制御できません。 |
