@@ -97,7 +97,7 @@ ht-degree: 26%
 * 目標を達成するために適切なアクティビティタイプを選択します。
 * すべてのアクティビティタイプに適用される3段階のガイド付きワークフローについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
 
 ### 多変量テストの作成（9:25） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
@@ -106,4 +106,4 @@ ht-degree: 26%
 * 多変量テストの定義と設計。
 * 多変量テストの作成。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/29957?captions=jpn)

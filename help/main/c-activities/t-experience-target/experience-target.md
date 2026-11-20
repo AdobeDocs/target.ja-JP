@@ -54,6 +54,6 @@ ht-degree: 2%
 * 両州をターゲットにした体験とバイク愛好家をターゲットにした3つ目の体験を構築することで、さまざまな地域のオーディエンスに位置情報に基づくコンテンツを提供します。
 * 3つのエクスペリエンスを並べ替えて、適切なコンテンツが的確なオーディエンスに配信されるようにします。
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38305?captions=jpn)
 
 ビデオを視聴したら、[&#x200B; エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)に進みます。
