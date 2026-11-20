@@ -5,7 +5,6 @@ title: Adobe Target MCP サーバーの概要
 description: Adobe Target MCP サーバーの概要、主な機能、AI アシスタントへの接続方法をご紹介します。
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 product_v2:
@@ -24,9 +23,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8fd1b8e05c92c3e0b49f61b17fbf5fba522a8410
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1029'
 ht-degree: 0%
 ---
 # [!DNL Adobe Target] MCP サーバー {#target-mcp}
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Target] MCP サーバーは、**パブリック Beta**&#x200B;のすべてのユーザーが利用できます。 現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;でサポートされています。 MCP互換アプリケーションのサポートは、今後のリリースで追加される予定です。
+>[!DNL Adobe Target] MCP サーバーは現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;でサポートされています。 MCP互換アプリケーションのサポートは、今後のリリースで追加される予定です。
 
 
 ## モデル コンテキスト プロトコルとは何ですか？ {#mcp-overview}
@@ -65,9 +64,9 @@ ht-degree: 0%
 * **レコメンデーションの管理** – 基準、コレクション、デザイン、プロモーション、除外のリスト、検査、作成、更新、および製品カタログの検索。 Target Premium使用権限が必要です。
 * **監査の実装** - at.js設定、応答トークン、エンティティごとのリビジョン履歴を確認します。
 
-[!DNL Adobe Target] MCP サーバーは、アクティビティの作成とレポートからオーディエンス管理、QA プレビュー、レコメンデーション設定まで、11のカテゴリで62のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス &#x200B;](target-mcp-tools-reference.md)を参照してください。
+[!DNL Adobe Target] MCP サーバーは、アクティビティの作成とレポートからオーディエンス管理、QA プレビュー、レコメンデーション設定まで、11のカテゴリで62のツールを公開します。 パラメーターの完全なリファレンスについては、[MCP サーバーツールのリファレンス ](target-mcp-tools-reference.md)を参照してください。
 
-ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[&#x200B; ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
+ステップバイステップのプロンプトウォークスルーを含め、[!DNL Adobe Target] MCP サーバーで何ができるかを調べるには、[ ユースケースとウォークスルー](target-mcp-use-cases.md)を参照してください。
 
 前提条件、クライアント固有の設定、トラブルシューティングなど、[!DNL Adobe Target] MCP サーバーをAI アシスタントに接続するには、[開始](target-mcp-get-started.md)を参照してください。
 
@@ -95,7 +94,7 @@ ht-degree: 0%
 
 +++[!DNL Adobe Target] データはMCP クライアントプロバイダーに送信されますか？
 
-プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Target] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。 Adobeのデータ処理は、[Adobe プライバシーポリシー](https://www.adobe.com/jp/privacy.html)および[&#x200B; データ保護条件](https://www.adobe.com/go/dpt-ww)に準拠しています。
+プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Target] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。 Adobeのデータ処理は、[Adobe プライバシーポリシー](https://www.adobe.com/privacy.html)および[ データ保護条件](https://www.adobe.com/go/dpt-ww)に準拠しています。
 +++
 
 +++書き込み操作によって、ライブアクティビティに意図しない変更が生じる可能性がありますか？
