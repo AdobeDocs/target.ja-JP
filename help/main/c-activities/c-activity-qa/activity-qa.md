@@ -154,7 +154,7 @@ ht-degree: 12%
 
 +++ サードパーティ Cookieをブロックするブラウザー（at.js 1.*x*）
 
-at.js 1.*x*&#x200B;をお持ちの場合、Safariまたはサードパーティ Cookieをブロックする別のブラウザーを使用している場合、**[!UICONTROL Activity QA]** モードはページ間で保持されません。 この場合、移動する各URLにプレビューパラメーターを追加する必要があります。 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}を実装した場合も同様です。
+at.js 1.*x*&#x200B;をお持ちの場合、Safariまたはサードパーティ Cookieをブロックする別のブラウザーを使用している場合、**[!UICONTROL Activity QA]** モードはページ間で保持されません。 この場合、移動する各URLにプレビューパラメーターを追加する必要があります。 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=ja){target=_blank}を実装した場合も同様です。
 
 +++
 
@@ -204,8 +204,8 @@ at.js 1.*x*&#x200B;をお持ちの場合、Safariまたはサードパーティ 
 
 [!DNL Target]は次のJavaScript ライブラリをサポートしています：
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja)
 
 次の表に、様々なアクティビティタイプを示し、各ライブラリで&#x200B;**[!UICONTROL Activity QA]** モードがサポートされているかどうかを示します。
