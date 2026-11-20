@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -136,7 +136,7 @@ Targetは、[!DNL Experience Platform Web SDK]またはat.jsを使用してWeb �
 
 [!UICONTROL Recommendations]のアクティビティでは、以前のアクティビティやその他のアルゴリズムに基づいて、顧客が関心を持つ可能性のある製品やコンテンツが自動的に表示されます。 商品レコメンデーションは、顧客が見つけられなかった関連商品を顧客に提供するのに役立ちます。
 
-詳細については、[レコメンデーション](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)を参照してください。
+詳細については、[レコメンデーション](/help/main/c-recommendations/recommendations.md)を参照してください。
 
 <!--
 ## How [!DNL Target] counts server-call usage {#usage}

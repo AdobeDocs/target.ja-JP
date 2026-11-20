@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 49%
@@ -133,9 +133,9 @@ ht-degree: 49%
 **ニーズに合ったアクティビティタイプを見極めるには、どうすればよいですか？**
 
 +++詳細を見る
-[&#x200B; ターゲットアクティビティガイド &#x200B;](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)を読んで、[!DNL Target]が提供する各オプションが意味を持つシナリオを理解してください。
+[&#x200B; ターゲットアクティビティガイド &#x200B;](/help/main/c-activities/target-activities-guide.md)を読んで、[!DNL Target]が提供する各オプションが意味を持つシナリオを理解してください。
 
-また、[レコメンデーションアクティビティ](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)も検討してください。
+また、[レコメンデーションアクティビティ](/help/main/c-recommendations/recommendations.md)も検討してください。
 
 +++
 
@@ -174,7 +174,7 @@ ht-degree: 49%
 **目標達成のためにアクティビティを適切に設定するには、どうすればよいですか？**
 
 +++詳細を見る
-そのためにあるのが[目標](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)です。
+そのためにあるのが[目標](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)です。
 
 まず、何を重視して最適化をおこなうかを把握します。 [!UICONTROL 収益]、[!UICONTROL &#x200B; コンバージョン &#x200B;]、または[!UICONTROL &#x200B; エンゲージメント &#x200B;]ですか？ これらの各オプションは目標のセクションで利用できます。 それぞれのオプションで、目標達成の条件と見なすサイトでのユーザー行動を定義できます。
 

@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 23%
@@ -45,7 +45,7 @@ ht-degree: 23%
 
 変更要素を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
+1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)」の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスが表示されるページを指定するには、[!UICONTROL Visual Experience Composer] （VEC）で[!UICONTROL Configure] アイコン（![Configure icon](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL Page Delivery]**&#x200B;を選択します。
 
@@ -101,7 +101,7 @@ ht-degree: 23%
 * グローバルバナー（COVID-19の発表など）を含めるには
 * グローバルな送料無料プロモーションを含めるには
 
-1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成または編集します。
+1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)」の説明に従って、アクティビティを作成または編集します。
 
 1. エクスペリエンスが表示されるドメインを指定するには、[!UICONTROL Visual Experience Composer]で「[!UICONTROL 設定]」アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**」を選択します。
 

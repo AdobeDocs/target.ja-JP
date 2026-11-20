@@ -14,18 +14,24 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 43%
+source-wordcount: '774'
+ht-degree: 42%
 ---
-# エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューを行う
+# エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューを行う {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アクティビティが公開される前に、**[!UICONTROL Automated Personalization]** アクティビティのエクスペリエンス プレビューURLを生成して、サイト上のエクスペリエンスを表示する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Target] [!UICONTROL Automated Personalization] アクティビティに対してエクスペリエンスプレビューURLを生成し、アクティビティがプレビューおよびQA目的で公開される前に、サイトでエクスペリエンスコンテンツを直接確認できます。 エクスペリエンスプレビューURLは、特定のエクスペリエンスを強制的に表示するためにターゲティングをバイパスします。
 
 >[!NOTE]
 >
->他のタイプの[!DNL Target] アクティビティのエクスペリエンス プレビューURLを作成できます。 しかし、プロセスは少し異なります。 詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md#preview) を参照してください。
+>他のタイプの[!DNL Target] アクティビティのエクスペリエンス プレビューURLを作成できます。 しかし、プロセスは少し異なります。 詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547) を参照してください。
 
 エクスペリエンスのプレビューURLを使用して、別のQA アクティビティを作成することなく、チームメンバーとエクスペリエンスを共有したり、ブラウザーや環境全体でQA エクスペリエンスを作成したりできます。 この機能は、サイトが複雑な場合や、セキュリティポリシーによりシミュレーターでサイトを表示できない場合に特に有用です。
 

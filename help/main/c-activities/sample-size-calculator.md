@@ -4,12 +4,18 @@ description: Adobe Targetのサンプルサイズ計算ツールを使用して�
 title: サンプルサイズ計算ツール
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 35%
+source-wordcount: '1632'
+ht-degree: 34%
 ---
-# サンプルサイズ計算ツール
+# サンプルサイズ計算ツール {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** [!DNL Adobe Target] サンプルサイズ計算ツールを使用して、A/B テストのトラフィック、期間、エクスペリエンス数、または検出可能な最小効果を見積もる方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"

@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -137,7 +137,7 @@ APは完全に自動化され、最小限の人間の分析で継続的に学習
 
 ### レコメンデーション
 
-[レコメンデーション](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。 [!UICONTROL おすすめ]は、顧客が知らない可能性のある関連項目に誘導するのに役立ちます。
+[レコメンデーション](/help/main/c-recommendations/recommendations.md)のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。 [!UICONTROL おすすめ]は、顧客が知らない可能性のある関連項目に誘導するのに役立ちます。
 
 レコメンデーションでは、サイトでの顧客のアクティビティを基にして、その顧客に製品を提案する方法を決定します。 次に例を示します。
 

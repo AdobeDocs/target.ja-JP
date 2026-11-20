@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 12%
@@ -78,7 +78,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >新しいオーディエンスを作成する代わりに、複数のオーディエンスを既存のオーディエンスと組み合わせて、オンデマンドで組み合わせたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
+   >新しいオーディエンスを作成する代わりに、複数のオーディエンスを既存のオーディエンスと組み合わせて、オンデマンドで組み合わせたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md)を参照してください。
 
 1. 「**[!UICONTROL Done]**」をクリックします。
 

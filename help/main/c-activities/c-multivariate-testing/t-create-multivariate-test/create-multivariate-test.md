@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 16%
 ---
 # 多変量分析テストの作成 {#create-mvt}
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Target]の&#x200B;**[!UICONTROL Visual Experience Composer]** （VEC）を使用すると、**[!UICONTROL 多変量テスト]**&#x200B;を簡単に作成し、[!DNL Target]内のページの一部を変更できます。
+[!DNL Adobe Target]の&#x200B;**[!UICONTROL Visual Experience Composer]** （VEC）を使用すると、**[!UICONTROL 多変量テスト]**&#x200B;を作成し、[!DNL Target]以内にページの一部を変更できます。
 
 [!DNL Target]のポイント&amp;クリック エディターを使用すると、任意の場所を選択して複数のオファーを追加できます。
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 
 1. 「**[!UICONTROL アクティビティを作成]**」 > 「**[!UICONTROL 多変量テスト]**」をクリックします。
 
-   [!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。 ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
+   [!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#types)を参照してください。 ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
    ![](../../assets/create-mvt-1.png)
 
@@ -132,7 +132,7 @@ ht-degree: 16%
 
 **[!UICONTROL 目標と設定]** ページで、[!DNL Target]にテストの測定方法を指示します。 使用可能な設定は、レポートソースとして[!DNL Target]または[!DNL Analytics]を使用するかどうかに応じて異なります。
 
-1. ページのセクションを確認し、必要なものを設定します。 「[目標と設定」ページで設定した内容](#goals-settings-overview)を参照してください。
+1. ページのセクションを確認し、必要なものを設定します。 「[目標と設定」ページで設定した内容](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)を参照してください。
 
 
    | セクション | 設定するもの |

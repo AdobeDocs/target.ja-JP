@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 32%
@@ -48,7 +48,7 @@ ht-degree: 32%
    >
    >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。 一部のアクティビティタイプがリストに表示されない可能性があります。 例えば、**[!UICONTROL Automated Personalization]**&#x200B;は[Target Premium機能](/help/main/c-intro/intro.md#premium)です。
    >
-   >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。 ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
+   >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#types)を参照してください。 ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
    ![](../../assets/create-xt-1.png)
 

@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 27%
@@ -61,7 +61,7 @@ CSV ファイルをアップロードして、[!DNL Adobe Target]でレコメン
 
    * **FTP:** FTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL FTP]**&#x200B;を選択し、必要な情報を入力します。 FTPS プロトコルを使用してCSV ファイルを安全に転送するSSLを使用できます。
 
-   * **SFTP:** SFTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL SFTP]**&#x200B;を選択し、ホスト名またはIP アドレス、ポート（デフォルト 22）、ユーザー名、パスワードおよび/またはSSH秘密鍵、ディレクトリ、ファイル名を入力します。 詳しくは、[&#x200B; サポートされているSFTP サーバー設定](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)を参照してください。
+   * **SFTP:** SFTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL SFTP]**&#x200B;を選択し、ホスト名またはIP アドレス、ポート（デフォルト 22）、ユーザー名、パスワードおよび/またはSSH秘密鍵、ディレクトリ、ファイル名を入力します。 詳しくは、[&#x200B; サポートされているSFTP サーバー設定](/help/main/c-recommendations/c-products/feeds.md#steps)を参照してください。
 
      SFTPでは、カスタム条件のCSV形式は変更されません。 `# Key,Recommendation_1,...`形式を使用します。異なるフィードの種類の形式を使用すると、読み込みが失敗します。
 

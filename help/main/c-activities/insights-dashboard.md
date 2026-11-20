@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ ht-degree: 1%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL 時間を超えるアクティビティ]** グラフは、選択した時間範囲で作成、変更、公開されたアクティビティの数を追跡し、実験プログラムの傾向、スパイク、またはサイレントピリオドを簡単に検出できます。
+**[!UICONTROL 時間を超えるアクティビティ]**&#x200B;のグラフは、選択した時間範囲で作成、変更、公開されたアクティビティの数を追跡するため、実験プログラムの傾向、スパイク、またはサイレントピリオドを特定できます。
 

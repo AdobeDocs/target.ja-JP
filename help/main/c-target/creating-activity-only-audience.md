@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 27%
@@ -30,7 +30,7 @@ ht-degree: 27%
 * アクティビティのみのオーディエンスを使用して、1回だけ使用するオーディエンスを作成できます。そのオーディエンスを[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に保存しないでください。 アクティビティのみのオーディエンスは、[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]が今後も使用しないオーディエンスで乱雑になるのを防ぐのに役立ちます。
 * アクティビティのみのオーディエンスは、[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]に表示されません。 これらのオーディエンスはライブラリでは表示されないため、組織内の他のユーザーによる望ましくない変更から保護されます。
 
-1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の作成中、**[!UICONTROL ターゲティング]** ページで、3つの垂直省略記号をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックします。
+1. [&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)の作成中、**[!UICONTROL ターゲティング]** ページで、3つの垂直省略記号をクリックし、**[!UICONTROL オーディエンスの置換]**&#x200B;をクリックします。
 
    ![ステップの結果](assets/edit_audience.png)
 

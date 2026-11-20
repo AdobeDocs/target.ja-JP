@@ -19,7 +19,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 16%
@@ -58,9 +58,9 @@ ht-degree: 16%
 
    +++ オーディエンスの詳細
 
-   オーディエンスライブラリには、[!DNL Target] の一部として事前にビルドされた一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。 ライブラリからオーディエンスを選択するか、[新しいオーディエンスを作成](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)します。
+   オーディエンスライブラリには、[!DNL Target] の一部として事前にビルドされた一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。 ライブラリからオーディエンスを選択するか、[新しいオーディエンスを作成](/help/main/c-target/c-audiences/audiences.md)します。
 
-   既存のオーディエンスを選択するだけでなく、複数のオーディエンスを組み合わせて、新しいオーディエンスを作成するのではなく、オンデマンドで組み合わせたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
+   既存のオーディエンスを選択するだけでなく、複数のオーディエンスを組み合わせて、新しいオーディエンスを作成するのではなく、オンデマンドで組み合わせたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md)を参照してください。
 
    オーディエンスを作成する際に、場所を選択し、その場所のパラメーターを指定できます。 **[!UICONTROL カスタム]** （**[!UICONTROL オーディエンスを作成]** > **[!UICONTROL カスタム]**）で、場所を選択し、目的のパラメーターを指定します。
 

@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 22%
@@ -50,7 +50,7 @@ ht-degree: 22%
    {{visitor-matching}}
 
 1. 訪問者が一致するすべてのアクティビティとエクスペリエンスのコンテンツがページに返されるので、同じ呼び出しに対して複数のアクティビティのコンテンツを配信できます。
-1. [!DNL Target]は、各アクティビティのコンテンツが参照する[CSS セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)を比較します。 アクティビティが異なるセレクターを参照する場合、すべてのコンテンツが表示されます。
+1. [!DNL Target]は、各アクティビティのコンテンツが参照する[CSS セレクター](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)を比較します。 アクティビティが異なるセレクターを参照する場合、すべてのコンテンツが表示されます。
 1. セレクターが重複している場合、または重複している場合は、最も優先度の高いアクティビティのコンテンツが表示されます。
 
    >[!IMPORTANT]

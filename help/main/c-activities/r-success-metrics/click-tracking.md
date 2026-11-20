@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 73%
@@ -98,7 +98,7 @@ ht-degree: 73%
 
   詳しくは、*Visual Experience Composer のオプション*&#x200B;の [DOM パスを使用した要素のナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。
 
-* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。 この異なるページは、[マルチページ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を使用するアクティビティに含める必要があり、[!DNL at.js] を実装する必要があります。
+* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。 この異なるページは、[マルチページ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)を使用するアクティビティに含める必要があり、[!DNL at.js] を実装する必要があります。
 * 追跡する要素のレベルを選択していることを確認してください。 例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。 各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。 ページ上の複数の要素をクリックして 1 つの項目をカウントするには、CSS 要素セレクターを編集して複数の要素と一致させます。
 * **[!UICONTROL Automated Personalization]**（AP）およびシングルページアプリケーション（SPA）上の自動ターゲットアクティビティの場合、特定の [!DNL Target] ビューに属するクリックの追跡用の要素を選択できます。 ビューについて詳しくは、[Adobe Target ビューとシングルページアプリケーション](/help/main/c-experiences/spa-visual-experience-composer.md)を参照してください。

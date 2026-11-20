@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -35,7 +35,7 @@ ht-degree: 32%
 
 [!DNL Target]でAEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を使用する場合は、次の点を考慮してください。
 
-* この機能を使用するには、[!DNL Adobe Experience Manager]（AEM）の顧客である必要があります。 詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
+* この機能を使用するには、[!DNL Adobe Experience Manager]（AEM）の顧客である必要があります。 詳しくは、次の[要件](#requirements)を参照してください。
 * [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]と[!UICONTROL &#x200B; コンテンツフラグメント &#x200B;]は、次のアクティビティタイプで使用できます。
 
   * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)

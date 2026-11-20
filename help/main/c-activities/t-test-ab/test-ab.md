@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 19%
 ---
 # A/B テストを始める {#test-ab}
@@ -41,7 +41,7 @@ ht-degree: 19%
 次の場合は、手動のA/B テストを使用します。
 
 * 成功指標や代替コンテンツの配信にもとづいて、ページのパフォーマンスを向上させる方法について明確な仮説を立てることができます。
-* 新しいレイアウトや、要素の大幅な処理など、大きな変更をテストする場合に使用します。 テスト デザインが個々のページ要素に簡単に分解されない場合は、[多変量テスト &#x200B;](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)を実行する前に、A/B テストを実行する必要があります。
+* 新しいレイアウトや、要素の大幅な処理など、大きな変更をテストする場合に使用します。 テスト デザインを個々のページ要素に分割できない場合は、[多変量テスト &#x200B;](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)を実行する前に、A/B テストを実行する必要があります。
 * 各エクスペリエンスを閲覧した訪問者の割合を決定できます。 たとえば、コントロールと2つ目のエクスペリエンスの間でトラフィックを均等に分配したり、オーディエンスの5%に表示することで、よりリスクの高い新しいエクスペリエンスをテストしたりすることができます。
 
 A/B テストのサンプルサイズの決定について詳しくは、[A/B テストの計画](/help/main/c-activities/t-test-ab/sample-size-determination.md)を参照してください。

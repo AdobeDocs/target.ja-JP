@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '915'
 ht-degree: 1%
 ---
 # A/A テスト {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-A/A テストでは、ふたつの同一のエクスペリエンス間でトラフィックを分割します。 エクスペリエンスは異ならないため、テストは、アクティビティ、実装、レポートが期待どおりに機能することを確認する方法です。 それでも、同じ体験を提供していても、上昇率に違いが生じることがあります。 なぜを理解すると、テストを実行し、その結果を正しく解釈するのに役立ちます。
+A/A テストでは、ふたつの同一のエクスペリエンス間でトラフィックが分割されるため、テストとは、アクティビティ、実装、レポートが期待通りに機能することをチェックする方法です。 それでも、同じ体験を提供していても、上昇率に違いが生じることがあります。 なぜを理解すると、テストを実行し、その結果を正しく解釈するのに役立ちます。
 
 ## A/A テストとは？ {#what-is-aa}
 

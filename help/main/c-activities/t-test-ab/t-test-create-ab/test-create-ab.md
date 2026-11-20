@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # A/B テストアクティビティの作成 {#create-ab-activity}
@@ -134,7 +134,7 @@ ht-degree: 10%
 
    +++
 
-1. 「**[!UICONTROL トラフィック配分]**」コントロールをクリックし、右側のペインでトラフィック配分方法を選択します。 [&#x200B; トラフィックの割り当て方法](#traffic-allocation-methods)を参照してください。
+1. 「**[!UICONTROL トラフィック配分]**」コントロールをクリックし、右側のペインでトラフィック配分方法を選択します。 使用可能なメソッドを次の表に示します。
 
    ![トラフィック配分方法の設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -156,7 +156,7 @@ ht-degree: 10%
 
 **[!UICONTROL 目標と設定]** ページで、アクティビティの測定方法を[!DNL Target]さんに伝えます。 使用可能な設定は、[!DNL Target]または[Analyticsをレポートソース &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)として使用するかどうかに応じて異なります。
 
-1. ページのセクションを確認し、必要なものを設定します。 「[目標と設定」ページで設定した内容](#goals-settings-overview)を参照してください。
+1. ページのセクションを確認し、必要なものを設定します。 「[目標と設定」ページで設定した内容](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)を参照してください。
 
    | セクション | 設定するもの |
    |---|---|

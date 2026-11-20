@@ -5,7 +5,6 @@ title: Adobe Target MCP サーバーの概要
 description: Adobe Target MCP サーバーの概要、主な機能、AI アシスタントへの接続方法をご紹介します。
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 product_v2:
@@ -24,9 +23,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8fd1b8e05c92c3e0b49f61b17fbf5fba522a8410
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1029'
 ht-degree: 0%
 ---
 # [!DNL Adobe Target] MCP サーバー {#target-mcp}
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Target] MCP サーバーは、**パブリック Beta**&#x200B;のすべてのユーザーが利用できます。 現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;でサポートされています。 MCP互換アプリケーションのサポートは、今後のリリースで追加される予定です。
+>[!DNL Adobe Target] MCP サーバーは現在、**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**、および&#x200B;**ChatGPT**&#x200B;でサポートされています。 MCP互換アプリケーションのサポートは、今後のリリースで追加される予定です。
 
 
 ## モデル コンテキスト プロトコルとは何ですか？ {#mcp-overview}
