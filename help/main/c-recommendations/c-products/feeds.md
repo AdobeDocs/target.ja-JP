@@ -1,7 +1,7 @@
 ---
 keywords: レコメンデーションフィード；SAINT;ftp;sftp;csv;classifications;analytics classifications
 description: フィードが、CSV ファイル、[!DNL Google Product Search] フィード形式、[!DNL Analytics]製品の分類を使用して[!DNL Adobe Target] [!DNL Recommendations]にエンティティを読み込む方法について説明します。
-title: '[!DNL Target Recommendations]で[!UICONTROL  フィード ]を使用するにはどうすればよいですか？'
+title: '[!DNL Target Recommendations]で[!UICONTROL &#x200B; フィード &#x200B;]を使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
@@ -39,7 +39,7 @@ ht-degree: 26%
 
 ## フィードの概要 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-フィードを使用すると、[ エンティティ ](/help/main/c-recommendations/c-products/products.md)を渡したり、ページ上で利用できない情報や、ページから直接送信できない情報でmbox データを拡張したりできます。 たとえば、マージン、売上原価（COGS）などがあります。 フィードでは、製品ID、カテゴリ、名前、メッセージ、その他の属性など、詳細な項目情報を[!DNL Recommendations]に渡すこともできます。
+フィードを使用すると、[&#x200B; エンティティ &#x200B;](/help/main/c-recommendations/c-products/products.md)を渡したり、ページ上で利用できない情報や、ページから直接送信できない情報でmbox データを拡張したりできます。 たとえば、マージン、売上原価（COGS）などがあります。 フィードでは、製品ID、カテゴリ、名前、メッセージ、その他の属性など、詳細な項目情報を[!DNL Recommendations]に渡すこともできます。
 
 [!DNL Target]製品分類ファイルまたは[!DNL Google Product Search] ファイルから、[!DNL Recommendations] サーバーに送信する列を選択できます。
 
@@ -62,20 +62,20 @@ ht-degree: 26%
 
 ### フィード リスト
 
-[!UICONTROL  フィード ] リスト （**[!UICONTROL Recommendations]** > **[!UICONTROL フィード]**）には、作成したフィードに関する情報が表示されます。 次の列が含まれています。
+[!UICONTROL &#x200B; フィード &#x200B;] リスト （**[!UICONTROL Recommendations]** > **[!UICONTROL フィード]**）には、作成したフィードに関する情報が表示されます。 次の列が含まれています。
 
 | 列 | 説明 |
 |---|---|
 | **Name** | 作成時に指定されたフィードの名前。 フィードの名前を編集するには、フィード自体を編集する必要があります。 新しい名前でフィードを保存すると、フィードが更新されます。 |
-| **ステータス** | フィードの現在の[ ステータス ](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。 |
+| **ステータス** | フィードの現在の[&#x200B; ステータス &#x200B;](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。 |
 | **タイプ** | タイプには、[CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)、および[Analytics Classifications](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)が含まれます。 |
 | **項目** | フィード内の項目数を表示します。 |
 | **スケジュール** | フィードの更新スケジュールが表示されます：**[!UICONTROL 毎日]**、**[!UICONTROL 毎週]**、**[!DNL Every 2 Weeks]**、または&#x200B;**[!UICONTROL なし]**。 |
 | **最終更新日** | フィードが最後に更新された日時と、フィードを更新したユーザーの名前が表示されます。 |
 
-* **[!UICONTROL 表をカスタマイズ]** アイコン （![表をカスタマイズ アイコン ](/help/main/assets/icons/ColumnSetting.svg)）をクリックして、表示する列を選択または選択解除します。
-* **[!UICONTROL 情報]** アイコン （![情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、最後のアップロード日とフィードのURLを表示するカードが表示されます。
-* **[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックして、次のアクションにアクセスします。**[!UICONTROL 無効化]**、**[!DNL Edit]**、**[!UICONTROL コピー]**、**[!UICONTROL 削除]**。
+* **[!UICONTROL 表をカスタマイズ]** アイコン （![表をカスタマイズ アイコン &#x200B;](/help/main/assets/icons/ColumnSetting.svg)）をクリックして、表示する列を選択または選択解除します。
+* **[!UICONTROL 情報]** アイコン （![情報アイコン &#x200B;](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、最後のアップロード日とフィードのURLを表示するカードが表示されます。
+* **[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックして、次のアクションにアクセスします。**[!UICONTROL 無効化]**、**[!DNL Edit]**、**[!UICONTROL コピー]**、**[!UICONTROL 削除]**。
 
 ## Source タイプ {#source-types}
 
@@ -139,7 +139,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 [!DNL Google Product Search] フィードの種類は、[!DNL Adobe]独自のCSV形式ではなく[!DNL Google]形式を使用します。 既存の[!DNL Google Product Feed]を再利用して、商品データを[!DNL Recommendations]にインポートできます。
 
-[!DNL Recommendations]は、[!DNL Google] フィード仕様に従い、Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)によって定義された[属性を使用する.xml、.txt、および.tsv ファイルを受け入れます。 フィードのURLまたはFTPの場所を指定して、[!DNL Recommendations] サーバーがファイルを取得し、カタログを構築できるようにします。
+[!DNL Recommendations]は、[!DNL Google] フィード仕様に従い、Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)によって定義された属性を使用する.xml、.txt、および.tsv ファイルを受け入れます。 フィードのURLまたはFTPの場所を指定して、[!DNL Recommendations] サーバーがファイルを取得し、カタログを構築できるようにします。
 
 [!DNL Google] フィードをホストしているサーバーは、POST メソッドを許可する必要があります。
 
@@ -250,7 +250,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. [!DNL Target] インターフェイス内から、**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**&#x200B;をクリックします。
 
-   ![ フィード ページの作成](../assets/feeds_1.png)
+   ![&#x200B; フィード ページの作成](../assets/feeds_1.png)
 
 1. フィードにわかりやすい名前を指定します。
 
@@ -260,9 +260,9 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
    * **[!UICONTROL Google製品フィード]**
    * **[!UICONTROL Analytics分類]**
 
-   **[!UICONTROL CSV]**&#x200B;および&#x200B;**[!UICONTROL Google Product Feed]**&#x200B;のフィードの種類について詳しくは、[Source types](#source-types)を参照してください。 また、[ モデル CSV ガイドをダウンロード ](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)して、フィードを正しくフォーマットできます。
+   **[!UICONTROL CSV]**&#x200B;および&#x200B;**[!UICONTROL Google Product Feed]**&#x200B;のフィードの種類について詳しくは、[Source types](#source-types)を参照してください。 また、[&#x200B; モデル CSV ガイドをダウンロード &#x200B;](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)して、フィードを正しくフォーマットできます。
 
-   ![ フィード ページの作成](../assets/feeds_2.png)
+   ![&#x200B; フィード ページの作成](../assets/feeds_2.png)
 
 1. （条件付き） **[!UICONTROL CSV]**&#x200B;または&#x200B;**[!UICONTROL Google Product Feed]**&#x200B;を選択した場合は、フィードにアクセスできる場所を指定します。
 
@@ -302,7 +302,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
    * **[!UICONTROL 2週間ごとに]**
    * **[!UICONTROL なし]**：更新をスケジュールしません。 このフィードを実行したくない場合に、これを選択します。
 
-   ![ フィード ページの作成](../assets/feeds_3.png)
+   ![&#x200B; フィード ページの作成](../assets/feeds_3.png)
 
 1. フィードを実行する時間を指定します。
 
@@ -310,7 +310,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL 次]**&#x200B;矢印をクリックして&#x200B;**[!UICONTROL マッピング]** オプションを表示し、データを[!DNL Target]定義にマッピングする方法を指定します。
 
-   ![ フィード ページの作成](../assets/feeds_4.png)
+   ![&#x200B; フィード ページの作成](../assets/feeds_4.png)
 
 1. （オプション）フィードを環境（ホストグループ）に所属させたい場合、ホストグループを選択します。
 
@@ -318,7 +318,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-フィードを作成または編集すると、すぐに実行され、設定に従って更新されます。 フィードは、データが使用可能になる前に同期、処理、およびインデックスを作成する必要があります。 [!DNL Target]を閉じても処理は続行され、**[!UICONTROL フィード]** リストの進行状況を[ フィードの状態](/help/main/c-recommendations/c-products/feeds.md#status)で追跡できます。
+フィードを作成または編集すると、すぐに実行され、設定に従って更新されます。 フィードは、データが使用可能になる前に同期、処理、およびインデックスを作成する必要があります。 [!DNL Target]を閉じても処理は続行され、**[!UICONTROL フィード]** リストの進行状況を[&#x200B; フィードの状態](/help/main/c-recommendations/c-products/feeds.md#status)で追跡できます。
 
 索引付け時には、製品とフィードのヘッダーが個々の値の前に表示されるため、既に製品を検索し、コレクション、除外、デザイン、アクティビティを作成できます。
 
@@ -358,7 +358,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * これらの20の製品のいくつかをアクティビティの配信に期待していますが、実行されていません。
 * アップロードしたフィードには、該当する製品の製品の詳細が含まれていますが、Entity APIを介してクエリを実行すると、バックエンドに表示されません。
 
-フィードを更新するには（例えば、フィード構成やフィードファイルを変更する場合など）、フィードを開き、必要な変更をおこなってから、「**[!UICONTROL 保存]**」をクリックします。 アップロードしたエンティティは 61 日後に有効期限切れになります。 アップロード頻度については、[ フィードの概要](#concept_D1E9C7347C5D4583AA69B02E79607890)のメモを参照してください。
+フィードを更新するには（例えば、フィード構成やフィードファイルを変更する場合など）、フィードを開き、必要な変更をおこなってから、「**[!UICONTROL 保存]**」をクリックします。 アップロードしたエンティティは 61 日後に有効期限切れになります。 アップロード頻度については、[&#x200B; フィードの概要](#concept_D1E9C7347C5D4583AA69B02E79607890)のメモを参照してください。
 
 ### フィードのステータス指標 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
