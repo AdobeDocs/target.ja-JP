@@ -1,7 +1,7 @@
 ---
 keywords: 包含ルール；包含基準；レコメンデーション；プロモーション；動的フィルタリング；動的；エンティティ属性の一致
 description: 潜在的なアイテムのプールを、ユーザーが操作した特定のアイテムと比較して、[!DNL Target Recommendations]で動的にフィルタリングする方法について説明します。
-title: Recommendations アクティビティでエンティティ属性の一致をフィルタリングするにはどうすればよいですか？
+title: エンティティ属性のマッチング
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
@@ -18,58 +18,54 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 5%
+source-wordcount: '505'
+ht-degree: 9%
 ---
-# エンティティ属性のマッチング
+# エンティティ属性のマッチング {#entity-attribute-matching}
 
-潜在的なレコメンデーション項目のプールを、ユーザーが操作した特定の項目と比較することで、[!DNL Adobe Target Recommendations]で動的にフィルターを実行します。
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->条件とプロモーションに含めるルール [&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成して使用する プロセスは、ユースケースと例と同様に類似しています。
+**このページ：**&#x200B;では、潜在的な推奨アイテムのプールを、訪問者が操作した特定のアイテムと比較することで、[!DNL Adobe Target Recommendations]でレコメンデーションを動的にフィルタリングする方法について説明します。
 
-例えば、次の例のように、現在の項目のブランドに一致する項目のみをレコメンデーションします。
+>[!ENDSHADEBOX]
 
-ブランド ランディングページのmboxが`entity.brand=brandA`を返した場合、ブランド Aの製品のみが返され、そのページに表示されます。 同様に、ブランド Bのブランドランディングページでは、ブランド Bの商品のみが返されます。 この種類の動的インクルージョンルールでは、ユーザーは、各ブランド名に一致するコレクションや静的フィルターを指定するのではなく、すべてのブランドページにわたって関連するブランド結果を返すレコメンデーションルールを1つだけ指定する必要があります。
-
-このプロセスを機能させるには、これらのランディングページのmboxで`entity.brand`を配信する必要があります。
+**[!UICONTROL エンティティ属性一致]**&#x200B;では、訪問者が操作した項目の属性に一致する項目のみが推奨されます。 条件とプロモーションでは、インクルージョンルールを作成、使用する方法は類似しています。使用例やサンプルも同様です。 詳しくは、[動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を参照してください。
 
 ## エンティティ属性の一致の例
 
-[!UICONTROL &#x200B; エンティティ属性一致]を使用すると、次のように一致する項目のみをレコメンデーションできます。
+**[!UICONTROL エンティティ属性の一致]**&#x200B;は、一致する項目のみを推奨できます。例：
 
-* ユーザーが現在表示している項目の属性
-* ユーザーが最近閲覧した項目
-* ユーザーが最近購入した商品
-* ユーザーが最も頻繁に閲覧する項目
-* 訪問者のプロファイルのカスタム属性に保存された項目
+* 訪問者が現在表示している項目の属性
+* 訪問者が最近閲覧した項目
+* 訪問者が最近購入した商品
+* 訪問者が最も頻繁に閲覧する項目
+* 訪問者のプロファイル内のカスタム属性に格納された項目
 
 ### ブランドに基づいた商品のレコメンデーション
 
-エンティティ属性ルールを作成すると、ページで渡されたエンティティ値と一致しない属性を持つすべてのレコメンデーションが除外されます。
+エンティティ属性ルールを作成すると、ページで渡されたエンティティ値と一致しない属性を持つすべてのレコメンデーションがフィルタリングされます。 このプロセスが機能するには、ページ上のmboxで`entity.brand`値を配信する必要があります。
 
-次の例は、ページに表示されている商品ブランドに一致するレコメンデーションを示しています。
+この種類の動的インクルージョンルールでは、ブランド名ごとにコレクションや静的フィルターではなく、すべてのブランドページをまたいで関連するブランド結果を返すために、1つのレコメンデーションルールのみを指定する必要があります。
 
-ブランド A製品を特徴とするページにアクセスすると、ページは`entity.brand` パラメーターの値を「BrandA」に設定します。
+例えば、ブランド Aの製品を特徴とするページが表示される場合、ページは`entity.brand` パラメーターの値を「BrandA」に設定します。 ブランドのランディングページで、mboxは`entity.brand=brandA`を返します。
 
 ![Target呼び出しの例](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
 
-ページのレコメンデーションには、ブランド Aの商品のみが表示されます。
+ページのレコメンデーションにはブランド Aの商品のみが含まれます。
 
-![&#x200B; ブランド Aのおすすめ](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
+![ ブランド Aのおすすめ](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
-ブランド Bの製品ページを表示すると、`entity.brand`の値が「ブランド B」にリセットされ、ブランド Bの製品ページでブランド Bの製品が推奨されます。
+ブランド Bの製品ページが表示されると、`entity.brand`の値が「ブランド B」にリセットされ、ブランド Bの製品のみが推奨されます。 同様に、ブランド Bのブランドランディングページでは、ブランド Bの商品のみが返されます。
 
-![&#x200B; ブランド B レコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
+![ ブランド B レコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### より高価な商品へのアップセル
 
-例えば、アパレル企業が、retailerのユーザーに高価格の商品を検討するように促したい場合、より収益性の高い商品を検討します。 「等しい」演算子と「次の値の間にある」演算子を使用すると、同じカテゴリと同じブランドの高価な項目を宣伝できます。 例えば、靴のretailerは、次のサンプルのように、ランニングシューズを見ている訪問者にアップセルするために、より高価なランニングシューズを宣伝できます。
+訪問者に高価格を検討し、より収益性の高い商品を検討するように促すために、「等しい」および「間にある」演算子は、同じカテゴリと同じブランドからより高価な商品を宣伝できます。 例えば、靴のretailerでは、次のサンプルのように、ランニングシューズを見ている訪問者に対して、より高額なランニングシューズを宣伝してアップセルすることができます。
 
-![&#x200B; アップセル &#x200B;](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
+![ アップセル ](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
 ```
 Entity Attribute Matching
@@ -84,10 +80,9 @@ value - is between - 100% and 1000% of - current item's - value
 
 ### プライベートブランド商品の促進
 
-動的フィルターと静的フィルターを組み合わせることで、プライベートラベルの商品を宣伝できます。 たとえば、オフィス用品メーカーは、同社のハウスブランドのトナーカートリッジを宣伝して、トナーを見る訪問者にとってより収益性の高い販売を促進することができます。また、次の例のように、同社のハウスブランドのペンを宣伝して、ペンを見る訪問者にとってより収益性の高い販売を促進することもできます。
+ダイナミックフィルターと静的フィルターを混在させて、プライベートラベルの商品を宣伝することもできます。 例えば、オフィス用品メーカーは、次の例のように、自社のハウスブランドのトナーカートリッジを宣伝することで、トナーを見ている訪問者にとってより収益性の高い販売を促進できます。
 
-![&#x200B; ハウスブランド](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
-)
+![ ハウスブランド ](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
 
 ```
 Entity Attribute Matching

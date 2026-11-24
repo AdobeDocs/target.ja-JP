@@ -1,7 +1,7 @@
 ---
 keywords: インクルージョンルール;インクルージョン条件;レコメンデーション;プロモーション;動的;動的フィルター;静的;静的フィルター
 description: Adobe [!DNL Target]の推奨事項の包含ルールを使用して、1つ以上の静的値を手動で入力してフィルタリングする方法について説明します。
-title: レコメンデーションのアクティビティで静的値を使用してフィルタリングする方法
+title: 静的フィルター
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
@@ -18,23 +18,21 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 56%
+source-wordcount: '184'
+ht-degree: 22%
 ---
-# [!UICONTROL 静的フィルター]
+# 静的フィルター {#static-filter}
 
-[!DNL Adobe Target Recommendations]の包含ルールを使用してフィルターを実行するには、1つ以上の静的値を手動で入力してください。
+>[!BEGINSHADEBOX]
 
-例えば、Motion Picture Association（MPA）のレーティングが「G」または「PG」のコンテンツのみをレコメンデーションできます。
+**このページ：**&#x200B;では、[!DNL Adobe Target Recommendations]の包含ルールに1つ以上の静的値を手動で入力して、推奨事項をフィルタリングする方法について説明します。
 
-インクルージョンルールは必要に応じて無制限に作成できます。 インクルージョンルールは AND 演算子で結合します。 品目がレコメンデーションに含まれるためには、すべてのルールを満たす必要があります。
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->Target 17.6.1 リリース（2017年6月）より前にインクルージョンルールがどのように設定されたかをご存知の方は、オプションと演算子の一部が変更されていることにお気づきでしょう。 選択したオプションに適用できる演算子のみが表示されるようになり、いくつかの演算子は、よりわかりやすく一貫性のある名前に変更されています（「一致」が「次に等しい」になるなど）。 このリリース以前に作成された既存の除外ルールは、新しい方式に自動的に移行されているので、 手動で再設定を行う必要はありません。
+**[!UICONTROL 静的フィルター]**&#x200B;は、レコメンデーションの項目を、手動で入力された静的値に一致する項目に制限します。 任意の数のインクルージョンルールを作成できます。 包含ルールはAND演算子と結合されるため、レコメンデーションに含める項目に対してすべてのルールを満たす必要があります。 包含ルールに関する一般的な情報については、[動的および静的な包含ルールを使用する](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を参照してください。
 
 ## G または PG レーティングのコンテンツのレコメンデーション
 
-MPA評価が「G」または「PG」のみのコンテンツを推奨する静的な値を含む包含ルールを作成するには（「R」および「NC17」のコンテンツを除く）、次のフィルタールールを作成できます。「movie-rating equals any of g-rated」および「movie-rating equals any of pg-rated」。
+「G」または「PG」の評価がMPA （Motion Picture Association）のコンテンツのみを推奨するには、「R」および「NC17」のコンテンツを除く）、演算子「movie-rating equals any of」を使用して1つのフィルタリングルールを作成し、「g-rated」および「pg-rated」の値を入力します。

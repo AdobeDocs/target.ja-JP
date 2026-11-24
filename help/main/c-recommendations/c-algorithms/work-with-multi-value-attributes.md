@@ -1,7 +1,7 @@
 ---
 keywords: 複数値；属性；レコメンデーション；複数値；複数値；複数値
 description: 特殊な複数値の演算子を使用して、[!DNL Target Recommendations]の複数値フィールドを操作する方法を説明します。
-title: レコメンデーションで複数値の属性を使用できますか？
+title: 複数値の属性の扱い
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 TQID: 'https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE'
@@ -17,43 +17,36 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 8%
+source-wordcount: '502'
+ht-degree: 2%
 ---
-# 複数値の属性の扱い
+# 複数値の属性の扱い {#multi-value-attributes}
 
-複数の値を持つフィールドを操作したい場合もあります。 次の例をご覧ください。
+>[!BEGINSHADEBOX]
 
-* ユーザに映画をオファーする場合。 所定の映画には複数の俳優が出演しています。
-* コンサートのチケットを販売する場合。 所定のユーザーには、お気に入りのバンドが複数あります。
-* 服を販売する場合。 1 種類のシャツには複数のサイズがあります。
+**このページ：**&#x200B;では、複数値データを[!DNL Adobe Target Recommendations]に送信する方法と、複数値の演算子を含めるルールで使用する方法について説明します。
 
-これらのシナリオでレコメンデーションを処理するには、複数値データを[!DNL Target Recommendations]に渡し、特殊な複数値の演算子を使用します。
+>[!ENDSHADEBOX]
 
-[!DNL Recommendations]が複数の値のデータを識別できるようにするには、次のコードサンプルのように、JSON配列として送信する必要があります。
+複数値フィールドには、同じ項目または訪問者に対して複数の値が保持されます。 次に例を示します。
 
-## JavaScriptで複数値パラメーターを渡す
+* ユーザーに提供される映画：特定の映画には複数の俳優が含まれます。
+* コンサートのチケット販売：特定のユーザーには複数のお気に入りのバンドがあります。
+* 衣料品販売：シャツは複数のサイズで利用できます。
 
-```
-function targetPageParams() { 
-  return { 
-    'entity.id':                   '123', 
-    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
-    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
-    'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
-  }; 
-}
-```
+これらのシナリオでレコメンデーションを処理するには、複数値データを[!DNL Target Recommendations]に渡し、特殊な複数値の演算子で使用します。
 
-詳しくは、*カスタムエンティティ属性*&#x200B;の[複数値の属性の実装](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)を参照してください。
+## 複数値データの送信 {#send}
 
-## 複数の値を持つエンティティ属性をCSV ファイルに渡す
+[!DNL Recommendations]が多値データを識別できるようにするには、JSON配列として送信する必要があります。
+
+JavaScript （`targetPageParams`）の複数値パラメーターについては、*カスタムエンティティ属性*&#x200B;の[複数値の属性の実装](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)を参照してください。
+
+CSV ファイルでは、次のサンプルのように、複数値のエンティティ属性が、属性のセル内のJSON配列として送信されます。
+
++++ 複数値の属性を持つCSV ファイルの例
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -70,26 +63,28 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-エンティティ属性、プロファイル属性、またはmbox パラメーターが上記の形式に従って複数値として指定されると、[!DNL Recommendations]はフィールドが複数値であると自動的に推測します。
++++
+
+エンティティ属性、プロファイル属性、またはmbox パラメーターがこの形式で複数値として提供されると、[!DNL Recommendations]はフィールドが複数値であると自動的に推測します。
+
+## 包含ルールで複数値属性を使用する {#multi-value-inclusion-rules}
 
 複数値のエンティティ、プロファイルおよびmbox属性で使用できる演算子は次のとおりです。
 
-* [!UICONTROL はリスト &#x200B;]に含まれています
-* [!UICONTROL はリスト &#x200B;]に含まれていません
-
-## 包含ルールでの複数値の属性の操作
+* **[!UICONTROL はリスト]**&#x200B;に含まれています
+* **[!UICONTROL はリスト]**&#x200B;に含まれていません
 
 >[!NOTE]
 >
->複数の値の属性に対する動的マッチングのサポートは、現在、単一の値を左側から右側に複数値で比較する際に、プロファイル属性マッチングまたはパラメーター（mbox）属性マッチングルールを使用する場合にのみ、条件でのみ利用できます。 複数値の属性は、現在、プロモーション、エンティティ属性の一致、または包含ルールの左側のリストではサポートされていません。
+>複数の値の属性に対する動的マッチングのサポートは、現在、左側の単一の値を右側の複数の値と比較するプロファイル属性マッチングまたはパラメーター（mbox）属性マッチングルールを使用する条件でのみ利用できます。 複数値の属性は、現在、プロモーション、エンティティ属性の一致、または包含ルールの左側のリストではサポートされていません。
 
 ### 例：最近視聴した項目を除外
 
-例えば、ユーザーの最後の10本のムービーの中にあるムービーが推奨されないようにするとします。 まず、`user.lastWatchedMovies`というプロファイルスクリプトを作成して、最後に閲覧した10本のムービーをJSON配列として追跡します。 次に、次の包含ルールを使用して、項目を除外できます。
+ユーザーの最後の10本の視聴済み映画の映画が推奨されないようにするには、最初に、最後の10本の視聴済み映画をJSON配列として追跡する`user.lastWatchedMovies`というプロファイルスクリプトを作成します。 次の包含ルールを使用して、項目を除外できます。
 
 ```
-`Profile Attribute Matching`
-`id - is not contained in list - user.lastWatchedMovies`
+Profile Attribute Matching
+id - is not contained in list - user.lastWatchedMovies
 ```
 
 包含ルールのJSON API表現：
@@ -107,11 +102,11 @@ function targetPageParams() {
 
 ### 例：ユーザーのお気に入りから商品をレコメンドする
 
-バンドの再生がユーザーのお気に入りのバンドの1つである場合、コンサートのチケットのみを推奨するとします。 まず、ユーザーのお気に入りのバンドを含む`profile.favoriteBands`というプロファイル変数があることを確認します。 次に、カタログに、コンサートでパフォーマンスするアーティストを含む属性`entity.artistPerforming`が含まれていることを確認します。 次に、次の包含ルールを使用できます。
+バンドの演奏がユーザーのお気に入りのバンドの1つである場合にのみコンサートチケットを推薦するには、ユーザーのお気に入りのバンドを含む`profile.favoriteBands`というプロファイル変数と、コンサートで演奏するアーティストを含むカタログ内の属性`entity.artistPerforming`の2つの項目が必要です。 次の包含ルールを使用できます。
 
 ```
-`Profile Attribute Matching`
-`artistPerforming - is contained in list - profile.favoriteBands`
+Profile Attribute Matching
+artistPerforming - is contained in list - profile.favoriteBands
 ```
 
 包含ルールのJSON API表現：
@@ -129,7 +124,7 @@ function targetPageParams() {
 
 ### 例：ユーザーのお気に入りからの項目を推奨する基準のAPI作成
 
-すべての条件と同様に、複数値フィルタリングルールを使用する条件は、[!DNL Adobe Target] APIを介して作成できます。 エンティティ属性`id`がmbox パラメーターリスト `favorites`に含まれる条件を作成するためのAPI呼び出しの例は、次のとおりです。
+複数値フィルタリングルールを使用する条件は、すべての条件と同様に、[!DNL Adobe Target] APIを通じて作成できます。 次のAPI呼び出しの例では、エンティティ属性`id`がmbox パラメーターリスト `favorites`に含まれる条件を作成します。
 
 ```
 curl -X POST \
@@ -166,7 +161,7 @@ curl -X POST \
 }'
 ```
 
-これは、お気に入りのコンテンツを渡すために、ページ上のJavaScriptと組み合わせられます。
+この呼び出しは、お気に入りの内容を渡すページ上のJavaScriptと組み合わせられます。
 
 ```
 <!-- pass in the value of mbox parameter "favorites" as JSON array -->
