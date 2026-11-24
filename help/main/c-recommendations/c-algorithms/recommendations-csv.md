@@ -33,7 +33,7 @@ ht-degree: 17%
 
 カスタム条件では、[!DNL Target]にアップロードされたレコメンデーションのCSV ファイルを使用します。 これにより、[!DNL Target]外で計算されたレコメンデーションを[!DNL Recommendations]のアクティビティで配信できます。 カスタム基準の仕組みについて詳しくは、[Targetのレコメンデーションアルゴリズムの背後にある科学](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)を参照してください。
 
-カスタム条件は、**[!UICONTROL 新規条件の作成画面]**&#x200B;から作成されます。 この画面に到達する方法については、[新しい条件の作成画面へのアクセス ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#access-create-criteria)を参照してください。 次の手順は、**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** ライブラリ画面から開始します。
+カスタム条件は、**[!UICONTROL 新規条件の作成画面]**&#x200B;から作成されます。 この画面に到達する方法については、[新しい条件の作成画面へのアクセス &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#access-create-criteria)を参照してください。 次の手順は、**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** ライブラリ画面から開始します。
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;をクリックします。
 
@@ -47,7 +47,7 @@ ht-degree: 17%
 
    アルゴリズムの種類としてカスタム条件を使用し、アルゴリズムとしてカスタムアルゴリズムを使用する![Recommendations アルゴリズムの節](../assets/criteria_create_9.png)
 
-1. （条件付き）「[ バックアップコンテンツ ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」および「[ インクルージョンルール ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
+1. （条件付き）「[&#x200B; バックアップコンテンツ &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)」および「[&#x200B; インクルージョンルール &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションに情報を入力します。
 
 1. 「**[!UICONTROL CSVをアップロード]**」セクションで、CSV ファイルの&#x200B;**[!UICONTROL 場所]**&#x200B;を選択します。
 
@@ -57,7 +57,7 @@ ht-degree: 17%
 
    * **FTP**: FTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL FTP]**&#x200B;を選択し、必要な情報を入力します。 SSLを使用すると、FTPS プロトコルを使用してCSV ファイルを安全に転送できます。
 
-   * **SFTP**: SFTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL SFTP]**&#x200B;を選択し、ホスト名またはIP アドレス、ポート（デフォルト 22）、ユーザー名、パスワードおよび/またはSSH秘密鍵、ディレクトリ、ファイル名を入力します。 詳しくは、[ サポートされているSFTP サーバー設定](/help/main/c-recommendations/c-products/feeds.md#steps)を参照してください。
+   * **SFTP**: SFTP サーバーからCSV ファイルをアップロードするには、**[!UICONTROL SFTP]**&#x200B;を選択し、ホスト名またはIP アドレス、ポート（デフォルト 22）、ユーザー名、パスワードおよび/またはSSH秘密鍵、ディレクトリ、ファイル名を入力します。 詳しくは、[&#x200B; サポートされているSFTP サーバー設定](/help/main/c-recommendations/c-products/feeds.md#steps)を参照してください。
 
      SFTPでは、カスタム条件のCSV形式は変更されません。 `# Key,Recommendation_1,...`形式を使用します。 別のフィードタイプの形式のCSV ファイルでは、読み込みが失敗します。
 

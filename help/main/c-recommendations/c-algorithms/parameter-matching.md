@@ -49,4 +49,4 @@ ht-degree: 14%
 
 訪問者が表示しているページには、モバイルデバイス製品が表示されます。
 
-![ モバイルデバイス製品](/help/main/c-recommendations/c-algorithms/assets/phones.png)
+![&#x200B; モバイルデバイス製品](/help/main/c-recommendations/c-algorithms/assets/phones.png)

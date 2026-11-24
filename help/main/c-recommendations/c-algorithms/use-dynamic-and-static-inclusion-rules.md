@@ -40,15 +40,15 @@ ht-degree: 8%
 
 1. [条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria) （**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** > **[!UICONTROL 条件の作成]** > **[!UICONTROL 条件の作成]**）中、**[!UICONTROL 包含ルール]**&#x200B;の下の&#x200B;**[!UICONTROL フィルタリングルールを追加]**&#x200B;をクリックします。
 
-   ![ フィルタリングルールを追加](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
+   ![&#x200B; フィルタリングルールを追加](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
 1. 「他のルールに従うレコメンデーション」ボックスで、**[!UICONTROL 静的フィルター]** ドロップダウンリストをクリックし、目的のオプションを選択します。
 
-   ![静的フィルターのドロップダウンリスト ](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
+   ![静的フィルターのドロップダウンリスト &#x200B;](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
    利用できるオプションは、選択した業種とレコメンデーションキーによって変わります。
 
-プロモーションにフィルタリングルールを追加するには、**[!UICONTROL 属性によるプロモーション]**&#x200B;を選択し、[ プロモーションの作成](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)を選択してから、**[!UICONTROL フィルタリングルールの追加]**&#x200B;をクリックします。
+プロモーションにフィルタリングルールを追加するには、**[!UICONTROL 属性によるプロモーション]**&#x200B;を選択し、[&#x200B; プロモーションの作成](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)を選択してから、**[!UICONTROL フィルタリングルールの追加]**&#x200B;をクリックします。
 
 ## フィルタータイプ {#filter-types}
 
@@ -112,9 +112,9 @@ ht-degree: 8%
 
 以前は、値が空の場合は何も結果が返されませんでした。 次の図に示すように、「If *x* is Empty」ドロップダウンリストは、条件に空の値がある場合に実行するアクションを指定します。
 
-![空の値オプション ](/help/main/c-recommendations/c-algorithms/assets/empty_value.png)
+![空の値オプション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/empty_value.png)
 
-目的のアクションを選択するには、ギアアイコン（![ ギアアイコン ](/help/main/c-recommendations/c-algorithms/assets/icon_gear.png)）にカーソルを合わせ、目的のアクションを選択します。
+目的のアクションを選択するには、ギアアイコン（![&#x200B; ギアアイコン &#x200B;](/help/main/c-recommendations/c-algorithms/assets/icon_gear.png)）にカーソルを合わせ、目的のアクションを選択します。
 
 | アクション | 次で使用可能 | 詳細 |
 |--- |--- |--- |
@@ -129,7 +129,7 @@ ht-degree: 8%
 >
 >異なるデータタイプ属性は、実行時に「等しい」演算子や「等しくない」演算子を使用した動的条件やプロモーションに互換性がない場合があります。 左側に属性またはカスタム属性が事前に定義されている場合は、右側の&#x200B;**[!UICONTROL 値]**、**[!UICONTROL マージン]**、**[!UICONTROL 在庫]**、**[!UICONTROL 環境]**&#x200B;の値を慎重に選択します。
 
-![ フィルタリングルールの左右](/help/main/c-recommendations/c-algorithms/assets/left_right.png)
+![&#x200B; フィルタリングルールの左右](/help/main/c-recommendations/c-algorithms/assets/left_right.png)
 
 次の表に、互換性のあるルールと、実行時に互換性がないルールを示します。
 

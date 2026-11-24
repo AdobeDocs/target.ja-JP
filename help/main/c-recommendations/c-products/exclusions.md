@@ -56,16 +56,16 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Exclusions]** リストビューで各除外について報告された「項目数」は、設定されたデフォルトのRecommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法について詳しくは、*Adobe Target開発者ガイド*&#x200B;の[計画と実装 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}を参照してください。
+   >**[!UICONTROL Exclusions]** リストビューで各除外について報告された「項目数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、その除外のルールに一致する製品の数です。 デフォルトのホストグループを変更する方法について詳しくは、*Adobe Target開発者ガイド*&#x200B;の[計画と実装 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}を参照してください。
 
 
-1. **[!UICONTROL フィルターを表示]** アイコン （![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックし、**[!UICONTROL 環境]** ドロップダウンリストから目的の[環境](/help/main/administrating-target/environments.md)を選択して、その環境での除外の内容をプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. **[!UICONTROL フィルターを表示]** アイコン （![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックし、**[!UICONTROL 環境]** ドロップダウンリストから目的の[環境](/help/main/administrating-target/environments.md)を選択して、その環境での除外の内容をプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
-   フィルターパネルを開き、環境リストを表示する![除外ページ ](../assets/exclusions_2.png)
+   フィルターパネルを開き、環境リストを表示する![除外ページ &#x200B;](../assets/exclusions_2.png)
 
 1. 「**[!UICONTROL 除外を作成]**」をクリックします。
 
-   ![除外を作成ボタンを含む除外ページ ](../assets/exclusions_1.png)
+   ![除外を作成ボタンを含む除外ページ &#x200B;](../assets/exclusions_1.png)
 
 1. 除外&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。 オプションの説明も入力できます。
 
@@ -75,7 +75,7 @@ ht-degree: 6%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. リスト内の目的の除外の横にあるその他のアクション アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なオプション（**[!UICONTROL 編集]**、**[!UICONTROL コピー]**、または&#x200B;**[!UICONTROL 削除]**）をクリックします。
+1. リスト内の目的の除外の横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なオプション（**[!UICONTROL 編集]**、**[!UICONTROL コピー]**、または&#x200B;**[!UICONTROL 削除]**）をクリックします。
 
    ![その他のアクション メニューを開いた除外リスト。編集、コピー、削除が表示されます](../assets/exclusions_3.png)
 
@@ -94,7 +94,7 @@ After creating a search using "id > contains," for example, you can then click [
 -->
 
 
-## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：レコメンデーションでコレクションと除外を作成する（7:05） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

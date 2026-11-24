@@ -55,17 +55,17 @@ ht-degree: 9%
 
 ページのレコメンデーションにはブランド Aの商品のみが含まれます。
 
-![ ブランド Aのおすすめ](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
+![&#x200B; ブランド Aのおすすめ](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
 ブランド Bの製品ページが表示されると、`entity.brand`の値が「ブランド B」にリセットされ、ブランド Bの製品のみが推奨されます。 同様に、ブランド Bのブランドランディングページでは、ブランド Bの商品のみが返されます。
 
-![ ブランド B レコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
+![&#x200B; ブランド B レコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### より高価な商品へのアップセル
 
 訪問者に高価格を検討し、より収益性の高い商品を検討するように促すために、「等しい」および「間にある」演算子は、同じカテゴリと同じブランドからより高価な商品を宣伝できます。 例えば、靴のretailerでは、次のサンプルのように、ランニングシューズを見ている訪問者に対して、より高額なランニングシューズを宣伝してアップセルすることができます。
 
-![ アップセル ](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
+![&#x200B; アップセル &#x200B;](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
 ```
 Entity Attribute Matching
@@ -82,7 +82,7 @@ value - is between - 100% and 1000% of - current item's - value
 
 ダイナミックフィルターと静的フィルターを混在させて、プライベートラベルの商品を宣伝することもできます。 例えば、オフィス用品メーカーは、次の例のように、自社のハウスブランドのトナーカートリッジを宣伝することで、トナーを見ている訪問者にとってより収益性の高い販売を促進できます。
 
-![ ハウスブランド ](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
+![&#x200B; ハウスブランド &#x200B;](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
 
 ```
 Entity Attribute Matching

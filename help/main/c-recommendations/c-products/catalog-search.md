@@ -1,7 +1,7 @@
 ---
 keywords: カタログ検索；カタログ；検索；除外；コレクション；フィルター；推奨事項
-description: '[!DNL Recommendations] [!UICONTROL  カタログ検索]を使用して、商品またはコンテンツを検索する方法、カタログからアイテムを削除する方法などについて説明します。'
-title: '[!DNL Recommendations] [!UICONTROL  カタログ検索]を使用するにはどうすればよいですか？'
+description: '[!DNL Recommendations] [!UICONTROL &#x200B; カタログ検索]を使用して、商品またはコンテンツを検索する方法、カタログからアイテムを削除する方法などについて説明します。'
+title: '[!DNL Recommendations] [!UICONTROL &#x200B; カタログ検索]を使用するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 カタログは、商品セット（エンティティ）全体です。 商品を論理グループで整理する多数のコレクションを含めることができます。
 
-カタログのインデックスは、最初のフィードがアップロードされたときに自動的に作成され、[指定されたスケジュール ](/help/main/c-recommendations/c-products/feeds.md#steps)に従って更新されます。
+カタログのインデックスは、最初のフィードがアップロードされたときに自動的に作成され、[指定されたスケジュール &#x200B;](/help/main/c-recommendations/c-products/feeds.md#steps)に従って更新されます。
 
 カタログは、フィード ファイル、API、またはmboxの更新を通じて更新を受信すると、自動的に更新されます。 通常、1時間以内に更新が完了します。 更新が進行中の場合、最も新しく更新を開始した時間が表示されます。 更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
 
@@ -47,11 +47,11 @@ ht-degree: 10%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL カタログ検索]**&#x200B;をクリックします。
 
-1. （オプション）結果をフィルタリングするには、「**[!UICONTROL フィルターを表示]**」アイコン（![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックし、適用するフィルターを選択します。 使用可能なフィルターは、**[!UICONTROL 環境]**、**[!UICONTROL コレクション]**、**[!UICONTROL カテゴリー]**、**[!UICONTROL ブランド]**、**[!UICONTROL 在庫]**&#x200B;および&#x200B;**[!UICONTROL 値]**&#x200B;です。
+1. （オプション）結果をフィルタリングするには、「**[!UICONTROL フィルターを表示]**」アイコン（![&#x200B; フィルターを表示アイコン &#x200B;](/help/main/assets/icons/Filter.svg)）をクリックし、適用するフィルターを選択します。 使用可能なフィルターは、**[!UICONTROL 環境]**、**[!UICONTROL コレクション]**、**[!UICONTROL カテゴリー]**、**[!UICONTROL ブランド]**、**[!UICONTROL 在庫]**&#x200B;および&#x200B;**[!UICONTROL 値]**&#x200B;です。
 
    [環境](/help/main/administrating-target/environments.md)は、管理と分離されたレポート用にサイトと実稼動前の環境を整理します。 環境を変更するには、**[!UICONTROL 環境]** ドロップダウンリストから目的の環境を選択します。
 
-   フィルターパネルが強調表示された![ カタログ検索ページ：コレクション、カテゴリ、ブランド、在庫、値、および高度な検索](../assets/catalog_search.png)
+   フィルターパネルが強調表示された![&#x200B; カタログ検索ページ：コレクション、カテゴリ、ブランド、在庫、値、および高度な検索](../assets/catalog_search.png)
 
 1. 「**[!UICONTROL 検索先]**」フィールドに検索語を入力します。
 
@@ -63,9 +63,9 @@ ht-degree: 10%
    * 名前
    * メッセージ
 
-1. **[!UICONTROL テーブルをカスタマイズ]** アイコン （![ テーブルをカスタマイズ アイコン ](/help/main/assets/icons/ColumnSetting.svg)）をクリックして、**[!UICONTROL カタログ検索]** ページのアクティブな列を変更します。
+1. **[!UICONTROL テーブルをカスタマイズ]** アイコン （![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](/help/main/assets/icons/ColumnSetting.svg)）をクリックして、**[!UICONTROL カタログ検索]** ページのアクティブな列を変更します。
 
-   ![ テーブルをカスタマイズ アイコンがハイライト表示されたカタログ検索ページ ](../assets/catalog_search_4.png)
+   ![&#x200B; テーブルをカスタマイズ アイコンがハイライト表示されたカタログ検索ページ &#x200B;](../assets/catalog_search_4.png)
 
 1. 検索結果の項目をスクロールして、サムネールやその他の商品情報を表示します。
 
@@ -73,7 +73,7 @@ ht-degree: 10%
    >
    >数値を持つカスタム属性のカタログ検索では、結果はカスタム属性を数値ではなく文字列型として扱います。
    >
-   >属性のタイプは現在変更できません。 変更を要求するには、[ タイプが文字列から数値に変更する必要がある属性を参照して、顧客イシュー](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)を開きます。
+   >属性のタイプは現在変更できません。 変更を要求するには、[&#x200B; タイプが文字列から数値に変更する必要がある属性を参照して、顧客イシュー](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)を開きます。
 
 1. 検索結果内の項目をクリックして、ID、名前、メッセージ、カテゴリなどの詳細を表示します。
 
@@ -83,7 +83,7 @@ ht-degree: 10%
 
    その後、その項目に関するすべての情報がカタログインデックスから削除されます。 アイテムがカタログに再度含まれるのは、データフィードでアイテムが再度追加された場合のみです。 削除されたアイテムは、フィードとは別に削除する必要があります。
 
-   ![ カタログから削除ボタンがハイライト表示されたカタログ項目の詳細](../assets/catalog_search_3.png)
+   ![&#x200B; カタログから削除ボタンがハイライト表示されたカタログ項目の詳細](../assets/catalog_search_3.png)
 
 <!--
 ### Perform an advanced search {#advanced-search}

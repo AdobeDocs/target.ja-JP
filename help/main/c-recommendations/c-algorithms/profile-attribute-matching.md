@@ -46,7 +46,7 @@ ht-degree: 9%
 
 **[!UICONTROL プロファイル属性一致]** オプションを使用すると、ブランドが`profile.favoritebrand`に保存されている値またはテキストと等しい場合にのみアイテムを推奨するルールを作成できます。 このようなルールでは、訪問者が特定のブランドのランニングショーツを見ている場合、その訪問者のお気に入りのブランドに一致するレコメンデーション（訪問者のプロファイルに`profile.favoritebrand`に保存されている値）のみが表示されます。
 
-![お気に入りのブランド ](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
+![お気に入りのブランド &#x200B;](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
 ```
 Profile Attribute Matching
@@ -57,7 +57,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 求職者に求人を一致させるには、求職者と同じ都市にある求人のみが推奨されます。 インクルージョンルールは、次の例のように、訪問者のプロファイルからジョブリストへのジョブシーカーの場所を一致させることができます。
 
-![ ユーザーの市区町村](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
+![&#x200B; ユーザーの市区町村](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
 ```
 Profile Attribute Matching
@@ -74,8 +74,8 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 web サイトでより多くの小規模なファンを表示することに基づくレコメンデーション：
 
-![ スモールファンのレコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
+![&#x200B; スモールファンのレコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
 web サイトでより多くのファンを表示することにもとづくレコメンデーション：
 
-![大規模なファンのレコメンデーション ](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)
+![大規模なファンのレコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

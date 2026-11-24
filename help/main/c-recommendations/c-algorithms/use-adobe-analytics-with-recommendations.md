@@ -43,7 +43,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->これらの2つのオプションがアカウントに表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+>これらの2つのオプションがアカウントに表示されない場合は、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 ## [!DNL Target]の[!DNL Analytics] データの使用例 {#use-cases}
 
@@ -87,7 +87,7 @@ product 変数の設定方法について詳しくは、『 [Adobe Analyticsの�
 
 1. 「**[!UICONTROL フィードを作成]**」をクリックします。
 
-   「フィードを作成」ボタンがハイライト表示された![ フィードのページ ](../assets/feeds_1.png)
+   「フィードを作成」ボタンがハイライト表示された![&#x200B; フィードのページ &#x200B;](../assets/feeds_1.png)
 
 1. 「**[!UICONTROL Analytics Classifications]**」を選択し、レポートスイートを指定します。
 
@@ -99,4 +99,4 @@ product 変数の設定方法について詳しくは、『 [Adobe Analyticsの�
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-フィードの作成について詳しくは、[ フィードの作成](/help/main/c-recommendations/c-products/feeds.md#steps)を参照してください。
+フィードの作成について詳しくは、[&#x200B; フィードの作成](/help/main/c-recommendations/c-products/feeds.md#steps)を参照してください。

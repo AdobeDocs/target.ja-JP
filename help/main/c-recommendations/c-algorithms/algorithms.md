@@ -59,13 +59,13 @@ ht-degree: 8%
 
 | アルゴリズムタイプ | 使用するタイミング | 使用可能なアルゴリズム |
 | --- | --- | --- |
-| **[!UICONTROL カートベース]** | ユーザーのカートの内容に基づいてレコメンデーションを行います。 | <ul><li>**[!UICONTROL これらを閲覧したユーザーは、]**&#x200B;も閲覧しました</li><li>**[!UICONTROL これらを閲覧したユーザーも購入しました]**</li><li>**[!UICONTROL これらを購入した人、また購入した人]**</li></ul>詳しくは、*の「[ カートベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)」を参照してください。レコメンデーションキー*&#x200B;に基づいてレコメンデーションを行います。 |
-| **[!UICONTROL 人気度ベース]** | サイト全体でのアイテムの全体的な人気度、またはユーザーのお気に入りまたは最も閲覧されたカテゴリ、ブランド、ジャンルなどの中のアイテムの人気度に基づいてレコメンデーションを行います。 | <ul><li>**[!UICONTROL サイト全体で最も閲覧された]**</li><li>**[!UICONTROL カテゴリー別に最も閲覧された]**</li><li>**[!UICONTROL 項目属性]**&#x200B;で最も閲覧された項目</li><li>**[!UICONTROL プロファイル属性別で最も多く閲覧された]**</li><li>サイト全体で&#x200B;**[!UICONTROL トップ セラー]**</li><li>**[!UICONTROL カテゴリー別のトップセラー]**</li><li>**[!UICONTROL 項目属性]**&#x200B;別の上位セラー</li><li>プロファイル属性&#x200B;]**による**[!UICONTROL  トップセラー</li><li>分析指標&#x200B;**[!UICONTROL 上位]**</li></ul> |
+| **[!UICONTROL カートベース]** | ユーザーのカートの内容に基づいてレコメンデーションを行います。 | <ul><li>**[!UICONTROL これらを閲覧したユーザーは、]**&#x200B;も閲覧しました</li><li>**[!UICONTROL これらを閲覧したユーザーも購入しました]**</li><li>**[!UICONTROL これらを購入した人、また購入した人]**</li></ul>詳しくは、*の「[&#x200B; カートベース &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)」を参照してください。レコメンデーションキー*&#x200B;に基づいてレコメンデーションを行います。 |
+| **[!UICONTROL 人気度ベース]** | サイト全体でのアイテムの全体的な人気度、またはユーザーのお気に入りまたは最も閲覧されたカテゴリ、ブランド、ジャンルなどの中のアイテムの人気度に基づいてレコメンデーションを行います。 | <ul><li>**[!UICONTROL サイト全体で最も閲覧された]**</li><li>**[!UICONTROL カテゴリー別に最も閲覧された]**</li><li>**[!UICONTROL 項目属性]**&#x200B;で最も閲覧された項目</li><li>**[!UICONTROL プロファイル属性別で最も多く閲覧された]**</li><li>サイト全体で&#x200B;**[!UICONTROL トップ セラー]**</li><li>**[!UICONTROL カテゴリー別のトップセラー]**</li><li>**[!UICONTROL 項目属性]**&#x200B;別の上位セラー</li><li>プロファイル属性&#x200B;**による** トップセラー</li><li>分析指標&#x200B;**[!UICONTROL 上位]**</li></ul> |
 | **[!UICONTROL アイテムベース]** | 利用者が現在閲覧中または最近閲覧した項目と類似する項目にもとづいて、レコメンデーションを作成できます。 | <ul><li>**[!UICONTROL これを閲覧したユーザー、これを閲覧したユーザー]**</li><li>**[!UICONTROL これを閲覧したユーザーが購入しました]**</li><li>**[!UICONTROL これを購入した人、購入した人]**</li><li>**[!UICONTROL 類似の属性を持つアイテム]**</li></ul> |
 | **[!UICONTROL ユーザーベース]** | 利用者の行動にもとづいてレコメンデーションする： | <ul><li>**[!UICONTROL 最近表示された項目]**</li><li>**[!UICONTROL あなたにおすすめ]**</li></ul> |
 | **[!UICONTROL カスタム条件]** | アップロードされたカスタムファイルにもとづいて、レコメンデーションを作成します。 | <ul><li>カスタムアルゴリズム</li></ul> |
 
-各アルゴリズムについて詳しくは、[ レコメンデーションキーに基づいてレコメンデーションを作成する](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。
+各アルゴリズムについて詳しくは、[&#x200B; レコメンデーションキーに基づいてレコメンデーションを作成する](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。
 
 ## カスタムレコメンデーションキーの使用 {#custom-key}
 
@@ -77,9 +77,9 @@ ht-degree: 8%
 
    ![条件を作成メニューが開いた条件ページ。条件を作成および条件シーケンスを作成](../assets/criteria_1.png)が表示されている
 
-1. [基本情報セクション ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)に情報を入力します。
+1. [基本情報セクション &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)に情報を入力します。
 
-1. 「[推奨アルゴリズム ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)」セクションで、**[!UICONTROL アルゴリズムタイプ]** リストから「**[!UICONTROL アイテムベース]**」を選択します。
+1. 「[推奨アルゴリズム &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)」セクションで、**[!UICONTROL アルゴリズムタイプ]** リストから「**[!UICONTROL アイテムベース]**」を選択します。
 
 1. 「**[!UICONTROL アルゴリズム]**」リストから「**[!UICONTROL これを表示したユーザー]**」を選択します。
 
@@ -87,7 +87,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >カスタムプロファイルパラメーターは、JavaScript、API、または統合機能を使用して[!DNL Target]に渡すことができます。 カスタムプロファイル属性について詳しくは、[訪問者プロファイル ](/help/main/c-target/c-visitor-profile/visitor-profile.md)を参照してください。
+   >カスタムプロファイルパラメーターは、JavaScript、API、または統合機能を使用して[!DNL Target]に渡すことができます。 カスタムプロファイル属性について詳しくは、[訪問者プロファイル &#x200B;](/help/main/c-target/c-visitor-profile/visitor-profile.md)を参照してください。
 
    ![条件を作成ダイアログボックスで、アルゴリズムの種類、アルゴリズム、およびレコメンデーションキーリストを含むレコメンデーションアルゴリズムのセクションが表示されます](../assets/criteria_2.png)
 

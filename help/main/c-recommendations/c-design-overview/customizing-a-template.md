@@ -75,7 +75,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-[!DNL Velocity]個の変数（属性）について詳しくは、[速度ドキュメント ](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)を参照してください。
+[!DNL Velocity]個の変数（属性）について詳しくは、[速度ドキュメント &#x200B;](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)を参照してください。
 
 プロファイルスクリプトをデザインで使用する場合、スクリプト名の前の$は`\` （バックスラッシュ）でエスケープする必要があります。 次に例を示します。
 
