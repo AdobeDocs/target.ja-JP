@@ -1,7 +1,7 @@
 ---
 keywords: レコメンデーションデザイン;デザインの作成;デザインのコピー
-description: デフォルトデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成して、[!DNL Target Recommendations] デザインを作成する方法について説明します。
-title: レコメンデーションでデザインを作成するにはどうすればよいですか？
+description: デフォルトデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成して、[!DNL Target Recommendations] デザインを作成する方法を説明します。
+title: デザインの作成
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
@@ -18,100 +18,73 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d5030abcda38bbc6d33b88ce3bb5d64f69e4e492
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 25%
+source-wordcount: '912'
+ht-degree: 13%
 ---
-# デザインの作成
+# デザインの作成 {#create-design}
 
-デザインによって、レコメンデーションがページに表示される方法が定義されます。
+>[!BEGINSHADEBOX]
 
-[!UICONTROL Recommendations] のデザイン作成には、デフォルトのデザインを使用するか、カスタムデザインを作成することができます。 **[!UICONTROL Recommendations > Designs]**&#x200B;画面には、デフォルトのデザインカードと、アカウントで作成されたデザインの両方が表示されます。
+**このページ：**&#x200B;では、[!DNL Adobe Target Recommendations]でデザインを作成、編集、コピー、削除する方法と、推奨事項をJSONとして返す方法について説明します。
 
-デザインを操作する際は、次の情報を考慮してください。
+>[!ENDSHADEBOX]
 
-* デフォルトデザインを使用してレコメンデーションデザインを作成したり、カスタムデザインを作成したりできます。
-* デフォルトデザインを編集または削除することはできません。
-* カスタムデザインを編集、コピー、または削除できます。
-* デフォルトデザインに基づいてデザインを作成するには、まずデザインをコピーしてから、そのコピーを編集する必要があります。
+デザインによって、レコメンデーションがページに表示される方法が定義されます。 デザインは、デフォルトデザインをベースにすることも、カスタムデザインとして作成することもできます。 **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;の画面には、デフォルトのデザインカードと、アカウントで作成されたデザインの両方が表示されます。
 
-次の図は、デフォルトの1 x 4 デザインを示しています。
+* デフォルトのデザインは編集または削除できません。
+* カスタムデザインは、編集、コピー、または削除できます。
+* デフォルトデザインに基づいてデザインを作成するには、まずデザインをコピーしてからコピーを編集します。
 
-![1 x 4 デフォルトデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+デザインは、**[!UICONTROL Visual Experience Composer]** （VEC）内から、またはアクティビティ作成以外のデザインライブラリから、アクティビティ作成プロセス中に作成できます。 次の手順では、デザインがライブラリから作成されることを前提としていますが、手順は似ています。
 
-次の図は、カスタムデザインを示しています。
+## ライブラリからデザインを作成する {#steps}
 
-![&#x200B; カスタムデザイン &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、**[!UICONTROL Designs]** ライブラリを表示します。
 
-アクティビティ作成プロセス中に、[!UICONTROL Visual Experience Composer] （VEC）内またはアクティビティ作成以外のデザインライブラリからデザインを作成できます。 次のセクションでは、ライブラリからデザインを作成することを前提としていますが、手順は似ています。
+1. 次のいずれかの方法でデザインを開始します。
 
-## デザインを作成
+   * デフォルトデザインまたは既存のデザインに基づいてデザインを作成するには、そのデザインの詳細アクションアイコン（![詳細アクションアイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、**[!UICONTROL コピー]**&#x200B;をクリックします。 「**[!UICONTROL デザインを作成]**」ダイアログボックスが表示されます。 編集したコピーは、新しいカスタムデザインになります。
+   * ゼロからカスタムデザインを作成するには、**[!UICONTROL デザインを作成]**&#x200B;をクリックします。
 
-デフォルトデザインに基づいてデザインを作成することも、カスタムデザインを作成することもできます。
+     ![&#x200B; デザインを作成ボタンがハイライト表示されたデザインライブラリ &#x200B;](../assets/design_1.png)
 
-### デフォルトデザインに基づくデザインの作成
+1. **[!UICONTROL 名前]**&#x200B;を入力し、デザインカードに表示するオプションのプレビュー画像を選択します。
 
-1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、[!UICONTROL Designs] ライブラリを表示します。
-
-
-1. 作成するデザインの「その他のアクション」アイコン（![その他のアクション」アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL コピー]**」をクリックします。
-
-   「[!UICONTROL &#x200B; デザインを作成]」ダイアログボックスが表示されます。
-
-1. デザイン カードに表示する&#x200B;**[!UICONTROL Name]**&#x200B;とオプションのプレビュー画像を入力します。
-
-   デフォルトデザインを使用すると、**[!UICONTROL コンテンツ名]** フィールドにデザイン名と「コピー」が表示されます。 名前は編集できます。 デザインカードに表示する画像を選択することもできます。
+   デフォルトのデザインを使用すると、デザイン名の後に「コピー」が&#x200B;**[!UICONTROL コンテンツ名]** フィールドに表示されます。 名前は編集可能です。
 
 1. （条件付き）必要に応じて、デザイン **[!UICONTROL コード]**&#x200B;を編集します。
 
-   レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。 Velocityに関する情報は、[https://velocity.apache.org](https://velocity.apache.org)および[Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)を使用したデザインのカスタマイズで確認できます。
+   レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。 Velocityについて詳しくは、[https://velocity.apache.org](https://velocity.apache.org)および[Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)を使用したデザインのカスタマイズを参照してください。
 
-   デザインは HTML または HTML 以外にすることができます。 デフォルトでは、HTML デザインは`<div>` タグでラップされ、Web環境でのクリックトラッキングが可能になります。 HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。 HTML以外のコードを使用するには、[!UICONTROL HTML デザイン &#x200B;]のトグルを「オフ」にスライドさせます。
+   デザインは HTML または HTML 以外にすることができます。 デフォルトでは、HTML デザインは`<div>` タグでラップされ、Web環境でのクリックトラッキングが可能になります。 HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。 HTML以外のコードを使用するには、**[!UICONTROL HTML デザイン]**&#x200B;のトグルを「オフ」にスライドさせます。
 
    >[!NOTE]
    >
-   >デザインで参照できるエンティティの最大数は、ハードコーディングの場合もループの場合も 99 です。
+   >ハードコーディングまたはループを通じて、デザインで参照できるエンティティの最大数は99です。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-### カスタムデザインの作成
+1. 編集、コピー、削除するデザインの「その他のアクション」アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なオプション（**[!UICONTROL 編集]**、**[!UICONTROL コピー]**、または&#x200B;**[!UICONTROL 削除]**）をクリックします。
 
-1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;をクリックして、[!UICONTROL Designs] ライブラリを表示します。
+   ![その他のアクション メニューを開いた状態でライブラリをデザインし、編集、コピー、削除を表示](../assets/design_2.png)
 
-1. 「**[!UICONTROL デザインを作成]**」をクリックします。
+デザインはアカウント全体で利用できます。 デザインを削除する前に、アカウント間の使用状況を考慮する必要があります。 削除されたデザインは復元できません。
 
-   新しいカスタムデザインを既存のデザインに基づいて作成する場合は、作成するデザインの[!UICONTROL 詳細アクション &#x200B;] アイコン（![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、[!UICONTROL &#x200B; コピー]をクリックします。 次に、コピーを編集して、新しいカスタムデザインを作成します。
+## JSONの例 {#json-example}
 
-1. **[!UICONTROL 名前]**&#x200B;とオプションのプレビュー画像を追加します。
+次の例は、[&#x200B; フォームベースのエディター](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを設定した場合に、JSON応答を返す方法を示しています。
 
-1. （条件付き）必要に応じて、デザイン **[!UICONTROL コード]**&#x200B;を編集します。
+1. **[!UICONTROL デザインライブラリ]**&#x200B;内またはフォームベースのワークフロー内からデザインを作成します。 **[!UICONTROL Visual Experience Composer]** （VEC）ワークフロー内で作成されたデザインは、クリックトラッキング用に`<div>`でラップされたHTML デザインのみにできます。
 
-   詳しくは、上記の手順4の情報を参照してください。
+1. 「**[!UICONTROL HTML デザイン]**」オプションがオフになっていることを確認します。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+   ![HTML デザインのオフ位置の切り替え](/help/main/c-recommendations/c-design-overview/assets/html_design_toggle.png)
 
-## デザインの編集、コピー、削除
+1. 次のようなコードをデザインに貼り付けます。
 
-デフォルトデザインは編集またはコピーできません。デフォルトデザインのみコピーできます。
-
-編集または削除するデザインの[!UICONTROL その他のアクション &#x200B;] アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL &#x200B; コピー]、または[!UICONTROL 削除]）をクリックします。
-
-既存のデザインをコピーして複製したデザインを作成し、変更することができます。 このプロセスにより、より少ない労力で同様のデザインを作成できます。
-
-デザインはアカウント全体で利用できます。 デザインを削除する前に、アカウント間の使用状況を考慮してください。 削除されたデザインは復元できません。
-
-## JSON の例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
-
-次の例は、[&#x200B; フォームベースのエディター](/help/main/c-experiences/form-experience-composer.md)を使用してアクティビティを設定する際に、JSON応答を返す方法を示しています。
-
-1. [!UICONTROL &#x200B; デザインライブラリ &#x200B;]内またはフォームベースのワークフロー内からデザインを作成します。 [!UICONTROL Visual Experience Composer] （VEC）ワークフロー内でデザインを作成しようとすると、クリックトラッキング用に`<div>`にラップされたHTML デザイン以外は作成できません。
-
-1. 「HTML デザイン」オプションがオフになっていることを確認します。
-
-   ![html_design_toggle image](assets/html_design_toggle.png)
-
-1. 次のコードは、デザインにペーストできる内容の例です。
+   +++ エンティティ IDのリストを返すサンプルデザインコード
 
    ```javascript
        #* 
@@ -140,12 +113,16 @@ ht-degree: 25%
        }  
    ```
 
+   +++
+
 1. このデザインを使用するフォームベースの[!DNL Recommendations] アクティビティを設定します。
+
+   +++ フォームベースの[!DNL Recommendations] アクティビティを設定する方法を説明します 
 
    1. 「**[!UICONTROL アクティビティ]**」ページに移動します。
    1. 「**[!UICONTROL アクティビティを作成]** > **[!UICONTROL Recommendations]**」をクリックします。
    1. **[!UICONTROL Experience Composer]**&#x200B;で、**[!UICONTROL Form]**&#x200B;を選択し、**[!UICONTROL Next]**&#x200B;をクリックします。
-   1. 「場所」で &quot;Sample_Recs_Response&quot; というテキストを入力します。
+   1. 「場所」に「Sample_Recs_Response」というテキストを入力します。
    1. 「**[!UICONTROL デフォルトコンテンツ]**」で、下矢印、「**[!UICONTROL レコメンデーションの追加]**」の順にクリックします。
    1. 「ページタイプ」を選択します。 これにより、次の画面の最初のフィルタリングが決まります。
    1. 条件カードを選択し、「**[!UICONTROL 次へ]**」をクリックします。
@@ -153,9 +130,11 @@ ht-degree: 25%
    1. 設定プロセスを完了します。
    1. 「**[!UICONTROL 非アクティブ]**」の横にある右矢印をクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
 
-1. アクティビティを設定してアクティブ化したら、クリーンな JSON 応答を返すサンプルのリクエストを設定できます。
+   +++
 
-   アクティビティを保存してから、[!DNL Target]は、選択した条件設定をサポートするモデルを構築する必要があります。 さまざまな要因によっては、このプロセスに時間がかかることもあります。 モデルの構築が完了すると結果が表示されます。
+1. アクティビティを設定してアクティブ化した後、サンプルリクエストを設定して、クリーンなJSON応答を取得できます。
+
+   アクティビティを保存してから、[!DNL Target]は、選択した条件設定をサポートするモデルを構築する必要があります。 さまざまな要因によっては、このプロセスに時間がかかることがあります。 モデルが構築されると、結果が表示されます。
 
    次に例を示します。
 
@@ -167,168 +146,164 @@ ht-degree: 25%
 
    | パラメーター | 値 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target クライアントコード（/help/target/products.html#recsSettings/Recommendations API トークン/クライアントコードで利用可能）。 |
-   | `[YOUR_MBOX_NAME]` | フォームベースのレコメンデーションの「場所」セクション（この場合はSample_Recs_Response）で選択した名前。 |
-   | `[ENTITY_ID` | カタログ内の項目の `entity.id` です。 |
-   | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定中にプロパティ（エンタープライズ権限の一部）を選択した場合に追加します。 |
+   | `[YOUR_CLIENT_CODE]` | [!DNL Target] クライアントコード （/help/target/products.html#recsSettings/Recommendations API トークン/クライアントコードで利用可能）。 |
+   | `[YOUR_MBOX_NAME]` | フォームベースのRecommendations アクティビティの「場所」セクション（この場合はSample_Recs_Response）で選択された名前。 |
+   | `[ENTITY_ID]` | カタログ内のアイテムの`entity.id`。 |
+   | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定中にプロパティ（エンタープライズ権限の一部）が選択されたときに追加されました。 |
 
-アルゴリズムを実行して結果が得られたら、応答は次のようになります。
+アルゴリズムが実行され、結果が使用可能になると、応答は次のようになります。
 
-![json_recommendation image](assets/json_recommendation.png){width="575px"}
+![推奨アイテムを含むJSON応答](/help/main/c-recommendations/c-design-overview/assets/json_recommendation.png){width="575px"}
 
-## 追加のJSON オブジェクトのヒントとテクニック {#section_C305673C68944749969DB239E3221DC2}
+## その他のJSON オブジェクトのヒント {#json-tips}
 
-また、次の構文を使用してデザインを設定することで、単純なコンマ区切りのアイテムのリストを送り返すこともできます。
+アイテムの単純なコンマ区切りリストは、次の構文を使用してデザインを設定することによって返すこともできます。
 
 ```
-entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
+$entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-応答でその他の情報を送信することもできます。 次のコードファイルはより複雑なサンプルで、エンティティ ID と関連するスロット（順序）以外に様々な情報を返します。 このデザインの例では、アクティビティの詳細、[!UICONTROL &#x200B; ターゲットプロファイル &#x200B;]の詳細（該当する場合）、および返された項目に関連するその他`entity.attributes`も返します。
+応答に追加情報を送信することもできます。 次のコードは、関連するスロット（順序）を持つエンティティ IDよりもはるかに多くの値を返す、より複雑な例です。 このデザインの例では、アクティビティの詳細、**[!UICONTROL ターゲットプロファイル]**&#x200B;の詳細（該当する場合）、および返された項目に関連するその他`entity.attributes`も返します。
+
++++ アクティビティ、プロファイル、エンティティの詳細を返すサンプルデザインコード
 
 ```javascript
-    {   
-     "adobeRecommendations": {   
-      "notes": {   
-       "purpose": "Return a list of entity ids with their associated entity.attributes",   
-       "use-case": "Use this approach to avoid looking up attribute details after receiving a response from Target",   
-       "version": "01"   
-      },   
-      "recommendedItems": {   
-       "slot-01": "$entity1.id",   
-       "slot-02": "$entity2.id",   
-       "slot-03": "$entity3.id",   
-       "slot-04": "$entity4.id",   
-       "slot-05": "$entity5.id",   
-       "slot-06": "$entity6.id",   
-       "slot-07": "$entity7.id",   
-       "slot-08": "$entity8.id",   
-       "slot-09": "$entity9.id",   
-       "slot-10": "$entity10.id"   
-      },   
-      "activityDetails": {   
-       "mbox.name": "email-mbox",   
-       "campaign.name": "\${campaign.name}",   
-       "campaign.id": "\${campaign.id}",   
-       "campaign.recipe.name": "\${campaign.recipe.name}",   
-       "campaign.recipe.id": "\${campaign.recipe.id}",   
-       "offer.name": "\${offer.name}",   
-       "offer.id": "\${offer.id}",   
-       "criteria.title": "$criteria.title",   
-       "algorithm.name": "$algorithm.name",   
-       "algorithm.dayCount": "$algorithm.dayCount"   
-      },   
-      "visitorProfile": {   
-       "profile.favorite-category": "\${profile.favorite-category}",   
-       "profile.test": "\${profile.test}",   
-       "user.endpoint.lastPurchasedEntity": "\${user.endpoint.lastPurchasedEntity}",   
-       "user.endpoint.lastViewedEntity": "\${user.endpoint.lastViewedEntity}",   
-       "user.endpoint.mostViewedEntity": "\${user.endpoint.mostViewedEntity}",   
-       "user.endpoint.categoryAffinity": "\${user.endpoint.categoryAffinity}",   
-       "profile.geolocation.city": "\${profile.geolocation.city}",   
-       "profile.geolocation.dma": "\${profile.geolocation.dma}",   
-       "profile.geolocation.state": "\${profile.geolocation.state}",   
-       "profile.geolocation.country": "\${profile.geolocation.country}",   
-       "profile.sessionCount": "\${profile.sessionCount}",   
-       "profile.averageDaysBetweenVisits": "\${profile.averageDaysBetweenVisits}",   
-       "profile.browserTime": "\${profile.browserTime}",   
-       "user.activeActivities": "\${user.activeActivities}",   
-       "user.pcId": "\${user.pcId}",   
-       "user.isFirstSession": "\${user.isFirstSession}",   
-       "user.isNewSession": "\${user.isNewSession}",   
-       "user.header": "\${user.header}",   
-       "user.parameter": "\${user.parameter}"   
-      },   
-      "recKey": {   
-       "recKeyDetails": {   
-        "id": "$key.id",   
-        "name": "$key.name",   
-        "category": "$key.category",   
-        "pageUrl": "$key.pageUrl",   
-        "thumbnailUrl": "$key.thumbnailUrl"   
-       }   
-      },   
-      "recDetailedResults": {   
-       "recEntity1Details": {   
-        "id": "$entity1.id",   
-        "name": "$entity1.name",   
-        "category": "$entity1.category",   
-        "pageUrl": "$entity1.pageUrl",   
-        "thumbnailUrl": "$entity1.thumbnailUrl"   
-       },   
-       "recEntity2Details": {   
-        "id": "$entity2.id",   
-        "name": "$entity2.name",   
-        "category": "$entity2.category",   
-        "pageUrl": "$entity2.pageUrl",   
-        "thumbnailUrl": "$entity2.thumbnailUrl"   
-       },   
-       "recEntity3Details": {   
-        "id": "$entity3.id",   
-        "name": "$entity3.name",   
-        "category": "$entity3.category",   
-        "pageUrl": "$entity3.pageUrl",   
-        "thumbnailUrl": "$entity3.thumbnailUrl"   
-       },   
-       "recEntity4Details": {   
-        "id": "$entity4.id",   
-        "name": "$entity4.name",   
-        "category": "$entity4.category",   
-        "pageUrl": "$entity4.pageUrl",   
-        "thumbnailUrl": "$entity4.thumbnailUrl"   
-       },   
-       "recEntity5Details": {   
-        "id": "$entity5.id",   
-        "name": "$entity5.name",   
-        "category": "$entity5.category",   
-        "pageUrl": "$entity5.pageUrl",   
-        "thumbnailUrl": "$entity5.thumbnailUrl"   
-       },   
-       "recEntity6Details": {   
-        "id": "$entity6.id",   
-        "name": "$entity6.name",   
-        "category": "$entity6.category",   
-        "pageUrl": "$entity6.pageUrl",   
-        "thumbnailUrl": "$entity6.thumbnailUrl"   
-       },   
-       "recEntity7Details": {   
-        "id": "$entity7.id",   
-        "name": "$entity7.name",   
-        "category": "$entity7.category",   
-        "pageUrl": "$entity7.pageUrl",   
-        "thumbnailUrl": "$entity7.thumbnailUrl"   
-       },   
-       "recEntity8Details": {   
-        "id": "$entity8.id",   
-        "name": "$entity8.name",   
-        "category": "$entity8.category",   
-        "pageUrl": "$entity8.pageUrl",   
-        "thumbnailUrl": "$entity8.thumbnailUrl"   
-       },   
-       "recEntity9Details": {   
-        "id": "$entity9.id",   
-        "name": "$entity9.name",   
-        "category": "$entity9.category",   
-        "pageUrl": "$entity9.pageUrl",   
-        "thumbnailUrl": "$entity9.thumbnailUrl"   
-       },   
-       "recEntity10Details": {   
-        "id": "$entity10.id",   
-        "name": "$entity10.name",   
-        "category": "$entity10.category",   
-        "pageUrl": "$entity10.pageUrl",   
-        "thumbnailUrl": "$entity10.thumbnailUrl"   
-       }   
-      }   
+  {   
+   "adobeRecommendations": {   
+    "notes": {   
+     "purpose": "Return a list of entity ids with their associated entity.attributes",   
+     "use-case": "Use this approach to avoid looking up attribute details after receiving a response from Target",   
+     "version": "01"   
+    },   
+    "recommendedItems": {   
+     "slot-01": "$entity1.id",   
+     "slot-02": "$entity2.id",   
+     "slot-03": "$entity3.id",   
+     "slot-04": "$entity4.id",   
+     "slot-05": "$entity5.id",   
+     "slot-06": "$entity6.id",   
+     "slot-07": "$entity7.id",   
+     "slot-08": "$entity8.id",   
+     "slot-09": "$entity9.id",   
+     "slot-10": "$entity10.id"   
+    },   
+    "activityDetails": {   
+     "mbox.name": "email-mbox",   
+     "campaign.name": "\${campaign.name}",   
+     "campaign.id": "\${campaign.id}",   
+     "campaign.recipe.name": "\${campaign.recipe.name}",   
+     "campaign.recipe.id": "\${campaign.recipe.id}",   
+     "offer.name": "\${offer.name}",   
+     "offer.id": "\${offer.id}",   
+     "criteria.title": "$criteria.title",   
+     "algorithm.name": "$algorithm.name",   
+     "algorithm.dayCount": "$algorithm.dayCount"   
+    },   
+    "visitorProfile": {   
+     "profile.favorite-category": "\${profile.favorite-category}",   
+     "profile.test": "\${profile.test}",   
+     "user.endpoint.lastPurchasedEntity": "\${user.endpoint.lastPurchasedEntity}",   
+     "user.endpoint.lastViewedEntity": "\${user.endpoint.lastViewedEntity}",   
+     "user.endpoint.mostViewedEntity": "\${user.endpoint.mostViewedEntity}",   
+     "user.endpoint.categoryAffinity": "\${user.endpoint.categoryAffinity}",   
+     "profile.geolocation.city": "\${profile.geolocation.city}",   
+     "profile.geolocation.dma": "\${profile.geolocation.dma}",   
+     "profile.geolocation.state": "\${profile.geolocation.state}",   
+     "profile.geolocation.country": "\${profile.geolocation.country}",   
+     "profile.sessionCount": "\${profile.sessionCount}",   
+     "profile.averageDaysBetweenVisits": "\${profile.averageDaysBetweenVisits}",   
+     "profile.browserTime": "\${profile.browserTime}",   
+     "user.activeActivities": "\${user.activeActivities}",   
+     "user.pcId": "\${user.pcId}",   
+     "user.isFirstSession": "\${user.isFirstSession}",   
+     "user.isNewSession": "\${user.isNewSession}",   
+     "user.header": "\${user.header}",   
+     "user.parameter": "\${user.parameter}"   
+    },   
+    "recKey": {   
+     "recKeyDetails": {   
+      "id": "$key.id",   
+      "name": "$key.name",   
+      "category": "$key.category",   
+      "pageUrl": "$key.pageUrl",   
+      "thumbnailUrl": "$key.thumbnailUrl"   
      }   
-    }  
+    },   
+    "recDetailedResults": {   
+     "recEntity1Details": {   
+      "id": "$entity1.id",   
+      "name": "$entity1.name",   
+      "category": "$entity1.category",   
+      "pageUrl": "$entity1.pageUrl",   
+      "thumbnailUrl": "$entity1.thumbnailUrl"   
+     },   
+     "recEntity2Details": {   
+      "id": "$entity2.id",   
+      "name": "$entity2.name",   
+      "category": "$entity2.category",   
+      "pageUrl": "$entity2.pageUrl",   
+      "thumbnailUrl": "$entity2.thumbnailUrl"   
+     },   
+     "recEntity3Details": {   
+      "id": "$entity3.id",   
+      "name": "$entity3.name",   
+      "category": "$entity3.category",   
+      "pageUrl": "$entity3.pageUrl",   
+      "thumbnailUrl": "$entity3.thumbnailUrl"   
+     },   
+     "recEntity4Details": {   
+      "id": "$entity4.id",   
+      "name": "$entity4.name",   
+      "category": "$entity4.category",   
+      "pageUrl": "$entity4.pageUrl",   
+      "thumbnailUrl": "$entity4.thumbnailUrl"   
+     },   
+     "recEntity5Details": {   
+      "id": "$entity5.id",   
+      "name": "$entity5.name",   
+      "category": "$entity5.category",   
+      "pageUrl": "$entity5.pageUrl",   
+      "thumbnailUrl": "$entity5.thumbnailUrl"   
+     },   
+     "recEntity6Details": {   
+      "id": "$entity6.id",   
+      "name": "$entity6.name",   
+      "category": "$entity6.category",   
+      "pageUrl": "$entity6.pageUrl",   
+      "thumbnailUrl": "$entity6.thumbnailUrl"   
+     },   
+     "recEntity7Details": {   
+      "id": "$entity7.id",   
+      "name": "$entity7.name",   
+      "category": "$entity7.category",   
+      "pageUrl": "$entity7.pageUrl",   
+      "thumbnailUrl": "$entity7.thumbnailUrl"   
+     },   
+     "recEntity8Details": {   
+      "id": "$entity8.id",   
+      "name": "$entity8.name",   
+      "category": "$entity8.category",   
+      "pageUrl": "$entity8.pageUrl",   
+      "thumbnailUrl": "$entity8.thumbnailUrl"   
+     },   
+     "recEntity9Details": {   
+      "id": "$entity9.id",   
+      "name": "$entity9.name",   
+      "category": "$entity9.category",   
+      "pageUrl": "$entity9.pageUrl",   
+      "thumbnailUrl": "$entity9.thumbnailUrl"   
+     },   
+     "recEntity10Details": {   
+      "id": "$entity10.id",   
+      "name": "$entity10.name",   
+      "category": "$entity10.category",   
+      "pageUrl": "$entity10.pageUrl",   
+      "thumbnailUrl": "$entity10.thumbnailUrl"   
+     }   
+    }   
+   }   
+  }  
 ```
 
-## トレーニングビデオ：レコメンデーションでカスタムデザインを作成（3:20） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
++++
 
-このビデオには、次の情報が含まれています。
-
-* カスタムデザインの作成
-* デザインで表示変数を参照する方法について説明します
-
->[!VIDEO](https://video.tv.adobe.com/v/35340?captions=jpn)

@@ -18,60 +18,61 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 31%
+source-wordcount: '710'
+ht-degree: 11%
 ---
-# コレクション
+# コレクション {#collections}
 
-コレクションは、レコメンデーションに使用できる商品または品目のセットです。 コレクションは、そのコレクションに含まれるアイテムが満たす必要がある条件を指定することによって定義されます。
+>[!BEGINSHADEBOX]
 
-一般的に、コレクションは、単一の製品コレクションなどの同一または関連する品目のセットです。 ただし、特定の価格帯や色の商品、特定の地域で関心を示す可能性の高い商品など、ビジネスにとって意味のあるカテゴリーに分類することは可能です。
+**このページ：**&#x200B;では、[!DNL Adobe Target Recommendations]のアイテムのコレクションを作成、管理、使用する方法について説明します。
 
-コレクションは、製品や論理的な格納場所を整理するために使用できます。 例えば、ある地域で利用可能なアイテムが別の地域では利用できないアイテムがある場合、訪問者の地域で利用できないアイテムを除外するコレクションを作成できます。 また、コレクションを使用すると、季節的な品目やビジネスに適した任意の整理パラメーターによる整理をおこなえます。
+>[!ENDSHADEBOX]
 
-レコメンデーション内の各条件に対して生成された[&#x200B; バックアップ レコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md)もこのコレクションを使用するため、コレクション内のアイテムのみがバックアップ レコメンデーションに含まれます。 コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
+コレクションは、レコメンデーションに使用できる商品または品目のセットです。 コレクションは、アイテムがそのコレクションに含まれるために満たす必要がある条件によって定義されます。 類似商品や関連商品、特定の価格帯や色の商品、特定の地理的地域で関心を示す可能性の高い商品など、ビジネスにとって意味のある方法で分類することができます。
 
-コレクションは、各条件が実行されるたびに、再構築または更新されます。
+コレクションで商品を論理バケットに整理します。 例えば、ある地域で利用可能なアイテムが存在するが、別の地域で利用可能でないアイテムがある場合、コレクションは訪問者の地域で利用できないアイテムを除外できます。 コレクションは、季節商品や、ビジネスに適用されるその他の組織的パラメーターを整理することもできます。 アイテムはカタログに分類し、各コレクションに対して個別のレコメンデーションを作成できます。
 
-品目をコレクションにグループ分けし、各カタログに個別のレコメンデーションを作成できます。
+次の点は、コレクションが[!DNL Recommendations]の残りの部分とどのように相互作用するかを示しています。
 
-包含条件を使用するとコレクションと同様のことができますが、包含条件はアクティビティを作成する都度設定する必要があります。 コレクションを利用すれば、一度に複数のアイテムを作成し、再び設定することなく、適切なときにいつでも使用できます。
-
-[!DNL Recommendations] アクティビティを作成または編集する際に、アクティビティ ダイアグラムの[!UICONTROL 条件] ラベルの横にコレクション名が表示されます。
-
->[!NOTE]
->
->* コレクションのルールは、条件の実行後に生成されたレコメンデーション項目に適用されます。 これらは、キーではなく、出力内のエンティティ推奨（ER）のみに影響します。
->
->* [!UICONTROL 最近閲覧したアイテム &#x200B;]のレコメンデーションキーを使用する場合、コレクションは適用されません。
+* 各条件に対して生成された[&#x200B; バックアップ レコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md)もコレクションを使用するため、コレクション内のアイテムのみがバックアップ レコメンデーションに含まれます。 その結果、場所にとって意味のある製品のみが表示されます。
+* コレクションは、各条件が実行されるたびに、再構築または更新されます。
+* コレクションのルールは、条件の実行後に生成されたレコメンデーション項目に適用されます。 これらは、キーではなく、出力内のエンティティ推奨（ER）のみに影響します。
+* **[!UICONTROL 最近閲覧したアイテム]**&#x200B;のレコメンデーションキーを使用する場合、コレクションは適用されません。
+* 包含基準は、同様の結果を生成できますが、アクティビティが作成されるたびに設定する必要があります。 コレクションは1回作成され、再度設定しなくても再利用できます。
+* [!DNL Recommendations] アクティビティを作成または編集すると、アクティビティ ダイアグラムの&#x200B;**[!UICONTROL 条件]** ラベルの横にコレクション名が表示されます。
 
 ## コレクションの作成 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-レコメンデーションに表示する商品やコンテンツを整理するためのコレクションを作成します。
+コレクションはアカウント全体で利用できるため、一度作成したコレクションは、任意の[!DNL Recommendations] アクティビティで選択できます。 ルールはコレクションで定義されるので、各アクティビティに対して再び設定する必要はありません。
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL コレクション]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
 
-   [!UICONTROL &#x200B; コレクション &#x200B;] ページには、既存のコレクションのリストが表示されます。 「[!UICONTROL &#x200B; コレクションを作成]」ボタンをクリックして、新しいコレクションを作成します。 また、目的のコレクションの横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、目的のオプションをクリックして、既存のコレクションを編集、コピー、削除することもできます。
+   既存のコレクションを編集、コピー、または削除するには、コレクションの横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、目的のオプションをクリックします。
 
-   [!UICONTROL &#x200B; コレクション &#x200B;] リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   >[!NOTE]
+   >
+   >**[!UICONTROL コレクション]** リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 
-1. コレクションの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
+   コレクションを作成ボタンを含む![&#x200B; コレクションページ &#x200B;](../assets/collection_1.png)
 
-   オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を入力することもできます。
+1. コレクションの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。 オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;も入力できます。
 
-1. （条件付き） コレクションを作成（または更新）中に&#x200B;**[!UICONTROL 環境]** フィルターから[環境](/help/main/administrating-target/environments.md)を選択すると、その環境のコレクションの内容がプレビューされます。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き） **[!UICONTROL 環境]** フィルターから[環境](/help/main/administrating-target/environments.md)を選択して、その環境内のコレクションの内容をプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. コレクションの構築に使用するルールを設定します。
 
-   例えば、リスト内の product ID、category、margin などのパラメーターに関するコレクションを作成できます。
-
-   ルールを追加し、複数のパラメーターを使用して、コレクションを定義することができます。 複数のルールをAND演算子で結合します。 コレクションが適用されるには、指定したすべてのルールに合致する必要があります。
+   コレクションは、製品ID、カテゴリ、マージン、またはリスト内の他のパラメーターを中心に構築できます。 複数のパラメーターを使用してコレクションを定義するルールを追加します。 複数のルールはAND演算子で結合されるため、コレクションを適用するには、指定したすべてのルールを一致させる必要があります。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
+
+1. コレクションを作成したら、その他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なオプション（**[!UICONTROL 編集]**、**[!UICONTROL コピー]**、または&#x200B;**[!UICONTROL 削除]**）を選択します。
+
+   ![その他のアクション メニューを開いたコレクション リストで、編集、コピー、削除を表示](../assets/collection_2.png)
 
 <!--
 ## Create a collection using [!UICONTROL Advanced Search]
@@ -87,20 +88,18 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## コレクションの編集、コピー、削除
+## アクティビティでのコレクションの使用
 
-リスト内の目的のコレクションの横にある（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL 編集]、[!UICONTROL &#x200B; コピー]、または[!DNL Delete]）をクリックします。
+コレクションは、[!DNL Recommendations] アクティビティの各エクスペリエンスに対して選択されます。 コレクションは、そのエクスペリエンスのレコメンデーションに表示できるアイテムを決定します。
 
-既存のコレクションをコピーして重複したコレクションを作成し、それを変更できます。 これにより、より少ない労力で同様のコレクションを作成できます。
+1. [&#x200B; コレクションを作成](#task_1256DFF6842141FCAADD9E1428EF7F08)。
 
-コレクションはアカウント全体で利用できます。 コレクションを削除する前に、この点を考慮してください。 削除したコレクションは復元できません。
+   ![&#x200B; コレクションの詳細とルールのセクションを含むコレクション画面を作成](../assets/collection_3.png)
 
-## [!DNL Recommendations] アクティビティでのコレクションの使用
+1. **[!UICONTROL アクティビティ]**&#x200B;と[をクリックして、新しいRecommendations アクティビティ &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)を作成するか、既存のアクティビティを編集します。
 
-1. 上記のいずれかの方法を使用して、コレクションを作成します。
+   ![&#x200B; アクティビティを作成メニューでレコメンデーションを選択した全アクティビティページ &#x200B;](../assets/collection_4.png)
 
-1. **[!UICONTROL アクティビティ]**&#x200B;と[をクリックして、新しいRecommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
+1. 条件とデザインを選択したら、**[!UICONTROL オプション]** ページで目的のコレクションを選択します。
 
-1. 条件とデザインを選択すると、[!UICONTROL &#x200B; オプション &#x200B;] ページが表示され、目的のコレクションを選択できます。
-
-1. （条件付き）既存のコレクション設定を変更するには、**[!UICONTROL エクスペリエンス]** ページ（3つの部分のガイド付きワークフローのステップ 1）で、レコメンデーションを配置した場所をクリックし、**[!UICONTROL コレクションを変更]**&#x200B;をクリックしてから、目的のコレクションを選択します。
+1. （条件付き）既存のアクティビティのコレクションを変更するには、**[!UICONTROL エクスペリエンス]** ページのレコメンデーションの場所をクリックし、**[!UICONTROL コレクションの変更]**&#x200B;をクリックしてから、目的のコレクションを選択します。

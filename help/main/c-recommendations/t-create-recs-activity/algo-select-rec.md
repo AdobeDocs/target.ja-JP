@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 67%
@@ -31,7 +31,7 @@ ht-degree: 67%
 
   [!DNL Recommendations] によって提供される条件もあります。 カスタムの条件を作成することも可能です。
 
-* 新しい条件を作成するには、**[!UICONTROL 条件を作成]** > **[!UICONTROL 条件を作成]**&#x200B;をクリックし、新しい条件の情報を入力します。 新しい条件の作成について詳しくは、[新しい条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
+* 新しい条件を作成するには、**[!UICONTROL 条件を作成]** > **[!UICONTROL 条件を作成]**&#x200B;をクリックし、新しい条件の情報を入力します。 新しい条件の作成について詳しくは、[新しい条件を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria)を参照してください。
 
 **条件を選択するには：**
 
