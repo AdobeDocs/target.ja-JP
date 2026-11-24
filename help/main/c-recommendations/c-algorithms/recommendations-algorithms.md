@@ -116,7 +116,7 @@ ht-degree: 9%
 
 手順は次のとおりです。
 
-* **入力データ**：このアルゴリズムは、カタログデータのみを使用し、[&#x200B; カタログフィード、エンティティ API、またはページ上の更新](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}を通じて[!DNL Target]に取り込みます。
+* **入力データ**：このアルゴリズムは、カタログデータのみを使用し、[&#x200B; カタログフィード、エンティティ API、またはページ上の更新](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を通じて[!DNL Target]に取り込みます。
 
 * **モデルトレーニング**:
 
@@ -154,7 +154,7 @@ ht-degree: 9%
 
 手順は次のとおりです。
 
-* **入力データ**: アイテム項目の協調フィルタリング （CF） メソッドと同じです。 **[!UICONTROL おすすめ]** アルゴリズムとカートベースのアルゴリズムの両方で、ユーザービューと購入履歴の形式で行動データを使用します。この形式は、[Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}または[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}から実装する際に収集されます。
+* **入力データ**: アイテム項目の協調フィルタリング （CF） メソッドと同じです。 **[!UICONTROL おすすめ]** アルゴリズムとカートベースのアルゴリズムの両方で、ユーザービューと購入履歴の形式で行動データを使用します。この形式は、[Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}または[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}から実装する際に収集されます。
 
 * **モデルトレーニング**:
 

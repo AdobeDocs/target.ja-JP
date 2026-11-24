@@ -49,7 +49,7 @@ ht-degree: 54%
 
    >[!NOTE]
    >
-   >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com`]と[!DNL `https://wwww.adobe.com`]は両方とも一致します。
+   >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com/jp`]と[!DNL `https://wwww.adobe.com`]は両方とも一致します。
 
    アクティビティ URLは、レコメンデーションが表示されるページです。
 
