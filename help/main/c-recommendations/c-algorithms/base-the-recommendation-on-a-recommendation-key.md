@@ -121,7 +121,7 @@ ht-degree: 12%
 >title="プロファイル属性"
 >abstract="プロファイルスクリプトを使用してプロファイル属性を作成できます。 プロファイルスクリプトを作成してアクティブ化すると、対応するプロファイル属性をこのアルゴリズムで使用できます。"
 
-プロファイル属性&#x200B;**によって最も閲覧されたユーザー**&#x200B;[!UICONTROL &#x200B;とプロファイル属性&#x200B;]&#x200B;**によって上位の販売者**&#x200B;は、属性を入力するプロファイル スクリプトに依存しています。 スクリプト名は`recsAttribute`接頭辞で始める必要があります。したがって、[!DNL Target]は`user.recsAttribute<Name>`として保存します。 ユースケースに関連する訪問者の特徴に合わせてスクリプトを作成できます。 プロファイルスクリプトを使用したプロファイル属性の設定について詳しくは、[&#x200B; プロファイルパラメーター](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)を参照してください。
+プロファイル属性&#x200B;**によって最も閲覧されたユーザー**&#x200B;[!UICONTROL &#x200B;とプロファイル属性&#x200B;]&#x200B;**によって上位の販売者**&#x200B;は、属性を入力するプロファイル スクリプトに依存しています。 スクリプト名は`recsAttribute`接頭辞で始める必要があります。したがって、[!DNL Target]は`user.recsAttribute<Name>`として保存します。 ユースケースに関連する訪問者の特徴に合わせてスクリプトを作成できます。 プロファイルスクリプトを使用したプロファイル属性の設定について詳しくは、[&#x200B; プロファイルパラメーター](https://experienceleague.adobe.com/ja/docs/target/using/audiences/visitor-profiles/profile-parameters)を参照してください。
 
 例えば、次の`recsAttributeRegion`という名前のスクリプトは、訪問者の地域に関する推奨事項をベースにしています。
 
