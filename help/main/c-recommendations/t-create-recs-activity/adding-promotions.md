@@ -35,7 +35,7 @@ ht-degree: 6%
 
 プロモーションは、アクティビティの基準で推奨されるアイテムに対して重複排除されるので、特定のアイテムが1つのレコメンデーショントレイに2回表示されることはありません。
 
-![ フロントプロモーションとバックプロモーションの切り替えをオフにしたプロモーションダイアログの変更](assets/add_promotion_toggles.png)
+![&#x200B; フロントプロモーションとバックプロモーションの切り替えをオフにしたプロモーションダイアログの変更](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 6%
 
    次の図は、「オン」位置の&#x200B;**[!UICONTROL フロントプロモーション]** トグルを示しています。 プロモーションは、条件の結果の前と後の両方に挿入できます。
 
-   ![ フロントプロモーショントグルをオンにしてプロモーションダイアログを変更し、デザインスロット数、スケジュール数、プロモーションタイプのオプションを表示](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
+   ![&#x200B; フロントプロモーショントグルをオンにしてプロモーションダイアログを変更し、デザインスロット数、スケジュール数、プロモーションタイプのオプションを表示](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
 1. プロモートされたアイテムに使用するデザインスロットの数&#x200B;**[!UICONTROL 個]**&#x200B;を設定します。
 
@@ -63,11 +63,11 @@ ht-degree: 6%
 
    * **[!UICONTROL 項目のリスト]**：昇格する項目の`entity.id`値をコンマで区切って入力します。
    * **[!UICONTROL 属性で昇格]**：昇格する項目の属性を定義するルールを追加します。 このオプションを使用すると、静的ルールと動的ルールを使用して動的に一致させることができます。 詳細、例、ユースケースのシナリオについては、[動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules)を参照してください。
-   * **[!UICONTROL コレクションを昇格]**：昇格するアイテムのコレクションを選択します。 プロモーション用に新しいコレクションを作成できます。 [ コレクションの作成](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
+   * **[!UICONTROL コレクションを昇格]**：昇格するアイテムのコレクションを選択します。 プロモーション用に新しいコレクションを作成できます。 [&#x200B; コレクションの作成](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
 
-   プロモーションタイプは、プロモートされたアイテムの並べ替え順序も決定します。 [ プロモーションタイプと並べ替え順序](#promotion-sort-order)を参照してください。
+   プロモーションタイプは、プロモートされたアイテムの並べ替え順序も決定します。 [&#x200B; プロモーションタイプと並べ替え順序](#promotion-sort-order)を参照してください。
 
-   ![ プロモーションタイプのオプションがハイライト表示されたプロモーションダイアログの変更：項目のリスト、属性によるプロモート、コレクションのプロモート ](/help/main/c-recommendations/t-create-recs-activity/assets/promotion_type.png)
+   ![&#x200B; プロモーションタイプのオプションがハイライト表示されたプロモーションダイアログの変更：項目のリスト、属性によるプロモート、コレクションのプロモート &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/promotion_type.png)
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 

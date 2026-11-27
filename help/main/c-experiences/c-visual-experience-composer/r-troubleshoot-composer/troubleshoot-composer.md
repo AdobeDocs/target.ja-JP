@@ -37,7 +37,7 @@ ht-degree: 3%
 
 VEC は [!DNL Adobe Target] の主要機能の 1 つです。 マーケターやデザイナーがビジュアルインターフェイスでコンテンツを作成および変更できるエディターであり、コードを編集することなく多くのデザインを選択できます。 HTMLとJavaScriptは、コンポーザーで使用できる編集オプションを使用して編集することもできます。
 
-EECは、iframe-busting サイトまたは[!DNL Target]実装がまだ含まれていないページでエクスペリエンスを編集するためのVECの拡張機能です。 VECでページを開くことができない場合は、EECを試してください。 VECとEECについて詳しくは、[ エクスペリエンス ](/help/main/c-experiences/experiences.md#experiences-overview)を参照してください。
+EECは、iframe-busting サイトまたは[!DNL Target]実装がまだ含まれていないページでエクスペリエンスを編集するためのVECの拡張機能です。 VECでページを開くことができない場合は、EECを試してください。 VECとEECについて詳しくは、[&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/experiences.md#experiences-overview)を参照してください。
 
 いくつかの問題は両方のコンポーザーに影響を与え、一部の問題は両方のコンポーザーのみに影響します。 問題に一致するページを確認します。
 

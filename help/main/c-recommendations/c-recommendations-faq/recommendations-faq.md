@@ -59,7 +59,7 @@ ht-degree: 11%
 
 フィード CSV ファイルのアップロードの行数やファイルサイズにハードリミットはありません。 Adobeでは、アップロード時のエラーを回避するために、CSV ファイルを1 GBに制限することをお勧めします。 1 GBを超えるファイルは、複数のフィード ファイルに分割できます。
 
-カスタム属性列の最大数は100で、カスタム属性は4096文字に制限されています。 必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ ](/help/main/r-troubleshooting-target/target-limits.md)で確認できます。
+カスタム属性列の最大数は100で、カスタム属性は4096文字に制限されています。 必要な列の長さに関するその他の制限は、[[!DNL Target]  の制限ページ &#x200B;](/help/main/r-troubleshooting-target/target-limits.md)で確認できます。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 11%
 
 数値を持つカスタム属性に対してカタログ検索を実行した場合、結果は属性を数値ではなく文字列として扱います。
 
-お客様が属性のタイプを変更できる機能は現在使用できません。 変更を行うには、[ タイプが文字列から数値に変更する必要がある属性を参照する顧客イシュー](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)を開きます。
+お客様が属性のタイプを変更できる機能は現在使用できません。 変更を行うには、[&#x200B; タイプが文字列から数値に変更する必要がある属性を参照する顧客イシュー](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)を開きます。
 
 +++
 
@@ -158,7 +158,7 @@ ht-degree: 11%
 
 [!DNL Target]には、アルゴリズム ピッカーのインテリジェント フィルタリングを制御する[Filter Incompatible Criteria](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}設定があります。 **[!UICONTROL 互換性のない条件をフィルター]**&#x200B;設定にアクセスするには、**[!UICONTROL 管理]** > **[!UICONTROL 推奨事項]**&#x200B;をクリックします。
 
-![互換性のない条件を絞り込むオプションがハイライト表示された推奨事項の設定ページ ](assets/recs_settings_filter.png)
+![互換性のない条件を絞り込むオプションがハイライト表示された推奨事項の設定ページ &#x200B;](assets/recs_settings_filter.png)
 
 * **[!UICONTROL 互換性のない条件をフィルター]**&#x200B;設定が有効になっていない場合、[!DNL Target]はアルゴリズム ピッカーのアルゴリズムをフィルタリングせず、すべてのアルゴリズムが表示されます。
 * 設定が有効になっている場合、[!UICONTROL Visual Experience Composer] （VEC） アクティビティで、[!DNL Target]は選択した場所からentityIdとカテゴリ IDを読み取ります。 次に、それぞれの値がその場所に存在する場合、`currentItem|currentCategory`に基づくアルゴリズムが表示されます。 これにより、デフォルトでは、選択した場所と互換性のあるアルゴリズムのみがアルゴリズムピッカーに表示されます。 互換性のないアルゴリズムは、条件を選択する際に「**[!UICONTROL 互換性がある]**」チェックボックスをオフにすることで、引き続き表示できます。
@@ -184,11 +184,11 @@ ht-degree: 11%
 
 * 「標準属性の重み付け」は、**[!UICONTROL コンテンツの類似性]**&#x200B;だけでなく、ほとんどの条件タイプに適用されます。 このタイプの重み付けでは、特定の属性値により多くの重みが付けられます。 次の例では、出力レコメンデーションで、Nike 製品の重みが大きくなります。
 
-  ブランド属性がNikeで始まり、スライダーが25%に設定された![属性の重み付けセクション ](assets/attribute_weighting_example.png)
+  ブランド属性がNikeで始まり、スライダーが25%に設定された![属性の重み付けセクション &#x200B;](assets/attribute_weighting_example.png)
 
 * 「コンテンツの類似性属性の重み付け」は、**[!UICONTROL コンテンツの類似性]**&#x200B;条件にのみ適用されます。 このタイプの重み付けはより動的で、現在の「レコメンデーションキー」（現在表示されている項目）に基づいています。 次の例（ブランド x 16）では、Nikeのスニーカーを閲覧した訪問者は、競合他社のスニーカーよりもNikeの他の商品（必ずしもスニーカーに限らない）を推奨される可能性が高くなります。 Adidasのスニーカーを閲覧した訪問者は、Adidas商品を勧められる可能性が高くなります。
 
-  ブランド属性と重み付けスライダーが16x](assets/content_similarity_example.png)の![ コンテンツの類似性セクション
+  ブランド属性と重み付けスライダーが16x![&#128279;](assets/content_similarity_example.png)の コンテンツの類似性セクション
 
 +++
 
@@ -270,7 +270,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 1. 今日の日付から60日を差し引いた日付をYYYMMDD形式で返すプロファイルスクリプトを作成します。
 
-   ![priorDate60という名前のプロファイルスクリプト。YYYMMDD形式で今日の日付から60日を差し引いた日付を記述し、日付を計算するスクリプト ](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+   ![priorDate60という名前のプロファイルスクリプト。YYYMMDD形式で今日の日付から60日を差し引いた日付を記述し、日付を計算するスクリプト &#x200B;](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
 1. 条件に動的インクルージョンルールを使用して、`publish date > today's date minus 60 days`を指定します。
 
@@ -330,7 +330,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * コレクションを再保存し、番号が更新されるかどうかを確認します。 再保存すると、そのコレクションを使用するすべてのアルゴリズムが再実行されます。
 * 適切な環境が表示されていることを確認します。 **[!UICONTROL 管理]** > **[!UICONTROL 推奨事項]**&#x200B;をクリックし、**[!UICONTROL 製品カタログ]** セクションの&#x200B;**[!UICONTROL 既定のホストグループ]**&#x200B;設定を確認します。
 
-  製品カタログセクションで「デフォルトのホストグループ」ドロップダウンがハイライト表示された管理タブの![推奨事項ページ ](../assets/reco_faq_1.png)
+  製品カタログセクションで「デフォルトのホストグループ」ドロップダウンがハイライト表示された管理タブの![推奨事項ページ &#x200B;](../assets/reco_faq_1.png)
 
 * インデックスが最新であることを確認します。 **[!UICONTROL Recommendations]** > **[!UICONTROL カタログ検索]**&#x200B;をクリックし、インデックスの経過時間を確認します（例：「3時間前にインデックス作成」など）。 インデックスは必要に応じて更新できます。
 * フィードまたはデータレイヤーで何かが変更され、その結果、エンティティがコレクションルールと一致しなくなったかどうかを確認します。 大文字と小文字が一致することを確認します（ルールでは大文字と小文字が区別されます）。

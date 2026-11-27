@@ -80,7 +80,7 @@ Web サイトのCSP ヘッダーが[!DNL Target] ライブラリをブロック�
 >
 >次の情報に加えて、[!DNL Google Chrome]の[Adobe Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用できます。
 
-![ コンテンツセキュリティポリシーディレクティブに違反したというメッセージが表示された、target.jsに対するブロックされたリクエストを示すブラウザーコンソール ](assets/cps_headers.png)
+![&#x200B; コンテンツセキュリティポリシーディレクティブに違反したというメッセージが表示された、target.jsに対するブロックされたリクエストを示すブラウザーコンソール &#x200B;](assets/cps_headers.png)
 
 回避策として、次の図に示すように、[!DNL Requestly] ルールを設定してCSP ヘッダーを削除します。
 
@@ -143,7 +143,7 @@ EECは[!DNL Adobe]管理プロキシを使用して、編集用にページを�
 
 +++ ページ上の1つの要素を変更すると、複数の要素が変更されます
 
-同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 これを防ぐには、各ページでIDを1回だけ使用します。 これは標準の HTML ベストプラクティスです。 詳しくは、[ ページの変更シナリオ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#vec-scenarios)を参照してください。
+同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 これを防ぐには、各ページでIDを1回だけ使用します。 これは標準の HTML ベストプラクティスです。 詳しくは、[&#x200B; ページの変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#vec-scenarios)を参照してください。
 
 +++
 

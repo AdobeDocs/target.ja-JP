@@ -64,7 +64,7 @@ Web サイトが&#x200B;**[!UICONTROL Visual Experience Composer]**&#x200B;で�
 
 ![X-Frame-OptionsがSAMEORIGIN](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)に設定されているため、ページがフレーム内に表示されることを拒否されたというブラウザーコンソールエラーメッセージ
 
-どちらのコンポーザーも機能しない場合、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）や応答ヘッダーの変更（[!DNL Firefox]）など、サイトのX-Frame-Options ヘッダーを上書きするブラウザー拡張機能により、サイトがiFrameに読み込まれるようになり、VECが有効になります。 ブラウザー拡張機能を使用できない場合は、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。 [!DNL Google Chrome]の[[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper ]**拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)も、以下の手順に加えて使用できます。
+どちらのコンポーザーも機能しない場合、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）や応答ヘッダーの変更（[!DNL Firefox]）など、サイトのX-Frame-Options ヘッダーを上書きするブラウザー拡張機能により、サイトがiFrameに読み込まれるようになり、VECが有効になります。 ブラウザー拡張機能を使用できない場合は、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。 [!DNL Google Chrome]の[[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper &#x200B;]**&#x200B;拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)も、以下の手順に加えて使用できます。
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Web サイトが&#x200B;**[!UICONTROL Visual Experience Composer]**&#x200B;で�
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-   ![すべてのURLのX-FRAME-OPTIONSおよびX-frame-options応答ヘッダーを削除するルール ](assets/requestly.png)
+   ![すべてのURLのX-FRAME-OPTIONSおよびX-frame-options応答ヘッダーを削除するルール &#x200B;](assets/requestly.png)
 
 これで、**[!UICONTROL Visual Experience Composer]**&#x200B;でページを素早く読み込めるようになりました。
 
@@ -130,7 +130,7 @@ Web サイトが&#x200B;**[!UICONTROL Visual Experience Composer]**&#x200B;で�
 
 次の原因を確認します。
 
-* **拡張機能バージョン：** [[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper ]**拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)の最新バージョンは、VECとの最適な互換性を提供します。 インストール済みのバージョンを確認するには、**[!UICONTROL &#x200B;拡張機能&#x200B;]**>**[!UICONTROL &#x200B;拡張機能の管理&#x200B;]**に移動し、**[!UICONTROL &#x200B;詳細&#x200B;]**をクリックします。
+* **拡張機能バージョン：** [[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper &#x200B;]**&#x200B;拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)の最新バージョンは、VECとの最適な互換性を提供します。 インストール済みのバージョンを確認するには、**[!UICONTROL &#x200B;拡張機能&#x200B;]**>**[!UICONTROL &#x200B;拡張機能の管理&#x200B;]**&#x200B;に移動し、**[!UICONTROL &#x200B;詳細&#x200B;]**&#x200B;をクリックします。
 * **オーサリングライブラリ：** VECは、web ページを変更するためにオーサリングライブラリを必要としています。 これらはat.js ライブラリに埋め込まれており、at.jsまたは[!DNL Adobe Experience Platform Web SDK]が既にページ上にあるかどうかにかかわらず、VECが使用されるたびに[!DNL Adobe] サーバーから拡張機能がダウンロードされます。 **[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;で設定されたat.js ヘッダーに無効な変更が含まれていないことを確認してください。
 * **ブロックされた要求：** ページは、iFrameに埋め込まれた場合に読み込みに必須の要求をブロックしてはなりません。 ブロックには、`frame-ancestors` CSP ディレクティブ、web サイト内のカスタム JavaScript コード、meta HTML タグ、および`x-frame-options` ヘッダーが含まれます。
 * **予約済みのファイル名：** ページのJavaScriptがオーサリングライブラリに影響を与えることはありません。 次の予約名を持つファイルは使用しないでください。

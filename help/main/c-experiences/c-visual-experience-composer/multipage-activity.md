@@ -45,16 +45,16 @@ ht-degree: 13%
 
 アクティビティに追加されたページごとに、オファーの独自のデザインを設定できます。
 
-1. **[!UICONTROL 設定]** アイコン（![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックします。
+1. **[!UICONTROL 設定]** アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックします。
 
 1. 「**[!UICONTROL 追加ページを追加]**」をクリックします。
 
    画面の左側に&#x200B;**[!UICONTROL ページ]** ペインが表示されます。
 
-   ![ アイコンの設定](assets/vec_edit_4.png)
+   ![&#x200B; アイコンの設定](assets/vec_edit_4.png)
 
 1. ページを指定し、デフォルトページを設定します。
 
-   **[!UICONTROL ページを追加]** （![ アイコンを追加](/help/main/assets/icons/Add.svg)）をクリックして追加ページを追加し、ページ名とURLを指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
+   **[!UICONTROL ページを追加]** （![&#x200B; アイコンを追加](/help/main/assets/icons/Add.svg)）をクリックして追加ページを追加し、ページ名とURLを指定して、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
 1. [!UICONTROL Visual Experience Composer]を使用して、各ページでのオファーの表示方法をデザインします。

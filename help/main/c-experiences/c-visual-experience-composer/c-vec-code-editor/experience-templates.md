@@ -35,46 +35,46 @@ ht-degree: 21%
 
 [サムネール付きバナーカルーセルエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)は、回転式カルーセルで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。 このカルーセルは、画像を通じて自動的に回転しません。 プライマリ画像の下にある小さな画像をクリックすると、直接操作できます。
 
-![ サムネールテンプレートを含むバナーカルーセル：3つの小さな写真とキャプションが下に表示された大きな写真](assets/exp-template-banner-carousel-thumbnails.png)
+![&#x200B; サムネールテンプレートを含むバナーカルーセル：3つの小さな写真とキャプションが下に表示された大きな写真](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## バナーカルーセル {#banner-carousel}
 
 [バナーカルーセルエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)は、回転式カルーセルで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。 このカルーセルは、画像を通じて自動的に回転しません。 左右の矢印をクリックすると、直接操作できます。
 
-![ バナーカルーセルテンプレート：左右の矢印と4つのインジケーターのドットを含む写真](assets/exp-template-banner-carousel.png)
+![&#x200B; バナーカルーセルテンプレート：左右の矢印と4つのインジケーターのドットを含む写真](assets/exp-template-banner-carousel.png)
 
 ## バナーカウントダウン {#banner-countdown}
 
 [バナーカウントダウンエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)は、中央にカウントダウンが配置された大きなバナーで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。
 
-![ バナーカウントダウンテンプレート：数日、時間、分、秒のカウントダウンと「ここに移動」ボタンを含む大きなバナー](assets/exp-template-banner-countdown.png)
+![&#x200B; バナーカウントダウンテンプレート：数日、時間、分、秒のカウントダウンと「ここに移動」ボタンを含む大きなバナー](assets/exp-template-banner-countdown.png)
 
 ## ボタンビルダー {#button-builder}
 
 [ボタンビルダーエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)は、テキストのコールトゥアクションを含む小さなボタンです。 ボタンは設定可能です。 ページ上の任意の場所に配置して、新しいcall to actionを追加したり、既存のボタンをより設定可能な別のボタンに置き換えたりできます。
 
-![ ボタンビルダーテンプレート：2つのボタン、お問い合わせはこちらから、バナーの見出しの下](assets/exp-template-button-builder.png)
+![&#x200B; ボタンビルダーテンプレート：2つのボタン、お問い合わせはこちらから、バナーの見出しの下](assets/exp-template-button-builder.png)
 
 ## カウントダウン付きライトボックス {#lightbox-countdown}
 
 [カウントダウン付きライトボックスエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)は、中央にカウントダウンが配置されたライトボックスオーバーレイポップアップで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。
 
-![ カウントダウンテンプレートを含むライトボックス：カウントダウン、ここに移動ボタン、感謝なしリンクを含むポップアップ ](assets/exp-template-lightbox-countdown.png)
+![&#x200B; カウントダウンテンプレートを含むライトボックス：カウントダウン、ここに移動ボタン、感謝なしリンクを含むポップアップ &#x200B;](assets/exp-template-lightbox-countdown.png)
 
 ## ページを離れようとしているユーザー向けのポップアップ付きライトボックス {#lightbox-exit-intent}
 
-「[出口意図エクスペリエンステンプレート付きライトボックス ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)」は、出口意図でトリガーされるライトボックスオーバーレイポップアップです（マウスを画面の右上に移動します）。 注意を引く最後のチャンスが必要なweb プロパティにデプロイできます。
+「[出口意図エクスペリエンステンプレート付きライトボックス &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)」は、出口意図でトリガーされるライトボックスオーバーレイポップアップです（マウスを画面の右上に移動します）。 注意を引く最後のチャンスが必要なweb プロパティにデプロイできます。
 
-![終了インテント テンプレートを含むライトボックス：割引を提供するポップアップ。ここに移動ボタンと「感謝なし」リンク ](assets/exp-template-lightbox-exit.png)
+![終了インテント テンプレートを含むライトボックス：割引を提供するポップアップ。ここに移動ボタンと「感謝なし」リンク &#x200B;](assets/exp-template-lightbox-exit.png)
 
 ## ライトボックス {#lightbox}
 
-[ ライトボックス エクスペリエンス テンプレート ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックス オーバーレイ ポップアップで、ホームページやランディングページ、またはその他の大量のエントリ ページで一般的に使用されます。
+[&#x200B; ライトボックス エクスペリエンス テンプレート &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックス オーバーレイ ポップアップで、ホームページやランディングページ、またはその他の大量のエントリ ページで一般的に使用されます。
 
-![ ライトボックステンプレート：左側に写真、右側にメッセージ、ここに移動ボタン、感謝なしリンクが表示されたポップアップ ](assets/exp-template-lightbox.png)
+![&#x200B; ライトボックステンプレート：左側に写真、右側にメッセージ、ここに移動ボタン、感謝なしリンクが表示されたポップアップ &#x200B;](assets/exp-template-lightbox.png)
 
 ## リボン {#ribbon}
 
-[ リボン エクスペリエンス テンプレート ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)は、100%幅のリボンで、web ページの最上部に挿入されます。 通常、フラッシュセール、送料無料、安全または天気のイベント、または別の重要な発表を示すために使用されます。
+[&#x200B; リボン エクスペリエンス テンプレート &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)は、100%幅のリボンで、web ページの最上部に挿入されます。 通常、フラッシュセール、送料無料、安全または天気のイベント、または別の重要な発表を示すために使用されます。
 
-![ リボンテンプレート：ページ上部の全幅リボンとテキスト実行しているプロモーションを表示](assets/exp-template-ribbon.png)
+![&#x200B; リボンテンプレート：ページ上部の全幅リボンとテキスト実行しているプロモーションを表示](assets/exp-template-ribbon.png)

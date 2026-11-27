@@ -41,7 +41,7 @@ ht-degree: 17%
 
 ## 名前
 
-その他のアクション アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 名前変更]**&#x200B;をクリックして、アクティビティにわかりやすい名前を付けます。
+その他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 名前変更]**&#x200B;をクリックして、アクティビティにわかりやすい名前を付けます。
 
 アクティビティ名には、次の文字は使用できません：`/`、`?`、`#`、`:`、`=`、`+`、`-`、および`@`。
 
@@ -71,21 +71,21 @@ ht-degree: 17%
 
 * **[!UICONTROL レポート Source]:** データが収集されるソリューションを指定します：[!DNL Adobe Target]、[!DNL Adobe Analytics]、または[!DNL Adobe Customer Journey Analytics]。
 
-  [ アカウント設定](/help/main/administrating-target/reporting.md)でレポートソリューションが指定されている場合、そのソリューションが使用され、この設定は表示されません。 アクティビティの公開後にレポートソースを変更して、レポートの一貫性を維持することはできません。
+  [&#x200B; アカウント設定](/help/main/administrating-target/reporting.md)でレポートソリューションが指定されている場合、そのソリューションが使用され、この設定は表示されません。 アクティビティの公開後にレポートソースを変更して、レポートの一貫性を維持することはできません。
 
-  **[!DNL Adobe Analytics]**: レポートソリューションと各ソリューションの利点の違いについては、 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)のレポートソースとして[[!DNL Adobe Analytics] を参照してください。 [!DNL Analytics] レポートスイートとトラッキングサーバーの選択については、[ レポートSource](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source)を参照してください。
+  **[!DNL Adobe Analytics]**: レポートソリューションと各ソリューションの利点の違いについては、 [!DNL Target]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)のレポートソースとして[!DNL Adobe Analytics] を参照してください。 [!DNL Analytics] レポートスイートとトラッキングサーバーの選択については、[&#x200B; レポートSource](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source)を参照してください。
 
-  **[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics]と[!DNL Target]の統合について詳しくは、 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[[!DNL Target]  レポートを参照してください。
+  **[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics]と[!DNL Target]の統合について詳しくは、 [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを参照してください。
 
 * **[!UICONTROL 目標指標]:** アクティビティが成功したかどうかを判断する成功指標を選択します。
 * **[!UICONTROL 追加指標]:** レポートの追加成功指標を設定します。
-* **[!UICONTROL レポート用オーディエンス ]:** レポートのフィルタリングに使用できるオーディエンスを定義します。
+* **[!UICONTROL レポート用オーディエンス &#x200B;]:** レポートのフィルタリングに使用できるオーディエンスを定義します。
 
 ## その他のメタデータ
 
 アクティビティに関するメモを入力します。
 
-## トレーニングビデオ：アクティビティ設定（3:02） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ設定（3:02） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
 
 このビデオでは、次のアクティビティ設定について説明します。
 

@@ -33,7 +33,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
-> * サイトがレスポンシブで、モバイルページがデスクトップページの要素を別のレイアウトで再利用する場合は、モバイルビューポートを使用します。 モバイルサイトが分離されていて、`m.mysite.com`などの独自の構造がある場合は、代わりに[ マルチページアクティビティ ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity)を使用します。
+> * サイトがレスポンシブで、モバイルページがデスクトップページの要素を別のレイアウトで再利用する場合は、モバイルビューポートを使用します。 モバイルサイトが分離されていて、`m.mysite.com`などの独自の構造がある場合は、代わりに[&#x200B; マルチページアクティビティ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity)を使用します。
 >
 >* モバイルビューポートは、リダイレクトオファーオーバーレイが重なっている場合は使用できません。
 
@@ -78,7 +78,7 @@ ht-degree: 19%
 
 +++
 
-レスポンシブサイトでは、特定の画面サイズで別のレイアウトに切り替えます。 これらのサイズは、CSS ブレークポイントまたは[ メディアクエリ ](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)と呼ばれます。 サイトのCSS ブレークポイントを[!DNL Target]に保存すると、各ビューをプレビューでき、ディスプレイの上部にあるビューポートをクリックすると、その画面サイズのビューが開きます。
+レスポンシブサイトでは、特定の画面サイズで別のレイアウトに切り替えます。 これらのサイズは、CSS ブレークポイントまたは[&#x200B; メディアクエリ &#x200B;](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)と呼ばれます。 サイトのCSS ブレークポイントを[!DNL Target]に保存すると、各ビューをプレビューでき、ディスプレイの上部にあるビューポートをクリックすると、その画面サイズのビューが開きます。
 
 特定のデバイスにアクティビティを配信するには、アクティビティ図でそのデバイスのオーディエンスを選択し、Mobile Web Composerでそのデバイスのページを編集します。 同じツールを使用して、アクティビティが特定のデバイスをターゲットにした場合に応答しないサイトを表示します。 すべてのデバイスでアクティビティを実行するには、ターゲティングを適用せず、モバイルビューポートを使用して各画面サイズでアクティビティをプレビューします。
 
@@ -146,7 +146,7 @@ ht-degree: 19%
 
 次のビデオには、モバイルビューポートに関する詳細が記載されています。
 
-### Visual Experience Composer （2/2） （7:29） ![概要バッジ ](/help/main/assets/overview.png)
+### Visual Experience Composer （2/2） （7:29） ![概要バッジ &#x200B;](/help/main/assets/overview.png)
 
 次のデモ動画では、Visual Experience Composerを使用してモバイルビューポートを操作する方法について説明します。
 

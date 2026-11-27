@@ -45,7 +45,7 @@ ht-degree: 0%
 
 VECでデフォルトで開くページを設定するには、「[!DNL Target] **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**」タブにデフォルトの[!UICONTROL Visual Experience Composer] URLを入力します。 デフォルトのURLが設定されていない場合、VECは空白のページで開き、URLを指定できます。
 
-「ビジュアルエクスペリエンスコンポーザー」タブが強調表示され、デフォルト URL、拡張エクスペリエンスコンポーザー、混合コンテンツの読み込みの設定が表示された![管理ページ ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
+「ビジュアルエクスペリエンスコンポーザー」タブが強調表示され、デフォルト URL、拡張エクスペリエンスコンポーザー、混合コンテンツの読み込みの設定が表示された![管理ページ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 ## エクスペリエンスを編集 {#edit-experiences}
 
@@ -53,13 +53,13 @@ VECでデフォルトで開くページを設定するには、「[!DNL Target] 
 
 **[!UICONTROL エクスペリエンス]** パネルのタブには、異なるオーディエンスや異なるエクスペリエンスでページがどのように表示されるかが表示されます。 各エクスペリエンスにわかりやすい名前を付けることで、リスト内での識別が容易になります。 例えば、ナビゲーションバーでホームリンクの位置をテストする場合、最初に表示されるエクスペリエンスには「最初にホームリンク」という名前を付けることができます。
 
-![ エクスペリエンス B](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)の名前変更アイコンから開いた、最初にホームリンクという名前のエクスペリエンスダイアログの名前を変更
+![&#x200B; エクスペリエンス B](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)の名前変更アイコンから開いた、最初にホームリンクという名前のエクスペリエンスダイアログの名前を変更
 
 ### 要素の選択と変更 {#select-and-modify-elements}
 
 ページ上にカーソルを移動すると、コンテクストに応じたボックスが表示され、個々の要素がハイライトされます。 ハイライト表示されたエレメントをクリックすると、そのエレメントの種類の編集オプションが表示されます。 例えば、画像を選択し、**[!UICONTROL 画像オファーの変更]**&#x200B;をクリックすると、その画像に置き換わります。ボタンを選択すると、テキストの色を変更できます。
 
-![選択した画像の上に表示される編集オプション ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
+![選択した画像の上に表示される編集オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
 
 ページに埋め込まれたiframe内のコンテンツは編集できません。 そのコンテンツを編集するには、iframe ドキュメントが[!DNL Target]対応であることを確認してから、iframe URLをVECに直接読み込みます。
 
@@ -69,13 +69,13 @@ VEC以外のページ構造の変更は、アクティビティで使用され�
 
 「**[!UICONTROL 参照]**」をクリックして、現在のページからアクセス可能なページ（配送ページやショッピングカートなど）に移動し、そこで変更をテストします。
 
-![URL フィールドと前後の矢印を含むVECの参照モード ](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)
+![URL フィールドと前後の矢印を含むVECの参照モード &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)
 
 参照モードでは、フライアウトメニューやミニカートなど、カーソルを合わせて表示される要素にもアクセスできます。 編集するページまたは要素に到達したら、**[!UICONTROL デザイン]**&#x200B;をクリックしてエクスペリエンスを編集します。
 
 ホバー状態がJavaScriptに依存している場合は、**[!UICONTROL JavaScriptを無効にする]**&#x200B;が選択されていないことを確認してください。 JavaScriptに依存する要素を編集するには、Adobe Targetを有効にする必要があります。
 
-使用可能な編集オプションについて詳しくは、[Visual Experience Composer オプション ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+使用可能な編集オプションについて詳しくは、[Visual Experience Composer オプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
 ## ページ読み込みを管理 {#manage-page-loading}
 

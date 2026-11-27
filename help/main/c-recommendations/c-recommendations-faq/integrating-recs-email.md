@@ -95,7 +95,7 @@ curl -X POST \
 >
 >各電子メール受信者（API呼び出しごとに）に、`sessionId`と`tntId`または`thirdPartyId`の両方に一意の値を指定します。 これらのフィールドに一意の値がないと、1つのプロファイル内で生成される多くのイベントが原因で、API応答が遅くなったり失敗したりする可能性があります。
 
-詳しくは、[配信API ドキュメント ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=ja){target=_blank}を参照してください。
+詳しくは、[配信API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=ja){target=_blank}を参照してください。
 
 ## オプション 2：rawbox メールテンプレートの使用 {#rawbox}
 
@@ -105,9 +105,9 @@ rawboxはmbox リクエストと似ていますが、メールサービスプロ
 
 >[!NOTE]
 >
->rawboxと[!DNL Target]を使用する場合は、[ に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
+>rawboxと[!DNL Target]を使用する場合は、[&#x200B; に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
 
-1. [ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md) オプションを使用して、[!DNL Target]で[!DNL Recommendations] アクティビティを設定します。
+1. [&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md) オプションを使用して、[!DNL Target]で[!DNL Recommendations] アクティビティを設定します。
 
 1. 場所として、ESPからのrawbox リクエストで使用されるmboxの名前を選択します。
 

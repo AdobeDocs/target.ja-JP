@@ -53,9 +53,9 @@ ht-degree: 17%
 
 エクスペリエンスが表示されるページは、ページ配信ルールで指定します。 ルールには、特定のページを含めたり、サイトやドメイン全体に変更を適用したりすることができます。
 
-1. 「[ アクティビティ ](/help/main/c-activities/activities.md)」の説明に従って、アクティビティを作成または編集します。
+1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)」の説明に従って、アクティビティを作成または編集します。
 
-1. [!UICONTROL Visual Experience Composer] （VEC）で、**[!UICONTROL 設定]** アイコン（![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**&#x200B;を選択します。
+1. [!UICONTROL Visual Experience Composer] （VEC）で、**[!UICONTROL 設定]** アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**&#x200B;を選択します。
 
    ![アクティビティ](assets/vec_edit_1.png)
 
@@ -63,7 +63,7 @@ ht-degree: 17%
 
 1. ページ範囲を指定します：**[!UICONTROL URL]**、**[!UICONTROL ドメイン]**、**[!UICONTROL パス]**、**[!UICONTROL ハッシュ （#） フラグメント]** （#記号に続くURLの一部）、**[!UICONTROL クエリ]**、または&#x200B;**[!UICONTROL カスタム]**。
 
-   [!DNL Target]がURLを評価する方法について詳しくは、[ ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください。
+   [!DNL Target]がURLを評価する方法について詳しくは、[&#x200B; ターゲットとオーディエンスに関するFAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください。
 
    ![アクティビティ](assets/vec_edit_2.png)
 
@@ -95,9 +95,9 @@ ht-degree: 17%
 * グローバルバナー（COVID-19の発表など）を含めるには
 * グローバルな送料無料プロモーションを含めるには
 
-1. 「[ アクティビティ ](/help/main/c-activities/activities.md)」の説明に従って、アクティビティを作成または編集します。
+1. 「[&#x200B; アクティビティ &#x200B;](/help/main/c-activities/activities.md)」の説明に従って、アクティビティを作成または編集します。
 
-1. エクスペリエンスが表示されるドメインを指定するには、[!UICONTROL Visual Experience Composer]で「**[!UICONTROL 設定]**」アイコン（![設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**」を選択します。
+1. エクスペリエンスが表示されるドメインを指定するには、[!UICONTROL Visual Experience Composer]で「**[!UICONTROL 設定]**」アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックし、**[!UICONTROL ページ配信]**」を選択します。
 
 1. **[!UICONTROL ルールを追加]** > **[!UICONTROL ドメイン]**&#x200B;をクリックします。
 

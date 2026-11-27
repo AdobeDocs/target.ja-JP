@@ -77,7 +77,7 @@ Web リクエストをインターセプトする[!DNL Chrome]拡張機能APIは
 
 * **Iframe-busting ヘッダーが削除されました：**&#x200B;拡張機能は`X-Frame-Options`や`Content-Security-Policy`などのヘッダーをWeb サイトから暗黙的に削除するため、複雑なRequestly ルールは必要ありません。
 * **at.js インジェクション：** web ページに[!DNL Target] at.js JavaScript ライブラリがまだ含まれていない場合、拡張機能はそれを挿入できます。 web サイト向けにエクスペリエンスを作成し、プレビューリンクを使用してアクティビティを作成および確認できます。 拡張Experience Composer （EEC）では、拡張機能はat.jsを挿入しませんが、SameSite Cookie機能は残ります。 Web ページにat.jsを挿入するには、EECをオフにします。
-* **モバイルビューポート：** [ モバイルビューポート ](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、**[!UICONTROL Enhanced Experience Composer]** （EEC）がなくてもサポートされます。
+* **モバイルビューポート：** [&#x200B; モバイルビューポート &#x200B;](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、**[!UICONTROL Enhanced Experience Composer]** （EEC）がなくてもサポートされます。
 * **新しい[!DNL Target]のお客様：**&#x200B;この拡張機能を使用すると、IT開発者がweb サイトに[!DNL Target]を実装していない場合でも、[!DNL Target]を試すことができます。
 * **パートナー：**&#x200B;複数の顧客のweb サイトと[!DNL Target] アカウントにサービスを提供するパートナーには、サードパーティツールの複数のルールの代わりに、VECの読み込みをサポートする1つのメカニズムが用意されています。
 
@@ -88,7 +88,7 @@ Web リクエストをインターセプトする[!DNL Chrome]拡張機能APIは
 1. Chrome Web ストアの[Adobe Target VEC Helper ブラウザー拡張機能](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)に移動します。
 1. **[!UICONTROL Chromeに追加]** > **[!UICONTROL 拡張機能を追加]**&#x200B;をクリックします。
 1. [!DNL Target] で VEC を開きます。
-1. VECまたは[QA モード ](/help/main/c-activities/c-activity-qa/activity-qa.md)で、[!DNL Chrome]のツールバーにあるVEC ヘルパーブラウザー拡張機能アイコン（![VEC ヘルパーアイコン ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)）をクリックします。
+1. VECまたは[QA モード &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)で、[!DNL Chrome]のツールバーにあるVEC ヘルパーブラウザー拡張機能アイコン（![VEC ヘルパーアイコン &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)）をクリックします。
 1. （条件付き） web ページに[!DNL Target] at.js JavaScript ライブラリがまだ含まれていない場合は、**[!UICONTROL ターゲットライブラリの取り込み]** トグルをオンに切り替えます。
 
    次の図は、**[!UICONTROL ターゲットライブラリの挿入]**&#x200B;設定が有効になっているVEC ヘルパーを示しています。
@@ -101,7 +101,7 @@ Web リクエストをインターセプトする[!DNL Chrome]拡張機能APIは
 
 1. （条件付き） **[!UICONTROL Cookie]** トグルを切り替えて、`SameSite=None`属性ブラウザーの修正を自動的に追加します。
 
-   サンプルページを表示するVisual Experience Composer上で、Cookie切り替えスイッチをオンにしてハイライト表示した![VEC Helper拡張機能パネル ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+   サンプルページを表示するVisual Experience Composer上で、Cookie切り替えスイッチをオンにしてハイライト表示した![VEC Helper拡張機能パネル &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
    `SameSite=None`属性ブラウザーの修正について詳しくは、[Google Chrome SameSite Cookie ポリシー](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)を参照してください。
 

@@ -31,7 +31,7 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-要素セレクターは、1つ以上の要素を識別できるCSS式です。 CSS セレクターに関する基本的な情報は、*[!DNL Mozilla Developer Network]* （MDN）の[ セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) ドキュメントで入手できます。
+要素セレクターは、1つ以上の要素を識別できるCSS式です。 CSS セレクターに関する基本的な情報は、*[!DNL Mozilla Developer Network]* （MDN）の[&#x200B; セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) ドキュメントで入手できます。
 
 エレメントのクラスまたはエレメント IDを使用するかどうかが、アカウントの環境設定で設定されます。 「**[!UICONTROL 管理]**」 > 「**[!UICONTROL Visual Experience Composer]**」をクリックし、次に優先するCSS セレクターを選択します。
 

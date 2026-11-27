@@ -27,11 +27,11 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**このページ：**&#x200B;では、[!UICONTROL A/B テスト ]および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティで、オファーとしてレコメンデーションを追加、編集、削除する方法について説明します。
+**このページ：**&#x200B;では、[!UICONTROL A/B テスト &#x200B;]および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティで、オファーとしてレコメンデーションを追加、編集、削除する方法について説明します。
 
 >[!ENDSHADEBOX]
 
-[!UICONTROL Recommendations] アクティビティに加えて、[!UICONTROL A/B テスト ] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット ]を含む）および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティにレコメンデーションを含めることができます。 これにより、次のことが可能になります。
+[!UICONTROL Recommendations] アクティビティに加えて、[!UICONTROL A/B テスト &#x200B;] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット &#x200B;]を含む）および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティにレコメンデーションを含めることができます。 これにより、次のことが可能になります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
 * 複数のレコメンデーションの順序を含め、ページ上のレコメンデーションの配置を試します。
@@ -40,15 +40,15 @@ ht-degree: 17%
 
 ## レコメンデーションをオファーとして追加 {#add-recs-offer}
 
-[!UICONTROL A/B テスト ]またはXT アクティビティで[!UICONTROL Visual Experience Composer] （VEC）を使用してエクスペリエンスを作成する際に、レコメンデーションがオファーとして追加されます。
+[!UICONTROL A/B テスト &#x200B;]またはXT アクティビティで[!UICONTROL Visual Experience Composer] （VEC）を使用してエクスペリエンスを作成する際に、レコメンデーションがオファーとして追加されます。
 
-1. VECの3段階のガイド付きワークフローを開始して、[A/B テスト ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)または[ エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) （XT） アクティビティを作成します。
+1. VECの3段階のガイド付きワークフローを開始して、[A/B テスト &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)または[&#x200B; エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) （XT） アクティビティを作成します。
 
    >[!NOTE]
    >
-   >A/B テストの場合、[自動割り当て](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) オプションは、トラフィックを最もパフォーマンスの高いレコメンデーションに自動的にプッシュし、[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) オプションは、訪問者のプロファイルに基づいて、カスタマイズされたレコメンデーション エクスペリエンスに訪問者を割り当てます。
+   >A/B テストの場合、[自動割り当て](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) オプションは、トラフィックを最もパフォーマンスの高いレコメンデーションに自動的にプッシュし、[自動ターゲット &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) オプションは、訪問者のプロファイルに基づいて、カスタマイズされたレコメンデーション エクスペリエンスに訪問者を割り当てます。
 
-1. [ エクスペリエンス ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、次のいずれかの方法でレコメンデーションをオファーとして追加します。
+1. [&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、次のいずれかの方法でレコメンデーションをオファーとして追加します。
 
    * レコメンデーションを追加する要素をクリックし、**[!UICONTROL コンテンツを置換]**&#x200B;をクリックしてから、**[!UICONTROL レコメンデーション]**&#x200B;を選択します。
 
@@ -60,16 +60,16 @@ ht-degree: 17%
 
 1. 目的の[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
-1. 目的の[ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
+1. 目的の[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
 1. **[!UICONTROL オプション]** ダイアログボックスで、次の項目を指定します。
 
    * [コレクション](/help/main/c-recommendations/c-products/collections.md)を選択します。
-   * 必要に応じて、[ フロントプロモーションとバックプロモーション ](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)のオプションを設定します。
+   * 必要に応じて、[&#x200B; フロントプロモーションとバックプロモーション &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)のオプションを設定します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-1. 3段階のガイド付きワークフローを使用して、[!UICONTROL A/B テスト ]またはXT アクティビティの設定を完了します。
+1. 3段階のガイド付きワークフローを使用して、[!UICONTROL A/B テスト &#x200B;]またはXT アクティビティの設定を完了します。
 
 ## レコメンデーションオファーの編集 {#edit-recs-offer}
 
@@ -77,7 +77,7 @@ ht-degree: 17%
 
 1. オファーをクリックして編集し、右側のペインメニューのオプションを参照します。
 
-   ![条件、デザイン、コレクション名と、選択したオファーの「プロモーションを追加」ボタンが表示されたレコメンデーションペイン ](assets/create_reco_7.png)
+   ![条件、デザイン、コレクション名と、選択したオファーの「プロモーションを追加」ボタンが表示されたレコメンデーションペイン &#x200B;](assets/create_reco_7.png)
 
 1. 次のいずれかのオプションを選択します。
 
@@ -92,13 +92,13 @@ ht-degree: 17%
 
 不要になったレコメンデーションオファーは、**[!UICONTROL Recommendation]** ペインから削除できます。
 
-削除するオファーをクリックし、**[!UICONTROL Recommendation]** ペインのbin アイコン（![Bin アイコン ](assets/Smock_Delete_18_N.svg)）をクリックします。
+削除するオファーをクリックし、**[!UICONTROL Recommendation]** ペインのbin アイコン（![Bin アイコン &#x200B;](assets/Smock_Delete_18_N.svg)）をクリックします。
 
-![bin アイコンがハイライト表示されたレコメンデーションペイン ](assets/create_reco_8.png)
+![bin アイコンがハイライト表示されたレコメンデーションペイン &#x200B;](assets/create_reco_8.png)
 
 ## レコメンデーションオファーのステータスの表示 {#status}
 
-レコメンデーションオファー（アルゴリズム）のステータスは、[!UICONTROL A/B テスト ]およびレコメンデーションオファーを含むXT アクティビティの&#x200B;**[!UICONTROL 概要]** ページの下部に表示されます。 ステータスは次のいずれかです。
+レコメンデーションオファー（アルゴリズム）のステータスは、[!UICONTROL A/B テスト &#x200B;]およびレコメンデーションオファーを含むXT アクティビティの&#x200B;**[!UICONTROL 概要]** ページの下部に表示されます。 ステータスは次のいずれかです。
 
 * **[!UICONTROL 結果の準備完了]**
 * **[!UICONTROL 結果の準備ができていません]**

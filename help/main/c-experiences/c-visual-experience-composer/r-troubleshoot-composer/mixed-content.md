@@ -35,7 +35,7 @@ ht-degree: 11%
 
 [!DNL Adobe Target]の&#x200B;**[!UICONTROL Visual Experience Composer]** （VEC）が混在コンテンツを含むページを開こうとすると、ブラウザーでブロッキングを無効にする指示を含む警告メッセージが表示されます。 ブロッキングを無効にすると、HTTP サイトまたは混在コンテンツ（HTTPSとHTTP）を持つサイトを開くことができます。
 
-![ ブラウザーの再読み込みプロンプトのイラストの横に、ブラウザースクリプトの読み込みを許可する必要があるというメッセージが表示されたアクティビティ作成ページ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+![&#x200B; ブラウザーの再読み込みプロンプトのイラストの横に、ブラウザースクリプトの読み込みを許可する必要があるというメッセージが表示されたアクティビティ作成ページ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 以前は、3段階のガイド付きワークフローの手順1の一部のアクションは、混在コンテンツが許可されていない場合でも使用できたままでした。 [!DNL Target]は、手順1のすべてのアクションをブロックするようになりました。アクティビティの作成を続行するには、混在コンテンツを有効にする必要があります。
 
@@ -70,17 +70,17 @@ ht-degree: 11%
 1. [!DNL Firefox]に、アドレスバーに`about:config`と入力します。
 1. [!DNL Firefox]が表示する警告メッセージを確認します。
 
-   ![ リスクを受け入れて続行ボタンを使用して、約:configの注意警告ページを読み進める](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
+   ![&#x200B; リスクを受け入れて続行ボタンを使用して、約:configの注意警告ページを読み進める](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
 1. 検索バーに`block_active`と入力します。
 
-   security.mixed_content.block_active_contentがtrue](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)に設定されているblock_activeを![Firefox about:config検索
+   security.mixed_content.block_active_contentがtrue![&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)に設定されているblock_activeをFirefox about:config検索
 
 1. `security.mixed_content.block_active_content`をダブルクリックします。
 
    値が「True」から「False」に変更されます。 値が「False」の場合、変更は完了します。
 
-   security.mixed_content.block_active_contentがfalse](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)に設定されていることを示す![Firefox about:config
+   security.mixed_content.block_active_contentがfalse![&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)に設定されていることを示すFirefox about:config
 
 1. この設定を変更した後、コンピューターを再起動します。
 

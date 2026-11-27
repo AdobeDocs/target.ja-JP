@@ -161,7 +161,7 @@ EECは、パブリック IP アドレスでアクセスできない内部QA URL�
 
 このエラーメッセージには、次の2つの原因があります。
 
-* Web サイトドメイン（ISP）は、EECをブロックします。 この問題を解決するには、[に記載されているIP アドレスを許可リストに加えるします。EEC プロキシ ](#eec-ip-addresses)のIP アドレスを許可リストに加えるします。
+* Web サイトドメイン（ISP）は、EECをブロックします。 この問題を解決するには、[に記載されているIP アドレスを許可リストに加えるします。EEC プロキシ &#x200B;](#eec-ip-addresses)のIP アドレスを許可リストに加えるします。
 * IP アドレスは許可リストに加えるされますが、Web サイトはTLS 1.2をサポートしていません。 この問題を解決するには、次の項目を参照してください。
 
 +++
@@ -175,22 +175,22 @@ FirefoxでウェブサイトのTLS バージョンを確認するには（他の
 1. Firefox で対象の Web サイトを開きます。
 1. ブラウザーのアドレスバーにある「**[!UICONTROL サイト情報を表示]**」アイコンをクリックします。
 
-   ![ サイト情報を表示アイコンがURLの左側に強調表示されたFirefox アドレスバー](assets/firefox_more_info.png)
+   ![&#x200B; サイト情報を表示アイコンがURLの左側に強調表示されたFirefox アドレスバー](assets/firefox_more_info.png)
 
 1. **[!UICONTROL 接続の詳細を表示]**／**[!UICONTROL 詳細を表示]**&#x200B;をクリックします。
 
-   ![ セキュア接続](assets/firefox_more_info_2.png)の横に「接続の詳細を表示」矢印が強調表示されたFirefox サイト情報パネル
+   ![&#x200B; セキュア接続](assets/firefox_more_info_2.png)の横に「接続の詳細を表示」矢印が強調表示されたFirefox サイト情報パネル
 
 1. **[!UICONTROL 技術情報]**&#x200B;の下にあるTLS バージョン情報を確認します。
 
    ![Firefox ページ情報ウィンドウ、「セキュリティ」タブ、技術情報の下にTLS バージョンが強調表示されている](assets/firefox_more_info_3.png)
 
-1. Web サイトにTLS 1.0が表示されている場合は、[!DNL Target]のTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 この問題を解決するには（2018年9月12日まで有効）、TLS バージョンとドメインを使用した設定については、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+1. Web サイトにTLS 1.0が表示されている場合は、[!DNL Target]のTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 この問題を解決するには（2018年9月12日まで有効）、TLS バージョンとドメインを使用した設定については、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 +++
 
 +++ プロキシを有効にしてサイトを読み込むと、タイムアウトまたは「アクセス拒否」エラーが表示される
 
-プロキシ IP アドレスが環境内でブロックされていないことを確認します。 アドレスは、[EEC プロキシ ](#eec-ip-addresses)のIP アドレスを許可リストに加えるするに記載されています。
+プロキシ IP アドレスが環境内でブロックされていないことを確認します。 アドレスは、[EEC プロキシ &#x200B;](#eec-ip-addresses)のIP アドレスを許可リストに加えるするに記載されています。
 
 +++

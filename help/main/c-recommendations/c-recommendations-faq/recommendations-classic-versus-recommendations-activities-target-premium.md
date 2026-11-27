@@ -55,7 +55,7 @@ ht-degree: 22%
 
 ## オファーとしてのレコメンデーション {#recs-as-offer}
 
-推奨事項は、[!UICONTROL A/B テスト ] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット ]を含む）および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティに含めることができます。 これにより、同じアクティビティ内のレコメンデーションや非レコメンデーションのコンテンツなどをテストおよびターゲティングできます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
+推奨事項は、[!UICONTROL A/B テスト &#x200B;] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット &#x200B;]を含む）および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティに含めることができます。 これにより、同じアクティビティ内のレコメンデーションや非レコメンデーションのコンテンツなどをテストおよびターゲティングできます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
 ## 条件 {#criteria-comparison}
 
@@ -72,7 +72,7 @@ ht-degree: 22%
 [!DNL Recommendations] ワークフローが簡略化されています。 視覚的なワークフローでは、複雑なフォームではなく、次の手順に従います。
 
 1. 条件を選択します。
-1. 事前設定済みの[ デザイン ](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)を選択します。
+1. 事前設定済みの[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)を選択します。
 1. レコメンデーションの結果をプレビューします。
 
 ## プレビュー表示 {#visual-preview}

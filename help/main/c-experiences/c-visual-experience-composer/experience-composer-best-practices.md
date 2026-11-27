@@ -206,7 +206,7 @@ iFrameを最小化すると、ページとテストの管理が簡単になり�
 
 同様に、要素にテキストと別のアクションを追加し、その要素を異なるテキストで編集する場合、コードエディターは両方のアクションを別々の要素として表示します。 編集を行うと、元の要素を修正し、編集したテキストを含む新しい要素が作成されます。 元の要素が削除された場合、編集したテキストは変更する要素を見つけることができず、表示されません。 2番目の要素は要素のリストに残りますが、変更された要素が存在しなくなったため、ページには影響しません。
 
-**[!UICONTROL Visual Experience Composer]**](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors)で使用されている[要素セレクターを参照してください。
+**[!UICONTROL Visual Experience Composer]**&#x200B;[&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors)で使用されている要素セレクターを参照してください。
 
 +++
 
@@ -299,7 +299,7 @@ VECを使用する場合は、次の制限が適用されます。
 
 +++ VECの互換性と[!DNL Chrome]拡張機能ポリシーの変更を処理します。
 
-Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}で更新された[V3 マニフェストポリシーでは、ブラウザーが解析する前に拡張機能が元のDOMを変更できなくなります。 その結果、iframe-busting実装などの特定のセキュリティスクリプトによって、VECでのページの読み込みがブロックされる場合があります。
+Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}で更新されたV3 マニフェストポリシーでは、ブラウザーが解析する前に拡張機能が元のDOMを変更できなくなります。 その結果、iframe-busting実装などの特定のセキュリティスクリプトによって、VECでのページの読み込みがブロックされる場合があります。
 
 互換性を確保するために、ページが[!DNL Target] iframe内に読み込まれたときに、これらのスクリプトを条件付きで無効にします。 これは、[!DNL Target]がVECの読み込み中に挿入する`window.adobeVecExtension` オブジェクトの存在を確認することで、安全に実行できます。
 

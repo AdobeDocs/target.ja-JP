@@ -44,15 +44,15 @@ ht-degree: 2%
 
 1. エクスペリエンスを作成します。
 
-1. **[!UICONTROL エクスペリエンス]** フレームから、リダイレクトするエクスペリエンスの&#x200B;**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックします。
+1. **[!UICONTROL エクスペリエンス]** フレームから、リダイレクトするエクスペリエンスの&#x200B;**[!UICONTROL 詳細アクション]** アイコン （![詳細アクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックします。
 
 1. 「**[!UICONTROL URLにリダイレクト]**」をクリックします。
 
-   ![その他のアクション アイコン ](assets/redirect_1.png)
+   ![その他のアクション アイコン &#x200B;](assets/redirect_1.png)
 
 1. 「**[!UICONTROL URLにリダイレクト]**」ダイアログボックスで、ページ BのURLを入力します。
 
-   ![その他のアクション アイコン ](assets/redirect_2.png)
+   ![その他のアクション アイコン &#x200B;](assets/redirect_2.png)
 
 1. （オプション）現在のクエリパラメーターを含めるには、オプションを選択します。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 リダイレクトオファーには、次の制限があります。
 
-* **A4T:** A4Tを使用するアクティビティのリダイレクト オファーには、特定の最小要件を満たす実装が必要であり、その他の重要な情報が適用されます。 [ リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)を参照してください。
+* **A4T:** A4Tを使用するアクティビティのリダイレクト オファーには、特定の最小要件を満たす実装が必要であり、その他の重要な情報が適用されます。 [&#x200B; リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)を参照してください。
 * **フォームベースのExperience Composer:**&#x200B;は、ページの一部であるmboxでリダイレクト オファーを使用しません。 HTML `<head>`の一部であるスクリプトタグからのみリダイレクトオファーを使用し、常に自動作成を使用してグローバル mboxのリダイレクトオファーを設定します。
 
 >[!NOTE]
@@ -71,4 +71,4 @@ ht-degree: 2%
 
 ## 既知の問題
 
-at.js実装のリダイレクトアクティビティでは、プレビューURLがループに入り、オファーが繰り返し配信される場合があります。 代わりに、[QA モード ](/help/main/c-activities/c-activity-qa/activity-qa.md)を使用して、アクティビティをプレビューおよびテストします。 この問題は、オファーの実際の配信には影響しません。 （TGT-23019）
+at.js実装のリダイレクトアクティビティでは、プレビューURLがループに入り、オファーが繰り返し配信される場合があります。 代わりに、[QA モード &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)を使用して、アクティビティをプレビューおよびテストします。 この問題は、オファーの実際の配信には影響しません。 （TGT-23019）
