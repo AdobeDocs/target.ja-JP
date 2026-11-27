@@ -95,4 +95,4 @@ ht-degree: 17%
 * レポート用オーディエンスを追加して、レポートフィルターを作成します。
 * アクティビティのメモを入力します。
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507944?captions=jpn)
