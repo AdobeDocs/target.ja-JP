@@ -14,63 +14,67 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 60%
+source-wordcount: '701'
+ht-degree: 21%
 ---
-# エクスペリエンステンプレート
+# エクスペリエンステンプレート {#experience-templates}
 
-カスタムコードで使用する[!DNL Adobe Target] エクスペリエンステンプレートに関する情報。[!DNL Target] エクスペリエンステンプレートは、マーケターの一般的なユースケースを実行するために使用される、設定可能な入力を含む事前にコード化されたサンプルです。
+>[!BEGINSHADEBOX]
 
-これらのエクスペリエンステンプレートは、VEC またはフォームベースの Experience Composer を通じて一般的な使用例を実行するための出発点として開発者およびマーケティング担当者に無償で提供されます。
+**このページ：** カスタムコードで使用できる[!DNL Adobe Target] エクスペリエンステンプレートと、各テンプレートが一般的に使用されているものを検索します。
 
-現在、次のテンプレートが Adobe Experience Cloud GitHub で提供されています。[Target-Experience-Templates](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) を参照してください。
+>[!ENDSHADEBOX]
 
-## サムネール付きバナーカルーセル {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
+[!DNL Adobe Target]個のエクスペリエンステンプレートは、設定可能な入力を含む事前にコード化されたサンプルで、マーケターの一般的なユースケースを実行するために使用されます。 VECまたはフォームベースのExperience Composerを通じて、一般的なユースケースを実行するための出発点として、開発者やマーケターに無料で提供されます。
 
-[サムネール付きバナーカルーセルエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)は、回転式カルーセルで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。 このカルーセルの画像は自動的には切り替わらず、主画像の下にある小さな画像をクリックすることで直接操作できます。
+次のテンプレートは現在、Adobe Marketing Cloud GitHubで利用できます。[Target-Experience-Templates](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)。
 
-![exp-template-banner-carousel-thumbnails image](assets/exp-template-banner-carousel-thumbnails.png)
+## サムネール付きバナーカルーセル {#banner-carousel-thumbnails}
 
-## バナーカルーセル {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+[サムネール付きバナーカルーセルエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)は、回転式カルーセルで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。 このカルーセルは、画像を通じて自動的に回転しません。 プライマリ画像の下にある小さな画像をクリックすると、直接操作できます。
 
-[バナーカルーセルエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)は、回転式カルーセルで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。 このカルーセルの画像は自動的には切り替わらず、左右の矢印をクリックすることで直接操作できます。
+![ サムネールテンプレートを含むバナーカルーセル：3つの小さな写真とキャプションが下に表示された大きな写真](assets/exp-template-banner-carousel-thumbnails.png)
 
-![exp-template-banner-carousel画像](assets/exp-template-banner-carousel.png)
+## バナーカルーセル {#banner-carousel}
 
-## バナーカウントダウン {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+[バナーカルーセルエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)は、回転式カルーセルで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。 このカルーセルは、画像を通じて自動的に回転しません。 左右の矢印をクリックすると、直接操作できます。
+
+![ バナーカルーセルテンプレート：左右の矢印と4つのインジケーターのドットを含む写真](assets/exp-template-banner-carousel.png)
+
+## バナーカウントダウン {#banner-countdown}
 
 [バナーカウントダウンエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)は、中央にカウントダウンが配置された大きなバナーで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。
 
-![exp-template-banner-countdown image](assets/exp-template-banner-countdown.png)
+![ バナーカウントダウンテンプレート：数日、時間、分、秒のカウントダウンと「ここに移動」ボタンを含む大きなバナー](assets/exp-template-banner-countdown.png)
 
-## ボタンビルダー {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
+## ボタンビルダー {#button-builder}
 
-[ボタンビルダーエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)は、テキストのコールトゥアクションを含む小さなボタンです。 ボタンは設定可能で、ページ上の任意の場所に配置することにより、新しいコールトゥアクションを追加したり、既存のボタンを設定可能な別のボタンに置き換えたりすることができます。
+[ボタンビルダーエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)は、テキストのコールトゥアクションを含む小さなボタンです。 ボタンは設定可能です。 ページ上の任意の場所に配置して、新しいcall to actionを追加したり、既存のボタンをより設定可能な別のボタンに置き換えたりできます。
 
-![exp-template-button-builder image](assets/exp-template-button-builder.png)
+![ ボタンビルダーテンプレート：2つのボタン、お問い合わせはこちらから、バナーの見出しの下](assets/exp-template-button-builder.png)
 
-## カウントダウン付きライトボックス {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## カウントダウン付きライトボックス {#lightbox-countdown}
 
 [カウントダウン付きライトボックスエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)は、中央にカウントダウンが配置されたライトボックスオーバーレイポップアップで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。
 
-![exp-template-lightbox-countdown image](assets/exp-template-lightbox-countdown.png)
+![ カウントダウンテンプレートを含むライトボックス：カウントダウン、ここに移動ボタン、感謝なしリンクを含むポップアップ ](assets/exp-template-lightbox-countdown.png)
 
-## ページを離れようとしているユーザー向けのポップアップ付きライトボックス {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
+## ページを離れようとしているユーザー向けのポップアップ付きライトボックス {#lightbox-exit-intent}
 
-[ページを閉じようとしているユーザー向けのポップアップ付きライトボックスエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)は、訪問者が（画面の右上にマウスを移動して）ページを閉じようとしたときにトリガーされるライトボックスオーバーレイポップアップで、ページが閉じられる前に関心を引きたい Web プロパティにデプロイできます。
+「[出口意図エクスペリエンステンプレート付きライトボックス ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)」は、出口意図でトリガーされるライトボックスオーバーレイポップアップです（マウスを画面の右上に移動します）。 注意を引く最後のチャンスが必要なweb プロパティにデプロイできます。
 
-![exp-template-lightbox-exit画像](assets/exp-template-lightbox-exit.png)
+![終了インテント テンプレートを含むライトボックス：割引を提供するポップアップ。ここに移動ボタンと「感謝なし」リンク ](assets/exp-template-lightbox-exit.png)
 
-## ライトボックス {#section_EF4FBA08CE55407CAFB334340C6C1577}
+## ライトボックス {#lightbox}
 
-[&#x200B; ライトボックスエクスペリエンステンプレート &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックスオーバーレイポップアップで、ホームページやランディングページ、またはその他の大量のエントリーページで一般的に使用されます。
+[ ライトボックス エクスペリエンス テンプレート ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)は、遅延を組み込んだライトボックス オーバーレイ ポップアップで、ホームページやランディングページ、またはその他の大量のエントリ ページで一般的に使用されます。
 
-![exp-template-lightbox image](assets/exp-template-lightbox.png)
+![ ライトボックステンプレート：左側に写真、右側にメッセージ、ここに移動ボタン、感謝なしリンクが表示されたポップアップ ](assets/exp-template-lightbox.png)
 
-## リボン {#section_CCBB656265F140AEA1B200409D719000}
+## リボン {#ribbon}
 
-[リボンエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)は、Web ページの最上部に挿入される 100％幅のリボンで、通常は、期間限定セール、送料無料キャンペーン、安全や天気に関する情報など、重要なお知らせを発表する目的に使用されます。
+[ リボン エクスペリエンス テンプレート ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)は、100%幅のリボンで、web ページの最上部に挿入されます。 通常、フラッシュセール、送料無料、安全または天気のイベント、または別の重要な発表を示すために使用されます。
 
-![exp-template-ribbon画像](assets/exp-template-ribbon.png)
+![ リボンテンプレート：ページ上部の全幅リボンとテキスト実行しているプロモーションを表示](assets/exp-template-ribbon.png)

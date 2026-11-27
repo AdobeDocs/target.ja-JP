@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# Visual Experience Composer 内で動作するカルーセルの作成
+# [!UICONTROL Visual Experience Composer]で動作するカルーセルを作成しています {#vec-carousels}
 
-このトピックでは、[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で編集できるカルーセルを作成する方法について説明します。
+>[!BEGINSHADEBOX]
 
-次の手順を使用すると、Visual Experience Composer 内で数秒後に変更された場合でも、選択スライドが正しいスライドの「セレクター」を持つことを [!DNL Target] が必ず認識するようになります。
+**このページ：**&#x200B;では、**[!UICONTROL Visual Experience Composer]** （VEC）で編集できるカルーセルを作成する方法を説明します。
 
-1. 静的 HTML プレースホルダーを作成します。
+>[!ENDSHADEBOX]
+
+次の構造で作成されたカルーセルは、[!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** （VEC）で編集できます。 構造は各スライドのセレクターを有効に保つため、[!DNL Target]は、ページがVECに読み込まれてから数秒後に表示されるスライドが変更された場合でも、常に正しいスライドを識別します。
+
+1. スライドを静的なHTMLのプレースホルダーとして作成し、1つのスライドを表示し、他のスライドをクラスで非表示にします。
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ ht-degree: 66%
    </ul>
    ```
 
-1. CSS を追加して外観と操作性をデザインします。
-
-   これにはJavaScriptを使用しないでください。
+1. CSSのみでルックアンドフィールをデザインできます。 これにはJavaScriptを使用しないでください。
 
    >[!NOTE]
    >
-   >現在、Visual Experience Composer でカスタムコードとともに使用する場合は、「[!UICONTROL JavaScript を使用してレンダリング]」オプションがサポートされません。
+   >**[!UICONTROL JavaScriptを使用したレンダリング]** オプションは、現在、**[!UICONTROL Visual Experience Composer]**&#x200B;でカスタムコードと一緒に使用する場合はサポートされていません。
 
-1. classNames の更新のみをおこなって、他を非表示にし、タイマーやアニメーションで次を表示するようにします。
-
-   絶対に JavaScript で DOM の構造を更新しないでください。
+1. クラス名のみを更新して、次のスライドを表示します。他のスライドを非表示にし、タイマーまたはアニメーションで次のスライドを表示します。 JavaScriptでDOM構造を更新しないでください。

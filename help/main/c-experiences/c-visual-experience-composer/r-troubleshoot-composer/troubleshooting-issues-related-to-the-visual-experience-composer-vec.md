@@ -27,126 +27,113 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 27%
+source-wordcount: '1150'
+ht-degree: 4%
 ---
-# [!UICONTROL Visual Experience Composer]に関連する問題のトラブルシューティング
+# [!UICONTROL Visual Experience Composer]に関連する問題のトラブルシューティング {#vec-issues}
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で、特定の条件の下で表示の問題が発生することがあります。
+>[!BEGINSHADEBOX]
 
-## [!UICONTROL Visual Experience Composer]でweb サイトを開くと、[!DNL Target] ライブラリが読み込まれません。 （VEC のみ） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+**このページ：** **[!UICONTROL Visual Experience Composer]** （VEC）のみに影響する問題を解決する方法を説明します。
 
-+++詳細
-[!DNL Target]さんが[!UICONTROL Visual Experience Composer]でweb サイトを開く際に、2つのパラメーター（`mboxEdit=1`と`mboxDisable=1`）を追加します。
+>[!ENDSHADEBOX]
 
-Web サイト（特にシングルページアプリ）で、あるページから別のページに移動する際にパラメーターをトリミングしたり、実際にパラメーターを削除したりする場合（ページのリロードを行わない場合）、[!DNL Target]機能が壊れ、[!DNL Target] ライブラリが読み込まれません。
+[!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** （VEC）で、特定の条件の下で表示の問題が発生することがあります。 以下の項目では、VECのみに影響する問題とその解決方法について説明します。
 
-この問題を防ぐには、この 2 つのパラメーターをトリミングまたは削除しないように設定します。
++++ VECでweb サイトを開いたときに[!DNL Target] ライブラリが読み込まれない
+
+Web サイトが&#x200B;**[!UICONTROL Visual Experience Composer]**&#x200B;で開かれると、[!DNL Target]はパラメーター`mboxEdit=1`と`mboxDisable=1`をURLに追加します。
+
+ページをリロードせずにページ間を移動する際に、これらのパラメーターをトリミングまたは削除するweb サイト（特にシングルページアプリケーション）は、[!DNL Target]機能を壊し、[!DNL Target] ライブラリが読み込まれません。 この問題を回避するには、両方のパラメーターをURLに保持します。
 
 +++
 
-## ページがEECで開かない、または読み込みが遅い。 VEC でアクティビティやエクスペリエンスの読み込みに時間がかかります。 （VEC のみ） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
++++ ページがEECで開かない、または読み込みが遅い、またはアクティビティとエクスペリエンスがVECで読み込みが遅い
 
-+++詳細
-[!UICONTROL Target] エクスペリエンスコンポーザーのページのパフォーマンスに影響を与える問題がいくつかあります。 よくある問題として以下のようなものがあります。
+[!DNL Target] エクスペリエンスコンポーザーのページのパフォーマンスに影響する問題がいくつかあります。 最も一般的なものは次のとおりです。
 
-* ページに mbox がない。
-* サイトでプロキシブロックを使用している。これにより、どちらのエクスペリエンスコンポーザーでもページを開くことが許可されません。
-* あなたのサイトではiFrameでサイトを開くことができません。
+* このページにはmboxがありません。
+* このサイトでは、プロキシブロッキングを使用しています。これにより、どのExperience Composerでもページを開くことができなくなります。
+* このサイトでは、iFrameでサイトを開くことはできません。
 
-[!UICONTROL Enhanced Experience Composer]で問題が発生した場合は、[!UICONTROL Enhanced Experience Composer]をオフにして、代わりに[!UICONTROL Visual Experience Composer]を使用してください。
-
-[!UICONTROL 拡張Experience Composer]を無効にするには、**[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**&#x200B;に移動し、**[!UICONTROL 拡張Experience Composerを有効にする]** オプションをオフにします。
+**[!UICONTROL Enhanced Experience Composer]**&#x200B;で問題が発生した場合は、これをオフにして&#x200B;**[!UICONTROL Visual Experience Composer]**&#x200B;を代わりに使用してください。 これを行うには、**[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**&#x200B;に移動し、**[!UICONTROL 拡張Experience Composer]**&#x200B;を有効にするオプションをオフにします。
 
 コンソールに次のエラーメッセージが表示される場合があります。
 
-![コンソールエラーメッセージ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
+![X-Frame-OptionsがSAMEORIGIN](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)に設定されているため、ページがフレーム内に表示されることを拒否されたというブラウザーコンソールエラーメッセージ
 
-[!UICONTROL Visual Experience Composer]も[!UICONTROL Enhanced Experience Composer]も機能しない場合は、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）などのブラウザー拡張機能または応答ヘッダーの変更（Firefox）を使用して、サイトのX-Frames ヘッダーオプションを上書きし、iFramesに読み込めるようにして、VECを有効にします。 ブラウザー拡張機能を使用できない場合は、[&#x200B; フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。
-
->[!NOTE]
->
->次の情報に加えて、[!DNL Google Chrome]には[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)を使用できます。
+どちらのコンポーザーも機能しない場合、[!DNL Requestly] （[!DNL Chrome]または[!DNL Firefox]）や応答ヘッダーの変更（[!DNL Firefox]）など、サイトのX-Frame-Options ヘッダーを上書きするブラウザー拡張機能により、サイトがiFrameに読み込まれるようになり、VECが有効になります。 ブラウザー拡張機能を使用できない場合は、[ フォームベースのExperience Composer](/help/main/c-experiences/form-experience-composer.md)を使用してください。 [!DNL Google Chrome]の[[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper ]**拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)も、以下の手順に加えて使用できます。
 
 >[!NOTE]
 >
->これらのプラグインは、VEC を編集する場合にのみ使用する必要があります。
+>これらの拡張機能は、VEC編集のみを目的としています。
 >
->[!DNL Requestly]拡張機能の場合、ヘッダーを削除する必要がある場合は、次のいずれかの操作を行う必要があります。
+>[!DNL Requestly]では、ヘッダーを削除する必要がある場合は、次のいずれかの操作を行います。
 >
->* VEC で開く URL の URL ルールを追加して、それらの URL についてのみヘッダーが削除されるようにします。
+>* VECで開くURLのURL ルールを追加して、これらのURLに対してのみヘッダーが削除されるようにします。
+>* VECでの編集中にルールを有効にし、VECが使用されていない場合はルールを無効にします。
 >
->* VEC で編集するときにはルールを有効にし、VEC を使用していないときはルールを無効にします。
->
->[!UICONTROL 応答ヘッダー]拡張機能（[!DNL Firefox]）の場合、URL ルールを追加できないため、次の操作を行う必要があります。
->
->* VEC で編集するときにはルールを有効にし、VEC を使用していないときはルールを無効にします。
+>**[!UICONTROL 応答ヘッダーを変更]** （[!DNL Firefox]）では、URL ルールは使用できません。そのため、VECでの編集中はルールを有効にし、VECが使用されていないときはルールを無効にする必要があります。
 
-**[!DNL Chrome]または[!DNL Firefox]で[!DNL Requestly]拡張機能を使用するには：**
-
-1. [!UICONTROL 拡張エクスペリエンス コンポーザー]をオフにします。
-1. [!DNL Requestly] ブラウザー拡張機能を[!DNL Chrome]または[!DNL Firefox]にインストールします。
-1. 拡張機能を開いて、次を使用するように設定します。
-1. 「**[!UICONTROL Modify headers（ヘッダーを変更）]**」を選択します。
-1. 以下を入力します。
-
-   * ルール名
-   * 変更ルール
-
-     * 「**[!UICONTROL Add（追加）]**」を「**[!UICONTROL Remove（削除）]**」に切り替えます。
-     * 「**[!UICONTROL Request（リクエスト）]**」を「**[!UICONTROL Response（応答）]**」に切り替えます。
-     * ヘッダー名として &quot;X-Frame-Options&quot; と入力します。
-     * 前述の手順を繰り返し、ヘッダー名に「x-frame-options」と入力します。
-
-       >[!NOTE]
-       >
-       >[!DNL Requestly]を介して操作されるヘッダーでは、大文字と小文字が区別されます。
-
-     * ソース URL の条件を「**[!UICONTROL Equals（等しい）]**」を「**[!UICONTROL Contains（含む）]**」に変更し、VEC で読み込もうとするアクティビティの URL を入力します。
-
-     ![chrome_extension image](assets/chrome_extension.png)
-
-1. 「**[!UICONTROL Save]**」をクリックします。
-
-   ![要求画像](assets/requestly.png)
-
-   これで、[!UICONTROL Visual Experience Composer]を使用してページをすばやく読み込めるようになります。
-
-**Firefox:**&#x200B;で[!DNL Modify Response Headers]拡張機能を使用するには
-
-1. [!UICONTROL 応答ヘッダーを変更]を[!DNL Firefox]にインストールし、ブラウザーを再起動します。
-1. [!DNL Firefox]拡張機能から、「応答ヘッダーを変更」拡張機能を選択します。
-1. 「**[!UICONTROL 環境設定]**」をクリックします。
-1. 「[!UICONTROL &#x200B; アクション &#x200B;]」ドロップダウンから「**[!UICONTROL フィルター]**」を選択します。
-1. 「[!UICONTROL &#x200B; ヘッダー名]」フィールドに、**[!UICONTROL X-Frame-Options]**&#x200B;と入力します。
-1. 手順 4 と 5 を繰り返して **[!UICONTROL x-frame-options]** によるフィルターを追加します。
-1. 「**[!UICONTROL 追加]**」をクリックします。
-1. 「**[!UICONTROL Start（開始）]**」をクリックします。
-
-![Firefox拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
-
-拡張機能を設定したら、[!DNL Target]を開きます。 [!UICONTROL 拡張Experience Composer]が無効になっている場合でも、ページが[!UICONTROL Visual Experience Composer]に読み込まれるようになりました。
+拡張機能を設定すると、**[!UICONTROL 拡張Experience Composer]**&#x200B;が無効になっている場合でも、**[!UICONTROL Visual Experience Composer]**&#x200B;でページが読み込まれます。
 
 +++
 
-## VEC にページが表示されません。（VEC のみ） {#does-not-load}
++++ RequestlyでX-Frame-Options ヘッダーを削除する（ChromeまたはFirefox）
 
-+++詳細
-* VECとの最適な互換性は、最新バージョンの拡張機能[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper拡張機能]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)によって保証されます。
+1. **[!UICONTROL Enhanced Experience Composer]**&#x200B;をオフにします。
+1. [!DNL Requestly] ブラウザー拡張機能を[!DNL Chrome]または[!DNL Firefox]にインストールします。
+1. 拡張機能を開き、**[!UICONTROL ヘッダーを変更]**&#x200B;を選択します。
+1. ルール名を入力します。
+1. 修正ルールで、ヘッダーを削除するルールを作成します。
 
-  最新バージョンを使用しているかどうかを確認するには、[!UICONTROL 拡張機能] > [!UICONTROL 拡張機能の管理]に移動し、[!UICONTROL 詳細]をクリックします。
+   * 「**[!UICONTROL Add（追加）]**」を「**[!UICONTROL Remove（削除）]**」に切り替えます。
+   * 「**[!UICONTROL Request（リクエスト）]**」を「**[!UICONTROL Response（応答）]**」に切り替えます。
+   * ヘッダー名として &quot;X-Frame-Options&quot; と入力します。
 
-* [!UICONTROL Visual Experience Composer]では、Web ページで変更を実行するためにオーサリングライブラリが必要です。 これらのライブラリはat.js ライブラリに埋め込まれており、VECが使用されるたびに[!DNL Adobe] サーバーから拡張機能によってダウンロードされます。
+1. 前の手順を繰り返し、ヘッダー名として「x-frame-options」と入力します。
 
-  拡張機能は、at.jsまたは[!DNL Adobe Experience Platform Web SDK]が既にページに含まれているかどうかに関係なく、at.js ライブラリをダウンロードします。
+   >[!NOTE]
+   >
+   >[!DNL Requestly]で操作されるヘッダーでは、大文字と小文字が区別されます。
 
-  「[!UICONTROL 管理] > [!UICONTROL 実装]」セクションで設定されたat.js ヘッダーに無効な変更が追加されていないことを確認します。
+1. ソース URLの条件として&#x200B;**[!UICONTROL Equals]**&#x200B;を&#x200B;**[!UICONTROL Contains]**&#x200B;に変更し、VECに読み込むアクティビティのURLを入力します。
 
-* iFrame内に埋め込まれた場合に、web ページが読み込み必須のリクエストをブロックしていないことを確認します。 これには、顧客web サイト、meta HTML タグ、またはx-frame-options ヘッダーに埋め込まれたframe-ancestors CSP ディレクティブまたはカスタム JS コードの使用が含まれます。
+   ![Adobe.com](assets/chrome_extension.png)を含むURLのX-Frame-Options応答ヘッダーを削除するIframe バストリングコードをバイパスという名前のルールをリクエストします
 
-* Web ページのJavascriptがオーサリングライブラリに干渉していないことを確認します。 次の予約名を使用してファイルを使用またはインクルードしないでください。
+1. 「**[!UICONTROL Save]**」をクリックします。
+
+   ![すべてのURLのX-FRAME-OPTIONSおよびX-frame-options応答ヘッダーを削除するルール ](assets/requestly.png)
+
+これで、**[!UICONTROL Visual Experience Composer]**&#x200B;でページを素早く読み込めるようになりました。
+
++++
+
++++ 応答ヘッダーの変更によるX-Frame-Options ヘッダーの削除（Firefox）
+
+1. [!DNL Modify Response Headers]拡張機能を[!DNL Firefox]にインストールし、ブラウザーを再起動します。
+1. [!DNL Firefox]拡張機能から、[!DNL Modify Response Headers]拡張機能を選択します。
+1. 「**[!UICONTROL 環境設定]**」をクリックします。
+1. 「**[!UICONTROL アクション]**」ドロップダウンリストから「**[!UICONTROL フィルター]**」を選択します。
+1. 「**[!UICONTROL ヘッダー名]**」フィールドに、**[!UICONTROL X-Frame-Options]**&#x200B;と入力します。
+1. 前の2つの手順を繰り返して、**[!UICONTROL x-frame-options]**&#x200B;のフィルターを追加します。
+1. 「**[!UICONTROL 追加]**」をクリックします。
+1. 「**[!UICONTROL Start（開始）]**」をクリックします。
+
+![X-Frame-Options ヘッダーにフィルターが有効と表示された状態でFirefoxの応答ヘッダーウィンドウを変更する](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
+
++++
+
++++ VECにページが表示されない
+
+次の原因を確認します。
+
+* **拡張機能バージョン：** [[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper ]**拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)の最新バージョンは、VECとの最適な互換性を提供します。 インストール済みのバージョンを確認するには、**[!UICONTROL &#x200B;拡張機能&#x200B;]**>**[!UICONTROL &#x200B;拡張機能の管理&#x200B;]**に移動し、**[!UICONTROL &#x200B;詳細&#x200B;]**をクリックします。
+* **オーサリングライブラリ：** VECは、web ページを変更するためにオーサリングライブラリを必要としています。 これらはat.js ライブラリに埋め込まれており、at.jsまたは[!DNL Adobe Experience Platform Web SDK]が既にページ上にあるかどうかにかかわらず、VECが使用されるたびに[!DNL Adobe] サーバーから拡張機能がダウンロードされます。 **[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;で設定されたat.js ヘッダーに無効な変更が含まれていないことを確認してください。
+* **ブロックされた要求：** ページは、iFrameに埋め込まれた場合に読み込みに必須の要求をブロックしてはなりません。 ブロックには、`frame-ancestors` CSP ディレクティブ、web サイト内のカスタム JavaScript コード、meta HTML タグ、および`x-frame-options` ヘッダーが含まれます。
+* **予約済みのファイル名：** ページのJavaScriptがオーサリングライブラリに影響を与えることはありません。 次の予約名を持つファイルは使用しないでください。
 
   * `target-vec-helper.js`
   * `target-vec.js`
@@ -155,31 +142,26 @@ Web サイト（特にシングルページアプリ）で、あるページか�
   * `sizzle.js`
   * `mixContentCheck.html`
 
-    さらに、これらのファイル内で定義された変数またはイベントを誤って上書きすると、VECで問題が発生する可能性があります。
+  これらのファイルで定義されている変数またはイベントを誤って上書きすると、VECに問題が発生する可能性もあります。
 
-* ブラウザーが、セキュリティで保護されているサイトのセキュリティで保護されていないページをブロックしています。
-
-  ブラウザーのアドレスバーの URL の左にあるアイコンをクリックして、「**[!UICONTROL このページの保護を無効にする]**」をクリックします。
-
-* 入力した URL が無効です。
-* Web サイトがVECで読み込まれなかった場合、または予期しない動作をした場合は、Web サイトを[!DNL Target]で読み込む前に、ブラウザーでWeb サイトのCookieを受け入れることが修正される可能性があります。
+* **安全なサイト上の安全でないページ：** ブラウザーがページをブロックします。 アドレスバーのURLの左側にあるアイコンをクリックし、**[!UICONTROL このページの保護を無効にする]**&#x200B;をクリックします。
+* **無効なURL:**&#x200B;入力されたURLが無効です。
+* **Cookie:** Web サイトがVECで読み込まれなかったり、予期せず動作した場合は、[!DNL Target]でWeb サイトを読み込む前にブラウザーでCookieを受け入れると、問題を解決できます。
 
 +++
 
-## [!UICONTROL 参照] モードを使用すると、VECが壊れているように見えます。 （VEC のみ） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++ 参照モードでVECが壊れているように見える
 
-+++詳細
-[!UICONTROL 参照] モードを使用している間に、[!DNL Target] ライブラリが実装されていない（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ja){target=_blank}または[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}） URLにアクセスする場合、またはフレームバスターヘッダーが含まれている場合、VECが壊れているように見えます。 ブラウザーのセキュリティ上の懸念により、[!DNL Target]は移動したURLに適切にアクセスできないか、ページが読み込まれた場合、VEC URLが一貫して更新されません。
+**[!UICONTROL 参照]** モードでは、[!DNL Target] ライブラリ （[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ja){target=_blank}または[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}）が含まれていないURL、またはフレームバスターヘッダーが含まれているURLを開くと、VECが壊れて表示されます。 ブラウザーのセキュリティ上の理由から、[!DNL Target]はナビゲーションされたURLに適切にアクセスできないか、ページの読み込み時にVEC URLが一貫して更新されません。
 
-この問題は、VECが`<iframe>`でweb ページを読み込むために発生します。 ブラウザーの現在のセキュリティメカニズムは、同一オリジンのポリシーにより、[!DNL Target] UIが特定のフレームの要素にアクセスすることを禁止しています。 ブラウザーは、`location.href`などの情報を含む、別のオリジンのフレームにアクセスしようとするスクリプトをブロックします。
+VECは`<iframe>`でweb ページを読み込み、ブラウザーの現在のセキュリティ メカニズムにより、[!DNL Target] UIが同一生成元ポリシーの下にあるフレームの要素にアクセスできなくなります。 ブラウザーは、`location.href`などの情報を含む、別のオリジンのフレームにアクセスしようとするスクリプトをブロックします。
 
-新しい[Visual Editing Helper拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)を使用して[!DNL Target] ライブラリをページに注入し、それらを最適に参照する必要があります。
+新しい[Visual Editing Helper拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)を使用して[!DNL Target] ライブラリをページに挿入し、ページを最適に参照できるようにします。
 
 +++
 
-## [!UICONTROL Visual Experience Composer]でのCSSの競合によって発生する問題
++++ 問題は、VECでのCSS競合によって発生します
 
-+++詳細
-エディターでweb ページを読み込む際に、表示に影響を与える可能性のあるCSS ファイルがあるかどうかを確認します。 例えば、ページ本文で`overflow: hidden` プロパティを使用すると、スクロールの問題やトリガークリックイベントが発生し、オーサリングのメニューが妨げられる可能性があります。
+ページの読み込み中にCSS ファイルが表示に影響するかどうかを確認します。 例えば、ページ本文の`overflow: hidden` プロパティは、スクロールの問題や、オーサリングメニューに影響を与えるトリガークリックイベントの原因になる可能性があります。
 
 +++

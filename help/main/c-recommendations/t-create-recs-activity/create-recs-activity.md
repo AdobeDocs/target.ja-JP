@@ -1,7 +1,7 @@
 ---
 keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
 description: '[!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して[!DNL Recommendations] アクティビティを作成する方法を説明します。'
-title: '[!DNL Recommendations] アクティビティを作成するにはどうすればよいですか？'
+title: '[!DNL Recommendations] アクティビティの作成'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
@@ -22,175 +22,158 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 54%
+source-wordcount: '1169'
+ht-degree: 6%
 ---
-# [!DNL Recommendations] アクティビティの作成
+# [!DNL Recommendations] アクティビティの作成 {#create-recs-activity}
 
-[!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target]対応ページで[!DNL Recommendations] アクティビティを直接作成し、[!DNL Target]内のページの一部を変更します。
+>[!BEGINSHADEBOX]
 
-1. **[!UICONTROL アクティビティ]**/**[!UICONTROL アクティビティの作成]**/**[!UICONTROL Recommendations]**&#x200B;をクリックします。
+**このページで：**&#x200B;場所の選択からアクティビティの設定まで、[!DNL Target] **[!UICONTROL Visual Experience Composer]** （VEC）で[!DNL Recommendations] アクティビティを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
+
+[!DNL Recommendations] アクティビティは、ページ上に推奨アイテムを表示します。 [!DNL Target] **[!UICONTROL Visual Experience Composer]** （VEC）でアクティビティを作成すると、レコメンデーションを[!DNL Target]対応ページに直接配置し、訪問者が表示すべき場所に配置できます。
+
+## アクティビティを作成し、場所を選択します {#create-activity}
+
+アクティビティ URLと場所は、レコメンデーションが表示されるページとそのページの領域を定義します。
+
+1. **[!UICONTROL アクティビティ]** メニューから、**[!UICONTROL アクティビティの作成]** > **[!UICONTROL 推奨事項]**&#x200B;をクリックします。
+
+   ![ アクティビティを作成メニューが開き、「推奨事項」オプションがハイライト表示されているすべてのアクティビティ ページ ](../assets/create_reco_1.png)
 
 1. 必要に応じて、**[!UICONTROL Visual]**&#x200B;を選択します。
 
-   [!UICONTROL &#x200B; フォームベースのExperience Composer]を使用する場合は、[!UICONTROL Form]を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   代わりに&#x200B;**[!UICONTROL Form-Based Experience Composer]**&#x200B;を使用するには、**[!UICONTROL Form]**&#x200B;を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。 **[!UICONTROL シングルページアプリケーション]** VECを含むコンポーザーの比較については、[ エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。 VECの問題については、[Visual Experience Composerのトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-   >[!NOTE]
-   >
-   >VECおよび[!UICONTROL &#x200B; フォームベースのExperience Composer]に加えて、[!DNL Target]は[!UICONTROL 単一ページアプリケーション &#x200B;]VECを提供しています。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
-   >
-   >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
-
-1. （条件付き） [&#x200B; ワークスペース &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
+1. （条件付き） [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
 1. アクティビティ URLを指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
-   >[!NOTE]
-   >
-   >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。 結果、[!DNL `http://www.adobe.com/jp`]と[!DNL `https://wwww.adobe.com`]は両方とも一致します。
+   アクティビティ URLは、レコメンデーションが表示されるページです。 [!DNL Target]はURL プロトコル （[!DNL https]と[!DNL http]）を区別しないため、`http://www.adobe.com`と`https://www.adobe.com`は両方とも一致します。
 
-   アクティビティ URLは、レコメンデーションが表示されるページです。
+   VECが開き、ページが表示されます。
 
-   [!UICONTROL 作成]をクリックすると、VECが開き、ページが表示されます。 現在の要素をレコメンデーションで置き換えたり、レコメンデーションを挿入したりすることができます。
+1. レコメンデーションが表示される要素をクリックし、**[!UICONTROL コンテンツを置換]** > **[!UICONTROL レコメンデーション]**&#x200B;を選択します。
 
-1. ページ上の要素をクリックすると、その要素が配置されている場所でレコメンデーションが使用できる場合は、**[!UICONTROL レコメンデーションと置換]**、**[!UICONTROL レコメンデーションの挿入]**、または&#x200B;**[!UICONTROL レコメンデーションの挿入]**&#x200B;をクリックします。
+   <!--
+   * **[!UICONTROL Replace w/ Recommendations]**: Deletes the current content of the element and replaces it with the recommendations.
+   * **[!UICONTROL Insert Recommendations Before]**: Places the recommendations before the element, above or to the left of it, depending on the page construction.
+   * **[!UICONTROL Insert Recommendations After]**: Places the recommendations after the element, below or to the right of it, depending on the page construction.
 
-   >[!NOTE]
-   >
-   >[!UICONTROL Recommendations]のアクティビティでは、一度に1つの変更/レコメンデーションのみがサポートされます。 複数のレコメンデーションの場合は、複数の[!DNL Recommendations] アクティビティを作成するか、A/B テストまたはXT テストを使用できます。
+   ![Visual Experience Composer with a selected container and the menu options Replace w/ Recommendations, Insert Recommendations Before, Insert Recommendations After, and Expand Selection](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   サイトへの訪問者は、レコメンデーションの対象となる場合にのみ、レコメンデーションされたコンテンツを表示します。 レコメンデーションの対象ではない訪問者には、デフォルトコンテンツが表示されます。
+   Use **[!UICONTROL Expand Selection]** to expand the selection to the parent container, so that it includes the desired page elements.
+   -->
 
-   ![レコメンデーションオプション](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
-
-   * **[!UICONTROL 推奨事項を含む置換]**：要素を推奨事項に置き換えると、現在のコンテンツが削除され、推奨事項に置き換えられます。 訪問者がサイトにアクセスし、レコメンデーションの対象となった場合、既存のコンテンツではなく、指定した領域に推奨項目が表示されます。
-   * **[!UICONTROL 推奨事項を挿入]**：選択した要素の前に推奨事項を挿入すると、その要素の前に推奨コンテンツが配置されます。 ページ構成に応じて、レコメンデーションは選択した要素の上または左に表示されます。
-   * **[!UICONTROL 推奨事項の挿入後]**：選択した要素の後に推奨事項を挿入すると、その要素の後に推奨コンテンツが配置されます。 ページ構成に応じて、選択した要素の下または右に推奨事項が表示されます。
-
-   「**[!UICONTROL 選択範囲を拡張]**」オプションを使用すると、選択した場所（親コンテナ）を拡張して、目的のページ要素をより簡単に識別して含めることができます。
-
-1. ページタイプを選択します。
-
-   ページタイプには、以下が含まれます。
-
-   * 買い物かごページ
-   * カテゴリページ
-   * ホームページ
-   * ランディングページ
-   * 製品ページ
-   * 検索結果ページ
-   * 「ありがとうございます」ページ
-   * その他
-
-   ![「ページタイプを選択」オプション](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
-
-1. 1 つ以上の[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を選択します。
-
-   条件が、それぞれの情報を表示するカードとして表示されます。 デフォルトでは、[!UICONTROL 条件を選択]画面には、業界の業種と互換性のある条件と、前の手順で選択したページタイプが表示されます。 これらのオプションを変更すると、他の条件を表示できます。
+   レコメンデーションの対象となる訪問者には、指定した領域の推奨項目が表示されます。 条件を満たさない訪問者には、デフォルトのコンテンツが表示されます。
 
    >[!NOTE]
    >
-   >すべてのページですべての条件が正しく実行されるわけではありません。 現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。 通常は、互換性のある条件のみを表示するようにします。 ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。 Recommendationsの設定（**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL 互換性のない条件をフィルター]**）によっては、[!UICONTROL 互換性] オプションが表示されない場合があります。 詳しくは、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   >**[!UICONTROL Recommendations]**&#x200B;のアクティビティでは、一度に1つの変更またはレコメンデーションのみがサポートされます。 複数のレコメンデーションを表示するには、複数の[!DNL Recommendations] アクティビティを作成するか、A/B テストまたはXT テストを使用します。
 
-   ![条件を選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
+   ![ ページで画像が選択され、メニューに「おすすめ」オプションが表示されたVisual Experience Composer](../assets/create_reco_2.png)
 
-   複数の条件を選択すると、トラフィックは選択した条件間で等しく分割されます。 例えば、2 つの条件が選択されており、アクティビティ参加者の 20％にデフォルトコンテンツを表示するようにアクティビティがデザインされている場合、各条件によって制御されるレコメンデーションがアクティビティ参加者の 40％に表示されます。 各条件の割合を変更するオプションはありません。
+<!--
+1. Select a page type: Cart Page, Category Page, Home Page, Landing Page, Product Page, Search Results Page, Thank You Page, or Other.
 
-   * 既存の条件を検索するには（たとえば、多数の条件カードが表示されている場合など）、目的の条件が表示されるまで検索フィールドに入力し、条件を選択して「**[!UICONTROL 次へ]**」をクリックします。
+   ![Select Page Type dialog box with the list of page types open](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-     [!DNL Recommendations] によって提供される条件もあります。 カスタムの条件を作成することも可能です。
+   The page type determines which criteria are suggested in the next section.
+-->
 
-   * 新しい条件を作成するには、**[!UICONTROL 条件を作成]** > **[!UICONTROL 条件を作成]**&#x200B;をクリックし、新しい条件の情報を入力します。 新しい条件の作成について詳しくは、[条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
-   * また、条件をシーケンスにグループ化することもできます。 新しい条件シーケンスを作成するには、**[!UICONTROL 条件を作成]** > **[!UICONTROL 条件シーケンスを作成]**&#x200B;をクリックします。 詳しくは、[条件シーケンスの作成](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)を参照してください。
+1. **[!UICONTROL プロパティを表示]** メニューにアクセスし、**[!UICONTROL 推奨事項を選択]**&#x200B;をクリックします。
+
+   レコメンデーションを選択ボタンを含むVisual Experience Composerの![ レコメンデーションパネル ](../assets/create_reco_3.png)
+
+## 条件の選択 {#select-criteria}
+
+基準は、推奨される項目と、各訪問者に対してどのように選択されるかを決定します。
+
+1. 1つ以上の[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)のチェックボックスを選択します。
+
+   ![検索フィールド、フィルターアイコン、「条件を作成」ボタン、および1つの条件が選択された条件リストを含む「条件を選択」ダイアログボックス ](../assets/create_reco_4.png)
+
+   複数の条件を選択すると、トラフィックは均等に分割され、各条件の割合を変更することはできません。 例えば、2つの条件が選択されていて、アクティビティが参加者の20%にデフォルトのコンテンツを表示する場合、参加者の40%に各条件の推奨事項が表示されます。
+
+   >[!NOTE]
+   >
+   >すべての基準があらゆるページで正しく実行されるわけではありません。 現在のアイテムまたは現在のカテゴリの推奨事項に互換性を持たせるには、ページまたはmboxが`entity.id`または`entity.categoryId`で渡される必要があります。 互換性のある基準のみを表示することをお勧めします。 アクティビティで互換性のない条件を使用できるようにするには、**[!UICONTROL 互換性]** チェックボックスをオフにします。 このチェックボックスは、**[!UICONTROL 管理]** > **[!UICONTROL 推奨事項]** > **[!UICONTROL 互換性のない条件をフィルター]**&#x200B;の設定によっては表示されない場合があります。 詳しくは、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+
+1. オプションで、条件を検索または作成します。
+
+   * リストが長い場合に既存の条件を検索するには、目的の条件が表示されるまで検索フィールドに入力します。 一部の条件は[!DNL Recommendations]で指定されており、チームはカスタム条件を作成することもできます。
+   * 新しい条件を作成するには、**[!UICONTROL 条件を作成]**&#x200B;をクリックし、新しい条件の情報を入力します。 [条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
+   * 基準をシーケンスにグループ化するには、基準シーケンスを作成します。 [条件シーケンスの作成](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)を参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
+
+## デザインとプロモーションの選択 {#select-design}
+
+デザインは、選択した場所のレコメンデーションの外観を決定するテンプレートです。コレクションは、表示する資格のあるアイテムを決定します。 オプションで、レコメンデーションにプロモーションを追加できます。
+
 1. [デザイン](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択します。
 
-   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。 [!DNL Target]には、事前に設定された複数のデザインが含まれています。 カスタムのデザインを作成することも可能です。 詳細については、[&#x200B; デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)および[&#x200B; デザインのカスタマイズ &#x200B;](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)を参照してください。
+   ![ デザインを作成ボタンを使用してデザインダイアログボックスを選択し、2 x 4 デザインを選択したデザインのリスト ](../assets/create_reco_5.png)
 
-   ![デザインを選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   * 既存のデザインを使用するには、1つ以上のデザインのチェックボックスをオンにし、**[!UICONTROL 次へ]**&#x200B;をクリックします。 複数の基準を選択した場合、1つのデザインのみを選択できます。
+   * カスタムデザインを作成するには、**[!UICONTROL デザインを作成]**&#x200B;をクリックし、新しいデザインの名前とコードを入力します。 **[!UICONTROL 次へ]**&#x200B;をクリックし、画像を選択またはアップロードしてから、**[!UICONTROL 完了]** > **[!UICONTROL 完了]**&#x200B;をクリックします。
 
-   各デザインには、見え方のグラフィカル表示と、現在そのデザインで使用されているライブアクティビティおよび非アクティブなアクティビティの数を示すアイコンが表示されます。
-
-   * 1つ以上の既存のデザインを選択するには、デザインをクリックし、**[!UICONTROL 次へ]**&#x200B;をクリックします。
-
-     複数の条件を選択した場合は、1 つのデザインのみ選択できます。
-
-   * カスタムデザインを作成するには、「**[!UICONTROL デザインを作成]**」をクリックし、新しいデザインの名前とコードを入力します。 「**[!UICONTROL 次へ]**」をクリックし、画像を選択またはアップロードして&#x200B;**[!UICONTROL 完了]**／**[!UICONTROL 完了]**&#x200B;をクリックします。 新しいデザインの作成について詳しくは、[デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)を参照してください。
+   [!DNL Target]には、いくつかの事前設定済みデザインが含まれています。 カスタムデザインについて詳しくは、[ デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)および[Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)を使用したデザインのカスタマイズを参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
-   レコメンデーションにプロモーションを追加することもできます。 前面および背面のプロモーションの追加について詳しくは、[&#x200B; プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
+1. **[!UICONTROL オプション]** ページで、コレクションを選択します。
+
+   コレクションは、レコメンデーションに表示する資格のあるアイテムを決定します。 コレクションの作成方法など、詳細については、[ アクティビティでのコレクションの使用](/help/main/c-recommendations/c-products/collections.md#use-collection)を参照してください。
+
+1. （オプション）レコメンデーションに前面および背面のプロモーションを追加します。 [ プロモーションの追加](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#add-promotions)を参照してください。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-   VEC 画面に、ページのレコメンデーションデザインが表示されます。
+   VEC画面には、レコメンデーションデザインがページに表示されます。
 
-1. （オプション）「**[!UICONTROL プレビュー]**」をクリックして、アクティビティが訪問者にどのように表示されるかを確認します。
+## アクティビティのレビューと完了 {#complete-activity}
 
-   [!UICONTROL プレビュー]モードを使用すると、訪問者と同様にレコメンデーションを操作できます。
+保存前にレコメンデーションとアクティビティフローを確認することで、適切なオーディエンス、基準、デザインが整っていることを確認できます。
 
-   レコメンデーションのプレビューを完了したら、「**[!UICONTROL 作成]**」をクリックします。
+1. （オプション）「**[!UICONTROL プレビュー]**」をクリックして、アクティビティが訪問者にどのように表示されるかを確認します。 このモードでは、訪問者がレコメンデーションを操作するので、レコメンデーションを操作できます。 「**[!UICONTROL 作成]**」をクリックして、VECに戻ります。
 
 1. VECで推奨事項を確認し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
-1. フロー図で [!DNL Recommendations] アクティビティを確認し、必要に応じて変更します。
+1. フロー図でアクティビティを確認し、必要な変更を加えます。 終了したら「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![レコメンデーションフロー図](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![すべての訪問者が10%のコントロール グループと90%のグループに分割されたレコメンデーションフロー図は、すべてのコレクション コレクション、選択した条件、2 x 4 デザイン ](../assets/create_reco_6.png)につながります
 
-   フロー図を使用すると、アクティビティに対するオーディエンスの選択、エクスペリエンスの設定、成功指標の指定の手順を順に実行できます。
+   フロー図では、アクティビティのオーディエンス、エクスペリエンス、成功指標をカバーしています。 図から、次の変更を行うことができます。
 
-   フロー図から、次のことを実行できます。
+   * **オーディエンス**：すべての訪問者にデフォルトで推奨事項が表示されますが、代わりに既存のオーディエンスを選択できます。 新しいオーディエンスを作成する代わりに、[ アクティビティのみのオーディエンス ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)を作成するか、[複数のオーディエンスを組み合わせて](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) アドホックオーディエンスを構築することができます。
+   * **条件**：条件を表示するか、コレクションを変更します（**[!UICONTROL 条件]** ラベルの横）。
+   * **コントロール グループ**：コントロール エクスペリエンスを表示する参加者の割合を変更します。 [!DNL Recommendations] アクティビティで、コントロールグループはレコメンデーションなしでページを表示します。
+   * **デザイン**: デザイン コードを表示するか、デザインを変更または削除します。
 
-   * レコメンデーションが表示されるオーディエンスを変更する
+1. アクティビティの設定を指定します。例えば、名前（必須）と目的（オプション）を指定します。 アクティビティ名のルールを含む設定については、[Recommendations アクティビティ設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#recs-activity-settings)を参照してください。
 
-     >[!NOTE]
-     >
-     >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、[アクティビティのみのオーディエンスを作成](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)したり、[複数のオーディエンスを結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)してアドホックな結合オーディエンスを作成することができます。
+1. 「**[!UICONTROL 保存して閉じる]**」をクリックします。
 
-     デフォルトでは、すべてのユーザーにレコメンデーションが表示されますが、 レコメンデーションの対象を特定のオーディエンスのみにすることもできます。
+## アクティビティの管理 {#manage-activity}
 
-     [!DNL Recommendations] アクティビティでは、制御グループはレコメンデーションなしでページが表示されます。
+アクティビティを保存すると、**[!UICONTROL 概要]** ページにアクティビティの概要が表示されます。 このページでは、次のアクションを使用できます。
 
-   * 条件を表示します。
-   * コレクションを変更します（「[!UICONTROL 条件]」ラベルの横）。
-   * コントロールエクスペリエンスを表示する参加者の割合を変更します。
-   * デザインコードを表示します。
-   * デザインを変更または削除します。
+* アクティビティをアクティブ化、編集、またはQAします。
+* Experience Cloud フィードにアクティビティを共有します。
+* エクスペリエンスのURLを表示してデータをダウンロードします。
+* コントロールのエクスペリエンスを表示するアクティビティ参加者の割合を変更します。
+* 基準の詳細を表示または非表示にし、デザインのコードを表示します。
 
-1. 終了したら「**[!UICONTROL 次へ]**」をクリックします。
-1. アクティビティを設定します。
+アクティビティからさらに2つのページを使用できます。
 
-   例えば、アクティビティの名前（必須）および目標（任意）を入力します。 設定について詳しくは、[Recommendations アクティビティ設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)を参照してください。
+* **[!UICONTROL レポート]**: [!DNL Recommendations] アクティビティのパフォーマンスに関するレポートを表示します。
+* **[!UICONTROL 衝突]**：発生する可能性のある[活動の衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示します。 複数のアクティビティが同じページにコンテンツを配信すると、競合が発生し、予期しないコンテンツが表示される場合があります。
 
-   >[!NOTE]
-   >
-   >[!DNL Recommendations Classic] の別のアクティビティとして既に存在する [!DNL Recommendation] アクティビティ名を指定すると、新しいアクティビティは、新しい名前で再同期されます。 新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。 この新しい名前は、[!DNL Target Standard/Premium] と [!DNL Recommendations Classic] の両方で表示されます。
+## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
-1. 完了したら、**[!UICONTROL 保存して閉じる]**&#x200B;をクリックします。
-
-   アクティビティの概要が表示されます。
-
-   [!UICONTROL 概要]ページから、次のことを実行できます。
-
-   * アクティビティをアクティブ化します。
-   * アクティビティを編集します。
-   * Experience Cloud フィードへのアクティビティの共有
-   * アクティビティのQA
-   * エクスペリエンスの URL を表示します。
-   * データをダウンロードします。
-   * コントロールエクスペリエンスを表示するアクティビティ参加者の割合を変更します。
-   * キャンペーンの詳細情報の表示や非表示をおこないます。
-   * デザインのコードを表示します。
-
-1. （オプション）「[!UICONTROL &#x200B; レポート &#x200B;]」ページを開き、[!DNL Recommendations] アクティビティのパフォーマンスを示すレポートを表示します。
-
-1. （オプション）発生する可能性のある[&#x200B; アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示するには、[!UICONTROL 衝突] ページを開きます。
-
-   複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
-
-## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
-
->[!VIDEO](https://video.tv.adobe.com/v/33952?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

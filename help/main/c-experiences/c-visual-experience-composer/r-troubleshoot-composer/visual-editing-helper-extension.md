@@ -29,76 +29,81 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 56%
+source-wordcount: '829'
+ht-degree: 5%
 ---
-# [!UICONTROL &#x200B; ビジュアル編集ヘルパー]拡張機能
+# [!UICONTROL  ビジュアル編集ヘルパー]拡張機能 {#visual-editing-helper}
 
-[!DNL Google Chrome]の[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能を使用すると、[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）内でWeb サイトを確実に読み込み、Web エクスペリエンスをすばやく作成してQAできます。
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、**[!UICONTROL Visual Editing Helper]** ブラウザー拡張機能が&#x200B;**[!UICONTROL Visual Experience Composer]** （VEC）にWeb サイトを確実に読み込む方法と、インストールして使用する方法について説明します。
+
+>[!ENDSHADEBOX]
+
+[!DNL Google Chrome]の[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper]** ブラウザー拡張機能は、[!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** （VEC）にWeb サイトを確実に読み込むため、Web エクスペリエンスの作成とチェックをより迅速におこなうことができます。
 
 >[!IMPORTANT]
 >
->* この新しい拡張機能は、以前の [Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に代わるものです。 この記事の上部にある重要なメモを参照してください。 Manifest v3 のセキュリティ強化のため、[!DNL Target] では、[!DNL Adobe] で web サイトを視覚的に引き続き作成するために、この新しい拡張機能をダウンロードする必要があります。
+>この拡張機能は、記事の上部にある重要なメモで説明されているように、以前の[Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に置き換わります。 Manifest V3はセキュリティの強化を導入しているため、[!DNL Target]でweb サイトを視覚的にオーサリングし続けるには、[!DNL Adobe]がこの新しい拡張機能をダウンロードする必要があります。
 
-## [!UICONTROL Visual Editing Helper]拡張機能の変更（2026年1月17日）
+## VECで一部のWeb サイトが確実に開かない理由
 
-### **VEC ヘルパーに新しいスタートアップ cookie クリーンアップ実験機能を追加して、問題を修正しました。**
-
-* VEC ヘルパーに新しいスタートアップ cookie クリーンアップ実験機能を追加することで、問題を修正しました。
-* この機能強化により、オーサリングが継続的ではなく開始される際に、タブごとに1回、未分割Cookieをクリーニングすることで、パフォーマンスと信頼性が向上します。
-* この機能は、冗長なクリーンアップを防ぐためにタブ履歴を追跡し、タブのクローズ時に履歴をクリアするので、タブが再度開かれたときにクリーンアップが正しく動作します。
-* 一貫した動作を保証するために、包括的な単体テストが追加されました。
-
-![VECの新しいオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
-
-## VEC で一部の web サイトを確実に開くことができない理由
+次の理由により、WEB サイトがVECで確実に開かない場合があります。
 
 * Web サイトには厳格なセキュリティポリシーがあります。
 * Web サイトで iframe が使用されています。
-* 顧客の QA またはステージサイトが外部から利用できません（サイトは内部）。
+* お客様のQAまたはステージングサイトは内部サイトであり、ネットワーク外では利用できません。
 
-[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能は、顧客が[!DNL Target] [拡張Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)またはサードパーティの拡張機能（Requestlyなど）に依存するようになったサイト読み込みの問題を解決します。
+拡張機能は、これらのサイト読み込み問題を解決します。この問題を解決するために、お客様は[Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)またはサードパーティの拡張機能（Requestlyなど）に依存しています。
 
-## [!UICONTROL Visual Editing Helper]拡張機能を使用するメリット
+## 拡張機能の利点
 
-* すべての iframe バスティングヘッダー（`X-Frame-Options` や `Content-Security-Policy` など）は、web サイトから暗黙的に削除されます。 複雑な Requestly ルールを作成する必要はありません。
-* Web ページに [!DNL Target] at.js ライブラリがまだ含まれていない場合は、この拡張機能を使用してライブラリを挿入することにより、web サイトのエクスペリエンスを作成できます。 その後に、アクティビティを作成し、プレビューリンクを使用してアクティビティの QA を実行できます。
+* **Iframe-busting ヘッダーが削除されました：**&#x200B;拡張機能は`X-Frame-Options`や`Content-Security-Policy`などのヘッダーをWeb サイトから暗黙的に削除するため、複雑なRequestly ルールは必要ありません。
+* **at.js インジェクション：** web ページに[!DNL Target] at.js ライブラリがまだ含まれていない場合、拡張機能はそれをインジェクションできます。 web サイト向けにエクスペリエンスを作成し、プレビューリンクを使用してアクティビティを作成および確認できます。 [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) （EEC）では、拡張機能はat.jsを挿入しませんが、SameSite Cookie機能は残ります。 Web ページにat.jsを挿入するには、EECをオフにします。
+* **モバイルビューポート：** [ モバイルビューポート ](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、**[!UICONTROL Enhanced Experience Composer]** （EEC）がなくてもサポートされます。
+* **新しい[!DNL Target]のお客様：**&#x200B;この拡張機能を使用すると、IT開発者がweb サイトに[!DNL Target]を実装していない場合でも、[!DNL Target]を試すことができます。
+* **パートナー：**&#x200B;複数の顧客のweb サイトと[!DNL Target] アカウントにサービスを提供するパートナーには、サードパーティツールの複数のルールの代わりに、VECの読み込みをサポートする1つのメカニズムが用意されています。
 
-  [拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) を使用すると、拡張機能では at.js は挿入されませんが、SameSite Cookie 機能は引き続き存在します。 Web ページに at.js を挿入するには、EEC をオフにします。
+## 拡張機能を入手してインストールする
 
-* [&#x200B; モバイルビューポート &#x200B;](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL Enhanced Experience Composer] （EEC）がなくてもサポートされます。
-* [!DNL Target]が初めてのお客様は、自社の IT 開発者がまだ Web サイトに[!DNL Target]を実装していない場合でも、拡張機能を使用して[!DNL Target]を試すことができます。
-* 複数のお客様の Web サイトおよび[!DNL Target]アカウントにサービスを提供するパートナーは、サードパーティツールで複数のルールを管理するのではなく、VEC 読み込みをサポートする 1 つのシンプルなメカニズムを利用できるようになりました。
+[!DNL Chrome]に拡張機能をインストールすると、iframeをブロックするweb サイトや、at.jsがまだ実装されていないweb サイトなど、VECでWeb サイトを確実に読み込むことができます。
 
-## [!UICONTROL Visual Editing Helper] ブラウザー拡張機能を取得してインストールします
-
-1. Chrome Web Store[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}の[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能に移動します。
+1. Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}の[[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper ]**ブラウザー拡張機能に移動します。
 1. **[!UICONTROL Chromeに追加]** > **[!UICONTROL 拡張機能を追加]**&#x200B;をクリックします。
 1. [!DNL Target] で VEC を開きます。
-1. 拡張機能を使用するには、VEC モードまたはQA モードで、Chrome ブラウザーのツールバーにある[!UICONTROL Visual Editing Helper] ブラウザー拡張機能アイコン（![Visual Editing Extension アイコン &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）をクリックします。
+1. VEC モードまたはQA モードで、[!DNL Chrome]のツールバーにある&#x200B;**[!UICONTROL Visual Editing Helper]** ブラウザー拡張機能アイコン（![Visual Editing Helper アイコン ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）をクリックします。
 
-   [!UICONTROL Visual Editing Helper]は、Web サイトが[!UICONTROL Target] VECで開かれたときに、オーサリングを強化するために自動的に有効になります。 拡張機能には条件設定がありません。 この拡張機能では、SameSite Cookie の設定を含むすべての設定を自動的に処理します。
+   拡張機能は、オーサリングを強化するために[!DNL Target] VECでweb サイトを開いたときに自動的に有効になります。 条件設定はなく、SameSite Cookie設定を含むすべての設定を自動的に処理します。 `SameSite=None`属性ブラウザーの修正について詳しくは、[Google Chrome SameSite Cookie ポリシー](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)を参照してください。
 
-   `SameSite=None` 属性に関するブラウザーの修正について詳しくは、「Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？」の節を参照してください。 [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。
+## 使用状況メモ
 
-## メモ
+* 拡張機能は、**[!UICONTROL 管理]** > **[!UICONTROL 実装]**&#x200B;の[!DNL Target] UIで利用できる最新バージョンのat.jsを読み込み、at.jsはオーサリングライブラリをダウンロードします。
+* 拡張機能を使用して[QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md)でat.jsを挿入するには、別のChrome タブを開く必要があります。 このタブは、アクティビティが作成されたのと同じ[!DNL Adobe Experience Cloud]組織に対して認証する必要があります。
+* VECには、次の場合に拡張機能のインストールを推奨するメッセージが表示されます。
 
-* [!DNL Target]の場合、拡張機能は[!UICONTROL 管理] > [!UICONTROL 実装]の[!DNL Target] UIから利用可能な最新バージョンのat.jsを読み込み、at.jsはオーサリングライブラリをダウンロードします。
-* [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)でこの拡張機能を使用して at.js を挿入する場合は、別の Chrome タブを開く必要があります。 この Chrome タブは、アクティビティを作成したのと同じ [!DNL Adobe Experience Cloud] 組織に対して認証されている必要があります。
-* 次のメッセージにより、さらに情報が提供されます。
+  * VECでweb サイトの読み込みに失敗する。
+  * at.jsまたはalloy.jsは、web サイトにまだ実装されていません。
 
-  * 読み込みに失敗したVECを使用してweb サイトを読み込もうとすると、[!UICONTROL Visual Editing Helper] ブラウザー拡張機能をインストールすることを示唆するメッセージが表示されます。
-  * at.js または alloy.js が web サイトにまだ実装されていない場合、この拡張機能のインストールを勧めるメッセージが VEC に表示されます。
-* 新しい拡張機能を使用してから[古い拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に戻り、[!DNL Target] が web サイトの読み込みに失敗した場合は、すべてのブラウザー データを消去し、新しい拡張機能を無効にします。
+* 新しい拡張機能が試され、[古い拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)が再度使用されたが、[!DNL Target]がweb サイトの読み込みに失敗した場合は、すべてのブラウザーデータを消去し、新しい拡張機能を無効にします。
+
+## 拡張機能の最新の変更（2026年1月17日）
+
+この拡張機能は、VEC ヘルパーにスタートアップ cookie クリーンアップ実験機能を追加します。 この機能は、オーサリングが開始されるときに、タブごとに1回だけ未分割Cookieをクリーンアップし、パフォーマンスと信頼性を向上させます。 冗長なクリーンアップを防ぐために各タブの履歴を追跡し、タブが閉じられたときにその履歴を消去するので、タブが再度開かれたときにクリーンアップが正しく動作します。 ユニットテストは、一貫した動作を保証します。
+
+![ クッキー処理モード、高度なロギングオプション、実験的な機能を含むVEC Helper拡張機能のオプション、Web ページの読み込みの遅延、クッキークリーニング、スタートアップクッキークリーンアップ ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## よくある質問
 
-### 拡張機能は、アクティブな場合、[!DNL Adobe Target]または[!UICONTROL Adobe Journey Optimizer] （AJO）以外で使用する場合に何か実行しますか？
++++ 拡張機能は、[!DNL Adobe Target]または[!UICONTROL Adobe Journey Optimizer] （AJO）以外で使用されている場合、何もおこなわれますか？
 
-この拡張機能は、対象の web サイトが [!DNL Adobe] 製品（[!DNL Target]、[!DNL AJO]）の iFrame 内に読み込まれた場合にのみアクティブになります。 このフロー以外では、拡張機能はヘッダーを追加、削除、変更せずに、web サイト内にコードを挿入しようとしません。
+拡張機能は、web サイトが[!DNL Adobe]製品（[!DNL Target]、[!DNL AJO]）のiFrame内に読み込まれた場合にのみ有効になります。 このフロー以外では、拡張機能はヘッダーの追加、削除、変更を試みず、web サイト内のコードの注入も試みません。
 
-### 拡張機能が [!DNL Adobe Target] VEC でアクティブな場合、何を行いますか？
++++
 
-Web サイトが [!DNL Adobe] 製品（[!DNL Target]、[!DNL AJO]）の iFrame 内に読み込まれると、拡張機能は web サイトにコード（拡張機能にバンドルされている）を挿入し、[!DNL Adobe] CDN からヘルパーファイルをダウンロードしてビジュアルオーサリングを有効にします。
++++ 拡張機能が [!DNL Adobe Target] VEC でアクティブな場合、何を行いますか？
+
+[!DNL Adobe]製品（[!DNL Target]、[!DNL AJO]）のiFrame内でweb サイトが読み込まれると、拡張機能は拡張機能にバンドルされたコードをweb サイトに挿入し、[!DNL Adobe] CDNからヘルパーファイルをダウンロードしてビジュアルオーサリングを有効にします。
+
++++

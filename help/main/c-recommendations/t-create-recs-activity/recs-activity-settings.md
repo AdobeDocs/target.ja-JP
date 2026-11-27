@@ -24,33 +24,28 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 49%
+source-wordcount: '488'
+ht-degree: 17%
 ---
-# レコメンデーションアクティビティの設定
+# レコメンデーションアクティビティの設定 {#recs-activity-settings}
 
-[!DNL Adobe Target]の[!UICONTROL Recommendations] アクティビティの説明と制御に使用できる設定に関する情報。
+>[!BEGINSHADEBOX]
 
-次の節では、[!UICONTROL Recommendations] アクティビティで使用できる設定について説明します。
+**このページで：** [!DNL Adobe Target]の[!DNL Recommendations] アクティビティを記述および制御する設定について説明します。
+
+>[!ENDSHADEBOX]
+
+アクティビティ設定：[!DNL Recommendations] アクティビティを特定し、いつ、どこで表示するかを制御し、その結果をレポートする方法を定義します。
 
 ## 名前
 
-その他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 名前変更]**&#x200B;をクリックして、ユーザーとチームがアクティビティを識別するのに役立つわかりやすい名前を指定します。
+その他のアクション アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックし、**[!UICONTROL 名前変更]**&#x200B;をクリックして、アクティビティにわかりやすい名前を付けます。
 
-次の文字はアクティビティ名として入力できません。
+アクティビティ名には、次の文字は使用できません：`/`、`?`、`#`、`:`、`=`、`+`、`-`、および`@`。
 
-`/`
-`?`
-`#`
-`:`
-`=`
-`+`
-`-`
-`@`
-
-[!UICONTROL Recommendations Classic] の別のアクティビティとして既に存在する [!UICONTROL Recommendation] アクティビティ名を指定すると、新しいアクティビティは、新しい名前で再同期されます。 新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。 この新しい名前は、[!DNL Target Standard/Premium]と[!UICONTROL Recommendations Classic]の両方に表示されます。
+[!UICONTROL Recommendations Classic]の別のアクティビティに[!DNL Recommendations] アクティビティの名前が既に存在する場合、新しいアクティビティは新しい名前で再同期されます。 新しい名前は、タイムスタンプが付加された元の名前で、一意にします。 [!DNL Target Standard/Premium]と[!UICONTROL Recommendations Classic]の両方に表示されます。
 
 ## 目的
 
@@ -58,52 +53,46 @@ ht-degree: 49%
 
 ## 優先度
 
-スライダーを調節して優先度を決定します。
+スライダーを調整して、優先度レベルを設定します。
 
-優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。 ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
+優先度は、同じオーディエンスを持つ同じ場所に複数のアクティビティが割り当てられている場合に使用されます。 ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
 ## 期間
 
 アクティビティの期間を設定します。
 
-アクティビティは、アクティブ化されたときに開始したり、特定の日時を設定したりできます。 同様に、非アクティブ化されたときに終了させたり、日時を設定したりできます。 タイムピッカーは 24 時間の時計を使用します。00:00 は真夜中です。 タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。 別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
+アクティビティは、アクティブ化されたときに、または特定の日時に開始できます。 同様に、非アクティブ化された場合、または特定の日時に終了する場合があります。
+
+タイムピッカーは 24 時間の時計を使用します。00:00 は真夜中です。 タイムゾーンは、ブラウザーで設定されたタイムゾーンです。 別のタイムゾーンを使用するには、ブラウザーをそのタイムゾーンに設定し、ブラウザーを再起動します。
 
 ## レポート設定
 
-* **レポート Source:**&#x200B;どのソリューション データを収集するかを指定します：
+次の設定は、アクティビティの結果のレポート方法を定義します。
 
-  * [!DNL Adobe Target]
-  * [!DNL Adobe Analytics]
-  * [!DNL Adobe Customer Journey Analytics]
+* **[!UICONTROL レポート Source]:** データが収集されるソリューションを指定します：[!DNL Adobe Target]、[!DNL Adobe Analytics]、または[!DNL Adobe Customer Journey Analytics]。
 
-  レポート ソリューションが[&#x200B; アカウント設定](/help/main/administrating-target/reporting.md)で指定されている場合、指定されたソリューションが使用され、この設定は表示されません。
+  [ アカウント設定](/help/main/administrating-target/reporting.md)でレポートソリューションが指定されている場合、そのソリューションが使用され、この設定は表示されません。 アクティビティの公開後にレポートソースを変更して、レポートの一貫性を維持することはできません。
 
-  アクティビティが公開された後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。
+  **[!DNL Adobe Analytics]**: レポートソリューションと各ソリューションの利点の違いについては、 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)のレポートソースとして[[!DNL Adobe Analytics] を参照してください。 [!DNL Analytics] レポートスイートとトラッキングサーバーの選択については、[ レポートSource](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source)を参照してください。
 
-  **[!DNL Adobe Analytics]**: レポートソリューションと各ソリューションの利点の違いについて詳しくは、 [!DNL Target]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)のレポートソースとして[!DNL Adobe Analytics] を参照してください。
+  **[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics]と[!DNL Target]の統合について詳しくは、 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[[!DNL Target]  レポートを参照してください。
 
-  [!DNL Analytics]を[!DNL Target] （A4T）のレポートソースとして選択する場合、[!DNL Analytics] レポートスイートを選択して[!DNL Target] アクティビティデータを受信します。 これを行うには、最初にアカウントが関連付けられている[!DNL Analytics]社の中から選択し、次にアクティビティに適したレポートスイートを選択します。 [!DNL Target]に接続するようにプロビジョニングされたレポートスイートのみが選択できます。 想定しているレポートスイートが表示されない場合は、まずログアウトして[!DNL Adobe Experience Cloud]に再度ログインし、もう一度やり直してください。 レポートスイートがまだリストにない場合は、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
-
-  [!DNL Analytics for Target] （A4T）は、結果を正しく報告するためにトラッキングサーバーを必要とします。 デフォルトのトラッキングサーバーが「[!UICONTROL &#x200B; トラッキングサーバー]」フィールドに表示されます。 複数のトラッキングサーバーを使用する場合は、このフィールドに正しいトラッキングサーバーを含めてください。 詳しくは、[Analytics トラッキングサーバーの使用](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照してください。
-
-  **[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics]と[!DNL Target]の統合について詳しくは、 [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)の[!DNL Target]  レポートを参照してください。
-
-* **目標指標：**&#x200B;アクティビティが成功したかどうかを判定する成功指標を選択します。
-* **追加の指標：**&#x200B;レポートに使用する追加の成功指標を設定します。
-* **レポート対象のオーディエンス：**&#x200B;レポートをフィルタリングする際に使用できるオーディエンスを定義します。
+* **[!UICONTROL 目標指標]:** アクティビティが成功したかどうかを判断する成功指標を選択します。
+* **[!UICONTROL 追加指標]:** レポートの追加成功指標を設定します。
+* **[!UICONTROL レポート用オーディエンス ]:** レポートのフィルタリングに使用できるオーディエンスを定義します。
 
 ## その他のメタデータ
 
 アクティビティに関するメモを入力します。
 
-## トレーニングビデオ：アクティビティ設定（3:02） ![&#x200B; チュートリアルバッジ &#x200B;](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ設定（3:02） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
-このビデオでは、アクティビティの設定について説明します。
+このビデオでは、次のアクティビティ設定について説明します。
 
-* アクティビティの目的の入力
-* アクティビティの優先度の設定
-* アクティビティの開始時刻と停止時刻の設定
-* レポートフィルター作成とレポートのためのオーディエンス追加
-* アクティビティのメモの入力
+* アクティビティの目標を入力します。
+* アクティビティの優先度レベルを設定します。
+* 開始時間と終了時間を設定します。
+* レポート用オーディエンスを追加して、レポートフィルターを作成します。
+* アクティビティのメモを入力します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507944?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

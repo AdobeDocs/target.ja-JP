@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 11%
@@ -37,7 +37,7 @@ ht-degree: 11%
 
 次の点は、コレクションが[!DNL Recommendations]の残りの部分とどのように相互作用するかを示しています。
 
-* 各条件に対して生成された[&#x200B; バックアップ レコメンデーション &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md)もコレクションを使用するため、コレクション内のアイテムのみがバックアップ レコメンデーションに含まれます。 その結果、場所にとって意味のある製品のみが表示されます。
+* 各条件に対して生成された[ バックアップ レコメンデーション ](/help/main/c-recommendations/c-algorithms/backup-recs.md)もコレクションを使用するため、コレクション内のアイテムのみがバックアップ レコメンデーションに含まれます。 その結果、場所にとって意味のある製品のみが表示されます。
 * コレクションは、各条件が実行されるたびに、再構築または更新されます。
 * コレクションのルールは、条件の実行後に生成されたレコメンデーション項目に適用されます。 これらは、キーではなく、出力内のエンティティ推奨（ER）のみに影響します。
 * **[!UICONTROL 最近閲覧したアイテム]**&#x200B;のレコメンデーションキーを使用する場合、コレクションは適用されません。
@@ -50,15 +50,15 @@ ht-degree: 11%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL コレクション]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
 
-   既存のコレクションを編集、コピー、または削除するには、コレクションの横にあるその他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、目的のオプションをクリックします。
+   既存のコレクションを編集、コピー、または削除するには、コレクションの横にあるその他のアクション アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、目的のオプションをクリックします。
 
    >[!NOTE]
    >
-   >**[!UICONTROL コレクション]** リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [&#x200B; ホストグループ &#x200B;](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+   >**[!UICONTROL コレクション]** リストビューの各コレクションについて報告された「アイテム数」は、設定されたデフォルトのRecommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内の、そのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 
-   コレクションを作成ボタンを含む![&#x200B; コレクションページ &#x200B;](../assets/collection_1.png)
+   コレクションを作成ボタンを含む![ コレクションページ ](../assets/collection_1.png)
 
 1. コレクションの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。 オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;も入力できます。
 
@@ -70,7 +70,7 @@ ht-degree: 11%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. コレクションを作成したら、その他のアクション アイコン（![その他のアクション アイコン &#x200B;](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なオプション（**[!UICONTROL 編集]**、**[!UICONTROL コピー]**、または&#x200B;**[!UICONTROL 削除]**）を選択します。
+1. コレクションを作成したら、その他のアクション アイコン（![その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なオプション（**[!UICONTROL 編集]**、**[!UICONTROL コピー]**、または&#x200B;**[!UICONTROL 削除]**）を選択します。
 
    ![その他のアクション メニューを開いたコレクション リストで、編集、コピー、削除を表示](../assets/collection_2.png)
 
@@ -88,17 +88,17 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## アクティビティでのコレクションの使用
+## アクティビティでのコレクションの使用 {#use-collection}
 
 コレクションは、[!DNL Recommendations] アクティビティの各エクスペリエンスに対して選択されます。 コレクションは、そのエクスペリエンスのレコメンデーションに表示できるアイテムを決定します。
 
-1. [&#x200B; コレクションを作成](#task_1256DFF6842141FCAADD9E1428EF7F08)。
+1. [ コレクションを作成](#task_1256DFF6842141FCAADD9E1428EF7F08)。
 
-   ![&#x200B; コレクションの詳細とルールのセクションを含むコレクション画面を作成](../assets/collection_3.png)
+   ![ コレクションの詳細とルールのセクションを含むコレクション画面を作成](../assets/collection_3.png)
 
-1. **[!UICONTROL アクティビティ]**&#x200B;と[をクリックして、新しいRecommendations アクティビティ &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)を作成するか、既存のアクティビティを編集します。
+1. **[!UICONTROL アクティビティ]**&#x200B;と[をクリックして、新しいRecommendations アクティビティ ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)を作成するか、既存のアクティビティを編集します。
 
-   ![&#x200B; アクティビティを作成メニューでレコメンデーションを選択した全アクティビティページ &#x200B;](../assets/collection_4.png)
+   ![ アクティビティを作成メニューでレコメンデーションを選択した全アクティビティページ ](../assets/collection_4.png)
 
 1. 条件とデザインを選択したら、**[!UICONTROL オプション]** ページで目的のコレクションを選択します。
 

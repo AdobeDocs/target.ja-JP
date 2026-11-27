@@ -22,25 +22,28 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 30%
+source-wordcount: '581'
+ht-degree: 9%
 ---
-# [!UICONTROL Enhanced Experience Composer]に関する問題のトラブルシューティング
+# [!UICONTROL Enhanced Experience Composer]に関する問題のトラブルシューティング {#eec-issues}
 
-特定の条件下で、[!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] （EEC）で表示の問題が発生することがあります。
+>[!BEGINSHADEBOX]
 
-## EECは、パブリック IPでアクセスできない内部QA URLを読み込みません。 {#section_D29E96911D5C401889B5EACE267F13CF}
+**このページ：**&#x200B;では、EEC プロキシのIP アドレスがブロックされているためページが読み込まれないなど、**[!UICONTROL Enhanced Experience Composer]** （EEC）のみに影響する問題を解決する方法について説明します。
 
+>[!ENDSHADEBOX]
 
-+++詳細
-この問題は、次のIP アドレスを許可リストに加えるすることで解決できます。 これらのIP アドレスは、EEC プロキシに使用される[!DNL Adobe] サーバー用です。 これらのIP アドレスは、アクティビティ編集にのみ必要です。 サイトへの訪問者は、これらのIP アドレスを許可リストに加えるする必要はありません。
+特定の条件下で、[!DNL Adobe Target] **[!UICONTROL Enhanced Experience Composer]** （EEC）で表示の問題が発生することがあります。 次の項目では、EECのみに影響する問題とその解決方法について説明します。
 
-IT部門に次のIP アドレスの許可リストに加えるを依頼します。
+## EEC プロキシのIP アドレスを許可リストに加えるする {#eec-ip-addresses}
+
+EECは、パブリック IP アドレスでアクセスできない内部QA URLを読み込みません。 EEC プロキシに使用される[!DNL Adobe] サーバーのIP アドレスを許可リストに加えるすると、この問題を解決できます。 これらのIP アドレスは、アクティビティの編集にのみ必要であり、サイトへの訪問者は許可リストに加えるする必要はありません。 IT部門に次のIP アドレスを許可リストに加えるするように依頼します。
 
 ### 米国（va7）
 
+```
 40.70.154.136/29
 52.254.106.240/28
 52.254.106.160/28
@@ -64,9 +67,11 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 4.152.211.251
 52.254.107.144/28
 52.254.106.144/28
+```
 
 ### EMEA （nld2）
 
+```
 51.138.17.16/28
 51.138.17.48/28
 51.138.16.128/28
@@ -89,9 +94,11 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 51.138.12.100
 51.138.17.64/28
 51.138.12.160/28
+```
 
 ### APAC （aus）
 
+```
 20.43.104.160/28
 20.227.35.177
 20.40.188.227
@@ -117,11 +124,13 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 20.43.104.192/28
 20.43.105.0/28
 20.43.104.0/28
+```
 
 ### レガシーIP アドレス
 
 以下のレガシーIP アドレスは、追って通知があるまで引き続き許可リストに加えるする必要があります。
 
+```
 34.254.77.200
 54.73.207.147
 54.229.152.123
@@ -140,52 +149,48 @@ IT部門に次のIP アドレスの許可リストに加えるを依頼します
 35.75.212.45
 52.199.184.130
 18.180.161.176
+```
 
-[!DNL Target]に次のエラーメッセージが表示される場合があります。
++++ EECは、Web サイト ドメインがブロックしているというエラーメッセージを表示します
 
-`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+次のエラーメッセージが[!DNL Target]に表示される可能性があります：
 
-![EEC_error イメージ &#x200B;](assets/EEC_error.png)
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in Configure > Page Delivery menu.`
 
-このエラーメッセージが表示される理由と、問題の解決方法は次のとおりです。
+![Web サイトのドメイン （ISP）が拡張Experience Composerをブロックしているというエラーメッセージが表示されたExperience Composer。IP アドレスを許可リストに加えるするか、ページ配信の設定メニューでコンポーザーをオフにすることが提案されています](assets/EEC_error.png)
 
-* **問題：**&#x200B;お使いのweb サイト ドメイン （ISP）が[!UICONTROL 拡張Experience Composer]をブロックしています。
+このエラーメッセージには、次の2つの原因があります。
 
-  **救済策：** – 上記のIP アドレスを許可リストに加えるします。
-
-* **問題：** IP アドレスは許可リストに加えるされていますが、Web サイトではTLS バージョン 1.2はサポートされていません。 [!DNL Target]は現在、1.2のデフォルト設定を使用しています。 [!DNL Target] 18.4.1 （2018年4月25日）より前のデフォルト設定では、TLS 1.0がサポートされていました。 詳しくは、[TLS（トランスポートレイヤーセキュリティ）暗号化の変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。
-
-  **解決策：**&#x200B;次の質問を参照してください（[!UICONTROL Enhanced Visual Experience Composer]は、TLS 1.2を使用するサイトの安全なページでは読み込まれません）。
+* Web サイトドメイン（ISP）は、EECをブロックします。 この問題を解決するには、[に記載されているIP アドレスを許可リストに加えるします。EEC プロキシ ](#eec-ip-addresses)のIP アドレスを許可リストに加えるします。
+* IP アドレスは許可リストに加えるされますが、Web サイトはTLS 1.2をサポートしていません。 この問題を解決するには、次の項目を参照してください。
 
 +++
 
-## EECは、TLS 1.0を使用するサイト上の安全なページでは読み込まれません。 （EEC のみ） {#section_C5B31E3D32A844F68E5A8153BD17551F}
++++ EECは、TLS 1.0を使用するサイトの安全なページで読み込まれません
 
-+++詳細
-上記のエラーメッセージが「サイトの安全なページで[!UICONTROL Enhanced Visual Experience Composer]が読み込まれない」に表示される場合があります。 上記のIP アドレスが許可リストに加えるされていても、web サイトでTLS バージョン 1.2がサポートされていない場合。 [!DNL Target]は現在、1.2のデフォルト設定を使用しています。 [!DNL Target] 18.4.1 （2018年4月25日）より前のデフォルト設定では、TLS 1.0がサポートされていました。 詳しくは、[TLS（トランスポートレイヤーセキュリティ）暗号化の変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。
+前述のエラーメッセージは、IP アドレスが許可リストに加えるされた場合に表示される場合がありますが、Web サイトはTLS 1.2をサポートしていません。 [!DNL Target]は現在、バージョン 1.2を既定の設定として使用しています。 [!DNL Target] 18.4.1 （2018年4月25日）より前のデフォルト設定では、TLS 1.0がサポートされていました。 詳しくは、[TLS（トランスポートレイヤーセキュリティ）暗号化の変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。
 
-Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
+FirefoxでウェブサイトのTLS バージョンを確認するには（他のブラウザーでも同様の手順があります）:
 
 1. Firefox で対象の Web サイトを開きます。
-1. ブラウザーのアドレスバーにある&#x200B;**[!UICONTROL サイトの情報を表示します]**&#x200B;アイコンをクリックします。
+1. ブラウザーのアドレスバーにある「**[!UICONTROL サイト情報を表示]**」アイコンをクリックします。
 
-   ![firefox_more_info image](assets/firefox_more_info.png)
+   ![ サイト情報を表示アイコンがURLの左側に強調表示されたFirefox アドレスバー](assets/firefox_more_info.png)
 
 1. **[!UICONTROL 接続の詳細を表示]**／**[!UICONTROL 詳細を表示]**&#x200B;をクリックします。
 
-   ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
+   ![ セキュア接続](assets/firefox_more_info_2.png)の横に「接続の詳細を表示」矢印が強調表示されたFirefox サイト情報パネル
 
-1. 「技術情報」の下にある TLS バージョンを確認します。
+1. **[!UICONTROL 技術情報]**&#x200B;の下にあるTLS バージョン情報を確認します。
 
-   ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
+   ![Firefox ページ情報ウィンドウ、「セキュリティ」タブ、技術情報の下にTLS バージョンが強調表示されている](assets/firefox_more_info_3.png)
 
-1. Web サイトにTLS 1.0が表示されていることがわかったら、TargetのTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 現在の状況を解決するには（2018年9月12日まで有効） {target=_blank}、TLS バージョンとドメインを使用した設定については、[&#x200B; カスタマーケア &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+1. Web サイトにTLS 1.0が表示されている場合は、[!DNL Target]のTLS サポートポリシーについて詳しくは、[TLS （Transport Layer Security）暗号化変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank}を参照してください。 この問題を解決するには（2018年9月12日まで有効）、TLS バージョンとドメインを使用した設定については、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 +++
 
-## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。 （EEC のみ） {#section_60CBB9022DC449F593606C0E6252302D}
++++ プロキシを有効にしてサイトを読み込むと、タイムアウトまたは「アクセス拒否」エラーが表示される
 
-+++詳細
-ご使用の環境でプロキシ IP がブロックされていないことを確認してください。
+プロキシ IP アドレスが環境内でブロックされていないことを確認します。 アドレスは、[EEC プロキシ ](#eec-ip-addresses)のIP アドレスを許可リストに加えるするに記載されています。
 
 +++

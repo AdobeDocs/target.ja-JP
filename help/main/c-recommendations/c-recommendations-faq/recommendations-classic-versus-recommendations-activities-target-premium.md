@@ -28,72 +28,64 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 81%
+source-wordcount: '629'
+ht-degree: 22%
 ---
-# Recommendations Classicと[!DNL Target] PremiumのRecommendations アクティビティの比較
+# Recommendations Classicと[!DNL Target] PremiumのRecommendations アクティビティの比較 {#classic-versus-activities}
 
-レコメンデーション Classic と Target Premium のレコメンデーションアクティビティのどちらを使用するかを選択する際に役立つ情報です。
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、[!DNL Recommendations Classic]が[!DNL Target Premium]の[!DNL Recommendations] アクティビティとどのように異なるかを説明します。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->レコメンデーションアクティビティは、[!DNL Target Premium] ソリューションの一部です。 [!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
+>[!DNL Recommendations] アクティビティは、 [!DNL Target Premium] ソリューションの一部です。 [!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
 
-従来の [!DNL Recommendations] 製品では、ページでデータコレクション mbox を作成し、ページの特定の位置に表示 mbox を追加することによってレコメンデーションを表示しました。 [!DNL Recommendations] の [!DNL Target Premium] アクティビティでは、訪問者情報を収集して、製品やコンテンツをレコメンデーションしたい場所に mbox を作成せずに、ページの任意の場所でレコメンデーションを作成できます。 ページのヘッダーで簡単な JavaScript を参照することで、ページの任意の場所でレコメンデーションを有効にできます。 この JavaScript 参照を使用して、[!DNL Target] キーや `entity.id` キーなどのキーをグローバル `entity.categoryId` mbox に渡すことができます。
+従来の [!DNL Recommendations] 製品では、ページでデータコレクション mbox を作成し、ページの特定の位置に表示 mbox を追加することによってレコメンデーションを表示しました。 [!DNL Target Premium]の[!DNL Recommendations] アクティビティは、訪問者情報を収集し、製品またはコンテンツが推奨される場所ごとにmboxを使用せずに、ページ上の任意の場所にレコメンデーションを作成します。 ページのヘッダーにJavaScriptのリファレンスを配置すると、ページ上の任意の場所でレコメンデーションが可能になります。 この参照は、`entity.id` キーや`entity.categoryId` キーなどのキーをグローバル [!DNL Target] mboxに渡します。
 
 [!DNL Recommendations Classic] は、[!DNL Experience Cloud] UI で自身のカードとして表示されます。 [!DNL Recommendations] アクティビティは、[!DNL Target Premium] ワークフロー内で有効です。
 
-[!DNL Recommendations Classic] の使用時は、[!DNL Recommendations] mbox を [!DNL Target Recommendations] で引き続き使用することができます。 また、mbox をそのまま保持し、ヘッダーで JavaScript コードを使用して、ページ上の他の要素に対する [!DNL Target] 機能をアクティブにすることにより、Classic と [!DNL Recommendations] の両方のアプローチを組み合わせることもできます。 ただし、 [!DNL Recommendations Classic] のユーザーが [!DNL Target] の機能をフルに活用するためには、古い mbox を削除して、[!DNL Target Recommendations] のみを利用することをお勧めします。
+[!DNL Recommendations Classic] の使用時は、[!DNL Recommendations] mbox を [!DNL Target Recommendations] で引き続き使用することができます。 従来のアプローチと[!DNL Target]のアプローチは、mboxを保持し、ヘッダーにJavaScript コードを使用して、ページ上の他の要素に対して[!DNL Recommendations]機能を有効にすることで、組み合わせることもできます。 ただし、[!DNL Target]の機能をすべて利用するには、[!DNL Recommendations Classic]人のユーザーが古いmboxを削除し、[!DNL Target Recommendations]のみに依存することを希望する場合があります。
 
-[!DNL Target] の [!DNL Recommendations] アクティビティは、主に次の点で [!DNL Recommendations Classic] より強化されています。
+[!DNL Target]の[!DNL Recommendations] アクティビティは、次の主な領域の[!DNL Recommendations Classic]に改善されます。
 
-## オファーとしてのレコメンデーション
+## オファーとしてのレコメンデーション {#recs-as-offer}
 
-[!UICONTROL A/B テスト &#x200B;] （[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット &#x200B;]を含む）および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができます。
+推奨事項は、[!UICONTROL A/B テスト ] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット ]を含む）および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティに含めることができます。 これにより、同じアクティビティ内のレコメンデーションや非レコメンデーションのコンテンツなどをテストおよびターゲティングできます。 詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
 
-この機能により、次のようなことがおこなえるようになります。
+## 条件 {#criteria-comparison}
 
-* 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
-* 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
-* [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
-* [!UICONTROL 自動ターゲット &#x200B;]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
+[!DNL Target Recommendations]には、事前パッケージ化されたルールと設定のセットを含む条件ライブラリが含まれています。 [!DNL Recommendations Classic]では、各レコメンデーションは、フォームに入力し、多くのルールのリストから選択して、手動で作成されました。 [!DNL Recommendations] アクティビティが作成されると、事前設定済みの基準セットが選択されます。 カスタムレコメンデーションは引き続き作成できますが、基準ライブラリには、最も一般的な設定の多くが含まれており、プロセスを簡素化し、人々が理解できる言語を使用するように事前に構築されています。 プリパッケージされた条件は、そのまま使用することも、特定のニーズに合わせてコピーして編集することもできます。
 
-開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
+![人々が理解する言語、ルールとロジック、および](assets/overview_criteria.png)というラベルが付いた設定を含む基準カードのアップセルを示すスライド
 
-詳しくは、[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)をご覧ください。
-
-## 条件 {#section_117709846DAA404580EBE879FFCBD9BA}
-
-[!DNL Target Recommendations] には、事前にパッケージ化された一連のルールや設定を含む条件ライブラリが含まれています。 [!DNL Recommendations Classic] では、フォームへの入力や大量のルール一覧からの選択によって、各レコメンデーションを手動で構築していました。 今は、事前に設定された条件セットから選択するだけで、[!DNL Recommendations] アクティビティを作成できるようになっています。 現在もカスタムのレコメンデーションを作成することもできますが、条件ライブラリには、プロセスをシンプルにするために事前に構築され、理解できる言語が使用されているたくさんの一般的な設定が含まれています。 こういった事前にパッケージ化された条件は、そのまま使用することも、特別なニーズに合わせてコピーして編集することもできます。
-
-![overview_criteria image](assets/overview_criteria.png)
-
-条件は事前に設定されており、業種、ページタイプ、実装によって分類されています。 例えば、小売業界に適用され、製品ページに使用して、特定のカテゴリ（`entity.categoryID` パラメーターで定義されているもの）の製品を表示するための条件を探すことができます。
+条件は事前に設定されており、業種、ページタイプ、実装によって分類されています。 たとえば、小売の垂直方向に適用される基準は、特定のカテゴリ内の製品（`entity.categoryID` パラメーターで定義）を表示する製品ページで使用できます。
 
 作成した条件の使用について詳しくは、[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
-## ワークフロー {#section_76B4A26297BF422382DE2C79A2713D3C}
+## ワークフロー {#workflow-comparison}
 
-[!DNL Recommendations] のワークフローはシンプルになりました。 複雑なフォームに入力する代わりに、次のような視覚的なワークフローを実行します。
+[!DNL Recommendations] ワークフローが簡略化されています。 視覚的なワークフローでは、複雑なフォームではなく、次の手順に従います。
 
 1. 条件を選択します。
-1. 事前設定済みの[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)を選択します。
+1. 事前設定済みの[ デザイン ](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)を選択します。
 1. レコメンデーションの結果をプレビューします。
 
-## プレビュー表示 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## プレビュー表示 {#visual-preview}
 
-レコメンデーションを設定した後、ページ上にレコメンデーションを作成してテストをおこなう必要はありません。そのままプレビューして必要な変更をおこなうことができます。 プレビューは、[!DNL Target] の内部でおこなうことができます。
+レコメンデーションは設定後にプレビューでき、必要な変更を行うこともできます。ページにレコメンデーションを作成してからテストする必要はありません。 プレビューは、[!DNL Target] の内部でおこなうことができます。
 
-## ターゲティング {#section_93295EA0DBA14210B8518AF4802A459F}
+## ターゲティング {#targeting-comparison}
 
-[!DNL Recommendations Classic] には、6 つのターゲティングオプションがありました。 レコメンデーションアクティビティでは、Target の完全なターゲティングオプションを利用できます。 [!DNL Target] または他の [!DNL Adobe Experience Cloud] オーディエンス（[!DNL Audience Manager] や [!DNL Analytics] など）を使用してオーディエンスを定義し、各デザインを表示するアクティビティ参加者の割合と、コントロールを表示する割合を選択します。
+[!DNL Recommendations Classic]には6つのターゲティングオプションがありました。 [!DNL Recommendations]件のアクティビティでは、[!DNL Target]件のターゲティングオプションの全範囲が使用されます。 オーディエンスは、[!DNL Target]またはその他[!DNL Adobe Experience Cloud]個のオーディエンス（[!DNL Audience Manager]や[!DNL Analytics]など）を使用して定義されます。 各デザインを表示するアクティビティ参加者の割合と、コントロールを表示する割合が選択されます。
 
-![overview_targeting image](assets/overview_targeting.png)
+![すべての訪問者オーディエンス、アップセル基準、各トラフィックの30%を含む3つのデザイン、およびレコメンデーションなしコントロール グループを含むフロー図](assets/overview_targeting.png)
 
-## レポート {#section_25C2FCCE4BC1488496C517C0470B5CD6}
+## レポート {#reporting-comparison}
 
-[!DNL Target] の [!DNL Recommendations] では、[!DNL Target] や [!DNL Experience Cloud] の機能を活用する強化されたレポートを利用できます。 [!DNL Recommendations] を使用しない場合と比較した上昇分を単に表示するのではなく、[!DNL Recommendations] アクティビティの完全な情報を表示できます。
+[!DNL Target]では、[!DNL Recommendations]さんが、[!DNL Target]と[!DNL Experience Cloud]の機能を活用した改善されたレポートを提供しています。 レポートには、[!DNL Recommendations]が提供する上昇率のみを表示する代わりに、[!DNL Recommendations] アクティビティに関する完全な情報が表示されます。
 
-![overview_report image](assets/overview_report.png)

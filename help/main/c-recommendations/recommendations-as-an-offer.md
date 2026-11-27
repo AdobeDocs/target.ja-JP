@@ -18,117 +18,91 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 60%
+ht-degree: 17%
 ---
-# オファーとしてのレコメンデーション
+# オファーとしてのレコメンデーション {#recommendations-as-an-offer}
 
-[!UICONTROL A/B テスト &#x200B;] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット &#x200B;]を含む）および[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] （XT）アクティビティ内に推奨事項を含めることができるようになりました。
+>[!BEGINSHADEBOX]
 
-この機能により、次のようなことがおこなえるようになります。
+**このページ：**&#x200B;では、[!UICONTROL A/B テスト ]および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティで、オファーとしてレコメンデーションを追加、編集、削除する方法について説明します。
+
+>[!ENDSHADEBOX]
+
+[!UICONTROL Recommendations] アクティビティに加えて、[!UICONTROL A/B テスト ] （[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット ]を含む）および[!UICONTROL  エクスペリエンスのターゲット設定] （XT）アクティビティにレコメンデーションを含めることができます。 これにより、次のことが可能になります。
 
 * 同じアクティビティ内のレコメンデーションと非レコメンデーションのコンテンツをテストおよびターゲット設定します。
-* 複数のレコメンデーションの順序など、レコメンデーションのページ配置を簡単に試行します。
-* [!UICONTROL 自動配分]を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
-* [!UICONTROL 自動ターゲット &#x200B;]を使用して、プロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
+* 複数のレコメンデーションの順序を含め、ページ上のレコメンデーションの配置を試します。
+* **[!UICONTROL 自動配分]**&#x200B;を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
+* **[!UICONTROL 自動ターゲット]**&#x200B;を使用して、プロファイルに基づいてカスタマイズされたレコメンデーション エクスペリエンスに訪問者を動的に割り当てます。
 
-開始するには、[!UICONTROL Visual Experience Composer]を使用して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL Experience Targeting] アクティビティを作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後に挿入]または[!UICONTROL 後に置換] アクションを使用して、エクスペリエンスに推奨事項を追加します。
+## レコメンデーションをオファーとして追加 {#add-recs-offer}
 
-## Recommendations をオファーとして A/B テストまたは XT アクティビティに追加する
+[!UICONTROL A/B テスト ]またはXT アクティビティで[!UICONTROL Visual Experience Composer] （VEC）を使用してエクスペリエンスを作成する際に、レコメンデーションがオファーとして追加されます。
 
-1. [A/B テスト](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)または[エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)（XT）アクティビティを作成するには、Visual Experience Composer（VEC）を使用して 3 ステップのガイドによるワークフローを開始します。
+1. VECの3段階のガイド付きワークフローを開始して、[A/B テスト ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)または[ エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) （XT） アクティビティを作成します。
 
    >[!NOTE]
    >
-   >A/B テストの場合、パフォーマンスが最も高いレコメンデーションにトラフィックを自動的にプッシュする[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされたレコメンデーションエクスペリエンスに動的に割り当てる[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)オプションを選択できます。
+   >A/B テストの場合、[自動割り当て](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) オプションは、トラフィックを最もパフォーマンスの高いレコメンデーションに自動的にプッシュし、[自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) オプションは、訪問者のプロファイルに基づいて、カスタマイズされたレコメンデーション エクスペリエンスに訪問者を割り当てます。
 
-1. [&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を作成する際に、オファーとしてレコメンデーションを追加する要素をクリックし、**[!UICONTROL コンテンツを置換]**&#x200B;をクリックしてから、**[!UICONTROL レコメンデーション]**&#x200B;を選択します。
+1. [ エクスペリエンス ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、次のいずれかの方法でレコメンデーションをオファーとして追加します。
 
-   ![Recommendations をオファーとして挿入](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
+   * レコメンデーションを追加する要素をクリックし、**[!UICONTROL コンテンツを置換]**&#x200B;をクリックしてから、**[!UICONTROL レコメンデーション]**&#x200B;を選択します。
 
-1. ページタイプ別の一般的なレコメンデーション条件を表示するには、次のオプションから選択します。
+     ![見出しを選択したVisual Experience Composer。HTMLのオファーオプションとエクスペリエンスフラグメントオプションの横にある「おすすめ」オプションがメニューに強調表示されている](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
-   * 買い物かごページ
-   * カテゴリページ
-   * ホームページ
-   * ランディングページ
-   * 製品ページ
-   * 検索結果ページ
-   * 「ありがとうございます」ページ
-   * その他
+   * **[!UICONTROL コンポーネント]** パネルで、**[!UICONTROL 動的]**&#x200B;の下の&#x200B;**[!UICONTROL 推奨事項]**&#x200B;を選択し、ページ上の既存の要素にカーソルを合わせ、**[!UICONTROL 前に挿入]**&#x200B;または&#x200B;**[!UICONTROL 後に挿入]**&#x200B;をクリックして、その要素の前後に推奨事項を配置します。
 
-1. 目的の[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を選択し、[!UICONTROL 次へ]をクリックします。
-1. 目的の[&#x200B; デザイン &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択し、[!UICONTROL 次へ]をクリックします。
-1. [!UICONTROL &#x200B; オプション &#x200B;] ダイアログボックスで、次の項目を指定します。
+1. **[!UICONTROL プロパティを表示]** メニューにアクセスし、**[!UICONTROL 推奨事項を選択]**&#x200B;をクリックします。
+
+1. 目的の[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
+
+1. 目的の[ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md)を選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
+
+1. **[!UICONTROL オプション]** ダイアログボックスで、次の項目を指定します。
 
    * [コレクション](/help/main/c-recommendations/c-products/collections.md)を選択します。
-   * 必要に応じて、[プロモーション - 前とプロモーション - 後](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)オプションを設定します。
+   * 必要に応じて、[ フロントプロモーションとバックプロモーション ](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)のオプションを設定します。
 
-1. 「[!UICONTROL Save]」をクリックします。
-1. 3 ステップのガイドによるワークフローを使用して、A/B テストまたは XT アクティビティの設定を完了します。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
-## レコメンデーションオファーの設定の編集
+1. 3段階のガイド付きワークフローを使用して、[!UICONTROL A/B テスト ]またはXT アクティビティの設定を完了します。
 
-オファーの設定を編集するには、次の 2 つの方法があります。
+## レコメンデーションオファーの編集 {#edit-recs-offer}
 
-* [!UICONTROL 編集] メニューの使用
-* [!UICONTROL 変更] パネルの使用
+レコメンデーションオファーの基準、デザイン、コレクション、およびプロモーションは、オファーが追加された後、**[!UICONTROL Recommendation]** ペインから変更できます。
 
-### 編集メニューを使用したレコメンデーションオファーの編集
+1. オファーをクリックして編集し、右側のペインメニューのオプションを参照します。
 
-1. 編集するオファーをクリックし、**[!UICONTROL 編集]**&#x200B;をクリックします。
+   ![条件、デザイン、コレクション名と、選択したオファーの「プロモーションを追加」ボタンが表示されたレコメンデーションペイン ](assets/create_reco_7.png)
 
-   ![レコメンデーションオファーの編集](/help/main/c-recommendations/assets/recs-offer-edit.png)
-
-1. 次のオプションから選択します。
+1. 次のいずれかのオプションを選択します。
 
    * [条件を変更](/help/main/c-recommendations/c-algorithms/algorithms.md)
    * [デザインを変更](/help/main/c-recommendations/c-design-overview/design-overview.md)
    * [コレクションを変更](/help/main/c-recommendations/c-products/collections.md)
    * [プロモーションを変更](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)
 
-1. 編集をおこないます。
+1. 編集を行います。
 
-### 変更パネルを使用したレコメンデーションオファーの編集
+## レコメンデーションオファーの削除 {#delete-recs-offer}
 
-1. [!UICONTROL 変更] アイコン **（`</>`）**&#x200B;をクリックして、[変更](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) ペインを表示します。
-1. 目的のアクションにカーソルを合わせて、**[!UICONTROL 編集]** アイコンをクリックします。
+不要になったレコメンデーションオファーは、**[!UICONTROL Recommendation]** ペインから削除できます。
 
-   ![変更パネル](/help/main/c-recommendations/assets/recs-offer-modifications.png)
+削除するオファーをクリックし、**[!UICONTROL Recommendation]** ペインのbin アイコン（![Bin アイコン ](assets/Smock_Delete_18_N.svg)）をクリックします。
 
-1. 編集をおこないます。
+![bin アイコンがハイライト表示されたレコメンデーションペイン ](assets/create_reco_8.png)
 
-## レコメンデーションオファーの削除
+## レコメンデーションオファーのステータスの表示 {#status}
 
-レコメンデーションオファーを削除するには、次の 2 つの方法があります。
+レコメンデーションオファー（アルゴリズム）のステータスは、[!UICONTROL A/B テスト ]およびレコメンデーションオファーを含むXT アクティビティの&#x200B;**[!UICONTROL 概要]** ページの下部に表示されます。 ステータスは次のいずれかです。
 
-* [!UICONTROL 編集] メニューの使用
-* [!UICONTROL 変更] パネルの使用
-
-### 編集メニューを使用したレコメンデーションオファーの削除
-
-1. 削除するオファーをクリックし、**[!UICONTROL レイアウト/削除]**&#x200B;をクリックします。
-
-   ![削除](/help/main/c-recommendations/assets/recs-offer-remove.png)
-
-### 変更パネルを使用したレコメンデーションオファーの削除
-
-1. [!UICONTROL 変更] アイコン **（&lt;/>）**&#x200B;をクリックして、[変更](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) ペインを表示します。
-1. 目的のアクションにカーソルを合わせて、[!UICONTROL 削除] アイコンをクリックします。
-
-   ![削除アイコン](/help/main/c-recommendations/assets/recs-offer-delete.png)
-
-### レコメンデーションオファーのステータスの表示 {#status}
-
-Recommendations オファー（アルゴリズム）のステータスは、Recommendations オファーを含むA/B テストおよびXT アクティビティの[!UICONTROL 概要] ページの下部に表示されます。
-
-* 結果の準備ができました
-* 結果の準備ができていません
-* フィードエラー
-
-![レコメンデーションオファーステータス](/help/main/c-recommendations/assets/recs-offer-status.png)
+* **[!UICONTROL 結果の準備完了]**
+* **[!UICONTROL 結果の準備ができていません]**
+* **[!UICONTROL フィード失敗]**
 
 ## トレーニングビデオ：オファーとしてのレコメンデーション![概要バッジ](/help/main/assets/overview.png)
 
