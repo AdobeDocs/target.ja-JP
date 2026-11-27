@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 67%
@@ -35,7 +35,7 @@ ht-degree: 67%
 
 **条件を選択するには：**
 
-1. [新しいレコメンデーションの作成中](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)、**[!UICONTROL 条件を選択]** ダイアログボックスで、1つ以上の条件を見つけて選択します。
+1. [新しいレコメンデーションの作成中](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity)、**[!UICONTROL 条件を選択]** ダイアログボックスで、1つ以上の条件を見つけて選択します。
 
    [!UICONTROL 業種タイプ &#x200B;] フィルター、[!UICONTROL &#x200B; ページ タイプ &#x200B;] フィルター、および[!UICONTROL 互換性] チェックボックスを使用して、条件のリストをフィルターできます。 これらのオプションは、目的の条件を探すのに役立ちます。
 

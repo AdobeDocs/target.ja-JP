@@ -18,82 +18,77 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 73%
+source-wordcount: '624'
+ht-degree: 11%
 ---
-# ブラウザーで混在したコンテンツを有効化する
+# ブラウザーでの混在コンテンツの有効化 {#mixed-content}
 
-混在コンテンツは、最初のリクエストが HTTPS で保護されているが、Web ページを表示するために HTTPS コンテンツ&#x200B;*と* HTTP コンテンツが読み込まれる場合に発生します。 HTTPS コンテンツはセキュリティで保護されています。 HTTP コンテンツは安全ではありません。
+>[!BEGINSHADEBOX]
 
-安全なコンテンツと安全でないコンテンツが混在している場合、最新のブラウザーではページの表示がブロックされたり、警告メッセージが表示されたりする場合があります。
+**このページ：**&#x200B;混在コンテンツを[!DNL Google Chrome]、[!DNL Mozilla Firefox]、[!DNL Microsoft Edge]で有効にして、**[!UICONTROL Visual Experience Composer]** （VEC）で混在コンテンツを含むHTTP サイトとサイトを開く方法を説明します。
 
-[!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] （VEC）が混在コンテンツを含むページを開こうとすると、警告メッセージが表示されます。 このメッセージでは、ブラウザーでブロックを無効にする方法を示します。 ブロックを無効にすると、HTTP サイトまたは（HTTPS と HTTP の）コンテンツが混在するサイトを開くことができます。
+>[!ENDSHADEBOX]
 
-![混在コンテンツの警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+ページには、HTTPS経由で安全にリクエストされた場合に混在コンテンツが含まれますが、HTTPSとHTTP コンテンツの両方が読み込まれます。 HTTPS コンテンツは安全ですが、HTTP コンテンツは安全ではないため、最新のブラウザーでは、そのようなページをブロックしたり、警告メッセージを表示したりする可能性があります。
 
-以前までは、このような混在コンテンツが許可されていない場合でも、アクティビティの作成時に、3 ステップのガイドによるワークフローのステップ 1 については一部の操作を実行することができました。 [!DNL Target] では、ステップ 1 の操作がブロックされるようになりました。 このメッセージが表示された場合は、混合コンテンツを許可しないとアクティビティの作成を続行できません。
+[!DNL Adobe Target]の&#x200B;**[!UICONTROL Visual Experience Composer]** （VEC）が混在コンテンツを含むページを開こうとすると、ブラウザーでブロッキングを無効にする指示を含む警告メッセージが表示されます。 ブロッキングを無効にすると、HTTP サイトまたは混在コンテンツ（HTTPSとHTTP）を持つサイトを開くことができます。
 
-ブラウザーのセキュリティ設定によって、混合コンテンツや安全でない（HTTP）コンテンツが、安全な（HTTPS）ページやフレーム（VEC など）に読み込まれないようにブロックされている場合があります。 ブラウザーのセキュリティ設定を無効にしない場合は、HTTPS サイトが必要です。
+![&#x200B; ブラウザーの再読み込みプロンプトのイラストの横に、ブラウザースクリプトの読み込みを許可する必要があるというメッセージが表示されたアクティビティ作成ページ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
-Web サイトが安全でない（HTTP）ドメインで実行されている場合は、VEC によるアクティブな混在コンテンツの読み込みを許可する必要があります。
+以前は、3段階のガイド付きワークフローの手順1の一部のアクションは、混在コンテンツが許可されていない場合でも使用できたままでした。 [!DNL Target]は、手順1のすべてのアクションをブロックするようになりました。アクティビティの作成を続行するには、混在コンテンツを有効にする必要があります。
+
+ブラウザーのセキュリティ設定により、VECなどのセキュア（HTTPS）ページまたはフレームに読み込まれる安全でない（HTTP）コンテンツがブロックされる場合があります。 これらの設定を変更する代わりに、HTTPS web サイトを使用します。 Web サイトが安全でない（HTTP） ドメインで実行されている場合、VECはアクティブな混在コンテンツの読み込みを許可する必要があります。
 
 >[!IMPORTANT]
 >
->混在コンテンツの許可によって影響が生じるのは VEC のみです。ライブ web サイトには影響しません。
+>混在コンテンツを許可すると、VECにのみ影響し、ライブ web サイトには影響しません。
 
 詳しくは、*Mozilla Developer Network*（MDN）の Web サイトにある[混在コンテンツ](https://developer.mozilla.org/ja/docs/Web/Security/Mixed_content)を参照してください。
 
-## [!DNL Google Chrome] で混在したコンテンツを有効にする {#task_FF297A08F66E47A588C14FD67C037B3A}
+## [!DNL Google Chrome]で混在コンテンツを有効にする
 
-安全な接続を介してサイトを訪問している場合、[!DNL Chrome]は、Web ページ上のコンテンツが安全に送信されたことを確認します。
+[!DNL Chrome]は、安全な接続を通じて要求されたページのコンテンツが安全に送信されたかどうかを確認します。 Google Chrome ヘルプの[安全でないサイトに関する警告の管理](https://support.google.com/chrome/answer/99020?hl=ja)を参照してください。
 
-Google Chrome ヘルプの[安全でないサイトに関する警告の管理](https://support.google.com/chrome/answer/99020?hl=ja)を参照してください。
-
-最新バージョンの [!DNL Chrome]（バージョン 79.0.3945.117 以降）で VEC を使用している場合は、サイト設定を更新する必要があります。 サイトの訪問者は、これらの手順を完了する必要はありません。
+最新バージョンの[!DNL Chrome] （バージョン 79.0.3945.117以降）でVECを使用するには、次のようにサイト設定を更新します。 サイトへの訪問者は、これらの手順を完了する必要はありません。
 
 1. ロック（注意）アイコンをクリックし、**[!UICONTROL サイト設定]**&#x200B;をクリックします。
 
-   ![サイト設定](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+   ![接続メニューが開き、サイト設定がハイライト表示されたChromeのアドレスバー](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. **[!UICONTROL 安全でないコンテンツ]**&#x200B;までスクロールし、ドロップダウンリストを使用して「ブロック（デフォルト）」を「許可」に変更します。
+1. **[!UICONTROL 安全でないコンテンツ]**&#x200B;で、ドロップダウンリストの「ブロック（デフォルト）」を「許可」に変更します。
 
-   ![安全でないコンテンツ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+   ![安全でないコンテンツ ドロップダウンを開き、選択したコンテンツを許可する](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)のChrome サイト設定
 
 1. VEC ページをリロードします。
 
-## [!DNL Mozilla Firefox] で混在したコンテンツを有効にする {#task_5448763B8DC941FD80F84041AEF0A14D}
+## [!DNL Mozilla Firefox]で混在コンテンツを有効にする
 
-[!DNL Firebox] では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。 この設定は、[!DNL Target] を使用するように永続的に変更することをお勧めします。 サイトの訪問者は、これらの手順を完了する必要はありません。
+既定では、[!DNL Firefox]は安全でないコンテンツを混在させるページをブロックするので、[!DNL Target]を使用するには、この設定を完全に変更する必要があります。 サイトへの訪問者は、これらの手順を完了する必要はありません。
 
-1. Firefox で、アドレスバーに「`about:config`」と入力します。
-1. [!DNL Firefox] で表示される警告メッセージを確認します。
+1. [!DNL Firefox]に、アドレスバーに`about:config`と入力します。
+1. [!DNL Firefox]が表示する警告メッセージを確認します。
 
-   ![Firefox 警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
+   ![&#x200B; リスクを受け入れて続行ボタンを使用して、約:configの注意警告ページを読み進める](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
-1. 検索バーに「`block_active`」と入力 します。
+1. 検索バーに`block_active`と入力します。
 
-   ![Firefox block_active 設定](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   security.mixed_content.block_active_contentがtrue![&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)に設定されているblock_activeをFirefox about:config検索
 
-1. ` **[!UICONTROL security.mixed_content.block_active_content]**` をダブルクリックします。
+1. `security.mixed_content.block_active_content`をダブルクリックします。
 
-   値を「True」から「False」に変更します。 値が「False」と表示されたら、完了です。
+   値が「True」から「False」に変更されます。 値が「False」の場合、変更は完了します。
 
-   ![Firefox のセキュリティ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
+   security.mixed_content.block_active_contentがfalse![&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)に設定されていることを示すFirefox about:config
 
 1. この設定を変更した後、コンピューターを再起動します。
 
-## [!DNL Microsoft Edge] で混在したコンテンツを有効にする
+## [!DNL Microsoft Edge]で混在コンテンツを有効にする
 
-安全な接続を介してサイトを訪問している場合、[!DNL Edge]は、Web ページ上のコンテンツが安全に送信されたことを確認します。
+[!DNL Edge]は、安全な接続を通じて要求されたページのコンテンツが安全に送信されたかどうかを確認します。 最新バージョンの[!DNL Edge]でVECを使用するには、次のようにサイト設定を更新します。 サイトへの訪問者は、これらの手順を完了する必要はありません。
 
-最新バージョンの [!DNL Edge] で VEC を使用している場合は、サイト設定を更新する必要があります。 サイトの訪問者は、これらの手順を完了する必要はありません。
-
-1. [!DNL Edge]で、メニューバーの&#x200B;**[!DNL Microsoft Edge]**、**[!UICONTROL 設定]**&#x200B;をクリックし、**Cookieとサイト権限**&#x200B;をクリックします。
-
-1. **[!UICONTROL 安全でないコンテンツ]**&#x200B;までスクロールします。
-
-1. **[!UICONTROL 安全でないコンテンツ]**&#x200B;をクリックし、**[!UICONTROL 許可]**&#x200B;の横にある&#x200B;**[!UICONTROL 追加]**&#x200B;をクリックし、安全でないコンテンツを許可するサイトを追加してから、**[!UICONTROL 追加]**&#x200B;をクリックします。
-
+1. [!DNL Edge]で、メニューバーの&#x200B;**[!DNL Microsoft Edge]**&#x200B;をクリックし、**[!UICONTROL 設定]**&#x200B;をクリックしてから、**Cookieとサイト権限**&#x200B;をクリックします。
+1. **[!UICONTROL 安全でないコンテンツ]**&#x200B;までスクロールして、クリックします。
+1. **[!UICONTROL 許可]**&#x200B;の横にある&#x200B;**[!UICONTROL 追加]**&#x200B;をクリックし、安全でないコンテンツを許可するサイトを入力してから、**[!UICONTROL 追加]**&#x200B;をクリックします。
 1. VEC ページをリロードします。

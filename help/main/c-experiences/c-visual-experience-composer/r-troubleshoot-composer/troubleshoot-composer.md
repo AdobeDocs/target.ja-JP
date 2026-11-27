@@ -20,23 +20,27 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 61%
+source-wordcount: '276'
+ht-degree: 3%
 ---
-# [!UICONTROL Visual Experience Composer]と[!UICONTROL 拡張Experience Composer]のトラブルシューティングを開始します
+# [!UICONTROL Visual Experience Composer]と[!UICONTROL 拡張Experience Composer]のトラブルシューティングを開始します {#troubleshoot-composer}
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）と[!UICONTROL Enhanced Experience Composer] （EEC）で、特定の条件で表示の問題が発生することがあります。
+>[!BEGINSHADEBOX]
 
-VEC は [!DNL Adobe Target] の主要機能の 1 つです。 マーケティング担当者やデザイナーが視覚的なインターフェイスを使用して、コンテンツを作成および変更できるエディターです。 コードを直接編集することなく、多くのデザインの選択肢を作成できます。 コンポーザーで利用可能な編集オプションを使用すれば、HTML および JavaScript の編集も可能です。
+**このページで：** **[!UICONTROL Visual Experience Composer]** （VEC）と&#x200B;**[!UICONTROL Enhanced Experience Composer]** （EEC）の問題のトラブルシューティングに使用するページを説明します。
 
-EEC は VEC の拡張機能で、まだ Target 実装に含まれていない iframe バスティングサイトまたはページのエクスペリエンスの編集を支援します。 VEC でページを開こうとすると問題が発生する場合は、EEC を試してください。
+>[!ENDSHADEBOX]
 
-VECとEECについて詳しくは、[&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
+[!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** （VEC）と&#x200B;**[!UICONTROL Enhanced Experience Composer]** （EEC）で、特定の条件で表示の問題が発生することがあります。
 
-VEC と EEC の両方に影響する問題と、これら 2 つのコンポーザーのうち 1 つのみに影響する問題があることに注意してください。 詳しくは、該当するページを参照してください。
+VEC は [!DNL Adobe Target] の主要機能の 1 つです。 マーケターやデザイナーがビジュアルインターフェイスでコンテンツを作成および変更できるエディターであり、コードを編集することなく多くのデザインを選択できます。 HTMLとJavaScriptは、コンポーザーで使用できる編集オプションを使用して編集することもできます。
 
-* [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+EECは、iframe-busting サイトまたは[!DNL Target]実装がまだ含まれていないページでエクスペリエンスを編集するためのVECの拡張機能です。 VECでページを開くことができない場合は、EECを試してください。 VECとEECについて詳しくは、[&#x200B; エクスペリエンス &#x200B;](/help/main/c-experiences/experiences.md#experiences-overview)を参照してください。
+
+いくつかの問題は両方のコンポーザーに影響を与え、一部の問題は両方のコンポーザーのみに影響します。 問題に一致するページを確認します。
+
+* [Visual Experience Composerと拡張Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)に関する問題のトラブルシューティング：両方のコンポーザーに影響する問題。
+* [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)に関する問題のトラブルシューティング：VECのみに影響する問題。
+* [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)に関する問題のトラブルシューティング：EECのみに影響する問題。

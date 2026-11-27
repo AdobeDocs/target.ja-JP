@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 ## 統合によって可能になること {#what-it-enables}
 
-**[!UICONTROL Scene7設定]**&#x200B;を設定すると、作成者は[!DNL Target]のアクティビティで[!DNL Adobe Experience Cloud] アセットフォルダーにアップロードされた画像を使用できます。 **[!UICONTROL Swap Image offer]** オプションは、[Visual Experience Composerおよびフォームベース Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を含むアクティビティワークフローに表示されます。 VECでのスワップ動作については、[Visual Experience Composerのオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+**[!UICONTROL Scene7設定]**&#x200B;を設定すると、作成者は[!DNL Target]のアクティビティで[!DNL Adobe Experience Cloud] アセットフォルダーにアップロードされた画像を使用できます。 **[!UICONTROL Swap Image offer]** オプションは、[Visual Experience Composerおよびフォームベース Experience Composer](/help/main/c-experiences/experiences.md#experiences-overview)を含むアクティビティワークフローに表示されます。 VECでのスワップ動作については、[Visual Experience Composerのオプション &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
 この設定が設定されていない場合、**[!UICONTROL スワップ画像オファー]**&#x200B;はアクティビティの作成中に使用できません。
 

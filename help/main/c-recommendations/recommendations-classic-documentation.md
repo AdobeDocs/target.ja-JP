@@ -19,21 +19,25 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 55%
+source-wordcount: '126'
+ht-degree: 13%
 ---
-# レコメンデーション Classic ドキュメント
+# レコメンデーション Classic ドキュメント {#recs-classic-documentation}
 
-[!DNL Recommendations Classic] は、Web サイトでの以前のユーザーアクティビティに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、従来の[!DNL Recommendations]製品である[!DNL Recommendations Classic]のドキュメントを見つけます。
+
+>[!ENDSHADEBOX]
+
+[!DNL Recommendations Classic]は、web サイトでの以前のユーザーアクティビティに基づいて、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。 こうしたレコメンデーションは、顧客が未知の商品を提案し、web サイトでの売上を向上させるのに役立ちます。
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなりました。 最高の[!DNL Recommendations]体験を得るには、[Adobe Target Premium](/help/main/c-intro/intro.md)で利用可能な[!DNL Recommendations] アクティビティにアップグレードしてください。
+>[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなりました。 最高の[!DNL Recommendations]体験を得るには、[Adobe Target Premium](/help/main/c-intro/intro.md)で利用できる[!DNL Recommendations] アクティビティにアップグレードしてください。
 
-レコメンデーションを使用すると、顧客が知らなかった品目を表示し、web サイトの売上を促進できます。
+[!DNL Target Premium]の[!DNL Recommendations Classic]と[!DNL Recommendations]のアクティビティを選択するには、[Recommendations ClassicとTarget PremiumのRecommendations アクティビティの比較](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)を参照してください。
 
-[!DNL Target Premium]の[!DNL Recommendations Classic]と[!DNL Recommendations]のアクティビティを選択する際に役立つ情報については、「[Recommendations ClassicとTarget PremiumのRecommendations アクティビティの比較](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)」を参照してください。
-
-[Adobe レコメンデーション Classic](/help/main/assets/adobe-recommendations-classic.pdf) のドキュメントは PDF 形式でダウンロードできます。
+[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)のドキュメントは、PDF形式でダウンロードできます。

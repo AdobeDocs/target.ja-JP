@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 11%
@@ -88,7 +88,7 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## アクティビティでのコレクションの使用
+## アクティビティでのコレクションの使用 {#use-collection}
 
 コレクションは、[!DNL Recommendations] アクティビティの各エクスペリエンスに対して選択されます。 コレクションは、そのエクスペリエンスのレコメンデーションに表示できるアイテムを決定します。
 

@@ -27,155 +27,136 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 29%
+source-wordcount: '1218'
+ht-degree: 13%
 ---
-# [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer]に関する問題のトラブルシューティング
+# [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]および[!UICONTROL 拡張Experience Composer]に関する問題のトラブルシューティング {#vec-eec-issues}
 
-[!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）および[!UICONTROL Enhanced Experience Composer] （EEC）で、特定の条件の下で表示の問題やその他の問題が発生することがあります。
+>[!BEGINSHADEBOX]
 
-## Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？ {#samesite}
+**このページ：**&#x200B;では、**[!UICONTROL Visual Experience Composer]** （VEC）と&#x200B;**[!UICONTROL Enhanced Experience Composer]** （EEC）の両方に影響する問題を解決する方法について説明します。
 
-+++詳細
-次の[!DNL Chrome] リリースを使用する場合は、VECおよびEECに影響を与える変更に注意してください。
+>[!ENDSHADEBOX]
+
+[!DNL Target] **[!UICONTROL Visual Experience Composer]** （VEC）および&#x200B;**[!UICONTROL Enhanced Experience Composer]** （EEC）で、特定の条件の下で表示の問題やその他の問題が発生することがあります。 次の項目では、両方のコンポーザーに影響を与える問題とその解決方法について説明します。
+
+## ブラウザーとセキュリティ
+
+### Google Chrome SameSite cookie ポリシー {#samesite}
+
+[!DNL Google Chrome]のSameSite Cookie適用ポリシーは、次のリリースのVECおよびEECに影響します。
 
 >[!NOTE]
 >
->次の変更は、以下に概説する3つの更新すべてに影響します。
->
-> * *not*&#x200B;様は、[VEC Helper拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)がインストールされていて、サイトのパスワードで保護されたページに対して有効になっていなくても、VECを使用できます。 サイトのログイン Cookieは3rd パーティ Cookieと見なされ、[!UICONTROL 参照] モードでVEC エディター内のログイン リクエストと共に送信されません。 唯一の例外は、サイトログイン Cookieに`SameSite=None`と`Secure`の属性が既に設定されている場合です。
+>次の変更は、3つのリリースすべてに適用されます。 VECは、[VEC Helper拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)がインストールされて有効になっていない限り、サイトのパスワードで保護されたページでは使用できません。 サイトのログイン Cookieはサードパーティ Cookieと見なされるため、**[!UICONTROL 参照]** モードでVEC エディター内のログイン リクエストで送信されません。 唯一の例外は、ログイン Cookieに既に`SameSite=None`属性と`Secure`属性が設定されている場合です。
 
-**Chrome 94 （2021年9月21日）**: Chrome 94 リリース（2021年9月21日）に予定されている差し迫った変更により、次の変更は、Chrome 94以降のブラウザー版を使用しているすべてのユーザーに影響します。
+* **Chrome 94 （2021年9月21日）:** Chrome 94以降のすべてのユーザーに対して、コマンドラインフラグ `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`が削除されました。
+* **Chrome 91 （2021年5月25日）:** Chrome 91以降のすべてのユーザーについて、フラグ `#same-site-by-default-cookies`と`#cookies-without-same-site-must-be-secure`が`chrome://flags`から削除されました。 このビヘイビアーはデフォルトで有効になりました。
+* **Chrome 80 （2020年8月）:** Chrome 80以降を使用しているすべてのユーザー：
 
-* コマンドラインフラグ `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`が削除されます。
+  * アクティビティがサイト上にない場合、アクティビティの編集中に[!DNL Target] ライブラリをダウンロードできません。 ダウンロードコールは、顧客ドメインから保護された[!DNL Adobe] ドメインに対して実行され、未認証として拒否されます。
+  * EECは機能しません。`adobemc.com` ドメインのCookieにSameSite属性を設定できません。 この属性がないと、ブラウザーはこれらのCookieを拒否し、EECが失敗します。
 
-**Chrome 91 （2021年5月25日）**: Chrome 91 リリース（2021年5月25日）に対する変更が実装された場合、次の変更は、Chrome 91以降のブラウザー版を使用しているすべてのユーザーに影響します。
++++ ブロックするCookieを決定
 
-* フラグ `#same-site-by-default-cookies`と`#cookies-without-same-site-must-be-secure`が`chrome://flags`から削除されました。 このビヘイビアーはデフォルトで有効になりました。
+SameSite cookie適用ポリシーによってブロックされているCookieを判断するには、[!DNL Chrome]の[!DNL Developer Tools]を使用します。
 
-**Chrome 80 （2020年8月）**:2020年8月に導入された変更により、Chrome 80以降のブラウザー版を使用しているすべてのユーザー：
-
-* アクティビティの編集中に、*not*&#x200B;は[!DNL Target] ライブラリをダウンロードできます（これらのライブラリがサイト上にない場合）。 これは、ダウンロードコールが顧客ドメインから保護された[!DNL Adobe] ドメインに向けて行われ、未認証として拒否されるためです。
-
-* EECは、`adobemc.com domain`でCookieにSameSite属性を設定できないため、すべてのユーザーに対して&#x200B;*not*&#x200B;機能を提供します。 この属性がないと、ブラウザーはこれらのCookieを拒否し、EECが失敗します。
-
-+++
-
-### ブロックするCookieを決定
-
-+++詳細
-SameSite cookieの適用ポリシーが原因でブロックされているCookieを判断するには、[!DNL Chrome]の[!DNL Developer Tools]を使用します。
-
-1. [!DNL Developer Tools]にアクセスするには、[!DNL Chrome]でVECを表示しているときに、Chrome > **[!UICONTROL 詳細ツール]** > **[!UICONTROL 開発ツール]**&#x200B;の右上隅にある&#x200B;**[!UICONTROL 省略記号]** アイコンをクリックします。
-1. 「**[!UICONTROL ネットワーク]**」タブをクリックし、「ブロックされたCookie」を探します。
+1. [!DNL Chrome]でVECを表示しているときに、Chrome > **[!UICONTROL 詳細ツール]** > **[!UICONTROL 開発ツール]**&#x200B;の右上隅にある&#x200B;**[!UICONTROL 省略記号]** アイコンをクリックします。
+1. 「**[!UICONTROL ネットワーク]**」タブをクリックし、ブロックされたCookieを探します。
 
    >[!NOTE]
    >
-   >「**[!UICONTROL ブロック済みCookie]**」チェックボックスを使用すると、ブロック済みCookieを簡単に検索できます。
+   >「**[!UICONTROL ブロック済みCookie]**」チェックボックスを使用すると、ブロック済みCookieを見つけやすくなります。
 
 +++
 
-## [!DNL Target]はマルチレベル iframeをサポートしていますか？
++++ Content Security Policy （CSP） ヘッダーは、web サイトの[!DNL Target] ライブラリをブロックします
 
-+++詳細
+Web サイトのCSP ヘッダーが[!DNL Target] ライブラリをブロックする場合、web サイトは読み込まれますが、編集は行われません。 [!DNL Target] ライブラリがブロックされていないことを確認してください。
+
+>[!NOTE]
+>
+>次の情報に加えて、[!DNL Google Chrome]の[Adobe Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用できます。
+
+![&#x200B; コンテンツセキュリティポリシーディレクティブに違反したというメッセージが表示された、target.jsに対するブロックされたリクエストを示すブラウザーコンソール &#x200B;](assets/cps_headers.png)
+
+回避策として、次の図に示すように、[!DNL Requestly] ルールを設定してCSP ヘッダーを削除します。
+
+![要求ダイアログ、HTTP要求と応答のヘッダーを変更し、Content-Security-Policyという名前のルールを使用して、応答からContent-Security-Policy ヘッダーを削除する](assets/cps_headers_2.png)
+
+VEC内でリソースが読み込まれない原因となるヘッダーに対して、同様の[!DNL Requestly] ルールを設定できます。 [!DNL Requestly]でヘッダーを削除する必要がある場合は、次のいずれかの操作を行います。
+
+* VECで開くURLのURL ルールを追加して、これらのURLに対してのみヘッダーが削除されるようにします。
+* VECでの編集中にルールを有効にし、VECが使用されていない場合はルールを無効にします。
+
++++
+
++++ マルチレベル iframeはサポートされていません
+
 [!DNL Target]はマルチレベル iframeをサポートしていません。 web サイトが子iframeを持つiframeを読み込む場合、at.jsは親iframeとのみ相互作用します。 [!DNL Target] ライブラリは子iframeと相互作用しません。
 
-回避策として、子 iframe の URL を持つエクスペリエンスにページを追加できます。
+回避策として、子iframeのURLを使用してエクスペリエンスにページを追加します。
 
 +++
 
-## ページを編集しようとすると、ページではなく、スピナーが表示されます。 （VEC と EEC） {#section_313001039F79446DB28C70D932AF5F58}
++++ エクスペリエンスは、iFrameを使用するサイトまたは[!DNL Target]実装のないページでは編集できません
 
-+++詳細
-この状況は、URLに#文字が含まれている場合に発生する可能性があります。 問題を修正するには、VECまたはEECで[!UICONTROL 参照] モードに切り替え、次に[!UICONTROL 作成] モードに戻します。 スピナーの表示が消えて、ページが読み込まれます。
+この問題に対処するには、**[!UICONTROL Enhanced Experience Composer]** （EEC）を有効にしてください。 **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、**[!UICONTROL 拡張Experience Composer]**&#x200B;を有効にするチェックボックスを選択します。
 
-+++
-
-## コンテンツセキュリティポリシー（CSP）ヘッダーは、web サイトの[!DNL Target] ライブラリをブロックします。 （VEC と EEC） {#section_89A30C7A213D43BFA0822E66B482B803}
-
-
-+++詳細
-Web サイトのCSP ヘッダーで[!DNL Target] ライブラリがブロックされている場合は、Web サイトが読み込まれますが、編集は行われません。[!DNL Target] ライブラリがブロックされていないことを確認してください。
+EECは[!DNL Adobe]管理プロキシを使用して、編集用にページを読み込みます。 このプロキシを使用すると、iFrameを使用しないサイトや、[!DNL Adobe Target] コードがまだ追加されていないサイトやページで編集できます。 コードが追加されるまで、サイトにアクティビティは配信されません。 一部のサイトがEECを通じて読み込まれない場合があり、このオプションをオフにすると、iFrameを通じてページが読み込まれます。
 
 >[!NOTE]
 >
->次の情報に加えて、[!DNL Google Chrome]には[Adobe Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用できます。
-
-![cps_headers image](assets/cps_headers.png)
-
-回避策として、次に示すように、[!DNL Requestly] ルールを設定してCSP ヘッダーを削除できます。
-
-![cps_headers_2 image](assets/cps_headers_2.png)
-
-VEC内でリソースが読み込まれない原因となるヘッダーに対して、同様の[!DNL Requestly] ルールを設定できます。
-
-[!DNL Requestly]の場合、ヘッダーを削除する必要がある場合は、次のいずれかの操作を行う必要があります。
-
-* VEC で開く URL の URL ルールを追加して、それらの URL についてのみヘッダーが削除されるようにします。
-* VEC で編集するときにはルールを有効にし、VEC を使用していないときはルールを無効にします。
+>ローカルでホストされているページとネットワーク外でアクセスできないページは、[!DNL Adobe] プロキシ サーバーからアクセスできず、EECで開くことはできません。 こうしたページには、ステージング URL、ユーザー受け入れテスト（UAT）URL またはローカルでホストされているページなどがあります。
 
 +++
 
-## 保存されているアクティビティの再編集時に、VEC または EEC が壊れているように見えたり、初期化されなかったりします。 （VEC と EEC） {#section_5AC3BA8F8FBB451EA814F298D0645E54}
+## ページの読み込みと表示
 
-+++詳細
-エクスペリエンスを定義した後にWeb サイトがVEC以外で変更された場合、アクティビティを再編集するために開いたときに、以前に実行されたアクションのセレクターが見つかりません。 ページは壊れているように表示され、警告は表示されません。
++++ ページを編集すると、ページの代わりにスピナーが表示されます
 
-+++
-
-## JavaScript を含む回転バナーなどのコンテンツが VEC または EEC に表示されません。 （VEC と EEC） {#section_8B5BE6EB050B42D6A14A054724C41330}
-
-+++詳細
-デフォルトでは、VECはJavaScript要素をブロックします。 JavaScriptを無効にすると、これらの要素を操作できます。 セットアップするサイトによっては、それでも一部のアイテムの表示が正しくなかったり表示できなかったりする場合があります。
+この状況は、URLに#文字が含まれている場合に発生する可能性があります。 この問題を修正するには、VECまたはEECで&#x200B;**[!UICONTROL 参照]** モードに切り替え、次に&#x200B;**[!UICONTROL 作成]** モードに戻ります。 スピナーの表示が消えて、ページが読み込まれます。
 
 +++
 
-## ページ内の 1 つの要素を変更すると、複数の要素が変更されます。 （VEC と EEC） {#section_309188ACF34942989BE473F63C5710AF}
++++ VECまたはEECが壊れているように見えるか、保存されたアクティビティが再度編集されたときに初期化されません
 
-+++詳細
-同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。 この方法は、HTMLの標準的なベストプラクティスです。 詳しくは、[&#x200B; ページ変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
-
-+++
-
-## iFrame破壊サイトのエクスペリエンスを編集できない。 （VEC と EEC） {#section_9FE266B964314F2EB75604B4D7047200}
-
-+++詳細
-この問題は、[!UICONTROL Enhanced Experience Composer] （EEC）を有効にすることで対処できます。 **[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、[!UICONTROL 拡張Experience Composer]を有効にするチェックボックスを選択します。 EECでは、[!DNL Adobe]管理のプロキシを使用して、編集用にページを読み込みます。 このプロキシでは、iFrameを使用しないサイトでの編集が可能であり、まだ[!DNL Adobe Target] コードを追加していないサイトやページでの編集が可能です。 コードが追加されるまで、サイトにアクティビティは配信されません。 一部のサイトはEEC経由で読み込まれない場合があります。この場合、このオプションをオフにすると、iFrame経由でEECを読み込むことができます。
-
->[!NOTE]
->
->ローカルでホストされているページまたはネットワーク外でアクセスできないページは、[!DNL Adobe] プロキシ サーバーからアクセスできず、EECで開くことはできません。 こうしたページには、ステージング URL、ユーザー受け入れテスト（UAT）URL またはローカルでホストされているページなどがあります。
+エクスペリエンスを定義した後にWeb サイトがVEC以外で変更された場合、アクティビティを再編集するために開いたときに、以前に実行したアクションのセレクターが見つかりません。 ページは壊れているように表示され、警告は表示されません。
 
 +++
 
-## mbox/[!DNL Target]の実装がまだ完了していないページに対してテストを設定する。 （VEC と EEC） {#section_DE63BCCB5B124E10A71FA579B582A80A}
++++ JavaScriptを含むバナーやその他のコンテンツをVECまたはEECに表示できない
 
-+++詳細
-上記の「iFrame バーストサイトのエクスペリエンスを編集できない」を参照してください。
+デフォルトでは、VECはJavaScript要素をブロックします。 JavaScriptを無効にすると、これらの要素の操作が可能になります。 セットアップするサイトによっては、それでも一部のアイテムの表示が正しくなかったり表示できなかったりする場合があります。
 
 +++
 
-## [!UICONTROL &#x200B; テキストを編集]/[!UICONTROL HTMLを編集]または[!UICONTROL &#x200B; テキストを変更]/[!DNL Change HTML]した太字と斜体のテキストスタイルがページに表示されません。 これらのスタイル変更を適用すると、テキストが消えることがあります。 （VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
++++ Automated Personalization アクティビティの場合、VECまたはEECで画像の入れ替えが壊れて表示されます
 
-+++詳細
-VECで&#x200B;**[!UICONTROL テキストを編集]/[!UICONTROL HTMLを編集]**&#x200B;して[!UICONTROL A/B テスト &#x200B;]または[!UICONTROL &#x200B; エクスペリエンスのターゲット設定] アクティビティを行ったり、**[!UICONTROL テキストを変更]/[!UICONTROL HTMLを変更]**&#x200B;して[!UICONTROL Automated Personalization]または[!UICONTROL 多変量テスト &#x200B;] アクティビティを行ってテキストを太字または斜体にしたりすると、そのスタイルがページ VEC ページに適用表示されないされる場合場合があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法がweb サイトのマークアップを妨げる可能性があるためです。
+場所に画像オファーを追加するときは、VEC または EEC の元の画像スペースのフルサイズが利用されます。 配信時には、画像が拡大されずそのまま表示されるので、配信には影響しません。
 
-この問題が発生した場合、次の手順に従ってください。
++++
+
+## 結果の編集
+
++++ ページ上の1つの要素を変更すると、複数の要素が変更されます
+
+同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。 これを防ぐには、各ページでIDを1回だけ使用します。 これは標準の HTML ベストプラクティスです。 詳しくは、[&#x200B; ページの変更シナリオ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#vec-scenarios)を参照してください。
+
++++
+
++++ 太字や斜体のテキストスタイルが表示されない、またはテキストを編集/HTMLを編集またはテキストを変更/HTMLを変更を適用した後にテキストが表示されない
+
+**[!UICONTROL テキストを編集]**/**[!UICONTROL HTMLを編集]**&#x200B;が&#x200B;**[!UICONTROL A/B テスト]**&#x200B;または&#x200B;**[!UICONTROL エクスペリエンスのターゲット]** アクティビティにVECで使用されている場合、または&#x200B;**[!UICONTROL テキストを変更]**/**[!UICONTROL HTMLを変更]**&#x200B;が&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;または&#x200B;**[!UICONTROL 多変量テスト]** アクティビティに使用されている場合、テキストがページに適用されないか、VECのページテキストから消消削除される可能性があります。 これは、リッチテキストエディターがこれらのスタイルを適用する方法がweb サイトのマークアップを妨げる可能性があるためです。
+
+この問題が発生した場合：
 
 1. リッチテキストエディターの **[!UICONTROL HTML]** ボタンをクリックして、ソース編集モードに入ります。
-1. スタイルテキスト要素を検索します。
+1. スタイル設定されたテキスト要素を検索します。
 
    * 太字テキストの場合は、`<strong>`要素を`<b>`に変更します。
-
    * 斜体の場合は、`<em>`要素を`<i>`に変更します。
-
-+++
-
-## Automated Personalizationアクティビティで、VEC または EEC の画像のスワップが壊れているように見えます。 （VEC と EEC） {#section_88AABFDFE6A3420299B0D508B12A3994}
-
-+++詳細
-場所に画像オファーを追加するときは、VEC または EEC の元の画像スペースのフルサイズが利用されます。 配信時には、画像が拡大されずそのまま表示されるので、配信には影響しません。
 
 +++

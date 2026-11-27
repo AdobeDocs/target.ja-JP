@@ -23,23 +23,29 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 5eb9c52c66c309a3db66cf01e01f6a3f09dc2ac5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 69%
+source-wordcount: '396'
+ht-degree: 28%
 ---
-# エクスペリエンスとオファーの活用
+# エクスペリエンスとオファーの活用 {#experiences-overview}
 
-[!DNL Adobe Target]のエクスペリエンスは、訪問者がアクティビティのオーディエンス条件を満たしたときに表示されるコンテンツを決定します。
+>[!BEGINSHADEBOX]
 
-エクスペリエンスは、オファー、画像、テキスト、ボタン、ビデオ、ページ上のこれらの様々な要素の組み合わせ、Web ページ全体、購入ファネルやその他のページの論理的シーケンスを形成するページのセットである可能性があります。 また、音声アシスタント応答、カスタマーサービスのスクリプト、自動販売機のパーソナライズされたフレーバーであることもあります。 [!DNL Target] アクティビティのエクスペリエンスをテストまたはパーソナライズします。
+**このページ：** [!DNL Adobe Target]のエクスペリエンスの概要と、エクスペリエンスの作成に使用できるエクスペリエンスコンポーザーについて説明します。
 
-通常、1 つのアクティビティに、複数のエクスペリエンスを含めることができます。 例えば、ソルトレークシティエリアからの訪問者には、スキーブーツの 30 ドル割引のオファーが表示され、サンディエゴからの訪問者には、ウェットスーツの割引のオファーが表示されます。 または、再訪問者に異なるスペシャルオファーを提示するページをテストできます。 これらの各オファーは、別のエクスペリエンスに表示されます。
+>[!ENDSHADEBOX]
 
-Target では、次の Experience Composer を利用できます。
+訪問者がアクティビティのオーディエンス条件を満たしたときに表示されるコンテンツは、[!DNL Adobe Target]のエクスペリエンスによって決まります。
+
+エクスペリエンスには、オファー、画像、テキスト、ボタン、動画、ページ上のこれらの要素の組み合わせ、web ページ全体、または購入のfunnelやその他の論理的なページ列を構成するページのセットがあります。 また、音声アシスタント応答、カスタマーサービスのスクリプト、自動販売機のパーソナライズされたフレーバーであることもあります。 エクスペリエンスは、[!DNL Target]のアクティビティでテストまたはパーソナライズされます。
+
+通常、1 つのアクティビティに、複数のエクスペリエンスを含めることができます。 例えば、ソルトレークシティエリアからの訪問者には、スキーブーツの 30 ドル割引のオファーが表示され、サンディエゴからの訪問者には、ウェットスーツの割引のオファーが表示されます。 再訪問者向けの異なる特別オファーを含むページもテストされることがあります。 これらの各オファーは、別のエクスペリエンスに表示されます。
+
+[!DNL Target]には、次のエクスペリエンス コンポーザーが用意されています。
 
 | タイプ | 詳細 |
 | --- | --- |
-| [Visual Experience Composer（VEC）](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | VEC は Adobe Target の主要機能の 1 つです。 マーケターやデザイナーが視覚的なインターフェイスを使用して、コンテンツを作成および変更できるエディターです。 コードを直接編集することなく、多くのデザインの選択肢を作成できます。 コンポーザーで利用可能な編集オプションを使用すれば、HTML および JavaScript の編集も可能です。 |
-| [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | フォームベースの Experience Composer は、非視覚的なエクスペリエンス作成機能を提供します。 この機能を使用すると、Target Standard A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、およびRecommendations アクティビティを、電子メール、キオスクなど、Visual Experience Composerで動作しない場所で配信できます。 |
-| [シングルページアプリケーション（SPA）Visual Experience Composer（VEC）](/help/main/c-experiences/spa-visual-experience-composer.md) | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。 VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティを作成することが可能です。 |
+| [Visual Experience Composer（VEC）](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | VEC は [!DNL Adobe Target] の主要機能の 1 つです。 これは、マーケターやデザイナーが視覚的なインターフェイスを使用してコンテンツを制作および変更できるエディターです。 コードを直接編集することなく、多くのデザインを選択できます。 HTMLとJavaScriptは、コンポーザーで使用可能な編集オプションを使用して編集することもできます。 |
+| [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) | フォームベースの Experience Composer は、非視覚的なエクスペリエンス作成機能を提供します。 これにより、[!DNL Target Standard] A/B テスト、エクスペリエンスのターゲット設定、Automated Personalization、および[!DNL Recommendations] アクティビティを、Visual Experience Composerで動作しない電子メール、キオスクおよびその他の場所で配信できます。 |
+| [シングルページアプリケーション（SPA）Visual Experience Composer（VEC）](/help/main/c-experiences/spa-visual-experience-composer.md) | SPA向けVECは、マーケターが継続的な開発に依存することなく、SPA上でテストを作成し、コンテンツを個別にパーソナライズすることを可能にします。 ReactやAngularなどの一般的なフレームワークで、A/B テストおよびエクスペリエンスのターゲット設定（XT）アクティビティを作成するために使用できます。 |

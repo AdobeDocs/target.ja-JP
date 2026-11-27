@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -132,7 +132,7 @@ AEM [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]お
 
 **VEC:**&#x200B;を使用して[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;]を使用するには
 
-1. [!DNL Target]で、[Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)でエクスペリエンスを作成または編集する際に、[!DNL AEM] コンテンツを挿入するページ上の場所をクリックし、**[!UICONTROL コンテンツの置換]** > **[!UICONTROL エクスペリエンスフラグメント]**&#x200B;をクリックして、[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;] ダイアログボックスを表示します。
+1. [!DNL Target]で、[Visual Experience Composer](/help/main/c-experiences/experiences.md#experiences-overview)でエクスペリエンスを作成または編集する際に、[!DNL AEM] コンテンツを挿入するページ上の場所をクリックし、**[!UICONTROL コンテンツの置換]** > **[!UICONTROL エクスペリエンスフラグメント]**&#x200B;をクリックして、[!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;] ダイアログボックスを表示します。
 
    [!UICONTROL &#x200B; エクスペリエンスフラグメント &#x200B;] ダイアログボックスには、[!DNL AEM]で作成されたコンテンツが表示され、[!DNL Target]内からネイティブに利用できるようになりました。
 

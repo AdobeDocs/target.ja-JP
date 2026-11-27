@@ -16,31 +16,42 @@ topic_v2:
     internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 54%
+source-wordcount: '374'
+ht-degree: 13%
 ---
-# 複数ページアクティビティ
+# 複数ページアクティビティ {#multipage-activity}
 
-[!DNL Adobe Target]のマルチページアクティビティでは、複数ページにわたるストーリーを作成でき、各ページに固有のデザインを使用できます。
+>[!BEGINSHADEBOX]
 
-例えば、特定の金額を超える買い物をした顧客に対して送料を無料にするオファーをテストできます。 そのオファーをランディングページ、カテゴリページおよび特定の商品のページに表示しますが、ページのタイプに応じて異なる場所に異なるサイズで表示します。 ホームページには目立つようにオファーを表示し、他の関連ページには小さく表示してオファーを強化できます。
+**このページ：**&#x200B;では、複数ページのアクティビティを使用して、各ページに固有のデザインを持つ複数ページにわたるストーリーを作成する方法を説明します。
 
-また、複数ページアクティビティを使用して、デスクトップおよびノンレスポンシブモバイルサイト用の異なるレイアウトを定義できます。 サイトに[!DNL `www.mysite.com`]ではなく[!DNL m.mysite.com]のような個別のモバイルサイトがある場合は、代わりに[&#x200B; マルチページアクティビティ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を作成し、[!DNL m.mysite.com]を個別のページとして追加してから、モバイル編集を適用して、デスクトップ版とモバイル版を同じエクスペリエンスで適切に変更する必要があります。 レスポンシブモバイルサイトでは、[モバイルエクスペリエンスの編集](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)を使用します。
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]のマルチページアクティビティでは、各ページに固有のデザインを持つ、複数ページにわたるストーリーが作成されます。
+
+たとえば、一定額を超える購入をした場合の送料無料オファーをテストすることができます。 オファーは、ランディングページ、カテゴリーページ、特定の製品ページに、サイズが異なり、各ページタイプで異なる場所に表示されます。 ホームページに目立つオファーを表示し、他の関連ページに小さなオファーを配置して強化することができます。
+
+マルチページアクティビティは、デスクトップとレスポンシブ以外のモバイルサイトに対して異なるレイアウトを定義することもできます。 サイトに[!DNL `www.mysite.com`]ではなく[!DNL m.mysite.com]などの個別のモバイルサイトがある場合は、マルチページアクティビティを作成し、[!DNL m.mysite.com]を個別のページとして追加してから、モバイル編集を適用して、デスクトップ版とモバイル版を同じエクスペリエンスで適切に変更します。 レスポンシブモバイルサイトでは、[モバイルエクスペリエンスの編集](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)を使用します。
 
 >[!NOTE]
 >
->複数ページアクティビティは、同じオファーを複数のページで異なる外観で表示するアクティビティのためのものです。 すべてのページでオファーを同じ外観で表示する場合は、[テンプレートテスト](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)のほうがより効率的です。
+>複数ページアクティビティは、同じオファーを複数のページで異なる外観で表示するアクティビティのためのものです。 すべてのページでオファーを同じ外観で表示する場合は、[テンプレートテスト](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages)のほうがより効率的です。
 
-複数ページテストでは、各ページにテンプレートルールを指定できます。 例えば、複数ページテストでカテゴリページにテンプレートルールを適用することで、ホームページおよびすべてのカテゴリページで複数ページテストを実行できます。 [類似ページに同じエクスペリエンスを含める](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)を参照してください。
+テンプレートルールは、マルチページテストの各ページに対して指定できます。 例えば、マルチページテストでは、マルチページテストのカテゴリページにテンプレートルールを適用することで、ホームページとすべてのカテゴリページにわたってテストを実行できます。 [類似ページに同じエクスペリエンスを含める](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages)を参照してください。
 
-テストにページを追加するには：
+## ページをアクティビティに追加 {#add-pages}
+
+アクティビティに追加されたページごとに、オファーの独自のデザインを設定できます。
 
 1. **[!UICONTROL 設定]** アイコン（![設定アイコン &#x200B;](/help/main/assets/icons/Setting.svg)）をクリックします。
+
 1. 「**[!UICONTROL 追加ページを追加]**」をクリックします。
 
-   画面の左側に[!UICONTROL &#x200B; ページ &#x200B;] ペインが表示されます。
+   画面の左側に&#x200B;**[!UICONTROL ページ]** ペインが表示されます。
+
+   ![&#x200B; アイコンの設定](assets/vec_edit_4.png)
 
 1. ページを指定し、デフォルトページを設定します。
 

@@ -18,20 +18,24 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 52%
+source-wordcount: '193'
+ht-degree: 44%
 ---
-# [!DNL Recommendations]個のフィード処理サーバーで使用されるIP アドレス
+# [!DNL Recommendations]個のフィード処理サーバーで使用されるIP アドレス {#recs-ip-addresses}
 
-[!DNL Adobe] サーバーからのIP アドレスを許可するようにファイアウォールを構成するために、[!DNL Adobe Target] [!DNL Recommendations] フィード処理サーバーで使用されるIP アドレスのリスト。
+>[!BEGINSHADEBOX]
+
+**このページ：** [!DNL Adobe Target] [!DNL Recommendations] フィード処理サーバーが使用するIP アドレスを検索して、[!DNL Adobe] サーバーからのIP アドレスを許可するファイアウォールを構成します。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->[!DNL Target] チームは現在、[!DNL Recommendations] フィードのダウンロード用にNAT ゲートウェイ アドレスを更新しています。 IP 許可リストを実装する場合は、次の新しい AWS ホストを必ず許可リストに登録してください。 既存のホストは 2024年6月30日（PT）に廃止される予定です。 スムーズな移行を実現するには、9 つのアドレスをすべて許可リストに登録します。 既存のアドレスを緊急に削除する必要はありません。
+>[!DNL Target] チームは現在、[!DNL Recommendations] フィードのダウンロード用にNAT ゲートウェイ アドレスを更新しています。 IP許可リストに加えるが実装されている場合は、次の新しいAWS ホストを許可リストに加えるします。 既存のホストは 2024年6月30日（PT）に廃止される予定です。 スムーズな移行を実現するには、9 つのアドレスをすべて許可リストに登録します。 既存のアドレスを緊急に削除する必要はありません。
 
-[!DNL Target] [!UICONTROL Recommendations]のアクティビティでは、顧客のFTP サーバーにアクセスする際に次のAWS ホストを使用します。
+[!DNL Target] [!UICONTROL Recommendations]のアクティビティでは、お客様のFTP サーバーにアクセスする際に、次のAWS ホストを使用します。
 
 **新しいホスト**:
 

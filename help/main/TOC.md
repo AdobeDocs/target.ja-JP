@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイト、アプリ、ソーシャルチャネルをまたいで顧客体験をパーソナライズし、収益を増やす方法について説明します。
 feature-set: Target
-source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
+source-git-commit: d917e1b4f0d3c70eccd6c5fa1df5f799093f1f41
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 72%
+ht-degree: 71%
 ---
 
 # Adobe Target ビジネス実践者ガイド {#using}
@@ -245,7 +245,7 @@ ht-degree: 72%
       + [Visual Experience Composer と拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
       + [Visual Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
       + [拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-      + [ブラウザーで混在したコンテンツを有効化する](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+      + [ブラウザーでの混在コンテンツの有効化](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
       + [ページ修正のシナリオ](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
       + [Visual Editing Helper拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
       + [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)

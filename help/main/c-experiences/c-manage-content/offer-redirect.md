@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 24%
@@ -44,7 +44,7 @@ ht-degree: 24%
 >
 >* [[!UICONTROL Analyticsをレポートソース &#x200B;]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）として使用するアクティビティでのリダイレクトオファーの場合、実装は特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。 [&#x200B; リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)を参照してください。
 >
->* リダイレクトするエクスペリエンスの設定については、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を参照してください。
+>* リダイレクトするエクスペリエンスの設定については、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#redirect-to-url)を参照してください。
 
 リダイレクトオファーでは、JavaScript コードを実行してブラウザーをリダイレクトします。 このオファーでは `window.location.replace();` メソッドを使用するので、訪問者のリダイレクト元のページはブラウザー履歴に保存されません。 このプロセスにより、訪問者はブラウザーで「戻る」ボタンを使用できます。
 

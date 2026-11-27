@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 49%
@@ -151,7 +151,7 @@ ht-degree: 49%
 **ページ構造が異なる複数のページにまたがるアクティビティを実行できますか？ 別の場所（チェックアウト funnelなど）でオファーを適用できますか？**
 
 +++詳細を見る
-エクスペリエンス内で複数のページを使用できる[&#x200B; マルチページアクティビティ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を試してください。
+エクスペリエンス内で複数のページを使用できる[&#x200B; マルチページアクティビティ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity)を試してください。
 
 +++
 
@@ -284,7 +284,7 @@ Target 3部構成のガイド付きワークフロー（ターゲティングペ
 **構成が共通する複数のページにまたがるアクティビティを実行できますか？**
 
 +++詳細を見る
-その場合、[テンプレートルール](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)を利用して、指定された単一の URL のエクスペリエンスを作成し続けながら、構成が共通する多数のページをアクティビティに追加します。
+その場合、[テンプレートルール](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages)を利用して、指定された単一の URL のエクスペリエンスを作成し続けながら、構成が共通する多数のページをアクティビティに追加します。
 
 +++
 
@@ -293,39 +293,39 @@ Target 3部構成のガイド付きワークフロー（ターゲティングペ
 +++詳細を見る
 これは、サイトに混在したコンテンツがあり、HTTPとHTTPSの両方のリソースを取得するサイトだからです。 IT チームに、HTTPS への完全移行をおこなうよう要求してください。
 
-移行が完了するまでは、「[ブラウザーで混在したコンテンツを有効化する](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)」の手順に従い、ブラウザーに混合するコンテンツの読み込みを許可してください。 これは最新のブラウザーのセキュリティ機能です。
+移行が完了するまでは、「[ブラウザーで混在したコンテンツを有効化する](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content)」の手順に従い、ブラウザーに混合するコンテンツの読み込みを許可してください。 これは最新のブラウザーのセキュリティ機能です。
 
 +++
 
 **at.js ライブラリ [!DNL Target]がまだデプロイされていなくても、サイトで[!UICONTROL Visual Experience Composer] （VEC）を試すことはできますか？**
 
 +++詳細を見る
-[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) でページを読み込んでみてください。
+[拡張 Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) でページを読み込んでみてください。
 
 +++
 
 **なぜ[!UICONTROL Visual Experience Composer] （VEC）内でサイトが読み込まれないのですか？**
 
 +++詳細を見る
-ヘルプページの「[トラブルシューティング情報](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)」を参照してください。 記載されている方法で問題を解消できなかった場合、[アドビサポート](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
+ヘルプページの「[トラブルシューティング情報](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer)」を参照してください。 記載されている方法で問題を解消できなかった場合、[アドビサポート](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
 
 また、「[フォームベースの手法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でブロックを解除できます。
 
-[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。 Adobeのプロキシサーバー[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を許可リストに加えるするために、IT部門に連絡する必要がある場合もあります。
+[拡張 Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) が役に立つケースと、そのメリットも確認してください。 Adobeのプロキシサーバー[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices)を許可リストに加えるするために、IT部門に連絡する必要がある場合もあります。
 
 +++
 
 **レスポンシブサイトを運営しています。 アクティビティの作成中に重要なデバイスでの表示を確認するには、どうすればよいですか？**
 
 +++詳細を見る
-その場合、[モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)機能を利用します。 [!UICONTROL Enhanced Experience Composer]が有効になっている場合にのみ機能することに注意してください。
+その場合、[モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports)機能を利用します。 [!UICONTROL Enhanced Experience Composer]が有効になっている場合にのみ機能することに注意してください。
 
 +++
 
 **複数のドメインがあります。 ドメインの1つは[!UICONTROL Enhanced Experience Composer]を有効にする必要がありますが、他のドメインは無効にする必要があります。 これはどうすれば設定できますか？**
 
 +++詳細を見る
-アクティビティレベル [&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)で拡張Experience Composer オプションを使用して、デフォルト設定（[!UICONTROL 管理] > [!UICONTROL Visual Experience Composer]）を上書きできます。
+アクティビティレベル [&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)で拡張Experience Composer オプションを使用して、デフォルト設定（[!UICONTROL 管理] > [!UICONTROL Visual Experience Composer]）を上書きできます。
 
 +++
 
@@ -346,7 +346,7 @@ Target 3部構成のガイド付きワークフロー（ターゲティングペ
 **Visual Experience Composer[!UICONTROL &#x200B; （VEC）で行った変更を確認するにはどうすればよいですか？**]
 
 +++詳細を見る
-変更内容は、「[コードエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)」に常に表示されます。 「[!UICONTROL 変更]」タブには、オファーに適用したCSS セレクターまたはmboxが表示されます。
+変更内容は、「[コードエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)」に常に表示されます。 「[!UICONTROL 変更]」タブには、オファーに適用したCSS セレクターまたはmboxが表示されます。
 
 CSS セレクターは Sizzle セレクターです。 このセクションで、手早く小さな変更を加えたり特定のオファーを削除したりできます。
 
@@ -355,7 +355,7 @@ CSS セレクターは Sizzle セレクターです。 このセクションで�
 **実験／アクティビティの一部として JavaScript を配信し、動的要素に即座に変更を加えたり、サードパーティソリューションに呼び出しを送信したりしたいと考えています。 これはどうすれば設定できますか？**
 
 +++詳細を見る
-それを行う方法の 1 つは、[カスタムコードエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)の利用です。 該当の JavaScript をセクションに設置すると配信されます。 必要に応じて、head 内や body 最上部で配信することもできます。
+それを行う方法の 1 つは、[カスタムコードエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)の利用です。 該当の JavaScript をセクションに設置すると配信されます。 必要に応じて、head 内や body 最上部で配信することもできます。
 
 +++
 
@@ -378,7 +378,7 @@ CSS セレクターは Sizzle セレクターです。 このセクションで�
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
 +++詳細を見る
-[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
+[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)を確認してください。
 
 +++
 
@@ -402,7 +402,7 @@ CSS セレクターは Sizzle セレクターです。 このセクションで�
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
 +++詳細を見る
-[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
+[デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)を確認してください。
 
 +++
 
