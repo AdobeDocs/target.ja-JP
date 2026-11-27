@@ -53,7 +53,7 @@ ht-degree: 6%
 
 1. アクティビティ URLを指定し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
-   アクティビティ URLは、レコメンデーションが表示されるページです。 [!DNL Target]はURL プロトコル （[!DNL https]と[!DNL http]）を区別しないため、`http://www.adobe.com`と`https://www.adobe.com`は両方とも一致します。
+   アクティビティ URLは、レコメンデーションが表示されるページです。 [!DNL Target]はURL プロトコル （[!DNL https]と[!DNL http]）を区別しないため、`http://www.adobe.com/jp`と`https://www.adobe.com/jp`は両方とも一致します。
 
    VECが開き、ページが表示されます。
 
